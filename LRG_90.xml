@@ -89,6 +89,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="2" chr_start="219938046" chr_end="220030587" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="92542" start="219938046" end="220030587"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">NHEJ1</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -138,7 +154,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="NCBI_DB">NHEJ1</lrg_gene_name>
       <features>
         <gene symbol="SLC23A3" strand="1" start="1" end="4407">
           <partial>5-prime</partial>
@@ -244,11 +259,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="2" chr_start="219938046" chr_end="220030587" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="92542" start="219938046" end="220030587"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">NHEJ1</lrg_gene_name>
       <features>
         <gene symbol="SLC23A3" strand="1" start="1" end="90537">
           <partial>5-prime</partial>
@@ -321,7 +332,7 @@
               <db_xref source="UniProtKB" accession="C9JNQ8" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000356853" start="5013" end="90545">
+          <transcript source="Ensembl" transcript_id="ENST00000356853" start="5013" end="90545" fixed_id="t1">
             <long_name>nonhomologous end-joining factor 1 (NHEJ1), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS2432.1" />
             <db_xref source="RefSeq" accession="NM_024782.2" />

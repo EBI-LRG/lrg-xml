@@ -79,6 +79,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="1" chr_start="115245078" chr_end="115264515" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="19438" start="115245078" end="115264515"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">NRAS</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -124,7 +140,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">NRAS</lrg_gene_name>
       <features>
         <gene symbol="CSDE1" strand="1" start="1" end="4979">
           <partial>5-prime</partial>
@@ -138,23 +153,6 @@
           <db_xref source="GeneID" accession="7812"></db_xref>
           <db_xref source="HGNC" accession="29905"></db_xref>
           <db_xref source="MIM" accession="191510"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_001130523.1" start="1178" end="4978">
-            <partial>5-prime</partial>
-            <long_name>cold shock domain containing E1, RNA-binding</long_name>
-            <db_xref source="GeneID" accession="7812"></db_xref>
-            <db_xref source="GI" accession="194473719"></db_xref>
-            <protein_product source="RefSeq" accession="NP_001123995.1" cds_start="1178" cds_end="3726" codon_start="3">
-              <partial>5-prime</partial>
-              <long_name>cold shock domain-containing protein E1 isoform 3</long_name>
-              <long_name>NRAS-related</long_name>
-              <long_name>upstream of NRAS</long_name>
-              <long_name>N-ras upstream gene protein</long_name>
-              <long_name>cold shock domain-containing protein E1</long_name>
-              <db_xref source="CCDS" accession="CCDS44197.1"></db_xref>
-              <db_xref source="GeneID" accession="7812"></db_xref>
-              <db_xref source="GI" accession="194473720"></db_xref>
-            </protein_product>
-          </transcript>
           <transcript source="RefSeq" transcript_id="NM_001007553.1" start="1178" end="4978">
             <partial>5-prime</partial>
             <long_name>cold shock domain containing E1, RNA-binding</long_name>
@@ -170,6 +168,23 @@
               <db_xref source="CCDS" accession="CCDS30812.1"></db_xref>
               <db_xref source="GeneID" accession="7812"></db_xref>
               <db_xref source="GI" accession="56117852"></db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" transcript_id="NM_001130523.1" start="1178" end="4978">
+            <partial>5-prime</partial>
+            <long_name>cold shock domain containing E1, RNA-binding</long_name>
+            <db_xref source="GeneID" accession="7812"></db_xref>
+            <db_xref source="GI" accession="194473719"></db_xref>
+            <protein_product source="RefSeq" accession="NP_001123995.1" cds_start="1178" cds_end="3726" codon_start="3">
+              <partial>5-prime</partial>
+              <long_name>cold shock domain-containing protein E1 isoform 3</long_name>
+              <long_name>NRAS-related</long_name>
+              <long_name>upstream of NRAS</long_name>
+              <long_name>N-ras upstream gene protein</long_name>
+              <long_name>cold shock domain-containing protein E1</long_name>
+              <db_xref source="CCDS" accession="CCDS44197.1"></db_xref>
+              <db_xref source="GeneID" accession="7812"></db_xref>
+              <db_xref source="GI" accession="194473720"></db_xref>
             </protein_product>
           </transcript>
           <transcript source="RefSeq" transcript_id="NM_007158.4" start="1178" end="4979">
@@ -232,11 +247,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="1" chr_start="115245078" chr_end="115264515" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="19438" start="115245078" end="115264515"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">NRAS</lrg_gene_name>
       <features>
         <gene symbol="CSDE1" strand="1" start="1" end="4982">
           <partial>5-prime</partial>
@@ -277,6 +288,25 @@
               <db_xref source="UniProtKB" accession="Q9UG93" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000369533" start="1178" end="4978">
+            <partial>5-prime</partial>
+            <long_name>cold shock domain containing E1, RNA-binding (CSDE1), transcript variant 3, mRNA</long_name>
+            <db_xref source="CCDS" accession="CCDS44197.1" />
+            <db_xref source="RefSeq" accession="NM_001130523.1" />
+            <protein_product source="Ensembl" accession="ENSP00000358546" cds_start="1178" cds_end="3726">
+              <partial>5-prime</partial>
+              <long_name>cold shock domain-containing protein E1 isoform 2 </long_name>
+              <long_name>cold shock domain-containing protein E1 isoform 3 </long_name>
+              <db_xref source="RefSeq" accession="NP_009089.4" />
+              <db_xref source="RefSeq" accession="NP_001123995.1" />
+              <db_xref source="UniProtKB" accession="Q68DF1" />
+              <db_xref source="UniProtKB" accession="Q8WU01" />
+              <db_xref source="UniProtKB" accession="Q96L66" />
+              <db_xref source="UniProtKB" accession="Q9GZV0" />
+              <db_xref source="UniProtKB" accession="Q9UG12" />
+              <db_xref source="UniProtKB" accession="Q9UG93" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000438362" start="1178" end="4978">
             <partial>5-prime</partial>
             <db_xref source="CCDS" accession="CCDS44197.1" />
@@ -309,25 +339,6 @@
               <db_xref source="UniProtKB" accession="O75534" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000369533" start="1178" end="4978">
-            <partial>5-prime</partial>
-            <long_name>cold shock domain containing E1, RNA-binding (CSDE1), transcript variant 3, mRNA</long_name>
-            <db_xref source="CCDS" accession="CCDS44197.1" />
-            <db_xref source="RefSeq" accession="NM_001130523.1" />
-            <protein_product source="Ensembl" accession="ENSP00000358546" cds_start="1178" cds_end="3726">
-              <partial>5-prime</partial>
-              <long_name>cold shock domain-containing protein E1 isoform 2 </long_name>
-              <long_name>cold shock domain-containing protein E1 isoform 3 </long_name>
-              <db_xref source="RefSeq" accession="NP_009089.4" />
-              <db_xref source="RefSeq" accession="NP_001123995.1" />
-              <db_xref source="UniProtKB" accession="Q68DF1" />
-              <db_xref source="UniProtKB" accession="Q8WU01" />
-              <db_xref source="UniProtKB" accession="Q96L66" />
-              <db_xref source="UniProtKB" accession="Q9GZV0" />
-              <db_xref source="UniProtKB" accession="Q9UG12" />
-              <db_xref source="UniProtKB" accession="Q9UG93" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000339438" start="1178" end="4982">
             <partial>5-prime</partial>
             <db_xref source="CCDS" accession="CCDS30811.1" />
@@ -349,7 +360,7 @@
           <db_xref source="Ensembl" accession="ENSG00000213281" />
           <db_xref source="GeneID" accession="4893" />
           <db_xref source="MIM" accession="164790" />
-          <transcript source="Ensembl" transcript_id="ENST00000369535" start="5001" end="17426">
+          <transcript source="Ensembl" transcript_id="ENST00000369535" start="5001" end="17426" fixed_id="t1">
             <long_name>neuroblastoma RAS viral (v-ras) oncogene homolog (NRAS), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS877.1" />
             <db_xref source="RefSeq" accession="NM_002524.3" />

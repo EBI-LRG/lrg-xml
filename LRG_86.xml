@@ -289,6 +289,26 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="15" chr_start="52597480" chr_end="52826247" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="228768" start="52597480" end="52826247">
+          <diff type="mismatch" lrg_start="136617" lrg_end="136617" start="52689631" end="52689631" lrg_sequence="C" genomic_sequence="A" />
+          <diff type="mismatch" lrg_start="136722" lrg_end="136722" start="52689526" end="52689526" lrg_sequence="G" genomic_sequence="A" />
+          <diff type="mismatch" lrg_start="158696" lrg_end="158696" start="52667552" end="52667552" lrg_sequence="T" genomic_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">MYO5A</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -470,7 +490,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">MYO5A</lrg_gene_name>
       <features>
         <gene symbol="MYO5A" strand="1" start="5001" end="226768">
           <synonym>GS1</synonym>
@@ -520,15 +539,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="15" chr_start="52597480" chr_end="52826247" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="228768" start="52597480" end="52826247">
-          <diff type="mismatch" lrg_start="136617" lrg_end="136617" start="52689631" end="52689631" lrg_sequence="C" genomic_sequence="A" />
-          <diff type="mismatch" lrg_start="136722" lrg_end="136722" start="52689526" end="52689526" lrg_sequence="G" genomic_sequence="A" />
-          <diff type="mismatch" lrg_start="158696" lrg_end="158696" start="52667552" end="52667552" lrg_sequence="T" genomic_sequence="C" />
-        </mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">MYO5A</lrg_gene_name>
       <features>
         <gene symbol="MYO5A" strand="1" start="5001" end="226768">
           <synonym>GS1</synonym>
@@ -540,6 +551,13 @@
           <db_xref source="Ensembl" accession="ENSG00000197535" />
           <db_xref source="GeneID" accession="4644" />
           <db_xref source="MIM" accession="160777" />
+          <transcript source="Ensembl" transcript_id="ENST00000358212" start="5001" end="226763">
+            <protein_product source="Ensembl" accession="ENSP00000350945" cds_start="5245" cds_end="220355">
+              <db_xref source="UniProtKB" accession="B4E147" />
+              <db_xref source="UniProtKB" accession="O95317" />
+              <db_xref source="UniProtKB" accession="Q9UES4" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000356338" start="5001" end="226763">
             <long_name>myosin VA (heavy chain 12, myoxin) (MYO5A), transcript variant 2, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS45262.1" />
@@ -554,19 +572,12 @@
               <db_xref source="UniProtKB" accession="Q9UES3" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000358212" start="5001" end="226763">
-            <protein_product source="Ensembl" accession="ENSP00000350945" cds_start="5245" cds_end="220355">
-              <db_xref source="UniProtKB" accession="B4E147" />
-              <db_xref source="UniProtKB" accession="O95317" />
-              <db_xref source="UniProtKB" accession="Q9UES4" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000399233" start="5001" end="226763">
             <protein_product source="Ensembl" accession="ENSP00000382179" cds_start="5245" cds_end="220355">
               <db_xref source="UniProtKB" accession="B4E147" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000399231" start="5001" end="226768">
+          <transcript source="Ensembl" transcript_id="ENST00000399231" start="5001" end="226768" fixed_id="t1">
             <long_name>myosin VA (heavy chain 12, myoxin) (MYO5A), transcript variant 1, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS42037.1" />
             <db_xref source="RefSeq" accession="NM_000259.3" />

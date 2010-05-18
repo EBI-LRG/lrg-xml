@@ -91,6 +91,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="5" chr_start="35851991" chr_end="35878924" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="26934" start="35851991" end="35878924"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">IL7R</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -140,7 +156,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">IL7R</lrg_gene_name>
       <features>
         <gene symbol="IL7R" strand="1" start="5001" end="24934">
           <synonym>CD127</synonym>
@@ -188,11 +203,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="5" chr_start="35851991" chr_end="35878924" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="26934" start="35851991" end="35878924"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">IL7R</lrg_gene_name>
       <features>
         <gene symbol="IL7R" strand="1" start="807" end="26934">
           <partial>3-prime</partial>
@@ -208,7 +219,7 @@
           <transcript source="Ensembl" transcript_id="ENST00000515665" start="4407" end="9038">
             <protein_product source="Ensembl" accession="ENSP00000425538" cds_start="5090" cds_end="9038"></protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000303115" start="4961" end="26934">
+          <transcript source="Ensembl" transcript_id="ENST00000303115" start="4961" end="26934" fixed_id="t1">
             <partial>3-prime</partial>
             <long_name>interleukin 7 receptor (IL7R), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS3911.1" />

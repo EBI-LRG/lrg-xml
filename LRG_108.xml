@@ -147,6 +147,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="2" chr_start="217272137" chr_end="217349776" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="77640" start="217272137" end="217349776"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">SMARCAL1</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -236,7 +252,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="OMIM">SMARCAL1</lrg_gene_name>
       <features>
         <gene symbol="SMARCAL1" strand="1" start="5001" end="75640">
           <synonym>HARP</synonym>
@@ -279,11 +294,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="2" chr_start="217272137" chr_end="217349776" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="77640" start="217272137" end="217349776"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">SMARCAL1</lrg_gene_name>
       <features>
         <gene symbol="AC098820.2" strand="-1" start="1" end="5283">
           <partial>3-prime</partial>
@@ -307,7 +318,7 @@
               <db_xref source="UniProtKB" accession="C9JP32" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000357276" start="5001" end="75640">
+          <transcript source="Ensembl" transcript_id="ENST00000357276" start="5001" end="75640" fixed_id="t1">
             <db_xref source="CCDS" accession="CCDS2403.1" />
             <protein_product source="Ensembl" accession="ENSP00000349823" cds_start="7292" cds_end="75564">
               <long_name>SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A-like protein 1 </long_name>

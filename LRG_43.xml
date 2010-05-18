@@ -79,6 +79,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="17" chr_start="62004098" chr_end="62014704" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="10607" start="62004098" end="62014704"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">CD79B</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -120,7 +136,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CD79B</lrg_gene_name>
       <features>
         <gene symbol="CD79B" strand="1" start="5001" end="8607">
           <synonym>B29</synonym>
@@ -163,11 +178,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="17" chr_start="62004098" chr_end="62014704" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="10607" start="62004098" end="62014704"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CD79B</lrg_gene_name>
       <features>
         <gene symbol="CD79B" strand="1" start="4991" end="8605">
           <synonym>B29</synonym>
@@ -177,6 +188,15 @@
           <db_xref source="Ensembl" accession="ENSG00000007312" />
           <db_xref source="GeneID" accession="974" />
           <db_xref source="MIM" accession="147245" />
+          <transcript source="Ensembl" transcript_id="ENST00000392795" start="4991" end="8605" fixed_id="t1">
+            <long_name>CD79b molecule, immunoglobulin-associated beta (CD79B), transcript variant 3, mRNA</long_name>
+            <db_xref source="CCDS" accession="CCDS42372.1" />
+            <db_xref source="RefSeq" accession="NM_001039933.1" />
+            <protein_product source="Ensembl" accession="ENSP00000376544" cds_start="5084" cds_end="8119">
+              <long_name>CD79B antigen isoform 3 precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_001035022.1" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000006750" start="4991" end="8605">
             <long_name>CD79b molecule, immunoglobulin-associated beta (CD79B), transcript variant 1, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS11655.1" />
@@ -185,15 +205,6 @@
               <long_name>CD79B antigen isoform 1 precursor </long_name>
               <db_xref source="RefSeq" accession="NP_000617.1" />
               <db_xref source="UniProtKB" accession="P40259" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000392795" start="4991" end="8605">
-            <long_name>CD79b molecule, immunoglobulin-associated beta (CD79B), transcript variant 3, mRNA</long_name>
-            <db_xref source="CCDS" accession="CCDS42372.1" />
-            <db_xref source="RefSeq" accession="NM_001039933.1" />
-            <protein_product source="Ensembl" accession="ENSP00000376544" cds_start="5084" cds_end="8119">
-              <long_name>CD79B antigen isoform 3 precursor </long_name>
-              <db_xref source="RefSeq" accession="NP_001035022.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000349817" start="4991" end="8605">

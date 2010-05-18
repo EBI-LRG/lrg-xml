@@ -151,6 +151,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="6" chr_start="31890266" chr_end="31915449" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="25184" start="31890266" end="31915449"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">C2</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -240,7 +256,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">C2</lrg_gene_name>
       <features>
         <gene symbol="C2" strand="1" start="5001" end="23184">
           <synonym>CO2</synonym>
@@ -316,9 +331,6 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="6" chr_start="31890266" chr_end="31915449" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="25184" start="31890266" end="31915449"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
         <gene symbol="C2" strand="1" start="1" end="23184">
@@ -327,7 +339,7 @@
           <db_xref source="Ensembl" accession="ENSG00000166278" />
           <db_xref source="GeneID" accession="717" />
           <db_xref source="MIM" accession="217000" />
-          <transcript source="Ensembl" transcript_id="ENST00000375493" start="4989" end="23184">
+          <transcript source="Ensembl" transcript_id="ENST00000375493" start="4989" end="23184" fixed_id="t1">
             <long_name>complement component 2 (C2), transcript variant 1, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS4728.1" />
             <db_xref source="RefSeq" accession="NM_000063.4" />
@@ -471,27 +483,6 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene symbol="XXbac-BPG116M5.17" strand="1" start="5210" end="25184">
-          <partial>3-prime</partial>
-          <long_name>cDNA FLJ55673, highly similar to Complement factor B (EC 3.4.21.47)  [Source:UniProtKB/TrEMBL;Acc:B4E1Z4]</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000244255" />
-          <transcript source="Ensembl" transcript_id="ENST00000456570" start="5210" end="25033">
-            <partial>3-prime</partial>
-            <protein_product source="Ensembl" accession="ENSP00000410815" cds_start="5265" cds_end="25033">
-              <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="A2ABJ9" />
-              <db_xref source="UniProtKB" accession="A2BE06" />
-              <db_xref source="UniProtKB" accession="B4E1Z4" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000477310" start="5236" end="25033">
-            <partial>3-prime</partial>
-            <protein_product source="Ensembl" accession="ENSP00000418996" cds_start="5265" cds_end="25033">
-              <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="Q5ST52" />
-            </protein_product>
-          </transcript>
-        </gene>
         <gene symbol="CFB" strand="1" start="5210" end="25184">
           <partial>3-prime</partial>
           <long_name>Complement factor B Precursor (EC 3.4.21.47)(C3/C5 convertase)(Properdin factor B)(Glycine-rich beta glycoprotein)(GBG)(PBF2) [Contains Complement factor B Ba fragment;Complement factor B Bb fragment] [Source:UniProtKB/Swiss-Prot;Acc:P00751]</long_name>
@@ -531,6 +522,27 @@
             <partial>3-prime</partial>
             <protein_product source="Ensembl" accession="ENSP00000417793" cds_start="23734" cds_end="24594">
               <db_xref source="UniProtKB" accession="C9J7K8" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene symbol="XXbac-BPG116M5.17" strand="1" start="5210" end="25184">
+          <partial>3-prime</partial>
+          <long_name>cDNA FLJ55673, highly similar to Complement factor B (EC 3.4.21.47)  [Source:UniProtKB/TrEMBL;Acc:B4E1Z4]</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000244255" />
+          <transcript source="Ensembl" transcript_id="ENST00000456570" start="5210" end="25033">
+            <partial>3-prime</partial>
+            <protein_product source="Ensembl" accession="ENSP00000410815" cds_start="5265" cds_end="25033">
+              <partial>3-prime</partial>
+              <db_xref source="UniProtKB" accession="A2ABJ9" />
+              <db_xref source="UniProtKB" accession="A2BE06" />
+              <db_xref source="UniProtKB" accession="B4E1Z4" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000477310" start="5236" end="25033">
+            <partial>3-prime</partial>
+            <protein_product source="Ensembl" accession="ENSP00000418996" cds_start="5265" cds_end="25033">
+              <partial>3-prime</partial>
+              <db_xref source="UniProtKB" accession="Q5ST52" />
             </protein_product>
           </transcript>
         </gene>

@@ -85,6 +85,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="6" chr_start="137516623" chr_end="137545567" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="28945" start="137516623" end="137545567"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">IFNGR1</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -130,7 +146,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">IFNGR1</lrg_gene_name>
       <features>
         <gene symbol="IFNGR1" strand="1" start="5001" end="26947">
           <synonym>CD119</synonym>
@@ -177,11 +192,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="6" chr_start="137516623" chr_end="137545567" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="28945" start="137516623" end="137545567"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">IFNGR1</lrg_gene_name>
       <features>
         <gene symbol="IFNGR1" strand="1" start="4982" end="26947">
           <synonym>CD119</synonym>
@@ -202,7 +213,7 @@
               <db_xref source="UniProtKB" accession="Q5TFC9" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000367739" start="4982" end="26947">
+          <transcript source="Ensembl" transcript_id="ENST00000367739" start="4982" end="26947" fixed_id="t1">
             <long_name>interferon gamma receptor 1 (IFNGR1), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS5185.1" />
             <db_xref source="RefSeq" accession="NM_000416.2" />

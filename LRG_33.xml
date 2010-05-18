@@ -101,6 +101,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="2" chr_start="202042855" chr_end="202096110" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="53256" start="202042855" end="202096110"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">CASP10</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -158,7 +174,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CASP10</lrg_gene_name>
       <features>
         <gene symbol="CASP10" strand="1" start="4767" end="51256">
           <synonym>ALPS2</synonym>
@@ -205,11 +220,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="2" chr_start="202042855" chr_end="202096110" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="53256" start="202042855" end="202096110"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CASP10</lrg_gene_name>
       <features>
         <gene symbol="CASP10" strand="1" start="4750" end="51275">
           <synonym>MCH4</synonym>
@@ -218,7 +229,7 @@
           <db_xref source="Ensembl" accession="ENSG00000003400" />
           <db_xref source="GeneID" accession="843" />
           <db_xref source="MIM" accession="601762" />
-          <transcript source="Ensembl" transcript_id="ENST00000286186" start="4750" end="43534">
+          <transcript source="Ensembl" transcript_id="ENST00000286186" start="4750" end="43534" fixed_id="t1">
             <long_name>caspase 10, apoptosis-related cysteine peptidase (CASP10), transcript variant D, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS2340.1" />
             <db_xref source="RefSeq" accession="NM_032977.3" />

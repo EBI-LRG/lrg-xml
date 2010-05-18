@@ -289,6 +289,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="19" chr_start="6675846" chr_end="6725662" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="49817" start="6675846" end="6725662"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">C3</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -470,7 +486,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="NCBI">C3</lrg_gene_name>
       <features>
         <gene symbol="C3" strand="1" start="5001" end="47817">
           <synonym>AHUS5</synonym>
@@ -514,11 +529,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="19" chr_start="6675846" chr_end="6725662" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="49817" start="6675846" end="6725662"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">C3</lrg_gene_name>
       <features>
         <gene symbol="C3" strand="1" start="1" end="47817">
           <partial>5-prime</partial>
@@ -530,7 +541,7 @@
           <db_xref source="GeneID" accession="653879" />
           <db_xref source="GeneID" accession="100133511" />
           <db_xref source="MIM" accession="120700" />
-          <transcript source="Ensembl" transcript_id="ENST00000245907" start="4970" end="47817">
+          <transcript source="Ensembl" transcript_id="ENST00000245907" start="4970" end="47817" fixed_id="t1">
             <long_name>complement component 3 (C3), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS32883.1" />
             <db_xref source="RefSeq" accession="XM_001724144.2" />

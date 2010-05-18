@@ -55,6 +55,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="2" chr_start="136869919" chr_end="136880725" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="10807" start="136869919" end="136880725"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">CXCR4</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -80,7 +96,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CXCR4</lrg_gene_name>
       <features>
         <gene symbol="CXCR4" strand="1" start="5001" end="8807">
           <synonym>CD184</synonym>
@@ -142,11 +157,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="2" chr_start="136869919" chr_end="136880725" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="10807" start="136869919" end="136880725"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CXCR4</lrg_gene_name>
       <features>
         <gene symbol="CXCR4" strand="1" start="4991" end="8807">
           <synonym>CD184</synonym>
@@ -163,7 +174,7 @@
           <db_xref source="Ensembl" accession="ENSG00000121966" />
           <db_xref source="GeneID" accession="7852" />
           <db_xref source="MIM" accession="162643" />
-          <transcript source="Ensembl" transcript_id="ENST00000241393" start="4991" end="8805">
+          <transcript source="Ensembl" transcript_id="ENST00000241393" start="4991" end="8805" fixed_id="t1">
             <long_name>chemokine (C-X-C motif) receptor 4 (CXCR4), transcript variant 2, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS46420.1" />
             <db_xref source="RefSeq" accession="NM_003467.2" />

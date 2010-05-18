@@ -73,6 +73,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="17" chr_start="16840398" chr_end="16880402" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="40005" start="16840398" end="16880402"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">TNFRSF13B</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -110,7 +126,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="OMIM">TNFRSF13B</lrg_gene_name>
       <features>
         <gene symbol="TNFRSF13B" strand="1" start="5001" end="38005">
           <synonym>CD267</synonym>
@@ -155,11 +170,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="17" chr_start="16840398" chr_end="16880402" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="40005" start="16840398" end="16880402"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">TNFRSF13B</lrg_gene_name>
       <features>
         <gene symbol="AC104024.1" strand="1" start="1" end="1090">
           <partial>5-prime</partial>
@@ -184,10 +195,7 @@
               <db_xref source="UniProtKB" accession="B4E0B0" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000343345" start="5001" end="38004">
-            <protein_product source="Ensembl" accession="ENSP00000343722" cds_start="5014" cds_end="37542"></protein_product>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000261652" start="5001" end="38004">
+          <transcript source="Ensembl" transcript_id="ENST00000261652" start="5001" end="38004" fixed_id="t1">
             <long_name>tumor necrosis factor receptor superfamily, member 13B (TNFRSF13B), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS11181.1" />
             <db_xref source="RefSeq" accession="NM_012452.2" />
@@ -198,6 +206,9 @@
               <db_xref source="UniProtKB" accession="Q53F36" />
               <db_xref source="UniProtKB" accession="O14836" />
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000343345" start="5001" end="38004">
+            <protein_product source="Ensembl" accession="ENSP00000343722" cds_start="5014" cds_end="37542"></protein_product>
           </transcript>
         </gene>
       </features>

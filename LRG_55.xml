@@ -133,6 +133,24 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="X" chr_start="153986031" chr_end="154007964" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="21934" start="153986031" end="154007964">
+          <diff type="mismatch" lrg_start="8566" lrg_end="8566" start="153994596" end="153994596" lrg_sequence="T" genomic_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">DKC1</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -210,7 +228,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="NCBI_DB">DKC1</lrg_gene_name>
       <features>
         <gene symbol="DKC1" strand="1" start="5001" end="19934">
           <synonym>CBF5</synonym>
@@ -261,42 +278,6 @@
           <db_xref source="GeneID" accession="4354"></db_xref>
           <db_xref source="HGNC" accession="7219"></db_xref>
           <db_xref source="MIM" accession="305360"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_001166462.1" start="20929" end="21598">
-            <partial>5-prime</partial>
-            <long_name>membrane protein, palmitoylated 1, 55kDa</long_name>
-            <db_xref source="GeneID" accession="4354"></db_xref>
-            <db_xref source="GI" accession="262118262"></db_xref>
-            <protein_product source="RefSeq" accession="NP_001159934.1" cds_start="21422" cds_end="21598" codon_start="1">
-              <partial>5-prime</partial>
-              <long_name>55 kDa erythrocyte membrane protein isoform 4</long_name>
-              <long_name>erythrocyte membrane protein p55</long_name>
-              <long_name>aging-associated gene 12</long_name>
-              <long_name>palmitoylated erythrocyte membrane protein</long_name>
-              <long_name>migration-related gene 1</long_name>
-              <long_name>p55</long_name>
-              <long_name>55 kDa erythrocyte membrane protein</long_name>
-              <db_xref source="GeneID" accession="4354"></db_xref>
-              <db_xref source="GI" accession="262118263"></db_xref>
-            </protein_product>
-          </transcript>
-          <transcript source="RefSeq" transcript_id="NM_001166461.1" start="20929" end="21598">
-            <partial>5-prime</partial>
-            <long_name>membrane protein, palmitoylated 1, 55kDa</long_name>
-            <db_xref source="GeneID" accession="4354"></db_xref>
-            <db_xref source="GI" accession="262118258"></db_xref>
-            <protein_product source="RefSeq" accession="NP_001159933.1" cds_start="21422" cds_end="21598" codon_start="1">
-              <partial>5-prime</partial>
-              <long_name>55 kDa erythrocyte membrane protein isoform 3</long_name>
-              <long_name>erythrocyte membrane protein p55</long_name>
-              <long_name>aging-associated gene 12</long_name>
-              <long_name>palmitoylated erythrocyte membrane protein</long_name>
-              <long_name>migration-related gene 1</long_name>
-              <long_name>p55</long_name>
-              <long_name>55 kDa erythrocyte membrane protein</long_name>
-              <db_xref source="GeneID" accession="4354"></db_xref>
-              <db_xref source="GI" accession="262118259"></db_xref>
-            </protein_product>
-          </transcript>
           <transcript source="RefSeq" transcript_id="NM_001166460.1" start="20929" end="21598">
             <partial>5-prime</partial>
             <long_name>membrane protein, palmitoylated 1, 55kDa</long_name>
@@ -313,6 +294,24 @@
               <long_name>55 kDa erythrocyte membrane protein</long_name>
               <db_xref source="GeneID" accession="4354"></db_xref>
               <db_xref source="GI" accession="262118255"></db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" transcript_id="NM_001166462.1" start="20929" end="21598">
+            <partial>5-prime</partial>
+            <long_name>membrane protein, palmitoylated 1, 55kDa</long_name>
+            <db_xref source="GeneID" accession="4354"></db_xref>
+            <db_xref source="GI" accession="262118262"></db_xref>
+            <protein_product source="RefSeq" accession="NP_001159934.1" cds_start="21422" cds_end="21598" codon_start="1">
+              <partial>5-prime</partial>
+              <long_name>55 kDa erythrocyte membrane protein isoform 4</long_name>
+              <long_name>erythrocyte membrane protein p55</long_name>
+              <long_name>aging-associated gene 12</long_name>
+              <long_name>palmitoylated erythrocyte membrane protein</long_name>
+              <long_name>migration-related gene 1</long_name>
+              <long_name>p55</long_name>
+              <long_name>55 kDa erythrocyte membrane protein</long_name>
+              <db_xref source="GeneID" accession="4354"></db_xref>
+              <db_xref source="GI" accession="262118263"></db_xref>
             </protein_product>
           </transcript>
           <transcript source="RefSeq" transcript_id="NM_002436.3" start="20929" end="21598">
@@ -334,6 +333,24 @@
               <db_xref source="GI" accession="4505237"></db_xref>
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" transcript_id="NM_001166461.1" start="20929" end="21598">
+            <partial>5-prime</partial>
+            <long_name>membrane protein, palmitoylated 1, 55kDa</long_name>
+            <db_xref source="GeneID" accession="4354"></db_xref>
+            <db_xref source="GI" accession="262118258"></db_xref>
+            <protein_product source="RefSeq" accession="NP_001159933.1" cds_start="21422" cds_end="21598" codon_start="1">
+              <partial>5-prime</partial>
+              <long_name>55 kDa erythrocyte membrane protein isoform 3</long_name>
+              <long_name>erythrocyte membrane protein p55</long_name>
+              <long_name>aging-associated gene 12</long_name>
+              <long_name>palmitoylated erythrocyte membrane protein</long_name>
+              <long_name>migration-related gene 1</long_name>
+              <long_name>p55</long_name>
+              <long_name>55 kDa erythrocyte membrane protein</long_name>
+              <db_xref source="GeneID" accession="4354"></db_xref>
+              <db_xref source="GI" accession="262118259"></db_xref>
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -350,13 +367,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="X" chr_start="153986031" chr_end="154007964" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="21934" start="153986031" end="154007964">
-          <diff type="mismatch" lrg_start="8566" lrg_end="8566" start="153994596" end="153994596" lrg_sequence="T" genomic_sequence="G" />
-        </mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">DKC1</lrg_gene_name>
       <features>
         <gene symbol="DKC1" strand="1" start="1" end="19934">
           <partial>5-prime</partial>
@@ -373,7 +384,7 @@
           <db_xref source="Ensembl" accession="ENSG00000130826" />
           <db_xref source="GeneID" accession="1736" />
           <db_xref source="MIM" accession="300126" />
-          <transcript source="Ensembl" transcript_id="ENST00000369550" start="5001" end="19934">
+          <transcript source="Ensembl" transcript_id="ENST00000369550" start="5001" end="19934" fixed_id="t1">
             <long_name>dyskeratosis congenita 1, dyskerin (DKC1), transcript variant 2, mRNA</long_name>
             <long_name>dyskeratosis congenita 1, dyskerin (DKC1), transcript variant 1, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS14761.1" />

@@ -85,6 +85,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="12" chr_start="109530415" chr_end="109550798" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="20384" start="109530415" end="109550798"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">UNG</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -130,7 +146,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="OMIM">UNG</lrg_gene_name>
       <features>
         <gene symbol="ALKBH2" strand="-1" start="1" end="879">
           <partial>3-prime</partial>
@@ -141,6 +156,23 @@
           <db_xref source="GeneID" accession="121642"></db_xref>
           <db_xref source="HGNC" accession="32487"></db_xref>
           <db_xref source="MIM" accession="610602"></db_xref>
+          <transcript source="RefSeq" transcript_id="NM_001145374.1" start="1" end="879">
+            <partial>3-prime</partial>
+            <long_name>alkB, alkylation repair homolog 2 (E. coli)</long_name>
+            <db_xref source="GeneID" accession="121642"></db_xref>
+            <db_xref source="GI" accession="224451102"></db_xref>
+            <protein_product source="RefSeq" accession="NP_001138846.1" cds_start="1" cds_end="177" codon_start="1">
+              <partial>3-prime</partial>
+              <long_name>alpha-ketoglutarate-dependent dioxygenase alkB homolog 2</long_name>
+              <long_name>2OG-Fe(II) oxy DC1</long_name>
+              <long_name>alpha-ketoglutarate-dependent dioxygenase alkB homolog 2</long_name>
+              <long_name>alkylated DNA repair protein alkB homolog 2</long_name>
+              <long_name>oxy DC1</long_name>
+              <db_xref source="CCDS" accession="CCDS31897.1"></db_xref>
+              <db_xref source="GeneID" accession="121642"></db_xref>
+              <db_xref source="GI" accession="224451103"></db_xref>
+            </protein_product>
+          </transcript>
           <transcript source="RefSeq" transcript_id="NM_001001655.2" start="1" end="879">
             <partial>3-prime</partial>
             <long_name>alkB, alkylation repair homolog 2 (E. coli)</long_name>
@@ -173,23 +205,6 @@
               <db_xref source="CCDS" accession="CCDS31897.1"></db_xref>
               <db_xref source="GeneID" accession="121642"></db_xref>
               <db_xref source="GI" accession="224451107"></db_xref>
-            </protein_product>
-          </transcript>
-          <transcript source="RefSeq" transcript_id="NM_001145374.1" start="1" end="879">
-            <partial>3-prime</partial>
-            <long_name>alkB, alkylation repair homolog 2 (E. coli)</long_name>
-            <db_xref source="GeneID" accession="121642"></db_xref>
-            <db_xref source="GI" accession="224451102"></db_xref>
-            <protein_product source="RefSeq" accession="NP_001138846.1" cds_start="1" cds_end="177" codon_start="1">
-              <partial>3-prime</partial>
-              <long_name>alpha-ketoglutarate-dependent dioxygenase alkB homolog 2</long_name>
-              <long_name>2OG-Fe(II) oxy DC1</long_name>
-              <long_name>alpha-ketoglutarate-dependent dioxygenase alkB homolog 2</long_name>
-              <long_name>alkylated DNA repair protein alkB homolog 2</long_name>
-              <long_name>oxy DC1</long_name>
-              <db_xref source="CCDS" accession="CCDS31897.1"></db_xref>
-              <db_xref source="GeneID" accession="121642"></db_xref>
-              <db_xref source="GI" accession="224451103"></db_xref>
             </protein_product>
           </transcript>
         </gene>
@@ -236,11 +251,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="12" chr_start="109530415" chr_end="109550798" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="20384" start="109530415" end="109550798"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">UNG</lrg_gene_name>
       <features>
         <gene symbol="ALKBH2" strand="-1" start="1" end="879">
           <partial>3-prime</partial>
@@ -286,7 +297,7 @@
           <db_xref source="Ensembl" accession="ENSG00000076248" />
           <db_xref source="GeneID" accession="7374" />
           <db_xref source="MIM" accession="191525" />
-          <transcript source="Ensembl" transcript_id="ENST00000242576" start="5001" end="18384">
+          <transcript source="Ensembl" transcript_id="ENST00000242576" start="5001" end="18384" fixed_id="t1">
             <long_name>uracil-DNA glycosylase (UNG), transcript variant 2, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS9124.1" />
             <db_xref source="RefSeq" accession="NM_080911.1" />

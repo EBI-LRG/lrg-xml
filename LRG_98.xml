@@ -53,6 +53,24 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="11" chr_start="36584563" chr_end="36603312" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="18750" start="36584563" end="36603312">
+          <diff type="mismatch" lrg_start="11038" lrg_end="11038" start="36595600" end="36595600" lrg_sequence="G" genomic_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">RAG1</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -78,7 +96,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">RAG1</lrg_gene_name>
       <features>
         <gene symbol="RAG1" strand="1" start="5001" end="16750">
           <synonym>MGC43321</synonym>
@@ -120,13 +137,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="11" chr_start="36584563" chr_end="36603312" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="18750" start="36584563" end="36603312">
-          <diff type="mismatch" lrg_start="11038" lrg_end="11038" start="36595600" end="36595600" lrg_sequence="G" genomic_sequence="A" />
-        </mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">RAG1</lrg_gene_name>
       <features>
         <gene symbol="RAG1" strand="1" start="5001" end="16750">
           <synonym>MGC43321</synonym>
@@ -136,7 +147,7 @@
           <db_xref source="Ensembl" accession="ENSG00000166349" />
           <db_xref source="GeneID" accession="5896" />
           <db_xref source="MIM" accession="179615" />
-          <transcript source="Ensembl" transcript_id="ENST00000299440" start="5001" end="16750">
+          <transcript source="Ensembl" transcript_id="ENST00000299440" start="5001" end="16750" fixed_id="t1">
             <long_name>recombination activating gene 1 (RAG1), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS7902.1" />
             <db_xref source="RefSeq" accession="NM_000448.2" />

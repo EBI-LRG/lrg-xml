@@ -91,6 +91,24 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="1" chr_start="167397876" chr_end="167492846" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="94971" start="167397876" end="167492846">
+          <diff type="mismatch" lrg_start="92885" lrg_end="92885" start="167399962" end="167399962" lrg_sequence="G" genomic_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">CD247</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -140,7 +158,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CD247</lrg_gene_name>
       <features>
         <gene symbol="AKR1D1P1" strand="-1" start="3024" end="4071">
           <synonym>AKR1D1P</synonym>
@@ -194,13 +211,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="1" chr_start="167397876" chr_end="167492846" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="94971" start="167397876" end="167492846">
-          <diff type="mismatch" lrg_start="92885" lrg_end="92885" start="167399962" end="167399962" lrg_sequence="G" genomic_sequence="A" />
-        </mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CD247</lrg_gene_name>
       <features>
         <gene symbol="RP3-455J7.1" strand="-1" start="3024" end="4074">
           <db_xref source="Ensembl" accession="ENSG00000227776" />
@@ -226,7 +237,7 @@
               <db_xref source="UniProtKB" accession="B2LYR2" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000362089" start="5072" end="92970">
+          <transcript source="Ensembl" transcript_id="ENST00000362089" start="5072" end="92970" fixed_id="t1">
             <long_name>CD247 molecule (CD247), transcript variant 1, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS1261.1" />
             <db_xref source="RefSeq" accession="NM_198053.2" />

@@ -67,6 +67,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="1" chr_start="172623185" chr_end="172638013" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="14829" start="172623185" end="172638013"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">FASLG</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -100,7 +116,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">FASLG</lrg_gene_name>
       <features>
         <gene symbol="FASLG" strand="1" start="5001" end="12829">
           <synonym>APT1LG1</synonym>
@@ -148,11 +163,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="1" chr_start="172623185" chr_end="172638013" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="14829" start="172623185" end="172638013"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">FASLG</lrg_gene_name>
       <features>
         <gene symbol="FASLG" strand="1" start="4970" end="12830">
           <synonym>APT1LG1</synonym>
@@ -167,7 +178,7 @@
           <transcript source="Ensembl" transcript_id="ENST00000340030" start="4970" end="12830">
             <protein_product source="Ensembl" accession="ENSP00000344739" cds_start="5158" cds_end="10325"></protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000367721" start="4974" end="12830">
+          <transcript source="Ensembl" transcript_id="ENST00000367721" start="4974" end="12830" fixed_id="t1">
             <long_name>Fas ligand (TNF superfamily, member 6) (FASLG), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS1304.1" />
             <db_xref source="RefSeq" accession="NM_000639.1" />

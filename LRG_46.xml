@@ -73,6 +73,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="19" chr_start="854665" chr_end="865624" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="10960" start="854665" end="865624"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">CFD</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -110,7 +126,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="OMIM">CFD</lrg_gene_name>
       <features>
         <gene symbol="ELANE" strand="1" start="1" end="1582">
           <partial>5-prime</partial>
@@ -190,11 +205,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="19" chr_start="854665" chr_end="865624" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="10960" start="854665" end="865624"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CFD</lrg_gene_name>
       <features>
         <gene symbol="ELANE" strand="1" start="1" end="1578">
           <partial>5-prime</partial>
@@ -239,7 +250,7 @@
           <db_xref source="Ensembl" accession="ENSG00000197766" />
           <db_xref source="GeneID" accession="1675" />
           <db_xref source="MIM" accession="134350" />
-          <transcript source="Ensembl" transcript_id="ENST00000327726" start="5001" end="8942">
+          <transcript source="Ensembl" transcript_id="ENST00000327726" start="5001" end="8942" fixed_id="t1">
             <long_name>complement factor D (adipsin) (CFD), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS12046.1" />
             <db_xref source="RefSeq" accession="NM_001928.2" />

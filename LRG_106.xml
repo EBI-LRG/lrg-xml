@@ -67,6 +67,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="X" chr_start="123475150" chr_end="123509005" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="33856" start="123475150" end="123509005"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">SH2D1A</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -100,7 +116,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">SH2D1A</lrg_gene_name>
       <features>
         <gene symbol="SH2D1A" strand="1" start="4999" end="31861">
           <synonym>DSHP</synonym>
@@ -154,11 +169,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="X" chr_start="123475150" chr_end="123509005" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="33856" start="123475150" end="123509005"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">SH2D1A</lrg_gene_name>
       <features>
         <gene symbol="STAG2" strand="1" start="1" end="33856">
           <partial>5-prime</partial>
@@ -191,7 +202,7 @@
               <db_xref source="RefSeq" accession="NP_001108409.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000371139" start="5045" end="31856">
+          <transcript source="Ensembl" transcript_id="ENST00000371139" start="5045" end="31856" fixed_id="t1">
             <long_name>SH2 domain protein 1A (SH2D1A), transcript variant 1, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS14608.1" />
             <db_xref source="RefSeq" accession="NM_002351.3" />

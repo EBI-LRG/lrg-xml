@@ -133,6 +133,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="1" chr_start="183522697" chr_end="183564716" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="42020" start="183522697" end="183564716"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">NCF2</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -210,7 +226,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">NCF2</lrg_gene_name>
       <features>
         <gene symbol="NCF2" strand="1" start="4671" end="40020">
           <synonym>FLJ93058</synonym>
@@ -253,29 +268,29 @@
           <db_xref source="GeneID" accession="9887"></db_xref>
           <db_xref source="HGNC" accession="16792"></db_xref>
           <db_xref source="MIM" accession="610964"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_001174061.1" start="41389" end="42020">
-            <partial>5-prime</partial>
-            <long_name>Smg-7 homolog, nonsense mediated mRNA decay factor (C. elegans)</long_name>
-            <db_xref source="GeneID" accession="9887"></db_xref>
-            <db_xref source="GI" accession="291327484"></db_xref>
-          </transcript>
-          <transcript source="RefSeq" transcript_id="NM_201569.2" start="41389" end="42020">
-            <partial>5-prime</partial>
-            <long_name>Smg-7 homolog, nonsense mediated mRNA decay factor (C. elegans)</long_name>
-            <db_xref source="GeneID" accession="9887"></db_xref>
-            <db_xref source="GI" accession="291327486"></db_xref>
-          </transcript>
           <transcript source="RefSeq" transcript_id="NM_201568.2" start="41389" end="42020">
             <partial>5-prime</partial>
             <long_name>Smg-7 homolog, nonsense mediated mRNA decay factor (C. elegans)</long_name>
             <db_xref source="GeneID" accession="9887"></db_xref>
             <db_xref source="GI" accession="291327483"></db_xref>
           </transcript>
+          <transcript source="RefSeq" transcript_id="NM_001174061.1" start="41389" end="42020">
+            <partial>5-prime</partial>
+            <long_name>Smg-7 homolog, nonsense mediated mRNA decay factor (C. elegans)</long_name>
+            <db_xref source="GeneID" accession="9887"></db_xref>
+            <db_xref source="GI" accession="291327484"></db_xref>
+          </transcript>
           <transcript source="RefSeq" transcript_id="NM_173156.2" start="41389" end="42020">
             <partial>5-prime</partial>
             <long_name>Smg-7 homolog, nonsense mediated mRNA decay factor (C. elegans)</long_name>
             <db_xref source="GeneID" accession="9887"></db_xref>
             <db_xref source="GI" accession="291327482"></db_xref>
+          </transcript>
+          <transcript source="RefSeq" transcript_id="NM_201569.2" start="41389" end="42020">
+            <partial>5-prime</partial>
+            <long_name>Smg-7 homolog, nonsense mediated mRNA decay factor (C. elegans)</long_name>
+            <db_xref source="GeneID" accession="9887"></db_xref>
+            <db_xref source="GI" accession="291327486"></db_xref>
           </transcript>
         </gene>
       </features>
@@ -293,11 +308,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="1" chr_start="183522697" chr_end="183564716" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="42020" start="183522697" end="183564716"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">NCF2</lrg_gene_name>
       <features>
         <gene symbol="SMG7" strand="-1" start="1" end="42020">
           <partial>5-prime</partial>
@@ -377,14 +388,6 @@
               <db_xref source="UniProtKB" accession="Q59F14" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000418089" start="4978" end="40019">
-            <protein_product source="Ensembl" accession="ENSP00000407217" cds_start="5253" cds_end="39464">
-              <db_xref source="UniProtKB" accession="B1ALB6" />
-              <db_xref source="UniProtKB" accession="B1ALB7" />
-              <db_xref source="UniProtKB" accession="B4DKQ7" />
-              <db_xref source="UniProtKB" accession="Q0Q616" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000413720" start="4978" end="40019">
             <protein_product source="Ensembl" accession="ENSP00000399294" cds_start="5253" cds_end="39464">
               <db_xref source="UniProtKB" accession="B1ALB6" />
@@ -393,7 +396,15 @@
               <db_xref source="UniProtKB" accession="Q0Q616" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000367535" start="5001" end="39857">
+          <transcript source="Ensembl" transcript_id="ENST00000418089" start="4978" end="40019">
+            <protein_product source="Ensembl" accession="ENSP00000407217" cds_start="5253" cds_end="39464">
+              <db_xref source="UniProtKB" accession="B1ALB6" />
+              <db_xref source="UniProtKB" accession="B1ALB7" />
+              <db_xref source="UniProtKB" accession="B4DKQ7" />
+              <db_xref source="UniProtKB" accession="Q0Q616" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000367535" start="5001" end="39857" fixed_id="t1">
             <long_name>neutrophil cytosolic factor 2 (NCF2), transcript variant 1, mRNA</long_name>
             <long_name>neutrophil cytosolic factor 2 (NCF2), transcript variant 2, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS1356.1" />

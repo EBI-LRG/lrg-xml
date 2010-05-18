@@ -55,6 +55,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="11" chr_start="45820623" chr_end="45836567" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="15945" start="45820623" end="45836567"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">SLC35C1</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -80,7 +96,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="NCBI_RTA">SLC35C1</lrg_gene_name>
       <features>
         <gene symbol="SLC35C1" strand="1" start="5001" end="13945">
           <synonym>FLJ11320</synonym>
@@ -120,11 +135,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="11" chr_start="45820623" chr_end="45836567" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="15945" start="45820623" end="45836567"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">SLC35C1</lrg_gene_name>
       <features>
         <gene symbol="SLC35C1" strand="1" start="5001" end="13944">
           <synonym>FLJ11320</synonym>
@@ -134,21 +145,6 @@
           <db_xref source="Ensembl" accession="ENSG00000181830" />
           <db_xref source="GeneID" accession="55343" />
           <db_xref source="MIM" accession="605881" />
-          <transcript source="Ensembl" transcript_id="ENST00000456334" start="5001" end="13939">
-            <db_xref source="CCDS" accession="CCDS44575.1" />
-            <db_xref source="RefSeq" accession="XM_002343077.1" />
-            <db_xref source="RefSeq" accession="XM_002347212.1" />
-            <db_xref source="RefSeq" accession="XM_002344571.1" />
-            <protein_product source="Ensembl" accession="ENSP00000399779" cds_start="6770" cds_end="12264">
-              <long_name>GDP-fucose transporter 1 isoform b </long_name>
-              <db_xref source="RefSeq" accession="XP_002343118.1" />
-              <db_xref source="RefSeq" accession="XP_002347253.1" />
-              <db_xref source="RefSeq" accession="XP_002344612.1" />
-              <db_xref source="RefSeq" accession="NP_001138737.1" />
-              <db_xref source="RefSeq" accession="NP_001138738.1" />
-              <db_xref source="UniProtKB" accession="B2RDB2" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000442528" start="5001" end="13939">
             <long_name>solute carrier family 35, member C1 (SLC35C1), transcript variant 3, mRNA</long_name>
             <long_name>solute carrier family 35, member C1 (SLC35C1), transcript variant 2, mRNA</long_name>
@@ -168,7 +164,22 @@
               <db_xref source="UniProtKB" accession="B2RDB2" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000314134" start="6019" end="13944">
+          <transcript source="Ensembl" transcript_id="ENST00000456334" start="5001" end="13939">
+            <db_xref source="CCDS" accession="CCDS44575.1" />
+            <db_xref source="RefSeq" accession="XM_002343077.1" />
+            <db_xref source="RefSeq" accession="XM_002347212.1" />
+            <db_xref source="RefSeq" accession="XM_002344571.1" />
+            <protein_product source="Ensembl" accession="ENSP00000399779" cds_start="6770" cds_end="12264">
+              <long_name>GDP-fucose transporter 1 isoform b </long_name>
+              <db_xref source="RefSeq" accession="XP_002343118.1" />
+              <db_xref source="RefSeq" accession="XP_002347253.1" />
+              <db_xref source="RefSeq" accession="XP_002344612.1" />
+              <db_xref source="RefSeq" accession="NP_001138737.1" />
+              <db_xref source="RefSeq" accession="NP_001138738.1" />
+              <db_xref source="UniProtKB" accession="B2RDB2" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000314134" start="6019" end="13944" fixed_id="t1">
             <long_name>solute carrier family 35, member C1 (SLC35C1), transcript variant 1, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS7914.1" />
             <db_xref source="RefSeq" accession="XM_002343077.1" />

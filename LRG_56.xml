@@ -179,6 +179,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="20" chr_start="31345191" chr_end="31399162" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="53972" start="31345191" end="31399162"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">DNMT3B</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -288,7 +304,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">DNMT3B</lrg_gene_name>
       <features>
         <gene symbol="DNMT3B" strand="1" start="5001" end="51972">
           <synonym>ICF</synonym>
@@ -329,11 +344,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="20" chr_start="31345191" chr_end="31399162" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="53972" start="31345191" end="31399162"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">DNMT3B</lrg_gene_name>
       <features>
         <gene symbol="DNMT3B" strand="1" start="5001" end="51972">
           <long_name>DNA (cytosine-5-)-methyltransferase 3 beta</long_name>
@@ -341,7 +352,7 @@
           <db_xref source="Ensembl" accession="ENSG00000088305" />
           <db_xref source="GeneID" accession="1789" />
           <db_xref source="MIM" accession="602900" />
-          <transcript source="Ensembl" transcript_id="ENST00000328111" start="5001" end="51972">
+          <transcript source="Ensembl" transcript_id="ENST00000328111" start="5001" end="51972" fixed_id="t1">
             <long_name>DNA (cytosine-5-)-methyltransferase 3 beta (DNMT3B), transcript variant 1, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS13205.1" />
             <db_xref source="RefSeq" accession="NM_006892.3" />
@@ -378,17 +389,17 @@
               <db_xref source="UniProtKB" accession="B4DHM3" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000456297" start="5225" end="51971">
+            <protein_product source="Ensembl" accession="ENSP00000412305" cds_start="22940" cds_end="50519">
+              <db_xref source="UniProtKB" accession="B3KM53" />
+              <db_xref source="UniProtKB" accession="B4DSM8" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000443239" start="5225" end="51971">
             <protein_product source="Ensembl" accession="ENSP00000403169" cds_start="22940" cds_end="50519">
               <db_xref source="UniProtKB" accession="B3KM53" />
               <db_xref source="UniProtKB" accession="B4DSJ7" />
               <db_xref source="UniProtKB" accession="B4DSU1" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000456297" start="5225" end="51971">
-            <protein_product source="Ensembl" accession="ENSP00000412305" cds_start="22940" cds_end="50519">
-              <db_xref source="UniProtKB" accession="B3KM53" />
-              <db_xref source="UniProtKB" accession="B4DSM8" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000344505" start="5225" end="51971">

@@ -161,6 +161,24 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="11" chr_start="67801483" chr_end="67820366" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="18884" start="67801483" end="67820366">
+          <diff type="mismatch" lrg_start="13497" lrg_end="13497" start="67814979" end="67814979" lrg_sequence="C" genomic_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">TCIRG1</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -258,7 +276,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="OMIM">TCIRG1</lrg_gene_name>
       <features>
         <gene symbol="NDUFS8" strand="1" start="1" end="2632">
           <partial>5-prime</partial>
@@ -336,17 +353,17 @@
           <db_xref source="GeneID" accession="1119"></db_xref>
           <db_xref source="HGNC" accession="1937"></db_xref>
           <db_xref source="MIM" accession="118491"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_001277.2" start="18844" end="18884">
-            <partial>5-prime</partial>
-            <long_name>choline kinase alpha</long_name>
-            <db_xref source="GeneID" accession="1119"></db_xref>
-            <db_xref source="GI" accession="47078275"></db_xref>
-          </transcript>
           <transcript source="RefSeq" transcript_id="NM_212469.1" start="18844" end="18884">
             <partial>5-prime</partial>
             <long_name>choline kinase alpha</long_name>
             <db_xref source="GeneID" accession="1119"></db_xref>
             <db_xref source="GI" accession="47078277"></db_xref>
+          </transcript>
+          <transcript source="RefSeq" transcript_id="NM_001277.2" start="18844" end="18884">
+            <partial>5-prime</partial>
+            <long_name>choline kinase alpha</long_name>
+            <db_xref source="GeneID" accession="1119"></db_xref>
+            <db_xref source="GI" accession="47078275"></db_xref>
           </transcript>
         </gene>
       </features>
@@ -364,13 +381,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="11" chr_start="67801483" chr_end="67820366" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="18884" start="67801483" end="67820366">
-          <diff type="mismatch" lrg_start="13497" lrg_end="13497" start="67814979" end="67814979" lrg_sequence="C" genomic_sequence="G" />
-        </mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">TCIRG1</lrg_gene_name>
       <features>
         <gene symbol="NDUFS8" strand="1" start="1" end="2632">
           <partial>5-prime</partial>
@@ -408,7 +419,7 @@
           <db_xref source="Ensembl" accession="ENSG00000110719" />
           <db_xref source="GeneID" accession="10312" />
           <db_xref source="MIM" accession="604592" />
-          <transcript source="Ensembl" transcript_id="ENST00000265686" start="5001" end="16883">
+          <transcript source="Ensembl" transcript_id="ENST00000265686" start="5001" end="16883" fixed_id="t1">
             <long_name>T-cell, immune regulator 1, ATPase, H+ transporting, lysosomal V0 subunit A3 (TCIRG1), transcript variant 2, mRNA</long_name>
             <long_name>T-cell, immune regulator 1, ATPase, H+ transporting, lysosomal V0 subunit A3 (TCIRG1), transcript variant 1, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS8177.1" />

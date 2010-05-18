@@ -105,6 +105,24 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="1" chr_start="151311116" chr_end="151324769" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="13654" start="151311116" end="151324769">
+          <diff type="mismatch" lrg_start="8609" lrg_end="8609" start="151316161" end="151316161" lrg_sequence="T" genomic_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">RFX5</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -166,7 +184,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">RFX5</lrg_gene_name>
       <features>
         <gene symbol="RFX5" strand="1" start="5001" end="11654">
           <long_name>regulatory factor X, 5 (influences HLA class II expression)</long_name>
@@ -204,13 +221,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="1" chr_start="151311116" chr_end="151324769" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="13654" start="151311116" end="151324769">
-          <diff type="mismatch" lrg_start="8609" lrg_end="8609" start="151316161" end="151316161" lrg_sequence="T" genomic_sequence="C" />
-        </mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">RFX5</lrg_gene_name>
       <features>
         <gene symbol="RP11-126K1.6" strand="-1" start="4267" end="5327">
           <db_xref source="Ensembl" accession="ENSG00000237976" />
@@ -222,7 +233,7 @@
           <db_xref source="Ensembl" accession="ENSG00000143390" />
           <db_xref source="GeneID" accession="5993" />
           <db_xref source="MIM" accession="601863" />
-          <transcript source="Ensembl" transcript_id="ENST00000452671" start="4937" end="10334">
+          <transcript source="Ensembl" transcript_id="ENST00000452671" start="4937" end="10334" fixed_id="t1">
             <long_name>regulatory factor X, 5 (influences HLA class II expression) (RFX5), transcript variant 1, mRNA</long_name>
             <long_name>regulatory factor X, 5 (influences HLA class II expression) (RFX5), transcript variant 2, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS994.1" />

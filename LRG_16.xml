@@ -115,6 +115,24 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="20" chr_start="43246163" chr_end="43285376" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="39214" start="43246163" end="43285376">
+          <diff type="mismatch" lrg_start="20450" lrg_end="20450" start="43264927" end="43264927" lrg_sequence="A" genomic_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">ADA</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -180,7 +198,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">ADA</lrg_gene_name>
       <features>
         <gene symbol="ADA" strand="1" start="5001" end="37214">
           <long_name>adenosine deaminase</long_name>
@@ -210,21 +227,6 @@
           <db_xref source="GeneID" accession="11142"></db_xref>
           <db_xref source="HGNC" accession="9019"></db_xref>
           <db_xref source="MIM" accession="604932"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_181804.1" start="37699" end="38451">
-            <partial>5-prime</partial>
-            <long_name>protein kinase (cAMP-dependent, catalytic) inhibitor gamma</long_name>
-            <db_xref source="GeneID" accession="11142"></db_xref>
-            <db_xref source="GI" accession="32483380"></db_xref>
-            <protein_product source="RefSeq" accession="NP_861520.1" cds_start="38372" cds_end="38451" codon_start="3">
-              <partial>5-prime</partial>
-              <long_name>cAMP-dependent protein kinase inhibitor gamma</long_name>
-              <long_name>PKI-gamma</long_name>
-              <long_name>cAMP-dependent protein kinase inhibitor gamma</long_name>
-              <db_xref source="CCDS" accession="CCDS13334.1"></db_xref>
-              <db_xref source="GeneID" accession="11142"></db_xref>
-              <db_xref source="GI" accession="32483381"></db_xref>
-            </protein_product>
-          </transcript>
           <transcript source="RefSeq" transcript_id="NM_181805.1" start="37699" end="38451">
             <partial>5-prime</partial>
             <long_name>protein kinase (cAMP-dependent, catalytic) inhibitor gamma</long_name>
@@ -238,6 +240,21 @@
               <db_xref source="CCDS" accession="CCDS13334.1"></db_xref>
               <db_xref source="GeneID" accession="11142"></db_xref>
               <db_xref source="GI" accession="32483383"></db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" transcript_id="NM_181804.1" start="37699" end="38451">
+            <partial>5-prime</partial>
+            <long_name>protein kinase (cAMP-dependent, catalytic) inhibitor gamma</long_name>
+            <db_xref source="GeneID" accession="11142"></db_xref>
+            <db_xref source="GI" accession="32483380"></db_xref>
+            <protein_product source="RefSeq" accession="NP_861520.1" cds_start="38372" cds_end="38451" codon_start="3">
+              <partial>5-prime</partial>
+              <long_name>cAMP-dependent protein kinase inhibitor gamma</long_name>
+              <long_name>PKI-gamma</long_name>
+              <long_name>cAMP-dependent protein kinase inhibitor gamma</long_name>
+              <db_xref source="CCDS" accession="CCDS13334.1"></db_xref>
+              <db_xref source="GeneID" accession="11142"></db_xref>
+              <db_xref source="GI" accession="32483381"></db_xref>
             </protein_product>
           </transcript>
           <transcript source="RefSeq" transcript_id="NM_007066.3" start="37699" end="38451">
@@ -271,13 +288,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="20" chr_start="43246163" chr_end="43285376" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="39214" start="43246163" end="43285376">
-          <diff type="mismatch" lrg_start="20450" lrg_end="20450" start="43264927" end="43264927" lrg_sequence="A" genomic_sequence="G" />
-        </mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">ADA</lrg_gene_name>
       <features>
         <gene symbol="RP11-445H22.3" strand="1" start="1" end="285">
           <partial>5-prime</partial>
@@ -295,7 +306,7 @@
           <db_xref source="Ensembl" accession="ENSG00000196839" />
           <db_xref source="GeneID" accession="100" />
           <db_xref source="MIM" accession="608958" />
-          <transcript source="Ensembl" transcript_id="ENST00000372874" start="4994" end="37214">
+          <transcript source="Ensembl" transcript_id="ENST00000372874" start="4994" end="37214" fixed_id="t1">
             <long_name>adenosine deaminase (ADA), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS13335.1" />
             <db_xref source="RefSeq" accession="NM_000022.2" />
@@ -323,11 +334,19 @@
             <partial>5-prime</partial>
             <db_xref source="CCDS" accession="CCDS13334.1" />
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000372892" start="37699" end="38451">
+          <transcript source="Ensembl" transcript_id="ENST00000372889" start="37699" end="38451">
             <partial>5-prime</partial>
             <db_xref source="CCDS" accession="CCDS13334.1" />
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000372891" start="37699" end="38451">
+            <partial>5-prime</partial>
+            <db_xref source="CCDS" accession="CCDS13334.1" />
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000372886" start="37699" end="38451">
+            <partial>5-prime</partial>
+            <db_xref source="CCDS" accession="CCDS13334.1" />
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000372892" start="37699" end="38451">
             <partial>5-prime</partial>
             <db_xref source="CCDS" accession="CCDS13334.1" />
           </transcript>
@@ -340,14 +359,6 @@
             <db_xref source="RefSeq" accession="NM_007066.3" />
             <db_xref source="RefSeq" accession="NM_181804.1" />
             <db_xref source="RefSeq" accession="NM_181805.1" />
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000372889" start="37699" end="38451">
-            <partial>5-prime</partial>
-            <db_xref source="CCDS" accession="CCDS13334.1" />
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000372886" start="37699" end="38451">
-            <partial>5-prime</partial>
-            <db_xref source="CCDS" accession="CCDS13334.1" />
           </transcript>
         </gene>
       </features>

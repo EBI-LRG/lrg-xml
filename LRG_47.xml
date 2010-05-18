@@ -175,6 +175,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="1" chr_start="196616141" chr_end="196718634" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="102494" start="196616141" end="196718634"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">CFH</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -280,7 +296,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CFH</lrg_gene_name>
       <features>
         <gene symbol="CFH" strand="1" start="4868" end="100494">
           <synonym>AHUS1</synonym>
@@ -335,11 +350,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="1" chr_start="196616141" chr_end="196718634" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="102494" start="196616141" end="196718634"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CFH</lrg_gene_name>
       <features>
         <gene symbol="CFH" strand="1" start="4868" end="100494">
           <synonym>ARMS1</synonym>
@@ -372,7 +383,7 @@
               <db_xref source="UniProtKB" accession="A8MPQ4" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000367429" start="4868" end="100494">
+          <transcript source="Ensembl" transcript_id="ENST00000367429" start="4868" end="100494" fixed_id="t1">
             <long_name>complement factor H (CFH), transcript variant 1, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS1385.1" />
             <db_xref source="RefSeq" accession="NM_000186.3" />

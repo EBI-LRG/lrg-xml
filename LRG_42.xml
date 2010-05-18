@@ -73,6 +73,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="19" chr_start="42376190" chr_end="42387439" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="11250" start="42376190" end="42387439"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">CD79A</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -110,7 +126,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CD79A</lrg_gene_name>
       <features>
         <gene symbol="CD79A" strand="1" start="5001" end="9250">
           <synonym>IGA</synonym>
@@ -178,11 +193,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="19" chr_start="42376190" chr_end="42387439" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="11250" start="42376190" end="42387439"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CD79A</lrg_gene_name>
       <features>
         <gene symbol="CD79A" strand="1" start="5001" end="9250">
           <synonym>IGA</synonym>
@@ -192,6 +203,16 @@
           <db_xref source="Ensembl" accession="ENSG00000105369" />
           <db_xref source="GeneID" accession="973" />
           <db_xref source="MIM" accession="112205" />
+          <transcript source="Ensembl" transcript_id="ENST00000221972" start="5001" end="9250" fixed_id="t1">
+            <long_name>CD79a molecule, immunoglobulin-associated alpha (CD79A), transcript variant 1, mRNA</long_name>
+            <db_xref source="CCDS" accession="CCDS12589.1" />
+            <db_xref source="RefSeq" accession="NM_001783.3" />
+            <protein_product source="Ensembl" accession="ENSP00000221972" cds_start="5186" cds_end="8858">
+              <long_name>CD79A antigen isoform 1 precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_001774.1" />
+              <db_xref source="UniProtKB" accession="P11912" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000444740" start="5001" end="9250">
             <long_name>CD79a molecule, immunoglobulin-associated alpha (CD79A), transcript variant 2, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS46088.1" />
@@ -200,16 +221,6 @@
               <long_name>CD79A antigen isoform 2 precursor </long_name>
               <db_xref source="RefSeq" accession="NP_067612.1" />
               <db_xref source="UniProtKB" accession="A0N775" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000221972" start="5001" end="9250">
-            <long_name>CD79a molecule, immunoglobulin-associated alpha (CD79A), transcript variant 1, mRNA</long_name>
-            <db_xref source="CCDS" accession="CCDS12589.1" />
-            <db_xref source="RefSeq" accession="NM_001783.3" />
-            <protein_product source="Ensembl" accession="ENSP00000221972" cds_start="5186" cds_end="8858">
-              <long_name>CD79A antigen isoform 1 precursor </long_name>
-              <db_xref source="RefSeq" accession="NP_001774.1" />
-              <db_xref source="UniProtKB" accession="P11912" />
             </protein_product>
           </transcript>
         </gene>

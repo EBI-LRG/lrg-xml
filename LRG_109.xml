@@ -155,6 +155,25 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="2" chr_start="231031634" chr_end="231089827" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="58194" start="231031634" end="231089827">
+          <diff type="mismatch" lrg_start="12103" lrg_end="12103" start="231077725" end="231077725" lrg_sequence="C" genomic_sequence="T" />
+          <diff type="mismatch" lrg_start="39113" lrg_end="39113" start="231050715" end="231050715" lrg_sequence="C" genomic_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">SP110</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -248,7 +267,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">SP110</lrg_gene_name>
       <features>
         <gene symbol="SP110" strand="1" start="5001" end="56194">
           <synonym>FLJ22835</synonym>
@@ -296,14 +314,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="2" chr_start="231031634" chr_end="231089827" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="58194" start="231031634" end="231089827">
-          <diff type="mismatch" lrg_start="12103" lrg_end="12103" start="231077725" end="231077725" lrg_sequence="C" genomic_sequence="T" />
-          <diff type="mismatch" lrg_start="39113" lrg_end="39113" start="231050715" end="231050715" lrg_sequence="C" genomic_sequence="T" />
-        </mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">SP110</lrg_gene_name>
       <features>
         <gene symbol="AC009950.1" strand="-1" start="1" end="22002">
           <partial>3-prime</partial>
@@ -379,7 +390,7 @@
               <db_xref source="UniProtKB" accession="Q9HB58" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000258381" start="5163" end="56194">
+          <transcript source="Ensembl" transcript_id="ENST00000258381" start="5163" end="56194" fixed_id="t1">
             <long_name>SP110 nuclear body protein (SP110), transcript variant c, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS2475.1" />
             <db_xref source="RefSeq" accession="NM_080424.2" />

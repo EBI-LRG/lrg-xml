@@ -121,6 +121,24 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="4" chr_start="110659852" chr_end="110728141" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="68290" start="110659852" end="110728141">
+          <diff type="mismatch" lrg_start="49217" lrg_end="49217" start="110678925" end="110678925" lrg_sequence="G" genomic_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">CFI</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -190,7 +208,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CFI</lrg_gene_name>
       <features>
         <gene symbol="CFI" strand="1" start="4807" end="66294">
           <synonym>AHUS3</synonym>
@@ -239,13 +256,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="4" chr_start="110659852" chr_end="110728141" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="68290" start="110659852" end="110728141">
-          <diff type="mismatch" lrg_start="49217" lrg_end="49217" start="110678925" end="110678925" lrg_sequence="G" genomic_sequence="A" />
-        </mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CFI</lrg_gene_name>
       <features>
         <gene symbol="CFI" strand="1" start="4807" end="66290">
           <synonym>C3b-INA</synonym>
@@ -257,7 +268,7 @@
           <db_xref source="Ensembl" accession="ENSG00000205403" />
           <db_xref source="GeneID" accession="3426" />
           <db_xref source="MIM" accession="217030" />
-          <transcript source="Ensembl" transcript_id="ENST00000394634" start="4807" end="66290">
+          <transcript source="Ensembl" transcript_id="ENST00000394634" start="4807" end="66290" fixed_id="t1">
             <long_name>complement factor I (CFI), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS34049.1" />
             <db_xref source="RefSeq" accession="NM_000204.3" />

@@ -164,6 +164,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="2" chr_start="202093181" chr_end="202154432" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="61252" start="202093181" end="202154432"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">CASP8</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -263,7 +279,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CASP8</lrg_gene_name>
       <features>
         <gene symbol="CASP10" strand="1" start="1" end="930">
           <partial>5-prime</partial>
@@ -310,27 +325,6 @@
           <db_xref source="HGNC" accession="1509"></db_xref>
           <db_xref source="MIM" accession="601763"></db_xref>
           <db_xref source="GI" accession="171460919"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_001228.4" start="4986" end="59254" fixed_id="t1">
-            <long_name>caspase 8, apoptosis-related cysteine peptidase</long_name>
-            <comment></comment>
-            <db_xref source="GeneID" accession="841"></db_xref>
-            <db_xref source="GI" accession="122056470"></db_xref>
-            <protein_product source="RefSeq" accession="NP_001219.2" cds_start="38030" cds_end="58137">
-              <long_name>caspase-8 isoform A precursor</long_name>
-              <long_name>caspase 8, apoptosis-related cysteine protease</long_name>
-              <long_name>FADD-homologous ICE/CED-3-like protease</long_name>
-              <long_name>MACH-alpha-1/2/3 protein</long_name>
-              <long_name>MACH-beta-1/2/3/4 protein</long_name>
-              <long_name>FADD-like ICE</long_name>
-              <long_name>apoptotic protease Mch-5</long_name>
-              <long_name>apoptotic cysteine protease</long_name>
-              <long_name>ICE-like apoptotic protease 5</long_name>
-              <long_name>MORT1-associated ced-3 homolog</long_name>
-              <db_xref source="CCDS" accession="CCDS42799.1"></db_xref>
-              <db_xref source="GeneID" accession="841"></db_xref>
-              <db_xref source="GI" accession="15718704"></db_xref>
-            </protein_product>
-          </transcript>
           <transcript source="RefSeq" transcript_id="NM_033355.3" start="4986" end="59254" fixed_id="t2">
             <long_name>caspase 8, apoptosis-related cysteine peptidase</long_name>
             <comment></comment>
@@ -352,6 +346,27 @@
               <db_xref source="GI" accession="15718706"></db_xref>
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" transcript_id="NM_001228.4" start="4986" end="59254" fixed_id="t1">
+            <long_name>caspase 8, apoptosis-related cysteine peptidase</long_name>
+            <comment></comment>
+            <db_xref source="GeneID" accession="841"></db_xref>
+            <db_xref source="GI" accession="122056470"></db_xref>
+            <protein_product source="RefSeq" accession="NP_001219.2" cds_start="38030" cds_end="58137">
+              <long_name>caspase-8 isoform A precursor</long_name>
+              <long_name>caspase 8, apoptosis-related cysteine protease</long_name>
+              <long_name>FADD-homologous ICE/CED-3-like protease</long_name>
+              <long_name>MACH-alpha-1/2/3 protein</long_name>
+              <long_name>MACH-beta-1/2/3/4 protein</long_name>
+              <long_name>FADD-like ICE</long_name>
+              <long_name>apoptotic protease Mch-5</long_name>
+              <long_name>apoptotic cysteine protease</long_name>
+              <long_name>ICE-like apoptotic protease 5</long_name>
+              <long_name>MORT1-associated ced-3 homolog</long_name>
+              <db_xref source="CCDS" accession="CCDS42799.1"></db_xref>
+              <db_xref source="GeneID" accession="841"></db_xref>
+              <db_xref source="GI" accession="15718704"></db_xref>
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -368,11 +383,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="2" chr_start="202093181" chr_end="202154432" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="61252" start="202093181" end="202154432"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CASP8</lrg_gene_name>
       <features>
         <gene symbol="CASP10" strand="1" start="1" end="949">
           <partial>5-prime</partial>
@@ -428,7 +439,7 @@
               <db_xref source="UniProtKB" accession="C9JB29" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000303385" start="4986" end="59254">
+          <transcript source="Ensembl" transcript_id="ENST00000303385" start="4986" end="59254" fixed_id="t2">
             <long_name>caspase 8, apoptosis-related cysteine peptidase (CASP8), transcript variant B, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS2342.1" />
             <db_xref source="RefSeq" accession="NM_033355.3" />
@@ -446,7 +457,7 @@
               <db_xref source="UniProtKB" accession="C9JS28" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000392264" start="4986" end="59254">
+          <transcript source="Ensembl" transcript_id="ENST00000392264" start="4986" end="59254" fixed_id="t1">
             <long_name>caspase 8, apoptosis-related cysteine peptidase (CASP8), transcript variant A, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS42799.1" />
             <db_xref source="RefSeq" accession="NM_001228.4" />

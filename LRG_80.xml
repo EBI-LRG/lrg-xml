@@ -63,6 +63,25 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="9" chr_start="131639391" chr_end="131682318" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="42928" start="131639391" end="131682318">
+          <diff type="mismatch" lrg_start="31529" lrg_end="31529" start="131670919" end="131670919" lrg_sequence="C" genomic_sequence="T" />
+          <diff type="mismatch" lrg_start="40507" lrg_end="40507" start="131679897" end="131679897" lrg_sequence="G" genomic_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">LRRC8A</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -96,7 +115,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="NCBI_DB">LRRC8A</lrg_gene_name>
       <features>
         <gene symbol="CCBL1" strand="-1" start="1" end="4964">
           <partial>3-prime</partial>
@@ -167,14 +185,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="9" chr_start="131639391" chr_end="131682318" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="42928" start="131639391" end="131682318">
-          <diff type="mismatch" lrg_start="31529" lrg_end="31529" start="131670919" end="131670919" lrg_sequence="C" genomic_sequence="T" />
-          <diff type="mismatch" lrg_start="40507" lrg_end="40507" start="131679897" end="131679897" lrg_sequence="G" genomic_sequence="A" />
-        </mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">LRRC8A</lrg_gene_name>
       <features>
         <gene symbol="CCBL1" strand="-1" start="1" end="5383">
           <partial>3-prime</partial>
@@ -219,7 +230,7 @@
           <db_xref source="Ensembl" accession="ENSG00000136802" />
           <db_xref source="GeneID" accession="56262" />
           <db_xref source="MIM" accession="608360" />
-          <transcript source="Ensembl" transcript_id="ENST00000372600" start="5001" end="40928">
+          <transcript source="Ensembl" transcript_id="ENST00000372600" start="5001" end="40928" fixed_id="t1">
             <db_xref source="CCDS" accession="CCDS35155.1" />
             <protein_product source="Ensembl" accession="ENSP00000361682" cds_start="30054" cds_end="39260">
               <long_name>leucine rich repeat containing 8 family, member A </long_name>

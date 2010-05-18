@@ -149,6 +149,24 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="5" chr_start="41140336" chr_end="41266540" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="126205" start="41140336" end="41266540">
+          <diff type="mismatch" lrg_start="107678" lrg_end="107678" start="41158863" end="41158863" lrg_sequence="T" genomic_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">C6</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -238,7 +256,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">C6</lrg_gene_name>
       <features>
         <gene symbol="C6" strand="1" start="5001" end="124205">
           <long_name>complement component 6</long_name>
@@ -275,13 +292,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="5" chr_start="41140336" chr_end="41266540" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="126205" start="41140336" end="41266540">
-          <diff type="mismatch" lrg_start="107678" lrg_end="107678" start="41158863" end="41158863" lrg_sequence="T" genomic_sequence="C" />
-        </mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">C6</lrg_gene_name>
       <features>
         <gene symbol="C6" strand="1" start="5001" end="124205">
           <long_name>complement component 6</long_name>
@@ -306,7 +317,7 @@
               <db_xref source="UniProtKB" accession="C9JX36" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000337836" start="52929" end="124205">
+          <transcript source="Ensembl" transcript_id="ENST00000337836" start="52929" end="124205" fixed_id="t1">
             <long_name>complement component 6 (C6), transcript variant 1, mRNA</long_name>
             <long_name>complement component 6 (C6), transcript variant 2, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS3936.1" />

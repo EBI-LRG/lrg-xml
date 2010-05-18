@@ -121,6 +121,31 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-18</modification_date>
+      <mapping assembly="GRCh37" chr_name="X" chr_start="37634274" chr_end="37674714" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="40445" start="37634274" end="37674714">
+          <diff type="mismatch" lrg_start="4072" lrg_end="4072" start="37638345" end="37638345" lrg_sequence="T" genomic_sequence="G" />
+          <diff type="mismatch" lrg_start="4074" lrg_end="4074" start="37638347" end="37638347" lrg_sequence="T" genomic_sequence="G" />
+          <diff type="lrg_ins" lrg_start="4507" lrg_end="4510" start="37638780" end="37638779" lrg_sequence="ATAT" />
+          <diff type="genomic_ins" lrg_start="14477" lrg_end="14476" start="37648746" end="37648749" genomic_sequence="AAGA" />
+          <diff type="mismatch" lrg_start="17390" lrg_end="17390" start="37651663" end="37651663" lrg_sequence="C" genomic_sequence="T" />
+          <diff type="mismatch" lrg_start="18245" lrg_end="18245" start="37652518" end="37652518" lrg_sequence="T" genomic_sequence="C" />
+          <diff type="lrg_ins" lrg_start="26610" lrg_end="26613" start="37660883" end="37660882" lrg_sequence="GTGT" />
+          <diff type="mismatch" lrg_start="27364" lrg_end="27364" start="37661633" end="37661633" lrg_sequence="T" genomic_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">CYBB</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -190,7 +215,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CYBB</lrg_gene_name>
       <features>
         <gene symbol="CYBB" strand="1" start="5001" end="38445">
           <synonym>CGD</synonym>
@@ -241,20 +265,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-17</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="X" chr_start="37634274" chr_end="37674714" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="40445" start="37634274" end="37674714">
-          <diff type="mismatch" lrg_start="4072" lrg_end="4072" start="37638345" end="37638345" lrg_sequence="T" genomic_sequence="G" />
-          <diff type="mismatch" lrg_start="4074" lrg_end="4074" start="37638347" end="37638347" lrg_sequence="T" genomic_sequence="G" />
-          <diff type="lrg_ins" lrg_start="4507" lrg_end="4510" start="37638780" end="37638779" lrg_sequence="ATAT" />
-          <diff type="genomic_ins" lrg_start="14477" lrg_end="14476" start="37648746" end="37648749" genomic_sequence="AAGA" />
-          <diff type="mismatch" lrg_start="17390" lrg_end="17390" start="37651663" end="37651663" lrg_sequence="C" genomic_sequence="T" />
-          <diff type="mismatch" lrg_start="18245" lrg_end="18245" start="37652518" end="37652518" lrg_sequence="T" genomic_sequence="C" />
-          <diff type="lrg_ins" lrg_start="26610" lrg_end="26613" start="37660883" end="37660882" lrg_sequence="GTGT" />
-          <diff type="mismatch" lrg_start="27364" lrg_end="27364" start="37661633" end="37661633" lrg_sequence="T" genomic_sequence="C" />
-        </mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CYBB</lrg_gene_name>
       <features>
         <gene symbol="RP5-972B16.2" strand="1" start="1" end="40445">
           <partial>5-prime</partial>
@@ -271,7 +282,7 @@
           <db_xref source="Ensembl" accession="ENSG00000165168" />
           <db_xref source="GeneID" accession="1536" />
           <db_xref source="MIM" accession="300481" />
-          <transcript source="Ensembl" transcript_id="ENST00000378588" start="4995" end="38445">
+          <transcript source="Ensembl" transcript_id="ENST00000378588" start="4995" end="38445" fixed_id="t1">
             <long_name>cytochrome b-245, beta polypeptide (CYBB), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS14242.1" />
             <db_xref source="RefSeq" accession="NM_000397.3" />
