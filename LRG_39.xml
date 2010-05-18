@@ -6,7 +6,8 @@
     <id>LRG_39</id>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
-      <name></name>
+      <name>CD3Gbase: Mutation registry for autosomal recessiveCD3gamma immunodeficiency</name>
+      <url>http://bioinf.uta.fi/CD3Gbase/</url>
       <contact>
         <name>Jouni Valiaho</name>
         <address>University of Tampere, Finland</address>
@@ -153,23 +154,6 @@
           <db_xref source="GeneID" accession="915"></db_xref>
           <db_xref source="HGNC" accession="1673"></db_xref>
           <db_xref source="MIM" accession="186790"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_001040651.1" start="108" end="3401">
-            <partial>3-prime</partial>
-            <long_name>CD3d molecule, delta (CD3-TCR complex)</long_name>
-            <db_xref source="GeneID" accession="915"></db_xref>
-            <db_xref source="GI" accession="98985800"></db_xref>
-            <protein_product source="RefSeq" accession="NP_001035741.1" cds_start="108" cds_end="3264" codon_start="1">
-              <partial>3-prime</partial>
-              <long_name>T-cell surface glycoprotein CD3 delta chain isoform B precursor</long_name>
-              <long_name>CD3d antigen, delta polypeptide (TiT3 complex)</long_name>
-              <long_name>T-cell receptor T3 delta chain</long_name>
-              <long_name>OKT3, delta chain</long_name>
-              <long_name>CD3 antigen, delta subunit</long_name>
-              <db_xref source="CCDS" accession="CCDS41724.1"></db_xref>
-              <db_xref source="GeneID" accession="915"></db_xref>
-              <db_xref source="GI" accession="98985801"></db_xref>
-            </protein_product>
-          </transcript>
           <transcript source="RefSeq" transcript_id="NM_000732.4" start="108" end="3401">
             <partial>3-prime</partial>
             <long_name>CD3d molecule, delta (CD3-TCR complex)</long_name>
@@ -185,6 +169,23 @@
               <db_xref source="CCDS" accession="CCDS8394.1"></db_xref>
               <db_xref source="GeneID" accession="915"></db_xref>
               <db_xref source="GI" accession="4502669"></db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" transcript_id="NM_001040651.1" start="108" end="3401">
+            <partial>3-prime</partial>
+            <long_name>CD3d molecule, delta (CD3-TCR complex)</long_name>
+            <db_xref source="GeneID" accession="915"></db_xref>
+            <db_xref source="GI" accession="98985800"></db_xref>
+            <protein_product source="RefSeq" accession="NP_001035741.1" cds_start="108" cds_end="3264" codon_start="1">
+              <partial>3-prime</partial>
+              <long_name>T-cell surface glycoprotein CD3 delta chain isoform B precursor</long_name>
+              <long_name>CD3d antigen, delta polypeptide (TiT3 complex)</long_name>
+              <long_name>T-cell receptor T3 delta chain</long_name>
+              <long_name>OKT3, delta chain</long_name>
+              <long_name>CD3 antigen, delta subunit</long_name>
+              <db_xref source="CCDS" accession="CCDS41724.1"></db_xref>
+              <db_xref source="GeneID" accession="915"></db_xref>
+              <db_xref source="GI" accession="98985801"></db_xref>
             </protein_product>
           </transcript>
         </gene>
@@ -243,17 +244,17 @@
           <db_xref source="Ensembl" accession="ENSG00000167286" />
           <db_xref source="GeneID" accession="915" />
           <db_xref source="MIM" accession="186790" />
-          <transcript source="Ensembl" transcript_id="ENST00000300692" start="108" end="3401">
-            <partial>3-prime</partial>
-            <long_name>CD3d molecule, delta (CD3-TCR complex) (CD3D), transcript variant 1, mRNA</long_name>
-            <db_xref source="CCDS" accession="CCDS8394.1" />
-            <db_xref source="RefSeq" accession="NM_000732.4" />
-          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000392884" start="108" end="3401">
             <partial>3-prime</partial>
             <long_name>CD3d molecule, delta (CD3-TCR complex) (CD3D), transcript variant 2, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS41724.1" />
             <db_xref source="RefSeq" accession="NM_001040651.1" />
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000300692" start="108" end="3401">
+            <partial>3-prime</partial>
+            <long_name>CD3d molecule, delta (CD3-TCR complex) (CD3D), transcript variant 1, mRNA</long_name>
+            <db_xref source="CCDS" accession="CCDS8394.1" />
+            <db_xref source="RefSeq" accession="NM_000732.4" />
           </transcript>
         </gene>
         <gene symbol="CD3G" strand="1" start="5001" end="14439">
@@ -262,6 +263,11 @@
           <db_xref source="Ensembl" accession="ENSG00000160654" />
           <db_xref source="GeneID" accession="917" />
           <db_xref source="MIM" accession="186740" />
+          <transcript source="Ensembl" transcript_id="ENST00000392883" start="5001" end="14439">
+            <protein_product source="Ensembl" accession="ENSP00000376621" cds_start="10501" cds_end="13126">
+              <db_xref source="UniProtKB" accession="A8MUH3" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000292144" start="5001" end="14439" fixed_id="t1">
             <long_name>CD3g molecule, gamma (CD3-TCR complex) (CD3G), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS8395.1" />
@@ -273,11 +279,6 @@
               <db_xref source="UniProtKB" accession="B0YIY5" />
               <db_xref source="UniProtKB" accession="Q53FH3" />
               <db_xref source="UniProtKB" accession="P09693" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000392883" start="5001" end="14439">
-            <protein_product source="Ensembl" accession="ENSP00000376621" cds_start="10501" cds_end="13126">
-              <db_xref source="UniProtKB" accession="A8MUH3" />
             </protein_product>
           </transcript>
         </gene>
