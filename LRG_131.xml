@@ -110,6 +110,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-21</modification_date>
+      <mapping assembly="GRCh37" chr_name="X" chr_start="153634877" chr_end="153652065" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="17189" start="153634877" end="153652065"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">TAZ</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -171,7 +187,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">TAZ</lrg_gene_name>
       <features>
         <gene symbol="DNASE1L1" strand="-1" start="1" end="5551">
           <partial>3-prime</partial>
@@ -251,11 +266,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-21</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="X" chr_start="153634877" chr_end="153652065" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="17189" start="153634877" end="153652065"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">TAZ</lrg_gene_name>
       <features>
         <gene symbol="RPL10" strand="1" start="1" end="2628">
           <partial>5-prime</partial>
@@ -378,7 +389,7 @@
               <db_xref source="UniProtKB" accession="Q2VF39" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000299328" start="5016" end="15189">
+          <transcript source="Ensembl" transcript_id="ENST00000299328" start="5016" end="15189" fixed_id="t1">
             <long_name>tafazzin (TAZ), transcript variant 1, mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS14748.1" />
             <db_xref source="RefSeq" accession="NM_000116.3" />
