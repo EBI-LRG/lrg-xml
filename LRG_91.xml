@@ -79,6 +79,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-05-21</modification_date>
+      <mapping assembly="GRCh37" chr_name="14" chr_start="20932542" chr_end="20947248" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="14707" start="20932542" end="20947248"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">PNP</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -120,7 +136,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">PNP</lrg_gene_name>
       <features>
         <gene symbol="PNP" strand="1" start="4997" end="13624">
           <synonym>FLJ94043</synonym>
@@ -167,11 +182,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-05-21</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="14" chr_start="20932542" chr_end="20947248" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="14707" start="20932542" end="20947248"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">PNP</lrg_gene_name>
       <features>
         <gene symbol="PNP" strand="1" start="4997" end="12712">
           <synonym>NP</synonym>
@@ -181,7 +192,7 @@
           <db_xref source="Ensembl" accession="ENSG00000198805" />
           <db_xref source="GeneID" accession="4860" />
           <db_xref source="MIM" accession="164050" />
-          <transcript source="Ensembl" transcript_id="ENST00000361505" start="4997" end="12712">
+          <transcript source="Ensembl" transcript_id="ENST00000361505" start="4997" end="12712" fixed_id="t1">
             <long_name>purine nucleoside phosphorylase (PNP), mRNA</long_name>
             <db_xref source="CCDS" accession="CCDS9552.1" />
             <db_xref source="RefSeq" accession="NM_000270.3" />
