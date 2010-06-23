@@ -6,7 +6,8 @@
     <id>LRG_130</id>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
-      <name></name>
+      <name>Colon cancer gene variant databases: Adenomatous Polyposis Coli (APC)</name>
+      <url>http://www.lovd.nl/APC</url>
       <contact>
         <name>Stefan Aretz</name>
         <address>Institute of  Human Genetics, Biomedical Centre, Bonn, Germany</address>
@@ -342,6 +343,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2010-06-23</modification_date>
+      <mapping assembly="GRCh37" chr_name="5" chr_start="112023218" chr_end="112186936" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="163719" start="112023218" end="112186936"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">APC</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -559,7 +576,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">APC</lrg_gene_name>
       <features>
         <gene symbol="APC" strand="1" start="20001" end="158719">
           <synonym>BTPS2</synonym>
@@ -587,21 +603,6 @@
               <db_xref source="GI" accession="189011568"></db_xref>
             </protein_product>
           </transcript>
-          <transcript source="RefSeq" transcript_id="NM_001127510.1" start="50339" end="158719" fixed_id="t2">
-            <long_name>adenomatous polyposis coli</long_name>
-            <comment></comment>
-            <db_xref source="GeneID" accession="324"></db_xref>
-            <db_xref source="GI" accession="189011565"></db_xref>
-            <protein_product source="RefSeq" accession="NP_001120982.1" cds_start="67371" cds_end="156606">
-              <long_name>adenomatous polyposis coli protein</long_name>
-              <long_name>adenomatosis polyposis coli tumor suppressor</long_name>
-              <long_name>deleted in polyposis 2.5</long_name>
-              <long_name>adenomatous polyposis coli protein</long_name>
-              <db_xref source="CCDS" accession="CCDS4107.1"></db_xref>
-              <db_xref source="GeneID" accession="324"></db_xref>
-              <db_xref source="GI" accession="189011566"></db_xref>
-            </protein_product>
-          </transcript>
           <transcript source="RefSeq" transcript_id="NM_000038.4" start="50339" end="158719" fixed_id="t1">
             <long_name>adenomatous polyposis coli</long_name>
             <comment></comment>
@@ -615,6 +616,21 @@
               <db_xref source="CCDS" accession="CCDS4107.1"></db_xref>
               <db_xref source="GeneID" accession="324"></db_xref>
               <db_xref source="GI" accession="53759122"></db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" transcript_id="NM_001127510.1" start="50339" end="158719" fixed_id="t2">
+            <long_name>adenomatous polyposis coli</long_name>
+            <comment></comment>
+            <db_xref source="GeneID" accession="324"></db_xref>
+            <db_xref source="GI" accession="189011565"></db_xref>
+            <protein_product source="RefSeq" accession="NP_001120982.1" cds_start="67371" cds_end="156606">
+              <long_name>adenomatous polyposis coli protein</long_name>
+              <long_name>adenomatosis polyposis coli tumor suppressor</long_name>
+              <long_name>deleted in polyposis 2.5</long_name>
+              <long_name>adenomatous polyposis coli protein</long_name>
+              <db_xref source="CCDS" accession="CCDS4107.1"></db_xref>
+              <db_xref source="GeneID" accession="324"></db_xref>
+              <db_xref source="GI" accession="189011566"></db_xref>
             </protein_product>
           </transcript>
         </gene>
@@ -633,11 +649,7 @@
       <comment>Annotation is based on Ensembl release 58</comment>
       <modification_date>2010-06-23</modification_date>
       <other_exon_naming></other_exon_naming>
-      <mapping assembly="GRCh37" chr_name="5" chr_start="112023218" chr_end="112186936" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="163719" start="112023218" end="112186936"></mapping_span>
-      </mapping>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">APC</lrg_gene_name>
       <features>
         <gene symbol="APC" strand="1" start="19978" end="158719">
           <synonym>DP2</synonym>
@@ -651,7 +663,7 @@
           <transcript source="Ensembl" transcript_id="ENST00000509732" start="19978" end="79802">
             <protein_product source="Ensembl" accession="ENSP00000426541" cds_start="67371" cds_end="79802"></protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000457016" start="20001" end="158719">
+          <transcript source="Ensembl" transcript_id="ENST00000457016" start="20001" end="158719" fixed_id="t3">
             <db_xref source="CCDS" accession="CCDS4107.1" />
             <protein_product source="Ensembl" accession="ENSP00000413133" cds_start="67371" cds_end="156606">
               <long_name>adenomatous polyposis coli protein </long_name>
@@ -691,7 +703,7 @@
               <db_xref source="UniProtKB" accession="Q9UM98" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000395617" start="50339" end="158719">
+          <transcript source="Ensembl" transcript_id="ENST00000395617" start="50339" end="158719" fixed_id="t2">
             <long_name>adenomatous polyposis coli (APC), transcript variant 3, mRNA</long_name>
             <long_name>adenomatous polyposis coli (APC), transcript variant 1, mRNA</long_name>
             <long_name>adenomatous polyposis coli (APC), transcript variant 2, mRNA</long_name>
