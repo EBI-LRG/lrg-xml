@@ -243,7 +243,7 @@
         </mapping_span>
       </mapping>
       <mapping assembly="NCBI36" chr_name="1" chr_start="42982593" chr_end="43010342">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="27750" start="43010342" end="42982593">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="27750" start="42982593" end="43010342">
           <diff type="mismatch" lrg_start="25325" lrg_end="25325" start="42985018" end="42985018" lrg_sequence="C" genomic_sequence="T" />
         </mapping_span>
       </mapping>
@@ -257,7 +257,7 @@
             <comment>This transcript encodes transcript LEPRE1b in Willaert et al. 2009 (PMID: 19088120)</comment>
           </transcript>
         </gene>
-      </features> 
+      </features>
     </annotation_set>
     <annotation_set>
       <source>
@@ -431,6 +431,21 @@
           <db_xref source="HGNC" accession="19316"></db_xref>
           <db_xref source="MIM" accession="610339"></db_xref>
           <db_xref source="GI" accession="193211421"></db_xref>
+          <transcript source="RefSeq" transcript_id="NM_001146289.1" start="5001" end="25750" fixed_id="t2">
+            <long_name>leucine proline-enriched proteoglycan (leprecan) 1</long_name>
+            <comment></comment>
+            <db_xref source="GeneID" accession="64175"></db_xref>
+            <db_xref source="GI" accession="226371642"></db_xref>
+            <protein_product source="RefSeq" accession="NP_001139761.1" cds_start="5114" cds_end="25252">
+              <long_name>leprecan 1 isoform 2</long_name>
+              <long_name>prolyl 3-hydroxylase 1</long_name>
+              <long_name>growth suppressor 1</long_name>
+              <long_name>leprecan</long_name>
+              <long_name>leucine- and proline-enriched proteoglycan 1</long_name>
+              <db_xref source="GeneID" accession="64175"></db_xref>
+              <db_xref source="GI" accession="226371643"></db_xref>
+            </protein_product>
+          </transcript>
           <transcript source="RefSeq" transcript_id="NM_022356.3" start="5001" end="25750" fixed_id="t1">
             <long_name>leucine proline-enriched proteoglycan (leprecan) 1</long_name>
             <comment></comment>
@@ -447,21 +462,6 @@
               <db_xref source="GI" accession="186928835"></db_xref>
             </protein_product>
           </transcript>
-          <transcript source="RefSeq" transcript_id="NM_001146289.1" start="5001" end="25750" fixed_id="t2">
-            <long_name>leucine proline-enriched proteoglycan (leprecan) 1</long_name>
-            <comment></comment>
-            <db_xref source="GeneID" accession="64175"></db_xref>
-            <db_xref source="GI" accession="226371642"></db_xref>
-            <protein_product source="RefSeq" accession="NP_001139761.1" cds_start="5114" cds_end="25252">
-              <long_name>leprecan 1 isoform 2</long_name>
-              <long_name>prolyl 3-hydroxylase 1</long_name>
-              <long_name>growth suppressor 1</long_name>
-              <long_name>leprecan</long_name>
-              <long_name>leucine- and proline-enriched proteoglycan 1</long_name>
-              <db_xref source="GeneID" accession="64175"></db_xref>
-              <db_xref source="GI" accession="226371643"></db_xref>
-            </protein_product>
-          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -475,29 +475,36 @@
           <email>ensembl-variation@ebi.ac.uk</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 57</comment>
-      <modification_date>2010-02-12</modification_date>
+      <comment>Annotation is based on Ensembl release 58</comment>
+      <modification_date>2010-07-15</modification_date>
       <other_exon_naming></other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
         <gene symbol="C1orf50" strand="-1" start="1" end="4816">
           <partial>3-prime</partial>
           <synonym>MGC955</synonym>
-          <long_name>chromosome 1 open reading frame 50</long_name>
+          <long_name>chromosome 1 open reading frame 50 (protein_coding)</long_name>
           <db_xref source="HGNC" accession="28795" />
           <db_xref source="Ensembl" accession="ENSG00000164008" />
           <db_xref source="GeneID" accession="79078" />
-          <transcript source="Ensembl" transcript_id="ENST00000419561" start="4044" end="4779">
-            <protein_product source="Ensembl" accession="ENSP00000394662" cds_start="4044" cds_end="4773">
-              <db_xref source="UniProtKB" accession="B4DSR2" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000372525" start="4461" end="4816">
+          <transcript source="Ensembl" transcript_id="ENST00000468913" start="1" end="2407">
             <partial>3-prime</partial>
-            <long_name>chromosome 1 open reading frame 50 (C1orf50), mRNA</long_name>
+            <long_name>C1orf50-007 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000464081" start="1" end="4793">
+            <partial>3-prime</partial>
+            <long_name>C1orf50-004 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000492801" start="1" end="4803">
+            <partial>3-prime</partial>
+            <long_name>C1orf50-002 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000372525" start="1" end="4816">
+            <partial>3-prime</partial>
+            <long_name>chromosome 1 open reading frame 50 (C1orf50), mRNA (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS473.1" />
             <db_xref source="RefSeq" accession="NM_024097.2" />
-            <protein_product source="Ensembl" accession="ENSP00000361603" cds_start="4461" cds_end="4773">
+            <protein_product source="Ensembl" accession="ENSP00000361603" cds_start="4576" cds_end="4773">
               <partial>3-prime</partial>
               <long_name>hypothetical protein LOC79078 </long_name>
               <db_xref source="RefSeq" accession="NP_077002.2" />
@@ -510,17 +517,17 @@
           <synonym>LEPRECAN</synonym>
           <synonym>MGC117314</synonym>
           <synonym>P3H1</synonym>
-          <long_name>leucine proline-enriched proteoglycan (leprecan) 1</long_name>
+          <long_name>leucine proline-enriched proteoglycan (leprecan) 1 (protein_coding)</long_name>
           <db_xref source="HGNC" accession="19316" />
           <db_xref source="Ensembl" accession="ENSG00000117385" />
           <db_xref source="GeneID" accession="64175" />
           <db_xref source="MIM" accession="610339" />
           <transcript source="Ensembl" transcript_id="ENST00000397054" start="5001" end="15641">
+            <long_name>LEPRE1-201 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000380245" cds_start="5114" cds_end="15641"></protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000296388" start="5062" end="25710" fixed_id="t2">
-            <long_name>leucine proline-enriched proteoglycan (leprecan) 1 (LEPRE1), transcript variant 2, mRNA</long_name>
-            <long_name>leucine proline-enriched proteoglycan (leprecan) 1 (LEPRE1), transcript variant 1, mRNA</long_name>
+            <long_name>leucine proline-enriched proteoglycan (leprecan) 1 (LEPRE1), transcript variant 1, mRNA (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS472.2" />
             <db_xref source="RefSeq" accession="NM_001146289.1" />
             <db_xref source="RefSeq" accession="NM_022356.3" />
@@ -533,7 +540,14 @@
               <db_xref source="UniProtKB" accession="Q32P28" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000495874" start="5063" end="25710">
+            <long_name>LEPRE1-004 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000492956" start="5068" end="12099">
+            <long_name>LEPRE1-003 (retained_intron)</long_name>
+          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000236040" start="5073" end="25710">
+            <long_name>LEPRE1-002 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000236040" cds_start="5114" cds_end="25173">
               <long_name>leprecan 1 isoform 2 </long_name>
               <db_xref source="RefSeq" accession="NP_001139761.1" />
@@ -541,18 +555,46 @@
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000372526" start="5083" end="12828">
+            <long_name>LEPRE1-012 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000361604" cds_start="5114" cds_end="12828"></protein_product>
           </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000460031" start="5096" end="25711">
+            <long_name>LEPRE1-009 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000463465" start="9682" end="17105">
+            <long_name>LEPRE1-010 (retained_intron)</long_name>
+          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000431412" start="16876" end="24362">
-            <protein_product source="Ensembl" accession="ENSP00000408056" cds_start="16876" cds_end="23792"></protein_product>
+            <long_name>LEPRE1-008 (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000408056" cds_start="16876" cds_end="23792">
+              <db_xref source="UniProtKB" accession="C9JQP1" />
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000447502" start="17098" end="20360">
-            <protein_product source="Ensembl" accession="ENSP00000394294" cds_start="17098" cds_end="20360"></protein_product>
+            <long_name>LEPRE1-011 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000394294" cds_start="17098" cds_end="20360">
+              <db_xref source="UniProtKB" accession="C9JSN5" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000481465" start="17149" end="22184">
+            <long_name>LEPRE1-013 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000460831" start="23342" end="24327">
+            <long_name>LEPRE1-005 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000462474" start="24287" end="25577">
+            <long_name>LEPRE1-007 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000472802" start="24509" end="25554">
+            <long_name>LEPRE1-006 (retained_intron)</long_name>
           </transcript>
         </gene>
-        <gene symbol="AC098484.1" strand="-1" start="14875" end="15870">
+        <gene symbol="RP5-994D16.7" strand="-1" start="14875" end="15870">
+          <long_name>RP5-994D16.7 (processed_transcript)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000234866" />
-          <transcript source="Ensembl" transcript_id="ENST00000436098" start="14875" end="15870"></transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000436098" start="14875" end="15870">
+            <long_name>RP5-994D16.7-001 (processed_transcript)</long_name>
+          </transcript>
         </gene>
       </features>
     </annotation_set>

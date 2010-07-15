@@ -621,8 +621,8 @@
           <email>ensembl-variation@ebi.ac.uk</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 57</comment>
-      <modification_date>2010-03-16</modification_date>
+      <comment>Annotation is based on Ensembl release 58</comment>
+      <modification_date>2010-07-15</modification_date>
       <other_exon_naming>
         <source description="http://www.le.ac.uk/genetics/collagen/nomenclature.html#exon_numbering">
           <transcript name="t1">
@@ -843,43 +843,55 @@
       <features>
         <gene symbol="COL3A1" strand="1" start="4948" end="43374">
           <synonym>EDS4A</synonym>
-          <long_name>collagen, type III, alpha 1</long_name>
+          <long_name>collagen, type III, alpha 1 (protein_coding)</long_name>
           <db_xref source="HGNC" accession="2201" />
           <db_xref source="Ensembl" accession="ENSG00000168542" />
           <db_xref source="GeneID" accession="1281" />
           <db_xref source="MIM" accession="120180" />
           <transcript source="Ensembl" transcript_id="ENST00000304636" start="4948" end="43374" fixed_id="t1">
-            <long_name>collagen, type III, alpha 1 (COL3A1), mRNA</long_name>
+            <long_name>collagen, type III, alpha 1 (COL3A1), mRNA (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2297.1" />
             <db_xref source="RefSeq" accession="NM_000090.3" />
             <protein_product source="Ensembl" accession="ENSP00000304408" cds_start="5118" cds_end="42402">
-              <long_name>collagen type III alpha 1 preproprotein </long_name>
+              <long_name>collagen alpha-1(III) chain preproprotein </long_name>
               <db_xref source="RefSeq" accession="NP_000081.1" />
+              <db_xref source="UniProtKB" accession="D2JYH5" />
               <db_xref source="UniProtKB" accession="Q6LBY7" />
               <db_xref source="UniProtKB" accession="P02461" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000317840" start="5001" end="43374">
+            <long_name>COL3A1-201 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000315243" cds_start="5118" cds_end="42402">
               <db_xref source="UniProtKB" accession="Q6LBY7" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000470167" start="5022" end="15840">
+            <long_name>COL3A1-003 (retained_intron)</long_name>
+          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000450867" start="22302" end="24936">
+            <long_name>COL3A1-004 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000415346" cds_start="22302" cds_end="24936">
               <db_xref source="UniProtKB" accession="C9JEF7" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000467886" start="34051" end="34545">
+            <long_name>COL3A1-005 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000487010" start="38930" end="42676">
+            <long_name>COL3A1-002 (retained_intron)</long_name>
+          </transcript>
         </gene>
-        <gene symbol="hsa-mir-1245" strand="1" start="8720" end="8789">
+        <gene symbol="MIR1245" strand="1" start="8720" end="8789">
           <synonym>hsa-mir-1245</synonym>
           <synonym>MIRN1245</synonym>
-          <long_name>microRNA 1245</long_name>
+          <long_name>microRNA 1245 (miRNA)</long_name>
           <db_xref source="HGNC" accession="35311" />
           <db_xref source="Ensembl" accession="ENSG00000221502" />
           <transcript source="Ensembl" transcript_id="ENST00000408575" start="8720" end="8789">
-            <long_name>microRNA 1245 (MIR1245), microRNA</long_name>
-            <db_xref source="RefSeq" accession="NR_031647.1" />
+            <long_name>microRNA 1245 (MIR1245), microRNA (miRNA)</long_name>
             <db_xref source="miRBase" accession="MI0006380" />
+            <db_xref source="RefSeq" accession="NR_031647.1" />
           </transcript>
         </gene>
       </features>
