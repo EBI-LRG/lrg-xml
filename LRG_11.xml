@@ -6,8 +6,28 @@
     <id>LRG_11</id>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
+      <name>Raymond Dalgleish</name>
+      <contact>
+        <name>Raymond Dalgleish</name>
+        <address>Department of Genetics, University of Leicester, University Road, Leicester, LE1 7RH, United Kingdom</address>
+        <email>ray@leicester.ac.uk</email>
+      </contact>
+    </source>
+    <source>
       <name>CDKN2a Database Project</name>
       <url>http://biodesktop.uvm.edu/perl/p16</url>
+      <contact>
+        <name>Marc Greenblatt</name>
+        <email>Marc.Greenblatt vtmednet.org</email>
+      </contact>
+    </source>
+    <source>
+      <name>LOVD - Cyclin-Dependent Kinase inhibitor 2A (CDKN2A)</name>
+      <url>http://chromium.liacs.nl/LOVD2/home.php?select_db=CDKN2A</url>
+      <contact>
+        <name>Nienke van der Stoep</name>
+        <email>N.van_der_Stoep LUMC.nl</email>
+      </contact>
     </source>
     <source>
       <name>NCBI RefSeqGene</name>
@@ -277,7 +297,38 @@
       </source>
       <comment>Annotation is based on Ensembl release 59</comment>
       <modification_date>2010-08-09</modification_date>
-      <other_exon_naming></other_exon_naming>
+      <other_exon_naming>
+        <source description="Legacy numbering communicated by Dr. R. Dalgleish">
+          <transcript name="t1">
+            <exon>
+              <lrg_coords start="24453" end="24814"></lrg_coords>
+              <label>1A</label>
+            </exon>
+            <exon>
+              <lrg_coords start="28284" end="28590"></lrg_coords>
+              <label>2</label>
+            </exon>
+            <exon>
+              <lrg_coords start="31250" end="31740"></lrg_coords>
+              <label>3</label>
+            </exon>
+          </transcript>
+          <transcript name="t2">
+            <exon>
+              <lrg_coords start="5001" end="5353"></lrg_coords>
+              <label>1B</label>
+            </exon>
+            <exon>
+              <lrg_coords start="28284" end="28590"></lrg_coords>
+              <label>2</label>
+            </exon>
+            <exon>
+              <lrg_coords start="31250" end="31740"></lrg_coords>
+              <label>3</label>
+            </exon>
+          </transcript>
+        </source>
+      </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
         <gene symbol="CDKN2BAS" strand="-1" start="1" end="4701">
