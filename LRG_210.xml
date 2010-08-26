@@ -6,7 +6,8 @@
     <id>LRG_210</id>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
-      <name></name>
+      <name>TCAP homepage - Leiden Muscular Dystrophy pages</name>
+      <url>http://www.dmd.nl/nmdb2/home.php?select_db=TCAP</url>
       <contact>
         <name>Johan den Dunnen</name>
         <address>Leiden University Medical Center</address>
@@ -35,15 +36,15 @@
         </translation>
       </coding_region>
       <exon>
-        <lrg_coords start="5001" end="5124"></lrg_coords>
-        <cdna_coords start="1" end="124"></cdna_coords>
-        <peptide_coords start="1" end="37"></peptide_coords>
+        <lrg_coords start="5001" end="5124" />
+        <cdna_coords start="1" end="124" />
+        <peptide_coords start="1" end="37" />
       </exon>
-      <intron phase="2"></intron>
+      <intron phase="2" />
       <exon>
-        <lrg_coords start="5371" end="6209"></lrg_coords>
-        <cdna_coords start="125" end="963"></cdna_coords>
-        <peptide_coords start="37" end="167"></peptide_coords>
+        <lrg_coords start="5371" end="6209" />
+        <cdna_coords start="125" end="963" />
+        <peptide_coords start="37" end="167" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -252,6 +253,14 @@
             <partial>5-prime</partial>
             <long_name>STARD3-007 (retained_intron)</long_name>
           </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000488876" start="1" end="3139">
+            <partial>5-prime</partial>
+            <long_name>STARD3-003 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000481171" start="1" end="3139">
+            <partial>5-prime</partial>
+            <long_name>STARD3-006 (retained_intron)</long_name>
+          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000336308" start="1" end="3139">
             <partial>5-prime</partial>
             <long_name>StAR-related lipid transfer (START) domain containing 3 (STARD3), transcript variant 2, mRNA (protein_coding)</long_name>
@@ -267,14 +276,6 @@
               <db_xref source="UniProtKB" accession="C9J555" />
               <db_xref source="UniProtKB" accession="Q14849" />
             </protein_product>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000488876" start="1" end="3139">
-            <partial>5-prime</partial>
-            <long_name>STARD3-003 (retained_intron)</long_name>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000481171" start="1" end="3139">
-            <partial>5-prime</partial>
-            <long_name>STARD3-006 (retained_intron)</long_name>
           </transcript>
         </gene>
         <gene symbol="TCAP" strand="1" start="250" end="6210">
@@ -333,6 +334,20 @@
           </transcript>
         </gene>
       </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Human Cytochrome P450 (CYP) Allele Nomenclature Committee</name>
+        <url>http://www.cypalleles.ki.se/</url>
+      </source>
+      <modification_date>2010-08-25</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Titin-cap (telethonin)</name>
+        <url>http://www.dmd.nl</url>
+      </source>
+      <modification_date>2010-08-25</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
