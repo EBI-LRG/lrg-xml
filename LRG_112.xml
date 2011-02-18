@@ -186,6 +186,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2011-02-14</modification_date>
+      <mapping assembly="GRCh37" chr_name="17" chr_start="40463343" chr_end="40545513" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="82171" start="40463343" end="40545513"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">STAT3</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -299,7 +315,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">STAT3</lrg_gene_name>
       <features>
         <gene symbol="STAT3" strand="1" start="5001" end="80171">
           <synonym>APRF</synonym>
@@ -345,17 +360,110 @@
     </annotation_set>
     <annotation_set>
       <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl Variation</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 61</comment>
+      <modification_date>2011-02-17</modification_date>
+      <other_exon_naming></other_exon_naming>
+      <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
+      <features>
+        <gene symbol="STAT3" strand="1" start="5001" end="80172">
+          <synonym>APRF</synonym>
+          <long_name>signal transducer and activator of transcription 3 (acute-phase response factor) (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="11364" />
+          <db_xref source="Ensembl" accession="ENSG00000168610" />
+          <db_xref source="GeneID" accession="6774" />
+          <db_xref source="MIM" accession="102582" />
+          <transcript source="Ensembl" transcript_id="ENST00000389272" start="5001" end="80171">
+            <long_name>signal transducer and activator of transcription 3 (acute-phase response factor) (STAT3), transcript variant 2, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_003150.3" />
+            <db_xref source="CCDS" accession="CCDS32657.1" />
+            <protein_product source="Ensembl" accession="ENSP00000373923" cds_start="44980" cds_end="77751">
+              <long_name>signal transducer and activator of transcription 3 isoform 2 </long_name>
+              <db_xref source="RefSeq" accession="NP_003141.2" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000404395" start="5082" end="77937">
+            <long_name>STAT3-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS32657.1" />
+            <protein_product source="Ensembl" accession="ENSP00000384943" cds_start="44980" cds_end="77751">
+              <long_name>signal transducer and activator of transcription 3 isoform 2 </long_name>
+              <db_xref source="RefSeq" accession="NP_003141.2" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000264657" start="5109" end="80172" fixed_id="t1">
+            <long_name>signal transducer and activator of transcription 3 (acute-phase response factor) (STAT3), transcript variant 3, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_139276.2" />
+            <db_xref source="RefSeq" accession="NM_213662.1" />
+            <db_xref source="CCDS" accession="CCDS32656.1" />
+            <protein_product source="Ensembl" accession="ENSP00000264657" cds_start="44980" cds_end="77751">
+              <long_name>signal transducer and activator of transcription 3 isoform 1 </long_name>
+              <db_xref source="RefSeq" accession="NP_998827.1" />
+              <db_xref source="RefSeq" accession="NP_644805.1" />
+              <db_xref source="UniProtKB" accession="P40763" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000478276" start="61958" end="63838">
+            <long_name>STAT3-003 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000498330" start="68339" end="70432">
+            <long_name>STAT3-004 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000471989" start="68435" end="70461">
+            <long_name>STAT3-005 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000462286" start="71181" end="78332">
+            <long_name>STAT3-008 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000462269" start="75934" end="77899">
+            <long_name>STAT3-006 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000491272" start="76273" end="77985">
+            <long_name>STAT3-007 (retained_intron)</long_name>
+          </transcript>
+        </gene>
+        <gene symbol="STAT5A" strand="-1" start="81553" end="82171">
+          <partial>5-prime</partial>
+          <synonym>MGF</synonym>
+          <synonym>STAT5</synonym>
+          <long_name>signal transducer and activator of transcription 5A (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="11366" />
+          <db_xref source="Ensembl" accession="ENSG00000126561" />
+          <db_xref source="GeneID" accession="6776" />
+          <db_xref source="MIM" accession="601511" />
+          <transcript source="Ensembl" transcript_id="ENST00000345506" start="81553" end="82171">
+            <partial>5-prime</partial>
+            <long_name>STAT5A-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS11424.1" />
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000452307" start="81558" end="82171">
+            <partial>5-prime</partial>
+            <long_name>signal transducer and activator of transcription 5A (STAT5A), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_003152.3" />
+            <db_xref source="CCDS" accession="CCDS11424.1" />
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>STAT3 homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=STAT3</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
         <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_125</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

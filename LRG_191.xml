@@ -179,6 +179,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2011-02-14</modification_date>
+      <mapping assembly="GRCh37" chr_name="1" chr_start="9706790" chr_end="9791172" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="84383" start="9706790" end="9791172"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">PIK3CD</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -292,7 +308,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">PIK3CD</lrg_gene_name>
       <features>
         <gene symbol="PIK3CD" strand="1" start="5001" end="82383">
           <synonym>p110D</synonym>
@@ -386,6 +401,145 @@
               <db_xref source="GeneID" accession="22883"></db_xref>
               <db_xref source="GI" accession="57242757"></db_xref>
             </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl Variation</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 61</comment>
+      <modification_date>2011-02-17</modification_date>
+      <other_exon_naming></other_exon_naming>
+      <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
+      <features>
+        <gene symbol="PIK3CD" strand="1" start="5014" end="82188">
+          <synonym>p110D</synonym>
+          <long_name>phosphoinositide-3-kinase, catalytic, delta polypeptide (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="8977" />
+          <db_xref source="Ensembl" accession="ENSG00000171608" />
+          <db_xref source="GeneID" accession="5293" />
+          <db_xref source="MIM" accession="602839" />
+          <transcript source="Ensembl" transcript_id="ENST00000377346" start="5014" end="82188" fixed_id="t1">
+            <long_name>phosphoinositide-3-kinase, catalytic, delta polypeptide (PIK3CD), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_005026.3" />
+            <db_xref source="CCDS" accession="CCDS104.1" />
+            <protein_product source="Ensembl" accession="ENSP00000366563" cds_start="63725" cds_end="80315">
+              <long_name>phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta isoform </long_name>
+              <db_xref source="UniProtKB" accession="B7ZM44" />
+              <db_xref source="RefSeq" accession="NP_005017.3" />
+              <db_xref source="UniProtKB" accession="O00329" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000469267" start="5029" end="82188">
+            <long_name>PIK3CD-002 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000484851" start="41445" end="45215">
+            <long_name>PIK3CD-004 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000361110" start="63467" end="80501">
+            <long_name>PIK3CD-003 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000354410" cds_start="63725" cds_end="80315">
+              <db_xref source="UniProtKB" accession="Q5SR50" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000360563" start="63725" end="80315">
+            <long_name>PIK3CD-201 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000353766" cds_start="63725" cds_end="80315"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000481137" start="68968" end="69432">
+            <long_name>PIK3CD-005 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000479223" start="69545" end="70850">
+            <long_name>PIK3CD-006 (processed_transcript)</long_name>
+          </transcript>
+        </gene>
+        <gene symbol="C1orf200" strand="-1" start="5879" end="7855">
+          <long_name>chromosome 1 open reading frame 200 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="32346" />
+          <db_xref source="Ensembl" accession="ENSG00000179840" />
+          <transcript source="Ensembl" transcript_id="ENST00000377320" start="5879" end="7855">
+            <long_name>chromosome 1 open reading frame 200 (C1orf200), non-coding RNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NR_027045.1" />
+            <protein_product source="Ensembl" accession="ENSP00000366537" cds_start="7048" cds_end="7705">
+              <db_xref source="UniProtKB" accession="Q5SR53" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene symbol="RP11-558F24.2" strand="-1" start="14103" end="15897">
+          <long_name>RP11-558F24.2 (pseudogene)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000233268" />
+          <transcript source="Ensembl" transcript_id="ENST00000426570" start="14103" end="15897">
+            <long_name>RP11-558F24.2-201 (processed_pseudogene)</long_name>
+          </transcript>
+        </gene>
+        <gene symbol="RP11-558F24.4" strand="-1" start="33069" end="40843">
+          <long_name>RP11-558F24.4 (processed_transcript)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000231789" />
+          <transcript source="Ensembl" transcript_id="ENST00000415330" start="33069" end="40843">
+            <long_name>RP11-558F24.4-201 (processed_transcript)</long_name>
+          </transcript>
+        </gene>
+        <gene symbol="CLSTN1" strand="-1" start="82295" end="84383">
+          <partial>5-prime</partial>
+          <synonym>CDHR12</synonym>
+          <synonym>CSTN1</synonym>
+          <synonym>KIAA0911</synonym>
+          <long_name>calsyntenin 1 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="17447" />
+          <db_xref source="Ensembl" accession="ENSG00000171603" />
+          <db_xref source="GeneID" accession="22883" />
+          <db_xref source="MIM" accession="611321" />
+          <transcript source="Ensembl" transcript_id="ENST00000377298" start="82295" end="84383">
+            <partial>5-prime</partial>
+            <long_name>calsyntenin 1 (CLSTN1), transcript variant 1, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001009566.1" />
+            <db_xref source="CCDS" accession="CCDS30580.1" />
+            <protein_product source="Ensembl" accession="ENSP00000366513" cds_start="83777" cds_end="83974">
+              <partial>5-prime</partial>
+              <long_name>calsyntenin-1 isoform 1 </long_name>
+              <db_xref source="RefSeq" accession="NP_001009566.1" />
+              <db_xref source="UniProtKB" accession="O94985" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000435891" start="82297" end="84383">
+            <partial>5-prime</partial>
+            <long_name>CLSTN1-003 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000401934" cds_start="83777" cds_end="83974">
+              <partial>5-prime</partial>
+              <db_xref source="UniProtKB" accession="Q5SR54" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000377288" start="82297" end="84383">
+            <partial>5-prime</partial>
+            <long_name>CLSTN1-201 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000366502" cds_start="83777" cds_end="83974">
+              <partial>5-prime</partial>
+              <db_xref source="UniProtKB" accession="B4E3Q1" />
+              <db_xref source="UniProtKB" accession="Q5SR54" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000361311" start="82297" end="84383">
+            <partial>5-prime</partial>
+            <long_name>calsyntenin 1 (CLSTN1), transcript variant 2, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_014944.3" />
+            <db_xref source="CCDS" accession="CCDS105.1" />
+            <protein_product source="Ensembl" accession="ENSP00000354997" cds_start="83777" cds_end="83974">
+              <partial>5-prime</partial>
+              <long_name>calsyntenin-1 isoform 2 </long_name>
+              <db_xref source="RefSeq" accession="NP_055759.3" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000477264" start="82297" end="84383">
+            <partial>5-prime</partial>
+            <long_name>CLSTN1-006 (processed_transcript)</long_name>
           </transcript>
         </gene>
       </features>

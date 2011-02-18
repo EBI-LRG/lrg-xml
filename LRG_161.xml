@@ -129,6 +129,24 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2011-02-14</modification_date>
+      <mapping assembly="GRCh37" chr_name="7" chr_start="6010870" chr_end="6053737" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="42868" start="6010870" end="6053737">
+          <diff type="mismatch" lrg_start="26963" lrg_end="26963" start="6026775" end="6026775" lrg_sequence="G" genomic_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">PMS2</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -206,7 +224,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">PMS2</lrg_gene_name>
       <features>
         <gene symbol="AIMP2" strand="-1" start="1" end="4856">
           <partial>3-prime</partial>
@@ -268,17 +285,151 @@
     </annotation_set>
     <annotation_set>
       <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl Variation</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 61</comment>
+      <modification_date>2011-02-17</modification_date>
+      <other_exon_naming></other_exon_naming>
+      <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
+      <features>
+        <gene symbol="AIMP2" strand="-1" start="1" end="4862">
+          <partial>3-prime</partial>
+          <synonym>JTV-1</synonym>
+          <synonym>JTV1</synonym>
+          <synonym>p38</synonym>
+          <synonym>PRO0992</synonym>
+          <long_name>aminoacyl tRNA synthetase complex-interacting multifunctional protein 2 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="20609" />
+          <db_xref source="Ensembl" accession="ENSG00000106305" />
+          <db_xref source="GeneID" accession="7965" />
+          <db_xref source="MIM" accession="600859" />
+          <transcript source="Ensembl" transcript_id="ENST00000395236" start="1" end="4791">
+            <partial>3-prime</partial>
+            <long_name>AIMP2-004 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000378658" cds_start="4609" cds_end="4743">
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000415999" start="1" end="4817">
+            <partial>3-prime</partial>
+            <long_name>AIMP2-002 (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000392519" cds_start="1417" cds_end="4743"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000400479" start="1" end="4852">
+            <partial>3-prime</partial>
+            <long_name>AIMP2-003 (protein_coding)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000223029" start="1" end="4862">
+            <partial>3-prime</partial>
+            <long_name>aminoacyl tRNA synthetase complex-interacting multifunctional protein 2 (AIMP2), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_006303.3" />
+            <db_xref source="CCDS" accession="CCDS5344.1" />
+            <protein_product source="Ensembl" accession="ENSP00000223029" cds_start="4609" cds_end="4743">
+              <partial>3-prime</partial>
+              <long_name>aminoacyl tRNA synthase complex-interacting multifunctional protein 2 </long_name>
+              <db_xref source="UniProtKB" accession="A8MU58" />
+              <db_xref source="RefSeq" accession="NP_006294.2" />
+              <db_xref source="UniProtKB" accession="Q13155" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene symbol="PMS2" strand="1" start="4982" end="40868">
+          <synonym>HNPCC4</synonym>
+          <synonym>H_DJ0042M02.9</synonym>
+          <synonym>PMSL2</synonym>
+          <long_name>PMS2 postmeiotic segregation increased 2 (S. cerevisiae) (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="9122" />
+          <db_xref source="Ensembl" accession="ENSG00000122512" />
+          <db_xref source="GeneID" accession="100289811" />
+          <db_xref source="GeneID" accession="5395" />
+          <db_xref source="MIM" accession="600259" />
+          <transcript source="Ensembl" transcript_id="ENST00000265849" start="4982" end="40868" fixed_id="t1">
+            <long_name>PMS2 postmeiotic segregation increased 2 (S. cerevisiae) (PMS2), transcript variant 2, non-coding RNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="XM_003120552.1" />
+            <db_xref source="RefSeq" accession="XM_003120551.1" />
+            <db_xref source="RefSeq" accession="XM_003120549.1" />
+            <db_xref source="RefSeq" accession="XM_003120548.1" />
+            <db_xref source="RefSeq" accession="NM_000535.5" />
+            <db_xref source="RefSeq" accession="NR_003085.2" />
+            <db_xref source="CCDS" accession="CCDS5343.1" />
+            <protein_product source="Ensembl" accession="ENSP00000265849" cds_start="5088" cds_end="40708">
+              <long_name>mismatch repair endonuclease PMS2 isoform a </long_name>
+              <db_xref source="RefSeq" accession="XP_003120599.1" />
+              <db_xref source="RefSeq" accession="XP_003120600.1" />
+              <db_xref source="RefSeq" accession="XP_003120597.1" />
+              <db_xref source="RefSeq" accession="XP_003120596.1" />
+              <db_xref source="RefSeq" accession="NP_000526.1" />
+              <db_xref source="UniProtKB" accession="P54278" />
+              <db_xref source="UniProtKB" accession="Q68D20" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000382322" start="5001" end="40865">
+            <long_name>PMS2-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="XM_003120550.1" />
+            <protein_product source="Ensembl" accession="ENSP00000371759" cds_start="10101" cds_end="40708">
+              <db_xref source="UniProtKB" accession="C9J167" />
+              <db_xref source="RefSeq" accession="XP_003120599.1" />
+              <db_xref source="RefSeq" accession="XP_003120598.1" />
+              <db_xref source="UniProtKB" accession="Q68D20" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000380416" start="5009" end="12141">
+            <long_name>PMS2-007 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000441476" start="5046" end="11654">
+            <long_name>PMS2-203 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000392843" cds_start="10101" cds_end="11654">
+              <db_xref source="UniProtKB" accession="C9J167" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000413462" start="5088" end="14895">
+            <long_name>PMS2-202 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000403455" cds_start="5088" cds_end="8112"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000469652" start="5088" end="31232">
+            <long_name>PMS2-004 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000406569" start="5088" end="36433">
+            <long_name>PMS2-005 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000384308" cds_start="5088" cds_end="36433"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000382321" start="5088" end="40708">
+            <long_name>PMS2-006 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000371758" cds_start="5088" cds_end="40708"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000415839" start="8041" end="10797">
+            <long_name>PMS2-002 (retained_intron)</long_name>
+          </transcript>
+        </gene>
+        <gene symbol="Y_RNA.363" strand="1" start="9722" end="9824">
+          <long_name>Y RNA  [Source:RFAM;Acc:RF00019] (misc_RNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000201990" />
+          <transcript source="Ensembl" transcript_id="ENST00000365120" start="9722" end="9824">
+            <long_name>Y_RNA.363-201 (misc_RNA)</long_name>
+            <db_xref source="RFAM" accession="RF00019" />
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>PMS2 homepage - Colon cancer gene variant databases</name>
         <url>http://chromium.liacs.nl/LOVD2/colon_cancer/home.php?select_db=PMS2</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>PMS2 homepage - Zhejiang University Center for Genetic and Genomic Medicine (ZJU-CGGM)</name>
         <url>http://genomed.org/LOVD/HNPCC/home.php?select_db=PMS2</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

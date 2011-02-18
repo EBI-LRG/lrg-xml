@@ -156,6 +156,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2011-02-14</modification_date>
+      <mapping assembly="GRCh37" chr_name="17" chr_start="40349195" chr_end="40433424" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="84230" start="40349195" end="40433424"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">STAT5B</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -249,7 +265,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">STAT5B</lrg_gene_name>
       <features>
         <gene symbol="STAT5B" strand="1" start="5001" end="82230">
           <synonym>STAT5</synonym>
@@ -276,17 +291,80 @@
     </annotation_set>
     <annotation_set>
       <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl Variation</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 61</comment>
+      <modification_date>2011-02-17</modification_date>
+      <other_exon_naming></other_exon_naming>
+      <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
+      <features>
+        <gene symbol="STAT5B" strand="1" start="4700" end="82239">
+          <long_name>signal transducer and activator of transcription 5B (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="11367" />
+          <db_xref source="Ensembl" accession="ENSG00000173757" />
+          <db_xref source="GeneID" accession="6777" />
+          <db_xref source="MIM" accession="604260" />
+          <transcript source="Ensembl" transcript_id="ENST00000415845" start="4700" end="57944">
+            <long_name>STAT5B-003 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000398379" cds_start="49280" cds_end="57944">
+              <db_xref source="UniProtKB" accession="C9J4I3" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000468312" start="5001" end="63717">
+            <long_name>STAT5B-002 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000293328" start="5001" end="82239" fixed_id="t1">
+            <long_name>signal transducer and activator of transcription 5B (STAT5B), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_012448.3" />
+            <db_xref source="CCDS" accession="CCDS11423.1" />
+            <protein_product source="Ensembl" accession="ENSP00000293328" cds_start="49280" cds_end="79669">
+              <long_name>signal transducer and activator of transcription 5B </long_name>
+              <db_xref source="UniProtKB" accession="C9J4I3" />
+              <db_xref source="RefSeq" accession="NP_036580.2" />
+              <db_xref source="UniProtKB" accession="P51692" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000481517" start="63536" end="70990">
+            <long_name>STAT5B-004 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000468496" start="64125" end="73825">
+            <long_name>STAT5B-006 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000481253" start="70815" end="73854">
+            <long_name>STAT5B-005 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000498674" start="78454" end="79304">
+            <long_name>STAT5B-007 (retained_intron)</long_name>
+          </transcript>
+        </gene>
+        <gene symbol="AC003104.1" strand="1" start="8724" end="10073">
+          <long_name>AC003104.1 (processed_transcript)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000236194" />
+          <transcript source="Ensembl" transcript_id="ENST00000436061" start="8724" end="10073">
+            <long_name>AC003104.1-201 (processed_transcript)</long_name>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>STAT5B homepage - LOVD</name>
         <url>http://chromium.liacs.nl/LOVD2/growth/home.php?select_db=STAT5B</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
         <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_126</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

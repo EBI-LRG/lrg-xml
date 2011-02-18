@@ -110,6 +110,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2011-02-14</modification_date>
+      <mapping assembly="GRCh37" chr_name="1" chr_start="11084580" chr_end="11112285" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="27706" start="11084580" end="11112285"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">MASP2</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -171,7 +187,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">MASP2</lrg_gene_name>
       <features>
         <gene symbol="MASP2" strand="1" start="5001" end="25706">
           <synonym>MAP19</synonym>
@@ -222,17 +237,95 @@
     </annotation_set>
     <annotation_set>
       <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl Variation</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 61</comment>
+      <modification_date>2011-02-17</modification_date>
+      <other_exon_naming></other_exon_naming>
+      <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
+      <features>
+        <gene symbol="MASP2" strand="1" start="4990" end="26224">
+          <synonym>MASP1P1</synonym>
+          <long_name>mannan-binding lectin serine peptidase 2 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="6902" />
+          <db_xref source="Ensembl" accession="ENSG00000009724" />
+          <db_xref source="GeneID" accession="10747" />
+          <db_xref source="MIM" accession="605102" />
+          <transcript source="Ensembl" transcript_id="ENST00000376967" start="4990" end="26224">
+            <long_name>MASP2-201 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000366166" cds_start="4998" cds_end="26224"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000400898" start="4996" end="7431">
+            <long_name>mannan-binding lectin serine peptidase 2 (MASP2), transcript variant 2, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_139208.1" />
+            <db_xref source="CCDS" accession="CCDS124.1" />
+            <protein_product source="Ensembl" accession="ENSP00000383691" cds_start="5022" cds_end="7289">
+              <long_name>mannan-binding lectin serine protease 2 isoform 2 precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_631947.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000480221" start="5002" end="7431">
+            <long_name>MASP2-003 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000400897" start="5006" end="25706" fixed_id="t1">
+            <long_name>mannan-binding lectin serine peptidase 2 (MASP2), transcript variant 1, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_006610.2" />
+            <db_xref source="CCDS" accession="CCDS123.1" />
+            <protein_product source="Ensembl" accession="ENSP00000383690" cds_start="5022" cds_end="25344">
+              <long_name>mannan-binding lectin serine protease 2 isoform 1 precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_006601.2" />
+              <db_xref source="UniProtKB" accession="O00187" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000478645" start="9031" end="14536">
+            <long_name>MASP2-004 (processed_transcript)</long_name>
+          </transcript>
+        </gene>
+        <gene symbol="TARDBP" strand="-1" start="26490" end="27706">
+          <partial>5-prime</partial>
+          <synonym>ALS10</synonym>
+          <synonym>TDP-43</synonym>
+          <long_name>TAR DNA binding protein (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="11571" />
+          <db_xref source="Ensembl" accession="ENSG00000120948" />
+          <transcript source="Ensembl" transcript_id="ENST00000496840" start="26490" end="27706">
+            <partial>5-prime</partial>
+            <long_name>TARDBP-008 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000480464" start="26738" end="27706">
+            <partial>5-prime</partial>
+            <long_name>TARDBP-009 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000477447" start="27025" end="27706">
+            <partial>5-prime</partial>
+            <long_name>TARDBP-007 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000473869" start="27210" end="27706">
+            <partial>5-prime</partial>
+            <long_name>TARDBP-002 (nonsense_mediated_decay)</long_name>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>MASP2 homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=MASP2</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
         <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_92</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

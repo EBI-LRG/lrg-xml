@@ -174,6 +174,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2011-02-14</modification_date>
+      <mapping assembly="GRCh37" chr_name="15" chr_start="91255602" chr_end="91360598" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="104997" start="91255602" end="91360598"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">BLM</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -279,7 +295,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">BLM</lrg_gene_name>
       <features>
         <gene symbol="BLM" strand="1" start="4978" end="103085">
           <synonym>BS</synonym>
@@ -314,17 +329,62 @@
     </annotation_set>
     <annotation_set>
       <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl Variation</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 61</comment>
+      <modification_date>2011-02-17</modification_date>
+      <other_exon_naming></other_exon_naming>
+      <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
+      <features>
+        <gene symbol="BLM" strand="1" start="4957" end="103091">
+          <synonym>BS</synonym>
+          <synonym>RECQ2</synonym>
+          <synonym>RECQL3</synonym>
+          <long_name>Bloom syndrome, RecQ helicase-like (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="1058" />
+          <db_xref source="Ensembl" accession="ENSG00000197299" />
+          <db_xref source="GeneID" accession="641" />
+          <db_xref source="MIM" accession="604610" />
+          <transcript source="Ensembl" transcript_id="ENST00000355112" start="4957" end="103091" fixed_id="t1">
+            <long_name>Bloom syndrome, RecQ helicase-like (BLM), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_000057.2" />
+            <db_xref source="CCDS" accession="CCDS10363.1" />
+            <protein_product source="Ensembl" accession="ENSP00000347232" cds_start="35022" cds_end="102908">
+              <long_name>Bloom syndrome protein </long_name>
+              <db_xref source="RefSeq" accession="NP_000048.1" />
+              <db_xref source="UniProtKB" accession="P54132" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene symbol="SNORD18.1" strand="-1" start="42872" end="42941">
+          <long_name>Small nucleolar RNA SNORD18  [Source:RFAM;Acc:RF00093] (snoRNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000200677" />
+          <transcript source="Ensembl" transcript_id="ENST00000363807" start="42872" end="42941">
+            <long_name>SNORD18.1-201 (snoRNA)</long_name>
+            <db_xref source="RFAM" accession="RF00093" />
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>BLM homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=BLM</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
         <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_6</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

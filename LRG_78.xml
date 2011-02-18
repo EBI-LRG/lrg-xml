@@ -210,6 +210,24 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2011-02-14</modification_date>
+      <mapping assembly="GRCh37" chr_name="19" chr_start="48616703" chr_end="48678560" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="61858" start="48616703" end="48678560">
+          <diff type="mismatch" lrg_start="24008" lrg_end="24008" start="48654553" end="48654553" lrg_sequence="A" genomic_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">LIG1</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -339,7 +357,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">LIG1</lrg_gene_name>
       <features>
         <gene symbol="LIG1" strand="1" start="5001" end="59858">
           <synonym>MGC117397</synonym>
@@ -369,10 +386,67 @@
     </annotation_set>
     <annotation_set>
       <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl Variation</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 61</comment>
+      <modification_date>2011-02-17</modification_date>
+      <other_exon_naming></other_exon_naming>
+      <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
+      <features>
+        <gene symbol="C19orf68" strand="-1" start="1" end="4612">
+          <partial>3-prime</partial>
+          <synonym>LOC374920</synonym>
+          <long_name>chromosome 19 open reading frame 68 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="34495" />
+          <db_xref source="Ensembl" accession="ENSG00000185453" />
+          <db_xref source="GeneID" accession="374920" />
+          <transcript source="Ensembl" transcript_id="ENST00000328759" start="1" end="4612">
+            <partial>3-prime</partial>
+            <long_name>C19orf68-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="XM_001713772.2" />
+            <db_xref source="RefSeq" accession="XM_001713770.2" />
+            <db_xref source="RefSeq" accession="XM_001713771.2" />
+            <protein_product source="Ensembl" accession="ENSP00000331363" cds_start="3227" cds_end="3501">
+              <partial>3-prime</partial>
+              <db_xref source="RefSeq" accession="XP_001713824.2" />
+              <db_xref source="RefSeq" accession="XP_001713822.2" />
+              <db_xref source="RefSeq" accession="XP_001713823.2" />
+              <db_xref source="UniProtKB" accession="Q86XI8" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene symbol="LIG1" strand="1" start="5001" end="59858">
+          <long_name>ligase I, DNA, ATP-dependent (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="6598" />
+          <db_xref source="Ensembl" accession="ENSG00000105486" />
+          <db_xref source="GeneID" accession="3978" />
+          <db_xref source="MIM" accession="126391" />
+          <transcript source="Ensembl" transcript_id="ENST00000263274" start="5001" end="59858" fixed_id="t1">
+            <long_name>ligase I, DNA, ATP-dependent (LIG1), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_000234.1" />
+            <db_xref source="CCDS" accession="CCDS12711.1" />
+            <protein_product source="Ensembl" accession="ENSP00000263274" cds_start="9738" cds_end="59655">
+              <long_name>DNA ligase 1 </long_name>
+              <db_xref source="RefSeq" accession="NP_000225.1" />
+              <db_xref source="UniProtKB" accession="Q76GR4" />
+              <db_xref source="UniProtKB" accession="P18858" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
         <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_87</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -190,6 +190,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2011-02-14</modification_date>
+      <mapping assembly="GRCh37" chr_name="19" chr_start="10459200" chr_end="10496248" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="37049" start="10459200" end="10496248"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">TYK2</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -307,7 +323,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">TYK2</lrg_gene_name>
       <features>
         <gene symbol="TYK2" strand="1" start="5001" end="35045">
           <synonym>JTK1</synonym>
@@ -334,17 +349,122 @@
     </annotation_set>
     <annotation_set>
       <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl Variation</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 61</comment>
+      <modification_date>2011-02-17</modification_date>
+      <other_exon_naming></other_exon_naming>
+      <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
+      <features>
+        <gene symbol="TYK2" strand="1" start="4897" end="35044">
+          <synonym>JTK1</synonym>
+          <long_name>tyrosine kinase 2 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="12440" />
+          <db_xref source="Ensembl" accession="ENSG00000105397" />
+          <db_xref source="GeneID" accession="7297" />
+          <db_xref source="MIM" accession="176941" />
+          <transcript source="Ensembl" transcript_id="ENST00000525621" start="4897" end="35040">
+            <long_name>TYK2-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS12236.1" />
+            <protein_product source="Ensembl" accession="ENSP00000431885" cds_start="7167" cds_end="34739">
+              <long_name>non-receptor tyrosine-protein kinase TYK2 </long_name>
+              <db_xref source="RefSeq" accession="NP_003322.3" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000531836" start="5001" end="17409">
+            <long_name>TYK2-006 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000436175" cds_start="7167" cds_end="17409"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000524462" start="5008" end="35040">
+            <long_name>TYK2-003 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000433203" cds_start="19083" cds_end="34739"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000529370" start="5048" end="28188">
+            <long_name>TYK2-002 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000432728" cds_start="7167" cds_end="28109"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000530829" start="5063" end="17244">
+            <long_name>TYK2-008 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000436826" cds_start="7167" cds_end="17244"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000264818" start="7065" end="35044" fixed_id="t1">
+            <long_name>tyrosine kinase 2 (TYK2), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_003331.4" />
+            <db_xref source="CCDS" accession="CCDS12236.1" />
+            <protein_product source="Ensembl" accession="ENSP00000264818" cds_start="7167" cds_end="34739">
+              <long_name>non-receptor tyrosine-protein kinase TYK2 </long_name>
+              <db_xref source="RefSeq" accession="NP_003322.3" />
+              <db_xref source="UniProtKB" accession="P29597" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000525824" start="16832" end="17451">
+            <long_name>TYK2-007 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000529317" start="17034" end="17510">
+            <long_name>TYK2-009 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000525220" start="19710" end="22993">
+            <long_name>TYK2-011 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000434931" cds_start="19710" cds_end="22993"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000531620" start="23390" end="24268">
+            <long_name>TYK2-010 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000533334" start="23668" end="27779">
+            <long_name>TYK2-012 (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000432320" cds_start="23668" cds_end="24522"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000529412" start="27672" end="31662">
+            <long_name>TYK2-021 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000534228" start="28489" end="31035">
+            <long_name>TYK2-013 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000530560" start="28960" end="34825">
+            <long_name>TYK2-019 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000527481" start="31337" end="34523">
+            <long_name>TYK2-020 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000529739" start="31495" end="33139">
+            <long_name>TYK2-018 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000436155" cds_start="31950" cds_end="33139"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000530220" start="32317" end="35040">
+            <long_name>TYK2-014 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000529422" start="32436" end="34785">
+            <long_name>TYK2-017 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000525976" start="33081" end="35040">
+            <long_name>TYK2-015 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000434831" cds_start="33081" cds_end="34739"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000524470" start="34288" end="34720">
+            <long_name>TYK2-016 (retained_intron)</long_name>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>TYK2 homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=TYK2</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
         <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_140</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

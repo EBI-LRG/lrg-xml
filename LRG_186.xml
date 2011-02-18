@@ -113,6 +113,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2011-02-14</modification_date>
+      <mapping assembly="GRCh37" chr_name="X" chr_start="1382693" chr_end="1430828" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="48136" start="1382693" end="1430828"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">CSF2RA</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -182,7 +198,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">CSF2RA</lrg_gene_name>
       <features>
         <gene symbol="CSF2RA" strand="1" start="5001" end="46136">
           <synonym>CD116</synonym>
@@ -227,10 +242,176 @@
     </annotation_set>
     <annotation_set>
       <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl Variation</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 61</comment>
+      <modification_date>2011-02-17</modification_date>
+      <other_exon_naming></other_exon_naming>
+      <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
+      <features>
+        <gene symbol="CSF2RA" strand="1" start="5001" end="46582">
+          <synonym>CD116</synonym>
+          <synonym>CSF2R</synonym>
+          <long_name>colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage) (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="2435" />
+          <db_xref source="Ensembl" accession="ENSG00000198223" />
+          <db_xref source="GeneID" accession="1438" />
+          <db_xref source="MIM" accession="425000" />
+          <db_xref source="MIM" accession="306250" />
+          <transcript source="Ensembl" transcript_id="ENST00000381529" start="5001" end="46123">
+            <long_name>colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage) (CSF2RA), transcript variant 7, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001161532.1" />
+            <db_xref source="RefSeq" accession="NM_001161529.1" />
+            <db_xref source="CCDS" accession="CCDS35191.1" />
+            <protein_product source="Ensembl" accession="ENSP00000370940" cds_start="18905" cds_end="45680">
+              <long_name>granulocyte-macrophage colony-stimulating factor receptor subunit alpha isoform a precursor </long_name>
+              <db_xref source="UniProtKB" accession="B4DW68" />
+              <db_xref source="RefSeq" accession="NP_758448.1" />
+              <db_xref source="RefSeq" accession="NP_006131.2" />
+              <db_xref source="RefSeq" accession="NP_001155004.1" />
+              <db_xref source="RefSeq" accession="NP_001155001.1" />
+              <db_xref source="UniProtKB" accession="P15509" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000432318" start="5009" end="45790">
+            <long_name>CSF2RA-204 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000416437" cds_start="18905" cds_end="45790">
+              <db_xref source="UniProtKB" accession="C9JFV1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000381507" start="5009" end="46135">
+            <long_name>colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage) (CSF2RA), transcript variant 11, non-coding RNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NR_027760.1" />
+            <protein_product source="Ensembl" accession="ENSP00000370918" cds_start="18905" cds_end="40171"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000417535" start="5009" end="46135">
+            <long_name>colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage) (CSF2RA), transcript variant 8, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001161530.1" />
+            <protein_product source="Ensembl" accession="ENSP00000394227" cds_start="18905" cds_end="45680">
+              <long_name>granulocyte-macrophage colony-stimulating factor receptor subunit alpha isoform f precursor </long_name>
+              <db_xref source="UniProtKB" accession="A7J003" />
+              <db_xref source="RefSeq" accession="NP_001155002.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000361536" start="5009" end="46135">
+            <long_name>colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage) (CSF2RA), transcript variant 4, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_172247.2" />
+            <db_xref source="CCDS" accession="CCDS35192.1" />
+            <protein_product source="Ensembl" accession="ENSP00000354836" cds_start="18905" cds_end="41702">
+              <long_name>granulocyte-macrophage colony-stimulating factor receptor subunit alpha isoform c precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_758450.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000381524" start="5009" end="46582" fixed_id="t1">
+            <long_name>colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage) (CSF2RA), transcript variant 7, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_172245.2" />
+            <db_xref source="RefSeq" accession="NM_006140.4" />
+            <db_xref source="RefSeq" accession="NM_001161532.1" />
+            <db_xref source="RefSeq" accession="NM_001161529.1" />
+            <db_xref source="CCDS" accession="CCDS35191.1" />
+            <protein_product source="Ensembl" accession="ENSP00000370935" cds_start="18905" cds_end="45680">
+              <long_name>granulocyte-macrophage colony-stimulating factor receptor subunit alpha isoform a precursor </long_name>
+              <db_xref source="UniProtKB" accession="B4DW68" />
+              <db_xref source="RefSeq" accession="NP_758448.1" />
+              <db_xref source="RefSeq" accession="NP_006131.2" />
+              <db_xref source="RefSeq" accession="NP_001155004.1" />
+              <db_xref source="RefSeq" accession="NP_001155001.1" />
+              <db_xref source="UniProtKB" accession="P15509" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000493312" start="5015" end="36744">
+            <long_name>CSF2RA-008 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000412290" start="5019" end="30596">
+            <long_name>CSF2RA-009 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000410667" cds_start="18905" cds_end="30596"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000419094" start="5031" end="26628">
+            <long_name>CSF2RA-010 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000397452" cds_start="18905" cds_end="26628"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000381509" start="5033" end="42142">
+            <long_name>colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage) (CSF2RA), transcript variant 9, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001161531.1" />
+            <protein_product source="Ensembl" accession="ENSP00000370920" cds_start="18905" cds_end="41936">
+              <long_name>granulocyte-macrophage colony-stimulating factor receptor subunit alpha isoform g precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_001155003.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000494969" start="5033" end="46123">
+            <long_name>CSF2RA-012 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000481245" start="5036" end="18421">
+            <long_name>CSF2RA-011 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000355805" start="5046" end="46135">
+            <long_name>colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage) (CSF2RA), transcript variant 6, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_172249.2" />
+            <db_xref source="CCDS" accession="CCDS35193.1" />
+            <protein_product source="Ensembl" accession="ENSP00000348058" cds_start="18905" cds_end="41702">
+              <long_name>granulocyte-macrophage colony-stimulating factor receptor subunit alpha isoform e precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_758452.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000486791" start="5046" end="46135">
+            <long_name>CSF2RA-003 (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000436825" cds_start="18905" cds_end="40171"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000355432" start="5046" end="46135">
+            <long_name>colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage) (CSF2RA), transcript variant 3, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_172246.2" />
+            <db_xref source="CCDS" accession="CCDS35190.1" />
+            <protein_product source="Ensembl" accession="ENSP00000347606" cds_start="18905" cds_end="45790">
+              <long_name>granulocyte-macrophage colony-stimulating factor receptor subunit alpha isoform b precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_758449.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000381500" start="18887" end="45839">
+            <long_name>CSF2RA-007 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS35192.1" />
+            <protein_product source="Ensembl" accession="ENSP00000370911" cds_start="18905" cds_end="41702">
+              <long_name>granulocyte-macrophage colony-stimulating factor receptor subunit alpha isoform c precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_758450.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000477940" start="21853" end="24841">
+            <long_name>CSF2RA-013 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000478256" start="24799" end="25306">
+            <long_name>CSF2RA-014 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000475259" start="26654" end="46123">
+            <long_name>CSF2RA-016 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000491683" start="30426" end="31779">
+            <long_name>CSF2RA-015 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000498153" start="30529" end="46135">
+            <long_name>CSF2RA-017 (processed_transcript)</long_name>
+          </transcript>
+        </gene>
+        <gene symbol="5S_rRNA.332" strand="-1" start="36457" end="36576">
+          <long_name>5S ribosomal RNA  [Source:RFAM;Acc:RF00001] (rRNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000223274" />
+          <transcript source="Ensembl" transcript_id="ENST00000411342" start="36457" end="36576">
+            <long_name>5S_rRNA.332-201 (rRNA)</long_name>
+            <db_xref source="RFAM" accession="RF00001" />
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>CSF2RA homepage - Mental Retardation database</name>
         <url>http://grenada.lumc.nl/LOVD2/MR/home.php?select_db=CSF2RA</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

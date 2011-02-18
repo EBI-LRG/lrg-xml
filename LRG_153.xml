@@ -115,6 +115,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2011-02-14</modification_date>
+      <mapping assembly="GRCh37" chr_name="1" chr_start="32711840" chr_end="32753766" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="41927" start="32711840" end="32753766"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">LCK</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -184,7 +200,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">LCK</lrg_gene_name>
       <features>
         <gene symbol="FAM167B" strand="1" start="979" end="2622">
           <synonym>C1orf90</synonym>
@@ -231,6 +246,132 @@
               <db_xref source="GeneID" accession="3932"></db_xref>
               <db_xref source="GI" accession="112789546"></db_xref>
             </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl Variation</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 61</comment>
+      <modification_date>2011-02-17</modification_date>
+      <other_exon_naming></other_exon_naming>
+      <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
+      <features>
+        <gene symbol="FAM167B" strand="1" start="995" end="2618">
+          <synonym>C1orf90</synonym>
+          <synonym>MGC10820</synonym>
+          <long_name>family with sequence similarity 167, member B (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="28133" />
+          <db_xref source="Ensembl" accession="ENSG00000183615" />
+          <db_xref source="GeneID" accession="84734" />
+          <transcript source="Ensembl" transcript_id="ENST00000373582" start="995" end="2618">
+            <long_name>family with sequence similarity 167, member B (FAM167B), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_032648.2" />
+            <db_xref source="CCDS" accession="CCDS358.2" />
+            <protein_product source="Ensembl" accession="ENSP00000362684" cds_start="1184" cds_end="2363">
+              <long_name>hypothetical protein LOC84734 </long_name>
+              <db_xref source="RefSeq" accession="NP_116037.2" />
+              <db_xref source="UniProtKB" accession="Q9BTA0" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene symbol="LCK" strand="1" start="5001" end="39927">
+          <long_name>lymphocyte-specific protein tyrosine kinase (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="6524" />
+          <db_xref source="Ensembl" accession="ENSG00000182866" />
+          <db_xref source="GeneID" accession="3932" />
+          <db_xref source="MIM" accession="153390" />
+          <transcript source="Ensembl" transcript_id="ENST00000336890" start="5001" end="39927" fixed_id="t1">
+            <long_name>LCK-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS359.1" />
+            <protein_product source="Ensembl" accession="ENSP00000337825" cds_start="28092" cds_end="39478">
+              <long_name>tyrosine-protein kinase Lck precursor </long_name>
+              <db_xref source="UniProtKB" accession="B3KUV3" />
+              <db_xref source="RefSeq" accession="NP_001036236.1" />
+              <db_xref source="RefSeq" accession="NP_005347.3" />
+              <db_xref source="UniProtKB" accession="D3DPP8" />
+              <db_xref source="UniProtKB" accession="P06239" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000482949" start="5026" end="29380">
+            <long_name>LCK-002 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000431517" cds_start="28092" cds_end="29380"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000495610" start="5036" end="33671">
+            <long_name>LCK-006 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000435605" cds_start="28092" cds_end="33671"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000355928" start="5037" end="29017">
+            <long_name>LCK-014 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000476457" start="5060" end="29208">
+            <long_name>LCK-009 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000469765" start="5080" end="39922">
+            <long_name>LCK-007 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000398345" start="27873" end="39926">
+            <long_name>lymphocyte-specific protein tyrosine kinase (LCK), transcript variant 2, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001042771.1" />
+            <db_xref source="RefSeq" accession="NM_005356.3" />
+            <db_xref source="CCDS" accession="CCDS359.1" />
+            <protein_product source="Ensembl" accession="ENSP00000381387" cds_start="28092" cds_end="39478">
+              <long_name>tyrosine-protein kinase Lck precursor </long_name>
+              <db_xref source="UniProtKB" accession="B3KUV3" />
+              <db_xref source="RefSeq" accession="NP_001036236.1" />
+              <db_xref source="RefSeq" accession="NP_005347.3" />
+              <db_xref source="UniProtKB" accession="D3DPP8" />
+              <db_xref source="UniProtKB" accession="P06239" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000373564" start="27873" end="39926">
+            <long_name>LCK-201 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000362665" cds_start="28092" cds_end="39478">
+              <db_xref source="UniProtKB" accession="Q573B4" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000461712" start="27875" end="28840">
+            <long_name>LCK-012 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000434525" cds_start="28092" cds_end="28840"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000373562" start="27877" end="29366">
+            <long_name>LCK-013 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000362663" cds_start="28092" cds_end="29366"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000477031" start="27883" end="28764">
+            <long_name>LCK-011 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000436554" cds_start="27960" cds_end="28764"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000373557" start="27883" end="30190">
+            <long_name>LCK-010 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000362658" cds_start="27960" cds_end="30190"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000333070" start="27894" end="39924">
+            <long_name>LCK-004 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000328213" cds_start="28092" cds_end="39478"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000436824" start="27960" end="39926">
+            <long_name>LCK-203 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000400092" cds_start="27960" cds_end="39478"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000469956" start="29382" end="30935">
+            <long_name>LCK-003 (retained_intron)</long_name>
+          </transcript>
+        </gene>
+        <gene symbol="Y_RNA.821" strand="-1" start="40214" end="40323">
+          <long_name>Y RNA  [Source:RFAM;Acc:RF00019] (misc_RNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000252450" />
+          <transcript source="Ensembl" transcript_id="ENST00000516641" start="40214" end="40323">
+            <long_name>Y_RNA.821-201 (misc_RNA)</long_name>
+            <db_xref source="RFAM" accession="RF00019" />
           </transcript>
         </gene>
       </features>

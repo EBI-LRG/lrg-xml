@@ -75,6 +75,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2011-02-14</modification_date>
+      <mapping assembly="GRCh37" chr_name="3" chr_start="196193654" chr_end="196235639" most_recent="1">
+        <mapping_span strand="-1" lrg_start="1" lrg_end="41986" start="196193654" end="196235639"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">RNF168</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -116,7 +132,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">RNF168</lrg_gene_name>
       <features>
         <gene symbol="RNF168" strand="1" start="5001" end="39986">
           <synonym>FLJ35794</synonym>
@@ -144,10 +159,81 @@
     </annotation_set>
     <annotation_set>
       <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl Variation</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 61</comment>
+      <modification_date>2011-02-17</modification_date>
+      <other_exon_naming></other_exon_naming>
+      <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
+      <features>
+        <gene symbol="C3orf43" strand="1" start="1" end="1892">
+          <partial>5-prime</partial>
+          <synonym>DKFZp313B0440</synonym>
+          <synonym>FLJ41923</synonym>
+          <long_name>chromosome 3 open reading frame 43 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="27407" />
+          <db_xref source="Ensembl" accession="ENSG00000214097" />
+          <db_xref source="GeneID" accession="255798" />
+          <transcript source="Ensembl" transcript_id="ENST00000452776" start="1" end="1890">
+            <partial>5-prime</partial>
+            <long_name>C3orf43-002 (nonsense_mediated_decay)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000415207" start="1" end="1890">
+            <partial>5-prime</partial>
+            <long_name>C3orf43-201 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000398791" cds_start="438" cds_end="882">
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000397537" start="1" end="1892">
+            <partial>5-prime</partial>
+            <long_name>chromosome 3 open reading frame 43 (C3orf43), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001077657.1" />
+            <db_xref source="CCDS" accession="CCDS43192.1" />
+            <protein_product source="Ensembl" accession="ENSP00000380671" cds_start="438" cds_end="882">
+              <partial>5-prime</partial>
+              <long_name>hypothetical protein LOC255798 </long_name>
+              <db_xref source="RefSeq" accession="NP_001071125.1" />
+              <db_xref source="UniProtKB" accession="Q147U7" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene symbol="RNF168" strand="1" start="5001" end="39986">
+          <synonym>FLJ35794</synonym>
+          <long_name>ring finger protein 168 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="26661" />
+          <db_xref source="Ensembl" accession="ENSG00000163961" />
+          <db_xref source="GeneID" accession="165918" />
+          <db_xref source="MIM" accession="612688" />
+          <transcript source="Ensembl" transcript_id="ENST00000318037" start="5001" end="39986" fixed_id="t1">
+            <long_name>ring finger protein 168 (RNF168), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_152617.3" />
+            <db_xref source="CCDS" accession="CCDS3317.1" />
+            <protein_product source="Ensembl" accession="ENSP00000320898" cds_start="5596" cds_end="36950">
+              <long_name>E3 ubiquitin-protein ligase RNF168 </long_name>
+              <db_xref source="RefSeq" accession="NP_689830.2" />
+              <db_xref source="UniProtKB" accession="Q8IYW5" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000437070" start="5092" end="37009">
+            <long_name>RNF168-002 (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000396712" cds_start="5596" cds_end="21240"></protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>RNF168 homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=RNF168</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

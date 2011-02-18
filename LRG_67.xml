@@ -86,6 +86,22 @@
   <updatable_annotation>
     <annotation_set>
       <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2011-02-14</modification_date>
+      <mapping assembly="GRCh37" chr_name="21" chr_start="34770202" chr_end="34811826" most_recent="1">
+        <mapping_span strand="1" lrg_start="1" lrg_end="41625" start="34770202" end="34811826"></mapping_span>
+      </mapping>
+      <lrg_gene_name source="HGNC">IFNGR2</lrg_gene_name>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>NCBI RefSeqGene</name>
         <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
         <contact>
@@ -131,7 +147,6 @@
         </source>
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
-      <lrg_gene_name source="HGNC">IFNGR2</lrg_gene_name>
       <features>
         <gene symbol="IFNGR2" strand="1" start="5001" end="39627">
           <synonym>AF-1</synonym>
@@ -165,17 +180,115 @@
     </annotation_set>
     <annotation_set>
       <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl Variation</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 61</comment>
+      <modification_date>2011-02-17</modification_date>
+      <other_exon_naming></other_exon_naming>
+      <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
+      <features>
+        <gene symbol="IFNGR2" strand="1" start="1" end="41625">
+          <partial>5-prime</partial>
+          <partial>3-prime</partial>
+          <synonym>AF-1</synonym>
+          <synonym>IFNGT1</synonym>
+          <long_name>interferon gamma receptor 2 (interferon gamma transducer 1) (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="5440" />
+          <db_xref source="Ensembl" accession="ENSG00000159128" />
+          <db_xref source="GeneID" accession="3460" />
+          <db_xref source="MIM" accession="147569" />
+          <transcript source="Ensembl" transcript_id="ENST00000472188" start="1" end="17050">
+            <partial>5-prime</partial>
+            <long_name>IFNGR2-006 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000290219" start="5001" end="39627" fixed_id="t1">
+            <long_name>interferon gamma receptor 2 (interferon gamma transducer 1) (IFNGR2), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_005534.3" />
+            <db_xref source="CCDS" accession="CCDS33544.1" />
+            <protein_product source="Ensembl" accession="ENSP00000290219" cds_start="5649" cds_end="39068">
+              <long_name>interferon gamma receptor 2 precursor </long_name>
+              <db_xref source="UniProtKB" accession="B5MCZ0" />
+              <db_xref source="UniProtKB" accession="A8K881" />
+              <db_xref source="UniProtKB" accession="A1Z2N6" />
+              <db_xref source="RefSeq" accession="NP_005525.2" />
+              <db_xref source="UniProtKB" accession="P38484" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000439213" start="5532" end="34322">
+            <long_name>IFNGR2-003 (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000407541" cds_start="5649" cds_end="13632"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000381995" start="5537" end="39627">
+            <long_name>IFNGR2-002 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000371425" cds_start="5649" cds_end="39068">
+              <db_xref source="UniProtKB" accession="B5MCZ0" />
+              <db_xref source="UniProtKB" accession="A1Z2N6" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000457700" start="5546" end="39050">
+            <long_name>IFNGR2-004 (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000414168" cds_start="5649" cds_end="23626"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000405436" start="5571" end="39608">
+            <long_name>IFNGR2-007 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000385044" cds_start="23617" cds_end="39068">
+              <db_xref source="UniProtKB" accession="B5MCZ0" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000421802" start="34425" end="41625">
+            <partial>3-prime</partial>
+            <long_name>IFNGR2-005 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000402629" cds_start="34425" cds_end="34977">
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene symbol="TMEM50B" strand="-1" start="34591" end="41625">
+          <partial>5-prime</partial>
+          <synonym>C21orf4</synonym>
+          <long_name>transmembrane protein 50B (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="1280" />
+          <db_xref source="Ensembl" accession="ENSG00000142188" />
+          <db_xref source="GeneID" accession="757" />
+          <transcript source="Ensembl" transcript_id="ENST00000420455" start="34591" end="41625">
+            <partial>5-prime</partial>
+            <long_name>TMEM50B-002 (nonsense_mediated_decay)</long_name>
+            <db_xref source="CCDS" accession="CCDS13625.1" />
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000484377" start="34591" end="41625">
+            <partial>5-prime</partial>
+            <long_name>TMEM50B-009 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000470682" start="34904" end="41625">
+            <partial>5-prime</partial>
+            <long_name>TMEM50B-007 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000468874" start="38990" end="41625">
+            <partial>5-prime</partial>
+            <long_name>TMEM50B-008 (processed_transcript)</long_name>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
         <name>IFNGR2 homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=IFNGR2</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
         <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_66</url>
       </source>
-      <modification_date>2010-08-26</modification_date>
+      <modification_date>2011-02-17</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
