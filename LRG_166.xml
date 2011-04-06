@@ -341,14 +341,19 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 59</comment>
-      <modification_date>2010-08-10</modification_date>
+      <comment>Annotation is based on Ensembl release 62</comment>
+      <modification_date>2011-03-03</modification_date>
       <other_exon_naming></other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
         <gene symbol="PSMB9" strand="-1" start="1" end="14836">
           <partial>3-prime</partial>
-          <long_name>Proteasome subunit beta type-9 Precursor (EC 3.4.25.1)(Proteasome subunit beta-1i)(Proteasome chain 7)(Macropain chain 7)(Multicatalytic endopeptidase complex chain 7)(Really interesting new gene 12 protein)(Low molecular mass protein 2) [Source:UniProtKB/Swiss-Prot;Acc:P28065] (protein_coding)</long_name>
+          <synonym>beta1i</synonym>
+          <synonym>LMP2</synonym>
+          <synonym>PSMB6i</synonym>
+          <synonym>RING12</synonym>
+          <long_name>proteasome (prosome, macropain) subunit, beta type, 9 (large multifunctional peptidase 2) (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="9546" />
           <db_xref source="Ensembl" accession="ENSG00000240065" />
           <db_xref source="GeneID" accession="5698" />
           <db_xref source="MIM" accession="177045" />
@@ -358,28 +363,24 @@
             <protein_product source="Ensembl" accession="ENSP00000378742" cds_start="608" cds_end="4742">
               <partial>3-prime</partial>
               <db_xref source="UniProtKB" accession="A2ACQ9" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000453265" start="1" end="4811">
-            <partial>3-prime</partial>
-            <long_name>proteasome (prosome, macropain) subunit, beta type, 9 (large multifunctional peptidase 2) (PSMB9), mRNA (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_002800.4" />
-            <protein_product source="Ensembl" accession="ENSP00000394773" cds_start="608" cds_end="4742">
-              <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="A2ACR0" />
-              <db_xref source="UniProtKB" accession="A2ACR1" />
+              <db_xref source="UniProtKB" accession="A2ACQ9" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000374859" start="1" end="4811">
             <partial>3-prime</partial>
-            <long_name>PSMB9-001 (protein_coding)</long_name>
+            <long_name>proteasome (prosome, macropain) subunit, beta type, 9 (large multifunctional peptidase 2) (PSMB9), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_002800.4" />
             <db_xref source="CCDS" accession="CCDS4759.1" />
             <protein_product source="Ensembl" accession="ENSP00000363993" cds_start="608" cds_end="4742">
               <partial>3-prime</partial>
               <long_name>proteasome subunit beta type-9 proprotein </long_name>
-              <db_xref source="RefSeq" accession="NP_002791.1" />
-              <db_xref source="UniProtKB" accession="A2ACR0" />
               <db_xref source="UniProtKB" accession="A2ACR1" />
+              <db_xref source="UniProtKB" accession="A2ACR0" />
+              <db_xref source="UniProtKB" accession="P28065" />
+              <db_xref source="UniProtKB" accession="Q5JNW4" />
+              <db_xref source="UniProtKB" accession="A2ACR1" />
+              <db_xref source="UniProtKB" accession="A2ACR0" />
+              <db_xref source="RefSeq" accession="NP_002791.1" />
               <db_xref source="UniProtKB" accession="Q5JNW4" />
               <db_xref source="UniProtKB" accession="P28065" />
             </protein_product>
@@ -389,8 +390,10 @@
             <long_name>PSMB9-005 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000378739" cds_start="608" cds_end="2825">
               <partial>3-prime</partial>
+              <db_xref source="UniProtKB" accession="A2ACR1" />
               <db_xref source="UniProtKB" accession="A2ACR0" />
               <db_xref source="UniProtKB" accession="A2ACR1" />
+              <db_xref source="UniProtKB" accession="A2ACR0" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000464863" start="72" end="4824">
@@ -399,9 +402,16 @@
           <transcript source="Ensembl" transcript_id="ENST00000467593" start="250" end="2875">
             <long_name>PSMB9-004 (retained_intron)</long_name>
           </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000453265" start="402" end="4811">
+            <long_name>PSMB9-201 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000394773" cds_start="402" cds_end="4742">
+              <db_xref source="UniProtKB" accession="B4DZW2" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000414474" start="535" end="14136">
             <long_name>PSMB9-006 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000394363" cds_start="535" cds_end="2825">
+              <db_xref source="UniProtKB" accession="A2ACR0" />
               <db_xref source="UniProtKB" accession="A2ACR0" />
             </protein_product>
           </transcript>
@@ -416,33 +426,28 @@
           <db_xref source="Ensembl" accession="ENSG00000168394" />
           <db_xref source="GeneID" accession="6890" />
           <db_xref source="MIM" accession="170260" />
-          <transcript source="Ensembl" transcript_id="ENST00000425148" start="4994" end="6556">
-            <long_name>TAP1-201 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000401919" cds_start="5336" cds_end="6556">
-              <db_xref source="UniProtKB" accession="O94774" />
-              <db_xref source="UniProtKB" accession="Q69DM1" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000354258" start="4994" end="13763" fixed_id="t1">
             <long_name>transporter 1, ATP-binding cassette, sub-family B (MDR/TAP) (TAP1), mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS4758.1" />
             <db_xref source="RefSeq" accession="NM_000593.5" />
+            <db_xref source="CCDS" accession="CCDS4758.1" />
             <protein_product source="Ensembl" accession="ENSP00000346206" cds_start="5156" cds_end="13393">
               <long_name>antigen peptide transporter 1 </long_name>
-              <db_xref source="RefSeq" accession="NP_000584.2" />
-              <db_xref source="UniProtKB" accession="B2R9F3" />
-              <db_xref source="UniProtKB" accession="B7Z7P4" />
-              <db_xref source="UniProtKB" accession="Q12847" />
-              <db_xref source="UniProtKB" accession="Q12848" />
-              <db_xref source="UniProtKB" accession="Q13013" />
-              <db_xref source="UniProtKB" accession="Q16148" />
-              <db_xref source="UniProtKB" accession="Q53WZ1" />
-              <db_xref source="UniProtKB" accession="Q69DM1" />
-              <db_xref source="UniProtKB" accession="Q6QWC0" />
-              <db_xref source="UniProtKB" accession="Q6QWC1" />
-              <db_xref source="UniProtKB" accession="Q8TD77" />
-              <db_xref source="UniProtKB" accession="Q9UEE1" />
               <db_xref source="UniProtKB" accession="Q03518" />
+              <db_xref source="UniProtKB" accession="Q9UEE1" />
+              <db_xref source="UniProtKB" accession="Q69DM1" />
+              <db_xref source="UniProtKB" accession="Q53WZ1" />
+              <db_xref source="RefSeq" accession="NP_000584.2" />
+              <db_xref source="UniProtKB" accession="Q9UEE1" />
+              <db_xref source="UniProtKB" accession="Q69DM1" />
+              <db_xref source="UniProtKB" accession="Q53WZ1" />
+              <db_xref source="UniProtKB" accession="Q03518" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000425148" start="6214" end="13762">
+            <long_name>TAP1-201 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000401919" cds_start="6475" cds_end="13393">
+              <db_xref source="UniProtKB" accession="Q53WZ1" />
+              <db_xref source="UniProtKB" accession="Q53WZ1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000486332" start="8830" end="13763">
@@ -456,41 +461,46 @@
           <long_name>XXbac-BPG246D15.8 (processed_transcript)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000204261" />
           <transcript source="Ensembl" transcript_id="ENST00000453426" start="12477" end="14886">
-            <long_name>XXbac-BPG246D15.8-001 (processed_transcript)</long_name>
+            <long_name>hypothetical LOC100507463 (LOC100507463), transcript variant 4, non-coding RNA (processed_transcript)</long_name>
+            <db_xref source="RefSeq" accession="NR_037176.1" />
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000429600" start="12762" end="14839">
-            <long_name>XXbac-BPG246D15.8-003 (processed_transcript)</long_name>
+            <long_name> (processed_transcript)</long_name>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000415067" start="12894" end="14834">
-            <long_name>XXbac-BPG246D15.8-006 (processed_transcript)</long_name>
+            <long_name> (processed_transcript)</long_name>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000413039" start="12986" end="14839">
-            <long_name>XXbac-BPG246D15.8-004 (processed_transcript)</long_name>
-            <db_xref source="RefSeq" accession="XM_002345902.1" />
+            <long_name> (processed_transcript)</long_name>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000458296" start="13153" end="14864">
-            <long_name>XXbac-BPG246D15.8-002 (processed_transcript)</long_name>
+            <long_name> (processed_transcript)</long_name>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000412095" start="13277" end="14838">
-            <long_name>XXbac-BPG246D15.8-005 (processed_transcript)</long_name>
+            <long_name> (processed_transcript)</long_name>
           </transcript>
         </gene>
         <gene symbol="PSMB8" strand="1" start="14269" end="15763">
           <partial>3-prime</partial>
-          <long_name>proteasome subunit beta type-8 isoform E1 proprotein  [Source:RefSeq peptide;Acc:NP_004150] (protein_coding)</long_name>
+          <synonym>beta5i</synonym>
+          <synonym>D6S216E</synonym>
+          <synonym>LMP7</synonym>
+          <synonym>PSMB5i</synonym>
+          <synonym>RING10</synonym>
+          <long_name>proteasome (prosome, macropain) subunit, beta type, 8 (large multifunctional peptidase 7) (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="9545" />
           <db_xref source="Ensembl" accession="ENSG00000204264" />
           <db_xref source="GeneID" accession="5696" />
           <db_xref source="MIM" accession="177046" />
           <transcript source="Ensembl" transcript_id="ENST00000374881" start="14269" end="15763">
             <partial>3-prime</partial>
             <long_name>proteasome (prosome, macropain) subunit, beta type, 8 (large multifunctional peptidase 7) (PSMB8), transcript variant 1, mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS4756.1" />
             <db_xref source="RefSeq" accession="NM_004159.4" />
+            <db_xref source="CCDS" accession="CCDS4756.1" />
             <protein_product source="Ensembl" accession="ENSP00000364015" cds_start="14559" cds_end="14693">
               <partial>3-prime</partial>
               <long_name>proteasome subunit beta type-8 isoform E1 proprotein </long_name>
               <db_xref source="RefSeq" accession="NP_004150.1" />
-              <db_xref source="UniProtKB" accession="Q6FHU0" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000484003" start="14321" end="15763">
@@ -500,11 +510,12 @@
           <transcript source="Ensembl" transcript_id="ENST00000374882" start="14925" end="15763">
             <partial>3-prime</partial>
             <long_name>proteasome (prosome, macropain) subunit, beta type, 8 (large multifunctional peptidase 7) (PSMB8), transcript variant 2, mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS4757.1" />
             <db_xref source="RefSeq" accession="NM_148919.3" />
+            <db_xref source="CCDS" accession="CCDS4757.1" />
             <protein_product source="Ensembl" accession="ENSP00000364016" cds_start="14976" cds_end="15122">
               <partial>3-prime</partial>
               <long_name>proteasome subunit beta type-8 isoform E2 proprotein </long_name>
+              <db_xref source="UniProtKB" accession="Q5QNR8" />
               <db_xref source="RefSeq" accession="NP_683720.2" />
               <db_xref source="UniProtKB" accession="Q5QNR8" />
             </protein_product>
@@ -515,31 +526,11 @@
             <protein_product source="Ensembl" accession="ENSP00000378748" cds_start="14976" cds_end="15122">
               <partial>3-prime</partial>
               <db_xref source="UniProtKB" accession="Q5JNW7" />
+              <db_xref source="UniProtKB" accession="Q5JNW7" />
             </protein_product>
           </transcript>
         </gene>
       </features>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>IMGT/HLA Database</name>
-        <url>http://www.ebi.ac.uk/imgt/hla/</url>
-      </source>
-      <modification_date>2010-08-26</modification_date>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>TAP1 homepage - Mendelian genes</name>
-        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=TAP1</url>
-      </source>
-      <modification_date>2010-08-26</modification_date>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
-        <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_128</url>
-      </source>
-      <modification_date>2010-08-26</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

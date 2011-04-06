@@ -641,8 +641,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 59</comment>
-      <modification_date>2010-08-10</modification_date>
+      <comment>Annotation is based on Ensembl release 62</comment>
+      <modification_date>2011-03-03</modification_date>
       <other_exon_naming></other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
@@ -663,24 +663,28 @@
           <transcript source="Ensembl" transcript_id="ENST00000468107" start="5025" end="59836">
             <long_name>LYST-004 (processed_transcript)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000389793" start="21721" end="227591">
-            <long_name>LYST-001 (protein_coding)</long_name>
+          <transcript source="Ensembl" transcript_id="ENST00000536965" start="5069" end="129382">
+            <long_name>LYST-202 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000438315" cds_start="58224" cds_end="99828"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000389793" start="21721" end="227591" fixed_id="t1">
+            <long_name>lysosomal trafficking regulator (LYST), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_000081.2" />
             <db_xref source="CCDS" accession="CCDS31062.1" />
             <protein_product source="Ensembl" accession="ENSP00000374443" cds_start="58224" cds_end="225701">
               <long_name>lysosomal-trafficking regulator </long_name>
+              <db_xref source="UniProtKB" accession="Q99698" />
               <db_xref source="RefSeq" accession="NP_000072.2" />
-              <db_xref source="UniProtKB" accession="B7ZMN7" />
               <db_xref source="UniProtKB" accession="Q99698" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000389794" start="21721" end="227600" fixed_id="t1">
-            <long_name>lysosomal trafficking regulator (LYST), mRNA (protein_coding)</long_name>
+          <transcript source="Ensembl" transcript_id="ENST00000389794" start="21721" end="227600">
+            <long_name>LYST-201 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS31062.1" />
-            <db_xref source="RefSeq" accession="NM_000081.2" />
             <protein_product source="Ensembl" accession="ENSP00000374444" cds_start="58224" cds_end="225701">
               <long_name>lysosomal-trafficking regulator </long_name>
+              <db_xref source="UniProtKB" accession="Q99698" />
               <db_xref source="RefSeq" accession="NP_000072.2" />
-              <db_xref source="UniProtKB" accession="B7ZMN7" />
               <db_xref source="UniProtKB" accession="Q99698" />
             </protein_product>
           </transcript>
@@ -707,15 +711,15 @@
             <long_name>LYST-012 (retained_intron)</long_name>
           </transcript>
         </gene>
-        <gene symbol="U5" strand="1" start="25204" end="25253">
+        <gene symbol="U5.21" strand="1" start="25204" end="25253">
           <long_name>U5 spliceosomal RNA  [Source:RFAM;Acc:RF00020] (snRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000252056" />
           <transcript source="Ensembl" transcript_id="ENST00000516247" start="25204" end="25253">
-            <long_name>U5 (snRNA)</long_name>
+            <long_name>U5.21-201 (snRNA)</long_name>
             <db_xref source="RFAM" accession="RF00020" />
           </transcript>
         </gene>
-        <gene symbol="hsa-mir-1537" strand="1" start="35581" end="35641">
+        <gene symbol="MIR1537" strand="1" start="35581" end="35641">
           <synonym>hsa-mir-1537</synonym>
           <synonym>MIRN1537</synonym>
           <long_name>microRNA 1537 (miRNA)</long_name>
@@ -723,60 +727,34 @@
           <db_xref source="Ensembl" accession="ENSG00000222831" />
           <transcript source="Ensembl" transcript_id="ENST00000410899" start="35581" end="35641">
             <long_name>microRNA 1537 (MIR1537), microRNA (miRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_031718.1" />
             <db_xref source="miRBase" accession="MI0007258" />
+            <db_xref source="RefSeq" accession="NR_031718.1" />
           </transcript>
         </gene>
         <gene symbol="RP4-580N22.1" strand="1" start="48459" end="49158">
           <long_name>RP4-580N22.1 (processed_transcript)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000229463" />
           <transcript source="Ensembl" transcript_id="ENST00000412098" start="48459" end="49158">
-            <long_name>RP4-580N22.1-001 (processed_transcript)</long_name>
+            <long_name> (processed_transcript)</long_name>
           </transcript>
         </gene>
         <gene symbol="RP5-1043F6.2" strand="1" start="60703" end="62059">
           <long_name>RP5-1043F6.2 (processed_transcript)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000226135" />
           <transcript source="Ensembl" transcript_id="ENST00000446945" start="60703" end="62059">
-            <long_name>RP5-1043F6.2-001 (processed_transcript)</long_name>
+            <long_name> (processed_transcript)</long_name>
           </transcript>
         </gene>
-        <gene symbol="RP5-1043F6.1" strand="-1" start="149652" end="150636">
-          <long_name>RP5-1043F6.1 (pseudogene)</long_name>
+        <gene symbol="LDHAP2" strand="-1" start="149652" end="150636">
+          <synonym>LDHAL2</synonym>
+          <long_name>lactate dehydrogenase A pseudogene 2 (pseudogene)</long_name>
+          <db_xref source="HGNC" accession="6537" />
           <db_xref source="Ensembl" accession="ENSG00000235674" />
           <transcript source="Ensembl" transcript_id="ENST00000437325" start="149652" end="150636">
-            <long_name>RP5-1043F6.1-001 (processed_pseudogene)</long_name>
+            <long_name>LDHAP2-001 (processed_pseudogene)</long_name>
           </transcript>
         </gene>
       </features>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>Albinism Database</name>
-        <url>http://albinismdb.med.umn.edu/</url>
-      </source>
-      <modification_date>2010-08-26</modification_date>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>Mutations of the Chediak Higashi Syndrome</name>
-        <url>http://www.retina-international.org/sci-news/chsmut.htm</url>
-      </source>
-      <modification_date>2010-08-26</modification_date>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>LYST homepage - Mendelian genes</name>
-        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=LYST</url>
-      </source>
-      <modification_date>2010-08-26</modification_date>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
-        <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_90</url>
-      </source>
-      <modification_date>2010-08-26</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

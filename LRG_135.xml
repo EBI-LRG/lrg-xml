@@ -759,12 +759,12 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 59</comment>
-      <modification_date>2010-08-10</modification_date>
+      <comment>Annotation is based on Ensembl release 62</comment>
+      <modification_date>2011-03-03</modification_date>
       <other_exon_naming></other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
-        <gene symbol="NPAT" strand="-1" start="1" end="4807">
+        <gene symbol="NPAT" strand="-1" start="1" end="4811">
           <partial>3-prime</partial>
           <synonym>E14</synonym>
           <long_name>nuclear protein, ataxia-telangiectasia locus (protein_coding)</long_name>
@@ -772,22 +772,36 @@
           <db_xref source="Ensembl" accession="ENSG00000149308" />
           <db_xref source="GeneID" accession="4863" />
           <db_xref source="MIM" accession="601448" />
-          <transcript source="Ensembl" transcript_id="ENST00000278612" start="1" end="4807">
+          <transcript source="Ensembl" transcript_id="ENST00000531384" start="1" end="4785">
+            <partial>3-prime</partial>
+            <long_name>NPAT-005 (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000433497" cds_start="4669" cds_end="4705">
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000533535" start="1" end="4805">
+            <partial>3-prime</partial>
+            <long_name>NPAT-003 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000525615" start="1" end="4807">
+            <partial>3-prime</partial>
+            <long_name>NPAT-002 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000278612" start="1" end="4811">
             <partial>3-prime</partial>
             <long_name>nuclear protein, ataxia-telangiectasia locus (NPAT), mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS41710.1" />
             <db_xref source="RefSeq" accession="NM_002519.2" />
+            <db_xref source="CCDS" accession="CCDS41710.1" />
             <protein_product source="Ensembl" accession="ENSP00000278612" cds_start="4669" cds_end="4705">
               <partial>3-prime</partial>
               <long_name>protein NPAT </long_name>
+              <db_xref source="UniProtKB" accession="Q14207" />
               <db_xref source="RefSeq" accession="NP_002510.2" />
-              <db_xref source="UniProtKB" accession="B4DVW1" />
-              <db_xref source="UniProtKB" accession="B9EG70" />
               <db_xref source="UniProtKB" accession="Q14207" />
             </protein_product>
           </transcript>
         </gene>
-        <gene symbol="ATM" strand="1" start="5001" end="151268">
+        <gene symbol="ATM" strand="1" start="4653" end="151271">
           <synonym>ATA</synonym>
           <synonym>ATC</synonym>
           <synonym>ATD</synonym>
@@ -797,93 +811,158 @@
           <long_name>ataxia telangiectasia mutated (protein_coding)</long_name>
           <db_xref source="HGNC" accession="795" />
           <db_xref source="Ensembl" accession="ENSG00000149311" />
-          <db_xref source="GeneID" accession="472" />
           <db_xref source="GeneID" accession="651610" />
+          <db_xref source="GeneID" accession="472" />
           <db_xref source="MIM" accession="607585" />
+          <transcript source="Ensembl" transcript_id="ENST00000527805" start="4653" end="69883">
+            <long_name>ATM-001 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000435747" cds_start="9794" cds_end="69883"></protein_product>
+          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000278616" start="5001" end="151268" fixed_id="t1">
-            <long_name>ataxia telangiectasia mutated (ATM), transcript variant 1, mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS31669.1" />
+            <long_name>ataxia telangiectasia mutated (ATM), mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="XM_940791.2" />
             <db_xref source="RefSeq" accession="NM_000051.3" />
+            <db_xref source="CCDS" accession="CCDS31669.1" />
             <protein_product source="Ensembl" accession="ENSP00000278616" cds_start="9794" cds_end="147677">
-              <long_name>serine-protein kinase ATM isoform 1 </long_name>
+              <long_name>serine-protein kinase ATM </long_name>
+              <db_xref source="UniProtKB" accession="Q13315" />
               <db_xref source="RefSeq" accession="XP_945884.2" />
-              <db_xref source="RefSeq" accession="NP_612149.1" />
               <db_xref source="RefSeq" accession="NP_000042.3" />
-              <db_xref source="UniProtKB" accession="B4DSP3" />
-              <db_xref source="UniProtKB" accession="Q59GH6" />
-              <db_xref source="UniProtKB" accession="Q68DE6" />
-              <db_xref source="UniProtKB" accession="Q6P7P1" />
-              <db_xref source="UniProtKB" accession="Q8TDS2" />
               <db_xref source="UniProtKB" accession="Q13315" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000299392" start="5001" end="151268">
-            <long_name>ataxia telangiectasia mutated (ATM), transcript variant 1, mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS31670.1" />
+          <transcript source="Ensembl" transcript_id="ENST00000527891" start="5254" end="26253">
+            <long_name>ATM-026 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000433955" cds_start="9794" cds_end="26253"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000532931" start="5259" end="11441">
+            <long_name>ATM-016 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000432318" cds_start="9794" cds_end="11441"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000530958" start="5272" end="18703">
+            <long_name>ATM-002 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000452508" start="5285" end="151271">
+            <long_name>ATM-003 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="XM_940791.2" />
-            <db_xref source="RefSeq" accession="NM_000051.3" />
-            <protein_product source="Ensembl" accession="ENSP00000299392" cds_start="69820" cds_end="147677">
-              <long_name>serine-protein kinase ATM isoform 2 </long_name>
-              <db_xref source="RefSeq" accession="NP_612149.1" />
-              <db_xref source="UniProtKB" accession="B4DSP3" />
-              <db_xref source="UniProtKB" accession="Q68DE6" />
+            <db_xref source="CCDS" accession="CCDS31669.1" />
+            <protein_product source="Ensembl" accession="ENSP00000388058" cds_start="9794" cds_end="147677">
+              <long_name>serine-protein kinase ATM </long_name>
+              <db_xref source="RefSeq" accession="XP_945884.2" />
+              <db_xref source="RefSeq" accession="NP_000042.3" />
+              <db_xref source="UniProtKB" accession="Q13315" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000419286" start="50576" end="53521">
-            <long_name>ATM-204 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000415495" cds_start="50578" cds_end="53446"></protein_product>
+          <transcript source="Ensembl" transcript_id="ENST00000526567" start="5698" end="11533">
+            <long_name>ATM-004 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000452508" start="69571" end="151268">
-            <long_name>ataxia telangiectasia mutated (ATM), transcript variant 2, mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS31670.1" />
-            <db_xref source="RefSeq" accession="NM_138292.3" />
-            <protein_product source="Ensembl" accession="ENSP00000388058" cds_start="69820" cds_end="147677">
-              <long_name>serine-protein kinase ATM isoform 2 </long_name>
-              <db_xref source="RefSeq" accession="NP_612149.1" />
-              <db_xref source="UniProtKB" accession="B4DSP3" />
-              <db_xref source="UniProtKB" accession="Q68DE6" />
-            </protein_product>
+          <transcript source="Ensembl" transcript_id="ENST00000525012" start="34990" end="36165">
+            <long_name>ATM-005 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000533526" start="34990" end="36165">
+            <long_name>ATM-006 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000532637" start="38482" end="61777">
+            <long_name>ATM-007 (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000432560" cds_start="38482" cds_end="54763"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000533470" start="38482" end="61777">
+            <long_name>ATM-008 (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000431839" cds_start="38482" cds_end="54763"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000419286" start="49509" end="53521">
+            <long_name>ATM-009 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000531525" start="66641" end="78165">
+            <long_name>ATM-012 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000434327" cds_start="66641" cds_end="77120"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000533733" start="69347" end="72836">
+            <long_name>ATM-010 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000524792" start="69561" end="148203">
+            <long_name>ATM-011 (retained_intron)</long_name>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000389511" start="69767" end="78161">
-            <long_name>ATM-203 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000374162" cds_start="69820" cds_end="77120">
-              <db_xref source="UniProtKB" accession="A8WFP7" />
-              <db_xref source="UniProtKB" accession="Q96QM9" />
-            </protein_product>
+            <long_name>ATM-202 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000374162" cds_start="69820" cds_end="77120"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000531957" start="75554" end="77539">
+            <long_name>ATM-017 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000533690" start="79143" end="116077">
+            <long_name>ATM-015 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000534625" start="81649" end="85198">
+            <long_name>ATM-018 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000529588" start="85191" end="98063">
+            <long_name>ATM-014 (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000435524" cds_start="85191" cds_end="92375"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000532765" start="90161" end="99636">
+            <long_name>ATM-019 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000525537" start="109563" end="111410">
+            <long_name>ATM-020 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000527389" start="109813" end="111476">
+            <long_name>ATM-021 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000533979" start="114931" end="118577">
+            <long_name>ATM-025 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000525056" start="114946" end="118322">
+            <long_name>ATM-022 (retained_intron)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000525178" start="128690" end="147898">
+            <long_name>ATM-023 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000527181" start="135925" end="147907">
+            <long_name>ATM-024 (retained_intron)</long_name>
           </transcript>
         </gene>
-        <gene symbol="Y_RNA" strand="-1" start="11672" end="11773">
+        <gene symbol="Y_RNA.526" strand="-1" start="11672" end="11773">
           <long_name>Y RNA  [Source:RFAM;Acc:RF00019] (misc_RNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000206967" />
           <transcript source="Ensembl" transcript_id="ENST00000384240" start="11672" end="11773">
-            <long_name>Y_RNA (misc_RNA)</long_name>
+            <long_name>Y_RNA.526-201 (misc_RNA)</long_name>
             <db_xref source="RFAM" accession="RF00019" />
           </transcript>
         </gene>
-        <gene symbol="C11orf65" strand="-1" start="91140" end="153268">
+        <gene symbol="C11orf65" strand="-1" start="90688" end="153268">
           <partial>5-prime</partial>
           <synonym>MGC33948</synonym>
           <long_name>chromosome 11 open reading frame 65 (protein_coding)</long_name>
           <db_xref source="HGNC" accession="28519" />
           <db_xref source="Ensembl" accession="ENSG00000166323" />
-          <transcript source="Ensembl" transcript_id="ENST00000344283" start="91140" end="153268">
+          <db_xref source="GeneID" accession="160140" />
+          <transcript source="Ensembl" transcript_id="ENST00000525729" start="90688" end="153268">
             <partial>5-prime</partial>
-            <long_name>C11orf65-201 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000340086" cds_start="91140" cds_end="91240">
+            <long_name>C11orf65-002 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000433395" cds_start="91140" cds_end="91240">
               <partial>5-prime</partial>
               <db_xref source="UniProtKB" accession="B4DZU4" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000527531" start="113368" end="153268">
+            <partial>5-prime</partial>
+            <long_name>C11orf65-003 (nonsense_mediated_decay)</long_name>
+            <db_xref source="CCDS" accession="CCDS8340.1" />
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000524755" start="113580" end="153268">
+            <partial>5-prime</partial>
+            <long_name>C11orf65-005 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000432827" cds_start="113719" cds_end="117389">
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000526725" start="122328" end="153268">
+            <partial>5-prime</partial>
+            <long_name>C11orf65-006 (processed_transcript)</long_name>
+          </transcript>
         </gene>
       </features>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>ATM homepage - LOVD</name>
-        <url>http://chromium.liacs.nl/LOVD2/home.php?select_db=ATM</url>
-      </source>
-      <modification_date>2010-08-26</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

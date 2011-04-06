@@ -575,14 +575,18 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 59</comment>
-      <modification_date>2010-08-10</modification_date>
+      <comment>Annotation is based on Ensembl release 62</comment>
+      <modification_date>2011-03-03</modification_date>
       <other_exon_naming></other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
         <gene symbol="STK19" strand="1" start="1" end="4395">
           <partial>5-prime</partial>
-          <long_name>Serine/threonine-protein kinase 19 (EC 2.7.11.1)(Protein RP1)(Protein G11) [Source:UniProtKB/Swiss-Prot;Acc:P49842] (protein_coding)</long_name>
+          <synonym>D6S60</synonym>
+          <synonym>G11</synonym>
+          <synonym>RP1</synonym>
+          <long_name>serine/threonine kinase 19 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="11398" />
           <db_xref source="Ensembl" accession="ENSG00000204344" />
           <db_xref source="GeneID" accession="8859" />
           <db_xref source="MIM" accession="604977" />
@@ -612,14 +616,6 @@
               <partial>5-prime</partial>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000415730" start="1" end="4049">
-            <partial>5-prime</partial>
-            <long_name>STK19-202 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000404777" cds_start="1847" cds_end="3993">
-              <partial>5-prime</partial>
-              <db_xref source="UniProtKB" accession="B7ZLI8" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000492583" start="1" end="4108">
             <partial>5-prime</partial>
             <long_name>STK19-014 (retained_intron)</long_name>
@@ -644,100 +640,119 @@
             <long_name>serine/threonine kinase 19 (STK19), transcript variant 3, non-coding RNA (retained_intron)</long_name>
             <db_xref source="RefSeq" accession="NR_026717.1" />
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000375333" start="1" end="4390">
-            <partial>5-prime</partial>
-            <long_name>STK19-002 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS4733.1" />
-            <protein_product source="Ensembl" accession="ENSP00000364482" cds_start="1847" cds_end="3993">
-              <partial>5-prime</partial>
-              <long_name>serine/threonine-protein kinase 19 isoform 2 </long_name>
-              <db_xref source="RefSeq" accession="NP_115830.1" />
-              <db_xref source="UniProtKB" accession="C9J6S8" />
-              <db_xref source="UniProtKB" accession="P49842" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000375338" start="1" end="4390">
-            <partial>5-prime</partial>
-            <long_name>STK19-201 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000364487" cds_start="1847" cds_end="3490">
-              <partial>5-prime</partial>
-              <db_xref source="UniProtKB" accession="A6NJR4" />
-              <db_xref source="UniProtKB" accession="C9J6S8" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000491861" start="1" end="4390">
             <partial>5-prime</partial>
             <long_name>STK19-008 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000375331" start="1" end="4395">
+          <transcript source="Ensembl" transcript_id="ENST00000375333" start="1" end="4390">
             <partial>5-prime</partial>
             <long_name>serine/threonine kinase 19 (STK19), transcript variant 2, mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS34417.1" />
-            <db_xref source="RefSeq" accession="NM_004197.1" />
             <db_xref source="RefSeq" accession="NM_032454.1" />
+            <db_xref source="CCDS" accession="CCDS4733.1" />
+            <protein_product source="Ensembl" accession="ENSP00000364482" cds_start="1847" cds_end="3993">
+              <partial>5-prime</partial>
+              <long_name>serine/threonine-protein kinase 19 isoform 2 </long_name>
+              <db_xref source="UniProtKB" accession="P49842" />
+              <db_xref source="UniProtKB" accession="C9J6S8" />
+              <db_xref source="RefSeq" accession="NP_115830.1" />
+              <db_xref source="UniProtKB" accession="P49842" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000375331" start="1" end="4395">
+            <partial>5-prime</partial>
+            <long_name>serine/threonine kinase 19 (STK19), transcript variant 1, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_004197.1" />
+            <db_xref source="CCDS" accession="CCDS34417.1" />
             <protein_product source="Ensembl" accession="ENSP00000364480" cds_start="1847" cds_end="3993">
               <partial>5-prime</partial>
               <long_name>serine/threonine-protein kinase 19 isoform 1 </long_name>
-              <db_xref source="RefSeq" accession="NP_004188.1" />
               <db_xref source="UniProtKB" accession="C9J6S8" />
+              <db_xref source="RefSeq" accession="NP_004188.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000490822" start="3335" end="4390">
             <long_name>STK19-011 (retained_intron)</long_name>
           </transcript>
         </gene>
+        <gene symbol="XXbac-BPG116M5.15" strand="1" start="1" end="5765">
+          <partial>5-prime</partial>
+          <long_name>XXbac-BPG116M5.15 (protein_coding)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000254729" />
+          <transcript source="Ensembl" transcript_id="ENST00000519179" start="1" end="5765">
+            <partial>5-prime</partial>
+            <long_name> (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000427917" cds_start="1847" cds_end="1926">
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+        </gene>
         <gene symbol="C4A" strand="1" start="4968" end="25625">
-          <long_name>Complement C4-A Precursor (Acidic complement C4)(C3 and PZP-like alpha-2-macroglobulin domain-containing protein 2) [Contains Complement C4 beta chain;Complement C4-A alpha chain;C4a anaphylatoxin;C4b-A;C4d-A;Complement C4 gamma chain] [Source:UniProtKB/Swiss-Prot;Acc:P0C0L4] (protein_coding)</long_name>
+          <synonym>C4</synonym>
+          <synonym>C4A2</synonym>
+          <synonym>C4A3</synonym>
+          <synonym>C4A4</synonym>
+          <synonym>C4A6</synonym>
+          <synonym>C4B</synonym>
+          <synonym>C4S</synonym>
+          <synonym>CO4</synonym>
+          <synonym>CPAMD2</synonym>
+          <synonym>RG</synonym>
+          <long_name>complement component 4A (Rodgers blood group) (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="1323" />
           <db_xref source="Ensembl" accession="ENSG00000244731" />
+          <db_xref source="GeneID" accession="100509001" />
           <db_xref source="GeneID" accession="720" />
           <db_xref source="MIM" accession="120810" />
-          <db_xref source="GeneID" accession="100294156" />
-          <transcript source="Ensembl" transcript_id="ENST00000428956" start="4968" end="25625">
+          <transcript source="Ensembl" transcript_id="ENST00000428956" start="4968" end="25625" fixed_id="t1">
             <long_name>complement component 4A (Rodgers blood group) (C4A), mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS47404.1" />
+            <db_xref source="RefSeq" accession="XM_003120292.1" />
             <db_xref source="RefSeq" accession="NM_007293.2" />
+            <db_xref source="CCDS" accession="CCDS47404.1" />
             <protein_product source="Ensembl" accession="ENSP00000396688" cds_start="5052" cds_end="25484">
               <long_name>complement C4-A preproprotein </long_name>
-              <db_xref source="RefSeq" accession="NP_009224.2" />
-              <db_xref source="UniProtKB" accession="B4DIE5" />
-              <db_xref source="UniProtKB" accession="B7Z1F8" />
-              <db_xref source="UniProtKB" accession="Q6P4R1" />
-              <db_xref source="UniProtKB" accession="Q6U2E0" />
-              <db_xref source="UniProtKB" accession="Q6U2E5" />
-              <db_xref source="UniProtKB" accession="Q6U2E7" />
-              <db_xref source="UniProtKB" accession="Q6U2F0" />
-              <db_xref source="UniProtKB" accession="Q6U2I5" />
-              <db_xref source="UniProtKB" accession="Q6U2K2" />
               <db_xref source="UniProtKB" accession="Q6U2L9" />
-              <db_xref source="UniProtKB" accession="Q6XMI6" />
-              <db_xref source="UniProtKB" accession="Q96EG2" />
-              <db_xref source="UniProtKB" accession="Q96SA8" />
-              <db_xref source="UniProtKB" accession="Q9UM89" />
+              <db_xref source="UniProtKB" accession="P0C0L4" />
               <db_xref source="UniProtKB" accession="Q9UMV1" />
+              <db_xref source="UniProtKB" accession="Q9UM89" />
+              <db_xref source="UniProtKB" accession="Q6U2L9" />
+              <db_xref source="UniProtKB" accession="Q6U2K2" />
+              <db_xref source="UniProtKB" accession="Q6U2F0" />
+              <db_xref source="UniProtKB" accession="Q6U2E7" />
+              <db_xref source="UniProtKB" accession="Q6U2E0" />
+              <db_xref source="RefSeq" accession="XP_003120340.1" />
+              <db_xref source="RefSeq" accession="NP_009224.2" />
+              <db_xref source="UniProtKB" accession="Q9UMV1" />
+              <db_xref source="UniProtKB" accession="Q6U2K2" />
+              <db_xref source="UniProtKB" accession="Q6U2F0" />
+              <db_xref source="UniProtKB" accession="Q6U2E7" />
+              <db_xref source="UniProtKB" accession="Q6U2E0" />
               <db_xref source="UniProtKB" accession="P0C0L4" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000498271" start="5012" end="25616">
             <long_name>C4A-013 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="XM_002343933.1" />
+            <db_xref source="RefSeq" accession="XM_003119424.1" />
             <protein_product source="Ensembl" accession="ENSP00000420212" cds_start="5052" cds_end="25484">
-              <db_xref source="RefSeq" accession="XP_002343974.1" />
               <db_xref source="UniProtKB" accession="A6H8M8" />
-              <db_xref source="UniProtKB" accession="B4DIE5" />
-              <db_xref source="UniProtKB" accession="B7Z1F8" />
-              <db_xref source="UniProtKB" accession="Q6U2E0" />
-              <db_xref source="UniProtKB" accession="Q6U2E5" />
-              <db_xref source="UniProtKB" accession="Q6U2E7" />
-              <db_xref source="UniProtKB" accession="Q6U2F0" />
-              <db_xref source="UniProtKB" accession="Q6U2I5" />
-              <db_xref source="UniProtKB" accession="Q6U2K2" />
               <db_xref source="UniProtKB" accession="Q6U2L9" />
-              <db_xref source="UniProtKB" accession="Q6XMI6" />
-              <db_xref source="UniProtKB" accession="Q96EG2" />
-              <db_xref source="UniProtKB" accession="Q96SA8" />
-              <db_xref source="UniProtKB" accession="Q9UM89" />
               <db_xref source="UniProtKB" accession="Q9UMV1" />
+              <db_xref source="UniProtKB" accession="Q9UM89" />
+              <db_xref source="UniProtKB" accession="Q6U2L9" />
+              <db_xref source="UniProtKB" accession="Q6U2K2" />
+              <db_xref source="UniProtKB" accession="Q6U2F0" />
+              <db_xref source="UniProtKB" accession="Q6U2E7" />
+              <db_xref source="UniProtKB" accession="Q6U2E0" />
+              <db_xref source="UniProtKB" accession="A6H8M8" />
+              <db_xref source="UniProtKB" accession="Q9UMV1" />
+              <db_xref source="UniProtKB" accession="Q6U2K2" />
+              <db_xref source="UniProtKB" accession="Q6U2F0" />
+              <db_xref source="UniProtKB" accession="Q6U2E7" />
+              <db_xref source="UniProtKB" accession="Q6U2E0" />
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000537134" start="5317" end="7360">
+            <long_name>C4A-201 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000446217" cds_start="5317" cds_end="7360"></protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000467749" start="5787" end="6503">
             <long_name>C4A-003 (retained_intron)</long_name>
@@ -785,60 +800,14 @@
             <long_name>C4A-007 (retained_intron)</long_name>
           </transcript>
         </gene>
-        <gene symbol="C4B" strand="1" start="5001" end="27624">
-          <partial>3-prime</partial>
-          <synonym>C4B1</synonym>
-          <synonym>C4B3</synonym>
-          <synonym>C4F</synonym>
-          <synonym>CH</synonym>
-          <synonym>CO4</synonym>
-          <synonym>CPAMD3</synonym>
-          <long_name>complement component 4B (Chido blood group) (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="1324" />
-          <db_xref source="Ensembl" accession="ENSG00000224389" />
-          <db_xref source="GeneID" accession="721" />
-          <db_xref source="MIM" accession="120820" />
-          <transcript source="Ensembl" transcript_id="ENST00000425700" start="5001" end="27624" fixed_id="t1">
-            <partial>3-prime</partial>
-            <long_name>C4B-201 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000391933" cds_start="5052" cds_end="17328">
-              <partial>3-prime</partial>
-              <long_name>complement C4-B preproprotein </long_name>
-              <db_xref source="RefSeq" accession="NP_001002029.3" />
-              <db_xref source="UniProtKB" accession="B4DDH0" />
-              <db_xref source="UniProtKB" accession="B4DIE5" />
-              <db_xref source="UniProtKB" accession="B4E344" />
-              <db_xref source="UniProtKB" accession="B7Z1F8" />
-              <db_xref source="UniProtKB" accession="Q6U2E0" />
-              <db_xref source="UniProtKB" accession="Q6U2E5" />
-              <db_xref source="UniProtKB" accession="Q6U2E7" />
-              <db_xref source="UniProtKB" accession="Q6U2E9" />
-              <db_xref source="UniProtKB" accession="Q6U2L6" />
-              <db_xref source="UniProtKB" accession="Q6U2M2" />
-              <db_xref source="UniProtKB" accession="Q6U2M5" />
-              <db_xref source="UniProtKB" accession="Q6XMI6" />
-              <db_xref source="UniProtKB" accession="Q96EG2" />
-              <db_xref source="UniProtKB" accession="Q96SA7" />
-              <db_xref source="UniProtKB" accession="Q9UM89" />
-              <db_xref source="UniProtKB" accession="Q9UMV1" />
-            </protein_product>
-          </transcript>
-        </gene>
         <gene symbol="XXbac-BPG116M5.16" strand="-1" start="22920" end="26465">
           <long_name>XXbac-BPG116M5.16 (processed_transcript)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000233627" />
           <transcript source="Ensembl" transcript_id="ENST00000458633" start="22920" end="26465">
-            <long_name>XXbac-BPG116M5.16-001 (processed_transcript)</long_name>
+            <long_name> (processed_transcript)</long_name>
           </transcript>
         </gene>
       </features>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>C4A homepage - Mendelian genes</name>
-        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=C4A</url>
-      </source>
-      <modification_date>2010-08-26</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -227,8 +227,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 57</comment>
-      <modification_date>2010-02-22</modification_date>
+      <comment>Annotation is based on Ensembl release 62</comment>
+      <modification_date>2011-03-03</modification_date>
       <other_exon_naming></other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
@@ -238,69 +238,85 @@
           <synonym>CALC2</synonym>
           <synonym>CGRP-II</synonym>
           <synonym>FLJ30166</synonym>
-          <long_name>calcitonin-related polypeptide beta</long_name>
+          <long_name>calcitonin-related polypeptide beta (protein_coding)</long_name>
           <db_xref source="HGNC" accession="1438" />
           <db_xref source="Ensembl" accession="ENSG00000175868" />
           <db_xref source="GeneID" accession="797" />
           <db_xref source="MIM" accession="114160" />
+          <transcript source="Ensembl" transcript_id="ENST00000523376" start="1" end="12618">
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>CALCB-001 (protein_coding)</long_name>
+          </transcript>
         </gene>
         <gene symbol="CALCA" strand="1" start="4933" end="10619">
           <synonym>CALC1</synonym>
-          <long_name>calcitonin-related polypeptide alpha</long_name>
+          <long_name>calcitonin-related polypeptide alpha (protein_coding)</long_name>
           <db_xref source="HGNC" accession="1437" />
           <db_xref source="Ensembl" accession="ENSG00000110680" />
           <db_xref source="GeneID" accession="796" />
           <db_xref source="MIM" accession="114130" />
           <transcript source="Ensembl" transcript_id="ENST00000331587" start="4933" end="8786">
-            <long_name>calcitonin-related polypeptide alpha (CALCA), transcript variant 1, mRNA</long_name>
-            <long_name>calcitonin-related polypeptide alpha (CALCA), transcript variant 2, mRNA</long_name>
+            <long_name>CALCA-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS7819.1" />
-            <db_xref source="RefSeq" accession="NM_001741.2" />
-            <db_xref source="RefSeq" accession="NM_001033952.1" />
             <protein_product source="Ensembl" accession="ENSP00000331746" cds_start="6095" cds_end="8488">
-              <long_name>calcitonin isoform CALCA preproprotein </long_name>
-              <db_xref source="RefSeq" accession="NP_001732.1" />
+              <long_name>calcitonin preproprotein </long_name>
+              <db_xref source="UniProtKB" accession="P01258" />
               <db_xref source="RefSeq" accession="NP_001029124.1" />
+              <db_xref source="RefSeq" accession="NP_001732.1" />
               <db_xref source="UniProtKB" accession="P01258" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000359642" start="5001" end="9459">
-            <protein_product source="Ensembl" accession="ENSP00000352663" cds_start="6095" cds_end="9459"></protein_product>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000396374" start="5001" end="9592">
-            <protein_product source="Ensembl" accession="ENSP00000379659" cds_start="6095" cds_end="9592">
-              <long_name>calcitonin isoform CGRP preproprotein </long_name>
-              <db_xref source="RefSeq" accession="NP_001029125.1" />
-              <db_xref source="UniProtKB" accession="P06881" />
+            <long_name>CALCA-201 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000352663" cds_start="6095" cds_end="9459">
+              <db_xref source="UniProtKB" accession="C9JS72" />
+              <db_xref source="UniProtKB" accession="C9JS72" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000361010" start="5001" end="10617">
+          <transcript source="Ensembl" transcript_id="ENST00000361010" start="5001" end="10618" fixed_id="t1">
+            <long_name>calcitonin-related polypeptide alpha (CALCA), transcript variant 3, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001033953.2" />
+            <db_xref source="CCDS" accession="CCDS31432.1" />
             <protein_product source="Ensembl" accession="ENSP00000354286" cds_start="6095" cds_end="9592">
-              <long_name>calcitonin isoform CGRP preproprotein </long_name>
+              <long_name>calcitonin gene-related peptide 1 preproprotein </long_name>
+              <db_xref source="UniProtKB" accession="P06881" />
               <db_xref source="RefSeq" accession="NP_001029125.1" />
               <db_xref source="UniProtKB" accession="P06881" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000396372" start="5014" end="8581">
+          <transcript source="Ensembl" transcript_id="ENST00000396372" start="5014" end="8581" fixed_id="t2">
+            <long_name>calcitonin-related polypeptide alpha (CALCA), transcript variant 1, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001033952.2" />
+            <db_xref source="RefSeq" accession="NM_001741.2" />
+            <db_xref source="CCDS" accession="CCDS7819.1" />
             <protein_product source="Ensembl" accession="ENSP00000379657" cds_start="6095" cds_end="8488">
-              <long_name>calcitonin isoform CALCA preproprotein </long_name>
-              <db_xref source="RefSeq" accession="NP_001732.1" />
+              <long_name>calcitonin preproprotein </long_name>
+              <db_xref source="UniProtKB" accession="P01258" />
               <db_xref source="RefSeq" accession="NP_001029124.1" />
+              <db_xref source="RefSeq" accession="NP_001732.1" />
               <db_xref source="UniProtKB" accession="P01258" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000469608" start="5015" end="10247">
-            <protein_product source="Ensembl" accession="ENSP00000420618" cds_start="6095" cds_end="9459"></protein_product>
+            <long_name>CALCA-002 (nonsense_mediated_decay)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000420618" cds_start="6095" cds_end="9459">
+              <db_xref source="UniProtKB" accession="C9JS72" />
+              <db_xref source="UniProtKB" accession="C9JS72" />
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000486207" start="6086" end="10619">
-            <long_name>calcitonin-related polypeptide alpha (CALCA), transcript variant 3, mRNA</long_name>
+            <long_name>CALCA-004 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS31432.1" />
-            <db_xref source="RefSeq" accession="NM_001033953.1" />
             <protein_product source="Ensembl" accession="ENSP00000417833" cds_start="6095" cds_end="9592">
-              <long_name>calcitonin isoform CGRP preproprotein </long_name>
+              <long_name>calcitonin gene-related peptide 1 preproprotein </long_name>
+              <db_xref source="UniProtKB" accession="P06881" />
               <db_xref source="RefSeq" accession="NP_001029125.1" />
               <db_xref source="UniProtKB" accession="P06881" />
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000494746" start="7271" end="10616">
+            <long_name>CALCA-005 (retained_intron)</long_name>
           </transcript>
         </gene>
       </features>

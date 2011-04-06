@@ -371,14 +371,12 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 60</comment>
-      <modification_date>2010-10-05</modification_date>
+      <comment>Annotation is based on Ensembl release 62</comment>
+      <modification_date>2011-03-03</modification_date>
       <other_exon_naming></other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
-        <gene symbol="DKC1" strand="1" start="1" end="19934">
-          <partial>5-prime</partial>
-          <synonym>ACA56</synonym>
+        <gene symbol="DKC1" strand="1" start="5001" end="19934">
           <synonym>DKC</synonym>
           <synonym>dyskerin</synonym>
           <synonym>NAP57</synonym>
@@ -389,28 +387,14 @@
           <db_xref source="Ensembl" accession="ENSG00000130826" />
           <db_xref source="GeneID" accession="1736" />
           <db_xref source="MIM" accession="300126" />
-          <transcript source="Ensembl" transcript_id="ENST00000393535" start="1" end="19926">
-            <partial>5-prime</partial>
-            <long_name>DKC1-202 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000377168" cds_start="7143" cds_end="19112">
-              <partial>5-prime</partial>
-              <db_xref source="UniProtKB" accession="A8MUT5" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000393534" start="1" end="19926">
-            <partial>5-prime</partial>
-            <long_name>DKC1-201 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000377167" cds_start="7143" cds_end="19112">
-              <partial>5-prime</partial>
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000369550" start="5001" end="19934" fixed_id="t1">
-            <long_name>dyskeratosis congenita 1, dyskerin (DKC1), transcript variant 1, mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS14761.1" />
-            <db_xref source="RefSeq" accession="NM_001142463.1" />
+            <long_name>dyskeratosis congenita 1, dyskerin (DKC1), transcript variant 2, mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001363.3" />
+            <db_xref source="RefSeq" accession="NM_001142463.1" />
+            <db_xref source="CCDS" accession="CCDS14761.1" />
             <protein_product source="Ensembl" accession="ENSP00000358563" cds_start="5211" cds_end="19112">
               <long_name>H/ACA ribonucleoprotein complex subunit 4 isoform 2 </long_name>
+              <db_xref source="UniProtKB" accession="O60832" />
               <db_xref source="RefSeq" accession="NP_001354.1" />
               <db_xref source="RefSeq" accession="NP_001135935.1" />
               <db_xref source="UniProtKB" accession="O60832" />
@@ -422,6 +406,7 @@
           <transcript source="Ensembl" transcript_id="ENST00000413910" start="5136" end="11536">
             <long_name>DKC1-008 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000400542" cds_start="5211" cds_end="11536">
+              <db_xref source="UniProtKB" accession="C9IYT0" />
               <db_xref source="UniProtKB" accession="C9IYT0" />
             </protein_product>
           </transcript>
@@ -458,15 +443,15 @@
             <long_name>DKC1-006 (processed_transcript)</long_name>
           </transcript>
         </gene>
-        <gene symbol="SNORA36" strand="1" start="10773" end="10904">
+        <gene symbol="SNORA36A" strand="1" start="10773" end="10904">
           <synonym>ACA36</synonym>
           <long_name>small nucleolar RNA, H/ACA box 36A (snoRNA)</long_name>
           <db_xref source="HGNC" accession="32628" />
           <db_xref source="Ensembl" accession="ENSG00000206948" />
           <transcript source="Ensembl" transcript_id="ENST00000384221" start="10773" end="10904">
             <long_name>small nucleolar RNA, H/ACA box 36A (SNORA36A), small nucleolar RNA (snoRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_002969.1" />
             <db_xref source="RFAM" accession="RF00340" />
+            <db_xref source="RefSeq" accession="NR_002969.1" />
           </transcript>
         </gene>
         <gene symbol="SNORA56" strand="1" start="17243" end="17371">
@@ -476,8 +461,8 @@
           <db_xref source="Ensembl" accession="ENSG00000206693" />
           <transcript source="Ensembl" transcript_id="ENST00000383966" start="17243" end="17371">
             <long_name>small nucleolar RNA, H/ACA box 56 (SNORA56), small nucleolar RNA (snoRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_002984.1" />
             <db_xref source="RFAM" accession="RF00417" />
+            <db_xref source="RefSeq" accession="NR_002984.1" />
           </transcript>
         </gene>
         <gene symbol="MPP1" strand="-1" start="20929" end="21934">
@@ -491,32 +476,39 @@
           <db_xref source="MIM" accession="305360" />
           <transcript source="Ensembl" transcript_id="ENST00000369534" start="20929" end="21934">
             <partial>5-prime</partial>
-            <long_name>membrane protein, palmitoylated 1, 55kDa (MPP1), transcript variant 1, mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS14762.1" />
-            <db_xref source="RefSeq" accession="NM_001166462.1" />
+            <long_name>membrane protein, palmitoylated 1, 55kDa (MPP1), transcript variant 2, mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_002436.3" />
+            <db_xref source="RefSeq" accession="NM_001166460.1" />
+            <db_xref source="CCDS" accession="CCDS14762.1" />
             <protein_product source="Ensembl" accession="ENSP00000358547" cds_start="21422" cds_end="21598">
               <partial>5-prime</partial>
               <long_name>55 kDa erythrocyte membrane protein isoform 2 </long_name>
-              <db_xref source="RefSeq" accession="NP_002427.1" />
-              <db_xref source="RefSeq" accession="NP_001159934.1" />
-              <db_xref source="RefSeq" accession="NP_001159932.1" />
               <db_xref source="UniProtKB" accession="A8MTH1" />
-              <db_xref source="UniProtKB" accession="B4DZV5" />
-              <db_xref source="UniProtKB" accession="B4E325" />
-              <db_xref source="UniProtKB" accession="Q53F93" />
+              <db_xref source="UniProtKB" accession="Q00013" />
+              <db_xref source="UniProtKB" accession="Q5J7V5" />
+              <db_xref source="UniProtKB" accession="A8MTH1" />
+              <db_xref source="RefSeq" accession="NP_002427.1" />
+              <db_xref source="RefSeq" accession="NP_001159932.1" />
               <db_xref source="UniProtKB" accession="Q5J7V5" />
               <db_xref source="UniProtKB" accession="Q00013" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000413259" start="20931" end="21934">
+            <partial>5-prime</partial>
+            <long_name>membrane protein, palmitoylated 1, 55kDa (MPP1), transcript variant 4, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001166462.1" />
+            <protein_product source="Ensembl" accession="ENSP00000400155" cds_start="21422" cds_end="21598">
+              <partial>5-prime</partial>
+              <long_name>55 kDa erythrocyte membrane protein isoform 4 </long_name>
+              <db_xref source="UniProtKB" accession="A8MTH1" />
+              <db_xref source="UniProtKB" accession="B4DZV5" />
+              <db_xref source="UniProtKB" accession="A8MTH1" />
+              <db_xref source="RefSeq" accession="NP_001159934.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000491955" start="20931" end="21934">
             <partial>5-prime</partial>
             <long_name>MPP1-004 (retained_intron)</long_name>
-          </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000413259" start="20938" end="21934">
-            <partial>5-prime</partial>
-            <long_name>membrane protein, palmitoylated 1, 55kDa (MPP1), transcript variant 2, mRNA (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001166460.1" />
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000482757" start="20968" end="21934">
             <partial>5-prime</partial>
@@ -534,18 +526,10 @@
               <partial>5-prime</partial>
               <long_name>55 kDa erythrocyte membrane protein isoform 3 </long_name>
               <db_xref source="RefSeq" accession="NP_001159933.1" />
-              <db_xref source="UniProtKB" accession="Q2TSB6" />
             </protein_product>
           </transcript>
         </gene>
       </features>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>DKC1 homepage - Mental Retardation database</name>
-        <url>http://grenada.lumc.nl/LOVD2/MR/home.php?select_db=DKC1</url>
-      </source>
-      <modification_date>2010-10-05</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

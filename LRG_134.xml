@@ -212,8 +212,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 59</comment>
-      <modification_date>2010-08-10</modification_date>
+      <comment>Annotation is based on Ensembl release 62</comment>
+      <modification_date>2011-03-03</modification_date>
       <other_exon_naming></other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
@@ -235,12 +235,12 @@
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000458208" start="1" end="5860">
             <partial>3-prime</partial>
-            <long_name>actin, alpha 2, smooth muscle, aorta (ACTA2), transcript variant 1, mRNA (protein_coding)</long_name>
+            <long_name>ACTA2-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS7392.1" />
-            <db_xref source="RefSeq" accession="NM_001141945.1" />
           </transcript>
         </gene>
-        <gene symbol="FAS" strand="1" start="3939" end="30255">
+        <gene symbol="FAS" strand="1" start="1" end="30255">
+          <partial>5-prime</partial>
           <synonym>APO-1</synonym>
           <synonym>APT1</synonym>
           <synonym>CD95</synonym>
@@ -251,31 +251,33 @@
           <db_xref source="Ensembl" accession="ENSG00000026103" />
           <db_xref source="GeneID" accession="355" />
           <db_xref source="MIM" accession="134637" />
-          <transcript source="Ensembl" transcript_id="ENST00000371875" start="3939" end="30254">
-            <long_name>FAS-201 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000360942" cds_start="3939" cds_end="28920">
-              <db_xref source="UniProtKB" accession="Q59FU8" />
-              <db_xref source="UniProtKB" accession="Q8IUB6" />
+          <transcript source="Ensembl" transcript_id="ENST00000540197" start="1" end="28920">
+            <partial>5-prime</partial>
+            <long_name>FAS-202 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000441676" cds_start="3939" cds_end="28920">
+              <db_xref source="UniProtKB" accession="Q8IUB7" />
               <db_xref source="UniProtKB" accession="Q8IUB7" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000355740" start="5127" end="30255" fixed_id="t1">
+          <transcript source="Ensembl" transcript_id="ENST00000355740" start="5127" end="30255">
             <long_name>Fas (TNF receptor superfamily, member 6) (FAS), transcript variant 1, mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS7393.1" />
             <db_xref source="RefSeq" accession="NM_000043.3" />
+            <db_xref source="CCDS" accession="CCDS7393.1" />
             <protein_product source="Ensembl" accession="ENSP00000347979" cds_start="5347" cds_end="28920">
               <long_name>tumor necrosis factor receptor superfamily member 6 isoform 1 precursor </long_name>
+              <db_xref source="UniProtKB" accession="P25445" />
+              <db_xref source="UniProtKB" accession="Q8IUB7" />
               <db_xref source="RefSeq" accession="NP_000034.1" />
-              <db_xref source="UniProtKB" accession="B6VNV5" />
-              <db_xref source="UniProtKB" accession="Q6ICT6" />
-              <db_xref source="UniProtKB" accession="Q8IUB6" />
               <db_xref source="UniProtKB" accession="Q8IUB7" />
               <db_xref source="UniProtKB" accession="P25445" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000352159" start="5157" end="29425">
             <long_name>FAS-016 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000345601" cds_start="5347" cds_end="28595"></protein_product>
+            <protein_product source="Ensembl" accession="ENSP00000345601" cds_start="5347" cds_end="28595">
+              <db_xref source="UniProtKB" accession="E2QRI8" />
+              <db_xref source="UniProtKB" accession="E2QRI8" />
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000484444" start="5201" end="29089">
             <long_name>FAS-008 (nonsense_mediated_decay)</long_name>
@@ -283,12 +285,12 @@
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000357339" start="5248" end="28920">
             <long_name>Fas (TNF receptor superfamily, member 6) (FAS), transcript variant 2, mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS7394.1" />
             <db_xref source="RefSeq" accession="NM_152871.1" />
+            <db_xref source="CCDS" accession="CCDS7394.1" />
             <protein_product source="Ensembl" accession="ENSP00000349896" cds_start="5347" cds_end="28920">
               <long_name>tumor necrosis factor receptor superfamily member 6 isoform 2 precursor </long_name>
+              <db_xref source="UniProtKB" accession="Q8IUB7" />
               <db_xref source="RefSeq" accession="NP_690610.1" />
-              <db_xref source="UniProtKB" accession="Q8IUB6" />
               <db_xref source="UniProtKB" accession="Q8IUB7" />
             </protein_product>
           </transcript>
@@ -304,19 +306,27 @@
             <long_name>FAS-009 (nonsense_mediated_decay)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000424113" cds_start="5347" cds_end="26471"></protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000355279" start="5347" end="28920">
-            <long_name>Fas (TNF receptor superfamily, member 6) (FAS), transcript variant 3, mRNA (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS7395.1" />
-            <db_xref source="RefSeq" accession="NM_152872.1" />
-            <protein_product source="Ensembl" accession="ENSP00000347426" cds_start="5347" cds_end="28600">
-              <long_name>tumor necrosis factor receptor superfamily member 6 isoform 3 precursor </long_name>
-              <db_xref source="RefSeq" accession="NP_690611.1" />
-              <db_xref source="UniProtKB" accession="Q5T9P3" />
+          <transcript source="Ensembl" transcript_id="ENST00000371875" start="5347" end="28920">
+            <long_name>FAS-201 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000360942" cds_start="5347" cds_end="28649">
+              <db_xref source="UniProtKB" accession="B6VNV5" />
+              <db_xref source="UniProtKB" accession="B6VNV5" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000492756" start="5347" end="28920">
             <long_name>FAS-010 (nonsense_mediated_decay)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000422453" cds_start="5347" cds_end="26471"></protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000355279" start="5347" end="28920">
+            <long_name>Fas (TNF receptor superfamily, member 6) (FAS), transcript variant 3, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_152872.1" />
+            <db_xref source="CCDS" accession="CCDS7395.1" />
+            <protein_product source="Ensembl" accession="ENSP00000347426" cds_start="5347" cds_end="28600">
+              <long_name>tumor necrosis factor receptor superfamily member 6 isoform 3 precursor </long_name>
+              <db_xref source="UniProtKB" accession="Q5T9P3" />
+              <db_xref source="RefSeq" accession="NP_690611.1" />
+              <db_xref source="UniProtKB" accession="Q5T9P3" />
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000460510" start="5430" end="23467">
             <long_name>FAS-003 (processed_transcript)</long_name>
@@ -341,27 +351,6 @@
           </transcript>
         </gene>
       </features>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>Autoimmune Lymphoproliferative Syndrome Database (ALPSbase): Database of mutations causing human ALPS</name>
-        <url>http://research.nhgri.nih.gov/ALPS/</url>
-      </source>
-      <modification_date>2010-08-26</modification_date>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>FAS homepage - CCHMC - Human Genetics Mutation Database</name>
-        <url>https://research.cchmc.org/LOVD/home.php?select_db=FAS</url>
-      </source>
-      <modification_date>2010-08-26</modification_date>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>FAS homepage - LOVD at NCBI</name>
-        <url>http://www.ncbi.nlm.nih.gov/lovd/home.php?select_db=FAS</url>
-      </source>
-      <modification_date>2010-08-26</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
