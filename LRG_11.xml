@@ -359,8 +359,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 59</comment>
-      <modification_date>2010-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 62</comment>
+      <modification_date>2011-04-12</modification_date>
       <other_exon_naming>
         <source description="Legacy numbering communicated by Dr. R. Dalgleish">
           <transcript name="t1">
@@ -395,18 +395,20 @@
       </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
-        <gene symbol="CDKN2BAS" strand="-1" start="1" end="4701">
+        <gene symbol="CDKN2B-AS1" strand="-1" start="1" end="4701">
           <partial>3-prime</partial>
           <synonym>ANRIL</synonym>
+          <synonym>CDKN2B-AS</synonym>
+          <synonym>CDKN2BAS</synonym>
           <synonym>NCRNA00089</synonym>
           <synonym>p15AS</synonym>
           <synonym>RP11-145E5.4</synonym>
-          <long_name>CDKN2B antisense RNA (non-protein coding) (processed_transcript)</long_name>
+          <long_name>CDKN2B antisense RNA 1 (non-protein coding) (processed_transcript)</long_name>
           <db_xref source="HGNC" accession="34341" />
           <db_xref source="Ensembl" accession="ENSG00000240498" />
           <transcript source="Ensembl" transcript_id="ENST00000428597" start="1" end="4701">
             <partial>3-prime</partial>
-            <long_name>CDKN2B antisense RNA (non-protein coding) (CDKN2BAS), antisense RNA (antisense)</long_name>
+            <long_name>CDKN2B antisense RNA 1 (non-protein coding) (CDKN2B-AS1), antisense RNA (antisense)</long_name>
             <db_xref source="RefSeq" accession="NR_003529.3" />
           </transcript>
         </gene>
@@ -432,7 +434,7 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene symbol="CDKN2A" strand="1" start="4191" end="31739">
+        <gene symbol="CDKN2A" strand="1" start="4191" end="31740">
           <synonym>ARF</synonym>
           <synonym>CDK4I</synonym>
           <synonym>CDKN2</synonym>
@@ -460,60 +462,74 @@
           <transcript source="Ensembl" transcript_id="ENST00000470819" start="4619" end="10155">
             <long_name>CDKN2A-007 (processed_transcript)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000361570" start="5001" end="31494">
-            <long_name>cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4) (CDKN2A), transcript variant 4, mRNA (nonsense_mediated_decay)</long_name>
+          <transcript source="Ensembl" transcript_id="ENST00000530628" start="5001" end="31494">
+            <long_name>CDKN2A-004 (protein_coding)</long_name>
+            <protein_product source="Ensembl" accession="ENSP00000432664" cds_start="5161" cds_end="28489">
+              <long_name>cyclin-dependent kinase inhibitor 2A isoform 4 </long_name>
+              <db_xref source="UniProtKB" accession="Q5ZEY9" />
+              <db_xref source="RefSeq" accession="NP_478102.2" />
+              <db_xref source="UniProtKB" accession="Q5ZEY9" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000361570" start="5001" end="31740" fixed_id="t2">
+            <long_name>cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4) (CDKN2A), transcript variant 4, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_058195.3" />
             <db_xref source="CCDS" accession="CCDS6511.1" />
-            <db_xref source="RefSeq" accession="NM_058195.2" />
             <protein_product source="Ensembl" accession="ENSP00000355153" cds_start="5038" cds_end="28489">
-              <long_name>cyclin-dependent kinase inhibitor 2A, isoform 4 isoform 4 </long_name>
-              <db_xref source="RefSeq" accession="NP_478102.1" />
-              <db_xref source="UniProtKB" accession="D3DRK2" />
+              <long_name>cyclin-dependent kinase inhibitor 2A isoform 4 </long_name>
+              <db_xref source="UniProtKB" accession="Q8N726" />
+              <db_xref source="UniProtKB" accession="Q5ZEY9" />
+              <db_xref source="RefSeq" accession="NP_478102.2" />
               <db_xref source="UniProtKB" accession="Q5ZEY9" />
               <db_xref source="UniProtKB" accession="Q8N726" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000304494" start="24394" end="31739">
+          <transcript source="Ensembl" transcript_id="ENST00000304494" start="24394" end="31739" fixed_id="t1">
             <long_name>cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4) (CDKN2A), transcript variant 1, mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_000077.4" />
             <db_xref source="CCDS" accession="CCDS6510.1" />
-            <db_xref source="RefSeq" accession="NM_000077.3" />
             <protein_product source="Ensembl" accession="ENSP00000307101" cds_start="24665" cds_end="31263">
-              <long_name>cyclin-dependent kinase inhibitor 2A, isoform 4 isoform 1 </long_name>
+              <long_name>cyclin-dependent kinase inhibitor 2A isoform 1 </long_name>
+              <db_xref source="UniProtKB" accession="P42771" />
+              <db_xref source="UniProtKB" accession="Q9UPB7" />
               <db_xref source="RefSeq" accession="NP_000068.1" />
-              <db_xref source="UniProtKB" accession="A7LNE7" />
-              <db_xref source="UniProtKB" accession="D3DRK1" />
-              <db_xref source="UniProtKB" accession="Q2MJK0" />
               <db_xref source="UniProtKB" accession="Q9UPB7" />
               <db_xref source="UniProtKB" accession="P42771" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000446177" start="24453" end="30767">
-            <long_name>CDKN2A-201 (protein_coding)</long_name>
+            <long_name>CDKN2A-202 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000394932" cds_start="24665" cds_end="30767">
+              <long_name>cyclin-dependent kinase inhibitor 2A isoform 5 </long_name>
               <db_xref source="UniProtKB" accession="A5X2G7" />
-              <db_xref source="UniProtKB" accession="A7LNE7" />
-              <db_xref source="UniProtKB" accession="Q2MJK0" />
+              <db_xref source="UniProtKB" accession="Q9UPB7" />
+              <db_xref source="UniProtKB" accession="A5X2G7" />
+              <db_xref source="RefSeq" accession="NP_001182061.1" />
               <db_xref source="UniProtKB" accession="Q9UPB7" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000498124" start="24626" end="31436">
-            <long_name>CDKN2A-009 (nonsense_mediated_decay)</long_name>
+          <transcript source="Ensembl" transcript_id="ENST00000498124" start="24626" end="31436" fixed_id="t4">
+            <long_name>cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4) (CDKN2A), transcript variant 5, mRNA (nonsense_mediated_decay)</long_name>
+            <db_xref source="RefSeq" accession="NM_001195132.1" />
             <protein_product source="Ensembl" accession="ENSP00000418915" cds_start="24665" cds_end="30767">
+              <long_name>cyclin-dependent kinase inhibitor 2A isoform 5 </long_name>
               <db_xref source="UniProtKB" accession="A5X2G7" />
-              <db_xref source="UniProtKB" accession="A7LNE7" />
-              <db_xref source="UniProtKB" accession="Q2MJK0" />
+              <db_xref source="UniProtKB" accession="Q9UPB7" />
+              <db_xref source="UniProtKB" accession="A5X2G7" />
+              <db_xref source="RefSeq" accession="NP_001182061.1" />
               <db_xref source="UniProtKB" accession="Q9UPB7" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000380151" start="24665" end="31312" fixed_id="t3">
+          <transcript source="Ensembl" transcript_id="ENST00000380151" start="24665" end="31312">
             <long_name>cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits CDK4) (CDKN2A), transcript variant 3, mRNA (nonsense_mediated_decay)</long_name>
-            <db_xref source="CCDS" accession="CCDS34998.1" />
-            <db_xref source="RefSeq" accession="NM_058197.3" />
+            <db_xref source="RefSeq" accession="NM_058197.4" />
             <protein_product source="Ensembl" accession="ENSP00000369496" cds_start="24665" cds_end="25015">
-              <long_name>cyclin-dependent kinase inhibitor 2A, isoform 4 isoform 3 </long_name>
-              <db_xref source="RefSeq" accession="NP_478104.2" />
-              <db_xref source="UniProtKB" accession="Q208B5" />
-              <db_xref source="UniProtKB" accession="Q2MJK0" />
+              <long_name>cyclin-dependent kinase inhibitor 2A p12 </long_name>
               <db_xref source="UniProtKB" accession="Q9UPB7" />
+              <db_xref source="UniProtKB" accession="Q208B5" />
+              <db_xref source="RefSeq" accession="NP_478104.2" />
+              <db_xref source="UniProtKB" accession="Q9UPB7" />
+              <db_xref source="UniProtKB" accession="Q208B5" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000497750" start="28092" end="28776">
@@ -526,15 +542,16 @@
             <long_name>CDKN2A-008 (processed_transcript)</long_name>
           </transcript>
         </gene>
-        <gene symbol="C9orf53" strand="-1" start="31738" end="32353">
+        <gene symbol="C9orf53" strand="-1" start="31753" end="32354">
           <synonym>bA149I2.3</synonym>
           <long_name>chromosome 9 open reading frame 53 (protein_coding)</long_name>
           <db_xref source="HGNC" accession="23831" />
           <db_xref source="Ensembl" accession="ENSG00000224854" />
-          <transcript source="Ensembl" transcript_id="ENST00000441769" start="31738" end="32353">
+          <transcript source="Ensembl" transcript_id="ENST00000441769" start="31753" end="32354">
             <long_name>chromosome 9 open reading frame 53 (C9orf53), non-coding RNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NR_024274.1" />
             <protein_product source="Ensembl" accession="ENSP00000414893" cds_start="32053" cds_end="32292">
+              <db_xref source="UniProtKB" accession="Q9UH64" />
               <db_xref source="UniProtKB" accession="Q9UH64" />
             </protein_product>
           </transcript>
