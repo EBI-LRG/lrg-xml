@@ -173,7 +173,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2011-05-03</modification_date>
+      <modification_date>2011-06-11</modification_date>
       <mapping assembly="GRCh37" chr_name="8" chr_start="145734667" chr_end="145748210" most_recent="1">
         <mapping_span strand="-1" lrg_start="1" lrg_end="13543" start="145734667" end="145748210">
           <diff type="mismatch" lrg_start="5697" lrg_end="5697" start="145742514" end="145742514" lrg_sequence="C" genomic_sequence="T" />
@@ -373,48 +373,30 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 62</comment>
-      <modification_date>2011-05-03</modification_date>
+      <comment>Annotation is based on Ensembl release 63</comment>
+      <modification_date>2011-06-11</modification_date>
       <other_exon_naming></other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
-        <gene symbol="AC084125.1" strand="1" start="1" end="423">
+        <gene symbol="LRRC24" strand="1" start="1" end="423">
           <partial>5-prime</partial>
-          <long_name>leucine-rich repeat-containing protein 24 precursor  [Source:RefSeq peptide;Acc:NP_001019849] (protein_coding)</long_name>
+          <synonym>LRRC14OS</synonym>
+          <long_name>leucine rich repeat containing 24 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="28947" />
           <db_xref source="Ensembl" accession="ENSG00000254402" />
-          <db_xref source="GeneID" accession="441381" />
           <transcript source="Ensembl" transcript_id="ENST00000533758" start="1" end="388">
             <partial>5-prime</partial>
-            <long_name>AC084125.1-002 (protein_coding)</long_name>
+            <long_name>LRRC24-002 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000435653" cds_start="352" cds_end="352">
               <partial>5-prime</partial>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000529415" start="1" end="423">
             <partial>5-prime</partial>
-            <long_name>AC084125.1-001 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS34969.1" />
-            <protein_product source="Ensembl" accession="ENSP00000434849" cds_start="352" cds_end="352">
-              <partial>5-prime</partial>
-              <long_name>leucine-rich repeat-containing protein 24 precursor </long_name>
-              <db_xref source="RefSeq" accession="NP_001019849.2" />
-              <db_xref source="UniProtKB" accession="Q50LG9" />
-            </protein_product>
-          </transcript>
-        </gene>
-        <gene symbol="LRRC24" strand="1" start="1" end="449">
-          <partial>5-prime</partial>
-          <synonym>LRRC14OS</synonym>
-          <long_name>leucine rich repeat containing 24 (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="28947" />
-          <db_xref source="Ensembl" accession="ENSG00000177021" />
-          <db_xref source="GeneID" accession="441381" />
-          <transcript source="Ensembl" transcript_id="ENST00000343593" start="1" end="449">
-            <partial>5-prime</partial>
             <long_name>leucine rich repeat containing 24 (LRRC24), mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001024678.3" />
             <db_xref source="CCDS" accession="CCDS34969.1" />
-            <protein_product source="Ensembl" accession="ENSP00000339255" cds_start="352" cds_end="352">
+            <protein_product source="Ensembl" accession="ENSP00000434849" cds_start="352" cds_end="352">
               <partial>5-prime</partial>
               <long_name>leucine-rich repeat-containing protein 24 precursor </long_name>
               <db_xref source="UniProtKB" accession="Q50LG9" />
@@ -429,18 +411,21 @@
           <long_name>leucine rich repeat containing 14 (protein_coding)</long_name>
           <db_xref source="HGNC" accession="20419" />
           <db_xref source="Ensembl" accession="ENSG00000160959" />
-          <db_xref source="GeneID" accession="9684" />
           <transcript source="Ensembl" transcript_id="ENST00000528528" start="1" end="245">
             <partial>3-prime</partial>
             <long_name>LRRC14-008 (processed_transcript)</long_name>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000292524" start="1" end="4820">
             <partial>3-prime</partial>
-            <long_name>LRRC14-001 (protein_coding)</long_name>
+            <long_name>leucine rich repeat containing 14 (LRRC14), mRNA (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_014665.2" />
             <db_xref source="CCDS" accession="CCDS6432.1" />
             <protein_product source="Ensembl" accession="ENSP00000292524" cds_start="1349" cds_end="3101">
               <long_name>leucine-rich repeat-containing protein 14 </long_name>
               <db_xref source="UniProtKB" accession="Q15048" />
+              <db_xref source="UniProtKB" accession="E9PRP5" />
+              <db_xref source="UniProtKB" accession="E9PP40" />
+              <db_xref source="UniProtKB" accession="E9PNL0" />
               <db_xref source="RefSeq" accession="NP_055480.1" />
             </protein_product>
           </transcript>
@@ -450,8 +435,10 @@
             <db_xref source="CCDS" accession="CCDS6432.1" />
             <protein_product source="Ensembl" accession="ENSP00000434768" cds_start="1349" cds_end="3101">
               <long_name>leucine-rich repeat-containing protein 14 </long_name>
+              <db_xref source="UniProtKB" accession="E9PRP5" />
+              <db_xref source="UniProtKB" accession="E9PP40" />
+              <db_xref source="UniProtKB" accession="E9PNL0" />
               <db_xref source="RefSeq" accession="NP_055480.1" />
-              <db_xref source="UniProtKB" accession="Q15048" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000531310" start="2005" end="3560">
@@ -459,18 +446,27 @@
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000527730" start="2016" end="4835">
             <long_name>LRRC14-003 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000436452" cds_start="2016" cds_end="3101"></protein_product>
+            <protein_product source="Ensembl" accession="ENSP00000436452" cds_start="2016" cds_end="3101">
+              <db_xref source="UniProtKB" accession="E9PRP5" />
+              <db_xref source="UniProtKB" accession="E9PP40" />
+              <db_xref source="UniProtKB" accession="E9PNL0" />
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000525766" start="2440" end="4082">
             <long_name>LRRC14-005 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000434738" cds_start="2440" cds_end="3101"></protein_product>
+            <protein_product source="Ensembl" accession="ENSP00000434738" cds_start="2440" cds_end="3101">
+              <db_xref source="UniProtKB" accession="E9PRP5" />
+              <db_xref source="UniProtKB" accession="E9PNL0" />
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000530854" start="2842" end="4456">
             <long_name>LRRC14-004 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000435985" cds_start="2842" cds_end="3101"></protein_product>
+            <protein_product source="Ensembl" accession="ENSP00000435985" cds_start="2842" cds_end="3101">
+              <db_xref source="UniProtKB" accession="E9PRP5" />
+            </protein_product>
           </transcript>
         </gene>
-        <gene symbol="RECQL4" strand="1" start="4982" end="11539">
+        <gene symbol="RECQL4" strand="1" start="4982" end="11543">
           <synonym>RecQ4</synonym>
           <long_name>RecQ protein-like 4 (processed_transcript)</long_name>
           <db_xref source="HGNC" accession="9949" />
@@ -480,6 +476,10 @@
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000532269" start="5001" end="11536">
             <long_name>RECQL4-002 (processed_transcript)</long_name>
+          </transcript>
+          <transcript source="Ensembl" transcript_id="ENST00000428558" start="5001" end="11543" fixed_id="t1">
+            <long_name>RecQ protein-like 4 (RECQL4), mRNA (retained_intron)</long_name>
+            <db_xref source="RefSeq" accession="NM_004260.3" />
           </transcript>
           <transcript source="Ensembl" transcript_id="ENST00000534538" start="5199" end="6582">
             <long_name>RECQL4-004 (processed_transcript)</long_name>
@@ -506,28 +506,11 @@
             <long_name>RECQL4-009 (processed_transcript)</long_name>
           </transcript>
         </gene>
-        <gene symbol="AC084125.3" strand="1" start="5001" end="11543">
-          <long_name>ATP-dependent DNA helicase Q4 [Source:UniProtKB/Swiss-Prot;Acc:O94761] (protein_coding)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000256088" />
-          <db_xref source="GeneID" accession="9401" />
-          <db_xref source="MIM" accession="603780" />
-          <transcript source="Ensembl" transcript_id="ENST00000428558" start="5001" end="11543" fixed_id="t1">
-            <long_name>RecQ protein-like 4 (RECQL4), mRNA (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_004260.3" />
-            <protein_product source="Ensembl" accession="ENSP00000410312" cds_start="5043" cds_end="11396">
-              <long_name>ATP-dependent DNA helicase Q4 </long_name>
-              <db_xref source="UniProtKB" accession="C9JFV7" />
-              <db_xref source="UniProtKB" accession="O94761" />
-              <db_xref source="RefSeq" accession="NP_004251.3" />
-            </protein_product>
-          </transcript>
-        </gene>
         <gene symbol="MFSD3" strand="-1" start="11641" end="13543">
           <partial>5-prime</partial>
           <long_name>major facilitator superfamily domain containing 3 (protein_coding)</long_name>
           <db_xref source="HGNC" accession="25157" />
           <db_xref source="Ensembl" accession="ENSG00000167700" />
-          <db_xref source="GeneID" accession="113655" />
           <transcript source="Ensembl" transcript_id="ENST00000301327" start="11641" end="13543">
             <partial>5-prime</partial>
             <long_name>major facilitator superfamily domain containing 3 (MFSD3), mRNA (protein_coding)</long_name>
