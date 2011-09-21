@@ -6,8 +6,8 @@
     <id>LRG_286</id>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
-      <name>The International COL7A1 Mutation Database</name>
-      <url>http://www.col7a1.org/</url>
+      <name>The International Dystrophic Epidermolysis Bullosa Patient Registry</name>
+      <url>www.deb-registry.org</url>
       <contact>
         <name>Morris Swertz</name>
         <address>Genomics Coordination Center, University of Groningen</address>
@@ -757,7 +757,7 @@
       </source>
       <modification_date>2011-07-11</modification_date>
       <mapping assembly="GRCh37" chr_name="3" chr_start="48599506" chr_end="48637685" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="38180" start="48599506" end="48637685"></mapping_span>
+        <mapping_span lrg_start="1" lrg_end="38180" start="48599506" end="48637685" strand="-1"></mapping_span>
       </mapping>
       <lrg_gene_name source="HGNC">COL7A1</lrg_gene_name>
     </annotation_set>
@@ -1262,7 +1262,7 @@
           <db_xref source="GeneID" accession="7384"></db_xref>
           <db_xref source="HGNC" accession="12585"></db_xref>
           <db_xref source="MIM" accession="191328"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_003365.2" start="102" end="1254">
+          <transcript source="RefSeq" start="102" end="1254" transcript_id="NM_003365.2">
             <partial>5-prime</partial>
             <long_name>ubiquinol-cytochrome c reductase core protein I</long_name>
             <db_xref source="GeneID" accession="7384"></db_xref>
@@ -1290,7 +1290,7 @@
           <db_xref source="MIM" accession="120120"></db_xref>
           <db_xref source="CCDS" accession="CCDS2773.1"></db_xref>
           <db_xref source="GI" accession="160358345"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_000094.3" start="5093" end="36180" fixed_id="t1">
+          <transcript source="RefSeq" start="5093" end="36180" transcript_id="NM_000094.3" fixed_id="t1">
             <long_name>collagen, type VII, alpha 1</long_name>
             <comment></comment>
             <db_xref source="GeneID" accession="1294"></db_xref>
@@ -1318,7 +1318,7 @@
           <db_xref source="GeneID" accession="90226"></db_xref>
           <db_xref source="HGNC" accession="18414"></db_xref>
           <db_xref source="MIM" accession="605902"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_033199.3" start="36485" end="38180">
+          <transcript source="RefSeq" start="36485" end="38180" transcript_id="NM_033199.3">
             <partial>3-prime</partial>
             <long_name>urocortin 2</long_name>
             <db_xref source="GeneID" accession="90226"></db_xref>
@@ -1361,19 +1361,19 @@
           <long_name>ubiquinol-cytochrome c reductase core protein I (protein_coding)</long_name>
           <db_xref source="HGNC" accession="12585" />
           <db_xref source="Ensembl" accession="ENSG00000010256" />
-          <transcript source="Ensembl" transcript_id="ENST00000460105" start="1" end="135">
+          <transcript source="Ensembl" start="1" end="135" transcript_id="ENST00000460105">
             <partial>5-prime</partial>
             <long_name>UQCRC1-007 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000415995" start="1" end="1199">
+          <transcript source="Ensembl" start="1" end="1199" transcript_id="ENST00000415995">
             <partial>5-prime</partial>
             <long_name>UQCRC1-004 (nonsense_mediated_decay)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000480561" start="1" end="1219">
+          <transcript source="Ensembl" start="1" end="1219" transcript_id="ENST00000480561">
             <partial>5-prime</partial>
             <long_name>UQCRC1-006 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000203407" start="1" end="1250">
+          <transcript source="Ensembl" start="1" end="1250" transcript_id="ENST00000203407">
             <partial>5-prime</partial>
             <long_name>ubiquinol-cytochrome c reductase core protein I (UQCRC1), mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_003365.2" />
@@ -1386,7 +1386,7 @@
               <db_xref source="RefSeq" accession="NP_003356.2" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000471189" start="1" end="1251">
+          <transcript source="Ensembl" start="1" end="1251" transcript_id="ENST00000471189">
             <partial>5-prime</partial>
             <long_name>UQCRC1-002 (retained_intron)</long_name>
           </transcript>
@@ -1398,7 +1398,7 @@
           <long_name>collagen, type VII, alpha 1 (protein_coding)</long_name>
           <db_xref source="HGNC" accession="2214" />
           <db_xref source="Ensembl" accession="ENSG00000114270" />
-          <transcript source="Ensembl" transcript_id="ENST00000328333" start="4986" end="36180" fixed_id="t1">
+          <transcript source="Ensembl" start="4986" end="36180" transcript_id="ENST00000328333" fixed_id="t1">
             <long_name>collagen, type VII, alpha 1 (COL7A1), mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_000094.3" />
             <db_xref source="CCDS" accession="CCDS2773.1" />
@@ -1408,38 +1408,38 @@
               <db_xref source="RefSeq" accession="NP_000085.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000454817" start="5093" end="36180">
+          <transcript source="Ensembl" start="5093" end="36180" transcript_id="ENST00000454817">
             <long_name>COL7A1-201 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000412569" cds_start="5094" cds_end="35847"></protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000487017" start="15733" end="36180">
+          <transcript source="Ensembl" start="15733" end="36180" transcript_id="ENST00000487017">
             <long_name>COL7A1-002 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000422991" start="28627" end="30495">
+          <transcript source="Ensembl" start="28627" end="30495" transcript_id="ENST00000422991">
             <long_name>COL7A1-003 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000391608" cds_start="28705" cds_end="30495">
               <db_xref source="UniProtKB" accession="C9JBL3" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000462475" start="28923" end="29359">
+          <transcript source="Ensembl" start="28923" end="29359" transcript_id="ENST00000462475">
             <long_name>COL7A1-010 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000467985" start="29371" end="32089">
+          <transcript source="Ensembl" start="29371" end="32089" transcript_id="ENST00000467985">
             <long_name>COL7A1-004 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000459756" start="29812" end="32555">
+          <transcript source="Ensembl" start="29812" end="32555" transcript_id="ENST00000459756">
             <long_name>COL7A1-005 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000474432" start="32890" end="33713">
+          <transcript source="Ensembl" start="32890" end="33713" transcript_id="ENST00000474432">
             <long_name>COL7A1-006 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000466591" start="34914" end="36179">
+          <transcript source="Ensembl" start="34914" end="36179" transcript_id="ENST00000466591">
             <long_name>COL7A1-009 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000465238" start="35234" end="36180">
+          <transcript source="Ensembl" start="35234" end="36180" transcript_id="ENST00000465238">
             <long_name>COL7A1-008 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000470076" start="35261" end="36180">
+          <transcript source="Ensembl" start="35261" end="36180" transcript_id="ENST00000470076">
             <long_name>COL7A1-007 (processed_transcript)</long_name>
           </transcript>
         </gene>
@@ -1448,7 +1448,7 @@
           <long_name>microRNA 711 (miRNA)</long_name>
           <db_xref source="HGNC" accession="37316" />
           <db_xref source="Ensembl" accession="ENSG00000211535" />
-          <transcript source="Ensembl" transcript_id="ENST00000390201" start="21276" end="21351">
+          <transcript source="Ensembl" start="21276" end="21351" transcript_id="ENST00000390201">
             <long_name>microRNA 711 (MIR711), microRNA (miRNA)</long_name>
             <db_xref source="RefSeq" accession="NR_031756.1" />
           </transcript>
@@ -1462,7 +1462,7 @@
           <long_name>urocortin 2 (protein_coding)</long_name>
           <db_xref source="HGNC" accession="18414" />
           <db_xref source="Ensembl" accession="ENSG00000145040" />
-          <transcript source="Ensembl" transcript_id="ENST00000273610" start="36480" end="38180">
+          <transcript source="Ensembl" start="36480" end="38180" transcript_id="ENST00000273610">
             <partial>3-prime</partial>
             <long_name>urocortin 2 (UCN2), mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_033199.3" />
@@ -1481,14 +1481,14 @@
         <name>COL7A1 homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=COL7A1</url>
       </source>
-      <modification_date>2011-08-01</modification_date>
+      <modification_date>2011-09-21</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>The International Dystrophic Epidermolysis Bullosa Patient Registry</name>
         <url>http://www.deb-central.org/</url>
       </source>
-      <modification_date>2011-08-01</modification_date>
+      <modification_date>2011-09-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
