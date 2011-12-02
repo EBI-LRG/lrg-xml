@@ -138,7 +138,7 @@
       </source>
       <modification_date>2011-06-21</modification_date>
       <mapping assembly="GRCh37" chr_name="7" chr_start="150640049" chr_end="150680014" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="39966" start="150640049" end="150680014"></mapping_span>
+        <mapping_span lrg_start="1" lrg_end="39966" start="150640049" end="150680014" strand="-1"></mapping_span>
       </mapping>
       <lrg_gene_name source="HGNC">KCNH2</lrg_gene_name>
     </annotation_set>
@@ -237,7 +237,7 @@
           <db_xref source="CCDS" accession="CCDS5910.1"></db_xref>
           <db_xref source="CCDS" accession="CCDS5911.1"></db_xref>
           <db_xref source="GI" accession="211065503"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_000238.3" start="4613" end="37971" fixed_id="t1">
+          <transcript source="RefSeq" start="4613" end="37971" transcript_id="NM_000238.3" fixed_id="t1">
             <long_name>potassium voltage-gated channel, subfamily H (eag-related), member 2, transcript variant 1</long_name>
             <comment></comment>
             <db_xref source="GeneID" accession="3757"></db_xref>
@@ -285,7 +285,7 @@
           <long_name>potassium voltage-gated channel, subfamily H (eag-related), member 2 (protein_coding)</long_name>
           <db_xref source="HGNC" accession="6251" />
           <db_xref source="Ensembl" accession="ENSG00000055118" />
-          <transcript source="Ensembl" transcript_id="ENST00000262186" start="4612" end="37966" fixed_id="t1">
+          <transcript source="Ensembl" start="4612" end="37966" transcript_id="ENST00000262186" fixed_id="t1">
             <long_name>potassium voltage-gated channel, subfamily H (eag-related), member 2 (KCNH2), transcript variant 1, mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_000238.3" />
             <db_xref source="CCDS" accession="CCDS5910.1" />
@@ -301,10 +301,10 @@
               <db_xref source="RefSeq" accession="NP_000229.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000532957" start="4791" end="33512">
+          <transcript source="Ensembl" start="4791" end="33512" transcript_id="ENST00000532957">
             <long_name>KCNH2-002 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000430723" start="5001" end="33493">
+          <transcript source="Ensembl" start="5001" end="33493" transcript_id="ENST00000430723">
             <long_name>potassium voltage-gated channel, subfamily H (eag-related), member 2 (KCNH2), transcript variant 2, mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_172056.2" />
             <db_xref source="CCDS" accession="CCDS47747.1" />
@@ -320,7 +320,7 @@
               <db_xref source="RefSeq" accession="NP_742053.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000392968" start="22051" end="37966">
+          <transcript source="Ensembl" start="22051" end="37966" transcript_id="ENST00000392968">
             <long_name>KCNH2-202 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000376695" cds_start="23172" cds_end="37562">
               <db_xref source="UniProtKB" accession="Q9H252" />
@@ -330,7 +330,7 @@
               <db_xref source="UniProtKB" accession="C4PFH9" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000330883" start="27021" end="37966">
+          <transcript source="Ensembl" start="27021" end="37966" transcript_id="ENST00000330883">
             <long_name>potassium voltage-gated channel, subfamily H (eag-related), member 2 (KCNH2), transcript variant 3, mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_172057.2" />
             <db_xref source="CCDS" accession="CCDS5911.1" />
@@ -343,10 +343,10 @@
               <db_xref source="RefSeq" accession="NP_742054.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000473610" start="27099" end="33511">
+          <transcript source="Ensembl" start="27099" end="33511" transcript_id="ENST00000473610">
             <long_name>KCNH2-005 (retained_intron)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000350328" start="27109" end="37692">
+          <transcript source="Ensembl" start="27109" end="37692" transcript_id="ENST00000350328">
             <long_name>KCNH2-201 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000309393" cds_start="27424" cds_end="37435">
               <db_xref source="UniProtKB" accession="Q6U287" />
@@ -356,7 +356,7 @@
               <db_xref source="UniProtKB" accession="A0PJW5" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000461280" start="27117" end="33504">
+          <transcript source="Ensembl" start="27117" end="33504" transcript_id="ENST00000461280">
             <long_name>potassium voltage-gated channel, subfamily H (eag-related), member 2 (KCNH2), transcript variant 4, mRNA (retained_intron)</long_name>
             <db_xref source="RefSeq" accession="NM_001204798.1" />
           </transcript>
@@ -365,31 +365,24 @@
     </annotation_set>
     <annotation_set>
       <source>
-        <name>Gene Connection for the Heart</name>
-        <url>http://www.fsm.it/cardmoc/</url>
-      </source>
-      <modification_date>2011-07-05</modification_date>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>Long QT Syndrome Database</name>
-        <url>http://www.ssi.dk/graphics/html/lqtsdb/lqtsdb.htm</url>
-      </source>
-      <modification_date>2011-07-05</modification_date>
-    </annotation_set>
-    <annotation_set>
-      <source>
         <name>KCNH2 homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=KCNH2</url>
       </source>
-      <modification_date>2011-07-05</modification_date>
+      <modification_date>2011-12-02</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>KCNH2 homepage - Zhejiang University Center for Genetic and Genomic Medicine (ZJU-CGGM)</name>
         <url>http://genomed.org/LOVD/LQTs/home.php?select_db=KCNH2</url>
       </source>
-      <modification_date>2011-07-05</modification_date>
+      <modification_date>2011-12-02</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Gene Connection for the Heart</name>
+        <url>http://www.fsm.it/cardmoc/hergmut.htm</url>
+      </source>
+      <modification_date>2011-12-02</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

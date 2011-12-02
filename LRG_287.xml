@@ -144,7 +144,7 @@
       </source>
       <modification_date>2011-06-21</modification_date>
       <mapping assembly="GRCh37" chr_name="11" chr_start="2461221" chr_end="2872340" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="411120" start="2461221" end="2872340"></mapping_span>
+        <mapping_span lrg_start="1" lrg_end="411120" start="2461221" end="2872340" strand="1"></mapping_span>
       </mapping>
       <lrg_gene_name source="HGNC">KCNQ1</lrg_gene_name>
     </annotation_set>
@@ -254,7 +254,7 @@
           <db_xref source="CCDS" accession="CCDS31342.1"></db_xref>
           <db_xref source="CCDS" accession="CCDS7736.1"></db_xref>
           <db_xref source="GI" accession="211904133"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_000218.2" start="5001" end="409120" fixed_id="t1">
+          <transcript source="RefSeq" start="5001" end="409120" transcript_id="NM_000218.2" fixed_id="t1">
             <long_name>potassium voltage-gated channel, KQT-like subfamily, member 1, transcript variant 1</long_name>
             <comment></comment>
             <db_xref source="GeneID" accession="3784"></db_xref>
@@ -312,13 +312,13 @@
           <long_name>potassium voltage-gated channel, KQT-like subfamily, member 1 (protein_coding)</long_name>
           <db_xref source="HGNC" accession="6294" />
           <db_xref source="Ensembl" accession="ENSG00000053918" />
-          <transcript source="Ensembl" transcript_id="ENST00000496887" start="4694" end="132916">
+          <transcript source="Ensembl" start="4694" end="132916" transcript_id="ENST00000496887">
             <long_name>KCNQ1-005 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000434560" cds_start="4696" cds_end="132916">
               <db_xref source="UniProtKB" accession="E9PPZ0" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000155840" start="5001" end="409001" fixed_id="t1">
+          <transcript source="Ensembl" start="5001" end="409001" transcript_id="ENST00000155840" fixed_id="t1">
             <long_name>potassium voltage-gated channel, KQT-like subfamily, member 1 (KCNQ1), transcript variant 1, mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_000218.2" />
             <db_xref source="CCDS" accession="CCDS7736.1" />
@@ -330,10 +330,10 @@
               <db_xref source="RefSeq" accession="NP_000209.2" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000345015" start="5332" end="87986">
+          <transcript source="Ensembl" start="5332" end="87986" transcript_id="ENST00000345015">
             <long_name>KCNQ1-004 (processed_transcript)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000335475" start="21446" end="408248">
+          <transcript source="Ensembl" start="21446" end="408248" transcript_id="ENST00000335475">
             <long_name>potassium voltage-gated channel, KQT-like subfamily, member 1 (KCNQ1), transcript variant 2, mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_181798.1" />
             <db_xref source="CCDS" accession="CCDS31342.1" />
@@ -345,18 +345,18 @@
               <db_xref source="RefSeq" accession="NP_861463.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000380776" start="21897" end="87983">
+          <transcript source="Ensembl" start="21897" end="87983" transcript_id="ENST00000380776">
             <long_name>KCNQ1-006 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000370153" cds_start="21904" cds_end="87983"></protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000526095" start="337585" end="408521">
+          <transcript source="Ensembl" start="337585" end="408521" transcript_id="ENST00000526095">
             <long_name>KCNQ1-007 (processed_transcript)</long_name>
           </transcript>
         </gene>
         <gene symbol="AC013791.2" strand="1" start="331366" end="331587">
           <long_name>AC013791.2 (pseudogene)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000236041" />
-          <transcript source="Ensembl" transcript_id="ENST00000448769" start="331366" end="331587">
+          <transcript source="Ensembl" start="331366" end="331587" transcript_id="ENST00000448769">
             <long_name>AC013791.2-001 (processed_pseudogene)</long_name>
           </transcript>
         </gene>
@@ -369,7 +369,7 @@
           <long_name>KCNQ1 overlapping transcript 1 (non-protein coding) (lincRNA)</long_name>
           <db_xref source="HGNC" accession="6295" />
           <db_xref source="Ensembl" accession="ENSG00000229414" />
-          <transcript source="Ensembl" transcript_id="ENST00000440887" start="400145" end="411120">
+          <transcript source="Ensembl" start="400145" end="411120" transcript_id="ENST00000440887">
             <partial>5-prime</partial>
             <long_name>KCNQ1OT1-002 (processed_transcript)</long_name>
           </transcript>
@@ -378,31 +378,24 @@
     </annotation_set>
     <annotation_set>
       <source>
-        <name>Gene Connection for the Heart</name>
-        <url>http://www.fsm.it/cardmoc/</url>
-      </source>
-      <modification_date>2011-07-05</modification_date>
-    </annotation_set>
-    <annotation_set>
-      <source>
-        <name>Long QT Syndrome Database</name>
-        <url>http://www.ssi.dk/graphics/html/lqtsdb/lqtsdb.htm</url>
-      </source>
-      <modification_date>2011-07-05</modification_date>
-    </annotation_set>
-    <annotation_set>
-      <source>
         <name>KCNQ1 homepage - CCHMC - Human Genetics Mutation Database</name>
         <url>https://research.cchmc.org/LOVD/home.php?select_db=KCNQ1</url>
       </source>
-      <modification_date>2011-07-05</modification_date>
+      <modification_date>2011-12-02</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>KCNQ1 homepage - Zhejiang University Center for Genetic and Genomic Medicine (ZJU-CGGM)</name>
         <url>http://genomed.org/LOVD/LQTs/home.php?select_db=KCNQ1</url>
       </source>
-      <modification_date>2011-07-05</modification_date>
+      <modification_date>2011-12-02</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Gene Connection for the Heart</name>
+        <url>http://www.fsm.it/cardmoc/kvlqt1mut.htm</url>
+      </source>
+      <modification_date>2011-12-02</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
