@@ -6,6 +6,30 @@
     <id>LRG_293</id>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
+      <name>Breast Cancer Information Core (BIC)</name>
+      <url>http://research.nhgri.nih.gov/bic/</url>
+      <contact>
+        <name>Alvaro Monteiro</name>
+        <email>Alvaro.Monteiro@moffitt.org</email>
+      </contact>
+      <contact>
+        <name>Lawrence Brody</name>
+        <email>lbrody@helix.nih.gov</email>
+      </contact>
+      <contact>
+        <name>Tyra Wolfsberg</name>
+        <email>tyra@nhgri.nih.gov</email>
+      </contact>
+    </source>
+    <source>
+      <name>Evidence-based Network for the Interpretation of Germline Mutant Alleles</name>
+      <url>http://enigmaconsortium.org/</url>
+      <contact>
+        <name>Andrew Devereau</name>
+        <email>andrew.devereau@cmmc.nhs.uk</email>
+      </contact>
+    </source>
+    <source>
       <name>NCBI RefSeqGene</name>
       <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
       <contact>
@@ -200,7 +224,7 @@
       </source>
       <modification_date>2011-07-04</modification_date>
       <mapping assembly="GRCh37" chr_name="13" chr_start="32884617" chr_end="32975809" most_recent="1">
-        <mapping_span strand="1" lrg_start="1" lrg_end="91193" start="32884617" end="32975809">
+        <mapping_span lrg_start="1" lrg_end="91193" start="32884617" end="32975809" strand="1">
           <diff type="mismatch" lrg_start="44771" lrg_end="44771" start="32929387" end="32929387" lrg_sequence="C" genomic_sequence="T" />
         </mapping_span>
       </mapping>
@@ -341,7 +365,7 @@
           <long_name>zygote arrest 1-like</long_name>
           <db_xref source="GeneID" accession="646799"></db_xref>
           <db_xref source="HGNC" accession="37116"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_001136571.1" start="160" end="1475">
+          <transcript source="RefSeq" start="160" end="1475" transcript_id="NM_001136571.1">
             <partial>3-prime</partial>
             <long_name>zygote arrest 1-like</long_name>
             <db_xref source="GeneID" accession="646799"></db_xref>
@@ -373,7 +397,7 @@
           <db_xref source="MIM" accession="600185"></db_xref>
           <db_xref source="CCDS" accession="CCDS9344.1"></db_xref>
           <db_xref source="GI" accession="256574794"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_000059.3" start="5001" end="89193" fixed_id="t1">
+          <transcript source="RefSeq" start="5001" end="89193" transcript_id="NM_000059.3" fixed_id="t1">
             <long_name>breast cancer 2, early onset</long_name>
             <comment></comment>
             <db_xref source="GeneID" accession="675"></db_xref>
@@ -407,13 +431,13 @@
           <long_name>NEDD4 binding protein 2-like 1</long_name>
           <db_xref source="GeneID" accession="90634"></db_xref>
           <db_xref source="HGNC" accession="25037"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_001079691.1" start="90244" end="91193">
+          <transcript source="RefSeq" start="90244" end="91193" transcript_id="NM_001079691.1">
             <partial>5-prime</partial>
             <long_name>NEDD4 binding protein 2-like 1, transcript variant 2</long_name>
             <db_xref source="GeneID" accession="90634"></db_xref>
             <db_xref source="GI" accession="119226226"></db_xref>
           </transcript>
-          <transcript source="RefSeq" transcript_id="NM_052818.2" start="90244" end="91193">
+          <transcript source="RefSeq" start="90244" end="91193" transcript_id="NM_052818.2">
             <partial>5-prime</partial>
             <long_name>NEDD4 binding protein 2-like 1, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="90634"></db_xref>
@@ -442,7 +466,7 @@
           <long_name>zygote arrest 1-like (protein_coding)</long_name>
           <db_xref source="HGNC" accession="37116" />
           <db_xref source="Ensembl" accession="ENSG00000189167" />
-          <transcript source="Ensembl" transcript_id="ENST00000345108" start="1" end="1475">
+          <transcript source="Ensembl" start="1" end="1475" transcript_id="ENST00000345108">
             <partial>3-prime</partial>
             <long_name>zygote arrest 1-like (ZAR1L), mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001136571.1" />
@@ -455,7 +479,7 @@
               <db_xref source="RefSeq" accession="NP_001130043.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000533490" start="1373" end="4865">
+          <transcript source="Ensembl" start="1373" end="4865" transcript_id="ENST00000533490">
             <long_name>ZAR1L-002 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000437289" cds_start="1373" cds_end="1446">
               <db_xref source="UniProtKB" accession="E9PMW1" />
@@ -472,7 +496,7 @@
           <long_name>breast cancer 2, early onset (protein_coding)</long_name>
           <db_xref source="HGNC" accession="1101" />
           <db_xref source="Ensembl" accession="ENSG00000139618" />
-          <transcript source="Ensembl" transcript_id="ENST00000380152" start="4995" end="88731">
+          <transcript source="Ensembl" start="4995" end="88731" transcript_id="ENST00000380152">
             <long_name>breast cancer 2, early onset (BRCA2), mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_000059.3" />
             <db_xref source="CCDS" accession="CCDS9344.1" />
@@ -486,7 +510,7 @@
               <db_xref source="RefSeq" accession="NP_000050.2" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000544455" start="5001" end="89189" fixed_id="t1">
+          <transcript source="Ensembl" start="5001" end="89189" transcript_id="ENST00000544455" fixed_id="t1">
             <long_name>breast cancer 2, early onset (BRCA2), mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_000059.3" />
             <db_xref source="CCDS" accession="CCDS9344.1" />
@@ -499,7 +523,7 @@
               <db_xref source="RefSeq" accession="NP_000050.2" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000530893" start="5026" end="22812">
+          <transcript source="Ensembl" start="5026" end="22812" transcript_id="ENST00000530893">
             <long_name>BRCA2-003 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000435699" cds_start="5982" cds_end="22812">
               <db_xref source="UniProtKB" accession="Q8IU82" />
@@ -508,15 +532,15 @@
               <db_xref source="UniProtKB" accession="E9PIQ1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000528762" start="60492" end="69016">
+          <transcript source="Ensembl" start="60492" end="69016" transcript_id="ENST00000528762">
             <long_name>BRCA2-005 (nonsense_mediated_decay)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000433168" cds_start="60492" cds_end="66191"></protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000470094" start="69361" end="87793">
+          <transcript source="Ensembl" start="69361" end="87793" transcript_id="ENST00000470094">
             <long_name>BRCA2-002 (nonsense_mediated_decay)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000434898" cds_start="69361" cds_end="85613"></protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000533776" start="86330" end="87969">
+          <transcript source="Ensembl" start="86330" end="87969" transcript_id="ENST00000533776">
             <long_name>BRCA2-006 (retained_intron)</long_name>
           </transcript>
         </gene>
@@ -528,7 +552,7 @@
           <long_name>interferon-induced protein with tetratricopeptide repeats 1 pseudogene 1 (pseudogene)</long_name>
           <db_xref source="HGNC" accession="5408" />
           <db_xref source="Ensembl" accession="ENSG00000215515" />
-          <transcript source="Ensembl" transcript_id="ENST00000400497" start="74181" end="75629">
+          <transcript source="Ensembl" start="74181" end="75629" transcript_id="ENST00000400497">
             <long_name>IFIT1P1-001 (processed_pseudogene)</long_name>
           </transcript>
         </gene>
@@ -538,7 +562,7 @@
           <long_name>NEDD4 binding protein 2-like 1 (protein_coding)</long_name>
           <db_xref source="HGNC" accession="25037" />
           <db_xref source="Ensembl" accession="ENSG00000139597" />
-          <transcript source="Ensembl" transcript_id="ENST00000380130" start="90245" end="91193">
+          <transcript source="Ensembl" start="90245" end="91193" transcript_id="ENST00000380130">
             <partial>5-prime</partial>
             <long_name>NEDD4 binding protein 2-like 1 (N4BP2L1), transcript variant 1, mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_052818.2" />
@@ -552,21 +576,21 @@
         <name>Fanconi Anaemia Mutation Database</name>
         <url>http://www.rockefeller.edu/fanconi/mutate/</url>
       </source>
-      <modification_date>2011-07-05</modification_date>
+      <modification_date>2011-12-21</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>BRCA2 homepage - LOVD</name>
         <url>http://chromium.liacs.nl/LOVD2/cancer/home.php?select_db=BRCA2</url>
       </source>
-      <modification_date>2011-07-05</modification_date>
+      <modification_date>2011-12-21</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>BRCA2 homepage - LOVD</name>
         <url>https://australianhumanvariomedatabase.arcs.org.au/home.php?select_db=BRCA2</url>
       </source>
-      <modification_date>2011-07-05</modification_date>
+      <modification_date>2011-12-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
