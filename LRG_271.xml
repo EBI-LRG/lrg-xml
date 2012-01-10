@@ -9,7 +9,7 @@
       <name></name>
       <contact>
         <name>Valerie Delague</name>
-        <address>UMR_S 910, Universite de La Mediterranee, Marseille, France</address>
+        <address>Aix-Marseille University, Marseille, France</address>
         <email>valerie.delague@univmed.fr</email>
       </contact>
     </source>
@@ -70,7 +70,7 @@
       </source>
       <modification_date>2011-02-18</modification_date>
       <mapping assembly="GRCh37" chr_name="22" chr_start="38366319" chr_end="38385539" most_recent="1">
-        <mapping_span strand="-1" lrg_start="1" lrg_end="19221" start="38366319" end="38385539"></mapping_span>
+        <mapping_span lrg_start="1" lrg_end="19221" start="38366319" end="38385539" strand="-1"></mapping_span>
       </mapping>
       <lrg_gene_name source="HGNC">SOX10</lrg_gene_name>
     </annotation_set>
@@ -122,7 +122,7 @@
           <db_xref source="HGNC" accession="11190"></db_xref>
           <db_xref source="MIM" accession="602229"></db_xref>
           <db_xref source="GI" accession="189303541"></db_xref>
-          <transcript source="RefSeq" transcript_id="NM_006941.3" start="5001" end="17221" fixed_id="t1">
+          <transcript source="RefSeq" start="5001" end="17221" transcript_id="NM_006941.3" fixed_id="t1">
             <long_name>SRY (sex determining region Y)-box 10</long_name>
             <comment></comment>
             <db_xref source="GeneID" accession="6663"></db_xref>
@@ -151,8 +151,29 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 62</comment>
-      <modification_date>2011-04-15</modification_date>
-      <other_exon_naming></other_exon_naming>
+      <modification_date>2011-05-10</modification_date>
+      <other_exon_naming>
+        <source description="Alternative exon naming communicated by Dr V. Pingault.">
+          <transcript name="t1">
+            <exon>
+              <lrg_coords start="5001" end="5194"></lrg_coords>
+              <label>2</label>
+            </exon>
+            <exon>
+              <lrg_coords start="5665" end="6176"></lrg_coords>
+              <label>3</label>
+            </exon>
+            <exon>
+              <lrg_coords start="11398" end="11666"></lrg_coords>
+              <label>4</label>
+            </exon>
+            <exon>
+              <lrg_coords start="15335" end="17221"></lrg_coords>
+              <label>5</label>
+            </exon>
+          </transcript>
+        </source>
+      </other_exon_naming>
       <alternate_amino_acid_numbering></alternate_amino_acid_numbering>
       <features>
         <gene symbol="POLR2F" strand="-1" start="1" end="19221">
@@ -163,7 +184,7 @@
           <long_name>polymerase (RNA) II (DNA directed) polypeptide F (protein_coding)</long_name>
           <db_xref source="HGNC" accession="9193" />
           <db_xref source="Ensembl" accession="ENSG00000100142" />
-          <transcript source="Ensembl" transcript_id="ENST00000427034" start="1" end="3334">
+          <transcript source="Ensembl" start="1" end="3334" transcript_id="ENST00000427034">
             <partial>3-prime</partial>
             <long_name>POLR2F-012 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000389307" cds_start="3221" cds_end="3334">
@@ -171,7 +192,7 @@
               <db_xref source="UniProtKB" accession="B0QYL7" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000333418" start="1" end="3340">
+          <transcript source="Ensembl" start="1" end="3340" transcript_id="ENST00000333418">
             <partial>3-prime</partial>
             <long_name>POLR2F-011 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000332130" cds_start="3221" cds_end="3340">
@@ -179,7 +200,7 @@
               <db_xref source="UniProtKB" accession="B0QYL6" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000407936" start="1" end="19221">
+          <transcript source="Ensembl" start="1" end="19221" transcript_id="ENST00000407936">
             <partial>5-prime</partial>
             <partial>3-prime</partial>
             <long_name>POLR2F-009 (protein_coding)</long_name>
@@ -189,7 +210,7 @@
               <db_xref source="UniProtKB" accession="B0QYL9" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000405557" start="1" end="19221">
+          <transcript source="Ensembl" start="1" end="19221" transcript_id="ENST00000405557">
             <partial>5-prime</partial>
             <partial>3-prime</partial>
             <long_name>POLR2F-010 (protein_coding)</long_name>
@@ -199,14 +220,14 @@
               <db_xref source="UniProtKB" accession="B0QYL8" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000443002" start="1199" end="19221">
+          <transcript source="Ensembl" start="1199" end="19221" transcript_id="ENST00000443002">
             <partial>5-prime</partial>
             <long_name>POLR2F-003 (nonsense_mediated_decay)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000406826" cds_start="17261" cds_end="17303">
               <partial>5-prime</partial>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000484894" start="17235" end="19221">
+          <transcript source="Ensembl" start="17235" end="19221" transcript_id="ENST00000484894">
             <partial>5-prime</partial>
             <long_name>POLR2F-008 (processed_transcript)</long_name>
           </transcript>
@@ -214,7 +235,7 @@
         <gene symbol="AL031587.1" strand="-1" start="1374" end="3364">
           <long_name>AL031587.1 (protein_coding)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000256369" />
-          <transcript source="Ensembl" transcript_id="ENST00000543569" start="1374" end="3364">
+          <transcript source="Ensembl" start="1374" end="3364" transcript_id="ENST00000543569">
             <long_name>AL031587.1-201 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="XR_115457.1" />
             <db_xref source="RefSeq" accession="XR_109712.1" />
@@ -231,7 +252,7 @@
           <db_xref source="Ensembl" accession="ENSG00000100146" />
           <db_xref source="GeneID" accession="6663" />
           <db_xref source="MIM" accession="602229" />
-          <transcript source="Ensembl" transcript_id="ENST00000360880" start="2111" end="17233" fixed_id="t1">
+          <transcript source="Ensembl" start="2111" end="17233" transcript_id="ENST00000360880" fixed_id="t1">
             <long_name>SRY (sex determining region Y)-box 10 (SOX10), mRNA (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_006941.3" />
             <db_xref source="CCDS" accession="CCDS13964.1" />
@@ -242,7 +263,7 @@
               <db_xref source="RefSeq" accession="NP_008872.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000396884" start="4996" end="17233">
+          <transcript source="Ensembl" start="4996" end="17233" transcript_id="ENST00000396884">
             <long_name>SOX10-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13964.1" />
             <protein_product source="Ensembl" accession="ENSP00000380093" cds_start="5749" cds_end="16038">
@@ -252,23 +273,23 @@
               <db_xref source="RefSeq" accession="NP_008872.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000416937" start="5001" end="16038">
+          <transcript source="Ensembl" start="5001" end="16038" transcript_id="ENST00000416937">
             <long_name>SOX10-201 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000387770" cds_start="5749" cds_end="16038">
               <db_xref source="UniProtKB" accession="A6PVD3" />
               <db_xref source="UniProtKB" accession="B4DV62" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000470555" start="5125" end="11451">
+          <transcript source="Ensembl" start="5125" end="11451" transcript_id="ENST00000470555">
             <long_name>SOX10-005 (processed_transcript)</long_name>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000427770" start="5187" end="11610">
+          <transcript source="Ensembl" start="5187" end="11610" transcript_id="ENST00000427770">
             <long_name>SOX10-003 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000414853" cds_start="5749" cds_end="11610">
               <db_xref source="UniProtKB" accession="A6PVD3" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" transcript_id="ENST00000446929" start="6119" end="18847">
+          <transcript source="Ensembl" start="6119" end="18847" transcript_id="ENST00000446929">
             <long_name>SOX10-004 (protein_coding)</long_name>
             <protein_product source="Ensembl" accession="ENSP00000399777" cds_start="6119" cds_end="18291">
               <db_xref source="UniProtKB" accession="A6PVD2" />
@@ -282,14 +303,14 @@
         <name>Inherited Peripheral Neuropathies Mutation Database</name>
         <url>http://www.molgen.ua.ac.be/CMTMutations/</url>
       </source>
-      <modification_date>2011-05-10</modification_date>
+      <modification_date>2012-01-10</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>SOX10 homepage - LOVD</name>
         <url>http://grenada.lumc.nl/LOVD2/WS/home.php?select_db=SOX10</url>
       </source>
-      <modification_date>2011-05-10</modification_date>
+      <modification_date>2012-01-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
