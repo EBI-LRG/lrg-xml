@@ -15,14 +15,6 @@
       </contact>
     </source>
     <source>
-      <name></name>
-      <contact>
-        <name>Graham Taylor</name>
-        <address>Leeds Institute for Molecular Medicine, University of Leeds</address>
-        <email>G.R.Taylor@leeds.ac.uk</email>
-      </contact>
-    </source>
-    <source>
       <name>NCBI RefSeqGene</name>
       <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
       <contact>
@@ -140,7 +132,7 @@
       <comment>Annotation from NG_012142.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_296" start="5001" end="5173" />
             <label>1</label>
@@ -315,21 +307,6 @@
           </db_xref>
           <db_xref source="MIM" accession="604025" />
           <db_xref source="Ensembl" accession="ENSG00000168646" />
-          <transcript source="Ensembl" accession="ENST00000544103">
-            <coordinates coord_system="LRG_296" start="8003" end="38009" strand="1" mapped_from="GRCh37" />
-            <long_name>AXIN2-203 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002267904">
-              <coordinates coord_system="LRG_296" start="8003" end="8393" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002257764">
-              <coordinates coord_system="LRG_296" start="37918" end="38009" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000441151">
-              <coordinates coord_system="LRG_296" start="8003" end="38009" strand="1" mapped_from="GRCh37" />
-              <long_name>axin 2</long_name>
-              <db_xref source="UniProtKB" accession="F5GX43" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000307078">
             <coordinates coord_system="LRG_296" start="4976" end="38056" strand="1" mapped_from="GRCh37" />
             <long_name>AXIN2-201 (protein_coding)</long_name>
@@ -415,6 +392,21 @@
               <db_xref source="UniProtKB" accession="E7ES00" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000544103">
+            <coordinates coord_system="LRG_296" start="8003" end="38009" strand="1" mapped_from="GRCh37" />
+            <long_name>AXIN2-203 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002267904">
+              <coordinates coord_system="LRG_296" start="8003" end="8393" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002257764">
+              <coordinates coord_system="LRG_296" start="37918" end="38009" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000441151">
+              <coordinates coord_system="LRG_296" start="8003" end="38009" strand="1" mapped_from="GRCh37" />
+              <long_name>axin 2</long_name>
+              <db_xref source="UniProtKB" accession="F5GX43" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -423,7 +415,7 @@
         <name>AXIN2 homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=AXIN2</url>
       </source>
-      <modification_date>2012-08-02</modification_date>
+      <modification_date>2013-01-07</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

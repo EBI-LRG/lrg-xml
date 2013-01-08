@@ -15,14 +15,6 @@
       </contact>
     </source>
     <source>
-      <name></name>
-      <contact>
-        <name>Graham Taylor</name>
-        <address>Leeds Institute for Molecular Medicine, University of Leeds</address>
-        <email>G.R.Taylor@leeds.ac.uk</email>
-      </contact>
-    </source>
-    <source>
       <name>NCBI RefSeqGene</name>
       <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
       <contact>
@@ -96,7 +88,7 @@
       <comment>Annotation from NG_008212.3</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_322" start="5001" end="5553" />
             <label>1</label>
@@ -256,19 +248,6 @@
               <db_xref source="UniProtKB" accession="E7EPH2" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000477538">
-            <coordinates coord_system="LRG_322" start="5912" end="13511" strand="1" mapped_from="GRCh37" />
-            <long_name>VHL-003 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001906331">
-              <coordinates coord_system="LRG_322" start="5912" end="6387" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001895513">
-              <coordinates coord_system="LRG_322" start="9880" end="10002" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001957986">
-              <coordinates coord_system="LRG_322" start="13153" end="13511" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000450183">
             <coordinates coord_system="LRG_322" start="5170" end="14034" strand="1" mapped_from="GRCh37" />
             <long_name>VHL-201 (protein_coding)</long_name>
@@ -293,6 +272,19 @@
               </db_xref>
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000477538">
+            <coordinates coord_system="LRG_322" start="5912" end="13511" strand="1" mapped_from="GRCh37" />
+            <long_name>VHL-003 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001906331">
+              <coordinates coord_system="LRG_322" start="5912" end="6387" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001895513">
+              <coordinates coord_system="LRG_322" start="9880" end="10002" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001957986">
+              <coordinates coord_system="LRG_322" start="13153" end="13511" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000238345">
           <coordinates coord_system="LRG_322" start="4516" end="4613" strand="1" mapped_from="GRCh37" />
@@ -315,14 +307,14 @@
         <name>VHL homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=VHL</url>
       </source>
-      <modification_date>2012-08-02</modification_date>
+      <modification_date>2013-01-07</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>UMD Locus Specific Databases</name>
         <url>http://www.umd.be/</url>
       </source>
-      <modification_date>2012-08-02</modification_date>
+      <modification_date>2013-01-07</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

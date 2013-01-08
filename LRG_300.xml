@@ -15,14 +15,6 @@
       </contact>
     </source>
     <source>
-      <name></name>
-      <contact>
-        <name>Graham Taylor</name>
-        <address>Leeds Institute for Molecular Medicine, University of Leeds</address>
-        <email>G.R.Taylor@leeds.ac.uk</email>
-      </contact>
-    </source>
-    <source>
       <name>NCBI RefSeqGene</name>
       <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
       <contact>
@@ -194,7 +186,7 @@
       <comment>Annotation from NG_007409.2</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_300" start="5001" end="5276" />
             <label>1</label>
@@ -461,6 +453,59 @@
         <mapping_span lrg_start="184420" lrg_end="185936" other_start="3047" other_end="4563" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000108506">
+          <coordinates coord_system="LRG_300" start="1" end="3193" strand="1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <symbol source="HGNC">INTS2</symbol>
+          <long_name>integrator complex subunit 2 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="29241">
+            <synonym>INT2</synonym>
+            <synonym>KIAA1287</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="611346" />
+          <db_xref source="Ensembl" accession="ENSG00000108506" />
+          <transcript source="Ensembl" accession="ENST00000444766">
+            <coordinates coord_system="LRG_300" start="1" end="3193" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>INTS2-202 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS45750.1" />
+            <db_xref source="RefSeq" accession="NM_020748.2" />
+            <exon source="Ensembl" accession="ENSE00000740937">
+              <coordinates coord_system="LRG_300" start="551" end="727" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001599022">
+              <coordinates coord_system="LRG_300" start="834" end="3193" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000414237">
+              <coordinates coord_system="LRG_300" start="1" end="1003" strand="1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+              <long_name>integrator complex subunit 2</long_name>
+              <db_xref source="RefSeq" accession="NP_065799.1" />
+              <db_xref source="UniProtKB" accession="Q9H0H0">
+                <synonym>Q9ULD3</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000251334">
+            <coordinates coord_system="LRG_300" start="1" end="3193" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>INTS2-201 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00000740937">
+              <coordinates coord_system="LRG_300" start="551" end="727" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001599022">
+              <coordinates coord_system="LRG_300" start="834" end="3193" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000251334">
+              <coordinates coord_system="LRG_300" start="1" end="1003" strand="1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+              <long_name>integrator complex subunit 2</long_name>
+              <db_xref source="UniProtKB" accession="Q9H0H0">
+                <synonym>Q9ULD3</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000136492">
           <coordinates coord_system="LRG_300" start="5166" end="185936" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">BRIP1</symbol>
@@ -549,59 +594,6 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000108506">
-          <coordinates coord_system="LRG_300" start="1" end="3193" strand="1" mapped_from="GRCh37" />
-          <partial>5-prime</partial>
-          <symbol source="HGNC">INTS2</symbol>
-          <long_name>integrator complex subunit 2 (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="29241">
-            <synonym>INT2</synonym>
-            <synonym>KIAA1287</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="611346" />
-          <db_xref source="Ensembl" accession="ENSG00000108506" />
-          <transcript source="Ensembl" accession="ENST00000444766">
-            <coordinates coord_system="LRG_300" start="1" end="3193" strand="1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>INTS2-202 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS45750.1" />
-            <db_xref source="RefSeq" accession="NM_020748.2" />
-            <exon source="Ensembl" accession="ENSE00000740937">
-              <coordinates coord_system="LRG_300" start="551" end="727" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001599022">
-              <coordinates coord_system="LRG_300" start="834" end="3193" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000414237">
-              <coordinates coord_system="LRG_300" start="1" end="1003" strand="1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-              <long_name>integrator complex subunit 2</long_name>
-              <db_xref source="RefSeq" accession="NP_065799.1" />
-              <db_xref source="UniProtKB" accession="Q9H0H0">
-                <synonym>Q9ULD3</synonym>
-              </db_xref>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000251334">
-            <coordinates coord_system="LRG_300" start="1" end="3193" strand="1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>INTS2-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00000740937">
-              <coordinates coord_system="LRG_300" start="551" end="727" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001599022">
-              <coordinates coord_system="LRG_300" start="834" end="3193" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000251334">
-              <coordinates coord_system="LRG_300" start="1" end="1003" strand="1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-              <long_name>integrator complex subunit 2</long_name>
-              <db_xref source="UniProtKB" accession="Q9H0H0">
-                <synonym>Q9ULD3</synonym>
-              </db_xref>
-            </protein_product>
-          </transcript>
-        </gene>
       </features>
     </annotation_set>
     <annotation_set>
@@ -609,7 +601,7 @@
         <name>Fanconi Anaemia Mutation Database</name>
         <url>http://www.rockefeller.edu/fanconi/mutate/</url>
       </source>
-      <modification_date>2012-08-02</modification_date>
+      <modification_date>2013-01-07</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

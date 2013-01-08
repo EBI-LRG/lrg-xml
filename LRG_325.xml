@@ -15,14 +15,6 @@
       </contact>
     </source>
     <source>
-      <name></name>
-      <contact>
-        <name>Graham Taylor</name>
-        <address>Leeds Institute for Molecular Medicine, University of Leeds</address>
-        <email>G.R.Taylor@leeds.ac.uk</email>
-      </contact>
-    </source>
-    <source>
       <name>NCBI RefSeqGene</name>
       <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
       <contact>
@@ -154,7 +146,7 @@
       <comment>Annotation from NG_008001.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_325" start="5001" end="5277" />
             <label>1</label>
@@ -397,6 +389,50 @@
           </db_xref>
           <db_xref source="MIM" accession="607273" />
           <db_xref source="Ensembl" accession="ENSG00000154803" />
+          <transcript source="Ensembl" accession="ENST00000389171">
+            <coordinates coord_system="LRG_325" start="5001" end="17636" strand="1" mapped_from="GRCh37" />
+            <long_name>FLCN-003 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001522894">
+              <coordinates coord_system="LRG_325" start="5001" end="5277" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001522909">
+              <coordinates coord_system="LRG_325" start="9288" end="9401" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001522908">
+              <coordinates coord_system="LRG_325" start="10307" end="10395" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001505013">
+              <coordinates coord_system="LRG_325" start="14028" end="14300" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001522897">
+              <coordinates coord_system="LRG_325" start="15867" end="17636" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000373823">
+              <coordinates coord_system="LRG_325" start="14052" end="16211" strand="1" mapped_from="GRCh37" />
+              <long_name>folliculin</long_name>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000417064">
+            <coordinates coord_system="LRG_325" start="5007" end="18267" strand="1" mapped_from="GRCh37" />
+            <long_name>FLCN-006 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001522910">
+              <coordinates coord_system="LRG_325" start="5007" end="5277" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001690797">
+              <coordinates coord_system="LRG_325" start="14184" end="14300" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001017844">
+              <coordinates coord_system="LRG_325" start="15867" end="16013" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002580629">
+              <coordinates coord_system="LRG_325" start="18046" end="18267" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000410410">
+              <coordinates coord_system="LRG_325" start="14211" end="18267" strand="1" mapped_from="GRCh37" />
+              <long_name>folliculin</long_name>
+              <db_xref source="UniProtKB" accession="C9J4C4" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000285071">
             <coordinates coord_system="LRG_325" start="5050" end="29977" strand="1" mapped_from="GRCh37" />
             <long_name>FLCN-001 (protein_coding)</long_name>
@@ -457,16 +493,6 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000466317">
-            <coordinates coord_system="LRG_325" start="19067" end="22622" strand="1" mapped_from="GRCh37" />
-            <long_name>FLCN-005 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001943190">
-              <coordinates coord_system="LRG_325" start="19067" end="19688" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001829069">
-              <coordinates coord_system="LRG_325" start="20561" end="22622" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000389169">
             <coordinates coord_system="LRG_325" start="5050" end="21018" strand="1" mapped_from="GRCh37" />
             <long_name>FLCN-002 (protein_coding)</long_name>
@@ -503,39 +529,15 @@
               <db_xref source="UniProtKB" accession="C9J4C4" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000480316">
-            <coordinates coord_system="LRG_325" start="17684" end="20601" strand="1" mapped_from="GRCh37" />
-            <long_name>FLCN-009 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001889229">
-              <coordinates coord_system="LRG_325" start="17684" end="18267" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000473853">
+            <coordinates coord_system="LRG_325" start="9377" end="10665" strand="1" mapped_from="GRCh37" />
+            <long_name>FLCN-007 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001826608">
+              <coordinates coord_system="LRG_325" start="9377" end="9401" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002408649">
-              <coordinates coord_system="LRG_325" start="19528" end="19688" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00001838327">
+              <coordinates coord_system="LRG_325" start="10307" end="10665" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001825744">
-              <coordinates coord_system="LRG_325" start="20561" end="20601" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000417064">
-            <coordinates coord_system="LRG_325" start="5007" end="18267" strand="1" mapped_from="GRCh37" />
-            <long_name>FLCN-006 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001522910">
-              <coordinates coord_system="LRG_325" start="5007" end="5277" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001690797">
-              <coordinates coord_system="LRG_325" start="14184" end="14300" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001017844">
-              <coordinates coord_system="LRG_325" start="15867" end="16013" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002580629">
-              <coordinates coord_system="LRG_325" start="18046" end="18267" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000410410">
-              <coordinates coord_system="LRG_325" start="14211" end="18267" strand="1" mapped_from="GRCh37" />
-              <long_name>folliculin</long_name>
-              <db_xref source="UniProtKB" accession="C9J4C4" />
-            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000389168">
             <coordinates coord_system="LRG_325" start="12712" end="17636" strand="1" mapped_from="GRCh37" />
@@ -551,29 +553,6 @@
               <long_name>folliculin</long_name>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000389171">
-            <coordinates coord_system="LRG_325" start="5001" end="17636" strand="1" mapped_from="GRCh37" />
-            <long_name>FLCN-003 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001522894">
-              <coordinates coord_system="LRG_325" start="5001" end="5277" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001522909">
-              <coordinates coord_system="LRG_325" start="9288" end="9401" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001522908">
-              <coordinates coord_system="LRG_325" start="10307" end="10395" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001505013">
-              <coordinates coord_system="LRG_325" start="14028" end="14300" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001522897">
-              <coordinates coord_system="LRG_325" start="15867" end="17636" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000373823">
-              <coordinates coord_system="LRG_325" start="14052" end="16211" strand="1" mapped_from="GRCh37" />
-              <long_name>folliculin</long_name>
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000461699">
             <coordinates coord_system="LRG_325" start="13460" end="14163" strand="1" mapped_from="GRCh37" />
             <long_name>FLCN-008 (processed_transcript)</long_name>
@@ -584,14 +563,27 @@
               <coordinates coord_system="LRG_325" start="14028" end="14163" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000473853">
-            <coordinates coord_system="LRG_325" start="9377" end="10665" strand="1" mapped_from="GRCh37" />
-            <long_name>FLCN-007 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001826608">
-              <coordinates coord_system="LRG_325" start="9377" end="9401" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000480316">
+            <coordinates coord_system="LRG_325" start="17684" end="20601" strand="1" mapped_from="GRCh37" />
+            <long_name>FLCN-009 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001889229">
+              <coordinates coord_system="LRG_325" start="17684" end="18267" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001838327">
-              <coordinates coord_system="LRG_325" start="10307" end="10665" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00002408649">
+              <coordinates coord_system="LRG_325" start="19528" end="19688" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001825744">
+              <coordinates coord_system="LRG_325" start="20561" end="20601" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000466317">
+            <coordinates coord_system="LRG_325" start="19067" end="22622" strand="1" mapped_from="GRCh37" />
+            <long_name>FLCN-005 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001943190">
+              <coordinates coord_system="LRG_325" start="19067" end="19688" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001829069">
+              <coordinates coord_system="LRG_325" start="20561" end="22622" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
@@ -602,21 +594,21 @@
         <name>FLCN homepage - LOVD</name>
         <url>https://grenada.lumc.nl/LOVD2/shared1/home.php?select_db=FLCN</url>
       </source>
-      <modification_date>2012-08-02</modification_date>
+      <modification_date>2013-01-07</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>FLCN homepage - The Folliculin Mutation Database</name>
         <url>http://skingenedatabase.com/</url>
       </source>
-      <modification_date>2012-08-02</modification_date>
+      <modification_date>2013-01-07</modification_date>
     </annotation_set>
     <annotation_set>
       <source>
         <name>FLCN homepage - The Folliculin Mutation Database</name>
         <url>http://skingenedatabase.com/home.php?select_db=FLCN</url>
       </source>
-      <modification_date>2012-08-02</modification_date>
+      <modification_date>2013-01-07</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
