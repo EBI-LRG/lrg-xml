@@ -156,7 +156,7 @@
       <comment>Annotation from NG_028123.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_503" start="5001" end="5025" />
             <label>1</label>
@@ -431,6 +431,22 @@
               </db_xref>
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000486524">
+            <coordinates coord_system="LRG_503" start="5000" end="15964" strand="1" mapped_from="GRCh37" />
+            <long_name>SLX4-002 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001490994">
+              <coordinates coord_system="LRG_503" start="5000" end="5025" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002625092">
+              <coordinates coord_system="LRG_503" start="7019" end="8155" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001945530">
+              <coordinates coord_system="LRG_503" start="9887" end="10111" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001824149">
+              <coordinates coord_system="LRG_503" start="14278" end="15964" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000466154">
             <coordinates coord_system="LRG_503" start="7326" end="20974" strand="1" mapped_from="GRCh37" />
             <long_name>SLX4-003 (retained_intron)</long_name>
@@ -456,24 +472,15 @@
               <coordinates coord_system="LRG_503" start="20892" end="20974" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000486524">
-            <coordinates coord_system="LRG_503" start="5000" end="15964" strand="1" mapped_from="GRCh37" />
-            <long_name>SLX4-002 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001490994">
-              <coordinates coord_system="LRG_503" start="5000" end="5025" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002625092">
-              <coordinates coord_system="LRG_503" start="7019" end="8155" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001945530">
-              <coordinates coord_system="LRG_503" start="9887" end="10111" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001824149">
-              <coordinates coord_system="LRG_503" start="14278" end="15964" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
         </gene>
       </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>FANCP homepage - Fanconi anemia database</name>
+        <url>http://chromium.liacs.nl/LOVD2/FANC/home.php?select_db=FANCP</url>
+      </source>
+      <modification_date>2013-01-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
