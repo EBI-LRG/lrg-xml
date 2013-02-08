@@ -16,8 +16,8 @@
       </contact>
       <contact>
         <name>Mauno Vihinen</name>
-        <address>University of Tampere, Finland</address>
-        <email>mauno.vihinen@uta.fi</email>
+        <address>Univ. of Tampere, Tampere, Finland</address>
+        <email>Mauno.Vihinen@med.lu.se</email>
       </contact>
     </source>
     <source>
@@ -167,7 +167,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-07-24</modification_date>
+      <modification_date>2013-02-08</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="17" other_id="NC_000017.10" other_start="40349195" other_end="40433424">
         <mapping_span lrg_start="1" lrg_end="84230" other_start="40349195" other_end="40433424" strand="-1" />
       </mapping>
@@ -382,8 +382,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-07-24</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-08</modification_date>
       <mapping coord_system="ENST00000293328.3" other_name="ENST00000293328.3" other_id="ENST00000293328.3" other_start="1" other_end="5103">
         <mapping_span lrg_start="5001" lrg_end="5159" other_start="1" other_end="159" strand="1" />
         <mapping_span lrg_start="49270" lrg_end="49407" other_start="160" other_end="297" strand="1" />
@@ -451,36 +451,62 @@
           <coordinates coord_system="LRG_192" start="4700" end="82239" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">STAT5B</symbol>
           <long_name>signal transducer and activator of transcription 5B (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="6777">
+            <synonym>STAT5</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="11367" />
           <db_xref source="MIM" accession="604260" />
           <db_xref source="Ensembl" accession="ENSG00000173757" />
+          <transcript source="Ensembl" accession="ENST00000415845">
+            <coordinates coord_system="LRG_192" start="4700" end="57944" strand="1" mapped_from="GRCh37" />
+            <long_name>STAT5B-003 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001642592">
+              <coordinates coord_system="LRG_192" start="4700" end="4779" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003037799">
+              <coordinates coord_system="LRG_192" start="49270" end="49407" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003025579">
+              <coordinates coord_system="LRG_192" start="53722" end="53878" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003117217">
+              <coordinates coord_system="LRG_192" start="56539" end="56628" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001626332">
+              <coordinates coord_system="LRG_192" start="57851" end="57944" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000398379">
+              <coordinates coord_system="LRG_192" start="49280" end="57944" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="C9J4I3" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000293328">
             <coordinates coord_system="LRG_192" start="5001" end="82239" strand="1" mapped_from="GRCh37" />
-            <long_name>STAT5B-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens signal transducer and activator of transcription 5B (STAT5B), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS11423.1" />
             <db_xref source="RefSeq" accession="NM_012448.3" />
             <exon source="Ensembl" accession="ENSE00001292126">
               <coordinates coord_system="LRG_192" start="5001" end="5159" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002591995">
+            <exon source="Ensembl" accession="ENSE00003037799">
               <coordinates coord_system="LRG_192" start="49270" end="49407" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002325210">
+            <exon source="Ensembl" accession="ENSE00003025579">
               <coordinates coord_system="LRG_192" start="53722" end="53878" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002378900">
+            <exon source="Ensembl" accession="ENSE00003117217">
               <coordinates coord_system="LRG_192" start="56539" end="56628" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002424090">
+            <exon source="Ensembl" accession="ENSE00003068159">
               <coordinates coord_system="LRG_192" start="57851" end="58025" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002421338">
+            <exon source="Ensembl" accession="ENSE00003167927">
               <coordinates coord_system="LRG_192" start="61565" end="61695" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002394155">
+            <exon source="Ensembl" accession="ENSE00002985766">
               <coordinates coord_system="LRG_192" start="61944" end="62095" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002380806">
+            <exon source="Ensembl" accession="ENSE00003036547">
               <coordinates coord_system="LRG_192" start="62529" end="62684" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002414732">
@@ -489,19 +515,19 @@
             <exon source="Ensembl" accession="ENSE00001179302">
               <coordinates coord_system="LRG_192" start="63943" end="64030" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002419201">
+            <exon source="Ensembl" accession="ENSE00003053588">
               <coordinates coord_system="LRG_192" start="64125" end="64247" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002429144">
+            <exon source="Ensembl" accession="ENSE00003067415">
               <coordinates coord_system="LRG_192" start="65301" end="65393" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002332354">
+            <exon source="Ensembl" accession="ENSE00003206031">
               <coordinates coord_system="LRG_192" start="69217" end="69423" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001059053">
               <coordinates coord_system="LRG_192" start="70910" end="71004" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002344127">
+            <exon source="Ensembl" accession="ENSE00002987027">
               <coordinates coord_system="LRG_192" start="71106" end="71236" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001118418">
@@ -518,13 +544,95 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000293328">
               <coordinates coord_system="LRG_192" start="49280" end="79669" strand="1" mapped_from="GRCh37" />
-              <long_name>signal transducer and activator of transcription 5B</long_name>
+              <long_name>signal transducer and activator of transcription 5B </long_name>
               <db_xref source="RefSeq" accession="NP_036580.2" />
               <db_xref source="UniProtKB" accession="C9J4I3" />
               <db_xref source="UniProtKB" accession="P51692">
                 <synonym>Q8WWS8</synonym>
               </db_xref>
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000468312">
+            <coordinates coord_system="LRG_192" start="5001" end="63717" strand="1" mapped_from="GRCh37" />
+            <long_name>STAT5B-002 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001292126">
+              <coordinates coord_system="LRG_192" start="5001" end="5159" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002988431">
+              <coordinates coord_system="LRG_192" start="49270" end="49407" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003111290">
+              <coordinates coord_system="LRG_192" start="53722" end="53878" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003082870">
+              <coordinates coord_system="LRG_192" start="56539" end="56628" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003059351">
+              <coordinates coord_system="LRG_192" start="57851" end="58025" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003170330">
+              <coordinates coord_system="LRG_192" start="61565" end="61695" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003184731">
+              <coordinates coord_system="LRG_192" start="61944" end="62095" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003212382">
+              <coordinates coord_system="LRG_192" start="62529" end="62684" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001851799">
+              <coordinates coord_system="LRG_192" start="63077" end="63717" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000481517">
+            <coordinates coord_system="LRG_192" start="63536" end="70990" strand="1" mapped_from="GRCh37" />
+            <long_name>STAT5B-004 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001853618">
+              <coordinates coord_system="LRG_192" start="63536" end="64030" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002989490">
+              <coordinates coord_system="LRG_192" start="64125" end="64247" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003120250">
+              <coordinates coord_system="LRG_192" start="65301" end="65393" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003055271">
+              <coordinates coord_system="LRG_192" start="69217" end="69423" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001953828">
+              <coordinates coord_system="LRG_192" start="70910" end="70990" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000468496">
+            <coordinates coord_system="LRG_192" start="64125" end="73825" strand="1" mapped_from="GRCh37" />
+            <long_name>STAT5B-006 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002989490">
+              <coordinates coord_system="LRG_192" start="64125" end="64247" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003120250">
+              <coordinates coord_system="LRG_192" start="65301" end="65393" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003055271">
+              <coordinates coord_system="LRG_192" start="69217" end="69423" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001895226">
+              <coordinates coord_system="LRG_192" start="70910" end="71236" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001874321">
+              <coordinates coord_system="LRG_192" start="73679" end="73825" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000481253">
+            <coordinates coord_system="LRG_192" start="70815" end="73854" strand="1" mapped_from="GRCh37" />
+            <long_name>STAT5B-005 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001950795">
+              <coordinates coord_system="LRG_192" start="70815" end="71004" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003020848">
+              <coordinates coord_system="LRG_192" start="71106" end="71236" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001926882">
+              <coordinates coord_system="LRG_192" start="73679" end="73854" strand="1" mapped_from="GRCh37" />
+            </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000498674">
             <coordinates coord_system="LRG_192" start="78454" end="79304" strand="1" mapped_from="GRCh37" />
@@ -536,119 +644,52 @@
               <coordinates coord_system="LRG_192" start="78960" end="79304" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000481253">
-            <coordinates coord_system="LRG_192" start="70815" end="73854" strand="1" mapped_from="GRCh37" />
-            <long_name>STAT5B-005 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001950795">
-              <coordinates coord_system="LRG_192" start="70815" end="71004" strand="1" mapped_from="GRCh37" />
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000236194">
+          <coordinates coord_system="LRG_192" start="8724" end="10890" strand="1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">AC003104.1</symbol>
+          <long_name>AC003104.1 (sense_intronic)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000236194" />
+          <transcript source="Ensembl" accession="ENST00000436061">
+            <coordinates coord_system="LRG_192" start="8724" end="10073" strand="1" mapped_from="GRCh37" />
+            <long_name>AC003104.1-001 (sense_intronic)</long_name>
+            <exon source="Ensembl" accession="ENSE00001690363">
+              <coordinates coord_system="LRG_192" start="8724" end="8963" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002394882">
-              <coordinates coord_system="LRG_192" start="71106" end="71236" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001926882">
-              <coordinates coord_system="LRG_192" start="73679" end="73854" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000468496">
-            <coordinates coord_system="LRG_192" start="64125" end="73825" strand="1" mapped_from="GRCh37" />
-            <long_name>STAT5B-006 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002401902">
-              <coordinates coord_system="LRG_192" start="64125" end="64247" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002330824">
-              <coordinates coord_system="LRG_192" start="65301" end="65393" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002389922">
-              <coordinates coord_system="LRG_192" start="69217" end="69423" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001895226">
-              <coordinates coord_system="LRG_192" start="70910" end="71236" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001874321">
-              <coordinates coord_system="LRG_192" start="73679" end="73825" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00001722429">
+              <coordinates coord_system="LRG_192" start="9635" end="10073" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000481517">
-            <coordinates coord_system="LRG_192" start="63536" end="70990" strand="1" mapped_from="GRCh37" />
-            <long_name>STAT5B-004 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001853618">
-              <coordinates coord_system="LRG_192" start="63536" end="64030" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002401902">
-              <coordinates coord_system="LRG_192" start="64125" end="64247" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002330824">
-              <coordinates coord_system="LRG_192" start="65301" end="65393" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002389922">
-              <coordinates coord_system="LRG_192" start="69217" end="69423" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001953828">
-              <coordinates coord_system="LRG_192" start="70910" end="70990" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000597755">
+            <coordinates coord_system="LRG_192" start="10036" end="10890" strand="1" mapped_from="GRCh37" />
+            <long_name>AC003104.1-002 (sense_intronic)</long_name>
+            <exon source="Ensembl" accession="ENSE00003133594">
+              <coordinates coord_system="LRG_192" start="10036" end="10890" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000468312">
-            <coordinates coord_system="LRG_192" start="5001" end="63717" strand="1" mapped_from="GRCh37" />
-            <long_name>STAT5B-002 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001292126">
-              <coordinates coord_system="LRG_192" start="5001" end="5159" strand="1" mapped_from="GRCh37" />
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000267758">
+          <coordinates coord_system="LRG_192" start="11600" end="12820" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">RP11-358B23.5</symbol>
+          <long_name>RP11-358B23.5 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000267758" />
+          <transcript source="Ensembl" accession="ENST00000592536">
+            <coordinates coord_system="LRG_192" start="11600" end="12820" strand="-1" mapped_from="GRCh37" />
+            <long_name>RP11-358B23.5-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002749671">
+              <coordinates coord_system="LRG_192" start="12692" end="12820" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002580621">
-              <coordinates coord_system="LRG_192" start="49270" end="49407" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00002842034">
+              <coordinates coord_system="LRG_192" start="11600" end="11966" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002366505">
-              <coordinates coord_system="LRG_192" start="53722" end="53878" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002394350">
-              <coordinates coord_system="LRG_192" start="56539" end="56628" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002350547">
-              <coordinates coord_system="LRG_192" start="57851" end="58025" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002325688">
-              <coordinates coord_system="LRG_192" start="61565" end="61695" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002344357">
-              <coordinates coord_system="LRG_192" start="61944" end="62095" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002359488">
-              <coordinates coord_system="LRG_192" start="62529" end="62684" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001851799">
-              <coordinates coord_system="LRG_192" start="63077" end="63717" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000415845">
-            <coordinates coord_system="LRG_192" start="4700" end="57944" strand="1" mapped_from="GRCh37" />
-            <long_name>STAT5B-003 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001642592">
-              <coordinates coord_system="LRG_192" start="4700" end="4779" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002591995">
-              <coordinates coord_system="LRG_192" start="49270" end="49407" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002325210">
-              <coordinates coord_system="LRG_192" start="53722" end="53878" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002378900">
-              <coordinates coord_system="LRG_192" start="56539" end="56628" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001626332">
-              <coordinates coord_system="LRG_192" start="57851" end="57944" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000398379">
-              <coordinates coord_system="LRG_192" start="49280" end="57944" strand="1" mapped_from="GRCh37" />
-              <long_name>signal transducer and activator of transcription 5B</long_name>
-              <db_xref source="UniProtKB" accession="C9J4I3" />
-            </protein_product>
           </transcript>
         </gene>
       </features>
     </annotation_set>
     <annotation_set>
       <source>
-        <name>STAT5B homepage - LOVD</name>
-        <url>http://chromium.liacs.nl/LOVD2/growth/home.php?select_db=STAT5B</url>
+        <name>= 'STAT5B homepage - LOVD'</name>
+        <url>= 'http://chromium.liacs.nl/LOVD2/growth/home.php?select_db=STAT5B'</url>
       </source>
       <modification_date>2012-07-24</modification_date>
     </annotation_set>
@@ -656,8 +697,27 @@
       <source>
         <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
         <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_126</url>
+        <contact>
+          <name>Sujatha Mohan</name>
+          <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+          <email>sujatha@rcai.riken.jp</email>
+        </contact>
       </source>
       <modification_date>2012-07-24</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>STAT5Bbase: Mutation registry for Growth hormone insensitivity with immunodeficiency</name>
+        <url>http://bioinf.uta.fi/STAT5Bbase/</url>
+      </source>
+      <modification_date>2013-02-08</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>LOVD - Leiden Open Variation Database - STAT5B</name>
+        <url>http://chromium.liacs.nl/LOVD2/growth/home.php?select_db=STAT5B</url>
+      </source>
+      <modification_date>2013-02-08</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

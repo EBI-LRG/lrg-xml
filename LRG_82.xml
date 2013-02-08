@@ -16,8 +16,8 @@
       </contact>
       <contact>
         <name>Mauno Vihinen</name>
-        <address>University of Tampere, Finland</address>
-        <email>mauno.vihinen@uta.fi</email>
+        <address>Univ. of Tampere, Tampere, Finland</address>
+        <email>Mauno.Vihinen@med.lu.se</email>
       </contact>
     </source>
     <source>
@@ -121,7 +121,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-07-24</modification_date>
+      <modification_date>2013-02-08</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="1" other_id="NC_000001.10" other_start="11084580" other_end="11112285">
         <mapping_span lrg_start="1" lrg_end="27706" other_start="11084580" other_end="11112285" strand="-1" />
       </mapping>
@@ -324,8 +324,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-07-24</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-08</modification_date>
       <mapping coord_system="ENST00000400897.3" other_name="ENST00000400897.3" other_id="ENST00000400897.3" other_start="1" other_end="2439">
         <mapping_span lrg_start="5006" lrg_end="5026" other_start="1" other_end="21" strand="1" />
         <mapping_span lrg_start="5110" lrg_end="5338" other_start="22" other_end="250" strand="1" />
@@ -356,72 +356,85 @@
         <mapping_span lrg_start="5496" lrg_end="7431" other_start="255" other_end="2190" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000120948">
-          <coordinates coord_system="LRG_82" start="26490" end="27706" strand="-1" mapped_from="GRCh37" />
-          <partial>5-prime</partial>
-          <symbol source="HGNC">TARDBP</symbol>
-          <long_name>TAR DNA binding protein (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="11571">
-            <synonym>ALS10</synonym>
-            <synonym>TDP-43</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="605078" />
-          <db_xref source="Ensembl" accession="ENSG00000120948" />
-          <transcript source="Ensembl" accession="ENST00000473869">
-            <coordinates coord_system="LRG_82" start="27210" end="27706" strand="-1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>TARDBP-002 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00001925203">
-              <coordinates coord_system="LRG_82" start="27210" end="27706" strand="-1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000477447">
-            <coordinates coord_system="LRG_82" start="27025" end="27706" strand="-1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>TARDBP-007 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001867968">
-              <coordinates coord_system="LRG_82" start="27025" end="27119" strand="-1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000496840">
-            <coordinates coord_system="LRG_82" start="26490" end="27706" strand="-1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>TARDBP-008 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001840832">
-              <coordinates coord_system="LRG_82" start="27021" end="27119" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001938508">
-              <coordinates coord_system="LRG_82" start="26490" end="26678" strand="-1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000480464">
-            <coordinates coord_system="LRG_82" start="26738" end="27706" strand="-1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>TARDBP-009 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001821928">
-              <coordinates coord_system="LRG_82" start="26738" end="27119" strand="-1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000009724">
           <coordinates coord_system="LRG_82" start="4996" end="25706" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">MASP2</symbol>
           <long_name>mannan-binding lectin serine peptidase 2 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="10747">
+            <synonym>MAP19</synonym>
+            <synonym>MASP-2</synonym>
+            <synonym>MASP1P1</synonym>
+            <synonym>sMAP</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="6902">
             <synonym>MASP1P1</synonym>
           </db_xref>
           <db_xref source="MIM" accession="605102" />
           <db_xref source="Ensembl" accession="ENSG00000009724" />
+          <transcript source="Ensembl" accession="ENST00000400898">
+            <coordinates coord_system="LRG_82" start="4996" end="7431" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens mannan-binding lectin serine peptidase 2 (MASP2), transcript variant 2, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS124.1" />
+            <db_xref source="RefSeq" accession="NM_139208.2" />
+            <exon source="Ensembl" accession="ENSE00001881401">
+              <coordinates coord_system="LRG_82" start="4996" end="5026" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002989756">
+              <coordinates coord_system="LRG_82" start="5110" end="5338" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000472116">
+              <coordinates coord_system="LRG_82" start="5496" end="5673" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000743093">
+              <coordinates coord_system="LRG_82" start="6690" end="6821" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001731675">
+              <coordinates coord_system="LRG_82" start="7276" end="7431" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000383691">
+              <coordinates coord_system="LRG_82" start="5022" end="7289" strand="1" mapped_from="GRCh37" />
+              <long_name>mannan-binding lectin serine protease 2 isoform 2 precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_631947.1" />
+              <db_xref source="UniProtKB" accession="O00187">
+                <synonym>A8K458</synonym>
+                <synonym>A8MWJ2</synonym>
+                <synonym>O75754</synonym>
+                <synonym>Q5TEQ5</synonym>
+                <synonym>Q5TER0</synonym>
+                <synonym>Q96QG4</synonym>
+                <synonym>Q9BZH0</synonym>
+                <synonym>Q9H498</synonym>
+                <synonym>Q9H499</synonym>
+                <synonym>Q9UBP3</synonym>
+                <synonym>Q9UC48</synonym>
+                <synonym>Q9ULC7</synonym>
+                <synonym>Q9UMV3</synonym>
+                <synonym>Q9Y270</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000480221">
+            <coordinates coord_system="LRG_82" start="5002" end="7431" strand="1" mapped_from="GRCh37" />
+            <long_name>MASP2-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001472289">
+              <coordinates coord_system="LRG_82" start="5002" end="5026" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002993921">
+              <coordinates coord_system="LRG_82" start="5110" end="5338" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001935188">
+              <coordinates coord_system="LRG_82" start="5496" end="7431" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000400897">
             <coordinates coord_system="LRG_82" start="5006" end="25706" strand="1" mapped_from="GRCh37" />
-            <long_name>MASP2-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens mannan-binding lectin serine peptidase 2 (MASP2), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS123.1" />
             <db_xref source="RefSeq" accession="NM_006610.3" />
             <exon source="Ensembl" accession="ENSE00001833377">
               <coordinates coord_system="LRG_82" start="5006" end="5026" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000818831">
+            <exon source="Ensembl" accession="ENSE00002989756">
               <coordinates coord_system="LRG_82" start="5110" end="5338" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000472116">
@@ -436,7 +449,7 @@
             <exon source="Ensembl" accession="ENSE00000743090">
               <coordinates coord_system="LRG_82" start="9207" end="9354" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000472120">
+            <exon source="Ensembl" accession="ENSE00003189039">
               <coordinates coord_system="LRG_82" start="14418" end="14536" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000743085">
@@ -453,7 +466,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000383690">
               <coordinates coord_system="LRG_82" start="5022" end="25344" strand="1" mapped_from="GRCh37" />
-              <long_name>mannan-binding lectin serine peptidase 2</long_name>
+              <long_name>mannan-binding lectin serine protease 2 isoform 1 preproprotein </long_name>
               <db_xref source="RefSeq" accession="NP_006601.2" />
               <db_xref source="UniProtKB" accession="O00187">
                 <synonym>A8K458</synonym>
@@ -475,51 +488,64 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000478645">
             <coordinates coord_system="LRG_82" start="9031" end="14536" strand="1" mapped_from="GRCh37" />
-            <long_name>MASP2-004 (processed_transcript)</long_name>
+            <long_name>MASP2-004 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001841213">
               <coordinates coord_system="LRG_82" start="9031" end="9354" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001867815">
+            <exon source="Ensembl" accession="ENSE00003099953">
               <coordinates coord_system="LRG_82" start="14418" end="14536" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000400898">
-            <coordinates coord_system="LRG_82" start="4996" end="7431" strand="1" mapped_from="GRCh37" />
-            <long_name>MASP2-002 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS124.1" />
-            <db_xref source="RefSeq" accession="NM_139208.2" />
-            <exon source="Ensembl" accession="ENSE00001881401">
-              <coordinates coord_system="LRG_82" start="4996" end="5026" strand="1" mapped_from="GRCh37" />
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000120948">
+          <coordinates coord_system="LRG_82" start="26490" end="27706" strand="-1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <symbol source="HGNC">TARDBP</symbol>
+          <long_name>TAR DNA binding protein (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="23435">
+            <synonym>ALS10</synonym>
+            <synonym>TDP-43</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="11571">
+            <synonym>ALS10</synonym>
+            <synonym>TDP-43</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="605078" />
+          <db_xref source="Ensembl" accession="ENSG00000120948" />
+          <transcript source="Ensembl" accession="ENST00000496840">
+            <coordinates coord_system="LRG_82" start="26490" end="27706" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>TARDBP-008 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001840832">
+              <coordinates coord_system="LRG_82" start="27021" end="27119" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000818831">
-              <coordinates coord_system="LRG_82" start="5110" end="5338" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00001938508">
+              <coordinates coord_system="LRG_82" start="26490" end="26678" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000472116">
-              <coordinates coord_system="LRG_82" start="5496" end="5673" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000743093">
-              <coordinates coord_system="LRG_82" start="6690" end="6821" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001731675">
-              <coordinates coord_system="LRG_82" start="7276" end="7431" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000383691">
-              <coordinates coord_system="LRG_82" start="5022" end="7289" strand="1" mapped_from="GRCh37" />
-              <long_name>mannan-binding lectin serine peptidase 2</long_name>
-              <db_xref source="RefSeq" accession="NP_631947.1" />
-            </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000480221">
-            <coordinates coord_system="LRG_82" start="5002" end="7431" strand="1" mapped_from="GRCh37" />
-            <long_name>MASP2-003 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001472289">
-              <coordinates coord_system="LRG_82" start="5002" end="5026" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000480464">
+            <coordinates coord_system="LRG_82" start="26738" end="27706" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>TARDBP-009 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001821928">
+              <coordinates coord_system="LRG_82" start="26738" end="27119" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001884870">
-              <coordinates coord_system="LRG_82" start="5110" end="5338" strand="1" mapped_from="GRCh37" />
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000477447">
+            <coordinates coord_system="LRG_82" start="27025" end="27706" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>TARDBP-007 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001867968">
+              <coordinates coord_system="LRG_82" start="27025" end="27119" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001935188">
-              <coordinates coord_system="LRG_82" start="5496" end="7431" strand="1" mapped_from="GRCh37" />
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000473869">
+            <coordinates coord_system="LRG_82" start="27210" end="27706" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>TARDBP-002 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001925203">
+              <coordinates coord_system="LRG_82" start="27210" end="27706" strand="-1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
             </exon>
           </transcript>
         </gene>
@@ -527,8 +553,8 @@
     </annotation_set>
     <annotation_set>
       <source>
-        <name>MASP2 homepage - Mendelian genes</name>
-        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=MASP2</url>
+        <name>= 'MASP2 homepage - Mendelian genes'</name>
+        <url>= 'http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=MASP2'</url>
       </source>
       <modification_date>2012-07-24</modification_date>
     </annotation_set>
@@ -536,8 +562,27 @@
       <source>
         <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
         <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_92</url>
+        <contact>
+          <name>Sujatha Mohan</name>
+          <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+          <email>sujatha@rcai.riken.jp</email>
+        </contact>
       </source>
       <modification_date>2012-07-24</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>MASP2base: Mutation registry for MASP-2 deficiency</name>
+        <url>http://bioinf.uta.fi/MASP2base/</url>
+      </source>
+      <modification_date>2013-02-08</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - MASP2</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=MASP2</url>
+      </source>
+      <modification_date>2013-02-08</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

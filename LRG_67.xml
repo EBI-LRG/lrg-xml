@@ -7,7 +7,7 @@
     <sequence_source>NG_007570.2</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
-      <name>IFNGR2base: Mutation registry for IFNÎ³2-receptor deficiency</name>
+      <name>IFNGR2base: Mutation registry for IFNγ2-receptor deficiency</name>
       <url>http://bioinf.uta.fi/IFNGR2base/</url>
       <contact>
         <name>Jouni Valiaho</name>
@@ -16,8 +16,8 @@
       </contact>
       <contact>
         <name>Mauno Vihinen</name>
-        <address>University of Tampere, Finland</address>
-        <email>mauno.vihinen@uta.fi</email>
+        <address>Univ. of Tampere, Tampere, Finland</address>
+        <email>Mauno.Vihinen@med.lu.se</email>
       </contact>
     </source>
     <source>
@@ -97,7 +97,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-07-24</modification_date>
+      <modification_date>2013-02-08</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="21" other_id="NC_000021.8" other_start="34752299" other_end="34853655">
         <mapping_span lrg_start="1" lrg_end="101357" other_start="34752299" other_end="34853655" strand="1" />
       </mapping>
@@ -310,8 +310,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-07-24</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-08</modification_date>
       <mapping coord_system="ENST00000290219.6" other_name="ENST00000290219.6" other_id="ENST00000290219.6" other_start="1" other_end="2221">
         <mapping_span lrg_start="22904" lrg_end="23624" other_start="1" other_end="721" strand="1" />
         <mapping_span lrg_start="34897" lrg_end="35029" other_start="722" other_end="854" strand="1" />
@@ -355,11 +355,6 @@
         <mapping_span lrg_start="46893" lrg_end="47041" other_start="718" other_end="866" strand="1" />
         <mapping_span lrg_start="52186" lrg_end="52225" other_start="867" other_end="906" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000472188.1" other_name="ENST00000472188.1" other_id="ENST00000472188.1" other_start="1" other_end="261">
-        <mapping_span lrg_start="5001" lrg_end="5035" other_start="1" other_end="35" strand="1" />
-        <mapping_span lrg_start="5224" lrg_end="5392" other_start="36" other_end="204" strand="1" />
-        <mapping_span lrg_start="34897" lrg_end="34953" other_start="205" other_end="261" strand="1" />
-      </mapping>
       <mapping coord_system="ENST00000545369.2" other_name="ENST00000545369.2" other_id="ENST00000545369.2" other_start="1" other_end="966">
         <mapping_span lrg_start="23449" lrg_end="23624" other_start="1" other_end="176" strand="1" />
         <mapping_span lrg_start="41489" lrg_end="41694" other_start="177" other_end="382" strand="1" />
@@ -370,49 +365,41 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000159128">
-          <coordinates coord_system="LRG_67" start="5001" end="99357" strand="1" mapped_from="GRCh37" />
+          <coordinates coord_system="LRG_67" start="22904" end="99357" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">IFNGR2</symbol>
           <long_name>interferon gamma receptor 2 (interferon gamma transducer 1) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="3460">
+            <synonym>AF-1</synonym>
+            <synonym>IFGR2</synonym>
+            <synonym>IFNGT1</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="5440">
             <synonym>AF-1</synonym>
             <synonym>IFNGT1</synonym>
           </db_xref>
           <db_xref source="MIM" accession="147569" />
           <db_xref source="Ensembl" accession="ENSG00000159128" />
-          <transcript source="Ensembl" accession="ENST00000472188">
-            <coordinates coord_system="LRG_67" start="5001" end="34953" strand="1" mapped_from="GRCh37" />
-            <long_name>IFNGR2-006 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001937278">
-              <coordinates coord_system="LRG_67" start="5001" end="5035" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001915896">
-              <coordinates coord_system="LRG_67" start="5224" end="5392" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001838643">
-              <coordinates coord_system="LRG_67" start="34897" end="34953" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000290219">
             <coordinates coord_system="LRG_67" start="22904" end="57530" strand="1" mapped_from="GRCh37" />
-            <long_name>IFNGR2-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens interferon gamma receptor 2 (interferon gamma transducer 1) (IFNGR2), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS33544.1" />
             <db_xref source="RefSeq" accession="NM_005534.3" />
             <exon source="Ensembl" accession="ENSE00001338849">
               <coordinates coord_system="LRG_67" start="22904" end="23624" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002503965">
+            <exon source="Ensembl" accession="ENSE00003008407">
               <coordinates coord_system="LRG_67" start="34897" end="35029" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002239606">
+            <exon source="Ensembl" accession="ENSE00002990320">
               <coordinates coord_system="LRG_67" start="41489" end="41694" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002526492">
+            <exon source="Ensembl" accession="ENSE00003025912">
               <coordinates coord_system="LRG_67" start="46893" end="47041" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002469304">
+            <exon source="Ensembl" accession="ENSE00003197936">
               <coordinates coord_system="LRG_67" start="52186" end="52345" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002532630">
+            <exon source="Ensembl" accession="ENSE00003072666">
               <coordinates coord_system="LRG_67" start="52723" end="52880" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001490578">
@@ -420,9 +407,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000290219">
               <coordinates coord_system="LRG_67" start="23552" end="56971" strand="1" mapped_from="GRCh37" />
-              <long_name>interferon gamma receptor 2 (interferon gamma transducer 1)</long_name>
-              <db_xref source="UniProtKB" accession="A1Z2N6" />
+              <long_name>interferon gamma receptor 2 precursor </long_name>
               <db_xref source="RefSeq" accession="NP_005525.2" />
+              <db_xref source="UniProtKB" accession="A1Z2N6" />
               <db_xref source="UniProtKB" accession="A8K881" />
               <db_xref source="UniProtKB" accession="B5MCZ0" />
               <db_xref source="UniProtKB" accession="P38484">
@@ -442,13 +429,13 @@
             <exon source="Ensembl" accession="ENSE00001730414">
               <coordinates coord_system="LRG_67" start="31453" end="31583" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002429973">
+            <exon source="Ensembl" accession="ENSE00003140466">
               <coordinates coord_system="LRG_67" start="34897" end="35029" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002587167">
+            <exon source="Ensembl" accession="ENSE00003123590">
               <coordinates coord_system="LRG_67" start="41489" end="41694" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002243716">
+            <exon source="Ensembl" accession="ENSE00002988123">
               <coordinates coord_system="LRG_67" start="46893" end="47041" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001648489">
@@ -456,7 +443,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000407541">
               <coordinates coord_system="LRG_67" start="23552" end="31535" strand="1" mapped_from="GRCh37" />
-              <long_name>interferon gamma receptor 2 (interferon gamma transducer 1)</long_name>
               <db_xref source="UniProtKB" accession="F8WF11" />
             </protein_product>
           </transcript>
@@ -469,19 +455,19 @@
             <exon source="Ensembl" accession="ENSE00001490530">
               <coordinates coord_system="LRG_67" start="30844" end="30900" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002503965">
+            <exon source="Ensembl" accession="ENSE00003008407">
               <coordinates coord_system="LRG_67" start="34897" end="35029" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002239606">
+            <exon source="Ensembl" accession="ENSE00002990320">
               <coordinates coord_system="LRG_67" start="41489" end="41694" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002526492">
+            <exon source="Ensembl" accession="ENSE00003025912">
               <coordinates coord_system="LRG_67" start="46893" end="47041" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002469304">
+            <exon source="Ensembl" accession="ENSE00003197936">
               <coordinates coord_system="LRG_67" start="52186" end="52345" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002532630">
+            <exon source="Ensembl" accession="ENSE00003072666">
               <coordinates coord_system="LRG_67" start="52723" end="52880" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001490578">
@@ -489,7 +475,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000371425">
               <coordinates coord_system="LRG_67" start="23552" end="56971" strand="1" mapped_from="GRCh37" />
-              <long_name>interferon gamma receptor 2 (interferon gamma transducer 1)</long_name>
               <db_xref source="UniProtKB" accession="A1Z2N6" />
               <db_xref source="UniProtKB" accession="B5MCZ0" />
               <db_xref source="UniProtKB" accession="E7EUY1" />
@@ -501,16 +486,16 @@
             <exon source="Ensembl" accession="ENSE00001778547">
               <coordinates coord_system="LRG_67" start="23449" end="23624" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002529844">
+            <exon source="Ensembl" accession="ENSE00003041609">
               <coordinates coord_system="LRG_67" start="41489" end="41694" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002243716">
+            <exon source="Ensembl" accession="ENSE00002988123">
               <coordinates coord_system="LRG_67" start="46893" end="47041" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002211873">
+            <exon source="Ensembl" accession="ENSE00003077136">
               <coordinates coord_system="LRG_67" start="52186" end="52345" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002296170">
+            <exon source="Ensembl" accession="ENSE00003142536">
               <coordinates coord_system="LRG_67" start="52723" end="52880" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001802157">
@@ -518,7 +503,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000442735">
               <coordinates coord_system="LRG_67" start="23552" end="41529" strand="1" mapped_from="GRCh37" />
-              <long_name>interferon gamma receptor 2 (interferon gamma transducer 1)</long_name>
               <db_xref source="UniProtKB" accession="F8WE34" />
             </protein_product>
           </transcript>
@@ -531,19 +515,19 @@
             <exon source="Ensembl" accession="ENSE00001553006">
               <coordinates coord_system="LRG_67" start="30849" end="30900" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002429973">
+            <exon source="Ensembl" accession="ENSE00003140466">
               <coordinates coord_system="LRG_67" start="34897" end="35029" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002599964">
+            <exon source="Ensembl" accession="ENSE00003058167">
               <coordinates coord_system="LRG_67" start="41489" end="41694" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002526492">
+            <exon source="Ensembl" accession="ENSE00003025912">
               <coordinates coord_system="LRG_67" start="46893" end="47041" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002469304">
+            <exon source="Ensembl" accession="ENSE00003197936">
               <coordinates coord_system="LRG_67" start="52186" end="52345" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002532630">
+            <exon source="Ensembl" accession="ENSE00003072666">
               <coordinates coord_system="LRG_67" start="52723" end="52880" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001553564">
@@ -551,7 +535,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000385044">
               <coordinates coord_system="LRG_67" start="41520" end="56971" strand="1" mapped_from="GRCh37" />
-              <long_name>interferon gamma receptor 2 (interferon gamma transducer 1)</long_name>
               <db_xref source="UniProtKB" accession="B5MCZ0" />
             </protein_product>
           </transcript>
@@ -561,7 +544,7 @@
             <exon source="Ensembl" accession="ENSE00002530039">
               <coordinates coord_system="LRG_67" start="52328" end="52345" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002532630">
+            <exon source="Ensembl" accession="ENSE00003072666">
               <coordinates coord_system="LRG_67" start="52723" end="52880" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001776196">
@@ -569,14 +552,17 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000402629" codon_start="2">
               <coordinates coord_system="LRG_67" start="52328" end="98812" strand="1" mapped_from="GRCh37" />
-              <long_name>interferon gamma receptor 2 (interferon gamma transducer 1)</long_name>
             </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000142188">
-          <coordinates coord_system="LRG_67" start="52494" end="101201" strand="-1" mapped_from="GRCh37" />
+          <coordinates coord_system="LRG_67" start="52494" end="100020" strand="-1" mapped_from="GRCh37" />
           <symbol source="HGNC">TMEM50B</symbol>
           <long_name>transmembrane protein 50B (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="757">
+            <synonym>C21orf4</synonym>
+            <synonym>HCVP7TP3</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="1280">
             <synonym>C21orf4</synonym>
           </db_xref>
@@ -601,7 +587,6 @@
             <coordinates coord_system="LRG_67" start="52494" end="99952" strand="-1" mapped_from="GRCh37" />
             <long_name>TMEM50B-002 (nonsense_mediated_decay)</long_name>
             <db_xref source="CCDS" accession="CCDS13625.1" />
-            <db_xref source="RefSeq" accession="NM_006134.6" />
             <exon source="Ensembl" accession="ENSE00001710937">
               <coordinates coord_system="LRG_67" start="99847" end="99952" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -614,10 +599,10 @@
             <exon source="Ensembl" accession="ENSE00002464649">
               <coordinates coord_system="LRG_67" start="85351" end="85418" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002467412">
+            <exon source="Ensembl" accession="ENSE00003060857">
               <coordinates coord_system="LRG_67" start="80422" end="80514" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002263517">
+            <exon source="Ensembl" accession="ENSE00003133957">
               <coordinates coord_system="LRG_67" start="75736" end="75793" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001728160">
@@ -631,8 +616,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000397773">
               <coordinates coord_system="LRG_67" start="70827" end="88894" strand="-1" mapped_from="GRCh37" />
-              <long_name>transmembrane protein 50B</long_name>
-              <db_xref source="RefSeq" accession="NP_006125.2" />
               <db_xref source="UniProtKB" accession="C9J8P5" />
               <db_xref source="UniProtKB" accession="C9K0I4" />
               <db_xref source="UniProtKB" accession="P56557">
@@ -677,7 +660,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000542230">
             <coordinates coord_system="LRG_67" start="69144" end="100020" strand="-1" mapped_from="GRCh37" />
-            <long_name>TMEM50B-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens transmembrane protein 50B (TMEM50B), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13625.1" />
             <db_xref source="RefSeq" accession="NM_006134.6" />
             <exon source="Ensembl" accession="ENSE00001874127">
@@ -692,10 +675,10 @@
             <exon source="Ensembl" accession="ENSE00002464649">
               <coordinates coord_system="LRG_67" start="85351" end="85418" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002467412">
+            <exon source="Ensembl" accession="ENSE00003060857">
               <coordinates coord_system="LRG_67" start="80422" end="80514" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002263517">
+            <exon source="Ensembl" accession="ENSE00003133957">
               <coordinates coord_system="LRG_67" start="75736" end="75793" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001490415">
@@ -703,10 +686,16 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000439768">
               <coordinates coord_system="LRG_67" start="70827" end="88894" strand="-1" mapped_from="GRCh37" />
-              <long_name>transmembrane protein 50B</long_name>
+              <long_name>transmembrane protein 50B </long_name>
               <db_xref source="RefSeq" accession="NP_006125.2" />
               <db_xref source="UniProtKB" accession="C9J8P5" />
               <db_xref source="UniProtKB" accession="C9K0I4" />
+              <db_xref source="UniProtKB" accession="P56557">
+                <synonym>B2R4L4</synonym>
+                <synonym>D3DSF1</synonym>
+                <synonym>O60537</synonym>
+                <synonym>Q5PY47</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000441128">
@@ -715,10 +704,10 @@
             <exon source="Ensembl" accession="ENSE00002433737">
               <coordinates coord_system="LRG_67" start="88796" end="88935" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002445503">
+            <exon source="Ensembl" accession="ENSE00003069384">
               <coordinates coord_system="LRG_67" start="80422" end="80514" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002486268">
+            <exon source="Ensembl" accession="ENSE00003200678">
               <coordinates coord_system="LRG_67" start="75736" end="75793" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001796225">
@@ -726,7 +715,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000398859">
               <coordinates coord_system="LRG_67" start="80479" end="88894" strand="-1" mapped_from="GRCh37" />
-              <long_name>transmembrane protein 50B</long_name>
               <db_xref source="UniProtKB" accession="F8WBF4" />
             </protein_product>
           </transcript>
@@ -745,13 +733,13 @@
             <exon source="Ensembl" accession="ENSE00002464649">
               <coordinates coord_system="LRG_67" start="85351" end="85418" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002467412">
+            <exon source="Ensembl" accession="ENSE00003060857">
               <coordinates coord_system="LRG_67" start="80422" end="80514" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001630493">
               <coordinates coord_system="LRG_67" start="76013" end="76106" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002486268">
+            <exon source="Ensembl" accession="ENSE00003200678">
               <coordinates coord_system="LRG_67" start="75736" end="75793" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001733828">
@@ -759,7 +747,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000409942">
               <coordinates coord_system="LRG_67" start="76024" end="88894" strand="-1" mapped_from="GRCh37" />
-              <long_name>transmembrane protein 50B</long_name>
               <db_xref source="UniProtKB" accession="C9J8P5" />
               <db_xref source="UniProtKB" accession="C9K0I4" />
               <db_xref source="UniProtKB" accession="F8WDH1" />
@@ -795,27 +782,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000387622">
               <coordinates coord_system="LRG_67" start="85387" end="88894" strand="-1" mapped_from="GRCh37" />
-              <long_name>transmembrane protein 50B</long_name>
               <db_xref source="UniProtKB" accession="C9J8P5" />
               <db_xref source="UniProtKB" accession="C9K0I4" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000435619">
-            <coordinates coord_system="LRG_67" start="87044" end="101201" strand="-1" mapped_from="GRCh37" />
-            <long_name>TMEM50B-010 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001762880">
-              <coordinates coord_system="LRG_67" start="101143" end="101201" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002433737">
-              <coordinates coord_system="LRG_67" start="88796" end="88935" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001771449">
-              <coordinates coord_system="LRG_67" start="87044" end="87131" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000411248">
-              <coordinates coord_system="LRG_67" start="87044" end="88894" strand="-1" mapped_from="GRCh37" />
-              <long_name>transmembrane protein 50B</long_name>
-              <db_xref source="UniProtKB" accession="C9J8P5" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000459909">
@@ -828,42 +796,26 @@
               <coordinates coord_system="LRG_67" start="88429" end="88935" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000440644">
-            <coordinates coord_system="LRG_67" start="80363" end="99935" strand="-1" mapped_from="GRCh37" />
-            <long_name>TMEM50B-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002263240">
-              <coordinates coord_system="LRG_67" start="99847" end="99935" strand="-1" mapped_from="GRCh37" />
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000266892">
+          <coordinates coord_system="LRG_67" start="84475" end="84567" strand="1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_ensembl_gene">AP000301.1</symbol>
+          <long_name>AP000301.1 (miRNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000266892" />
+          <transcript source="Ensembl" accession="ENST00000581654">
+            <coordinates coord_system="LRG_67" start="84475" end="84567" strand="1" mapped_from="GRCh37" />
+            <long_name>AP000301.1-201 (miRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00002696949">
+              <coordinates coord_system="LRG_67" start="84475" end="84567" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002433737">
-              <coordinates coord_system="LRG_67" start="88796" end="88935" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002432940">
-              <coordinates coord_system="LRG_67" start="87019" end="87131" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002464649">
-              <coordinates coord_system="LRG_67" start="85351" end="85418" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002467412">
-              <coordinates coord_system="LRG_67" start="80422" end="80514" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002478576">
-              <coordinates coord_system="LRG_67" start="80363" end="80367" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000395003">
-              <coordinates coord_system="LRG_67" start="80363" end="88894" strand="-1" mapped_from="GRCh37" />
-              <long_name>transmembrane protein 50B</long_name>
-              <db_xref source="UniProtKB" accession="C9J8P5" />
-              <db_xref source="UniProtKB" accession="E9PG13" />
-              <db_xref source="UniProtKB" accession="C9K0I4" />
-            </protein_product>
           </transcript>
         </gene>
       </features>
     </annotation_set>
     <annotation_set>
       <source>
-        <name>IFNGR2 homepage - Mendelian genes</name>
-        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=IFNGR2</url>
+        <name>= 'IFNGR2 homepage - Mendelian genes'</name>
+        <url>= 'http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=IFNGR2'</url>
       </source>
       <modification_date>2012-07-24</modification_date>
     </annotation_set>
@@ -871,8 +823,27 @@
       <source>
         <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
         <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_66</url>
+        <contact>
+          <name>Sujatha Mohan</name>
+          <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+          <email>sujatha@rcai.riken.jp</email>
+        </contact>
       </source>
       <modification_date>2012-07-24</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - IFNGR2</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=IFNGR2</url>
+      </source>
+      <modification_date>2013-02-08</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>IFNGR2base: Mutation registry for IFNγ2-receptor deficiency</name>
+        <url>http://bioinf.uta.fi/IFNGR2base/</url>
+      </source>
+      <modification_date>2013-02-08</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
