@@ -97,7 +97,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="X" other_id="NC_000023.10" other_start="132667773" other_end="133124666">
         <mapping_span lrg_start="1" lrg_end="456894" other_start="132667773" other_end="133124666" strand="-1" />
       </mapping>
@@ -116,7 +116,7 @@
       <comment>Annotation from NG_009286.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_505" start="4994" end="5365" />
             <label>1</label>
@@ -266,8 +266,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000370818.3" other_name="ENST00000370818.3" other_id="ENST00000370818.3" other_start="1" other_end="2568">
         <mapping_span lrg_start="4745" lrg_end="5365" other_start="1" other_end="621" strand="1" />
         <mapping_span lrg_start="37429" lrg_end="37590" other_start="622" other_end="783" strand="1" />
@@ -306,10 +306,33 @@
         <mapping_span lrg_start="454346" lrg_end="454515" other_start="1412" other_end="1581" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000232068">
+          <coordinates coord_system="LRG_505" start="554" end="1197" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">AF003529.2</symbol>
+          <long_name>AF003529.2 (pseudogene)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000232068" />
+          <transcript source="Ensembl" accession="ENST00000455649">
+            <coordinates coord_system="LRG_505" start="554" end="1197" strand="-1" mapped_from="GRCh37" />
+            <long_name>AF003529.2-001 (unprocessed_pseudogene)</long_name>
+            <exon source="Ensembl" accession="ENSE00001755512">
+              <coordinates coord_system="LRG_505" start="554" end="1197" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000147257">
           <coordinates coord_system="LRG_505" start="4745" end="454894" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">GPC3</symbol>
           <long_name>glypican 3 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="2719">
+            <synonym>DGSX</synonym>
+            <synonym>GTR2-2</synonym>
+            <synonym>MXR7</synonym>
+            <synonym>OCI-5</synonym>
+            <synonym>SDYS</synonym>
+            <synonym>SGB</synonym>
+            <synonym>SGBS</synonym>
+            <synonym>SGBS1</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="4451">
             <synonym>DGSX</synonym>
             <synonym>OCI-5</synonym>
@@ -322,9 +345,8 @@
           <db_xref source="Ensembl" accession="ENSG00000147257" />
           <transcript source="Ensembl" accession="ENST00000370818">
             <coordinates coord_system="LRG_505" start="4745" end="454894" strand="1" mapped_from="GRCh37" />
-            <long_name>GPC3-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens glypican 3 (GPC3), transcript variant 2, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS14638.1" />
-            <db_xref source="RefSeq" accession="NM_001164618.1" />
             <db_xref source="RefSeq" accession="NM_004484.3" />
             <exon source="Ensembl" accession="ENSE00001878450">
               <coordinates coord_system="LRG_505" start="4745" end="5365" strand="1" mapped_from="GRCh37" />
@@ -352,39 +374,16 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000359854">
               <coordinates coord_system="LRG_505" start="5191" end="454515" strand="1" mapped_from="GRCh37" />
-              <long_name>glypican 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001158090.1" />
+              <long_name>glypican-3 isoform 2 precursor , glypican-3 isoform 3 precursor </long_name>
               <db_xref source="RefSeq" accession="NP_004475.1" />
+              <db_xref source="RefSeq" accession="NP_001158090.1" />
+              <db_xref source="UniProtKB" accession="I6QTG3" />
               <db_xref source="UniProtKB" accession="P51654" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000406757">
-            <coordinates coord_system="LRG_505" start="236938" end="394273" strand="1" mapped_from="GRCh37" />
-            <long_name>GPC3-002 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001630921">
-              <coordinates coord_system="LRG_505" start="236938" end="237158" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001154011">
-              <coordinates coord_system="LRG_505" start="290611" end="290744" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001154005">
-              <coordinates coord_system="LRG_505" start="298145" end="298270" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001153999">
-              <coordinates coord_system="LRG_505" start="328789" end="328909" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001740303">
-              <coordinates coord_system="LRG_505" start="394040" end="394273" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000385307" codon_start="2">
-              <coordinates coord_system="LRG_505" start="236938" end="394207" strand="1" mapped_from="GRCh37" />
-              <long_name>glypican 3</long_name>
-              <db_xref source="UniProtKB" accession="B1AJP6" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000394299">
             <coordinates coord_system="LRG_505" start="4994" end="454885" strand="1" mapped_from="GRCh37" />
-            <long_name>GPC3-201 (protein_coding)</long_name>
+            <long_name>Homo sapiens glypican 3 (GPC3), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS55496.1" />
             <db_xref source="RefSeq" accession="NM_001164617.1" />
             <exon source="Ensembl" accession="ENSE00001811125">
@@ -416,14 +415,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000377836">
               <coordinates coord_system="LRG_505" start="5191" end="454515" strand="1" mapped_from="GRCh37" />
-              <long_name>glypican 3</long_name>
+              <long_name>glypican-3 isoform 1 precursor </long_name>
               <db_xref source="RefSeq" accession="NP_001158089.1" />
               <db_xref source="UniProtKB" accession="C9JLE3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000543339">
             <coordinates coord_system="LRG_505" start="5191" end="454515" strand="1" mapped_from="GRCh37" />
-            <long_name>GPC3-202 (protein_coding)</long_name>
+            <long_name>Homo sapiens glypican 3 (GPC3), transcript variant 4, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS55495.1" />
             <db_xref source="RefSeq" accession="NM_001164619.1" />
             <exon source="Ensembl" accession="ENSE00002261625">
@@ -449,10 +448,47 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000444222">
               <coordinates coord_system="LRG_505" start="5191" end="454515" strand="1" mapped_from="GRCh37" />
-              <long_name>glypican 3</long_name>
+              <long_name>glypican-3 isoform 4 precursor </long_name>
               <db_xref source="RefSeq" accession="NP_001158091.1" />
               <db_xref source="UniProtKB" accession="G3V1R0" />
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000406757">
+            <coordinates coord_system="LRG_505" start="236938" end="394273" strand="1" mapped_from="GRCh37" />
+            <long_name>GPC3-002 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001630921">
+              <coordinates coord_system="LRG_505" start="236938" end="237158" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001154011">
+              <coordinates coord_system="LRG_505" start="290611" end="290744" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001154005">
+              <coordinates coord_system="LRG_505" start="298145" end="298270" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001153999">
+              <coordinates coord_system="LRG_505" start="328789" end="328909" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001740303">
+              <coordinates coord_system="LRG_505" start="394040" end="394273" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000385307" codon_start="2">
+              <coordinates coord_system="LRG_505" start="236938" end="394207" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="B1AJP6" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000233260">
+          <coordinates coord_system="LRG_505" start="226957" end="227844" strand="-1" mapped_from="GRCh37" />
+          <symbol source="HGNC">RPSAP63</symbol>
+          <long_name>ribosomal protein SA pseudogene 63 (pseudogene)</long_name>
+          <db_xref source="HGNC" accession="35581" />
+          <db_xref source="Ensembl" accession="ENSG00000233260" />
+          <transcript source="Ensembl" accession="ENST00000412013">
+            <coordinates coord_system="LRG_505" start="226957" end="227844" strand="-1" mapped_from="GRCh37" />
+            <long_name>RPSAP63-001 (processed_pseudogene)</long_name>
+            <exon source="Ensembl" accession="ENSE00001705940">
+              <coordinates coord_system="LRG_505" start="226957" end="227844" strand="-1" mapped_from="GRCh37" />
+            </exon>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000211495">
@@ -468,6 +504,19 @@
             </exon>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000227008">
+          <coordinates coord_system="LRG_505" start="319253" end="319668" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">RP3-417G15.1</symbol>
+          <long_name>RP3-417G15.1 (pseudogene)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000227008" />
+          <transcript source="Ensembl" accession="ENST00000426577">
+            <coordinates coord_system="LRG_505" start="319253" end="319668" strand="-1" mapped_from="GRCh37" />
+            <long_name>RP3-417G15.1-001 (processed_pseudogene)</long_name>
+            <exon source="Ensembl" accession="ENSE00001648200">
+              <coordinates coord_system="LRG_505" start="319253" end="319668" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
       </features>
     </annotation_set>
     <annotation_set>
@@ -476,6 +525,20 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=GPC3</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - GPC3</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=GPC3</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>LOVD 3.0 shared installation - GPC3</name>
+        <url>http://databases.lovd.nl/shared/genes/GPC3</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -67,7 +67,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="4" other_id="NC_000004.11" other_start="41744099" other_end="41755987">
         <mapping_span lrg_start="1" lrg_end="11889" other_start="41744099" other_end="41755987" strand="-1" />
       </mapping>
@@ -86,7 +86,7 @@
       <comment>Annotation from NG_008243.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_513" start="5001" end="5601" />
             <label>1</label>
@@ -159,8 +159,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000226382.2" other_name="ENST00000226382.2" other_id="ENST00000226382.2" other_start="1" other_end="3030">
         <mapping_span lrg_start="5001" lrg_end="5601" other_start="1" other_end="601" strand="1" />
         <mapping_span lrg_start="6435" lrg_end="6622" other_start="602" other_end="789" strand="1" />
@@ -172,10 +172,45 @@
         <mapping_span lrg_start="7649" lrg_end="7938" other_start="249" other_end="538" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000250467">
+          <coordinates coord_system="LRG_513" start="1" end="5678" strand="-1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <symbol source="Clone_based_vega_gene">RP11-227F19.1</symbol>
+          <long_name>RP11-227F19.1 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000250467" />
+          <transcript source="Ensembl" accession="ENST00000508038">
+            <coordinates coord_system="LRG_513" start="1" end="5678" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>RP11-227F19.1-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002064020">
+              <coordinates coord_system="LRG_513" start="5385" end="5678" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000249122">
+          <coordinates coord_system="LRG_513" start="1" end="3626" strand="-1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <symbol source="Clone_based_vega_gene">RP11-227F19.2</symbol>
+          <long_name>RP11-227F19.2 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000249122" />
+          <transcript source="Ensembl" accession="ENST00000510602">
+            <coordinates coord_system="LRG_513" start="1" end="3626" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>RP11-227F19.2-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002037850">
+              <coordinates coord_system="LRG_513" start="3574" end="3626" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000109132">
           <coordinates coord_system="LRG_513" start="5001" end="9889" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">PHOX2B</symbol>
           <long_name>paired-like homeobox 2b (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="8929">
+            <synonym>NBLST2</synonym>
+            <synonym>NBPhox</synonym>
+            <synonym>PMX2B</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="9143">
             <synonym>NBPhox</synonym>
             <synonym>Phox2b</synonym>
@@ -185,7 +220,7 @@
           <db_xref source="Ensembl" accession="ENSG00000109132" />
           <transcript source="Ensembl" accession="ENST00000226382">
             <coordinates coord_system="LRG_513" start="5001" end="9889" strand="1" mapped_from="GRCh37" />
-            <long_name>PHOX2B-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens paired-like homeobox 2b (PHOX2B), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS3463.1" />
             <db_xref source="RefSeq" accession="NM_003924.3" />
             <exon source="Ensembl" accession="ENSE00001014991">
@@ -199,7 +234,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000226382">
               <coordinates coord_system="LRG_513" start="5361" end="8164" strand="1" mapped_from="GRCh37" />
-              <long_name>paired-like homeobox 2b</long_name>
+              <long_name>paired mesoderm homeobox protein 2B </long_name>
               <db_xref source="RefSeq" accession="NP_003915.2" />
               <db_xref source="UniProtKB" accession="Q99453">
                 <synonym>Q6PJD9</synonym>
@@ -220,7 +255,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000426733" codon_start="2">
               <coordinates coord_system="LRG_513" start="6264" end="7938" strand="1" mapped_from="GRCh37" />
-              <long_name>paired-like homeobox 2b</long_name>
             </protein_product>
           </transcript>
         </gene>
@@ -232,6 +266,13 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=PHOX2B</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - PHOX2B</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=PHOX2B</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

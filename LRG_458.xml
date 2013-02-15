@@ -115,7 +115,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-07-24</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="5" other_id="NC_000005.9" other_start="170809708" other_end="170839888">
         <mapping_span lrg_start="1" lrg_end="30181" other_start="170809708" other_end="170839888" strand="1" />
       </mapping>
@@ -134,7 +134,7 @@
       <comment>Annotation from NG_016018.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_458" start="5001" end="5303" />
             <label>1</label>
@@ -294,8 +294,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-07-24</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000296930.5" other_name="ENST00000296930.5" other_id="ENST00000296930.5" other_start="1" other_end="1758">
         <mapping_span lrg_start="4945" lrg_end="5303" other_start="1" other_end="359" strand="1" />
         <mapping_span lrg_start="7348" lrg_end="7427" other_start="360" other_end="439" strand="1" />
@@ -388,10 +388,33 @@
         <mapping_span lrg_start="27824" lrg_end="28181" other_start="283" other_end="640" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000264249">
+          <coordinates coord_system="LRG_458" start="3953" end="4057" strand="-1" mapped_from="GRCh37" />
+          <symbol source="HGNC">MIR3912</symbol>
+          <long_name>microRNA 3912 (miRNA)</long_name>
+          <db_xref source="GeneID" accession="100500831" />
+          <db_xref source="HGNC" accession="38923">
+            <synonym>hsa-mir-3912</synonym>
+          </db_xref>
+          <db_xref source="miRBase" accession="MI0016416" />
+          <db_xref source="Ensembl" accession="ENSG00000264249" />
+          <transcript source="Ensembl" accession="ENST00000577566">
+            <coordinates coord_system="LRG_458" start="3953" end="4057" strand="-1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens microRNA 3912 (MIR3912), microRNA. (miRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_037474.1" />
+            <exon source="Ensembl" accession="ENSE00002699994">
+              <coordinates coord_system="LRG_458" start="3953" end="4057" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000181163">
           <coordinates coord_system="LRG_458" start="4413" end="28434" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">NPM1</symbol>
           <long_name>nucleophosmin (nucleolar phosphoprotein B23, numatrin) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="4869">
+            <synonym>B23</synonym>
+            <synonym>NPM</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="7910">
             <synonym>B23</synonym>
             <synonym>NPM</synonym>
@@ -402,20 +425,19 @@
             <coordinates coord_system="LRG_458" start="4413" end="28180" strand="1" mapped_from="GRCh37" />
             <long_name>NPM1-004 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS4376.1" />
-            <db_xref source="RefSeq" accession="NM_002520.6" />
             <exon source="Ensembl" accession="ENSE00002139403">
               <coordinates coord_system="LRG_458" start="4413" end="4531" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002095877">
               <coordinates coord_system="LRG_458" start="5230" end="5303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002502149">
+            <exon source="Ensembl" accession="ENSE00003143018">
               <coordinates coord_system="LRG_458" start="7348" end="7427" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002485246">
+            <exon source="Ensembl" accession="ENSE00002977182">
               <coordinates coord_system="LRG_458" start="8602" end="8721" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002514752">
+            <exon source="Ensembl" accession="ENSE00003034241">
               <coordinates coord_system="LRG_458" start="9003" end="9096" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001084454">
@@ -441,27 +463,48 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000428755">
               <coordinates coord_system="LRG_458" start="5246" end="27862" strand="1" mapped_from="GRCh37" />
-              <long_name>nucleophosmin (nucleolar phosphoprotein B23, numatrin)</long_name>
-              <db_xref source="RefSeq" accession="NP_002511.1" />
               <db_xref source="UniProtKB" accession="Q9BTI9" />
               <db_xref source="UniProtKB" accession="E5RI98" />
+              <db_xref source="UniProtKB" accession="P06748">
+                <synonym>A8K3N7</synonym>
+                <synonym>B5BU00</synonym>
+                <synonym>D3DQL6</synonym>
+                <synonym>P08693</synonym>
+                <synonym>Q12826</synonym>
+                <synonym>Q13440</synonym>
+                <synonym>Q13441</synonym>
+                <synonym>Q14115</synonym>
+                <synonym>Q5EU94</synonym>
+                <synonym>Q5EU95</synonym>
+                <synonym>Q5EU96</synonym>
+                <synonym>Q5EU97</synonym>
+                <synonym>Q5EU98</synonym>
+                <synonym>Q5EU99</synonym>
+                <synonym>Q6V962</synonym>
+                <synonym>Q8WTW5</synonym>
+                <synonym>Q96AT6</synonym>
+                <synonym>Q96DC4</synonym>
+                <synonym>Q96EA5</synonym>
+                <synonym>Q9BYG9</synonym>
+                <synonym>Q9UDJ7</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000296930">
             <coordinates coord_system="LRG_458" start="4945" end="28434" strand="1" mapped_from="GRCh37" />
-            <long_name>NPM1-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens nucleophosmin (nucleolar phosphoprotein B23, numatrin) (NPM1), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS4376.1" />
             <db_xref source="RefSeq" accession="NM_002520.6" />
             <exon source="Ensembl" accession="ENSE00001908581">
               <coordinates coord_system="LRG_458" start="4945" end="5303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002502149">
+            <exon source="Ensembl" accession="ENSE00003143018">
               <coordinates coord_system="LRG_458" start="7348" end="7427" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002485246">
+            <exon source="Ensembl" accession="ENSE00002977182">
               <coordinates coord_system="LRG_458" start="8602" end="8721" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002514752">
+            <exon source="Ensembl" accession="ENSE00003034241">
               <coordinates coord_system="LRG_458" start="9003" end="9096" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001084454">
@@ -487,7 +530,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000296930">
               <coordinates coord_system="LRG_458" start="5246" end="27862" strand="1" mapped_from="GRCh37" />
-              <long_name>nucleophosmin (nucleolar phosphoprotein B23, numatrin)</long_name>
+              <long_name>nucleophosmin isoform 1 </long_name>
               <db_xref source="RefSeq" accession="NP_002511.1" />
               <db_xref source="UniProtKB" accession="Q9BTI9" />
               <db_xref source="UniProtKB" accession="E5RI98" />
@@ -511,6 +554,7 @@
                 <synonym>Q96AT6</synonym>
                 <synonym>Q96DC4</synonym>
                 <synonym>Q96EA5</synonym>
+                <synonym>Q9BYG9</synonym>
                 <synonym>Q9UDJ7</synonym>
               </db_xref>
             </protein_product>
@@ -521,10 +565,10 @@
             <exon source="Ensembl" accession="ENSE00001516632">
               <coordinates coord_system="LRG_458" start="5096" end="5303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002622736">
+            <exon source="Ensembl" accession="ENSE00003142753">
               <coordinates coord_system="LRG_458" start="8602" end="8721" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002514752">
+            <exon source="Ensembl" accession="ENSE00003034241">
               <coordinates coord_system="LRG_458" start="9003" end="9096" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001084454">
@@ -538,25 +582,24 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000429485">
               <coordinates coord_system="LRG_458" start="8656" end="17452" strand="1" mapped_from="GRCh37" />
-              <long_name>nucleophosmin (nucleolar phosphoprotein B23, numatrin)</long_name>
               <db_xref source="UniProtKB" accession="E5RI98" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000351986">
             <coordinates coord_system="LRG_458" start="5126" end="28181" strand="1" mapped_from="GRCh37" />
-            <long_name>NPM1-002 (protein_coding)</long_name>
+            <long_name>Homo sapiens nucleophosmin (nucleolar phosphoprotein B23, numatrin) (NPM1), transcript variant 2, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS4377.1" />
             <db_xref source="RefSeq" accession="NM_199185.3" />
             <exon source="Ensembl" accession="ENSE00002127634">
               <coordinates coord_system="LRG_458" start="5126" end="5303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002502149">
+            <exon source="Ensembl" accession="ENSE00003143018">
               <coordinates coord_system="LRG_458" start="7348" end="7427" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002485246">
+            <exon source="Ensembl" accession="ENSE00002977182">
               <coordinates coord_system="LRG_458" start="8602" end="8721" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002514752">
+            <exon source="Ensembl" accession="ENSE00003034241">
               <coordinates coord_system="LRG_458" start="9003" end="9096" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001084454">
@@ -574,31 +617,54 @@
             <exon source="Ensembl" accession="ENSE00001026397">
               <coordinates coord_system="LRG_458" start="24997" end="25071" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002453748">
+            <exon source="Ensembl" accession="ENSE00002977558">
               <coordinates coord_system="LRG_458" start="27824" end="28181" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000341168">
               <coordinates coord_system="LRG_458" start="5246" end="27862" strand="1" mapped_from="GRCh37" />
-              <long_name>nucleophosmin (nucleolar phosphoprotein B23, numatrin)</long_name>
+              <long_name>nucleophosmin isoform 2 </long_name>
               <db_xref source="RefSeq" accession="NP_954654.1" />
               <db_xref source="UniProtKB" accession="E5RI98" />
+              <db_xref source="UniProtKB" accession="P06748">
+                <synonym>A8K3N7</synonym>
+                <synonym>B5BU00</synonym>
+                <synonym>D3DQL6</synonym>
+                <synonym>P08693</synonym>
+                <synonym>Q12826</synonym>
+                <synonym>Q13440</synonym>
+                <synonym>Q13441</synonym>
+                <synonym>Q14115</synonym>
+                <synonym>Q5EU94</synonym>
+                <synonym>Q5EU95</synonym>
+                <synonym>Q5EU96</synonym>
+                <synonym>Q5EU97</synonym>
+                <synonym>Q5EU98</synonym>
+                <synonym>Q5EU99</synonym>
+                <synonym>Q6V962</synonym>
+                <synonym>Q8WTW5</synonym>
+                <synonym>Q96AT6</synonym>
+                <synonym>Q96DC4</synonym>
+                <synonym>Q96EA5</synonym>
+                <synonym>Q9BYG9</synonym>
+                <synonym>Q9UDJ7</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000393820">
             <coordinates coord_system="LRG_458" start="5148" end="24422" strand="1" mapped_from="GRCh37" />
-            <long_name>NPM1-003 (protein_coding)</long_name>
+            <long_name>Homo sapiens nucleophosmin (nucleolar phosphoprotein B23, numatrin) (NPM1), transcript variant 3, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS43399.1" />
             <db_xref source="RefSeq" accession="NM_001037738.2" />
             <exon source="Ensembl" accession="ENSE00002101492">
               <coordinates coord_system="LRG_458" start="5148" end="5303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002502149">
+            <exon source="Ensembl" accession="ENSE00003143018">
               <coordinates coord_system="LRG_458" start="7348" end="7427" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002485246">
+            <exon source="Ensembl" accession="ENSE00002977182">
               <coordinates coord_system="LRG_458" start="8602" end="8721" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002514752">
+            <exon source="Ensembl" accession="ENSE00003034241">
               <coordinates coord_system="LRG_458" start="9003" end="9096" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001084454">
@@ -621,11 +687,33 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000377408">
               <coordinates coord_system="LRG_458" start="5246" end="23702" strand="1" mapped_from="GRCh37" />
-              <long_name>nucleophosmin (nucleolar phosphoprotein B23, numatrin)</long_name>
+              <long_name>nucleophosmin isoform 3 </long_name>
               <db_xref source="RefSeq" accession="NP_001032827.1" />
               <db_xref source="UniProtKB" accession="Q9NX34" />
-              <db_xref source="UniProtKB" accession="Q9BYG9" />
               <db_xref source="UniProtKB" accession="E5RI98" />
+              <db_xref source="UniProtKB" accession="P06748">
+                <synonym>A8K3N7</synonym>
+                <synonym>B5BU00</synonym>
+                <synonym>D3DQL6</synonym>
+                <synonym>P08693</synonym>
+                <synonym>Q12826</synonym>
+                <synonym>Q13440</synonym>
+                <synonym>Q13441</synonym>
+                <synonym>Q14115</synonym>
+                <synonym>Q5EU94</synonym>
+                <synonym>Q5EU95</synonym>
+                <synonym>Q5EU96</synonym>
+                <synonym>Q5EU97</synonym>
+                <synonym>Q5EU98</synonym>
+                <synonym>Q5EU99</synonym>
+                <synonym>Q6V962</synonym>
+                <synonym>Q8WTW5</synonym>
+                <synonym>Q96AT6</synonym>
+                <synonym>Q96DC4</synonym>
+                <synonym>Q96EA5</synonym>
+                <synonym>Q9BYG9</synonym>
+                <synonym>Q9UDJ7</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000523339">
@@ -652,7 +740,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000428647">
               <coordinates coord_system="LRG_458" start="5246" end="8666" strand="1" mapped_from="GRCh37" />
-              <long_name>nucleophosmin (nucleolar phosphoprotein B23, numatrin)</long_name>
               <db_xref source="UniProtKB" accession="E5RGW4" />
             </protein_product>
           </transcript>
@@ -662,13 +749,13 @@
             <exon source="Ensembl" accession="ENSE00002090378">
               <coordinates coord_system="LRG_458" start="5182" end="5303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002454318">
+            <exon source="Ensembl" accession="ENSE00002982215">
               <coordinates coord_system="LRG_458" start="7348" end="7427" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002627234">
+            <exon source="Ensembl" accession="ENSE00003210849">
               <coordinates coord_system="LRG_458" start="8602" end="8721" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002436629">
+            <exon source="Ensembl" accession="ENSE00003048337">
               <coordinates coord_system="LRG_458" start="9003" end="9096" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002101546">
@@ -711,7 +798,7 @@
             <exon source="Ensembl" accession="ENSE00002092960">
               <coordinates coord_system="LRG_458" start="24790" end="25071" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002450331">
+            <exon source="Ensembl" accession="ENSE00003001791">
               <coordinates coord_system="LRG_458" start="27824" end="28181" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -724,6 +811,13 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=NPM1</url>
       </source>
       <modification_date>2012-08-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - NPM1</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=NPM1</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

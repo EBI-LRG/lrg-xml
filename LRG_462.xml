@@ -146,7 +146,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="2" other_id="NC_000002.11" other_start="128012866" other_end="128056752">
         <mapping_span lrg_start="1" lrg_end="43887" other_start="128012866" other_end="128056752" strand="-1" />
       </mapping>
@@ -165,7 +165,7 @@
       <comment>Annotation from NG_007454.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_462" start="5001" end="5123" />
             <label>1</label>
@@ -341,8 +341,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000285398.2" other_name="ENST00000285398.2" other_id="ENST00000285398.2" other_start="1" other_end="2750">
         <mapping_span lrg_start="5001" lrg_end="5123" other_start="1" other_end="123" strand="1" />
         <mapping_span lrg_start="5459" lrg_end="5664" other_start="124" other_end="329" strand="1" />
@@ -446,10 +446,44 @@
         <mapping_span lrg_start="12160" lrg_end="12428" other_start="1099" other_end="1367" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000169967">
+          <coordinates coord_system="LRG_462" start="1" end="447" strand="1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <symbol source="HGNC">MAP3K2</symbol>
+          <long_name>mitogen-activated protein kinase kinase kinase 2 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="10746">
+            <synonym>MEKK2</synonym>
+            <synonym>MEKK2B</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="6854">
+            <synonym>MEKK2</synonym>
+            <synonym>MEKK2B</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="609487" />
+          <db_xref source="Ensembl" accession="ENSG00000169967" />
+          <transcript source="Ensembl" accession="ENST00000409947">
+            <coordinates coord_system="LRG_462" start="1" end="447" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>Homo sapiens mitogen-activated protein kinase kinase kinase 2 (MAP3K2), mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS46404.1" />
+            <db_xref source="RefSeq" accession="NM_006609.4" />
+            <exon source="Ensembl" accession="ENSE00001585978">
+              <coordinates coord_system="LRG_462" start="1" end="447" strand="1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000163161">
           <coordinates coord_system="LRG_462" start="5001" end="41887" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">ERCC3</symbol>
-          <long_name>excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing) (protein_coding)</long_name>
+          <long_name>excision repair cross-complementing rodent repair deficiency, complementation group 3 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="2071">
+            <synonym>BTF2</synonym>
+            <synonym>GTF2H</synonym>
+            <synonym>RAD25</synonym>
+            <synonym>TFIIH</synonym>
+            <synonym>XPB</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="3435">
             <synonym>BTF2</synonym>
             <synonym>GTF2H</synonym>
@@ -459,113 +493,59 @@
           </db_xref>
           <db_xref source="MIM" accession="133510" />
           <db_xref source="Ensembl" accession="ENSG00000163161" />
-          <transcript source="Ensembl" accession="ENST00000426778">
-            <coordinates coord_system="LRG_462" start="5032" end="41887" strand="1" mapped_from="GRCh37" />
-            <long_name>ERCC3-005 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00001712971">
-              <coordinates coord_system="LRG_462" start="5032" end="5320" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002603527">
-              <coordinates coord_system="LRG_462" start="5459" end="5664" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002483163">
-              <coordinates coord_system="LRG_462" start="6331" end="6567" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002532927">
-              <coordinates coord_system="LRG_462" start="8904" end="8953" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002524297">
-              <coordinates coord_system="LRG_462" start="9353" end="9488" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002493265">
-              <coordinates coord_system="LRG_462" start="9676" end="9840" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002489663">
-              <coordinates coord_system="LRG_462" start="10313" end="10517" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002512557">
-              <coordinates coord_system="LRG_462" start="12160" end="12474" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002448742">
-              <coordinates coord_system="LRG_462" start="18546" end="18730" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002507897">
-              <coordinates coord_system="LRG_462" start="19802" end="20004" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002532140">
-              <coordinates coord_system="LRG_462" start="26216" end="26312" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002439494">
-              <coordinates coord_system="LRG_462" start="27724" end="27841" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002438886">
-              <coordinates coord_system="LRG_462" start="37831" end="37949" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002451353">
-              <coordinates coord_system="LRG_462" start="39729" end="39881" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002534470">
-              <coordinates coord_system="LRG_462" start="41450" end="41887" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000415335">
-              <coordinates coord_system="LRG_462" start="5096" end="5311" strand="1" mapped_from="GRCh37" />
-              <long_name>excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing)</long_name>
-              <db_xref source="UniProtKB" accession="F2Z2V4" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000285398">
             <coordinates coord_system="LRG_462" start="5001" end="41887" strand="1" mapped_from="GRCh37" />
-            <long_name>ERCC3-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens excision repair cross-complementing rodent repair deficiency, complementation group 3 (ERCC3), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2144.1" />
             <db_xref source="RefSeq" accession="NM_000122.1" />
             <exon source="Ensembl" accession="ENSE00001206955">
               <coordinates coord_system="LRG_462" start="5001" end="5123" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002444927">
+            <exon source="Ensembl" accession="ENSE00003011794">
               <coordinates coord_system="LRG_462" start="5459" end="5664" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002446018">
+            <exon source="Ensembl" accession="ENSE00003034339">
               <coordinates coord_system="LRG_462" start="6331" end="6567" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002500407">
+            <exon source="Ensembl" accession="ENSE00003032262">
               <coordinates coord_system="LRG_462" start="8904" end="8953" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002458922">
+            <exon source="Ensembl" accession="ENSE00003188933">
               <coordinates coord_system="LRG_462" start="9353" end="9488" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002505836">
+            <exon source="Ensembl" accession="ENSE00003017089">
               <coordinates coord_system="LRG_462" start="9676" end="9840" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002476066">
+            <exon source="Ensembl" accession="ENSE00003064277">
               <coordinates coord_system="LRG_462" start="10313" end="10517" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002507475">
+            <exon source="Ensembl" accession="ENSE00003102229">
               <coordinates coord_system="LRG_462" start="12160" end="12474" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002444134">
+            <exon source="Ensembl" accession="ENSE00003170365">
               <coordinates coord_system="LRG_462" start="18546" end="18730" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002506786">
+            <exon source="Ensembl" accession="ENSE00003198736">
               <coordinates coord_system="LRG_462" start="19802" end="20004" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002484302">
+            <exon source="Ensembl" accession="ENSE00003009640">
               <coordinates coord_system="LRG_462" start="26216" end="26312" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002457411">
+            <exon source="Ensembl" accession="ENSE00003184610">
               <coordinates coord_system="LRG_462" start="27724" end="27841" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002503279">
+            <exon source="Ensembl" accession="ENSE00003125930">
               <coordinates coord_system="LRG_462" start="37831" end="37949" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002489305">
+            <exon source="Ensembl" accession="ENSE00003054771">
               <coordinates coord_system="LRG_462" start="39729" end="39881" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002451007">
+            <exon source="Ensembl" accession="ENSE00003165640">
               <coordinates coord_system="LRG_462" start="41450" end="41887" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000285398">
               <coordinates coord_system="LRG_462" start="5096" end="41581" strand="1" mapped_from="GRCh37" />
-              <long_name>excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing)</long_name>
+              <long_name>TFIIH basal transcription factor complex helicase XPB subunit </long_name>
               <db_xref source="RefSeq" accession="NP_000113.1" />
               <db_xref source="UniProtKB" accession="G3V1S1" />
               <db_xref source="UniProtKB" accession="P19447">
@@ -573,14 +553,111 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000491292">
-            <coordinates coord_system="LRG_462" start="36295" end="41880" strand="1" mapped_from="GRCh37" />
-            <long_name>ERCC3-006 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001929295">
-              <coordinates coord_system="LRG_462" start="36295" end="39881" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000490062">
+            <coordinates coord_system="LRG_462" start="5024" end="6742" strand="1" mapped_from="GRCh37" />
+            <long_name>ERCC3-007 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001824040">
+              <coordinates coord_system="LRG_462" start="5024" end="5123" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002529903">
-              <coordinates coord_system="LRG_462" start="41450" end="41880" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00003090480">
+              <coordinates coord_system="LRG_462" start="5459" end="5664" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001822454">
+              <coordinates coord_system="LRG_462" start="6473" end="6742" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000426778">
+            <coordinates coord_system="LRG_462" start="5032" end="41887" strand="1" mapped_from="GRCh37" />
+            <long_name>ERCC3-005 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001712971">
+              <coordinates coord_system="LRG_462" start="5032" end="5320" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003090480">
+              <coordinates coord_system="LRG_462" start="5459" end="5664" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003135407">
+              <coordinates coord_system="LRG_462" start="6331" end="6567" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003175794">
+              <coordinates coord_system="LRG_462" start="8904" end="8953" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003031873">
+              <coordinates coord_system="LRG_462" start="9353" end="9488" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003004792">
+              <coordinates coord_system="LRG_462" start="9676" end="9840" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003095142">
+              <coordinates coord_system="LRG_462" start="10313" end="10517" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003165607">
+              <coordinates coord_system="LRG_462" start="12160" end="12474" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003131381">
+              <coordinates coord_system="LRG_462" start="18546" end="18730" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003002874">
+              <coordinates coord_system="LRG_462" start="19802" end="20004" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003059707">
+              <coordinates coord_system="LRG_462" start="26216" end="26312" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003150788">
+              <coordinates coord_system="LRG_462" start="27724" end="27841" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003043109">
+              <coordinates coord_system="LRG_462" start="37831" end="37949" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003153599">
+              <coordinates coord_system="LRG_462" start="39729" end="39881" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003191613">
+              <coordinates coord_system="LRG_462" start="41450" end="41887" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000415335">
+              <coordinates coord_system="LRG_462" start="5096" end="5311" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="F2Z2V4" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000462306">
+            <coordinates coord_system="LRG_462" start="5040" end="9481" strand="1" mapped_from="GRCh37" />
+            <long_name>ERCC3-002 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001920437">
+              <coordinates coord_system="LRG_462" start="5040" end="5123" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003090480">
+              <coordinates coord_system="LRG_462" start="5459" end="5664" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001840250">
+              <coordinates coord_system="LRG_462" start="6473" end="6567" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001917339">
+              <coordinates coord_system="LRG_462" start="8904" end="9481" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000494464">
+            <coordinates coord_system="LRG_462" start="5070" end="12428" strand="1" mapped_from="GRCh37" />
+            <long_name>ERCC3-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001838536">
+              <coordinates coord_system="LRG_462" start="5070" end="5123" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003090480">
+              <coordinates coord_system="LRG_462" start="5459" end="5664" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001840250">
+              <coordinates coord_system="LRG_462" start="6473" end="6567" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003175794">
+              <coordinates coord_system="LRG_462" start="8904" end="8953" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001913369">
+              <coordinates coord_system="LRG_462" start="9353" end="9840" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003095142">
+              <coordinates coord_system="LRG_462" start="10313" end="10517" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001905870">
+              <coordinates coord_system="LRG_462" start="12160" end="12428" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000445889">
@@ -589,97 +666,104 @@
             <exon source="Ensembl" accession="ENSE00001693123">
               <coordinates coord_system="LRG_462" start="5083" end="5382" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002603527">
+            <exon source="Ensembl" accession="ENSE00003090480">
               <coordinates coord_system="LRG_462" start="5459" end="5664" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002483163">
+            <exon source="Ensembl" accession="ENSE00003135407">
               <coordinates coord_system="LRG_462" start="6331" end="6567" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002532927">
+            <exon source="Ensembl" accession="ENSE00003175794">
               <coordinates coord_system="LRG_462" start="8904" end="8953" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002524297">
+            <exon source="Ensembl" accession="ENSE00003031873">
               <coordinates coord_system="LRG_462" start="9353" end="9488" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002493265">
+            <exon source="Ensembl" accession="ENSE00003004792">
               <coordinates coord_system="LRG_462" start="9676" end="9840" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002489663">
+            <exon source="Ensembl" accession="ENSE00003095142">
               <coordinates coord_system="LRG_462" start="10313" end="10517" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002512557">
+            <exon source="Ensembl" accession="ENSE00003165607">
               <coordinates coord_system="LRG_462" start="12160" end="12474" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002448742">
+            <exon source="Ensembl" accession="ENSE00003131381">
               <coordinates coord_system="LRG_462" start="18546" end="18730" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002507897">
+            <exon source="Ensembl" accession="ENSE00003002874">
               <coordinates coord_system="LRG_462" start="19802" end="20004" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002532140">
+            <exon source="Ensembl" accession="ENSE00003059707">
               <coordinates coord_system="LRG_462" start="26216" end="26312" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002439494">
+            <exon source="Ensembl" accession="ENSE00003150788">
               <coordinates coord_system="LRG_462" start="27724" end="27841" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002438886">
+            <exon source="Ensembl" accession="ENSE00003043109">
               <coordinates coord_system="LRG_462" start="37831" end="37949" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002451353">
+            <exon source="Ensembl" accession="ENSE00003153599">
               <coordinates coord_system="LRG_462" start="39729" end="39881" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002529903">
+            <exon source="Ensembl" accession="ENSE00003099690">
               <coordinates coord_system="LRG_462" start="41450" end="41880" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000390888">
               <coordinates coord_system="LRG_462" start="5096" end="5311" strand="1" mapped_from="GRCh37" />
-              <long_name>excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing)</long_name>
               <db_xref source="UniProtKB" accession="F2Z2V4" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000494464">
-            <coordinates coord_system="LRG_462" start="5070" end="12428" strand="1" mapped_from="GRCh37" />
-            <long_name>ERCC3-003 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001838536">
-              <coordinates coord_system="LRG_462" start="5070" end="5123" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000493187">
+            <coordinates coord_system="LRG_462" start="5083" end="41880" strand="1" mapped_from="GRCh37" />
+            <long_name>ERCC3-201 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001693123">
+              <coordinates coord_system="LRG_462" start="5083" end="5382" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002603527">
+            <exon source="Ensembl" accession="ENSE00002982825">
               <coordinates coord_system="LRG_462" start="5459" end="5664" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001840250">
-              <coordinates coord_system="LRG_462" start="6473" end="6567" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00003034339">
+              <coordinates coord_system="LRG_462" start="6331" end="6567" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002532927">
+            <exon source="Ensembl" accession="ENSE00003032262">
               <coordinates coord_system="LRG_462" start="8904" end="8953" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001913369">
-              <coordinates coord_system="LRG_462" start="9353" end="9840" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002489663">
-              <coordinates coord_system="LRG_462" start="10313" end="10517" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001905870">
-              <coordinates coord_system="LRG_462" start="12160" end="12428" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000456257">
-            <coordinates coord_system="LRG_462" start="8902" end="10504" strand="1" mapped_from="GRCh37" />
-            <long_name>ERCC3-011 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001625233">
-              <coordinates coord_system="LRG_462" start="8902" end="8953" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002458922">
+            <exon source="Ensembl" accession="ENSE00003188933">
               <coordinates coord_system="LRG_462" start="9353" end="9488" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001596151">
-              <coordinates coord_system="LRG_462" start="9658" end="9840" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00003017089">
+              <coordinates coord_system="LRG_462" start="9676" end="9840" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001769751">
-              <coordinates coord_system="LRG_462" start="10313" end="10504" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00003064277">
+              <coordinates coord_system="LRG_462" start="10313" end="10517" strand="1" mapped_from="GRCh37" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000408901" codon_start="2">
-              <coordinates coord_system="LRG_462" start="8902" end="10504" strand="1" mapped_from="GRCh37" />
-              <long_name>excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing)</long_name>
+            <exon source="Ensembl" accession="ENSE00003102229">
+              <coordinates coord_system="LRG_462" start="12160" end="12474" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003170365">
+              <coordinates coord_system="LRG_462" start="18546" end="18730" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003198736">
+              <coordinates coord_system="LRG_462" start="19802" end="20004" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003009640">
+              <coordinates coord_system="LRG_462" start="26216" end="26312" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003184610">
+              <coordinates coord_system="LRG_462" start="27724" end="27841" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003125930">
+              <coordinates coord_system="LRG_462" start="37831" end="37949" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003054771">
+              <coordinates coord_system="LRG_462" start="39729" end="39881" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003056423">
+              <coordinates coord_system="LRG_462" start="41450" end="41880" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000444796">
+              <coordinates coord_system="LRG_462" start="5623" end="41581" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="G3V1S1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000460485">
@@ -692,123 +776,33 @@
               <coordinates coord_system="LRG_462" start="9353" end="9801" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000462306">
-            <coordinates coord_system="LRG_462" start="5040" end="9481" strand="1" mapped_from="GRCh37" />
-            <long_name>ERCC3-002 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001920437">
-              <coordinates coord_system="LRG_462" start="5040" end="5123" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000456257">
+            <coordinates coord_system="LRG_462" start="8902" end="10504" strand="1" mapped_from="GRCh37" />
+            <long_name>ERCC3-011 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001625233">
+              <coordinates coord_system="LRG_462" start="8902" end="8953" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002603527">
-              <coordinates coord_system="LRG_462" start="5459" end="5664" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001840250">
-              <coordinates coord_system="LRG_462" start="6473" end="6567" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001917339">
-              <coordinates coord_system="LRG_462" start="8904" end="9481" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000490062">
-            <coordinates coord_system="LRG_462" start="5024" end="6742" strand="1" mapped_from="GRCh37" />
-            <long_name>ERCC3-007 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001824040">
-              <coordinates coord_system="LRG_462" start="5024" end="5123" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002603527">
-              <coordinates coord_system="LRG_462" start="5459" end="5664" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001822454">
-              <coordinates coord_system="LRG_462" start="6473" end="6742" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000493187">
-            <coordinates coord_system="LRG_462" start="5083" end="41880" strand="1" mapped_from="GRCh37" />
-            <long_name>ERCC3-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001693123">
-              <coordinates coord_system="LRG_462" start="5083" end="5382" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002627799">
-              <coordinates coord_system="LRG_462" start="5459" end="5664" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002446018">
-              <coordinates coord_system="LRG_462" start="6331" end="6567" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002500407">
-              <coordinates coord_system="LRG_462" start="8904" end="8953" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002458922">
+            <exon source="Ensembl" accession="ENSE00003188933">
               <coordinates coord_system="LRG_462" start="9353" end="9488" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002505836">
-              <coordinates coord_system="LRG_462" start="9676" end="9840" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00001596151">
+              <coordinates coord_system="LRG_462" start="9658" end="9840" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002476066">
-              <coordinates coord_system="LRG_462" start="10313" end="10517" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00001769751">
+              <coordinates coord_system="LRG_462" start="10313" end="10504" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002507475">
-              <coordinates coord_system="LRG_462" start="12160" end="12474" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002444134">
-              <coordinates coord_system="LRG_462" start="18546" end="18730" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002506786">
-              <coordinates coord_system="LRG_462" start="19802" end="20004" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002484302">
-              <coordinates coord_system="LRG_462" start="26216" end="26312" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002457411">
-              <coordinates coord_system="LRG_462" start="27724" end="27841" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002503279">
-              <coordinates coord_system="LRG_462" start="37831" end="37949" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002489305">
-              <coordinates coord_system="LRG_462" start="39729" end="39881" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002451962">
-              <coordinates coord_system="LRG_462" start="41450" end="41880" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000444796">
-              <coordinates coord_system="LRG_462" start="5623" end="41581" strand="1" mapped_from="GRCh37" />
-              <long_name>excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing)</long_name>
-              <db_xref source="UniProtKB" accession="G3V1S1" />
+            <protein_product source="Ensembl" accession="ENSP00000408901" codon_start="2">
+              <coordinates coord_system="LRG_462" start="8902" end="10504" strand="1" mapped_from="GRCh37" />
             </protein_product>
           </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000240495">
-          <coordinates coord_system="LRG_462" start="7370" end="7618" strand="1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_ensembl_gene">AC110926.1</symbol>
-          <long_name>AC110926.1 (rRNA_pseudogene)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000240495" />
-          <transcript source="Ensembl" accession="ENST00000472369">
-            <coordinates coord_system="LRG_462" start="7370" end="7618" strand="1" mapped_from="GRCh37" />
-            <long_name>AC110926.1-201 (rRNA_pseudogene)</long_name>
-            <exon source="Ensembl" accession="ENSE00001898026">
-              <coordinates coord_system="LRG_462" start="7370" end="7618" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000491292">
+            <coordinates coord_system="LRG_462" start="36295" end="41880" strand="1" mapped_from="GRCh37" />
+            <long_name>ERCC3-006 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001929295">
+              <coordinates coord_system="LRG_462" start="36295" end="39881" strand="1" mapped_from="GRCh37" />
             </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000169967">
-          <coordinates coord_system="LRG_462" start="1" end="447" strand="1" mapped_from="GRCh37" />
-          <partial>5-prime</partial>
-          <symbol source="HGNC">MAP3K2</symbol>
-          <long_name>mitogen-activated protein kinase kinase kinase 2 (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="6854">
-            <synonym>MEKK2</synonym>
-            <synonym>MEKK2B</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="609487" />
-          <db_xref source="Ensembl" accession="ENSG00000169967" />
-          <transcript source="Ensembl" accession="ENST00000409947">
-            <coordinates coord_system="LRG_462" start="1" end="447" strand="1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>MAP3K2-001 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS46404.1" />
-            <db_xref source="RefSeq" accession="NM_006609.4" />
-            <exon source="Ensembl" accession="ENSE00001585978">
-              <coordinates coord_system="LRG_462" start="1" end="447" strand="1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
+            <exon source="Ensembl" accession="ENSE00003099690">
+              <coordinates coord_system="LRG_462" start="41450" end="41880" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
@@ -820,6 +814,13 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=ERCC3</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - ERCC3</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=ERCC3</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -81,7 +81,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="11" other_id="NC_000011.9" other_start="530242" other_end="540550">
         <mapping_span lrg_start="1" lrg_end="10309" other_start="530242" other_end="540550" strand="-1" />
       </mapping>
@@ -100,7 +100,7 @@
       <comment>Annotation from NG_007666.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_506" start="5001" end="5135" />
             <label>1</label>
@@ -252,8 +252,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000311189.7" other_name="ENST00000311189.7" other_id="ENST00000311189.7" other_start="1" other_end="894">
         <mapping_span lrg_start="5017" lrg_end="5135" other_start="1" other_end="119" strand="1" />
         <mapping_span lrg_start="6176" lrg_end="6339" other_start="120" other_end="283" strand="1" />
@@ -326,10 +326,50 @@
         <mapping_span lrg_start="8029" lrg_end="8309" other_start="834" other_end="1114" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000161328">
+          <coordinates coord_system="LRG_506" start="1" end="3024" strand="-1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <symbol source="HGNC">LRRC56</symbol>
+          <long_name>leucine rich repeat containing 56 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="115399" />
+          <db_xref source="HGNC" accession="25430">
+            <synonym>DKFZp761L1518</synonym>
+            <synonym>FLJ00101</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000161328" />
+          <transcript source="Ensembl" accession="ENST00000270115">
+            <coordinates coord_system="LRG_506" start="1" end="3024" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>Homo sapiens leucine rich repeat containing 56 (LRRC56), mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7700.1" />
+            <db_xref source="RefSeq" accession="NM_198075.3" />
+            <exon source="Ensembl" accession="ENSE00001851920">
+              <coordinates coord_system="LRG_506" start="2946" end="3024" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001529341">
+              <coordinates coord_system="LRG_506" start="1691" end="1953" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001419200">
+              <coordinates coord_system="LRG_506" start="825" end="971" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000174775">
           <coordinates coord_system="LRG_506" start="3264" end="8309" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">HRAS</symbol>
           <long_name>v-Ha-ras Harvey rat sarcoma viral oncogene homolog (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="3265">
+            <synonym>C-BAS/HAS</synonym>
+            <synonym>C-H-RAS</synonym>
+            <synonym>C-HA-RAS1</synonym>
+            <synonym>CTLO</synonym>
+            <synonym>H-RASIDX</synonym>
+            <synonym>HAMSV</synonym>
+            <synonym>HRAS1</synonym>
+            <synonym>K-RAS</synonym>
+            <synonym>N-RAS</synonym>
+            <synonym>RASH1</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="5173">
             <synonym>HRAS1</synonym>
           </db_xref>
@@ -337,47 +377,46 @@
             <synonym>310990</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000174775" />
-          <transcript source="Ensembl" accession="ENST00000478324">
-            <coordinates coord_system="LRG_506" start="6939" end="8309" strand="1" mapped_from="GRCh37" />
-            <long_name>HRAS-007 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001871568">
-              <coordinates coord_system="LRG_506" start="6939" end="7098" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000468682">
+            <coordinates coord_system="LRG_506" start="3264" end="6756" strand="1" mapped_from="GRCh37" />
+            <long_name>HRAS-003 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001893142">
+              <coordinates coord_system="LRG_506" start="3264" end="3698" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001869706">
-              <coordinates coord_system="LRG_506" start="7193" end="7274" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00002997504">
+              <coordinates coord_system="LRG_506" start="6176" end="6339" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001824935">
-              <coordinates coord_system="LRG_506" start="7921" end="8309" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00001935028">
+              <coordinates coord_system="LRG_506" start="6607" end="6756" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000397594">
-            <coordinates coord_system="LRG_506" start="6176" end="8309" strand="1" mapped_from="GRCh37" />
-            <long_name>HRAS-004 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS7699.1" />
-            <db_xref source="RefSeq" accession="NM_176795.3" />
-            <exon source="Ensembl" accession="ENSE00002589969">
+          <transcript source="Ensembl" accession="ENST00000451590">
+            <coordinates coord_system="LRG_506" start="5001" end="8308" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens v-Ha-ras Harvey rat sarcoma viral oncogene homolog (HRAS), transcript variant 3, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7698.1" />
+            <db_xref source="RefSeq" accession="NM_001130442.1" />
+            <exon source="Ensembl" accession="ENSE00001404981">
+              <coordinates coord_system="LRG_506" start="5001" end="5135" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003064259">
               <coordinates coord_system="LRG_506" start="6176" end="6339" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001728710">
               <coordinates coord_system="LRG_506" start="6607" end="6785" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001206466">
+            <exon source="Ensembl" accession="ENSE00003120772">
               <coordinates coord_system="LRG_506" start="6939" end="7098" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001206493">
-              <coordinates coord_system="LRG_506" start="7193" end="7274" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00003152800">
+              <coordinates coord_system="LRG_506" start="7796" end="8308" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001703327">
-              <coordinates coord_system="LRG_506" start="7796" end="8309" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000380722">
-              <coordinates coord_system="LRG_506" start="6229" end="7255" strand="1" mapped_from="GRCh37" />
-              <long_name>v-Ha-ras Harvey rat sarcoma viral oncogene homolog</long_name>
-              <db_xref source="RefSeq" accession="NP_789765.1" />
-              <db_xref source="UniProtKB" accession="Q9UM97" />
-              <db_xref source="UniProtKB" accession="Q71SP6" />
+            <protein_product source="Ensembl" accession="ENSP00000407586">
+              <coordinates coord_system="LRG_506" start="6229" end="7915" strand="1" mapped_from="GRCh37" />
+              <long_name>GTPase HRas isoform 1 </long_name>
+              <db_xref source="RefSeq" accession="NP_001123914.1" />
               <db_xref source="UniProtKB" accession="P78460" />
-              <db_xref source="UniProtKB" accession="E5FF39" />
+              <db_xref source="UniProtKB" accession="Q71SP6" />
+              <db_xref source="UniProtKB" accession="Q9UM97" />
               <db_xref source="UniProtKB" accession="P01112">
                 <synonym>B5BUA0</synonym>
                 <synonym>Q14080</synonym>
@@ -387,36 +426,36 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000397596">
-            <coordinates coord_system="LRG_506" start="5212" end="8309" strand="1" mapped_from="GRCh37" />
-            <long_name>HRAS-009 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS7698.1" />
-            <db_xref source="RefSeq" accession="NM_001130442.1" />
-            <db_xref source="RefSeq" accession="NM_005343.2" />
-            <exon source="Ensembl" accession="ENSE00001529352">
-              <coordinates coord_system="LRG_506" start="5212" end="5294" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000417302">
+            <coordinates coord_system="LRG_506" start="5001" end="8308" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens v-Ha-ras Harvey rat sarcoma viral oncogene homolog (HRAS), transcript variant 2, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7699.1" />
+            <db_xref source="RefSeq" accession="NM_176795.3" />
+            <exon source="Ensembl" accession="ENSE00001404981">
+              <coordinates coord_system="LRG_506" start="5001" end="5135" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002589969">
+            <exon source="Ensembl" accession="ENSE00003064259">
               <coordinates coord_system="LRG_506" start="6176" end="6339" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001728710">
               <coordinates coord_system="LRG_506" start="6607" end="6785" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001206466">
+            <exon source="Ensembl" accession="ENSE00003120772">
               <coordinates coord_system="LRG_506" start="6939" end="7098" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001628271">
-              <coordinates coord_system="LRG_506" start="7796" end="8309" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00003082799">
+              <coordinates coord_system="LRG_506" start="7193" end="7274" strand="1" mapped_from="GRCh37" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000380723">
-              <coordinates coord_system="LRG_506" start="6229" end="7915" strand="1" mapped_from="GRCh37" />
-              <long_name>v-Ha-ras Harvey rat sarcoma viral oncogene homolog</long_name>
-              <db_xref source="RefSeq" accession="NP_001123914.1" />
-              <db_xref source="RefSeq" accession="NP_005334.1" />
-              <db_xref source="UniProtKB" accession="Q9UM97" />
-              <db_xref source="UniProtKB" accession="Q71SP6" />
+            <exon source="Ensembl" accession="ENSE00003127607">
+              <coordinates coord_system="LRG_506" start="7796" end="8308" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000388246">
+              <coordinates coord_system="LRG_506" start="6229" end="7255" strand="1" mapped_from="GRCh37" />
+              <long_name>GTPase HRas isoform 2 </long_name>
+              <db_xref source="RefSeq" accession="NP_789765.1" />
               <db_xref source="UniProtKB" accession="P78460" />
-              <db_xref source="UniProtKB" accession="E5FF39" />
+              <db_xref source="UniProtKB" accession="Q71SP6" />
+              <db_xref source="UniProtKB" accession="Q9UM97" />
               <db_xref source="UniProtKB" accession="P01112">
                 <synonym>B5BUA0</synonym>
                 <synonym>Q14080</synonym>
@@ -430,23 +469,22 @@
             <coordinates coord_system="LRG_506" start="5013" end="8309" strand="1" mapped_from="GRCh37" />
             <long_name>HRAS-001 (nonsense_mediated_decay)</long_name>
             <db_xref source="CCDS" accession="CCDS7699.1" />
-            <db_xref source="RefSeq" accession="NM_176795.3" />
             <exon source="Ensembl" accession="ENSE00001626661">
               <coordinates coord_system="LRG_506" start="5013" end="5135" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002589969">
+            <exon source="Ensembl" accession="ENSE00003064259">
               <coordinates coord_system="LRG_506" start="6176" end="6339" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001728710">
               <coordinates coord_system="LRG_506" start="6607" end="6785" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001206466">
+            <exon source="Ensembl" accession="ENSE00003120772">
               <coordinates coord_system="LRG_506" start="6939" end="7098" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001206493">
+            <exon source="Ensembl" accession="ENSE00003082799">
               <coordinates coord_system="LRG_506" start="7193" end="7274" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001795306">
+            <exon source="Ensembl" accession="ENSE00003105646">
               <coordinates coord_system="LRG_506" start="7796" end="7920" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001529354">
@@ -454,12 +492,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000434023">
               <coordinates coord_system="LRG_506" start="6229" end="7255" strand="1" mapped_from="GRCh37" />
-              <long_name>v-Ha-ras Harvey rat sarcoma viral oncogene homolog</long_name>
-              <db_xref source="RefSeq" accession="NP_789765.1" />
-              <db_xref source="UniProtKB" accession="Q9UM97" />
-              <db_xref source="UniProtKB" accession="Q71SP6" />
               <db_xref source="UniProtKB" accession="P78460" />
-              <db_xref source="UniProtKB" accession="E5FF39" />
+              <db_xref source="UniProtKB" accession="Q71SP6" />
+              <db_xref source="UniProtKB" accession="Q9UM97" />
               <db_xref source="UniProtKB" accession="P01112">
                 <synonym>B5BUA0</synonym>
                 <synonym>Q14080</synonym>
@@ -469,41 +504,24 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000462734">
-            <coordinates coord_system="LRG_506" start="6956" end="8305" strand="1" mapped_from="GRCh37" />
-            <long_name>HRAS-005 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001909804">
-              <coordinates coord_system="LRG_506" start="6956" end="7098" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001869706">
-              <coordinates coord_system="LRG_506" start="7193" end="7274" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001795306">
-              <coordinates coord_system="LRG_506" start="7796" end="7920" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001857933">
-              <coordinates coord_system="LRG_506" start="8029" end="8305" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000311189">
             <coordinates coord_system="LRG_506" start="5017" end="8175" strand="1" mapped_from="GRCh37" />
-            <long_name>HRAS-002 (protein_coding)</long_name>
+            <long_name>Homo sapiens v-Ha-ras Harvey rat sarcoma viral oncogene homolog (HRAS), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS7698.1" />
-            <db_xref source="RefSeq" accession="NM_001130442.1" />
             <db_xref source="RefSeq" accession="NM_005343.2" />
             <exon source="Ensembl" accession="ENSE00001503789">
               <coordinates coord_system="LRG_506" start="5017" end="5135" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002589969">
+            <exon source="Ensembl" accession="ENSE00003064259">
               <coordinates coord_system="LRG_506" start="6176" end="6339" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001728710">
               <coordinates coord_system="LRG_506" start="6607" end="6785" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001206466">
+            <exon source="Ensembl" accession="ENSE00003120772">
               <coordinates coord_system="LRG_506" start="6939" end="7098" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001762405">
+            <exon source="Ensembl" accession="ENSE00003085692">
               <coordinates coord_system="LRG_506" start="7796" end="7920" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001206464">
@@ -511,13 +529,87 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000309845">
               <coordinates coord_system="LRG_506" start="6229" end="7915" strand="1" mapped_from="GRCh37" />
-              <long_name>v-Ha-ras Harvey rat sarcoma viral oncogene homolog</long_name>
-              <db_xref source="RefSeq" accession="NP_001123914.1" />
+              <long_name>GTPase HRas isoform 1 </long_name>
               <db_xref source="RefSeq" accession="NP_005334.1" />
-              <db_xref source="UniProtKB" accession="Q9UM97" />
-              <db_xref source="UniProtKB" accession="Q71SP6" />
               <db_xref source="UniProtKB" accession="P78460" />
-              <db_xref source="UniProtKB" accession="E5FF39" />
+              <db_xref source="UniProtKB" accession="Q71SP6" />
+              <db_xref source="UniProtKB" accession="Q9UM97" />
+              <db_xref source="UniProtKB" accession="P01112">
+                <synonym>B5BUA0</synonym>
+                <synonym>Q14080</synonym>
+                <synonym>Q6FHV9</synonym>
+                <synonym>Q9BR65</synonym>
+                <synonym>Q9UCE2</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000397596">
+            <coordinates coord_system="LRG_506" start="5212" end="8309" strand="1" mapped_from="GRCh37" />
+            <long_name>HRAS-009 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7698.1" />
+            <exon source="Ensembl" accession="ENSE00001529352">
+              <coordinates coord_system="LRG_506" start="5212" end="5294" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003064259">
+              <coordinates coord_system="LRG_506" start="6176" end="6339" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001728710">
+              <coordinates coord_system="LRG_506" start="6607" end="6785" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003120772">
+              <coordinates coord_system="LRG_506" start="6939" end="7098" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003167873">
+              <coordinates coord_system="LRG_506" start="7796" end="8309" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000380723">
+              <coordinates coord_system="LRG_506" start="6229" end="7915" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="P78460" />
+              <db_xref source="UniProtKB" accession="Q71SP6" />
+              <db_xref source="UniProtKB" accession="Q9UM97" />
+              <db_xref source="UniProtKB" accession="P01112">
+                <synonym>B5BUA0</synonym>
+                <synonym>Q14080</synonym>
+                <synonym>Q6FHV9</synonym>
+                <synonym>Q9BR65</synonym>
+                <synonym>Q9UCE2</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000482021">
+            <coordinates coord_system="LRG_506" start="5964" end="6272" strand="1" mapped_from="GRCh37" />
+            <long_name>HRAS-010 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001899365">
+              <coordinates coord_system="LRG_506" start="5964" end="6033" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001868274">
+              <coordinates coord_system="LRG_506" start="6176" end="6272" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000397594">
+            <coordinates coord_system="LRG_506" start="6176" end="8309" strand="1" mapped_from="GRCh37" />
+            <long_name>HRAS-004 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7699.1" />
+            <exon source="Ensembl" accession="ENSE00003064259">
+              <coordinates coord_system="LRG_506" start="6176" end="6339" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001728710">
+              <coordinates coord_system="LRG_506" start="6607" end="6785" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003120772">
+              <coordinates coord_system="LRG_506" start="6939" end="7098" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003082799">
+              <coordinates coord_system="LRG_506" start="7193" end="7274" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003038178">
+              <coordinates coord_system="LRG_506" start="7796" end="8309" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000380722">
+              <coordinates coord_system="LRG_506" start="6229" end="7255" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="P78460" />
+              <db_xref source="UniProtKB" accession="Q71SP6" />
+              <db_xref source="UniProtKB" accession="Q9UM97" />
               <db_xref source="UniProtKB" accession="P01112">
                 <synonym>B5BUA0</synonym>
                 <synonym>Q14080</synonym>
@@ -533,140 +625,40 @@
             <exon source="Ensembl" accession="ENSE00001845086">
               <coordinates coord_system="LRG_506" start="6575" end="6785" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001871568">
+            <exon source="Ensembl" accession="ENSE00003003718">
               <coordinates coord_system="LRG_506" start="6939" end="7098" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001816900">
               <coordinates coord_system="LRG_506" start="7796" end="7909" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000468682">
-            <coordinates coord_system="LRG_506" start="3264" end="6756" strand="1" mapped_from="GRCh37" />
-            <long_name>HRAS-003 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001893142">
-              <coordinates coord_system="LRG_506" start="3264" end="3698" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002611859">
-              <coordinates coord_system="LRG_506" start="6176" end="6339" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001935028">
-              <coordinates coord_system="LRG_506" start="6607" end="6756" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000482021">
-            <coordinates coord_system="LRG_506" start="5964" end="6272" strand="1" mapped_from="GRCh37" />
-            <long_name>HRAS-010 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001899365">
-              <coordinates coord_system="LRG_506" start="5964" end="6033" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001868274">
-              <coordinates coord_system="LRG_506" start="6176" end="6272" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000451590">
-            <coordinates coord_system="LRG_506" start="5001" end="8308" strand="1" mapped_from="GRCh37" />
-            <long_name>HRAS-202 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS7698.1" />
-            <db_xref source="RefSeq" accession="NM_001130442.1" />
-            <db_xref source="RefSeq" accession="NM_005343.2" />
-            <exon source="Ensembl" accession="ENSE00001404981">
-              <coordinates coord_system="LRG_506" start="5001" end="5135" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002589969">
-              <coordinates coord_system="LRG_506" start="6176" end="6339" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001728710">
-              <coordinates coord_system="LRG_506" start="6607" end="6785" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001206466">
+          <transcript source="Ensembl" accession="ENST00000478324">
+            <coordinates coord_system="LRG_506" start="6939" end="8309" strand="1" mapped_from="GRCh37" />
+            <long_name>HRAS-007 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003003718">
               <coordinates coord_system="LRG_506" start="6939" end="7098" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001783744">
-              <coordinates coord_system="LRG_506" start="7796" end="8308" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000407586">
-              <coordinates coord_system="LRG_506" start="6229" end="7915" strand="1" mapped_from="GRCh37" />
-              <long_name>v-Ha-ras Harvey rat sarcoma viral oncogene homolog</long_name>
-              <db_xref source="RefSeq" accession="NP_001123914.1" />
-              <db_xref source="RefSeq" accession="NP_005334.1" />
-              <db_xref source="UniProtKB" accession="Q9UM97" />
-              <db_xref source="UniProtKB" accession="Q71SP6" />
-              <db_xref source="UniProtKB" accession="P78460" />
-              <db_xref source="UniProtKB" accession="E5FF39" />
-              <db_xref source="UniProtKB" accession="P01112">
-                <synonym>B5BUA0</synonym>
-                <synonym>Q14080</synonym>
-                <synonym>Q6FHV9</synonym>
-                <synonym>Q9BR65</synonym>
-                <synonym>Q9UCE2</synonym>
-              </db_xref>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000417302">
-            <coordinates coord_system="LRG_506" start="5001" end="8308" strand="1" mapped_from="GRCh37" />
-            <long_name>HRAS-201 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS7699.1" />
-            <db_xref source="RefSeq" accession="NM_176795.3" />
-            <exon source="Ensembl" accession="ENSE00001404981">
-              <coordinates coord_system="LRG_506" start="5001" end="5135" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002589969">
-              <coordinates coord_system="LRG_506" start="6176" end="6339" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001728710">
-              <coordinates coord_system="LRG_506" start="6607" end="6785" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001206466">
-              <coordinates coord_system="LRG_506" start="6939" end="7098" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001206493">
+            <exon source="Ensembl" accession="ENSE00003015209">
               <coordinates coord_system="LRG_506" start="7193" end="7274" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001644261">
-              <coordinates coord_system="LRG_506" start="7796" end="8308" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00001824935">
+              <coordinates coord_system="LRG_506" start="7921" end="8309" strand="1" mapped_from="GRCh37" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000388246">
-              <coordinates coord_system="LRG_506" start="6229" end="7255" strand="1" mapped_from="GRCh37" />
-              <long_name>v-Ha-ras Harvey rat sarcoma viral oncogene homolog</long_name>
-              <db_xref source="RefSeq" accession="NP_789765.1" />
-              <db_xref source="UniProtKB" accession="Q9UM97" />
-              <db_xref source="UniProtKB" accession="Q71SP6" />
-              <db_xref source="UniProtKB" accession="P78460" />
-              <db_xref source="UniProtKB" accession="E5FF39" />
-              <db_xref source="UniProtKB" accession="P01112">
-                <synonym>B5BUA0</synonym>
-                <synonym>Q14080</synonym>
-                <synonym>Q6FHV9</synonym>
-                <synonym>Q9BR65</synonym>
-                <synonym>Q9UCE2</synonym>
-              </db_xref>
-            </protein_product>
           </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000161328">
-          <coordinates coord_system="LRG_506" start="1" end="3024" strand="-1" mapped_from="GRCh37" />
-          <partial>3-prime</partial>
-          <symbol source="HGNC">LRRC56</symbol>
-          <long_name>leucine rich repeat containing 56 (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="25430">
-            <synonym>DKFZp761L1518</synonym>
-            <synonym>FLJ00101</synonym>
-          </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000161328" />
-          <transcript source="Ensembl" accession="ENST00000270115">
-            <coordinates coord_system="LRG_506" start="1" end="3024" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>LRRC56-001 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS7700.1" />
-            <db_xref source="RefSeq" accession="NM_198075.3" />
-            <exon source="Ensembl" accession="ENSE00001851920">
-              <coordinates coord_system="LRG_506" start="2946" end="3024" strand="-1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000462734">
+            <coordinates coord_system="LRG_506" start="6956" end="8305" strand="1" mapped_from="GRCh37" />
+            <long_name>HRAS-005 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001909804">
+              <coordinates coord_system="LRG_506" start="6956" end="7098" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001529341">
-              <coordinates coord_system="LRG_506" start="1691" end="1953" strand="-1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00003015209">
+              <coordinates coord_system="LRG_506" start="7193" end="7274" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001419200">
-              <coordinates coord_system="LRG_506" start="825" end="971" strand="-1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00003105646">
+              <coordinates coord_system="LRG_506" start="7796" end="7920" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001857933">
+              <coordinates coord_system="LRG_506" start="8029" end="8305" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
@@ -676,8 +668,27 @@
       <source>
         <name>HRAS homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=HRAS</url>
+        <contact>
+          <name>Curator vacancy</name>
+          <address>?</address>
+          <email>j.celli@lumc.nl</email>
+        </contact>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>LOVD 3.0 shared installation - HRAS</name>
+        <url>http://databases.lovd.nl/shared/genes/HRAS</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>PCaMDB : A mutation database for prostate cancer - HRAS</name>
+        <url>http://sysbio.org.cn/home.php?select_db=HRAS</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

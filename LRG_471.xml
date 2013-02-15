@@ -92,7 +92,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="9" other_id="NC_000009.11" other_start="100435191" other_end="100464691">
         <mapping_span lrg_start="1" lrg_end="29501" other_start="100435191" other_end="100464691" strand="-1" />
       </mapping>
@@ -111,7 +111,7 @@
       <comment>Annotation from NG_011642.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_471" start="5001" end="5289" />
             <label>1</label>
@@ -245,8 +245,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000375128.4" other_name="ENST00000375128.4" other_id="ENST00000375128.4" other_start="1" other_end="1417">
         <mapping_span lrg_start="5053" lrg_end="5289" other_start="1" other_end="237" strand="1" />
         <mapping_span lrg_start="8651" lrg_end="8761" other_start="238" other_end="348" strand="1" />
@@ -275,11 +275,152 @@
         <mapping_span lrg_start="17370" lrg_end="17449" other_start="350" other_end="429" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000214417">
+          <coordinates coord_system="LRG_471" start="1676" end="3443" strand="-1" mapped_from="GRCh37" />
+          <symbol source="HGNC">KRT18P13</symbol>
+          <long_name>keratin 18 pseudogene 13 (pseudogene)</long_name>
+          <db_xref source="HGNC" accession="6432">
+            <synonym>KRT18L3</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000214417" />
+          <transcript source="Ensembl" accession="ENST00000400056">
+            <coordinates coord_system="LRG_471" start="1676" end="3443" strand="-1" mapped_from="GRCh37" />
+            <long_name>KRT18P13-001 (processed_pseudogene)</long_name>
+            <exon source="Ensembl" accession="ENSE00001543515">
+              <coordinates coord_system="LRG_471" start="2857" end="3443" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001541347">
+              <coordinates coord_system="LRG_471" start="1676" end="2284" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000266608">
+          <coordinates coord_system="LRG_471" start="2085" end="2176" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_ensembl_gene">AL445531.1</symbol>
+          <long_name>AL445531.1 (miRNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000266608" />
+          <transcript source="Ensembl" accession="ENST00000582499">
+            <coordinates coord_system="LRG_471" start="2085" end="2176" strand="-1" mapped_from="GRCh37" />
+            <long_name>AL445531.1-201 (miRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00002696009">
+              <coordinates coord_system="LRG_471" start="2085" end="2176" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000136936">
+          <coordinates coord_system="LRG_471" start="5053" end="27501" strand="1" mapped_from="GRCh37" />
+          <symbol source="HGNC">XPA</symbol>
+          <long_name>xeroderma pigmentosum, complementation group A (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="7507">
+            <synonym>XP1</synonym>
+            <synonym>XPAC</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="12814">
+            <synonym>XP1</synonym>
+            <synonym>XPAC</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="611153" />
+          <db_xref source="Ensembl" accession="ENSG00000136936" />
+          <transcript source="Ensembl" accession="ENST00000375128">
+            <coordinates coord_system="LRG_471" start="5053" end="27501" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens xeroderma pigmentosum, complementation group A (XPA), transcript variant 1, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS6729.1" />
+            <db_xref source="RefSeq" accession="NM_000380.3" />
+            <exon source="Ensembl" accession="ENSE00001465835">
+              <coordinates coord_system="LRG_471" start="5053" end="5289" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003170063">
+              <coordinates coord_system="LRG_471" start="8651" end="8761" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000805601">
+              <coordinates coord_system="LRG_471" start="12771" end="12876" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003203696">
+              <coordinates coord_system="LRG_471" start="15149" end="15314" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000805603">
+              <coordinates coord_system="LRG_471" start="17370" end="17487" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003083368">
+              <coordinates coord_system="LRG_471" start="26823" end="27501" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000364270">
+              <coordinates coord_system="LRG_471" start="5118" end="26971" strand="1" mapped_from="GRCh37" />
+              <long_name>DNA repair protein complementing XP-A cells </long_name>
+              <db_xref source="RefSeq" accession="NP_000371.1" />
+              <db_xref source="UniProtKB" accession="P23025">
+                <synonym>Q5T1U9</synonym>
+                <synonym>Q6LCW7</synonym>
+                <synonym>Q6LD02</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000496104">
+            <coordinates coord_system="LRG_471" start="5115" end="17449" strand="1" mapped_from="GRCh37" />
+            <long_name>XPA-002 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001956062">
+              <coordinates coord_system="LRG_471" start="5115" end="5186" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003015650">
+              <coordinates coord_system="LRG_471" start="8651" end="8761" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003131554">
+              <coordinates coord_system="LRG_471" start="15149" end="15314" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001851586">
+              <coordinates coord_system="LRG_471" start="17370" end="17449" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000462523">
+            <coordinates coord_system="LRG_471" start="5117" end="27501" strand="1" mapped_from="GRCh37" />
+            <long_name>XPA-003 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001890705">
+              <coordinates coord_system="LRG_471" start="5117" end="5289" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003170063">
+              <coordinates coord_system="LRG_471" start="8651" end="8761" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000805601">
+              <coordinates coord_system="LRG_471" start="12771" end="12876" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003203696">
+              <coordinates coord_system="LRG_471" start="15149" end="15314" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000805603">
+              <coordinates coord_system="LRG_471" start="17370" end="17487" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001947790">
+              <coordinates coord_system="LRG_471" start="19980" end="20210" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003207232">
+              <coordinates coord_system="LRG_471" start="26823" end="27501" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000433006">
+              <coordinates coord_system="LRG_471" start="5118" end="20101" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="F2Z2T2" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000485042">
+            <coordinates coord_system="LRG_471" start="26455" end="27343" strand="1" mapped_from="GRCh37" />
+            <long_name>XPA-004 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001908249">
+              <coordinates coord_system="LRG_471" start="26455" end="26639" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001935190">
+              <coordinates coord_system="LRG_471" start="26823" end="27343" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000136937">
           <coordinates coord_system="LRG_471" start="28662" end="29501" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <symbol source="HGNC">NCBP1</symbol>
           <long_name>nuclear cap binding protein subunit 1, 80kDa (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="4686">
+            <synonym>CBP80</synonym>
+            <synonym>NCBP</synonym>
+            <synonym>Sto1</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="7658">
             <synonym>CBP80</synonym>
             <synonym>NCBP</synonym>
@@ -290,7 +431,7 @@
           <transcript source="Ensembl" accession="ENST00000375147">
             <coordinates coord_system="LRG_471" start="28662" end="29501" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>NCBP1-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens nuclear cap binding protein subunit 1, 80kDa (NCBP1), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS6728.1" />
             <db_xref source="RefSeq" accession="NM_002486.4" />
             <exon source="Ensembl" accession="ENSE00001465914">
@@ -307,107 +448,6 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000136936">
-          <coordinates coord_system="LRG_471" start="5053" end="27501" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">XPA</symbol>
-          <long_name>xeroderma pigmentosum, complementation group A (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="12814">
-            <synonym>XP1</synonym>
-            <synonym>XPAC</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="611153" />
-          <db_xref source="Ensembl" accession="ENSG00000136936" />
-          <transcript source="Ensembl" accession="ENST00000462523">
-            <coordinates coord_system="LRG_471" start="5117" end="27501" strand="1" mapped_from="GRCh37" />
-            <long_name>XPA-003 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00001890705">
-              <coordinates coord_system="LRG_471" start="5117" end="5289" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000805600">
-              <coordinates coord_system="LRG_471" start="8651" end="8761" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000805601">
-              <coordinates coord_system="LRG_471" start="12771" end="12876" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000805602">
-              <coordinates coord_system="LRG_471" start="15149" end="15314" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000805603">
-              <coordinates coord_system="LRG_471" start="17370" end="17487" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001947790">
-              <coordinates coord_system="LRG_471" start="19980" end="20210" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001897202">
-              <coordinates coord_system="LRG_471" start="26823" end="27501" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000433006">
-              <coordinates coord_system="LRG_471" start="5118" end="20101" strand="1" mapped_from="GRCh37" />
-              <long_name>xeroderma pigmentosum, complementation group A</long_name>
-              <db_xref source="UniProtKB" accession="F2Z2T2" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000375128">
-            <coordinates coord_system="LRG_471" start="5053" end="27501" strand="1" mapped_from="GRCh37" />
-            <long_name>XPA-001 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS6729.1" />
-            <db_xref source="RefSeq" accession="NM_000380.3" />
-            <exon source="Ensembl" accession="ENSE00001465835">
-              <coordinates coord_system="LRG_471" start="5053" end="5289" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000805600">
-              <coordinates coord_system="LRG_471" start="8651" end="8761" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000805601">
-              <coordinates coord_system="LRG_471" start="12771" end="12876" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000805602">
-              <coordinates coord_system="LRG_471" start="15149" end="15314" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000805603">
-              <coordinates coord_system="LRG_471" start="17370" end="17487" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001846881">
-              <coordinates coord_system="LRG_471" start="26823" end="27501" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000364270">
-              <coordinates coord_system="LRG_471" start="5118" end="26971" strand="1" mapped_from="GRCh37" />
-              <long_name>xeroderma pigmentosum, complementation group A</long_name>
-              <db_xref source="RefSeq" accession="NP_000371.1" />
-              <db_xref source="UniProtKB" accession="P23025">
-                <synonym>Q5T1U9</synonym>
-                <synonym>Q6LCW7</synonym>
-                <synonym>Q6LD02</synonym>
-              </db_xref>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000485042">
-            <coordinates coord_system="LRG_471" start="26455" end="27343" strand="1" mapped_from="GRCh37" />
-            <long_name>XPA-004 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001908249">
-              <coordinates coord_system="LRG_471" start="26455" end="26639" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001935190">
-              <coordinates coord_system="LRG_471" start="26823" end="27343" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000496104">
-            <coordinates coord_system="LRG_471" start="5115" end="17449" strand="1" mapped_from="GRCh37" />
-            <long_name>XPA-002 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001956062">
-              <coordinates coord_system="LRG_471" start="5115" end="5186" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001902915">
-              <coordinates coord_system="LRG_471" start="8651" end="8761" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001814798">
-              <coordinates coord_system="LRG_471" start="15149" end="15314" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001851586">
-              <coordinates coord_system="LRG_471" start="17370" end="17449" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-        </gene>
       </features>
     </annotation_set>
     <annotation_set>
@@ -416,6 +456,13 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=XPA</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - XPA</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=XPA</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

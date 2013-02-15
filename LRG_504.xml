@@ -109,7 +109,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="1" other_id="NC_000001.10" other_start="241658903" other_end="241688054">
         <mapping_span lrg_start="1" lrg_end="29152" other_start="241658903" other_end="241688054" strand="-1" />
       </mapping>
@@ -128,7 +128,7 @@
       <comment>Annotation from NG_012338.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_504" start="4970" end="5164" />
             <label>1</label>
@@ -255,8 +255,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000366560.3" other_name="ENST00000366560.3" other_id="ENST00000366560.3" other_start="1" other_end="1797">
         <mapping_span lrg_start="4994" lrg_end="5164" other_start="1" other_end="171" strand="1" />
         <mapping_span lrg_start="7439" lrg_end="7573" other_start="172" other_end="306" strand="1" />
@@ -283,6 +283,12 @@
           <coordinates coord_system="LRG_504" start="4994" end="27152" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">FH</symbol>
           <long_name>fumarate hydratase (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="2271">
+            <synonym>HLRCC</synonym>
+            <synonym>LRCC</synonym>
+            <synonym>MCL</synonym>
+            <synonym>MCUL1</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="3700">
             <synonym>fumarase</synonym>
           </db_xref>
@@ -290,13 +296,13 @@
           <db_xref source="Ensembl" accession="ENSG00000091483" />
           <transcript source="Ensembl" accession="ENST00000366560">
             <coordinates coord_system="LRG_504" start="4994" end="27152" strand="1" mapped_from="GRCh37" />
-            <long_name>FH-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens fumarate hydratase (FH), nuclear gene encoding mitochondrial protein, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS1617.1" />
             <db_xref source="RefSeq" accession="NM_000143.3" />
             <exon source="Ensembl" accession="ENSE00001442032">
               <coordinates coord_system="LRG_504" start="4994" end="5164" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002366858">
+            <exon source="Ensembl" accession="ENSE00003005324">
               <coordinates coord_system="LRG_504" start="7439" end="7573" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000961688">
@@ -325,11 +331,24 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000355518">
               <coordinates coord_system="LRG_504" start="5033" end="26927" strand="1" mapped_from="GRCh37" />
-              <long_name>fumarate hydratase</long_name>
+              <long_name>fumarate hydratase, mitochondrial </long_name>
               <db_xref source="RefSeq" accession="NP_000134.2" />
               <db_xref source="UniProtKB" accession="B1ANK7" />
               <db_xref source="UniProtKB" accession="P07954" />
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000493477">
+            <coordinates coord_system="LRG_504" start="5451" end="11075" strand="1" mapped_from="GRCh37" />
+            <long_name>FH-003 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001856796">
+              <coordinates coord_system="LRG_504" start="5451" end="5695" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003062512">
+              <coordinates coord_system="LRG_504" start="7439" end="7573" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001873765">
+              <coordinates coord_system="LRG_504" start="11042" end="11075" strand="1" mapped_from="GRCh37" />
+            </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000497042">
             <coordinates coord_system="LRG_504" start="11079" end="12888" strand="1" mapped_from="GRCh37" />
@@ -341,21 +360,29 @@
               <coordinates coord_system="LRG_504" start="12612" end="12888" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000493477">
-            <coordinates coord_system="LRG_504" start="5451" end="11075" strand="1" mapped_from="GRCh37" />
-            <long_name>FH-003 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001856796">
-              <coordinates coord_system="LRG_504" start="5451" end="5695" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002325406">
-              <coordinates coord_system="LRG_504" start="7439" end="7573" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001873765">
-              <coordinates coord_system="LRG_504" start="11042" end="11075" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
         </gene>
       </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>TCA Cycle Gene Mutation Database - FH</name>
+        <url>http://chromium.liacs.nl/LOVD2/SDH/home.php?select_db=FH</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Zhejiang University Center for Genetic and Genomic Medicine (ZJU-CGGM) - FH</name>
+        <url>http://databases.lovd.nl/genomed/home.php?select_db=FH</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>ZJU-CGGM &amp; BGI-Shenzhen - FH</name>
+        <url>http://www.genomed.org/LOVD/CM/home.php?select_db=FH</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

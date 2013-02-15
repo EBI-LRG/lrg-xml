@@ -10,7 +10,7 @@
       <name></name>
       <contact>
         <name>Johan den Dunnen</name>
-        <address>Leiden University Medical Center</address>
+        <address>private</address>
         <email>ddunnen@lumc.nl</email>
       </contact>
     </source>
@@ -111,7 +111,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-07-24</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="2" other_id="NC_000002.11" other_start="220278099" other_end="220293461">
         <mapping_span lrg_start="1" lrg_end="15363" other_start="220278099" other_end="220293461" strand="1" />
       </mapping>
@@ -130,7 +130,7 @@
       <comment>Annotation from NG_008043.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_380" start="5001" end="5664" />
             <label>1</label>
@@ -250,8 +250,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-07-24</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000373960.3" other_name="ENST00000373960.3" other_id="ENST00000373960.3" other_start="1" other_end="2248">
         <mapping_span lrg_start="5001" lrg_end="5664" other_start="1" other_end="664" strand="1" />
         <mapping_span lrg_start="6719" lrg_end="6779" other_start="665" other_end="725" strand="1" />
@@ -284,35 +284,19 @@
         <mapping_span lrg_start="10401" lrg_end="10467" other_start="640" other_end="706" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000123992">
-          <coordinates coord_system="LRG_380" start="1" end="15363" strand="-1" mapped_from="GRCh37" />
-          <partial>3-prime</partial>
-          <partial>5-prime</partial>
-          <symbol source="HGNC">DNPEP</symbol>
-          <long_name>aspartyl aminopeptidase (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="2981">
-            <synonym>ASPEP</synonym>
-            <synonym>DAP</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="611367" />
-          <db_xref source="Ensembl" accession="ENSG00000123992" />
-          <transcript source="Ensembl" accession="ENST00000535056">
-            <coordinates coord_system="LRG_380" start="1" end="15363" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <partial>5-prime</partial>
-            <long_name>DNPEP-202 (protein_coding)</long_name>
-            <protein_product source="Ensembl" accession="ENSP00000444067">
-              <coordinates coord_system="LRG_380" start="1" end="15363" strand="-1" mapped_from="GRCh37" />
-              <partial>3-prime</partial>
-              <partial>5-prime</partial>
-              <long_name>aspartyl aminopeptidase</long_name>
-            </protein_product>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000175084">
           <coordinates coord_system="LRG_380" start="5001" end="13363" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">DES</symbol>
           <long_name>desmin (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="1674">
+            <synonym>ARVC7</synonym>
+            <synonym>ARVD7</synonym>
+            <synonym>CMD1I</synonym>
+            <synonym>CSM1</synonym>
+            <synonym>CSM2</synonym>
+            <synonym>MFM1</synonym>
+            <synonym>SCPNK</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="2770">
             <synonym>CMD1I</synonym>
             <synonym>CSM1</synonym>
@@ -322,7 +306,7 @@
           <db_xref source="Ensembl" accession="ENSG00000175084" />
           <transcript source="Ensembl" accession="ENST00000373960">
             <coordinates coord_system="LRG_380" start="5001" end="13363" strand="1" mapped_from="GRCh37" />
-            <long_name>DES-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens desmin (DES), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS33383.1" />
             <db_xref source="RefSeq" accession="NM_001927.3" />
             <exon source="Ensembl" accession="ENSE00001462013">
@@ -331,19 +315,19 @@
             <exon source="Ensembl" accession="ENSE00001147285">
               <coordinates coord_system="LRG_380" start="6719" end="6779" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002434329">
+            <exon source="Ensembl" accession="ENSE00003003879">
               <coordinates coord_system="LRG_380" start="6875" end="6970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002485280">
+            <exon source="Ensembl" accession="ENSE00003082329">
               <coordinates coord_system="LRG_380" start="7119" end="7280" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002456568">
+            <exon source="Ensembl" accession="ENSE00003213720">
               <coordinates coord_system="LRG_380" start="7452" end="7577" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002516637">
+            <exon source="Ensembl" accession="ENSE00003124258">
               <coordinates coord_system="LRG_380" start="7964" end="8184" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002469001">
+            <exon source="Ensembl" accession="ENSE00003012755">
               <coordinates coord_system="LRG_380" start="10401" end="10444" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001147439">
@@ -354,13 +338,16 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000363071">
               <coordinates coord_system="LRG_380" start="5087" end="12614" strand="1" mapped_from="GRCh37" />
-              <long_name>desmin</long_name>
+              <long_name>desmin </long_name>
               <db_xref source="RefSeq" accession="NP_001918.3" />
-              <db_xref source="UniProtKB" accession="Q9GZR6" />
-              <db_xref source="UniProtKB" accession="Q53SB5" />
               <db_xref source="UniProtKB" accession="Q2PUK1" />
+              <db_xref source="UniProtKB" accession="Q53SB5" />
+              <db_xref source="UniProtKB" accession="Q9GZR6" />
               <db_xref source="UniProtKB" accession="P17661">
                 <synonym>Q15787</synonym>
+                <synonym>Q549R7</synonym>
+                <synonym>Q549R8</synonym>
+                <synonym>Q549R9</synonym>
                 <synonym>Q8IZR1</synonym>
                 <synonym>Q8IZR6</synonym>
                 <synonym>Q8NES2</synonym>
@@ -379,19 +366,19 @@
             <exon source="Ensembl" accession="ENSE00001916559">
               <coordinates coord_system="LRG_380" start="6669" end="6779" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002533581">
+            <exon source="Ensembl" accession="ENSE00003106952">
               <coordinates coord_system="LRG_380" start="6875" end="6970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002450806">
+            <exon source="Ensembl" accession="ENSE00003209865">
               <coordinates coord_system="LRG_380" start="7119" end="7280" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002484298">
+            <exon source="Ensembl" accession="ENSE00003025540">
               <coordinates coord_system="LRG_380" start="7452" end="7577" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002478129">
+            <exon source="Ensembl" accession="ENSE00003144967">
               <coordinates coord_system="LRG_380" start="7964" end="8184" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002497192">
+            <exon source="Ensembl" accession="ENSE00003159287">
               <coordinates coord_system="LRG_380" start="10401" end="10444" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -401,16 +388,16 @@
             <exon source="Ensembl" accession="ENSE00001821977">
               <coordinates coord_system="LRG_380" start="6746" end="6779" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002533581">
+            <exon source="Ensembl" accession="ENSE00003106952">
               <coordinates coord_system="LRG_380" start="6875" end="6970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002450806">
+            <exon source="Ensembl" accession="ENSE00003209865">
               <coordinates coord_system="LRG_380" start="7119" end="7280" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002484298">
+            <exon source="Ensembl" accession="ENSE00003025540">
               <coordinates coord_system="LRG_380" start="7452" end="7577" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002478129">
+            <exon source="Ensembl" accession="ENSE00003144967">
               <coordinates coord_system="LRG_380" start="7964" end="8184" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001832058">
@@ -425,6 +412,22 @@
             </exon>
             <exon source="Ensembl" accession="ENSE00001845709">
               <coordinates coord_system="LRG_380" start="12573" end="12808" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000234638">
+          <coordinates coord_system="LRG_380" start="11695" end="12808" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">AC053503.6</symbol>
+          <long_name>AC053503.6 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000234638" />
+          <transcript source="Ensembl" accession="ENST00000431827">
+            <coordinates coord_system="LRG_380" start="11695" end="12808" strand="-1" mapped_from="GRCh37" />
+            <long_name>AC053503.6-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00001793066">
+              <coordinates coord_system="LRG_380" start="12705" end="12808" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001524313">
+              <coordinates coord_system="LRG_380" start="11695" end="11814" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
@@ -443,6 +446,27 @@
         <url>http://www.dmd.nl/nmdb2/home.php?select_db=DES</url>
       </source>
       <modification_date>2012-11-20</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Leiden Muscular Dystrophy pages - DES</name>
+        <url>http://www.dmd.nl/nmdb2/home.php?select_db=DES</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Zhejiang University Center for Genetic and Genomic Medicine (ZJU-CGGM) - DES</name>
+        <url>http://databases.lovd.nl/genomed/home.php?select_db=DES</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>ZJU-CGGM &amp; BGI-Shenzhen - DES</name>
+        <url>http://www.genomed.org/LOVD/CM/home.php?select_db=DES</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

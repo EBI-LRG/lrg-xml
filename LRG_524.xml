@@ -257,7 +257,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="8" other_id="NC_000008.10" other_start="30885778" other_end="31033277">
         <mapping_span lrg_start="1" lrg_end="147500" other_start="30885778" other_end="31033277" strand="1" />
       </mapping>
@@ -276,7 +276,7 @@
       <comment>Annotation from NG_008870.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_524" start="5001" end="5712" />
             <label>1</label>
@@ -653,8 +653,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000298139.5" other_name="ENST00000298139.5" other_id="ENST00000298139.5" other_start="1" other_end="5215">
         <mapping_span lrg_start="5540" lrg_end="5712" other_start="1" other_end="173" strand="1" />
         <mapping_span lrg_start="30111" lrg_end="30282" other_start="174" other_end="345" strand="1" />
@@ -728,6 +728,10 @@
           <partial>3-prime</partial>
           <symbol source="HGNC">PURG</symbol>
           <long_name>purine-rich element binding protein G (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="29942">
+            <synonym>PURG-A</synonym>
+            <synonym>PURG-B</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="17930">
             <synonym>PURG-A</synonym>
             <synonym>PURG-B</synonym>
@@ -736,7 +740,7 @@
           <transcript source="Ensembl" accession="ENST00000339382">
             <coordinates coord_system="LRG_524" start="1" end="5454" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>PURG-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens purine-rich element binding protein G (PURG), transcript variant B, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS34878.1" />
             <db_xref source="RefSeq" accession="NM_001015508.1" />
             <exon source="Ensembl" accession="ENSE00001374102">
@@ -745,13 +749,16 @@
             <protein_product source="Ensembl" accession="ENSP00000345168">
               <coordinates coord_system="LRG_524" start="1" end="4521" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>purine-rich element binding protein G</long_name>
+              <long_name>purine-rich element-binding protein gamma isoform B </long_name>
               <db_xref source="RefSeq" accession="NP_001015508.1" />
+              <db_xref source="UniProtKB" accession="Q9UJV8">
+                <synonym>Q8TE64</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000475541">
             <coordinates coord_system="LRG_524" start="2580" end="5454" strand="-1" mapped_from="GRCh37" />
-            <long_name>PURG-002 (protein_coding)</long_name>
+            <long_name>Homo sapiens purine-rich element binding protein G (PURG), transcript variant A, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS6081.1" />
             <db_xref source="RefSeq" accession="NM_013357.2" />
             <exon source="Ensembl" accession="ENSE00001930814">
@@ -759,7 +766,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000418721">
               <coordinates coord_system="LRG_524" start="3478" end="4521" strand="-1" mapped_from="GRCh37" />
-              <long_name>purine-rich element binding protein G</long_name>
+              <long_name>purine-rich element-binding protein gamma isoform A </long_name>
               <db_xref source="RefSeq" accession="NP_037489.1" />
               <db_xref source="UniProtKB" accession="Q9UJV8">
                 <synonym>Q8TE64</synonym>
@@ -768,19 +775,27 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000523392">
             <coordinates coord_system="LRG_524" start="4031" end="4933" strand="-1" mapped_from="GRCh37" />
-            <long_name>PURG-003 (processed_transcript)</long_name>
+            <long_name>PURG-003 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00002095643">
               <coordinates coord_system="LRG_524" start="4817" end="4933" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002102347">
               <coordinates coord_system="LRG_524" start="4031" end="4527" strand="-1" mapped_from="GRCh37" />
             </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466881">
+              <coordinates coord_system="LRG_524" start="4031" end="4521" strand="-1" mapped_from="GRCh37" />
+            </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000165392">
           <coordinates coord_system="LRG_524" start="5540" end="145508" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">WRN</symbol>
           <long_name>Werner syndrome, RecQ helicase-like (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="7486">
+            <synonym>RECQ3</synonym>
+            <synonym>RECQL2</synonym>
+            <synonym>RECQL3</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="12791">
             <synonym>RECQ3</synonym>
             <synonym>RECQL2</synonym>
@@ -789,7 +804,7 @@
           <db_xref source="Ensembl" accession="ENSG00000165392" />
           <transcript source="Ensembl" accession="ENST00000298139">
             <coordinates coord_system="LRG_524" start="5540" end="145508" strand="1" mapped_from="GRCh37" />
-            <long_name>WRN-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens Werner syndrome, RecQ helicase-like (WRN), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS6082.1" />
             <db_xref source="RefSeq" accession="NM_000553.4" />
             <exon source="Ensembl" accession="ENSE00001158217">
@@ -828,70 +843,70 @@
             <exon source="Ensembl" accession="ENSE00001092740">
               <coordinates coord_system="LRG_524" start="59515" end="59659" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092713">
+            <exon source="Ensembl" accession="ENSE00003115671">
               <coordinates coord_system="LRG_524" start="60629" end="60704" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001092701">
               <coordinates coord_system="LRG_524" start="62204" end="62271" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092742">
+            <exon source="Ensembl" accession="ENSE00003116627">
               <coordinates coord_system="LRG_524" start="62573" end="62681" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092728">
+            <exon source="Ensembl" accession="ENSE00003074047">
               <coordinates coord_system="LRG_524" start="63569" end="63637" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092724">
+            <exon source="Ensembl" accession="ENSE00003059681">
               <coordinates coord_system="LRG_524" start="68507" end="68589" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092707">
+            <exon source="Ensembl" accession="ENSE00003131801">
               <coordinates coord_system="LRG_524" start="72588" end="72694" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092734">
+            <exon source="Ensembl" accession="ENSE00003166131">
               <coordinates coord_system="LRG_524" start="83354" end="83538" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001157714">
+            <exon source="Ensembl" accession="ENSE00003161814">
               <coordinates coord_system="LRG_524" start="88093" end="88267" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092705">
+            <exon source="Ensembl" accession="ENSE00003086175">
               <coordinates coord_system="LRG_524" start="91982" end="92163" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092726">
+            <exon source="Ensembl" accession="ENSE00003004420">
               <coordinates coord_system="LRG_524" start="96261" end="96362" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092703">
+            <exon source="Ensembl" accession="ENSE00003123018">
               <coordinates coord_system="LRG_524" start="96647" end="96739" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092719">
+            <exon source="Ensembl" accession="ENSE00003200443">
               <coordinates coord_system="LRG_524" start="104104" end="104245" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092735">
+            <exon source="Ensembl" accession="ENSE00003050056">
               <coordinates coord_system="LRG_524" start="113169" end="113339" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001157686">
+            <exon source="Ensembl" accession="ENSE00003126474">
               <coordinates coord_system="LRG_524" start="113420" end="113514" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092700">
+            <exon source="Ensembl" accession="ENSE00003149278">
               <coordinates coord_system="LRG_524" start="114365" end="114440" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092709">
+            <exon source="Ensembl" accession="ENSE00002997994">
               <coordinates coord_system="LRG_524" start="115289" end="115362" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092691">
+            <exon source="Ensembl" accession="ENSE00003113162">
               <coordinates coord_system="LRG_524" start="118792" end="118867" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092702">
+            <exon source="Ensembl" accession="ENSE00003131420">
               <coordinates coord_system="LRG_524" start="119103" end="119215" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092715">
+            <exon source="Ensembl" accession="ENSE00002980697">
               <coordinates coord_system="LRG_524" start="122080" end="122194" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092722">
+            <exon source="Ensembl" accession="ENSE00002976073">
               <coordinates coord_system="LRG_524" start="126363" end="126494" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092710">
+            <exon source="Ensembl" accession="ENSE00003167048">
               <coordinates coord_system="LRG_524" start="129107" end="129269" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001092695">
+            <exon source="Ensembl" accession="ENSE00003204735">
               <coordinates coord_system="LRG_524" start="138761" end="138969" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002115515">
@@ -899,7 +914,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000298139">
               <coordinates coord_system="LRG_524" start="30187" end="144841" strand="1" mapped_from="GRCh37" />
-              <long_name>Werner syndrome, RecQ helicase-like</long_name>
+              <long_name>Werner syndrome ATP-dependent helicase </long_name>
               <db_xref source="RefSeq" accession="NP_000544.2" />
               <db_xref source="UniProtKB" accession="Q14191">
                 <synonym>A1KYY9</synonym>
@@ -912,67 +927,67 @@
             <exon source="Ensembl" accession="ENSE00002125786">
               <coordinates coord_system="LRG_524" start="59383" end="59659" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002103639">
+            <exon source="Ensembl" accession="ENSE00003210610">
               <coordinates coord_system="LRG_524" start="60629" end="60704" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002123340">
+            <exon source="Ensembl" accession="ENSE00003197926">
               <coordinates coord_system="LRG_524" start="62573" end="62681" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002101680">
+            <exon source="Ensembl" accession="ENSE00003095538">
               <coordinates coord_system="LRG_524" start="63569" end="63637" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002130293">
+            <exon source="Ensembl" accession="ENSE00003210670">
               <coordinates coord_system="LRG_524" start="68507" end="68589" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002132087">
+            <exon source="Ensembl" accession="ENSE00003098542">
               <coordinates coord_system="LRG_524" start="72588" end="72694" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002108186">
+            <exon source="Ensembl" accession="ENSE00002987791">
               <coordinates coord_system="LRG_524" start="83354" end="83538" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002120217">
+            <exon source="Ensembl" accession="ENSE00003053486">
               <coordinates coord_system="LRG_524" start="88093" end="88267" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002110821">
+            <exon source="Ensembl" accession="ENSE00003016010">
               <coordinates coord_system="LRG_524" start="91982" end="92163" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002122808">
+            <exon source="Ensembl" accession="ENSE00003011036">
               <coordinates coord_system="LRG_524" start="96261" end="96362" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002134887">
+            <exon source="Ensembl" accession="ENSE00003051146">
               <coordinates coord_system="LRG_524" start="96647" end="96739" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002107799">
+            <exon source="Ensembl" accession="ENSE00003128231">
               <coordinates coord_system="LRG_524" start="104104" end="104245" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002112244">
+            <exon source="Ensembl" accession="ENSE00003152080">
               <coordinates coord_system="LRG_524" start="113169" end="113339" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002139295">
+            <exon source="Ensembl" accession="ENSE00003085892">
               <coordinates coord_system="LRG_524" start="113420" end="113514" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002105978">
+            <exon source="Ensembl" accession="ENSE00003178533">
               <coordinates coord_system="LRG_524" start="114365" end="114440" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002117819">
+            <exon source="Ensembl" accession="ENSE00003032751">
               <coordinates coord_system="LRG_524" start="115289" end="115362" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002103681">
+            <exon source="Ensembl" accession="ENSE00003078353">
               <coordinates coord_system="LRG_524" start="118792" end="118867" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002126371">
+            <exon source="Ensembl" accession="ENSE00003199581">
               <coordinates coord_system="LRG_524" start="119103" end="119215" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002116041">
+            <exon source="Ensembl" accession="ENSE00003217911">
               <coordinates coord_system="LRG_524" start="122080" end="122194" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002096053">
+            <exon source="Ensembl" accession="ENSE00003186092">
               <coordinates coord_system="LRG_524" start="126363" end="126494" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002105049">
+            <exon source="Ensembl" accession="ENSE00003081062">
               <coordinates coord_system="LRG_524" start="129107" end="129269" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002116660">
+            <exon source="Ensembl" accession="ENSE00003163110">
               <coordinates coord_system="LRG_524" start="138761" end="138969" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002108417">
@@ -985,11 +1000,50 @@
             <exon source="Ensembl" accession="ENSE00002127260">
               <coordinates coord_system="LRG_524" start="91695" end="92163" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002122808">
+            <exon source="Ensembl" accession="ENSE00003011036">
               <coordinates coord_system="LRG_524" start="96261" end="96362" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002094457">
               <coordinates coord_system="LRG_524" start="96647" end="96704" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000253579">
+          <coordinates coord_system="LRG_524" start="103278" end="103541" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">RP11-473A17.1</symbol>
+          <long_name>RP11-473A17.1 (pseudogene)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000253579" />
+          <transcript source="Ensembl" accession="ENST00000519475">
+            <coordinates coord_system="LRG_524" start="103278" end="103541" strand="-1" mapped_from="GRCh37" />
+            <long_name>RP11-473A17.1-001 (processed_pseudogene)</long_name>
+            <exon source="Ensembl" accession="ENSE00002092772">
+              <coordinates coord_system="LRG_524" start="103278" end="103541" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000253961">
+          <coordinates coord_system="LRG_524" start="138817" end="147500" strand="-1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <symbol source="Clone_based_vega_gene">RP11-363L24.3</symbol>
+          <long_name>RP11-363L24.3 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000253961" />
+          <transcript source="Ensembl" accession="ENST00000521252">
+            <coordinates coord_system="LRG_524" start="138817" end="147500" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>RP11-363L24.3-002 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002134028">
+              <coordinates coord_system="LRG_524" start="138817" end="138931" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000523365">
+            <coordinates coord_system="LRG_524" start="142862" end="147500" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>RP11-363L24.3-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002098575">
+              <coordinates coord_system="LRG_524" start="143265" end="143323" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002135154">
+              <coordinates coord_system="LRG_524" start="142862" end="143057" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
@@ -999,6 +1053,14 @@
       <source>
         <name>Database of WS-associated WRN mutations</name>
         <url>http://www.pathology.washington.edu/research/werner/database/</url>
+        <contact>
+          <name>George M. Martin</name>
+          <address>Department of Pathology, University of Washington, Seattle, USA</address>
+        </contact>
+        <contact>
+          <name>Junko Oshima</name>
+          <address>Department of Pathology, University of Washington, Seattle, USA</address>
+        </contact>
       </source>
       <modification_date>2012-08-01</modification_date>
     </annotation_set>
@@ -1008,6 +1070,20 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=WRN</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - WRN</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=WRN</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>LOVD 3.0 shared installation - WRN</name>
+        <url>http://databases.lovd.nl/shared/genes/WRN</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

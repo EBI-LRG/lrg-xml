@@ -169,7 +169,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="10" other_id="NC_000010.10" other_start="43567517" other_end="43627799">
         <mapping_span lrg_start="1" lrg_end="60283" other_start="43567517" other_end="43627799" strand="1">
           <diff type="mismatch" lrg_start="28452" lrg_end="28452" other_start="43595968" other_end="43595968" lrg_sequence="G" other_sequence="A" />
@@ -194,7 +194,7 @@
       <comment>Annotation from NG_007489.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_518" start="5001" end="5263" />
             <label>1</label>
@@ -435,8 +435,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000340058.4" other_name="ENST00000340058.4" other_id="ENST00000340058.4" other_start="1" other_end="4097">
         <mapping_span lrg_start="5011" lrg_end="5263" other_start="1" other_end="253" strand="1" />
         <mapping_span lrg_start="28391" lrg_end="28654" other_start="254" other_end="517" strand="1">
@@ -504,30 +504,22 @@
         <mapping_span lrg_start="41488" lrg_end="41607" other_start="496" other_end="615" strand="1" />
         <mapping_span lrg_start="42412" lrg_end="42525" other_start="616" other_end="729" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000535749.1" other_name="ENST00000535749.1" other_id="ENST00000535749.1" other_start="1" other_end="2189">
-        <mapping_span lrg_start="5011" lrg_end="5263" other_start="1" other_end="253" strand="1" />
-        <mapping_span lrg_start="28391" lrg_end="28654" other_start="254" other_end="517" strand="1">
-          <diff type="mismatch" lrg_start="28452" lrg_end="28452" other_start="315" other_end="315" lrg_sequence="G" other_sequence="A" />
-        </mapping_span>
-        <mapping_span lrg_start="30274" lrg_end="30561" other_start="518" other_end="805" strand="1" />
-        <mapping_span lrg_start="32884" lrg_end="33125" other_start="806" other_end="1047" strand="1" />
-        <mapping_span lrg_start="34308" lrg_end="34503" other_start="1048" other_end="1243" strand="1" />
-        <mapping_span lrg_start="36963" lrg_end="37162" other_start="1244" other_end="1443" strand="1" />
-        <mapping_span lrg_start="39139" lrg_end="39164" other_start="1444" other_end="1469" strand="1" />
-        <mapping_span lrg_start="47634" lrg_end="47677" other_start="1470" other_end="1513" strand="1" />
-        <mapping_span lrg_start="48013" lrg_end="48135" other_start="1514" other_end="1636" strand="1" />
-        <mapping_span lrg_start="49878" lrg_end="49948" other_start="1637" other_end="1707" strand="1" />
-        <mapping_span lrg_start="51603" lrg_end="51740" other_start="1708" other_end="1845" strand="1" />
-        <mapping_span lrg_start="52815" lrg_end="52914" other_start="1846" other_end="1945" strand="1" />
-        <mapping_span lrg_start="54507" lrg_end="54750" other_start="1946" other_end="2189" strand="1">
-          <diff type="mismatch" lrg_start="54701" lrg_end="54701" other_start="2140" other_end="2140" lrg_sequence="C" other_sequence="T" />
-        </mapping_span>
-      </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000165731">
           <coordinates coord_system="LRG_518" start="4959" end="58283" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">RET</symbol>
           <long_name>ret proto-oncogene (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="5979">
+            <synonym>CDHF12</synonym>
+            <synonym>CDHR16</synonym>
+            <synonym>HSCR1</synonym>
+            <synonym>MEN2A</synonym>
+            <synonym>MEN2B</synonym>
+            <synonym>MTC1</synonym>
+            <synonym>PTC</synonym>
+            <synonym>RET-ELE1</synonym>
+            <synonym>RET51</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="9967">
             <synonym>CDHF12</synonym>
             <synonym>CDHR16</synonym>
@@ -542,7 +534,7 @@
           <db_xref source="Ensembl" accession="ENSG00000165731" />
           <transcript source="Ensembl" accession="ENST00000355710">
             <coordinates coord_system="LRG_518" start="4959" end="58283" strand="1" mapped_from="GRCh37" />
-            <long_name>RET-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens ret proto-oncogene (RET), transcript variant 2, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS7200.1" />
             <db_xref source="RefSeq" accession="NM_020975.4" />
             <exon source="Ensembl" accession="ENSE00001948565">
@@ -607,14 +599,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000347942">
               <coordinates coord_system="LRG_518" start="5191" end="56201" strand="1" mapped_from="GRCh37" />
-              <long_name>ret proto-oncogene</long_name>
+              <long_name>proto-oncogene tyrosine-protein kinase receptor Ret isoform a precursor </long_name>
               <db_xref source="RefSeq" accession="NP_066124.1" />
-              <db_xref source="UniProtKB" accession="Q9UQV8" />
-              <db_xref source="UniProtKB" accession="Q9UM90" />
-              <db_xref source="UniProtKB" accession="Q9UE13" />
-              <db_xref source="UniProtKB" accession="Q8NFE8" />
               <db_xref source="UniProtKB" accession="Q8IZR8" />
-              <db_xref source="UniProtKB" accession="F5CNE9" />
+              <db_xref source="UniProtKB" accession="Q8NFE8" />
+              <db_xref source="UniProtKB" accession="Q9UE13" />
+              <db_xref source="UniProtKB" accession="Q9UM90" />
+              <db_xref source="UniProtKB" accession="Q9UQV8" />
               <db_xref source="UniProtKB" accession="P07949">
                 <synonym>A8K6Z2</synonym>
                 <synonym>Q15250</synonym>
@@ -643,13 +634,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000419080">
               <coordinates coord_system="LRG_518" start="5191" end="42525" strand="1" mapped_from="GRCh37" />
-              <long_name>ret proto-oncogene</long_name>
               <db_xref source="UniProtKB" accession="C9JYL6" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000340058">
             <coordinates coord_system="LRG_518" start="5011" end="55384" strand="1" mapped_from="GRCh37" />
-            <long_name>RET-002 (protein_coding)</long_name>
+            <long_name>Homo sapiens ret proto-oncogene (RET), transcript variant 4, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS53525.1" />
             <db_xref source="RefSeq" accession="NM_020630.4" />
             <exon source="Ensembl" accession="ENSE00001155861">
@@ -711,14 +701,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000344798">
               <coordinates coord_system="LRG_518" start="5191" end="54686" strand="1" mapped_from="GRCh37" />
-              <long_name>ret proto-oncogene</long_name>
+              <long_name>proto-oncogene tyrosine-protein kinase receptor Ret isoform c precursor </long_name>
               <db_xref source="RefSeq" accession="NP_065681.1" />
-              <db_xref source="UniProtKB" accession="Q9UQV8" />
-              <db_xref source="UniProtKB" accession="Q9UE13" />
-              <db_xref source="UniProtKB" accession="Q8NFE8" />
-              <db_xref source="UniProtKB" accession="Q8IZR8" />
               <db_xref source="UniProtKB" accession="B4DGX8" />
-              <db_xref source="UniProtKB" accession="F5CNE9" />
+              <db_xref source="UniProtKB" accession="Q8IZR8" />
+              <db_xref source="UniProtKB" accession="Q8NFE8" />
+              <db_xref source="UniProtKB" accession="Q9UE13" />
+              <db_xref source="UniProtKB" accession="Q9UQV8" />
               <db_xref source="UniProtKB" accession="P07949">
                 <synonym>A8K6Z2</synonym>
                 <synonym>Q15250</synonym>
@@ -737,56 +726,6 @@
               <coordinates coord_system="LRG_518" start="34308" end="34422" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000535749">
-            <coordinates coord_system="LRG_518" start="5011" end="54750" strand="1" mapped_from="GRCh37" />
-            <long_name>RET-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001155861">
-              <coordinates coord_system="LRG_518" start="5011" end="5263" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001365997">
-              <coordinates coord_system="LRG_518" start="28391" end="28654" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001095923">
-              <coordinates coord_system="LRG_518" start="30274" end="30561" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001095946">
-              <coordinates coord_system="LRG_518" start="32884" end="33125" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001095907">
-              <coordinates coord_system="LRG_518" start="34308" end="34503" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001095904">
-              <coordinates coord_system="LRG_518" start="36963" end="37162" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002211971">
-              <coordinates coord_system="LRG_518" start="39139" end="39164" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002319439">
-              <coordinates coord_system="LRG_518" start="47634" end="47677" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002527074">
-              <coordinates coord_system="LRG_518" start="48013" end="48135" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002461045">
-              <coordinates coord_system="LRG_518" start="49878" end="49948" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002491178">
-              <coordinates coord_system="LRG_518" start="51603" end="51740" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002440415">
-              <coordinates coord_system="LRG_518" start="52815" end="52914" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002299891">
-              <coordinates coord_system="LRG_518" start="54507" end="54750" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000445963">
-              <coordinates coord_system="LRG_518" start="5191" end="48056" strand="1" mapped_from="GRCh37" />
-              <long_name>ret proto-oncogene</long_name>
-              <db_xref source="UniProtKB" accession="Q9UQV8" />
-              <db_xref source="UniProtKB" accession="Q9BTX6" />
-              <db_xref source="UniProtKB" accession="Q8IZR8" />
-            </protein_product>
-          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -796,6 +735,34 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=RET</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - RET</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=RET</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Zhejiang University Center for Genetic and Genomic Medicine (ZJU-CGGM) - RET</name>
+        <url>http://databases.lovd.nl/genomed/home.php?select_db=RET</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>ZJU-CGGM &amp; BGI-Shenzhen - RET</name>
+        <url>http://www.genomed.org/LOVD/CM/home.php?select_db=RET</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Multiple Endocrine Neoplasia type 2 (MEN2) RET database</name>
+        <url>http://www.arup.utah.edu/database/MEN2/MEN2_welcome.php</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -115,7 +115,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-07-24</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="5" other_id="NC_000005.9" other_start="10245282" other_end="10268501">
         <mapping_span lrg_start="1" lrg_end="23220" other_start="10245282" other_end="10268501" strand="1" />
       </mapping>
@@ -134,7 +134,7 @@
       <comment>Annotation from NG_012160.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_361" start="5001" end="5276" />
             <label>1</label>
@@ -335,8 +335,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-07-24</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000280326.4" other_name="ENST00000280326.4" other_id="ENST00000280326.4" other_start="1" other_end="3675">
         <mapping_span lrg_start="4752" lrg_end="5276" other_start="1" other_end="525" strand="1" />
         <mapping_span lrg_start="8976" lrg_end="9036" other_start="526" other_end="586" strand="1" />
@@ -356,20 +356,6 @@
         <mapping_span lrg_start="13217" lrg_end="13366" other_start="321" other_end="470" strand="1" />
         <mapping_span lrg_start="15623" lrg_end="15742" other_start="471" other_end="590" strand="1" />
         <mapping_span lrg_start="16391" lrg_end="17032" other_start="591" other_end="1232" strand="1" />
-      </mapping>
-      <mapping coord_system="ENST00000440011.2" other_name="ENST00000440011.2" other_id="ENST00000440011.2" other_start="1" other_end="1812">
-        <mapping_span lrg_start="5113" lrg_end="5276" other_start="1" other_end="164" strand="1" />
-        <mapping_span lrg_start="8976" lrg_end="9036" other_start="165" other_end="225" strand="1" />
-        <mapping_span lrg_start="9505" lrg_end="9552" other_start="226" other_end="273" strand="1" />
-        <mapping_span lrg_start="9634" lrg_end="9669" other_start="274" other_end="309" strand="1" />
-        <mapping_span lrg_start="10786" lrg_end="10984" other_start="310" other_end="508" strand="1" />
-        <mapping_span lrg_start="12942" lrg_end="13134" other_start="509" other_end="701" strand="1" />
-        <mapping_span lrg_start="13217" lrg_end="13366" other_start="702" other_end="851" strand="1" />
-        <mapping_span lrg_start="15623" lrg_end="15742" other_start="852" other_end="971" strand="1" />
-        <mapping_span lrg_start="16391" lrg_end="16576" other_start="972" other_end="1157" strand="1" />
-        <mapping_span lrg_start="17312" lrg_end="17449" other_start="1158" other_end="1295" strand="1" />
-        <mapping_span lrg_start="17965" lrg_end="18145" other_start="1296" other_end="1476" strand="1" />
-        <mapping_span lrg_start="19487" lrg_end="19822" other_start="1477" other_end="1812" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000503026.1" other_name="ENST00000503026.1" other_id="ENST00000503026.1" other_start="1" other_end="1933">
         <mapping_span lrg_start="4760" lrg_end="4876" other_start="1" other_end="117" strand="1" />
@@ -469,6 +455,9 @@
           <partial>3-prime</partial>
           <symbol source="HGNC">FAM173B</symbol>
           <long_name>family with sequence similarity 173, member B (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="134145">
+            <synonym>JS-2</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="27029" />
           <db_xref source="Ensembl" accession="ENSG00000150756" />
           <transcript source="Ensembl" accession="ENST00000280330">
@@ -482,17 +471,21 @@
           <transcript source="Ensembl" accession="ENST00000511437">
             <coordinates coord_system="LRG_361" start="1" end="4717" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>FAM173B-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens family with sequence similarity 173, member B (FAM173B), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS43301.1" />
-            <db_xref source="RefSeq" accession="NM_199133.2" />
+            <db_xref source="RefSeq" accession="NM_199133.3" />
             <exon source="Ensembl" accession="ENSE00002070299">
               <coordinates coord_system="LRG_361" start="4689" end="4717" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000422338">
               <coordinates coord_system="LRG_361" start="1" end="4704" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>family with sequence similarity 173, member B</long_name>
+              <long_name>protein FAM173B isoform 1 </long_name>
               <db_xref source="RefSeq" accession="NP_954584.2" />
+              <db_xref source="UniProtKB" accession="J3KN90" />
+              <db_xref source="UniProtKB" accession="Q6P4H8">
+                <synonym>B4DT41</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000510047">
@@ -505,7 +498,8 @@
             <protein_product source="Ensembl" accession="ENSP00000420876">
               <coordinates coord_system="LRG_361" start="1" end="4704" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>family with sequence similarity 173, member B</long_name>
+              <long_name>protein FAM173B isoform 2 </long_name>
+              <db_xref source="RefSeq" accession="NP_001245317.1" />
               <db_xref source="UniProtKB" accession="E9PBZ4" />
             </protein_product>
           </transcript>
@@ -519,7 +513,6 @@
             <protein_product source="Ensembl" accession="ENSP00000424210">
               <coordinates coord_system="LRG_361" start="1" end="4704" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>family with sequence similarity 173, member B</long_name>
               <db_xref source="UniProtKB" accession="D6RBE3" />
             </protein_product>
           </transcript>
@@ -527,7 +520,7 @@
             <coordinates coord_system="LRG_361" start="1" end="4719" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>FAM173B-007 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002594661">
+            <exon source="Ensembl" accession="ENSE00003167731">
               <coordinates coord_system="LRG_361" start="4689" end="4719" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -535,13 +528,12 @@
             <coordinates coord_system="LRG_361" start="1" end="4719" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>FAM173B-006 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00002609271">
+            <exon source="Ensembl" accession="ENSE00003093510">
               <coordinates coord_system="LRG_361" start="4689" end="4719" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000427453">
               <coordinates coord_system="LRG_361" start="1" end="4704" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>family with sequence similarity 173, member B</long_name>
               <db_xref source="UniProtKB" accession="D6RIE0" />
             </protein_product>
           </transcript>
@@ -549,8 +541,24 @@
             <coordinates coord_system="LRG_361" start="1" end="4719" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>FAM173B-005 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002594661">
+            <exon source="Ensembl" accession="ENSE00003167731">
               <coordinates coord_system="LRG_361" start="4689" end="4719" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000248968">
+          <coordinates coord_system="LRG_361" start="3156" end="4746" strand="1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">CTD-2256P15.1</symbol>
+          <long_name>CTD-2256P15.1 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000248968" />
+          <transcript source="Ensembl" accession="ENST00000509915">
+            <coordinates coord_system="LRG_361" start="3156" end="4746" strand="1" mapped_from="GRCh37" />
+            <long_name>CTD-2256P15.1-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002030716">
+              <coordinates coord_system="LRG_361" start="3156" end="3326" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002073062">
+              <coordinates coord_system="LRG_361" start="4230" end="4746" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
@@ -558,6 +566,11 @@
           <coordinates coord_system="LRG_361" start="4752" end="21243" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">CCT5</symbol>
           <long_name>chaperonin containing TCP1, subunit 5 (epsilon) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="22948">
+            <synonym>CCT-epsilon</synonym>
+            <synonym>CCTE</synonym>
+            <synonym>TCP-1-epsilon</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="1618">
             <synonym>KIAA0098</synonym>
           </db_xref>
@@ -565,28 +578,28 @@
           <db_xref source="Ensembl" accession="ENSG00000150753" />
           <transcript source="Ensembl" accession="ENST00000280326">
             <coordinates coord_system="LRG_361" start="4752" end="21243" strand="1" mapped_from="GRCh37" />
-            <long_name>CCT5-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens chaperonin containing TCP1, subunit 5 (epsilon) (CCT5), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS3877.1" />
             <db_xref source="RefSeq" accession="NM_012073.3" />
             <exon source="Ensembl" accession="ENSE00002069217">
               <coordinates coord_system="LRG_361" start="4752" end="5276" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000996136">
+            <exon source="Ensembl" accession="ENSE00002980092">
               <coordinates coord_system="LRG_361" start="8976" end="9036" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000996132">
               <coordinates coord_system="LRG_361" start="9505" end="9669" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000996143">
+            <exon source="Ensembl" accession="ENSE00003092120">
               <coordinates coord_system="LRG_361" start="10786" end="10984" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082660">
+            <exon source="Ensembl" accession="ENSE00003174405">
               <coordinates coord_system="LRG_361" start="12942" end="13134" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082662">
+            <exon source="Ensembl" accession="ENSE00002998292">
               <coordinates coord_system="LRG_361" start="13217" end="13366" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082664">
+            <exon source="Ensembl" accession="ENSE00003131916">
               <coordinates coord_system="LRG_361" start="15623" end="15742" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001082659">
@@ -595,7 +608,7 @@
             <exon source="Ensembl" accession="ENSE00001082663">
               <coordinates coord_system="LRG_361" start="17312" end="17449" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082661">
+            <exon source="Ensembl" accession="ENSE00003019629">
               <coordinates coord_system="LRG_361" start="17965" end="18145" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001266466">
@@ -603,12 +616,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000280326">
               <coordinates coord_system="LRG_361" start="5172" end="19614" strand="1" mapped_from="GRCh37" />
-              <long_name>chaperonin containing TCP1, subunit 5 (epsilon)</long_name>
+              <long_name>T-complex protein 1 subunit epsilon </long_name>
               <db_xref source="RefSeq" accession="NP_036205.1" />
-              <db_xref source="UniProtKB" accession="Q9HB74" />
-              <db_xref source="UniProtKB" accession="Q9BU08" />
-              <db_xref source="UniProtKB" accession="Q96GI1" />
               <db_xref source="UniProtKB" accession="B7ZAR1" />
+              <db_xref source="UniProtKB" accession="Q96GI1" />
+              <db_xref source="UniProtKB" accession="Q9BU08" />
+              <db_xref source="UniProtKB" accession="Q9HB74" />
               <db_xref source="UniProtKB" accession="P48643">
                 <synonym>A8JZY8</synonym>
               </db_xref>
@@ -620,22 +633,22 @@
             <exon source="Ensembl" accession="ENSE00002036598">
               <coordinates coord_system="LRG_361" start="4760" end="4876" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000996136">
+            <exon source="Ensembl" accession="ENSE00002980092">
               <coordinates coord_system="LRG_361" start="8976" end="9036" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000996132">
               <coordinates coord_system="LRG_361" start="9505" end="9669" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000996143">
+            <exon source="Ensembl" accession="ENSE00003092120">
               <coordinates coord_system="LRG_361" start="10786" end="10984" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082660">
+            <exon source="Ensembl" accession="ENSE00003174405">
               <coordinates coord_system="LRG_361" start="12942" end="13134" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082662">
+            <exon source="Ensembl" accession="ENSE00002998292">
               <coordinates coord_system="LRG_361" start="13217" end="13366" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082664">
+            <exon source="Ensembl" accession="ENSE00003131916">
               <coordinates coord_system="LRG_361" start="15623" end="15742" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001082659">
@@ -644,7 +657,7 @@
             <exon source="Ensembl" accession="ENSE00001082663">
               <coordinates coord_system="LRG_361" start="17312" end="17449" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082661">
+            <exon source="Ensembl" accession="ENSE00003019629">
               <coordinates coord_system="LRG_361" start="17965" end="18145" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002064965">
@@ -652,11 +665,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000423318">
               <coordinates coord_system="LRG_361" start="4835" end="19614" strand="1" mapped_from="GRCh37" />
-              <long_name>chaperonin containing TCP1, subunit 5 (epsilon)</long_name>
-              <db_xref source="UniProtKB" accession="Q9HB74" />
-              <db_xref source="UniProtKB" accession="Q96GI1" />
-              <db_xref source="UniProtKB" accession="E9PCA1" />
               <db_xref source="UniProtKB" accession="B7ZAR1" />
+              <db_xref source="UniProtKB" accession="Q96GI1" />
+              <db_xref source="UniProtKB" accession="Q9HB74" />
+              <db_xref source="UniProtKB" accession="E9PCA1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000515390">
@@ -665,19 +677,19 @@
             <exon source="Ensembl" accession="ENSE00001314643">
               <coordinates coord_system="LRG_361" start="5047" end="5276" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000996136">
+            <exon source="Ensembl" accession="ENSE00002980092">
               <coordinates coord_system="LRG_361" start="8976" end="9036" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000996143">
+            <exon source="Ensembl" accession="ENSE00003092120">
               <coordinates coord_system="LRG_361" start="10786" end="10984" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082660">
+            <exon source="Ensembl" accession="ENSE00003174405">
               <coordinates coord_system="LRG_361" start="12942" end="13134" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082662">
+            <exon source="Ensembl" accession="ENSE00002998292">
               <coordinates coord_system="LRG_361" start="13217" end="13366" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082664">
+            <exon source="Ensembl" accession="ENSE00003131916">
               <coordinates coord_system="LRG_361" start="15623" end="15742" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001082659">
@@ -686,7 +698,7 @@
             <exon source="Ensembl" accession="ENSE00001082663">
               <coordinates coord_system="LRG_361" start="17312" end="17449" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082661">
+            <exon source="Ensembl" accession="ENSE00003019629">
               <coordinates coord_system="LRG_361" start="17965" end="18145" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002056479">
@@ -694,10 +706,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000426923">
               <coordinates coord_system="LRG_361" start="5172" end="19614" strand="1" mapped_from="GRCh37" />
-              <long_name>chaperonin containing TCP1, subunit 5 (epsilon)</long_name>
-              <db_xref source="UniProtKB" accession="Q9HB74" />
-              <db_xref source="UniProtKB" accession="Q96GI1" />
               <db_xref source="UniProtKB" accession="B4DYD8" />
+              <db_xref source="UniProtKB" accession="B4DZT5" />
+              <db_xref source="UniProtKB" accession="Q96GI1" />
+              <db_xref source="UniProtKB" accession="Q9HB74" />
               <db_xref source="UniProtKB" accession="E7ENZ3" />
             </protein_product>
           </transcript>
@@ -710,7 +722,7 @@
             <exon source="Ensembl" accession="ENSE00002069185">
               <coordinates coord_system="LRG_361" start="9627" end="9669" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002067844">
+            <exon source="Ensembl" accession="ENSE00002980608">
               <coordinates coord_system="LRG_361" start="10786" end="10984" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002070130">
@@ -718,7 +730,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000423087">
               <coordinates coord_system="LRG_361" start="5074" end="10806" strand="1" mapped_from="GRCh37" />
-              <long_name>chaperonin containing TCP1, subunit 5 (epsilon)</long_name>
+              <db_xref source="UniProtKB" accession="H0Y958" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000508451">
@@ -727,7 +739,7 @@
             <exon source="Ensembl" accession="ENSE00002074033">
               <coordinates coord_system="LRG_361" start="5140" end="5276" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002620525">
+            <exon source="Ensembl" accession="ENSE00003009786">
               <coordinates coord_system="LRG_361" start="8976" end="9036" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002044696">
@@ -737,7 +749,7 @@
           <transcript source="Ensembl" accession="ENST00000510326">
             <coordinates coord_system="LRG_361" start="5150" end="9415" strand="1" mapped_from="GRCh37" />
             <long_name>CCT5-010 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002575774">
+            <exon source="Ensembl" accession="ENSE00003013086">
               <coordinates coord_system="LRG_361" start="5150" end="5276" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002067396">
@@ -747,13 +759,13 @@
           <transcript source="Ensembl" accession="ENST00000512975">
             <coordinates coord_system="LRG_361" start="5150" end="15730" strand="1" mapped_from="GRCh37" />
             <long_name>CCT5-011 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00002601848">
+            <exon source="Ensembl" accession="ENSE00003067157">
               <coordinates coord_system="LRG_361" start="5150" end="5276" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002052940">
+            <exon source="Ensembl" accession="ENSE00003071534">
               <coordinates coord_system="LRG_361" start="12942" end="13134" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002058695">
+            <exon source="Ensembl" accession="ENSE00003107285">
               <coordinates coord_system="LRG_361" start="13217" end="13366" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002052306">
@@ -761,23 +773,22 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000425751">
               <coordinates coord_system="LRG_361" start="5172" end="12971" strand="1" mapped_from="GRCh37" />
-              <long_name>chaperonin containing TCP1, subunit 5 (epsilon)</long_name>
               <db_xref source="UniProtKB" accession="D6RIZ7" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000423695">
             <coordinates coord_system="LRG_361" start="5150" end="17032" strand="1" mapped_from="GRCh37" />
             <long_name>CCT5-018 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002575774">
+            <exon source="Ensembl" accession="ENSE00003013086">
               <coordinates coord_system="LRG_361" start="5150" end="5276" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002028867">
+            <exon source="Ensembl" accession="ENSE00003022614">
               <coordinates coord_system="LRG_361" start="12942" end="13134" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002058695">
+            <exon source="Ensembl" accession="ENSE00003107285">
               <coordinates coord_system="LRG_361" start="13217" end="13366" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002055675">
+            <exon source="Ensembl" accession="ENSE00003163919">
               <coordinates coord_system="LRG_361" start="15623" end="15742" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001771855">
@@ -790,24 +801,23 @@
             <exon source="Ensembl" accession="ENSE00002030740">
               <coordinates coord_system="LRG_361" start="5191" end="5276" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000996136">
+            <exon source="Ensembl" accession="ENSE00002980092">
               <coordinates coord_system="LRG_361" start="8976" end="9036" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002064593">
               <coordinates coord_system="LRG_361" start="9597" end="9669" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002027383">
+            <exon source="Ensembl" accession="ENSE00003175040">
               <coordinates coord_system="LRG_361" start="10786" end="10984" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002028867">
+            <exon source="Ensembl" accession="ENSE00003022614">
               <coordinates coord_system="LRG_361" start="12942" end="13134" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002058695">
+            <exon source="Ensembl" accession="ENSE00003107285">
               <coordinates coord_system="LRG_361" start="13217" end="13366" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000422744" codon_start="2">
               <coordinates coord_system="LRG_361" start="5191" end="9637" strand="1" mapped_from="GRCh37" />
-              <long_name>chaperonin containing TCP1, subunit 5 (epsilon)</long_name>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000515676">
@@ -816,22 +826,22 @@
             <exon source="Ensembl" accession="ENSE00002081567">
               <coordinates coord_system="LRG_361" start="5368" end="5724" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002601982">
+            <exon source="Ensembl" accession="ENSE00003062440">
               <coordinates coord_system="LRG_361" start="8976" end="9036" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000996132">
               <coordinates coord_system="LRG_361" start="9505" end="9669" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000996143">
+            <exon source="Ensembl" accession="ENSE00003092120">
               <coordinates coord_system="LRG_361" start="10786" end="10984" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082660">
+            <exon source="Ensembl" accession="ENSE00003174405">
               <coordinates coord_system="LRG_361" start="12942" end="13134" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082662">
+            <exon source="Ensembl" accession="ENSE00002998292">
               <coordinates coord_system="LRG_361" start="13217" end="13366" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082664">
+            <exon source="Ensembl" accession="ENSE00003131916">
               <coordinates coord_system="LRG_361" start="15623" end="15742" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001082659">
@@ -840,7 +850,7 @@
             <exon source="Ensembl" accession="ENSE00001082663">
               <coordinates coord_system="LRG_361" start="17312" end="17449" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082661">
+            <exon source="Ensembl" accession="ENSE00003019629">
               <coordinates coord_system="LRG_361" start="17965" end="18145" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002024002">
@@ -848,10 +858,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000427297">
               <coordinates coord_system="LRG_361" start="8985" end="19614" strand="1" mapped_from="GRCh37" />
-              <long_name>chaperonin containing TCP1, subunit 5 (epsilon)</long_name>
-              <db_xref source="UniProtKB" accession="Q9HB74" />
-              <db_xref source="UniProtKB" accession="Q96GI1" />
               <db_xref source="UniProtKB" accession="B7ZAR1" />
+              <db_xref source="UniProtKB" accession="Q96GI1" />
+              <db_xref source="UniProtKB" accession="Q9HB74" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000506600">
@@ -860,19 +869,19 @@
             <exon source="Ensembl" accession="ENSE00002084391">
               <coordinates coord_system="LRG_361" start="5370" end="5724" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002601982">
+            <exon source="Ensembl" accession="ENSE00003062440">
               <coordinates coord_system="LRG_361" start="8976" end="9036" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000996143">
+            <exon source="Ensembl" accession="ENSE00003092120">
               <coordinates coord_system="LRG_361" start="10786" end="10984" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082660">
+            <exon source="Ensembl" accession="ENSE00003174405">
               <coordinates coord_system="LRG_361" start="12942" end="13134" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082662">
+            <exon source="Ensembl" accession="ENSE00002998292">
               <coordinates coord_system="LRG_361" start="13217" end="13366" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082664">
+            <exon source="Ensembl" accession="ENSE00003131916">
               <coordinates coord_system="LRG_361" start="15623" end="15742" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001082659">
@@ -881,7 +890,7 @@
             <exon source="Ensembl" accession="ENSE00001082663">
               <coordinates coord_system="LRG_361" start="17312" end="17449" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001082661">
+            <exon source="Ensembl" accession="ENSE00003019629">
               <coordinates coord_system="LRG_361" start="17965" end="18145" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001633555">
@@ -889,10 +898,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000423052">
               <coordinates coord_system="LRG_361" start="8985" end="19614" strand="1" mapped_from="GRCh37" />
-              <long_name>chaperonin containing TCP1, subunit 5 (epsilon)</long_name>
-              <db_xref source="UniProtKB" accession="Q9HB74" />
-              <db_xref source="UniProtKB" accession="Q96GI1" />
               <db_xref source="UniProtKB" accession="B4DYD8" />
+              <db_xref source="UniProtKB" accession="Q96GI1" />
+              <db_xref source="UniProtKB" accession="Q9HB74" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000514674">
@@ -901,14 +909,14 @@
             <exon source="Ensembl" accession="ENSE00002025017">
               <coordinates coord_system="LRG_361" start="12717" end="13134" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002058695">
+            <exon source="Ensembl" accession="ENSE00003107285">
               <coordinates coord_system="LRG_361" start="13217" end="13366" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000509846">
             <coordinates coord_system="LRG_361" start="13217" end="16018" strand="1" mapped_from="GRCh37" />
             <long_name>CCT5-016 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002058695">
+            <exon source="Ensembl" accession="ENSE00003107285">
               <coordinates coord_system="LRG_361" start="13217" end="13366" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002026593">
@@ -921,60 +929,12 @@
             <exon source="Ensembl" accession="ENSE00002032466">
               <coordinates coord_system="LRG_361" start="16806" end="17449" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002045014">
+            <exon source="Ensembl" accession="ENSE00003211401">
               <coordinates coord_system="LRG_361" start="17965" end="18145" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002027952">
               <coordinates coord_system="LRG_361" start="19487" end="19752" strand="1" mapped_from="GRCh37" />
             </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000440011">
-            <coordinates coord_system="LRG_361" start="5113" end="19822" strand="1" mapped_from="GRCh37" />
-            <long_name>CCT5-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002039191">
-              <coordinates coord_system="LRG_361" start="5113" end="5276" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000996136">
-              <coordinates coord_system="LRG_361" start="8976" end="9036" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001695727">
-              <coordinates coord_system="LRG_361" start="9505" end="9552" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001605627">
-              <coordinates coord_system="LRG_361" start="9634" end="9669" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000996143">
-              <coordinates coord_system="LRG_361" start="10786" end="10984" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001082660">
-              <coordinates coord_system="LRG_361" start="12942" end="13134" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001082662">
-              <coordinates coord_system="LRG_361" start="13217" end="13366" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001082664">
-              <coordinates coord_system="LRG_361" start="15623" end="15742" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001082659">
-              <coordinates coord_system="LRG_361" start="16391" end="16576" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001082663">
-              <coordinates coord_system="LRG_361" start="17312" end="17449" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001082661">
-              <coordinates coord_system="LRG_361" start="17965" end="18145" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002221903">
-              <coordinates coord_system="LRG_361" start="19487" end="19822" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000399367">
-              <coordinates coord_system="LRG_361" start="5172" end="19614" strand="1" mapped_from="GRCh37" />
-              <long_name>chaperonin containing TCP1, subunit 5 (epsilon)</long_name>
-              <db_xref source="UniProtKB" accession="Q9HB74" />
-              <db_xref source="UniProtKB" accession="Q96GI1" />
-              <db_xref source="UniProtKB" accession="E7EWW2" />
-              <db_xref source="UniProtKB" accession="B4DZT5" />
-            </protein_product>
           </transcript>
         </gene>
       </features>
@@ -983,8 +943,27 @@
       <source>
         <name>CCT5 homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=CCT5</url>
+        <contact>
+          <name>Curator vacancy</name>
+          <address>?</address>
+          <email>j.celli@lumc.nl</email>
+        </contact>
       </source>
       <modification_date>2012-11-20</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Inherited Peripheral Neuropathies Mutation Database - YARS</name>
+        <url>http://www.molgen.vib-ua.be/CMTMutations/</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Leiden Muscular Dystrophy pages - CCT5</name>
+        <url>http://www.dmd.nl/nmdb2/home.php?select_db=CCT5</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

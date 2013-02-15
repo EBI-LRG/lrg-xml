@@ -63,7 +63,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-02</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="19" other_id="NC_000019.9" other_start="33788840" other_end="33798430">
         <mapping_span lrg_start="1" lrg_end="9591" other_start="33788840" other_end="33798430" strand="-1" />
       </mapping>
@@ -82,7 +82,7 @@
       <comment>Annotation from NG_012022.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_456" start="5001" end="7591" />
             <label>1</label>
@@ -149,17 +149,102 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-02</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
+      <mapping coord_system="ENST00000498907.2" other_name="ENST00000498907.2" other_id="ENST00000498907.2" other_start="1" other_end="2631">
+        <mapping_span lrg_start="4961" lrg_end="7591" other_start="1" other_end="2631" strand="1" />
+      </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000267130">
+          <coordinates coord_system="LRG_456" start="1" end="2489" strand="-1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <symbol source="Clone_based_vega_gene">CTD-2540B15.9</symbol>
+          <long_name>CTD-2540B15.9 (lincRNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000267130" />
+          <transcript source="Ensembl" accession="ENST00000593041">
+            <coordinates coord_system="LRG_456" start="1" end="2489" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>CTD-2540B15.9-001 (lincRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00002781132">
+              <coordinates coord_system="LRG_456" start="2194" end="2489" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000267296">
+          <coordinates coord_system="LRG_456" start="2471" end="4668" strand="1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">CTD-2540B15.8</symbol>
+          <long_name>CTD-2540B15.8 (lincRNA)</long_name>
+          <db_xref source="GeneID" accession="80054" />
+          <db_xref source="Ensembl" accession="ENSG00000267296" />
+          <transcript source="Ensembl" accession="ENST00000592982">
+            <coordinates coord_system="LRG_456" start="2471" end="4668" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens CEBPA antisense RNA 1 (head to head) (CEBPA-AS1), non-coding RNA. (lincRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_026887.1" />
+            <exon source="Ensembl" accession="ENSE00002760951">
+              <coordinates coord_system="LRG_456" start="2471" end="4668" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000178863">
+          <coordinates coord_system="LRG_456" start="2775" end="4455" strand="-1" mapped_from="GRCh37" />
+          <symbol source="HGNC">CEBPA-AS1</symbol>
+          <long_name>CEBPA antisense RNA 1 (head to head) (pseudogene)</long_name>
+          <db_xref source="HGNC" accession="25710" />
+          <db_xref source="Ensembl" accession="ENSG00000178863" />
+          <transcript source="Ensembl" accession="ENST00000320232">
+            <coordinates coord_system="LRG_456" start="2775" end="4455" strand="-1" mapped_from="GRCh37" />
+            <long_name>CEBPA-AS1-201 (pseudogene)</long_name>
+            <exon source="Ensembl" accession="ENSE00001221491">
+              <coordinates coord_system="LRG_456" start="4172" end="4455" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001221486">
+              <coordinates coord_system="LRG_456" start="2775" end="4169" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000245848">
+          <coordinates coord_system="LRG_456" start="4961" end="7591" strand="1" mapped_from="GRCh37" />
+          <symbol source="HGNC">CEBPA</symbol>
+          <long_name>CCAAT/enhancer binding protein (C/EBP), alpha (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="1050">
+            <synonym>C/EBP-alpha</synonym>
+            <synonym>CEBP</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="1833">
+            <synonym>C/EBP-alpha</synonym>
+            <synonym>CEBP</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="116897" />
+          <db_xref source="Ensembl" accession="ENSG00000245848" />
+          <transcript source="Ensembl" accession="ENST00000498907">
+            <coordinates coord_system="LRG_456" start="4961" end="7591" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens CCAAT/enhancer binding protein (C/EBP), alpha (CEBPA), mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS54243.1" />
+            <db_xref source="RefSeq" accession="NM_004364.3" />
+            <exon source="Ensembl" accession="ENSE00001973852">
+              <coordinates coord_system="LRG_456" start="4961" end="7591" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000427514">
+              <coordinates coord_system="LRG_456" start="5111" end="6187" strand="1" mapped_from="GRCh37" />
+              <long_name>CCAAT/enhancer-binding protein alpha </long_name>
+              <db_xref source="RefSeq" accession="NP_004355.2" />
+              <db_xref source="UniProtKB" accession="Q6P3S4" />
+              <db_xref source="UniProtKB" accession="P49715">
+                <synonym>A7LNP2</synonym>
+                <synonym>P78319</synonym>
+                <synonym>Q05CA4</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000230259">
           <coordinates coord_system="LRG_456" start="5001" end="7578" strand="1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_ensembl_gene">AC008738.2</symbol>
-          <long_name>AC008738.2 (pseudogene)</long_name>
+          <symbol source="Clone_based_ensembl_gene">AC008738.1</symbol>
+          <long_name>AC008738.1 (pseudogene)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000230259" />
           <transcript source="Ensembl" accession="ENST00000425420">
             <coordinates coord_system="LRG_456" start="5001" end="7578" strand="1" mapped_from="GRCh37" />
-            <long_name>AC008738.2-201 (pseudogene)</long_name>
+            <long_name>AC008738.1-201 (pseudogene)</long_name>
             <exon source="Ensembl" accession="ENSE00002276172">
               <coordinates coord_system="LRG_456" start="5001" end="5246" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -168,20 +253,35 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000178863">
-          <coordinates coord_system="LRG_456" start="2775" end="4455" strand="-1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_ensembl_gene">AC008738.1</symbol>
-          <long_name>AC008738.1 (pseudogene)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000178863" />
-          <transcript source="Ensembl" accession="ENST00000320232">
-            <coordinates coord_system="LRG_456" start="2775" end="4455" strand="-1" mapped_from="GRCh37" />
-            <long_name>AC008738.1-201 (pseudogene)</long_name>
-            <db_xref source="RefSeq" accession="NR_026887.1" />
-            <exon source="Ensembl" accession="ENSE00001221491">
-              <coordinates coord_system="LRG_456" start="4172" end="4455" strand="-1" mapped_from="GRCh37" />
+        <gene source="Ensembl" accession="ENSG00000267727">
+          <coordinates coord_system="LRG_456" start="5585" end="6246" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">CTD-2540B15.7</symbol>
+          <long_name>CTD-2540B15.7 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000267727" />
+          <transcript source="Ensembl" accession="ENST00000587312">
+            <coordinates coord_system="LRG_456" start="5585" end="6246" strand="-1" mapped_from="GRCh37" />
+            <long_name>CTD-2540B15.7-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002968264">
+              <coordinates coord_system="LRG_456" start="5891" end="6246" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001221486">
-              <coordinates coord_system="LRG_456" start="2775" end="4169" strand="-1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00002860909">
+              <coordinates coord_system="LRG_456" start="5585" end="5710" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000267580">
+          <coordinates coord_system="LRG_456" start="6357" end="7591" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">CTD-2540B15.11</symbol>
+          <long_name>CTD-2540B15.11 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000267580" />
+          <transcript source="Ensembl" accession="ENST00000589932">
+            <coordinates coord_system="LRG_456" start="6357" end="7591" strand="-1" mapped_from="GRCh37" />
+            <long_name>CTD-2540B15.11-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002893848">
+              <coordinates coord_system="LRG_456" start="7051" end="7591" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002914228">
+              <coordinates coord_system="LRG_456" start="6357" end="6474" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>

@@ -64,7 +64,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-07-24</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="6" other_id="NC_000006.11" other_start="158584379" other_end="158622376">
         <mapping_span lrg_start="1" lrg_end="37998" other_start="158584379" other_end="158622376" strand="1" />
       </mapping>
@@ -160,8 +160,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-07-24</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000438073.1" other_name="ENST00000438073.1" other_id="ENST00000438073.1" other_start="1" other_end="2125">
         <mapping_span lrg_start="5006" lrg_end="5049" other_start="1" other_end="44" strand="1" />
         <mapping_span lrg_start="7124" lrg_end="7192" other_start="45" other_end="113" strand="1" />
@@ -173,14 +173,16 @@
           <partial>3-prime</partial>
           <symbol source="HGNC">SERAC1</symbol>
           <long_name>serine active site containing 1 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="84947" />
           <db_xref source="HGNC" accession="21061">
             <synonym>FLJ14917</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="614725" />
           <db_xref source="Ensembl" accession="ENSG00000122335" />
           <transcript source="Ensembl" accession="ENST00000367104">
             <coordinates coord_system="LRG_469" start="1" end="4924" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>SERAC1-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens serine active site containing 1 (SERAC1), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS5255.1" />
             <db_xref source="RefSeq" accession="NM_032861.3" />
             <exon source="Ensembl" accession="ENSE00001344138">
@@ -208,6 +210,16 @@
           <coordinates coord_system="LRG_469" start="5006" end="30642" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">GTF2H5</symbol>
           <long_name>general transcription factor IIH, polypeptide 5 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="404672">
+            <synonym>bA120J8.2</synonym>
+            <synonym>C6orf175</synonym>
+            <synonym>TFB5</synonym>
+            <synonym>TFIIH</synonym>
+            <synonym>TGF2H5</synonym>
+            <synonym>TTD</synonym>
+            <synonym>TTD-A</synonym>
+            <synonym>TTDA</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="21157">
             <synonym>bA120J8.2</synonym>
             <synonym>C6orf175</synonym>
@@ -221,7 +233,7 @@
           <db_xref source="Ensembl" accession="ENSG00000185068" />
           <transcript source="Ensembl" accession="ENST00000438073">
             <coordinates coord_system="LRG_469" start="5006" end="30642" strand="1" mapped_from="GRCh37" />
-            <long_name>GTF2H5-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens general transcription factor IIH, polypeptide 5 (GTF2H5), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS5256.1" />
             <db_xref source="RefSeq" accession="NM_207118.2" />
             <exon source="Ensembl" accession="ENSE00001443488">
@@ -235,12 +247,25 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000415032">
               <coordinates coord_system="LRG_469" start="7158" end="28811" strand="1" mapped_from="GRCh37" />
-              <long_name>general transcription factor IIH, polypeptide 5</long_name>
+              <long_name>general transcription factor IIH subunit 5 </long_name>
               <db_xref source="RefSeq" accession="NP_997001.1" />
               <db_xref source="UniProtKB" accession="Q6ZYL4">
                 <synonym>Q0P5V8</synonym>
               </db_xref>
             </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000265803">
+          <coordinates coord_system="LRG_469" start="11638" end="11724" strand="1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_ensembl_gene">AL590703.1</symbol>
+          <long_name>AL590703.1 (miRNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000265803" />
+          <transcript source="Ensembl" accession="ENST00000580588">
+            <coordinates coord_system="LRG_469" start="11638" end="11724" strand="1" mapped_from="GRCh37" />
+            <long_name>AL590703.1-201 (miRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00002699360">
+              <coordinates coord_system="LRG_469" start="11638" end="11724" strand="1" mapped_from="GRCh37" />
+            </exon>
           </transcript>
         </gene>
       </features>
@@ -251,6 +276,13 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=GTF2H5</url>
       </source>
       <modification_date>2012-07-24</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - GTF2H5</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=GTF2H5</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

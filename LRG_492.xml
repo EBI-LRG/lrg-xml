@@ -209,7 +209,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="14" other_id="NC_000014.8" other_start="95550565" other_end="95628759">
         <mapping_span lrg_start="1" lrg_end="78195" other_start="95550565" other_end="95628759" strand="-1" />
       </mapping>
@@ -228,7 +228,7 @@
       <comment>Annotation from NG_016311.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_492" start="5001" end="5193" />
             <label>1</label>
@@ -564,8 +564,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000343455.3" other_name="ENST00000343455.3" other_id="ENST00000343455.3" other_start="1" other_end="10277">
         <mapping_span lrg_start="5001" lrg_end="5193" other_start="1" other_end="193" strand="1" />
         <mapping_span lrg_start="28920" lrg_end="29108" other_start="194" other_end="382" strand="1" />
@@ -790,10 +790,67 @@
         <mapping_span lrg_start="56200" lrg_end="56343" other_start="167" other_end="310" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000235706">
+          <coordinates coord_system="LRG_492" start="1" end="4778" strand="-1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <symbol source="HGNC">DICER1-AS1</symbol>
+          <long_name>DICER1 antisense RNA 1 (lincRNA)</long_name>
+          <db_xref source="GeneID" accession="400242">
+            <synonym>DICER1-AS</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="43017">
+            <synonym>DICER1-AS</synonym>
+            <synonym>FLJ45244</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000235706" />
+          <transcript source="Ensembl" accession="ENST00000554631">
+            <coordinates coord_system="LRG_492" start="1" end="4778" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>DICER1-AS1-004 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002444336">
+              <coordinates coord_system="LRG_492" start="3388" end="4778" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000439819">
+            <coordinates coord_system="LRG_492" start="1" end="4745" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>Homo sapiens DICER1 antisense RNA 1 (DICER1-AS1), non-coding RNA. (antisense)</long_name>
+            <db_xref source="RefSeq" accession="NR_015415.1" />
+            <exon source="Ensembl" accession="ENSE00001640529">
+              <coordinates coord_system="LRG_492" start="4565" end="4745" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001787875">
+              <coordinates coord_system="LRG_492" start="4189" end="4230" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001714092">
+              <coordinates coord_system="LRG_492" start="3388" end="3547" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000435343">
+            <coordinates coord_system="LRG_492" start="1" end="4663" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>DICER1-AS1-002 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00001690046">
+              <coordinates coord_system="LRG_492" start="4565" end="4663" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001787875">
+              <coordinates coord_system="LRG_492" start="4189" end="4230" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001714092">
+              <coordinates coord_system="LRG_492" start="3388" end="3547" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000100697">
           <coordinates coord_system="LRG_492" start="4413" end="76195" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">DICER1</symbol>
           <long_name>dicer 1, ribonuclease type III (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="23405">
+            <synonym>DCR1</synonym>
+            <synonym>Dicer</synonym>
+            <synonym>HERNA</synonym>
+            <synonym>MNG1</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="17098">
             <synonym>Dicer</synonym>
             <synonym>HERNA</synonym>
@@ -802,113 +859,11 @@
           </db_xref>
           <db_xref source="MIM" accession="606241" />
           <db_xref source="Ensembl" accession="ENSG00000100697" />
-          <transcript source="Ensembl" accession="ENST00000343455">
-            <coordinates coord_system="LRG_492" start="5001" end="76195" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-001 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS9931.1" />
-            <db_xref source="RefSeq" accession="NM_030621.3" />
-            <db_xref source="RefSeq" accession="NM_177438.2" />
-            <exon source="Ensembl" accession="ENSE00001370809">
-              <coordinates coord_system="LRG_492" start="5001" end="5193" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002599164">
-              <coordinates coord_system="LRG_492" start="28920" end="29108" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660064">
-              <coordinates coord_system="LRG_492" start="29746" end="29908" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660065">
-              <coordinates coord_system="LRG_492" start="30784" end="30914" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660066">
-              <coordinates coord_system="LRG_492" start="32231" end="32365" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660067">
-              <coordinates coord_system="LRG_492" start="32791" end="32951" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660068">
-              <coordinates coord_system="LRG_492" start="35675" end="35843" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660069">
-              <coordinates coord_system="LRG_492" start="37755" end="38227" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660070">
-              <coordinates coord_system="LRG_492" start="44669" end="44801" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660071">
-              <coordinates coord_system="LRG_492" start="45728" end="45970" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660072">
-              <coordinates coord_system="LRG_492" start="46602" end="46756" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660073">
-              <coordinates coord_system="LRG_492" start="49199" end="49331" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660074">
-              <coordinates coord_system="LRG_492" start="50176" end="50251" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001364566">
-              <coordinates coord_system="LRG_492" start="50967" end="51106" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000858391">
-              <coordinates coord_system="LRG_492" start="53920" end="54099" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660077">
-              <coordinates coord_system="LRG_492" start="54330" end="54543" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660078">
-              <coordinates coord_system="LRG_492" start="54662" end="54815" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660079">
-              <coordinates coord_system="LRG_492" start="56200" end="56382" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660080">
-              <coordinates coord_system="LRG_492" start="56640" end="56745" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660081">
-              <coordinates coord_system="LRG_492" start="57177" end="57352" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660082">
-              <coordinates coord_system="LRG_492" start="58297" end="59077" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660083">
-              <coordinates coord_system="LRG_492" start="62488" end="62643" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660084">
-              <coordinates coord_system="LRG_492" start="65710" end="66598" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660085">
-              <coordinates coord_system="LRG_492" start="68267" end="68535" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660087">
-              <coordinates coord_system="LRG_492" start="71058" end="71220" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660089">
-              <coordinates coord_system="LRG_492" start="71314" end="71389" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002180768">
-              <coordinates coord_system="LRG_492" start="71760" end="76195" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000343745">
-              <coordinates coord_system="LRG_492" start="28965" end="71925" strand="1" mapped_from="GRCh37" />
-              <long_name>dicer 1, ribonuclease type III</long_name>
-              <db_xref source="RefSeq" accession="NP_085124.2" />
-              <db_xref source="RefSeq" accession="NP_803187.1" />
-              <db_xref source="UniProtKB" accession="Q5D0K5" />
-              <db_xref source="UniProtKB" accession="B3KMJ0" />
-              <db_xref source="UniProtKB" accession="Q9UPY3">
-                <synonym>A7E2D3</synonym>
-                <synonym>O95943</synonym>
-                <synonym>Q9UQ02</synonym>
-              </db_xref>
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000526495">
             <coordinates coord_system="LRG_492" start="4413" end="76195" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-004 (protein_coding)</long_name>
+            <long_name>Homo sapiens dicer 1, ribonuclease type III (DICER1), transcript variant 2, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9931.1" />
             <db_xref source="RefSeq" accession="NM_030621.3" />
-            <db_xref source="RefSeq" accession="NM_177438.2" />
             <exon source="Ensembl" accession="ENSE00002182834">
               <coordinates coord_system="LRG_492" start="4413" end="4492" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -918,16 +873,16 @@
             <exon source="Ensembl" accession="ENSE00001514081">
               <coordinates coord_system="LRG_492" start="21664" end="21764" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002599164">
+            <exon source="Ensembl" accession="ENSE00003030044">
               <coordinates coord_system="LRG_492" start="28920" end="29108" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660064">
+            <exon source="Ensembl" accession="ENSE00003102690">
               <coordinates coord_system="LRG_492" start="29746" end="29908" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660065">
+            <exon source="Ensembl" accession="ENSE00003188808">
               <coordinates coord_system="LRG_492" start="30784" end="30914" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660066">
+            <exon source="Ensembl" accession="ENSE00003194193">
               <coordinates coord_system="LRG_492" start="32231" end="32365" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660067">
@@ -939,13 +894,13 @@
             <exon source="Ensembl" accession="ENSE00000660069">
               <coordinates coord_system="LRG_492" start="37755" end="38227" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660070">
+            <exon source="Ensembl" accession="ENSE00003026105">
               <coordinates coord_system="LRG_492" start="44669" end="44801" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660071">
               <coordinates coord_system="LRG_492" start="45728" end="45970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660072">
+            <exon source="Ensembl" accession="ENSE00003046294">
               <coordinates coord_system="LRG_492" start="46602" end="46756" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660073">
@@ -969,10 +924,10 @@
             <exon source="Ensembl" accession="ENSE00000660079">
               <coordinates coord_system="LRG_492" start="56200" end="56382" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660080">
+            <exon source="Ensembl" accession="ENSE00003155574">
               <coordinates coord_system="LRG_492" start="56640" end="56745" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660081">
+            <exon source="Ensembl" accession="ENSE00003187276">
               <coordinates coord_system="LRG_492" start="57177" end="57352" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660082">
@@ -990,7 +945,7 @@
             <exon source="Ensembl" accession="ENSE00000660087">
               <coordinates coord_system="LRG_492" start="71058" end="71220" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660089">
+            <exon source="Ensembl" accession="ENSE00003183474">
               <coordinates coord_system="LRG_492" start="71314" end="71389" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002180768">
@@ -998,48 +953,71 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000437256">
               <coordinates coord_system="LRG_492" start="28965" end="71925" strand="1" mapped_from="GRCh37" />
-              <long_name>dicer 1, ribonuclease type III</long_name>
+              <long_name>endoribonuclease Dicer isoform 1 </long_name>
               <db_xref source="RefSeq" accession="NP_085124.2" />
-              <db_xref source="RefSeq" accession="NP_803187.1" />
-              <db_xref source="UniProtKB" accession="Q5D0K5" />
               <db_xref source="UniProtKB" accession="B3KMJ0" />
+              <db_xref source="UniProtKB" accession="Q5D0K5" />
+              <db_xref source="UniProtKB" accession="Q9UPY3">
+                <synonym>A7E2D3</synonym>
+                <synonym>E0AD28</synonym>
+                <synonym>O95943</synonym>
+                <synonym>Q9UQ02</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000527416">
-            <coordinates coord_system="LRG_492" start="71101" end="73758" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-010 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002156924">
-              <coordinates coord_system="LRG_492" start="71101" end="71220" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000527865">
+            <coordinates coord_system="LRG_492" start="4413" end="29003" strand="1" mapped_from="GRCh37" />
+            <long_name>DICER1-007 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002182834">
+              <coordinates coord_system="LRG_492" start="4413" end="4492" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002145320">
-              <coordinates coord_system="LRG_492" start="71314" end="71389" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00002169134">
+              <coordinates coord_system="LRG_492" start="28920" end="29003" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002172416">
-              <coordinates coord_system="LRG_492" start="71760" end="71910" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002177947">
-              <coordinates coord_system="LRG_492" start="73415" end="73758" strand="1" mapped_from="GRCh37" />
-            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000433384">
+              <coordinates coord_system="LRG_492" start="28965" end="29003" strand="1" mapped_from="GRCh37" />
+            </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000527414">
-            <coordinates coord_system="LRG_492" start="25613" end="72102" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-006 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS9931.1" />
-            <db_xref source="RefSeq" accession="NM_030621.3" />
-            <db_xref source="RefSeq" accession="NM_177438.2" />
-            <exon source="Ensembl" accession="ENSE00002166859">
-              <coordinates coord_system="LRG_492" start="25613" end="25800" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000529206">
+            <coordinates coord_system="LRG_492" start="4937" end="33362" strand="1" mapped_from="GRCh37" />
+            <long_name>DICER1-005 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002156203">
+              <coordinates coord_system="LRG_492" start="4937" end="5032" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002599164">
+            <exon source="Ensembl" accession="ENSE00003010001">
               <coordinates coord_system="LRG_492" start="28920" end="29108" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660064">
+            <exon source="Ensembl" accession="ENSE00003013041">
               <coordinates coord_system="LRG_492" start="29746" end="29908" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660065">
+            <exon source="Ensembl" accession="ENSE00003160216">
               <coordinates coord_system="LRG_492" start="30784" end="30914" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660066">
+            <exon source="Ensembl" accession="ENSE00003073086">
+              <coordinates coord_system="LRG_492" start="32231" end="32365" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002198300">
+              <coordinates coord_system="LRG_492" start="32791" end="33362" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000343455">
+            <coordinates coord_system="LRG_492" start="5001" end="76195" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens dicer 1, ribonuclease type III (DICER1), transcript variant 1, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS9931.1" />
+            <db_xref source="RefSeq" accession="NM_177438.2" />
+            <exon source="Ensembl" accession="ENSE00001370809">
+              <coordinates coord_system="LRG_492" start="5001" end="5193" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003030044">
+              <coordinates coord_system="LRG_492" start="28920" end="29108" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003102690">
+              <coordinates coord_system="LRG_492" start="29746" end="29908" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003188808">
+              <coordinates coord_system="LRG_492" start="30784" end="30914" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003194193">
               <coordinates coord_system="LRG_492" start="32231" end="32365" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660067">
@@ -1051,13 +1029,13 @@
             <exon source="Ensembl" accession="ENSE00000660069">
               <coordinates coord_system="LRG_492" start="37755" end="38227" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660070">
+            <exon source="Ensembl" accession="ENSE00003026105">
               <coordinates coord_system="LRG_492" start="44669" end="44801" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660071">
               <coordinates coord_system="LRG_492" start="45728" end="45970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660072">
+            <exon source="Ensembl" accession="ENSE00003046294">
               <coordinates coord_system="LRG_492" start="46602" end="46756" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660073">
@@ -1081,10 +1059,10 @@
             <exon source="Ensembl" accession="ENSE00000660079">
               <coordinates coord_system="LRG_492" start="56200" end="56382" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660080">
+            <exon source="Ensembl" accession="ENSE00003155574">
               <coordinates coord_system="LRG_492" start="56640" end="56745" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660081">
+            <exon source="Ensembl" accession="ENSE00003187276">
               <coordinates coord_system="LRG_492" start="57177" end="57352" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660082">
@@ -1102,167 +1080,25 @@
             <exon source="Ensembl" accession="ENSE00000660087">
               <coordinates coord_system="LRG_492" start="71058" end="71220" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660089">
+            <exon source="Ensembl" accession="ENSE00003183474">
               <coordinates coord_system="LRG_492" start="71314" end="71389" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002164229">
-              <coordinates coord_system="LRG_492" start="71760" end="72102" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00002180768">
+              <coordinates coord_system="LRG_492" start="71760" end="76195" strand="1" mapped_from="GRCh37" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000435681">
+            <protein_product source="Ensembl" accession="ENSP00000343745">
               <coordinates coord_system="LRG_492" start="28965" end="71925" strand="1" mapped_from="GRCh37" />
-              <long_name>dicer 1, ribonuclease type III</long_name>
-              <db_xref source="RefSeq" accession="NP_085124.2" />
+              <long_name>endoribonuclease Dicer isoform 1 </long_name>
               <db_xref source="RefSeq" accession="NP_803187.1" />
+              <db_xref source="UniProtKB" accession="B3KMJ0" />
               <db_xref source="UniProtKB" accession="Q5D0K5" />
-              <db_xref source="UniProtKB" accession="B3KMJ0" />
+              <db_xref source="UniProtKB" accession="Q9UPY3">
+                <synonym>A7E2D3</synonym>
+                <synonym>E0AD28</synonym>
+                <synonym>O95943</synonym>
+                <synonym>Q9UQ02</synonym>
+              </db_xref>
             </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000556045">
-            <coordinates coord_system="LRG_492" start="56342" end="71955" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-014 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002468110">
-              <coordinates coord_system="LRG_492" start="56342" end="56382" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002437513">
-              <coordinates coord_system="LRG_492" start="56640" end="56745" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002580970">
-              <coordinates coord_system="LRG_492" start="57177" end="57352" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002485181">
-              <coordinates coord_system="LRG_492" start="58374" end="59077" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660083">
-              <coordinates coord_system="LRG_492" start="62488" end="62643" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660084">
-              <coordinates coord_system="LRG_492" start="65710" end="66598" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660085">
-              <coordinates coord_system="LRG_492" start="68267" end="68535" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660087">
-              <coordinates coord_system="LRG_492" start="71058" end="71220" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660089">
-              <coordinates coord_system="LRG_492" start="71314" end="71389" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002476310">
-              <coordinates coord_system="LRG_492" start="71760" end="71955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000451041">
-              <coordinates coord_system="LRG_492" start="57313" end="71925" strand="1" mapped_from="GRCh37" />
-              <long_name>dicer 1, ribonuclease type III</long_name>
-              <db_xref source="UniProtKB" accession="B3KRG4" />
-              <db_xref source="UniProtKB" accession="B3KMJ0" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000527554">
-            <coordinates coord_system="LRG_492" start="71001" end="71758" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-011 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002141562">
-              <coordinates coord_system="LRG_492" start="71001" end="71220" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002188673">
-              <coordinates coord_system="LRG_492" start="71314" end="71758" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000532939">
-            <coordinates coord_system="LRG_492" start="58993" end="67075" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-008 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002169695">
-              <coordinates coord_system="LRG_492" start="58993" end="59077" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000660083">
-              <coordinates coord_system="LRG_492" start="62488" end="62643" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002197387">
-              <coordinates coord_system="LRG_492" start="65710" end="67075" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000452556" codon_start="3">
-              <coordinates coord_system="LRG_492" start="58993" end="66651" strand="1" mapped_from="GRCh37" />
-              <long_name>dicer 1, ribonuclease type III</long_name>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000554367">
-            <coordinates coord_system="LRG_492" start="56187" end="58715" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-015 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002463803">
-              <coordinates coord_system="LRG_492" start="56187" end="56382" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002437513">
-              <coordinates coord_system="LRG_492" start="56640" end="56745" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002618865">
-              <coordinates coord_system="LRG_492" start="57177" end="57352" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002472183">
-              <coordinates coord_system="LRG_492" start="58297" end="58715" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000556681">
-            <coordinates coord_system="LRG_492" start="54650" end="56343" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-013 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002453980">
-              <coordinates coord_system="LRG_492" start="54650" end="54815" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002454381">
-              <coordinates coord_system="LRG_492" start="56200" end="56343" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000529468">
-            <coordinates coord_system="LRG_492" start="50634" end="54413" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-012 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002155922">
-              <coordinates coord_system="LRG_492" start="50634" end="51116" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002193768">
-              <coordinates coord_system="LRG_492" start="53984" end="54099" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002150112">
-              <coordinates coord_system="LRG_492" start="54330" end="54413" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000532458">
-            <coordinates coord_system="LRG_492" start="38148" end="49293" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-009 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002155534">
-              <coordinates coord_system="LRG_492" start="38148" end="38227" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002166498">
-              <coordinates coord_system="LRG_492" start="44669" end="44801" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002187253">
-              <coordinates coord_system="LRG_492" start="45843" end="45970" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002199811">
-              <coordinates coord_system="LRG_492" start="46602" end="46756" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002144698">
-              <coordinates coord_system="LRG_492" start="49199" end="49293" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000529206">
-            <coordinates coord_system="LRG_492" start="4937" end="33362" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-005 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002156203">
-              <coordinates coord_system="LRG_492" start="4937" end="5032" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002622345">
-              <coordinates coord_system="LRG_492" start="28920" end="29108" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002194084">
-              <coordinates coord_system="LRG_492" start="29746" end="29908" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002155309">
-              <coordinates coord_system="LRG_492" start="30784" end="30914" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002162972">
-              <coordinates coord_system="LRG_492" start="32231" end="32365" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002198300">
-              <coordinates coord_system="LRG_492" start="32791" end="33362" strand="1" mapped_from="GRCh37" />
-            </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000531162">
             <coordinates coord_system="LRG_492" start="5153" end="29812" strand="1" mapped_from="GRCh37" />
@@ -1279,7 +1115,7 @@
             <exon source="Ensembl" accession="ENSE00002160451">
               <coordinates coord_system="LRG_492" start="27920" end="28062" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002599164">
+            <exon source="Ensembl" accession="ENSE00003030044">
               <coordinates coord_system="LRG_492" start="28920" end="29108" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002182304">
@@ -1287,7 +1123,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000433060">
               <coordinates coord_system="LRG_492" start="28965" end="29812" strand="1" mapped_from="GRCh37" />
-              <long_name>dicer 1, ribonuclease type III</long_name>
               <db_xref source="UniProtKB" accession="Q5D0K5" />
             </protein_product>
           </transcript>
@@ -1306,7 +1141,7 @@
             <exon source="Ensembl" accession="ENSE00001514081">
               <coordinates coord_system="LRG_492" start="21664" end="21764" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002599164">
+            <exon source="Ensembl" accession="ENSE00003030044">
               <coordinates coord_system="LRG_492" start="28920" end="29108" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002182304">
@@ -1314,46 +1149,29 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000433926">
               <coordinates coord_system="LRG_492" start="28965" end="29812" strand="1" mapped_from="GRCh37" />
-              <long_name>dicer 1, ribonuclease type III</long_name>
               <db_xref source="UniProtKB" accession="Q5D0K5" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000527865">
-            <coordinates coord_system="LRG_492" start="4413" end="29003" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-007 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002182834">
-              <coordinates coord_system="LRG_492" start="4413" end="4492" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002169134">
-              <coordinates coord_system="LRG_492" start="28920" end="29003" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000433384">
-              <coordinates coord_system="LRG_492" start="28965" end="29003" strand="1" mapped_from="GRCh37" />
-              <long_name>dicer 1, ribonuclease type III</long_name>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000393063">
             <coordinates coord_system="LRG_492" start="20705" end="76194" strand="1" mapped_from="GRCh37" />
             <long_name>DICER1-201 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9931.1" />
-            <db_xref source="RefSeq" accession="NM_030621.3" />
-            <db_xref source="RefSeq" accession="NM_177438.2" />
             <exon source="Ensembl" accession="ENSE00001514082">
               <coordinates coord_system="LRG_492" start="20705" end="20740" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001514081">
               <coordinates coord_system="LRG_492" start="21664" end="21764" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002599164">
+            <exon source="Ensembl" accession="ENSE00003030044">
               <coordinates coord_system="LRG_492" start="28920" end="29108" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660064">
+            <exon source="Ensembl" accession="ENSE00003102690">
               <coordinates coord_system="LRG_492" start="29746" end="29908" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660065">
+            <exon source="Ensembl" accession="ENSE00003188808">
               <coordinates coord_system="LRG_492" start="30784" end="30914" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660066">
+            <exon source="Ensembl" accession="ENSE00003194193">
               <coordinates coord_system="LRG_492" start="32231" end="32365" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660067">
@@ -1365,13 +1183,13 @@
             <exon source="Ensembl" accession="ENSE00000660069">
               <coordinates coord_system="LRG_492" start="37755" end="38227" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660070">
+            <exon source="Ensembl" accession="ENSE00003026105">
               <coordinates coord_system="LRG_492" start="44669" end="44801" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660071">
               <coordinates coord_system="LRG_492" start="45728" end="45970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660072">
+            <exon source="Ensembl" accession="ENSE00003046294">
               <coordinates coord_system="LRG_492" start="46602" end="46756" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660073">
@@ -1395,10 +1213,10 @@
             <exon source="Ensembl" accession="ENSE00000660079">
               <coordinates coord_system="LRG_492" start="56200" end="56382" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660080">
+            <exon source="Ensembl" accession="ENSE00003155574">
               <coordinates coord_system="LRG_492" start="56640" end="56745" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660081">
+            <exon source="Ensembl" accession="ENSE00003187276">
               <coordinates coord_system="LRG_492" start="57177" end="57352" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660082">
@@ -1416,7 +1234,7 @@
             <exon source="Ensembl" accession="ENSE00000660087">
               <coordinates coord_system="LRG_492" start="71058" end="71220" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660089">
+            <exon source="Ensembl" accession="ENSE00003183474">
               <coordinates coord_system="LRG_492" start="71314" end="71389" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001305539">
@@ -1424,33 +1242,34 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000376783">
               <coordinates coord_system="LRG_492" start="28965" end="71925" strand="1" mapped_from="GRCh37" />
-              <long_name>dicer 1, ribonuclease type III</long_name>
-              <db_xref source="RefSeq" accession="NP_085124.2" />
-              <db_xref source="RefSeq" accession="NP_803187.1" />
-              <db_xref source="UniProtKB" accession="Q5D0K5" />
               <db_xref source="UniProtKB" accession="B3KMJ0" />
+              <db_xref source="UniProtKB" accession="Q5D0K5" />
               <db_xref source="UniProtKB" accession="Q9UPY3">
                 <synonym>A7E2D3</synonym>
+                <synonym>E0AD28</synonym>
                 <synonym>O95943</synonym>
                 <synonym>Q9UQ02</synonym>
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000541352">
-            <coordinates coord_system="LRG_492" start="28956" end="71931" strand="1" mapped_from="GRCh37" />
-            <long_name>DICER1-202 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS55941.1" />
-            <db_xref source="RefSeq" accession="NM_001195573.1" />
-            <exon source="Ensembl" accession="ENSE00002214008">
-              <coordinates coord_system="LRG_492" start="28956" end="29108" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000527414">
+            <coordinates coord_system="LRG_492" start="25613" end="72102" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens dicer 1, ribonuclease type III (DICER1), transcript variant 4, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS9931.1" />
+            <db_xref source="RefSeq" accession="NM_001271282.1" />
+            <exon source="Ensembl" accession="ENSE00002166859">
+              <coordinates coord_system="LRG_492" start="25613" end="25800" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660064">
+            <exon source="Ensembl" accession="ENSE00003030044">
+              <coordinates coord_system="LRG_492" start="28920" end="29108" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003102690">
               <coordinates coord_system="LRG_492" start="29746" end="29908" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660065">
+            <exon source="Ensembl" accession="ENSE00003188808">
               <coordinates coord_system="LRG_492" start="30784" end="30914" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660066">
+            <exon source="Ensembl" accession="ENSE00003194193">
               <coordinates coord_system="LRG_492" start="32231" end="32365" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660067">
@@ -1462,13 +1281,13 @@
             <exon source="Ensembl" accession="ENSE00000660069">
               <coordinates coord_system="LRG_492" start="37755" end="38227" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660070">
+            <exon source="Ensembl" accession="ENSE00003026105">
               <coordinates coord_system="LRG_492" start="44669" end="44801" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660071">
               <coordinates coord_system="LRG_492" start="45728" end="45970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660072">
+            <exon source="Ensembl" accession="ENSE00003046294">
               <coordinates coord_system="LRG_492" start="46602" end="46756" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660073">
@@ -1492,10 +1311,10 @@
             <exon source="Ensembl" accession="ENSE00000660079">
               <coordinates coord_system="LRG_492" start="56200" end="56382" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660080">
+            <exon source="Ensembl" accession="ENSE00003155574">
               <coordinates coord_system="LRG_492" start="56640" end="56745" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000660081">
+            <exon source="Ensembl" accession="ENSE00003187276">
               <coordinates coord_system="LRG_492" start="57177" end="57352" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000660082">
@@ -1510,7 +1329,104 @@
             <exon source="Ensembl" accession="ENSE00000660085">
               <coordinates coord_system="LRG_492" start="68267" end="68535" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002218719">
+            <exon source="Ensembl" accession="ENSE00000660087">
+              <coordinates coord_system="LRG_492" start="71058" end="71220" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003183474">
+              <coordinates coord_system="LRG_492" start="71314" end="71389" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002164229">
+              <coordinates coord_system="LRG_492" start="71760" end="72102" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000435681">
+              <coordinates coord_system="LRG_492" start="28965" end="71925" strand="1" mapped_from="GRCh37" />
+              <long_name>endoribonuclease Dicer isoform 1 </long_name>
+              <db_xref source="RefSeq" accession="NP_001258211.1" />
+              <db_xref source="UniProtKB" accession="B3KMJ0" />
+              <db_xref source="UniProtKB" accession="Q5D0K5" />
+              <db_xref source="UniProtKB" accession="Q9UPY3">
+                <synonym>A7E2D3</synonym>
+                <synonym>E0AD28</synonym>
+                <synonym>O95943</synonym>
+                <synonym>Q9UQ02</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000541352">
+            <coordinates coord_system="LRG_492" start="28956" end="71931" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens dicer 1, ribonuclease type III (DICER1), transcript variant 3, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS55941.1" />
+            <db_xref source="RefSeq" accession="NM_001195573.1" />
+            <exon source="Ensembl" accession="ENSE00002214008">
+              <coordinates coord_system="LRG_492" start="28956" end="29108" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003102690">
+              <coordinates coord_system="LRG_492" start="29746" end="29908" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003188808">
+              <coordinates coord_system="LRG_492" start="30784" end="30914" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003194193">
+              <coordinates coord_system="LRG_492" start="32231" end="32365" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660067">
+              <coordinates coord_system="LRG_492" start="32791" end="32951" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660068">
+              <coordinates coord_system="LRG_492" start="35675" end="35843" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660069">
+              <coordinates coord_system="LRG_492" start="37755" end="38227" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003026105">
+              <coordinates coord_system="LRG_492" start="44669" end="44801" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660071">
+              <coordinates coord_system="LRG_492" start="45728" end="45970" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003046294">
+              <coordinates coord_system="LRG_492" start="46602" end="46756" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660073">
+              <coordinates coord_system="LRG_492" start="49199" end="49331" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660074">
+              <coordinates coord_system="LRG_492" start="50176" end="50251" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001364566">
+              <coordinates coord_system="LRG_492" start="50967" end="51106" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000858391">
+              <coordinates coord_system="LRG_492" start="53920" end="54099" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660077">
+              <coordinates coord_system="LRG_492" start="54330" end="54543" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660078">
+              <coordinates coord_system="LRG_492" start="54662" end="54815" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660079">
+              <coordinates coord_system="LRG_492" start="56200" end="56382" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003155574">
+              <coordinates coord_system="LRG_492" start="56640" end="56745" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003187276">
+              <coordinates coord_system="LRG_492" start="57177" end="57352" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660082">
+              <coordinates coord_system="LRG_492" start="58297" end="59077" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660083">
+              <coordinates coord_system="LRG_492" start="62488" end="62643" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660084">
+              <coordinates coord_system="LRG_492" start="65710" end="66598" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660085">
+              <coordinates coord_system="LRG_492" start="68267" end="68535" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003008547">
               <coordinates coord_system="LRG_492" start="71314" end="71389" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002254990">
@@ -1518,57 +1434,173 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000444719">
               <coordinates coord_system="LRG_492" start="28965" end="71809" strand="1" mapped_from="GRCh37" />
-              <long_name>dicer 1, ribonuclease type III</long_name>
+              <long_name>endoribonuclease Dicer isoform 2 </long_name>
               <db_xref source="RefSeq" accession="NP_001182502.1" />
               <db_xref source="UniProtKB" accession="Q5D0K5" />
-              <db_xref source="UniProtKB" accession="E0AD28" />
+              <db_xref source="UniProtKB" accession="Q9UPY3">
+                <synonym>A7E2D3</synonym>
+                <synonym>E0AD28</synonym>
+                <synonym>O95943</synonym>
+                <synonym>Q9UQ02</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000532458">
+            <coordinates coord_system="LRG_492" start="38148" end="49293" strand="1" mapped_from="GRCh37" />
+            <long_name>DICER1-009 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002155534">
+              <coordinates coord_system="LRG_492" start="38148" end="38227" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002981414">
+              <coordinates coord_system="LRG_492" start="44669" end="44801" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002187253">
+              <coordinates coord_system="LRG_492" start="45843" end="45970" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003194215">
+              <coordinates coord_system="LRG_492" start="46602" end="46756" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002144698">
+              <coordinates coord_system="LRG_492" start="49199" end="49293" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000529468">
+            <coordinates coord_system="LRG_492" start="50634" end="54413" strand="1" mapped_from="GRCh37" />
+            <long_name>DICER1-012 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002155922">
+              <coordinates coord_system="LRG_492" start="50634" end="51116" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002193768">
+              <coordinates coord_system="LRG_492" start="53984" end="54099" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002150112">
+              <coordinates coord_system="LRG_492" start="54330" end="54413" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000556681">
+            <coordinates coord_system="LRG_492" start="54650" end="56343" strand="1" mapped_from="GRCh37" />
+            <long_name>DICER1-013 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002453980">
+              <coordinates coord_system="LRG_492" start="54650" end="54815" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002454381">
+              <coordinates coord_system="LRG_492" start="56200" end="56343" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000554367">
+            <coordinates coord_system="LRG_492" start="56187" end="58715" strand="1" mapped_from="GRCh37" />
+            <long_name>DICER1-015 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002463803">
+              <coordinates coord_system="LRG_492" start="56187" end="56382" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003149496">
+              <coordinates coord_system="LRG_492" start="56640" end="56745" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003161585">
+              <coordinates coord_system="LRG_492" start="57177" end="57352" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002472183">
+              <coordinates coord_system="LRG_492" start="58297" end="58715" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000556045">
+            <coordinates coord_system="LRG_492" start="56342" end="71955" strand="1" mapped_from="GRCh37" />
+            <long_name>DICER1-014 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002468110">
+              <coordinates coord_system="LRG_492" start="56342" end="56382" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003149496">
+              <coordinates coord_system="LRG_492" start="56640" end="56745" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003175423">
+              <coordinates coord_system="LRG_492" start="57177" end="57352" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002485181">
+              <coordinates coord_system="LRG_492" start="58374" end="59077" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660083">
+              <coordinates coord_system="LRG_492" start="62488" end="62643" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660084">
+              <coordinates coord_system="LRG_492" start="65710" end="66598" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660085">
+              <coordinates coord_system="LRG_492" start="68267" end="68535" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660087">
+              <coordinates coord_system="LRG_492" start="71058" end="71220" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003183474">
+              <coordinates coord_system="LRG_492" start="71314" end="71389" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002476310">
+              <coordinates coord_system="LRG_492" start="71760" end="71955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000451041">
+              <coordinates coord_system="LRG_492" start="57313" end="71925" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="B3KMJ0" />
+              <db_xref source="UniProtKB" accession="B3KRG4" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000532939">
+            <coordinates coord_system="LRG_492" start="58993" end="67075" strand="1" mapped_from="GRCh37" />
+            <long_name>DICER1-008 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002169695">
+              <coordinates coord_system="LRG_492" start="58993" end="59077" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000660083">
+              <coordinates coord_system="LRG_492" start="62488" end="62643" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002197387">
+              <coordinates coord_system="LRG_492" start="65710" end="67075" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000452556" codon_start="3">
+              <coordinates coord_system="LRG_492" start="58993" end="66651" strand="1" mapped_from="GRCh37" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000527554">
+            <coordinates coord_system="LRG_492" start="71001" end="71758" strand="1" mapped_from="GRCh37" />
+            <long_name>DICER1-011 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002141562">
+              <coordinates coord_system="LRG_492" start="71001" end="71220" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002188673">
+              <coordinates coord_system="LRG_492" start="71314" end="71758" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000527416">
+            <coordinates coord_system="LRG_492" start="71101" end="73758" strand="1" mapped_from="GRCh37" />
+            <long_name>DICER1-010 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002156924">
+              <coordinates coord_system="LRG_492" start="71101" end="71220" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003034510">
+              <coordinates coord_system="LRG_492" start="71314" end="71389" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002172416">
+              <coordinates coord_system="LRG_492" start="71760" end="71910" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002177947">
+              <coordinates coord_system="LRG_492" start="73415" end="73758" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000235706">
-          <coordinates coord_system="LRG_492" start="1" end="4778" strand="-1" mapped_from="GRCh37" />
-          <partial>3-prime</partial>
-          <symbol source="HGNC">DICER1-AS</symbol>
-          <long_name>DICER1 antisense RNA (non-protein coding) (processed_transcript)</long_name>
-          <db_xref source="HGNC" accession="43017">
-            <synonym>FLJ45244</synonym>
+        <gene source="Ensembl" accession="ENSG00000264607">
+          <coordinates coord_system="LRG_492" start="24437" end="24504" strand="1" mapped_from="GRCh37" />
+          <symbol source="HGNC">MIR3173</symbol>
+          <long_name>microRNA 3173 (miRNA)</long_name>
+          <db_xref source="GeneID" accession="100422981" />
+          <db_xref source="HGNC" accession="38174">
+            <synonym>hsa-mir-3173</synonym>
           </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000235706" />
-          <transcript source="Ensembl" accession="ENST00000554631">
-            <coordinates coord_system="LRG_492" start="1" end="4778" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>DICER1-AS-004 (antisense)</long_name>
-            <exon source="Ensembl" accession="ENSE00002444336">
-              <coordinates coord_system="LRG_492" start="3388" end="4778" strand="-1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000439819">
-            <coordinates coord_system="LRG_492" start="1" end="4745" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>DICER1-AS-001 (antisense)</long_name>
-            <db_xref source="RefSeq" accession="NR_015415.1" />
-            <exon source="Ensembl" accession="ENSE00001640529">
-              <coordinates coord_system="LRG_492" start="4565" end="4745" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001787875">
-              <coordinates coord_system="LRG_492" start="4189" end="4230" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001714092">
-              <coordinates coord_system="LRG_492" start="3388" end="3547" strand="-1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000435343">
-            <coordinates coord_system="LRG_492" start="1" end="4663" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>DICER1-AS-002 (antisense)</long_name>
-            <exon source="Ensembl" accession="ENSE00001690046">
-              <coordinates coord_system="LRG_492" start="4565" end="4663" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001787875">
-              <coordinates coord_system="LRG_492" start="4189" end="4230" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001714092">
-              <coordinates coord_system="LRG_492" start="3388" end="3547" strand="-1" mapped_from="GRCh37" />
+          <db_xref source="miRBase" accession="MI0014204" />
+          <db_xref source="Ensembl" accession="ENSG00000264607" />
+          <transcript source="Ensembl" accession="ENST00000580810">
+            <coordinates coord_system="LRG_492" start="24437" end="24504" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens microRNA 3173 (MIR3173), microRNA. (miRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_036131.1" />
+            <exon source="Ensembl" accession="ENSE00002696963">
+              <coordinates coord_system="LRG_492" start="24437" end="24504" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
@@ -1580,6 +1612,13 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=DICER1</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - DICER1</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=DICER1</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

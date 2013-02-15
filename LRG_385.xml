@@ -186,7 +186,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-10-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p9" other_name="10" other_id="NC_000010.10" other_start="88423321" other_end="88497825">
         <mapping_span lrg_start="1" lrg_end="74505" other_start="88423321" other_end="88497825" strand="1" />
       </mapping>
@@ -563,8 +563,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-10-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000263066.6" other_name="ENST00000263066.6" other_id="ENST00000263066.6" other_start="1" other_end="4966">
         <mapping_span lrg_start="5106" lrg_end="5221" other_start="1" other_end="116" strand="1" />
         <mapping_span lrg_start="15804" lrg_end="15955" other_start="117" other_end="268" strand="1" />
@@ -737,6 +737,9 @@
           <partial>5-prime</partial>
           <symbol source="HGNC">OPN4</symbol>
           <long_name>opsin 4 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="94233">
+            <synonym>MOP</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="14449">
             <synonym>melanopsin</synonym>
             <synonym>MOP</synonym>
@@ -746,7 +749,7 @@
           <transcript source="Ensembl" accession="ENST00000241891">
             <coordinates coord_system="LRG_385" start="1" end="2892" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>OPN4-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens opsin 4 (OPN4), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS7376.1" />
             <db_xref source="RefSeq" accession="NM_033282.3" />
             <exon source="Ensembl" accession="ENSE00000998827">
@@ -758,7 +761,7 @@
             <protein_product source="Ensembl" accession="ENSP00000241891">
               <coordinates coord_system="LRG_385" start="1" end="2188" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>opsin 4</long_name>
+              <long_name>melanopsin isoform 1 </long_name>
               <db_xref source="RefSeq" accession="NP_150598.1" />
               <db_xref source="UniProtKB" accession="Q9UHM6">
                 <synonym>B7ZLB3</synonym>
@@ -781,14 +784,13 @@
             <protein_product source="Ensembl" accession="ENSP00000393132">
               <coordinates coord_system="LRG_385" start="1" end="3285" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>opsin 4</long_name>
               <db_xref source="UniProtKB" accession="C9JWU6" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372071">
             <coordinates coord_system="LRG_385" start="1" end="2892" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>OPN4-201 (protein_coding)</long_name>
+            <long_name>Homo sapiens opsin 4 (OPN4), transcript variant 2, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS31237.1" />
             <db_xref source="RefSeq" accession="NM_001030015.2" />
             <exon source="Ensembl" accession="ENSE00000998827">
@@ -800,8 +802,14 @@
             <protein_product source="Ensembl" accession="ENSP00000361141">
               <coordinates coord_system="LRG_385" start="1" end="2188" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>opsin 4</long_name>
+              <long_name>melanopsin isoform 2 </long_name>
               <db_xref source="RefSeq" accession="NP_001025186.1" />
+              <db_xref source="UniProtKB" accession="Q9UHM6">
+                <synonym>B7ZLB3</synonym>
+                <synonym>Q14D01</synonym>
+                <synonym>Q2PP22</synonym>
+                <synonym>Q8NGQ9</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
         </gene>
@@ -809,6 +817,16 @@
           <coordinates coord_system="LRG_385" start="3229" end="72505" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">LDB3</symbol>
           <long_name>LIM domain binding 3 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="11155">
+            <synonym>CMD1C</synonym>
+            <synonym>CYPHER</synonym>
+            <synonym>LDB3Z1</synonym>
+            <synonym>LDB3Z4</synonym>
+            <synonym>LVNC3</synonym>
+            <synonym>ORACLE</synonym>
+            <synonym>PDLIM6</synonym>
+            <synonym>ZASP</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="15710">
             <synonym>KIAA0613</synonym>
             <synonym>PDLIM6</synonym>
@@ -816,9 +834,238 @@
           </db_xref>
           <db_xref source="MIM" accession="605906" />
           <db_xref source="Ensembl" accession="ENSG00000122367" />
+          <transcript source="Ensembl" accession="ENST00000539402">
+            <coordinates coord_system="LRG_385" start="3229" end="69849" strand="1" mapped_from="GRCh37" />
+            <long_name>LDB3-207 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002257947">
+              <coordinates coord_system="LRG_385" start="3229" end="3285" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210447">
+              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000830532">
+              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001323572">
+              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210296">
+              <coordinates coord_system="LRG_385" start="17873" end="18240" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003190279">
+              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003161568">
+              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210275">
+              <coordinates coord_system="LRG_385" start="46342" end="46487" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001657560">
+              <coordinates coord_system="LRG_385" start="52764" end="52814" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001748397">
+              <coordinates coord_system="LRG_385" start="52863" end="53208" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003220783">
+              <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003043759">
+              <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003186010">
+              <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002210499">
+              <coordinates coord_system="LRG_385" start="69324" end="69849" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000438077">
+              <coordinates coord_system="LRG_385" start="5129" end="69413" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="F5H0C2" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000429277">
+            <coordinates coord_system="LRG_385" start="4886" end="72505" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens LIM domain binding 3 (LDB3), transcript variant 5, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS53550.1" />
+            <db_xref source="RefSeq" accession="NM_001171610.1" />
+            <exon source="Ensembl" accession="ENSE00002306452">
+              <coordinates coord_system="LRG_385" start="4886" end="5007" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210447">
+              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000830532">
+              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001323572">
+              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210296">
+              <coordinates coord_system="LRG_385" start="17873" end="18240" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003197216">
+              <coordinates coord_system="LRG_385" start="23506" end="23709" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003190279">
+              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003161568">
+              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210275">
+              <coordinates coord_system="LRG_385" start="46342" end="46487" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003089205">
+              <coordinates coord_system="LRG_385" start="52764" end="53208" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003220783">
+              <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003043759">
+              <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003186010">
+              <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002251872">
+              <coordinates coord_system="LRG_385" start="69324" end="72505" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000401437">
+              <coordinates coord_system="LRG_385" start="5129" end="69413" strand="1" mapped_from="GRCh37" />
+              <long_name>LIM domain-binding protein 3 isoform 5 </long_name>
+              <db_xref source="RefSeq" accession="NP_001165081.1" />
+              <db_xref source="UniProtKB" accession="O75112">
+                <synonym>A2TDB7</synonym>
+                <synonym>A6NIV4</synonym>
+                <synonym>B4E3K3</synonym>
+                <synonym>Q5K6N9</synonym>
+                <synonym>Q5K6P0</synonym>
+                <synonym>Q5K6P1</synonym>
+                <synonym>Q96FH2</synonym>
+                <synonym>Q9Y4Z3</synonym>
+                <synonym>Q9Y4Z4</synonym>
+                <synonym>Q9Y4Z5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000458213">
+            <coordinates coord_system="LRG_385" start="4886" end="72505" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens LIM domain binding 3 (LDB3), transcript variant 2, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS41544.1" />
+            <db_xref source="RefSeq" accession="NM_001080114.1" />
+            <exon source="Ensembl" accession="ENSE00002306452">
+              <coordinates coord_system="LRG_385" start="4886" end="5007" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210447">
+              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000830532">
+              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001323572">
+              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003217002">
+              <coordinates coord_system="LRG_385" start="22115" end="22137" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003197216">
+              <coordinates coord_system="LRG_385" start="23506" end="23709" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003190279">
+              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003161568">
+              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210275">
+              <coordinates coord_system="LRG_385" start="46342" end="46487" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003089205">
+              <coordinates coord_system="LRG_385" start="52764" end="53208" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003220783">
+              <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003043759">
+              <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003186010">
+              <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002251872">
+              <coordinates coord_system="LRG_385" start="69324" end="72505" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000409148">
+              <coordinates coord_system="LRG_385" start="5129" end="69413" strand="1" mapped_from="GRCh37" />
+              <long_name>LIM domain-binding protein 3 isoform 2 </long_name>
+              <db_xref source="RefSeq" accession="NP_001073583.1" />
+              <db_xref source="UniProtKB" accession="O75112">
+                <synonym>A2TDB7</synonym>
+                <synonym>A6NIV4</synonym>
+                <synonym>B4E3K3</synonym>
+                <synonym>Q5K6N9</synonym>
+                <synonym>Q5K6P0</synonym>
+                <synonym>Q5K6P1</synonym>
+                <synonym>Q96FH2</synonym>
+                <synonym>Q9Y4Z3</synonym>
+                <synonym>Q9Y4Z4</synonym>
+                <synonym>Q9Y4Z5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000352360">
+            <coordinates coord_system="LRG_385" start="4886" end="72505" strand="1" mapped_from="GRCh37" />
+            <long_name>LDB3-203 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002306452">
+              <coordinates coord_system="LRG_385" start="4886" end="5007" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210447">
+              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000830532">
+              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001323572">
+              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003012753">
+              <coordinates coord_system="LRG_385" start="46349" end="46487" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003089205">
+              <coordinates coord_system="LRG_385" start="52764" end="53208" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003220783">
+              <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003043759">
+              <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003186010">
+              <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002251872">
+              <coordinates coord_system="LRG_385" start="69324" end="72505" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000263067">
+              <coordinates coord_system="LRG_385" start="5129" end="69413" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="O75112">
+                <synonym>A2TDB7</synonym>
+                <synonym>A6NIV4</synonym>
+                <synonym>B4E3K3</synonym>
+                <synonym>Q5K6N9</synonym>
+                <synonym>Q5K6P0</synonym>
+                <synonym>Q5K6P1</synonym>
+                <synonym>Q96FH2</synonym>
+                <synonym>Q9Y4Z3</synonym>
+                <synonym>Q9Y4Z4</synonym>
+                <synonym>Q9Y4Z5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000372066">
             <coordinates coord_system="LRG_385" start="5050" end="36478" strand="1" mapped_from="GRCh37" />
-            <long_name>LDB3-002 (protein_coding)</long_name>
+            <long_name>Homo sapiens LIM domain binding 3 (LDB3), transcript variant 4, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS41545.1" />
             <db_xref source="RefSeq" accession="NM_001080116.1" />
             <exon source="Ensembl" accession="ENSE00001411367">
@@ -830,16 +1077,16 @@
             <exon source="Ensembl" accession="ENSE00001323572">
               <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002475423">
+            <exon source="Ensembl" accession="ENSE00003217002">
               <coordinates coord_system="LRG_385" start="22115" end="22137" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002483023">
+            <exon source="Ensembl" accession="ENSE00003197216">
               <coordinates coord_system="LRG_385" start="23506" end="23709" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002500298">
+            <exon source="Ensembl" accession="ENSE00003190279">
               <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002494511">
+            <exon source="Ensembl" accession="ENSE00003161568">
               <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001823583">
@@ -847,14 +1094,177 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000361136">
               <coordinates coord_system="LRG_385" start="5129" end="35811" strand="1" mapped_from="GRCh37" />
-              <long_name>LIM domain binding 3</long_name>
+              <long_name>LIM domain-binding protein 3 isoform 4 </long_name>
               <db_xref source="RefSeq" accession="NP_001073585.1" />
               <db_xref source="UniProtKB" accession="B4DUL3" />
+              <db_xref source="UniProtKB" accession="O75112">
+                <synonym>A2TDB7</synonym>
+                <synonym>A6NIV4</synonym>
+                <synonym>B4E3K3</synonym>
+                <synonym>Q5K6N9</synonym>
+                <synonym>Q5K6P0</synonym>
+                <synonym>Q5K6P1</synonym>
+                <synonym>Q96FH2</synonym>
+                <synonym>Q9Y4Z3</synonym>
+                <synonym>Q9Y4Z4</synonym>
+                <synonym>Q9Y4Z5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000263066">
+            <coordinates coord_system="LRG_385" start="5106" end="72502" strand="1" mapped_from="GRCh37" />
+            <long_name>LDB3-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS41544.1" />
+            <exon source="Ensembl" accession="ENSE00001210447">
+              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000830532">
+              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001323572">
+              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003217002">
+              <coordinates coord_system="LRG_385" start="22115" end="22137" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003197216">
+              <coordinates coord_system="LRG_385" start="23506" end="23709" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003190279">
+              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003161568">
+              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210275">
+              <coordinates coord_system="LRG_385" start="46342" end="46487" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003089205">
+              <coordinates coord_system="LRG_385" start="52764" end="53208" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003220783">
+              <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003043759">
+              <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003186010">
+              <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210445">
+              <coordinates coord_system="LRG_385" start="69324" end="72502" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000263066">
+              <coordinates coord_system="LRG_385" start="5129" end="69413" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="O75112">
+                <synonym>A2TDB7</synonym>
+                <synonym>A6NIV4</synonym>
+                <synonym>B4E3K3</synonym>
+                <synonym>Q5K6N9</synonym>
+                <synonym>Q5K6P0</synonym>
+                <synonym>Q5K6P1</synonym>
+                <synonym>Q96FH2</synonym>
+                <synonym>Q9Y4Z3</synonym>
+                <synonym>Q9Y4Z4</synonym>
+                <synonym>Q9Y4Z5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000372056">
+            <coordinates coord_system="LRG_385" start="5106" end="36490" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens LIM domain binding 3 (LDB3), transcript variant 6, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS53549.1" />
+            <db_xref source="RefSeq" accession="NM_001171611.1" />
+            <exon source="Ensembl" accession="ENSE00001210447">
+              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000830532">
+              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001323572">
+              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210296">
+              <coordinates coord_system="LRG_385" start="17873" end="18240" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003197216">
+              <coordinates coord_system="LRG_385" start="23506" end="23709" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003190279">
+              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003161568">
+              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001456839">
+              <coordinates coord_system="LRG_385" start="35715" end="36490" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000361126">
+              <coordinates coord_system="LRG_385" start="5129" end="35811" strand="1" mapped_from="GRCh37" />
+              <long_name>LIM domain-binding protein 3 isoform 6 </long_name>
+              <db_xref source="RefSeq" accession="NP_001165082.1" />
+              <db_xref source="UniProtKB" accession="O75112">
+                <synonym>A2TDB7</synonym>
+                <synonym>A6NIV4</synonym>
+                <synonym>B4E3K3</synonym>
+                <synonym>Q5K6N9</synonym>
+                <synonym>Q5K6P0</synonym>
+                <synonym>Q5K6P1</synonym>
+                <synonym>Q96FH2</synonym>
+                <synonym>Q9Y4Z3</synonym>
+                <synonym>Q9Y4Z4</synonym>
+                <synonym>Q9Y4Z5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000310944">
+            <coordinates coord_system="LRG_385" start="5106" end="36490" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens LIM domain binding 3 (LDB3), transcript variant 3, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS44450.1" />
+            <db_xref source="RefSeq" accession="NM_001080115.1" />
+            <exon source="Ensembl" accession="ENSE00001210447">
+              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000830532">
+              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001323572">
+              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210296">
+              <coordinates coord_system="LRG_385" start="17873" end="18240" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003190279">
+              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003161568">
+              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001456839">
+              <coordinates coord_system="LRG_385" start="35715" end="36490" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000311913">
+              <coordinates coord_system="LRG_385" start="5129" end="35811" strand="1" mapped_from="GRCh37" />
+              <long_name>LIM domain-binding protein 3 isoform 3 </long_name>
+              <db_xref source="RefSeq" accession="NP_001073584.1" />
+              <db_xref source="UniProtKB" accession="B4DND5" />
+              <db_xref source="UniProtKB" accession="O75112">
+                <synonym>A2TDB7</synonym>
+                <synonym>A6NIV4</synonym>
+                <synonym>B4E3K3</synonym>
+                <synonym>Q5K6N9</synonym>
+                <synonym>Q5K6P0</synonym>
+                <synonym>Q5K6P1</synonym>
+                <synonym>Q96FH2</synonym>
+                <synonym>Q9Y4Z3</synonym>
+                <synonym>Q9Y4Z4</synonym>
+                <synonym>Q9Y4Z5</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000361373">
             <coordinates coord_system="LRG_385" start="5108" end="71431" strand="1" mapped_from="GRCh37" />
-            <long_name>LDB3-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens LIM domain binding 3 (LDB3), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS7377.1" />
             <db_xref source="RefSeq" accession="NM_007078.2" />
             <exon source="Ensembl" accession="ENSE00001855428">
@@ -869,10 +1279,10 @@
             <exon source="Ensembl" accession="ENSE00001210296">
               <coordinates coord_system="LRG_385" start="17873" end="18240" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002500298">
+            <exon source="Ensembl" accession="ENSE00003190279">
               <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002494511">
+            <exon source="Ensembl" accession="ENSE00003161568">
               <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001210293">
@@ -881,16 +1291,16 @@
             <exon source="Ensembl" accession="ENSE00001210275">
               <coordinates coord_system="LRG_385" start="46342" end="46487" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002482004">
+            <exon source="Ensembl" accession="ENSE00003089205">
               <coordinates coord_system="LRG_385" start="52764" end="53208" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002432667">
+            <exon source="Ensembl" accession="ENSE00003220783">
               <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002508758">
+            <exon source="Ensembl" accession="ENSE00003043759">
               <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002501196">
+            <exon source="Ensembl" accession="ENSE00003186010">
               <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001845519">
@@ -898,11 +1308,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000355296">
               <coordinates coord_system="LRG_385" start="5129" end="69413" strand="1" mapped_from="GRCh37" />
-              <long_name>LIM domain binding 3</long_name>
+              <long_name>LIM domain-binding protein 3 isoform 1 </long_name>
               <db_xref source="RefSeq" accession="NP_009009.1" />
               <db_xref source="UniProtKB" accession="O75112">
                 <synonym>A2TDB7</synonym>
                 <synonym>A6NIV4</synonym>
+                <synonym>B4E3K3</synonym>
                 <synonym>Q5K6N9</synonym>
                 <synonym>Q5K6P0</synonym>
                 <synonym>Q5K6P1</synonym>
@@ -916,7 +1327,7 @@
           <transcript source="Ensembl" accession="ENST00000472076">
             <coordinates coord_system="LRG_385" start="5129" end="71432" strand="1" mapped_from="GRCh37" />
             <long_name>LDB3-003 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00002442391">
+            <exon source="Ensembl" accession="ENSE00002496590">
               <coordinates coord_system="LRG_385" start="5129" end="5221" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000830532">
@@ -925,22 +1336,22 @@
             <exon source="Ensembl" accession="ENSE00001323572">
               <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002475423">
+            <exon source="Ensembl" accession="ENSE00003217002">
               <coordinates coord_system="LRG_385" start="22115" end="22137" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001898796">
               <coordinates coord_system="LRG_385" start="46371" end="46487" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002514902">
+            <exon source="Ensembl" accession="ENSE00002984631">
               <coordinates coord_system="LRG_385" start="52764" end="53208" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002472701">
+            <exon source="Ensembl" accession="ENSE00003130105">
               <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002523973">
+            <exon source="Ensembl" accession="ENSE00003073728">
               <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002483631">
+            <exon source="Ensembl" accession="ENSE00002990268">
               <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001854356">
@@ -948,14 +1359,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000437080">
               <coordinates coord_system="LRG_385" start="5129" end="46413" strand="1" mapped_from="GRCh37" />
-              <long_name>LIM domain binding 3</long_name>
               <db_xref source="UniProtKB" accession="F2Z394" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000489700">
             <coordinates coord_system="LRG_385" start="5129" end="71432" strand="1" mapped_from="GRCh37" />
             <long_name>LDB3-004 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00002442391">
+            <exon source="Ensembl" accession="ENSE00002496590">
               <coordinates coord_system="LRG_385" start="5129" end="5221" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000830532">
@@ -964,25 +1374,25 @@
             <exon source="Ensembl" accession="ENSE00001323572">
               <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002475423">
+            <exon source="Ensembl" accession="ENSE00003217002">
               <coordinates coord_system="LRG_385" start="22115" end="22137" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002483023">
+            <exon source="Ensembl" accession="ENSE00003197216">
               <coordinates coord_system="LRG_385" start="23506" end="23709" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002504317">
+            <exon source="Ensembl" accession="ENSE00003147444">
               <coordinates coord_system="LRG_385" start="46349" end="46487" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002434876">
+            <exon source="Ensembl" accession="ENSE00003028746">
               <coordinates coord_system="LRG_385" start="52764" end="53208" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002472701">
+            <exon source="Ensembl" accession="ENSE00003130105">
               <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002523973">
+            <exon source="Ensembl" accession="ENSE00003073728">
               <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002483631">
+            <exon source="Ensembl" accession="ENSE00002990268">
               <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001854356">
@@ -990,8 +1400,53 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000433244">
               <coordinates coord_system="LRG_385" start="5129" end="53006" strand="1" mapped_from="GRCh37" />
-              <long_name>LIM domain binding 3</long_name>
               <db_xref source="UniProtKB" accession="F2Z2S6" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000542786">
+            <coordinates coord_system="LRG_385" start="5129" end="36480" strand="1" mapped_from="GRCh37" />
+            <long_name>LDB3-208 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002496590">
+              <coordinates coord_system="LRG_385" start="5129" end="5221" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000830532">
+              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001323572">
+              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001210296">
+              <coordinates coord_system="LRG_385" start="17873" end="18240" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003010423">
+              <coordinates coord_system="LRG_385" start="22115" end="22137" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003143122">
+              <coordinates coord_system="LRG_385" start="23506" end="23709" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003223013">
+              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002998502">
+              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001518442">
+              <coordinates coord_system="LRG_385" start="35715" end="36480" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000438866">
+              <coordinates coord_system="LRG_385" start="5129" end="22121" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="O75112">
+                <synonym>A2TDB7</synonym>
+                <synonym>A6NIV4</synonym>
+                <synonym>B4E3K3</synonym>
+                <synonym>Q5K6N9</synonym>
+                <synonym>Q5K6P0</synonym>
+                <synonym>Q5K6P1</synonym>
+                <synonym>Q96FH2</synonym>
+                <synonym>Q9Y4Z3</synonym>
+                <synonym>Q9Y4Z4</synonym>
+                <synonym>Q9Y4Z5</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000480727">
@@ -1000,10 +1455,10 @@
             <exon source="Ensembl" accession="ENSE00001913784">
               <coordinates coord_system="LRG_385" start="54546" end="54581" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002523973">
+            <exon source="Ensembl" accession="ENSE00003073728">
               <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002483631">
+            <exon source="Ensembl" accession="ENSE00002990268">
               <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001811860">
@@ -1023,355 +1478,6 @@
               <coordinates coord_system="LRG_385" start="62574" end="62888" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000539402">
-            <coordinates coord_system="LRG_385" start="3229" end="69849" strand="1" mapped_from="GRCh37" />
-            <long_name>LDB3-207 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002257947">
-              <coordinates coord_system="LRG_385" start="3229" end="3285" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210447">
-              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000830532">
-              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001323572">
-              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210296">
-              <coordinates coord_system="LRG_385" start="17873" end="18240" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002500298">
-              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002494511">
-              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210275">
-              <coordinates coord_system="LRG_385" start="46342" end="46487" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001657560">
-              <coordinates coord_system="LRG_385" start="52764" end="52814" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001748397">
-              <coordinates coord_system="LRG_385" start="52863" end="53208" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002432667">
-              <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002508758">
-              <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002501196">
-              <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002210499">
-              <coordinates coord_system="LRG_385" start="69324" end="69849" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000438077">
-              <coordinates coord_system="LRG_385" start="5129" end="69413" strand="1" mapped_from="GRCh37" />
-              <long_name>LIM domain binding 3</long_name>
-              <db_xref source="UniProtKB" accession="F5H0C2" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000429277">
-            <coordinates coord_system="LRG_385" start="4886" end="72505" strand="1" mapped_from="GRCh37" />
-            <long_name>LDB3-205 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS53550.1" />
-            <db_xref source="RefSeq" accession="NM_001171610.1" />
-            <exon source="Ensembl" accession="ENSE00002306452">
-              <coordinates coord_system="LRG_385" start="4886" end="5007" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210447">
-              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000830532">
-              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001323572">
-              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210296">
-              <coordinates coord_system="LRG_385" start="17873" end="18240" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002483023">
-              <coordinates coord_system="LRG_385" start="23506" end="23709" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002500298">
-              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002494511">
-              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210275">
-              <coordinates coord_system="LRG_385" start="46342" end="46487" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002482004">
-              <coordinates coord_system="LRG_385" start="52764" end="53208" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002432667">
-              <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002508758">
-              <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002501196">
-              <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002251872">
-              <coordinates coord_system="LRG_385" start="69324" end="72505" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000401437">
-              <coordinates coord_system="LRG_385" start="5129" end="69413" strand="1" mapped_from="GRCh37" />
-              <long_name>LIM domain binding 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001165081.1" />
-              <db_xref source="UniProtKB" accession="B4E3K3" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000458213">
-            <coordinates coord_system="LRG_385" start="4886" end="72505" strand="1" mapped_from="GRCh37" />
-            <long_name>LDB3-206 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS41544.1" />
-            <db_xref source="RefSeq" accession="NM_001080114.1" />
-            <exon source="Ensembl" accession="ENSE00002306452">
-              <coordinates coord_system="LRG_385" start="4886" end="5007" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210447">
-              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000830532">
-              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001323572">
-              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002475423">
-              <coordinates coord_system="LRG_385" start="22115" end="22137" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002483023">
-              <coordinates coord_system="LRG_385" start="23506" end="23709" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002500298">
-              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002494511">
-              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210275">
-              <coordinates coord_system="LRG_385" start="46342" end="46487" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002482004">
-              <coordinates coord_system="LRG_385" start="52764" end="53208" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002432667">
-              <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002508758">
-              <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002501196">
-              <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002251872">
-              <coordinates coord_system="LRG_385" start="69324" end="72505" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000409148">
-              <coordinates coord_system="LRG_385" start="5129" end="69413" strand="1" mapped_from="GRCh37" />
-              <long_name>LIM domain binding 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001073583.1" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000352360">
-            <coordinates coord_system="LRG_385" start="4886" end="72505" strand="1" mapped_from="GRCh37" />
-            <long_name>LDB3-203 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002306452">
-              <coordinates coord_system="LRG_385" start="4886" end="5007" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210447">
-              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000830532">
-              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001323572">
-              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002436603">
-              <coordinates coord_system="LRG_385" start="46349" end="46487" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002482004">
-              <coordinates coord_system="LRG_385" start="52764" end="53208" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002432667">
-              <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002508758">
-              <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002501196">
-              <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002251872">
-              <coordinates coord_system="LRG_385" start="69324" end="72505" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000263067">
-              <coordinates coord_system="LRG_385" start="5129" end="69413" strand="1" mapped_from="GRCh37" />
-              <long_name>LIM domain binding 3</long_name>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000263066">
-            <coordinates coord_system="LRG_385" start="5106" end="72502" strand="1" mapped_from="GRCh37" />
-            <long_name>LDB3-201 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS41544.1" />
-            <db_xref source="RefSeq" accession="NM_001080114.1" />
-            <exon source="Ensembl" accession="ENSE00001210447">
-              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000830532">
-              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001323572">
-              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002475423">
-              <coordinates coord_system="LRG_385" start="22115" end="22137" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002483023">
-              <coordinates coord_system="LRG_385" start="23506" end="23709" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002500298">
-              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002494511">
-              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210275">
-              <coordinates coord_system="LRG_385" start="46342" end="46487" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002482004">
-              <coordinates coord_system="LRG_385" start="52764" end="53208" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002432667">
-              <coordinates coord_system="LRG_385" start="54401" end="54581" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002508758">
-              <coordinates coord_system="LRG_385" start="55164" end="55284" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002501196">
-              <coordinates coord_system="LRG_385" start="62574" end="62689" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210445">
-              <coordinates coord_system="LRG_385" start="69324" end="72502" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000263066">
-              <coordinates coord_system="LRG_385" start="5129" end="69413" strand="1" mapped_from="GRCh37" />
-              <long_name>LIM domain binding 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001073583.1" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000372056">
-            <coordinates coord_system="LRG_385" start="5106" end="36490" strand="1" mapped_from="GRCh37" />
-            <long_name>LDB3-204 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS53549.1" />
-            <db_xref source="RefSeq" accession="NM_001171611.1" />
-            <exon source="Ensembl" accession="ENSE00001210447">
-              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000830532">
-              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001323572">
-              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210296">
-              <coordinates coord_system="LRG_385" start="17873" end="18240" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002483023">
-              <coordinates coord_system="LRG_385" start="23506" end="23709" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002500298">
-              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002494511">
-              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001456839">
-              <coordinates coord_system="LRG_385" start="35715" end="36490" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000361126">
-              <coordinates coord_system="LRG_385" start="5129" end="35811" strand="1" mapped_from="GRCh37" />
-              <long_name>LIM domain binding 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001165082.1" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000310944">
-            <coordinates coord_system="LRG_385" start="5106" end="36490" strand="1" mapped_from="GRCh37" />
-            <long_name>LDB3-202 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS44450.1" />
-            <db_xref source="RefSeq" accession="NM_001080115.1" />
-            <exon source="Ensembl" accession="ENSE00001210447">
-              <coordinates coord_system="LRG_385" start="5106" end="5221" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000830532">
-              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001323572">
-              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210296">
-              <coordinates coord_system="LRG_385" start="17873" end="18240" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002500298">
-              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002494511">
-              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001456839">
-              <coordinates coord_system="LRG_385" start="35715" end="36490" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000311913">
-              <coordinates coord_system="LRG_385" start="5129" end="35811" strand="1" mapped_from="GRCh37" />
-              <long_name>LIM domain binding 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001073584.1" />
-              <db_xref source="UniProtKB" accession="B4DND5" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000542786">
-            <coordinates coord_system="LRG_385" start="5129" end="36480" strand="1" mapped_from="GRCh37" />
-            <long_name>LDB3-208 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002496590">
-              <coordinates coord_system="LRG_385" start="5129" end="5221" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000830532">
-              <coordinates coord_system="LRG_385" start="15804" end="15955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001323572">
-              <coordinates coord_system="LRG_385" start="16519" end="16594" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001210296">
-              <coordinates coord_system="LRG_385" start="17873" end="18240" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002496645">
-              <coordinates coord_system="LRG_385" start="22115" end="22137" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002462242">
-              <coordinates coord_system="LRG_385" start="23506" end="23709" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002510835">
-              <coordinates coord_system="LRG_385" start="28333" end="28502" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002534402">
-              <coordinates coord_system="LRG_385" start="28972" end="29008" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001518442">
-              <coordinates coord_system="LRG_385" start="35715" end="36480" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000438866">
-              <coordinates coord_system="LRG_385" start="5129" end="22121" strand="1" mapped_from="GRCh37" />
-              <long_name>LIM domain binding 3</long_name>
-            </protein_product>
-          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -1381,6 +1487,27 @@
         <url>http://www.dmd.nl/nmdb2/home.php?select_db=LDB3</url>
       </source>
       <modification_date>2012-10-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Leiden Muscular Dystrophy pages - LDB3</name>
+        <url>http://www.dmd.nl/nmdb2/home.php?select_db=LDB3</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Zhejiang University Center for Genetic and Genomic Medicine (ZJU-CGGM) - LDB3</name>
+        <url>http://databases.lovd.nl/genomed/home.php?select_db=LDB3</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>ZJU-CGGM &amp; BGI-Shenzhen - LDB3</name>
+        <url>http://www.genomed.org/LOVD/CM/home.php?select_db=LDB3</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

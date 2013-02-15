@@ -214,7 +214,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-07-24</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="21" other_id="NC_000021.8" other_start="47513033" other_end="47554763">
         <mapping_span lrg_start="1" lrg_end="41731" other_start="47513033" other_end="47554763" strand="1" />
       </mapping>
@@ -565,8 +565,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-07-24</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000300527.4" other_name="ENST00000300527.4" other_id="ENST00000300527.4" other_start="1" other_end="3461">
         <mapping_span lrg_start="4979" lrg_end="5055" other_start="1" other_end="77" strand="1" />
         <mapping_span lrg_start="18332" lrg_end="18473" other_start="78" other_end="219" strand="1" />
@@ -747,16 +747,35 @@
         <mapping_span lrg_start="24282" lrg_end="24403" other_start="656" other_end="777" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000227438">
+          <coordinates coord_system="LRG_476" start="146" end="4412" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">AP001471.1</symbol>
+          <long_name>AP001471.1 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000227438" />
+          <transcript source="Ensembl" accession="ENST00000454245">
+            <coordinates coord_system="LRG_476" start="146" end="4412" strand="-1" mapped_from="GRCh37" />
+            <long_name>AP001471.1-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00001776573">
+              <coordinates coord_system="LRG_476" start="4354" end="4412" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001661271">
+              <coordinates coord_system="LRG_476" start="146" end="758" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000142173">
           <coordinates coord_system="LRG_476" start="4979" end="39731" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">COL6A2</symbol>
           <long_name>collagen, type VI, alpha 2 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="1292">
+            <synonym>PP3610</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="2212" />
           <db_xref source="MIM" accession="120240" />
           <db_xref source="Ensembl" accession="ENSG00000142173" />
           <transcript source="Ensembl" accession="ENST00000300527">
             <coordinates coord_system="LRG_476" start="4979" end="39731" strand="1" mapped_from="GRCh37" />
-            <long_name>COL6A2-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens collagen, type VI, alpha 2 (COL6A2), transcript variant 2C2, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13728.1" />
             <db_xref source="RefSeq" accession="NM_001849.3" />
             <exon source="Ensembl" accession="ENSE00001902209">
@@ -774,19 +793,19 @@
             <exon source="Ensembl" accession="ENSE00001219451">
               <coordinates coord_system="LRG_476" start="20890" end="20955" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002489224">
+            <exon source="Ensembl" accession="ENSE00003140238">
               <coordinates coord_system="LRG_476" start="22754" end="22807" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002520956">
+            <exon source="Ensembl" accession="ENSE00003208476">
               <coordinates coord_system="LRG_476" start="22891" end="22935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002489361">
+            <exon source="Ensembl" accession="ENSE00002992498">
               <coordinates coord_system="LRG_476" start="23259" end="23285" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002525088">
+            <exon source="Ensembl" accession="ENSE00002982290">
               <coordinates coord_system="LRG_476" start="23533" end="23559" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002500978">
+            <exon source="Ensembl" accession="ENSE00003192538">
               <coordinates coord_system="LRG_476" start="23652" end="23696" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000952674">
@@ -845,7 +864,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000300527">
               <coordinates coord_system="LRG_476" start="18359" end="39434" strand="1" mapped_from="GRCh37" />
-              <long_name>collagen, type VI, alpha 2</long_name>
+              <long_name>collagen alpha-2(VI) chain isoform 2C2 precursor </long_name>
               <db_xref source="RefSeq" accession="NP_001840.3" />
               <db_xref source="UniProtKB" accession="C9JH44" />
               <db_xref source="UniProtKB" accession="P12110">
@@ -862,289 +881,9 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000436769">
-            <coordinates coord_system="LRG_476" start="5679" end="19286" strand="1" mapped_from="GRCh37" />
-            <long_name>COL6A2-004 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001700317">
-              <coordinates coord_system="LRG_476" start="5679" end="6029" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952665">
-              <coordinates coord_system="LRG_476" start="18332" end="18473" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001719735">
-              <coordinates coord_system="LRG_476" start="18861" end="19286" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000390418">
-              <coordinates coord_system="LRG_476" start="18359" end="19286" strand="1" mapped_from="GRCh37" />
-              <long_name>collagen, type VI, alpha 2</long_name>
-              <db_xref source="UniProtKB" accession="C9JH44" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000409416">
-            <coordinates coord_system="LRG_476" start="18296" end="36690" strand="1" mapped_from="GRCh37" />
-            <long_name>COL6A2-003 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS13730.1" />
-            <db_xref source="RefSeq" accession="NM_058175.2" />
-            <exon source="Ensembl" accession="ENSE00001584872">
-              <coordinates coord_system="LRG_476" start="18296" end="18473" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001134048">
-              <coordinates coord_system="LRG_476" start="18861" end="19459" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952667">
-              <coordinates coord_system="LRG_476" start="19686" end="19706" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001219451">
-              <coordinates coord_system="LRG_476" start="20890" end="20955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002489224">
-              <coordinates coord_system="LRG_476" start="22754" end="22807" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002520956">
-              <coordinates coord_system="LRG_476" start="22891" end="22935" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002489361">
-              <coordinates coord_system="LRG_476" start="23259" end="23285" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002525088">
-              <coordinates coord_system="LRG_476" start="23533" end="23559" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002500978">
-              <coordinates coord_system="LRG_476" start="23652" end="23696" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952674">
-              <coordinates coord_system="LRG_476" start="24282" end="24335" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952704">
-              <coordinates coord_system="LRG_476" start="24756" end="24818" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952707">
-              <coordinates coord_system="LRG_476" start="25496" end="25558" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952695">
-              <coordinates coord_system="LRG_476" start="25912" end="26001" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952678">
-              <coordinates coord_system="LRG_476" start="26670" end="26732" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952696">
-              <coordinates coord_system="LRG_476" start="27397" end="27459" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952699">
-              <coordinates coord_system="LRG_476" start="27943" end="28005" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001332369">
-              <coordinates coord_system="LRG_476" start="28438" end="28500" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001219267">
-              <coordinates coord_system="LRG_476" start="28990" end="29040" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952683">
-              <coordinates coord_system="LRG_476" start="29378" end="29413" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952697">
-              <coordinates coord_system="LRG_476" start="29757" end="29819" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001219263">
-              <coordinates coord_system="LRG_476" start="31533" end="31595" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952705">
-              <coordinates coord_system="LRG_476" start="31767" end="31802" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001218880">
-              <coordinates coord_system="LRG_476" start="32148" end="32193" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001219302">
-              <coordinates coord_system="LRG_476" start="32347" end="32499" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001133859">
-              <coordinates coord_system="LRG_476" start="32667" end="33119" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001110398">
-              <coordinates coord_system="LRG_476" start="33385" end="33423" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001582755">
-              <coordinates coord_system="LRG_476" start="35785" end="36690" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000387115">
-              <coordinates coord_system="LRG_476" start="18359" end="35810" strand="1" mapped_from="GRCh37" />
-              <long_name>collagen, type VI, alpha 2</long_name>
-              <db_xref source="RefSeq" accession="NP_478055.2" />
-              <db_xref source="UniProtKB" accession="C9JH44" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000397763">
-            <coordinates coord_system="LRG_476" start="18332" end="36690" strand="1" mapped_from="GRCh37" />
-            <long_name>COL6A2-002 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS13729.1" />
-            <db_xref source="RefSeq" accession="NM_058174.2" />
-            <exon source="Ensembl" accession="ENSE00000952665">
-              <coordinates coord_system="LRG_476" start="18332" end="18473" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001134048">
-              <coordinates coord_system="LRG_476" start="18861" end="19459" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952667">
-              <coordinates coord_system="LRG_476" start="19686" end="19706" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001219451">
-              <coordinates coord_system="LRG_476" start="20890" end="20955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002489224">
-              <coordinates coord_system="LRG_476" start="22754" end="22807" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002520956">
-              <coordinates coord_system="LRG_476" start="22891" end="22935" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002489361">
-              <coordinates coord_system="LRG_476" start="23259" end="23285" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002525088">
-              <coordinates coord_system="LRG_476" start="23533" end="23559" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002500978">
-              <coordinates coord_system="LRG_476" start="23652" end="23696" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952674">
-              <coordinates coord_system="LRG_476" start="24282" end="24335" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952704">
-              <coordinates coord_system="LRG_476" start="24756" end="24818" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952707">
-              <coordinates coord_system="LRG_476" start="25496" end="25558" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952695">
-              <coordinates coord_system="LRG_476" start="25912" end="26001" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952678">
-              <coordinates coord_system="LRG_476" start="26670" end="26732" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952696">
-              <coordinates coord_system="LRG_476" start="27397" end="27459" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952699">
-              <coordinates coord_system="LRG_476" start="27943" end="28005" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001332369">
-              <coordinates coord_system="LRG_476" start="28438" end="28500" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001219267">
-              <coordinates coord_system="LRG_476" start="28990" end="29040" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952683">
-              <coordinates coord_system="LRG_476" start="29378" end="29413" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952697">
-              <coordinates coord_system="LRG_476" start="29757" end="29819" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001219263">
-              <coordinates coord_system="LRG_476" start="31533" end="31595" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952705">
-              <coordinates coord_system="LRG_476" start="31767" end="31802" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001218880">
-              <coordinates coord_system="LRG_476" start="32148" end="32193" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001219302">
-              <coordinates coord_system="LRG_476" start="32347" end="32499" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001133859">
-              <coordinates coord_system="LRG_476" start="32667" end="33119" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001110398">
-              <coordinates coord_system="LRG_476" start="33385" end="33423" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001530047">
-              <coordinates coord_system="LRG_476" start="36078" end="36690" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000380870">
-              <coordinates coord_system="LRG_476" start="18359" end="36373" strand="1" mapped_from="GRCh37" />
-              <long_name>collagen, type VI, alpha 2</long_name>
-              <db_xref source="RefSeq" accession="NP_478054.2" />
-              <db_xref source="UniProtKB" accession="C9JH44" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000460886">
-            <coordinates coord_system="LRG_476" start="19300" end="19831" strand="1" mapped_from="GRCh37" />
-            <long_name>COL6A2-006 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001941337">
-              <coordinates coord_system="LRG_476" start="19300" end="19459" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001895403">
-              <coordinates coord_system="LRG_476" start="19686" end="19831" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000485591">
-            <coordinates coord_system="LRG_476" start="20499" end="24403" strand="1" mapped_from="GRCh37" />
-            <long_name>COL6A2-007 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001870884">
-              <coordinates coord_system="LRG_476" start="20499" end="20955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002509761">
-              <coordinates coord_system="LRG_476" start="22754" end="22807" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002467888">
-              <coordinates coord_system="LRG_476" start="22891" end="22935" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002454209">
-              <coordinates coord_system="LRG_476" start="23259" end="23285" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002517778">
-              <coordinates coord_system="LRG_476" start="23533" end="23559" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002434688">
-              <coordinates coord_system="LRG_476" start="23652" end="23696" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001952021">
-              <coordinates coord_system="LRG_476" start="24282" end="24403" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000413758">
-            <coordinates coord_system="LRG_476" start="27442" end="32776" strand="1" mapped_from="GRCh37" />
-            <long_name>COL6A2-005 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002492269">
-              <coordinates coord_system="LRG_476" start="27442" end="27459" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952699">
-              <coordinates coord_system="LRG_476" start="27943" end="28005" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001332369">
-              <coordinates coord_system="LRG_476" start="28438" end="28500" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001219267">
-              <coordinates coord_system="LRG_476" start="28990" end="29040" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952683">
-              <coordinates coord_system="LRG_476" start="29378" end="29413" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952697">
-              <coordinates coord_system="LRG_476" start="29757" end="29819" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001219263">
-              <coordinates coord_system="LRG_476" start="31533" end="31595" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000952705">
-              <coordinates coord_system="LRG_476" start="31767" end="31802" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001218880">
-              <coordinates coord_system="LRG_476" start="32148" end="32193" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001718972">
-              <coordinates coord_system="LRG_476" start="32299" end="32499" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001643861">
-              <coordinates coord_system="LRG_476" start="32667" end="32776" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000395751">
-              <coordinates coord_system="LRG_476" start="27442" end="32776" strand="1" mapped_from="GRCh37" />
-              <long_name>collagen, type VI, alpha 2</long_name>
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000357838">
             <coordinates coord_system="LRG_476" start="5001" end="36687" strand="1" mapped_from="GRCh37" />
-            <long_name>COL6A2-202 (protein_coding)</long_name>
+            <long_name>Homo sapiens collagen, type VI, alpha 2 (COL6A2), transcript variant 2C2a, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13729.1" />
             <db_xref source="RefSeq" accession="NM_058174.2" />
             <exon source="Ensembl" accession="ENSE00001110410">
@@ -1162,19 +901,19 @@
             <exon source="Ensembl" accession="ENSE00001219451">
               <coordinates coord_system="LRG_476" start="20890" end="20955" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002489224">
+            <exon source="Ensembl" accession="ENSE00003140238">
               <coordinates coord_system="LRG_476" start="22754" end="22807" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002520956">
+            <exon source="Ensembl" accession="ENSE00003208476">
               <coordinates coord_system="LRG_476" start="22891" end="22935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002489361">
+            <exon source="Ensembl" accession="ENSE00002992498">
               <coordinates coord_system="LRG_476" start="23259" end="23285" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002525088">
+            <exon source="Ensembl" accession="ENSE00002982290">
               <coordinates coord_system="LRG_476" start="23533" end="23559" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002500978">
+            <exon source="Ensembl" accession="ENSE00003192538">
               <coordinates coord_system="LRG_476" start="23652" end="23696" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000952674">
@@ -1233,14 +972,26 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000350497">
               <coordinates coord_system="LRG_476" start="18359" end="36373" strand="1" mapped_from="GRCh37" />
-              <long_name>collagen, type VI, alpha 2</long_name>
+              <long_name>collagen alpha-2(VI) chain isoform 2C2a precursor </long_name>
               <db_xref source="RefSeq" accession="NP_478054.2" />
               <db_xref source="UniProtKB" accession="C9JH44" />
+              <db_xref source="UniProtKB" accession="P12110">
+                <synonym>Q13909</synonym>
+                <synonym>Q13910</synonym>
+                <synonym>Q13911</synonym>
+                <synonym>Q14048</synonym>
+                <synonym>Q14049</synonym>
+                <synonym>Q16259</synonym>
+                <synonym>Q16597</synonym>
+                <synonym>Q6P0Q1</synonym>
+                <synonym>Q9UML3</synonym>
+                <synonym>Q9Y4S8</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000310645">
             <coordinates coord_system="LRG_476" start="5001" end="36687" strand="1" mapped_from="GRCh37" />
-            <long_name>COL6A2-201 (protein_coding)</long_name>
+            <long_name>Homo sapiens collagen, type VI, alpha 2 (COL6A2), transcript variant 2C2a', mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13730.1" />
             <db_xref source="RefSeq" accession="NM_058175.2" />
             <exon source="Ensembl" accession="ENSE00001110410">
@@ -1258,19 +1009,19 @@
             <exon source="Ensembl" accession="ENSE00001219451">
               <coordinates coord_system="LRG_476" start="20890" end="20955" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002489224">
+            <exon source="Ensembl" accession="ENSE00003140238">
               <coordinates coord_system="LRG_476" start="22754" end="22807" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002520956">
+            <exon source="Ensembl" accession="ENSE00003208476">
               <coordinates coord_system="LRG_476" start="22891" end="22935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002489361">
+            <exon source="Ensembl" accession="ENSE00002992498">
               <coordinates coord_system="LRG_476" start="23259" end="23285" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002525088">
+            <exon source="Ensembl" accession="ENSE00002982290">
               <coordinates coord_system="LRG_476" start="23533" end="23559" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002500978">
+            <exon source="Ensembl" accession="ENSE00003192538">
               <coordinates coord_system="LRG_476" start="23652" end="23696" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000952674">
@@ -1329,9 +1080,318 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000312529">
               <coordinates coord_system="LRG_476" start="18359" end="35810" strand="1" mapped_from="GRCh37" />
-              <long_name>collagen, type VI, alpha 2</long_name>
+              <long_name>collagen alpha-2(VI) chain isoform 2C2a' precursor </long_name>
               <db_xref source="RefSeq" accession="NP_478055.2" />
               <db_xref source="UniProtKB" accession="C9JH44" />
+              <db_xref source="UniProtKB" accession="P12110">
+                <synonym>Q13909</synonym>
+                <synonym>Q13910</synonym>
+                <synonym>Q13911</synonym>
+                <synonym>Q14048</synonym>
+                <synonym>Q14049</synonym>
+                <synonym>Q16259</synonym>
+                <synonym>Q16597</synonym>
+                <synonym>Q6P0Q1</synonym>
+                <synonym>Q9UML3</synonym>
+                <synonym>Q9Y4S8</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000436769">
+            <coordinates coord_system="LRG_476" start="5679" end="19286" strand="1" mapped_from="GRCh37" />
+            <long_name>COL6A2-004 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001700317">
+              <coordinates coord_system="LRG_476" start="5679" end="6029" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952665">
+              <coordinates coord_system="LRG_476" start="18332" end="18473" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001719735">
+              <coordinates coord_system="LRG_476" start="18861" end="19286" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000390418">
+              <coordinates coord_system="LRG_476" start="18359" end="19286" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="C9JH44" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000409416">
+            <coordinates coord_system="LRG_476" start="18296" end="36690" strand="1" mapped_from="GRCh37" />
+            <long_name>COL6A2-003 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS13730.1" />
+            <exon source="Ensembl" accession="ENSE00001584872">
+              <coordinates coord_system="LRG_476" start="18296" end="18473" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001134048">
+              <coordinates coord_system="LRG_476" start="18861" end="19459" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952667">
+              <coordinates coord_system="LRG_476" start="19686" end="19706" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001219451">
+              <coordinates coord_system="LRG_476" start="20890" end="20955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003140238">
+              <coordinates coord_system="LRG_476" start="22754" end="22807" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003208476">
+              <coordinates coord_system="LRG_476" start="22891" end="22935" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002992498">
+              <coordinates coord_system="LRG_476" start="23259" end="23285" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002982290">
+              <coordinates coord_system="LRG_476" start="23533" end="23559" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003192538">
+              <coordinates coord_system="LRG_476" start="23652" end="23696" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952674">
+              <coordinates coord_system="LRG_476" start="24282" end="24335" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952704">
+              <coordinates coord_system="LRG_476" start="24756" end="24818" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952707">
+              <coordinates coord_system="LRG_476" start="25496" end="25558" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952695">
+              <coordinates coord_system="LRG_476" start="25912" end="26001" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952678">
+              <coordinates coord_system="LRG_476" start="26670" end="26732" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952696">
+              <coordinates coord_system="LRG_476" start="27397" end="27459" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952699">
+              <coordinates coord_system="LRG_476" start="27943" end="28005" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001332369">
+              <coordinates coord_system="LRG_476" start="28438" end="28500" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001219267">
+              <coordinates coord_system="LRG_476" start="28990" end="29040" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952683">
+              <coordinates coord_system="LRG_476" start="29378" end="29413" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952697">
+              <coordinates coord_system="LRG_476" start="29757" end="29819" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001219263">
+              <coordinates coord_system="LRG_476" start="31533" end="31595" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952705">
+              <coordinates coord_system="LRG_476" start="31767" end="31802" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001218880">
+              <coordinates coord_system="LRG_476" start="32148" end="32193" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001219302">
+              <coordinates coord_system="LRG_476" start="32347" end="32499" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001133859">
+              <coordinates coord_system="LRG_476" start="32667" end="33119" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001110398">
+              <coordinates coord_system="LRG_476" start="33385" end="33423" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001582755">
+              <coordinates coord_system="LRG_476" start="35785" end="36690" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000387115">
+              <coordinates coord_system="LRG_476" start="18359" end="35810" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="C9JH44" />
+              <db_xref source="UniProtKB" accession="P12110">
+                <synonym>Q13909</synonym>
+                <synonym>Q13910</synonym>
+                <synonym>Q13911</synonym>
+                <synonym>Q14048</synonym>
+                <synonym>Q14049</synonym>
+                <synonym>Q16259</synonym>
+                <synonym>Q16597</synonym>
+                <synonym>Q6P0Q1</synonym>
+                <synonym>Q9UML3</synonym>
+                <synonym>Q9Y4S8</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000397763">
+            <coordinates coord_system="LRG_476" start="18332" end="36690" strand="1" mapped_from="GRCh37" />
+            <long_name>COL6A2-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS13729.1" />
+            <exon source="Ensembl" accession="ENSE00000952665">
+              <coordinates coord_system="LRG_476" start="18332" end="18473" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001134048">
+              <coordinates coord_system="LRG_476" start="18861" end="19459" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952667">
+              <coordinates coord_system="LRG_476" start="19686" end="19706" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001219451">
+              <coordinates coord_system="LRG_476" start="20890" end="20955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003140238">
+              <coordinates coord_system="LRG_476" start="22754" end="22807" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003208476">
+              <coordinates coord_system="LRG_476" start="22891" end="22935" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002992498">
+              <coordinates coord_system="LRG_476" start="23259" end="23285" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002982290">
+              <coordinates coord_system="LRG_476" start="23533" end="23559" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003192538">
+              <coordinates coord_system="LRG_476" start="23652" end="23696" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952674">
+              <coordinates coord_system="LRG_476" start="24282" end="24335" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952704">
+              <coordinates coord_system="LRG_476" start="24756" end="24818" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952707">
+              <coordinates coord_system="LRG_476" start="25496" end="25558" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952695">
+              <coordinates coord_system="LRG_476" start="25912" end="26001" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952678">
+              <coordinates coord_system="LRG_476" start="26670" end="26732" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952696">
+              <coordinates coord_system="LRG_476" start="27397" end="27459" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952699">
+              <coordinates coord_system="LRG_476" start="27943" end="28005" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001332369">
+              <coordinates coord_system="LRG_476" start="28438" end="28500" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001219267">
+              <coordinates coord_system="LRG_476" start="28990" end="29040" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952683">
+              <coordinates coord_system="LRG_476" start="29378" end="29413" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952697">
+              <coordinates coord_system="LRG_476" start="29757" end="29819" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001219263">
+              <coordinates coord_system="LRG_476" start="31533" end="31595" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952705">
+              <coordinates coord_system="LRG_476" start="31767" end="31802" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001218880">
+              <coordinates coord_system="LRG_476" start="32148" end="32193" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001219302">
+              <coordinates coord_system="LRG_476" start="32347" end="32499" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001133859">
+              <coordinates coord_system="LRG_476" start="32667" end="33119" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001110398">
+              <coordinates coord_system="LRG_476" start="33385" end="33423" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001530047">
+              <coordinates coord_system="LRG_476" start="36078" end="36690" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000380870">
+              <coordinates coord_system="LRG_476" start="18359" end="36373" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="C9JH44" />
+              <db_xref source="UniProtKB" accession="P12110">
+                <synonym>Q13909</synonym>
+                <synonym>Q13910</synonym>
+                <synonym>Q13911</synonym>
+                <synonym>Q14048</synonym>
+                <synonym>Q14049</synonym>
+                <synonym>Q16259</synonym>
+                <synonym>Q16597</synonym>
+                <synonym>Q6P0Q1</synonym>
+                <synonym>Q9UML3</synonym>
+                <synonym>Q9Y4S8</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000460886">
+            <coordinates coord_system="LRG_476" start="19300" end="19831" strand="1" mapped_from="GRCh37" />
+            <long_name>COL6A2-006 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001941337">
+              <coordinates coord_system="LRG_476" start="19300" end="19459" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001895403">
+              <coordinates coord_system="LRG_476" start="19686" end="19831" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000485591">
+            <coordinates coord_system="LRG_476" start="20499" end="24403" strand="1" mapped_from="GRCh37" />
+            <long_name>COL6A2-007 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001870884">
+              <coordinates coord_system="LRG_476" start="20499" end="20955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003218316">
+              <coordinates coord_system="LRG_476" start="22754" end="22807" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003137241">
+              <coordinates coord_system="LRG_476" start="22891" end="22935" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002983624">
+              <coordinates coord_system="LRG_476" start="23259" end="23285" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003011947">
+              <coordinates coord_system="LRG_476" start="23533" end="23559" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002983033">
+              <coordinates coord_system="LRG_476" start="23652" end="23696" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001952021">
+              <coordinates coord_system="LRG_476" start="24282" end="24403" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000413758">
+            <coordinates coord_system="LRG_476" start="27442" end="32776" strand="1" mapped_from="GRCh37" />
+            <long_name>COL6A2-005 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002492269">
+              <coordinates coord_system="LRG_476" start="27442" end="27459" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952699">
+              <coordinates coord_system="LRG_476" start="27943" end="28005" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001332369">
+              <coordinates coord_system="LRG_476" start="28438" end="28500" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001219267">
+              <coordinates coord_system="LRG_476" start="28990" end="29040" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952683">
+              <coordinates coord_system="LRG_476" start="29378" end="29413" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952697">
+              <coordinates coord_system="LRG_476" start="29757" end="29819" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001219263">
+              <coordinates coord_system="LRG_476" start="31533" end="31595" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000952705">
+              <coordinates coord_system="LRG_476" start="31767" end="31802" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001218880">
+              <coordinates coord_system="LRG_476" start="32148" end="32193" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001718972">
+              <coordinates coord_system="LRG_476" start="32299" end="32499" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001643861">
+              <coordinates coord_system="LRG_476" start="32667" end="32776" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000395751">
+              <coordinates coord_system="LRG_476" start="27442" end="32776" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="H7C0M5" />
             </protein_product>
           </transcript>
         </gene>
@@ -1343,6 +1403,13 @@
         <url>http://www.dmd.nl/nmdb2/home.php?select_db=COL6A2</url>
       </source>
       <modification_date>2012-07-24</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Leiden Muscular Dystrophy pages - COL6A2</name>
+        <url>http://www.dmd.nl/nmdb2/home.php?select_db=COL6A2</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

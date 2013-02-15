@@ -7,7 +7,7 @@
     <sequence_source>NG_032172.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
-      <name>Resource of Asian Primary Immunodeficiency Diseases (RAPID)</name>
+      <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
       <url>http://rapid.rcai.riken.jp/RAPID/mutation?pid_id=AGID_235</url>
       <contact>
         <name>Sujatha Mohan</name>
@@ -116,7 +116,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-10-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p9" other_name="20" other_id="NC_000020.10" other_start="43590120" other_end="43710594">
         <mapping_span lrg_start="1" lrg_end="120475" other_start="43590120" other_end="43710594" strand="1" />
       </mapping>
@@ -297,8 +297,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-10-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000372801.1" other_name="ENST00000372801.1" other_id="ENST00000372801.1" other_start="1" other_end="2038">
         <mapping_span lrg_start="5044" lrg_end="5125" other_start="1" other_end="82" strand="1" />
         <mapping_span lrg_start="10600" lrg_end="10680" other_start="83" other_end="163" strand="1" />
@@ -376,10 +376,51 @@
         <mapping_span lrg_start="113540" lrg_end="117573" other_start="1184" other_end="5217" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000227477">
+          <coordinates coord_system="LRG_535" start="2316" end="4924" strand="-1" mapped_from="GRCh37" />
+          <symbol source="HGNC">STK4-AS1</symbol>
+          <long_name>STK4 antisense RNA 1 (head to head) (lincRNA)</long_name>
+          <db_xref source="GeneID" accession="100505826" />
+          <db_xref source="HGNC" accession="43811" />
+          <db_xref source="Ensembl" accession="ENSG00000227477" />
+          <transcript source="Ensembl" accession="ENST00000434401">
+            <coordinates coord_system="LRG_535" start="2316" end="4924" strand="-1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens STK4 antisense RNA 1 (head to head) (STK4-AS1), non-coding RNA. (processed_transcript)</long_name>
+            <db_xref source="RefSeq" accession="NR_038341.1" />
+            <exon source="Ensembl" accession="ENSE00001783360">
+              <coordinates coord_system="LRG_535" start="4639" end="4924" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001752258">
+              <coordinates coord_system="LRG_535" start="4084" end="4207" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001625771">
+              <coordinates coord_system="LRG_535" start="2316" end="3970" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000445571">
+            <coordinates coord_system="LRG_535" start="2322" end="4139" strand="-1" mapped_from="GRCh37" />
+            <long_name>STK4-AS1-002 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001649130">
+              <coordinates coord_system="LRG_535" start="4084" end="4139" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001699356">
+              <coordinates coord_system="LRG_535" start="3925" end="3970" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001777211">
+              <coordinates coord_system="LRG_535" start="2322" end="2772" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000101109">
           <coordinates coord_system="LRG_535" start="4996" end="118481" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">STK4</symbol>
           <long_name>serine/threonine kinase 4 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="6789">
+            <synonym>KRS2</synonym>
+            <synonym>MST1</synonym>
+            <synonym>TIIAC</synonym>
+            <synonym>YSK3</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="11408">
             <synonym>KRS2</synonym>
             <synonym>MST1</synonym>
@@ -389,25 +430,25 @@
           <db_xref source="Ensembl" accession="ENSG00000101109" />
           <transcript source="Ensembl" accession="ENST00000372806">
             <coordinates coord_system="LRG_535" start="4996" end="118481" strand="1" mapped_from="GRCh37" />
-            <long_name>STK4-003 (protein_coding)</long_name>
+            <long_name>Homo sapiens serine/threonine kinase 4 (STK4), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13341.1" />
             <db_xref source="RefSeq" accession="NM_006282.2" />
             <exon source="Ensembl" accession="ENSE00001824525">
               <coordinates coord_system="LRG_535" start="4996" end="5125" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001732397">
+            <exon source="Ensembl" accession="ENSE00003210355">
               <coordinates coord_system="LRG_535" start="10600" end="10680" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001801701">
+            <exon source="Ensembl" accession="ENSE00002992206">
               <coordinates coord_system="LRG_535" start="16965" end="17093" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000662327">
+            <exon source="Ensembl" accession="ENSE00003087728">
               <coordinates coord_system="LRG_535" start="20351" end="20465" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001725769">
+            <exon source="Ensembl" accession="ENSE00003130533">
               <coordinates coord_system="LRG_535" start="25654" end="25818" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001669475">
+            <exon source="Ensembl" accession="ENSE00003141549">
               <coordinates coord_system="LRG_535" start="33612" end="33779" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000662330">
@@ -427,8 +468,58 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000361892">
               <coordinates coord_system="LRG_535" start="5091" end="113698" strand="1" mapped_from="GRCh37" />
-              <long_name>serine/threonine kinase 4</long_name>
+              <long_name>serine/threonine-protein kinase 4 </long_name>
               <db_xref source="RefSeq" accession="NP_006273.1" />
+              <db_xref source="UniProtKB" accession="Q9BS84" />
+              <db_xref source="UniProtKB" accession="Q13043">
+                <synonym>B2RCR8</synonym>
+                <synonym>Q15802</synonym>
+                <synonym>Q4G156</synonym>
+                <synonym>Q5H982</synonym>
+                <synonym>Q6PD60</synonym>
+                <synonym>Q9BR32</synonym>
+                <synonym>Q9NTZ4</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000396731">
+            <coordinates coord_system="LRG_535" start="5023" end="91691" strand="1" mapped_from="GRCh37" />
+            <long_name>STK4-201 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001618392">
+              <coordinates coord_system="LRG_535" start="5023" end="5125" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003210355">
+              <coordinates coord_system="LRG_535" start="10600" end="10680" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002992206">
+              <coordinates coord_system="LRG_535" start="16965" end="17093" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003087728">
+              <coordinates coord_system="LRG_535" start="20351" end="20465" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003130533">
+              <coordinates coord_system="LRG_535" start="25654" end="25818" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003141549">
+              <coordinates coord_system="LRG_535" start="33612" end="33779" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000662330">
+              <coordinates coord_system="LRG_535" start="35691" end="35828" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000662331">
+              <coordinates coord_system="LRG_535" start="38914" end="39042" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000662332">
+              <coordinates coord_system="LRG_535" start="39689" end="39875" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000662333">
+              <coordinates coord_system="LRG_535" start="63495" end="63652" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001526071">
+              <coordinates coord_system="LRG_535" start="91608" end="91691" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000379957">
+              <coordinates coord_system="LRG_535" start="5091" end="91691" strand="1" mapped_from="GRCh37" />
               <db_xref source="UniProtKB" accession="Q9BS84" />
               <db_xref source="UniProtKB" accession="Q13043">
                 <synonym>B2RCR8</synonym>
@@ -457,19 +548,19 @@
             <exon source="Ensembl" accession="ENSE00001458687">
               <coordinates coord_system="LRG_535" start="5044" end="5125" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001732397">
+            <exon source="Ensembl" accession="ENSE00003210355">
               <coordinates coord_system="LRG_535" start="10600" end="10680" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001801701">
+            <exon source="Ensembl" accession="ENSE00002992206">
               <coordinates coord_system="LRG_535" start="16965" end="17093" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000662327">
+            <exon source="Ensembl" accession="ENSE00003087728">
               <coordinates coord_system="LRG_535" start="20351" end="20465" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001725769">
+            <exon source="Ensembl" accession="ENSE00003130533">
               <coordinates coord_system="LRG_535" start="25654" end="25818" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001669475">
+            <exon source="Ensembl" accession="ENSE00003141549">
               <coordinates coord_system="LRG_535" start="33612" end="33779" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000662330">
@@ -492,63 +583,17 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000361887">
               <coordinates coord_system="LRG_535" start="5091" end="91691" strand="1" mapped_from="GRCh37" />
-              <long_name>serine/threonine kinase 4</long_name>
               <db_xref source="UniProtKB" accession="Q9BS84" />
+              <db_xref source="UniProtKB" accession="Q13043">
+                <synonym>B2RCR8</synonym>
+                <synonym>Q15802</synonym>
+                <synonym>Q4G156</synonym>
+                <synonym>Q5H982</synonym>
+                <synonym>Q6PD60</synonym>
+                <synonym>Q9BR32</synonym>
+                <synonym>Q9NTZ4</synonym>
+              </db_xref>
             </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000480745">
-            <coordinates coord_system="LRG_535" start="5061" end="12926" strand="1" mapped_from="GRCh37" />
-            <long_name>STK4-001 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001925127">
-              <coordinates coord_system="LRG_535" start="5061" end="5125" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001650572">
-              <coordinates coord_system="LRG_535" start="10600" end="10680" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001820369">
-              <coordinates coord_system="LRG_535" start="11729" end="11955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001899227">
-              <coordinates coord_system="LRG_535" start="12751" end="12926" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000487587">
-            <coordinates coord_system="LRG_535" start="5075" end="14210" strand="1" mapped_from="GRCh37" />
-            <long_name>STK4-002 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001892259">
-              <coordinates coord_system="LRG_535" start="5075" end="5125" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001650572">
-              <coordinates coord_system="LRG_535" start="10600" end="10680" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001858236">
-              <coordinates coord_system="LRG_535" start="11823" end="11955" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001887390">
-              <coordinates coord_system="LRG_535" start="12622" end="14210" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000474717">
-            <coordinates coord_system="LRG_535" start="9064" end="33779" strand="1" mapped_from="GRCh37" />
-            <long_name>STK4-005 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001842552">
-              <coordinates coord_system="LRG_535" start="9064" end="9127" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001650572">
-              <coordinates coord_system="LRG_535" start="10600" end="10680" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002215939">
-              <coordinates coord_system="LRG_535" start="16965" end="17093" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001922889">
-              <coordinates coord_system="LRG_535" start="20351" end="20465" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001924758">
-              <coordinates coord_system="LRG_535" start="25654" end="25818" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001839789">
-              <coordinates coord_system="LRG_535" start="33612" end="33779" strand="1" mapped_from="GRCh37" />
-            </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000499879">
             <coordinates coord_system="LRG_535" start="5048" end="117573" strand="1" mapped_from="GRCh37" />
@@ -556,16 +601,16 @@
             <exon source="Ensembl" accession="ENSE00001458705">
               <coordinates coord_system="LRG_535" start="5048" end="5125" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001732397">
+            <exon source="Ensembl" accession="ENSE00003210355">
               <coordinates coord_system="LRG_535" start="10600" end="10680" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001801701">
+            <exon source="Ensembl" accession="ENSE00002992206">
               <coordinates coord_system="LRG_535" start="16965" end="17093" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000662327">
+            <exon source="Ensembl" accession="ENSE00003087728">
               <coordinates coord_system="LRG_535" start="20351" end="20465" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001669475">
+            <exon source="Ensembl" accession="ENSE00003141549">
               <coordinates coord_system="LRG_535" start="33612" end="33779" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000662330">
@@ -585,69 +630,87 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000443514">
               <coordinates coord_system="LRG_535" start="5091" end="113698" strand="1" mapped_from="GRCh37" />
-              <long_name>serine/threonine kinase 4</long_name>
               <db_xref source="UniProtKB" accession="Q9BS84" />
               <db_xref source="UniProtKB" accession="F5H5B4" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000396731">
-            <coordinates coord_system="LRG_535" start="5023" end="91691" strand="1" mapped_from="GRCh37" />
-            <long_name>STK4-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001618392">
-              <coordinates coord_system="LRG_535" start="5023" end="5125" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000480745">
+            <coordinates coord_system="LRG_535" start="5061" end="12926" strand="1" mapped_from="GRCh37" />
+            <long_name>STK4-001 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001925127">
+              <coordinates coord_system="LRG_535" start="5061" end="5125" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001732397">
+            <exon source="Ensembl" accession="ENSE00003071642">
               <coordinates coord_system="LRG_535" start="10600" end="10680" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001801701">
+            <exon source="Ensembl" accession="ENSE00001820369">
+              <coordinates coord_system="LRG_535" start="11729" end="11955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001899227">
+              <coordinates coord_system="LRG_535" start="12751" end="12926" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000487587">
+            <coordinates coord_system="LRG_535" start="5075" end="14210" strand="1" mapped_from="GRCh37" />
+            <long_name>STK4-002 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001892259">
+              <coordinates coord_system="LRG_535" start="5075" end="5125" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003071642">
+              <coordinates coord_system="LRG_535" start="10600" end="10680" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001858236">
+              <coordinates coord_system="LRG_535" start="11823" end="11955" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001887390">
+              <coordinates coord_system="LRG_535" start="12622" end="14210" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000474717">
+            <coordinates coord_system="LRG_535" start="9064" end="33779" strand="1" mapped_from="GRCh37" />
+            <long_name>STK4-005 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001842552">
+              <coordinates coord_system="LRG_535" start="9064" end="9127" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003071642">
+              <coordinates coord_system="LRG_535" start="10600" end="10680" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003013712">
               <coordinates coord_system="LRG_535" start="16965" end="17093" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000662327">
+            <exon source="Ensembl" accession="ENSE00003030545">
               <coordinates coord_system="LRG_535" start="20351" end="20465" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001725769">
+            <exon source="Ensembl" accession="ENSE00002990166">
               <coordinates coord_system="LRG_535" start="25654" end="25818" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001669475">
+            <exon source="Ensembl" accession="ENSE00003095740">
               <coordinates coord_system="LRG_535" start="33612" end="33779" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000662330">
-              <coordinates coord_system="LRG_535" start="35691" end="35828" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000662331">
-              <coordinates coord_system="LRG_535" start="38914" end="39042" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000662332">
-              <coordinates coord_system="LRG_535" start="39689" end="39875" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000662333">
-              <coordinates coord_system="LRG_535" start="63495" end="63652" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001526071">
-              <coordinates coord_system="LRG_535" start="91608" end="91691" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000379957">
-              <coordinates coord_system="LRG_535" start="5091" end="91691" strand="1" mapped_from="GRCh37" />
-              <long_name>serine/threonine kinase 4</long_name>
-              <db_xref source="UniProtKB" accession="Q9BS84" />
-            </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000252021">
           <coordinates coord_system="LRG_535" start="42870" end="42976" strand="1" mapped_from="GRCh37" />
           <symbol source="RFAM">Y_RNA</symbol>
-          <long_name>Y RNA  [Source:RFAM;Acc:RF00019] (misc_RNA)</long_name>
+          <long_name>Y RNA [Source:RFAM;Acc:RF00019] (misc_RNA)</long_name>
           <db_xref source="RFAM" accession="RF00019" />
           <db_xref source="Ensembl" accession="ENSG00000252021" />
           <transcript source="Ensembl" accession="ENST00000516212">
             <coordinates coord_system="LRG_535" start="42870" end="42976" strand="1" mapped_from="GRCh37" />
-            <long_name>Y_RNA.743-201 (misc_RNA)</long_name>
+            <long_name>Y_RNA.744-201 (misc_RNA)</long_name>
             <exon source="Ensembl" accession="ENSE00002088489">
               <coordinates coord_system="LRG_535" start="42870" end="42976" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
       </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+        <url>http://rapid.rcai.riken.jp/RAPID/mutation?pid_id=AGID_235</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

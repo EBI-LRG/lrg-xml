@@ -91,7 +91,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-07-24</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="12" other_id="NC_000012.11" other_start="111346649" other_end="111363381">
         <mapping_span lrg_start="1" lrg_end="16733" other_start="111346649" other_end="111363381" strand="-1" />
       </mapping>
@@ -110,7 +110,7 @@
       <comment>Annotation from NG_007554.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_393" start="4978" end="5051" />
             <label>1</label>
@@ -218,8 +218,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-07-24</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000228841.7" other_name="ENST00000228841.7" other_id="ENST00000228841.7" other_start="1" other_end="792">
         <mapping_span lrg_start="5001" lrg_end="5051" other_start="1" other_end="51" strand="1" />
         <mapping_span lrg_start="6385" lrg_end="6474" other_start="52" other_end="141" strand="1" />
@@ -257,14 +257,28 @@
           <coordinates coord_system="LRG_393" start="4856" end="14744" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">MYL2</symbol>
           <long_name>myosin, light chain 2, regulatory, cardiac, slow (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="4633">
+            <synonym>CMH10</synonym>
+            <synonym>MLC2</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="7583">
             <synonym>CMH10</synonym>
           </db_xref>
           <db_xref source="MIM" accession="160781" />
           <db_xref source="Ensembl" accession="ENSG00000111245" />
+          <transcript source="Ensembl" accession="ENST00000546404">
+            <coordinates coord_system="LRG_393" start="4856" end="6749" strand="1" mapped_from="GRCh37" />
+            <long_name>MYL2-004 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002516912">
+              <coordinates coord_system="LRG_393" start="4856" end="5051" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002428268">
+              <coordinates coord_system="LRG_393" start="6385" end="6749" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000228841">
             <coordinates coord_system="LRG_393" start="5001" end="14744" strand="1" mapped_from="GRCh37" />
-            <long_name>MYL2-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens myosin, light chain 2, regulatory, cardiac, slow (MYL2), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS31901.1" />
             <db_xref source="RefSeq" accession="NM_000432.3" />
             <exon source="Ensembl" accession="ENSE00001403466">
@@ -276,7 +290,7 @@
             <exon source="Ensembl" accession="ENSE00002417824">
               <coordinates coord_system="LRG_393" start="9788" end="9863" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002359578">
+            <exon source="Ensembl" accession="ENSE00003067920">
               <coordinates coord_system="LRG_393" start="11288" end="11392" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000755127">
@@ -290,12 +304,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000228841">
               <coordinates coord_system="LRG_393" start="5049" end="14501" strand="1" mapped_from="GRCh37" />
-              <long_name>myosin, light chain 2, regulatory, cardiac, slow</long_name>
+              <long_name>myosin regulatory light chain 2, ventricular/cardiac muscle isoform </long_name>
               <db_xref source="RefSeq" accession="NP_000423.2" />
-              <db_xref source="UniProtKB" accession="Q7Z3Z1" />
               <db_xref source="UniProtKB" accession="Q6IB42" />
+              <db_xref source="UniProtKB" accession="Q7Z3Z1" />
               <db_xref source="UniProtKB" accession="F8VWQ7" />
-              <db_xref source="UniProtKB" accession="F8W662" />
               <db_xref source="UniProtKB" accession="P10916">
                 <synonym>Q16123</synonym>
               </db_xref>
@@ -324,7 +337,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000447154">
               <coordinates coord_system="LRG_393" start="5049" end="14501" strand="1" mapped_from="GRCh37" />
-              <long_name>myosin, light chain 2, regulatory, cardiac, slow</long_name>
               <db_xref source="UniProtKB" accession="G3V1V8" />
             </protein_product>
           </transcript>
@@ -337,7 +349,7 @@
             <exon source="Ensembl" accession="ENSE00002417824">
               <coordinates coord_system="LRG_393" start="9788" end="9863" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002359578">
+            <exon source="Ensembl" accession="ENSE00003067920">
               <coordinates coord_system="LRG_393" start="11288" end="11392" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000755127">
@@ -348,28 +360,17 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000449490">
               <coordinates coord_system="LRG_393" start="6439" end="12471" strand="1" mapped_from="GRCh37" />
-              <long_name>myosin, light chain 2, regulatory, cardiac, slow</long_name>
               <db_xref source="UniProtKB" accession="F8VWQ7" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000549029">
             <coordinates coord_system="LRG_393" start="11288" end="12445" strand="1" mapped_from="GRCh37" />
             <long_name>MYL2-007 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002364761">
+            <exon source="Ensembl" accession="ENSE00003052383">
               <coordinates coord_system="LRG_393" start="11288" end="11392" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002334145">
               <coordinates coord_system="LRG_393" start="12254" end="12445" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000546404">
-            <coordinates coord_system="LRG_393" start="4856" end="6749" strand="1" mapped_from="GRCh37" />
-            <long_name>MYL2-004 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002516912">
-              <coordinates coord_system="LRG_393" start="4856" end="5051" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002428268">
-              <coordinates coord_system="LRG_393" start="6385" end="6749" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
@@ -388,6 +389,34 @@
         <url>http://www.dmd.nl/nmdb2/home.php?select_db=MYL2</url>
       </source>
       <modification_date>2012-11-20</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Leiden Muscular Dystrophy pages - MYL2</name>
+        <url>http://www.dmd.nl/nmdb2/home.php?select_db=MYL2</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>ZJU-CGGM &amp; BGI-Shenzhen - MYL2</name>
+        <url>http://www.genomed.org/LOVD/CM/home.php?select_db=MYL2</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Zhejiang University Center for Genetic and Genomic Medicine (ZJU-CGGM) - MYL2</name>
+        <url>http://databases.lovd.nl/genomed/home.php?select_db=MYL2</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Sarcomere Protein Gene Mutation Database - MYL2</name>
+        <url>http://genepath.med.harvard.edu/~seidman/cg3/genes/MYL2_info.html</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -89,7 +89,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-07-24</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="15" other_id="NC_000015.9" other_start="35078297" other_end="35092927">
         <mapping_span lrg_start="1" lrg_end="14631" other_start="35078297" other_end="35092927" strand="-1" />
       </mapping>
@@ -108,7 +108,7 @@
       <comment>Annotation from NG_007553.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_388" start="5001" end="5221" />
             <label>1</label>
@@ -212,8 +212,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-07-24</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000290378.4" other_name="ENST00000290378.4" other_id="ENST00000290378.4" other_start="1" other_end="4106">
         <mapping_span lrg_start="4588" lrg_end="5221" other_start="1" other_end="634" strand="1" />
         <mapping_span lrg_start="5897" lrg_end="6047" other_start="635" other_end="785" strand="1" />
@@ -222,16 +222,6 @@
         <mapping_span lrg_start="8446" lrg_end="8637" other_start="1273" other_end="1464" strand="1" />
         <mapping_span lrg_start="9432" lrg_end="9613" other_start="1465" other_end="1646" strand="1" />
         <mapping_span lrg_start="10172" lrg_end="12631" other_start="1647" other_end="4106" strand="1" />
-      </mapping>
-      <mapping coord_system="ENST00000544062.1" other_name="ENST00000544062.1" other_id="ENST00000544062.1" other_start="1" other_end="3588">
-        <mapping_span lrg_start="5001" lrg_end="5221" other_start="1" other_end="221" strand="1" />
-        <mapping_span lrg_start="5897" lrg_end="6047" other_start="222" other_end="372" strand="1" />
-        <mapping_span lrg_start="7158" lrg_end="7267" other_start="373" other_end="482" strand="1" />
-        <mapping_span lrg_start="7373" lrg_end="7482" other_start="483" other_end="592" strand="1" />
-        <mapping_span lrg_start="8158" lrg_end="8319" other_start="593" other_end="754" strand="1" />
-        <mapping_span lrg_start="8446" lrg_end="8637" other_start="755" other_end="946" strand="1" />
-        <mapping_span lrg_start="9432" lrg_end="9613" other_start="947" other_end="1128" strand="1" />
-        <mapping_span lrg_start="10172" lrg_end="12631" other_start="1129" other_end="3588" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000557860.1" other_name="ENST00000557860.1" other_id="ENST00000557860.1" other_start="1" other_end="636">
         <mapping_span lrg_start="7876" lrg_end="8019" other_start="1" other_end="144" strand="1" />
@@ -244,10 +234,39 @@
         <mapping_span lrg_start="8446" lrg_end="9026" other_start="116" other_end="696" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000250007">
+          <coordinates coord_system="LRG_388" start="1" end="14631" strand="-1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <partial>3-prime</partial>
+          <symbol source="Clone_based_vega_gene">RP11-814P5.1</symbol>
+          <long_name>RP11-814P5.1 (lincRNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000250007" />
+          <transcript source="Ensembl" accession="ENST00000503496">
+            <coordinates coord_system="LRG_388" start="1" end="14631" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>RP11-814P5.1-001 (antisense)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000558707">
+            <coordinates coord_system="LRG_388" start="10554" end="14631" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>RP11-814P5.1-002 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002573446">
+              <coordinates coord_system="LRG_388" start="10554" end="10920" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000159251">
           <coordinates coord_system="LRG_388" start="4588" end="12631" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">ACTC1</symbol>
           <long_name>actin, alpha, cardiac muscle 1 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="70">
+            <synonym>ACTC</synonym>
+            <synonym>ASD5</synonym>
+            <synonym>CMD1R</synonym>
+            <synonym>CMH11</synonym>
+            <synonym>LVNC4</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="143">
             <synonym>ACTC</synonym>
             <synonym>CMD1R</synonym>
@@ -256,7 +275,7 @@
           <db_xref source="Ensembl" accession="ENSG00000159251" />
           <transcript source="Ensembl" accession="ENST00000290378">
             <coordinates coord_system="LRG_388" start="4588" end="12631" strand="1" mapped_from="GRCh37" />
-            <long_name>ACTC1-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens actin, alpha, cardiac muscle 1 (ACTC1), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS10041.1" />
             <db_xref source="RefSeq" accession="NM_005159.4" />
             <exon source="Ensembl" accession="ENSE00001197654">
@@ -268,10 +287,10 @@
             <exon source="Ensembl" accession="ENSE00001680366">
               <coordinates coord_system="LRG_388" start="7158" end="7482" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001775421">
+            <exon source="Ensembl" accession="ENSE00003121949">
               <coordinates coord_system="LRG_388" start="8158" end="8319" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001772213">
+            <exon source="Ensembl" accession="ENSE00003123491">
               <coordinates coord_system="LRG_388" start="8446" end="8637" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001759850">
@@ -282,7 +301,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000290378">
               <coordinates coord_system="LRG_388" start="5919" end="10315" strand="1" mapped_from="GRCh37" />
-              <long_name>actin, alpha, cardiac muscle 1</long_name>
+              <long_name>actin, alpha cardiac muscle 1 proprotein </long_name>
               <db_xref source="RefSeq" accession="NP_005150.1" />
               <db_xref source="UniProtKB" accession="B3KPP5" />
               <db_xref source="UniProtKB" accession="P68032">
@@ -296,10 +315,10 @@
             <exon source="Ensembl" accession="ENSE00002543918">
               <coordinates coord_system="LRG_388" start="7876" end="8019" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002563258">
+            <exon source="Ensembl" accession="ENSE00003058131">
               <coordinates coord_system="LRG_388" start="8158" end="8319" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002574628">
+            <exon source="Ensembl" accession="ENSE00003016134">
               <coordinates coord_system="LRG_388" start="8446" end="8637" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002564503">
@@ -315,40 +334,6 @@
             <exon source="Ensembl" accession="ENSE00002558989">
               <coordinates coord_system="LRG_388" start="8446" end="9026" strand="1" mapped_from="GRCh37" />
             </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000544062">
-            <coordinates coord_system="LRG_388" start="5001" end="12631" strand="1" mapped_from="GRCh37" />
-            <long_name>ACTC1-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002280240">
-              <coordinates coord_system="LRG_388" start="5001" end="5221" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001044284">
-              <coordinates coord_system="LRG_388" start="5897" end="6047" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002299726">
-              <coordinates coord_system="LRG_388" start="7158" end="7267" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002259911">
-              <coordinates coord_system="LRG_388" start="7373" end="7482" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001775421">
-              <coordinates coord_system="LRG_388" start="8158" end="8319" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001772213">
-              <coordinates coord_system="LRG_388" start="8446" end="8637" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001759850">
-              <coordinates coord_system="LRG_388" start="9432" end="9613" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002266944">
-              <coordinates coord_system="LRG_388" start="10172" end="12631" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000445797">
-              <coordinates coord_system="LRG_388" start="5919" end="10315" strand="1" mapped_from="GRCh37" />
-              <long_name>actin, alpha, cardiac muscle 1</long_name>
-              <db_xref source="UniProtKB" accession="F5H1C1" />
-              <db_xref source="UniProtKB" accession="B3KPP5" />
-            </protein_product>
           </transcript>
         </gene>
       </features>
@@ -366,6 +351,41 @@
         <url>http://www.dmd.nl/nmdb2/home.php?select_db=ACTC1</url>
       </source>
       <modification_date>2012-11-20</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Sarcomere Protein Gene Mutation Database - ACTC1</name>
+        <url>http://genetics.med.harvard.edu/%7Eseidman/cg3/genes/ACTC_info.html</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Leiden Muscular Dystrophy pages - ACTC1</name>
+        <url>http://www.dmd.nl/nmdb2/home.php?select_db=ACTC1</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>LOVD 3.0 shared installation - ACTC1</name>
+        <url>http://databases.lovd.nl/shared/genes/ACTC1</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>ZJU-CGGM &amp; BGI-Shenzhen - ACTC1</name>
+        <url>http://www.genomed.org/LOVD/CM/home.php?select_db=ACTC1</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Zhejiang University Center for Genetic and Genomic Medicine (ZJU-CGGM) - ACTC1</name>
+        <url>http://databases.lovd.nl/genomed/home.php?select_db=ACTC1</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
