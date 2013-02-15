@@ -148,7 +148,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-02</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="7" other_id="NC_000007.13" other_start="6010870" other_end="6053737">
         <mapping_span lrg_start="1" lrg_end="42868" other_start="6010870" other_end="6053737" strand="-1">
           <diff type="mismatch" lrg_start="26963" lrg_end="26963" other_start="6026775" other_end="6026775" lrg_sequence="G" other_sequence="A" />
@@ -169,7 +169,7 @@
       <comment>Annotation from NG_008466.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_161" start="5001" end="5110" />
             <label>1</label>
@@ -392,8 +392,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-02</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000265849.7" other_name="ENST00000265849.7" other_id="ENST00000265849.7" other_start="1" other_end="2855">
         <mapping_span lrg_start="4982" lrg_end="5110" other_start="1" other_end="129" strand="1" />
         <mapping_span lrg_start="8076" lrg_end="8215" other_start="130" other_end="269" strand="1" />
@@ -494,10 +494,92 @@
         <mapping_span lrg_start="31202" lrg_end="31232" other_start="63" other_end="93" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000106305">
+          <coordinates coord_system="LRG_161" start="1" end="4862" strand="-1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <symbol source="HGNC">AIMP2</symbol>
+          <long_name>aminoacyl tRNA synthetase complex-interacting multifunctional protein 2 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="7965">
+            <synonym>JTV-1</synonym>
+            <synonym>JTV1</synonym>
+            <synonym>P38</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="20609">
+            <synonym>JTV-1</synonym>
+            <synonym>JTV1</synonym>
+            <synonym>p38</synonym>
+            <synonym>PRO0992</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="600859" />
+          <db_xref source="Ensembl" accession="ENSG00000106305" />
+          <transcript source="Ensembl" accession="ENST00000223029">
+            <coordinates coord_system="LRG_161" start="1" end="4862" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>Homo sapiens aminoacyl tRNA synthetase complex-interacting multifunctional protein 2 (AIMP2), mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS5344.1" />
+            <db_xref source="RefSeq" accession="NM_006303.3" />
+            <exon source="Ensembl" accession="ENSE00001947589">
+              <coordinates coord_system="LRG_161" start="4609" end="4862" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000223029">
+              <coordinates coord_system="LRG_161" start="1" end="4743" strand="-1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+              <long_name>aminoacyl tRNA synthase complex-interacting multifunctional protein 2 </long_name>
+              <db_xref source="RefSeq" accession="NP_006294.2" />
+              <db_xref source="UniProtKB" accession="A8MU58" />
+              <db_xref source="UniProtKB" accession="Q13155">
+                <synonym>Q75MR1</synonym>
+                <synonym>Q96CZ5</synonym>
+                <synonym>Q9P1L2</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000400479">
+            <coordinates coord_system="LRG_161" start="1" end="4852" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>AIMP2-003 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001557532">
+              <coordinates coord_system="LRG_161" start="4729" end="4852" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000415999">
+            <coordinates coord_system="LRG_161" start="1" end="4817" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>AIMP2-002 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001534212">
+              <coordinates coord_system="LRG_161" start="4609" end="4817" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001676542">
+              <coordinates coord_system="LRG_161" start="967" end="1428" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000392519">
+              <coordinates coord_system="LRG_161" start="1417" end="4743" strand="-1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="F8WCL2" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000395236">
+            <coordinates coord_system="LRG_161" start="1" end="4791" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>AIMP2-004 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001409815">
+              <coordinates coord_system="LRG_161" start="4609" end="4791" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000378658">
+              <coordinates coord_system="LRG_161" start="1" end="4743" strand="-1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+              <db_xref source="UniProtKB" accession="F8W950" />
+            </protein_product>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000122512">
           <coordinates coord_system="LRG_161" start="4982" end="40868" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">PMS2</symbol>
           <long_name>PMS2 postmeiotic segregation increased 2 (S. cerevisiae) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="5395">
+            <synonym>HNPCC4</synonym>
+            <synonym>PMS2CL</synonym>
+            <synonym>PMSL2</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="9122">
             <synonym>HNPCC4</synonym>
             <synonym>H_DJ0042M02.9</synonym>
@@ -507,19 +589,19 @@
           <db_xref source="Ensembl" accession="ENSG00000122512" />
           <transcript source="Ensembl" accession="ENST00000265849">
             <coordinates coord_system="LRG_161" start="4982" end="40868" strand="1" mapped_from="GRCh37" />
-            <long_name>PMS2-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens PMS2 postmeiotic segregation increased 2 (S. cerevisiae) (PMS2), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS5343.1" />
             <db_xref source="RefSeq" accession="NM_000535.5" />
             <exon source="Ensembl" accession="ENSE00001848021">
               <coordinates coord_system="LRG_161" start="4982" end="5110" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002236029">
+            <exon source="Ensembl" accession="ENSE00003092082">
               <coordinates coord_system="LRG_161" start="8076" end="8215" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001670547">
+            <exon source="Ensembl" accession="ENSE00003108930">
               <coordinates coord_system="LRG_161" start="10049" end="10135" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001635908">
+            <exon source="Ensembl" accession="ENSE00003209449">
               <coordinates coord_system="LRG_161" start="10315" end="10417" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001617504">
@@ -557,9 +639,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000265849">
               <coordinates coord_system="LRG_161" start="5088" end="40708" strand="1" mapped_from="GRCh37" />
-              <long_name>PMS2 postmeiotic segregation increased 2 (S. cerevisiae)</long_name>
+              <long_name>mismatch repair endonuclease PMS2 isoform a </long_name>
               <db_xref source="RefSeq" accession="NP_000526.1" />
-              <db_xref source="UniProtKB" accession="A5YRY4" />
               <db_xref source="UniProtKB" accession="P54278">
                 <synonym>B2R610</synonym>
                 <synonym>Q52LH6</synonym>
@@ -568,111 +649,7 @@
                 <synonym>Q5FBX2</synonym>
                 <synonym>Q75MR2</synonym>
               </db_xref>
-              <db_xref source="UniProtKB" accession="Q68D20">
-                <synonym>B4DK88</synonym>
-                <synonym>Q764P1</synonym>
-              </db_xref>
             </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000382321">
-            <coordinates coord_system="LRG_161" start="5088" end="40708" strand="1" mapped_from="GRCh37" />
-            <long_name>PMS2-006 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001549074">
-              <coordinates coord_system="LRG_161" start="5088" end="5110" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002236029">
-              <coordinates coord_system="LRG_161" start="8076" end="8215" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001670547">
-              <coordinates coord_system="LRG_161" start="10049" end="10135" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001635908">
-              <coordinates coord_system="LRG_161" start="10315" end="10417" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001617504">
-              <coordinates coord_system="LRG_161" start="11471" end="11654" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000669412">
-              <coordinates coord_system="LRG_161" start="14832" end="14999" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000923857">
-              <coordinates coord_system="LRG_161" start="16684" end="16781" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001752874">
-              <coordinates coord_system="LRG_161" start="31116" end="31283" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001793579">
-              <coordinates coord_system="LRG_161" start="35411" end="35511" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001608691">
-              <coordinates coord_system="LRG_161" start="36350" end="36519" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002607806">
-              <coordinates coord_system="LRG_161" start="40565" end="40708" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000371758">
-              <coordinates coord_system="LRG_161" start="5088" end="40708" strand="1" mapped_from="GRCh37" />
-              <long_name>PMS2 postmeiotic segregation increased 2 (S. cerevisiae)</long_name>
-              <db_xref source="UniProtKB" accession="A5YRY4" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000406569">
-            <coordinates coord_system="LRG_161" start="5088" end="36433" strand="1" mapped_from="GRCh37" />
-            <long_name>PMS2-005 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001549074">
-              <coordinates coord_system="LRG_161" start="5088" end="5110" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002236029">
-              <coordinates coord_system="LRG_161" start="8076" end="8215" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001670547">
-              <coordinates coord_system="LRG_161" start="10049" end="10135" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001635908">
-              <coordinates coord_system="LRG_161" start="10315" end="10417" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001617504">
-              <coordinates coord_system="LRG_161" start="11471" end="11654" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000669412">
-              <coordinates coord_system="LRG_161" start="14832" end="14999" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000923857">
-              <coordinates coord_system="LRG_161" start="16684" end="16781" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000923858">
-              <coordinates coord_system="LRG_161" start="18474" end="18573" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001661419">
-              <coordinates coord_system="LRG_161" start="22050" end="22134" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000669420">
-              <coordinates coord_system="LRG_161" start="24152" end="24307" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001555364">
-              <coordinates coord_system="LRG_161" start="26487" end="27020" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001560734">
-              <coordinates coord_system="LRG_161" start="36393" end="36433" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000384308">
-              <coordinates coord_system="LRG_161" start="5088" end="36433" strand="1" mapped_from="GRCh37" />
-              <long_name>PMS2 postmeiotic segregation increased 2 (S. cerevisiae)</long_name>
-              <db_xref source="UniProtKB" accession="A5YRY4" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000469652">
-            <coordinates coord_system="LRG_161" start="5088" end="31232" strand="1" mapped_from="GRCh37" />
-            <long_name>PMS2-004 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001939412">
-              <coordinates coord_system="LRG_161" start="5088" end="5110" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001949966">
-              <coordinates coord_system="LRG_161" start="8076" end="8114" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001834481">
-              <coordinates coord_system="LRG_161" start="31202" end="31232" strand="1" mapped_from="GRCh37" />
-            </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000380416">
             <coordinates coord_system="LRG_161" start="5009" end="12141" strand="1" mapped_from="GRCh37" />
@@ -680,27 +657,17 @@
             <exon source="Ensembl" accession="ENSE00001924529">
               <coordinates coord_system="LRG_161" start="5009" end="5110" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001645236">
+            <exon source="Ensembl" accession="ENSE00002995840">
               <coordinates coord_system="LRG_161" start="8076" end="8215" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002279538">
+            <exon source="Ensembl" accession="ENSE00003074619">
               <coordinates coord_system="LRG_161" start="10049" end="10135" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001736014">
+            <exon source="Ensembl" accession="ENSE00003000344">
               <coordinates coord_system="LRG_161" start="10315" end="10417" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001604176">
               <coordinates coord_system="LRG_161" start="11471" end="12141" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000415839">
-            <coordinates coord_system="LRG_161" start="8041" end="10797" strand="1" mapped_from="GRCh37" />
-            <long_name>PMS2-002 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001910105">
-              <coordinates coord_system="LRG_161" start="8041" end="8215" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001872655">
-              <coordinates coord_system="LRG_161" start="10049" end="10797" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000382322">
@@ -715,7 +682,7 @@
             <exon source="Ensembl" accession="ENSE00001631582">
               <coordinates coord_system="LRG_161" start="10054" end="10135" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001635908">
+            <exon source="Ensembl" accession="ENSE00003209449">
               <coordinates coord_system="LRG_161" start="10315" end="10417" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001617504">
@@ -753,13 +720,130 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000371759">
               <coordinates coord_system="LRG_161" start="5088" end="40708" strand="1" mapped_from="GRCh37" />
-              <long_name>PMS2 postmeiotic segregation increased 2 (S. cerevisiae)</long_name>
-              <db_xref source="UniProtKB" accession="A5YRY4" />
-              <db_xref source="UniProtKB" accession="Q68D20">
-                <synonym>B4DK88</synonym>
-                <synonym>Q764P1</synonym>
+              <db_xref source="UniProtKB" accession="I3L0B5" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000382321">
+            <coordinates coord_system="LRG_161" start="5088" end="40708" strand="1" mapped_from="GRCh37" />
+            <long_name>PMS2-006 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003185245">
+              <coordinates coord_system="LRG_161" start="5088" end="5110" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003092082">
+              <coordinates coord_system="LRG_161" start="8076" end="8215" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003108930">
+              <coordinates coord_system="LRG_161" start="10049" end="10135" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003209449">
+              <coordinates coord_system="LRG_161" start="10315" end="10417" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001617504">
+              <coordinates coord_system="LRG_161" start="11471" end="11654" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000669412">
+              <coordinates coord_system="LRG_161" start="14832" end="14999" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000923857">
+              <coordinates coord_system="LRG_161" start="16684" end="16781" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001752874">
+              <coordinates coord_system="LRG_161" start="31116" end="31283" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001793579">
+              <coordinates coord_system="LRG_161" start="35411" end="35511" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001608691">
+              <coordinates coord_system="LRG_161" start="36350" end="36519" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003062302">
+              <coordinates coord_system="LRG_161" start="40565" end="40708" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000371758">
+              <coordinates coord_system="LRG_161" start="5088" end="40708" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="P54278">
+                <synonym>B2R610</synonym>
+                <synonym>Q52LH6</synonym>
+                <synonym>Q5FBW9</synonym>
+                <synonym>Q5FBX1</synonym>
+                <synonym>Q5FBX2</synonym>
+                <synonym>Q75MR2</synonym>
               </db_xref>
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000406569">
+            <coordinates coord_system="LRG_161" start="5088" end="36433" strand="1" mapped_from="GRCh37" />
+            <long_name>PMS2-005 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003185245">
+              <coordinates coord_system="LRG_161" start="5088" end="5110" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003092082">
+              <coordinates coord_system="LRG_161" start="8076" end="8215" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003108930">
+              <coordinates coord_system="LRG_161" start="10049" end="10135" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003209449">
+              <coordinates coord_system="LRG_161" start="10315" end="10417" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001617504">
+              <coordinates coord_system="LRG_161" start="11471" end="11654" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000669412">
+              <coordinates coord_system="LRG_161" start="14832" end="14999" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000923857">
+              <coordinates coord_system="LRG_161" start="16684" end="16781" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000923858">
+              <coordinates coord_system="LRG_161" start="18474" end="18573" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001661419">
+              <coordinates coord_system="LRG_161" start="22050" end="22134" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000669420">
+              <coordinates coord_system="LRG_161" start="24152" end="24307" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001555364">
+              <coordinates coord_system="LRG_161" start="26487" end="27020" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001560734">
+              <coordinates coord_system="LRG_161" start="36393" end="36433" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000384308">
+              <coordinates coord_system="LRG_161" start="5088" end="36433" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="P54278">
+                <synonym>B2R610</synonym>
+                <synonym>Q52LH6</synonym>
+                <synonym>Q5FBW9</synonym>
+                <synonym>Q5FBX1</synonym>
+                <synonym>Q5FBX2</synonym>
+                <synonym>Q75MR2</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000469652">
+            <coordinates coord_system="LRG_161" start="5088" end="31232" strand="1" mapped_from="GRCh37" />
+            <long_name>PMS2-004 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003046484">
+              <coordinates coord_system="LRG_161" start="5088" end="5110" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001949966">
+              <coordinates coord_system="LRG_161" start="8076" end="8114" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001834481">
+              <coordinates coord_system="LRG_161" start="31202" end="31232" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000415839">
+            <coordinates coord_system="LRG_161" start="8041" end="10797" strand="1" mapped_from="GRCh37" />
+            <long_name>PMS2-002 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001910105">
+              <coordinates coord_system="LRG_161" start="8041" end="8215" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001872655">
+              <coordinates coord_system="LRG_161" start="10049" end="10797" strand="1" mapped_from="GRCh37" />
+            </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000441476">
             <coordinates coord_system="LRG_161" start="10101" end="40708" strand="1" mapped_from="GRCh37" />
@@ -797,13 +881,11 @@
             <exon source="Ensembl" accession="ENSE00001608691">
               <coordinates coord_system="LRG_161" start="36350" end="36519" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002602770">
+            <exon source="Ensembl" accession="ENSE00003215370">
               <coordinates coord_system="LRG_161" start="40565" end="40708" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000392843">
               <coordinates coord_system="LRG_161" start="10101" end="40708" strand="1" mapped_from="GRCh37" />
-              <long_name>PMS2 postmeiotic segregation increased 2 (S. cerevisiae)</long_name>
-              <db_xref source="UniProtKB" accession="A5YRY4" />
               <db_xref source="UniProtKB" accession="C9J167" />
             </protein_product>
           </transcript>
@@ -811,7 +893,7 @@
         <gene source="Ensembl" accession="ENSG00000201990">
           <coordinates coord_system="LRG_161" start="9722" end="9824" strand="1" mapped_from="GRCh37" />
           <symbol source="RFAM">Y_RNA</symbol>
-          <long_name>Y RNA  [Source:RFAM;Acc:RF00019] (misc_RNA)</long_name>
+          <long_name>Y RNA [Source:RFAM;Acc:RF00019] (misc_RNA)</long_name>
           <db_xref source="RFAM" accession="RF00019" />
           <db_xref source="Ensembl" accession="ENSG00000201990" />
           <transcript source="Ensembl" accession="ENST00000365120">
@@ -820,80 +902,6 @@
             <exon source="Ensembl" accession="ENSE00001439883">
               <coordinates coord_system="LRG_161" start="9722" end="9824" strand="1" mapped_from="GRCh37" />
             </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000106305">
-          <coordinates coord_system="LRG_161" start="1" end="4862" strand="-1" mapped_from="GRCh37" />
-          <partial>3-prime</partial>
-          <symbol source="HGNC">AIMP2</symbol>
-          <long_name>aminoacyl tRNA synthetase complex-interacting multifunctional protein 2 (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="20609">
-            <synonym>JTV-1</synonym>
-            <synonym>JTV1</synonym>
-            <synonym>p38</synonym>
-            <synonym>PRO0992</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="600859" />
-          <db_xref source="Ensembl" accession="ENSG00000106305" />
-          <transcript source="Ensembl" accession="ENST00000223029">
-            <coordinates coord_system="LRG_161" start="1" end="4862" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>AIMP2-001 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS5344.1" />
-            <db_xref source="RefSeq" accession="NM_006303.3" />
-            <exon source="Ensembl" accession="ENSE00001947589">
-              <coordinates coord_system="LRG_161" start="4609" end="4862" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000223029">
-              <coordinates coord_system="LRG_161" start="1" end="4743" strand="-1" mapped_from="GRCh37" />
-              <partial>3-prime</partial>
-              <long_name>aminoacyl tRNA synthetase complex-interacting multifunctional protein 2</long_name>
-              <db_xref source="RefSeq" accession="NP_006294.2" />
-              <db_xref source="UniProtKB" accession="A8MU58" />
-              <db_xref source="UniProtKB" accession="Q13155">
-                <synonym>Q75MR1</synonym>
-                <synonym>Q96CZ5</synonym>
-                <synonym>Q9P1L2</synonym>
-              </db_xref>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000400479">
-            <coordinates coord_system="LRG_161" start="1" end="4852" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>AIMP2-003 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001557532">
-              <coordinates coord_system="LRG_161" start="4729" end="4852" strand="-1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000415999">
-            <coordinates coord_system="LRG_161" start="1" end="4817" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>AIMP2-002 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00001534212">
-              <coordinates coord_system="LRG_161" start="4609" end="4817" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676542">
-              <coordinates coord_system="LRG_161" start="967" end="1428" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000392519">
-              <coordinates coord_system="LRG_161" start="1417" end="4743" strand="-1" mapped_from="GRCh37" />
-              <long_name>aminoacyl tRNA synthetase complex-interacting multifunctional protein 2</long_name>
-              <db_xref source="UniProtKB" accession="F8WCL2" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000395236">
-            <coordinates coord_system="LRG_161" start="1" end="4791" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>AIMP2-004 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001409815">
-              <coordinates coord_system="LRG_161" start="4609" end="4791" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000378658">
-              <coordinates coord_system="LRG_161" start="1" end="4743" strand="-1" mapped_from="GRCh37" />
-              <partial>3-prime</partial>
-              <long_name>aminoacyl tRNA synthetase complex-interacting multifunctional protein 2</long_name>
-              <db_xref source="UniProtKB" accession="F8W950" />
-            </protein_product>
           </transcript>
         </gene>
       </features>
@@ -911,6 +919,34 @@
         <url>http://genomed.org/LOVD/HNPCC/home.php?select_db=PMS2</url>
       </source>
       <modification_date>2012-08-02</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Colon cancer gene variant databases - PMS2</name>
+        <url>http://chromium.liacs.nl/LOVD2/colon_cancer/home.php?select_db=PMS2</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Zhejiang University Center for Genetic and Genomic Medicine (ZJU-CGGM) - PMS2</name>
+        <url>http://www.genomed.org/lovd/hnpcc/home.php?select_db=PMS2</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+        <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_164</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>LOVD - human mismatch repair genes - PMS2</name>
+        <url>http://HCI-LOVD.hci.utah.edu/home.php?select_db=PMS2</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

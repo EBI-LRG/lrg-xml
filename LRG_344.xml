@@ -7,7 +7,7 @@
     <sequence_source>NG_007524.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
-      <name>Resource of Asian Primary Immunodeficiency Diseases (RAPID)</name>
+      <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
       <url>http://rapid.rcai.riken.jp/RAPID/mutation?pid_id=AGID_226</url>
       <contact>
         <name>Sujatha Mohan</name>
@@ -82,7 +82,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-12-19</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p10" other_name="12" other_id="NC_000012.11" other_start="25356180" other_end="25408854">
         <mapping_span lrg_start="1" lrg_end="52675" other_start="25356180" other_end="25408854" strand="-1">
           <diff type="mismatch" lrg_start="46390" lrg_end="46390" other_start="25362465" other_end="25362465" lrg_sequence="T" other_sequence="C" />
@@ -252,8 +252,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 69</comment>
-      <modification_date>2012-12-19</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000256078.4" other_name="ENST00000256078.4" other_id="ENST00000256078.4" other_start="1" other_end="1119">
         <mapping_span lrg_start="5118" lrg_end="5170" other_start="1" other_end="53" strand="1" />
         <mapping_span lrg_start="10526" lrg_end="10647" other_start="54" other_end="175" strand="1" />
@@ -425,6 +425,28 @@
             </protein_product>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000268076">
+          <coordinates coord_system="LRG_344" start="18015" end="27340" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_ensembl_gene">AC087239.1</symbol>
+          <long_name>AC087239.1 (protein_coding)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000268076" />
+          <transcript source="Ensembl" accession="ENST00000594112">
+            <coordinates coord_system="LRG_344" start="18015" end="27340" strand="-1" mapped_from="GRCh37" />
+            <long_name>AC087239.1-201 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002986224">
+              <coordinates coord_system="LRG_344" start="27283" end="27340" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003061355">
+              <coordinates coord_system="LRG_344" start="23877" end="23903" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003174464">
+              <coordinates coord_system="LRG_344" start="18015" end="18040" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000472051">
+              <coordinates coord_system="LRG_344" start="18015" end="27340" strand="-1" mapped_from="GRCh37" />
+            </protein_product>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000205707">
           <coordinates coord_system="LRG_344" start="46276" end="52675" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
@@ -500,7 +522,7 @@
               <long_name>LYR motif-containing protein 5 </long_name>
               <db_xref source="RefSeq" accession="NP_001001660.2" />
               <db_xref source="UniProtKB" accession="G3V521" />
-              <db_xref source="UniProtKB" accession="Q6IPR1" />
+              <db_xref source="UniProtKB" accession="J3KPI7" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000556402">
@@ -607,6 +629,34 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=KRAS</url>
       </source>
       <modification_date>2012-12-19</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - KRAS</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=KRAS</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+        <url>http://rapid.rcai.riken.jp/RAPID/mutation?pid_id=AGID_226</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>LOVD 3.0 shared installation - KRAS</name>
+        <url>http://databases.lovd.nl/shared/genes/KRAS</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>PCaMDB : A mutation database for prostate cancer - KRAS</name>
+        <url>http://sysbio.org.cn/home.php?select_db=KRAS</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

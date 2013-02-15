@@ -7,7 +7,7 @@
     <sequence_source>NG_016363.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
-      <name>Resource of Asian Primary Immunodeficiency Diseases (RAPID)</name>
+      <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
       <url>http://rapid.rcai.riken.jp/RAPID/mutation?pid_id=AGID_223</url>
       <contact>
         <name>Sujatha Mohan</name>
@@ -49,7 +49,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-07-24</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="3" other_id="NC_000003.11" other_start="169480398" other_end="169487848">
         <mapping_span lrg_start="1" lrg_end="7451" other_start="169480398" other_end="169487848" strand="-1" />
       </mapping>
@@ -145,42 +145,28 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-07-24</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000363312.1" other_name="ENST00000363312.1" other_id="ENST00000363312.1" other_start="1" other_end="438">
         <mapping_span lrg_start="5014" lrg_end="5451" other_start="1" other_end="438" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000200182">
-          <coordinates coord_system="LRG_347" start="5014" end="5451" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">TERC</symbol>
-          <long_name>telomerase RNA component (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="11727">
-            <synonym>hTR</synonym>
-            <synonym>SCARNA19</synonym>
-            <synonym>TR</synonym>
-            <synonym>TRC3</synonym>
-          </db_xref>
-          <db_xref source="RFAM" accession="RF00024" />
-          <db_xref source="Ensembl" accession="ENSG00000200182" />
-          <transcript source="Ensembl" accession="ENST00000363312">
-            <coordinates coord_system="LRG_347" start="5014" end="5451" strand="1" mapped_from="GRCh37" />
-            <long_name>TERC-201 (misc_RNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_001566.1" />
-            <exon source="Ensembl" accession="ENSE00001438075">
-              <coordinates coord_system="LRG_347" start="5014" end="5451" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000184378">
           <coordinates coord_system="LRG_347" start="166" end="3136" strand="1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_ensembl_gene">AC078802.1</symbol>
-          <long_name>Actin-related protein M1 [Source:UniProtKB/Swiss-Prot;Acc:Q9BYD9] (protein_coding)</long_name>
+          <symbol source="HGNC">ACTRT3</symbol>
+          <long_name>actin-related protein T3 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="84517">
+            <synonym>ARP-T3</synonym>
+            <synonym>ARPM1</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="24022">
+            <synonym>ARPM1</synonym>
+          </db_xref>
           <db_xref source="MIM" accession="608534" />
           <db_xref source="Ensembl" accession="ENSG00000184378" />
           <transcript source="Ensembl" accession="ENST00000330368">
             <coordinates coord_system="LRG_347" start="166" end="3136" strand="1" mapped_from="GRCh37" />
-            <long_name>AC078802.1-201 (protein_coding)</long_name>
+            <long_name>Homo sapiens actin-related protein T3 (ACTRT3), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS3206.1" />
             <db_xref source="RefSeq" accession="NM_032487.4" />
             <exon source="Ensembl" accession="ENSE00001292725">
@@ -191,6 +177,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000333037">
               <coordinates coord_system="LRG_347" start="541" end="2629" strand="1" mapped_from="GRCh37" />
+              <long_name>actin-related protein T3 </long_name>
               <db_xref source="RefSeq" accession="NP_115876.3" />
               <db_xref source="UniProtKB" accession="Q9BYD9">
                 <synonym>Q96IS0</synonym>
@@ -199,7 +186,51 @@
             </protein_product>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000200182">
+          <coordinates coord_system="LRG_347" start="5014" end="5451" strand="1" mapped_from="GRCh37" />
+          <symbol source="HGNC">TERC</symbol>
+          <long_name>telomerase RNA component (misc_RNA)</long_name>
+          <db_xref source="GeneID" accession="7012">
+            <synonym>DKCA1</synonym>
+            <synonym>hTR</synonym>
+            <synonym>PFBMFT2</synonym>
+            <synonym>SCARNA19</synonym>
+            <synonym>TR</synonym>
+            <synonym>TRC3</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="11727">
+            <synonym>hTR</synonym>
+            <synonym>SCARNA19</synonym>
+            <synonym>TR</synonym>
+            <synonym>TRC3</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="602322" />
+          <db_xref source="RFAM" accession="RF00024" />
+          <db_xref source="Ensembl" accession="ENSG00000200182" />
+          <transcript source="Ensembl" accession="ENST00000363312">
+            <coordinates coord_system="LRG_347" start="5014" end="5451" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens telomerase RNA component (TERC), telomerase RNA. (misc_RNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_001566.1" />
+            <exon source="Ensembl" accession="ENSE00001438075">
+              <coordinates coord_system="LRG_347" start="5014" end="5451" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
       </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+        <url>http://rapid.rcai.riken.jp/RAPID/mutation?pid_id=AGID_223</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>The Telomerase Database - TERC</name>
+        <url>http://telomerase.asu.edu/diseases.html#tr</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
