@@ -109,7 +109,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="6" other_id="NC_000006.11" other_start="35415138" other_end="35436881">
         <mapping_span lrg_start="1" lrg_end="21744" other_start="35415138" other_end="35436881" strand="1" />
       </mapping>
@@ -128,7 +128,7 @@
       <comment>Annotation from NG_011708.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_498" start="5001" end="5433" />
             <label>1</label>
@@ -290,8 +290,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000229769.2" other_name="ENST00000229769.2" other_id="ENST00000229769.2" other_start="1" other_end="2554">
         <mapping_span lrg_start="5001" lrg_end="5433" other_start="1" other_end="433" strand="1" />
         <mapping_span lrg_start="8387" lrg_end="8993" other_start="434" other_end="1040" strand="1" />
@@ -308,13 +308,13 @@
         <gene source="Ensembl" accession="ENSG00000227154">
           <coordinates coord_system="LRG_498" start="1" end="2506" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="Clone_based_vega_gene">MKRNP2.1</symbol>
-          <long_name>MKRNP2.1 (pseudogene)</long_name>
+          <symbol source="Clone_based_vega_gene">MKRNP2</symbol>
+          <long_name>MKRNP2 (pseudogene)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000227154" />
           <transcript source="Ensembl" accession="ENST00000436521">
             <coordinates coord_system="LRG_498" start="1" end="2506" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>MKRNP2.1-001 (unprocessed_pseudogene)</long_name>
+            <long_name>MKRNP2-001 (unprocessed_pseudogene)</long_name>
             <exon source="Ensembl" accession="ENSE00001688503">
               <coordinates coord_system="LRG_498" start="2406" end="2506" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -322,7 +322,7 @@
           <transcript source="Ensembl" accession="ENST00000421883">
             <coordinates coord_system="LRG_498" start="1" end="2493" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>MKRNP2.1-201 (unprocessed_pseudogene)</long_name>
+            <long_name>MKRNP2-201 (unprocessed_pseudogene)</long_name>
             <exon source="Ensembl" accession="ENSE00001655312">
               <coordinates coord_system="LRG_498" start="2406" end="2493" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -332,6 +332,10 @@
           <coordinates coord_system="LRG_498" start="5001" end="19743" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">FANCE</symbol>
           <long_name>Fanconi anemia, complementation group E (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="2178">
+            <synonym>FACE</synonym>
+            <synonym>FAE</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="3586">
             <synonym>FACE</synonym>
             <synonym>FAE</synonym>
@@ -340,7 +344,7 @@
           <db_xref source="Ensembl" accession="ENSG00000112039" />
           <transcript source="Ensembl" accession="ENST00000229769">
             <coordinates coord_system="LRG_498" start="5001" end="19743" strand="1" mapped_from="GRCh37" />
-            <long_name>FANCE-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens Fanconi anemia, complementation group E (FANCE), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS4805.1" />
             <db_xref source="RefSeq" accession="NM_021922.2" />
             <exon source="Ensembl" accession="ENSE00000849631">
@@ -375,7 +379,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000229769">
               <coordinates coord_system="LRG_498" start="5186" end="18985" strand="1" mapped_from="GRCh37" />
-              <long_name>Fanconi anemia, complementation group E</long_name>
+              <long_name>Fanconi anemia group E protein </long_name>
               <db_xref source="RefSeq" accession="NP_068741.1" />
               <db_xref source="UniProtKB" accession="Q9HB96">
                 <synonym>A8K907</synonym>
@@ -389,6 +393,11 @@
           <partial>3-prime</partial>
           <symbol source="HGNC">RPL10A</symbol>
           <long_name>ribosomal protein L10a (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="4736">
+            <synonym>Csa-19</synonym>
+            <synonym>L10A</synonym>
+            <synonym>NEDD6</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="10299">
             <synonym>Csa-19</synonym>
             <synonym>L10A</synonym>
@@ -398,22 +407,22 @@
           <transcript source="Ensembl" accession="ENST00000322203">
             <coordinates coord_system="LRG_498" start="21048" end="21744" strand="1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>RPL10A-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens ribosomal protein L10a (RPL10A), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS4806.1" />
             <db_xref source="RefSeq" accession="NM_007104.4" />
-            <exon source="Ensembl" accession="ENSE00002598946">
+            <exon source="Ensembl" accession="ENSE00003042539">
               <coordinates coord_system="LRG_498" start="21048" end="21079" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002516160">
+            <exon source="Ensembl" accession="ENSE00003064685">
               <coordinates coord_system="LRG_498" start="21439" end="21513" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002448036">
+            <exon source="Ensembl" accession="ENSE00003049843">
               <coordinates coord_system="LRG_498" start="21587" end="21667" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000363018">
               <coordinates coord_system="LRG_498" start="21075" end="21744" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>ribosomal protein L10a</long_name>
+              <long_name>60S ribosomal protein L10a </long_name>
               <db_xref source="RefSeq" accession="NP_009035.3" />
               <db_xref source="UniProtKB" accession="P62906">
                 <synonym>B2R801</synonym>
@@ -428,26 +437,15 @@
             <coordinates coord_system="LRG_498" start="21048" end="21744" strand="1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>RPL10A-005 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002577983">
+            <exon source="Ensembl" accession="ENSE00003049810">
               <coordinates coord_system="LRG_498" start="21048" end="21079" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002465751">
+            <exon source="Ensembl" accession="ENSE00003145339">
               <coordinates coord_system="LRG_498" start="21439" end="21513" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001863369">
               <coordinates coord_system="LRG_498" start="21587" end="21744" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000464112">
-            <coordinates coord_system="LRG_498" start="21060" end="21744" strand="1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>RPL10A-002 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001957149">
-              <coordinates coord_system="LRG_498" start="21060" end="21513" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002516605">
-              <coordinates coord_system="LRG_498" start="21587" end="21667" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000490335">
@@ -461,6 +459,17 @@
               <coordinates coord_system="LRG_498" start="21439" end="21667" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000464112">
+            <coordinates coord_system="LRG_498" start="21060" end="21744" strand="1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>RPL10A-002 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001957149">
+              <coordinates coord_system="LRG_498" start="21060" end="21513" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003107570">
+              <coordinates coord_system="LRG_498" start="21587" end="21667" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000478340">
             <coordinates coord_system="LRG_498" start="21060" end="21744" strand="1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
@@ -468,7 +477,7 @@
             <exon source="Ensembl" accession="ENSE00001875006">
               <coordinates coord_system="LRG_498" start="21060" end="21079" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002465751">
+            <exon source="Ensembl" accession="ENSE00003145339">
               <coordinates coord_system="LRG_498" start="21439" end="21513" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001937270">
@@ -492,6 +501,13 @@
         <url>http://chromium.liacs.nl/LOVD2/FANC/home.php?select_db=FANCE</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Fanconi anemia database - FANCE</name>
+        <url>http://chromium.liacs.nl/LOVD2/FANC/home.php?select_db=FANCE</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

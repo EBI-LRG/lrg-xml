@@ -184,7 +184,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-02</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="8" other_id="NC_000008.10" other_start="145734667" other_end="145748210">
         <mapping_span lrg_start="1" lrg_end="13543" other_start="145734667" other_end="145748210" strand="-1">
           <diff type="mismatch" lrg_start="5697" lrg_end="5697" other_start="145742514" other_end="145742514" lrg_sequence="C" other_sequence="T" />
@@ -207,7 +207,7 @@
       <comment>Annotation from NG_016430.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_277" start="5001" end="5126" />
             <label>1</label>
@@ -521,8 +521,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-02</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000301323.3" other_name="ENST00000301323.3" other_id="ENST00000301323.3" other_start="1" other_end="781">
         <mapping_span lrg_start="10114" lrg_end="10185" other_start="1" other_end="72" strand="1" />
         <mapping_span lrg_start="10503" lrg_end="10683" other_start="73" other_end="253" strand="1">
@@ -671,17 +671,573 @@
         <mapping_span lrg_start="9689" lrg_end="9976" other_start="635" other_end="922" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000160959">
+          <coordinates coord_system="LRG_277" start="1" end="4835" strand="-1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <symbol source="HGNC">LRRC14</symbol>
+          <long_name>leucine rich repeat containing 14 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="9684">
+            <synonym>LRRC14A</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="20419">
+            <synonym>KIAA0014</synonym>
+            <synonym>LRRC14A</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000160959" />
+          <transcript source="Ensembl" accession="ENST00000292524">
+            <coordinates coord_system="LRG_277" start="1" end="4820" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>Homo sapiens leucine rich repeat containing 14 (LRRC14), mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS6432.1" />
+            <db_xref source="RefSeq" accession="NM_014665.2" />
+            <exon source="Ensembl" accession="ENSE00001055681">
+              <coordinates coord_system="LRG_277" start="4786" end="4820" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001136013">
+              <coordinates coord_system="LRG_277" start="2773" end="3212" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001055679">
+              <coordinates coord_system="LRG_277" start="2005" end="2589" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001214931">
+              <coordinates coord_system="LRG_277" start="1" end="1916" strand="-1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000292524">
+              <coordinates coord_system="LRG_277" start="1349" end="3101" strand="-1" mapped_from="GRCh37" />
+              <long_name>leucine-rich repeat-containing protein 14 </long_name>
+              <db_xref source="RefSeq" accession="NP_055480.1" />
+              <db_xref source="UniProtKB" accession="E9PNL0" />
+              <db_xref source="UniProtKB" accession="E9PP40" />
+              <db_xref source="UniProtKB" accession="E9PRP5" />
+              <db_xref source="UniProtKB" accession="Q15048">
+                <synonym>A8K0A8</synonym>
+                <synonym>D3DWM8</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000528528">
+            <coordinates coord_system="LRG_277" start="1" end="245" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>LRRC14-008 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002150641">
+              <coordinates coord_system="LRG_277" start="1" end="245" strand="-1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000529022">
+            <coordinates coord_system="LRG_277" start="803" end="4822" strand="-1" mapped_from="GRCh37" />
+            <long_name>LRRC14-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS6432.1" />
+            <exon source="Ensembl" accession="ENSE00002181516">
+              <coordinates coord_system="LRG_277" start="4786" end="4822" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002193886">
+              <coordinates coord_system="LRG_277" start="4012" end="4078" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001136013">
+              <coordinates coord_system="LRG_277" start="2773" end="3212" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001055679">
+              <coordinates coord_system="LRG_277" start="2005" end="2589" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002153639">
+              <coordinates coord_system="LRG_277" start="803" end="1916" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000434768">
+              <coordinates coord_system="LRG_277" start="1349" end="3101" strand="-1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="E9PNL0" />
+              <db_xref source="UniProtKB" accession="E9PP40" />
+              <db_xref source="UniProtKB" accession="E9PRP5" />
+              <db_xref source="UniProtKB" accession="Q15048">
+                <synonym>A8K0A8</synonym>
+                <synonym>D3DWM8</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000531310">
+            <coordinates coord_system="LRG_277" start="2005" end="3560" strand="-1" mapped_from="GRCh37" />
+            <long_name>LRRC14-006 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002170164">
+              <coordinates coord_system="LRG_277" start="2773" end="3560" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002157011">
+              <coordinates coord_system="LRG_277" start="2005" end="2585" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000527730">
+            <coordinates coord_system="LRG_277" start="2016" end="4835" strand="-1" mapped_from="GRCh37" />
+            <long_name>LRRC14-003 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002154196">
+              <coordinates coord_system="LRG_277" start="4786" end="4835" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002168319">
+              <coordinates coord_system="LRG_277" start="2773" end="3126" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002200040">
+              <coordinates coord_system="LRG_277" start="2016" end="2589" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000436452">
+              <coordinates coord_system="LRG_277" start="2016" end="3101" strand="-1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="E9PNL0" />
+              <db_xref source="UniProtKB" accession="E9PP40" />
+              <db_xref source="UniProtKB" accession="E9PRP5" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000525766">
+            <coordinates coord_system="LRG_277" start="2440" end="4082" strand="-1" mapped_from="GRCh37" />
+            <long_name>LRRC14-005 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002159969">
+              <coordinates coord_system="LRG_277" start="4012" end="4082" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001136013">
+              <coordinates coord_system="LRG_277" start="2773" end="3212" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002186598">
+              <coordinates coord_system="LRG_277" start="2440" end="2589" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000434738">
+              <coordinates coord_system="LRG_277" start="2440" end="3101" strand="-1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="E9PRP5" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000530854">
+            <coordinates coord_system="LRG_277" start="2842" end="4456" strand="-1" mapped_from="GRCh37" />
+            <long_name>LRRC14-004 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002152744">
+              <coordinates coord_system="LRG_277" start="4012" end="4456" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002200541">
+              <coordinates coord_system="LRG_277" start="2842" end="3126" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000435985">
+              <coordinates coord_system="LRG_277" start="2842" end="3101" strand="-1" mapped_from="GRCh37" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000254402">
+          <coordinates coord_system="LRG_277" start="1" end="423" strand="1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <symbol source="HGNC">LRRC24</symbol>
+          <long_name>leucine rich repeat containing 24 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="441381">
+            <synonym>LRRC14OS</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="28947">
+            <synonym>LRRC14OS</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000254402" />
+          <transcript source="Ensembl" accession="ENST00000529415">
+            <coordinates coord_system="LRG_277" start="1" end="423" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>Homo sapiens leucine rich repeat containing 24 (LRRC24), mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS34969.1" />
+            <db_xref source="RefSeq" accession="NM_001024678.3" />
+            <exon source="Ensembl" accession="ENSE00002173439">
+              <coordinates coord_system="LRG_277" start="1" end="423" strand="1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000434849">
+              <coordinates coord_system="LRG_277" start="1" end="352" strand="1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+              <long_name>leucine-rich repeat-containing protein 24 precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_001019849.2" />
+              <db_xref source="UniProtKB" accession="Q50LG9" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000533758">
+            <coordinates coord_system="LRG_277" start="1" end="388" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>LRRC24-002 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002163906">
+              <coordinates coord_system="LRG_277" start="1" end="388" strand="1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000435653">
+              <coordinates coord_system="LRG_277" start="1" end="352" strand="1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+              <db_xref source="UniProtKB" accession="G3V1D8" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000160957">
+          <coordinates coord_system="LRG_277" start="4982" end="11543" strand="1" mapped_from="GRCh37" />
+          <symbol source="HGNC">RECQL4</symbol>
+          <long_name>RecQ protein-like 4 (processed_transcript)</long_name>
+          <db_xref source="HGNC" accession="9949">
+            <synonym>RecQ4</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000160957" />
+          <transcript source="Ensembl" accession="ENST00000532237">
+            <coordinates coord_system="LRG_277" start="4982" end="11539" strand="1" mapped_from="GRCh37" />
+            <long_name>RECQL4-001 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002166717">
+              <coordinates coord_system="LRG_277" start="4982" end="5225" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003037004">
+              <coordinates coord_system="LRG_277" start="5319" end="5413" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003057508">
+              <coordinates coord_system="LRG_277" start="5637" end="5777" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003016333">
+              <coordinates coord_system="LRG_277" start="6063" end="6839" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003083250">
+              <coordinates coord_system="LRG_277" start="6937" end="7063" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003027032">
+              <coordinates coord_system="LRG_277" start="7370" end="7501" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003135522">
+              <coordinates coord_system="LRG_277" start="7585" end="7677" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002978696">
+              <coordinates coord_system="LRG_277" start="7755" end="7891" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003002294">
+              <coordinates coord_system="LRG_277" start="8302" end="8385" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003110297">
+              <coordinates coord_system="LRG_277" start="8465" end="8638" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003212425">
+              <coordinates coord_system="LRG_277" start="8720" end="8899" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003162038">
+              <coordinates coord_system="LRG_277" start="9115" end="9256" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002222875">
+              <coordinates coord_system="LRG_277" start="9347" end="9609" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003126579">
+              <coordinates coord_system="LRG_277" start="9689" end="9980" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003187744">
+              <coordinates coord_system="LRG_277" start="10056" end="10185" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003210129">
+              <coordinates coord_system="LRG_277" start="10266" end="10435" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003069410">
+              <coordinates coord_system="LRG_277" start="10503" end="10683" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003167919">
+              <coordinates coord_system="LRG_277" start="10760" end="10916" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003135610">
+              <coordinates coord_system="LRG_277" start="11038" end="11146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002149863">
+              <coordinates coord_system="LRG_277" start="11272" end="11539" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000532269">
+            <coordinates coord_system="LRG_277" start="5001" end="11536" strand="1" mapped_from="GRCh37" />
+            <long_name>RECQL4-002 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003148816">
+              <coordinates coord_system="LRG_277" start="5001" end="5126" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003201660">
+              <coordinates coord_system="LRG_277" start="5192" end="5225" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003037004">
+              <coordinates coord_system="LRG_277" start="5319" end="5413" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003057508">
+              <coordinates coord_system="LRG_277" start="5637" end="5777" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003016333">
+              <coordinates coord_system="LRG_277" start="6063" end="6839" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003083250">
+              <coordinates coord_system="LRG_277" start="6937" end="7063" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003027032">
+              <coordinates coord_system="LRG_277" start="7370" end="7501" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003135522">
+              <coordinates coord_system="LRG_277" start="7585" end="7677" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002978696">
+              <coordinates coord_system="LRG_277" start="7755" end="7891" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003002294">
+              <coordinates coord_system="LRG_277" start="8302" end="8385" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003110297">
+              <coordinates coord_system="LRG_277" start="8465" end="8638" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003212425">
+              <coordinates coord_system="LRG_277" start="8720" end="8899" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003162038">
+              <coordinates coord_system="LRG_277" start="9115" end="9256" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002222875">
+              <coordinates coord_system="LRG_277" start="9347" end="9609" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003126579">
+              <coordinates coord_system="LRG_277" start="9689" end="9980" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003187744">
+              <coordinates coord_system="LRG_277" start="10056" end="10185" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003210129">
+              <coordinates coord_system="LRG_277" start="10266" end="10435" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003069410">
+              <coordinates coord_system="LRG_277" start="10503" end="10683" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003167919">
+              <coordinates coord_system="LRG_277" start="10760" end="10916" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003135610">
+              <coordinates coord_system="LRG_277" start="11038" end="11146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002170677">
+              <coordinates coord_system="LRG_277" start="11272" end="11536" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000428558">
+            <coordinates coord_system="LRG_277" start="5001" end="11543" strand="1" mapped_from="GRCh37" />
+            <long_name>RECQL4-201 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003080762">
+              <coordinates coord_system="LRG_277" start="5001" end="5126" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003060928">
+              <coordinates coord_system="LRG_277" start="5192" end="5225" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003150009">
+              <coordinates coord_system="LRG_277" start="5319" end="5413" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003149602">
+              <coordinates coord_system="LRG_277" start="5637" end="5777" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002980980">
+              <coordinates coord_system="LRG_277" start="6063" end="6839" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003014091">
+              <coordinates coord_system="LRG_277" start="6937" end="7063" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003144537">
+              <coordinates coord_system="LRG_277" start="7370" end="7501" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003201722">
+              <coordinates coord_system="LRG_277" start="7585" end="7677" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003158219">
+              <coordinates coord_system="LRG_277" start="7755" end="7891" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003116195">
+              <coordinates coord_system="LRG_277" start="8302" end="8385" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003086118">
+              <coordinates coord_system="LRG_277" start="8465" end="8638" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003007135">
+              <coordinates coord_system="LRG_277" start="8720" end="8899" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003069718">
+              <coordinates coord_system="LRG_277" start="9115" end="9256" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001755545">
+              <coordinates coord_system="LRG_277" start="9347" end="9441" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001224695">
+              <coordinates coord_system="LRG_277" start="9442" end="9609" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003094662">
+              <coordinates coord_system="LRG_277" start="9689" end="9980" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003211974">
+              <coordinates coord_system="LRG_277" start="10056" end="10185" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003058681">
+              <coordinates coord_system="LRG_277" start="10266" end="10435" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003150054">
+              <coordinates coord_system="LRG_277" start="10503" end="10683" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003069046">
+              <coordinates coord_system="LRG_277" start="10760" end="10916" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003023079">
+              <coordinates coord_system="LRG_277" start="11038" end="11146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002222983">
+              <coordinates coord_system="LRG_277" start="11272" end="11543" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000534538">
+            <coordinates coord_system="LRG_277" start="5199" end="6582" strand="1" mapped_from="GRCh37" />
+            <long_name>RECQL4-004 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002190267">
+              <coordinates coord_system="LRG_277" start="5199" end="5225" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002146794">
+              <coordinates coord_system="LRG_277" start="5274" end="5413" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003057508">
+              <coordinates coord_system="LRG_277" start="5637" end="5777" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002146569">
+              <coordinates coord_system="LRG_277" start="6166" end="6582" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000534270">
+            <coordinates coord_system="LRG_277" start="5255" end="5994" strand="1" mapped_from="GRCh37" />
+            <long_name>RECQL4-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002168739">
+              <coordinates coord_system="LRG_277" start="5255" end="5413" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002147735">
+              <coordinates coord_system="LRG_277" start="5637" end="5994" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000524998">
+            <coordinates coord_system="LRG_277" start="5328" end="6969" strand="1" mapped_from="GRCh37" />
+            <long_name>RECQL4-005 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002179156">
+              <coordinates coord_system="LRG_277" start="5328" end="5413" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003057508">
+              <coordinates coord_system="LRG_277" start="5637" end="5777" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002196541">
+              <coordinates coord_system="LRG_277" start="6414" end="6839" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002193549">
+              <coordinates coord_system="LRG_277" start="6937" end="6969" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000532846">
+            <coordinates coord_system="LRG_277" start="6934" end="8642" strand="1" mapped_from="GRCh37" />
+            <long_name>RECQL4-007 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002165547">
+              <coordinates coord_system="LRG_277" start="6934" end="7063" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003027032">
+              <coordinates coord_system="LRG_277" start="7370" end="7501" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003135522">
+              <coordinates coord_system="LRG_277" start="7585" end="7677" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002191621">
+              <coordinates coord_system="LRG_277" start="7785" end="7891" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003002294">
+              <coordinates coord_system="LRG_277" start="8302" end="8385" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002159051">
+              <coordinates coord_system="LRG_277" start="8465" end="8642" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000534626">
+            <coordinates coord_system="LRG_277" start="8313" end="9976" strand="1" mapped_from="GRCh37" />
+            <long_name>RECQL4-008 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002151389">
+              <coordinates coord_system="LRG_277" start="8313" end="8385" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003110297">
+              <coordinates coord_system="LRG_277" start="8465" end="8638" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003212425">
+              <coordinates coord_system="LRG_277" start="8720" end="8899" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003162038">
+              <coordinates coord_system="LRG_277" start="9115" end="9256" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002145264">
+              <coordinates coord_system="LRG_277" start="9347" end="9411" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002180109">
+              <coordinates coord_system="LRG_277" start="9689" end="9976" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000531875">
+            <coordinates coord_system="LRG_277" start="10055" end="11502" strand="1" mapped_from="GRCh37" />
+            <long_name>RECQL4-011 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002201058">
+              <coordinates coord_system="LRG_277" start="10055" end="10185" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003210129">
+              <coordinates coord_system="LRG_277" start="10266" end="10435" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003069410">
+              <coordinates coord_system="LRG_277" start="10503" end="10683" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002185642">
+              <coordinates coord_system="LRG_277" start="10760" end="10925" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003135610">
+              <coordinates coord_system="LRG_277" start="11038" end="11146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002182820">
+              <coordinates coord_system="LRG_277" start="11272" end="11502" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000301323">
+            <coordinates coord_system="LRG_277" start="10114" end="11533" strand="1" mapped_from="GRCh37" />
+            <long_name>RECQL4-013 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002275732">
+              <coordinates coord_system="LRG_277" start="10114" end="10185" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003069410">
+              <coordinates coord_system="LRG_277" start="10503" end="10683" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003167919">
+              <coordinates coord_system="LRG_277" start="10760" end="10916" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003135610">
+              <coordinates coord_system="LRG_277" start="11038" end="11146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002275876">
+              <coordinates coord_system="LRG_277" start="11272" end="11533" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000529424">
+            <coordinates coord_system="LRG_277" start="10454" end="11437" strand="1" mapped_from="GRCh37" />
+            <long_name>RECQL4-009 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002181744">
+              <coordinates coord_system="LRG_277" start="10454" end="10502" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003135610">
+              <coordinates coord_system="LRG_277" start="11038" end="11146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002145747">
+              <coordinates coord_system="LRG_277" start="11272" end="11437" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000265393">
+          <coordinates coord_system="LRG_277" start="9155" end="10260" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">CTD-2517M22.17</symbol>
+          <long_name>CTD-2517M22.17 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000265393" />
+          <transcript source="Ensembl" accession="ENST00000580385">
+            <coordinates coord_system="LRG_277" start="9155" end="10260" strand="-1" mapped_from="GRCh37" />
+            <long_name>CTD-2517M22.17-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002726487">
+              <coordinates coord_system="LRG_277" start="9990" end="10260" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002704544">
+              <coordinates coord_system="LRG_277" start="9155" end="9221" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000167700">
           <coordinates coord_system="LRG_277" start="11641" end="13543" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <symbol source="HGNC">MFSD3</symbol>
           <long_name>major facilitator superfamily domain containing 3 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="113655" />
           <db_xref source="HGNC" accession="25157" />
           <db_xref source="Ensembl" accession="ENSG00000167700" />
           <transcript source="Ensembl" accession="ENST00000301327">
             <coordinates coord_system="LRG_277" start="11641" end="13543" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>MFSD3-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens major facilitator superfamily domain containing 3 (MFSD3), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS6431.1" />
             <db_xref source="RefSeq" accession="NM_138431.1" />
             <exon source="Ensembl" accession="ENSE00002181483">
@@ -702,7 +1258,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000301327">
               <coordinates coord_system="LRG_277" start="11663" end="13493" strand="-1" mapped_from="GRCh37" />
-              <long_name>major facilitator superfamily domain containing 3</long_name>
+              <long_name>major facilitator superfamily domain-containing protein 3 </long_name>
               <db_xref source="RefSeq" accession="NP_612440.1" />
               <db_xref source="UniProtKB" accession="Q96ES6" />
             </protein_product>
@@ -722,16 +1278,6 @@
               <coordinates coord_system="LRG_277" start="11646" end="11836" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000526749">
-            <coordinates coord_system="LRG_277" start="12013" end="13208" strand="-1" mapped_from="GRCh37" />
-            <long_name>MFSD3-003 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002187867">
-              <coordinates coord_system="LRG_277" start="12812" end="13208" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002190172">
-              <coordinates coord_system="LRG_277" start="12013" end="12467" strand="-1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000534427">
             <coordinates coord_system="LRG_277" start="11646" end="12581" strand="-1" mapped_from="GRCh37" />
             <long_name>MFSD3-004 (retained_intron)</long_name>
@@ -742,543 +1288,15 @@
               <coordinates coord_system="LRG_277" start="11646" end="11836" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000160957">
-          <coordinates coord_system="LRG_277" start="4982" end="11543" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">RECQL4</symbol>
-          <long_name>RecQ protein-like 4 (processed_transcript)</long_name>
-          <db_xref source="HGNC" accession="9949">
-            <synonym>RecQ4</synonym>
-          </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000160957" />
-          <transcript source="Ensembl" accession="ENST00000532237">
-            <coordinates coord_system="LRG_277" start="4982" end="11539" strand="1" mapped_from="GRCh37" />
-            <long_name>RECQL4-001 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002166717">
-              <coordinates coord_system="LRG_277" start="4982" end="5225" strand="1" mapped_from="GRCh37" />
+          <transcript source="Ensembl" accession="ENST00000526749">
+            <coordinates coord_system="LRG_277" start="12013" end="13208" strand="-1" mapped_from="GRCh37" />
+            <long_name>MFSD3-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002187867">
+              <coordinates coord_system="LRG_277" start="12812" end="13208" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002190172">
+              <coordinates coord_system="LRG_277" start="12013" end="12467" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002404520">
-              <coordinates coord_system="LRG_277" start="5319" end="5413" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002393898">
-              <coordinates coord_system="LRG_277" start="5637" end="5777" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002412117">
-              <coordinates coord_system="LRG_277" start="6063" end="6839" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002363558">
-              <coordinates coord_system="LRG_277" start="6937" end="7063" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002409467">
-              <coordinates coord_system="LRG_277" start="7370" end="7501" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002399967">
-              <coordinates coord_system="LRG_277" start="7585" end="7677" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002382484">
-              <coordinates coord_system="LRG_277" start="7755" end="7891" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002390546">
-              <coordinates coord_system="LRG_277" start="8302" end="8385" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002349730">
-              <coordinates coord_system="LRG_277" start="8465" end="8638" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002375573">
-              <coordinates coord_system="LRG_277" start="8720" end="8899" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002415830">
-              <coordinates coord_system="LRG_277" start="9115" end="9256" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002222875">
-              <coordinates coord_system="LRG_277" start="9347" end="9609" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002381925">
-              <coordinates coord_system="LRG_277" start="9689" end="9980" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002388898">
-              <coordinates coord_system="LRG_277" start="10056" end="10185" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002415594">
-              <coordinates coord_system="LRG_277" start="10266" end="10435" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002339770">
-              <coordinates coord_system="LRG_277" start="10503" end="10683" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002333342">
-              <coordinates coord_system="LRG_277" start="10760" end="10916" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002400937">
-              <coordinates coord_system="LRG_277" start="11038" end="11146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002149863">
-              <coordinates coord_system="LRG_277" start="11272" end="11539" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000532269">
-            <coordinates coord_system="LRG_277" start="5001" end="11536" strand="1" mapped_from="GRCh37" />
-            <long_name>RECQL4-002 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002617017">
-              <coordinates coord_system="LRG_277" start="5001" end="5126" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002388688">
-              <coordinates coord_system="LRG_277" start="5192" end="5225" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002404520">
-              <coordinates coord_system="LRG_277" start="5319" end="5413" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002393898">
-              <coordinates coord_system="LRG_277" start="5637" end="5777" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002412117">
-              <coordinates coord_system="LRG_277" start="6063" end="6839" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002363558">
-              <coordinates coord_system="LRG_277" start="6937" end="7063" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002409467">
-              <coordinates coord_system="LRG_277" start="7370" end="7501" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002399967">
-              <coordinates coord_system="LRG_277" start="7585" end="7677" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002382484">
-              <coordinates coord_system="LRG_277" start="7755" end="7891" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002390546">
-              <coordinates coord_system="LRG_277" start="8302" end="8385" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002349730">
-              <coordinates coord_system="LRG_277" start="8465" end="8638" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002375573">
-              <coordinates coord_system="LRG_277" start="8720" end="8899" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002415830">
-              <coordinates coord_system="LRG_277" start="9115" end="9256" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002222875">
-              <coordinates coord_system="LRG_277" start="9347" end="9609" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002381925">
-              <coordinates coord_system="LRG_277" start="9689" end="9980" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002388898">
-              <coordinates coord_system="LRG_277" start="10056" end="10185" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002415594">
-              <coordinates coord_system="LRG_277" start="10266" end="10435" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002339770">
-              <coordinates coord_system="LRG_277" start="10503" end="10683" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002333342">
-              <coordinates coord_system="LRG_277" start="10760" end="10916" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002400937">
-              <coordinates coord_system="LRG_277" start="11038" end="11146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002170677">
-              <coordinates coord_system="LRG_277" start="11272" end="11536" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000301323">
-            <coordinates coord_system="LRG_277" start="10114" end="11533" strand="1" mapped_from="GRCh37" />
-            <long_name>RECQL4-013 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002275732">
-              <coordinates coord_system="LRG_277" start="10114" end="10185" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002339770">
-              <coordinates coord_system="LRG_277" start="10503" end="10683" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002333342">
-              <coordinates coord_system="LRG_277" start="10760" end="10916" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002400937">
-              <coordinates coord_system="LRG_277" start="11038" end="11146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002275876">
-              <coordinates coord_system="LRG_277" start="11272" end="11533" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000531875">
-            <coordinates coord_system="LRG_277" start="10055" end="11502" strand="1" mapped_from="GRCh37" />
-            <long_name>RECQL4-011 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002201058">
-              <coordinates coord_system="LRG_277" start="10055" end="10185" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002415594">
-              <coordinates coord_system="LRG_277" start="10266" end="10435" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002339770">
-              <coordinates coord_system="LRG_277" start="10503" end="10683" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002185642">
-              <coordinates coord_system="LRG_277" start="10760" end="10925" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002400937">
-              <coordinates coord_system="LRG_277" start="11038" end="11146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002182820">
-              <coordinates coord_system="LRG_277" start="11272" end="11502" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000529424">
-            <coordinates coord_system="LRG_277" start="10454" end="11437" strand="1" mapped_from="GRCh37" />
-            <long_name>RECQL4-009 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002181744">
-              <coordinates coord_system="LRG_277" start="10454" end="10502" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002400937">
-              <coordinates coord_system="LRG_277" start="11038" end="11146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002145747">
-              <coordinates coord_system="LRG_277" start="11272" end="11437" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000534626">
-            <coordinates coord_system="LRG_277" start="8313" end="9976" strand="1" mapped_from="GRCh37" />
-            <long_name>RECQL4-008 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002151389">
-              <coordinates coord_system="LRG_277" start="8313" end="8385" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002349730">
-              <coordinates coord_system="LRG_277" start="8465" end="8638" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002375573">
-              <coordinates coord_system="LRG_277" start="8720" end="8899" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002415830">
-              <coordinates coord_system="LRG_277" start="9115" end="9256" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002145264">
-              <coordinates coord_system="LRG_277" start="9347" end="9411" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002180109">
-              <coordinates coord_system="LRG_277" start="9689" end="9976" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000532846">
-            <coordinates coord_system="LRG_277" start="6934" end="8642" strand="1" mapped_from="GRCh37" />
-            <long_name>RECQL4-007 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002165547">
-              <coordinates coord_system="LRG_277" start="6934" end="7063" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002409467">
-              <coordinates coord_system="LRG_277" start="7370" end="7501" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002399967">
-              <coordinates coord_system="LRG_277" start="7585" end="7677" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002191621">
-              <coordinates coord_system="LRG_277" start="7785" end="7891" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002390546">
-              <coordinates coord_system="LRG_277" start="8302" end="8385" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002159051">
-              <coordinates coord_system="LRG_277" start="8465" end="8642" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000524998">
-            <coordinates coord_system="LRG_277" start="5328" end="6969" strand="1" mapped_from="GRCh37" />
-            <long_name>RECQL4-005 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002179156">
-              <coordinates coord_system="LRG_277" start="5328" end="5413" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002393898">
-              <coordinates coord_system="LRG_277" start="5637" end="5777" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002196541">
-              <coordinates coord_system="LRG_277" start="6414" end="6839" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002193549">
-              <coordinates coord_system="LRG_277" start="6937" end="6969" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000534538">
-            <coordinates coord_system="LRG_277" start="5199" end="6582" strand="1" mapped_from="GRCh37" />
-            <long_name>RECQL4-004 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002190267">
-              <coordinates coord_system="LRG_277" start="5199" end="5225" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002146794">
-              <coordinates coord_system="LRG_277" start="5274" end="5413" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002393898">
-              <coordinates coord_system="LRG_277" start="5637" end="5777" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002146569">
-              <coordinates coord_system="LRG_277" start="6166" end="6582" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000534270">
-            <coordinates coord_system="LRG_277" start="5255" end="5994" strand="1" mapped_from="GRCh37" />
-            <long_name>RECQL4-003 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002168739">
-              <coordinates coord_system="LRG_277" start="5255" end="5413" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002147735">
-              <coordinates coord_system="LRG_277" start="5637" end="5994" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000428558">
-            <coordinates coord_system="LRG_277" start="5001" end="11543" strand="1" mapped_from="GRCh37" />
-            <long_name>RECQL4-201 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002588458">
-              <coordinates coord_system="LRG_277" start="5001" end="5126" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002346479">
-              <coordinates coord_system="LRG_277" start="5192" end="5225" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002328409">
-              <coordinates coord_system="LRG_277" start="5319" end="5413" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002363335">
-              <coordinates coord_system="LRG_277" start="5637" end="5777" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002349400">
-              <coordinates coord_system="LRG_277" start="6063" end="6839" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002395715">
-              <coordinates coord_system="LRG_277" start="6937" end="7063" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002399659">
-              <coordinates coord_system="LRG_277" start="7370" end="7501" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002358157">
-              <coordinates coord_system="LRG_277" start="7585" end="7677" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002337793">
-              <coordinates coord_system="LRG_277" start="7755" end="7891" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002428553">
-              <coordinates coord_system="LRG_277" start="8302" end="8385" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002429748">
-              <coordinates coord_system="LRG_277" start="8465" end="8638" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002402006">
-              <coordinates coord_system="LRG_277" start="8720" end="8899" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002351906">
-              <coordinates coord_system="LRG_277" start="9115" end="9256" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001755545">
-              <coordinates coord_system="LRG_277" start="9347" end="9441" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001224695">
-              <coordinates coord_system="LRG_277" start="9442" end="9609" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002340662">
-              <coordinates coord_system="LRG_277" start="9689" end="9980" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002410390">
-              <coordinates coord_system="LRG_277" start="10056" end="10185" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002370052">
-              <coordinates coord_system="LRG_277" start="10266" end="10435" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002422543">
-              <coordinates coord_system="LRG_277" start="10503" end="10683" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002365219">
-              <coordinates coord_system="LRG_277" start="10760" end="10916" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002396683">
-              <coordinates coord_system="LRG_277" start="11038" end="11146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002222983">
-              <coordinates coord_system="LRG_277" start="11272" end="11543" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000160959">
-          <coordinates coord_system="LRG_277" start="1" end="4835" strand="-1" mapped_from="GRCh37" />
-          <partial>3-prime</partial>
-          <symbol source="HGNC">LRRC14</symbol>
-          <long_name>leucine rich repeat containing 14 (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="20419">
-            <synonym>KIAA0014</synonym>
-            <synonym>LRRC14A</synonym>
-          </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000160959" />
-          <transcript source="Ensembl" accession="ENST00000527730">
-            <coordinates coord_system="LRG_277" start="2016" end="4835" strand="-1" mapped_from="GRCh37" />
-            <long_name>LRRC14-003 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002154196">
-              <coordinates coord_system="LRG_277" start="4786" end="4835" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002168319">
-              <coordinates coord_system="LRG_277" start="2773" end="3126" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002200040">
-              <coordinates coord_system="LRG_277" start="2016" end="2589" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000436452">
-              <coordinates coord_system="LRG_277" start="2016" end="3101" strand="-1" mapped_from="GRCh37" />
-              <long_name>leucine rich repeat containing 14</long_name>
-              <db_xref source="UniProtKB" accession="E9PNL0" />
-              <db_xref source="UniProtKB" accession="E9PP40" />
-              <db_xref source="UniProtKB" accession="E9PRP5" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000529022">
-            <coordinates coord_system="LRG_277" start="803" end="4822" strand="-1" mapped_from="GRCh37" />
-            <long_name>LRRC14-002 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS6432.1" />
-            <db_xref source="RefSeq" accession="NM_014665.2" />
-            <exon source="Ensembl" accession="ENSE00002181516">
-              <coordinates coord_system="LRG_277" start="4786" end="4822" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002193886">
-              <coordinates coord_system="LRG_277" start="4012" end="4078" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001136013">
-              <coordinates coord_system="LRG_277" start="2773" end="3212" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001055679">
-              <coordinates coord_system="LRG_277" start="2005" end="2589" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002153639">
-              <coordinates coord_system="LRG_277" start="803" end="1916" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000434768">
-              <coordinates coord_system="LRG_277" start="1349" end="3101" strand="-1" mapped_from="GRCh37" />
-              <long_name>leucine rich repeat containing 14</long_name>
-              <db_xref source="RefSeq" accession="NP_055480.1" />
-              <db_xref source="UniProtKB" accession="E9PNL0" />
-              <db_xref source="UniProtKB" accession="E9PP40" />
-              <db_xref source="UniProtKB" accession="E9PRP5" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000292524">
-            <coordinates coord_system="LRG_277" start="1" end="4820" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>LRRC14-001 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS6432.1" />
-            <db_xref source="RefSeq" accession="NM_014665.2" />
-            <exon source="Ensembl" accession="ENSE00001055681">
-              <coordinates coord_system="LRG_277" start="4786" end="4820" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001136013">
-              <coordinates coord_system="LRG_277" start="2773" end="3212" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001055679">
-              <coordinates coord_system="LRG_277" start="2005" end="2589" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001214931">
-              <coordinates coord_system="LRG_277" start="1" end="1916" strand="-1" mapped_from="GRCh37" />
-              <partial>3-prime</partial>
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000292524">
-              <coordinates coord_system="LRG_277" start="1349" end="3101" strand="-1" mapped_from="GRCh37" />
-              <long_name>leucine rich repeat containing 14</long_name>
-              <db_xref source="RefSeq" accession="NP_055480.1" />
-              <db_xref source="UniProtKB" accession="E9PNL0" />
-              <db_xref source="UniProtKB" accession="E9PP40" />
-              <db_xref source="UniProtKB" accession="E9PRP5" />
-              <db_xref source="UniProtKB" accession="Q15048">
-                <synonym>A8K0A8</synonym>
-                <synonym>D3DWM8</synonym>
-              </db_xref>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000530854">
-            <coordinates coord_system="LRG_277" start="2842" end="4456" strand="-1" mapped_from="GRCh37" />
-            <long_name>LRRC14-004 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002152744">
-              <coordinates coord_system="LRG_277" start="4012" end="4456" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002200541">
-              <coordinates coord_system="LRG_277" start="2842" end="3126" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000435985">
-              <coordinates coord_system="LRG_277" start="2842" end="3101" strand="-1" mapped_from="GRCh37" />
-              <long_name>leucine rich repeat containing 14</long_name>
-              <db_xref source="UniProtKB" accession="E9PRP5" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000525766">
-            <coordinates coord_system="LRG_277" start="2440" end="4082" strand="-1" mapped_from="GRCh37" />
-            <long_name>LRRC14-005 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002159969">
-              <coordinates coord_system="LRG_277" start="4012" end="4082" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001136013">
-              <coordinates coord_system="LRG_277" start="2773" end="3212" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002186598">
-              <coordinates coord_system="LRG_277" start="2440" end="2589" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000434738">
-              <coordinates coord_system="LRG_277" start="2440" end="3101" strand="-1" mapped_from="GRCh37" />
-              <long_name>leucine rich repeat containing 14</long_name>
-              <db_xref source="UniProtKB" accession="E9PNL0" />
-              <db_xref source="UniProtKB" accession="E9PRP5" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000531310">
-            <coordinates coord_system="LRG_277" start="2005" end="3560" strand="-1" mapped_from="GRCh37" />
-            <long_name>LRRC14-006 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002170164">
-              <coordinates coord_system="LRG_277" start="2773" end="3560" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002157011">
-              <coordinates coord_system="LRG_277" start="2005" end="2585" strand="-1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000528528">
-            <coordinates coord_system="LRG_277" start="1" end="245" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>LRRC14-008 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002150641">
-              <coordinates coord_system="LRG_277" start="1" end="245" strand="-1" mapped_from="GRCh37" />
-              <partial>3-prime</partial>
-            </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000254402">
-          <coordinates coord_system="LRG_277" start="1" end="423" strand="1" mapped_from="GRCh37" />
-          <partial>5-prime</partial>
-          <symbol source="HGNC">LRRC24</symbol>
-          <long_name>leucine rich repeat containing 24 (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="28947">
-            <synonym>LRRC14OS</synonym>
-          </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000254402" />
-          <transcript source="Ensembl" accession="ENST00000529415">
-            <coordinates coord_system="LRG_277" start="1" end="423" strand="1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>LRRC24-001 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS34969.1" />
-            <db_xref source="RefSeq" accession="NM_001024678.3" />
-            <exon source="Ensembl" accession="ENSE00002173439">
-              <coordinates coord_system="LRG_277" start="1" end="423" strand="1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000434849">
-              <coordinates coord_system="LRG_277" start="1" end="352" strand="1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-              <long_name>leucine rich repeat containing 24</long_name>
-              <db_xref source="RefSeq" accession="NP_001019849.2" />
-              <db_xref source="UniProtKB" accession="Q50LG9" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000533758">
-            <coordinates coord_system="LRG_277" start="1" end="388" strand="1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>LRRC24-002 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002163906">
-              <coordinates coord_system="LRG_277" start="1" end="388" strand="1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000435653">
-              <coordinates coord_system="LRG_277" start="1" end="352" strand="1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-              <long_name>leucine rich repeat containing 24</long_name>
-              <db_xref source="UniProtKB" accession="G3V1D8" />
-            </protein_product>
           </transcript>
         </gene>
       </features>
@@ -1287,8 +1305,27 @@
       <source>
         <name>RECQL4 homepage - Mendelian genes</name>
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=RECQL4</url>
+        <contact>
+          <name>Curator vacancy</name>
+          <address>?</address>
+          <email>j.celli@lumc.nl</email>
+        </contact>
       </source>
       <modification_date>2012-08-02</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+        <url>http://rapid.rcai.riken.jp/RAPID/diseasePhenotype?pid_id=AGID_202</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>LOVD 3.0 shared installation - RECQL4</name>
+        <url>http://databases.lovd.nl/shared/genes/RECQL4</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

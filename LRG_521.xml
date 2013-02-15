@@ -121,7 +121,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="10" other_id="NC_000010.10" other_start="104258719" other_end="104395214">
         <mapping_span lrg_start="1" lrg_end="136496" other_start="104258719" other_end="104395214" strand="1">
           <diff type="mismatch" lrg_start="131214" lrg_end="131214" other_start="104389932" other_end="104389932" lrg_sequence="G" other_sequence="T" />
@@ -142,7 +142,7 @@
       <comment>Annotation from NG_021338.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_521" start="5001" end="5373" />
             <label>1</label>
@@ -330,8 +330,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000369899.2" other_name="ENST00000369899.2" other_id="ENST00000369899.2" other_start="1" other_end="1839">
         <mapping_span lrg_start="5046" lrg_end="5373" other_start="1" other_end="328" strand="1" />
         <mapping_span lrg_start="10208" lrg_end="10342" other_start="329" other_end="463" strand="1" />
@@ -387,6 +387,10 @@
           <partial>3-prime</partial>
           <symbol source="HGNC">ACTR1A</symbol>
           <long_name>ARP1 actin-related protein 1 homolog A, centractin alpha (yeast) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="10121">
+            <synonym>ARP1</synonym>
+            <synonym>CTRN1</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="167">
             <synonym>ARP1</synonym>
           </db_xref>
@@ -395,7 +399,7 @@
           <transcript source="Ensembl" accession="ENST00000369905">
             <coordinates coord_system="LRG_521" start="1" end="3750" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>ACTR1A-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens ARP1 actin-related protein 1 homolog A, centractin alpha (yeast) (ACTR1A), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS7536.1" />
             <db_xref source="RefSeq" accession="NM_005736.3" />
             <exon source="Ensembl" accession="ENSE00001613806">
@@ -404,12 +408,12 @@
             <protein_product source="Ensembl" accession="ENSP00000358921">
               <coordinates coord_system="LRG_521" start="1" end="3686" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>ARP1 actin-related protein 1 homolog A, centractin alpha (yeast)</long_name>
+              <long_name>alpha-centractin </long_name>
               <db_xref source="RefSeq" accession="NP_005727.1" />
-              <db_xref source="UniProtKB" accession="F5H3I4" />
               <db_xref source="UniProtKB" accession="B4DXP9">
                 <synonym>E9PGF2</synonym>
               </db_xref>
+              <db_xref source="UniProtKB" accession="F5H3I4" />
               <db_xref source="UniProtKB" accession="P61163">
                 <synonym>B2R6B0</synonym>
                 <synonym>P42024</synonym>
@@ -453,6 +457,11 @@
           <coordinates coord_system="LRG_521" start="5026" end="134574" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">SUFU</symbol>
           <long_name>suppressor of fused homolog (Drosophila) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="51684">
+            <synonym>PRO1280</synonym>
+            <synonym>SUFUH</synonym>
+            <synonym>SUFUXL</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="16466">
             <synonym>PRO1280</synonym>
             <synonym>SUFUH</synonym>
@@ -462,7 +471,7 @@
           <db_xref source="Ensembl" accession="ENSG00000107882" />
           <transcript source="Ensembl" accession="ENST00000369902">
             <coordinates coord_system="LRG_521" start="5026" end="134574" strand="1" mapped_from="GRCh37" />
-            <long_name>SUFU-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens suppressor of fused homolog (Drosophila) (SUFU), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS7537.1" />
             <db_xref source="RefSeq" accession="NM_016169.3" />
             <exon source="Ensembl" accession="ENSE00001865530">
@@ -474,16 +483,16 @@
             <exon source="Ensembl" accession="ENSE00001101237">
               <coordinates coord_system="LRG_521" start="51009" end="51145" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002518862">
+            <exon source="Ensembl" accession="ENSE00003068255">
               <coordinates coord_system="LRG_521" start="93621" end="93763" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002506445">
+            <exon source="Ensembl" accession="ENSE00003224601">
               <coordinates coord_system="LRG_521" start="94675" end="94760" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002528203">
+            <exon source="Ensembl" accession="ENSE00003132895">
               <coordinates coord_system="LRG_521" start="95032" end="95104" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002477572">
+            <exon source="Ensembl" accession="ENSE00003217421">
               <coordinates coord_system="LRG_521" start="98179" end="98332" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000933217">
@@ -503,7 +512,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000358918">
               <coordinates coord_system="LRG_521" start="5192" end="131194" strand="1" mapped_from="GRCh37" />
-              <long_name>suppressor of fused homolog (Drosophila)</long_name>
+              <long_name>suppressor of fused homolog isoform 1 </long_name>
               <db_xref source="RefSeq" accession="NP_057253.2" />
               <db_xref source="UniProtKB" accession="Q5JSM1" />
               <db_xref source="UniProtKB" accession="B1AKY2" />
@@ -519,7 +528,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000369899">
             <coordinates coord_system="LRG_521" start="5046" end="120501" strand="1" mapped_from="GRCh37" />
-            <long_name>SUFU-004 (protein_coding)</long_name>
+            <long_name>Homo sapiens suppressor of fused homolog (Drosophila) (SUFU), transcript variant 2, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS53571.1" />
             <db_xref source="RefSeq" accession="NM_001178133.1" />
             <exon source="Ensembl" accession="ENSE00001451217">
@@ -531,16 +540,16 @@
             <exon source="Ensembl" accession="ENSE00001101237">
               <coordinates coord_system="LRG_521" start="51009" end="51145" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002518862">
+            <exon source="Ensembl" accession="ENSE00003068255">
               <coordinates coord_system="LRG_521" start="93621" end="93763" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002506445">
+            <exon source="Ensembl" accession="ENSE00003224601">
               <coordinates coord_system="LRG_521" start="94675" end="94760" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002528203">
+            <exon source="Ensembl" accession="ENSE00003132895">
               <coordinates coord_system="LRG_521" start="95032" end="95104" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002477572">
+            <exon source="Ensembl" accession="ENSE00003217421">
               <coordinates coord_system="LRG_521" start="98179" end="98332" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000933217">
@@ -557,9 +566,17 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000358915">
               <coordinates coord_system="LRG_521" start="5192" end="120110" strand="1" mapped_from="GRCh37" />
-              <long_name>suppressor of fused homolog (Drosophila)</long_name>
+              <long_name>suppressor of fused homolog isoform 2 </long_name>
               <db_xref source="RefSeq" accession="NP_001171604.1" />
               <db_xref source="UniProtKB" accession="B1AKY2" />
+              <db_xref source="UniProtKB" accession="Q9UMX1">
+                <synonym>Q7LCP7</synonym>
+                <synonym>Q9NT90</synonym>
+                <synonym>Q9NZ07</synonym>
+                <synonym>Q9UHK2</synonym>
+                <synonym>Q9UHM8</synonym>
+                <synonym>Q9UMY0</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000423559">
@@ -574,16 +591,16 @@
             <exon source="Ensembl" accession="ENSE00001101237">
               <coordinates coord_system="LRG_521" start="51009" end="51145" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002518862">
+            <exon source="Ensembl" accession="ENSE00003068255">
               <coordinates coord_system="LRG_521" start="93621" end="93763" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002506445">
+            <exon source="Ensembl" accession="ENSE00003224601">
               <coordinates coord_system="LRG_521" start="94675" end="94760" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002528203">
+            <exon source="Ensembl" accession="ENSE00003132895">
               <coordinates coord_system="LRG_521" start="95032" end="95104" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002477572">
+            <exon source="Ensembl" accession="ENSE00003217421">
               <coordinates coord_system="LRG_521" start="98179" end="98332" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000933217">
@@ -597,9 +614,16 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000411597">
               <coordinates coord_system="LRG_521" start="5192" end="118617" strand="1" mapped_from="GRCh37" />
-              <long_name>suppressor of fused homolog (Drosophila)</long_name>
               <db_xref source="UniProtKB" accession="Q5JSM0" />
               <db_xref source="UniProtKB" accession="B1AKY2" />
+              <db_xref source="UniProtKB" accession="Q9UMX1">
+                <synonym>Q7LCP7</synonym>
+                <synonym>Q9NT90</synonym>
+                <synonym>Q9NZ07</synonym>
+                <synonym>Q9UHK2</synonym>
+                <synonym>Q9UHM8</synonym>
+                <synonym>Q9UMY0</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000471000">
@@ -608,16 +632,16 @@
             <exon source="Ensembl" accession="ENSE00001920345">
               <coordinates coord_system="LRG_521" start="91848" end="92083" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002470392">
+            <exon source="Ensembl" accession="ENSE00003202872">
               <coordinates coord_system="LRG_521" start="93621" end="93763" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002491639">
+            <exon source="Ensembl" accession="ENSE00003141524">
               <coordinates coord_system="LRG_521" start="94675" end="94760" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002488425">
+            <exon source="Ensembl" accession="ENSE00003112562">
               <coordinates coord_system="LRG_521" start="95032" end="95104" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002481907">
+            <exon source="Ensembl" accession="ENSE00003070837">
               <coordinates coord_system="LRG_521" start="98179" end="98332" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001947565">
@@ -626,27 +650,42 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000242311">
-          <coordinates coord_system="LRG_521" start="27026" end="27285" strand="1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_ensembl_gene">AL157386.1</symbol>
-          <long_name>AL157386.1 (scRNA_pseudogene)</long_name>
+          <coordinates coord_system="LRG_521" start="27004" end="27283" strand="1" mapped_from="GRCh37" />
+          <symbol source="RFAM">Metazoa_SRP</symbol>
+          <long_name>Metazoan signal recognition particle RNA [Source:RFAM;Acc:RF00017] (misc_RNA)</long_name>
+          <db_xref source="RFAM" accession="RF00017" />
           <db_xref source="Ensembl" accession="ENSG00000242311" />
           <transcript source="Ensembl" accession="ENST00000483160">
-            <coordinates coord_system="LRG_521" start="27026" end="27285" strand="1" mapped_from="GRCh37" />
-            <long_name>AL157386.1-201 (scRNA_pseudogene)</long_name>
+            <coordinates coord_system="LRG_521" start="27004" end="27283" strand="1" mapped_from="GRCh37" />
+            <long_name>Metazoa_SRP.274-201 (misc_RNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001958115">
-              <coordinates coord_system="LRG_521" start="27026" end="27285" strand="1" mapped_from="GRCh37" />
+              <coordinates coord_system="LRG_521" start="27004" end="27283" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000228657">
+          <coordinates coord_system="LRG_521" start="73796" end="74264" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">RP11-170J3.2</symbol>
+          <long_name>RP11-170J3.2 (pseudogene)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000228657" />
+          <transcript source="Ensembl" accession="ENST00000440453">
+            <coordinates coord_system="LRG_521" start="73796" end="74264" strand="-1" mapped_from="GRCh37" />
+            <long_name>RP11-170J3.2-001 (processed_pseudogene)</long_name>
+            <exon source="Ensembl" accession="ENSE00001793517">
+              <coordinates coord_system="LRG_521" start="73796" end="74264" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000207029">
           <coordinates coord_system="LRG_521" start="92563" end="92669" strand="1" mapped_from="GRCh37" />
-          <symbol source="RFAM">U6</symbol>
-          <long_name>U6 spliceosomal RNA  [Source:RFAM;Acc:RF00026] (snRNA)</long_name>
+          <symbol source="HGNC">RNU6-43</symbol>
+          <long_name>RNA, U6 small nuclear 43 (snRNA)</long_name>
+          <db_xref source="HGNC" accession="34287" />
           <db_xref source="RFAM" accession="RF00026" />
           <db_xref source="Ensembl" accession="ENSG00000207029" />
           <transcript source="Ensembl" accession="ENST00000384302">
             <coordinates coord_system="LRG_521" start="92563" end="92669" strand="1" mapped_from="GRCh37" />
-            <long_name>U6.541-201 (snRNA)</long_name>
+            <long_name>RNU6-43-201 (snRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001808073">
               <coordinates coord_system="LRG_521" start="92563" end="92669" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -660,6 +699,13 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=SUFU</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - SUFU</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=SUFU</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

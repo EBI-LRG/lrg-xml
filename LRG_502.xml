@@ -187,7 +187,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="14" other_id="NC_000014.8" other_start="45600136" other_end="45672090">
         <mapping_span lrg_start="1" lrg_end="71955" other_start="45600136" other_end="45672090" strand="1" />
       </mapping>
@@ -206,7 +206,7 @@
       <comment>Annotation from NG_007417.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_502" start="5001" end="5607" />
             <label>1</label>
@@ -478,8 +478,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000267430.5" other_name="ENST00000267430.5" other_id="ENST00000267430.5" other_start="1" other_end="7111">
         <mapping_span lrg_start="5015" lrg_end="5607" other_start="1" other_end="593" strand="1" />
         <mapping_span lrg_start="6137" lrg_end="6309" other_start="594" other_end="766" strand="1" />
@@ -605,6 +605,12 @@
           <partial>3-prime</partial>
           <symbol source="HGNC">FKBP3</symbol>
           <long_name>FK506 binding protein 3, 25kDa (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="2287">
+            <synonym>FKBP-25</synonym>
+            <synonym>FKBP-3</synonym>
+            <synonym>FKBP25</synonym>
+            <synonym>PPIase</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="3719">
             <synonym>FKBP-25</synonym>
             <synonym>PPIase</synonym>
@@ -614,7 +620,7 @@
           <transcript source="Ensembl" accession="ENST00000216330">
             <coordinates coord_system="LRG_502" start="1" end="4387" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>FKBP3-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens FK506 binding protein 3, 25kDa (FKBP3), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9683.1" />
             <db_xref source="RefSeq" accession="NM_002013.3" />
             <exon source="Ensembl" accession="ENSE00000995466">
@@ -626,7 +632,7 @@
             <protein_product source="Ensembl" accession="ENSP00000216330">
               <coordinates coord_system="LRG_502" start="1" end="3524" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>FK506 binding protein 3, 25kDa</long_name>
+              <long_name>peptidyl-prolyl cis-trans isomerase FKBP3 </long_name>
               <db_xref source="RefSeq" accession="NP_002004.1" />
               <db_xref source="UniProtKB" accession="Q00688">
                 <synonym>B2R4Q9</synonym>
@@ -646,7 +652,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000452322">
               <coordinates coord_system="LRG_502" start="2418" end="3524" strand="-1" mapped_from="GRCh37" />
-              <long_name>FK506 binding protein 3, 25kDa</long_name>
               <db_xref source="UniProtKB" accession="G3V5F2" />
             </protein_product>
           </transcript>
@@ -662,7 +667,7 @@
           <transcript source="Ensembl" accession="ENST00000396062">
             <coordinates coord_system="LRG_502" start="1" end="3597" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>FKBP3-201 (protein_coding)</long_name>
+            <long_name>Homo sapiens FK506 binding protein 3, 25kDa (FKBP3), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9683.1" />
             <db_xref source="RefSeq" accession="NM_002013.3" />
             <exon source="Ensembl" accession="ENSE00001523752">
@@ -671,7 +676,7 @@
             <protein_product source="Ensembl" accession="ENSP00000379374">
               <coordinates coord_system="LRG_502" start="1" end="3524" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>FK506 binding protein 3, 25kDa</long_name>
+              <long_name>peptidyl-prolyl cis-trans isomerase FKBP3 </long_name>
               <db_xref source="RefSeq" accession="NP_002004.1" />
               <db_xref source="UniProtKB" accession="Q00688">
                 <synonym>B2R4Q9</synonym>
@@ -684,6 +689,10 @@
           <coordinates coord_system="LRG_502" start="5008" end="69958" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">FANCM</symbol>
           <long_name>Fanconi anemia, complementation group M (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="57697">
+            <synonym>FAAP250</synonym>
+            <synonym>KIAA1596</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="23168">
             <synonym>FAAP250</synonym>
             <synonym>KIAA1596</synonym>
@@ -728,12 +737,16 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000450596">
               <coordinates coord_system="LRG_502" start="5100" end="36239" strand="1" mapped_from="GRCh37" />
-              <long_name>Fanconi anemia, complementation group M</long_name>
+              <db_xref source="UniProtKB" accession="Q8IYD8">
+                <synonym>Q3YFH9</synonym>
+                <synonym>Q8N9X6</synonym>
+                <synonym>Q9HCH6</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000267430">
             <coordinates coord_system="LRG_502" start="5015" end="69955" strand="1" mapped_from="GRCh37" />
-            <long_name>FANCM-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens Fanconi anemia, complementation group M (FANCM), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS32070.1" />
             <db_xref source="RefSeq" accession="NM_020937.2" />
             <exon source="Ensembl" accession="ENSE00002501133">
@@ -778,16 +791,16 @@
             <exon source="Ensembl" accession="ENSE00001232116">
               <coordinates coord_system="LRG_502" start="44139" end="46044" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000656546">
+            <exon source="Ensembl" accession="ENSE00003132791">
               <coordinates coord_system="LRG_502" start="50498" end="50592" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000889891">
+            <exon source="Ensembl" accession="ENSE00003212785">
               <coordinates coord_system="LRG_502" start="50705" end="50773" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000889892">
+            <exon source="Ensembl" accession="ENSE00002981739">
               <coordinates coord_system="LRG_502" start="52842" end="52970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000656564">
+            <exon source="Ensembl" accession="ENSE00003162791">
               <coordinates coord_system="LRG_502" start="54285" end="54441" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000656569">
@@ -807,7 +820,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000267430">
               <coordinates coord_system="LRG_502" start="5100" end="69076" strand="1" mapped_from="GRCh37" />
-              <long_name>Fanconi anemia, complementation group M</long_name>
+              <long_name>Fanconi anemia group M protein </long_name>
               <db_xref source="RefSeq" accession="NP_065988.1" />
               <db_xref source="UniProtKB" accession="Q8IYD8">
                 <synonym>Q3YFH9</synonym>
@@ -858,16 +871,16 @@
             <exon source="Ensembl" accession="ENSE00001232116">
               <coordinates coord_system="LRG_502" start="44139" end="46044" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000656546">
+            <exon source="Ensembl" accession="ENSE00003132791">
               <coordinates coord_system="LRG_502" start="50498" end="50592" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000889891">
+            <exon source="Ensembl" accession="ENSE00003212785">
               <coordinates coord_system="LRG_502" start="50705" end="50773" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000889892">
+            <exon source="Ensembl" accession="ENSE00002981739">
               <coordinates coord_system="LRG_502" start="52842" end="52970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000656564">
+            <exon source="Ensembl" accession="ENSE00003162791">
               <coordinates coord_system="LRG_502" start="54285" end="54441" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000656569">
@@ -887,7 +900,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000442493">
               <coordinates coord_system="LRG_502" start="5100" end="69076" strand="1" mapped_from="GRCh37" />
-              <long_name>Fanconi anemia, complementation group M</long_name>
               <db_xref source="UniProtKB" accession="B2RTQ9" />
             </protein_product>
           </transcript>
@@ -925,16 +937,16 @@
             <exon source="Ensembl" accession="ENSE00001232116">
               <coordinates coord_system="LRG_502" start="44139" end="46044" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000656546">
+            <exon source="Ensembl" accession="ENSE00003132791">
               <coordinates coord_system="LRG_502" start="50498" end="50592" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000889891">
+            <exon source="Ensembl" accession="ENSE00003212785">
               <coordinates coord_system="LRG_502" start="50705" end="50773" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000889892">
+            <exon source="Ensembl" accession="ENSE00002981739">
               <coordinates coord_system="LRG_502" start="52842" end="52970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000656564">
+            <exon source="Ensembl" accession="ENSE00003162791">
               <coordinates coord_system="LRG_502" start="54285" end="54441" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000656569">
@@ -954,7 +966,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000452033">
               <coordinates coord_system="LRG_502" start="23827" end="69076" strand="1" mapped_from="GRCh37" />
-              <long_name>Fanconi anemia, complementation group M</long_name>
+              <db_xref source="UniProtKB" accession="H0YJS3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000554809">
@@ -963,16 +975,16 @@
             <exon source="Ensembl" accession="ENSE00002492313">
               <coordinates coord_system="LRG_502" start="45026" end="46044" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000656546">
+            <exon source="Ensembl" accession="ENSE00003132791">
               <coordinates coord_system="LRG_502" start="50498" end="50592" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000889891">
+            <exon source="Ensembl" accession="ENSE00003212785">
               <coordinates coord_system="LRG_502" start="50705" end="50773" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000889892">
+            <exon source="Ensembl" accession="ENSE00002981739">
               <coordinates coord_system="LRG_502" start="52842" end="52970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000656564">
+            <exon source="Ensembl" accession="ENSE00003162791">
               <coordinates coord_system="LRG_502" start="54285" end="54441" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000656569">
@@ -995,7 +1007,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000450632" codon_start="3">
               <coordinates coord_system="LRG_502" start="45026" end="69076" strand="1" mapped_from="GRCh37" />
-              <long_name>Fanconi anemia, complementation group M</long_name>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000555013">
@@ -1004,16 +1015,16 @@
             <exon source="Ensembl" accession="ENSE00002506700">
               <coordinates coord_system="LRG_502" start="49903" end="49957" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002483231">
+            <exon source="Ensembl" accession="ENSE00003057635">
               <coordinates coord_system="LRG_502" start="50498" end="50592" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002439739">
+            <exon source="Ensembl" accession="ENSE00003224857">
               <coordinates coord_system="LRG_502" start="50705" end="50773" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002445998">
+            <exon source="Ensembl" accession="ENSE00003152975">
               <coordinates coord_system="LRG_502" start="52842" end="52970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002462719">
+            <exon source="Ensembl" accession="ENSE00003018862">
               <coordinates coord_system="LRG_502" start="54285" end="54441" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002457108">
@@ -1034,7 +1045,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000451846">
               <coordinates coord_system="LRG_502" start="65240" end="67831" strand="1" mapped_from="GRCh37" />
-              <long_name>Fanconi anemia, complementation group M</long_name>
+              <db_xref source="UniProtKB" accession="H0YJN7" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000555484">
@@ -1051,7 +1062,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000450797">
               <coordinates coord_system="LRG_502" start="65522" end="68972" strand="1" mapped_from="GRCh37" />
-              <long_name>Fanconi anemia, complementation group M</long_name>
+              <db_xref source="UniProtKB" accession="H0YJ45" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000553551">
@@ -1080,6 +1091,13 @@
         <url>http://chromium.liacs.nl/LOVD2/FANC/home.php?select_db=FANCM</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Fanconi anemia database - FANCM</name>
+        <url>http://chromium.liacs.nl/LOVD2/FANC/home.php?select_db=FANCM</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

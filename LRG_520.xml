@@ -103,7 +103,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="22" other_id="NC_000022.10" other_start="24124150" other_end="24178705">
         <mapping_span lrg_start="1" lrg_end="54556" other_start="24124150" other_end="24178705" strand="1" />
       </mapping>
@@ -122,7 +122,7 @@
       <comment>Annotation from NG_009303.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_520" start="5001" end="5300" />
             <label>1</label>
@@ -386,8 +386,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000263121.7" other_name="ENST00000263121.7" other_id="ENST00000263121.7" other_start="1" other_end="1690">
         <mapping_span lrg_start="5012" lrg_end="5300" other_start="1" other_end="289" strand="1" />
         <mapping_span lrg_start="9794" lrg_end="9932" other_start="290" other_end="428" strand="1" />
@@ -446,17 +446,17 @@
         <mapping_span lrg_start="11639" lrg_end="11726" other_start="1" other_end="88" strand="1" />
         <mapping_span lrg_start="18982" lrg_end="19498" other_start="89" other_end="605" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000541530.1" other_name="ENST00000541530.1" other_id="ENST00000541530.1" other_start="1" other_end="191">
-        <mapping_span lrg_start="9851" lrg_end="9905" other_start="1" other_end="55" strand="1" />
-        <mapping_span lrg_start="21333" lrg_end="21422" other_start="56" other_end="145" strand="1" />
-        <mapping_span lrg_start="52498" lrg_end="52543" other_start="146" other_end="191" strand="1" />
-      </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000099953">
           <coordinates coord_system="LRG_520" start="1" end="2354" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <symbol source="HGNC">MMP11</symbol>
           <long_name>matrix metallopeptidase 11 (stromelysin 3) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="4320">
+            <synonym>SL-3</synonym>
+            <synonym>ST3</synonym>
+            <synonym>STMY3</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="7157">
             <synonym>STMY3</synonym>
           </db_xref>
@@ -466,29 +466,29 @@
             <coordinates coord_system="LRG_520" start="1" end="2354" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>MMP11-003 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001832136">
+            <exon source="Ensembl" accession="ENSE00003025040">
               <coordinates coord_system="LRG_520" start="264" end="521" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001798384">
+            <exon source="Ensembl" accession="ENSE00003158810">
               <coordinates coord_system="LRG_520" start="1449" end="2354" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000215743">
             <coordinates coord_system="LRG_520" start="1" end="2354" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>MMP11-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens matrix metallopeptidase 11 (stromelysin 3) (MMP11), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13816.1" />
             <db_xref source="RefSeq" accession="NM_005940.3" />
-            <exon source="Ensembl" accession="ENSE00000651399">
+            <exon source="Ensembl" accession="ENSE00003067450">
               <coordinates coord_system="LRG_520" start="264" end="521" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000879477">
+            <exon source="Ensembl" accession="ENSE00003078837">
               <coordinates coord_system="LRG_520" start="1449" end="2354" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000215743">
               <coordinates coord_system="LRG_520" start="1" end="1582" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>matrix metallopeptidase 11 (stromelysin 3)</long_name>
+              <long_name>stromelysin-3 preproprotein </long_name>
               <db_xref source="RefSeq" accession="NP_005931.2" />
               <db_xref source="UniProtKB" accession="F8WDI7" />
               <db_xref source="UniProtKB" accession="P24347">
@@ -505,13 +505,12 @@
             <exon source="Ensembl" accession="ENSE00001738085">
               <coordinates coord_system="LRG_520" start="406" end="521" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001798384">
+            <exon source="Ensembl" accession="ENSE00003158810">
               <coordinates coord_system="LRG_520" start="1449" end="2354" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000408070">
               <coordinates coord_system="LRG_520" start="1" end="443" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>matrix metallopeptidase 11 (stromelysin 3)</long_name>
               <db_xref source="UniProtKB" accession="E9PED7" />
             </protein_product>
           </transcript>
@@ -547,15 +546,50 @@
             <coordinates coord_system="LRG_520" start="1" end="521" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>MMP11-013 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001832136">
+            <exon source="Ensembl" accession="ENSE00003025040">
               <coordinates coord_system="LRG_520" start="264" end="521" strand="1" mapped_from="GRCh37" />
             </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000267954">
+          <coordinates coord_system="LRG_520" start="318" end="1996" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_ensembl_gene">AP000349.1</symbol>
+          <long_name>PP13850  [Source:UniProtKB/TrEMBL;Acc:Q71RC1] (protein_coding)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000267954" />
+          <transcript source="Ensembl" accession="ENST00000598975">
+            <coordinates coord_system="LRG_520" start="318" end="1996" strand="-1" mapped_from="GRCh37" />
+            <long_name>AP000349.1-201 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003071180">
+              <coordinates coord_system="LRG_520" start="1449" end="1996" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003049790">
+              <coordinates coord_system="LRG_520" start="467" end="521" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002989602">
+              <coordinates coord_system="LRG_520" start="318" end="461" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000469183">
+              <coordinates coord_system="LRG_520" start="318" end="1996" strand="-1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q71RC1" />
+            </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000099956">
           <coordinates coord_system="LRG_520" start="5001" end="52554" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">SMARCB1</symbol>
           <long_name>SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="6598">
+            <synonym>BAF47</synonym>
+            <synonym>hSNFS</synonym>
+            <synonym>INI1</synonym>
+            <synonym>MRD15</synonym>
+            <synonym>RDT</synonym>
+            <synonym>RTPS1</synonym>
+            <synonym>Sfh1p</synonym>
+            <synonym>SNF5</synonym>
+            <synonym>SNF5L1</synonym>
+            <synonym>Snr1</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="11103">
             <synonym>BAF47</synonym>
             <synonym>hSNFS</synonym>
@@ -582,12 +616,11 @@
             <exon source="Ensembl" accession="ENSE00001385887">
               <coordinates coord_system="LRG_520" start="18982" end="19173" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002596803">
+            <exon source="Ensembl" accession="ENSE00003021149">
               <coordinates coord_system="LRG_520" start="21333" end="21460" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000388489">
               <coordinates coord_system="LRG_520" start="5208" end="21460" strand="1" mapped_from="GRCh37" />
-              <long_name>SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1</long_name>
               <db_xref source="UniProtKB" accession="C9JTA6" />
             </protein_product>
           </transcript>
@@ -606,7 +639,7 @@
             <exon source="Ensembl" accession="ENSE00001385887">
               <coordinates coord_system="LRG_520" start="18982" end="19173" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002605032">
+            <exon source="Ensembl" accession="ENSE00003002082">
               <coordinates coord_system="LRG_520" start="21333" end="21460" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000651422">
@@ -623,13 +656,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000340883">
               <coordinates coord_system="LRG_520" start="5208" end="52218" strand="1" mapped_from="GRCh37" />
-              <long_name>SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1</long_name>
               <db_xref source="UniProtKB" accession="G5E975" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000263121">
             <coordinates coord_system="LRG_520" start="5012" end="52554" strand="1" mapped_from="GRCh37" />
-            <long_name>SMARCB1-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1 (SMARCB1), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13817.1" />
             <db_xref source="RefSeq" accession="NM_003073.3" />
             <exon source="Ensembl" accession="ENSE00001918981">
@@ -644,7 +676,7 @@
             <exon source="Ensembl" accession="ENSE00000879480">
               <coordinates coord_system="LRG_520" start="18982" end="19119" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002605032">
+            <exon source="Ensembl" accession="ENSE00003002082">
               <coordinates coord_system="LRG_520" start="21333" end="21460" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000651422">
@@ -661,11 +693,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000263121">
               <coordinates coord_system="LRG_520" start="5208" end="52218" strand="1" mapped_from="GRCh37" />
-              <long_name>SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1</long_name>
+              <long_name>SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1 isoform a </long_name>
               <db_xref source="RefSeq" accession="NP_003064.2" />
               <db_xref source="UniProtKB" accession="Q12824">
                 <synonym>O75784</synonym>
                 <synonym>O95474</synonym>
+                <synonym>Q17S11</synonym>
                 <synonym>Q38GA1</synonym>
                 <synonym>Q76N08</synonym>
                 <synonym>Q9UBH2</synonym>
@@ -674,7 +707,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000407422">
             <coordinates coord_system="LRG_520" start="5032" end="52554" strand="1" mapped_from="GRCh37" />
-            <long_name>SMARCB1-002 (protein_coding)</long_name>
+            <long_name>Homo sapiens SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1 (SMARCB1), transcript variant 2, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS46671.1" />
             <db_xref source="RefSeq" accession="NM_001007468.1" />
             <exon source="Ensembl" accession="ENSE00001547041">
@@ -689,7 +722,7 @@
             <exon source="Ensembl" accession="ENSE00000879480">
               <coordinates coord_system="LRG_520" start="18982" end="19119" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002605032">
+            <exon source="Ensembl" accession="ENSE00003002082">
               <coordinates coord_system="LRG_520" start="21333" end="21460" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000651422">
@@ -706,9 +739,16 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000383984">
               <coordinates coord_system="LRG_520" start="5208" end="52218" strand="1" mapped_from="GRCh37" />
-              <long_name>SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1</long_name>
+              <long_name>SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1 isoform b </long_name>
               <db_xref source="RefSeq" accession="NP_001007469.1" />
-              <db_xref source="UniProtKB" accession="Q17S11" />
+              <db_xref source="UniProtKB" accession="Q12824">
+                <synonym>O75784</synonym>
+                <synonym>O95474</synonym>
+                <synonym>Q17S11</synonym>
+                <synonym>Q38GA1</synonym>
+                <synonym>Q76N08</synonym>
+                <synonym>Q9UBH2</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000407082">
@@ -723,7 +763,7 @@
             <exon source="Ensembl" accession="ENSE00000651413">
               <coordinates coord_system="LRG_520" start="11597" end="11726" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002605032">
+            <exon source="Ensembl" accession="ENSE00003002082">
               <coordinates coord_system="LRG_520" start="21333" end="21460" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000651422">
@@ -740,7 +780,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000385226">
               <coordinates coord_system="LRG_520" start="5208" end="52218" strand="1" mapped_from="GRCh37" />
-              <long_name>SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1</long_name>
               <db_xref source="UniProtKB" accession="B5MCL5" />
             </protein_product>
           </transcript>
@@ -764,30 +803,18 @@
               <coordinates coord_system="LRG_520" start="43263" end="43354" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000541530">
-            <coordinates coord_system="LRG_520" start="9851" end="52543" strand="1" mapped_from="GRCh37" />
-            <long_name>SMARCB1-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002311999">
-              <coordinates coord_system="LRG_520" start="9851" end="9905" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002208499">
-              <coordinates coord_system="LRG_520" start="21333" end="21422" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002254719">
-              <coordinates coord_system="LRG_520" start="52498" end="52543" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000440039">
-              <coordinates coord_system="LRG_520" start="9851" end="21358" strand="1" mapped_from="GRCh37" />
-              <long_name>SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1</long_name>
-              <db_xref source="UniProtKB" accession="Q86WI6" />
-            </protein_product>
-          </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000099958">
           <coordinates coord_system="LRG_520" start="52541" end="54556" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <symbol source="HGNC">DERL3</symbol>
-          <long_name>Der1-like domain family, member 3 (protein_coding)</long_name>
+          <long_name>derlin 3 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="91319">
+            <synonym>C22orf14</synonym>
+            <synonym>derlin-3</synonym>
+            <synonym>IZP6</synonym>
+            <synonym>LLN2</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="14236">
             <synonym>C22orf14</synonym>
             <synonym>derlin-3</synonym>
@@ -803,26 +830,30 @@
             <exon source="Ensembl" accession="ENSE00001942501">
               <coordinates coord_system="LRG_520" start="54338" end="54552" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001912998">
+            <exon source="Ensembl" accession="ENSE00003040669">
               <coordinates coord_system="LRG_520" start="52541" end="52970" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000406855">
             <coordinates coord_system="LRG_520" start="52541" end="54556" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>DERL3-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens derlin 3 (DERL3), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS46672.1" />
             <db_xref source="RefSeq" accession="NM_001135751.1" />
-            <exon source="Ensembl" accession="ENSE00001910237">
+            <exon source="Ensembl" accession="ENSE00003023144">
               <coordinates coord_system="LRG_520" start="52541" end="52970" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000384744">
               <coordinates coord_system="LRG_520" start="52865" end="54556" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>Der1-like domain family, member 3</long_name>
-              <db_xref source="RefSeq" accession="NP_940842.2" />
+              <long_name>derlin-3 isoform 1 </long_name>
               <db_xref source="RefSeq" accession="NP_001129223.1" />
               <db_xref source="UniProtKB" accession="F2Z3B6" />
+              <db_xref source="UniProtKB" accession="Q96Q80">
+                <synonym>Q6ICJ6</synonym>
+                <synonym>Q6PEX0</synonym>
+                <synonym>Q6ZUB5</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000404056">
@@ -861,6 +892,13 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=SMARCB1</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - SMARCB1</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=SMARCB1</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

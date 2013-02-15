@@ -109,7 +109,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="14" other_id="NC_000014.8" other_start="81416869" other_end="81614646">
         <mapping_span lrg_start="1" lrg_end="197778" other_start="81416869" other_end="81614646" strand="1" />
       </mapping>
@@ -128,7 +128,7 @@
       <comment>Annotation from NG_009206.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_523" start="5001" end="5326" />
             <label>1</label>
@@ -283,8 +283,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000298171.2" other_name="ENST00000298171.2" other_id="ENST00000298171.2" other_start="1" other_end="4400">
         <mapping_span lrg_start="5001" lrg_end="5326" other_start="1" other_end="326" strand="1" />
         <mapping_span lrg_start="111624" lrg_end="111695" other_start="327" other_end="398" strand="1" />
@@ -307,11 +307,6 @@
         <mapping_span lrg_start="146115" lrg_end="146183" other_start="796" other_end="864" strand="1" />
         <mapping_span lrg_start="157851" lrg_end="157928" other_start="865" other_end="942" strand="1" />
         <mapping_span lrg_start="158088" lrg_end="158426" other_start="943" other_end="1281" strand="1" />
-      </mapping>
-      <mapping coord_system="ENST00000412429.2" other_name="ENST00000412429.2" other_id="ENST00000412429.2" other_start="1" other_end="1664">
-        <mapping_span lrg_start="4841" lrg_end="5326" other_start="1" other_end="486" strand="1" />
-        <mapping_span lrg_start="111624" lrg_end="111645" other_start="487" other_end="508" strand="1" />
-        <mapping_span lrg_start="192786" lrg_end="193941" other_start="509" other_end="1664" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000541158.2" other_name="ENST00000541158.2" other_id="ENST00000541158.2" other_start="1" other_end="4566">
         <mapping_span lrg_start="4519" lrg_end="4684" other_start="1" other_end="166" strand="1" />
@@ -373,6 +368,11 @@
           <partial>3-prime</partial>
           <symbol source="HGNC">CEP128</symbol>
           <long_name>centrosomal protein 128kDa (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="145508">
+            <synonym>C14orf145</synonym>
+            <synonym>C14orf61</synonym>
+            <synonym>LEDP/132</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="20359">
             <synonym>C14orf145</synonym>
             <synonym>C14orf61</synonym>
@@ -437,6 +437,11 @@
           <coordinates coord_system="LRG_523" start="4465" end="195778" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">TSHR</symbol>
           <long_name>thyroid stimulating hormone receptor (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="7253">
+            <synonym>CHNG1</synonym>
+            <synonym>hTSHR-I</synonym>
+            <synonym>LGR3</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="12373">
             <synonym>LGR3</synonym>
           </db_xref>
@@ -454,7 +459,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000541158">
             <coordinates coord_system="LRG_523" start="4519" end="195778" strand="1" mapped_from="GRCh37" />
-            <long_name>TSHR-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens thyroid stimulating hormone receptor (TSHR), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9872.1" />
             <db_xref source="RefSeq" accession="NM_000369.2" />
             <exon source="Ensembl" accession="ENSE00002432333">
@@ -463,7 +468,7 @@
             <exon source="Ensembl" accession="ENSE00002483921">
               <coordinates coord_system="LRG_523" start="5001" end="5326" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001135626">
+            <exon source="Ensembl" accession="ENSE00003037791">
               <coordinates coord_system="LRG_523" start="111624" end="111695" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001092839">
@@ -492,7 +497,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000441235">
               <coordinates coord_system="LRG_523" start="5157" end="193829" strand="1" mapped_from="GRCh37" />
-              <long_name>thyroid stimulating hormone receptor</long_name>
+              <long_name>thyrotropin receptor isoform 1 precursor </long_name>
               <db_xref source="RefSeq" accession="NP_000360.2" />
               <db_xref source="UniProtKB" accession="Q0VAP8" />
               <db_xref source="UniProtKB" accession="F5GYU5" />
@@ -500,13 +505,13 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000342443">
             <coordinates coord_system="LRG_523" start="4907" end="158426" strand="1" mapped_from="GRCh37" />
-            <long_name>TSHR-003 (protein_coding)</long_name>
+            <long_name>Homo sapiens thyroid stimulating hormone receptor (TSHR), transcript variant 2, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS32131.1" />
             <db_xref source="RefSeq" accession="NM_001018036.2" />
             <exon source="Ensembl" accession="ENSE00001564521">
               <coordinates coord_system="LRG_523" start="4907" end="5326" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001135626">
+            <exon source="Ensembl" accession="ENSE00003037791">
               <coordinates coord_system="LRG_523" start="111624" end="111695" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001092839">
@@ -532,7 +537,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000340113">
               <coordinates coord_system="LRG_523" start="5157" end="158157" strand="1" mapped_from="GRCh37" />
-              <long_name>thyroid stimulating hormone receptor</long_name>
+              <long_name>thyrotropin receptor isoform 2 precursor </long_name>
               <db_xref source="RefSeq" accession="NP_001018046.1" />
               <db_xref source="UniProtKB" accession="Q0VAP8" />
               <db_xref source="UniProtKB" accession="P16473">
@@ -545,153 +550,15 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000553763">
-            <coordinates coord_system="LRG_523" start="5057" end="117949" strand="1" mapped_from="GRCh37" />
-            <long_name>TSHR-007 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002531183">
-              <coordinates coord_system="LRG_523" start="5057" end="5326" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002276679">
-              <coordinates coord_system="LRG_523" start="111624" end="111695" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002294518">
-              <coordinates coord_system="LRG_523" start="117730" end="117949" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000555326">
-            <coordinates coord_system="LRG_523" start="5105" end="140608" strand="1" mapped_from="GRCh37" />
-            <long_name>TSHR-008 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00002476989">
-              <coordinates coord_system="LRG_523" start="5105" end="5326" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001135626">
-              <coordinates coord_system="LRG_523" start="111624" end="111695" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001092839">
-              <coordinates coord_system="LRG_523" start="117730" end="117804" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002255022">
-              <coordinates coord_system="LRG_523" start="137381" end="137504" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002208671">
-              <coordinates coord_system="LRG_523" start="140545" end="140608" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000451092">
-              <coordinates coord_system="LRG_523" start="5157" end="137402" strand="1" mapped_from="GRCh37" />
-              <long_name>thyroid stimulating hormone receptor</long_name>
-              <db_xref source="UniProtKB" accession="G3V381" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000554263">
-            <coordinates coord_system="LRG_523" start="5131" end="158394" strand="1" mapped_from="GRCh37" />
-            <long_name>TSHR-004 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002481732">
-              <coordinates coord_system="LRG_523" start="5131" end="5326" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001135626">
-              <coordinates coord_system="LRG_523" start="111624" end="111695" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001092839">
-              <coordinates coord_system="LRG_523" start="117730" end="117804" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001135605">
-              <coordinates coord_system="LRG_523" start="137430" end="137504" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001315993">
-              <coordinates coord_system="LRG_523" start="140545" end="140619" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001092852">
-              <coordinates coord_system="LRG_523" start="142007" end="142084" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001311920">
-              <coordinates coord_system="LRG_523" start="146115" end="146183" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002516803">
-              <coordinates coord_system="LRG_523" start="157851" end="158394" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000451202">
-              <coordinates coord_system="LRG_523" start="5157" end="157932" strand="1" mapped_from="GRCh37" />
-              <long_name>thyroid stimulating hormone receptor</long_name>
-              <db_xref source="UniProtKB" accession="Q0VAP8" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000554435">
-            <coordinates coord_system="LRG_523" start="5131" end="158395" strand="1" mapped_from="GRCh37" />
-            <long_name>TSHR-005 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS55935.1" />
-            <db_xref source="RefSeq" accession="NM_001142626.2" />
-            <exon source="Ensembl" accession="ENSE00002481732">
-              <coordinates coord_system="LRG_523" start="5131" end="5326" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001135626">
-              <coordinates coord_system="LRG_523" start="111624" end="111695" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001092839">
-              <coordinates coord_system="LRG_523" start="117730" end="117804" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001135605">
-              <coordinates coord_system="LRG_523" start="137430" end="137504" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001315993">
-              <coordinates coord_system="LRG_523" start="140545" end="140619" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001092852">
-              <coordinates coord_system="LRG_523" start="142007" end="142084" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001311920">
-              <coordinates coord_system="LRG_523" start="146115" end="146183" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001135568">
-              <coordinates coord_system="LRG_523" start="157851" end="157928" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002472757">
-              <coordinates coord_system="LRG_523" start="158025" end="158395" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000450549">
-              <coordinates coord_system="LRG_523" start="5157" end="158157" strand="1" mapped_from="GRCh37" />
-              <long_name>thyroid stimulating hormone receptor</long_name>
-              <db_xref source="RefSeq" accession="NP_001136098.1" />
-              <db_xref source="UniProtKB" accession="Q0VAP8" />
-              <db_xref source="UniProtKB" accession="G3V2A9" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000556031">
-            <coordinates coord_system="LRG_523" start="157825" end="158316" strand="1" mapped_from="GRCh37" />
-            <long_name>TSHR-009 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002293914">
-              <coordinates coord_system="LRG_523" start="157825" end="157928" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002435165">
-              <coordinates coord_system="LRG_523" start="158088" end="158316" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000412429">
-            <coordinates coord_system="LRG_523" start="4841" end="193941" strand="1" mapped_from="GRCh37" />
-            <long_name>TSHR-202 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002256480">
-              <coordinates coord_system="LRG_523" start="4841" end="5326" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001748346">
-              <coordinates coord_system="LRG_523" start="111624" end="111645" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001663328">
-              <coordinates coord_system="LRG_523" start="192786" end="193941" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000410839">
-              <coordinates coord_system="LRG_523" start="5157" end="193829" strand="1" mapped_from="GRCh37" />
-              <long_name>thyroid stimulating hormone receptor</long_name>
-              <db_xref source="UniProtKB" accession="B4E0H2" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000298171">
             <coordinates coord_system="LRG_523" start="5001" end="195778" strand="1" mapped_from="GRCh37" />
-            <long_name>TSHR-201 (protein_coding)</long_name>
+            <long_name>Homo sapiens thyroid stimulating hormone receptor (TSHR), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9872.1" />
             <db_xref source="RefSeq" accession="NM_000369.2" />
             <exon source="Ensembl" accession="ENSE00002483921">
               <coordinates coord_system="LRG_523" start="5001" end="5326" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001135626">
+            <exon source="Ensembl" accession="ENSE00003037791">
               <coordinates coord_system="LRG_523" start="111624" end="111695" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001092839">
@@ -720,19 +587,170 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000298171">
               <coordinates coord_system="LRG_523" start="5157" end="193829" strand="1" mapped_from="GRCh37" />
-              <long_name>thyroid stimulating hormone receptor</long_name>
+              <long_name>thyrotropin receptor isoform 1 precursor </long_name>
               <db_xref source="RefSeq" accession="NP_000360.2" />
               <db_xref source="UniProtKB" accession="Q0VAP8" />
               <db_xref source="UniProtKB" accession="F5GYU5" />
-              <db_xref source="UniProtKB" accession="P16473">
-                <synonym>Q16503</synonym>
-                <synonym>Q8TB90</synonym>
-                <synonym>Q96GT6</synonym>
-                <synonym>Q9P1V4</synonym>
-                <synonym>Q9ULA3</synonym>
-                <synonym>Q9UPH3</synonym>
-              </db_xref>
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000553763">
+            <coordinates coord_system="LRG_523" start="5057" end="117949" strand="1" mapped_from="GRCh37" />
+            <long_name>TSHR-007 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002531183">
+              <coordinates coord_system="LRG_523" start="5057" end="5326" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003054811">
+              <coordinates coord_system="LRG_523" start="111624" end="111695" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002294518">
+              <coordinates coord_system="LRG_523" start="117730" end="117949" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000555326">
+            <coordinates coord_system="LRG_523" start="5105" end="140608" strand="1" mapped_from="GRCh37" />
+            <long_name>TSHR-008 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002476989">
+              <coordinates coord_system="LRG_523" start="5105" end="5326" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003037791">
+              <coordinates coord_system="LRG_523" start="111624" end="111695" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001092839">
+              <coordinates coord_system="LRG_523" start="117730" end="117804" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002255022">
+              <coordinates coord_system="LRG_523" start="137381" end="137504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002208671">
+              <coordinates coord_system="LRG_523" start="140545" end="140608" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000451092">
+              <coordinates coord_system="LRG_523" start="5157" end="137402" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="G3V381" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000554263">
+            <coordinates coord_system="LRG_523" start="5131" end="158394" strand="1" mapped_from="GRCh37" />
+            <long_name>TSHR-004 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002481732">
+              <coordinates coord_system="LRG_523" start="5131" end="5326" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003037791">
+              <coordinates coord_system="LRG_523" start="111624" end="111695" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001092839">
+              <coordinates coord_system="LRG_523" start="117730" end="117804" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001135605">
+              <coordinates coord_system="LRG_523" start="137430" end="137504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001315993">
+              <coordinates coord_system="LRG_523" start="140545" end="140619" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001092852">
+              <coordinates coord_system="LRG_523" start="142007" end="142084" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001311920">
+              <coordinates coord_system="LRG_523" start="146115" end="146183" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002516803">
+              <coordinates coord_system="LRG_523" start="157851" end="158394" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000451202">
+              <coordinates coord_system="LRG_523" start="5157" end="157932" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q0VAP8" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000554435">
+            <coordinates coord_system="LRG_523" start="5131" end="158395" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens thyroid stimulating hormone receptor (TSHR), transcript variant 3, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS55935.1" />
+            <db_xref source="RefSeq" accession="NM_001142626.2" />
+            <exon source="Ensembl" accession="ENSE00002481732">
+              <coordinates coord_system="LRG_523" start="5131" end="5326" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003037791">
+              <coordinates coord_system="LRG_523" start="111624" end="111695" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001092839">
+              <coordinates coord_system="LRG_523" start="117730" end="117804" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001135605">
+              <coordinates coord_system="LRG_523" start="137430" end="137504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001315993">
+              <coordinates coord_system="LRG_523" start="140545" end="140619" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001092852">
+              <coordinates coord_system="LRG_523" start="142007" end="142084" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001311920">
+              <coordinates coord_system="LRG_523" start="146115" end="146183" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001135568">
+              <coordinates coord_system="LRG_523" start="157851" end="157928" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002472757">
+              <coordinates coord_system="LRG_523" start="158025" end="158395" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000450549">
+              <coordinates coord_system="LRG_523" start="5157" end="158157" strand="1" mapped_from="GRCh37" />
+              <long_name>thyrotropin receptor isoform 3 precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_001136098.1" />
+              <db_xref source="UniProtKB" accession="Q0VAP8" />
+              <db_xref source="UniProtKB" accession="G3V2A9" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000556031">
+            <coordinates coord_system="LRG_523" start="157825" end="158316" strand="1" mapped_from="GRCh37" />
+            <long_name>TSHR-009 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002293914">
+              <coordinates coord_system="LRG_523" start="157825" end="157928" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002435165">
+              <coordinates coord_system="LRG_523" start="158088" end="158316" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000258915">
+          <coordinates coord_system="LRG_523" start="31464" end="33114" strand="1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">RP11-114N19.2</symbol>
+          <long_name>RP11-114N19.2 (pseudogene)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000258915" />
+          <transcript source="Ensembl" accession="ENST00000553845">
+            <coordinates coord_system="LRG_523" start="31464" end="33114" strand="1" mapped_from="GRCh37" />
+            <long_name>RP11-114N19.2-001 (processed_pseudogene)</long_name>
+            <exon source="Ensembl" accession="ENSE00002494805">
+              <coordinates coord_system="LRG_523" start="31464" end="33114" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000259167">
+          <coordinates coord_system="LRG_523" start="82005" end="82880" strand="1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">RP11-114N19.1</symbol>
+          <long_name>RP11-114N19.1 (pseudogene)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000259167" />
+          <transcript source="Ensembl" accession="ENST00000554095">
+            <coordinates coord_system="LRG_523" start="82005" end="82880" strand="1" mapped_from="GRCh37" />
+            <long_name>RP11-114N19.1-001 (processed_pseudogene)</long_name>
+            <exon source="Ensembl" accession="ENSE00002480201">
+              <coordinates coord_system="LRG_523" start="82005" end="82880" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000258999">
+          <coordinates coord_system="LRG_523" start="156509" end="197778" strand="-1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <symbol source="Clone_based_vega_gene">RP11-114N19.3</symbol>
+          <long_name>RP11-114N19.3 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000258999" />
+          <transcript source="Ensembl" accession="ENST00000557775">
+            <coordinates coord_system="LRG_523" start="156509" end="197778" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>RP11-114N19.3-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002491054">
+              <coordinates coord_system="LRG_523" start="156509" end="156614" strand="-1" mapped_from="GRCh37" />
+            </exon>
           </transcript>
         </gene>
       </features>
@@ -741,6 +759,10 @@
       <source>
         <name>TSH Receptor mutation database</name>
         <url>http://innere.uniklinikum-leipzig.de/tsh/</url>
+        <contact>
+          <name>Ralf Paschke</name>
+          <address>Department of Internal Medicine III, University of Leipzig, Germany</address>
+        </contact>
       </source>
       <modification_date>2012-08-01</modification_date>
     </annotation_set>
@@ -750,6 +772,20 @@
         <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=TSHR</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - TSHR</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=TSHR</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>LOVD 3.0 shared installation - TSHR</name>
+        <url>http://databases.lovd.nl/shared/genes/TSHR</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

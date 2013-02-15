@@ -211,7 +211,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-08-01</modification_date>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="13" other_id="NC_000013.10" other_start="48872883" other_end="49058026">
         <mapping_span lrg_start="1" lrg_end="185144" other_start="48872883" other_end="49058026" strand="1" />
       </mapping>
@@ -230,7 +230,7 @@
       <comment>Annotation from NG_009009.1</comment>
       <modification_date>2012-07-17</modification_date>
       <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific naming for all variants">
+        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
           <exon>
             <coordinates coord_system="LRG_517" start="5001" end="5303" />
             <label>1</label>
@@ -611,8 +611,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-08-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-15</modification_date>
       <mapping coord_system="ENST00000267163.4" other_name="ENST00000267163.4" other_id="ENST00000267163.4" other_start="1" other_end="4840">
         <mapping_span lrg_start="5029" lrg_end="5303" other_start="1" other_end="275" strand="1" />
         <mapping_span lrg_start="8534" lrg_end="8660" other_start="276" other_end="402" strand="1" />
@@ -672,41 +672,49 @@
         <mapping_span lrg_start="178609" lrg_end="178658" other_start="267" other_end="316" strand="1" />
         <mapping_span lrg_start="181252" lrg_end="181593" other_start="317" other_end="658" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000542917.1" other_name="ENST00000542917.1" other_id="ENST00000542917.1" other_start="1" other_end="3150">
-        <mapping_span lrg_start="5001" lrg_end="5185" other_start="1" other_end="185" strand="1" />
-        <mapping_span lrg_start="5249" lrg_end="5303" other_start="186" other_end="240" strand="1" />
-        <mapping_span lrg_start="8534" lrg_end="8660" other_start="241" other_end="367" strand="1" />
-        <mapping_span lrg_start="43853" lrg_end="43968" other_start="368" other_end="483" strand="1" />
-        <mapping_span lrg_start="46334" lrg_end="46453" other_start="484" other_end="603" strand="1" />
-        <mapping_span lrg_start="49079" lrg_end="49117" other_start="604" other_end="642" strand="1" />
-        <mapping_span lrg_start="50210" lrg_end="50277" other_start="643" other_end="710" strand="1" />
-        <mapping_span lrg_start="61271" lrg_end="61381" other_start="711" other_end="821" strand="1" />
-        <mapping_span lrg_start="64069" lrg_end="64211" other_start="822" other_end="964" strand="1" />
-        <mapping_span lrg_start="66148" lrg_end="66225" other_start="965" other_end="1042" strand="1" />
-        <mapping_span lrg_start="68748" lrg_end="68857" other_start="1043" other_end="1152" strand="1" />
-        <mapping_span lrg_start="69781" lrg_end="69858" other_start="1153" other_end="1230" strand="1" />
-        <mapping_span lrg_start="74659" lrg_end="74746" other_start="1231" other_end="1318" strand="1" />
-        <mapping_span lrg_start="78172" lrg_end="78288" other_start="1319" other_end="1435" strand="1" />
-        <mapping_span lrg_start="80848" lrg_end="80904" other_start="1436" other_end="1492" strand="1" />
-        <mapping_span lrg_start="81307" lrg_end="81338" other_start="1493" other_end="1524" strand="1" />
-        <mapping_span lrg_start="81419" lrg_end="81495" other_start="1525" other_end="1601" strand="1" />
-        <mapping_span lrg_start="82501" lrg_end="82697" other_start="1602" other_end="1798" strand="1" />
-        <mapping_span lrg_start="154247" lrg_end="154365" other_start="1799" other_end="1917" strand="1" />
-        <mapping_span lrg_start="157458" lrg_end="157603" other_start="1918" other_end="2063" strand="1" />
-        <mapping_span lrg_start="160942" lrg_end="161087" other_start="2064" other_end="2209" strand="1" />
-        <mapping_span lrg_start="164985" lrg_end="165089" other_start="2210" other_end="2314" strand="1" />
-        <mapping_span lrg_start="166252" lrg_end="166365" other_start="2315" other_end="2428" strand="1" />
-        <mapping_span lrg_start="166459" lrg_end="166622" other_start="2429" other_end="2592" strand="1" />
-        <mapping_span lrg_start="174614" lrg_end="174644" other_start="2593" other_end="2623" strand="1" />
-        <mapping_span lrg_start="177955" lrg_end="178097" other_start="2624" other_end="2766" strand="1" />
-        <mapping_span lrg_start="178609" lrg_end="178658" other_start="2767" other_end="2816" strand="1" />
-        <mapping_span lrg_start="181252" lrg_end="181585" other_start="2817" other_end="3150" strand="1" />
-      </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000231473">
+          <coordinates coord_system="LRG_517" start="1" end="4915" strand="-1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <symbol source="HGNC">LINC00441</symbol>
+          <long_name>long intergenic non-protein coding RNA 441 (lincRNA)</long_name>
+          <db_xref source="GeneID" accession="100862704" />
+          <db_xref source="HGNC" accession="42778" />
+          <db_xref source="Ensembl" accession="ENSG00000231473" />
+          <transcript source="Ensembl" accession="ENST00000433480">
+            <coordinates coord_system="LRG_517" start="1" end="4915" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>Homo sapiens long intergenic non-protein coding RNA 441 (LINC00441), non-coding RNA. (processed_transcript)</long_name>
+            <db_xref source="RefSeq" accession="NR_046414.1" />
+            <exon source="Ensembl" accession="ENSE00001791553">
+              <coordinates coord_system="LRG_517" start="4545" end="4915" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001699283">
+              <coordinates coord_system="LRG_517" start="3593" end="3746" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000436963">
+            <coordinates coord_system="LRG_517" start="3701" end="4913" strand="-1" mapped_from="GRCh37" />
+            <long_name>LINC00441-002 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001685571">
+              <coordinates coord_system="LRG_517" start="4740" end="4913" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001744371">
+              <coordinates coord_system="LRG_517" start="3701" end="3746" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000139687">
-          <coordinates coord_system="LRG_517" start="5001" end="183240" strand="1" mapped_from="GRCh37" />
+          <coordinates coord_system="LRG_517" start="5005" end="183240" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">RB1</symbol>
           <long_name>retinoblastoma 1 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="5925">
+            <synonym>OSRC</synonym>
+            <synonym>p105-Rb</synonym>
+            <synonym>pp110</synonym>
+            <synonym>pRb</synonym>
+            <synonym>RB</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="9884">
             <synonym>OSRC</synonym>
             <synonym>RB</synonym>
@@ -719,19 +727,19 @@
             <exon source="Ensembl" accession="ENSE00002184809">
               <coordinates coord_system="LRG_517" start="5005" end="5303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002144312">
+            <exon source="Ensembl" accession="ENSE00003197300">
               <coordinates coord_system="LRG_517" start="8534" end="8660" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002160409">
+            <exon source="Ensembl" accession="ENSE00003083321">
               <coordinates coord_system="LRG_517" start="43853" end="43968" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002197907">
+            <exon source="Ensembl" accession="ENSE00003140485">
               <coordinates coord_system="LRG_517" start="46334" end="46453" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002194067">
+            <exon source="Ensembl" accession="ENSE00003166376">
               <coordinates coord_system="LRG_517" start="49079" end="49117" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002164520">
+            <exon source="Ensembl" accession="ENSE00002995940">
               <coordinates coord_system="LRG_517" start="50210" end="50277" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002191876">
@@ -744,7 +752,7 @@
             <exon source="Ensembl" accession="ENSE00002199946">
               <coordinates coord_system="LRG_517" start="5029" end="5303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001889373">
+            <exon source="Ensembl" accession="ENSE00003084087">
               <coordinates coord_system="LRG_517" start="61271" end="61381" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001873194">
@@ -752,34 +760,33 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000434702">
               <coordinates coord_system="LRG_517" start="5167" end="61295" strand="1" mapped_from="GRCh37" />
-              <long_name>retinoblastoma 1</long_name>
               <db_xref source="UniProtKB" accession="Q92728" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000267163">
             <coordinates coord_system="LRG_517" start="5029" end="183240" strand="1" mapped_from="GRCh37" />
-            <long_name>RB1-002 (protein_coding)</long_name>
+            <long_name>Homo sapiens retinoblastoma 1 (RB1), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS31973.1" />
             <db_xref source="RefSeq" accession="NM_000321.2" />
             <exon source="Ensembl" accession="ENSE00002199946">
               <coordinates coord_system="LRG_517" start="5029" end="5303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000939664">
+            <exon source="Ensembl" accession="ENSE00003183090">
               <coordinates coord_system="LRG_517" start="8534" end="8660" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000939665">
+            <exon source="Ensembl" accession="ENSE00003195863">
               <coordinates coord_system="LRG_517" start="43853" end="43968" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000939666">
+            <exon source="Ensembl" accession="ENSE00002977319">
               <coordinates coord_system="LRG_517" start="46334" end="46453" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000939667">
+            <exon source="Ensembl" accession="ENSE00003028866">
               <coordinates coord_system="LRG_517" start="49079" end="49117" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000939668">
+            <exon source="Ensembl" accession="ENSE00003072705">
               <coordinates coord_system="LRG_517" start="50210" end="50277" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000939669">
+            <exon source="Ensembl" accession="ENSE00003161469">
               <coordinates coord_system="LRG_517" start="61271" end="61381" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000939670">
@@ -812,7 +819,7 @@
             <exon source="Ensembl" accession="ENSE00000939679">
               <coordinates coord_system="LRG_517" start="82501" end="82697" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000939680">
+            <exon source="Ensembl" accession="ENSE00003170791">
               <coordinates coord_system="LRG_517" start="154247" end="154365" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000939681">
@@ -833,10 +840,10 @@
             <exon source="Ensembl" accession="ENSE00001003962">
               <coordinates coord_system="LRG_517" start="174614" end="174644" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000939686">
+            <exon source="Ensembl" accession="ENSE00003172193">
               <coordinates coord_system="LRG_517" start="177955" end="178097" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000939687">
+            <exon source="Ensembl" accession="ENSE00003104636">
               <coordinates coord_system="LRG_517" start="178609" end="178658" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001241067">
@@ -844,22 +851,22 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000267163">
               <coordinates coord_system="LRG_517" start="5167" end="181325" strand="1" mapped_from="GRCh37" />
-              <long_name>retinoblastoma 1</long_name>
+              <long_name>retinoblastoma-associated protein </long_name>
               <db_xref source="RefSeq" accession="NP_000312.2" />
-              <db_xref source="UniProtKB" accession="Q7KZ61" />
-              <db_xref source="UniProtKB" accession="Q7KZ60" />
-              <db_xref source="UniProtKB" accession="Q6LE82" />
-              <db_xref source="UniProtKB" accession="Q6LE81" />
-              <db_xref source="UniProtKB" accession="Q6LE80" />
-              <db_xref source="UniProtKB" accession="Q6LE79" />
-              <db_xref source="UniProtKB" accession="Q6LE77" />
-              <db_xref source="UniProtKB" accession="Q6LE65" />
-              <db_xref source="UniProtKB" accession="Q6DUF0" />
+              <db_xref source="UniProtKB" accession="B4DRB3" />
               <db_xref source="UniProtKB" accession="P78495">
                 <synonym>P78496</synonym>
                 <synonym>P78497</synonym>
               </db_xref>
-              <db_xref source="UniProtKB" accession="B4DRB3" />
+              <db_xref source="UniProtKB" accession="Q6DUF0" />
+              <db_xref source="UniProtKB" accession="Q6LE65" />
+              <db_xref source="UniProtKB" accession="Q6LE77" />
+              <db_xref source="UniProtKB" accession="Q6LE79" />
+              <db_xref source="UniProtKB" accession="Q6LE80" />
+              <db_xref source="UniProtKB" accession="Q6LE81" />
+              <db_xref source="UniProtKB" accession="Q6LE82" />
+              <db_xref source="UniProtKB" accession="Q7KZ60" />
+              <db_xref source="UniProtKB" accession="Q7KZ61" />
               <db_xref source="UniProtKB" accession="P06400">
                 <synonym>A8K5E3</synonym>
                 <synonym>P78499</synonym>
@@ -874,7 +881,7 @@
             <exon source="Ensembl" accession="ENSE00001849815">
               <coordinates coord_system="LRG_517" start="146082" end="146475" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001958072">
+            <exon source="Ensembl" accession="ENSE00003019285">
               <coordinates coord_system="LRG_517" start="154247" end="154365" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001826532">
@@ -887,10 +894,10 @@
             <exon source="Ensembl" accession="ENSE00002161840">
               <coordinates coord_system="LRG_517" start="177654" end="177776" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002163838">
+            <exon source="Ensembl" accession="ENSE00003098792">
               <coordinates coord_system="LRG_517" start="177955" end="178097" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001844578">
+            <exon source="Ensembl" accession="ENSE00002984987">
               <coordinates coord_system="LRG_517" start="178609" end="178658" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002177402">
@@ -903,125 +910,61 @@
             <exon source="Ensembl" accession="ENSE00001851488">
               <coordinates coord_system="LRG_517" start="177701" end="178097" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001844578">
+            <exon source="Ensembl" accession="ENSE00002984987">
               <coordinates coord_system="LRG_517" start="178609" end="178658" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001903753">
               <coordinates coord_system="LRG_517" start="181252" end="181901" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000542917">
-            <coordinates coord_system="LRG_517" start="5001" end="181585" strand="1" mapped_from="GRCh37" />
-            <long_name>RB1-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002256968">
-              <coordinates coord_system="LRG_517" start="5001" end="5185" strand="1" mapped_from="GRCh37" />
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000238086">
+          <coordinates coord_system="LRG_517" start="18117" end="21729" strand="-1" mapped_from="GRCh37" />
+          <symbol source="HGNC">PPP1R26P1</symbol>
+          <long_name>protein phosphatase 1, regulatory subunit 26 pseudogene 1 (pseudogene)</long_name>
+          <db_xref source="HGNC" accession="42015">
+            <synonym>KIAA0649P1</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000238086" />
+          <transcript source="Ensembl" accession="ENST00000474415">
+            <coordinates coord_system="LRG_517" start="18117" end="21729" strand="-1" mapped_from="GRCh37" />
+            <long_name>PPP1R26P1-001 (processed_pseudogene)</long_name>
+            <exon source="Ensembl" accession="ENSE00001856987">
+              <coordinates coord_system="LRG_517" start="18117" end="21729" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002264206">
-              <coordinates coord_system="LRG_517" start="5249" end="5303" strand="1" mapped_from="GRCh37" />
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000599544">
+            <coordinates coord_system="LRG_517" start="21417" end="21728" strand="-1" mapped_from="GRCh37" />
+            <long_name>PPP1R26P1-201 (processed_pseudogene)</long_name>
+            <exon source="Ensembl" accession="ENSE00003189057">
+              <coordinates coord_system="LRG_517" start="21417" end="21728" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000939664">
-              <coordinates coord_system="LRG_517" start="8534" end="8660" strand="1" mapped_from="GRCh37" />
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000177197">
+          <coordinates coord_system="LRG_517" start="29338" end="29818" strand="-1" mapped_from="GRCh37" />
+          <symbol source="HGNC">PCNPP5</symbol>
+          <long_name>PEST containing nuclear protein pseudogene 5 (pseudogene)</long_name>
+          <db_xref source="HGNC" accession="41977" />
+          <db_xref source="Ensembl" accession="ENSG00000177197" />
+          <transcript source="Ensembl" accession="ENST00000452246">
+            <coordinates coord_system="LRG_517" start="29338" end="29818" strand="-1" mapped_from="GRCh37" />
+            <long_name>PCNPP5-001 (processed_pseudogene)</long_name>
+            <exon source="Ensembl" accession="ENSE00001763247">
+              <coordinates coord_system="LRG_517" start="29338" end="29818" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000939665">
-              <coordinates coord_system="LRG_517" start="43853" end="43968" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939666">
-              <coordinates coord_system="LRG_517" start="46334" end="46453" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939667">
-              <coordinates coord_system="LRG_517" start="49079" end="49117" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939668">
-              <coordinates coord_system="LRG_517" start="50210" end="50277" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939669">
-              <coordinates coord_system="LRG_517" start="61271" end="61381" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939670">
-              <coordinates coord_system="LRG_517" start="64069" end="64211" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939671">
-              <coordinates coord_system="LRG_517" start="66148" end="66225" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939672">
-              <coordinates coord_system="LRG_517" start="68748" end="68857" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939673">
-              <coordinates coord_system="LRG_517" start="69781" end="69858" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939674">
-              <coordinates coord_system="LRG_517" start="74659" end="74746" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939675">
-              <coordinates coord_system="LRG_517" start="78172" end="78288" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939676">
-              <coordinates coord_system="LRG_517" start="80848" end="80904" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939677">
-              <coordinates coord_system="LRG_517" start="81307" end="81338" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939678">
-              <coordinates coord_system="LRG_517" start="81419" end="81495" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939679">
-              <coordinates coord_system="LRG_517" start="82501" end="82697" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939680">
-              <coordinates coord_system="LRG_517" start="154247" end="154365" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939681">
-              <coordinates coord_system="LRG_517" start="157458" end="157603" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939682">
-              <coordinates coord_system="LRG_517" start="160942" end="161087" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939683">
-              <coordinates coord_system="LRG_517" start="164985" end="165089" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939684">
-              <coordinates coord_system="LRG_517" start="166252" end="166365" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939685">
-              <coordinates coord_system="LRG_517" start="166459" end="166622" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001003962">
-              <coordinates coord_system="LRG_517" start="174614" end="174644" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939686">
-              <coordinates coord_system="LRG_517" start="177955" end="178097" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000939687">
-              <coordinates coord_system="LRG_517" start="178609" end="178658" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002229136">
-              <coordinates coord_system="LRG_517" start="181252" end="181585" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000437642">
-              <coordinates coord_system="LRG_517" start="5167" end="181325" strand="1" mapped_from="GRCh37" />
-              <long_name>retinoblastoma 1</long_name>
-              <db_xref source="UniProtKB" accession="Q7KZ61" />
-              <db_xref source="UniProtKB" accession="Q7KZ60" />
-              <db_xref source="UniProtKB" accession="Q6LE82" />
-              <db_xref source="UniProtKB" accession="Q6LE81" />
-              <db_xref source="UniProtKB" accession="Q6LE80" />
-              <db_xref source="UniProtKB" accession="Q6LE79" />
-              <db_xref source="UniProtKB" accession="Q6LE77" />
-              <db_xref source="UniProtKB" accession="Q6LE65" />
-              <db_xref source="UniProtKB" accession="Q6DUF0" />
-              <db_xref source="UniProtKB" accession="P78495">
-                <synonym>P78496</synonym>
-                <synonym>P78497</synonym>
-              </db_xref>
-              <db_xref source="UniProtKB" accession="B4DRB3" />
-              <db_xref source="UniProtKB" accession="F5H6G1" />
-            </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000139679">
           <coordinates coord_system="LRG_517" start="90825" end="145958" strand="-1" mapped_from="GRCh37" />
           <symbol source="HGNC">LPAR6</symbol>
           <long_name>lysophosphatidic acid receptor 6 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="10161">
+            <synonym>ARWH1</synonym>
+            <synonym>LAH3</synonym>
+            <synonym>P2RY5</synonym>
+            <synonym>P2Y5</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="15520">
             <synonym>P2RY5</synonym>
             <synonym>P2Y5</synonym>
@@ -1076,10 +1019,8 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000378434">
             <coordinates coord_system="LRG_517" start="112392" end="145958" strand="-1" mapped_from="GRCh37" />
-            <long_name>LPAR6-003 (protein_coding)</long_name>
+            <long_name>Homo sapiens lysophosphatidic acid receptor 6 (LPAR6), transcript variant 1, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9410.1" />
-            <db_xref source="RefSeq" accession="NM_001162497.1" />
-            <db_xref source="RefSeq" accession="NM_001162498.1" />
             <db_xref source="RefSeq" accession="NM_005767.5" />
             <exon source="Ensembl" accession="ENSE00001532912">
               <coordinates coord_system="LRG_517" start="145807" end="145958" strand="-1" mapped_from="GRCh37" />
@@ -1104,10 +1045,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000367691">
               <coordinates coord_system="LRG_517" start="112643" end="113677" strand="-1" mapped_from="GRCh37" />
-              <long_name>lysophosphatidic acid receptor 6</long_name>
-              <db_xref source="RefSeq" accession="NP_001155970.1" />
-              <db_xref source="RefSeq" accession="NP_001155969.1" />
+              <long_name>lysophosphatidic acid receptor 6 , lysophosphatidic acid receptor 6 </long_name>
               <db_xref source="RefSeq" accession="NP_005758.2" />
+              <db_xref source="RefSeq" accession="NP_001155970.1" />
               <db_xref source="UniProtKB" accession="F2YGU4" />
               <db_xref source="UniProtKB" accession="P43657">
                 <synonym>A4FTW9</synonym>
@@ -1123,11 +1063,9 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000345941">
             <coordinates coord_system="LRG_517" start="112393" end="128161" strand="-1" mapped_from="GRCh37" />
-            <long_name>LPAR6-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens lysophosphatidic acid receptor 6 (LPAR6), transcript variant 2, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9410.1" />
             <db_xref source="RefSeq" accession="NM_001162497.1" />
-            <db_xref source="RefSeq" accession="NM_001162498.1" />
-            <db_xref source="RefSeq" accession="NM_005767.5" />
             <exon source="Ensembl" accession="ENSE00001415075">
               <coordinates coord_system="LRG_517" start="128113" end="128161" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -1145,10 +1083,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000344353">
               <coordinates coord_system="LRG_517" start="112643" end="113677" strand="-1" mapped_from="GRCh37" />
-              <long_name>lysophosphatidic acid receptor 6</long_name>
-              <db_xref source="RefSeq" accession="NP_001155970.1" />
+              <long_name>lysophosphatidic acid receptor 6 , lysophosphatidic acid receptor 6 </long_name>
               <db_xref source="RefSeq" accession="NP_001155969.1" />
-              <db_xref source="RefSeq" accession="NP_005758.2" />
+              <db_xref source="RefSeq" accession="NP_001155970.1" />
               <db_xref source="UniProtKB" accession="F2YGU4" />
               <db_xref source="UniProtKB" accession="P43657">
                 <synonym>A4FTW9</synonym>
@@ -1192,19 +1129,6 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000240166">
-          <coordinates coord_system="LRG_517" start="130523" end="130728" strand="1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_ensembl_gene">AL136960.1</symbol>
-          <long_name>AL136960.1 (scRNA_pseudogene)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000240166" />
-          <transcript source="Ensembl" accession="ENST00000490930">
-            <coordinates coord_system="LRG_517" start="130523" end="130728" strand="1" mapped_from="GRCh37" />
-            <long_name>AL136960.1-201 (scRNA_pseudogene)</long_name>
-            <exon source="Ensembl" accession="ENSE00001922366">
-              <coordinates coord_system="LRG_517" start="130523" end="130728" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-        </gene>
       </features>
     </annotation_set>
     <annotation_set>
@@ -1220,6 +1144,20 @@
         <url>http://rb1-lovd.d-lohmann.de/home.php?select_db=RB1</url>
       </source>
       <modification_date>2012-08-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Mendelian genes - RB1</name>
+        <url>http://grenada.lumc.nl/LOVD2/mendelian_genes/home.php?select_db=RB1</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>rb1-lsdb</name>
+        <url>http://rb1-lovd.d-lohmann.de/home.php?select_db=RB1</url>
+      </source>
+      <modification_date>2013-02-15</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
