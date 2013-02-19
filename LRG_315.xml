@@ -7,6 +7,18 @@
     <sequence_source>NG_012339.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
+      <name>TCA Cycle Gene Mutation Database - SDHA</name>
+      <url>http://chromium.liacs.nl/LOVD2/SDH/home.php?select_db=SDHA</url>
+      <contact>
+        <name>Dr. J.P.L. Bayley</name>
+        <address>Leiden University Medical Center</address>
+      </contact>
+      <contact>
+        <name>Dr. Peter E.M. Taschner</name>
+        <address>Leiden University Medical Center</address>
+      </contact>
+    </source>
+    <source>
       <name>NCBI RefSeqGene</name>
       <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
       <contact>
@@ -131,7 +143,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-07-24</modification_date>
+      <modification_date>2013-02-19</modification_date>
       <mapping coord_system="GRCh37.p5" other_name="5" other_id="NC_000005.9" other_start="213356" other_end="258815">
         <mapping_span lrg_start="1" lrg_end="45460" other_start="213356" other_end="258815" strand="1" />
       </mapping>
@@ -350,8 +362,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-07-24</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-19</modification_date>
       <mapping coord_system="ENST00000264932.6" other_name="ENST00000264932.6" other_id="ENST00000264932.6" other_start="1" other_end="2390">
         <mapping_span lrg_start="5001" lrg_end="5178" other_start="1" other_end="178" strand="1" />
         <mapping_span lrg_start="10242" lrg_end="10328" other_start="179" other_end="265" strand="1" />
@@ -368,21 +380,6 @@
         <mapping_span lrg_start="38098" lrg_end="38228" other_start="1779" other_end="1909" strand="1" />
         <mapping_span lrg_start="41153" lrg_end="41266" other_start="1910" other_end="2023" strand="1" />
         <mapping_span lrg_start="43094" lrg_end="43460" other_start="2024" other_end="2390" strand="1" />
-      </mapping>
-      <mapping coord_system="ENST00000327872.6" other_name="ENST00000327872.6" other_id="ENST00000327872.6" other_start="1" other_end="1886">
-        <mapping_span lrg_start="5046" lrg_end="5178" other_start="1" other_end="133" strand="1" />
-        <mapping_span lrg_start="10242" lrg_end="10328" other_start="134" other_end="220" strand="1" />
-        <mapping_span lrg_start="11120" lrg_end="11281" other_start="221" other_end="382" strand="1" />
-        <mapping_span lrg_start="12179" lrg_end="12244" other_start="383" other_end="448" strand="1" />
-        <mapping_span lrg_start="17679" lrg_end="17760" other_start="449" other_end="530" strand="1" />
-        <mapping_span lrg_start="20237" lrg_end="20405" other_start="531" other_end="699" strand="1" />
-        <mapping_span lrg_start="21904" lrg_end="22099" other_start="700" other_end="895" strand="1" />
-        <mapping_span lrg_start="23188" lrg_end="23359" other_start="896" other_end="1067" strand="1" />
-        <mapping_span lrg_start="27118" lrg_end="27236" other_start="1068" other_end="1186" strand="1" />
-        <mapping_span lrg_start="37752" lrg_end="37863" other_start="1187" other_end="1298" strand="1" />
-        <mapping_span lrg_start="38098" lrg_end="38228" other_start="1299" other_end="1429" strand="1" />
-        <mapping_span lrg_start="41153" lrg_end="41266" other_start="1430" other_end="1543" strand="1" />
-        <mapping_span lrg_start="43094" lrg_end="43436" other_start="1544" other_end="1886" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000502379.1" other_name="ENST00000502379.1" other_id="ENST00000502379.1" other_start="1" other_end="679">
         <mapping_span lrg_start="5071" lrg_end="5178" other_start="1" other_end="108" strand="1" />
@@ -551,6 +548,7 @@
           <partial>3-prime</partial>
           <symbol source="HGNC">CCDC127</symbol>
           <long_name>coiled-coil domain containing 127 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="133957" />
           <db_xref source="HGNC" accession="30520">
             <synonym>FLJ25701</synonym>
           </db_xref>
@@ -558,7 +556,7 @@
           <transcript source="Ensembl" accession="ENST00000296824">
             <coordinates coord_system="LRG_315" start="1" end="4975" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>CCDC127-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens coiled-coil domain containing 127 (CCDC127), mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS3852.1" />
             <db_xref source="RefSeq" accession="NM_145265.2" />
             <exon source="Ensembl" accession="ENSE00001295592">
@@ -570,7 +568,7 @@
             <protein_product source="Ensembl" accession="ENSP00000296824">
               <coordinates coord_system="LRG_315" start="1" end="3609" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>coiled-coil domain containing 127</long_name>
+              <long_name>coiled-coil domain-containing protein 127 </long_name>
               <db_xref source="RefSeq" accession="NP_660308.1" />
               <db_xref source="UniProtKB" accession="D6R9R2" />
               <db_xref source="UniProtKB" accession="Q96BQ5" />
@@ -586,15 +584,38 @@
             <protein_product source="Ensembl" accession="ENSP00000411206">
               <coordinates coord_system="LRG_315" start="1" end="3609" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>coiled-coil domain containing 127</long_name>
               <db_xref source="UniProtKB" accession="D6R9R2" />
             </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000260774">
+          <coordinates coord_system="LRG_315" start="658" end="4039" strand="-1" mapped_from="GRCh37" />
+          <symbol source="Clone_based_vega_gene">CTD-2083E4.4</symbol>
+          <long_name>CTD-2083E4.4 (processed_transcript)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000260774" />
+          <transcript source="Ensembl" accession="ENST00000565521">
+            <coordinates coord_system="LRG_315" start="658" end="4039" strand="-1" mapped_from="GRCh37" />
+            <long_name>CTD-2083E4.4-001 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002602590">
+              <coordinates coord_system="LRG_315" start="3954" end="4039" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002613121">
+              <coordinates coord_system="LRG_315" start="658" end="3452" strand="-1" mapped_from="GRCh37" />
+            </exon>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000073578">
           <coordinates coord_system="LRG_315" start="5001" end="43460" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">SDHA</symbol>
           <long_name>succinate dehydrogenase complex, subunit A, flavoprotein (Fp) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="6389">
+            <synonym>CMD1GG</synonym>
+            <synonym>FP</synonym>
+            <synonym>PGL5</synonym>
+            <synonym>SDH1</synonym>
+            <synonym>SDH2</synonym>
+            <synonym>SDHF</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="10680">
             <synonym>FP</synonym>
             <synonym>SDH2</synonym>
@@ -604,49 +625,49 @@
           <db_xref source="Ensembl" accession="ENSG00000073578" />
           <transcript source="Ensembl" accession="ENST00000264932">
             <coordinates coord_system="LRG_315" start="5001" end="43460" strand="1" mapped_from="GRCh37" />
-            <long_name>SDHA-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens succinate dehydrogenase complex, subunit A, flavoprotein (Fp) (SDHA), nuclear gene encoding mitochondrial protein, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS3853.1" />
             <db_xref source="RefSeq" accession="NM_004168.2" />
             <exon source="Ensembl" accession="ENSE00001782950">
               <coordinates coord_system="LRG_315" start="5001" end="5178" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000718333">
+            <exon source="Ensembl" accession="ENSE00003216770">
               <coordinates coord_system="LRG_315" start="10242" end="10328" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000718323">
+            <exon source="Ensembl" accession="ENSE00003120481">
               <coordinates coord_system="LRG_315" start="11120" end="11281" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001360780">
+            <exon source="Ensembl" accession="ENSE00003122143">
               <coordinates coord_system="LRG_315" start="12179" end="12322" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001629860">
+            <exon source="Ensembl" accession="ENSE00003062901">
               <coordinates coord_system="LRG_315" start="12643" end="12807" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001724610">
+            <exon source="Ensembl" accession="ENSE00003021625">
               <coordinates coord_system="LRG_315" start="14945" end="15093" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001732678">
+            <exon source="Ensembl" accession="ENSE00003045166">
               <coordinates coord_system="LRG_315" start="17636" end="17760" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001779314">
+            <exon source="Ensembl" accession="ENSE00003206246">
               <coordinates coord_system="LRG_315" start="20237" end="20405" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001631144">
+            <exon source="Ensembl" accession="ENSE00003094893">
               <coordinates coord_system="LRG_315" start="21904" end="22099" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001784499">
+            <exon source="Ensembl" accession="ENSE00002991467">
               <coordinates coord_system="LRG_315" start="23188" end="23359" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001651079">
+            <exon source="Ensembl" accession="ENSE00003093714">
               <coordinates coord_system="LRG_315" start="27118" end="27236" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001627995">
+            <exon source="Ensembl" accession="ENSE00003169812">
               <coordinates coord_system="LRG_315" start="37752" end="37863" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001738172">
+            <exon source="Ensembl" accession="ENSE00003005578">
               <coordinates coord_system="LRG_315" start="38098" end="38228" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001677483">
+            <exon source="Ensembl" accession="ENSE00003007453">
               <coordinates coord_system="LRG_315" start="41153" end="41266" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001742892">
@@ -654,63 +675,15 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000264932">
               <coordinates coord_system="LRG_315" start="5116" end="43180" strand="1" mapped_from="GRCh37" />
-              <long_name>succinate dehydrogenase complex, subunit A, flavoprotein (Fp)</long_name>
+              <long_name>succinate dehydrogenase </long_name>
               <db_xref source="RefSeq" accession="NP_004159.2" />
-              <db_xref source="UniProtKB" accession="Q0QF12" />
               <db_xref source="UniProtKB" accession="B3KT34" />
+              <db_xref source="UniProtKB" accession="Q0QF12" />
               <db_xref source="UniProtKB" accession="P31040">
                 <synonym>A8K5J6</synonym>
                 <synonym>Q16395</synonym>
                 <synonym>Q9UMY5</synonym>
               </db_xref>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000327872">
-            <coordinates coord_system="LRG_315" start="5046" end="43436" strand="1" mapped_from="GRCh37" />
-            <long_name>SDHA-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002299684">
-              <coordinates coord_system="LRG_315" start="5046" end="5178" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000718333">
-              <coordinates coord_system="LRG_315" start="10242" end="10328" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000718323">
-              <coordinates coord_system="LRG_315" start="11120" end="11281" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001010594">
-              <coordinates coord_system="LRG_315" start="12179" end="12244" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001412780">
-              <coordinates coord_system="LRG_315" start="17679" end="17760" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001779314">
-              <coordinates coord_system="LRG_315" start="20237" end="20405" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001631144">
-              <coordinates coord_system="LRG_315" start="21904" end="22099" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001784499">
-              <coordinates coord_system="LRG_315" start="23188" end="23359" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001651079">
-              <coordinates coord_system="LRG_315" start="27118" end="27236" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001627995">
-              <coordinates coord_system="LRG_315" start="37752" end="37863" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001738172">
-              <coordinates coord_system="LRG_315" start="38098" end="38228" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001677483">
-              <coordinates coord_system="LRG_315" start="41153" end="41266" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002242836">
-              <coordinates coord_system="LRG_315" start="43094" end="43436" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000329450">
-              <coordinates coord_system="LRG_315" start="5116" end="43180" strand="1" mapped_from="GRCh37" />
-              <long_name>succinate dehydrogenase complex, subunit A, flavoprotein (Fp)</long_name>
-              <db_xref source="UniProtKB" accession="E9PEF8" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000504309">
@@ -719,45 +692,44 @@
             <exon source="Ensembl" accession="ENSE00001672121">
               <coordinates coord_system="LRG_315" start="5063" end="5178" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000718333">
+            <exon source="Ensembl" accession="ENSE00003216770">
               <coordinates coord_system="LRG_315" start="10242" end="10328" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000718323">
+            <exon source="Ensembl" accession="ENSE00003120481">
               <coordinates coord_system="LRG_315" start="11120" end="11281" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001360780">
+            <exon source="Ensembl" accession="ENSE00003122143">
               <coordinates coord_system="LRG_315" start="12179" end="12322" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001629860">
+            <exon source="Ensembl" accession="ENSE00003062901">
               <coordinates coord_system="LRG_315" start="12643" end="12807" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001724610">
+            <exon source="Ensembl" accession="ENSE00003021625">
               <coordinates coord_system="LRG_315" start="14945" end="15093" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001732678">
+            <exon source="Ensembl" accession="ENSE00003045166">
               <coordinates coord_system="LRG_315" start="17636" end="17760" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001779314">
+            <exon source="Ensembl" accession="ENSE00003206246">
               <coordinates coord_system="LRG_315" start="20237" end="20405" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001631144">
+            <exon source="Ensembl" accession="ENSE00003094893">
               <coordinates coord_system="LRG_315" start="21904" end="22099" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001784499">
+            <exon source="Ensembl" accession="ENSE00002991467">
               <coordinates coord_system="LRG_315" start="23188" end="23359" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001651079">
+            <exon source="Ensembl" accession="ENSE00003093714">
               <coordinates coord_system="LRG_315" start="27118" end="27236" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001677483">
+            <exon source="Ensembl" accession="ENSE00003007453">
               <coordinates coord_system="LRG_315" start="41153" end="41266" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002065591">
+            <exon source="Ensembl" accession="ENSE00003204128">
               <coordinates coord_system="LRG_315" start="43094" end="43442" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000426514">
               <coordinates coord_system="LRG_315" start="5116" end="43180" strand="1" mapped_from="GRCh37" />
-              <long_name>succinate dehydrogenase complex, subunit A, flavoprotein (Fp)</long_name>
               <db_xref source="UniProtKB" accession="D6RFM5" />
             </protein_product>
           </transcript>
@@ -767,10 +739,10 @@
             <exon source="Ensembl" accession="ENSE00002075799">
               <coordinates coord_system="LRG_315" start="5069" end="5178" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002053518">
+            <exon source="Ensembl" accession="ENSE00002998952">
               <coordinates coord_system="LRG_315" start="10242" end="10328" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002052649">
+            <exon source="Ensembl" accession="ENSE00003072872">
               <coordinates coord_system="LRG_315" start="11120" end="11281" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002073767">
@@ -789,7 +761,7 @@
             <exon source="Ensembl" accession="ENSE00002044995">
               <coordinates coord_system="LRG_315" start="5071" end="5178" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002053518">
+            <exon source="Ensembl" accession="ENSE00002998952">
               <coordinates coord_system="LRG_315" start="10242" end="10328" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002082955">
@@ -802,37 +774,37 @@
             <exon source="Ensembl" accession="ENSE00002066526">
               <coordinates coord_system="LRG_315" start="5076" end="5178" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002053518">
+            <exon source="Ensembl" accession="ENSE00002998952">
               <coordinates coord_system="LRG_315" start="10242" end="10328" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002052649">
+            <exon source="Ensembl" accession="ENSE00003072872">
               <coordinates coord_system="LRG_315" start="11120" end="11281" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002086325">
+            <exon source="Ensembl" accession="ENSE00002987079">
               <coordinates coord_system="LRG_315" start="12179" end="12322" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002036447">
+            <exon source="Ensembl" accession="ENSE00003096554">
               <coordinates coord_system="LRG_315" start="12643" end="12807" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002063354">
+            <exon source="Ensembl" accession="ENSE00003070712">
               <coordinates coord_system="LRG_315" start="14945" end="15093" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002053206">
+            <exon source="Ensembl" accession="ENSE00003208190">
               <coordinates coord_system="LRG_315" start="17636" end="17760" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002060223">
+            <exon source="Ensembl" accession="ENSE00003140571">
               <coordinates coord_system="LRG_315" start="20237" end="20405" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002055781">
+            <exon source="Ensembl" accession="ENSE00003162792">
               <coordinates coord_system="LRG_315" start="21904" end="22099" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002058434">
+            <exon source="Ensembl" accession="ENSE00003113873">
               <coordinates coord_system="LRG_315" start="23188" end="23359" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002050485">
+            <exon source="Ensembl" accession="ENSE00003027866">
               <coordinates coord_system="LRG_315" start="27118" end="27236" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002072737">
+            <exon source="Ensembl" accession="ENSE00002983986">
               <coordinates coord_system="LRG_315" start="37752" end="37863" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002059817">
@@ -845,48 +817,47 @@
             <exon source="Ensembl" accession="ENSE00002024115">
               <coordinates coord_system="LRG_315" start="5078" end="5178" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000718333">
+            <exon source="Ensembl" accession="ENSE00003216770">
               <coordinates coord_system="LRG_315" start="10242" end="10328" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00000718323">
+            <exon source="Ensembl" accession="ENSE00003120481">
               <coordinates coord_system="LRG_315" start="11120" end="11281" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001629860">
+            <exon source="Ensembl" accession="ENSE00003062901">
               <coordinates coord_system="LRG_315" start="12643" end="12807" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001724610">
+            <exon source="Ensembl" accession="ENSE00003021625">
               <coordinates coord_system="LRG_315" start="14945" end="15093" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001732678">
+            <exon source="Ensembl" accession="ENSE00003045166">
               <coordinates coord_system="LRG_315" start="17636" end="17760" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001779314">
+            <exon source="Ensembl" accession="ENSE00003206246">
               <coordinates coord_system="LRG_315" start="20237" end="20405" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001631144">
+            <exon source="Ensembl" accession="ENSE00003094893">
               <coordinates coord_system="LRG_315" start="21904" end="22099" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001784499">
+            <exon source="Ensembl" accession="ENSE00002991467">
               <coordinates coord_system="LRG_315" start="23188" end="23359" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001651079">
+            <exon source="Ensembl" accession="ENSE00003093714">
               <coordinates coord_system="LRG_315" start="27118" end="27236" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001627995">
+            <exon source="Ensembl" accession="ENSE00003169812">
               <coordinates coord_system="LRG_315" start="37752" end="37863" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001738172">
+            <exon source="Ensembl" accession="ENSE00003005578">
               <coordinates coord_system="LRG_315" start="38098" end="38228" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001677483">
+            <exon source="Ensembl" accession="ENSE00003007453">
               <coordinates coord_system="LRG_315" start="41153" end="41266" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001531209">
+            <exon source="Ensembl" accession="ENSE00003168341">
               <coordinates coord_system="LRG_315" start="43094" end="43439" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000427703">
               <coordinates coord_system="LRG_315" start="5116" end="43180" strand="1" mapped_from="GRCh37" />
-              <long_name>succinate dehydrogenase complex, subunit A, flavoprotein (Fp)</long_name>
               <db_xref source="UniProtKB" accession="B3KT34" />
               <db_xref source="UniProtKB" accession="E9PBJ5" />
             </protein_product>
@@ -900,18 +871,17 @@
             <exon source="Ensembl" accession="ENSE00002024900">
               <coordinates coord_system="LRG_315" start="7000" end="7097" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002078463">
+            <exon source="Ensembl" accession="ENSE00003175755">
               <coordinates coord_system="LRG_315" start="10242" end="10328" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002069644">
+            <exon source="Ensembl" accession="ENSE00003118773">
               <coordinates coord_system="LRG_315" start="11120" end="11281" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002086325">
+            <exon source="Ensembl" accession="ENSE00002987079">
               <coordinates coord_system="LRG_315" start="12179" end="12322" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000425077">
               <coordinates coord_system="LRG_315" start="5116" end="11141" strand="1" mapped_from="GRCh37" />
-              <long_name>succinate dehydrogenase complex, subunit A, flavoprotein (Fp)</long_name>
               <db_xref source="UniProtKB" accession="D6REB7" />
             </protein_product>
           </transcript>
@@ -921,25 +891,25 @@
             <exon source="Ensembl" accession="ENSE00002040717">
               <coordinates coord_system="LRG_315" start="5131" end="5178" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002053518">
+            <exon source="Ensembl" accession="ENSE00002998952">
               <coordinates coord_system="LRG_315" start="10242" end="10328" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002052649">
+            <exon source="Ensembl" accession="ENSE00003072872">
               <coordinates coord_system="LRG_315" start="11120" end="11281" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002086325">
+            <exon source="Ensembl" accession="ENSE00002987079">
               <coordinates coord_system="LRG_315" start="12179" end="12322" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002036447">
+            <exon source="Ensembl" accession="ENSE00003096554">
               <coordinates coord_system="LRG_315" start="12643" end="12807" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002063354">
+            <exon source="Ensembl" accession="ENSE00003070712">
               <coordinates coord_system="LRG_315" start="14945" end="15093" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002053206">
+            <exon source="Ensembl" accession="ENSE00003208190">
               <coordinates coord_system="LRG_315" start="17636" end="17760" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002060223">
+            <exon source="Ensembl" accession="ENSE00003140571">
               <coordinates coord_system="LRG_315" start="20237" end="20405" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002038470">
@@ -952,7 +922,7 @@
             <exon source="Ensembl" accession="ENSE00002052593">
               <coordinates coord_system="LRG_315" start="12393" end="12807" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002063354">
+            <exon source="Ensembl" accession="ENSE00003070712">
               <coordinates coord_system="LRG_315" start="14945" end="15093" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002031514">
@@ -965,31 +935,31 @@
             <exon source="Ensembl" accession="ENSE00002036341">
               <coordinates coord_system="LRG_315" start="14369" end="15093" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002053206">
+            <exon source="Ensembl" accession="ENSE00003208190">
               <coordinates coord_system="LRG_315" start="17636" end="17760" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002060223">
+            <exon source="Ensembl" accession="ENSE00003140571">
               <coordinates coord_system="LRG_315" start="20237" end="20405" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002055781">
+            <exon source="Ensembl" accession="ENSE00003162792">
               <coordinates coord_system="LRG_315" start="21904" end="22099" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002058434">
+            <exon source="Ensembl" accession="ENSE00003113873">
               <coordinates coord_system="LRG_315" start="23188" end="23359" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002050485">
+            <exon source="Ensembl" accession="ENSE00003027866">
               <coordinates coord_system="LRG_315" start="27118" end="27236" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002072737">
+            <exon source="Ensembl" accession="ENSE00002983986">
               <coordinates coord_system="LRG_315" start="37752" end="37863" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002049543">
+            <exon source="Ensembl" accession="ENSE00003039709">
               <coordinates coord_system="LRG_315" start="38098" end="38228" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002076343">
+            <exon source="Ensembl" accession="ENSE00002988858">
               <coordinates coord_system="LRG_315" start="41153" end="41266" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002063877">
+            <exon source="Ensembl" accession="ENSE00003048972">
               <coordinates coord_system="LRG_315" start="43094" end="43439" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -999,10 +969,10 @@
             <exon source="Ensembl" accession="ENSE00002066724">
               <coordinates coord_system="LRG_315" start="14386" end="14516" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002063354">
+            <exon source="Ensembl" accession="ENSE00003070712">
               <coordinates coord_system="LRG_315" start="14945" end="15093" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002053206">
+            <exon source="Ensembl" accession="ENSE00003208190">
               <coordinates coord_system="LRG_315" start="17636" end="17760" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002080587">
@@ -1034,16 +1004,16 @@
             <exon source="Ensembl" accession="ENSE00002075986">
               <coordinates coord_system="LRG_315" start="23062" end="23359" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002050485">
+            <exon source="Ensembl" accession="ENSE00003027866">
               <coordinates coord_system="LRG_315" start="27118" end="27236" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002072737">
+            <exon source="Ensembl" accession="ENSE00002983986">
               <coordinates coord_system="LRG_315" start="37752" end="37863" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002049543">
+            <exon source="Ensembl" accession="ENSE00003039709">
               <coordinates coord_system="LRG_315" start="38098" end="38228" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002076343">
+            <exon source="Ensembl" accession="ENSE00002988858">
               <coordinates coord_system="LRG_315" start="41153" end="41266" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002081874">
@@ -1056,19 +1026,19 @@
             <exon source="Ensembl" accession="ENSE00002058329">
               <coordinates coord_system="LRG_315" start="21181" end="23359" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002050485">
+            <exon source="Ensembl" accession="ENSE00003027866">
               <coordinates coord_system="LRG_315" start="27118" end="27236" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002072737">
+            <exon source="Ensembl" accession="ENSE00002983986">
               <coordinates coord_system="LRG_315" start="37752" end="37863" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002049543">
+            <exon source="Ensembl" accession="ENSE00003039709">
               <coordinates coord_system="LRG_315" start="38098" end="38228" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002076343">
+            <exon source="Ensembl" accession="ENSE00002988858">
               <coordinates coord_system="LRG_315" start="41153" end="41266" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002063877">
+            <exon source="Ensembl" accession="ENSE00003048972">
               <coordinates coord_system="LRG_315" start="43094" end="43439" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -1078,18 +1048,17 @@
             <exon source="Ensembl" accession="ENSE00002087975">
               <coordinates coord_system="LRG_315" start="23273" end="23359" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001651079">
+            <exon source="Ensembl" accession="ENSE00003093714">
               <coordinates coord_system="LRG_315" start="27118" end="27236" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002019538">
               <coordinates coord_system="LRG_315" start="41118" end="41266" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002036633">
+            <exon source="Ensembl" accession="ENSE00003091207">
               <coordinates coord_system="LRG_315" start="43094" end="43442" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000422404" codon_start="2">
               <coordinates coord_system="LRG_315" start="23273" end="43118" strand="1" mapped_from="GRCh37" />
-              <long_name>succinate dehydrogenase complex, subunit A, flavoprotein (Fp)</long_name>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000509082">
@@ -1101,7 +1070,7 @@
             <exon source="Ensembl" accession="ENSE00002050398">
               <coordinates coord_system="LRG_315" start="37752" end="37803" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002077254">
+            <exon source="Ensembl" accession="ENSE00003009493">
               <coordinates coord_system="LRG_315" start="43094" end="43442" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -1111,16 +1080,16 @@
             <exon source="Ensembl" accession="ENSE00002084508">
               <coordinates coord_system="LRG_315" start="35814" end="37536" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002072737">
+            <exon source="Ensembl" accession="ENSE00002983986">
               <coordinates coord_system="LRG_315" start="37752" end="37863" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002049543">
+            <exon source="Ensembl" accession="ENSE00003039709">
               <coordinates coord_system="LRG_315" start="38098" end="38228" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002076343">
+            <exon source="Ensembl" accession="ENSE00002988858">
               <coordinates coord_system="LRG_315" start="41153" end="41266" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002063877">
+            <exon source="Ensembl" accession="ENSE00003048972">
               <coordinates coord_system="LRG_315" start="43094" end="43439" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -1140,7 +1109,7 @@
             <exon source="Ensembl" accession="ENSE00002029395">
               <coordinates coord_system="LRG_315" start="37930" end="38228" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002076343">
+            <exon source="Ensembl" accession="ENSE00002988858">
               <coordinates coord_system="LRG_315" start="41153" end="41266" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002024622">
@@ -1156,12 +1125,12 @@
             <exon source="Ensembl" accession="ENSE00002019538">
               <coordinates coord_system="LRG_315" start="41118" end="41266" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002036633">
+            <exon source="Ensembl" accession="ENSE00003091207">
               <coordinates coord_system="LRG_315" start="43094" end="43442" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000421911">
               <coordinates coord_system="LRG_315" start="38097" end="43118" strand="1" mapped_from="GRCh37" />
-              <long_name>succinate dehydrogenase complex, subunit A, flavoprotein (Fp)</long_name>
+              <db_xref source="UniProtKB" accession="H0Y8S2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000507522">
@@ -1173,7 +1142,7 @@
             <exon source="Ensembl" accession="ENSE00002061700">
               <coordinates coord_system="LRG_315" start="39768" end="39840" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002076343">
+            <exon source="Ensembl" accession="ENSE00002988858">
               <coordinates coord_system="LRG_315" start="41153" end="41266" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002018899">
@@ -1182,6 +1151,13 @@
           </transcript>
         </gene>
       </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>TCA Cycle Gene Mutation Database - SDHA</name>
+        <url>http://chromium.liacs.nl/LOVD2/SDH/home.php?select_db=SDHA</url>
+      </source>
+      <modification_date>2013-02-19</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
