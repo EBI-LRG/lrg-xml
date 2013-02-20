@@ -9,24 +9,9 @@
     <source>
       <name></name>
       <contact>
-        <name>Isabelle Richard</name>
-        <address>Genethon, France</address>
-        <email>isabelle.richard@genethon.fr</email>
-      </contact>
-      <contact>
-        <name>James Ware</name>
-        <address>Molecular Cardiology, Imperial College, London</address>
-        <email>j.ware@imperial.ac.uk</email>
-      </contact>
-      <contact>
-        <name>Johan den Dunnen</name>
-        <address>Leiden University Medical Center</address>
-        <email>ddunnen@lumc.nl</email>
-      </contact>
-      <contact>
-        <name>Valerie Delague</name>
-        <address>Aix-Marseille University, Marseille, France</address>
-        <email>valerie.delague@univmed.fr</email>
+        <name>Dennis Dooijes</name>
+        <address>UMC Utrecht, Netherlands</address>
+        <email>D.Dooijes@umcutrecht.nl</email>
       </contact>
     </source>
     <source>
@@ -242,7 +227,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-10-01</modification_date>
+      <modification_date>2013-02-20</modification_date>
       <mapping coord_system="GRCh37.p9" other_name="1" other_id="NC_000001.10" other_start="154125780" other_end="154169609">
         <mapping_span lrg_start="1" lrg_end="43830" other_start="154125780" other_end="154169609" strand="-1" />
       </mapping>
@@ -651,8 +636,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-10-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-20</modification_date>
       <mapping coord_system="ENST00000271850.7" other_name="ENST00000271850.7" other_id="ENST00000271850.7" other_start="1" other_end="1219">
         <mapping_span lrg_start="5076" lrg_end="5232" other_start="1" other_end="157" strand="1" />
         <mapping_span lrg_start="5823" lrg_end="5948" other_start="158" other_end="283" strand="1" />
@@ -837,652 +822,31 @@
         <mapping_span lrg_start="5823" lrg_end="5931" other_start="479" other_end="587" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000143552">
-          <coordinates coord_system="LRG_681" start="42018" end="43830" strand="1" mapped_from="GRCh37" />
-          <partial>3-prime</partial>
-          <symbol source="HGNC">NUP210L</symbol>
-          <long_name>nucleoporin 210kDa-like (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="29915" />
-          <db_xref source="Ensembl" accession="ENSG00000143552" />
-          <transcript source="Ensembl" accession="ENST00000368559">
-            <coordinates coord_system="LRG_681" start="42018" end="43830" strand="1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>NUP210L-001 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS41399.1" />
-            <db_xref source="RefSeq" accession="NM_207308.2" />
-            <exon source="Ensembl" accession="ENSE00002224107">
-              <coordinates coord_system="LRG_681" start="42018" end="42292" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000357547">
-              <coordinates coord_system="LRG_681" start="42090" end="43830" strand="1" mapped_from="GRCh37" />
-              <partial>3-prime</partial>
-              <long_name>nucleoporin 210kDa-like</long_name>
-              <db_xref source="RefSeq" accession="NP_997191.2" />
-              <db_xref source="UniProtKB" accession="Q5VU65">
-                <synonym>Q5T4L7</synonym>
-                <synonym>Q6ZRN1</synonym>
-                <synonym>Q6ZRT4</synonym>
-                <synonym>Q6ZU81</synonym>
-                <synonym>Q8NDI6</synonym>
-              </db_xref>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000271854">
-            <coordinates coord_system="LRG_681" start="42018" end="43830" strand="1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>NUP210L-201 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS53370.1" />
-            <db_xref source="RefSeq" accession="NM_001159484.1" />
-            <exon source="Ensembl" accession="ENSE00002224107">
-              <coordinates coord_system="LRG_681" start="42018" end="42292" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000271854">
-              <coordinates coord_system="LRG_681" start="42090" end="43830" strand="1" mapped_from="GRCh37" />
-              <partial>3-prime</partial>
-              <long_name>nucleoporin 210kDa-like</long_name>
-              <db_xref source="RefSeq" accession="NP_001152956.1" />
-              <db_xref source="UniProtKB" accession="E7EP56" />
-            </protein_product>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000143549">
           <coordinates coord_system="LRG_681" start="2486" end="41826" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">TPM3</symbol>
           <long_name>tropomyosin 3 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="7170">
+            <synonym>CFTD</synonym>
+            <synonym>hscp30</synonym>
+            <synonym>hTM5</synonym>
+            <synonym>NEM1</synonym>
+            <synonym>OK/SW-cl.5</synonym>
+            <synonym>TM-5</synonym>
+            <synonym>TM3</synonym>
+            <synonym>TM30</synonym>
+            <synonym>TM30nm</synonym>
+            <synonym>TM5</synonym>
+            <synonym>TPMsk3</synonym>
+            <synonym>TRK</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="12012">
             <synonym>NEM1</synonym>
             <synonym>TRK</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="164970" />
           <db_xref source="MIM" accession="191030" />
+          <db_xref source="MIM" accession="164970" />
           <db_xref source="Ensembl" accession="ENSG00000143549" />
-          <transcript source="Ensembl" accession="ENST00000368533">
-            <coordinates coord_system="LRG_681" start="13962" end="41826" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-004 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS1060.1" />
-            <db_xref source="RefSeq" accession="NM_153649.3" />
-            <exon source="Ensembl" accession="ENSE00001818672">
-              <coordinates coord_system="LRG_681" start="13962" end="14146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001770711">
-              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001666218">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000960792">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001201362">
-              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676704">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001741584">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001368093">
-              <coordinates coord_system="LRG_681" start="39413" end="41826" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000357521">
-              <coordinates coord_system="LRG_681" start="14015" end="39495" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
-              <db_xref source="RefSeq" accession="NP_705935.1" />
-              <db_xref source="UniProtKB" accession="Q8NI98" />
-              <db_xref source="UniProtKB" accession="Q6LDX7" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000368545">
-            <coordinates coord_system="LRG_681" start="24457" end="40777" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-014 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001447392">
-              <coordinates coord_system="LRG_681" start="24457" end="25105" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001942010">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001936072">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001849150">
-              <coordinates coord_system="LRG_681" start="39413" end="40777" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000469717">
-            <coordinates coord_system="LRG_681" start="13987" end="40775" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-008 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001841297">
-              <coordinates coord_system="LRG_681" start="13987" end="14146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002615069">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001868646">
-              <coordinates coord_system="LRG_681" start="24156" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001936072">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001852702">
-              <coordinates coord_system="LRG_681" start="39413" end="40775" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000341485">
-            <coordinates coord_system="LRG_681" start="13926" end="40770" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-003 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001958966">
-              <coordinates coord_system="LRG_681" start="13926" end="14146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001385051">
-              <coordinates coord_system="LRG_681" start="20886" end="21012" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001368049">
-              <coordinates coord_system="LRG_681" start="23974" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000960792">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001201362">
-              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676704">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001741584">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001929782">
-              <coordinates coord_system="LRG_681" start="39413" end="40770" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000341653">
-              <coordinates coord_system="LRG_681" start="14015" end="39495" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
-              <db_xref source="UniProtKB" accession="Q8NI98" />
-              <db_xref source="UniProtKB" accession="Q6LDX7" />
-              <db_xref source="UniProtKB" accession="Q5VU59" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000330188">
-            <coordinates coord_system="LRG_681" start="13929" end="40770" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-009 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS41400.1" />
-            <db_xref source="RefSeq" accession="NM_001043351.1" />
-            <exon source="Ensembl" accession="ENSE00001839736">
-              <coordinates coord_system="LRG_681" start="13929" end="14146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001770711">
-              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001666218">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000960792">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001701463">
-              <coordinates coord_system="LRG_681" start="25646" end="25721" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676704">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001741584">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001929782">
-              <coordinates coord_system="LRG_681" start="39413" end="40770" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000339035">
-              <coordinates coord_system="LRG_681" start="14015" end="39495" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001036816.1" />
-              <db_xref source="UniProtKB" accession="Q5VU66" />
-              <db_xref source="UniProtKB" accession="Q5VU63" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000341372">
-            <coordinates coord_system="LRG_681" start="13953" end="40768" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-005 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001447359">
-              <coordinates coord_system="LRG_681" start="13953" end="14146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001447358">
-              <coordinates coord_system="LRG_681" start="20958" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001666218">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000960792">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001201362">
-              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676704">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001741584">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001212207">
-              <coordinates coord_system="LRG_681" start="39413" end="40768" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000339378">
-              <coordinates coord_system="LRG_681" start="14015" end="39495" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
-              <db_xref source="UniProtKB" accession="Q8NI98" />
-              <db_xref source="UniProtKB" accession="Q6LDX7" />
-              <db_xref source="UniProtKB" accession="Q5VU61" />
-              <db_xref source="UniProtKB" accession="B4DWT5" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000328159">
-            <coordinates coord_system="LRG_681" start="14015" end="40440" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-006 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001447356">
-              <coordinates coord_system="LRG_681" start="14015" end="14146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001770711">
-              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001666218">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000960792">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001201362">
-              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676704">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001741584">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001640091">
-              <coordinates coord_system="LRG_681" start="27751" end="27829" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001447355">
-              <coordinates coord_system="LRG_681" start="39413" end="40440" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000357520">
-              <coordinates coord_system="LRG_681" start="14015" end="39416" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
-              <db_xref source="UniProtKB" accession="Q8TCG3" />
-              <db_xref source="UniProtKB" accession="Q6LDX7" />
-              <db_xref source="UniProtKB" accession="Q5VU58" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000509409">
-            <coordinates coord_system="LRG_681" start="13907" end="40022" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-016 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00001884924">
-              <coordinates coord_system="LRG_681" start="13907" end="14146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002053845">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001850874">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001896651">
-              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001942010">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001936072">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001901453">
-              <coordinates coord_system="LRG_681" start="39413" end="40022" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000426521">
-              <coordinates coord_system="LRG_681" start="14015" end="23950" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
-              <db_xref source="UniProtKB" accession="D6RFM2" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000271850">
-            <coordinates coord_system="LRG_681" start="5076" end="39816" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-015 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002024480">
-              <coordinates coord_system="LRG_681" start="5076" end="5232" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000960798">
-              <coordinates coord_system="LRG_681" start="5823" end="5948" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001770711">
-              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001666218">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000960792">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001201362">
-              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676704">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001741584">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001826961">
-              <coordinates coord_system="LRG_681" start="39413" end="39816" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000271850">
-              <coordinates coord_system="LRG_681" start="5116" end="39495" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
-              <db_xref source="UniProtKB" accession="Q8NI98" />
-              <db_xref source="UniProtKB" accession="Q6LDX7" />
-              <db_xref source="UniProtKB" accession="D6RGJ6" />
-              <db_xref source="UniProtKB" accession="P06753">
-                <synonym>D3DV71</synonym>
-                <synonym>P12324</synonym>
-                <synonym>Q2QD06</synonym>
-                <synonym>Q5VU71</synonym>
-                <synonym>Q969Q2</synonym>
-                <synonym>Q9NQH8</synonym>
-              </db_xref>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000312970">
-            <coordinates coord_system="LRG_681" start="14056" end="39608" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-022 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002043572">
-              <coordinates coord_system="LRG_681" start="14056" end="14146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001329864">
-              <coordinates coord_system="LRG_681" start="20955" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002615069">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001850874">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001896651">
-              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001942010">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001936072">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002040668">
-              <coordinates coord_system="LRG_681" start="39413" end="39608" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000513769">
-            <coordinates coord_system="LRG_681" start="26128" end="39602" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-024 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002034589">
-              <coordinates coord_system="LRG_681" start="26128" end="26343" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001942010">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001936072">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002027649">
-              <coordinates coord_system="LRG_681" start="39413" end="39602" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000302206">
-            <coordinates coord_system="LRG_681" start="18951" end="39551" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-011 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001447352">
-              <coordinates coord_system="LRG_681" start="18951" end="19020" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676493">
-              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002588483">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000960792">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001701463">
-              <coordinates coord_system="LRG_681" start="25646" end="25721" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676704">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001741584">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001384954">
-              <coordinates coord_system="LRG_681" start="39413" end="39551" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000307712">
-              <coordinates coord_system="LRG_681" start="23937" end="39495" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
-              <db_xref source="UniProtKB" accession="Q5VU63" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000368531">
-            <coordinates coord_system="LRG_681" start="14004" end="38525" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-026 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS41402.1" />
-            <db_xref source="RefSeq" accession="NM_001043352.1" />
-            <exon source="Ensembl" accession="ENSE00001602655">
-              <coordinates coord_system="LRG_681" start="14004" end="14146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001770711">
-              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001666218">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000960792">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001201362">
-              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676704">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001741584">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002024809">
-              <coordinates coord_system="LRG_681" start="38086" end="38525" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000357517">
-              <coordinates coord_system="LRG_681" start="14015" end="38165" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001036817.1" />
-              <db_xref source="UniProtKB" accession="Q6LDX7" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000323144">
-            <coordinates coord_system="LRG_681" start="13970" end="38464" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-010 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS41401.1" />
-            <db_xref source="RefSeq" accession="NM_001043353.1" />
-            <exon source="Ensembl" accession="ENSE00001921199">
-              <coordinates coord_system="LRG_681" start="13970" end="14146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001770711">
-              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001666218">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000960792">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001701463">
-              <coordinates coord_system="LRG_681" start="25646" end="25721" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676704">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001741584">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001690123">
-              <coordinates coord_system="LRG_681" start="38086" end="38464" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000357518">
-              <coordinates coord_system="LRG_681" start="14015" end="38165" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001036818.1" />
-              <db_xref source="UniProtKB" accession="Q5VU72" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000368530">
-            <coordinates coord_system="LRG_681" start="4923" end="29669" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-001 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS41403.1" />
-            <db_xref source="RefSeq" accession="NM_152263.2" />
-            <exon source="Ensembl" accession="ENSE00002056708">
-              <coordinates coord_system="LRG_681" start="4923" end="5232" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000960798">
-              <coordinates coord_system="LRG_681" start="5823" end="5948" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001770711">
-              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001666218">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000960792">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001701463">
-              <coordinates coord_system="LRG_681" start="25646" end="25721" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676704">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001741584">
-              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001640091">
-              <coordinates coord_system="LRG_681" start="27751" end="27829" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002019162">
-              <coordinates coord_system="LRG_681" start="29194" end="29669" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000357516">
-              <coordinates coord_system="LRG_681" start="5116" end="29197" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
-              <db_xref source="RefSeq" accession="NP_689476.2" />
-              <db_xref source="UniProtKB" accession="Q5VU62" />
-              <db_xref source="UniProtKB" accession="D6RGJ6" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000504663">
-            <coordinates coord_system="LRG_681" start="26434" end="27482" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-025 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00002054958">
-              <coordinates coord_system="LRG_681" start="26434" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002083576">
-              <coordinates coord_system="LRG_681" start="26665" end="27482" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000509601">
-            <coordinates coord_system="LRG_681" start="13926" end="26726" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-020 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00001958966">
-              <coordinates coord_system="LRG_681" start="13926" end="14146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001770711">
-              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002066445">
-              <coordinates coord_system="LRG_681" start="25043" end="25105" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001942010">
-              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002077919">
-              <coordinates coord_system="LRG_681" start="26665" end="26726" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000422207">
-              <coordinates coord_system="LRG_681" start="14015" end="25064" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
-              <db_xref source="UniProtKB" accession="D6R904" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000505010">
-            <coordinates coord_system="LRG_681" start="20892" end="25252" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-023 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001774775">
-              <coordinates coord_system="LRG_681" start="20892" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002615069">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001850874">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002081486">
-              <coordinates coord_system="LRG_681" start="25030" end="25252" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000368527">
-            <coordinates coord_system="LRG_681" start="13318" end="25067" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-019 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002066940">
-              <coordinates coord_system="LRG_681" start="13318" end="13525" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676493">
-              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002615069">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001850874">
-              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002030817">
-              <coordinates coord_system="LRG_681" start="25030" end="25067" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000473036">
-            <coordinates coord_system="LRG_681" start="13960" end="24462" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-021 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001212192">
-              <coordinates coord_system="LRG_681" start="13960" end="14146" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001676493">
-              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002615069">
-              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002026526">
-              <coordinates coord_system="LRG_681" start="24156" end="24462" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000466010">
-            <coordinates coord_system="LRG_681" start="5186" end="9874" strand="1" mapped_from="GRCh37" />
-            <long_name>TPM3-013 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001934875">
-              <coordinates coord_system="LRG_681" start="5186" end="5232" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001947738">
-              <coordinates coord_system="LRG_681" start="5401" end="5505" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001904300">
-              <coordinates coord_system="LRG_681" start="5823" end="5948" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001889912">
-              <coordinates coord_system="LRG_681" start="9692" end="9874" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000515609">
             <coordinates coord_system="LRG_681" start="2486" end="5931" strand="1" mapped_from="GRCh37" />
             <long_name>TPM3-018 (protein_coding)</long_name>
@@ -1497,15 +861,614 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000426306">
               <coordinates coord_system="LRG_681" start="5116" end="5931" strand="1" mapped_from="GRCh37" />
-              <long_name>tropomyosin 3</long_name>
               <db_xref source="UniProtKB" accession="D6RGJ6" />
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000368530">
+            <coordinates coord_system="LRG_681" start="4923" end="29669" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens tropomyosin 3 (TPM3), transcript variant 1, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS41403.1" />
+            <db_xref source="RefSeq" accession="NM_152263.2" />
+            <exon source="Ensembl" accession="ENSE00002056708">
+              <coordinates coord_system="LRG_681" start="4923" end="5232" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003216004">
+              <coordinates coord_system="LRG_681" start="5823" end="5948" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003162500">
+              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002976981">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002998904">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001701463">
+              <coordinates coord_system="LRG_681" start="25646" end="25721" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001718">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003136722">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001640091">
+              <coordinates coord_system="LRG_681" start="27751" end="27829" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002019162">
+              <coordinates coord_system="LRG_681" start="29194" end="29669" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000357516">
+              <coordinates coord_system="LRG_681" start="5116" end="29197" strand="1" mapped_from="GRCh37" />
+              <long_name>tropomyosin alpha-3 chain isoform 1 </long_name>
+              <db_xref source="RefSeq" accession="NP_689476.2" />
+              <db_xref source="UniProtKB" accession="Q5VU62" />
+              <db_xref source="UniProtKB" accession="D6RGJ6" />
+              <db_xref source="UniProtKB" accession="P06753">
+                <synonym>D3DV71</synonym>
+                <synonym>P12324</synonym>
+                <synonym>Q2QD06</synonym>
+                <synonym>Q5VU71</synonym>
+                <synonym>Q969Q2</synonym>
+                <synonym>Q9NQH8</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000271850">
+            <coordinates coord_system="LRG_681" start="5076" end="39816" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-015 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002024480">
+              <coordinates coord_system="LRG_681" start="5076" end="5232" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003216004">
+              <coordinates coord_system="LRG_681" start="5823" end="5948" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003162500">
+              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002976981">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002998904">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003050102">
+              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001718">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003136722">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001826961">
+              <coordinates coord_system="LRG_681" start="39413" end="39816" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000271850">
+              <coordinates coord_system="LRG_681" start="5116" end="39495" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q6LDX7" />
+              <db_xref source="UniProtKB" accession="Q8NI98" />
+              <db_xref source="UniProtKB" accession="D6RGJ6" />
+              <db_xref source="UniProtKB" accession="J3KN67" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000466010">
+            <coordinates coord_system="LRG_681" start="5186" end="9874" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-013 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001934875">
+              <coordinates coord_system="LRG_681" start="5186" end="5232" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001947738">
+              <coordinates coord_system="LRG_681" start="5401" end="5505" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003083037">
+              <coordinates coord_system="LRG_681" start="5823" end="5948" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001889912">
+              <coordinates coord_system="LRG_681" start="9692" end="9874" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000368527">
+            <coordinates coord_system="LRG_681" start="13318" end="25067" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-019 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002066940">
+              <coordinates coord_system="LRG_681" start="13318" end="13525" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003126477">
+              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001168">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003040990">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002030817">
+              <coordinates coord_system="LRG_681" start="25030" end="25067" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000509409">
+            <coordinates coord_system="LRG_681" start="13907" end="40022" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-016 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884924">
+              <coordinates coord_system="LRG_681" start="13907" end="14146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003213847">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003040990">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003147309">
+              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003123854">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003126949">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001901453">
+              <coordinates coord_system="LRG_681" start="39413" end="40022" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000426521">
+              <coordinates coord_system="LRG_681" start="14015" end="23950" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="D6RFM2" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000341485">
+            <coordinates coord_system="LRG_681" start="13926" end="40770" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-003 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001958966">
+              <coordinates coord_system="LRG_681" start="13926" end="14146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001385051">
+              <coordinates coord_system="LRG_681" start="20886" end="21012" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001368049">
+              <coordinates coord_system="LRG_681" start="23974" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002998904">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003050102">
+              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001718">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003136722">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001929782">
+              <coordinates coord_system="LRG_681" start="39413" end="40770" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000341653">
+              <coordinates coord_system="LRG_681" start="14015" end="39495" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q5VU59" />
+              <db_xref source="UniProtKB" accession="Q6LDX7" />
+              <db_xref source="UniProtKB" accession="Q8NI98" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000509601">
+            <coordinates coord_system="LRG_681" start="13926" end="26726" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-020 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001958966">
+              <coordinates coord_system="LRG_681" start="13926" end="14146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003162500">
+              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002066445">
+              <coordinates coord_system="LRG_681" start="25043" end="25105" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003123854">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002077919">
+              <coordinates coord_system="LRG_681" start="26665" end="26726" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000422207">
+              <coordinates coord_system="LRG_681" start="14015" end="25064" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="D6R904" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000330188">
+            <coordinates coord_system="LRG_681" start="13929" end="40770" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens tropomyosin 3 (TPM3), transcript variant 4, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS41400.1" />
+            <db_xref source="RefSeq" accession="NM_001043351.1" />
+            <exon source="Ensembl" accession="ENSE00001839736">
+              <coordinates coord_system="LRG_681" start="13929" end="14146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003162500">
+              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002976981">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002998904">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001701463">
+              <coordinates coord_system="LRG_681" start="25646" end="25721" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001718">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003136722">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001929782">
+              <coordinates coord_system="LRG_681" start="39413" end="40770" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000339035">
+              <coordinates coord_system="LRG_681" start="14015" end="39495" strand="1" mapped_from="GRCh37" />
+              <long_name>tropomyosin alpha-3 chain isoform 4 </long_name>
+              <db_xref source="RefSeq" accession="NP_001036816.1" />
+              <db_xref source="UniProtKB" accession="Q5VU63" />
+              <db_xref source="UniProtKB" accession="Q5VU66" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000341372">
+            <coordinates coord_system="LRG_681" start="13953" end="40768" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-005 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001447359">
+              <coordinates coord_system="LRG_681" start="13953" end="14146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001447358">
+              <coordinates coord_system="LRG_681" start="20958" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002976981">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002998904">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003050102">
+              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001718">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003136722">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001212207">
+              <coordinates coord_system="LRG_681" start="39413" end="40768" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000339378">
+              <coordinates coord_system="LRG_681" start="14015" end="39495" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="B4DWT5" />
+              <db_xref source="UniProtKB" accession="Q5VU61" />
+              <db_xref source="UniProtKB" accession="Q6LDX7" />
+              <db_xref source="UniProtKB" accession="Q8NI98" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000473036">
+            <coordinates coord_system="LRG_681" start="13960" end="24462" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-021 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001212192">
+              <coordinates coord_system="LRG_681" start="13960" end="14146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003126477">
+              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001168">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002026526">
+              <coordinates coord_system="LRG_681" start="24156" end="24462" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000368533">
+            <coordinates coord_system="LRG_681" start="13962" end="41826" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens tropomyosin 3 (TPM3), transcript variant 2, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS1060.1" />
+            <db_xref source="RefSeq" accession="NM_153649.3" />
+            <exon source="Ensembl" accession="ENSE00001818672">
+              <coordinates coord_system="LRG_681" start="13962" end="14146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003162500">
+              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002976981">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002998904">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003050102">
+              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001718">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003136722">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001368093">
+              <coordinates coord_system="LRG_681" start="39413" end="41826" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000357521">
+              <coordinates coord_system="LRG_681" start="14015" end="39495" strand="1" mapped_from="GRCh37" />
+              <long_name>tropomyosin alpha-3 chain isoform 2 </long_name>
+              <db_xref source="RefSeq" accession="NP_705935.1" />
+              <db_xref source="UniProtKB" accession="Q6LDX7" />
+              <db_xref source="UniProtKB" accession="Q8NI98" />
+              <db_xref source="UniProtKB" accession="P06753">
+                <synonym>D3DV71</synonym>
+                <synonym>P12324</synonym>
+                <synonym>Q2QD06</synonym>
+                <synonym>Q5VU71</synonym>
+                <synonym>Q969Q2</synonym>
+                <synonym>Q9NQH8</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000323144">
+            <coordinates coord_system="LRG_681" start="13970" end="38464" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens tropomyosin 3 (TPM3), transcript variant 5, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS41401.1" />
+            <db_xref source="RefSeq" accession="NM_001043353.1" />
+            <exon source="Ensembl" accession="ENSE00001921199">
+              <coordinates coord_system="LRG_681" start="13970" end="14146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003162500">
+              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002976981">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002998904">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001701463">
+              <coordinates coord_system="LRG_681" start="25646" end="25721" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001718">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003136722">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001690123">
+              <coordinates coord_system="LRG_681" start="38086" end="38464" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000357518">
+              <coordinates coord_system="LRG_681" start="14015" end="38165" strand="1" mapped_from="GRCh37" />
+              <long_name>tropomyosin alpha-3 chain isoform 5 </long_name>
+              <db_xref source="RefSeq" accession="NP_001036818.1" />
+              <db_xref source="UniProtKB" accession="Q5VU72" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000469717">
+            <coordinates coord_system="LRG_681" start="13987" end="40775" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-008 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001841297">
+              <coordinates coord_system="LRG_681" start="13987" end="14146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001168">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001868646">
+              <coordinates coord_system="LRG_681" start="24156" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003126949">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001852702">
+              <coordinates coord_system="LRG_681" start="39413" end="40775" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000368531">
+            <coordinates coord_system="LRG_681" start="14004" end="38525" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens tropomyosin 3 (TPM3), transcript variant 3, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS41402.1" />
+            <db_xref source="RefSeq" accession="NM_001043352.1" />
+            <exon source="Ensembl" accession="ENSE00001602655">
+              <coordinates coord_system="LRG_681" start="14004" end="14146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003162500">
+              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002976981">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002998904">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003050102">
+              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001718">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003136722">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002024809">
+              <coordinates coord_system="LRG_681" start="38086" end="38525" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000357517">
+              <coordinates coord_system="LRG_681" start="14015" end="38165" strand="1" mapped_from="GRCh37" />
+              <long_name>tropomyosin alpha-3 chain isoform 3 </long_name>
+              <db_xref source="RefSeq" accession="NP_001036817.1" />
+              <db_xref source="UniProtKB" accession="Q6LDX7" />
+              <db_xref source="UniProtKB" accession="P06753">
+                <synonym>D3DV71</synonym>
+                <synonym>P12324</synonym>
+                <synonym>Q2QD06</synonym>
+                <synonym>Q5VU71</synonym>
+                <synonym>Q969Q2</synonym>
+                <synonym>Q9NQH8</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000328159">
+            <coordinates coord_system="LRG_681" start="14015" end="40440" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-006 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001447356">
+              <coordinates coord_system="LRG_681" start="14015" end="14146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003162500">
+              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002976981">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002998904">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003050102">
+              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001718">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003136722">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001640091">
+              <coordinates coord_system="LRG_681" start="27751" end="27829" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001447355">
+              <coordinates coord_system="LRG_681" start="39413" end="40440" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000357520">
+              <coordinates coord_system="LRG_681" start="14015" end="39416" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q5VU58" />
+              <db_xref source="UniProtKB" accession="Q6LDX7" />
+              <db_xref source="UniProtKB" accession="Q8TCG3" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000312970">
+            <coordinates coord_system="LRG_681" start="14056" end="39608" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-022 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002043572">
+              <coordinates coord_system="LRG_681" start="14056" end="14146" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001329864">
+              <coordinates coord_system="LRG_681" start="20955" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001168">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003040990">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003147309">
+              <coordinates coord_system="LRG_681" start="25030" end="25105" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003123854">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003126949">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002040668">
+              <coordinates coord_system="LRG_681" start="39413" end="39608" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000302206">
+            <coordinates coord_system="LRG_681" start="18951" end="39551" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-011 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001447352">
+              <coordinates coord_system="LRG_681" start="18951" end="19020" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003126477">
+              <coordinates coord_system="LRG_681" start="20886" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002993022">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002998904">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001701463">
+              <coordinates coord_system="LRG_681" start="25646" end="25721" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001718">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003136722">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001384954">
+              <coordinates coord_system="LRG_681" start="39413" end="39551" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000307712">
+              <coordinates coord_system="LRG_681" start="23937" end="39495" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q5VU63" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000505010">
+            <coordinates coord_system="LRG_681" start="20892" end="25252" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-023 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001774775">
+              <coordinates coord_system="LRG_681" start="20892" end="21019" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003001168">
+              <coordinates coord_system="LRG_681" start="23933" end="24050" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003040990">
+              <coordinates coord_system="LRG_681" start="24156" end="24226" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002081486">
+              <coordinates coord_system="LRG_681" start="25030" end="25252" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000368545">
+            <coordinates coord_system="LRG_681" start="24457" end="40777" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-014 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001447392">
+              <coordinates coord_system="LRG_681" start="24457" end="25105" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003123854">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003126949">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001849150">
+              <coordinates coord_system="LRG_681" start="39413" end="40777" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000513769">
+            <coordinates coord_system="LRG_681" start="26128" end="39602" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-024 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002034589">
+              <coordinates coord_system="LRG_681" start="26128" end="26343" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003123854">
+              <coordinates coord_system="LRG_681" start="26423" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003126949">
+              <coordinates coord_system="LRG_681" start="26665" end="26734" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002027649">
+              <coordinates coord_system="LRG_681" start="39413" end="39602" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000504663">
+            <coordinates coord_system="LRG_681" start="26434" end="27482" strand="1" mapped_from="GRCh37" />
+            <long_name>TPM3-025 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002054958">
+              <coordinates coord_system="LRG_681" start="26434" end="26485" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002083576">
+              <coordinates coord_system="LRG_681" start="26665" end="27482" strand="1" mapped_from="GRCh37" />
+            </exon>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000215938">
           <coordinates coord_system="LRG_681" start="3391" end="3469" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">MIR190B</symbol>
           <long_name>microRNA 190b (miRNA)</long_name>
+          <db_xref source="GeneID" accession="100126346">
+            <synonym>MIRN190B</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="33656">
             <synonym>hsa-mir-190b</synonym>
             <synonym>MIRN190B</synonym>
@@ -1514,11 +1477,76 @@
           <db_xref source="Ensembl" accession="ENSG00000215938" />
           <transcript source="Ensembl" accession="ENST00000401119">
             <coordinates coord_system="LRG_681" start="3391" end="3469" strand="1" mapped_from="GRCh37" />
-            <long_name>MIR190B-201 (miRNA)</long_name>
+            <long_name>Homo sapiens microRNA 190b (MIR190B), microRNA. (miRNA)</long_name>
             <db_xref source="RefSeq" accession="NR_030600.1" />
             <exon source="Ensembl" accession="ENSE00001546463">
               <coordinates coord_system="LRG_681" start="3391" end="3469" strand="1" mapped_from="GRCh37" />
             </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000264384">
+          <coordinates coord_system="LRG_681" start="30585" end="30887" strand="1" mapped_from="GRCh37" />
+          <symbol source="RFAM">Metazoa_SRP</symbol>
+          <long_name>Metazoan signal recognition particle RNA [Source:RFAM;Acc:RF00017] (misc_RNA)</long_name>
+          <db_xref source="RFAM" accession="RF00017" />
+          <db_xref source="Ensembl" accession="ENSG00000264384" />
+          <transcript source="Ensembl" accession="ENST00000582918">
+            <coordinates coord_system="LRG_681" start="30585" end="30887" strand="1" mapped_from="GRCh37" />
+            <long_name>Metazoa_SRP.648-201 (misc_RNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00002688696">
+              <coordinates coord_system="LRG_681" start="30585" end="30887" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000143552">
+          <coordinates coord_system="LRG_681" start="42018" end="43830" strand="1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <symbol source="HGNC">NUP210L</symbol>
+          <long_name>nucleoporin 210kDa-like (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="91181">
+            <synonym>RP11-144B19.1</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="29915" />
+          <db_xref source="Ensembl" accession="ENSG00000143552" />
+          <transcript source="Ensembl" accession="ENST00000368559">
+            <coordinates coord_system="LRG_681" start="42018" end="43830" strand="1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>Homo sapiens nucleoporin 210kDa-like (NUP210L), transcript variant 1, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS41399.1" />
+            <db_xref source="RefSeq" accession="NM_207308.2" />
+            <exon source="Ensembl" accession="ENSE00002224107">
+              <coordinates coord_system="LRG_681" start="42018" end="42292" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000357547">
+              <coordinates coord_system="LRG_681" start="42090" end="43830" strand="1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+              <long_name>nuclear pore membrane glycoprotein 210-like isoform 1 precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_997191.2" />
+              <db_xref source="UniProtKB" accession="Q5VU65">
+                <synonym>Q5T4L7</synonym>
+                <synonym>Q6ZRN1</synonym>
+                <synonym>Q6ZRT4</synonym>
+                <synonym>Q6ZU81</synonym>
+                <synonym>Q8NDI6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000271854">
+            <coordinates coord_system="LRG_681" start="42018" end="43830" strand="1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>Homo sapiens nucleoporin 210kDa-like (NUP210L), transcript variant 2, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS53370.1" />
+            <db_xref source="RefSeq" accession="NM_001159484.1" />
+            <exon source="Ensembl" accession="ENSE00002224107">
+              <coordinates coord_system="LRG_681" start="42018" end="42292" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000271854">
+              <coordinates coord_system="LRG_681" start="42090" end="43830" strand="1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+              <long_name>nuclear pore membrane glycoprotein 210-like isoform 2 precursor </long_name>
+              <db_xref source="RefSeq" accession="NP_001152956.1" />
+              <db_xref source="UniProtKB" accession="E7EP56" />
+            </protein_product>
           </transcript>
         </gene>
       </features>
@@ -1529,6 +1557,13 @@
         <url>http://www.dmd.nl/nmdb2/home.php?select_db=TPM3</url>
       </source>
       <modification_date>2012-10-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Leiden Muscular Dystrophy pages - TPM3</name>
+        <url>http://www.dmd.nl/nmdb2/home.php?select_db=TPM3</url>
+      </source>
+      <modification_date>2013-02-20</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

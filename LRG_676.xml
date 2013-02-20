@@ -9,24 +9,9 @@
     <source>
       <name></name>
       <contact>
-        <name>Isabelle Richard</name>
-        <address>Genethon, France</address>
-        <email>isabelle.richard@genethon.fr</email>
-      </contact>
-      <contact>
-        <name>James Ware</name>
-        <address>Molecular Cardiology, Imperial College, London</address>
-        <email>j.ware@imperial.ac.uk</email>
-      </contact>
-      <contact>
-        <name>Johan den Dunnen</name>
-        <address>Leiden University Medical Center</address>
-        <email>ddunnen@lumc.nl</email>
-      </contact>
-      <contact>
-        <name>Valerie Delague</name>
-        <address>Aix-Marseille University, Marseille, France</address>
-        <email>valerie.delague@univmed.fr</email>
+        <name>Dennis Dooijes</name>
+        <address>UMC Utrecht, Netherlands</address>
+        <email>D.Dooijes@umcutrecht.nl</email>
       </contact>
     </source>
     <source>
@@ -116,7 +101,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2012-10-01</modification_date>
+      <modification_date>2013-02-20</modification_date>
       <mapping coord_system="GRCh37.p9" other_name="5" other_id="NC_000005.9" other_start="70215768" other_end="70250839">
         <mapping_span lrg_start="1" lrg_end="35072" other_start="70215768" other_end="70250839" strand="1" />
       </mapping>
@@ -310,8 +295,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 66</comment>
-      <modification_date>2012-10-01</modification_date>
+      <comment>Annotation is based on Ensembl release 70</comment>
+      <modification_date>2013-02-20</modification_date>
       <mapping coord_system="ENST00000351205.4" other_name="ENST00000351205.4" other_id="ENST00000351205.4" other_start="1" other_end="1531">
         <mapping_span lrg_start="5001" lrg_end="5244" other_start="1" other_end="244" strand="1" />
         <mapping_span lrg_start="18899" lrg_end="18970" other_start="245" other_end="316" strand="1" />
@@ -401,8 +386,28 @@
           <coordinates coord_system="LRG_676" start="5001" end="34002" strand="1" mapped_from="GRCh37" />
           <symbol source="HGNC">SMN1</symbol>
           <long_name>survival of motor neuron 1, telomeric (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="6606">
+            <synonym>BCD541</synonym>
+            <synonym>GEMIN1</synonym>
+            <synonym>SMA</synonym>
+            <synonym>SMA1</synonym>
+            <synonym>SMA2</synonym>
+            <synonym>SMA3</synonym>
+            <synonym>SMA4</synonym>
+            <synonym>SMA@</synonym>
+            <synonym>SMN</synonym>
+            <synonym>SMNT</synonym>
+            <synonym>T-BCD541</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="6607">
+            <synonym>BCD541</synonym>
+            <synonym>C-BCD541</synonym>
+            <synonym>GEMIN1</synonym>
+            <synonym>SMNC</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="11117">
             <synonym>BCD541</synonym>
+            <synonym>GEMIN1</synonym>
             <synonym>SMA</synonym>
             <synonym>SMA1</synonym>
             <synonym>SMA2</synonym>
@@ -410,15 +415,57 @@
             <synonym>SMA@</synonym>
             <synonym>SMNT</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="601627" />
           <db_xref source="MIM" accession="600354" />
+          <db_xref source="MIM" accession="601627" />
           <db_xref source="Ensembl" accession="ENSG00000172062" />
+          <transcript source="Ensembl" accession="ENST00000351205">
+            <coordinates coord_system="LRG_676" start="5001" end="33074" strand="1" mapped_from="GRCh37" />
+            <long_name>Homo sapiens survival of motor neuron 1, telomeric (SMN1), transcript variant b, mRNA. (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS34182.1" />
+            <db_xref source="RefSeq" accession="NM_022874.2" />
+            <exon source="Ensembl" accession="ENSE00001695536">
+              <coordinates coord_system="LRG_676" start="5001" end="5244" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001688516">
+              <coordinates coord_system="LRG_676" start="18899" end="18970" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001638255">
+              <coordinates coord_system="LRG_676" start="21449" end="21568" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001766361">
+              <coordinates coord_system="LRG_676" start="22418" end="22618" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003160265">
+              <coordinates coord_system="LRG_676" start="22778" end="22930" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001593733">
+              <coordinates coord_system="LRG_676" start="26126" end="26236" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003074985">
+              <coordinates coord_system="LRG_676" start="32001" end="32054" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001731510">
+              <coordinates coord_system="LRG_676" start="32499" end="33074" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000305857">
+              <coordinates coord_system="LRG_676" start="5164" end="32051" strand="1" mapped_from="GRCh37" />
+              <long_name>survival motor neuron protein isoform b , survival motor neuron protein isoform c </long_name>
+              <db_xref source="RefSeq" accession="NP_075012.1" />
+              <db_xref source="RefSeq" accession="NP_075015.1" />
+              <db_xref source="UniProtKB" accession="I3QJX9" />
+              <db_xref source="UniProtKB" accession="Q9UNT8" />
+              <db_xref source="UniProtKB" accession="Q16637">
+                <synonym>A8K0V4</synonym>
+                <synonym>Q13119</synonym>
+                <synonym>Q549U5</synonym>
+                <synonym>Q96J51</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000503079">
             <coordinates coord_system="LRG_676" start="5090" end="32407" strand="1" mapped_from="GRCh37" />
             <long_name>SMN1-008 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS34182.1" />
-            <db_xref source="RefSeq" accession="NM_022874.2" />
-            <db_xref source="RefSeq" accession="NM_022877.2" />
             <exon source="Ensembl" accession="ENSE00001922009">
               <coordinates coord_system="LRG_676" start="5090" end="5244" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -431,7 +478,7 @@
             <exon source="Ensembl" accession="ENSE00001766361">
               <coordinates coord_system="LRG_676" start="22418" end="22618" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001642273">
+            <exon source="Ensembl" accession="ENSE00003160265">
               <coordinates coord_system="LRG_676" start="22778" end="22930" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001593733">
@@ -442,16 +489,21 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000428128">
               <coordinates coord_system="LRG_676" start="5164" end="32051" strand="1" mapped_from="GRCh37" />
-              <long_name>survival of motor neuron 1, telomeric</long_name>
-              <db_xref source="RefSeq" accession="NP_075014.1" />
+              <long_name>survival motor neuron protein isoform c </long_name>
               <db_xref source="RefSeq" accession="NP_075015.1" />
-              <db_xref source="RefSeq" accession="NP_075012.1" />
+              <db_xref source="UniProtKB" accession="I3QJX9" />
               <db_xref source="UniProtKB" accession="Q9UNT8" />
+              <db_xref source="UniProtKB" accession="Q16637">
+                <synonym>A8K0V4</synonym>
+                <synonym>Q13119</synonym>
+                <synonym>Q549U5</synonym>
+                <synonym>Q96J51</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000380707">
             <coordinates coord_system="LRG_676" start="5090" end="33072" strand="1" mapped_from="GRCh37" />
-            <long_name>SMN1-001 (protein_coding)</long_name>
+            <long_name>Homo sapiens survival of motor neuron 1, telomeric (SMN1), transcript variant d, mRNA. (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS34181.1" />
             <db_xref source="RefSeq" accession="NM_000344.3" />
             <exon source="Ensembl" accession="ENSE00001922009">
@@ -466,16 +518,16 @@
             <exon source="Ensembl" accession="ENSE00001766361">
               <coordinates coord_system="LRG_676" start="22418" end="22618" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001642273">
+            <exon source="Ensembl" accession="ENSE00003160265">
               <coordinates coord_system="LRG_676" start="22778" end="22930" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001755995">
+            <exon source="Ensembl" accession="ENSE00003182023">
               <coordinates coord_system="LRG_676" start="24718" end="24813" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001593733">
               <coordinates coord_system="LRG_676" start="26126" end="26236" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001684822">
+            <exon source="Ensembl" accession="ENSE00003074985">
               <coordinates coord_system="LRG_676" start="32001" end="32054" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001885073">
@@ -483,8 +535,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000370083">
               <coordinates coord_system="LRG_676" start="5164" end="32051" strand="1" mapped_from="GRCh37" />
-              <long_name>survival of motor neuron 1, telomeric</long_name>
-              <db_xref source="RefSeq" accession="NP_059107.1" />
+              <long_name>survival motor neuron protein isoform d </long_name>
               <db_xref source="RefSeq" accession="NP_000335.1" />
               <db_xref source="UniProtKB" accession="Q9UNT8" />
               <db_xref source="UniProtKB" accession="Q16637">
@@ -507,10 +558,10 @@
             <exon source="Ensembl" accession="ENSE00001638255">
               <coordinates coord_system="LRG_676" start="21449" end="21568" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001642273">
+            <exon source="Ensembl" accession="ENSE00003160265">
               <coordinates coord_system="LRG_676" start="22778" end="22930" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001755995">
+            <exon source="Ensembl" accession="ENSE00003182023">
               <coordinates coord_system="LRG_676" start="24718" end="24813" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001593733">
@@ -521,8 +572,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000423298">
               <coordinates coord_system="LRG_676" start="5164" end="32051" strand="1" mapped_from="GRCh37" />
-              <long_name>survival of motor neuron 1, telomeric</long_name>
               <db_xref source="UniProtKB" accession="B4DP61" />
+              <db_xref source="UniProtKB" accession="I2E4S7" />
               <db_xref source="UniProtKB" accession="Q9UNT8" />
             </protein_product>
           </transcript>
@@ -541,10 +592,10 @@
             <exon source="Ensembl" accession="ENSE00001766361">
               <coordinates coord_system="LRG_676" start="22418" end="22618" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001642273">
+            <exon source="Ensembl" accession="ENSE00003160265">
               <coordinates coord_system="LRG_676" start="22778" end="22930" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001755995">
+            <exon source="Ensembl" accession="ENSE00003182023">
               <coordinates coord_system="LRG_676" start="24718" end="24813" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001593733">
@@ -558,7 +609,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000422679">
               <coordinates coord_system="LRG_676" start="5164" end="26817" strand="1" mapped_from="GRCh37" />
-              <long_name>survival of motor neuron 1, telomeric</long_name>
               <db_xref source="UniProtKB" accession="E7EQZ4" />
               <db_xref source="UniProtKB" accession="Q9UNT8" />
             </protein_product>
@@ -578,10 +628,10 @@
             <exon source="Ensembl" accession="ENSE00001766361">
               <coordinates coord_system="LRG_676" start="22418" end="22618" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001642273">
+            <exon source="Ensembl" accession="ENSE00003160265">
               <coordinates coord_system="LRG_676" start="22778" end="22930" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001755995">
+            <exon source="Ensembl" accession="ENSE00003182023">
               <coordinates coord_system="LRG_676" start="24718" end="24813" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001593733">
@@ -592,9 +642,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000424926">
               <coordinates coord_system="LRG_676" start="5164" end="32513" strand="1" mapped_from="GRCh37" />
-              <long_name>survival of motor neuron 1, telomeric</long_name>
-              <db_xref source="RefSeq" accession="NP_075013.1" />
               <db_xref source="UniProtKB" accession="Q9UNT8" />
+              <db_xref source="UniProtKB" accession="Q16637">
+                <synonym>A8K0V4</synonym>
+                <synonym>Q13119</synonym>
+                <synonym>Q549U5</synonym>
+                <synonym>Q96J51</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000518504">
@@ -603,7 +657,7 @@
             <exon source="Ensembl" accession="ENSE00002115234">
               <coordinates coord_system="LRG_676" start="22532" end="22618" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002040569">
+            <exon source="Ensembl" accession="ENSE00002997945">
               <coordinates coord_system="LRG_676" start="22778" end="22930" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002067240">
@@ -616,13 +670,13 @@
             <exon source="Ensembl" accession="ENSE00002065935">
               <coordinates coord_system="LRG_676" start="22568" end="22618" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001642273">
+            <exon source="Ensembl" accession="ENSE00003160265">
               <coordinates coord_system="LRG_676" start="22778" end="22930" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002019326">
               <coordinates coord_system="LRG_676" start="24509" end="24625" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002057390">
+            <exon source="Ensembl" accession="ENSE00003115902">
               <coordinates coord_system="LRG_676" start="24718" end="24813" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002110817">
@@ -630,7 +684,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000430657">
               <coordinates coord_system="LRG_676" start="22568" end="24544" strand="1" mapped_from="GRCh37" />
-              <long_name>survival of motor neuron 1, telomeric</long_name>
+              <db_xref source="UniProtKB" accession="H0YBZ9" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000513228">
@@ -639,10 +693,10 @@
             <exon source="Ensembl" accession="ENSE00002053468">
               <coordinates coord_system="LRG_676" start="22578" end="22618" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002040569">
+            <exon source="Ensembl" accession="ENSE00002997945">
               <coordinates coord_system="LRG_676" start="22778" end="22930" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002057390">
+            <exon source="Ensembl" accession="ENSE00003115902">
               <coordinates coord_system="LRG_676" start="24718" end="24813" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002065580">
@@ -655,7 +709,7 @@
             <exon source="Ensembl" accession="ENSE00002063740">
               <coordinates coord_system="LRG_676" start="26149" end="26236" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002032776">
+            <exon source="Ensembl" accession="ENSE00003183101">
               <coordinates coord_system="LRG_676" start="32001" end="32054" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002068209">
@@ -664,45 +718,6 @@
             <exon source="Ensembl" accession="ENSE00002084907">
               <coordinates coord_system="LRG_676" start="33242" end="34002" strand="1" mapped_from="GRCh37" />
             </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000351205">
-            <coordinates coord_system="LRG_676" start="5001" end="33074" strand="1" mapped_from="GRCh37" />
-            <long_name>SMN1-201 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS34182.1" />
-            <db_xref source="RefSeq" accession="NM_022874.2" />
-            <db_xref source="RefSeq" accession="NM_022877.2" />
-            <exon source="Ensembl" accession="ENSE00001695536">
-              <coordinates coord_system="LRG_676" start="5001" end="5244" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001688516">
-              <coordinates coord_system="LRG_676" start="18899" end="18970" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001638255">
-              <coordinates coord_system="LRG_676" start="21449" end="21568" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001766361">
-              <coordinates coord_system="LRG_676" start="22418" end="22618" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001642273">
-              <coordinates coord_system="LRG_676" start="22778" end="22930" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001593733">
-              <coordinates coord_system="LRG_676" start="26126" end="26236" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001684822">
-              <coordinates coord_system="LRG_676" start="32001" end="32054" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001731510">
-              <coordinates coord_system="LRG_676" start="32499" end="33074" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000305857">
-              <coordinates coord_system="LRG_676" start="5164" end="32051" strand="1" mapped_from="GRCh37" />
-              <long_name>survival of motor neuron 1, telomeric</long_name>
-              <db_xref source="RefSeq" accession="NP_075014.1" />
-              <db_xref source="RefSeq" accession="NP_075015.1" />
-              <db_xref source="RefSeq" accession="NP_075012.1" />
-              <db_xref source="UniProtKB" accession="Q9UNT8" />
-            </protein_product>
           </transcript>
         </gene>
       </features>
@@ -713,6 +728,34 @@
         <url>http://www.dmd.nl/nmdb2/home.php?select_db=SMN1</url>
       </source>
       <modification_date>2012-10-01</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Leiden Muscular Dystrophy pages - SMN1</name>
+        <url>http://www.dmd.nl/nmdb2/home.php?select_db=SMN1</url>
+      </source>
+      <modification_date>2013-02-20</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Amyotrophic Lateral Sclerosis_NDDMD - SMN1</name>
+        <url>http://sysbio.org.cn/home.php?select_db=SMN1</url>
+      </source>
+      <modification_date>2013-02-20</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>LOVD 3.0 shared installation - SMN1</name>
+        <url>http://databases.lovd.nl/shared/genes/SMN1</url>
+      </source>
+      <modification_date>2013-02-20</modification_date>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>ALS Mutation Database - SMN1</name>
+        <url>http://reseq.lifesciencedb.jp/resequence/GeneDetail.do?targetId=1&amp;geneId=EG6606</url>
+      </source>
+      <modification_date>2013-02-20</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
