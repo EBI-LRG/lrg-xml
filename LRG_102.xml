@@ -16,7 +16,7 @@
       </contact>
       <contact>
         <name>Mauno Vihinen</name>
-        <address>Univ. of Tampere, Tampere, Finland</address>
+        <address>University of Tampere, Finland</address>
         <email>Mauno.Vihinen@med.lu.se</email>
       </contact>
     </source>
@@ -111,7 +111,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-03-26</modification_date>
+      <modification_date>2013-04-23</modification_date>
       <mapping coord_system="GRCh37.p10" other_name="19" other_id="NC_000019.9" other_start="19298008" other_end="19314678">
         <mapping_span lrg_start="1" lrg_end="16671" other_start="19298008" other_end="19314678" strand="1" />
       </mapping>
@@ -357,8 +357,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 70</comment>
-      <modification_date>2013-03-26</modification_date>
+      <comment>Annotation is based on Ensembl release 71</comment>
+      <modification_date>2013-04-23</modification_date>
       <mapping coord_system="ENST00000303088.3" other_name="ENST00000303088.3" other_id="ENST00000303088.3" other_start="1" other_end="1391">
         <mapping_span lrg_start="5045" lrg_end="5356" other_start="1" other_end="312" strand="1" />
         <mapping_span lrg_start="5762" lrg_end="5902" other_start="313" other_end="453" strand="1" />
@@ -493,41 +493,120 @@
         <mapping_span lrg_start="10323" lrg_end="10423" other_start="765" other_end="865" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000213999">
+        <gene source="Ensembl" accession="ENSG00000064489">
           <coordinates coord_system="LRG_102" start="1" end="5393" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">MEF2B</symbol>
-          <long_name>myocyte enhancer factor 2B (protein_coding)</long_name>
+          <symbol source="HGNC">MEF2BNB-MEF2B</symbol>
+          <long_name>MEF2BNB-MEF2B readthrough (protein_coding)</long_name>
           <db_xref source="GeneID" accession="4207">
             <synonym>LOC729991-MEF2B</synonym>
             <synonym>MEF2B</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="729991" />
           <db_xref source="GeneID" accession="100271849">
             <synonym>RSRFR2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6995">
-            <synonym>RSRFR2</synonym>
-          </db_xref>
+          <db_xref source="HGNC" accession="39979" />
           <db_xref source="MIM" accession="600661" />
-          <db_xref source="Ensembl" accession="ENSG00000213999" />
+          <db_xref source="Ensembl" accession="ENSG00000064489" />
           <transcript source="Ensembl" accession="ENST00000444486">
-            <coordinates coord_system="LRG_102" start="1" end="5393" strand="-1" mapped_from="GRCh37" />
+            <coordinates coord_system="LRG_102" start="1" end="4933" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>Homo sapiens MEF2BNB-MEF2B readthrough (MEF2BNB-MEF2B), transcript variant 1, mRNA. (protein_coding)</long_name>
+            <long_name>MEF2BNB-MEF2B-004 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS12394.1" />
             <db_xref source="RefSeq" accession="NM_005919.3" />
-            <exon source="Ensembl" accession="ENSE00003184189">
-              <coordinates coord_system="LRG_102" start="4883" end="5393" strand="-1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00002316447">
+              <coordinates coord_system="LRG_102" start="4883" end="4933" strand="-1" mapped_from="GRCh37" />
             </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000354191">
+            <coordinates coord_system="LRG_102" start="1" end="4960" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>MEF2BNB-MEF2B-002 (nonsense_mediated_decay)</long_name>
+            <db_xref source="CCDS" accession="CCDS46025.1" />
+            <exon source="Ensembl" accession="ENSE00003254113">
+              <coordinates coord_system="LRG_102" start="4883" end="4960" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000457957">
+              <coordinates coord_system="LRG_102" start="1" end="4919" strand="-1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000602804">
+            <coordinates coord_system="LRG_102" start="1" end="4960" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>MEF2BNB-MEF2B-003 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003254113">
+              <coordinates coord_system="LRG_102" start="4883" end="4960" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000473577">
+              <coordinates coord_system="LRG_102" start="1" end="4919" strand="-1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000514819">
+            <coordinates coord_system="LRG_102" start="1" end="4940" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>MEF2BNB-MEF2B-001 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003323928">
+              <coordinates coord_system="LRG_102" start="4883" end="4940" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000602438">
+            <coordinates coord_system="LRG_102" start="1" end="4949" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>MEF2BNB-MEF2B-006 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003328564">
+              <coordinates coord_system="LRG_102" start="4883" end="4949" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000602649">
+            <coordinates coord_system="LRG_102" start="1" end="4955" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>MEF2BNB-MEF2B-005 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003319891">
+              <coordinates coord_system="LRG_102" start="4883" end="4955" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000473523">
+              <coordinates coord_system="LRG_102" start="1" end="4919" strand="-1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000602689">
+            <coordinates coord_system="LRG_102" start="1" end="4924" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>MEF2BNB-MEF2B-007 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003402535">
+              <coordinates coord_system="LRG_102" start="4883" end="4924" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000473369">
+              <coordinates coord_system="LRG_102" start="1" end="4919" strand="-1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000162023">
             <coordinates coord_system="LRG_102" start="1" end="4960" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>MEF2B-201 (protein_coding)</long_name>
+            <long_name>MEF2BNB-MEF2B-201 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS46024.1" />
-            <exon source="Ensembl" accession="ENSE00002287660">
+            <exon source="Ensembl" accession="ENSE00003423034">
               <coordinates coord_system="LRG_102" start="4883" end="4960" strand="-1" mapped_from="GRCh37" />
             </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000602643">
+            <coordinates coord_system="LRG_102" start="1" end="5393" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>MEF2BNB-MEF2B-203 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001145784.1" />
+            <exon source="Ensembl" accession="ENSE00003286786">
+              <coordinates coord_system="LRG_102" start="4883" end="5393" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000473295">
+              <coordinates coord_system="LRG_102" start="1" end="4919" strand="-1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+              <long_name>protein MEF2BNB isoform 1 </long_name>
+              <db_xref source="RefSeq" accession="NP_001139256.1" />
+            </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000254901">
@@ -562,17 +641,14 @@
           <transcript source="Ensembl" accession="ENST00000462790">
             <coordinates coord_system="LRG_102" start="1" end="5418" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>Homo sapiens MEF2B neighbor (MEF2BNB), transcript variant 1, mRNA. (protein_coding)</long_name>
+            <long_name>MEF2BNB-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS46025.1" />
-            <db_xref source="RefSeq" accession="NM_001145784.1" />
             <exon source="Ensembl" accession="ENSE00002754820">
               <coordinates coord_system="LRG_102" start="4883" end="5418" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000425864">
               <coordinates coord_system="LRG_102" start="1" end="4919" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>protein MEF2BNB isoform 1 </long_name>
-              <db_xref source="RefSeq" accession="NP_001139256.1" />
               <db_xref source="UniProtKB" accession="Q96FH0">
                 <synonym>B2RXF9</synonym>
                 <synonym>Q9BT01</synonym>
@@ -590,7 +666,7 @@
           <transcript source="Ensembl" accession="ENST00000477565">
             <coordinates coord_system="LRG_102" start="1" end="5391" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>Homo sapiens MEF2B neighbor (MEF2BNB), transcript variant 2, mRNA. (protein_coding)</long_name>
+            <long_name>MEF2BNB-007 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS54235.1" />
             <db_xref source="RefSeq" accession="NM_001145783.1" />
             <exon source="Ensembl" accession="ENSE00002929219">
@@ -611,44 +687,9 @@
             <coordinates coord_system="LRG_102" start="1" end="5393" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>MEF2BNB-004 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00003005462">
+            <exon source="Ensembl" accession="ENSE00003333934">
               <coordinates coord_system="LRG_102" start="4883" end="5393" strand="-1" mapped_from="GRCh37" />
             </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000064489">
-          <coordinates coord_system="LRG_102" start="1" end="4930" strand="-1" mapped_from="GRCh37" />
-          <partial>3-prime</partial>
-          <symbol source="HGNC">MEF2BNB-MEF2B</symbol>
-          <long_name>MEF2BNB-MEF2B readthrough (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="729991" />
-          <db_xref source="HGNC" accession="39979" />
-          <db_xref source="Ensembl" accession="ENSG00000064489" />
-          <transcript source="Ensembl" accession="ENST00000354191">
-            <coordinates coord_system="LRG_102" start="1" end="4930" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>MEF2BNB-MEF2B-002 (nonsense_mediated_decay)</long_name>
-            <db_xref source="CCDS" accession="CCDS46025.1" />
-            <exon source="Ensembl" accession="ENSE00002316447">
-              <coordinates coord_system="LRG_102" start="4883" end="4930" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000457957">
-              <coordinates coord_system="LRG_102" start="1" end="4919" strand="-1" mapped_from="GRCh37" />
-              <partial>3-prime</partial>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000514819">
-            <coordinates coord_system="LRG_102" start="1" end="4902" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>MEF2BNB-MEF2B-001 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00001813803">
-              <coordinates coord_system="LRG_102" start="4883" end="4902" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000454967">
-              <coordinates coord_system="LRG_102" start="1" end="4902" strand="-1" mapped_from="GRCh37" />
-              <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="H3BNR1" />
-            </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000064490">
@@ -672,7 +713,7 @@
           <db_xref source="Ensembl" accession="ENSG00000064490" />
           <transcript source="Ensembl" accession="ENST00000353145">
             <coordinates coord_system="LRG_102" start="5001" end="14671" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens regulatory factor X-associated ankyrin-containing protein (RFXANK), transcript variant 2, mRNA. (protein_coding)</long_name>
+            <long_name>RFXANK-201 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS12396.1" />
             <db_xref source="RefSeq" accession="NM_134440.1" />
             <exon source="Ensembl" accession="ENSE00001122219">
@@ -681,25 +722,25 @@
             <exon source="Ensembl" accession="ENSE00001050094">
               <coordinates coord_system="LRG_102" start="5762" end="5902" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003046378">
+            <exon source="Ensembl" accession="ENSE00003309221">
               <coordinates coord_system="LRG_102" start="6741" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003153438">
+            <exon source="Ensembl" accession="ENSE00003243512">
               <coordinates coord_system="LRG_102" start="9768" end="9848" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003135569">
+            <exon source="Ensembl" accession="ENSE00003446135">
               <coordinates coord_system="LRG_102" start="10323" end="10423" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002986474">
+            <exon source="Ensembl" accession="ENSE00003331019">
               <coordinates coord_system="LRG_102" start="10909" end="11034" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001113539">
               <coordinates coord_system="LRG_102" start="11459" end="11525" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003101826">
+            <exon source="Ensembl" accession="ENSE00003309311">
               <coordinates coord_system="LRG_102" start="11956" end="12036" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003019242">
+            <exon source="Ensembl" accession="ENSE00003292853">
               <coordinates coord_system="LRG_102" start="14451" end="14671" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000262804">
@@ -721,7 +762,7 @@
             <exon source="Ensembl" accession="ENSE00001050094">
               <coordinates coord_system="LRG_102" start="5762" end="5902" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003046378">
+            <exon source="Ensembl" accession="ENSE00003309221">
               <coordinates coord_system="LRG_102" start="6741" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002266935">
@@ -729,7 +770,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000393159">
               <coordinates coord_system="LRG_102" start="6749" end="9767" strand="1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="F5H7D2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000456252">
@@ -741,22 +781,22 @@
             <exon source="Ensembl" accession="ENSE00001050094">
               <coordinates coord_system="LRG_102" start="5762" end="5902" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003046378">
+            <exon source="Ensembl" accession="ENSE00003309221">
               <coordinates coord_system="LRG_102" start="6741" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003191775">
+            <exon source="Ensembl" accession="ENSE00003315958">
               <coordinates coord_system="LRG_102" start="9765" end="9848" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003135569">
+            <exon source="Ensembl" accession="ENSE00003446135">
               <coordinates coord_system="LRG_102" start="10323" end="10423" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002986474">
+            <exon source="Ensembl" accession="ENSE00003331019">
               <coordinates coord_system="LRG_102" start="10909" end="11034" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001113539">
               <coordinates coord_system="LRG_102" start="11459" end="11525" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003101826">
+            <exon source="Ensembl" accession="ENSE00003309311">
               <coordinates coord_system="LRG_102" start="11956" end="12036" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001557335">
@@ -764,14 +804,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000409138">
               <coordinates coord_system="LRG_102" start="6749" end="14521" strand="1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="Q24JQ1" />
-              <db_xref source="UniProtKB" accession="F5GY33" />
-              <db_xref source="UniProtKB" accession="F5H7D2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000303088">
             <coordinates coord_system="LRG_102" start="5045" end="14668" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens regulatory factor X-associated ankyrin-containing protein (RFXANK), transcript variant 1, mRNA. (protein_coding)</long_name>
+            <long_name>RFXANK-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS12395.1" />
             <db_xref source="RefSeq" accession="NM_003721.2" />
             <exon source="Ensembl" accession="ENSE00002320646">
@@ -780,25 +817,25 @@
             <exon source="Ensembl" accession="ENSE00001050094">
               <coordinates coord_system="LRG_102" start="5762" end="5902" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003046378">
+            <exon source="Ensembl" accession="ENSE00003309221">
               <coordinates coord_system="LRG_102" start="6741" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003191775">
+            <exon source="Ensembl" accession="ENSE00003315958">
               <coordinates coord_system="LRG_102" start="9765" end="9848" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003166802">
+            <exon source="Ensembl" accession="ENSE00003297659">
               <coordinates coord_system="LRG_102" start="9988" end="10053" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003135569">
+            <exon source="Ensembl" accession="ENSE00003446135">
               <coordinates coord_system="LRG_102" start="10323" end="10423" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002986474">
+            <exon source="Ensembl" accession="ENSE00003331019">
               <coordinates coord_system="LRG_102" start="10909" end="11034" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001113539">
               <coordinates coord_system="LRG_102" start="11459" end="11525" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003101826">
+            <exon source="Ensembl" accession="ENSE00003309311">
               <coordinates coord_system="LRG_102" start="11956" end="12036" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001557335">
@@ -808,7 +845,6 @@
               <coordinates coord_system="LRG_102" start="6749" end="14521" strand="1" mapped_from="GRCh37" />
               <long_name>DNA-binding protein RFXANK isoform a </long_name>
               <db_xref source="RefSeq" accession="NP_003712.1" />
-              <db_xref source="UniProtKB" accession="F5H7D2" />
               <db_xref source="UniProtKB" accession="O14593">
                 <synonym>O95839</synonym>
                 <synonym>Q6FGA8</synonym>
@@ -824,16 +860,16 @@
             <exon source="Ensembl" accession="ENSE00001050094">
               <coordinates coord_system="LRG_102" start="5762" end="5902" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003046378">
+            <exon source="Ensembl" accession="ENSE00003309221">
               <coordinates coord_system="LRG_102" start="6741" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003153438">
+            <exon source="Ensembl" accession="ENSE00003243512">
               <coordinates coord_system="LRG_102" start="9768" end="9848" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003166802">
+            <exon source="Ensembl" accession="ENSE00003297659">
               <coordinates coord_system="LRG_102" start="9988" end="10053" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003116190">
+            <exon source="Ensembl" accession="ENSE00003329783">
               <coordinates coord_system="LRG_102" start="10323" end="10423" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000466913">
@@ -846,25 +882,25 @@
             <exon source="Ensembl" accession="ENSE00002298270">
               <coordinates coord_system="LRG_102" start="5565" end="5902" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003046378">
+            <exon source="Ensembl" accession="ENSE00003309221">
               <coordinates coord_system="LRG_102" start="6741" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003153438">
+            <exon source="Ensembl" accession="ENSE00003243512">
               <coordinates coord_system="LRG_102" start="9768" end="9848" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003166802">
+            <exon source="Ensembl" accession="ENSE00003297659">
               <coordinates coord_system="LRG_102" start="9988" end="10053" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003135569">
+            <exon source="Ensembl" accession="ENSE00003446135">
               <coordinates coord_system="LRG_102" start="10323" end="10423" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002986474">
+            <exon source="Ensembl" accession="ENSE00003331019">
               <coordinates coord_system="LRG_102" start="10909" end="11034" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001113539">
               <coordinates coord_system="LRG_102" start="11459" end="11525" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003101826">
+            <exon source="Ensembl" accession="ENSE00003309311">
               <coordinates coord_system="LRG_102" start="11956" end="12036" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002290211">
@@ -872,7 +908,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000384572">
               <coordinates coord_system="LRG_102" start="6749" end="14521" strand="1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="J3KPZ8" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000543652">
@@ -881,19 +916,19 @@
             <exon source="Ensembl" accession="ENSE00002233069">
               <coordinates coord_system="LRG_102" start="5593" end="5902" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003046378">
+            <exon source="Ensembl" accession="ENSE00003309221">
               <coordinates coord_system="LRG_102" start="6741" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003191775">
+            <exon source="Ensembl" accession="ENSE00003315958">
               <coordinates coord_system="LRG_102" start="9765" end="9848" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003166802">
+            <exon source="Ensembl" accession="ENSE00003297659">
               <coordinates coord_system="LRG_102" start="9988" end="10053" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003135569">
+            <exon source="Ensembl" accession="ENSE00003446135">
               <coordinates coord_system="LRG_102" start="10323" end="10423" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002986474">
+            <exon source="Ensembl" accession="ENSE00003331019">
               <coordinates coord_system="LRG_102" start="10909" end="11034" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002307124">
@@ -901,8 +936,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000439581">
               <coordinates coord_system="LRG_102" start="6749" end="11526" strand="1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="F5H1K6" />
-              <db_xref source="UniProtKB" accession="F5H7D2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000540981">
@@ -911,16 +944,16 @@
             <exon source="Ensembl" accession="ENSE00002263916">
               <coordinates coord_system="LRG_102" start="5643" end="5902" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003046378">
+            <exon source="Ensembl" accession="ENSE00003309221">
               <coordinates coord_system="LRG_102" start="6741" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003191775">
+            <exon source="Ensembl" accession="ENSE00003315958">
               <coordinates coord_system="LRG_102" start="9765" end="9848" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003135569">
+            <exon source="Ensembl" accession="ENSE00003446135">
               <coordinates coord_system="LRG_102" start="10323" end="10423" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002986474">
+            <exon source="Ensembl" accession="ENSE00003331019">
               <coordinates coord_system="LRG_102" start="10909" end="11034" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002272050">
@@ -928,8 +961,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000440325">
               <coordinates coord_system="LRG_102" start="6749" end="11524" strand="1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="F5GY33" />
-              <db_xref source="UniProtKB" accession="F5H7D2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000543157">
@@ -938,7 +969,7 @@
             <exon source="Ensembl" accession="ENSE00002248605">
               <coordinates coord_system="LRG_102" start="5648" end="5902" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003154712">
+            <exon source="Ensembl" accession="ENSE00003352903">
               <coordinates coord_system="LRG_102" start="6741" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002214102">
@@ -952,22 +983,22 @@
             <exon source="Ensembl" accession="ENSE00002236046">
               <coordinates coord_system="LRG_102" start="5713" end="5902" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003046378">
+            <exon source="Ensembl" accession="ENSE00003309221">
               <coordinates coord_system="LRG_102" start="6741" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003153438">
+            <exon source="Ensembl" accession="ENSE00003243512">
               <coordinates coord_system="LRG_102" start="9768" end="9848" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003135569">
+            <exon source="Ensembl" accession="ENSE00003446135">
               <coordinates coord_system="LRG_102" start="10323" end="10423" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002986474">
+            <exon source="Ensembl" accession="ENSE00003331019">
               <coordinates coord_system="LRG_102" start="10909" end="11034" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001113539">
               <coordinates coord_system="LRG_102" start="11459" end="11525" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003101826">
+            <exon source="Ensembl" accession="ENSE00003309311">
               <coordinates coord_system="LRG_102" start="11956" end="12036" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001557335">
@@ -987,19 +1018,19 @@
             <exon source="Ensembl" accession="ENSE00001549470">
               <coordinates coord_system="LRG_102" start="5715" end="5902" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003154712">
+            <exon source="Ensembl" accession="ENSE00003352903">
               <coordinates coord_system="LRG_102" start="6741" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003077539">
+            <exon source="Ensembl" accession="ENSE00003250133">
               <coordinates coord_system="LRG_102" start="9768" end="9848" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003060041">
+            <exon source="Ensembl" accession="ENSE00003320161">
               <coordinates coord_system="LRG_102" start="9988" end="10053" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003003047">
+            <exon source="Ensembl" accession="ENSE00003440949">
               <coordinates coord_system="LRG_102" start="10323" end="10423" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003104781">
+            <exon source="Ensembl" accession="ENSE00003371971">
               <coordinates coord_system="LRG_102" start="10909" end="11034" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002233433">
@@ -1012,10 +1043,10 @@
             <exon source="Ensembl" accession="ENSE00002276962">
               <coordinates coord_system="LRG_102" start="5772" end="5902" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003154712">
+            <exon source="Ensembl" accession="ENSE00003352903">
               <coordinates coord_system="LRG_102" start="6741" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003070227">
+            <exon source="Ensembl" accession="ENSE00003368998">
               <coordinates coord_system="LRG_102" start="9765" end="9848" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002282663">
@@ -1028,13 +1059,13 @@
             <exon source="Ensembl" accession="ENSE00002310711">
               <coordinates coord_system="LRG_102" start="6854" end="6935" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003191775">
+            <exon source="Ensembl" accession="ENSE00003315958">
               <coordinates coord_system="LRG_102" start="9765" end="9848" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003135569">
+            <exon source="Ensembl" accession="ENSE00003446135">
               <coordinates coord_system="LRG_102" start="10323" end="10423" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00002986474">
+            <exon source="Ensembl" accession="ENSE00003331019">
               <coordinates coord_system="LRG_102" start="10909" end="11034" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001113539">
@@ -1048,7 +1079,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000444280">
               <coordinates coord_system="LRG_102" start="6854" end="11997" strand="1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="H0YGQ6" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000543118">
@@ -1067,17 +1097,17 @@
             <exon source="Ensembl" accession="ENSE00002293312">
               <coordinates coord_system="LRG_102" start="11439" end="11525" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003119441">
+            <exon source="Ensembl" accession="ENSE00003249158">
               <coordinates coord_system="LRG_102" start="11956" end="12036" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003029396">
+            <exon source="Ensembl" accession="ENSE00003231404">
               <coordinates coord_system="LRG_102" start="14451" end="14671" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000544923">
             <coordinates coord_system="LRG_102" start="11956" end="14665" strand="1" mapped_from="GRCh37" />
             <long_name>RFXANK-015 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003208793">
+            <exon source="Ensembl" accession="ENSE00003373418">
               <coordinates coord_system="LRG_102" start="11956" end="12036" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002244150">
@@ -1085,13 +1115,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000441042">
               <coordinates coord_system="LRG_102" start="11956" end="14521" strand="1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="H0YFZ0" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000536253">
             <coordinates coord_system="LRG_102" start="11956" end="14668" strand="1" mapped_from="GRCh37" />
             <long_name>RFXANK-014 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003101826">
+            <exon source="Ensembl" accession="ENSE00003309311">
               <coordinates coord_system="LRG_102" start="11956" end="12036" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002269794">
@@ -1123,16 +1152,16 @@
             <exon source="Ensembl" accession="ENSE00002953985">
               <coordinates coord_system="LRG_102" start="15593" end="15644" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003084794">
+            <exon source="Ensembl" accession="ENSE00003362161">
               <coordinates coord_system="LRG_102" start="15272" end="15377" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003185879">
+            <exon source="Ensembl" accession="ENSE00003432756">
               <coordinates coord_system="LRG_102" start="15133" end="15200" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002794019">
               <coordinates coord_system="LRG_102" start="14733" end="14849" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003222546">
+            <exon source="Ensembl" accession="ENSE00003330978">
               <coordinates coord_system="LRG_102" start="14211" end="14365" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000468570" codon_start="3">
@@ -1148,25 +1177,25 @@
             <exon source="Ensembl" accession="ENSE00002904136">
               <coordinates coord_system="LRG_102" start="14733" end="14827" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003187917">
+            <exon source="Ensembl" accession="ENSE00003380271">
               <coordinates coord_system="LRG_102" start="14211" end="14365" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000331552">
             <coordinates coord_system="LRG_102" start="14217" end="16208" strand="-1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens nuclear receptor 2C2-associated protein (NR2C2AP), mRNA. (protein_coding)</long_name>
+            <long_name>NR2C2AP-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS32967.1" />
             <db_xref source="RefSeq" accession="NM_176880.4" />
             <exon source="Ensembl" accession="ENSE00001306819">
               <coordinates coord_system="LRG_102" start="15825" end="16208" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003193718">
+            <exon source="Ensembl" accession="ENSE00003256945">
               <coordinates coord_system="LRG_102" start="15593" end="15683" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003084794">
+            <exon source="Ensembl" accession="ENSE00003362161">
               <coordinates coord_system="LRG_102" start="15272" end="15377" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003185879">
+            <exon source="Ensembl" accession="ENSE00003432756">
               <coordinates coord_system="LRG_102" start="15133" end="15200" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001503973">
@@ -1187,13 +1216,13 @@
             <exon source="Ensembl" accession="ENSE00001604726">
               <coordinates coord_system="LRG_102" start="15825" end="16159" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003193718">
+            <exon source="Ensembl" accession="ENSE00003256945">
               <coordinates coord_system="LRG_102" start="15593" end="15683" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003084794">
+            <exon source="Ensembl" accession="ENSE00003362161">
               <coordinates coord_system="LRG_102" start="15272" end="15377" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003185879">
+            <exon source="Ensembl" accession="ENSE00003432756">
               <coordinates coord_system="LRG_102" start="15133" end="15200" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001704751">
@@ -1204,7 +1233,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000402756">
               <coordinates coord_system="LRG_102" start="14276" end="15862" strand="-1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="B4DW92" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000537399">
@@ -1213,7 +1241,7 @@
             <exon source="Ensembl" accession="ENSE00002284553">
               <coordinates coord_system="LRG_102" start="15825" end="16148" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003193718">
+            <exon source="Ensembl" accession="ENSE00003256945">
               <coordinates coord_system="LRG_102" start="15593" end="15683" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002295244">
@@ -1229,10 +1257,10 @@
             <exon source="Ensembl" accession="ENSE00002266224">
               <coordinates coord_system="LRG_102" start="15825" end="16161" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003193718">
+            <exon source="Ensembl" accession="ENSE00003256945">
               <coordinates coord_system="LRG_102" start="15593" end="15683" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003028035">
+            <exon source="Ensembl" accession="ENSE00003410549">
               <coordinates coord_system="LRG_102" start="15133" end="15200" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002233554">
@@ -1240,7 +1268,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000438092">
               <coordinates coord_system="LRG_102" start="15165" end="15862" strand="-1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="F5H0B6" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000539693">
@@ -1249,10 +1276,10 @@
             <exon source="Ensembl" accession="ENSE00002293444">
               <coordinates coord_system="LRG_102" start="15593" end="16213" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003150144">
+            <exon source="Ensembl" accession="ENSE00003386788">
               <coordinates coord_system="LRG_102" start="15272" end="15377" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003105340">
+            <exon source="Ensembl" accession="ENSE00003450882">
               <coordinates coord_system="LRG_102" start="15133" end="15200" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002237397">
@@ -1265,10 +1292,10 @@
             <exon source="Ensembl" accession="ENSE00002270766">
               <coordinates coord_system="LRG_102" start="15825" end="16177" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003157807">
+            <exon source="Ensembl" accession="ENSE00003257850">
               <coordinates coord_system="LRG_102" start="15593" end="15683" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003150144">
+            <exon source="Ensembl" accession="ENSE00003386788">
               <coordinates coord_system="LRG_102" start="15272" end="15377" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002303222">
@@ -1293,7 +1320,7 @@
         <name>List of locus specific databases for RFXANK</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RFXANK</url>
       </source>
-      <modification_date>2013-03-26</modification_date>
+      <modification_date>2013-04-23</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
