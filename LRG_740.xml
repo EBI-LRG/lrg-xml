@@ -1,4 +1,4 @@
-<lrg schema_version="1.8">
+<lrg schema_version="1.7">
   <fixed_annotation>
     <id>LRG_740</id>
     <sequence_source>NG_008844.1</sequence_source>
@@ -25,43 +25,43 @@
           <sequence>MTERFDCHHCNESLFGKKYILREESPYCVVCFETLFANTCEECGKPIGCDCKDLSYKDRHWHEACFHCSQCRNSLVDKPFAAKEDQLLCTDCYSNEYSSKCQECKKTIMPGTRKMEYKGSSWHETCFICHRCQQPIGTKSFIPKDNQNFCVPCYEKQHAMQCVQCKKPITTGGVTYREQPWHKECFVCTACRKQLSGQRFTARDDFAYCLNCFCDLYAKKCAGCTNPISGLGGTKYISFEERQWHNDCFNCKKCSLSLVGRGFLTERDDILCPDCGKDI</sequence>
         </translation>
       </coding_region>
-      <exon label="1">
+      <exon>
         <coordinates coord_system="LRG_740" end="44932" start="44550" strand="1"></coordinates>
         <coordinates coord_system="LRG_740_t1" end="383" start="1"></coordinates>
       </exon>
-      <exon label="2">
+      <exon>
         <coordinates coord_system="LRG_740" end="47127" start="47077" strand="1"></coordinates>
         <coordinates coord_system="LRG_740_t1" end="434" start="384"></coordinates>
       </exon>
-      <exon label="3">
+      <exon>
         <coordinates coord_system="LRG_740" end="53667" start="53547" strand="1"></coordinates>
         <coordinates coord_system="LRG_740_t1" end="555" start="435"></coordinates>
       </exon>
-      <exon label="4">
+      <exon>
         <coordinates coord_system="LRG_740" end="57413" start="57234" strand="1"></coordinates>
         <coordinates coord_system="LRG_740_t1" end="735" start="556"></coordinates>
         <coordinates coord_system="LRG_740_p1" end="52" start="1"></coordinates>
       </exon>
       <intron phase="0"></intron>
-      <exon label="5">
+      <exon>
         <coordinates coord_system="LRG_740" end="70215" start="70041" strand="1"></coordinates>
         <coordinates coord_system="LRG_740_t1" end="910" start="736"></coordinates>
         <coordinates coord_system="LRG_740_p1" end="111" start="53"></coordinates>
       </exon>
       <intron phase="1"></intron>
-      <exon label="6">
+      <exon>
         <coordinates coord_system="LRG_740" end="76204" start="76035" strand="1"></coordinates>
         <coordinates coord_system="LRG_740_t1" end="1080" start="911"></coordinates>
         <coordinates coord_system="LRG_740_p1" end="167" start="111"></coordinates>
       </exon>
       <intron phase="0"></intron>
-      <exon label="7">
+      <exon>
         <coordinates coord_system="LRG_740" end="80489" start="80303" strand="1"></coordinates>
         <coordinates coord_system="LRG_740_t1" end="1267" start="1081"></coordinates>
         <coordinates coord_system="LRG_740_p1" end="230" start="168"></coordinates>
       </exon>
       <intron phase="1"></intron>
-      <exon label="8">
+      <exon>
         <coordinates coord_system="LRG_740" end="82948" start="82340" strand="1"></coordinates>
         <coordinates coord_system="LRG_740_t1" end="1876" start="1268"></coordinates>
         <coordinates coord_system="LRG_740_p1" end="279" start="230"></coordinates>
@@ -80,10 +80,53 @@
         </contact>
       </source>
       <comment>Annotation from NG_008844.1</comment>
-      <modification_date>2013-06-17</modification_date>
-      <fixed_transcript_annotation name="t1"></fixed_transcript_annotation>
+      <modification_date>2013-08-05</modification_date>
+      <fixed_transcript_annotation name="t1">
+        <other_exon_naming description="LRG-specific numbering for all exons">
+          <exon>
+            <coordinates coord_system="LRG_740" end="44932" start="44550"></coordinates>
+            <label>1</label>
+          </exon>
+          <exon>
+            <coordinates coord_system="LRG_740" end="47127" start="47077"></coordinates>
+            <label>2</label>
+          </exon>
+          <exon>
+            <coordinates coord_system="LRG_740" end="53667" start="53547"></coordinates>
+            <label>3</label>
+          </exon>
+          <exon>
+            <coordinates coord_system="LRG_740" end="57413" start="57234"></coordinates>
+            <label>4</label>
+          </exon>
+          <exon>
+            <coordinates coord_system="LRG_740" end="70215" start="70041"></coordinates>
+            <label>5</label>
+          </exon>
+          <exon>
+            <coordinates coord_system="LRG_740" end="76204" start="76035"></coordinates>
+            <label>6</label>
+          </exon>
+          <exon>
+            <coordinates coord_system="LRG_740" end="80489" start="80303"></coordinates>
+            <label>7</label>
+          </exon>
+          <exon>
+            <coordinates coord_system="LRG_740" end="82948" start="82340"></coordinates>
+            <label>8</label>
+          </exon>
+        </other_exon_naming>
+      </fixed_transcript_annotation>
       <mapping coord_system="GRCh37.p10" other_end="106060230" other_id="NC_000002.11" other_name="2" other_start="105975283">
         <mapping_span lrg_end="84948" lrg_start="1" other_end="106060230" other_start="105975283" strand="-1"></mapping_span>
+      </mapping>
+      <mapping coord_system="NM_201557.3" other_end="1696" other_id="NM_201557.3" other_start="1">
+        <mapping_span lrg_end="5375" lrg_start="5001" other_end="375" other_start="1" strand="1"></mapping_span>
+        <mapping_span lrg_end="57413" lrg_start="57234" other_end="555" other_start="376" strand="1"></mapping_span>
+        <mapping_span lrg_end="70215" lrg_start="70041" other_end="730" other_start="556" strand="1"></mapping_span>
+        <mapping_span lrg_end="76204" lrg_start="76035" other_end="900" other_start="731" strand="1"></mapping_span>
+        <mapping_span lrg_end="80489" lrg_start="80303" other_end="1087" other_start="901" strand="1"></mapping_span>
+        <mapping_span lrg_end="82948" lrg_start="82340" other_end="1696" other_start="1088" strand="1"></mapping_span>
       </mapping>
       <mapping coord_system="NM_201555.1" other_end="1876" other_id="NM_201555.1" other_start="1">
         <mapping_span lrg_end="44932" lrg_start="44550" other_end="383" other_start="1" strand="1"></mapping_span>
@@ -112,19 +155,10 @@
         <mapping_span lrg_end="80489" lrg_start="80303" other_end="912" other_start="726" strand="1"></mapping_span>
         <mapping_span lrg_end="82948" lrg_start="82340" other_end="1521" other_start="913" strand="1"></mapping_span>
       </mapping>
-      <mapping coord_system="NM_201557.3" other_end="1696" other_id="NM_201557.3" other_start="372">
-        <mapping_span lrg_end="57413" lrg_start="57230" other_end="555" other_start="372" strand="1">
-          <diff lrg_end="57231" lrg_sequence="T" lrg_start="57231" other_end="373" other_sequence="C" other_start="373" type="mismatch"></diff>
-        </mapping_span>
-        <mapping_span lrg_end="70215" lrg_start="70041" other_end="730" other_start="556" strand="1"></mapping_span>
-        <mapping_span lrg_end="76204" lrg_start="76035" other_end="900" other_start="731" strand="1"></mapping_span>
-        <mapping_span lrg_end="80489" lrg_start="80303" other_end="1087" other_start="901" strand="1"></mapping_span>
-        <mapping_span lrg_end="82948" lrg_start="82340" other_end="1696" other_start="1088" strand="1"></mapping_span>
-      </mapping>
       <lrg_locus source="HGNC">FHL2</lrg_locus>
       <features>
         <gene accession="2274" source="NCBI-Gene">
-          <coordinates coord_system="LRG_740" end="82948" start="44550" strand="1"></coordinates>
+          <coordinates coord_system="LRG_740" end="82948" start="5001" strand="1"></coordinates>
           <symbol source="HGNC">FHL2</symbol>
           <symbol>AAG11</symbol>
           <symbol>DRAL</symbol>
@@ -137,6 +171,37 @@
           <db_xref accession="602633" source="MIM"></db_xref>
           <db_xref accession="CCDS2070.1" source="CCDS"></db_xref>
           <db_xref accession="209977044" source="GI"></db_xref>
+          <transcript accession="NM_201557.3" source="RefSeq">
+            <coordinates coord_system="LRG_740" end="82948" start="5001" strand="1"></coordinates>
+            <long_name>four and a half LIM domains 2, transcript variant 4</long_name>
+            <db_xref accession="2274" source="GeneID"></db_xref>
+            <db_xref accession="194394202" source="GI"></db_xref>
+            <exon accession="" source="RefSeq">
+              <coordinates coord_system="LRG_740" end="5375" start="5001" strand="1"></coordinates>
+            </exon>
+            <exon accession="" source="RefSeq">
+              <coordinates coord_system="LRG_740" end="57413" start="57234" strand="1"></coordinates>
+            </exon>
+            <exon accession="" source="RefSeq">
+              <coordinates coord_system="LRG_740" end="70215" start="70041" strand="1"></coordinates>
+            </exon>
+            <exon accession="" source="RefSeq">
+              <coordinates coord_system="LRG_740" end="76204" start="76035" strand="1"></coordinates>
+            </exon>
+            <exon accession="" source="RefSeq">
+              <coordinates coord_system="LRG_740" end="80489" start="80303" strand="1"></coordinates>
+            </exon>
+            <exon accession="" source="RefSeq">
+              <coordinates coord_system="LRG_740" end="82948" start="82340" strand="1"></coordinates>
+            </exon>
+            <protein_product accession="NP_963851.2" source="RefSeq">
+              <coordinates coord_system="LRG_740" end="82491" start="57258" strand="1"></coordinates>
+              <long_name>four and a half LIM domains protein 2</long_name>
+              <db_xref accession="CCDS2070.1" source="CCDS"></db_xref>
+              <db_xref accession="2274" source="GeneID"></db_xref>
+              <db_xref accession="87159834" source="GI"></db_xref>
+            </protein_product>
+          </transcript>
           <transcript accession="NM_201555.1" fixed_id="t1" source="RefSeq">
             <coordinates coord_system="LRG_740" end="82948" start="44550" strand="1"></coordinates>
             <long_name>four and a half LIM domains 2, transcript variant 2</long_name>
@@ -241,36 +306,6 @@
               <db_xref accession="CCDS2070.1" source="CCDS"></db_xref>
               <db_xref accession="2274" source="GeneID"></db_xref>
               <db_xref accession="87159836" source="GI"></db_xref>
-            </protein_product>
-          </transcript>
-          <transcript accession="NM_201557.3" source="RefSeq">
-            <coordinates coord_system="LRG_740" end="82948" start="57230" strand="1"></coordinates>
-            <partial>5-prime</partial>
-            <long_name>four and a half LIM domains 2, transcript variant 4</long_name>
-            <db_xref accession="2274" source="GeneID"></db_xref>
-            <db_xref accession="194394202" source="GI"></db_xref>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_740" end="57413" start="57230" strand="1"></coordinates>
-              <partial>5-prime</partial>
-            </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_740" end="70215" start="70041" strand="1"></coordinates>
-            </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_740" end="76204" start="76035" strand="1"></coordinates>
-            </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_740" end="80489" start="80303" strand="1"></coordinates>
-            </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_740" end="82948" start="82340" strand="1"></coordinates>
-            </exon>
-            <protein_product accession="NP_963851.2" source="RefSeq">
-              <coordinates coord_system="LRG_740" end="82491" start="57258" strand="1"></coordinates>
-              <long_name>four and a half LIM domains protein 2</long_name>
-              <db_xref accession="CCDS2070.1" source="CCDS"></db_xref>
-              <db_xref accession="2274" source="GeneID"></db_xref>
-              <db_xref accession="87159834" source="GI"></db_xref>
             </protein_product>
           </transcript>
         </gene>
