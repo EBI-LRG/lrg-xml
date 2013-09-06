@@ -49,7 +49,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-06</modification_date>
       <mapping coord_system="GRCh37.p10" other_name="3" other_id="NC_000003.11" other_start="169480398" other_end="169487848">
         <mapping_span lrg_start="1" lrg_end="7451" other_start="169480398" other_end="169487848" strand="-1" />
       </mapping>
@@ -149,8 +149,11 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-06</modification_date>
+      <mapping coord_system="ENST00000363312.1" other_name="ENST00000363312.1" other_id="ENST00000363312.1" other_start="1" other_end="438">
+        <mapping_span lrg_start="5014" lrg_end="5451" other_start="1" other_end="438" strand="1" />
+      </mapping>
       <mapping coord_system="ENST00000602385.1" other_name="ENST00000602385.1" other_id="ENST00000602385.1" other_start="1" other_end="541">
         <mapping_span lrg_start="5001" lrg_end="5541" other_start="1" other_end="541" strand="1" />
       </mapping>
@@ -197,7 +200,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000333037">
               <coordinates coord_system="LRG_347" start="541" end="2629" strand="1" mapped_from="GRCh37" />
-              <long_name>actin-related protein T3 </long_name>
+              <long_name>actin-related protein T3</long_name>
               <db_xref source="RefSeq" accession="NP_115876.3" />
               <db_xref source="UniProtKB" accession="Q9BYD9">
                 <synonym>Q96IS0</synonym>
@@ -208,8 +211,8 @@
         </gene>
         <gene source="Ensembl" accession="ENSG00000270141">
           <coordinates coord_system="LRG_347" start="5001" end="5541" strand="1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_vega_gene">TERC</symbol>
-          <long_name>TERC (lincRNA)</long_name>
+          <symbol source="HGNC">TERC</symbol>
+          <long_name>telomerase RNA component (lincRNA)</long_name>
           <db_xref source="GeneID" accession="7012">
             <synonym>DKCA1</synonym>
             <synonym>hTR</synonym>
@@ -218,29 +221,23 @@
             <synonym>TR</synonym>
             <synonym>TRC3</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="602322" />
-          <db_xref source="Ensembl" accession="ENSG00000270141" />
-          <transcript source="Ensembl" accession="ENST00000602385">
-            <coordinates coord_system="LRG_347" start="5001" end="5541" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens telomerase RNA component (TERC), telomerase RNA. (lincRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_001566.1" />
-            <exon source="Ensembl" accession="ENSE00003392259">
-              <coordinates coord_system="LRG_347" start="5001" end="5541" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000200182">
-          <coordinates coord_system="LRG_347" start="5014" end="5451" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">TERC</symbol>
-          <long_name>telomerase RNA component (misc_RNA)</long_name>
           <db_xref source="HGNC" accession="11727">
             <synonym>hTR</synonym>
             <synonym>SCARNA19</synonym>
             <synonym>TR</synonym>
             <synonym>TRC3</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="602322" />
           <db_xref source="RFAM" accession="RF00024" />
-          <db_xref source="Ensembl" accession="ENSG00000200182" />
+          <db_xref source="Ensembl" accession="ENSG00000270141" />
+          <transcript source="Ensembl" accession="ENST00000602385">
+            <coordinates coord_system="LRG_347" start="5001" end="5541" strand="1" mapped_from="GRCh37" />
+            <long_name>TERC-001 (lincRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_001566.1" />
+            <exon source="Ensembl" accession="ENSE00003392259">
+              <coordinates coord_system="LRG_347" start="5001" end="5541" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000363312">
             <coordinates coord_system="LRG_347" start="5014" end="5451" strand="1" mapped_from="GRCh37" />
             <long_name>TERC-201 (misc_RNA)</long_name>
@@ -256,7 +253,7 @@
         <name>List of locus specific databases for TERC</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TERC</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-06</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
