@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_653</id>
+    <hgnc_id>483</hgnc_id>
     <sequence_source>NG_008717.2</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Dennis Dooijes</name>
         <address>UMC Utrecht, The Netherlands</address>
         <email>D.Dooijes@umcutrecht.nl</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -37,14 +29,14 @@
           <sequence>MVMGLGVLLLVFVLGLGLTPPTLAQDNSRYTHFLTQHYDAKPQGRDDRYCESIMRRRGLTSPCKDINTFIHGNKRSIKAICENKNGNPHRENLRISKSSFQVTTCKLHGGSPWPPCQYRATAGFRNVVVACENGLPVHLDQSIFRRP</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_653" start="5001" end="5582" strand="1" />
-        <coordinates coord_system="LRG_653_t1" start="1" end="582" />
+        <coordinates coord_system="LRG_653t1" start="1" end="582" />
       </exon>
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_653" start="14371" end="15010" strand="1" />
-        <coordinates coord_system="LRG_653_t1" start="583" end="1222" />
-        <coordinates coord_system="LRG_653_p1" start="1" end="147" />
+        <coordinates coord_system="LRG_653t1" start="583" end="1222" />
+        <coordinates coord_system="LRG_653p1" start="1" end="147" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -59,8 +51,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="14" other_id="NC_000014.8" other_start="21147336" other_end="21169130">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_start="21147336" other_end="21169130">
         <mapping_span lrg_start="1" lrg_end="21795" other_start="21147336" other_end="21169130" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">ANG</lrg_locus>
@@ -76,19 +68,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008717.2</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_653" start="5001" end="5582" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_653" start="14371" end="15010" />
-            <label>3</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_001097577.2" other_name="NM_001097577.2" other_id="NM_001097577.2" other_start="1" other_end="742">
         <mapping_span lrg_start="9597" lrg_end="9698" other_start="1" other_end="102" strand="1" />
         <mapping_span lrg_start="14371" lrg_end="15010" other_start="103" other_end="742" strand="1" />
@@ -97,15 +77,15 @@
         <mapping_span lrg_start="5001" lrg_end="5582" other_start="1" other_end="582" strand="1" />
         <mapping_span lrg_start="14371" lrg_end="15010" other_start="583" other_end="1222" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">ANG</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="283">
+          <symbol source="HGNC" name="ANG">
+            <synonym>ALS9</synonym>
+            <synonym>HEL168</synonym>
+            <synonym>RNASE4</synonym>
+            <synonym>RNASE5</synonym>
+          </symbol>
           <coordinates coord_system="LRG_653" start="5001" end="15010" strand="1" />
-          <symbol>ANG</symbol>
-          <symbol>ALS9</symbol>
-          <symbol>HEL168</symbol>
-          <symbol>RNASE4</symbol>
-          <symbol>RNASE5</symbol>
           <long_name>angiogenin, ribonuclease, RNase A family, 5</long_name>
           <db_xref source="GeneID" accession="283" />
           <db_xref source="HGNC" accession="483" />
@@ -134,28 +114,69 @@
               <db_xref source="GI" accession="4557313" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_001097577.2">
+            <coordinates coord_system="LRG_653" start="9597" end="15010" strand="1" />
+            <long_name>angiogenin, ribonuclease, RNase A family, 5, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="283" />
+            <db_xref source="GI" accession="207113180" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_653" start="9597" end="9698" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_653" start="14371" end="15010" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001091046.1">
+              <coordinates coord_system="LRG_653" start="14389" end="14832" strand="1" />
+              <long_name>angiogenin precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS9554.1" />
+              <db_xref source="GeneID" accession="283" />
+              <db_xref source="GI" accession="148277046" />
+            </protein_product>
+          </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="6038">
-          <coordinates coord_system="LRG_653" start="5037" end="21423" strand="1" />
-          <partial>3-prime</partial>
-          <symbol>RNASE4</symbol>
-          <symbol>RNS4</symbol>
+          <symbol source="HGNC" name="RNASE4">
+            <synonym>RNS4</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_653" start="5037" end="21426" strand="1" />
           <long_name>ribonuclease, RNase A family, 4</long_name>
           <db_xref source="GeneID" accession="6038" />
           <db_xref source="HGNC" accession="10047" />
           <db_xref source="MIM" accession="601030" />
-          <transcript source="RefSeq" accession="NM_002937.3">
-            <coordinates coord_system="LRG_653" start="5037" end="21423" strand="1" />
-            <long_name>ribonuclease, RNase A family, 4, transcript variant 2</long_name>
+          <transcript source="RefSeq" accession="NM_001282192.1">
+            <coordinates coord_system="LRG_653" start="5037" end="21426" strand="1" />
+            <long_name>ribonuclease, RNase A family, 4, transcript variant 4</long_name>
             <db_xref source="GeneID" accession="6038" />
-            <db_xref source="GI" accession="37577173" />
+            <db_xref source="GI" accession="532164748" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_653" start="5037" end="5582" strand="1" />
             </exon>
             <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_653" start="20179" end="21423" strand="1" />
+              <coordinates coord_system="LRG_653" start="14371" end="14474" strand="1" />
             </exon>
-            <protein_product source="RefSeq" accession="NP_002928.1" codon_start="1">
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_653" start="20179" end="21426" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001269121.1">
+              <coordinates coord_system="LRG_653" start="20196" end="20639" strand="1" />
+              <long_name>ribonuclease 4 precursor</long_name>
+              <long_name>RNase 4</long_name>
+              <db_xref source="GeneID" accession="6038" />
+              <db_xref source="GI" accession="532164749" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_002937.4">
+            <coordinates coord_system="LRG_653" start="5037" end="21426" strand="1" />
+            <long_name>ribonuclease, RNase A family, 4, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="6038" />
+            <db_xref source="GI" accession="532164746" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_653" start="5037" end="5582" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_653" start="20179" end="21426" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_002928.1">
               <coordinates coord_system="LRG_653" start="20196" end="20639" strand="1" />
               <long_name>ribonuclease 4 precursor</long_name>
               <long_name>RNase 4</long_name>
@@ -164,18 +185,38 @@
               <db_xref source="GI" accession="4506557" />
             </protein_product>
           </transcript>
-          <transcript source="RefSeq" accession="NM_194431.1">
-            <coordinates coord_system="LRG_653" start="9597" end="21423" strand="1" />
+          <transcript source="RefSeq" accession="NM_001282193.1">
+            <coordinates coord_system="LRG_653" start="5037" end="21426" strand="1" />
+            <long_name>ribonuclease, RNase A family, 4, transcript variant 5</long_name>
+            <db_xref source="GeneID" accession="6038" />
+            <db_xref source="GI" accession="532164750" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_653" start="5037" end="5520" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_653" start="20179" end="21426" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001269122.1">
+              <coordinates coord_system="LRG_653" start="20196" end="20639" strand="1" />
+              <long_name>ribonuclease 4 precursor</long_name>
+              <long_name>RNase 4</long_name>
+              <db_xref source="CCDS" accession="CCDS9555.1" />
+              <db_xref source="GeneID" accession="6038" />
+              <db_xref source="GI" accession="532164751" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_194431.2">
+            <coordinates coord_system="LRG_653" start="9601" end="21426" strand="1" />
             <long_name>ribonuclease, RNase A family, 4, transcript variant 3</long_name>
             <db_xref source="GeneID" accession="6038" />
-            <db_xref source="GI" accession="37577171" />
+            <db_xref source="GI" accession="532164747" />
             <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_653" start="9597" end="9698" strand="1" />
+              <coordinates coord_system="LRG_653" start="9601" end="9698" strand="1" />
             </exon>
             <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_653" start="20179" end="21423" strand="1" />
+              <coordinates coord_system="LRG_653" start="20179" end="21426" strand="1" />
             </exon>
-            <protein_product source="RefSeq" accession="NP_919412.1" codon_start="1">
+            <protein_product source="RefSeq" accession="NP_919412.1">
               <coordinates coord_system="LRG_653" start="20196" end="20639" strand="1" />
               <long_name>ribonuclease 4 precursor</long_name>
               <long_name>RNase 4</long_name>
@@ -197,8 +238,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000336811.6" other_name="ENST00000336811.6" other_id="ENST00000336811.6" other_start="1" other_end="1222">
         <mapping_span lrg_start="5001" lrg_end="5582" other_start="1" other_end="582" strand="1" />
         <mapping_span lrg_start="14371" lrg_end="15010" other_start="583" other_end="1222" strand="1" />
@@ -213,8 +254,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000199461">
+          <symbol source="RFAM" name="Y_RNA" />
           <coordinates coord_system="LRG_653" start="235" end="336" strand="1" mapped_from="GRCh37" />
-          <symbol source="RFAM">Y_RNA</symbol>
           <long_name>Y RNA [Source:RFAM;Acc:RF00019] (misc_RNA)</long_name>
           <db_xref source="RFAM" accession="RF00019" />
           <db_xref source="Ensembl" accession="ENSG00000199461" />
@@ -227,18 +268,20 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000258818">
+          <symbol source="HGNC" name="RNASE4" />
           <coordinates coord_system="LRG_653" start="4924" end="21426" strand="1" mapped_from="GRCh37" />
-          <symbol source="Uniprot_genename">RNASE4</symbol>
-          <long_name>Full-length cDNA clone CS0DF032YM23 of Fetal brain of Homo sapiens (human); Full-length cDNA clone CS0DM007YH13 of Fetal liver of Homo sapiens (human); HCG2044782, isoform CRA_a; cDNA FLJ35103 fis, clone PLACE6006549, highly similar to RIBONUCLEASE 4   [Source:UniProtKB/TrEMBL;Acc:Q53XB4] (protein_coding)</long_name>
+          <long_name>ribonuclease, RNase A family, 4 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="6038">
             <synonym>RNS4</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="10047" />
           <db_xref source="MIM" accession="601030" />
           <db_xref source="Ensembl" accession="ENSG00000258818" />
           <transcript source="Ensembl" accession="ENST00000555835">
             <coordinates coord_system="LRG_653" start="4924" end="21426" strand="1" mapped_from="GRCh37" />
             <long_name>RNASE4-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9555.1" />
+            <db_xref source="RefSeq" accession="NM_002937.3" />
             <exon source="Ensembl" accession="ENSE00002463106">
               <coordinates coord_system="LRG_653" start="4924" end="5582" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -247,6 +290,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000452245">
               <coordinates coord_system="LRG_653" start="20196" end="20639" strand="1" mapped_from="GRCh37" />
+              <long_name>ribonuclease 4 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_002928.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000397995">
@@ -263,10 +308,29 @@
               <coordinates coord_system="LRG_653" start="20196" end="20639" strand="1" mapped_from="GRCh37" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000304704">
+            <coordinates coord_system="LRG_653" start="5483" end="21375" strand="1" mapped_from="GRCh37" />
+            <long_name>RNASE4-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS9555.1" />
+            <exon source="Ensembl" accession="ENSE00001432727">
+              <coordinates coord_system="LRG_653" start="5483" end="5582" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003499817">
+              <coordinates coord_system="LRG_653" start="14371" end="14474" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001553706">
+              <coordinates coord_system="LRG_653" start="20179" end="21375" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000307096">
+              <coordinates coord_system="LRG_653" start="20196" end="20639" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="P34096" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000555597">
             <coordinates coord_system="LRG_653" start="9606" end="21426" strand="1" mapped_from="GRCh37" />
             <long_name>RNASE4-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9555.1" />
+            <db_xref source="RefSeq" accession="NM_194431.1" />
             <exon source="Ensembl" accession="ENSE00002467703">
               <coordinates coord_system="LRG_653" start="9606" end="9698" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -275,12 +339,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000451624">
               <coordinates coord_system="LRG_653" start="20196" end="20639" strand="1" mapped_from="GRCh37" />
+              <long_name>ribonuclease 4 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_919412.1" />
             </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000214274">
+          <symbol source="HGNC" name="ANG" />
           <coordinates coord_system="LRG_653" start="5001" end="19795" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">ANG</symbol>
           <long_name>angiogenin, ribonuclease, RNase A family, 5 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="283">
             <synonym>ALS9</synonym>
@@ -306,7 +372,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000336762">
               <coordinates coord_system="LRG_653" start="14389" end="14832" strand="1" mapped_from="GRCh37" />
-              <long_name>angiogenin precursor </long_name>
+              <long_name>angiogenin precursor</long_name>
               <db_xref source="RefSeq" accession="NP_001136.1" />
               <db_xref source="UniProtKB" accession="P03950">
                 <synonym>Q05CV1</synonym>
@@ -331,7 +397,7 @@
             <long_name>ANG-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9554.1" />
             <db_xref source="RefSeq" accession="NM_001097577.2" />
-            <exon source="Ensembl" accession="ENSE00003319398">
+            <exon source="Ensembl" accession="ENSE00003579216">
               <coordinates coord_system="LRG_653" start="9597" end="9698" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001758396">
@@ -339,7 +405,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000381077">
               <coordinates coord_system="LRG_653" start="14389" end="14832" strand="1" mapped_from="GRCh37" />
-              <long_name>angiogenin precursor </long_name>
+              <long_name>angiogenin precursor</long_name>
               <db_xref source="RefSeq" accession="NP_001091046.1" />
               <db_xref source="UniProtKB" accession="P03950">
                 <synonym>Q05CV1</synonym>
@@ -350,74 +416,9 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000181784">
-          <coordinates coord_system="LRG_653" start="5037" end="21422" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">RNASE4</symbol>
-          <long_name>ribonuclease, RNase A family, 4 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6038">
-            <synonym>RNS4</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="10047" />
-          <db_xref source="MIM" accession="601030" />
-          <db_xref source="Ensembl" accession="ENSG00000181784" />
-          <transcript source="Ensembl" accession="ENST00000398001">
-            <coordinates coord_system="LRG_653" start="5037" end="21422" strand="1" mapped_from="GRCh37" />
-            <long_name>RNASE4-203 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS9555.1" />
-            <db_xref source="RefSeq" accession="NM_002937.3" />
-            <exon source="Ensembl" accession="ENSE00001260906">
-              <coordinates coord_system="LRG_653" start="5037" end="5582" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001329762">
-              <coordinates coord_system="LRG_653" start="20179" end="21422" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000381087">
-              <coordinates coord_system="LRG_653" start="20196" end="20639" strand="1" mapped_from="GRCh37" />
-              <long_name>ribonuclease 4 precursor </long_name>
-              <db_xref source="RefSeq" accession="NP_002928.1" />
-              <db_xref source="UniProtKB" accession="P34096" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000304704">
-            <coordinates coord_system="LRG_653" start="5483" end="21375" strand="1" mapped_from="GRCh37" />
-            <long_name>RNASE4-201 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS9555.1" />
-            <exon source="Ensembl" accession="ENSE00001432727">
-              <coordinates coord_system="LRG_653" start="5483" end="5582" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003311466">
-              <coordinates coord_system="LRG_653" start="14371" end="14474" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001553706">
-              <coordinates coord_system="LRG_653" start="20179" end="21375" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000307096">
-              <coordinates coord_system="LRG_653" start="20196" end="20639" strand="1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="P34096" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000397999">
-            <coordinates coord_system="LRG_653" start="9597" end="21422" strand="1" mapped_from="GRCh37" />
-            <long_name>RNASE4-202 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS9555.1" />
-            <db_xref source="RefSeq" accession="NM_194431.1" />
-            <exon source="Ensembl" accession="ENSE00003454305">
-              <coordinates coord_system="LRG_653" start="9597" end="9698" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001329762">
-              <coordinates coord_system="LRG_653" start="20179" end="21422" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000381085">
-              <coordinates coord_system="LRG_653" start="20196" end="20639" strand="1" mapped_from="GRCh37" />
-              <long_name>ribonuclease 4 precursor </long_name>
-              <db_xref source="RefSeq" accession="NP_919412.1" />
-              <db_xref source="UniProtKB" accession="P34096" />
-            </protein_product>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000259171">
+          <symbol source="Clone_based_vega_gene" name="AL163636.6" />
           <coordinates coord_system="LRG_653" start="5411" end="21400" strand="1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_vega_gene">AL163636.6</symbol>
           <long_name>AL163636.6 (processed_transcript)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000259171" />
           <transcript source="Ensembl" accession="ENST00000553909">
@@ -426,7 +427,7 @@
             <exon source="Ensembl" accession="ENSE00001548891">
               <coordinates coord_system="LRG_653" start="5411" end="5582" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003350154">
+            <exon source="Ensembl" accession="ENSE00003482285">
               <coordinates coord_system="LRG_653" start="14371" end="14474" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002527149">
@@ -435,9 +436,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000258451">
+          <symbol source="Clone_based_vega_gene" name="RP11-903H12.3" />
           <coordinates coord_system="LRG_653" start="14304" end="21795" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="Clone_based_vega_gene">RP11-903H12.3</symbol>
           <long_name>RP11-903H12.3 (lincRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000258451" />
           <transcript source="Ensembl" accession="ENST00000554286">
@@ -462,7 +463,7 @@
         <name>List of locus specific databases for ANG</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ANG</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

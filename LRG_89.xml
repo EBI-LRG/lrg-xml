@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_89</id>
+    <hgnc_id>7797</hgnc_id>
     <sequence_source>NG_007571.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -18,15 +19,6 @@
         <name>Mauno Vihinen</name>
         <address>University of Tampere, Finland</address>
         <email>Mauno.Vihinen@med.lu.se</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -44,40 +36,40 @@
           <sequence>MFQAAERPQEWAMEGPRDGLKKERLLDDRHDSGLDSMKDEEYEQMVKELQEIRLEPQEVPRGSEPWKQQLTEDGDSFLHLAIIHEEKALTMEVIRQVKGDLAFLNFQNNLQQTPLHLAVITNQPEIAEALLGAGCDPELRDFRGNTPLHLACEQGCLASVGVLTQSCTTPHLHSILKATNYNGHTCLHLASIHGYLGIVELLVSLGADVNAQEPCNGRTALHLAVDLQNPDLVSLLLKCGADVNRVTYQGYSPYQLTWGRPSTRIQQQLGQLTLENLQMLPESEDEESYDTESEFTEFTEDELPYDDCVFGGQRLTL</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_89" start="4985" end="5321" strand="1" />
-        <coordinates coord_system="LRG_89_t1" start="1" end="337" />
-        <coordinates coord_system="LRG_89_p1" start="1" end="76" />
+        <coordinates coord_system="LRG_89t1" start="1" end="337" />
+        <coordinates coord_system="LRG_89p1" start="1" end="76" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_89" start="5941" end="6049" strand="1" />
-        <coordinates coord_system="LRG_89_t1" start="338" end="446" />
-        <coordinates coord_system="LRG_89_p1" start="76" end="112" />
+        <coordinates coord_system="LRG_89t1" start="338" end="446" />
+        <coordinates coord_system="LRG_89p1" start="76" end="112" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" />
-        <coordinates coord_system="LRG_89_t1" start="447" end="657" />
-        <coordinates coord_system="LRG_89_p1" start="113" end="183" />
+        <coordinates coord_system="LRG_89t1" start="447" end="657" />
+        <coordinates coord_system="LRG_89p1" start="113" end="183" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" />
-        <coordinates coord_system="LRG_89_t1" start="658" end="746" />
-        <coordinates coord_system="LRG_89_p1" start="183" end="212" />
+        <coordinates coord_system="LRG_89t1" start="658" end="746" />
+        <coordinates coord_system="LRG_89p1" start="183" end="212" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_89" start="7076" end="7345" strand="1" />
-        <coordinates coord_system="LRG_89_t1" start="747" end="1016" />
-        <coordinates coord_system="LRG_89_p1" start="213" end="302" />
+        <coordinates coord_system="LRG_89t1" start="747" end="1016" />
+        <coordinates coord_system="LRG_89p1" start="213" end="302" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_89" start="7679" end="8229" strand="1" />
-        <coordinates coord_system="LRG_89_t1" start="1017" end="1567" />
-        <coordinates coord_system="LRG_89_p1" start="303" end="317" />
+        <coordinates coord_system="LRG_89t1" start="1017" end="1567" />
+        <coordinates coord_system="LRG_89p1" start="303" end="317" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -92,8 +84,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="14" other_id="NC_000014.8" other_start="35868717" other_end="35878944">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_start="35868717" other_end="35878944">
         <mapping_span lrg_start="1" lrg_end="10228" other_start="35868717" other_end="35878944" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">NFKBIA</lrg_locus>
@@ -109,35 +101,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007571.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_89" start="4985" end="5321" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_89" start="5941" end="6049" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_89" start="6379" end="6589" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_89" start="6880" end="6968" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_89" start="7076" end="7345" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_89" start="7679" end="8229" />
-            <label>6</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_020529.2" other_name="NM_020529.2" other_id="NM_020529.2" other_start="1" other_end="1567">
         <mapping_span lrg_start="4985" lrg_end="5321" other_start="1" other_end="337" strand="1" />
         <mapping_span lrg_start="5941" lrg_end="6049" other_start="338" other_end="446" strand="1" />
@@ -146,14 +110,14 @@
         <mapping_span lrg_start="7076" lrg_end="7345" other_start="747" other_end="1016" strand="1" />
         <mapping_span lrg_start="7679" lrg_end="8229" other_start="1017" other_end="1567" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">NFKBIA</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="4792">
+          <symbol source="HGNC" name="NFKBIA">
+            <synonym>IKBA</synonym>
+            <synonym>MAD-3</synonym>
+            <synonym>NFKBI</synonym>
+          </symbol>
           <coordinates coord_system="LRG_89" start="4985" end="8229" strand="1" />
-          <symbol>NFKBIA</symbol>
-          <symbol>IKBA</symbol>
-          <symbol>MAD-3</symbol>
-          <symbol>NFKBI</symbol>
           <long_name>nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha</long_name>
           <db_xref source="GeneID" accession="4792" />
           <db_xref source="HGNC" accession="7797" />
@@ -209,8 +173,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000216797.5" other_name="ENST00000216797.5" other_id="ENST00000216797.5" other_start="1" other_end="1558">
         <mapping_span lrg_start="4993" lrg_end="5321" other_start="1" other_end="329" strand="1" />
         <mapping_span lrg_start="5941" lrg_end="6049" other_start="330" other_end="438" strand="1" />
@@ -273,8 +237,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000100906">
+          <symbol source="HGNC" name="NFKBIA" />
           <coordinates coord_system="LRG_89" start="4990" end="8228" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">NFKBIA</symbol>
           <long_name>nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha (protein_coding)</long_name>
           <db_xref source="GeneID" accession="4792">
             <synonym>IKBA</synonym>
@@ -307,16 +271,16 @@
             <exon source="Ensembl" accession="ENSE00000889713">
               <coordinates coord_system="LRG_89" start="4993" end="5321" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003240621">
+            <exon source="Ensembl" accession="ENSE00003585907">
               <coordinates coord_system="LRG_89" start="5941" end="6049" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003385039">
+            <exon source="Ensembl" accession="ENSE00003551771">
               <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003358412">
+            <exon source="Ensembl" accession="ENSE00003686913">
               <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003415762">
+            <exon source="Ensembl" accession="ENSE00003694288">
               <coordinates coord_system="LRG_89" start="7076" end="7345" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000889712">
@@ -324,7 +288,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000216797">
               <coordinates coord_system="LRG_89" start="5095" end="7726" strand="1" mapped_from="GRCh37" />
-              <long_name>NF-kappa-B inhibitor alpha </long_name>
+              <long_name>NF-kappa-B inhibitor alpha</long_name>
               <db_xref source="RefSeq" accession="NP_065390.1" />
               <db_xref source="UniProtKB" accession="P25963">
                 <synonym>B2R8L6</synonym>
@@ -337,13 +301,13 @@
             <exon source="Ensembl" accession="ENSE00000889713">
               <coordinates coord_system="LRG_89" start="4993" end="5321" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003240621">
+            <exon source="Ensembl" accession="ENSE00003585907">
               <coordinates coord_system="LRG_89" start="5941" end="6049" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003385039">
+            <exon source="Ensembl" accession="ENSE00003551771">
               <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003358412">
+            <exon source="Ensembl" accession="ENSE00003686913">
               <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002454972">
@@ -362,7 +326,7 @@
             <exon source="Ensembl" accession="ENSE00002481620">
               <coordinates coord_system="LRG_89" start="4997" end="5321" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003257560">
+            <exon source="Ensembl" accession="ENSE00003619972">
               <coordinates coord_system="LRG_89" start="5941" end="6049" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002515020">
@@ -375,13 +339,13 @@
             <exon source="Ensembl" accession="ENSE00002512851">
               <coordinates coord_system="LRG_89" start="5023" end="5321" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003449344">
+            <exon source="Ensembl" accession="ENSE00003633510">
               <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003428542">
+            <exon source="Ensembl" accession="ENSE00003597799">
               <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003340082">
+            <exon source="Ensembl" accession="ENSE00003532849">
               <coordinates coord_system="LRG_89" start="7076" end="7345" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002467240">
@@ -397,10 +361,10 @@
             <exon source="Ensembl" accession="ENSE00002449199">
               <coordinates coord_system="LRG_89" start="5039" end="5321" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003257560">
+            <exon source="Ensembl" accession="ENSE00003619972">
               <coordinates coord_system="LRG_89" start="5941" end="6049" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003347087">
+            <exon source="Ensembl" accession="ENSE00003586504">
               <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002452825">
@@ -429,13 +393,13 @@
             <exon source="Ensembl" accession="ENSE00002489748">
               <coordinates coord_system="LRG_89" start="5599" end="6049" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003385039">
+            <exon source="Ensembl" accession="ENSE00003551771">
               <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003358412">
+            <exon source="Ensembl" accession="ENSE00003686913">
               <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003415762">
+            <exon source="Ensembl" accession="ENSE00003694288">
               <coordinates coord_system="LRG_89" start="7076" end="7345" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002532110">
@@ -451,7 +415,7 @@
             <exon source="Ensembl" accession="ENSE00002514397">
               <coordinates coord_system="LRG_89" start="6309" end="6589" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003428542">
+            <exon source="Ensembl" accession="ENSE00003597799">
               <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002442683">
@@ -479,7 +443,7 @@
         <name>List of locus specific databases for NFKBIA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NFKBIA</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

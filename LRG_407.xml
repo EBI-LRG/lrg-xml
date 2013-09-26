@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_407</id>
+    <hgnc_id>2389</hgnc_id>
     <sequence_source>NG_009824.2</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>James Ware</name>
         <address>Molecular Cardiology, Imperial College, London, UK</address>
         <email>j.ware@imperial.ac.uk</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -37,22 +29,22 @@
           <sequence>MDIAIHHPWIRRPFFPFHSPSRLFDQFFGEHLLESDLFPTSTSLSPFYLRPPSFLRAPSWFDTGLSEMRLEKDRFSVNLDVKHFSPEELKVKVLGDVIEVHGKHEERQDEHGFISREFHRKYRIPADVDPLTITSSLSSDGVLTVNGPRKQVSGPERTIPITREEKPAVTAAPKK</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_407" start="16974" end="17199" strand="1" />
-        <coordinates coord_system="LRG_407_t1" start="1" end="226" />
-        <coordinates coord_system="LRG_407_p1" start="1" end="67" />
+        <coordinates coord_system="LRG_407t1" start="1" end="226" />
+        <coordinates coord_system="LRG_407p1" start="1" end="67" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_407" start="18274" end="18396" strand="1" />
-        <coordinates coord_system="LRG_407_t1" start="227" end="349" />
-        <coordinates coord_system="LRG_407_p1" start="68" end="108" />
+        <coordinates coord_system="LRG_407t1" start="227" end="349" />
+        <coordinates coord_system="LRG_407p1" start="68" end="108" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_407" start="19756" end="20097" strand="1" />
-        <coordinates coord_system="LRG_407_t1" start="350" end="691" />
-        <coordinates coord_system="LRG_407_p1" start="109" end="175" />
+        <coordinates coord_system="LRG_407t1" start="350" end="691" />
+        <coordinates coord_system="LRG_407p1" start="109" end="175" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -67,8 +59,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="11" other_id="NC_000011.9" other_start="111777350" other_end="111799446">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="111777350" other_end="111799446">
         <mapping_span lrg_start="1" lrg_end="22097" other_start="111777350" other_end="111799446" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CRYAB</lrg_locus>
@@ -84,41 +76,22 @@
         </contact>
       </source>
       <comment>Annotation from NG_009824.2</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_407" start="16974" end="17199" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_407" start="18274" end="18396" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_407" start="19756" end="20097" />
-            <label>3</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_001885.1" other_name="NM_001885.1" other_id="NM_001885.1" other_start="1" other_end="691">
         <mapping_span lrg_start="16974" lrg_end="17199" other_start="1" other_end="226" strand="1" />
         <mapping_span lrg_start="18274" lrg_end="18396" other_start="227" other_end="349" strand="1" />
         <mapping_span lrg_start="19756" lrg_end="20097" other_start="350" other_end="691" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">CRYAB</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="100528019">
+          <symbol source="HGNC" name="HSPB2-C11orf52" />
           <coordinates coord_system="LRG_407" start="1852" end="15987" strand="-1" />
-          <partial>3-prime</partial>
-          <partial>5-prime</partial>
-          <symbol>HSPB2-C11orf52</symbol>
-          <long_name>HSPB2-C11orf52 readthrough (non-protein coding)</long_name>
+          <long_name>HSPB2-C11orf52 readthrough (NMD candidate)</long_name>
           <db_xref source="GeneID" accession="100528019" />
           <db_xref source="HGNC" accession="41996" />
           <transcript source="RefSeq" accession="NR_037651.1">
             <coordinates coord_system="LRG_407" start="1852" end="15987" strand="-1" />
-            <long_name>HSPB2-C11orf52 readthrough (non-protein coding)</long_name>
+            <long_name>HSPB2-C11orf52 readthrough (NMD candidate)</long_name>
             <db_xref source="GeneID" accession="100528019" />
             <db_xref source="GI" accession="315075290" />
             <exon source="RefSeq" accession="">
@@ -146,10 +119,8 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="91894">
+          <symbol source="HGNC" name="C11orf52" />
           <coordinates coord_system="LRG_407" start="1852" end="9846" strand="-1" />
-          <partial>3-prime</partial>
-          <partial>5-prime</partial>
-          <symbol>C11orf52</symbol>
           <long_name>chromosome 11 open reading frame 52</long_name>
           <db_xref source="GeneID" accession="91894" />
           <db_xref source="HGNC" accession="30531" />
@@ -180,14 +151,13 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="3316">
+          <symbol source="HGNC" name="HSPB2">
+            <synonym>Hs.78846</synonym>
+            <synonym>HSP27</synonym>
+            <synonym>LOH11CR1K</synonym>
+            <synonym>MKBP</synonym>
+          </symbol>
           <coordinates coord_system="LRG_407" start="14630" end="15987" strand="-1" />
-          <partial>3-prime</partial>
-          <partial>5-prime</partial>
-          <symbol>HSPB2</symbol>
-          <symbol>Hs.78846</symbol>
-          <symbol>HSP27</symbol>
-          <symbol>LOH11CR1K</symbol>
-          <symbol>MKBP</symbol>
           <long_name>heat shock 27kDa protein 2</long_name>
           <db_xref source="GeneID" accession="3316" />
           <db_xref source="HGNC" accession="5247" />
@@ -215,11 +185,15 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="1410">
+          <symbol source="HGNC" name="CRYAB">
+            <synonym>CMD1II</synonym>
+            <synonym>CRYA2</synonym>
+            <synonym>CTPP2</synonym>
+            <synonym>CTRCT16</synonym>
+            <synonym>HSPB5</synonym>
+            <synonym>MFM2</synonym>
+          </symbol>
           <coordinates coord_system="LRG_407" start="16974" end="20097" strand="1" />
-          <symbol>CRYAB</symbol>
-          <symbol>CRYA2</symbol>
-          <symbol>CTPP2</symbol>
-          <symbol>HSPB5</symbol>
           <long_name>crystallin, alpha B</long_name>
           <db_xref source="GeneID" accession="1410" />
           <db_xref source="HGNC" accession="2389" />
@@ -265,8 +239,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000227251.3" other_name="ENST00000227251.3" other_id="ENST00000227251.3" other_start="1" other_end="848">
         <mapping_span lrg_start="16713" lrg_end="16804" other_start="1" other_end="92" strand="1" />
         <mapping_span lrg_start="16906" lrg_end="17199" other_start="93" other_end="386" strand="1" />
@@ -348,9 +322,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000150764">
+          <symbol source="HGNC" name="DIXDC1" />
           <coordinates coord_system="LRG_407" start="1" end="1579" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">DIXDC1</symbol>
           <long_name>DIX domain containing 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="85458">
             <synonym>CCD1</synonym>
@@ -364,14 +338,15 @@
             <coordinates coord_system="LRG_407" start="1" end="1579" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>DIXDC1-002 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001278542.1" />
             <exon source="Ensembl" accession="ENSE00002185363">
               <coordinates coord_system="LRG_407" start="1336" end="1579" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000238965">
+          <symbol source="HGNC" name="RNA5SP351" />
           <coordinates coord_system="LRG_407" start="215" end="323" strand="-1" mapped_from="GRCh37" />
-          <symbol source="HGNC">RNA5SP351</symbol>
           <long_name>RNA, 5S ribosomal pseudogene 351 (rRNA)</long_name>
           <db_xref source="HGNC" accession="43251">
             <synonym>RN5S351</synonym>
@@ -387,8 +362,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000149300">
+          <symbol source="HGNC" name="C11orf52" />
           <coordinates coord_system="LRG_407" start="1851" end="10691" strand="-1" mapped_from="GRCh37" />
-          <symbol source="HGNC">C11orf52</symbol>
           <long_name>chromosome 11 open reading frame 52 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="91894" />
           <db_xref source="HGNC" accession="30531">
@@ -404,10 +379,10 @@
             <exon source="Ensembl" accession="ENSE00000996208">
               <coordinates coord_system="LRG_407" start="9719" end="9846" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003358898">
+            <exon source="Ensembl" accession="ENSE00003478044">
               <coordinates coord_system="LRG_407" start="4360" end="4397" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003300772">
+            <exon source="Ensembl" accession="ENSE00003493756">
               <coordinates coord_system="LRG_407" start="3009" end="3070" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002177727">
@@ -415,7 +390,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000278601">
               <coordinates coord_system="LRG_407" start="2524" end="9750" strand="-1" mapped_from="GRCh37" />
-              <long_name>uncharacterized protein C11orf52 </long_name>
+              <long_name>uncharacterized protein C11orf52</long_name>
               <db_xref source="RefSeq" accession="NP_542390.2" />
               <db_xref source="UniProtKB" accession="Q96A22" />
             </protein_product>
@@ -426,10 +401,10 @@
             <exon source="Ensembl" accession="ENSE00002175933">
               <coordinates coord_system="LRG_407" start="9464" end="9726" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003360866">
+            <exon source="Ensembl" accession="ENSE00003588761">
               <coordinates coord_system="LRG_407" start="4360" end="4397" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003283223">
+            <exon source="Ensembl" accession="ENSE00003564715">
               <coordinates coord_system="LRG_407" start="3009" end="3070" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002141632">
@@ -442,7 +417,7 @@
             <exon source="Ensembl" accession="ENSE00002168816">
               <coordinates coord_system="LRG_407" start="4360" end="4478" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003283223">
+            <exon source="Ensembl" accession="ENSE00003564715">
               <coordinates coord_system="LRG_407" start="3009" end="3070" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002147744">
@@ -458,10 +433,10 @@
             <exon source="Ensembl" accession="ENSE00002154213">
               <coordinates coord_system="LRG_407" start="9719" end="10028" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003358898">
+            <exon source="Ensembl" accession="ENSE00003478044">
               <coordinates coord_system="LRG_407" start="4360" end="4397" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003383008">
+            <exon source="Ensembl" accession="ENSE00003463947">
               <coordinates coord_system="LRG_407" start="3009" end="3070" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000436268">
@@ -470,9 +445,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000254445">
+          <symbol source="HGNC" name="HSPB2-C11orf52" />
           <coordinates coord_system="LRG_407" start="1852" end="15987" strand="-1" mapped_from="GRCh37" />
-          <symbol source="HGNC">HSPB2-C11orf52</symbol>
-          <long_name>HSPB2-C11orf52 readthrough (non-protein coding) (protein_coding)</long_name>
+          <long_name>HSPB2-C11orf52 readthrough (NMD candidate) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="3316">
             <synonym>Hs.78846</synonym>
             <synonym>HSP27</synonym>
@@ -492,10 +467,10 @@
             <exon source="Ensembl" accession="ENSE00002176361">
               <coordinates coord_system="LRG_407" start="9719" end="10045" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003422972">
+            <exon source="Ensembl" accession="ENSE00003684042">
               <coordinates coord_system="LRG_407" start="4360" end="4397" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003285852">
+            <exon source="Ensembl" accession="ENSE00003488103">
               <coordinates coord_system="LRG_407" start="3009" end="3070" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002186797">
@@ -509,13 +484,13 @@
             <coordinates coord_system="LRG_407" start="9873" end="15987" strand="-1" mapped_from="GRCh37" />
             <long_name>HSPB2-C11orf52-002 (nonsense_mediated_decay)</long_name>
             <db_xref source="CCDS" accession="CCDS8352.1" />
-            <exon source="Ensembl" accession="ENSE00003403752">
+            <exon source="Ensembl" accession="ENSE00003689264">
               <coordinates coord_system="LRG_407" start="15800" end="15987" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003398902">
+            <exon source="Ensembl" accession="ENSE00003494407">
               <coordinates coord_system="LRG_407" start="14752" end="15282" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003335139">
+            <exon source="Ensembl" accession="ENSE00003460541">
               <coordinates coord_system="LRG_407" start="9873" end="10045" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000457706">
@@ -527,10 +502,11 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000109846">
+          <symbol source="HGNC" name="CRYAB" />
           <coordinates coord_system="LRG_407" start="5001" end="20158" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">CRYAB</symbol>
           <long_name>crystallin, alpha B (protein_coding)</long_name>
           <db_xref source="GeneID" accession="1410">
+            <synonym>CMD1II</synonym>
             <synonym>CRYA2</synonym>
             <synonym>CTPP2</synonym>
             <synonym>HSPB5</synonym>
@@ -543,7 +519,7 @@
           <db_xref source="Ensembl" accession="ENSG00000109846" />
           <transcript source="Ensembl" accession="ENST00000527950">
             <coordinates coord_system="LRG_407" start="5001" end="20100" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens crystallin, alpha B (CRYAB), mRNA. (protein_coding)</long_name>
+            <long_name>CRYAB-013 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS8351.1" />
             <db_xref source="RefSeq" accession="NM_001885.1" />
             <exon source="Ensembl" accession="ENSE00002173870">
@@ -552,7 +528,7 @@
             <exon source="Ensembl" accession="ENSE00002159341">
               <coordinates coord_system="LRG_407" start="16801" end="17199" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003393871">
+            <exon source="Ensembl" accession="ENSE00003587544">
               <coordinates coord_system="LRG_407" start="18274" end="18396" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002145267">
@@ -560,7 +536,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000437149">
               <coordinates coord_system="LRG_407" start="16999" end="19959" strand="1" mapped_from="GRCh37" />
-              <long_name>alpha-crystallin B chain </long_name>
+              <long_name>alpha-crystallin B chain</long_name>
               <db_xref source="RefSeq" accession="NP_001876.1" />
               <db_xref source="UniProtKB" accession="P02511">
                 <synonym>B0YIX0</synonym>
@@ -575,7 +551,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000533475">
             <coordinates coord_system="LRG_407" start="14874" end="20100" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens crystallin, alpha B (CRYAB), mRNA. (protein_coding)</long_name>
+            <long_name>CRYAB-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS8351.1" />
             <db_xref source="RefSeq" accession="NM_001885.1" />
             <exon source="Ensembl" accession="ENSE00002189106">
@@ -584,7 +560,7 @@
             <exon source="Ensembl" accession="ENSE00002159341">
               <coordinates coord_system="LRG_407" start="16801" end="17199" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003393871">
+            <exon source="Ensembl" accession="ENSE00003587544">
               <coordinates coord_system="LRG_407" start="18274" end="18396" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002145267">
@@ -592,7 +568,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000433560">
               <coordinates coord_system="LRG_407" start="16999" end="19959" strand="1" mapped_from="GRCh37" />
-              <long_name>alpha-crystallin B chain </long_name>
+              <long_name>alpha-crystallin B chain</long_name>
               <db_xref source="RefSeq" accession="NP_001876.1" />
               <db_xref source="UniProtKB" accession="P02511">
                 <synonym>B0YIX0</synonym>
@@ -614,7 +590,7 @@
             <exon source="Ensembl" accession="ENSE00002159341">
               <coordinates coord_system="LRG_407" start="16801" end="17199" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003393871">
+            <exon source="Ensembl" accession="ENSE00003587544">
               <coordinates coord_system="LRG_407" start="18274" end="18396" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002173720">
@@ -633,7 +609,7 @@
             <exon source="Ensembl" accession="ENSE00002159341">
               <coordinates coord_system="LRG_407" start="16801" end="17199" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003393871">
+            <exon source="Ensembl" accession="ENSE00003587544">
               <coordinates coord_system="LRG_407" start="18274" end="18396" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002193833">
@@ -672,7 +648,7 @@
             <exon source="Ensembl" accession="ENSE00002159341">
               <coordinates coord_system="LRG_407" start="16801" end="17199" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003393871">
+            <exon source="Ensembl" accession="ENSE00003587544">
               <coordinates coord_system="LRG_407" start="18274" end="18396" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002156677">
@@ -709,13 +685,13 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000526180">
             <coordinates coord_system="LRG_407" start="16709" end="20158" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens crystallin, alpha B (CRYAB), mRNA. (protein_coding)</long_name>
+            <long_name>CRYAB-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS8351.1" />
             <db_xref source="RefSeq" accession="NM_001885.1" />
             <exon source="Ensembl" accession="ENSE00002150679">
               <coordinates coord_system="LRG_407" start="16709" end="17199" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003393871">
+            <exon source="Ensembl" accession="ENSE00003587544">
               <coordinates coord_system="LRG_407" start="18274" end="18396" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002176205">
@@ -723,7 +699,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000436051">
               <coordinates coord_system="LRG_407" start="16999" end="19959" strand="1" mapped_from="GRCh37" />
-              <long_name>alpha-crystallin B chain </long_name>
+              <long_name>alpha-crystallin B chain</long_name>
               <db_xref source="RefSeq" accession="NP_001876.1" />
               <db_xref source="UniProtKB" accession="P02511">
                 <synonym>B0YIX0</synonym>
@@ -746,7 +722,7 @@
             <exon source="Ensembl" accession="ENSE00002144464">
               <coordinates coord_system="LRG_407" start="16906" end="17199" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003393871">
+            <exon source="Ensembl" accession="ENSE00003587544">
               <coordinates coord_system="LRG_407" start="18274" end="18396" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002170773">
@@ -797,7 +773,7 @@
             <exon source="Ensembl" accession="ENSE00002173741">
               <coordinates coord_system="LRG_407" start="17863" end="17890" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003427727">
+            <exon source="Ensembl" accession="ENSE00003639956">
               <coordinates coord_system="LRG_407" start="18274" end="18396" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002173178">
@@ -813,7 +789,7 @@
             <exon source="Ensembl" accession="ENSE00002147920">
               <coordinates coord_system="LRG_407" start="17893" end="18089" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003427727">
+            <exon source="Ensembl" accession="ENSE00003639956">
               <coordinates coord_system="LRG_407" start="18274" end="18396" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002156974">
@@ -829,7 +805,7 @@
             <exon source="Ensembl" accession="ENSE00002197648">
               <coordinates coord_system="LRG_407" start="17979" end="18052" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003427727">
+            <exon source="Ensembl" accession="ENSE00003639956">
               <coordinates coord_system="LRG_407" start="18274" end="18396" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002166603">
@@ -854,9 +830,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000170276">
+          <symbol source="Uniprot_gn" name="HSPB2" />
           <coordinates coord_system="LRG_407" start="9873" end="16481" strand="-1" mapped_from="GRCh37" />
-          <symbol source="Uniprot_genename">HSPB2</symbol>
-          <long_name>Heat shock protein beta-2  [Source:UniProtKB/Swiss-Prot;Acc:Q16082] (protein_coding)</long_name>
+          <long_name>Homo sapiens heat shock 27kDa protein 2 (HSPB2), mRNA. [Source:RefSeq mRNA;Acc:NM_001541] (protein_coding)</long_name>
           <db_xref source="GeneID" accession="3316">
             <synonym>Hs.78846</synonym>
             <synonym>HSP27</synonym>
@@ -869,13 +845,13 @@
             <coordinates coord_system="LRG_407" start="9873" end="15987" strand="-1" mapped_from="GRCh37" />
             <long_name>HSPB2-201 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS8352.1" />
-            <exon source="Ensembl" accession="ENSE00003341653">
+            <exon source="Ensembl" accession="ENSE00003520486">
               <coordinates coord_system="LRG_407" start="15800" end="15987" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003305603">
+            <exon source="Ensembl" accession="ENSE00003608265">
               <coordinates coord_system="LRG_407" start="14752" end="15282" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003327168">
+            <exon source="Ensembl" accession="ENSE00003555001">
               <coordinates coord_system="LRG_407" start="9873" end="10045" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000445585">
@@ -887,7 +863,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000304298">
             <coordinates coord_system="LRG_407" start="14630" end="16481" strand="-1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens heat shock 27kDa protein 2 (HSPB2), mRNA. (protein_coding)</long_name>
+            <long_name>HSPB2-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS8352.1" />
             <db_xref source="RefSeq" accession="NM_001541.3" />
             <exon source="Ensembl" accession="ENSE00001130748">
@@ -898,7 +874,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000302476">
               <coordinates coord_system="LRG_407" start="14828" end="15893" strand="-1" mapped_from="GRCh37" />
-              <long_name>heat shock protein beta-2 </long_name>
+              <long_name>heat shock protein beta-2</long_name>
               <db_xref source="RefSeq" accession="NP_001532.1" />
               <db_xref source="UniProtKB" accession="Q16082">
                 <synonym>Q6I9U7</synonym>
@@ -913,7 +889,7 @@
         <name>List of locus specific databases for CRYAB</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CRYAB</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

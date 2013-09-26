@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_513</id>
+    <hgnc_id>9143</hgnc_id>
     <sequence_source>NG_008243.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Nazneen Rahman</name>
         <address>Institute of Cancer Research, Sutton, Surrey, UK</address>
         <email>Nazneen.Rahman@icr.ac.uk</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,22 +30,22 @@
           <sequence>MYKMEYSYLNSSAYESCMAGMDTSSLASAYADFSSCSQASGFQYNPIRTTFGATSGCPSLTPGSCSLGTLRDHQSSPYAAVPYKLFTDHGGLNEKRKQRRIRTTFTSAQLKELERVFAETHYPDIYTREELALKIDLTEARVQVWFQNRRAKFRKQERAAAAAAAAAKNGSSGKKSDSSRDDESKEAKSTDPDSTGGPGPNPNPTPSCGANGGGGGGPSPAGAPGAAGPGGPGGEPGKGGAAAAAAAAAAAAAAAAAAAAGGLAAAGGPGQGWAPGPGPITSIPDSLGGPFASVLSSLQRPNGAKAALVKSSMF</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_513" start="5001" end="5601" strand="1" />
-        <coordinates coord_system="LRG_513_t1" start="1" end="601" />
-        <coordinates coord_system="LRG_513_p1" start="1" end="81" />
+        <coordinates coord_system="LRG_513t1" start="1" end="601" />
+        <coordinates coord_system="LRG_513p1" start="1" end="81" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_513" start="6435" end="6622" strand="1" />
-        <coordinates coord_system="LRG_513_t1" start="602" end="789" />
-        <coordinates coord_system="LRG_513_p1" start="81" end="143" />
+        <coordinates coord_system="LRG_513t1" start="602" end="789" />
+        <coordinates coord_system="LRG_513p1" start="81" end="143" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_513" start="7649" end="9889" strand="1" />
-        <coordinates coord_system="LRG_513_t1" start="790" end="3030" />
-        <coordinates coord_system="LRG_513_p1" start="144" end="314" />
+        <coordinates coord_system="LRG_513t1" start="790" end="3030" />
+        <coordinates coord_system="LRG_513p1" start="144" end="314" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -68,8 +60,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="4" other_id="NC_000004.11" other_start="41744099" other_end="41755987">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="4" other_id="NC_000004.11" other_start="41744099" other_end="41755987">
         <mapping_span lrg_start="1" lrg_end="11889" other_start="41744099" other_end="41755987" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">PHOX2B</lrg_locus>
@@ -85,36 +77,20 @@
         </contact>
       </source>
       <comment>Annotation from NG_008243.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_513" start="5001" end="5601" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_513" start="6435" end="6622" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_513" start="7649" end="9889" />
-            <label>3</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_003924.3" other_name="NM_003924.3" other_id="NM_003924.3" other_start="1" other_end="3030">
         <mapping_span lrg_start="5001" lrg_end="5601" other_start="1" other_end="601" strand="1" />
         <mapping_span lrg_start="6435" lrg_end="6622" other_start="602" other_end="789" strand="1" />
         <mapping_span lrg_start="7649" lrg_end="9889" other_start="790" other_end="3030" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">PHOX2B</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="8929">
+          <symbol source="HGNC" name="PHOX2B">
+            <synonym>NBLST2</synonym>
+            <synonym>NBPhox</synonym>
+            <synonym>PMX2B</synonym>
+          </symbol>
           <coordinates coord_system="LRG_513" start="5001" end="9889" strand="1" />
-          <symbol>PHOX2B</symbol>
-          <symbol>NBLST2</symbol>
-          <symbol>NBPhox</symbol>
-          <symbol>PMX2B</symbol>
           <long_name>paired-like homeobox 2b</long_name>
           <db_xref source="GeneID" accession="8929" />
           <db_xref source="HGNC" accession="9143" />
@@ -160,8 +136,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000226382.2" other_name="ENST00000226382.2" other_id="ENST00000226382.2" other_start="1" other_end="3030">
         <mapping_span lrg_start="5001" lrg_end="5601" other_start="1" other_end="601" strand="1" />
         <mapping_span lrg_start="6435" lrg_end="6622" other_start="602" other_end="789" strand="1" />
@@ -174,9 +150,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000250467">
+          <symbol source="Clone_based_vega_gene" name="RP11-227F19.1" />
           <coordinates coord_system="LRG_513" start="1" end="5678" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="Clone_based_vega_gene">RP11-227F19.1</symbol>
           <long_name>RP11-227F19.1 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000250467" />
           <transcript source="Ensembl" accession="ENST00000508038">
@@ -189,23 +165,23 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000249122">
+          <symbol source="Clone_based_vega_gene" name="RP11-227F19.2" />
           <coordinates coord_system="LRG_513" start="1" end="3626" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="Clone_based_vega_gene">RP11-227F19.2</symbol>
-          <long_name>RP11-227F19.2 (antisense)</long_name>
+          <long_name>RP11-227F19.2 (lincRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000249122" />
           <transcript source="Ensembl" accession="ENST00000510602">
             <coordinates coord_system="LRG_513" start="1" end="3626" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>RP11-227F19.2-001 (antisense)</long_name>
+            <long_name>RP11-227F19.2-001 (lincRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00002037850">
               <coordinates coord_system="LRG_513" start="3574" end="3626" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000109132">
+          <symbol source="HGNC" name="PHOX2B" />
           <coordinates coord_system="LRG_513" start="5001" end="9889" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">PHOX2B</symbol>
           <long_name>paired-like homeobox 2b (protein_coding)</long_name>
           <db_xref source="GeneID" accession="8929">
             <synonym>NBLST2</synonym>
@@ -235,7 +211,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000226382">
               <coordinates coord_system="LRG_513" start="5361" end="8164" strand="1" mapped_from="GRCh37" />
-              <long_name>paired mesoderm homeobox protein 2B </long_name>
+              <long_name>paired mesoderm homeobox protein 2B</long_name>
               <db_xref source="RefSeq" accession="NP_003915.2" />
               <db_xref source="UniProtKB" accession="Q99453">
                 <synonym>Q6PJD9</synonym>
@@ -244,7 +220,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000510424">
             <coordinates coord_system="LRG_513" start="6264" end="7938" strand="1" mapped_from="GRCh37" />
-            <long_name>PHOX2B-003 (protein_coding)</long_name>
+            <long_name>PHOX2B-002 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00002029653">
               <coordinates coord_system="LRG_513" start="6264" end="6323" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -266,7 +242,7 @@
         <name>List of locus specific databases for PHOX2B</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PHOX2B</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_64</id>
+    <hgnc_id>16915</hgnc_id>
     <sequence_source>NG_007369.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -18,15 +19,6 @@
         <name>Mauno Vihinen</name>
         <address>University of Tampere, Finland</address>
         <email>Mauno.Vihinen@med.lu.se</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -44,46 +36,46 @@
           <sequence>MSLFDLFRGFFGFPGPRSHRDPFFGGMTRDEDDDEEEEEEGGSWGRGNPRFHSPQHPPEEFGFGFSFSPGGGIRFHDNFGFDDLVRDFNSIFSDMGAWTLPSHPPELPGPESETPGERLREGQTLRDSMLKYPDSHQPRIFGGVLESDARSESPQPAPDWGSQRPFHRFDDVWPMDPHPRTREDNDLDSQVSQEGLGPVLQPQPKSYFKSISVTKITKPDGIVEERRTVVDSEGRTETTVTRHEADSSPRGDPESPRPPALDDAFSILDLFLGRWFRSR</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_64" start="5001" end="5214" strand="1" />
-        <coordinates coord_system="LRG_64_t1" start="1" end="214" />
-        <coordinates coord_system="LRG_64_p1" start="1" end="18" />
+        <coordinates coord_system="LRG_64t1" start="1" end="214" />
+        <coordinates coord_system="LRG_64p1" start="1" end="18" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="2a">
         <coordinates coord_system="LRG_64" start="5774" end="6036" strand="1" />
-        <coordinates coord_system="LRG_64_t1" start="215" end="477" />
-        <coordinates coord_system="LRG_64_p1" start="18" end="106" />
+        <coordinates coord_system="LRG_64t1" start="215" end="477" />
+        <coordinates coord_system="LRG_64p1" start="18" end="106" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_64" start="6212" end="6399" strand="1" />
-        <coordinates coord_system="LRG_64_t1" start="478" end="665" />
-        <coordinates coord_system="LRG_64_p1" start="106" end="168" />
+        <coordinates coord_system="LRG_64t1" start="478" end="665" />
+        <coordinates coord_system="LRG_64p1" start="106" end="168" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_64" start="7388" end="7439" strand="1" />
-        <coordinates coord_system="LRG_64_t1" start="666" end="717" />
-        <coordinates coord_system="LRG_64_p1" start="169" end="186" />
+        <coordinates coord_system="LRG_64t1" start="666" end="717" />
+        <coordinates coord_system="LRG_64p1" start="169" end="186" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_64" start="7592" end="7698" strand="1" />
-        <coordinates coord_system="LRG_64_t1" start="718" end="824" />
-        <coordinates coord_system="LRG_64_p1" start="186" end="221" />
+        <coordinates coord_system="LRG_64t1" start="718" end="824" />
+        <coordinates coord_system="LRG_64p1" start="186" end="221" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_64" start="7831" end="7921" strand="1" />
-        <coordinates coord_system="LRG_64_t1" start="825" end="915" />
-        <coordinates coord_system="LRG_64_p1" start="222" end="252" />
+        <coordinates coord_system="LRG_64t1" start="825" end="915" />
+        <coordinates coord_system="LRG_64p1" start="222" end="252" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="7">
         <coordinates coord_system="LRG_64" start="8054" end="8313" strand="1" />
-        <coordinates coord_system="LRG_64_t1" start="916" end="1175" />
-        <coordinates coord_system="LRG_64_p1" start="252" end="279" />
+        <coordinates coord_system="LRG_64t1" start="916" end="1175" />
+        <coordinates coord_system="LRG_64p1" start="252" end="279" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -98,8 +90,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="1" other_id="NC_000001.10" other_start="154240039" other_end="154250351">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="154240039" other_end="154250351">
         <mapping_span lrg_start="1" lrg_end="10313" other_start="154240039" other_end="154250351" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">HAX1</lrg_locus>
@@ -115,39 +107,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007369.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_64" start="5001" end="5214" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_64" start="5774" end="6036" />
-            <label>2a</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_64" start="6212" end="6399" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_64" start="7388" end="7439" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_64" start="7592" end="7698" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_64" start="7831" end="7921" />
-            <label>6</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_64" start="8054" end="8313" />
-            <label>7</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_001018837.1" other_name="NM_001018837.1" other_id="NM_001018837.1" other_start="1" other_end="1031">
         <mapping_span lrg_start="5001" lrg_end="5214" other_start="1" other_end="214" strand="1" />
         <mapping_span lrg_start="5918" lrg_end="6036" other_start="215" other_end="333" strand="1" />
@@ -166,13 +126,13 @@
         <mapping_span lrg_start="7831" lrg_end="7921" other_start="825" other_end="915" strand="1" />
         <mapping_span lrg_start="8054" lrg_end="8313" other_start="916" other_end="1175" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">HAX1</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="9898">
+          <symbol source="HGNC" name="UBAP2L">
+            <synonym>NICE-4</synonym>
+          </symbol>
           <coordinates coord_system="LRG_64" start="1" end="3291" strand="1" />
           <partial>5-prime</partial>
-          <symbol>UBAP2L</symbol>
-          <symbol>NICE-4</symbol>
           <long_name>ubiquitin associated protein 2-like</long_name>
           <db_xref source="GeneID" accession="9898" />
           <db_xref source="HGNC" accession="29877" />
@@ -202,11 +162,12 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="10456">
+          <symbol source="HGNC" name="HAX1">
+            <synonym>HCLSBP1</synonym>
+            <synonym>HS1BP1</synonym>
+            <synonym>SCN3</synonym>
+          </symbol>
           <coordinates coord_system="LRG_64" start="5001" end="8313" strand="1" />
-          <symbol>HAX1</symbol>
-          <symbol>HCLSBP1</symbol>
-          <symbol>HS1BP1</symbol>
-          <symbol>SCN3</symbol>
           <long_name>HCLS1 associated protein X-1</long_name>
           <db_xref source="GeneID" accession="10456" />
           <db_xref source="HGNC" accession="16915" />
@@ -255,6 +216,40 @@
               <db_xref source="GI" accession="13435356" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_001018837.1">
+            <coordinates coord_system="LRG_64" start="5001" end="8313" strand="1" />
+            <long_name>HCLS1 associated protein X-1, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="10456" />
+            <db_xref source="GI" accession="66363693" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_64" start="5001" end="5214" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_64" start="5918" end="6036" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_64" start="6212" end="6399" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_64" start="7388" end="7439" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_64" start="7592" end="7698" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_64" start="7831" end="7921" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_64" start="8054" end="8313" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001018238.1">
+              <coordinates coord_system="LRG_64" start="5162" end="8139" strand="1" />
+              <long_name>HCLS1-associated protein X-1 isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS44230.1" />
+              <db_xref source="GeneID" accession="10456" />
+              <db_xref source="GI" accession="66363694" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -268,8 +263,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000328703.7" other_name="ENST00000328703.7" other_id="ENST00000328703.7" other_start="1" other_end="1227">
         <mapping_span lrg_start="4949" lrg_end="5214" other_start="1" other_end="266" strand="1" />
         <mapping_span lrg_start="5774" lrg_end="6036" other_start="267" other_end="529" strand="1" />
@@ -356,9 +351,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000143569">
+          <symbol source="HGNC" name="UBAP2L" />
           <coordinates coord_system="LRG_64" start="1" end="3948" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">UBAP2L</symbol>
           <long_name>ubiquitin associated protein 2-like (protein_coding)</long_name>
           <db_xref source="GeneID" accession="9898">
             <synonym>NICE-4</synonym>
@@ -416,7 +411,7 @@
             <exon source="Ensembl" accession="ENSE00001594242">
               <coordinates coord_system="LRG_64" start="1195" end="1392" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003446571">
+            <exon source="Ensembl" accession="ENSE00003538829">
               <coordinates coord_system="LRG_64" start="1800" end="1850" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001682153">
@@ -431,10 +426,10 @@
             <coordinates coord_system="LRG_64" start="1" end="3611" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>UBAP2L-014 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003348107">
+            <exon source="Ensembl" accession="ENSE00003543836">
               <coordinates coord_system="LRG_64" start="1198" end="1392" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003446034">
+            <exon source="Ensembl" accession="ENSE00003684911">
               <coordinates coord_system="LRG_64" start="1800" end="1850" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001941537">
@@ -453,7 +448,7 @@
             <coordinates coord_system="LRG_64" start="1" end="3447" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>UBAP2L-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003236503">
+            <exon source="Ensembl" accession="ENSE00003568321">
               <coordinates coord_system="LRG_64" start="1198" end="1392" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001277075">
@@ -479,7 +474,7 @@
             <protein_product source="Ensembl" accession="ENSP00000389445">
               <coordinates coord_system="LRG_64" start="1" end="2733" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>ubiquitin-associated protein 2-like isoform a </long_name>
+              <long_name>ubiquitin-associated protein 2-like isoform a</long_name>
               <db_xref source="RefSeq" accession="NP_055662.3" />
               <db_xref source="UniProtKB" accession="Q14157">
                 <synonym>B4E0U8</synonym>
@@ -495,8 +490,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000143575">
+          <symbol source="HGNC" name="HAX1" />
           <coordinates coord_system="LRG_64" start="4949" end="8313" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">HAX1</symbol>
           <long_name>HCLS1 associated protein X-1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="10456">
             <synonym>HCLSBP1</synonym>
@@ -520,24 +515,24 @@
             <exon source="Ensembl" accession="ENSE00000960959">
               <coordinates coord_system="LRG_64" start="5774" end="6036" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003364981">
+            <exon source="Ensembl" accession="ENSE00003608393">
               <coordinates coord_system="LRG_64" start="6212" end="6399" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003365711">
+            <exon source="Ensembl" accession="ENSE00003603643">
               <coordinates coord_system="LRG_64" start="7388" end="7439" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003328604">
+            <exon source="Ensembl" accession="ENSE00003488242">
               <coordinates coord_system="LRG_64" start="7592" end="7698" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003417626">
+            <exon source="Ensembl" accession="ENSE00003683047">
               <coordinates coord_system="LRG_64" start="7831" end="7921" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003427822">
+            <exon source="Ensembl" accession="ENSE00003684253">
               <coordinates coord_system="LRG_64" start="8054" end="8313" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000329002">
               <coordinates coord_system="LRG_64" start="5162" end="8139" strand="1" mapped_from="GRCh37" />
-              <long_name>HCLS1-associated protein X-1 isoform a </long_name>
+              <long_name>HCLS1-associated protein X-1 isoform a</long_name>
               <db_xref source="RefSeq" accession="NP_006109.2" />
               <db_xref source="UniProtKB" accession="O00165">
                 <synonym>A8W4W9</synonym>
@@ -561,16 +556,16 @@
             <exon source="Ensembl" accession="ENSE00001653745">
               <coordinates coord_system="LRG_64" start="5918" end="6036" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003364981">
+            <exon source="Ensembl" accession="ENSE00003608393">
               <coordinates coord_system="LRG_64" start="6212" end="6399" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003365711">
+            <exon source="Ensembl" accession="ENSE00003603643">
               <coordinates coord_system="LRG_64" start="7388" end="7439" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003328604">
+            <exon source="Ensembl" accession="ENSE00003488242">
               <coordinates coord_system="LRG_64" start="7592" end="7698" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003417626">
+            <exon source="Ensembl" accession="ENSE00003683047">
               <coordinates coord_system="LRG_64" start="7831" end="7921" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002151762">
@@ -578,7 +573,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000411448">
               <coordinates coord_system="LRG_64" start="5162" end="8139" strand="1" mapped_from="GRCh37" />
-              <long_name>HCLS1-associated protein X-1 isoform b </long_name>
+              <long_name>HCLS1-associated protein X-1 isoform b</long_name>
               <db_xref source="RefSeq" accession="NP_001018238.1" />
               <db_xref source="UniProtKB" accession="O00165">
                 <synonym>A8W4W9</synonym>
@@ -603,16 +598,16 @@
             <exon source="Ensembl" accession="ENSE00001683939">
               <coordinates coord_system="LRG_64" start="6188" end="6399" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003365711">
+            <exon source="Ensembl" accession="ENSE00003603643">
               <coordinates coord_system="LRG_64" start="7388" end="7439" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003328604">
+            <exon source="Ensembl" accession="ENSE00003488242">
               <coordinates coord_system="LRG_64" start="7592" end="7698" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003417626">
+            <exon source="Ensembl" accession="ENSE00003683047">
               <coordinates coord_system="LRG_64" start="7831" end="7921" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003405884">
+            <exon source="Ensembl" accession="ENSE00003653222">
               <coordinates coord_system="LRG_64" start="8054" end="8311" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000435088">
@@ -637,16 +632,16 @@
             <exon source="Ensembl" accession="ENSE00001598361">
               <coordinates coord_system="LRG_64" start="5774" end="5972" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003371501">
+            <exon source="Ensembl" accession="ENSE00003626329">
               <coordinates coord_system="LRG_64" start="6212" end="6399" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003303812">
+            <exon source="Ensembl" accession="ENSE00003506866">
               <coordinates coord_system="LRG_64" start="7388" end="7439" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003233359">
+            <exon source="Ensembl" accession="ENSE00003608288">
               <coordinates coord_system="LRG_64" start="7592" end="7698" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003291174">
+            <exon source="Ensembl" accession="ENSE00003569654">
               <coordinates coord_system="LRG_64" start="7831" end="7921" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002142795">
@@ -674,16 +669,16 @@
             <exon source="Ensembl" accession="ENSE00001842921">
               <coordinates coord_system="LRG_64" start="5774" end="6399" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003296073">
+            <exon source="Ensembl" accession="ENSE00003659899">
               <coordinates coord_system="LRG_64" start="7388" end="7439" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003434460">
+            <exon source="Ensembl" accession="ENSE00003502818">
               <coordinates coord_system="LRG_64" start="7592" end="7698" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003291174">
+            <exon source="Ensembl" accession="ENSE00003569654">
               <coordinates coord_system="LRG_64" start="7831" end="7921" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003339279">
+            <exon source="Ensembl" accession="ENSE00003660144">
               <coordinates coord_system="LRG_64" start="8054" end="8313" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -703,22 +698,22 @@
           <transcript source="Ensembl" accession="ENST00000435087">
             <coordinates coord_system="LRG_64" start="5106" end="7921" strand="1" mapped_from="GRCh37" />
             <long_name>HAX1-006 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003403435">
+            <exon source="Ensembl" accession="ENSE00003680593">
               <coordinates coord_system="LRG_64" start="5106" end="5214" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001598361">
               <coordinates coord_system="LRG_64" start="5774" end="5972" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003371501">
+            <exon source="Ensembl" accession="ENSE00003626329">
               <coordinates coord_system="LRG_64" start="6212" end="6399" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003303812">
+            <exon source="Ensembl" accession="ENSE00003506866">
               <coordinates coord_system="LRG_64" start="7388" end="7439" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001595629">
               <coordinates coord_system="LRG_64" start="7516" end="7698" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003367282">
+            <exon source="Ensembl" accession="ENSE00003654325">
               <coordinates coord_system="LRG_64" start="7831" end="7921" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000394920">
@@ -728,19 +723,19 @@
           <transcript source="Ensembl" accession="ENST00000532105">
             <coordinates coord_system="LRG_64" start="5106" end="8277" strand="1" mapped_from="GRCh37" />
             <long_name>HAX1-013 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003255779">
+            <exon source="Ensembl" accession="ENSE00003610745">
               <coordinates coord_system="LRG_64" start="5106" end="5214" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003377343">
+            <exon source="Ensembl" accession="ENSE00003636391">
               <coordinates coord_system="LRG_64" start="6212" end="6399" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003365711">
+            <exon source="Ensembl" accession="ENSE00003603643">
               <coordinates coord_system="LRG_64" start="7388" end="7439" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003328604">
+            <exon source="Ensembl" accession="ENSE00003488242">
               <coordinates coord_system="LRG_64" start="7592" end="7698" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003417626">
+            <exon source="Ensembl" accession="ENSE00003683047">
               <coordinates coord_system="LRG_64" start="7831" end="7921" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002173468">
@@ -756,13 +751,13 @@
             <exon source="Ensembl" accession="ENSE00001932089">
               <coordinates coord_system="LRG_64" start="5306" end="6036" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003408815">
+            <exon source="Ensembl" accession="ENSE00003495981">
               <coordinates coord_system="LRG_64" start="6212" end="6399" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003296073">
+            <exon source="Ensembl" accession="ENSE00003659899">
               <coordinates coord_system="LRG_64" start="7388" end="7439" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003434460">
+            <exon source="Ensembl" accession="ENSE00003502818">
               <coordinates coord_system="LRG_64" start="7592" end="7698" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001943601">
@@ -775,13 +770,13 @@
             <exon source="Ensembl" accession="ENSE00001925213">
               <coordinates coord_system="LRG_64" start="6307" end="6399" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003296073">
+            <exon source="Ensembl" accession="ENSE00003659899">
               <coordinates coord_system="LRG_64" start="7388" end="7439" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001852809">
               <coordinates coord_system="LRG_64" start="7592" end="7921" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003310123">
+            <exon source="Ensembl" accession="ENSE00003563146">
               <coordinates coord_system="LRG_64" start="8054" end="8311" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -794,10 +789,10 @@
             <exon source="Ensembl" accession="ENSE00001921481">
               <coordinates coord_system="LRG_64" start="7388" end="7698" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003291174">
+            <exon source="Ensembl" accession="ENSE00003569654">
               <coordinates coord_system="LRG_64" start="7831" end="7921" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003339279">
+            <exon source="Ensembl" accession="ENSE00003660144">
               <coordinates coord_system="LRG_64" start="8054" end="8313" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -809,7 +804,7 @@
         <name>List of locus specific databases for HAX1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HAX1</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_485</id>
+    <hgnc_id>2482</hgnc_id>
     <sequence_source>NG_011545.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -36,22 +37,22 @@
           <sequence>MMCGAPSATQPATAETQHIADQVRSQLEEKENKKFPVFKAVSFKSQVVAGTNYFIKVHVGDEDFVHLRVFQSLPHENKPLTLSNYQTNKAKHDELTYF</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_485" start="5004" end="5175" strand="1" />
-        <coordinates coord_system="LRG_485_t1" start="1" end="172" />
-        <coordinates coord_system="LRG_485_p1" start="1" end="22" />
+        <coordinates coord_system="LRG_485t1" start="1" end="172" />
+        <coordinates coord_system="LRG_485p1" start="1" end="22" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_485" start="6620" end="6721" strand="1" />
-        <coordinates coord_system="LRG_485_t1" start="173" end="274" />
-        <coordinates coord_system="LRG_485_p1" start="23" end="56" />
+        <coordinates coord_system="LRG_485t1" start="173" end="274" />
+        <coordinates coord_system="LRG_485p1" start="23" end="56" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_485" start="7049" end="7714" strand="1" />
-        <coordinates coord_system="LRG_485_t1" start="275" end="940" />
-        <coordinates coord_system="LRG_485_p1" start="57" end="98" />
+        <coordinates coord_system="LRG_485t1" start="275" end="940" />
+        <coordinates coord_system="LRG_485p1" start="57" end="98" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -66,8 +67,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-05-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="21" other_id="NC_000021.8" other_start="45191831" other_end="45201259">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="21" other_id="NC_000021.8" other_start="45191831" other_end="45201259">
         <mapping_span lrg_start="1" lrg_end="9429" other_start="45191831" other_end="45201259" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CSTB</lrg_locus>
@@ -83,39 +84,23 @@
         </contact>
       </source>
       <comment>Annotation from NG_011545.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_485" start="5004" end="5175" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_485" start="6620" end="6721" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_485" start="7049" end="7714" />
-            <label>3</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_000100.3" other_name="NM_000100.3" other_id="NM_000100.3" other_start="1" other_end="940">
         <mapping_span lrg_start="5004" lrg_end="5175" other_start="1" other_end="172" strand="1" />
         <mapping_span lrg_start="6620" lrg_end="6721" other_start="173" other_end="274" strand="1" />
         <mapping_span lrg_start="7049" lrg_end="7714" other_start="275" other_end="940" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">CSTB</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="1476">
+          <symbol source="HGNC" name="CSTB">
+            <synonym>CST6</synonym>
+            <synonym>EPM1</synonym>
+            <synonym>EPM1A</synonym>
+            <synonym>PME</synonym>
+            <synonym>STFB</synonym>
+            <synonym>ULD</synonym>
+          </symbol>
           <coordinates coord_system="LRG_485" start="5004" end="7714" strand="1" />
-          <symbol>CSTB</symbol>
-          <symbol>CST6</symbol>
-          <symbol>EPM1</symbol>
-          <symbol>EPM1A</symbol>
-          <symbol>PME</symbol>
-          <symbol>STFB</symbol>
-          <symbol>ULD</symbol>
           <long_name>cystatin B (stefin B)</long_name>
           <db_xref source="GeneID" accession="1476" />
           <db_xref source="HGNC" accession="2482" />
@@ -159,8 +144,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-05-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000291568.5" other_name="ENST00000291568.5" other_id="ENST00000291568.5" other_start="1" other_end="2163">
         <mapping_span lrg_start="4934" lrg_end="5175" other_start="1" other_end="242" strand="1" />
         <mapping_span lrg_start="6620" lrg_end="6721" other_start="243" other_end="344" strand="1" />
@@ -172,8 +157,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000160213">
+          <symbol source="HGNC" name="CSTB" />
           <coordinates coord_system="LRG_485" start="4934" end="8867" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">CSTB</symbol>
           <long_name>cystatin B (stefin B) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="1476">
             <synonym>CST6</synonym>
@@ -209,7 +194,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000291568">
               <coordinates coord_system="LRG_485" start="5110" end="7177" strand="1" mapped_from="GRCh37" />
-              <long_name>cystatin-B </long_name>
+              <long_name>cystatin-B</long_name>
               <db_xref source="RefSeq" accession="NP_000091.1" />
               <db_xref source="UniProtKB" accession="P04080" />
             </protein_product>
@@ -232,7 +217,7 @@
         <name>List of locus specific databases for CSTB</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CSTB</url>
       </source>
-      <modification_date>2013-06-21</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

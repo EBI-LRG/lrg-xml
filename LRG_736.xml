@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_736</id>
+    <hgnc_id>686</hgnc_id>
     <sequence_source>NG_033255.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -28,18 +29,18 @@
           <sequence>MLSSIKCVLVGDSAVGKTSLLVRFTSETFPEAYKPTVYENTGVDVFMDGIQISLGLWDTAGNDAFRSIRPLSYQQADVVLMCYSVANHNSFLNLKNKWIGEIRSNLPCTPVLVVATQTDQREMGPHRASCVNAMEGKKLAQDVRAKGYLECSALSNRGVQQVFECAVRTAVNQARRRNRRRLFSINECKIF</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_736" start="10897" end="11290" strand="1" />
-        <coordinates coord_system="LRG_736_t1" start="1" end="394" />
+        <coordinates coord_system="LRG_736t1" start="1" end="394" />
       </exon>
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_736" start="56704" end="56824" strand="1" />
-        <coordinates coord_system="LRG_736_t1" start="395" end="515" />
+        <coordinates coord_system="LRG_736t1" start="395" end="515" />
       </exon>
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_736" start="57168" end="58754" strand="1" />
-        <coordinates coord_system="LRG_736_t1" start="516" end="2102" />
-        <coordinates coord_system="LRG_736_p1" start="1" end="191" />
+        <coordinates coord_system="LRG_736t1" start="516" end="2102" />
+        <coordinates coord_system="LRG_736p1" start="1" end="191" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -54,8 +55,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-06-06</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="4" other_id="NC_000004.11" other_start="40187631" other_end="40248384">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="4" other_id="NC_000004.11" other_start="40187631" other_end="40248384">
         <mapping_span lrg_start="1" lrg_end="60754" other_start="40187631" other_end="40248384" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">RHOH</lrg_locus>
@@ -71,23 +72,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_033255.1</comment>
-      <modification_date>2013-06-03</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="LRG-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_736" start="10897" end="11290" />
-            <label>4a</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_736" start="56704" end="56824" />
-            <label>9a</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_736" start="57168" end="58754" />
-            <label>10</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_001278359.1" other_name="NM_001278359.1" other_id="NM_001278359.1" other_start="1" other_end="2268">
         <mapping_span lrg_start="10897" lrg_end="11290" other_start="1" other_end="394" strand="1" />
         <mapping_span lrg_start="49183" lrg_end="49348" other_start="395" other_end="560" strand="1" />
@@ -156,19 +141,285 @@
         <mapping_span lrg_start="56704" lrg_end="56824" other_start="395" other_end="515" strand="1" />
         <mapping_span lrg_start="57168" lrg_end="58754" other_start="516" other_end="2102" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">RHOH</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="399">
+          <symbol source="HGNC" name="RHOH">
+            <synonym>ARHH</synonym>
+            <synonym>TTF</synonym>
+          </symbol>
           <coordinates coord_system="LRG_736" start="5001" end="58754" strand="1" />
-          <symbol source="HGNC">RHOH</symbol>
-          <symbol>ARHH</symbol>
-          <symbol>TTF</symbol>
           <long_name>ras homolog family member H</long_name>
           <db_xref source="GeneID" accession="399" />
           <db_xref source="HGNC" accession="686" />
           <db_xref source="MIM" accession="602037" />
           <db_xref source="CCDS" accession="CCDS3458.1" />
           <db_xref source="GI" accession="508772640" />
+          <transcript source="RefSeq" accession="NM_001278368.1">
+            <coordinates coord_system="LRG_736" start="5001" end="58754" strand="1" />
+            <long_name>ras homolog family member H, transcript variant 11</long_name>
+            <db_xref source="GeneID" accession="399" />
+            <db_xref source="GI" accession="507834096" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="5001" end="5328" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="56704" end="56824" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="57168" end="58754" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001265297.1">
+              <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" />
+              <long_name>rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS3458.1" />
+              <db_xref source="GeneID" accession="399" />
+              <db_xref source="GI" accession="507834097" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001278365.1">
+            <coordinates coord_system="LRG_736" start="6957" end="58754" strand="1" />
+            <long_name>ras homolog family member H, transcript variant 8</long_name>
+            <db_xref source="GeneID" accession="399" />
+            <db_xref source="GI" accession="507834090" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="6957" end="7113" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="11091" end="11290" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="56704" end="56824" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="57168" end="58754" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001265294.1">
+              <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" />
+              <long_name>rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS3458.1" />
+              <db_xref source="GeneID" accession="399" />
+              <db_xref source="GI" accession="507834091" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001278364.1">
+            <coordinates coord_system="LRG_736" start="6957" end="58754" strand="1" />
+            <long_name>ras homolog family member H, transcript variant 7</long_name>
+            <db_xref source="GeneID" accession="399" />
+            <db_xref source="GI" accession="507834088" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="6957" end="7113" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="11111" end="11290" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="49167" end="49348" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="56704" end="56824" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="57168" end="58754" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001265293.1">
+              <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" />
+              <long_name>rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS3458.1" />
+              <db_xref source="GeneID" accession="399" />
+              <db_xref source="GI" accession="507834089" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001278366.1">
+            <coordinates coord_system="LRG_736" start="6957" end="58754" strand="1" />
+            <long_name>ras homolog family member H, transcript variant 9</long_name>
+            <db_xref source="GeneID" accession="399" />
+            <db_xref source="GI" accession="507834092" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="6957" end="7113" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="11111" end="11290" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="56704" end="56824" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="57168" end="58754" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001265295.1">
+              <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" />
+              <long_name>rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS3458.1" />
+              <db_xref source="GeneID" accession="399" />
+              <db_xref source="GI" accession="507834093" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001278367.1">
+            <coordinates coord_system="LRG_736" start="6957" end="58754" strand="1" />
+            <long_name>ras homolog family member H, transcript variant 10</long_name>
+            <db_xref source="GeneID" accession="399" />
+            <db_xref source="GI" accession="507834094" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="6957" end="7113" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="56704" end="56824" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="57168" end="58754" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001265296.1">
+              <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" />
+              <long_name>rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS3458.1" />
+              <db_xref source="GeneID" accession="399" />
+              <db_xref source="GI" accession="507834095" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001278369.1">
+            <coordinates coord_system="LRG_736" start="7639" end="58754" strand="1" />
+            <long_name>ras homolog family member H, transcript variant 12</long_name>
+            <db_xref source="GeneID" accession="399" />
+            <db_xref source="GI" accession="507834098" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="7639" end="7802" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="56704" end="56824" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="57168" end="58754" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001265298.1">
+              <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" />
+              <long_name>rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS3458.1" />
+              <db_xref source="GeneID" accession="399" />
+              <db_xref source="GI" accession="507834099" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001278362.1">
+            <coordinates coord_system="LRG_736" start="10897" end="58754" strand="1" />
+            <long_name>ras homolog family member H, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="399" />
+            <db_xref source="GI" accession="507834083" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="10897" end="11290" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="14502" end="14555" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="56704" end="56824" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="57168" end="58754" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001265291.1">
+              <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" />
+              <long_name>rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS3458.1" />
+              <db_xref source="GeneID" accession="399" />
+              <db_xref source="GI" accession="507834084" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001278361.1">
+            <coordinates coord_system="LRG_736" start="10897" end="58754" strand="1" />
+            <long_name>ras homolog family member H, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="399" />
+            <db_xref source="GI" accession="507834081" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="10897" end="11290" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="26654" end="26781" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="56704" end="56824" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="57168" end="58754" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001265290.1">
+              <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" />
+              <long_name>rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS3458.1" />
+              <db_xref source="GeneID" accession="399" />
+              <db_xref source="GI" accession="507834082" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001278360.1">
+            <coordinates coord_system="LRG_736" start="10897" end="58754" strand="1" />
+            <long_name>ras homolog family member H, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="399" />
+            <db_xref source="GI" accession="507834079" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="10897" end="11290" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="32137" end="32288" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="56704" end="56824" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="57168" end="58754" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001265289.1">
+              <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" />
+              <long_name>rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS3458.1" />
+              <db_xref source="GeneID" accession="399" />
+              <db_xref source="GI" accession="507834080" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001278359.1">
+            <coordinates coord_system="LRG_736" start="10897" end="58754" strand="1" />
+            <long_name>ras homolog family member H, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="399" />
+            <db_xref source="GI" accession="507834077" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="10897" end="11290" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="49183" end="49348" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="56704" end="56824" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="57168" end="58754" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001265288.1">
+              <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" />
+              <long_name>rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS3458.1" />
+              <db_xref source="GeneID" accession="399" />
+              <db_xref source="GI" accession="507834078" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001278363.1">
+            <coordinates coord_system="LRG_736" start="10897" end="58754" strand="1" />
+            <long_name>ras homolog family member H, transcript variant 5</long_name>
+            <db_xref source="GeneID" accession="399" />
+            <db_xref source="GI" accession="507834085" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="10897" end="11290" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="56704" end="56836" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_736" start="57168" end="58754" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001265292.1">
+              <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" />
+              <long_name>rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS3458.1" />
+              <db_xref source="GeneID" accession="399" />
+              <db_xref source="GI" accession="507834086" />
+            </protein_product>
+          </transcript>
           <transcript source="RefSeq" accession="NM_004310.4" fixed_id="t1">
             <coordinates coord_system="LRG_736" start="10897" end="58754" strand="1" />
             <long_name>ras homolog family member H, transcript variant 6</long_name>
@@ -208,8 +459,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-06-06</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000381799.4" other_name="ENST00000381799.4" other_id="ENST00000381799.4" other_start="1" other_end="1999">
         <mapping_span lrg_start="10897" lrg_end="11290" other_start="1" other_end="394" strand="1" />
         <mapping_span lrg_start="56704" lrg_end="56824" other_start="395" other_end="515" strand="1" />
@@ -299,8 +550,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000168421">
+          <symbol source="HGNC" name="RHOH" />
           <coordinates coord_system="LRG_736" start="5043" end="58651" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">RHOH</symbol>
           <long_name>ras homolog family member H (protein_coding)</long_name>
           <db_xref source="GeneID" accession="399">
             <synonym>ARHH</synonym>
@@ -328,6 +579,16 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000425010">
               <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" mapped_from="GRCh37" />
+              <long_name>rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001265288.1" />
+              <db_xref source="RefSeq" accession="NP_001265289.1" />
+              <db_xref source="RefSeq" accession="NP_001265290.1" />
+              <db_xref source="RefSeq" accession="NP_001265291.1" />
+              <db_xref source="RefSeq" accession="NP_001265293.1" />
+              <db_xref source="RefSeq" accession="NP_001265296.1" />
+              <db_xref source="RefSeq" accession="NP_001265295.1" />
+              <db_xref source="RefSeq" accession="NP_001265297.1" />
+              <db_xref source="RefSeq" accession="NP_001265298.1" />
               <db_xref source="UniProtKB" accession="Q15669" />
             </protein_product>
           </transcript>
@@ -421,6 +682,8 @@
             <coordinates coord_system="LRG_736" start="10897" end="58651" strand="1" mapped_from="GRCh37" />
             <long_name>RHOH-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS3458.1" />
+            <db_xref source="RefSeq" accession="NM_001278363.1" />
+            <db_xref source="RefSeq" accession="NM_001278365.1" />
             <db_xref source="RefSeq" accession="NM_004310.3" />
             <exon source="Ensembl" accession="ENSE00002062069">
               <coordinates coord_system="LRG_736" start="10897" end="11290" strand="1" mapped_from="GRCh37" />
@@ -433,8 +696,19 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000371219">
               <coordinates coord_system="LRG_736" start="57377" end="57952" strand="1" mapped_from="GRCh37" />
-              <long_name>rho-related GTP-binding protein RhoH precursor </long_name>
+              <long_name>rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor, rho-related GTP-binding protein RhoH precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001265288.1" />
+              <db_xref source="RefSeq" accession="NP_001265289.1" />
+              <db_xref source="RefSeq" accession="NP_001265290.1" />
+              <db_xref source="RefSeq" accession="NP_001265291.1" />
+              <db_xref source="RefSeq" accession="NP_001265292.1" />
+              <db_xref source="RefSeq" accession="NP_001265293.1" />
               <db_xref source="RefSeq" accession="NP_004301.1" />
+              <db_xref source="RefSeq" accession="NP_001265294.1" />
+              <db_xref source="RefSeq" accession="NP_001265296.1" />
+              <db_xref source="RefSeq" accession="NP_001265295.1" />
+              <db_xref source="RefSeq" accession="NP_001265297.1" />
+              <db_xref source="RefSeq" accession="NP_001265298.1" />
               <db_xref source="UniProtKB" accession="Q15669" />
             </protein_product>
           </transcript>
@@ -575,7 +849,7 @@
         <name>List of locus specific databases for RHOH</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RHOH</url>
       </source>
-      <modification_date>2013-06-06</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

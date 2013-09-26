@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_163</id>
+    <hgnc_id>10031</hgnc_id>
     <sequence_source>NG_017041.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Sujatha Mohan</name>
         <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
         <email>sujatha@rcai.riken.jp</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -32,9 +24,9 @@
       <cdna>
         <sequence>GGTTCGTGCTGAAGGCCTGTATCCTAGGCTACACACTGAGGACTCTGTTCCTCCCCTTTCCGCCTAGGGGAAAGTCCCCGGACCTCGGGCAGAGAGTGCCACGTGCATACGCACGTAGACATTCCCCGCTTCCCACTCCAAAGTCCGCCAAGAAGCGTATCCCGCTGAGCGGCGTGGCGCGGGGGCGTCATCCGTCAGCTCCCTCTAGTTACGCAGGCAGTGCGTGTCCGCGCACCAACCACACGGGGCTCATTCTCAGCGCGGCTGT</sequence>
       </cdna>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" />
-        <coordinates coord_system="LRG_163_t1" start="1" end="268" />
+        <coordinates coord_system="LRG_163t1" start="1" end="268" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -49,7 +41,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-08-20</modification_date>
+      <modification_date>2013-09-19</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="35655748" other_end="35663015">
         <mapping_span lrg_start="1" lrg_end="7268" other_start="35655748" other_end="35663015" strand="-1" />
       </mapping>
@@ -66,26 +58,18 @@
         </contact>
       </source>
       <comment>Annotation from NG_017041.1</comment>
-      <modification_date>2013-08-19</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="LRG-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_163" start="5001" end="5268" />
-            <label>1</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-19</modification_date>
       <mapping coord_system="NR_003051.3" other_name="NR_003051.3" other_id="NR_003051.3" other_start="1" other_end="268">
         <mapping_span lrg_start="5001" lrg_end="5268" other_start="1" other_end="268" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">RMRP</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="84904">
+          <symbol source="HGNC" name="ARHGEF39">
+            <synonym>C9orf100</synonym>
+            <synonym>RP11-331F9.7</synonym>
+          </symbol>
           <coordinates coord_system="LRG_163" start="1" end="3675" strand="1" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">ARHGEF39</symbol>
-          <symbol>C9orf100</symbol>
-          <symbol>RP11-331F9.7</symbol>
           <long_name>Rho guanine nucleotide exchange factor (GEF) 39</long_name>
           <db_xref source="GeneID" accession="84904" />
           <db_xref source="HGNC" accession="25909" />
@@ -120,10 +104,11 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="203260">
+          <symbol source="HGNC" name="CCDC107">
+            <synonym>PSEC0222</synonym>
+            <synonym>RP11-331F9.6</synonym>
+          </symbol>
           <coordinates coord_system="LRG_163" start="1516" end="4729" strand="-1" />
-          <symbol source="HGNC">CCDC107</symbol>
-          <symbol>PSEC0222</symbol>
-          <symbol>RP11-331F9.6</symbol>
           <long_name>coiled-coil domain containing 107</long_name>
           <db_xref source="GeneID" accession="203260" />
           <db_xref source="HGNC" accession="28465" />
@@ -251,12 +236,13 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="6023">
+          <symbol source="HGNC" name="RMRP">
+            <synonym>CHH</synonym>
+            <synonym>NME1</synonym>
+            <synonym>RMRPR</synonym>
+            <synonym>RRP2</synonym>
+          </symbol>
           <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" />
-          <symbol source="HGNC">RMRP</symbol>
-          <symbol>CHH</symbol>
-          <symbol>NME1</symbol>
-          <symbol>RMRPR</symbol>
-          <symbol>RRP2</symbol>
           <long_name>RNA component of mitochondrial RNA processing endoribonuclease</long_name>
           <db_xref source="GeneID" accession="6023" />
           <db_xref source="HGNC" accession="10031" />
@@ -284,16 +270,19 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 72</comment>
-      <modification_date>2013-08-20</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-19</modification_date>
       <mapping coord_system="ENST00000363046.1" other_name="ENST00000363046.1" other_id="ENST00000363046.1" other_start="1" other_end="264">
         <mapping_span lrg_start="5002" lrg_end="5265" other_start="1" other_end="264" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000602361.1" other_name="ENST00000602361.1" other_id="ENST00000602361.1" other_start="1" other_end="268">
+        <mapping_span lrg_start="5001" lrg_end="5268" other_start="1" other_end="268" strand="1" />
+      </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000137135">
+          <symbol source="HGNC" name="ARHGEF39" />
           <coordinates coord_system="LRG_163" start="1" end="4144" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">ARHGEF39</symbol>
           <long_name>Rho guanine nucleotide exchange factor (GEF) 39 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="84904">
             <synonym>C9orf100</synonym>
@@ -476,8 +465,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000159884">
+          <symbol source="HGNC" name="CCDC107" />
           <coordinates coord_system="LRG_163" start="1508" end="4715" strand="-1" mapped_from="GRCh37" />
-          <symbol source="HGNC">CCDC107</symbol>
           <long_name>coiled-coil domain containing 107 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="203260">
             <synonym>PSEC0222</synonym>
@@ -678,38 +667,32 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000269900">
+          <symbol source="HGNC" name="RMRP" />
           <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_vega_gene">RP11-331F9.10</symbol>
-          <long_name>RP11-331F9.10 (lincRNA)</long_name>
+          <long_name>RNA component of mitochondrial RNA processing endoribonuclease (lincRNA)</long_name>
           <db_xref source="GeneID" accession="6023">
             <synonym>CHH</synonym>
             <synonym>NME1</synonym>
             <synonym>RMRPR</synonym>
             <synonym>RRP2</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="157660" />
-          <db_xref source="Ensembl" accession="ENSG00000269900" />
-          <transcript source="Ensembl" accession="ENST00000602361">
-            <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" mapped_from="GRCh37" />
-            <long_name>RP11-331F9.10-001 (lincRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_003051.3" />
-            <exon source="Ensembl" accession="ENSE00003432004">
-              <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000199916">
-          <coordinates coord_system="LRG_163" start="5002" end="5265" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">RMRP</symbol>
-          <long_name>RNA component of mitochondrial RNA processing endoribonuclease (misc_RNA)</long_name>
           <db_xref source="HGNC" accession="10031">
             <synonym>CHH</synonym>
             <synonym>NME1</synonym>
             <synonym>RMRPR</synonym>
             <synonym>RRP2</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="157660" />
           <db_xref source="RFAM" accession="RF00030" />
-          <db_xref source="Ensembl" accession="ENSG00000199916" />
+          <db_xref source="Ensembl" accession="ENSG00000269900" />
+          <transcript source="Ensembl" accession="ENST00000602361">
+            <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" mapped_from="GRCh37" />
+            <long_name>RMRP-001 (lincRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_003051.3" />
+            <exon source="Ensembl" accession="ENSE00003432004">
+              <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000363046">
             <coordinates coord_system="LRG_163" start="5002" end="5265" strand="1" mapped_from="GRCh37" />
             <long_name>RMRP-201 (misc_RNA)</long_name>
@@ -725,7 +708,7 @@
         <name>List of locus specific databases for RMRP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RMRP</url>
       </source>
-      <modification_date>2013-08-20</modification_date>
+      <modification_date>2013-09-19</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

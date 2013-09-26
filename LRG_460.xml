@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_460</id>
+    <hgnc_id>358</hgnc_id>
     <sequence_source>NG_008969.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -18,15 +19,6 @@
         <name>Marta Korbonits</name>
         <address>William Harvey Research Inst., Queen Mary University of London, UK</address>
         <email>m.korbonits@qmul.ac.uk</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -44,40 +36,40 @@
           <sequence>MADIIARLREDGIQKRVIQEGRGELPDFQDGTKATFHYRTLHSDDEGTVLDDSRARGKPMELIIGKKFKLPVWETIVCTMREGEIAQFLCDIKHVVLYPLVAKSLRNIAVGKDPLEGQRHCCGVAQMREHSSLGHADLDALQQNPQPLIFHMEMLKVESPGTYQQDPWAMTDEEKAKAVPLIHQEGNRLYREGHVKEAAAKYYDAIACLKNLQMKEQPGSPEWIQLDQQITPLLLNYCQCKLVVEEYYEVLDHCSSILNKYDDNVKAYFKRGKAHAAVWNAQEAQADFAKVLELDPALAPVVSRELQALEARIRQKDEEDKARFRGIFSH</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_460" start="5001" end="5224" strand="1" />
-        <coordinates coord_system="LRG_460_t1" start="1" end="224" />
-        <coordinates coord_system="LRG_460_p1" start="1" end="33" />
+        <coordinates coord_system="LRG_460t1" start="1" end="224" />
+        <coordinates coord_system="LRG_460p1" start="1" end="33" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_460" start="8973" end="9152" strand="1" />
-        <coordinates coord_system="LRG_460_t1" start="225" end="404" />
-        <coordinates coord_system="LRG_460_p1" start="34" end="93" />
+        <coordinates coord_system="LRG_460t1" start="225" end="404" />
+        <coordinates coord_system="LRG_460p1" start="34" end="93" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_460" start="11234" end="11422" strand="1" />
-        <coordinates coord_system="LRG_460_t1" start="405" end="593" />
-        <coordinates coord_system="LRG_460_p1" start="94" end="156" />
+        <coordinates coord_system="LRG_460t1" start="405" end="593" />
+        <coordinates coord_system="LRG_460p1" start="94" end="156" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_460" start="12005" end="12181" strand="1" />
-        <coordinates coord_system="LRG_460_t1" start="594" end="770" />
-        <coordinates coord_system="LRG_460_p1" start="157" end="215" />
+        <coordinates coord_system="LRG_460t1" start="594" end="770" />
+        <coordinates coord_system="LRG_460p1" start="157" end="215" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_460" start="12283" end="12424" strand="1" />
-        <coordinates coord_system="LRG_460_t1" start="771" end="912" />
-        <coordinates coord_system="LRG_460_p1" start="216" end="263" />
+        <coordinates coord_system="LRG_460t1" start="771" end="912" />
+        <coordinates coord_system="LRG_460p1" start="216" end="263" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_460" start="12755" end="13075" strand="1" />
-        <coordinates coord_system="LRG_460_t1" start="913" end="1233" />
-        <coordinates coord_system="LRG_460_p1" start="263" end="330" />
+        <coordinates coord_system="LRG_460t1" start="913" end="1233" />
+        <coordinates coord_system="LRG_460p1" start="263" end="330" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -92,8 +84,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-05-22</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="11" other_id="NC_000011.9" other_start="67245505" other_end="67260579">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="67245505" other_end="67260579">
         <mapping_span lrg_start="1" lrg_end="15075" other_start="67245505" other_end="67260579" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">AIP</lrg_locus>
@@ -109,35 +101,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008969.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_460" start="5001" end="5224" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_460" start="8973" end="9152" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_460" start="11234" end="11422" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_460" start="12005" end="12181" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_460" start="12283" end="12424" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_460" start="12755" end="13075" />
-            <label>6</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_003977.2" other_name="NM_003977.2" other_id="NM_003977.2" other_start="1" other_end="1233">
         <mapping_span lrg_start="5001" lrg_end="5224" other_start="1" other_end="224" strand="1" />
         <mapping_span lrg_start="8973" lrg_end="9152" other_start="225" other_end="404" strand="1" />
@@ -146,17 +110,17 @@
         <mapping_span lrg_start="12283" lrg_end="12424" other_start="771" other_end="912" strand="1" />
         <mapping_span lrg_start="12755" lrg_end="13075" other_start="913" other_end="1233" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">AIP</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="9049">
+          <symbol source="HGNC" name="AIP">
+            <synonym>ARA9</synonym>
+            <synonym>FKBP16</synonym>
+            <synonym>FKBP37</synonym>
+            <synonym>SMTPHN</synonym>
+            <synonym>XAP-2</synonym>
+            <synonym>XAP2</synonym>
+          </symbol>
           <coordinates coord_system="LRG_460" start="5001" end="13075" strand="1" />
-          <symbol>AIP</symbol>
-          <symbol>ARA9</symbol>
-          <symbol>FKBP16</symbol>
-          <symbol>FKBP37</symbol>
-          <symbol>SMTPHN</symbol>
-          <symbol>XAP-2</symbol>
-          <symbol>XAP2</symbol>
           <long_name>aryl hydrocarbon receptor interacting protein</long_name>
           <db_xref source="GeneID" accession="9049" />
           <db_xref source="HGNC" accession="358" />
@@ -198,17 +162,18 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="9600">
+          <symbol source="HGNC" name="PITPNM1">
+            <synonym>DRES9</synonym>
+            <synonym>NIR2</synonym>
+            <synonym>PITPNM</synonym>
+            <synonym>Rd9</synonym>
+            <synonym>RDGB</synonym>
+            <synonym>RDGB1</synonym>
+            <synonym>RDGBA</synonym>
+            <synonym>RDGBA1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_460" start="13735" end="15075" strand="-1" />
           <partial>5-prime</partial>
-          <symbol>PITPNM1</symbol>
-          <symbol>DRES9</symbol>
-          <symbol>NIR2</symbol>
-          <symbol>PITPNM</symbol>
-          <symbol>Rd9</symbol>
-          <symbol>RDGB</symbol>
-          <symbol>RDGB1</symbol>
-          <symbol>RDGBA</symbol>
-          <symbol>RDGBA1</symbol>
           <long_name>phosphatidylinositol transfer protein, membrane-associated 1</long_name>
           <db_xref source="GeneID" accession="9600" />
           <db_xref source="HGNC" accession="9003" />
@@ -282,8 +247,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-05-22</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000279146.3" other_name="ENST00000279146.3" other_id="ENST00000279146.3" other_start="1" other_end="1221">
         <mapping_span lrg_start="5008" lrg_end="5224" other_start="1" other_end="217" strand="1" />
         <mapping_span lrg_start="8973" lrg_end="9152" other_start="218" other_end="397" strand="1" />
@@ -310,8 +275,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000110711">
+          <symbol source="HGNC" name="AIP" />
           <coordinates coord_system="LRG_460" start="5008" end="13070" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">AIP</symbol>
           <long_name>aryl hydrocarbon receptor interacting protein (protein_coding)</long_name>
           <db_xref source="GeneID" accession="9049">
             <synonym>ARA9</synonym>
@@ -337,7 +302,7 @@
             <exon source="Ensembl" accession="ENSE00001185861">
               <coordinates coord_system="LRG_460" start="8973" end="9152" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003264745">
+            <exon source="Ensembl" accession="ENSE00003648822">
               <coordinates coord_system="LRG_460" start="12005" end="12181" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002161823">
@@ -361,7 +326,7 @@
             <exon source="Ensembl" accession="ENSE00000823991">
               <coordinates coord_system="LRG_460" start="11234" end="11422" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003264745">
+            <exon source="Ensembl" accession="ENSE00003648822">
               <coordinates coord_system="LRG_460" start="12005" end="12181" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001185842">
@@ -372,7 +337,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000279146">
               <coordinates coord_system="LRG_460" start="5126" end="12960" strand="1" mapped_from="GRCh37" />
-              <long_name>AH receptor-interacting protein </long_name>
+              <long_name>AH receptor-interacting protein</long_name>
               <db_xref source="RefSeq" accession="NP_003968.2" />
               <db_xref source="UniProtKB" accession="O00170">
                 <synonym>A0SZW3</synonym>
@@ -406,7 +371,7 @@
             <exon source="Ensembl" accession="ENSE00002194172">
               <coordinates coord_system="LRG_460" start="11303" end="11422" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003362104">
+            <exon source="Ensembl" accession="ENSE00003488675">
               <coordinates coord_system="LRG_460" start="12005" end="12181" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002187667">
@@ -415,9 +380,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000110697">
+          <symbol source="HGNC" name="PITPNM1" />
           <coordinates coord_system="LRG_460" start="13735" end="15075" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">PITPNM1</symbol>
           <long_name>phosphatidylinositol transfer protein, membrane-associated 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="9600">
             <synonym>DRES9</synonym>
@@ -445,7 +410,7 @@
             <partial>5-prime</partial>
             <long_name>PITPNM1-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS31620.1" />
-            <exon source="Ensembl" accession="ENSE00003242286">
+            <exon source="Ensembl" accession="ENSE00003542264">
               <coordinates coord_system="LRG_460" start="14901" end="15029" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002187889">
@@ -467,7 +432,7 @@
             <partial>5-prime</partial>
             <long_name>PITPNM1-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS44659.1" />
-            <exon source="Ensembl" accession="ENSE00003242286">
+            <exon source="Ensembl" accession="ENSE00003542264">
               <coordinates coord_system="LRG_460" start="14901" end="15029" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002187889">
@@ -488,10 +453,10 @@
             <coordinates coord_system="LRG_460" start="13736" end="15075" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>PITPNM1-003 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00003267516">
+            <exon source="Ensembl" accession="ENSE00003693614">
               <coordinates coord_system="LRG_460" start="14901" end="15029" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003443688">
+            <exon source="Ensembl" accession="ENSE00003477357">
               <coordinates coord_system="LRG_460" start="13736" end="14263" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -502,16 +467,16 @@
             <db_xref source="CCDS" accession="CCDS31620.1" />
             <db_xref source="RefSeq" accession="NM_001130848.1" />
             <db_xref source="RefSeq" accession="NM_004910.2" />
-            <exon source="Ensembl" accession="ENSE00003242286">
+            <exon source="Ensembl" accession="ENSE00003542264">
               <coordinates coord_system="LRG_460" start="14901" end="15029" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003457797">
+            <exon source="Ensembl" accession="ENSE00003634972">
               <coordinates coord_system="LRG_460" start="13736" end="14263" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000348772">
               <coordinates coord_system="LRG_460" start="14000" end="15075" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>membrane-associated phosphatidylinositol transfer protein 1 isoform a , membrane-associated phosphatidylinositol transfer protein 1 isoform b </long_name>
+              <long_name>membrane-associated phosphatidylinositol transfer protein 1 isoform a, membrane-associated phosphatidylinositol transfer protein 1 isoform b</long_name>
               <db_xref source="RefSeq" accession="NP_004901.2" />
               <db_xref source="RefSeq" accession="NP_001124320.1" />
               <db_xref source="UniProtKB" accession="O00562">
@@ -530,7 +495,7 @@
         <name>List of locus specific databases for AIP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/AIP</url>
       </source>
-      <modification_date>2013-05-22</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

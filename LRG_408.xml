@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_408</id>
+    <hgnc_id>2499</hgnc_id>
     <sequence_source>NG_009171.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>James Ware</name>
         <address>Molecular Cardiology, Imperial College, London, UK</address>
         <email>j.ware@imperial.ac.uk</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,22 +30,22 @@
           <sequence>MSRREGSLEDPQTDSSVSLLPHLEAKIRQTHSLAHLLTKYAEQLLQEYVQLQGDPFGLPSFSPPRLPVAGLSAPAPSHAGLPVHERLRLDAAALAALPPLLDAVCRRQAELNPRAPRLLRRLEDAARQARALGAAVEALLAALGAANRGPRAEPPAATASAASATGVFPAKVLGLRVCGLYREWLSRTEGDLGQLLPGGSA</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_408" start="5001" end="5062" strand="1" />
-        <coordinates coord_system="LRG_408_t1" start="1" end="62" />
-        <coordinates coord_system="LRG_408_p1" start="1" end="9" />
+        <coordinates coord_system="LRG_408t1" start="1" end="62" />
+        <coordinates coord_system="LRG_408p1" start="1" end="9" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2a">
         <coordinates coord_system="LRG_408" start="7809" end="7927" strand="1" />
-        <coordinates coord_system="LRG_408_t1" start="63" end="181" />
-        <coordinates coord_system="LRG_408_p1" start="9" end="48" />
+        <coordinates coord_system="LRG_408t1" start="63" end="181" />
+        <coordinates coord_system="LRG_408p1" start="9" end="48" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_408" start="10472" end="11954" strand="1" />
-        <coordinates coord_system="LRG_408_t1" start="182" end="1664" />
-        <coordinates coord_system="LRG_408_p1" start="49" end="201" />
+        <coordinates coord_system="LRG_408t1" start="182" end="1664" />
+        <coordinates coord_system="LRG_408p1" start="49" end="201" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -68,8 +60,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="16" other_id="NC_000016.9" other_start="30902928" other_end="30916881">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_start="30902928" other_end="30916881">
         <mapping_span lrg_start="1" lrg_end="13954" other_start="30902928" other_end="30916881" strand="1">
           <diff type="mismatch" lrg_start="11637" lrg_end="11637" other_start="30914564" other_end="30914564" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
@@ -87,23 +79,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009171.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_408" start="5001" end="5062" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_408" start="7809" end="7927" />
-            <label>2a</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_408" start="10472" end="11954" />
-            <label>3</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_001142544.1" other_name="NM_001142544.1" other_id="NM_001142544.1" other_start="1" other_end="1661">
         <mapping_span lrg_start="5001" lrg_end="5062" other_start="1" other_end="62" strand="1" />
         <mapping_span lrg_start="7812" lrg_end="7927" other_start="63" other_end="178" strand="1" />
@@ -114,12 +90,11 @@
         <mapping_span lrg_start="7809" lrg_end="7927" other_start="63" other_end="181" strand="1" />
         <mapping_span lrg_start="10472" lrg_end="11954" other_start="182" other_end="1664" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">CTF1</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="9274">
+          <symbol source="HGNC" name="BCL7C" />
           <coordinates coord_system="LRG_408" start="1" end="2472" strand="-1" />
           <partial>3-prime</partial>
-          <symbol>BCL7C</symbol>
           <long_name>B-cell CLL/lymphoma 7C</long_name>
           <db_xref source="GeneID" accession="9274" />
           <db_xref source="HGNC" accession="1006" />
@@ -154,10 +129,11 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="1489">
+          <symbol source="HGNC" name="CTF1">
+            <synonym>CT-1</synonym>
+            <synonym>CT1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_408" start="5001" end="11954" strand="1" />
-          <symbol>CTF1</symbol>
-          <symbol>CT-1</symbol>
-          <symbol>CT1</symbol>
           <long_name>cardiotrophin 1</long_name>
           <db_xref source="GeneID" accession="1489" />
           <db_xref source="HGNC" accession="2499" />
@@ -189,6 +165,28 @@
               <db_xref source="GI" accession="4503121" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_001142544.1">
+            <coordinates coord_system="LRG_408" start="5001" end="11954" strand="1" />
+            <long_name>cardiotrophin 1, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="1489" />
+            <db_xref source="GI" accession="216548055" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_408" start="5001" end="5062" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_408" start="7812" end="7927" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_408" start="10472" end="11954" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001136016.1">
+              <coordinates coord_system="LRG_408" start="5038" end="10933" strand="1" />
+              <long_name>cardiotrophin-1 isoform 2</long_name>
+              <db_xref source="CCDS" accession="CCDS45464.1" />
+              <db_xref source="GeneID" accession="1489" />
+              <db_xref source="GI" accession="216548056" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -202,8 +200,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000279804.2" other_name="ENST00000279804.2" other_id="ENST00000279804.2" other_start="1" other_end="1664">
         <mapping_span lrg_start="5001" lrg_end="5062" other_start="1" other_end="62" strand="1" />
         <mapping_span lrg_start="7809" lrg_end="7927" other_start="63" other_end="181" strand="1" />
@@ -220,9 +218,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000099385">
+          <symbol source="HGNC" name="BCL7C" />
           <coordinates coord_system="LRG_408" start="1" end="3354" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">BCL7C</symbol>
           <long_name>B-cell CLL/lymphoma 7C (protein_coding)</long_name>
           <db_xref source="GeneID" accession="9274" />
           <db_xref source="HGNC" accession="1006" />
@@ -314,7 +312,7 @@
             <protein_product source="Ensembl" accession="ENSP00000215115">
               <coordinates coord_system="LRG_408" start="1" end="2338" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>B-cell CLL/lymphoma 7 protein family member C </long_name>
+              <long_name>B-cell CLL/lymphoma 7 protein family member C</long_name>
               <db_xref source="RefSeq" accession="NP_004756.2" />
               <db_xref source="UniProtKB" accession="Q8WUZ0">
                 <synonym>O43770</synonym>
@@ -324,9 +322,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000260083">
+          <symbol source="HGNC" name="MIR4519" />
           <coordinates coord_system="LRG_408" start="1" end="3614" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">MIR4519</symbol>
           <long_name>microRNA 4519 (antisense)</long_name>
           <db_xref source="GeneID" accession="100616231" />
           <db_xref source="HGNC" accession="41544">
@@ -337,7 +335,7 @@
           <transcript source="Ensembl" accession="ENST00000570025">
             <coordinates coord_system="LRG_408" start="1" end="3473" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>Homo sapiens microRNA 4519 (MIR4519), microRNA. (antisense)</long_name>
+            <long_name>MIR4519-002 (antisense)</long_name>
             <db_xref source="RefSeq" accession="NR_039744.1" />
             <exon source="Ensembl" accession="ENSE00002611588">
               <coordinates coord_system="LRG_408" start="2942" end="3473" strand="1" mapped_from="GRCh37" />
@@ -361,9 +359,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000262721">
+          <symbol source="Clone_based_vega_gene" name="AC106782.20" />
           <coordinates coord_system="LRG_408" start="1" end="3610" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="Clone_based_vega_gene">AC106782.20</symbol>
           <long_name>AC106782.20 (sense_overlapping)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000262721" />
           <transcript source="Ensembl" accession="ENST00000572471">
@@ -376,8 +374,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000211591">
+          <symbol source="HGNC" name="MIR762" />
           <coordinates coord_system="LRG_408" start="2297" end="2379" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">MIR762</symbol>
           <long_name>microRNA 762 (miRNA)</long_name>
           <db_xref source="GeneID" accession="100313837">
             <synonym>hsa-mir-762</synonym>
@@ -389,7 +387,7 @@
           <db_xref source="Ensembl" accession="ENSG00000211591" />
           <transcript source="Ensembl" accession="ENST00000390236">
             <coordinates coord_system="LRG_408" start="2297" end="2379" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens microRNA 762 (MIR762), microRNA. (miRNA)</long_name>
+            <long_name>MIR762-201 (miRNA)</long_name>
             <db_xref source="RefSeq" accession="NR_031576.1" />
             <exon source="Ensembl" accession="ENSE00001507663">
               <coordinates coord_system="LRG_408" start="2297" end="2379" strand="1" mapped_from="GRCh37" />
@@ -397,8 +395,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000150281">
+          <symbol source="HGNC" name="CTF1" />
           <coordinates coord_system="LRG_408" start="5001" end="11954" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">CTF1</symbol>
           <long_name>cardiotrophin 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="1489">
             <synonym>CT-1</synonym>
@@ -412,7 +410,7 @@
           <db_xref source="Ensembl" accession="ENSG00000150281" />
           <transcript source="Ensembl" accession="ENST00000279804">
             <coordinates coord_system="LRG_408" start="5001" end="11954" strand="1" mapped_from="GRCh37" />
-            <long_name>,  (protein_coding)</long_name>
+            <long_name>CTF1-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS10694.1" />
             <db_xref source="RefSeq" accession="NM_001142544.1" />
             <db_xref source="RefSeq" accession="NM_001330.3" />
@@ -427,7 +425,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000279804">
               <coordinates coord_system="LRG_408" start="5038" end="10933" strand="1" mapped_from="GRCh37" />
-              <long_name>cardiotrophin-1 isoform 1 , cardiotrophin-1 isoform 2 </long_name>
+              <long_name>cardiotrophin-1 isoform 1, cardiotrophin-1 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001321.1" />
               <db_xref source="RefSeq" accession="NP_001136016.1" />
               <db_xref source="UniProtKB" accession="Q16619">
@@ -459,9 +457,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000230447">
+          <symbol source="HGNC" name="CTF2P" />
           <coordinates coord_system="LRG_408" start="12742" end="13954" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">CTF2P</symbol>
           <long_name>cardiotrophin 2, pseudogene (pseudogene)</long_name>
           <db_xref source="HGNC" accession="33173">
             <synonym>NP</synonym>
@@ -483,7 +481,7 @@
         <name>List of locus specific databases for CTF1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CTF1</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

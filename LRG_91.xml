@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_91</id>
+    <hgnc_id>7892</hgnc_id>
     <sequence_source>NG_009631.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -18,15 +19,6 @@
         <name>Mauno Vihinen</name>
         <address>University of Tampere, Finland</address>
         <email>Mauno.Vihinen@med.lu.se</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -44,40 +36,40 @@
           <sequence>MENGYTYEDYKNTAEWLLSHTKHRPQVAIICGSGLGGLTDKLTQAQIFDYGEIPNFPRSTVPGHAGRLVFGFLNGRACVMMQGRFHMYEGYPLWKVTFPVRVFHLLGVDTLVVTNAAGGLNPKFEVGDIMLIRDHINLPGFSGQNPLRGPNDERFGDRFPAMSDAYDRTMRQRALSTWKQMGEQRELQEGTYVMVAGPSFETVAECRVLQKLGADAVGMSTVPEVIVARHCGLRVFGFSLITNKVIMDYESLEKANHEEVLAAGKQAAQKLEQFVSILMASIPLPDKAS</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_91" start="4997" end="5153" strand="1" />
-        <coordinates coord_system="LRG_91_t1" start="1" end="157" />
-        <coordinates coord_system="LRG_91_p1" start="1" end="4" />
+        <coordinates coord_system="LRG_91t1" start="1" end="157" />
+        <coordinates coord_system="LRG_91p1" start="1" end="4" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_91" start="7926" end="8095" strand="1" />
-        <coordinates coord_system="LRG_91_t1" start="158" end="327" />
-        <coordinates coord_system="LRG_91_p1" start="4" end="61" />
+        <coordinates coord_system="LRG_91t1" start="158" end="327" />
+        <coordinates coord_system="LRG_91p1" start="4" end="61" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_91" start="10090" end="10193" strand="1" />
-        <coordinates coord_system="LRG_91_t1" start="328" end="431" />
-        <coordinates coord_system="LRG_91_p1" start="61" end="95" />
+        <coordinates coord_system="LRG_91t1" start="328" end="431" />
+        <coordinates coord_system="LRG_91p1" start="61" end="95" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_91" start="10391" end="10566" strand="1" />
-        <coordinates coord_system="LRG_91_t1" start="432" end="607" />
-        <coordinates coord_system="LRG_91_p1" start="96" end="154" />
+        <coordinates coord_system="LRG_91t1" start="432" end="607" />
+        <coordinates coord_system="LRG_91p1" start="96" end="154" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_91" start="10680" end="10870" strand="1" />
-        <coordinates coord_system="LRG_91_t1" start="608" end="798" />
-        <coordinates coord_system="LRG_91_p1" start="154" end="218" />
+        <coordinates coord_system="LRG_91t1" start="608" end="798" />
+        <coordinates coord_system="LRG_91p1" start="154" end="218" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_91" start="12002" end="13624" strand="1" />
-        <coordinates coord_system="LRG_91_t1" start="799" end="2421" />
-        <coordinates coord_system="LRG_91_p1" start="218" end="289" />
+        <coordinates coord_system="LRG_91t1" start="799" end="2421" />
+        <coordinates coord_system="LRG_91p1" start="218" end="289" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -92,8 +84,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="14" other_id="NC_000014.8" other_start="20932542" other_end="20947248">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_start="20932542" other_end="20947248">
         <mapping_span lrg_start="1" lrg_end="14707" other_start="20932542" other_end="20947248" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">PNP</lrg_locus>
@@ -109,35 +101,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009631.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_91" start="4997" end="5153" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_91" start="7926" end="8095" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_91" start="10090" end="10193" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_91" start="10391" end="10566" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_91" start="10680" end="10870" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_91" start="12002" end="13624" />
-            <label>6</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_000270.3" other_name="NM_000270.3" other_id="NM_000270.3" other_start="1" other_end="2421">
         <mapping_span lrg_start="4997" lrg_end="5153" other_start="1" other_end="157" strand="1" />
         <mapping_span lrg_start="7926" lrg_end="8095" other_start="158" other_end="327" strand="1" />
@@ -146,14 +110,14 @@
         <mapping_span lrg_start="10680" lrg_end="10870" other_start="608" other_end="798" strand="1" />
         <mapping_span lrg_start="12002" lrg_end="13624" other_start="799" other_end="2421" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">PNP</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="4860">
+          <symbol source="HGNC" name="PNP">
+            <synonym>NP</synonym>
+            <synonym>PRO1837</synonym>
+            <synonym>PUNP</synonym>
+          </symbol>
           <coordinates coord_system="LRG_91" start="4997" end="13624" strand="1" />
-          <symbol>PNP</symbol>
-          <symbol>NP</symbol>
-          <symbol>PRO1837</symbol>
-          <symbol>PUNP</symbol>
           <long_name>purine nucleoside phosphorylase</long_name>
           <db_xref source="GeneID" accession="4860" />
           <db_xref source="HGNC" accession="7892" />
@@ -207,8 +171,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000361505.5" other_name="ENST00000361505.5" other_id="ENST00000361505.5" other_start="1" other_end="1509">
         <mapping_span lrg_start="4997" lrg_end="5153" other_start="1" other_end="157" strand="1" />
         <mapping_span lrg_start="7926" lrg_end="8095" other_start="158" other_end="327" strand="1" />
@@ -258,8 +222,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000198805">
+          <symbol source="HGNC" name="PNP" />
           <coordinates coord_system="LRG_91" start="4572" end="12712" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">PNP</symbol>
           <long_name>purine nucleoside phosphorylase (protein_coding)</long_name>
           <db_xref source="GeneID" accession="4860">
             <synonym>NP</synonym>
@@ -281,7 +245,7 @@
             <exon source="Ensembl" accession="ENSE00002459805">
               <coordinates coord_system="LRG_91" start="4945" end="5153" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003274677">
+            <exon source="Ensembl" accession="ENSE00003569245">
               <coordinates coord_system="LRG_91" start="7926" end="8095" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002492631">
@@ -299,16 +263,16 @@
             <exon source="Ensembl" accession="ENSE00001020099">
               <coordinates coord_system="LRG_91" start="4997" end="5153" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003274677">
+            <exon source="Ensembl" accession="ENSE00003569245">
               <coordinates coord_system="LRG_91" start="7926" end="8095" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003353290">
+            <exon source="Ensembl" accession="ENSE00003477198">
               <coordinates coord_system="LRG_91" start="10090" end="10193" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001096522">
               <coordinates coord_system="LRG_91" start="10391" end="10566" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003257015">
+            <exon source="Ensembl" accession="ENSE00003662644">
               <coordinates coord_system="LRG_91" start="10680" end="10870" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001328906">
@@ -316,7 +280,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000354532">
               <coordinates coord_system="LRG_91" start="5143" end="12219" strand="1" mapped_from="GRCh37" />
-              <long_name>purine nucleoside phosphorylase </long_name>
+              <long_name>purine nucleoside phosphorylase</long_name>
               <db_xref source="RefSeq" accession="NP_000261.2" />
               <db_xref source="UniProtKB" accession="P00491">
                 <synonym>B2R8S5</synonym>
@@ -342,7 +306,7 @@
             <exon source="Ensembl" accession="ENSE00003401375">
               <coordinates coord_system="LRG_91" start="5024" end="5153" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003375611">
+            <exon source="Ensembl" accession="ENSE00003644898">
               <coordinates coord_system="LRG_91" start="7926" end="8095" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002438207">
@@ -355,13 +319,13 @@
             <exon source="Ensembl" accession="ENSE00002430690">
               <coordinates coord_system="LRG_91" start="5032" end="5153" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003375611">
+            <exon source="Ensembl" accession="ENSE00003644898">
               <coordinates coord_system="LRG_91" start="7926" end="8095" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002494763">
               <coordinates coord_system="LRG_91" start="10090" end="10566" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003255644">
+            <exon source="Ensembl" accession="ENSE00003596511">
               <coordinates coord_system="LRG_91" start="10680" end="10870" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002462339">
@@ -374,10 +338,10 @@
             <exon source="Ensembl" accession="ENSE00002468431">
               <coordinates coord_system="LRG_91" start="5159" end="5393" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003274677">
+            <exon source="Ensembl" accession="ENSE00003569245">
               <coordinates coord_system="LRG_91" start="7926" end="8095" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003353290">
+            <exon source="Ensembl" accession="ENSE00003477198">
               <coordinates coord_system="LRG_91" start="10090" end="10193" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001096522">
@@ -396,10 +360,10 @@
             <exon source="Ensembl" accession="ENSE00002488711">
               <coordinates coord_system="LRG_91" start="6144" end="6287" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003375611">
+            <exon source="Ensembl" accession="ENSE00003644898">
               <coordinates coord_system="LRG_91" start="7926" end="8095" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003355337">
+            <exon source="Ensembl" accession="ENSE00003643502">
               <coordinates coord_system="LRG_91" start="10090" end="10193" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002530279">
@@ -421,8 +385,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000258908">
+          <symbol source="Clone_based_vega_gene" name="RP11-203M5.8" />
           <coordinates coord_system="LRG_91" start="10407" end="12707" strand="-1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_vega_gene">RP11-203M5.8</symbol>
           <long_name>RP11-203M5.8 (lincRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000258908" />
           <transcript source="Ensembl" accession="ENST00000554678">
@@ -443,7 +407,7 @@
         <name>List of locus specific databases for PNP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PNP</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

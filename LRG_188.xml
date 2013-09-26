@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_188</id>
+    <hgnc_id>6000</hgnc_id>
     <sequence_source>NG_021240.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -13,15 +14,6 @@
         <name>Sujatha Mohan</name>
         <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
         <email>sujatha@rcai.riken.jp</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,40 +30,40 @@
           <sequence>MALADLYEEGGGGGGEGEDNADSKETICRPSGRKSSKMQAFRIWDVNQKTFYLRNNQLVAGYLQGPNVNLEEKIDVVPIEPHALFLGIHGGKMCLSCVKSGDETRLQLEAVNITDLSENRKQDKRFAFIRSDSGPTTSFESAACPGWFLCTAMEADQPVSLTNMPDEGVMVTKFYFQEDE</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_188" start="5001" end="5136" strand="1" />
-        <coordinates coord_system="LRG_188_t1" start="1" end="136" />
-        <coordinates coord_system="LRG_188_p1" start="1" end="4" />
+        <coordinates coord_system="LRG_188t1" start="1" end="136" />
+        <coordinates coord_system="LRG_188p1" start="1" end="4" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_188" start="7174" end="7236" strand="1" />
-        <coordinates coord_system="LRG_188_t1" start="137" end="199" />
-        <coordinates coord_system="LRG_188_p1" start="4" end="25" />
+        <coordinates coord_system="LRG_188t1" start="137" end="199" />
+        <coordinates coord_system="LRG_188p1" start="4" end="25" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="4b">
         <coordinates coord_system="LRG_188" start="14797" end="14848" strand="1" />
-        <coordinates coord_system="LRG_188_t1" start="200" end="251" />
-        <coordinates coord_system="LRG_188_p1" start="25" end="42" />
+        <coordinates coord_system="LRG_188t1" start="200" end="251" />
+        <coordinates coord_system="LRG_188p1" start="25" end="42" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_188" start="16684" end="16772" strand="1" />
-        <coordinates coord_system="LRG_188_t1" start="252" end="340" />
-        <coordinates coord_system="LRG_188_p1" start="42" end="72" />
+        <coordinates coord_system="LRG_188t1" start="252" end="340" />
+        <coordinates coord_system="LRG_188p1" start="42" end="72" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_188" start="18153" end="18265" strand="1" />
-        <coordinates coord_system="LRG_188_t1" start="341" end="453" />
-        <coordinates coord_system="LRG_188_p1" start="72" end="109" />
+        <coordinates coord_system="LRG_188t1" start="341" end="453" />
+        <coordinates coord_system="LRG_188p1" start="72" end="109" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="7">
         <coordinates coord_system="LRG_188" start="19764" end="21124" strand="1" />
-        <coordinates coord_system="LRG_188_t1" start="454" end="1814" />
-        <coordinates coord_system="LRG_188_p1" start="110" end="180" />
+        <coordinates coord_system="LRG_188t1" start="454" end="1814" />
+        <coordinates coord_system="LRG_188p1" start="110" end="180" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -86,8 +78,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="2" other_id="NC_000002.11" other_start="113870470" other_end="113893593">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="113870470" other_end="113893593">
         <mapping_span lrg_start="1" lrg_end="23124" other_start="113870470" other_end="113893593" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">IL1RN</lrg_locus>
@@ -103,35 +95,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_021240.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_188" start="5001" end="5136" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_188" start="7174" end="7236" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_188" start="14797" end="14848" />
-            <label>4b</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_188" start="16684" end="16772" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_188" start="18153" end="18265" />
-            <label>6</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_188" start="19764" end="21124" />
-            <label>7</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_000577.4" other_name="NM_000577.4" other_id="NM_000577.4" other_start="1" other_end="1751">
         <mapping_span lrg_start="5001" lrg_end="5136" other_start="1" other_end="136" strand="1" />
         <mapping_span lrg_start="14797" lrg_end="14848" other_start="137" other_end="188" strand="1" />
@@ -161,20 +125,20 @@
         <mapping_span lrg_start="18153" lrg_end="18265" other_start="449" other_end="561" strand="1" />
         <mapping_span lrg_start="19764" lrg_end="21124" other_start="562" other_end="1922" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">IL1RN</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="3557">
+          <symbol source="HGNC" name="IL1RN">
+            <synonym>DIRA</synonym>
+            <synonym>ICIL-1RA</synonym>
+            <synonym>IL-1ra</synonym>
+            <synonym>IL-1ra3</synonym>
+            <synonym>IL-1RN</synonym>
+            <synonym>IL1F3</synonym>
+            <synonym>IL1RA</synonym>
+            <synonym>IRAP</synonym>
+            <synonym>MVCD4</synonym>
+          </symbol>
           <coordinates coord_system="LRG_188" start="5001" end="21124" strand="1" />
-          <symbol>IL1RN</symbol>
-          <symbol>DIRA</symbol>
-          <symbol>ICIL-1RA</symbol>
-          <symbol>IL-1ra</symbol>
-          <symbol>IL-1ra3</symbol>
-          <symbol>IL-1RN</symbol>
-          <symbol>IL1F3</symbol>
-          <symbol>IL1RA</symbol>
-          <symbol>IRAP</symbol>
-          <symbol>MVCD4</symbol>
           <long_name>interleukin 1 receptor antagonist</long_name>
           <db_xref source="GeneID" accession="3557" />
           <db_xref source="HGNC" accession="6000" />
@@ -221,6 +185,90 @@
               <db_xref source="GI" accession="27894317" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_173843.2">
+            <coordinates coord_system="LRG_188" start="5001" end="21124" strand="1" />
+            <long_name>interleukin 1 receptor antagonist, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="3557" />
+            <db_xref source="GI" accession="296010857" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="5001" end="5136" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="8556" end="8726" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="14797" end="14848" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="16684" end="16772" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="18153" end="18265" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="19764" end="21124" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_776215.1">
+              <coordinates coord_system="LRG_188" start="14835" end="19979" strand="1" />
+              <long_name>interleukin-1 receptor antagonist protein isoform 4</long_name>
+              <db_xref source="CCDS" accession="CCDS2115.1" />
+              <db_xref source="GeneID" accession="3557" />
+              <db_xref source="GI" accession="27894321" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_000577.4">
+            <coordinates coord_system="LRG_188" start="5001" end="21124" strand="1" />
+            <long_name>interleukin 1 receptor antagonist, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="3557" />
+            <db_xref source="GI" accession="296010855" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="5001" end="5136" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="14797" end="14848" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="16684" end="16772" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="18153" end="18265" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="19764" end="21124" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000568.1">
+              <coordinates coord_system="LRG_188" start="5127" end="19979" strand="1" />
+              <long_name>interleukin-1 receptor antagonist protein isoform 3</long_name>
+              <db_xref source="CCDS" accession="CCDS2113.1" />
+              <db_xref source="GeneID" accession="3557" />
+              <db_xref source="GI" accession="10835147" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_173842.2">
+            <coordinates coord_system="LRG_188" start="14669" end="21124" strand="1" />
+            <long_name>interleukin 1 receptor antagonist, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="3557" />
+            <db_xref source="GI" accession="296010861" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="14669" end="14848" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="16684" end="16772" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="18153" end="18265" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_188" start="19764" end="21124" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_776214.1">
+              <coordinates coord_system="LRG_188" start="14733" end="19979" strand="1" />
+              <long_name>interleukin-1 receptor antagonist protein isoform 1 precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS46396.1" />
+              <db_xref source="GeneID" accession="3557" />
+              <db_xref source="GI" accession="27894319" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -234,8 +282,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000259206.5" other_name="ENST00000259206.5" other_id="ENST00000259206.5" other_start="1" other_end="1810">
         <mapping_span lrg_start="5005" lrg_end="5136" other_start="1" other_end="132" strand="1" />
         <mapping_span lrg_start="7174" lrg_end="7236" other_start="133" other_end="195" strand="1" />
@@ -294,9 +342,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000136689">
+          <symbol source="HGNC" name="IL1RN" />
           <coordinates coord_system="LRG_188" start="1" end="21124" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">IL1RN</symbol>
           <long_name>interleukin 1 receptor antagonist (protein_coding)</long_name>
           <db_xref source="GeneID" accession="3557">
             <synonym>DIRA</synonym>
@@ -349,13 +397,13 @@
             <exon source="Ensembl" accession="ENSE00001582900">
               <coordinates coord_system="LRG_188" start="108" end="222" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003326147">
+            <exon source="Ensembl" accession="ENSE00003678363">
               <coordinates coord_system="LRG_188" start="7174" end="7236" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001368506">
               <coordinates coord_system="LRG_188" start="8556" end="8726" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003285014">
+            <exon source="Ensembl" accession="ENSE00003501036">
               <coordinates coord_system="LRG_188" start="14797" end="14848" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000925698">
@@ -393,7 +441,7 @@
             <exon source="Ensembl" accession="ENSE00001368506">
               <coordinates coord_system="LRG_188" start="8556" end="8726" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003285014">
+            <exon source="Ensembl" accession="ENSE00003501036">
               <coordinates coord_system="LRG_188" start="14797" end="14848" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000925698">
@@ -407,7 +455,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000354816">
               <coordinates coord_system="LRG_188" start="14835" end="19979" strand="1" mapped_from="GRCh37" />
-              <long_name>interleukin-1 receptor antagonist protein isoform 4 </long_name>
+              <long_name>interleukin-1 receptor antagonist protein isoform 4</long_name>
               <db_xref source="RefSeq" accession="NP_776215.1" />
               <db_xref source="UniProtKB" accession="P18510">
                 <synonym>A8K4G1</synonym>
@@ -427,10 +475,10 @@
             <exon source="Ensembl" accession="ENSE00001934965">
               <coordinates coord_system="LRG_188" start="5005" end="5136" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003259315">
+            <exon source="Ensembl" accession="ENSE00003605168">
               <coordinates coord_system="LRG_188" start="7174" end="7236" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003414595">
+            <exon source="Ensembl" accession="ENSE00003686840">
               <coordinates coord_system="LRG_188" start="14797" end="14848" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000925698">
@@ -444,7 +492,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000259206">
               <coordinates coord_system="LRG_188" start="5127" end="19979" strand="1" mapped_from="GRCh37" />
-              <long_name>interleukin-1 receptor antagonist protein isoform 2 </long_name>
+              <long_name>interleukin-1 receptor antagonist protein isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_776213.1" />
               <db_xref source="UniProtKB" accession="P18510">
                 <synonym>A8K4G1</synonym>
@@ -464,7 +512,7 @@
             <exon source="Ensembl" accession="ENSE00001934965">
               <coordinates coord_system="LRG_188" start="5005" end="5136" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003414595">
+            <exon source="Ensembl" accession="ENSE00003686840">
               <coordinates coord_system="LRG_188" start="14797" end="14848" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000925698">
@@ -478,7 +526,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000329072">
               <coordinates coord_system="LRG_188" start="5127" end="19979" strand="1" mapped_from="GRCh37" />
-              <long_name>interleukin-1 receptor antagonist protein isoform 3 </long_name>
+              <long_name>interleukin-1 receptor antagonist protein isoform 3</long_name>
               <db_xref source="RefSeq" accession="NP_000568.1" />
               <db_xref source="UniProtKB" accession="P18510">
                 <synonym>A8K4G1</synonym>
@@ -496,7 +544,7 @@
             <exon source="Ensembl" accession="ENSE00001810759">
               <coordinates coord_system="LRG_188" start="5089" end="5136" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003378428">
+            <exon source="Ensembl" accession="ENSE00003619135">
               <coordinates coord_system="LRG_188" start="14797" end="14848" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001817988">
@@ -522,7 +570,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000387173">
               <coordinates coord_system="LRG_188" start="14733" end="19979" strand="1" mapped_from="GRCh37" />
-              <long_name>interleukin-1 receptor antagonist protein isoform 1 precursor </long_name>
+              <long_name>interleukin-1 receptor antagonist protein isoform 1 precursor</long_name>
               <db_xref source="RefSeq" accession="NP_776214.1" />
               <db_xref source="UniProtKB" accession="P18510">
                 <synonym>A8K4G1</synonym>
@@ -552,7 +600,7 @@
         <name>List of locus specific databases for IL1RN</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/IL1RN</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_282</id>
+    <hgnc_id>12269</hgnc_id>
     <sequence_source>NG_009820.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -13,15 +14,6 @@
         <name>Sujatha Mohan</name>
         <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
         <email>sujatha@rcai.riken.jp</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -39,10 +31,10 @@
           <sequence>MGPGARRQGRIVQGRPEMCFCPPPTPLPPLRILTLGTHTPTPCSSPGSAAGTYPTMGSQALPPGPMQTLIFFDMEATGLPFSQPKVTELCLLAVHRCALESPPTSQGPPPTVPPPPRVVDKLSLCVAPGKACSPAASEITGLSTAVLAAHGRQCFDDNLANLLLAFLRRQPQPWCLVAHNGDRYDFPLLQAELAMLGLTSALDGAFCVDSITALKALERASSPSEHGPRKSYSLGSIYTRLYGQSPPDSHTAEGDVLALLSICQWRPQALLRWVDAHARPFGTIRPMYGVTASARTKPRPSAVTTTAHLATTRNTSPSLGESRGTKDLPPVKDPGALSREGLLAPLGLLAILTLAVATLYGLSLATPGE</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_282" start="5001" end="6816" strand="1" />
-        <coordinates coord_system="LRG_282_t1" start="1" end="1816" />
-        <coordinates coord_system="LRG_282_p1" start="1" end="369" />
+        <coordinates coord_system="LRG_282t1" start="1" end="1816" />
+        <coordinates coord_system="LRG_282p1" start="1" end="369" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -57,8 +49,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="3" other_id="NC_000003.11" other_start="48502229" other_end="48511044">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="48502229" other_end="48511044">
         <mapping_span lrg_start="1" lrg_end="8816" other_start="48502229" other_end="48511044" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">TREX1</lrg_locus>
@@ -74,15 +66,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009820.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_282" start="5001" end="6816" />
-            <label>1d</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_007248.2" other_name="NM_007248.2" other_id="NM_007248.2" other_start="1" other_end="1628">
         <mapping_span lrg_start="4691" lrg_end="5340" other_start="1" other_end="650" strand="1" />
         <mapping_span lrg_start="5839" lrg_end="6816" other_start="651" other_end="1628" strand="1" />
@@ -97,12 +81,11 @@
         <mapping_span lrg_start="4691" lrg_end="5480" other_start="1" other_end="790" strand="1" />
         <mapping_span lrg_start="5801" lrg_end="6816" other_start="791" other_end="1806" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">TREX1</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="84126">
+          <symbol source="HGNC" name="ATRIP" />
           <coordinates coord_system="LRG_282" start="1" end="4826" strand="1" />
           <partial>5-prime</partial>
-          <symbol>ATRIP</symbol>
           <long_name>ATR interacting protein</long_name>
           <db_xref source="GeneID" accession="84126" />
           <db_xref source="HGNC" accession="33499" />
@@ -168,6 +151,7 @@
               <long_name>ATR-interacting protein isoform 3</long_name>
               <long_name>ATR-interacting protein</long_name>
               <long_name>ATM and Rad3-related-interacting protein</long_name>
+              <db_xref source="CCDS" accession="CCDS59450.1" />
               <db_xref source="GeneID" accession="84126" />
               <db_xref source="GI" accession="402534571" />
             </protein_product>
@@ -200,6 +184,7 @@
               <long_name>ATR-interacting protein isoform 4</long_name>
               <long_name>ATR-interacting protein</long_name>
               <long_name>ATM and Rad3-related-interacting protein</long_name>
+              <db_xref source="CCDS" accession="CCDS59449.1" />
               <db_xref source="GeneID" accession="84126" />
               <db_xref source="GI" accession="402534569" />
             </protein_product>
@@ -236,19 +221,59 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="11277">
+          <symbol source="HGNC" name="TREX1">
+            <synonym>AGS1</synonym>
+            <synonym>CRV</synonym>
+            <synonym>DRN3</synonym>
+            <synonym>HERNS</synonym>
+          </symbol>
           <coordinates coord_system="LRG_282" start="4691" end="6816" strand="1" />
-          <symbol>TREX1</symbol>
-          <symbol>AGS1</symbol>
-          <symbol>CRV</symbol>
-          <symbol>DRN3</symbol>
-          <symbol>HERNS</symbol>
           <long_name>three prime repair exonuclease 1</long_name>
           <db_xref source="GeneID" accession="11277" />
           <db_xref source="HGNC" accession="12269" />
           <db_xref source="MIM" accession="606609" />
           <db_xref source="CCDS" accession="CCDS2769.1" />
           <db_xref source="CCDS" accession="CCDS43086.1" />
+          <db_xref source="CCDS" accession="CCDS59451.1" />
           <db_xref source="GI" accession="223972664" />
+          <transcript source="RefSeq" accession="NM_033629.3">
+            <coordinates coord_system="LRG_282" start="4691" end="6816" strand="1" />
+            <long_name>three prime repair exonuclease 1, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="11277" />
+            <db_xref source="GI" accession="404434373" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_282" start="4691" end="5480" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_282" start="5801" end="6816" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_338599.1">
+              <coordinates coord_system="LRG_282" start="5827" end="6771" strand="1" />
+              <long_name>three prime repair exonuclease 1 isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS2769.1" />
+              <db_xref source="GeneID" accession="11277" />
+              <db_xref source="GI" accession="18375535" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_007248.2">
+            <coordinates coord_system="LRG_282" start="4691" end="6816" strand="1" />
+            <long_name>three prime repair exonuclease 1, transcript variant 5</long_name>
+            <db_xref source="GeneID" accession="11277" />
+            <db_xref source="GI" accession="404434374" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_282" start="4691" end="5340" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_282" start="5839" end="6816" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_009179.2">
+              <coordinates coord_system="LRG_282" start="5857" end="6771" strand="1" />
+              <long_name>three prime repair exonuclease 1 isoform c</long_name>
+              <db_xref source="CCDS" accession="CCDS59451.1" />
+              <db_xref source="GeneID" accession="11277" />
+              <db_xref source="GI" accession="404434375" />
+            </protein_product>
+          </transcript>
           <transcript source="RefSeq" accession="NM_016381.3" fixed_id="t1">
             <coordinates coord_system="LRG_282" start="5001" end="6816" strand="1" />
             <long_name>three prime repair exonuclease 1, transcript variant 1</long_name>
@@ -271,18 +296,19 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="51246">
+          <symbol source="HGNC" name="SHISA5">
+            <synonym>SCOTIN</synonym>
+          </symbol>
           <coordinates coord_system="LRG_282" start="6969" end="8816" strand="-1" />
           <partial>5-prime</partial>
-          <symbol>SHISA5</symbol>
-          <symbol>SCOTIN</symbol>
-          <long_name>shisa homolog 5 (Xenopus laevis)</long_name>
+          <long_name>shisa family member 5</long_name>
           <db_xref source="GeneID" accession="51246" />
           <db_xref source="HGNC" accession="30376" />
           <db_xref source="MIM" accession="607290" />
           <transcript source="RefSeq" accession="NM_016479.4">
             <coordinates coord_system="LRG_282" start="6969" end="8744" strand="-1" />
             <partial>5-prime</partial>
-            <long_name>shisa homolog 5 (Xenopus laevis), transcript variant 1</long_name>
+            <long_name>shisa family member 5, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="51246" />
             <db_xref source="GI" accession="441418783" />
             <exon source="RefSeq" accession="">
@@ -297,6 +323,7 @@
               <partial>5-prime</partial>
               <long_name>protein shisa-5 isoform a precursor</long_name>
               <long_name>putative NF-kappa-B-activating protein 120</long_name>
+              <long_name>shisa homolog 5</long_name>
               <db_xref source="CCDS" accession="CCDS2770.1" />
               <db_xref source="GeneID" accession="51246" />
               <db_xref source="GI" accession="21703710" />
@@ -305,7 +332,7 @@
           <transcript source="RefSeq" accession="NM_001272065.1">
             <coordinates coord_system="LRG_282" start="6969" end="8744" strand="-1" />
             <partial>5-prime</partial>
-            <long_name>shisa homolog 5 (Xenopus laevis), transcript variant 2</long_name>
+            <long_name>shisa family member 5, transcript variant 2</long_name>
             <db_xref source="GeneID" accession="51246" />
             <db_xref source="GI" accession="441418784" />
             <exon source="RefSeq" accession="">
@@ -320,6 +347,7 @@
               <partial>5-prime</partial>
               <long_name>protein shisa-5 isoform b precursor</long_name>
               <long_name>putative NF-kappa-B-activating protein 120</long_name>
+              <long_name>shisa homolog 5</long_name>
               <db_xref source="GeneID" accession="51246" />
               <db_xref source="GI" accession="441418785" />
             </protein_product>
@@ -327,7 +355,7 @@
           <transcript source="RefSeq" accession="NM_001272066.1">
             <coordinates coord_system="LRG_282" start="6969" end="8744" strand="-1" />
             <partial>5-prime</partial>
-            <long_name>shisa homolog 5 (Xenopus laevis), transcript variant 3</long_name>
+            <long_name>shisa family member 5, transcript variant 3</long_name>
             <db_xref source="GeneID" accession="51246" />
             <db_xref source="GI" accession="441418786" />
             <exon source="RefSeq" accession="">
@@ -342,6 +370,7 @@
               <partial>5-prime</partial>
               <long_name>protein shisa-5 isoform c</long_name>
               <long_name>putative NF-kappa-B-activating protein 120</long_name>
+              <long_name>shisa homolog 5</long_name>
               <db_xref source="GeneID" accession="51246" />
               <db_xref source="GI" accession="441418787" />
             </protein_product>
@@ -349,7 +378,7 @@
           <transcript source="RefSeq" accession="NM_001272067.1">
             <coordinates coord_system="LRG_282" start="6969" end="8744" strand="-1" />
             <partial>5-prime</partial>
-            <long_name>shisa homolog 5 (Xenopus laevis), transcript variant 4</long_name>
+            <long_name>shisa family member 5, transcript variant 4</long_name>
             <db_xref source="GeneID" accession="51246" />
             <db_xref source="GI" accession="441418788" />
             <exon source="RefSeq" accession="">
@@ -364,6 +393,7 @@
               <partial>5-prime</partial>
               <long_name>protein shisa-5 isoform c</long_name>
               <long_name>putative NF-kappa-B-activating protein 120</long_name>
+              <long_name>shisa homolog 5</long_name>
               <db_xref source="GeneID" accession="51246" />
               <db_xref source="GI" accession="441418789" />
             </protein_product>
@@ -371,7 +401,7 @@
           <transcript source="RefSeq" accession="NM_001272068.1">
             <coordinates coord_system="LRG_282" start="6969" end="8744" strand="-1" />
             <partial>5-prime</partial>
-            <long_name>shisa homolog 5 (Xenopus laevis), transcript variant 5</long_name>
+            <long_name>shisa family member 5, transcript variant 5</long_name>
             <db_xref source="GeneID" accession="51246" />
             <db_xref source="GI" accession="441418790" />
             <exon source="RefSeq" accession="">
@@ -386,6 +416,7 @@
               <partial>5-prime</partial>
               <long_name>protein shisa-5 isoform c</long_name>
               <long_name>putative NF-kappa-B-activating protein 120</long_name>
+              <long_name>shisa homolog 5</long_name>
               <db_xref source="GeneID" accession="51246" />
               <db_xref source="GI" accession="441418791" />
             </protein_product>
@@ -393,7 +424,7 @@
           <transcript source="RefSeq" accession="NM_001272082.1">
             <coordinates coord_system="LRG_282" start="6969" end="8744" strand="-1" />
             <partial>5-prime</partial>
-            <long_name>shisa homolog 5 (Xenopus laevis), transcript variant 6</long_name>
+            <long_name>shisa family member 5, transcript variant 6</long_name>
             <db_xref source="GeneID" accession="51246" />
             <db_xref source="GI" accession="441418797" />
             <exon source="RefSeq" accession="">
@@ -408,6 +439,7 @@
               <partial>5-prime</partial>
               <long_name>protein shisa-5 isoform d</long_name>
               <long_name>putative NF-kappa-B-activating protein 120</long_name>
+              <long_name>shisa homolog 5</long_name>
               <db_xref source="GeneID" accession="51246" />
               <db_xref source="GI" accession="441418798" />
             </protein_product>
@@ -415,7 +447,7 @@
           <transcript source="RefSeq" accession="NM_001272083.1">
             <coordinates coord_system="LRG_282" start="6969" end="8744" strand="-1" />
             <partial>5-prime</partial>
-            <long_name>shisa homolog 5 (Xenopus laevis), transcript variant 7</long_name>
+            <long_name>shisa family member 5, transcript variant 7</long_name>
             <db_xref source="GeneID" accession="51246" />
             <db_xref source="GI" accession="441418808" />
             <exon source="RefSeq" accession="">
@@ -427,6 +459,7 @@
               <partial>5-prime</partial>
               <long_name>protein shisa-5 isoform e</long_name>
               <long_name>putative NF-kappa-B-activating protein 120</long_name>
+              <long_name>shisa homolog 5</long_name>
               <db_xref source="GeneID" accession="51246" />
               <db_xref source="GI" accession="441418809" />
             </protein_product>
@@ -444,8 +477,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000296443.9" other_name="ENST00000296443.9" other_id="ENST00000296443.9" other_start="1" other_end="1877">
         <mapping_span lrg_start="4217" lrg_end="4254" other_start="1" other_end="38" strand="1" />
         <mapping_span lrg_start="4658" lrg_end="5480" other_start="39" other_end="861" strand="1" />
@@ -482,9 +515,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000164053">
+          <symbol source="HGNC" name="ATRIP" />
           <coordinates coord_system="LRG_282" start="1" end="4887" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">ATRIP</symbol>
           <long_name>ATR interacting protein (protein_coding)</long_name>
           <db_xref source="GeneID" accession="84126" />
           <db_xref source="HGNC" accession="33499">
@@ -501,30 +534,32 @@
             <long_name>ATRIP-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2768.1" />
             <db_xref source="RefSeq" accession="NM_130384.1" />
-            <exon source="Ensembl" accession="ENSE00003389005">
+            <exon source="Ensembl" accession="ENSE00003635645">
               <coordinates coord_system="LRG_282" start="2916" end="3052" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314804">
+            <exon source="Ensembl" accession="ENSE00003545017">
               <coordinates coord_system="LRG_282" start="3212" end="3303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003457494">
+            <exon source="Ensembl" accession="ENSE00003501443">
               <coordinates coord_system="LRG_282" start="3753" end="3833" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003307531">
+            <exon source="Ensembl" accession="ENSE00003633178">
               <coordinates coord_system="LRG_282" start="4002" end="4254" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003286927">
+            <exon source="Ensembl" accession="ENSE00003508914">
               <coordinates coord_system="LRG_282" start="4658" end="4826" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000323099">
               <coordinates coord_system="LRG_282" start="1" end="4725" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>ATR-interacting protein isoform 1 </long_name>
+              <long_name>ATR-interacting protein isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_569055.1" />
               <db_xref source="UniProtKB" accession="Q8WXE1">
                 <synonym>A8K6A3</synonym>
                 <synonym>A8K714</synonym>
                 <synonym>B2RCE7</synonym>
+                <synonym>B4DU92</synonym>
+                <synonym>B5MEB7</synonym>
                 <synonym>Q69YK9</synonym>
                 <synonym>Q8NHQ2</synonym>
                 <synonym>Q8WUG7</synonym>
@@ -539,27 +574,29 @@
             <long_name>ATRIP-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2767.1" />
             <db_xref source="RefSeq" accession="NM_032166.2" />
-            <exon source="Ensembl" accession="ENSE00003389005">
+            <exon source="Ensembl" accession="ENSE00003635645">
               <coordinates coord_system="LRG_282" start="2916" end="3052" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314804">
+            <exon source="Ensembl" accession="ENSE00003545017">
               <coordinates coord_system="LRG_282" start="3212" end="3303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003307531">
+            <exon source="Ensembl" accession="ENSE00003633178">
               <coordinates coord_system="LRG_282" start="4002" end="4254" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003286927">
+            <exon source="Ensembl" accession="ENSE00003508914">
               <coordinates coord_system="LRG_282" start="4658" end="4826" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000302338">
               <coordinates coord_system="LRG_282" start="1" end="4725" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>ATR-interacting protein isoform 2 </long_name>
+              <long_name>ATR-interacting protein isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_115542.2" />
               <db_xref source="UniProtKB" accession="Q8WXE1">
                 <synonym>A8K6A3</synonym>
                 <synonym>A8K714</synonym>
                 <synonym>B2RCE7</synonym>
+                <synonym>B4DU92</synonym>
+                <synonym>B5MEB7</synonym>
                 <synonym>Q69YK9</synonym>
                 <synonym>Q8NHQ2</synonym>
                 <synonym>Q8WUG7</synonym>
@@ -571,39 +608,39 @@
           <transcript source="Ensembl" accession="ENST00000424906">
             <coordinates coord_system="LRG_282" start="1" end="4826" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>Homo sapiens ATR interacting protein (ATRIP), transcript variant 3, mRNA. (nonsense_mediated_decay)</long_name>
-            <db_xref source="RefSeq" accession="NM_001271022.1" />
-            <exon source="Ensembl" accession="ENSE00003335277">
+            <long_name>ATRIP-003 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003637629">
               <coordinates coord_system="LRG_282" start="2916" end="3052" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003264928">
+            <exon source="Ensembl" accession="ENSE00003554267">
               <coordinates coord_system="LRG_282" start="3212" end="3303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003401290">
+            <exon source="Ensembl" accession="ENSE00003532421">
               <coordinates coord_system="LRG_282" start="3753" end="3833" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003427049">
+            <exon source="Ensembl" accession="ENSE00003569331">
               <coordinates coord_system="LRG_282" start="4002" end="4254" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003356256">
+            <exon source="Ensembl" accession="ENSE00003625878">
               <coordinates coord_system="LRG_282" start="4658" end="4826" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000412052">
             <coordinates coord_system="LRG_282" start="1" end="4887" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>Homo sapiens ATR interacting protein (ATRIP), transcript variant 4, mRNA. (protein_coding)</long_name>
+            <long_name>ATRIP-005 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS59449.1" />
             <db_xref source="RefSeq" accession="NM_001271023.1" />
-            <exon source="Ensembl" accession="ENSE00003389005">
+            <exon source="Ensembl" accession="ENSE00003635645">
               <coordinates coord_system="LRG_282" start="2916" end="3052" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314804">
+            <exon source="Ensembl" accession="ENSE00003545017">
               <coordinates coord_system="LRG_282" start="3212" end="3303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003457494">
+            <exon source="Ensembl" accession="ENSE00003501443">
               <coordinates coord_system="LRG_282" start="3753" end="3833" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003307531">
+            <exon source="Ensembl" accession="ENSE00003633178">
               <coordinates coord_system="LRG_282" start="4002" end="4254" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001796720">
@@ -612,12 +649,14 @@
             <protein_product source="Ensembl" accession="ENSP00000400930">
               <coordinates coord_system="LRG_282" start="1" end="4725" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>ATR-interacting protein isoform 4 </long_name>
+              <long_name>ATR-interacting protein isoform 4</long_name>
               <db_xref source="RefSeq" accession="NP_001257952.1" />
               <db_xref source="UniProtKB" accession="Q8WXE1">
                 <synonym>A8K6A3</synonym>
                 <synonym>A8K714</synonym>
                 <synonym>B2RCE7</synonym>
+                <synonym>B4DU92</synonym>
+                <synonym>B5MEB7</synonym>
                 <synonym>Q69YK9</synonym>
                 <synonym>Q8NHQ2</synonym>
                 <synonym>Q8WUG7</synonym>
@@ -629,34 +668,47 @@
           <transcript source="Ensembl" accession="ENST00000357105">
             <coordinates coord_system="LRG_282" start="1" end="4826" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>Homo sapiens ATR interacting protein (ATRIP), transcript variant 3, mRNA. (protein_coding)</long_name>
+            <long_name>ATRIP-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS59450.1" />
             <db_xref source="RefSeq" accession="NM_001271022.1" />
-            <exon source="Ensembl" accession="ENSE00003389005">
+            <exon source="Ensembl" accession="ENSE00003635645">
               <coordinates coord_system="LRG_282" start="2916" end="3052" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314804">
+            <exon source="Ensembl" accession="ENSE00003545017">
               <coordinates coord_system="LRG_282" start="3212" end="3303" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003457494">
+            <exon source="Ensembl" accession="ENSE00003501443">
               <coordinates coord_system="LRG_282" start="3753" end="3833" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003307531">
+            <exon source="Ensembl" accession="ENSE00003633178">
               <coordinates coord_system="LRG_282" start="4002" end="4254" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003286927">
+            <exon source="Ensembl" accession="ENSE00003508914">
               <coordinates coord_system="LRG_282" start="4658" end="4826" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000349620">
               <coordinates coord_system="LRG_282" start="1" end="4725" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>ATR-interacting protein isoform 3 </long_name>
+              <long_name>ATR-interacting protein isoform 3</long_name>
               <db_xref source="RefSeq" accession="NP_001257951.1" />
+              <db_xref source="UniProtKB" accession="Q8WXE1">
+                <synonym>A8K6A3</synonym>
+                <synonym>A8K714</synonym>
+                <synonym>B2RCE7</synonym>
+                <synonym>B4DU92</synonym>
+                <synonym>B5MEB7</synonym>
+                <synonym>Q69YK9</synonym>
+                <synonym>Q8NHQ2</synonym>
+                <synonym>Q8WUG7</synonym>
+                <synonym>Q96CL3</synonym>
+                <synonym>Q9HA30</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000213689">
+          <symbol source="HGNC" name="TREX1" />
           <coordinates coord_system="LRG_282" start="4217" end="6816" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">TREX1</symbol>
           <long_name>three prime repair exonuclease 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="11277">
             <synonym>AGS1</synonym>
@@ -732,7 +784,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000390478">
               <coordinates coord_system="LRG_282" start="5662" end="6771" strand="1" mapped_from="GRCh37" />
-              <long_name>three prime repair exonuclease 1 isoform a </long_name>
+              <long_name>three prime repair exonuclease 1 isoform a</long_name>
               <db_xref source="RefSeq" accession="NP_057465.1" />
               <db_xref source="UniProtKB" accession="Q9NSU2">
                 <synonym>B2RCN9</synonym>
@@ -755,7 +807,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000392569">
               <coordinates coord_system="LRG_282" start="5827" end="6771" strand="1" mapped_from="GRCh37" />
-              <long_name>three prime repair exonuclease 1 isoform b </long_name>
+              <long_name>three prime repair exonuclease 1 isoform b</long_name>
               <db_xref source="RefSeq" accession="NP_338599.1" />
               <db_xref source="UniProtKB" accession="Q9NSU2">
                 <synonym>B2RCN9</synonym>
@@ -767,7 +819,8 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000444177">
             <coordinates coord_system="LRG_282" start="5117" end="6814" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens three prime repair exonuclease 1 (TREX1), transcript variant 5, mRNA. (protein_coding)</long_name>
+            <long_name>TREX1-004 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS59451.1" />
             <db_xref source="RefSeq" accession="NM_007248.2" />
             <exon source="Ensembl" accession="ENSE00001711891">
               <coordinates coord_system="LRG_282" start="5117" end="5340" strand="1" mapped_from="GRCh37" />
@@ -777,7 +830,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000415972">
               <coordinates coord_system="LRG_282" start="5857" end="6771" strand="1" mapped_from="GRCh37" />
-              <long_name>three prime repair exonuclease 1 isoform c </long_name>
+              <long_name>three prime repair exonuclease 1 isoform c</long_name>
               <db_xref source="RefSeq" accession="NP_009179.2" />
               <db_xref source="UniProtKB" accession="Q9NSU2">
                 <synonym>B2RCN9</synonym>
@@ -812,9 +865,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000164054">
+          <symbol source="HGNC" name="SHISA5" />
           <coordinates coord_system="LRG_282" start="6969" end="8816" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">SHISA5</symbol>
           <long_name>shisa homolog 5 (Xenopus laevis) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="51246">
             <synonym>SCOTIN</synonym>
@@ -828,11 +881,11 @@
           <transcript source="Ensembl" accession="ENST00000296444">
             <coordinates coord_system="LRG_282" start="6969" end="8816" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>Homo sapiens shisa homolog 5 (Xenopus laevis) (SHISA5), transcript variant 2, mRNA.,  (protein_coding)</long_name>
+            <long_name>SHISA5-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2770.1" />
             <db_xref source="RefSeq" accession="NM_001272065.1" />
             <db_xref source="RefSeq" accession="NM_016479.3" />
-            <exon source="Ensembl" accession="ENSE00003433713">
+            <exon source="Ensembl" accession="ENSE00003632430">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001354409">
@@ -841,7 +894,7 @@
             <protein_product source="Ensembl" accession="ENSP00000296444">
               <coordinates coord_system="LRG_282" start="8278" end="8816" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>protein shisa-5 isoform a precursor , protein shisa-5 isoform b precursor </long_name>
+              <long_name>protein shisa-5 isoform a precursor, protein shisa-5 isoform b precursor</long_name>
               <db_xref source="RefSeq" accession="NP_057563.3" />
               <db_xref source="RefSeq" accession="NP_001258994.1" />
               <db_xref source="UniProtKB" accession="Q8N114">
@@ -857,9 +910,9 @@
           <transcript source="Ensembl" accession="ENST00000444115">
             <coordinates coord_system="LRG_282" start="7041" end="8816" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>Homo sapiens shisa homolog 5 (Xenopus laevis) (SHISA5), transcript variant 3, mRNA. (protein_coding)</long_name>
+            <long_name>SHISA5-012 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001272066.1" />
-            <exon source="Ensembl" accession="ENSE00003433713">
+            <exon source="Ensembl" accession="ENSE00003632430">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001772859">
@@ -868,7 +921,7 @@
             <protein_product source="Ensembl" accession="ENSP00000407957">
               <coordinates coord_system="LRG_282" start="8278" end="8816" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>protein shisa-5 isoform c </long_name>
+              <long_name>protein shisa-5 isoform c</long_name>
               <db_xref source="RefSeq" accession="NP_001258995.1" />
               <db_xref source="UniProtKB" accession="Q8N114">
                 <synonym>B3KW99</synonym>
@@ -884,7 +937,7 @@
             <coordinates coord_system="LRG_282" start="7047" end="8816" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SHISA5-013 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003352687">
+            <exon source="Ensembl" accession="ENSE00003479817">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001852343">
@@ -902,18 +955,18 @@
           <transcript source="Ensembl" accession="ENST00000426002">
             <coordinates coord_system="LRG_282" start="7047" end="8816" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>Homo sapiens shisa homolog 5 (Xenopus laevis) (SHISA5), transcript variant 6, mRNA. (protein_coding)</long_name>
+            <long_name>SHISA5-002 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001272082.1" />
-            <exon source="Ensembl" accession="ENSE00003433713">
+            <exon source="Ensembl" accession="ENSE00003632430">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003251106">
+            <exon source="Ensembl" accession="ENSE00003461144">
               <coordinates coord_system="LRG_282" start="7047" end="8357" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000390388">
               <coordinates coord_system="LRG_282" start="8278" end="8816" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>protein shisa-5 isoform d , protein shisa-5 isoform e </long_name>
+              <long_name>protein shisa-5 isoform d, protein shisa-5 isoform e</long_name>
               <db_xref source="RefSeq" accession="NP_001259011.1" />
               <db_xref source="RefSeq" accession="NP_001259012.1" />
               <db_xref source="UniProtKB" accession="Q8N114">
@@ -930,40 +983,40 @@
             <coordinates coord_system="LRG_282" start="7047" end="8816" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SHISA5-004 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003352687">
+            <exon source="Ensembl" accession="ENSE00003479817">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003456392">
+            <exon source="Ensembl" accession="ENSE00003597355">
               <coordinates coord_system="LRG_282" start="7047" end="8357" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000417962">
             <coordinates coord_system="LRG_282" start="7048" end="8816" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>Homo sapiens shisa homolog 5 (Xenopus laevis) (SHISA5), transcript variant 5, mRNA. (nonsense_mediated_decay)</long_name>
+            <long_name>SHISA5-006 (nonsense_mediated_decay)</long_name>
             <db_xref source="RefSeq" accession="NM_001272068.1" />
-            <exon source="Ensembl" accession="ENSE00003352687">
+            <exon source="Ensembl" accession="ENSE00003479817">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003256828">
+            <exon source="Ensembl" accession="ENSE00003528142">
               <coordinates coord_system="LRG_282" start="7048" end="8357" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000442747">
             <coordinates coord_system="LRG_282" start="7048" end="8816" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>Homo sapiens shisa homolog 5 (Xenopus laevis) (SHISA5), transcript variant 4, mRNA. (protein_coding)</long_name>
+            <long_name>SHISA5-007 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001272067.1" />
-            <exon source="Ensembl" accession="ENSE00003433713">
+            <exon source="Ensembl" accession="ENSE00003632430">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003270564">
+            <exon source="Ensembl" accession="ENSE00003504616">
               <coordinates coord_system="LRG_282" start="7048" end="8357" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000408223">
               <coordinates coord_system="LRG_282" start="8278" end="8816" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>protein shisa-5 isoform c </long_name>
+              <long_name>protein shisa-5 isoform c</long_name>
               <db_xref source="RefSeq" accession="NP_001258996.1" />
               <db_xref source="UniProtKB" accession="Q8N114">
                 <synonym>B3KW99</synonym>
@@ -979,7 +1032,7 @@
             <coordinates coord_system="LRG_282" start="7082" end="8816" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SHISA5-009 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003433713">
+            <exon source="Ensembl" accession="ENSE00003632430">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001522421">
@@ -1035,7 +1088,7 @@
         <name>List of locus specific databases for TREX1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TREX1</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

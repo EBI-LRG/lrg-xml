@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_440</id>
+    <hgnc_id>2472</hgnc_id>
     <sequence_source>NG_011932.2</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>James Ware</name>
         <address>Molecular Cardiology, Imperial College, London, UK</address>
         <email>j.ware@imperial.ac.uk</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -37,38 +29,38 @@
           <sequence>MPNWGGGAKCGACEKTVYHAEEIQCNGRSFHKTCFHCMACRKALDSTTVAAHESEIYCKVCYGRRYGPKGIGYGQGAGCLSTDTGEHLGLQFQQSPKPARSVTTSNPSKFTAKFGESEKCPRCGKSVYAAEKVMGGGKPWHKTCFRCAICGKSLESTNVTDKDGELYCKVCYAKNFGPTGIGFGGLTQQVEKKE</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_440" start="13532" end="13620" strand="1" />
-        <coordinates coord_system="LRG_440_t1" start="1" end="89" />
+        <coordinates coord_system="LRG_440t1" start="1" end="89" />
       </exon>
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_440" start="23098" end="23237" strand="1" />
-        <coordinates coord_system="LRG_440_t1" start="90" end="229" />
-        <coordinates coord_system="LRG_440_p1" start="1" end="38" />
+        <coordinates coord_system="LRG_440t1" start="90" end="229" />
+        <coordinates coord_system="LRG_440p1" start="1" end="38" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_440" start="27270" end="27438" strand="1" />
-        <coordinates coord_system="LRG_440_t1" start="230" end="398" />
-        <coordinates coord_system="LRG_440_p1" start="38" end="94" />
+        <coordinates coord_system="LRG_440t1" start="230" end="398" />
+        <coordinates coord_system="LRG_440p1" start="38" end="94" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_440" start="29226" end="29358" strand="1" />
-        <coordinates coord_system="LRG_440_t1" start="399" end="531" />
-        <coordinates coord_system="LRG_440_p1" start="94" end="138" />
+        <coordinates coord_system="LRG_440t1" start="399" end="531" />
+        <coordinates coord_system="LRG_440p1" start="94" end="138" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_440" start="30529" end="30622" strand="1" />
-        <coordinates coord_system="LRG_440_t1" start="532" end="625" />
-        <coordinates coord_system="LRG_440_p1" start="139" end="170" />
+        <coordinates coord_system="LRG_440t1" start="532" end="625" />
+        <coordinates coord_system="LRG_440p1" start="139" end="170" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="7a">
         <coordinates coord_system="LRG_440" start="32828" end="33543" strand="1" />
-        <coordinates coord_system="LRG_440_t1" start="626" end="1341" />
-        <coordinates coord_system="LRG_440_p1" start="170" end="194" />
+        <coordinates coord_system="LRG_440t1" start="626" end="1341" />
+        <coordinates coord_system="LRG_440p1" start="170" end="194" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -83,8 +75,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="11" other_id="NC_000011.9" other_start="19201578" other_end="19237120">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="19201578" other_end="19237120">
         <mapping_span lrg_start="1" lrg_end="35543" other_start="19201578" other_end="19237120" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CSRP3</lrg_locus>
@@ -100,35 +92,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011932.2</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_440" start="13532" end="13620" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_440" start="23098" end="23237" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_440" start="27270" end="27438" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_440" start="29226" end="29358" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_440" start="30529" end="30622" />
-            <label>6</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_440" start="32828" end="33543" />
-            <label>7a</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_003476.3" other_name="NM_003476.3" other_id="NM_003476.3" other_start="1" other_end="1341">
         <mapping_span lrg_start="13532" lrg_end="13620" other_start="1" other_end="89" strand="1" />
         <mapping_span lrg_start="23098" lrg_end="23237" other_start="90" other_end="229" strand="1" />
@@ -146,17 +110,17 @@
         <mapping_span lrg_start="30529" lrg_end="30622" other_start="654" other_end="747" strand="1" />
         <mapping_span lrg_start="32828" lrg_end="33544" other_start="748" other_end="1464" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">CSRP3</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="8048">
+          <symbol source="HGNC" name="CSRP3">
+            <synonym>CLP</synonym>
+            <synonym>CMD1M</synonym>
+            <synonym>CMH12</synonym>
+            <synonym>CRP3</synonym>
+            <synonym>LMO4</synonym>
+            <synonym>MLP</synonym>
+          </symbol>
           <coordinates coord_system="LRG_440" start="5003" end="33544" strand="1" />
-          <symbol>CSRP3</symbol>
-          <symbol>CLP</symbol>
-          <symbol>CMD1M</symbol>
-          <symbol>CMH12</symbol>
-          <symbol>CRP3</symbol>
-          <symbol>LMO4</symbol>
-          <symbol>MLP</symbol>
           <long_name>cysteine and glycine-rich protein 3 (cardiac LIM protein)</long_name>
           <db_xref source="GeneID" accession="8048" />
           <db_xref source="HGNC" accession="2472" />
@@ -210,8 +174,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000265968.3" other_name="ENST00000265968.3" other_id="ENST00000265968.3" other_start="1" other_end="1341">
         <mapping_span lrg_start="13532" lrg_end="13620" other_start="1" other_end="89" strand="1" />
         <mapping_span lrg_start="23098" lrg_end="23237" other_start="90" other_end="229" strand="1" />
@@ -231,9 +195,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000255308">
+          <symbol source="Clone_based_vega_gene" name="RP11-428C19.4" />
           <coordinates coord_system="LRG_440" start="1" end="18799" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="Clone_based_vega_gene">RP11-428C19.4</symbol>
           <long_name>RP11-428C19.4 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000255308" />
           <transcript source="Ensembl" accession="ENST00000527978">
@@ -246,8 +210,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000129170">
+          <symbol source="HGNC" name="CSRP3" />
           <coordinates coord_system="LRG_440" start="5001" end="33543" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">CSRP3</symbol>
           <long_name>cysteine and glycine-rich protein 3 (cardiac LIM protein) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="8048">
             <synonym>CLP</synonym>
@@ -292,7 +256,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000431813">
               <coordinates coord_system="LRG_440" start="23126" end="32904" strand="1" mapped_from="GRCh37" />
-              <long_name>cysteine and glycine-rich protein 3 </long_name>
+              <long_name>cysteine and glycine-rich protein 3</long_name>
               <db_xref source="RefSeq" accession="NP_003467.1" />
               <db_xref source="UniProtKB" accession="P50461">
                 <synonym>Q9P131</synonym>
@@ -336,7 +300,7 @@
         <name>List of locus specific databases for CSRP3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CSRP3</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

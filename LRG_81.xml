@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_81</id>
+    <hgnc_id>29796</hgnc_id>
     <sequence_source>NG_009898.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -18,15 +19,6 @@
         <name>Mauno Vihinen</name>
         <address>University of Tampere, Finland</address>
         <email>Mauno.Vihinen@med.lu.se</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -44,28 +36,28 @@
           <sequence>MLRPKALTQVLSQANTGGVQSTLLLNNEGSLLAYSGYGDTDARVTAAIASNIWAAYDRNGNQAFNEDNLKFILMDCMEGRVAITRVANLLLCMYAKETVGFGMLKAKAQALVQYLEEPLTQVAAS</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_81" start="5001" end="5232" strand="1" />
-        <coordinates coord_system="LRG_81_t1" start="1" end="232" />
-        <coordinates coord_system="LRG_81_p1" start="1" end="23" />
+        <coordinates coord_system="LRG_81t1" start="1" end="232" />
+        <coordinates coord_system="LRG_81p1" start="1" end="23" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_81" start="5538" end="5700" strand="1" />
-        <coordinates coord_system="LRG_81_t1" start="233" end="395" />
-        <coordinates coord_system="LRG_81_p1" start="23" end="77" />
+        <coordinates coord_system="LRG_81t1" start="233" end="395" />
+        <coordinates coord_system="LRG_81p1" start="23" end="77" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_81" start="8253" end="8342" strand="1" />
-        <coordinates coord_system="LRG_81_t1" start="396" end="485" />
-        <coordinates coord_system="LRG_81_p1" start="78" end="107" />
+        <coordinates coord_system="LRG_81t1" start="396" end="485" />
+        <coordinates coord_system="LRG_81p1" start="78" end="107" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_81" start="8590" end="8785" strand="1" />
-        <coordinates coord_system="LRG_81_t1" start="486" end="681" />
-        <coordinates coord_system="LRG_81_p1" start="108" end="125" />
+        <coordinates coord_system="LRG_81t1" start="486" end="681" />
+        <coordinates coord_system="LRG_81p1" start="108" end="125" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -80,8 +72,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="1" other_id="NC_000001.10" other_start="156019517" other_end="156030301">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="156019517" other_end="156030301">
         <mapping_span lrg_start="1" lrg_end="10785" other_start="156019517" other_end="156030301" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">LAMTOR2</lrg_locus>
@@ -97,27 +89,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009898.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_81" start="5001" end="5232" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_81" start="5538" end="5700" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_81" start="8253" end="8342" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_81" start="8590" end="8785" />
-            <label>4</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_001145264.1" other_name="NM_001145264.1" other_id="NM_001145264.1" other_start="1" other_end="591">
         <mapping_span lrg_start="5001" lrg_end="5232" other_start="1" other_end="232" strand="1" />
         <mapping_span lrg_start="5538" lrg_end="5700" other_start="233" other_end="395" strand="1" />
@@ -129,17 +101,17 @@
         <mapping_span lrg_start="8253" lrg_end="8342" other_start="396" other_end="485" strand="1" />
         <mapping_span lrg_start="8590" lrg_end="8785" other_start="486" other_end="681" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">LAMTOR2</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="56893">
+          <symbol source="HGNC" name="UBQLN4">
+            <synonym>A1U</synonym>
+            <synonym>A1Up</synonym>
+            <synonym>C1orf6</synonym>
+            <synonym>CIP75</synonym>
+            <synonym>UBIN</synonym>
+          </symbol>
           <coordinates coord_system="LRG_81" start="1" end="4000" strand="-1" />
           <partial>3-prime</partial>
-          <symbol>UBQLN4</symbol>
-          <symbol>A1U</symbol>
-          <symbol>A1Up</symbol>
-          <symbol>C1orf6</symbol>
-          <symbol>CIP75</symbol>
-          <symbol>UBIN</symbol>
           <long_name>ubiquilin 4</long_name>
           <db_xref source="GeneID" accession="56893" />
           <db_xref source="HGNC" accession="1237" />
@@ -178,16 +150,17 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="28956">
+          <symbol source="HGNC" name="LAMTOR2">
+            <synonym>ENDAP</synonym>
+            <synonym>HSPC003</synonym>
+            <synonym>MAPBPIP</synonym>
+            <synonym>MAPKSP1AP</synonym>
+            <synonym>p14</synonym>
+            <synonym>Ragulator2</synonym>
+            <synonym>ROBLD3</synonym>
+            <synonym>RP11-336K24.9</synonym>
+          </symbol>
           <coordinates coord_system="LRG_81" start="5001" end="8785" strand="1" />
-          <symbol>LAMTOR2</symbol>
-          <symbol>ENDAP</symbol>
-          <symbol>HSPC003</symbol>
-          <symbol>MAPBPIP</symbol>
-          <symbol>MAPKSP1AP</symbol>
-          <symbol>p14</symbol>
-          <symbol>Ragulator2</symbol>
-          <symbol>ROBLD3</symbol>
-          <symbol>RP11-336K24.9</symbol>
           <long_name>late endosomal/lysosomal adaptor, MAPK and MTOR activator 2</long_name>
           <db_xref source="GeneID" accession="28956" />
           <db_xref source="HGNC" accession="29796" />
@@ -228,6 +201,28 @@
               <db_xref source="GI" accession="7661728" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_001145264.1">
+            <coordinates coord_system="LRG_81" start="5001" end="8785" strand="1" />
+            <long_name>late endosomal/lysosomal adaptor, MAPK and MTOR activator 2, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="28956" />
+            <db_xref source="GI" accession="223671905" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_81" start="5001" end="5232" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_81" start="5538" end="5700" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_81" start="8590" end="8785" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001138736.1">
+              <coordinates coord_system="LRG_81" start="5165" end="8646" strand="1" />
+              <long_name>ragulator complex protein LAMTOR2 isoform 2</long_name>
+              <db_xref source="CCDS" accession="CCDS44243.1" />
+              <db_xref source="GeneID" accession="28956" />
+              <db_xref source="GI" accession="223671906" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -241,8 +236,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000368302.3" other_name="ENST00000368302.3" other_id="ENST00000368302.3" other_start="1" other_end="587">
         <mapping_span lrg_start="5125" lrg_end="5232" other_start="1" other_end="108" strand="1" />
         <mapping_span lrg_start="5538" lrg_end="5700" other_start="109" other_end="271" strand="1" />
@@ -276,9 +271,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000160803">
+          <symbol source="HGNC" name="UBQLN4" />
           <coordinates coord_system="LRG_81" start="1" end="4069" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">UBQLN4</symbol>
           <long_name>ubiquilin 4 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="56893">
             <synonym>A1U</synonym>
@@ -303,10 +298,10 @@
             <exon source="Ensembl" accession="ENSE00001911612">
               <coordinates coord_system="LRG_81" start="3869" end="4069" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003344173">
+            <exon source="Ensembl" accession="ENSE00003672986">
               <coordinates coord_system="LRG_81" start="1981" end="2132" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003242448">
+            <exon source="Ensembl" accession="ENSE00003669454">
               <coordinates coord_system="LRG_81" start="1385" end="1602" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001054591">
@@ -315,7 +310,7 @@
             <protein_product source="Ensembl" accession="ENSP00000357292">
               <coordinates coord_system="LRG_81" start="1" end="3976" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>ubiquilin-4 </long_name>
+              <long_name>ubiquilin-4</long_name>
               <db_xref source="RefSeq" accession="NP_064516.2" />
               <db_xref source="UniProtKB" accession="Q9NRR5">
                 <synonym>A6ND44</synonym>
@@ -334,7 +329,7 @@
             <exon source="Ensembl" accession="ENSE00001446825">
               <coordinates coord_system="LRG_81" start="3869" end="3988" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003344173">
+            <exon source="Ensembl" accession="ENSE00003672986">
               <coordinates coord_system="LRG_81" start="1981" end="2132" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002336849">
@@ -360,10 +355,10 @@
             <exon source="Ensembl" accession="ENSE00001909574">
               <coordinates coord_system="LRG_81" start="3869" end="3925" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003331218">
+            <exon source="Ensembl" accession="ENSE00003669532">
               <coordinates coord_system="LRG_81" start="1981" end="2132" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003376471">
+            <exon source="Ensembl" accession="ENSE00003677339">
               <coordinates coord_system="LRG_81" start="1385" end="1602" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001929790">
@@ -372,8 +367,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000116586">
+          <symbol source="HGNC" name="LAMTOR2" />
           <coordinates coord_system="LRG_81" start="5027" end="8785" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">LAMTOR2</symbol>
           <long_name>late endosomal/lysosomal adaptor, MAPK and MTOR activator 2 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="28956">
             <synonym>ENDAP</synonym>
@@ -405,7 +400,7 @@
             <exon source="Ensembl" accession="ENSE00000961270">
               <coordinates coord_system="LRG_81" start="5538" end="5700" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003258041">
+            <exon source="Ensembl" accession="ENSE00003494567">
               <coordinates coord_system="LRG_81" start="8253" end="8342" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001783354">
@@ -413,7 +408,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000357288">
               <coordinates coord_system="LRG_81" start="5165" end="8646" strand="1" mapped_from="GRCh37" />
-              <long_name>ragulator complex protein LAMTOR2 isoform 1 </long_name>
+              <long_name>ragulator complex protein LAMTOR2 isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_054736.1" />
               <db_xref source="UniProtKB" accession="Q9Y2Q5">
                 <synonym>Q5VY97</synonym>
@@ -433,12 +428,12 @@
             <exon source="Ensembl" accession="ENSE00000961270">
               <coordinates coord_system="LRG_81" start="5538" end="5700" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003321233">
+            <exon source="Ensembl" accession="ENSE00003639829">
               <coordinates coord_system="LRG_81" start="8590" end="8781" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000357287">
               <coordinates coord_system="LRG_81" start="5165" end="8646" strand="1" mapped_from="GRCh37" />
-              <long_name>ragulator complex protein LAMTOR2 isoform 2 </long_name>
+              <long_name>ragulator complex protein LAMTOR2 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001138736.1" />
               <db_xref source="UniProtKB" accession="Q9Y2Q5">
                 <synonym>Q5VY97</synonym>
@@ -466,7 +461,7 @@
             <exon source="Ensembl" accession="ENSE00000961270">
               <coordinates coord_system="LRG_81" start="5538" end="5700" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003258041">
+            <exon source="Ensembl" accession="ENSE00003494567">
               <coordinates coord_system="LRG_81" start="8253" end="8342" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001858633">
@@ -487,10 +482,10 @@
             <exon source="Ensembl" accession="ENSE00001871079">
               <coordinates coord_system="LRG_81" start="5360" end="5700" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003378172">
+            <exon source="Ensembl" accession="ENSE00003640950">
               <coordinates coord_system="LRG_81" start="8253" end="8342" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003328152">
+            <exon source="Ensembl" accession="ENSE00003497371">
               <coordinates coord_system="LRG_81" start="8590" end="8781" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -500,10 +495,10 @@
             <exon source="Ensembl" accession="ENSE00001924936">
               <coordinates coord_system="LRG_81" start="5771" end="5950" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003378172">
+            <exon source="Ensembl" accession="ENSE00003640950">
               <coordinates coord_system="LRG_81" start="8253" end="8342" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003328152">
+            <exon source="Ensembl" accession="ENSE00003497371">
               <coordinates coord_system="LRG_81" start="8590" end="8781" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -515,7 +510,7 @@
         <name>List of locus specific databases for LAMTOR2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/LAMTOR2</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

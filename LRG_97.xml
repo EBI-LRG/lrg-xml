@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_97</id>
+    <hgnc_id>9802</hgnc_id>
     <sequence_source>NG_007288.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -18,15 +19,6 @@
         <name>Mauno Vihinen</name>
         <address>University of Tampere, Finland</address>
         <email>Mauno.Vihinen@med.lu.se</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -44,44 +36,44 @@
           <sequence>MQAIKCVVVGDGAVGKTCLLISYTTNAFPGEYIPTVFDNYSANVMVDSKPVNLGLWDTAGQEDYDRLRPLSYPQTDVFLICFSLVSPASYENVRAKWFPEVRHHCPSTPIILVGTKLDLRDDKDTIEKLKEKKLAPITYPQGLALAKEIDSVKYLECSALTQRGLKTVFDEAIRAVLCPQPTRQQKRACSLL</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_97" start="5001" end="5152" strand="1" />
-        <coordinates coord_system="LRG_97_t1" start="1" end="152" />
-        <coordinates coord_system="LRG_97_p1" start="1" end="12" />
+        <coordinates coord_system="LRG_97t1" start="1" end="152" />
+        <coordinates coord_system="LRG_97p1" start="1" end="12" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_97" start="7608" end="7679" strand="1" />
-        <coordinates coord_system="LRG_97_t1" start="153" end="224" />
-        <coordinates coord_system="LRG_97_p1" start="12" end="36" />
+        <coordinates coord_system="LRG_97t1" start="153" end="224" />
+        <coordinates coord_system="LRG_97p1" start="12" end="36" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_97" start="16348" end="16465" strand="1" />
-        <coordinates coord_system="LRG_97_t1" start="225" end="342" />
-        <coordinates coord_system="LRG_97_p1" start="36" end="75" />
+        <coordinates coord_system="LRG_97t1" start="225" end="342" />
+        <coordinates coord_system="LRG_97p1" start="36" end="75" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_97" start="17272" end="17334" strand="1" />
-        <coordinates coord_system="LRG_97_t1" start="343" end="405" />
-        <coordinates coord_system="LRG_97_p1" start="76" end="96" />
+        <coordinates coord_system="LRG_97t1" start="343" end="405" />
+        <coordinates coord_system="LRG_97p1" start="76" end="96" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_97" start="17876" end="18035" strand="1" />
-        <coordinates coord_system="LRG_97_t1" start="406" end="565" />
-        <coordinates coord_system="LRG_97_p1" start="97" end="150" />
+        <coordinates coord_system="LRG_97t1" start="406" end="565" />
+        <coordinates coord_system="LRG_97p1" start="97" end="150" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_97" start="22463" end="22595" strand="1" />
-        <coordinates coord_system="LRG_97_t1" start="566" end="698" />
-        <coordinates coord_system="LRG_97_p1" start="150" end="192" />
+        <coordinates coord_system="LRG_97t1" start="566" end="698" />
+        <coordinates coord_system="LRG_97p1" start="150" end="192" />
       </exon>
-      <exon>
+      <exon label="7">
         <coordinates coord_system="LRG_97" start="23227" end="23996" strand="1" />
-        <coordinates coord_system="LRG_97_t1" start="699" end="1468" />
+        <coordinates coord_system="LRG_97t1" start="699" end="1468" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -96,8 +88,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="22" other_id="NC_000022.10" other_start="37619310" other_end="37645305">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="22" other_id="NC_000022.10" other_start="37619310" other_end="37645305">
         <mapping_span lrg_start="1" lrg_end="25996" other_start="37619310" other_end="37645305" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">RAC2</lrg_locus>
@@ -113,39 +105,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007288.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_97" start="5001" end="5152" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_97" start="7608" end="7679" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_97" start="16348" end="16465" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_97" start="17272" end="17334" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_97" start="17876" end="18035" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_97" start="22463" end="22595" />
-            <label>6</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_97" start="23227" end="23996" />
-            <label>7</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_002872.3" other_name="NM_002872.3" other_id="NM_002872.3" other_start="1" other_end="1468">
         <mapping_span lrg_start="5001" lrg_end="5152" other_start="1" other_end="152" strand="1" />
         <mapping_span lrg_start="7608" lrg_end="7679" other_start="153" other_end="224" strand="1" />
@@ -155,14 +115,15 @@
         <mapping_span lrg_start="22463" lrg_end="22595" other_start="566" other_end="698" strand="1" />
         <mapping_span lrg_start="23227" lrg_end="23996" other_start="699" other_end="1468" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">RAC2</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="5880">
+          <symbol source="HGNC" name="RAC2">
+            <synonym>EN-7</synonym>
+            <synonym>Gx</synonym>
+            <synonym>HSPC022</synonym>
+            <synonym>p21-Rac2</synonym>
+          </symbol>
           <coordinates coord_system="LRG_97" start="5001" end="23996" strand="1" />
-          <symbol>RAC2</symbol>
-          <symbol>EN-7</symbol>
-          <symbol>Gx</symbol>
-          <symbol>HSPC022</symbol>
           <long_name>ras-related C3 botulinum toxin substrate 2 (rho family, small GTP binding protein Rac2)</long_name>
           <db_xref source="GeneID" accession="5880" />
           <db_xref source="HGNC" accession="9802" />
@@ -198,10 +159,8 @@
             <protein_product source="RefSeq" accession="NP_002863.1" codon_start="1" fixed_id="p1">
               <coordinates coord_system="LRG_97" start="5118" end="22593" strand="1" />
               <long_name>ras-related C3 botulinum toxin substrate 2</long_name>
-              <long_name>rho family, small GTP binding protein Rac2</long_name>
-              <long_name>Ras-related C3 botulinum toxin substrate 3 (rho family, small GTP-binding protein Rac2)</long_name>
               <long_name>small G protein</long_name>
-              <long_name>p21-Rac2</long_name>
+              <long_name>Ras-related C3 botulinum toxin substrate 3 (rho family, small GTP-binding protein Rac2)</long_name>
               <db_xref source="CCDS" accession="CCDS13945.1" />
               <db_xref source="GeneID" accession="5880" />
               <db_xref source="GI" accession="4506381" />
@@ -220,8 +179,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000249071.6" other_name="ENST00000249071.6" other_id="ENST00000249071.6" other_start="1" other_end="1482">
         <mapping_span lrg_start="4996" lrg_end="5152" other_start="1" other_end="157" strand="1" />
         <mapping_span lrg_start="7608" lrg_end="7679" other_start="158" other_end="229" strand="1" />
@@ -274,13 +233,14 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000128340">
+          <symbol source="HGNC" name="RAC2" />
           <coordinates coord_system="LRG_97" start="4818" end="24005" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">RAC2</symbol>
           <long_name>ras-related C3 botulinum toxin substrate 2 (rho family, small GTP binding protein Rac2) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="5880">
             <synonym>EN-7</synonym>
             <synonym>Gx</synonym>
             <synonym>HSPC022</synonym>
+            <synonym>p21-Rac2</synonym>
           </db_xref>
           <db_xref source="HGNC" accession="9802">
             <synonym>EN-7</synonym>
@@ -293,10 +253,10 @@
             <exon source="Ensembl" accession="ENSE00001551967">
               <coordinates coord_system="LRG_97" start="4818" end="4976" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003444056">
+            <exon source="Ensembl" accession="ENSE00003590182">
               <coordinates coord_system="LRG_97" start="7608" end="7679" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003352530">
+            <exon source="Ensembl" accession="ENSE00003564132">
               <coordinates coord_system="LRG_97" start="16348" end="16465" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000653854">
@@ -305,7 +265,7 @@
             <exon source="Ensembl" accession="ENSE00001668004">
               <coordinates coord_system="LRG_97" start="17876" end="18035" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003286905">
+            <exon source="Ensembl" accession="ENSE00003491576">
               <coordinates coord_system="LRG_97" start="22463" end="22595" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001552453">
@@ -324,10 +284,10 @@
             <exon source="Ensembl" accession="ENSE00001564529">
               <coordinates coord_system="LRG_97" start="5064" end="5152" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003302746">
+            <exon source="Ensembl" accession="ENSE00003599746">
               <coordinates coord_system="LRG_97" start="7608" end="7679" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003383308">
+            <exon source="Ensembl" accession="ENSE00003588520">
               <coordinates coord_system="LRG_97" start="16348" end="16465" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000653854">
@@ -349,10 +309,10 @@
             <exon source="Ensembl" accession="ENSE00001548246">
               <coordinates coord_system="LRG_97" start="4834" end="5131" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003302746">
+            <exon source="Ensembl" accession="ENSE00003599746">
               <coordinates coord_system="LRG_97" start="7608" end="7679" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003383308">
+            <exon source="Ensembl" accession="ENSE00003588520">
               <coordinates coord_system="LRG_97" start="16348" end="16465" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000653854">
@@ -374,7 +334,7 @@
             <exon source="Ensembl" accession="ENSE00001913573">
               <coordinates coord_system="LRG_97" start="4988" end="5152" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003444056">
+            <exon source="Ensembl" accession="ENSE00003590182">
               <coordinates coord_system="LRG_97" start="7608" end="7679" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001947139">
@@ -389,10 +349,10 @@
             <exon source="Ensembl" accession="ENSE00001045309">
               <coordinates coord_system="LRG_97" start="4996" end="5152" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003302746">
+            <exon source="Ensembl" accession="ENSE00003599746">
               <coordinates coord_system="LRG_97" start="7608" end="7679" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003383308">
+            <exon source="Ensembl" accession="ENSE00003588520">
               <coordinates coord_system="LRG_97" start="16348" end="16465" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000653854">
@@ -401,7 +361,7 @@
             <exon source="Ensembl" accession="ENSE00001668004">
               <coordinates coord_system="LRG_97" start="17876" end="18035" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003286905">
+            <exon source="Ensembl" accession="ENSE00003491576">
               <coordinates coord_system="LRG_97" start="22463" end="22595" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001875917">
@@ -409,7 +369,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000249071">
               <coordinates coord_system="LRG_97" start="5118" end="22593" strand="1" mapped_from="GRCh37" />
-              <long_name>ras-related C3 botulinum toxin substrate 2 </long_name>
+              <long_name>ras-related C3 botulinum toxin substrate 2</long_name>
               <db_xref source="RefSeq" accession="NP_002863.1" />
               <db_xref source="UniProtKB" accession="P15153">
                 <synonym>Q9UDJ4</synonym>
@@ -422,7 +382,7 @@
             <exon source="Ensembl" accession="ENSE00001946964">
               <coordinates coord_system="LRG_97" start="5018" end="5152" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003302746">
+            <exon source="Ensembl" accession="ENSE00003599746">
               <coordinates coord_system="LRG_97" start="7608" end="7679" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001594244">
@@ -438,7 +398,7 @@
             <exon source="Ensembl" accession="ENSE00001874225">
               <coordinates coord_system="LRG_97" start="17763" end="18035" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003416035">
+            <exon source="Ensembl" accession="ENSE00003603479">
               <coordinates coord_system="LRG_97" start="22463" end="22595" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001937197">
@@ -447,8 +407,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000255594">
+          <symbol source="Clone_based_ensembl_gene" name="Z82188.1" />
           <coordinates coord_system="LRG_97" start="23271" end="24002" strand="1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_ensembl_gene">Z82188.1</symbol>
           <long_name>Z82188.1 (pseudogene)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000255594" />
           <transcript source="Ensembl" accession="ENST00000417990">
@@ -469,7 +429,7 @@
         <name>List of locus specific databases for RAC2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RAC2</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

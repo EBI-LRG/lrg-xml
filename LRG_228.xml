@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_228</id>
+    <hgnc_id>3573</hgnc_id>
     <sequence_source>NG_027966.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -13,15 +14,6 @@
         <name>Sujatha Mohan</name>
         <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
         <email>sujatha@rcai.riken.jp</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -39,16 +31,16 @@
           <sequence>MDPFLVLLHSVSSSLSSSELTELKFLCLGRVGKRKLERVQSGLDLFSMLLEQNDLEPGHTELLRELLASLRRHDLLRRVDDFEAGAAAGAAPGEEDLCAAFNVICDNVGKDWRRLARQLKVSDTKIDSIEDRYPRNLTERVRESLRIWKNTEKENATVAHLVGALRSCQMNLVADLVQEVQQARDLQNRSGAMSPMSWNSDASTSEAS</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_228" start="5001" end="5583" strand="1" />
-        <coordinates coord_system="LRG_228_t1" start="1" end="583" />
-        <coordinates coord_system="LRG_228_p1" start="1" end="96" />
+        <coordinates coord_system="LRG_228t1" start="1" end="583" />
+        <coordinates coord_system="LRG_228p1" start="1" end="96" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_228" start="7971" end="9240" strand="1" />
-        <coordinates coord_system="LRG_228_t1" start="584" end="1853" />
-        <coordinates coord_system="LRG_228_p1" start="96" end="208" />
+        <coordinates coord_system="LRG_228t1" start="584" end="1853" />
+        <coordinates coord_system="LRG_228p1" start="96" end="208" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -63,8 +55,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="11" other_id="NC_000011.9" other_start="70044269" other_end="70055508">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="70044269" other_end="70055508">
         <mapping_span lrg_start="1" lrg_end="11240" other_start="70044269" other_end="70055508" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">FADD</lrg_locus>
@@ -80,30 +72,18 @@
         </contact>
       </source>
       <comment>Annotation from NG_027966.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_228" start="5001" end="5583" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_228" start="7971" end="9240" />
-            <label>2</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_003824.3" other_name="NM_003824.3" other_id="NM_003824.3" other_start="1" other_end="1853">
         <mapping_span lrg_start="5001" lrg_end="5583" other_start="1" other_end="583" strand="1" />
         <mapping_span lrg_start="7971" lrg_end="9240" other_start="584" other_end="1853" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">FADD</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="8772">
+          <symbol source="HGNC" name="FADD">
+            <synonym>GIG3</synonym>
+            <synonym>MORT1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_228" start="5001" end="9240" strand="1" />
-          <symbol>FADD</symbol>
-          <symbol>GIG3</symbol>
-          <symbol>MORT1</symbol>
           <long_name>Fas (TNFRSF6)-associated via death domain</long_name>
           <db_xref source="GeneID" accession="8772" />
           <db_xref source="HGNC" accession="3573" />
@@ -147,16 +127,16 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000301838.4" other_name="ENST00000301838.4" other_id="ENST00000301838.4" other_start="1" other_end="1841">
         <mapping_span lrg_start="5001" lrg_end="5583" other_start="1" other_end="583" strand="1" />
         <mapping_span lrg_start="7971" lrg_end="9228" other_start="584" other_end="1841" strand="1" />
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000168040">
+          <symbol source="HGNC" name="FADD" />
           <coordinates coord_system="LRG_228" start="5001" end="9228" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">FADD</symbol>
           <long_name>Fas (TNFRSF6)-associated via death domain (protein_coding)</long_name>
           <db_xref source="GeneID" accession="8772">
             <synonym>MORT1</synonym>
@@ -180,7 +160,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000301838">
               <coordinates coord_system="LRG_228" start="5298" end="8311" strand="1" mapped_from="GRCh37" />
-              <long_name>protein FADD </long_name>
+              <long_name>protein FADD</long_name>
               <db_xref source="RefSeq" accession="NP_003815.1" />
               <db_xref source="UniProtKB" accession="Q13158">
                 <synonym>Q14866</synonym>
@@ -190,8 +170,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000254721">
+          <symbol source="Clone_based_vega_gene" name="RP11-805J14.5" />
           <coordinates coord_system="LRG_228" start="8129" end="9228" strand="-1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_vega_gene">RP11-805J14.5</symbol>
           <long_name>RP11-805J14.5 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000254721" />
           <transcript source="Ensembl" accession="ENST00000526174">
@@ -222,7 +202,7 @@
         <name>List of locus specific databases for FADD</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FADD</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

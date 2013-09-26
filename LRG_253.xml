@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_253</id>
+    <hgnc_id>16841</hgnc_id>
     <sequence_source>NG_009008.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Valerie Delague</name>
         <address>Aix-Marseille University, Marseille, France</address>
         <email>valerie.delague@univ-amu.fr</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -37,30 +29,30 @@
           <sequence>MSVPGPYQAATGPSSAPSAPPSYEETVAVNSYYPTPPAPMPGPTTGLVTGPDGKGMNPPSYYTQPAPIPNNNPITVQTVYVQHPITFLDRPIQMCCPSCNKMIVSQLSYNAGALTWLSCGSLCLLGQECSGTIVALRSFDLLGSCNPPSSAS</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_253" start="5001" end="5065" strand="1" />
-        <coordinates coord_system="LRG_253_t1" start="1" end="65" />
+        <coordinates coord_system="LRG_253t1" start="1" end="65" />
       </exon>
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" />
-        <coordinates coord_system="LRG_253_t1" start="66" end="290" />
-        <coordinates coord_system="LRG_253_p1" start="1" end="74" />
+        <coordinates coord_system="LRG_253t1" start="66" end="290" />
+        <coordinates coord_system="LRG_253p1" start="1" end="74" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" />
-        <coordinates coord_system="LRG_253_t1" start="291" end="447" />
-        <coordinates coord_system="LRG_253_p1" start="74" end="126" />
+        <coordinates coord_system="LRG_253t1" start="291" end="447" />
+        <coordinates coord_system="LRG_253p1" start="74" end="126" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_253" start="40147" end="40244" strand="1" />
-        <coordinates coord_system="LRG_253_t1" start="448" end="545" />
-        <coordinates coord_system="LRG_253_p1" start="126" end="152" />
+        <coordinates coord_system="LRG_253t1" start="448" end="545" />
+        <coordinates coord_system="LRG_253p1" start="126" end="152" />
       </exon>
-      <exon>
+      <exon label="7">
         <coordinates coord_system="LRG_253" start="42206" end="44229" strand="1" />
-        <coordinates coord_system="LRG_253_t1" start="546" end="2569" />
+        <coordinates coord_system="LRG_253t1" start="546" end="2569" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -75,8 +67,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="16" other_id="NC_000016.9" other_start="11639578" other_end="11685806">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_start="11639578" other_end="11685806">
         <mapping_span lrg_start="1" lrg_end="46229" other_start="11639578" other_end="11685806" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">LITAF</lrg_locus>
@@ -92,31 +84,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009008.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_253" start="5001" end="5065" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_253" start="35216" end="35440" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_253" start="38262" end="38418" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_253" start="40147" end="40244" />
-            <label>6</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_253" start="42206" end="44229" />
-            <label>7</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_001136472.1" other_name="NM_001136472.1" other_id="NM_001136472.1" other_start="1" other_end="2471">
         <mapping_span lrg_start="5001" lrg_end="5065" other_start="1" other_end="65" strand="1" />
         <mapping_span lrg_start="35216" lrg_end="35440" other_start="66" other_end="290" strand="1" />
@@ -142,14 +110,14 @@
         <mapping_span lrg_start="38262" lrg_end="38418" other_start="355" other_end="511" strand="1" />
         <mapping_span lrg_start="42206" lrg_end="44229" other_start="512" other_end="2535" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">LITAF</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="9516">
+          <symbol source="HGNC" name="LITAF">
+            <synonym>PIG7</synonym>
+            <synonym>SIMPLE</synonym>
+            <synonym>TP53I7</synonym>
+          </symbol>
           <coordinates coord_system="LRG_253" start="4485" end="44229" strand="1" />
-          <symbol>LITAF</symbol>
-          <symbol>PIG7</symbol>
-          <symbol>SIMPLE</symbol>
-          <symbol>TP53I7</symbol>
           <long_name>lipopolysaccharide-induced TNF factor</long_name>
           <db_xref source="GeneID" accession="9516" />
           <db_xref source="HGNC" accession="16841" />
@@ -191,6 +159,56 @@
               <db_xref source="GI" accession="210147507" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_001136472.1">
+            <coordinates coord_system="LRG_253" start="5001" end="44229" strand="1" />
+            <long_name>lipopolysaccharide-induced TNF factor, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="9516" />
+            <db_xref source="GI" accession="210147504" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_253" start="5001" end="5065" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_253" start="42206" end="44229" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001129944.1">
+              <coordinates coord_system="LRG_253" start="35221" end="42314" strand="1" />
+              <long_name>lipopolysaccharide-induced tumor necrosis factor-alpha factor isoform 1</long_name>
+              <db_xref source="CCDS" accession="CCDS32386.1" />
+              <db_xref source="GeneID" accession="9516" />
+              <db_xref source="GI" accession="210147505" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_004862.3">
+            <coordinates coord_system="LRG_253" start="5578" end="44229" strand="1" />
+            <long_name>lipopolysaccharide-induced TNF factor, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="9516" />
+            <db_xref source="GI" accession="210147490" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_253" start="5578" end="5805" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_253" start="42206" end="44229" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_004853.2">
+              <coordinates coord_system="LRG_253" start="35221" end="42314" strand="1" />
+              <long_name>lipopolysaccharide-induced tumor necrosis factor-alpha factor isoform 1</long_name>
+              <db_xref source="CCDS" accession="CCDS32386.1" />
+              <db_xref source="GeneID" accession="9516" />
+              <db_xref source="GI" accession="65787265" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -204,8 +222,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000339430.5" other_name="ENST00000339430.5" other_id="ENST00000339430.5" other_start="1" other_end="2356">
         <mapping_span lrg_start="5578" lrg_end="5805" other_start="1" other_end="228" strand="1" />
         <mapping_span lrg_start="35216" lrg_end="35440" other_start="229" other_end="453" strand="1" />
@@ -312,9 +330,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000189067">
+          <symbol source="HGNC" name="LITAF" />
           <coordinates coord_system="LRG_253" start="1" end="43954" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">LITAF</symbol>
           <long_name>lipopolysaccharide-induced TNF factor (protein_coding)</long_name>
           <db_xref source="GeneID" accession="9516">
             <synonym>PIG7</synonym>
@@ -337,7 +355,7 @@
             <exon source="Ensembl" accession="ENSE00001380031">
               <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314287">
+            <exon source="Ensembl" accession="ENSE00003463715">
               <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002652441">
@@ -347,6 +365,7 @@
               <coordinates coord_system="LRG_253" start="35221" end="42314" strand="1" mapped_from="GRCh37" />
               <db_xref source="UniProtKB" accession="Q99732">
                 <synonym>D3DUG1</synonym>
+                <synonym>G5E9K0</synonym>
                 <synonym>Q05DW0</synonym>
                 <synonym>Q9C0L6</synonym>
               </db_xref>
@@ -359,7 +378,7 @@
             <exon source="Ensembl" accession="ENSE00001380031">
               <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314287">
+            <exon source="Ensembl" accession="ENSE00003463715">
               <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002663609">
@@ -395,7 +414,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000571688">
             <coordinates coord_system="LRG_253" start="4388" end="43954" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens lipopolysaccharide-induced TNF factor (LITAF), transcript variant 2, mRNA. (protein_coding)</long_name>
+            <long_name>LITAF-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS32386.1" />
             <db_xref source="RefSeq" accession="NM_001136472.1" />
             <exon source="Ensembl" accession="ENSE00002645253">
@@ -404,7 +423,7 @@
             <exon source="Ensembl" accession="ENSE00001380031">
               <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314287">
+            <exon source="Ensembl" accession="ENSE00003463715">
               <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002675052">
@@ -412,10 +431,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000459533">
               <coordinates coord_system="LRG_253" start="35221" end="42314" strand="1" mapped_from="GRCh37" />
-              <long_name>lipopolysaccharide-induced tumor necrosis factor-alpha factor isoform 1 </long_name>
+              <long_name>lipopolysaccharide-induced tumor necrosis factor-alpha factor isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_001129944.1" />
               <db_xref source="UniProtKB" accession="Q99732">
                 <synonym>D3DUG1</synonym>
+                <synonym>G5E9K0</synonym>
                 <synonym>Q05DW0</synonym>
                 <synonym>Q9C0L6</synonym>
               </db_xref>
@@ -430,7 +450,7 @@
             <exon source="Ensembl" accession="ENSE00001380031">
               <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314287">
+            <exon source="Ensembl" accession="ENSE00003463715">
               <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002647523">
@@ -450,7 +470,7 @@
             <exon source="Ensembl" accession="ENSE00001380031">
               <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314287">
+            <exon source="Ensembl" accession="ENSE00003463715">
               <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002656799">
@@ -460,6 +480,7 @@
               <coordinates coord_system="LRG_253" start="35221" end="42314" strand="1" mapped_from="GRCh37" />
               <db_xref source="UniProtKB" accession="Q99732">
                 <synonym>D3DUG1</synonym>
+                <synonym>G5E9K0</synonym>
                 <synonym>Q05DW0</synonym>
                 <synonym>Q9C0L6</synonym>
               </db_xref>
@@ -476,7 +497,7 @@
             <exon source="Ensembl" accession="ENSE00001380031">
               <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314287">
+            <exon source="Ensembl" accession="ENSE00003463715">
               <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001629665">
@@ -487,8 +508,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000397958">
               <coordinates coord_system="LRG_253" start="35221" end="40228" strand="1" mapped_from="GRCh37" />
-              <long_name>lipopolysaccharide-induced tumor necrosis factor-alpha factor isoform 2 </long_name>
+              <long_name>lipopolysaccharide-induced tumor necrosis factor-alpha factor isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001129945.1" />
+              <db_xref source="UniProtKB" accession="Q99732">
+                <synonym>D3DUG1</synonym>
+                <synonym>G5E9K0</synonym>
+                <synonym>Q05DW0</synonym>
+                <synonym>Q9C0L6</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000571976">
@@ -516,7 +543,7 @@
             <exon source="Ensembl" accession="ENSE00001380031">
               <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314287">
+            <exon source="Ensembl" accession="ENSE00003463715">
               <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001697665">
@@ -529,6 +556,7 @@
               <coordinates coord_system="LRG_253" start="35221" end="42514" strand="1" mapped_from="GRCh37" />
               <db_xref source="UniProtKB" accession="Q99732">
                 <synonym>D3DUG1</synonym>
+                <synonym>G5E9K0</synonym>
                 <synonym>Q05DW0</synonym>
                 <synonym>Q9C0L6</synonym>
               </db_xref>
@@ -562,7 +590,7 @@
             <exon source="Ensembl" accession="ENSE00002665028">
               <coordinates coord_system="LRG_253" start="16365" end="16545" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003413773">
+            <exon source="Ensembl" accession="ENSE00003652970">
               <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002645979">
@@ -585,7 +613,7 @@
             <exon source="Ensembl" accession="ENSE00001380031">
               <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314287">
+            <exon source="Ensembl" accession="ENSE00003463715">
               <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002648680">
@@ -595,6 +623,7 @@
               <coordinates coord_system="LRG_253" start="35221" end="42314" strand="1" mapped_from="GRCh37" />
               <db_xref source="UniProtKB" accession="Q99732">
                 <synonym>D3DUG1</synonym>
+                <synonym>G5E9K0</synonym>
                 <synonym>Q05DW0</synonym>
                 <synonym>Q9C0L6</synonym>
               </db_xref>
@@ -641,7 +670,7 @@
             <exon source="Ensembl" accession="ENSE00001380031">
               <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314287">
+            <exon source="Ensembl" accession="ENSE00003463715">
               <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002648892">
@@ -678,7 +707,7 @@
             <exon source="Ensembl" accession="ENSE00001380031">
               <coordinates coord_system="LRG_253" start="35216" end="35440" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003314287">
+            <exon source="Ensembl" accession="ENSE00003463715">
               <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002657636">
@@ -686,10 +715,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000340118">
               <coordinates coord_system="LRG_253" start="35221" end="42314" strand="1" mapped_from="GRCh37" />
-              <long_name>lipopolysaccharide-induced tumor necrosis factor-alpha factor isoform 1 </long_name>
+              <long_name>lipopolysaccharide-induced tumor necrosis factor-alpha factor isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_004853.2" />
               <db_xref source="UniProtKB" accession="Q99732">
                 <synonym>D3DUG1</synonym>
+                <synonym>G5E9K0</synonym>
                 <synonym>Q05DW0</synonym>
                 <synonym>Q9C0L6</synonym>
               </db_xref>
@@ -701,7 +731,7 @@
             <exon source="Ensembl" accession="ENSE00002637206">
               <coordinates coord_system="LRG_253" start="35507" end="35545" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003374879">
+            <exon source="Ensembl" accession="ENSE00003577551">
               <coordinates coord_system="LRG_253" start="38262" end="38418" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002669819">
@@ -719,7 +749,7 @@
         <name>List of locus specific databases for LITAF</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/LITAF</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

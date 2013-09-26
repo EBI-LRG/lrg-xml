@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_59</id>
+    <hgnc_id>3613</hgnc_id>
     <sequence_source>NG_007578.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -18,15 +19,6 @@
         <name>Mauno Vihinen</name>
         <address>University of Tampere, Finland</address>
         <email>Mauno.Vihinen@med.lu.se</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -44,40 +36,40 @@
           <sequence>MWFLTTLLLWVPVDGQVDTTKAVITLQPPWVSVFQEETVTLHCEVLHLPGSSSTQWFLNGTATQTSTPSYRITSASVNDSGEYRCQRGLSGRSDPIQLEIHRGWLLLQVSSRVFTEGEPLALRCHAWKDKLVYNVLYYRNGKAFKFFHWNSNLTILKTNISHNGTYHCSGMGKHRYTSAGISVTVKELFPAPVLNASVTSPLLEGNLVTLSCETKLLLQRPGLQLYFSFYMGSKTLRGRNTSSEYQILTARREDSGLYWCEAATEDGNVLKRSPELELQVLGLQLPTPVWFHVLFYLAVGIMFLVNTVLWVTIRKELKRKKKWDLEISLDSGHEKKVISSLQEDRHLEEELKCQEQKEEQLQEGVHRKEPQGAT</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_59" start="4963" end="5043" strand="1" />
-        <coordinates coord_system="LRG_59_t1" start="1" end="81" />
-        <coordinates coord_system="LRG_59_p1" start="1" end="11" />
+        <coordinates coord_system="LRG_59t1" start="1" end="81" />
+        <coordinates coord_system="LRG_59p1" start="1" end="11" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_59" start="5439" end="5459" strand="1" />
-        <coordinates coord_system="LRG_59_t1" start="82" end="102" />
-        <coordinates coord_system="LRG_59_p1" start="11" end="18" />
+        <coordinates coord_system="LRG_59t1" start="82" end="102" />
+        <coordinates coord_system="LRG_59p1" start="11" end="18" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_59" start="6272" end="6526" strand="1" />
-        <coordinates coord_system="LRG_59_t1" start="103" end="357" />
-        <coordinates coord_system="LRG_59_p1" start="18" end="103" />
+        <coordinates coord_system="LRG_59t1" start="103" end="357" />
+        <coordinates coord_system="LRG_59p1" start="18" end="103" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_59" start="10635" end="10886" strand="1" />
-        <coordinates coord_system="LRG_59_t1" start="358" end="609" />
-        <coordinates coord_system="LRG_59_p1" start="103" end="187" />
+        <coordinates coord_system="LRG_59t1" start="358" end="609" />
+        <coordinates coord_system="LRG_59p1" start="103" end="187" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_59" start="12323" end="12607" strand="1" />
-        <coordinates coord_system="LRG_59_t1" start="610" end="894" />
-        <coordinates coord_system="LRG_59_p1" start="187" end="282" />
+        <coordinates coord_system="LRG_59t1" start="610" end="894" />
+        <coordinates coord_system="LRG_59p1" start="187" end="282" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_59" start="13506" end="14787" strand="1" />
-        <coordinates coord_system="LRG_59_t1" start="895" end="2176" />
-        <coordinates coord_system="LRG_59_p1" start="282" end="374" />
+        <coordinates coord_system="LRG_59t1" start="895" end="2176" />
+        <coordinates coord_system="LRG_59p1" start="282" end="374" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -92,8 +84,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="1" other_id="NC_000001.10" other_start="149749288" other_end="149766074">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="149749288" other_end="149766074">
         <mapping_span lrg_start="1" lrg_end="16787" other_start="149749288" other_end="149766074" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">FCGR1A</lrg_locus>
@@ -109,35 +101,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007578.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_59" start="4963" end="5043" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_59" start="5439" end="5459" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_59" start="6272" end="6526" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_59" start="10635" end="10886" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_59" start="12323" end="12607" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_59" start="13506" end="14787" />
-            <label>6</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_000566.3" other_name="NM_000566.3" other_id="NM_000566.3" other_start="1" other_end="2176">
         <mapping_span lrg_start="4963" lrg_end="5043" other_start="1" other_end="81" strand="1" />
         <mapping_span lrg_start="5439" lrg_end="5459" other_start="82" other_end="102" strand="1" />
@@ -146,15 +110,15 @@
         <mapping_span lrg_start="12323" lrg_end="12607" other_start="610" other_end="894" strand="1" />
         <mapping_span lrg_start="13506" lrg_end="14787" other_start="895" other_end="2176" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">FCGR1A</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="2209">
+          <symbol source="HGNC" name="FCGR1A">
+            <synonym>CD64</synonym>
+            <synonym>CD64A</synonym>
+            <synonym>FCRI</synonym>
+            <synonym>IGFR1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_59" start="4963" end="14787" strand="1" />
-          <symbol>FCGR1A</symbol>
-          <symbol>CD64</symbol>
-          <symbol>CD64A</symbol>
-          <symbol>FCRI</symbol>
-          <symbol>IGFR1</symbol>
           <long_name>Fc fragment of IgG, high affinity Ia, receptor (CD64)</long_name>
           <db_xref source="GeneID" accession="2209" />
           <db_xref source="HGNC" accession="3613" />
@@ -213,8 +177,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000369168.4" other_name="ENST00000369168.4" other_id="ENST00000369168.4" other_start="1" other_end="2180">
         <mapping_span lrg_start="4959" lrg_end="5043" other_start="1" other_end="85" strand="1" />
         <mapping_span lrg_start="5439" lrg_end="5459" other_start="86" other_end="106" strand="1" />
@@ -239,8 +203,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000150337">
+          <symbol source="HGNC" name="FCGR1A" />
           <coordinates coord_system="LRG_59" start="4940" end="14787" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">FCGR1A</symbol>
           <long_name>Fc fragment of IgG, high affinity Ia, receptor (CD64) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="2209">
             <synonym>CD64</synonym>
@@ -303,7 +267,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000358165">
               <coordinates coord_system="LRG_59" start="5013" end="13786" strand="1" mapped_from="GRCh37" />
-              <long_name>high affinity immunoglobulin gamma Fc receptor IB isoform 3 precursor , high affinity immunoglobulin gamma Fc receptor I precursor </long_name>
+              <long_name>high affinity immunoglobulin gamma Fc receptor IB isoform 3 precursor, high affinity immunoglobulin gamma Fc receptor I precursor</long_name>
               <db_xref source="RefSeq" accession="NP_001231839.1" />
               <db_xref source="RefSeq" accession="NP_000557.1" />
               <db_xref source="UniProtKB" accession="P12314">
@@ -336,9 +300,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000203814">
+          <symbol source="HGNC" name="HIST2H2BF" />
           <coordinates coord_system="LRG_59" start="4958" end="16787" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">HIST2H2BF</symbol>
           <long_name>histone cluster 2, H2bf (protein_coding)</long_name>
           <db_xref source="GeneID" accession="440689" />
           <db_xref source="HGNC" accession="24700" />
@@ -355,7 +319,7 @@
             <protein_product source="Ensembl" accession="ENSP00000445831">
               <coordinates coord_system="LRG_59" start="5502" end="16787" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>histone H2B type 2-F isoform b </long_name>
+              <long_name>histone H2B type 2-F isoform b</long_name>
               <db_xref source="RefSeq" accession="NP_001154806.1" />
               <db_xref source="UniProtKB" accession="Q5QNW6">
                 <synonym>A8K0U9</synonym>
@@ -377,23 +341,23 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000242663">
+          <symbol source="Clone_based_vega_gene" name="RP11-196G18.21" />
           <coordinates coord_system="LRG_59" start="5146" end="16787" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="Clone_based_vega_gene">RP11-196G18.21</symbol>
-          <long_name>RP11-196G18.21 (processed_transcript)</long_name>
+          <long_name>RP11-196G18.21 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000242663" />
           <transcript source="Ensembl" accession="ENST00000420462">
             <coordinates coord_system="LRG_59" start="5146" end="16787" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>RP11-196G18.21-001 (processed_transcript)</long_name>
+            <long_name>RP11-196G18.21-001 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00001801506">
               <coordinates coord_system="LRG_59" start="5146" end="5529" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000233030">
+          <symbol source="Clone_based_vega_gene" name="RP11-196G18.3" />
           <coordinates coord_system="LRG_59" start="7928" end="15289" strand="-1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_vega_gene">RP11-196G18.3</symbol>
           <long_name>RP11-196G18.3 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000233030" />
           <transcript source="Ensembl" accession="ENST00000428289">
@@ -414,7 +378,7 @@
         <name>List of locus specific databases for FCGR1A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FCGR1A</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

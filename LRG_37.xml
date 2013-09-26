@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_37</id>
+    <hgnc_id>1673</hgnc_id>
     <sequence_source>NG_009891.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -18,15 +19,6 @@
         <name>Mauno Vihinen</name>
         <address>University of Tampere, Finland</address>
         <email>Mauno.Vihinen@med.lu.se</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -44,34 +36,34 @@
           <sequence>MEHSTFLSGLVLATLLSQVSPFKIPIEELEDRVFVNCNTSITWVEGTVGTLLSDITRLDLGKRILDPRGIYRCNGTDIYKDKESTVQVHYRMCQSCVELDPATVAGIIVTDVIATLLLALGVFCFAGHETGRLSGAADTQALLRNDQVYQPLRDRDDAQYSHLGGNWARNK</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_37" start="5001" end="5192" strand="1" />
-        <coordinates coord_system="LRG_37_t1" start="1" end="192" />
-        <coordinates coord_system="LRG_37_p1" start="1" end="19" />
+        <coordinates coord_system="LRG_37t1" start="1" end="192" />
+        <coordinates coord_system="LRG_37p1" start="1" end="19" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_37" start="7152" end="7370" strand="1" />
-        <coordinates coord_system="LRG_37_t1" start="193" end="411" />
-        <coordinates coord_system="LRG_37_p1" start="19" end="92" />
+        <coordinates coord_system="LRG_37t1" start="193" end="411" />
+        <coordinates coord_system="LRG_37p1" start="19" end="92" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_37" start="7839" end="7970" strand="1" />
-        <coordinates coord_system="LRG_37_t1" start="412" end="543" />
-        <coordinates coord_system="LRG_37_p1" start="92" end="136" />
+        <coordinates coord_system="LRG_37t1" start="412" end="543" />
+        <coordinates coord_system="LRG_37p1" start="92" end="136" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" />
-        <coordinates coord_system="LRG_37_t1" start="544" end="587" />
-        <coordinates coord_system="LRG_37_p1" start="136" end="150" />
+        <coordinates coord_system="LRG_37t1" start="544" end="587" />
+        <coordinates coord_system="LRG_37p1" start="136" end="150" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_37" start="8518" end="8671" strand="1" />
-        <coordinates coord_system="LRG_37_t1" start="588" end="741" />
-        <coordinates coord_system="LRG_37_p1" start="151" end="171" />
+        <coordinates coord_system="LRG_37t1" start="588" end="741" />
+        <coordinates coord_system="LRG_37p1" start="151" end="171" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -86,8 +78,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="11" other_id="NC_000011.9" other_start="118207789" other_end="118218459">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="118207789" other_end="118218459">
         <mapping_span lrg_start="1" lrg_end="10671" other_start="118207789" other_end="118218459" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CD3D</lrg_locus>
@@ -103,31 +95,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009891.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_37" start="5001" end="5192" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_37" start="7152" end="7370" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_37" start="7839" end="7970" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_37" start="8251" end="8294" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_37" start="8518" end="8671" />
-            <label>5</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_000732.4" other_name="NM_000732.4" other_id="NM_000732.4" other_start="1" other_end="741">
         <mapping_span lrg_start="5001" lrg_end="5192" other_start="1" other_end="192" strand="1" />
         <mapping_span lrg_start="7152" lrg_end="7370" other_start="193" other_end="411" strand="1" />
@@ -141,14 +109,14 @@
         <mapping_span lrg_start="8251" lrg_end="8294" other_start="412" other_end="455" strand="1" />
         <mapping_span lrg_start="8518" lrg_end="8671" other_start="456" other_end="609" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">CD3D</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="917">
+          <symbol source="HGNC" name="CD3G">
+            <synonym>CD3-GAMMA</synonym>
+            <synonym>T3G</synonym>
+          </symbol>
           <coordinates coord_system="LRG_37" start="1" end="3401" strand="-1" />
           <partial>3-prime</partial>
-          <symbol>CD3G</symbol>
-          <symbol>CD3-GAMMA</symbol>
-          <symbol>T3G</symbol>
           <long_name>CD3g molecule, gamma (CD3-TCR complex)</long_name>
           <db_xref source="GeneID" accession="917" />
           <db_xref source="HGNC" accession="1675" />
@@ -179,10 +147,11 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="915">
+          <symbol source="HGNC" name="CD3D">
+            <synonym>CD3-DELTA</synonym>
+            <synonym>T3D</synonym>
+          </symbol>
           <coordinates coord_system="LRG_37" start="5001" end="8671" strand="1" />
-          <symbol>CD3D</symbol>
-          <symbol>CD3-DELTA</symbol>
-          <symbol>T3D</symbol>
           <long_name>CD3d molecule, delta (CD3-TCR complex)</long_name>
           <db_xref source="GeneID" accession="915" />
           <db_xref source="HGNC" accession="1673" />
@@ -223,6 +192,31 @@
               <db_xref source="GI" accession="4502669" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_001040651.1">
+            <coordinates coord_system="LRG_37" start="5001" end="8671" strand="1" />
+            <long_name>CD3d molecule, delta (CD3-TCR complex), transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="915" />
+            <db_xref source="GI" accession="98985800" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="5001" end="5192" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="7152" end="7370" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="8518" end="8671" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001035741.1">
+              <coordinates coord_system="LRG_37" start="5138" end="8583" strand="1" />
+              <long_name>T-cell surface glycoprotein CD3 delta chain isoform B precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS41724.1" />
+              <db_xref source="GeneID" accession="915" />
+              <db_xref source="GI" accession="98985801" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -236,8 +230,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000300692.4" other_name="ENST00000300692.4" other_id="ENST00000300692.4" other_start="1" other_end="861">
         <mapping_span lrg_start="5001" lrg_end="5192" other_start="1" other_end="192" strand="1" />
         <mapping_span lrg_start="7152" lrg_end="7370" other_start="193" other_end="411" strand="1" />
@@ -270,9 +264,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000160654">
+          <symbol source="HGNC" name="CD3G" />
           <coordinates coord_system="LRG_37" start="1" end="3401" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">CD3G</symbol>
           <long_name>CD3g molecule, gamma (CD3-TCR complex) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="917">
             <synonym>CD3-GAMMA</synonym>
@@ -309,7 +303,7 @@
             <protein_product source="Ensembl" accession="ENSP00000431445">
               <coordinates coord_system="LRG_37" start="1" end="3321" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>T-cell surface glycoprotein CD3 gamma chain precursor </long_name>
+              <long_name>T-cell surface glycoprotein CD3 gamma chain precursor</long_name>
               <db_xref source="RefSeq" accession="NP_000064.1" />
               <db_xref source="UniProtKB" accession="P09693">
                 <synonym>Q2HIZ6</synonym>
@@ -354,8 +348,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000167286">
+          <symbol source="HGNC" name="CD3D" />
           <coordinates coord_system="LRG_37" start="5001" end="8791" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">CD3D</symbol>
           <long_name>CD3d molecule, delta (CD3-TCR complex) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="915">
             <synonym>CD3-DELTA</synonym>
@@ -380,7 +374,7 @@
             <exon source="Ensembl" accession="ENSE00001111779">
               <coordinates coord_system="LRG_37" start="7839" end="7970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003350668">
+            <exon source="Ensembl" accession="ENSE00003619361">
               <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002189483">
@@ -388,9 +382,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000300692">
               <coordinates coord_system="LRG_37" start="5138" end="8583" strand="1" mapped_from="GRCh37" />
-              <long_name>T-cell surface glycoprotein CD3 delta chain isoform A precursor </long_name>
+              <long_name>T-cell surface glycoprotein CD3 delta chain isoform A precursor</long_name>
               <db_xref source="RefSeq" accession="NP_000723.1" />
-              <db_xref source="UniProtKB" accession="P04234" />
+              <db_xref source="UniProtKB" accession="P04234">
+                <synonym>A8MVP6</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000529594">
@@ -402,7 +398,7 @@
             <exon source="Ensembl" accession="ENSE00001111779">
               <coordinates coord_system="LRG_37" start="7839" end="7970" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003350668">
+            <exon source="Ensembl" accession="ENSE00003619361">
               <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002174407">
@@ -417,34 +413,37 @@
             <long_name>CD3D-003 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS41724.1" />
             <db_xref source="RefSeq" accession="NM_001040651.1" />
-            <exon source="Ensembl" accession="ENSE00003429829">
+            <exon source="Ensembl" accession="ENSE00003684746">
               <coordinates coord_system="LRG_37" start="5114" end="5192" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001111784">
               <coordinates coord_system="LRG_37" start="7152" end="7370" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003350668">
+            <exon source="Ensembl" accession="ENSE00003619361">
               <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003455270">
+            <exon source="Ensembl" accession="ENSE00003483279">
               <coordinates coord_system="LRG_37" start="8518" end="8651" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000376622">
               <coordinates coord_system="LRG_37" start="5138" end="8583" strand="1" mapped_from="GRCh37" />
-              <long_name>T-cell surface glycoprotein CD3 delta chain isoform B precursor </long_name>
+              <long_name>T-cell surface glycoprotein CD3 delta chain isoform B precursor</long_name>
               <db_xref source="RefSeq" accession="NP_001035741.1" />
+              <db_xref source="UniProtKB" accession="P04234">
+                <synonym>A8MVP6</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000526561">
             <coordinates coord_system="LRG_37" start="5114" end="8651" strand="1" mapped_from="GRCh37" />
             <long_name>CD3D-004 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00003352260">
+            <exon source="Ensembl" accession="ENSE00003686109">
               <coordinates coord_system="LRG_37" start="5114" end="5192" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003320517">
+            <exon source="Ensembl" accession="ENSE00003688259">
               <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003375872">
+            <exon source="Ensembl" accession="ENSE00003559946">
               <coordinates coord_system="LRG_37" start="8518" end="8651" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -457,7 +456,7 @@
             <exon source="Ensembl" accession="ENSE00001111784">
               <coordinates coord_system="LRG_37" start="7152" end="7370" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003350668">
+            <exon source="Ensembl" accession="ENSE00003619361">
               <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001111782">
@@ -475,7 +474,7 @@
         <name>List of locus specific databases for CD3D</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CD3D</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

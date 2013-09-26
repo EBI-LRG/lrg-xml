@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_761</id>
+    <hgnc_id>17997</hgnc_id>
     <sequence_source>NG_008898.2</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -36,22 +37,22 @@
           <sequence>MRLTRCQAALAAAITLNLLVLFYVSWLQHQPRNSRARGPRRASAAGPRVTVLVREFEAFDNAVPELVDSFLQQDPAQPVVVAADTLPYPPLALPRIPNVRLALLQPALDRPAAASRPETYVATEFVALVPDGARAEAPGLLERMVEALRAGSARLVAAPVATANPARCLALNVSLREWTARYGAAPAAPRCDALDGDAVVLLRARDLFNLSAPLARPVGTSLFLQTALRGWAVQLLDLTFAAARQPPLATAHARWKAEREGRARRAALLRALGIRLVSWEGGRLEWFGCNKETTRCFGTVVGDTPAYLYEERWTPPCCLRALRETARYVVGVLEAAGVRYWLEGGSLLGAARHGDIIPWDYDVDLGIYLEDVGNCEQLRGAEAGSVVDERGFVWEKAVEGDFFRVQYSESNHLHVDLWPFYPRNGVMTKDTWLDHRQDVEFPEHFLQPLVPLPFAGFVAQAPNNYRRFLELKFGPGVIENPQYPNPALLSLTGSG</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_761" start="5001" end="5045" strand="1" />
-        <coordinates coord_system="LRG_761_t1" start="1" end="45" />
+        <coordinates coord_system="LRG_761t1" start="1" end="45" />
       </exon>
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_761" start="6982" end="7043" strand="1" />
-        <coordinates coord_system="LRG_761_t1" start="46" end="107" />
+        <coordinates coord_system="LRG_761t1" start="46" end="107" />
       </exon>
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_761" start="7470" end="7620" strand="1" />
-        <coordinates coord_system="LRG_761_t1" start="108" end="258" />
+        <coordinates coord_system="LRG_761t1" start="108" end="258" />
       </exon>
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_761" start="14367" end="17530" strand="1" />
-        <coordinates coord_system="LRG_761_t1" start="259" end="3422" />
-        <coordinates coord_system="LRG_761_p1" start="1" end="495" />
+        <coordinates coord_system="LRG_761t1" start="259" end="3422" />
+        <coordinates coord_system="LRG_761p1" start="1" end="495" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -66,8 +67,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-08-05</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="19" other_id="NC_000019.9" other_start="47244303" other_end="47282245">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_start="47244303" other_end="47282245">
         <mapping_span lrg_start="1" lrg_end="37943" other_start="47244303" other_end="47282245" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">FKRP</lrg_locus>
@@ -83,27 +84,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008898.2</comment>
-      <modification_date>2013-07-24</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="LRG-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_761" start="5001" end="5045" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_761" start="6982" end="7043" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_761" start="7470" end="7620" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_761" start="14367" end="17530" />
-            <label>4</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_001039885.2" other_name="NM_001039885.2" other_id="NM_001039885.2" other_start="1" other_end="3474">
         <mapping_span lrg_start="5001" lrg_end="5045" other_start="1" other_end="45" strand="1" />
         <mapping_span lrg_start="6982" lrg_end="7043" other_start="46" other_end="107" strand="1" />
@@ -116,14 +97,14 @@
         <mapping_span lrg_start="7470" lrg_end="7620" other_start="108" other_end="258" strand="1" />
         <mapping_span lrg_start="14367" lrg_end="17530" other_start="259" other_end="3422" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">FKRP</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="29888">
+          <symbol source="HGNC" name="STRN4">
+            <synonym>ZIN</synonym>
+            <synonym>zinedin</synonym>
+          </symbol>
           <coordinates coord_system="LRG_761" start="1" end="5418" strand="-1" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">STRN4</symbol>
-          <symbol>ZIN</symbol>
-          <symbol>zinedin</symbol>
           <long_name>striatin, calmodulin binding protein 4</long_name>
           <db_xref source="GeneID" accession="29888" />
           <db_xref source="HGNC" accession="15721" />
@@ -170,13 +151,14 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="79147">
+          <symbol source="HGNC" name="FKRP">
+            <synonym>LGMD2I</synonym>
+            <synonym>MDC1C</synonym>
+            <synonym>MDDGA5</synonym>
+            <synonym>MDDGB5</synonym>
+            <synonym>MDDGC5</synonym>
+          </symbol>
           <coordinates coord_system="LRG_761" start="5001" end="17530" strand="1" />
-          <symbol source="HGNC">FKRP</symbol>
-          <symbol>LGMD2I</symbol>
-          <symbol>MDC1C</symbol>
-          <symbol>MDDGA5</symbol>
-          <symbol>MDDGB5</symbol>
-          <symbol>MDDGC5</symbol>
           <long_name>fukutin related protein</long_name>
           <db_xref source="GeneID" accession="79147" />
           <db_xref source="HGNC" accession="17997" />
@@ -235,16 +217,17 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="6510">
+          <symbol source="HGNC" name="SLC1A5">
+            <synonym>AAAT</synonym>
+            <synonym>ASCT2</synonym>
+            <synonym>ATBO</synonym>
+            <synonym>M7V1</synonym>
+            <synonym>M7VS1</synonym>
+            <synonym>R16</synonym>
+            <synonym>RDRC</synonym>
+          </symbol>
           <coordinates coord_system="LRG_761" start="33838" end="37943" strand="-1" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">SLC1A5</symbol>
-          <symbol>AAAT</symbol>
-          <symbol>ASCT2</symbol>
-          <symbol>ATBO</symbol>
-          <symbol>M7V1</symbol>
-          <symbol>M7VS1</symbol>
-          <symbol>R16</symbol>
-          <symbol>RDRC</symbol>
           <long_name>solute carrier family 1 (neutral amino acid transporter), member 5</long_name>
           <db_xref source="GeneID" accession="6510" />
           <db_xref source="HGNC" accession="10943" />
@@ -370,8 +353,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 72</comment>
-      <modification_date>2013-08-05</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000318584.5" other_name="ENST00000318584.5" other_id="ENST00000318584.5" other_start="1" other_end="3332">
         <mapping_span lrg_start="5001" lrg_end="5045" other_start="1" other_end="45" strand="1" />
         <mapping_span lrg_start="6982" lrg_end="7043" other_start="46" other_end="107" strand="1" />
@@ -537,9 +520,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000090372">
+          <symbol source="HGNC" name="STRN4" />
           <coordinates coord_system="LRG_761" start="1" end="5949" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">STRN4</symbol>
           <long_name>striatin, calmodulin binding protein 4 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="29888">
             <synonym>ZIN</synonym>
@@ -564,7 +547,7 @@
             <protein_product source="Ensembl" accession="ENSP00000263280">
               <coordinates coord_system="LRG_761" start="1" end="5385" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>striatin-4 isoform 1 , striatin-4 isoform 2 </long_name>
+              <long_name>striatin-4 isoform 1, striatin-4 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_037535.2" />
               <db_xref source="RefSeq" accession="NP_001034966.1" />
               <db_xref source="UniProtKB" accession="Q9NRL3">
@@ -653,8 +636,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000181027">
+          <symbol source="HGNC" name="FKRP" />
           <coordinates coord_system="LRG_761" start="5001" end="35943" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">FKRP</symbol>
           <long_name>fukutin related protein (protein_coding)</long_name>
           <db_xref source="GeneID" accession="79147">
             <synonym>LGMD2I</synonym>
@@ -721,7 +704,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000326570">
               <coordinates coord_system="LRG_761" start="14406" end="15893" strand="1" mapped_from="GRCh37" />
-              <long_name>fukutin-related protein , fukutin-related protein </long_name>
+              <long_name>fukutin-related protein, fukutin-related protein</long_name>
               <db_xref source="RefSeq" accession="NP_077277.1" />
               <db_xref source="RefSeq" accession="NP_001034974.1" />
               <db_xref source="UniProtKB" accession="Q9H9S5">
@@ -1176,9 +1159,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000105281">
+          <symbol source="HGNC" name="SLC1A5" />
           <coordinates coord_system="LRG_761" start="33838" end="37943" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">SLC1A5</symbol>
           <long_name>solute carrier family 1 (neutral amino acid transporter), member 5 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="6510">
             <synonym>AAAT</synonym>
@@ -1220,11 +1203,15 @@
             <protein_product source="Ensembl" accession="ENSP00000444408">
               <coordinates coord_system="LRG_761" start="34465" end="37943" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>neutral amino acid transporter B(0) isoform 1 </long_name>
+              <long_name>neutral amino acid transporter B(0) isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_005619.1" />
               <db_xref source="UniProtKB" accession="Q15758">
                 <synonym>A8K9H5</synonym>
+                <synonym>B4DR77</synonym>
+                <synonym>B4DWS4</synonym>
+                <synonym>B7ZB81</synonym>
                 <synonym>D0EYG6</synonym>
+                <synonym>E9PC01</synonym>
                 <synonym>O95720</synonym>
                 <synonym>Q96RL9</synonym>
                 <synonym>Q9BWQ3</synonym>
@@ -1253,11 +1240,15 @@
             <protein_product source="Ensembl" accession="ENSP00000406532">
               <coordinates coord_system="LRG_761" start="34465" end="37943" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>neutral amino acid transporter B(0) isoform 3 </long_name>
+              <long_name>neutral amino acid transporter B(0) isoform 3</long_name>
               <db_xref source="RefSeq" accession="NP_001138617.1" />
               <db_xref source="UniProtKB" accession="Q15758">
                 <synonym>A8K9H5</synonym>
+                <synonym>B4DR77</synonym>
+                <synonym>B4DWS4</synonym>
+                <synonym>B7ZB81</synonym>
                 <synonym>D0EYG6</synonym>
+                <synonym>E9PC01</synonym>
                 <synonym>O95720</synonym>
                 <synonym>Q96RL9</synonym>
                 <synonym>Q9BWQ3</synonym>
@@ -1307,8 +1298,20 @@
             <protein_product source="Ensembl" accession="ENSP00000397924">
               <coordinates coord_system="LRG_761" start="34465" end="37943" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>neutral amino acid transporter B(0) isoform 2 </long_name>
+              <long_name>neutral amino acid transporter B(0) isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001138616.1" />
+              <db_xref source="UniProtKB" accession="Q15758">
+                <synonym>A8K9H5</synonym>
+                <synonym>B4DR77</synonym>
+                <synonym>B4DWS4</synonym>
+                <synonym>B7ZB81</synonym>
+                <synonym>D0EYG6</synonym>
+                <synonym>E9PC01</synonym>
+                <synonym>O95720</synonym>
+                <synonym>Q96RL9</synonym>
+                <synonym>Q9BWQ3</synonym>
+                <synonym>Q9UNP2</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000593713">
@@ -1334,7 +1337,7 @@
         <name>List of locus specific databases for FKRP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FKRP</url>
       </source>
-      <modification_date>2013-08-05</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

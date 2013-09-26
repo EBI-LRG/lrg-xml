@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_378</id>
+    <hgnc_id>11943</hgnc_id>
     <sequence_source>NG_008963.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>James Ware</name>
         <address>Molecular Cardiology, Imperial College, London, UK</address>
         <email>j.ware@imperial.ac.uk</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,40 +30,40 @@
           <sequence>MDDIYKAAVEQLTEEQKNEFKAAFDIFVLGAEDGCISTKELGKVMRMLGQNPTPEELQEMIDEVDEDGSGTVDFDEFLVMMVRCMKDDSKGKSEEELSDLFRMFDKNADGYIDLDELKIMLQATGETITEDDIEELMKDGDKNNDGRIDYDEFLEFMKGVE</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_378" start="5001" end="5050" strand="1" />
-        <coordinates coord_system="LRG_378_t1" start="1" end="50" />
-        <coordinates coord_system="LRG_378_p1" start="1" end="8" />
+        <coordinates coord_system="LRG_378t1" start="1" end="50" />
+        <coordinates coord_system="LRG_378p1" start="1" end="8" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_378" start="6529" end="6559" strand="1" />
-        <coordinates coord_system="LRG_378_t1" start="51" end="81" />
-        <coordinates coord_system="LRG_378_p1" start="9" end="19" />
+        <coordinates coord_system="LRG_378t1" start="51" end="81" />
+        <coordinates coord_system="LRG_378p1" start="9" end="19" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_378" start="6790" end="6936" strand="1" />
-        <coordinates coord_system="LRG_378_t1" start="82" end="228" />
-        <coordinates coord_system="LRG_378_p1" start="19" end="68" />
+        <coordinates coord_system="LRG_378t1" start="82" end="228" />
+        <coordinates coord_system="LRG_378p1" start="19" end="68" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_378" start="7184" end="7298" strand="1" />
-        <coordinates coord_system="LRG_378_t1" start="229" end="343" />
-        <coordinates coord_system="LRG_378_p1" start="68" end="106" />
+        <coordinates coord_system="LRG_378t1" start="229" end="343" />
+        <coordinates coord_system="LRG_378p1" start="68" end="106" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_378" start="7515" end="7651" strand="1" />
-        <coordinates coord_system="LRG_378_t1" start="344" end="480" />
-        <coordinates coord_system="LRG_378_p1" start="106" end="152" />
+        <coordinates coord_system="LRG_378t1" start="344" end="480" />
+        <coordinates coord_system="LRG_378p1" start="106" end="152" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_378" start="7736" end="7951" strand="1" />
-        <coordinates coord_system="LRG_378_t1" start="481" end="696" />
-        <coordinates coord_system="LRG_378_p1" start="152" end="161" />
+        <coordinates coord_system="LRG_378t1" start="481" end="696" />
+        <coordinates coord_system="LRG_378p1" start="152" end="161" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -86,8 +78,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="3" other_id="NC_000003.11" other_start="52483107" other_end="52493057">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="52483107" other_end="52493057">
         <mapping_span lrg_start="1" lrg_end="9951" other_start="52483107" other_end="52493057" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">TNNC1</lrg_locus>
@@ -103,35 +95,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008963.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_378" start="5001" end="5050" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_378" start="6529" end="6559" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_378" start="6790" end="6936" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_378" start="7184" end="7298" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_378" start="7515" end="7651" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_378" start="7736" end="7951" />
-            <label>6</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_003280.2" other_name="NM_003280.2" other_id="NM_003280.2" other_start="1" other_end="696">
         <mapping_span lrg_start="5001" lrg_end="5050" other_start="1" other_end="50" strand="1" />
         <mapping_span lrg_start="6529" lrg_end="6559" other_start="51" other_end="81" strand="1" />
@@ -140,16 +104,16 @@
         <mapping_span lrg_start="7515" lrg_end="7651" other_start="344" other_end="480" strand="1" />
         <mapping_span lrg_start="7736" lrg_end="7951" other_start="481" other_end="696" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">TNNC1</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="11188">
+          <symbol source="HGNC" name="NISCH">
+            <synonym>hIRAS</synonym>
+            <synonym>I-1</synonym>
+            <synonym>IR1</synonym>
+            <synonym>IRAS</synonym>
+          </symbol>
           <coordinates coord_system="LRG_378" start="1" end="3534" strand="-1" />
           <partial>3-prime</partial>
-          <symbol>NISCH</symbol>
-          <symbol>hIRAS</symbol>
-          <symbol>I-1</symbol>
-          <symbol>IR1</symbol>
-          <symbol>IRAS</symbol>
           <long_name>nischarin</long_name>
           <db_xref source="GeneID" accession="11188" />
           <db_xref source="HGNC" accession="18006" />
@@ -240,13 +204,14 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="7134">
+          <symbol source="HGNC" name="TNNC1">
+            <synonym>CMD1Z</synonym>
+            <synonym>CMH13</synonym>
+            <synonym>TN-C</synonym>
+            <synonym>TNC</synonym>
+            <synonym>TNNC</synonym>
+          </symbol>
           <coordinates coord_system="LRG_378" start="5001" end="7951" strand="1" />
-          <symbol>TNNC1</symbol>
-          <symbol>CMD1Z</symbol>
-          <symbol>CMH13</symbol>
-          <symbol>TN-C</symbol>
-          <symbol>TNC</symbol>
-          <symbol>TNNC</symbol>
           <long_name>troponin C type 1 (slow)</long_name>
           <db_xref source="GeneID" accession="7134" />
           <db_xref source="HGNC" accession="11943" />
@@ -300,8 +265,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000232975.3" other_name="ENST00000232975.3" other_id="ENST00000232975.3" other_start="1" other_end="714">
         <mapping_span lrg_start="4972" lrg_end="5050" other_start="1" other_end="79" strand="1" />
         <mapping_span lrg_start="6529" lrg_end="6559" other_start="80" other_end="110" strand="1" />
@@ -322,9 +287,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000010322">
+          <symbol source="HGNC" name="NISCH" />
           <coordinates coord_system="LRG_378" start="1" end="3924" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">NISCH</symbol>
           <long_name>nischarin (protein_coding)</long_name>
           <db_xref source="GeneID" accession="11188">
             <synonym>hIRAS</synonym>
@@ -373,7 +338,7 @@
           <transcript source="Ensembl" accession="ENST00000488380">
             <coordinates coord_system="LRG_378" start="1" end="3425" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>Homo sapiens nischarin (NISCH), transcript variant 2, mRNA. (protein_coding)</long_name>
+            <long_name>NISCH-004 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001276293.1" />
             <exon source="Ensembl" accession="ENSE00001923093">
               <coordinates coord_system="LRG_378" start="3308" end="3425" strand="-1" mapped_from="GRCh37" />
@@ -387,14 +352,14 @@
             <protein_product source="Ensembl" accession="ENSP00000417812">
               <coordinates coord_system="LRG_378" start="1" end="3400" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>nischarin isoform 2 </long_name>
+              <long_name>nischarin isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001263222.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000420808">
             <coordinates coord_system="LRG_378" start="1" end="3425" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>Homo sapiens nischarin (NISCH), transcript variant 3, mRNA. (protein_coding)</long_name>
+            <long_name>NISCH-014 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001276294.1" />
             <exon source="Ensembl" accession="ENSE00001923093">
               <coordinates coord_system="LRG_378" start="3308" end="3425" strand="-1" mapped_from="GRCh37" />
@@ -408,7 +373,7 @@
             <protein_product source="Ensembl" accession="ENSP00000392484">
               <coordinates coord_system="LRG_378" start="1" end="3400" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>nischarin isoform 3 </long_name>
+              <long_name>nischarin isoform 3</long_name>
               <db_xref source="RefSeq" accession="NP_001263223.1" />
               <db_xref source="UniProtKB" accession="Q9Y2I1">
                 <synonym>C9J245</synonym>
@@ -448,7 +413,7 @@
             <protein_product source="Ensembl" accession="ENSP00000339958">
               <coordinates coord_system="LRG_378" start="1" end="3400" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>nischarin isoform 1 , </long_name>
+              <long_name>nischarin isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_009115.2" />
               <db_xref source="UniProtKB" accession="Q9Y2I1">
                 <synonym>C9J245</synonym>
@@ -464,8 +429,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000114854">
+          <symbol source="HGNC" name="TNNC1" />
           <coordinates coord_system="LRG_378" start="4972" end="7940" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">TNNC1</symbol>
           <long_name>troponin C type 1 (slow) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="7134">
             <synonym>CMD1Z</synonym>
@@ -490,7 +455,7 @@
             <exon source="Ensembl" accession="ENSE00000770833">
               <coordinates coord_system="LRG_378" start="6529" end="6559" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003298018">
+            <exon source="Ensembl" accession="ENSE00003465418">
               <coordinates coord_system="LRG_378" start="6790" end="6936" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000770831">
@@ -504,7 +469,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000232975">
               <coordinates coord_system="LRG_378" start="5027" end="7767" strand="1" mapped_from="GRCh37" />
-              <long_name>troponin C, slow skeletal and cardiac muscles </long_name>
+              <long_name>troponin C, slow skeletal and cardiac muscles</long_name>
               <db_xref source="RefSeq" accession="NP_003271.1" />
               <db_xref source="UniProtKB" accession="P63316">
                 <synonym>O14800</synonym>
@@ -519,7 +484,7 @@
             <exon source="Ensembl" accession="ENSE00001882031">
               <coordinates coord_system="LRG_378" start="6208" end="6559" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003432408">
+            <exon source="Ensembl" accession="ENSE00003557903">
               <coordinates coord_system="LRG_378" start="6790" end="6936" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000770831">
@@ -550,7 +515,7 @@
         <name>List of locus specific databases for TNNC1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TNNC1</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_248</id>
+    <hgnc_id>5246</hgnc_id>
     <sequence_source>NG_008995.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Valerie Delague</name>
         <address>Aix-Marseille University, Marseille, France</address>
         <email>valerie.delague@univ-amu.fr</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,22 +30,22 @@
           <sequence>MTERRVPFSLLRGPSWDPFRDWYPHSRLFDQAFGLPRLPEEWSQWLGGSSWPGYVRPLPPAAIESPAVAAPAYSRALSRQLSSGVSEIRHTADRWRVSLDVNHFAPDELTVKTKDGVVEITGKHEERQDEHGYISRCFTRKYTLPPGVDPTQVSSSLSPEGTLTVEAPMPKLATQSNEITIPVTFESRAQLGGPEAAKSDETAAK</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_248" start="5001" end="5519" strand="1" />
-        <coordinates coord_system="LRG_248_t1" start="1" end="519" />
-        <coordinates coord_system="LRG_248_p1" start="1" end="122" />
+        <coordinates coord_system="LRG_248t1" start="1" end="519" />
+        <coordinates coord_system="LRG_248p1" start="1" end="122" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_248" start="6245" end="6308" strand="1" />
-        <coordinates coord_system="LRG_248_t1" start="520" end="583" />
-        <coordinates coord_system="LRG_248_p1" start="122" end="143" />
+        <coordinates coord_system="LRG_248t1" start="520" end="583" />
+        <coordinates coord_system="LRG_248p1" start="122" end="143" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_248" start="6427" end="6740" strand="1" />
-        <coordinates coord_system="LRG_248_t1" start="584" end="897" />
-        <coordinates coord_system="LRG_248_p1" start="143" end="205" />
+        <coordinates coord_system="LRG_248t1" start="584" end="897" />
+        <coordinates coord_system="LRG_248p1" start="143" end="205" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -68,8 +60,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="7" other_id="NC_000007.13" other_start="75926875" other_end="75935614">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_start="75926875" other_end="75935614">
         <mapping_span lrg_start="1" lrg_end="8740" other_start="75926875" other_end="75935614" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">HSPB1</lrg_locus>
@@ -85,40 +77,24 @@
         </contact>
       </source>
       <comment>Annotation from NG_008995.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_248" start="5001" end="5519" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_248" start="6245" end="6308" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_248" start="6427" end="6740" />
-            <label>3</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_001540.3" other_name="NM_001540.3" other_id="NM_001540.3" other_start="1" other_end="897">
         <mapping_span lrg_start="5001" lrg_end="5519" other_start="1" other_end="519" strand="1" />
         <mapping_span lrg_start="6245" lrg_end="6308" other_start="520" other_end="583" strand="1" />
         <mapping_span lrg_start="6427" lrg_end="6740" other_start="584" other_end="897" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">HSPB1</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="3315">
+          <symbol source="HGNC" name="HSPB1">
+            <synonym>CMT2F</synonym>
+            <synonym>HMN2B</synonym>
+            <synonym>HS.76067</synonym>
+            <synonym>Hsp25</synonym>
+            <synonym>HSP27</synonym>
+            <synonym>HSP28</synonym>
+            <synonym>SRP27</synonym>
+          </symbol>
           <coordinates coord_system="LRG_248" start="5001" end="6740" strand="1" />
-          <symbol>HSPB1</symbol>
-          <symbol>CMT2F</symbol>
-          <symbol>HMN2B</symbol>
-          <symbol>HS.76067</symbol>
-          <symbol>Hsp25</symbol>
-          <symbol>HSP27</symbol>
-          <symbol>HSP28</symbol>
-          <symbol>SRP27</symbol>
           <long_name>heat shock 27kDa protein 1</long_name>
           <db_xref source="GeneID" accession="3315" />
           <db_xref source="HGNC" accession="5246" />
@@ -166,8 +142,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000248553.6" other_name="ENST00000248553.6" other_id="ENST00000248553.6" other_start="1" other_end="909">
         <mapping_span lrg_start="4987" lrg_end="5519" other_start="1" other_end="533" strand="1" />
         <mapping_span lrg_start="6245" lrg_end="6308" other_start="534" other_end="597" strand="1" />
@@ -184,8 +160,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000106211">
+          <symbol source="HGNC" name="HSPB1" />
           <coordinates coord_system="LRG_248" start="4987" end="6738" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">HSPB1</symbol>
           <long_name>heat shock 27kDa protein 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="3315">
             <synonym>CMT2F</synonym>
@@ -212,15 +188,15 @@
             <exon source="Ensembl" accession="ENSE00000876954">
               <coordinates coord_system="LRG_248" start="4987" end="5519" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003268457">
+            <exon source="Ensembl" accession="ENSE00003510935">
               <coordinates coord_system="LRG_248" start="6245" end="6308" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003333464">
+            <exon source="Ensembl" accession="ENSE00003584076">
               <coordinates coord_system="LRG_248" start="6427" end="6738" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000248553">
               <coordinates coord_system="LRG_248" start="5156" end="6616" strand="1" mapped_from="GRCh37" />
-              <long_name>heat shock protein beta-1 </long_name>
+              <long_name>heat shock protein beta-1</long_name>
               <db_xref source="RefSeq" accession="NP_001531.1" />
               <db_xref source="UniProtKB" accession="P04792">
                 <synonym>B2R4N8</synonym>
@@ -253,10 +229,10 @@
             <exon source="Ensembl" accession="ENSE00001735179">
               <coordinates coord_system="LRG_248" start="6020" end="6170" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003251456">
+            <exon source="Ensembl" accession="ENSE00003641399">
               <coordinates coord_system="LRG_248" start="6245" end="6308" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003380955">
+            <exon source="Ensembl" accession="ENSE00003645634">
               <coordinates coord_system="LRG_248" start="6427" end="6738" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000405285">
@@ -271,7 +247,7 @@
         <name>List of locus specific databases for HSPB1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HSPB1</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_718</id>
+    <hgnc_id>8522</hgnc_id>
     <sequence_source>NG_008204.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -29,22 +30,22 @@
           <sequence>MMSYLKQPPYAVNGLSLTTSGMDLLHPSVGYPATPRKQRRERTTFTRAQLDVLEALFAKTRYPDIFMREEVALKINLPESRVQVWFKNRRAKCRQQQQQQQNGGQNKVRPAKKKTSPAREVSSESGTSGQFTPPSSTSVPTIASSSAPVSIWSPASISPLSDPLSTSSSCMQRSYPMTYTQASGYSQGYAGSTSYFGGMDCGSYLTPMHHQLPGPGATLSPMGTNAVTSHLNQSPASLSTQGYGASSLGFNSTTDCLDYKDQTASWKLNFNADCLDYKDQTSSWKFQVL</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_718" start="9840" end="10107" strand="1" />
-        <coordinates coord_system="LRG_718_t1" start="1" end="268" />
-        <coordinates coord_system="LRG_718_p1" start="1" end="33" />
+        <coordinates coord_system="LRG_718t1" start="1" end="268" />
+        <coordinates coord_system="LRG_718p1" start="1" end="33" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_718" start="11128" end="11279" strand="1" />
-        <coordinates coord_system="LRG_718_t1" start="269" end="420" />
-        <coordinates coord_system="LRG_718_p1" start="33" end="83" />
+        <coordinates coord_system="LRG_718t1" start="269" end="420" />
+        <coordinates coord_system="LRG_718p1" start="33" end="83" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_718" start="13112" end="14760" strand="1" />
-        <coordinates coord_system="LRG_718_t1" start="421" end="2069" />
-        <coordinates coord_system="LRG_718_p1" start="84" end="289" />
+        <coordinates coord_system="LRG_718t1" start="421" end="2069" />
+        <coordinates coord_system="LRG_718p1" start="84" end="289" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -59,8 +60,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-05-09</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="14" other_id="NC_000014.8" other_start="57265425" other_end="57282184">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_start="57265425" other_end="57282184">
         <mapping_span lrg_start="1" lrg_end="16760" other_start="57265425" other_end="57282184" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">OTX2</lrg_locus>
@@ -76,23 +77,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008204.1</comment>
-      <modification_date>2013-05-02</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_718" start="9840" end="10107" />
-            <label>2b</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_718" start="11128" end="11279" />
-            <label>3b</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_718" start="13112" end="14760" />
-            <label>4</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_001270523.1" other_name="NM_001270523.1" other_id="NM_001270523.1" other_start="1" other_end="2182">
         <mapping_span lrg_start="4991" lrg_end="5091" other_start="1" other_end="101" strand="1" />
         <mapping_span lrg_start="5245" lrg_end="5308" other_start="102" other_end="165" strand="1" />
@@ -138,13 +123,13 @@
         <mapping_span lrg_start="9804" lrg_end="10107" other_start="1" other_end="304" strand="1" />
         <mapping_span lrg_start="13112" lrg_end="14760" other_start="305" other_end="1953" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">OTX2</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="5015">
+          <symbol source="HGNC" name="OTX2">
+            <synonym>CPHD6</synonym>
+            <synonym>MCOPS5</synonym>
+          </symbol>
           <coordinates coord_system="LRG_718" start="4991" end="14760" strand="1" />
-          <symbol source="HGNC">OTX2</symbol>
-          <symbol>CPHD6</symbol>
-          <symbol>MCOPS5</symbol>
           <long_name>orthodenticle homeobox 2</long_name>
           <db_xref source="GeneID" accession="5015" />
           <db_xref source="HGNC" accession="8522" />
@@ -152,6 +137,109 @@
           <db_xref source="CCDS" accession="CCDS41960.1" />
           <db_xref source="CCDS" accession="CCDS9728.1" />
           <db_xref source="GI" accession="194018404" />
+          <transcript source="RefSeq" accession="NM_001270524.1">
+            <coordinates coord_system="LRG_718" start="4991" end="14760" strand="1" />
+            <long_name>orthodenticle homeobox 2, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="5015" />
+            <db_xref source="GI" accession="395455072" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="4991" end="5308" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="9892" end="10107" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="11128" end="11279" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="13112" end="14760" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001257453.1">
+              <coordinates coord_system="LRG_718" start="10011" end="13732" strand="1" />
+              <long_name>homeobox protein OTX2 isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS41960.1" />
+              <db_xref source="GeneID" accession="5015" />
+              <db_xref source="GI" accession="395455073" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_021728.3">
+            <coordinates coord_system="LRG_718" start="4991" end="14760" strand="1" />
+            <long_name>orthodenticle homeobox 2, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="5015" />
+            <db_xref source="GI" accession="395455068" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="4991" end="5091" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="5245" end="5308" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="9892" end="10107" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="11104" end="11279" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="13112" end="14760" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_068374.1">
+              <coordinates coord_system="LRG_718" start="10011" end="13732" strand="1" />
+              <long_name>homeobox protein OTX2 isoform a</long_name>
+              <db_xref source="CCDS" accession="CCDS9728.1" />
+              <db_xref source="GeneID" accession="5015" />
+              <db_xref source="GI" accession="11119420" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001270523.1">
+            <coordinates coord_system="LRG_718" start="4991" end="14760" strand="1" />
+            <long_name>orthodenticle homeobox 2, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="5015" />
+            <db_xref source="GI" accession="395455070" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="4991" end="5091" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="5245" end="5308" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="9892" end="10107" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="11128" end="11279" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="13112" end="14760" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001257452.1">
+              <coordinates coord_system="LRG_718" start="10011" end="13732" strand="1" />
+              <long_name>homeobox protein OTX2 isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS41960.1" />
+              <db_xref source="GeneID" accession="5015" />
+              <db_xref source="GI" accession="395455071" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001270525.1">
+            <coordinates coord_system="LRG_718" start="9804" end="14760" strand="1" />
+            <long_name>orthodenticle homeobox 2, transcript variant 5</long_name>
+            <db_xref source="GeneID" accession="5015" />
+            <db_xref source="GI" accession="395455074" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="9804" end="10107" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="11104" end="11279" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_718" start="13112" end="14760" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001257454.1">
+              <coordinates coord_system="LRG_718" start="10011" end="13732" strand="1" />
+              <long_name>homeobox protein OTX2 isoform a</long_name>
+              <db_xref source="CCDS" accession="CCDS9728.1" />
+              <db_xref source="GeneID" accession="5015" />
+              <db_xref source="GI" accession="395455075" />
+            </protein_product>
+          </transcript>
           <transcript source="RefSeq" accession="NM_172337.1" fixed_id="t1">
             <coordinates coord_system="LRG_718" start="9840" end="14760" strand="1" />
             <long_name>orthodenticle homeobox 2, transcript variant 2</long_name>
@@ -189,8 +277,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-05-09</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000339475.5" other_name="ENST00000339475.5" other_id="ENST00000339475.5" other_start="1" other_end="2199">
         <mapping_span lrg_start="4998" lrg_end="5091" other_start="1" other_end="94" strand="1" />
         <mapping_span lrg_start="5245" lrg_end="5308" other_start="95" other_end="158" strand="1" />
@@ -234,9 +322,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000248550">
+          <symbol source="HGNC" name="OTX2-AS1" />
           <coordinates coord_system="LRG_718" start="1" end="2284" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">OTX2-AS1</symbol>
           <long_name>OTX2 antisense RNA 1 (head to head) (antisense)</long_name>
           <db_xref source="GeneID" accession="100309464">
             <synonym>OTX2OS1</synonym>
@@ -248,7 +336,7 @@
           <transcript source="Ensembl" accession="ENST00000534909">
             <coordinates coord_system="LRG_718" start="1" end="2284" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>Homo sapiens OTX2 antisense RNA 1 (head to head) (OTX2-AS1), non-coding RNA. (antisense)</long_name>
+            <long_name>OTX2-AS1-001 (antisense)</long_name>
             <db_xref source="RefSeq" accession="NR_029385.1" />
             <exon source="Ensembl" accession="ENSE00002266509">
               <coordinates coord_system="LRG_718" start="1998" end="2284" strand="-1" mapped_from="GRCh37" />
@@ -280,8 +368,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000165588">
+          <symbol source="HGNC" name="OTX2" />
           <coordinates coord_system="LRG_718" start="4988" end="14760" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">OTX2</symbol>
           <long_name>orthodenticle homeobox 2 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="5015">
             <synonym>CPHD6</synonym>
@@ -336,7 +424,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000339475">
             <coordinates coord_system="LRG_718" start="4998" end="14760" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens orthodenticle homeobox 2 (OTX2), transcript variant 5, mRNA., , ,  (protein_coding)</long_name>
+            <long_name>OTX2-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9728.1" />
             <db_xref source="RefSeq" accession="NM_001270523.1" />
             <db_xref source="RefSeq" accession="NM_001270524.1" />
@@ -359,7 +447,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000343819">
               <coordinates coord_system="LRG_718" start="10011" end="13732" strand="1" mapped_from="GRCh37" />
-              <long_name>homeobox protein OTX2 isoform a , homeobox protein OTX2 isoform a , homeobox protein OTX2 isoform b , homeobox protein OTX2 isoform b </long_name>
+              <long_name>homeobox protein OTX2 isoform a, homeobox protein OTX2 isoform a, homeobox protein OTX2 isoform b, homeobox protein OTX2 isoform b</long_name>
               <db_xref source="RefSeq" accession="NP_068374.1" />
               <db_xref source="RefSeq" accession="NP_001257454.1" />
               <db_xref source="RefSeq" accession="NP_001257452.1" />
@@ -390,7 +478,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000452336">
               <coordinates coord_system="LRG_718" start="10011" end="13732" strand="1" mapped_from="GRCh37" />
-              <long_name>homeobox protein OTX2 isoform b </long_name>
+              <long_name>homeobox protein OTX2 isoform b</long_name>
               <db_xref source="RefSeq" accession="NP_758840.1" />
               <db_xref source="UniProtKB" accession="P32243">
                 <synonym>B2RAN5</synonym>
@@ -415,7 +503,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000386185">
               <coordinates coord_system="LRG_718" start="10011" end="13732" strand="1" mapped_from="GRCh37" />
-              <long_name>homeobox protein OTX2 isoform b </long_name>
+              <long_name>homeobox protein OTX2 isoform b</long_name>
               <db_xref source="RefSeq" accession="NP_758840.1" />
               <db_xref source="UniProtKB" accession="P32243">
                 <synonym>B2RAN5</synonym>
@@ -427,20 +515,21 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000554788">
             <coordinates coord_system="LRG_718" start="9819" end="13657" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens orthodenticle homeobox 2 (OTX2), transcript variant 6, non-coding RNA., Homo sapiens orthodenticle homeobox 2 (OTX2), transcript variant 7, non-coding RNA. (retained_intron)</long_name>
-            <db_xref source="RefSeq" accession="NR_073034.1" />
-            <db_xref source="RefSeq" accession="NR_073036.1" />
-            <exon source="Ensembl" accession="ENSE00003444640">
+            <long_name>OTX2-005 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003484627">
               <coordinates coord_system="LRG_718" start="9819" end="10107" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002535093">
               <coordinates coord_system="LRG_718" start="13112" end="13657" strand="1" mapped_from="GRCh37" />
             </exon>
+            <protein_product source="Ensembl" accession="ENSP00000474486">
+              <coordinates coord_system="LRG_718" start="10011" end="13122" strand="1" mapped_from="GRCh37" />
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000554845">
             <coordinates coord_system="LRG_718" start="9819" end="13554" strand="1" mapped_from="GRCh37" />
             <long_name>OTX2-006 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003336843">
+            <exon source="Ensembl" accession="ENSE00003484627">
               <coordinates coord_system="LRG_718" start="9819" end="10107" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001094441">
@@ -455,8 +544,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000270163">
+          <symbol source="Clone_based_vega_gene" name="RP11-1085N6.6" />
           <coordinates coord_system="LRG_718" start="14879" end="15562" strand="1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_vega_gene">RP11-1085N6.6</symbol>
           <long_name>RP11-1085N6.6 (lincRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000270163" />
           <transcript source="Ensembl" accession="ENST00000602485">
@@ -474,7 +563,7 @@
         <name>List of locus specific databases for OTX2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/OTX2</url>
       </source>
-      <modification_date>2013-05-09</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

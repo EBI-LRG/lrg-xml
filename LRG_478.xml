@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_478</id>
+    <hgnc_id>4440</hgnc_id>
     <sequence_source>NG_007974.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -13,15 +14,6 @@
         <name>Graham Kiddle</name>
         <address>Department of Haematology, University of Cambridge, UK</address>
         <email>gk302@cam.ac.uk</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,16 +30,16 @@
           <sequence>MGSGPRGALSLLLLLLAPPSRPAAGCPAPCSCAGTLVDCGRRGLTWASLPTAFPVDTTELVLTGNNLTALPPGLLDALPALRTAHLGANPWRCDCRLVPLRAWLAGRPERAPYRDLRCVAPPALRGRLLPYLAEDELRAACAPGPLCWGALAAQLALLGLGLLHALLLVLLLCRLRRLRARARARAAARLSLTDPLVAERAGTDES</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_478" start="5001" end="5037" strand="1" />
-        <coordinates coord_system="LRG_478_t1" start="1" end="37" />
-        <coordinates coord_system="LRG_478_p1" start="1" end="4" />
+        <coordinates coord_system="LRG_478t1" start="1" end="37" />
+        <coordinates coord_system="LRG_478p1" start="1" end="4" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_478" start="5312" end="6232" strand="1" />
-        <coordinates coord_system="LRG_478_t1" start="38" end="958" />
-        <coordinates coord_system="LRG_478_p1" start="4" end="206" />
+        <coordinates coord_system="LRG_478t1" start="38" end="958" />
+        <coordinates coord_system="LRG_478p1" start="4" end="206" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -62,8 +54,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="22" other_id="NC_000022.10" other_start="19706066" other_end="19714297">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="22" other_id="NC_000022.10" other_start="19706066" other_end="19714297">
         <mapping_span lrg_start="1" lrg_end="8232" other_start="19706066" other_end="19714297" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">GP1BB</lrg_locus>
@@ -79,29 +71,16 @@
         </contact>
       </source>
       <comment>Annotation from NG_007974.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_478" start="5001" end="5037" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_478" start="5312" end="6232" />
-            <label>2</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_000407.4" other_name="NM_000407.4" other_id="NM_000407.4" other_start="1" other_end="958">
         <mapping_span lrg_start="5001" lrg_end="5037" other_start="1" other_end="37" strand="1" />
         <mapping_span lrg_start="5312" lrg_end="6232" other_start="38" other_end="958" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">GP1BB</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="100526833">
+          <symbol name="SEPT5-GP1BB" />
           <coordinates coord_system="LRG_478" start="1" end="6232" strand="1" />
           <partial>5-prime</partial>
-          <symbol>SEPT5-GP1BB</symbol>
           <long_name>SEPT5-GP1BB readthrough</long_name>
           <db_xref source="GeneID" accession="100526833" />
           <transcript source="RefSeq" accession="NR_037611.1">
@@ -216,15 +195,16 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="5413">
+          <symbol source="HGNC" name="SEPT5">
+            <synonym>CDCREL</synonym>
+            <synonym>CDCREL-1</synonym>
+            <synonym>CDCREL1</synonym>
+            <synonym>H5</synonym>
+            <synonym>HCDCREL-1</synonym>
+            <synonym>PNUTL1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_478" start="1" end="4780" strand="1" />
           <partial>5-prime</partial>
-          <symbol>SEPT5</symbol>
-          <symbol>CDCREL</symbol>
-          <symbol>CDCREL-1</symbol>
-          <symbol>CDCREL1</symbol>
-          <symbol>H5</symbol>
-          <symbol>HCDCREL-1</symbol>
-          <symbol>PNUTL1</symbol>
           <long_name>septin 5</long_name>
           <db_xref source="GeneID" accession="5413" />
           <db_xref source="HGNC" accession="9164" />
@@ -331,12 +311,13 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="2812">
+          <symbol source="HGNC" name="GP1BB">
+            <synonym>BDPLT1</synonym>
+            <synonym>BS</synonym>
+            <synonym>CD42C</synonym>
+            <synonym>GPIBB</synonym>
+          </symbol>
           <coordinates coord_system="LRG_478" start="5001" end="6232" strand="1" />
-          <symbol>GP1BB</symbol>
-          <symbol>BDPLT1</symbol>
-          <symbol>BS</symbol>
-          <symbol>CD42C</symbol>
-          <symbol>GPIBB</symbol>
           <long_name>glycoprotein Ib (platelet), beta polypeptide</long_name>
           <db_xref source="GeneID" accession="2812" />
           <db_xref source="HGNC" accession="4440" />
@@ -379,17 +360,17 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000366425.3" other_name="ENST00000366425.3" other_id="ENST00000366425.3" other_start="1" other_end="1553">
         <mapping_span lrg_start="4403" lrg_end="5037" other_start="1" other_end="635" strand="1" />
         <mapping_span lrg_start="5312" lrg_end="6229" other_start="636" other_end="1553" strand="1" />
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000184702">
+          <symbol source="HGNC" name="SEPT5" />
           <coordinates coord_system="LRG_478" start="1" end="6230" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">SEPT5</symbol>
           <long_name>septin 5 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="2812">
             <synonym>BDPLT1</synonym>
@@ -419,7 +400,7 @@
             <long_name>SEPT5-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13764.1" />
             <db_xref source="RefSeq" accession="NM_002688.5" />
-            <exon source="Ensembl" accession="ENSE00003304052">
+            <exon source="Ensembl" accession="ENSE00003516330">
               <coordinates coord_system="LRG_478" start="1060" end="1156" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001316957">
@@ -431,28 +412,28 @@
             <exon source="Ensembl" accession="ENSE00001318523">
               <coordinates coord_system="LRG_478" start="1778" end="1912" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003433270">
+            <exon source="Ensembl" accession="ENSE00003541157">
               <coordinates coord_system="LRG_478" start="2007" end="2124" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003341106">
+            <exon source="Ensembl" accession="ENSE00003646197">
               <coordinates coord_system="LRG_478" start="2226" end="2327" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003390236">
+            <exon source="Ensembl" accession="ENSE00003690402">
               <coordinates coord_system="LRG_478" start="3098" end="3194" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003234715">
+            <exon source="Ensembl" accession="ENSE00003617070">
               <coordinates coord_system="LRG_478" start="3280" end="3415" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003404247">
+            <exon source="Ensembl" accession="ENSE00003513452">
               <coordinates coord_system="LRG_478" start="3695" end="3797" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003386990">
+            <exon source="Ensembl" accession="ENSE00003467523">
               <coordinates coord_system="LRG_478" start="3886" end="4777" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000391311">
               <coordinates coord_system="LRG_478" start="1" end="3942" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>septin-5 isoform 1 </long_name>
+              <long_name>septin-5 isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_002679.2" />
               <db_xref source="UniProtKB" accession="Q99719">
                 <synonym>O15251</synonym>
@@ -464,7 +445,7 @@
             <coordinates coord_system="LRG_478" start="1" end="4732" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SEPT5-014 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003304052">
+            <exon source="Ensembl" accession="ENSE00003516330">
               <coordinates coord_system="LRG_478" start="1060" end="1156" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001316957">
@@ -476,19 +457,19 @@
             <exon source="Ensembl" accession="ENSE00001318523">
               <coordinates coord_system="LRG_478" start="1778" end="1912" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003433270">
+            <exon source="Ensembl" accession="ENSE00003541157">
               <coordinates coord_system="LRG_478" start="2007" end="2124" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003341106">
+            <exon source="Ensembl" accession="ENSE00003646197">
               <coordinates coord_system="LRG_478" start="2226" end="2327" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003390236">
+            <exon source="Ensembl" accession="ENSE00003690402">
               <coordinates coord_system="LRG_478" start="3098" end="3194" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001557717">
               <coordinates coord_system="LRG_478" start="3291" end="3415" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003310676">
+            <exon source="Ensembl" accession="ENSE00003464587">
               <coordinates coord_system="LRG_478" start="3695" end="3797" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001552269">
@@ -503,7 +484,7 @@
             <coordinates coord_system="LRG_478" start="1" end="4777" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SEPT5-015 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00003304052">
+            <exon source="Ensembl" accession="ENSE00003516330">
               <coordinates coord_system="LRG_478" start="1060" end="1156" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001316957">
@@ -515,13 +496,13 @@
             <exon source="Ensembl" accession="ENSE00001318523">
               <coordinates coord_system="LRG_478" start="1778" end="1912" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003433270">
+            <exon source="Ensembl" accession="ENSE00003541157">
               <coordinates coord_system="LRG_478" start="2007" end="2124" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003341106">
+            <exon source="Ensembl" accession="ENSE00003646197">
               <coordinates coord_system="LRG_478" start="2226" end="2327" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003307362">
+            <exon source="Ensembl" accession="ENSE00003659912">
               <coordinates coord_system="LRG_478" start="3280" end="3415" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001563192">
@@ -536,7 +517,7 @@
             <coordinates coord_system="LRG_478" start="1" end="3789" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SEPT5-008 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003338915">
+            <exon source="Ensembl" accession="ENSE00003660334">
               <coordinates coord_system="LRG_478" start="1060" end="1156" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001316957">
@@ -548,16 +529,16 @@
             <exon source="Ensembl" accession="ENSE00001318523">
               <coordinates coord_system="LRG_478" start="1778" end="1912" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003433270">
+            <exon source="Ensembl" accession="ENSE00003541157">
               <coordinates coord_system="LRG_478" start="2007" end="2124" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003341106">
+            <exon source="Ensembl" accession="ENSE00003646197">
               <coordinates coord_system="LRG_478" start="2226" end="2327" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003390236">
+            <exon source="Ensembl" accession="ENSE00003690402">
               <coordinates coord_system="LRG_478" start="3098" end="3194" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003234715">
+            <exon source="Ensembl" accession="ENSE00003617070">
               <coordinates coord_system="LRG_478" start="3280" end="3415" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001715339">
@@ -575,7 +556,7 @@
               <coordinates coord_system="LRG_478" start="1" end="276" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003304052">
+            <exon source="Ensembl" accession="ENSE00003516330">
               <coordinates coord_system="LRG_478" start="1060" end="1156" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001316957">
@@ -587,22 +568,22 @@
             <exon source="Ensembl" accession="ENSE00001318523">
               <coordinates coord_system="LRG_478" start="1778" end="1912" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003433270">
+            <exon source="Ensembl" accession="ENSE00003541157">
               <coordinates coord_system="LRG_478" start="2007" end="2124" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003341106">
+            <exon source="Ensembl" accession="ENSE00003646197">
               <coordinates coord_system="LRG_478" start="2226" end="2327" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003390236">
+            <exon source="Ensembl" accession="ENSE00003690402">
               <coordinates coord_system="LRG_478" start="3098" end="3194" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003234715">
+            <exon source="Ensembl" accession="ENSE00003617070">
               <coordinates coord_system="LRG_478" start="3280" end="3415" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003404247">
+            <exon source="Ensembl" accession="ENSE00003513452">
               <coordinates coord_system="LRG_478" start="3695" end="3797" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003448171">
+            <exon source="Ensembl" accession="ENSE00003596438">
               <coordinates coord_system="LRG_478" start="3886" end="5037" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001683859">
@@ -616,7 +597,7 @@
             <coordinates coord_system="LRG_478" start="1" end="3178" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SEPT5-010 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003304052">
+            <exon source="Ensembl" accession="ENSE00003516330">
               <coordinates coord_system="LRG_478" start="1060" end="1156" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001316957">
@@ -628,10 +609,10 @@
             <exon source="Ensembl" accession="ENSE00001318523">
               <coordinates coord_system="LRG_478" start="1778" end="1912" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003433270">
+            <exon source="Ensembl" accession="ENSE00003541157">
               <coordinates coord_system="LRG_478" start="2007" end="2124" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003341106">
+            <exon source="Ensembl" accession="ENSE00003646197">
               <coordinates coord_system="LRG_478" start="2226" end="2327" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001701155">
@@ -662,7 +643,7 @@
               <coordinates coord_system="LRG_478" start="1" end="276" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003304052">
+            <exon source="Ensembl" accession="ENSE00003516330">
               <coordinates coord_system="LRG_478" start="1060" end="1156" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001316957">
@@ -674,19 +655,19 @@
             <exon source="Ensembl" accession="ENSE00001318523">
               <coordinates coord_system="LRG_478" start="1778" end="1912" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003433270">
+            <exon source="Ensembl" accession="ENSE00003541157">
               <coordinates coord_system="LRG_478" start="2007" end="2124" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003341106">
+            <exon source="Ensembl" accession="ENSE00003646197">
               <coordinates coord_system="LRG_478" start="2226" end="2327" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003390236">
+            <exon source="Ensembl" accession="ENSE00003690402">
               <coordinates coord_system="LRG_478" start="3098" end="3194" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003234715">
+            <exon source="Ensembl" accession="ENSE00003617070">
               <coordinates coord_system="LRG_478" start="3280" end="3415" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003404247">
+            <exon source="Ensembl" accession="ENSE00003513452">
               <coordinates coord_system="LRG_478" start="3695" end="3797" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001547277">
@@ -706,7 +687,7 @@
               <coordinates coord_system="LRG_478" start="1" end="276" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003304052">
+            <exon source="Ensembl" accession="ENSE00003516330">
               <coordinates coord_system="LRG_478" start="1060" end="1156" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001316957">
@@ -718,27 +699,27 @@
             <exon source="Ensembl" accession="ENSE00001318523">
               <coordinates coord_system="LRG_478" start="1778" end="1912" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003433270">
+            <exon source="Ensembl" accession="ENSE00003541157">
               <coordinates coord_system="LRG_478" start="2007" end="2124" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003341106">
+            <exon source="Ensembl" accession="ENSE00003646197">
               <coordinates coord_system="LRG_478" start="2226" end="2327" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003390236">
+            <exon source="Ensembl" accession="ENSE00003690402">
               <coordinates coord_system="LRG_478" start="3098" end="3194" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001557717">
               <coordinates coord_system="LRG_478" start="3291" end="3415" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003310676">
+            <exon source="Ensembl" accession="ENSE00003464587">
               <coordinates coord_system="LRG_478" start="3695" end="3797" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003411311">
+            <exon source="Ensembl" accession="ENSE00003693056">
               <coordinates coord_system="LRG_478" start="3886" end="4777" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000394541">
               <coordinates coord_system="LRG_478" start="196" end="3769" strand="1" mapped_from="GRCh37" />
-              <long_name>septin-5 isoform 2 </long_name>
+              <long_name>septin-5 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001009939.1" />
               <db_xref source="UniProtKB" accession="Q99719">
                 <synonym>O15251</synonym>
@@ -754,7 +735,7 @@
               <coordinates coord_system="LRG_478" start="1" end="29" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003338915">
+            <exon source="Ensembl" accession="ENSE00003660334">
               <coordinates coord_system="LRG_478" start="1060" end="1156" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001316957">
@@ -766,22 +747,22 @@
             <exon source="Ensembl" accession="ENSE00001318523">
               <coordinates coord_system="LRG_478" start="1778" end="1912" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003433270">
+            <exon source="Ensembl" accession="ENSE00003541157">
               <coordinates coord_system="LRG_478" start="2007" end="2124" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003341106">
+            <exon source="Ensembl" accession="ENSE00003646197">
               <coordinates coord_system="LRG_478" start="2226" end="2327" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003390236">
+            <exon source="Ensembl" accession="ENSE00003690402">
               <coordinates coord_system="LRG_478" start="3098" end="3194" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003234715">
+            <exon source="Ensembl" accession="ENSE00003617070">
               <coordinates coord_system="LRG_478" start="3280" end="3415" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003404247">
+            <exon source="Ensembl" accession="ENSE00003513452">
               <coordinates coord_system="LRG_478" start="3695" end="3797" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003448171">
+            <exon source="Ensembl" accession="ENSE00003596438">
               <coordinates coord_system="LRG_478" start="3886" end="5037" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001790744">
@@ -806,7 +787,7 @@
             <exon source="Ensembl" accession="ENSE00001318523">
               <coordinates coord_system="LRG_478" start="1778" end="1912" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003433270">
+            <exon source="Ensembl" accession="ENSE00003541157">
               <coordinates coord_system="LRG_478" start="2007" end="2124" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001725494">
@@ -851,10 +832,10 @@
             <exon source="Ensembl" accession="ENSE00001956844">
               <coordinates coord_system="LRG_478" start="1800" end="1912" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003291828">
+            <exon source="Ensembl" accession="ENSE00003492607">
               <coordinates coord_system="LRG_478" start="2007" end="2124" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003246559">
+            <exon source="Ensembl" accession="ENSE00003474049">
               <coordinates coord_system="LRG_478" start="2226" end="2327" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001899091">
@@ -867,16 +848,16 @@
             <exon source="Ensembl" accession="ENSE00001910083">
               <coordinates coord_system="LRG_478" start="2012" end="2124" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003246559">
+            <exon source="Ensembl" accession="ENSE00003474049">
               <coordinates coord_system="LRG_478" start="2226" end="2327" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003413150">
+            <exon source="Ensembl" accession="ENSE00003653969">
               <coordinates coord_system="LRG_478" start="3098" end="3194" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001914294">
               <coordinates coord_system="LRG_478" start="3280" end="3797" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003237942">
+            <exon source="Ensembl" accession="ENSE00003673046">
               <coordinates coord_system="LRG_478" start="3886" end="5037" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001840201">
@@ -885,8 +866,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000203618">
+          <symbol source="HGNC" name="GP1BB" />
           <coordinates coord_system="LRG_478" start="4403" end="6229" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">GP1BB</symbol>
           <long_name>glycoprotein Ib (platelet), beta polypeptide (protein_coding)</long_name>
           <db_xref source="GeneID" accession="2812">
             <synonym>BDPLT1</synonym>
@@ -901,7 +882,7 @@
           <db_xref source="Ensembl" accession="ENSG00000203618" />
           <transcript source="Ensembl" accession="ENST00000366425">
             <coordinates coord_system="LRG_478" start="4403" end="6229" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens glycoprotein Ib (platelet), beta polypeptide (GP1BB), mRNA. (protein_coding)</long_name>
+            <long_name>GP1BB-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS42980.1" />
             <db_xref source="RefSeq" accession="NM_000407.4" />
             <exon source="Ensembl" accession="ENSE00001543381">
@@ -912,7 +893,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000383382">
               <coordinates coord_system="LRG_478" start="5028" end="5922" strand="1" mapped_from="GRCh37" />
-              <long_name>platelet glycoprotein Ib beta chain precursor </long_name>
+              <long_name>platelet glycoprotein Ib beta chain precursor</long_name>
               <db_xref source="RefSeq" accession="NP_000398.1" />
               <db_xref source="UniProtKB" accession="P13224">
                 <synonym>Q14422</synonym>
@@ -928,7 +909,7 @@
         <name>List of locus specific databases for GP1BB</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GP1BB</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_45</id>
+    <hgnc_id>1836</hgnc_id>
     <sequence_source>NG_009617.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -18,15 +19,6 @@
         <name>Mauno Vihinen</name>
         <address>University of Tampere, Finland</address>
         <email>Mauno.Vihinen@med.lu.se</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -44,16 +36,16 @@
           <sequence>MSHGTYYECEPRGGQQPLEFSGGRAGPGELGDMCEHEASIDLSAYIESGEEQLLSDLFAVKPAPEARGLKGPGTPAFPHYLPPDPRPFAYPPHTFGPDRKALGPGIYSSPGSYDPRAVAVKEEPRGPEGSRAASRGSYNPLQYQVAHCGQTAMHLPPTLAAPGQPLRVLKAPLATAAPPCSPLLKAPSPAGPLHKGKKAVNKDSLEYRLRRERNNIAVRKSRDKAKRRILETQQKVLEYMAENERLRSRVEQLTQELDTLRNLFRQIPEAANLIKGVGGCS</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_45" start="5001" end="5684" strand="1" />
-        <coordinates coord_system="LRG_45_t1" start="1" end="684" />
-        <coordinates coord_system="LRG_45_p1" start="1" end="170" />
+        <coordinates coord_system="LRG_45t1" start="1" end="684" />
+        <coordinates coord_system="LRG_45p1" start="1" end="170" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_45" start="6444" end="6960" strand="1" />
-        <coordinates coord_system="LRG_45_t1" start="685" end="1201" />
-        <coordinates coord_system="LRG_45_p1" start="171" end="281" />
+        <coordinates coord_system="LRG_45t1" start="685" end="1201" />
+        <coordinates coord_system="LRG_45p1" start="171" end="281" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -68,8 +60,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="14" other_id="NC_000014.8" other_start="23584515" other_end="23593474">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_start="23584515" other_end="23593474">
         <mapping_span lrg_start="1" lrg_end="8960" other_start="23584515" other_end="23593474" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CEBPE</lrg_locus>
@@ -85,19 +77,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009617.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_45" start="5001" end="5684" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_45" start="6444" end="6960" />
-            <label>2</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_001805.2" other_name="NM_001805.2" other_id="NM_001805.2" other_start="1" other_end="1201">
         <mapping_span lrg_start="5001" lrg_end="5684" other_start="1" other_end="684" strand="1" />
         <mapping_span lrg_start="6444" lrg_end="6960" other_start="685" other_end="1201" strand="1" />
@@ -106,13 +86,13 @@
         <mapping_span lrg_start="4655" lrg_end="5684" other_start="1" other_end="1030" strand="1" />
         <mapping_span lrg_start="6444" lrg_end="6960" other_start="1031" other_end="1547" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">CEBPE</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="1053">
+          <symbol source="HGNC" name="CEBPE">
+            <synonym>C/EBP-epsilon</synonym>
+            <synonym>CRP1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_45" start="4655" end="6960" strand="1" />
-          <symbol>CEBPE</symbol>
-          <symbol>C/EBP-epsilon</symbol>
-          <symbol>CRP1</symbol>
           <long_name>CCAAT/enhancer binding protein (C/EBP), epsilon</long_name>
           <db_xref source="GeneID" accession="1053" />
           <db_xref source="HGNC" accession="1836" />
@@ -152,16 +132,16 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000206513.5" other_name="ENST00000206513.5" other_id="ENST00000206513.5" other_start="1" other_end="1554">
         <mapping_span lrg_start="4650" lrg_end="5684" other_start="1" other_end="1035" strand="1" />
         <mapping_span lrg_start="6444" lrg_end="6962" other_start="1036" other_end="1554" strand="1" />
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000092067">
+          <symbol source="HGNC" name="CEBPE" />
           <coordinates coord_system="LRG_45" start="4650" end="6962" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">CEBPE</symbol>
           <long_name>CCAAT/enhancer binding protein (C/EBP), epsilon (protein_coding)</long_name>
           <db_xref source="GeneID" accession="1053">
             <synonym>C/EBP-epsilon</synonym>
@@ -185,7 +165,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000206513">
               <coordinates coord_system="LRG_45" start="5175" end="6779" strand="1" mapped_from="GRCh37" />
-              <long_name>CCAAT/enhancer-binding protein epsilon </long_name>
+              <long_name>CCAAT/enhancer-binding protein epsilon</long_name>
               <db_xref source="RefSeq" accession="NP_001796.2" />
               <db_xref source="UniProtKB" accession="Q15744">
                 <synonym>Q15745</synonym>
@@ -202,7 +182,7 @@
         <name>List of locus specific databases for CEBPE</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CEBPE</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

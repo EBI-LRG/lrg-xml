@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_280</id>
+    <hgnc_id>24116</hgnc_id>
     <sequence_source>NG_008976.2</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -13,15 +14,6 @@
         <name>Sujatha Mohan</name>
         <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
         <email>sujatha@rcai.riken.jp</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,28 +30,28 @@
           <sequence>MESGDEAAIERHRVHLRSATLRDAVPATLHLLPCEVAVDGPAPVGRFFTPAIRQGPEGLEVSFRGRCLRGEEVAVPPGLVGYVMVTEEKKVSMGKPDPLRDSGTDDQEEEPLERDFDRFIGATANFSRFTLWGLETIPGPDAKVRGALTWPSLAAAIHAQVPED</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_280" start="5001" end="5352" strand="1" />
-        <coordinates coord_system="LRG_280_t1" start="1" end="352" />
-        <coordinates coord_system="LRG_280_p1" start="1" end="58" />
+        <coordinates coord_system="LRG_280t1" start="1" end="352" />
+        <coordinates coord_system="LRG_280p1" start="1" end="58" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_280" start="5522" end="5697" strand="1" />
-        <coordinates coord_system="LRG_280_t1" start="353" end="528" />
-        <coordinates coord_system="LRG_280_p1" start="58" end="116" />
+        <coordinates coord_system="LRG_280t1" start="353" end="528" />
+        <coordinates coord_system="LRG_280p1" start="58" end="116" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_280" start="5775" end="5894" strand="1" />
-        <coordinates coord_system="LRG_280_t1" start="529" end="648" />
-        <coordinates coord_system="LRG_280_p1" start="117" end="156" />
+        <coordinates coord_system="LRG_280t1" start="529" end="648" />
+        <coordinates coord_system="LRG_280p1" start="117" end="156" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_280" start="6130" end="8266" strand="1" />
-        <coordinates coord_system="LRG_280_t1" start="649" end="2785" />
-        <coordinates coord_system="LRG_280_p1" start="157" end="164" />
+        <coordinates coord_system="LRG_280t1" start="649" end="2785" />
+        <coordinates coord_system="LRG_280p1" start="157" end="164" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -74,8 +66,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-05-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="11" other_id="NC_000011.9" other_start="65480367" other_end="65493409">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="65480367" other_end="65493409">
         <mapping_span lrg_start="1" lrg_end="13043" other_start="65480367" other_end="65493409" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">RNASEH2C</lrg_locus>
@@ -91,40 +83,20 @@
         </contact>
       </source>
       <comment>Annotation from NG_008976.2</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_280" start="5001" end="5352" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_280" start="5522" end="5697" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_280" start="5775" end="5894" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_280" start="6130" end="8266" />
-            <label>4</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_032193.3" other_name="NM_032193.3" other_id="NM_032193.3" other_start="1" other_end="2785">
         <mapping_span lrg_start="5001" lrg_end="5352" other_start="1" other_end="352" strand="1" />
         <mapping_span lrg_start="5522" lrg_end="5697" other_start="353" other_end="528" strand="1" />
         <mapping_span lrg_start="5775" lrg_end="5894" other_start="529" other_end="648" strand="1" />
         <mapping_span lrg_start="6130" lrg_end="8266" other_start="649" other_end="2785" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">RNASEH2C</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="84153">
+          <symbol source="HGNC" name="RNASEH2C">
+            <synonym>AGS3</synonym>
+            <synonym>AYP1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_280" start="5001" end="8266" strand="1" />
-          <symbol>RNASEH2C</symbol>
-          <symbol>AGS3</symbol>
-          <symbol>AYP1</symbol>
           <long_name>ribonuclease H2, subunit C</long_name>
           <db_xref source="GeneID" accession="84153" />
           <db_xref source="HGNC" accession="24116" />
@@ -162,17 +134,18 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="10524">
+          <symbol source="HGNC" name="KAT5">
+            <synonym>cPLA2</synonym>
+            <synonym>ESA1</synonym>
+            <synonym>HTATIP</synonym>
+            <synonym>HTATIP1</synonym>
+            <synonym>PLIP</synonym>
+            <synonym>TIP</synonym>
+            <synonym>TIP60</synonym>
+            <synonym>ZC2HC5</synonym>
+          </symbol>
           <coordinates coord_system="LRG_280" start="6333" end="13043" strand="-1" />
           <partial>5-prime</partial>
-          <symbol>KAT5</symbol>
-          <symbol>cPLA2</symbol>
-          <symbol>ESA1</symbol>
-          <symbol>HTATIP</symbol>
-          <symbol>HTATIP1</symbol>
-          <symbol>PLIP</symbol>
-          <symbol>TIP</symbol>
-          <symbol>TIP60</symbol>
-          <symbol>ZC2HC5</symbol>
           <long_name>K(lysine) acetyltransferase 5</long_name>
           <db_xref source="GeneID" accession="10524" />
           <db_xref source="HGNC" accession="5275" />
@@ -412,8 +385,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-05-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000308418.4" other_name="ENST00000308418.4" other_id="ENST00000308418.4" other_start="1" other_end="2794">
         <mapping_span lrg_start="4992" lrg_end="5352" other_start="1" other_end="361" strand="1" />
         <mapping_span lrg_start="5522" lrg_end="5697" other_start="362" other_end="537" strand="1" />
@@ -455,8 +428,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000172922">
+          <symbol source="HGNC" name="RNASEH2C" />
           <coordinates coord_system="LRG_280" start="4992" end="11043" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">RNASEH2C</symbol>
           <long_name>ribonuclease H2, subunit C (protein_coding)</long_name>
           <db_xref source="GeneID" accession="84153">
             <synonym>AGS3</synonym>
@@ -487,7 +460,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000308193">
               <coordinates coord_system="LRG_280" start="5181" end="6156" strand="1" mapped_from="GRCh37" />
-              <long_name>ribonuclease H2 subunit C </long_name>
+              <long_name>ribonuclease H2 subunit C</long_name>
               <db_xref source="RefSeq" accession="NP_115569.2" />
               <db_xref source="UniProtKB" accession="Q8TDP1">
                 <synonym>Q9H7F5</synonym>
@@ -598,9 +571,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000172977">
+          <symbol source="HGNC" name="KAT5" />
           <coordinates coord_system="LRG_280" start="6335" end="13043" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">KAT5</symbol>
           <long_name>K(lysine) acetyltransferase 5 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="10524">
             <synonym>cPLA2</synonym>
@@ -629,22 +602,22 @@
             <long_name>KAT5-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS31610.1" />
             <db_xref source="RefSeq" accession="NM_006388.3" />
-            <exon source="Ensembl" accession="ENSE00003430789">
+            <exon source="Ensembl" accession="ENSE00003483314">
               <coordinates coord_system="LRG_280" start="12881" end="13017" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003296268">
+            <exon source="Ensembl" accession="ENSE00003592795">
               <coordinates coord_system="LRG_280" start="12436" end="12591" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003386341">
+            <exon source="Ensembl" accession="ENSE00003595616">
               <coordinates coord_system="LRG_280" start="12272" end="12346" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003267060">
+            <exon source="Ensembl" accession="ENSE00003645581">
               <coordinates coord_system="LRG_280" start="12091" end="12165" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003391239">
+            <exon source="Ensembl" accession="ENSE00003687383">
               <coordinates coord_system="LRG_280" start="11196" end="11444" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003271185">
+            <exon source="Ensembl" accession="ENSE00003464410">
               <coordinates coord_system="LRG_280" start="11029" end="11118" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001191023">
@@ -656,7 +629,7 @@
             <exon source="Ensembl" accession="ENSE00001191008">
               <coordinates coord_system="LRG_280" start="7190" end="7349" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003247543">
+            <exon source="Ensembl" accession="ENSE00003462372">
               <coordinates coord_system="LRG_280" start="6985" end="7066" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002180352">
@@ -665,7 +638,7 @@
             <protein_product source="Ensembl" accession="ENSP00000366245">
               <coordinates coord_system="LRG_280" start="6758" end="13043" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>histone acetyltransferase KAT5 isoform 2 </long_name>
+              <long_name>histone acetyltransferase KAT5 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_006379.2" />
               <db_xref source="UniProtKB" accession="Q92993">
                 <synonym>B4E3C7</synonym>
@@ -686,19 +659,19 @@
             <db_xref source="CCDS" accession="CCDS8109.1" />
             <db_xref source="RefSeq" accession="NM_001206833.1" />
             <db_xref source="RefSeq" accession="NM_182709.2" />
-            <exon source="Ensembl" accession="ENSE00003430789">
+            <exon source="Ensembl" accession="ENSE00003483314">
               <coordinates coord_system="LRG_280" start="12881" end="13017" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003386341">
+            <exon source="Ensembl" accession="ENSE00003595616">
               <coordinates coord_system="LRG_280" start="12272" end="12346" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003267060">
+            <exon source="Ensembl" accession="ENSE00003645581">
               <coordinates coord_system="LRG_280" start="12091" end="12165" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003391239">
+            <exon source="Ensembl" accession="ENSE00003687383">
               <coordinates coord_system="LRG_280" start="11196" end="11444" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003271185">
+            <exon source="Ensembl" accession="ENSE00003464410">
               <coordinates coord_system="LRG_280" start="11029" end="11118" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001191023">
@@ -710,7 +683,7 @@
             <exon source="Ensembl" accession="ENSE00001191008">
               <coordinates coord_system="LRG_280" start="7190" end="7349" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003247543">
+            <exon source="Ensembl" accession="ENSE00003462372">
               <coordinates coord_system="LRG_280" start="6985" end="7066" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002180352">
@@ -719,7 +692,7 @@
             <protein_product source="Ensembl" accession="ENSP00000344955">
               <coordinates coord_system="LRG_280" start="6758" end="13043" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>histone acetyltransferase KAT5 isoform 3 , histone acetyltransferase KAT5 isoform 4 </long_name>
+              <long_name>histone acetyltransferase KAT5 isoform 3, histone acetyltransferase KAT5 isoform 4</long_name>
               <db_xref source="RefSeq" accession="NP_874368.1" />
               <db_xref source="RefSeq" accession="NP_001193762.1" />
               <db_xref source="UniProtKB" accession="Q92993">
@@ -738,19 +711,19 @@
             <coordinates coord_system="LRG_280" start="6336" end="13043" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>KAT5-005 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003380296">
+            <exon source="Ensembl" accession="ENSE00003509634">
               <coordinates coord_system="LRG_280" start="12881" end="13017" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003281130">
+            <exon source="Ensembl" accession="ENSE00003532105">
               <coordinates coord_system="LRG_280" start="12272" end="12346" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003362585">
+            <exon source="Ensembl" accession="ENSE00003615479">
               <coordinates coord_system="LRG_280" start="12091" end="12165" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003389943">
+            <exon source="Ensembl" accession="ENSE00003486734">
               <coordinates coord_system="LRG_280" start="11196" end="11444" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003271185">
+            <exon source="Ensembl" accession="ENSE00003464410">
               <coordinates coord_system="LRG_280" start="11029" end="11118" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001191023">
@@ -762,7 +735,7 @@
             <exon source="Ensembl" accession="ENSE00001191008">
               <coordinates coord_system="LRG_280" start="7190" end="7349" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003247543">
+            <exon source="Ensembl" accession="ENSE00003462372">
               <coordinates coord_system="LRG_280" start="6985" end="7066" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001302732">
@@ -778,7 +751,7 @@
             <exon source="Ensembl" accession="ENSE00002197596">
               <coordinates coord_system="LRG_280" start="7164" end="7233" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003247543">
+            <exon source="Ensembl" accession="ENSE00003462372">
               <coordinates coord_system="LRG_280" start="6985" end="7066" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001302732">
@@ -794,22 +767,22 @@
             <long_name>KAT5-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS8110.1" />
             <db_xref source="RefSeq" accession="NM_182710.2" />
-            <exon source="Ensembl" accession="ENSE00003430789">
+            <exon source="Ensembl" accession="ENSE00003483314">
               <coordinates coord_system="LRG_280" start="12881" end="13017" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003296268">
+            <exon source="Ensembl" accession="ENSE00003592795">
               <coordinates coord_system="LRG_280" start="12436" end="12591" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003386341">
+            <exon source="Ensembl" accession="ENSE00003595616">
               <coordinates coord_system="LRG_280" start="12272" end="12346" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003267060">
+            <exon source="Ensembl" accession="ENSE00003645581">
               <coordinates coord_system="LRG_280" start="12091" end="12165" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003391239">
+            <exon source="Ensembl" accession="ENSE00003687383">
               <coordinates coord_system="LRG_280" start="11196" end="11444" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003271185">
+            <exon source="Ensembl" accession="ENSE00003464410">
               <coordinates coord_system="LRG_280" start="11029" end="11118" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001191023">
@@ -821,7 +794,7 @@
             <exon source="Ensembl" accession="ENSE00001191008">
               <coordinates coord_system="LRG_280" start="7190" end="7349" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003247543">
+            <exon source="Ensembl" accession="ENSE00003462372">
               <coordinates coord_system="LRG_280" start="6985" end="7066" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002147632">
@@ -830,7 +803,7 @@
             <protein_product source="Ensembl" accession="ENSP00000340330">
               <coordinates coord_system="LRG_280" start="6758" end="13043" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>histone acetyltransferase KAT5 isoform 1 </long_name>
+              <long_name>histone acetyltransferase KAT5 isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_874369.1" />
               <db_xref source="UniProtKB" accession="Q92993">
                 <synonym>B4E3C7</synonym>
@@ -849,19 +822,19 @@
             <partial>5-prime</partial>
             <long_name>KAT5-004 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS55771.1" />
-            <exon source="Ensembl" accession="ENSE00003430789">
+            <exon source="Ensembl" accession="ENSE00003483314">
               <coordinates coord_system="LRG_280" start="12881" end="13017" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003386341">
+            <exon source="Ensembl" accession="ENSE00003595616">
               <coordinates coord_system="LRG_280" start="12272" end="12346" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003267060">
+            <exon source="Ensembl" accession="ENSE00003645581">
               <coordinates coord_system="LRG_280" start="12091" end="12165" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003391239">
+            <exon source="Ensembl" accession="ENSE00003687383">
               <coordinates coord_system="LRG_280" start="11196" end="11444" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003271185">
+            <exon source="Ensembl" accession="ENSE00003464410">
               <coordinates coord_system="LRG_280" start="11029" end="11118" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001191023">
@@ -873,7 +846,7 @@
             <exon source="Ensembl" accession="ENSE00001191008">
               <coordinates coord_system="LRG_280" start="7190" end="7349" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003247543">
+            <exon source="Ensembl" accession="ENSE00003462372">
               <coordinates coord_system="LRG_280" start="6985" end="7066" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002200323">
@@ -900,7 +873,7 @@
             <exon source="Ensembl" accession="ENSE00002150958">
               <coordinates coord_system="LRG_280" start="7190" end="7595" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003244037">
+            <exon source="Ensembl" accession="ENSE00003679091">
               <coordinates coord_system="LRG_280" start="6985" end="7066" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002186084">
@@ -921,16 +894,16 @@
             <coordinates coord_system="LRG_280" start="11001" end="13043" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>KAT5-010 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00003380296">
+            <exon source="Ensembl" accession="ENSE00003509634">
               <coordinates coord_system="LRG_280" start="12881" end="13017" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003281130">
+            <exon source="Ensembl" accession="ENSE00003532105">
               <coordinates coord_system="LRG_280" start="12272" end="12346" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003362585">
+            <exon source="Ensembl" accession="ENSE00003615479">
               <coordinates coord_system="LRG_280" start="12091" end="12165" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003284634">
+            <exon source="Ensembl" accession="ENSE00003584966">
               <coordinates coord_system="LRG_280" start="11196" end="11444" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002163978">
@@ -941,19 +914,19 @@
             <coordinates coord_system="LRG_280" start="11029" end="13043" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>KAT5-011 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003380296">
+            <exon source="Ensembl" accession="ENSE00003509634">
               <coordinates coord_system="LRG_280" start="12881" end="13017" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003281130">
+            <exon source="Ensembl" accession="ENSE00003532105">
               <coordinates coord_system="LRG_280" start="12272" end="12346" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003362585">
+            <exon source="Ensembl" accession="ENSE00003615479">
               <coordinates coord_system="LRG_280" start="12091" end="12165" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002142283">
               <coordinates coord_system="LRG_280" start="11196" end="11279" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003355849">
+            <exon source="Ensembl" accession="ENSE00003671607">
               <coordinates coord_system="LRG_280" start="11029" end="11118" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -961,16 +934,16 @@
             <coordinates coord_system="LRG_280" start="11210" end="13043" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>KAT5-016 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003430789">
+            <exon source="Ensembl" accession="ENSE00003483314">
               <coordinates coord_system="LRG_280" start="12881" end="13017" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003296268">
+            <exon source="Ensembl" accession="ENSE00003592795">
               <coordinates coord_system="LRG_280" start="12436" end="12591" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003386341">
+            <exon source="Ensembl" accession="ENSE00003595616">
               <coordinates coord_system="LRG_280" start="12272" end="12346" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003267060">
+            <exon source="Ensembl" accession="ENSE00003645581">
               <coordinates coord_system="LRG_280" start="12091" end="12165" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002140272">
@@ -989,10 +962,10 @@
               <coordinates coord_system="LRG_280" start="12881" end="13043" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003281130">
+            <exon source="Ensembl" accession="ENSE00003532105">
               <coordinates coord_system="LRG_280" start="12272" end="12346" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003362585">
+            <exon source="Ensembl" accession="ENSE00003615479">
               <coordinates coord_system="LRG_280" start="12091" end="12165" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002150926">
@@ -1006,13 +979,13 @@
             <coordinates coord_system="LRG_280" start="11294" end="13043" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>KAT5-015 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003430789">
+            <exon source="Ensembl" accession="ENSE00003483314">
               <coordinates coord_system="LRG_280" start="12881" end="13017" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003386341">
+            <exon source="Ensembl" accession="ENSE00003595616">
               <coordinates coord_system="LRG_280" start="12272" end="12346" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003267060">
+            <exon source="Ensembl" accession="ENSE00003645581">
               <coordinates coord_system="LRG_280" start="12091" end="12165" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002170051">
@@ -1027,13 +1000,13 @@
             <coordinates coord_system="LRG_280" start="11355" end="13043" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>KAT5-014 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003380296">
+            <exon source="Ensembl" accession="ENSE00003509634">
               <coordinates coord_system="LRG_280" start="12881" end="13017" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003281130">
+            <exon source="Ensembl" accession="ENSE00003532105">
               <coordinates coord_system="LRG_280" start="12272" end="12346" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003362585">
+            <exon source="Ensembl" accession="ENSE00003615479">
               <coordinates coord_system="LRG_280" start="12091" end="12165" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002190594">
@@ -1047,10 +1020,10 @@
             <coordinates coord_system="LRG_280" start="12274" end="13043" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>KAT5-017 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003380296">
+            <exon source="Ensembl" accession="ENSE00003509634">
               <coordinates coord_system="LRG_280" start="12881" end="13017" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003348560">
+            <exon source="Ensembl" accession="ENSE00003659568">
               <coordinates coord_system="LRG_280" start="12436" end="12591" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002180066">
@@ -1064,7 +1037,7 @@
             <exon source="Ensembl" accession="ENSE00002173788">
               <coordinates coord_system="LRG_280" start="12884" end="13017" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003296268">
+            <exon source="Ensembl" accession="ENSE00003592795">
               <coordinates coord_system="LRG_280" start="12436" end="12591" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002141468">
@@ -1091,7 +1064,7 @@
         <name>List of locus specific databases for RNASEH2C</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RNASEH2C</url>
       </source>
-      <modification_date>2013-05-23</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

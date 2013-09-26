@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_160</id>
+    <hgnc_id>8957</hgnc_id>
     <sequence_source>NG_009786.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -13,15 +14,6 @@
         <name>Sujatha Mohan</name>
         <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
         <email>sujatha@rcai.riken.jp</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -39,38 +31,38 @@
           <sequence>MACRGGAGNGHRASATLSRVSPGSLYTCRTRTHNICMVSDFFYPNMGGVESHIYQLSQCLIERGHKVIIVTHAYGNRKGIRYLTSGLKVYYLPLKVMYNQSTATTLFHSLPLLRYIFVRERVTIIHSHSSFSAMAHDALFHAKTMGLQTVFTDHSLFGFADVSSVLTNKLLTVSLCDTNHIICVSYTSKENTVLRAALNPEIVSVIPNAVDPTDFTPDPFRRHDSITIVVVSRLVYRKGIDLLSGIIPELCQKYPDLNFIIGGEGPKRIILEEVRERYQLHDRVRLLGALEHKDVRNVLVQGHIFLNTSLTEAFCMAIVEAASCGLQVVSTRVGGIPEVLPENLIILCEPSVKSLCEGLEKAIFQLKSGTLPAPENIHNIVKTFYTWRNVAERTEKVYDRVSVEAVLPMDKRLDRLISHCGPVTGYIFALLAVFNFLFLIFLRWMTPDSIIDVAIDATGPRGAWTNNYSHSKRGGENNEISETR</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_160" start="4985" end="5038" strand="1" />
-        <coordinates coord_system="LRG_160_t1" start="1" end="54" />
+        <coordinates coord_system="LRG_160t1" start="1" end="54" />
       </exon>
-      <exon>
+      <exon label="2c">
         <coordinates coord_system="LRG_160" start="8547" end="9323" strand="1" />
-        <coordinates coord_system="LRG_160_t1" start="55" end="831" />
-        <coordinates coord_system="LRG_160_p1" start="1" end="239" />
+        <coordinates coord_system="LRG_160t1" start="55" end="831" />
+        <coordinates coord_system="LRG_160p1" start="1" end="239" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_160" start="14493" end="14625" strand="1" />
-        <coordinates coord_system="LRG_160_t1" start="832" end="964" />
-        <coordinates coord_system="LRG_160_p1" start="239" end="283" />
+        <coordinates coord_system="LRG_160t1" start="832" end="964" />
+        <coordinates coord_system="LRG_160p1" start="239" end="283" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_160" start="15387" end="15519" strand="1" />
-        <coordinates coord_system="LRG_160_t1" start="965" end="1097" />
-        <coordinates coord_system="LRG_160_p1" start="283" end="327" />
+        <coordinates coord_system="LRG_160t1" start="965" end="1097" />
+        <coordinates coord_system="LRG_160p1" start="283" end="327" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_160" start="15668" end="15874" strand="1" />
-        <coordinates coord_system="LRG_160_t1" start="1098" end="1304" />
-        <coordinates coord_system="LRG_160_p1" start="328" end="396" />
+        <coordinates coord_system="LRG_160t1" start="1098" end="1304" />
+        <coordinates coord_system="LRG_160p1" start="328" end="396" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_160" start="18767" end="21088" strand="1" />
-        <coordinates coord_system="LRG_160_t1" start="1305" end="3626" />
-        <coordinates coord_system="LRG_160_p1" start="397" end="484" />
+        <coordinates coord_system="LRG_160t1" start="1305" end="3626" />
+        <coordinates coord_system="LRG_160p1" start="397" end="484" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -85,8 +77,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="X" other_id="NC_000023.10" other_start="15335578" other_end="15358660">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="15335578" other_end="15358660">
         <mapping_span lrg_start="1" lrg_end="23083" other_start="15335578" other_end="15358660" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">PIGA</lrg_locus>
@@ -102,35 +94,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009786.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_160" start="4985" end="5038" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_160" start="8547" end="9323" />
-            <label>2c</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_160" start="14493" end="14625" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_160" start="15387" end="15519" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_160" start="15668" end="15874" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_160" start="18767" end="21088" />
-            <label>6</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_002641.3" other_name="NM_002641.3" other_id="NM_002641.3" other_start="1" other_end="3626">
         <mapping_span lrg_start="4985" lrg_end="5038" other_start="1" other_end="54" strand="1" />
         <mapping_span lrg_start="8547" lrg_end="9323" other_start="55" other_end="831" strand="1" />
@@ -162,14 +126,14 @@
         <mapping_span lrg_start="15668" lrg_end="15874" other_start="440" other_end="646" strand="1" />
         <mapping_span lrg_start="18767" lrg_end="21088" other_start="647" other_end="2968" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">PIGA</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="5277">
+          <symbol source="HGNC" name="PIGA">
+            <synonym>GPI3</synonym>
+            <synonym>MCAHS2</synonym>
+            <synonym>PIG-A</synonym>
+          </symbol>
           <coordinates coord_system="LRG_160" start="4985" end="21088" strand="1" />
-          <symbol>PIGA</symbol>
-          <symbol>GPI3</symbol>
-          <symbol>MCAHS2</symbol>
-          <symbol>PIG-A</symbol>
           <long_name>phosphatidylinositol glycan anchor biosynthesis, class A</long_name>
           <db_xref source="GeneID" accession="5277" />
           <db_xref source="HGNC" accession="8957" />
@@ -213,6 +177,34 @@
               <db_xref source="GI" accession="11863130" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_020473.3">
+            <coordinates coord_system="LRG_160" start="4985" end="21088" strand="1" />
+            <long_name>phosphatidylinositol glycan anchor biosynthesis, class A, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="5277" />
+            <db_xref source="GI" accession="299782545" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_160" start="4985" end="5038" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_160" start="14493" end="14625" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_160" start="15387" end="15519" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_160" start="15668" end="15874" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_160" start="18767" end="21088" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_065206.3">
+              <coordinates coord_system="LRG_160" start="5026" end="19033" strand="1" />
+              <long_name>phosphatidylinositol N-acetylglucosaminyltransferase subunit A isoform 3</long_name>
+              <db_xref source="CCDS" accession="CCDS48086.2" />
+              <db_xref source="GeneID" accession="5277" />
+              <db_xref source="GI" accession="299782546" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -226,8 +218,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000333590.4" other_name="ENST00000333590.4" other_id="ENST00000333590.4" other_start="1" other_end="3590">
         <mapping_span lrg_start="5016" lrg_end="5038" other_start="1" other_end="23" strand="1" />
         <mapping_span lrg_start="8547" lrg_end="9323" other_start="24" other_end="800" strand="1" />
@@ -274,8 +266,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000165195">
+          <symbol source="HGNC" name="PIGA" />
           <coordinates coord_system="LRG_160" start="4985" end="21088" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">PIGA</symbol>
           <long_name>phosphatidylinositol glycan anchor biosynthesis, class A (protein_coding)</long_name>
           <db_xref source="GeneID" accession="5277">
             <synonym>GPI3</synonym>
@@ -297,13 +289,13 @@
             <exon source="Ensembl" accession="ENSE00002262166">
               <coordinates coord_system="LRG_160" start="4985" end="5038" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003329989">
+            <exon source="Ensembl" accession="ENSE00003660733">
               <coordinates coord_system="LRG_160" start="14493" end="14625" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003417017">
+            <exon source="Ensembl" accession="ENSE00003500267">
               <coordinates coord_system="LRG_160" start="15387" end="15519" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003423274">
+            <exon source="Ensembl" accession="ENSE00003486162">
               <coordinates coord_system="LRG_160" start="15668" end="15874" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002212797">
@@ -311,7 +303,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000442653">
               <coordinates coord_system="LRG_160" start="5026" end="19033" strand="1" mapped_from="GRCh37" />
-              <long_name>phosphatidylinositol N-acetylglucosaminyltransferase subunit A isoform 3 </long_name>
+              <long_name>phosphatidylinositol N-acetylglucosaminyltransferase subunit A isoform 3</long_name>
               <db_xref source="RefSeq" accession="NP_065206.3" />
               <db_xref source="UniProtKB" accession="P37287">
                 <synonym>B4E0V2</synonym>
@@ -329,13 +321,13 @@
             <exon source="Ensembl" accession="ENSE00001710337">
               <coordinates coord_system="LRG_160" start="8547" end="8665" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003393705">
+            <exon source="Ensembl" accession="ENSE00003460526">
               <coordinates coord_system="LRG_160" start="14493" end="14625" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003450785">
+            <exon source="Ensembl" accession="ENSE00003676042">
               <coordinates coord_system="LRG_160" start="15387" end="15519" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003423274">
+            <exon source="Ensembl" accession="ENSE00003486162">
               <coordinates coord_system="LRG_160" start="15668" end="15874" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001532644">
@@ -354,7 +346,7 @@
             <exon source="Ensembl" accession="ENSE00001833503">
               <coordinates coord_system="LRG_160" start="8547" end="8949" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003393705">
+            <exon source="Ensembl" accession="ENSE00003460526">
               <coordinates coord_system="LRG_160" start="14493" end="14625" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001875451">
@@ -372,13 +364,13 @@
             <exon source="Ensembl" accession="ENSE00001294155">
               <coordinates coord_system="LRG_160" start="8547" end="9323" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003329989">
+            <exon source="Ensembl" accession="ENSE00003660733">
               <coordinates coord_system="LRG_160" start="14493" end="14625" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003417017">
+            <exon source="Ensembl" accession="ENSE00003500267">
               <coordinates coord_system="LRG_160" start="15387" end="15519" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003423274">
+            <exon source="Ensembl" accession="ENSE00003486162">
               <coordinates coord_system="LRG_160" start="15668" end="15874" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001846727">
@@ -386,7 +378,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000369820">
               <coordinates coord_system="LRG_160" start="8609" end="19033" strand="1" mapped_from="GRCh37" />
-              <long_name>phosphatidylinositol N-acetylglucosaminyltransferase subunit A isoform 1 </long_name>
+              <long_name>phosphatidylinositol N-acetylglucosaminyltransferase subunit A isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_002632.1" />
               <db_xref source="UniProtKB" accession="P37287">
                 <synonym>B4E0V2</synonym>
@@ -401,10 +393,10 @@
             <exon source="Ensembl" accession="ENSE00001833503">
               <coordinates coord_system="LRG_160" start="8547" end="8949" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003382372">
+            <exon source="Ensembl" accession="ENSE00003463847">
               <coordinates coord_system="LRG_160" start="15387" end="15519" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003437786">
+            <exon source="Ensembl" accession="ENSE00003476292">
               <coordinates coord_system="LRG_160" start="15668" end="15874" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001865280">
@@ -417,7 +409,7 @@
             <exon source="Ensembl" accession="ENSE00001877536">
               <coordinates coord_system="LRG_160" start="15267" end="15519" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003437786">
+            <exon source="Ensembl" accession="ENSE00003476292">
               <coordinates coord_system="LRG_160" start="15668" end="15874" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001820602">
@@ -442,7 +434,7 @@
         <name>List of locus specific databases for PIGA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PIGA</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

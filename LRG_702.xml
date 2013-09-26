@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_702</id>
+    <hgnc_id>10457</hgnc_id>
     <sequence_source>NG_008659.3</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -37,40 +38,40 @@
           <sequence>MSRKIEGFLLLLLFGYEATLGLSSTEDEGEDPWYQKACKCDCQGGPNALWSAGATSLDCIPECPYHKPLGFESGEVTPDQITCSNPEQYVGWYSSWTANKARLNSQGFGCAWLSKFQDSSQWLQIDLKEIKVISGILTQGRCDIDEWMTKYSVQYRTDERLNWIYYKDQTGNNRVFYGNSDRTSTVQNLLRPPIISRFIRLIPLGWHVRIAIRMELLECVSKCA</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_702" start="10346" end="10432" strand="1" />
-        <coordinates coord_system="LRG_702_t1" start="1" end="87" />
-        <coordinates coord_system="LRG_702_p1" start="1" end="18" />
+        <coordinates coord_system="LRG_702t1" start="1" end="87" />
+        <coordinates coord_system="LRG_702p1" start="1" end="18" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_702" start="24784" end="24809" strand="1" />
-        <coordinates coord_system="LRG_702_t1" start="88" end="113" />
-        <coordinates coord_system="LRG_702_p1" start="18" end="26" />
+        <coordinates coord_system="LRG_702t1" start="88" end="113" />
+        <coordinates coord_system="LRG_702p1" start="18" end="26" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_702" start="25691" end="25796" strand="1" />
-        <coordinates coord_system="LRG_702_t1" start="114" end="219" />
-        <coordinates coord_system="LRG_702_p1" start="27" end="62" />
+        <coordinates coord_system="LRG_702t1" start="114" end="219" />
+        <coordinates coord_system="LRG_702p1" start="27" end="62" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_702" start="35117" end="35258" strand="1" />
-        <coordinates coord_system="LRG_702_t1" start="220" end="361" />
-        <coordinates coord_system="LRG_702_p1" start="62" end="109" />
+        <coordinates coord_system="LRG_702t1" start="220" end="361" />
+        <coordinates coord_system="LRG_702p1" start="62" end="109" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_702" start="37824" end="38019" strand="1" />
-        <coordinates coord_system="LRG_702_t1" start="362" end="557" />
-        <coordinates coord_system="LRG_702_p1" start="109" end="174" />
+        <coordinates coord_system="LRG_702t1" start="362" end="557" />
+        <coordinates coord_system="LRG_702p1" start="109" end="174" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_702" start="40293" end="42761" strand="1" />
-        <coordinates coord_system="LRG_702_t1" start="558" end="3026" />
-        <coordinates coord_system="LRG_702_p1" start="175" end="224" />
+        <coordinates coord_system="LRG_702t1" start="558" end="3026" />
+        <coordinates coord_system="LRG_702p1" start="175" end="224" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -85,8 +86,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="X" other_id="NC_000023.10" other_start="18647644" other_end="18700568">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="18647644" other_end="18700568">
         <mapping_span lrg_start="1" lrg_end="52925" other_start="18647644" other_end="18700568" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">RS1</lrg_locus>
@@ -102,35 +103,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008659.3</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_702" start="10346" end="10432" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_702" start="24784" end="24809" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_702" start="25691" end="25796" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_702" start="35117" end="35258" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_702" start="37824" end="38019" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_702" start="40293" end="42761" />
-            <label>6</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_000330.3" other_name="NM_000330.3" other_id="NM_000330.3" other_start="1" other_end="3026">
         <mapping_span lrg_start="10346" lrg_end="10432" other_start="1" other_end="87" strand="1" />
         <mapping_span lrg_start="24784" lrg_end="24809" other_start="88" other_end="113" strand="1" />
@@ -139,13 +112,13 @@
         <mapping_span lrg_start="37824" lrg_end="38019" other_start="362" other_end="557" strand="1" />
         <mapping_span lrg_start="40293" lrg_end="42761" other_start="558" other_end="3026" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">RS1</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="6247">
+          <symbol source="HGNC" name="RS1">
+            <synonym>RS</synonym>
+            <synonym>XLRS1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_702" start="10346" end="42761" strand="1" />
-          <symbol>RS1</symbol>
-          <symbol>RS</symbol>
-          <symbol>XLRS1</symbol>
           <long_name>retinoschisin 1</long_name>
           <db_xref source="GeneID" accession="6247" />
           <db_xref source="HGNC" accession="10457" />
@@ -186,12 +159,13 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="6792">
+          <symbol source="HGNC" name="CDKL5">
+            <synonym>EIEE2</synonym>
+            <synonym>ISSX</synonym>
+            <synonym>STK9</synonym>
+          </symbol>
           <coordinates coord_system="LRG_702" start="28820" end="52925" strand="-1" />
           <partial>5-prime</partial>
-          <symbol>CDKL5</symbol>
-          <symbol>EIEE2</symbol>
-          <symbol>ISSX</symbol>
-          <symbol>STK9</symbol>
           <long_name>cyclin-dependent kinase-like 5</long_name>
           <db_xref source="GeneID" accession="6792" />
           <db_xref source="HGNC" accession="11411" />
@@ -265,8 +239,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000379984.3" other_name="ENST00000379984.3" other_id="ENST00000379984.3" other_start="1" other_end="2810">
         <mapping_span lrg_start="10340" lrg_end="10432" other_start="1" other_end="93" strand="1" />
         <mapping_span lrg_start="24784" lrg_end="24809" other_start="94" other_end="119" strand="1" />
@@ -284,9 +258,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000086717">
+          <symbol source="HGNC" name="PPEF1" />
           <coordinates coord_system="LRG_702" start="1" end="6540" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">PPEF1</symbol>
           <long_name>protein phosphatase, EF-hand calcium binding domain 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="5475">
             <synonym>PP7</synonym>
@@ -310,8 +284,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000102104">
+          <symbol source="HGNC" name="RS1" />
           <coordinates coord_system="LRG_702" start="10340" end="42539" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">RS1</symbol>
           <long_name>retinoschisin 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="6247">
             <synonym>RS</synonym>
@@ -337,10 +311,10 @@
             <exon source="Ensembl" accession="ENSE00000666224">
               <coordinates coord_system="LRG_702" start="25691" end="25796" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003452236">
+            <exon source="Ensembl" accession="ENSE00003659988">
               <coordinates coord_system="LRG_702" start="35117" end="35258" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003286655">
+            <exon source="Ensembl" accession="ENSE00003683885">
               <coordinates coord_system="LRG_702" start="37824" end="38019" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001483277">
@@ -348,7 +322,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000369320">
               <coordinates coord_system="LRG_702" start="10381" end="40445" strand="1" mapped_from="GRCh37" />
-              <long_name>retinoschisin precursor </long_name>
+              <long_name>retinoschisin precursor</long_name>
               <db_xref source="RefSeq" accession="NP_000321.1" />
               <db_xref source="UniProtKB" accession="O15537" />
             </protein_product>
@@ -362,10 +336,10 @@
             <exon source="Ensembl" accession="ENSE00001888509">
               <coordinates coord_system="LRG_702" start="34796" end="34998" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003283822">
+            <exon source="Ensembl" accession="ENSE00003528237">
               <coordinates coord_system="LRG_702" start="35117" end="35258" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003300654">
+            <exon source="Ensembl" accession="ENSE00003469890">
               <coordinates coord_system="LRG_702" start="37824" end="38019" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001934054">
@@ -374,9 +348,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000008086">
+          <symbol source="HGNC" name="CDKL5" />
           <coordinates coord_system="LRG_702" start="28820" end="52925" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">CDKL5</symbol>
           <long_name>cyclin-dependent kinase-like 5 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="6792">
             <synonym>EIEE2</synonym>
@@ -407,7 +381,7 @@
             <protein_product source="Ensembl" accession="ENSP00000369332">
               <coordinates coord_system="LRG_702" start="28905" end="52925" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>cyclin-dependent kinase-like 5 </long_name>
+              <long_name>cyclin-dependent kinase-like 5</long_name>
               <db_xref source="RefSeq" accession="NP_003150.1" />
               <db_xref source="UniProtKB" accession="O76039">
                 <synonym>G9B9X4</synonym>
@@ -436,7 +410,7 @@
             <protein_product source="Ensembl" accession="ENSP00000369325">
               <coordinates coord_system="LRG_702" start="28905" end="52925" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>cyclin-dependent kinase-like 5 </long_name>
+              <long_name>cyclin-dependent kinase-like 5</long_name>
               <db_xref source="RefSeq" accession="NP_001032420.1" />
               <db_xref source="UniProtKB" accession="O76039">
                 <synonym>G9B9X4</synonym>
@@ -455,7 +429,7 @@
         <name>List of locus specific databases for RS1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RS1</url>
       </source>
-      <modification_date>2013-05-31</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

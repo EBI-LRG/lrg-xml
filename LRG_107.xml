@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_107</id>
+    <hgnc_id>20197</hgnc_id>
     <sequence_source>NG_009875.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -18,15 +19,6 @@
         <name>Mauno Vihinen</name>
         <address>University of Tampere, Finland</address>
         <email>Mauno.Vihinen@med.lu.se</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -44,16 +36,16 @@
           <sequence>MNRAPLKRSRILHMALTGASDPSAEAEANGEKPFLLRALQIALVVSLYWVTSISMVFLNKYLLDSPSLRLDTPIFVTFYQCLVTTLLCKGLSALAACCPGAVDFPSLRLDLRVARSVLPLSVVFIGMITFNNLCLKYVGVAFYNVGRSLTTVFNVLLSYLLLKQTTSFYALLTCGIIIGGFWLGVDQEGAEGTLSWLGTVFGVLASLCVSLNAIYTTKVLPAVDGSIWRLTFYNNVNACILFLPLLLLLGELQALRDFAQLGSAHFWGMMTLGGLFGFAIGYVTGLQIKFTSPLTHNVSGTAKACAQTVLAVLYYEETKSFLWWTSNMMVLGGSSAYTWVRGWEMKKTPEEPSPKDSEKSAMGV</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="2a">
         <coordinates coord_system="LRG_107" start="6019" end="7265" strand="1" />
-        <coordinates coord_system="LRG_107_t1" start="1" end="1247" />
-        <coordinates coord_system="LRG_107_p1" start="1" end="179" />
+        <coordinates coord_system="LRG_107t1" start="1" end="1247" />
+        <coordinates coord_system="LRG_107p1" start="1" end="179" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_107" start="11705" end="13945" strand="1" />
-        <coordinates coord_system="LRG_107_t1" start="1248" end="3488" />
-        <coordinates coord_system="LRG_107_p1" start="179" end="364" />
+        <coordinates coord_system="LRG_107t1" start="1248" end="3488" />
+        <coordinates coord_system="LRG_107p1" start="179" end="364" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -68,8 +60,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="11" other_id="NC_000011.9" other_start="45820623" other_end="45836567">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="45820623" other_end="45836567">
         <mapping_span lrg_start="1" lrg_end="15945" other_start="45820623" other_end="45836567" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">SLC35C1</lrg_locus>
@@ -85,19 +77,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009875.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_107" start="6019" end="7265" />
-            <label>2a</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_107" start="11705" end="13945" />
-            <label>3</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_001145265.1" other_name="NM_001145265.1" other_id="NM_001145265.1" other_start="1" other_end="3214">
         <mapping_span lrg_start="5001" lrg_end="5446" other_start="1" other_end="446" strand="1" />
         <mapping_span lrg_start="6739" lrg_end="7265" other_start="447" other_end="973" strand="1" />
@@ -112,23 +92,67 @@
         <mapping_span lrg_start="6019" lrg_end="7265" other_start="1" other_end="1247" strand="1" />
         <mapping_span lrg_start="11705" lrg_end="13945" other_start="1248" other_end="3488" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">SLC35C1</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="55343">
+          <symbol source="HGNC" name="SLC35C1">
+            <synonym>CDG2C</synonym>
+            <synonym>FUCT1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_107" start="5001" end="13945" strand="1" />
-          <symbol>SLC35C1</symbol>
-          <symbol>CDG2C</symbol>
-          <symbol>FUCT1</symbol>
-          <long_name>solute carrier family 35, member C1</long_name>
+          <long_name>solute carrier family 35 (GDP-fucose transporter), member C1</long_name>
           <db_xref source="GeneID" accession="55343" />
           <db_xref source="HGNC" accession="20197" />
           <db_xref source="MIM" accession="605881" />
           <db_xref source="CCDS" accession="CCDS44575.1" />
           <db_xref source="CCDS" accession="CCDS7914.1" />
           <db_xref source="GI" accession="224282151" />
+          <transcript source="RefSeq" accession="NM_001145265.1">
+            <coordinates coord_system="LRG_107" start="5001" end="13945" strand="1" />
+            <long_name>solute carrier family 35 (GDP-fucose transporter), member C1, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="55343" />
+            <db_xref source="GI" accession="223671916" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_107" start="5001" end="5446" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_107" start="6739" end="7265" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_107" start="11705" end="13945" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001138737.1">
+              <coordinates coord_system="LRG_107" start="6770" end="12264" strand="1" />
+              <long_name>GDP-fucose transporter 1 isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS44575.1" />
+              <db_xref source="GeneID" accession="55343" />
+              <db_xref source="GI" accession="223671917" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001145266.1">
+            <coordinates coord_system="LRG_107" start="5001" end="13945" strand="1" />
+            <long_name>solute carrier family 35 (GDP-fucose transporter), member C1, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="55343" />
+            <db_xref source="GI" accession="223671918" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_107" start="5001" end="5349" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_107" start="6739" end="7265" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_107" start="11705" end="13945" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001138738.1">
+              <coordinates coord_system="LRG_107" start="6770" end="12264" strand="1" />
+              <long_name>GDP-fucose transporter 1 isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS44575.1" />
+              <db_xref source="GeneID" accession="55343" />
+              <db_xref source="GI" accession="223671919" />
+            </protein_product>
+          </transcript>
           <transcript source="RefSeq" accession="NM_018389.4" fixed_id="t1">
             <coordinates coord_system="LRG_107" start="6019" end="13945" strand="1" />
-            <long_name>solute carrier family 35, member C1, transcript variant 1</long_name>
+            <long_name>solute carrier family 35 (GDP-fucose transporter), member C1, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="55343" />
             <db_xref source="GI" accession="223671914" />
             <exon source="RefSeq" accession="">
@@ -141,6 +165,7 @@
               <coordinates coord_system="LRG_107" start="6731" end="12264" strand="1" />
               <long_name>GDP-fucose transporter 1 isoform a</long_name>
               <long_name>GDP-fucose transporter 1</long_name>
+              <long_name>solute carrier family 35, member C1</long_name>
               <db_xref source="CCDS" accession="CCDS7914.1" />
               <db_xref source="GeneID" accession="55343" />
               <db_xref source="GI" accession="223671915" />
@@ -159,8 +184,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000314134.3" other_name="ENST00000314134.3" other_id="ENST00000314134.3" other_start="1" other_end="4171">
         <mapping_span lrg_start="5335" lrg_end="7265" other_start="1" other_end="1931" strand="1" />
         <mapping_span lrg_start="11705" lrg_end="13944" other_start="1932" other_end="4171" strand="1" />
@@ -185,9 +210,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000181830">
+          <symbol source="HGNC" name="SLC35C1" />
           <coordinates coord_system="LRG_107" start="5001" end="13944" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">SLC35C1</symbol>
-          <long_name>solute carrier family 35, member C1 (protein_coding)</long_name>
+          <long_name>solute carrier family 35 (GDP-fucose transporter), member C1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="55343">
             <synonym>CDG2C</synonym>
             <synonym>FUCT1</synonym>
@@ -198,28 +223,6 @@
           </db_xref>
           <db_xref source="MIM" accession="605881" />
           <db_xref source="Ensembl" accession="ENSG00000181830" />
-          <transcript source="Ensembl" accession="ENST00000456334">
-            <coordinates coord_system="LRG_107" start="5001" end="13939" strand="1" mapped_from="GRCh37" />
-            <long_name>,  (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS44575.1" />
-            <db_xref source="RefSeq" accession="NM_001145265.1" />
-            <db_xref source="RefSeq" accession="NM_001145266.1" />
-            <exon source="Ensembl" accession="ENSE00001657727">
-              <coordinates coord_system="LRG_107" start="5001" end="5349" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003410827">
-              <coordinates coord_system="LRG_107" start="6739" end="7265" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001671786">
-              <coordinates coord_system="LRG_107" start="11705" end="13939" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000399779">
-              <coordinates coord_system="LRG_107" start="6770" end="12264" strand="1" mapped_from="GRCh37" />
-              <long_name>GDP-fucose transporter 1 isoform b , GDP-fucose transporter 1 isoform b </long_name>
-              <db_xref source="RefSeq" accession="NP_001138737.1" />
-              <db_xref source="RefSeq" accession="NP_001138738.1" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000442528">
             <coordinates coord_system="LRG_107" start="5001" end="12487" strand="1" mapped_from="GRCh37" />
             <long_name>SLC35C1-002 (protein_coding)</long_name>
@@ -227,7 +230,7 @@
             <exon source="Ensembl" accession="ENSE00001641530">
               <coordinates coord_system="LRG_107" start="5001" end="5446" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003410827">
+            <exon source="Ensembl" accession="ENSE00003510488">
               <coordinates coord_system="LRG_107" start="6739" end="7265" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002149016">
@@ -235,6 +238,38 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000412408">
               <coordinates coord_system="LRG_107" start="6770" end="12264" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q96A29">
+                <synonym>B2RDB2</synonym>
+                <synonym>Q9BV76</synonym>
+                <synonym>Q9NUJ8</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000456334">
+            <coordinates coord_system="LRG_107" start="5001" end="13939" strand="1" mapped_from="GRCh37" />
+            <long_name>SLC35C1-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS44575.1" />
+            <db_xref source="RefSeq" accession="NM_001145265.1" />
+            <db_xref source="RefSeq" accession="NM_001145266.1" />
+            <exon source="Ensembl" accession="ENSE00001657727">
+              <coordinates coord_system="LRG_107" start="5001" end="5349" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003510488">
+              <coordinates coord_system="LRG_107" start="6739" end="7265" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001671786">
+              <coordinates coord_system="LRG_107" start="11705" end="13939" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000399779">
+              <coordinates coord_system="LRG_107" start="6770" end="12264" strand="1" mapped_from="GRCh37" />
+              <long_name>GDP-fucose transporter 1 isoform b, GDP-fucose transporter 1 isoform b</long_name>
+              <db_xref source="RefSeq" accession="NP_001138737.1" />
+              <db_xref source="RefSeq" accession="NP_001138738.1" />
+              <db_xref source="UniProtKB" accession="Q96A29">
+                <synonym>B2RDB2</synonym>
+                <synonym>Q9BV76</synonym>
+                <synonym>Q9NUJ8</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000526817">
@@ -263,9 +298,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000313318">
               <coordinates coord_system="LRG_107" start="6731" end="12264" strand="1" mapped_from="GRCh37" />
-              <long_name>GDP-fucose transporter 1 isoform a </long_name>
+              <long_name>GDP-fucose transporter 1 isoform a</long_name>
               <db_xref source="RefSeq" accession="NP_060859.4" />
               <db_xref source="UniProtKB" accession="Q96A29">
+                <synonym>B2RDB2</synonym>
                 <synonym>Q9BV76</synonym>
                 <synonym>Q9NUJ8</synonym>
               </db_xref>
@@ -277,7 +313,7 @@
             <exon source="Ensembl" accession="ENSE00002160058">
               <coordinates coord_system="LRG_107" start="6078" end="6245" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003339603">
+            <exon source="Ensembl" accession="ENSE00003474086">
               <coordinates coord_system="LRG_107" start="6739" end="7265" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000432669">
@@ -286,9 +322,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000255447">
+          <symbol source="Clone_based_vega_gene" name="CTD-2210P24.6" />
           <coordinates coord_system="LRG_107" start="14148" end="15945" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="Clone_based_vega_gene">CTD-2210P24.6</symbol>
           <long_name>CTD-2210P24.6 (lincRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000255447" />
           <transcript source="Ensembl" accession="ENST00000534128">
@@ -307,7 +343,7 @@
         <name>List of locus specific databases for SLC35C1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SLC35C1</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

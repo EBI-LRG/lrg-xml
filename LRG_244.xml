@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_244</id>
+    <hgnc_id>15968</hgnc_id>
     <sequence_source>NG_008787.2</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Valerie Delague</name>
         <address>Aix-Marseille University, Marseille, France</address>
         <email>valerie.delague@univ-amu.fr</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -37,40 +29,40 @@
           <sequence>MAERQEEQRGSPPLRAEGKADAEVKLILYHWTHSFSSQKVRLVIAEKALKCEEHDVSLPLSEHNEPWFMRLNSTGEVPVLIHGENIICEATQIIDYLEQTFLDERTPRLMPDKESMYYPRVQHYRELLDSLPMDAYTHGCILHPELTVDSMIPAYATTRIRSQIGNTESELKKLAEENPDLQEAYIAKQKRLKSKLLDHDNVKYLKKILDELEKVLDQVETELQRRNEETPEEGQQPWLCGESFTLADVSLAVTLHRLKFLGFARRNWGNGKRPNLETYYERVLKRKTFNKVLGHVNNILISAVLPTAFRVAKKRAPKVLGTTLVVGLLAGVGYFAFMLFRKRLGSMILAFRPRPNYF</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_244" start="34254" end="34449" strand="1" />
-        <coordinates coord_system="LRG_244_t1" start="1" end="196" />
-        <coordinates coord_system="LRG_244_p1" start="1" end="39" />
+        <coordinates coord_system="LRG_244t1" start="1" end="196" />
+        <coordinates coord_system="LRG_244p1" start="1" end="39" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_244" start="35145" end="35337" strand="1" />
-        <coordinates coord_system="LRG_244_t1" start="197" end="389" />
-        <coordinates coord_system="LRG_244_p1" start="40" end="104" />
+        <coordinates coord_system="LRG_244t1" start="197" end="389" />
+        <coordinates coord_system="LRG_244p1" start="40" end="104" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_244" start="44008" end="44181" strand="1" />
-        <coordinates coord_system="LRG_244_t1" start="390" end="563" />
-        <coordinates coord_system="LRG_244_p1" start="104" end="162" />
+        <coordinates coord_system="LRG_244t1" start="390" end="563" />
+        <coordinates coord_system="LRG_244p1" start="104" end="162" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_244" start="45755" end="45849" strand="1" />
-        <coordinates coord_system="LRG_244_t1" start="564" end="658" />
-        <coordinates coord_system="LRG_244_p1" start="162" end="193" />
+        <coordinates coord_system="LRG_244t1" start="564" end="658" />
+        <coordinates coord_system="LRG_244p1" start="162" end="193" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_244" start="46810" end="46924" strand="1" />
-        <coordinates coord_system="LRG_244_t1" start="659" end="773" />
-        <coordinates coord_system="LRG_244_p1" start="194" end="232" />
+        <coordinates coord_system="LRG_244t1" start="659" end="773" />
+        <coordinates coord_system="LRG_244p1" start="194" end="232" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_244" start="47856" end="50981" strand="1" />
-        <coordinates coord_system="LRG_244_t1" start="774" end="3899" />
-        <coordinates coord_system="LRG_244_p1" start="232" end="358" />
+        <coordinates coord_system="LRG_244t1" start="774" end="3899" />
+        <coordinates coord_system="LRG_244p1" start="232" end="358" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -85,8 +77,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="8" other_id="NC_000008.10" other_start="75228365" other_end="75403107">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="8" other_id="NC_000008.10" other_start="75228365" other_end="75403107">
         <mapping_span lrg_start="1" lrg_end="174743" other_start="75228365" other_end="75403107" strand="1">
           <diff type="mismatch" lrg_start="34434" lrg_end="34434" other_start="75262798" other_end="75262798" lrg_sequence="C" other_sequence="G" />
         </mapping_span>
@@ -104,35 +96,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008787.2</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_244" start="34254" end="34449" />
-            <label>1b</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_244" start="35145" end="35337" />
-            <label>2b</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_244" start="44008" end="44181" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_244" start="45755" end="45849" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_244" start="46810" end="46924" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_244" start="47856" end="50981" />
-            <label>6</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_001040875.2" other_name="NM_001040875.2" other_id="NM_001040875.2" other_start="1" other_end="3769">
         <mapping_span lrg_start="34254" lrg_end="34343" other_start="1" other_end="90" strand="1" />
         <mapping_span lrg_start="35169" lrg_end="35337" other_start="91" other_end="259" strand="1" />
@@ -157,14 +121,14 @@
         <mapping_span lrg_start="46810" lrg_end="46924" other_start="514" other_end="628" strand="1" />
         <mapping_span lrg_start="47856" lrg_end="50981" other_start="629" other_end="3754" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">GDAP1</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="56704">
+          <symbol source="HGNC" name="JPH1">
+            <synonym>JP-1</synonym>
+            <synonym>JP1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_244" start="1" end="5198" strand="-1" />
           <partial>3-prime</partial>
-          <symbol>JPH1</symbol>
-          <symbol>JP-1</symbol>
-          <symbol>JP1</symbol>
           <long_name>junctophilin 1</long_name>
           <db_xref source="GeneID" accession="56704" />
           <db_xref source="HGNC" accession="14201" />
@@ -193,11 +157,12 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="54332">
+          <symbol source="HGNC" name="GDAP1">
+            <synonym>CMT4</synonym>
+            <synonym>CMT4A</synonym>
+            <synonym>CMTRIA</synonym>
+          </symbol>
           <coordinates coord_system="LRG_244" start="34254" end="50981" strand="1" />
-          <symbol>GDAP1</symbol>
-          <symbol>CMT4</symbol>
-          <symbol>CMT4A</symbol>
-          <symbol>CMTRIA</symbol>
           <long_name>ganglioside induced differentiation associated protein 1</long_name>
           <db_xref source="GeneID" accession="54332" />
           <db_xref source="HGNC" accession="15968" />
@@ -238,6 +203,37 @@
               <db_xref source="GI" accession="108773797" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_001040875.2">
+            <coordinates coord_system="LRG_244" start="34254" end="50981" strand="1" />
+            <long_name>ganglioside induced differentiation associated protein 1, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="54332" />
+            <db_xref source="GI" accession="375493486" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_244" start="34254" end="34343" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_244" start="35169" end="35337" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_244" start="44008" end="44181" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_244" start="45755" end="45849" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_244" start="46810" end="46924" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_244" start="47856" end="50981" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001035808.1">
+              <coordinates coord_system="LRG_244" start="35232" end="48238" strand="1" />
+              <long_name>ganglioside-induced differentiation-associated protein 1 isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS47877.1" />
+              <db_xref source="GeneID" accession="54332" />
+              <db_xref source="GI" accession="108773799" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -251,8 +247,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000220822.7" other_name="ENST00000220822.7" other_id="ENST00000220822.7" other_start="1" other_end="3666">
         <mapping_span lrg_start="34253" lrg_end="34449" other_start="1" other_end="197" strand="1">
           <diff type="mismatch" lrg_start="34434" lrg_end="34434" other_start="182" other_end="182" lrg_sequence="C" other_sequence="G" />
@@ -316,9 +312,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000104369">
+          <symbol source="HGNC" name="JPH1" />
           <coordinates coord_system="LRG_244" start="1" end="5199" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">JPH1</symbol>
           <long_name>junctophilin 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="56704">
             <synonym>JP-1</synonym>
@@ -341,7 +337,7 @@
             <protein_product source="Ensembl" accession="ENSP00000344488">
               <coordinates coord_system="LRG_244" start="1" end="5158" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>junctophilin-1 </long_name>
+              <long_name>junctophilin-1</long_name>
               <db_xref source="RefSeq" accession="NP_065698.1" />
               <db_xref source="UniProtKB" accession="Q9HDC5">
                 <synonym>B2RTZ0</synonym>
@@ -362,8 +358,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000104381">
+          <symbol source="HGNC" name="GDAP1" />
           <coordinates coord_system="LRG_244" start="5001" end="172743" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">GDAP1</symbol>
           <long_name>ganglioside induced differentiation associated protein 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="54332">
             <synonym>CMT4</synonym>
@@ -382,13 +378,13 @@
             <exon source="Ensembl" accession="ENSE00002115367">
               <coordinates coord_system="LRG_244" start="5001" end="5116" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003431541">
+            <exon source="Ensembl" accession="ENSE00003608816">
               <coordinates coord_system="LRG_244" start="44008" end="44181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003327515">
+            <exon source="Ensembl" accession="ENSE00003561815">
               <coordinates coord_system="LRG_244" start="45755" end="45849" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003413203">
+            <exon source="Ensembl" accession="ENSE00003569589">
               <coordinates coord_system="LRG_244" start="46810" end="46924" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002090037">
@@ -401,13 +397,13 @@
             <exon source="Ensembl" accession="ENSE00002091292">
               <coordinates coord_system="LRG_244" start="5385" end="5459" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003431541">
+            <exon source="Ensembl" accession="ENSE00003608816">
               <coordinates coord_system="LRG_244" start="44008" end="44181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003327515">
+            <exon source="Ensembl" accession="ENSE00003561815">
               <coordinates coord_system="LRG_244" start="45755" end="45849" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003413203">
+            <exon source="Ensembl" accession="ENSE00003569589">
               <coordinates coord_system="LRG_244" start="46810" end="46924" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002095181">
@@ -416,23 +412,23 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000220822">
             <coordinates coord_system="LRG_244" start="34253" end="50747" strand="1" mapped_from="GRCh37" />
-            <long_name>,  (protein_coding)</long_name>
+            <long_name>GDAP1-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS34911.1" />
             <db_xref source="RefSeq" accession="NM_001040875.2" />
             <db_xref source="RefSeq" accession="NM_018972.2" />
             <exon source="Ensembl" accession="ENSE00001376753">
               <coordinates coord_system="LRG_244" start="34253" end="34449" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003319163">
+            <exon source="Ensembl" accession="ENSE00003537393">
               <coordinates coord_system="LRG_244" start="35145" end="35337" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003337729">
+            <exon source="Ensembl" accession="ENSE00003654845">
               <coordinates coord_system="LRG_244" start="44008" end="44181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003425573">
+            <exon source="Ensembl" accession="ENSE00003623578">
               <coordinates coord_system="LRG_244" start="45755" end="45849" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003302382">
+            <exon source="Ensembl" accession="ENSE00003501168">
               <coordinates coord_system="LRG_244" start="46810" end="46924" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000819699">
@@ -440,7 +436,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000220822">
               <coordinates coord_system="LRG_244" start="34333" end="48238" strand="1" mapped_from="GRCh37" />
-              <long_name>ganglioside-induced differentiation-associated protein 1 isoform b , ganglioside-induced differentiation-associated protein 1 isoform a </long_name>
+              <long_name>ganglioside-induced differentiation-associated protein 1 isoform b, ganglioside-induced differentiation-associated protein 1 isoform a</long_name>
               <db_xref source="RefSeq" accession="NP_001035808.1" />
               <db_xref source="RefSeq" accession="NP_061845.2" />
               <db_xref source="UniProtKB" accession="Q8TB36" />
@@ -456,13 +452,13 @@
             <exon source="Ensembl" accession="ENSE00001762071">
               <coordinates coord_system="LRG_244" start="35169" end="35337" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003337729">
+            <exon source="Ensembl" accession="ENSE00003654845">
               <coordinates coord_system="LRG_244" start="44008" end="44181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003425573">
+            <exon source="Ensembl" accession="ENSE00003623578">
               <coordinates coord_system="LRG_244" start="45755" end="45849" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003302382">
+            <exon source="Ensembl" accession="ENSE00003501168">
               <coordinates coord_system="LRG_244" start="46810" end="46924" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002114406">
@@ -486,16 +482,16 @@
           <transcript source="Ensembl" accession="ENST00000524366">
             <coordinates coord_system="LRG_244" start="34315" end="47900" strand="1" mapped_from="GRCh37" />
             <long_name>GDAP1-004 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003388720">
+            <exon source="Ensembl" accession="ENSE00003465689">
               <coordinates coord_system="LRG_244" start="34315" end="34449" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003392007">
+            <exon source="Ensembl" accession="ENSE00003552846">
               <coordinates coord_system="LRG_244" start="35145" end="35337" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003327515">
+            <exon source="Ensembl" accession="ENSE00003561815">
               <coordinates coord_system="LRG_244" start="45755" end="45849" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003413203">
+            <exon source="Ensembl" accession="ENSE00003569589">
               <coordinates coord_system="LRG_244" start="46810" end="46924" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002117384">
@@ -505,19 +501,19 @@
           <transcript source="Ensembl" accession="ENST00000522568">
             <coordinates coord_system="LRG_244" start="34315" end="48612" strand="1" mapped_from="GRCh37" />
             <long_name>GDAP1-003 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00003303689">
+            <exon source="Ensembl" accession="ENSE00003660461">
               <coordinates coord_system="LRG_244" start="34315" end="34449" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002123760">
               <coordinates coord_system="LRG_244" start="35145" end="35192" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003399387">
+            <exon source="Ensembl" accession="ENSE00003479421">
               <coordinates coord_system="LRG_244" start="44008" end="44181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003327515">
+            <exon source="Ensembl" accession="ENSE00003561815">
               <coordinates coord_system="LRG_244" start="45755" end="45849" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003413203">
+            <exon source="Ensembl" accession="ENSE00003569589">
               <coordinates coord_system="LRG_244" start="46810" end="46924" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002106063">
@@ -539,8 +535,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000253596">
+          <symbol source="Clone_based_vega_gene" name="CTD-2320G14.2" />
           <coordinates coord_system="LRG_244" start="31628" end="33921" strand="-1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_vega_gene">CTD-2320G14.2</symbol>
           <long_name>CTD-2320G14.2 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000253596" />
           <transcript source="Ensembl" accession="ENST00000521872">
@@ -555,14 +551,14 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000207417">
+          <symbol source="RFAM" name="Y_RNA" />
           <coordinates coord_system="LRG_244" start="60558" end="60664" strand="1" mapped_from="GRCh37" />
-          <symbol source="RFAM">Y_RNA</symbol>
           <long_name>Y RNA [Source:RFAM;Acc:RF00019] (misc_RNA)</long_name>
           <db_xref source="RFAM" accession="RF00019" />
           <db_xref source="Ensembl" accession="ENSG00000207417" />
           <transcript source="Ensembl" accession="ENST00000384686">
             <coordinates coord_system="LRG_244" start="60558" end="60664" strand="1" mapped_from="GRCh37" />
-            <long_name>Y_RNA.608-201 (misc_RNA)</long_name>
+            <long_name>Y_RNA.605-201 (misc_RNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001499694">
               <coordinates coord_system="LRG_244" start="60558" end="60664" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -575,7 +571,7 @@
         <name>List of locus specific databases for GDAP1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GDAP1</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

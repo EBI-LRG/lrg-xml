@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_760</id>
+    <hgnc_id>33742</hgnc_id>
     <sequence_source>NG_033273.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -28,16 +29,16 @@
           <sequence>MEHNGSASNADKIHQNRLSSVTEDEDQDAALTIVTVLDKVASIVDSVQASQKRIEERHREMENAIKSVQIDLLKLSQSHSNTGHIINKLFEKTRKVSAHIKDVKARVEKQQIHVKKVEVKQEEIMKKNKFRVVIFQEKFRCPTSLSVVKDRNLTENQEEDDDDIFDPPVDLSSDEEYYVEESRSARLRKSGKEHIDNIKKAFSKENMQKTRQNLDKKVNRIRTRIVTPERRERLRQSGERLRQSGERLRQSGERFKKSISNAAPSKEAFKMRSLRKGKDRTVAEGEECAREMGVDIIARSESLGPISELYSDELSEPEHEAARPVYPPHEGREIPTPEPLKVTFKSQVKVEDDESLLLDLKHSS</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_760" start="5001" end="5473" strand="1" />
-        <coordinates coord_system="LRG_760_t1" start="1" end="473" />
-        <coordinates coord_system="LRG_760_p1" start="1" end="136" />
+        <coordinates coord_system="LRG_760t1" start="1" end="473" />
+        <coordinates coord_system="LRG_760p1" start="1" end="136" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_760" start="12687" end="15311" strand="1" />
-        <coordinates coord_system="LRG_760_t1" start="474" end="3098" />
-        <coordinates coord_system="LRG_760_p1" start="137" end="364" />
+        <coordinates coord_system="LRG_760t1" start="474" end="3098" />
+        <coordinates coord_system="LRG_760p1" start="137" end="364" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -52,8 +53,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-07-22</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="9" other_id="NC_000009.11" other_start="103335361" other_end="103352671">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="103335361" other_end="103352671">
         <mapping_span lrg_start="1" lrg_end="17311" other_start="103335361" other_end="103352671" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">MURC</lrg_locus>
@@ -69,33 +70,21 @@
         </contact>
       </source>
       <comment>Annotation from NG_033273.1</comment>
-      <modification_date>2013-07-03</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="LRG-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_760" start="5001" end="5473" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_760" start="12687" end="15311" />
-            <label>2</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_001018116.2" other_name="NM_001018116.2" other_id="NM_001018116.2" other_start="1" other_end="3098">
         <mapping_span lrg_start="5001" lrg_end="5473" other_start="1" other_end="473" strand="1" />
         <mapping_span lrg_start="12687" lrg_end="15311" other_start="474" other_end="3098" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">MURC</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="8577">
+          <symbol source="HGNC" name="TMEFF1">
+            <synonym>C9orf2</synonym>
+            <synonym>CT120.1</synonym>
+            <synonym>H7365</synonym>
+            <synonym>TR-1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_760" start="1" end="4558" strand="1" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">TMEFF1</symbol>
-          <symbol>C9orf2</symbol>
-          <symbol>CT120.1</symbol>
-          <symbol>H7365</symbol>
-          <symbol>TR-1</symbol>
           <long_name>transmembrane protein with EGF-like and two follistatin-like domains 1</long_name>
           <db_xref source="GeneID" accession="8577" />
           <db_xref source="HGNC" accession="11866" />
@@ -124,11 +113,12 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="100526694">
+          <symbol source="HGNC" name="MSANTD3-TMEFF1">
+            <synonym>C9orf3-TMEFF1</synonym>
+            <synonym>C9orf30-TMEFF1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_760" start="1" end="4558" strand="1" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">MSANTD3-TMEFF1</symbol>
-          <symbol>C9orf3-TMEFF1</symbol>
-          <symbol>C9orf30-TMEFF1</symbol>
           <long_name>MSANTD3-TMEFF1 readthrough</long_name>
           <db_xref source="GeneID" accession="100526694" />
           <db_xref source="HGNC" accession="38838" />
@@ -145,17 +135,18 @@
             <protein_product source="RefSeq" accession="NP_001185741.1" codon_start="2">
               <coordinates coord_system="LRG_760" start="3438" end="3522" strand="1" />
               <partial>5-prime</partial>
-              <long_name>C9orf30-TMEFF1 fusion protein</long_name>
+              <long_name>MSANTD3-TMEFF1 fusion protein</long_name>
               <db_xref source="GeneID" accession="100526694" />
               <db_xref source="GI" accession="311771742" />
             </protein_product>
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="347273">
+          <symbol source="HGNC" name="MURC">
+            <synonym>cavin-4</synonym>
+            <synonym>CAVIN4</synonym>
+          </symbol>
           <coordinates coord_system="LRG_760" start="5001" end="15311" strand="1" />
-          <symbol source="HGNC">MURC</symbol>
-          <symbol>cavin-4</symbol>
-          <symbol>CAVIN4</symbol>
           <long_name>muscle-related coiled-coil protein</long_name>
           <db_xref source="GeneID" accession="347273" />
           <db_xref source="HGNC" accession="33742" />
@@ -194,17 +185,17 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 72</comment>
-      <modification_date>2013-07-22</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000307584.5" other_name="ENST00000307584.5" other_id="ENST00000307584.5" other_start="1" other_end="2615">
         <mapping_span lrg_start="5001" lrg_end="5473" other_start="1" other_end="473" strand="1" />
         <mapping_span lrg_start="12687" lrg_end="14828" other_start="474" other_end="2615" strand="1" />
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000241697">
+          <symbol source="HGNC" name="TMEFF1" />
           <coordinates coord_system="LRG_760" start="1" end="4558" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">TMEFF1</symbol>
           <long_name>transmembrane protein with EGF-like and two follistatin-like domains 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="8577">
             <synonym>C9orf2</synonym>
@@ -231,7 +222,7 @@
             <protein_product source="Ensembl" accession="ENSP00000364013">
               <coordinates coord_system="LRG_760" start="1" end="3522" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>tomoregulin-1 precursor </long_name>
+              <long_name>tomoregulin-1 precursor</long_name>
               <db_xref source="RefSeq" accession="NP_003683.2" />
               <db_xref source="UniProtKB" accession="Q8IYR6">
                 <synonym>Q13086</synonym>
@@ -257,9 +248,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000251349">
+          <symbol source="HGNC" name="MSANTD3-TMEFF1" />
           <coordinates coord_system="LRG_760" start="1" end="4558" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">MSANTD3-TMEFF1</symbol>
           <long_name>MSANTD3-TMEFF1 readthrough (protein_coding)</long_name>
           <db_xref source="GeneID" accession="100526694">
             <synonym>C9orf3-TMEFF1</synonym>
@@ -280,14 +271,14 @@
             <protein_product source="Ensembl" accession="ENSP00000424768" codon_start="3">
               <coordinates coord_system="LRG_760" start="1" end="3522" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>C9orf30-TMEFF1 fusion protein </long_name>
+              <long_name>C9orf30-TMEFF1 fusion protein</long_name>
               <db_xref source="RefSeq" accession="NP_001185741.1" />
             </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000170681">
+          <symbol source="HGNC" name="MURC" />
           <coordinates coord_system="LRG_760" start="5001" end="14828" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">MURC</symbol>
           <long_name>muscle-related coiled-coil protein (protein_coding)</long_name>
           <db_xref source="GeneID" accession="347273">
             <synonym>cavin-4</synonym>
@@ -311,7 +302,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000418668">
               <coordinates coord_system="LRG_760" start="5066" end="13373" strand="1" mapped_from="GRCh37" />
-              <long_name>muscle-related coiled-coil protein </long_name>
+              <long_name>muscle-related coiled-coil protein</long_name>
               <db_xref source="RefSeq" accession="NP_001018126.1" />
               <db_xref source="UniProtKB" accession="Q5BKX8">
                 <synonym>B1PRL3</synonym>
@@ -321,8 +312,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000200966">
+          <symbol source="HGNC" name="RN7SKP87" />
           <coordinates coord_system="LRG_760" start="8001" end="8301" strand="-1" mapped_from="GRCh37" />
-          <symbol source="HGNC">RN7SKP87</symbol>
           <long_name>RNA, 7SK small nuclear pseudogene 87 (misc_RNA)</long_name>
           <db_xref source="HGNC" accession="45811" />
           <db_xref source="RFAM" accession="RF00100" />
@@ -342,7 +333,7 @@
         <name>List of locus specific databases for MURC</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MURC</url>
       </source>
-      <modification_date>2013-07-22</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_263</id>
+    <hgnc_id>9118</hgnc_id>
     <sequence_source>NG_007949.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Valerie Delague</name>
         <address>Aix-Marseille University, Marseille, France</address>
         <email>valerie.delague@univ-amu.fr</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -37,32 +29,32 @@
           <sequence>MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVRHPEWHLNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_263" start="5001" end="5174" strand="1" />
-        <coordinates coord_system="LRG_263_t1" start="1" end="174" />
+        <coordinates coord_system="LRG_263t1" start="1" end="174" />
       </exon>
-      <exon>
+      <exon label="3b">
         <coordinates coord_system="LRG_263" start="9567" end="9678" strand="1" />
-        <coordinates coord_system="LRG_263_t1" start="175" end="286" />
-        <coordinates coord_system="LRG_263_p1" start="1" end="26" />
+        <coordinates coord_system="LRG_263t1" start="175" end="286" />
+        <coordinates coord_system="LRG_263p1" start="1" end="26" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_263" start="11135" end="11234" strand="1" />
-        <coordinates coord_system="LRG_263_t1" start="287" end="386" />
-        <coordinates coord_system="LRG_263_p1" start="27" end="60" />
+        <coordinates coord_system="LRG_263t1" start="287" end="386" />
+        <coordinates coord_system="LRG_263p1" start="27" end="60" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_263" start="30717" end="30857" strand="1" />
-        <coordinates coord_system="LRG_263_t1" start="387" end="527" />
-        <coordinates coord_system="LRG_263_p1" start="60" end="107" />
+        <coordinates coord_system="LRG_263t1" start="387" end="527" />
+        <coordinates coord_system="LRG_263p1" start="60" end="107" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="6a">
         <coordinates coord_system="LRG_263" start="39248" end="40548" strand="1" />
-        <coordinates coord_system="LRG_263_t1" start="528" end="1828" />
-        <coordinates coord_system="LRG_263_p1" start="107" end="160" />
+        <coordinates coord_system="LRG_263t1" start="528" end="1828" />
+        <coordinates coord_system="LRG_263p1" start="107" end="160" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -77,8 +69,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="17" other_id="NC_000017.10" other_start="15131096" other_end="15173644">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="15131096" other_end="15173644">
         <mapping_span lrg_start="1" lrg_end="42549" other_start="15131096" other_end="15173644" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">PMP22</lrg_locus>
@@ -94,31 +86,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007949.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_263" start="5001" end="5174" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_263" start="9567" end="9678" />
-            <label>3b</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_263" start="11135" end="11234" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_263" start="30717" end="30857" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_263" start="39248" end="40548" />
-            <label>6a</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_000304.2" other_name="NM_000304.2" other_id="NM_000304.2" other_start="1" other_end="1828">
         <mapping_span lrg_start="5001" lrg_end="5174" other_start="1" other_end="174" strand="1" />
         <mapping_span lrg_start="9567" lrg_end="9678" other_start="175" other_end="286" strand="1" />
@@ -126,31 +94,63 @@
         <mapping_span lrg_start="30717" lrg_end="30857" other_start="387" other_end="527" strand="1" />
         <mapping_span lrg_start="39248" lrg_end="40548" other_start="528" other_end="1828" strand="1" />
       </mapping>
-      <mapping coord_system="NM_153321.1" other_name="NM_153321.1" other_id="NM_153321.1" other_start="1" other_end="1799">
-        <mapping_span lrg_start="7756" lrg_end="7899" other_start="1" other_end="144" strand="1" />
-        <mapping_span lrg_start="9567" lrg_end="9678" other_start="145" other_end="256" strand="1" />
-        <mapping_span lrg_start="11135" lrg_end="11234" other_start="257" other_end="356" strand="1" />
-        <mapping_span lrg_start="30717" lrg_end="30857" other_start="357" other_end="497" strand="1" />
-        <mapping_span lrg_start="39248" lrg_end="40549" other_start="498" other_end="1799" strand="1" />
+      <mapping coord_system="NM_000304.3" other_name="NM_000304.3" other_id="NM_000304.3" other_start="1" other_end="1861">
+        <mapping_span lrg_start="4971" lrg_end="5174" other_start="1" other_end="204" strand="1" />
+        <mapping_span lrg_start="9567" lrg_end="9678" other_start="205" other_end="316" strand="1" />
+        <mapping_span lrg_start="11135" lrg_end="11234" other_start="317" other_end="416" strand="1" />
+        <mapping_span lrg_start="30717" lrg_end="30857" other_start="417" other_end="557" strand="1" />
+        <mapping_span lrg_start="39248" lrg_end="40551" other_start="558" other_end="1861" strand="1" />
       </mapping>
-      <mapping coord_system="NM_153322.1" other_name="NM_153322.1" other_id="NM_153322.1" other_start="1" other_end="1669">
-        <mapping_span lrg_start="9552" lrg_end="9678" other_start="1" other_end="127" strand="1" />
-        <mapping_span lrg_start="11135" lrg_end="11234" other_start="128" other_end="227" strand="1" />
-        <mapping_span lrg_start="30717" lrg_end="30857" other_start="228" other_end="368" strand="1" />
-        <mapping_span lrg_start="39248" lrg_end="40548" other_start="369" other_end="1669" strand="1" />
+      <mapping coord_system="NM_001281455.1" other_name="NM_001281455.1" other_id="NM_001281455.1" other_start="1" other_end="1822">
+        <mapping_span lrg_start="7739" lrg_end="7903" other_start="1" other_end="165" strand="1" />
+        <mapping_span lrg_start="9567" lrg_end="9678" other_start="166" other_end="277" strand="1" />
+        <mapping_span lrg_start="11135" lrg_end="11234" other_start="278" other_end="377" strand="1" />
+        <mapping_span lrg_start="30717" lrg_end="30857" other_start="378" other_end="518" strand="1" />
+        <mapping_span lrg_start="39248" lrg_end="40551" other_start="519" other_end="1822" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">PMP22</lrg_locus>
+      <mapping coord_system="NM_001281456.1" other_name="NM_001281456.1" other_id="NM_001281456.1" other_start="1" other_end="1857">
+        <mapping_span lrg_start="4971" lrg_end="5174" other_start="1" other_end="204" strand="1" />
+        <mapping_span lrg_start="9571" lrg_end="9678" other_start="205" other_end="312" strand="1" />
+        <mapping_span lrg_start="11135" lrg_end="11234" other_start="313" other_end="412" strand="1" />
+        <mapping_span lrg_start="30717" lrg_end="30857" other_start="413" other_end="553" strand="1" />
+        <mapping_span lrg_start="39248" lrg_end="40551" other_start="554" other_end="1857" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_153321.2" other_name="NM_153321.2" other_id="NM_153321.2" other_start="1" other_end="1818">
+        <mapping_span lrg_start="7739" lrg_end="7899" other_start="1" other_end="161" strand="1" />
+        <mapping_span lrg_start="9567" lrg_end="9678" other_start="162" other_end="273" strand="1" />
+        <mapping_span lrg_start="11135" lrg_end="11234" other_start="274" other_end="373" strand="1" />
+        <mapping_span lrg_start="30717" lrg_end="30857" other_start="374" other_end="514" strand="1" />
+        <mapping_span lrg_start="39248" lrg_end="40551" other_start="515" other_end="1818" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_153322.2" other_name="NM_153322.2" other_id="NM_153322.2" other_start="1" other_end="1740">
+        <mapping_span lrg_start="9484" lrg_end="9678" other_start="1" other_end="195" strand="1" />
+        <mapping_span lrg_start="11135" lrg_end="11234" other_start="196" other_end="295" strand="1" />
+        <mapping_span lrg_start="30717" lrg_end="30857" other_start="296" other_end="436" strand="1" />
+        <mapping_span lrg_start="39248" lrg_end="40551" other_start="437" other_end="1740" strand="1" />
+      </mapping>
+      <mapping coord_system="NR_104017.1" other_name="NR_104017.1" other_id="NR_104017.1" other_start="1" other_end="1749">
+        <mapping_span lrg_start="4971" lrg_end="5174" other_start="1" other_end="204" strand="1" />
+        <mapping_span lrg_start="11135" lrg_end="11234" other_start="205" other_end="304" strand="1" />
+        <mapping_span lrg_start="30717" lrg_end="30857" other_start="305" other_end="445" strand="1" />
+        <mapping_span lrg_start="39248" lrg_end="40551" other_start="446" other_end="1749" strand="1" />
+      </mapping>
+      <mapping coord_system="NR_104018.1" other_name="NR_104018.1" other_id="NR_104018.1" other_start="1" other_end="1649">
+        <mapping_span lrg_start="4971" lrg_end="5174" other_start="1" other_end="204" strand="1" />
+        <mapping_span lrg_start="30717" lrg_end="30857" other_start="205" other_end="345" strand="1" />
+        <mapping_span lrg_start="39248" lrg_end="40551" other_start="346" other_end="1649" strand="1" />
+      </mapping>
       <features>
         <gene source="NCBI-Gene" accession="5376">
-          <coordinates coord_system="LRG_263" start="5001" end="40549" strand="1" />
-          <symbol>PMP22</symbol>
-          <symbol>CMT1A</symbol>
-          <symbol>CMT1E</symbol>
-          <symbol>DSS</symbol>
-          <symbol>GAS-3</symbol>
-          <symbol>HMSNIA</symbol>
-          <symbol>HNPP</symbol>
-          <symbol>Sp110</symbol>
+          <symbol source="HGNC" name="PMP22">
+            <synonym>CMT1A</synonym>
+            <synonym>CMT1E</synonym>
+            <synonym>DSS</synonym>
+            <synonym>GAS-3</synonym>
+            <synonym>HMSNIA</synonym>
+            <synonym>HNPP</synonym>
+            <synonym>Sp110</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_263" start="4971" end="40551" strand="1" />
           <long_name>peripheral myelin protein 22</long_name>
           <db_xref source="GeneID" accession="5376" />
           <db_xref source="HGNC" accession="9118" />
@@ -180,12 +180,63 @@
             <protein_product source="RefSeq" accession="NP_000295.1" codon_start="1" fixed_id="p1">
               <coordinates coord_system="LRG_263" start="9601" end="39411" strand="1" />
               <long_name>peripheral myelin protein 22</long_name>
-              <long_name>growth arrest-specific 3</long_name>
-              <long_name>PMP-22</long_name>
               <long_name>growth arrest-specific protein 3</long_name>
               <db_xref source="CCDS" accession="CCDS11168.1" />
               <db_xref source="GeneID" accession="5376" />
               <db_xref source="GI" accession="4505907" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_153321.2">
+            <coordinates coord_system="LRG_263" start="7739" end="40551" strand="1" />
+            <long_name>peripheral myelin protein 22, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="5376" />
+            <db_xref source="GI" accession="527317416" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_263" start="7739" end="7899" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_263" start="9567" end="9678" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_263" start="11135" end="11234" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_263" start="30717" end="30857" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_263" start="39248" end="40551" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_696996.1">
+              <coordinates coord_system="LRG_263" start="9601" end="39411" strand="1" />
+              <long_name>peripheral myelin protein 22</long_name>
+              <db_xref source="CCDS" accession="CCDS11168.1" />
+              <db_xref source="GeneID" accession="5376" />
+              <db_xref source="GI" accession="24430163" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_153322.2">
+            <coordinates coord_system="LRG_263" start="9484" end="40551" strand="1" />
+            <long_name>peripheral myelin protein 22, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="5376" />
+            <db_xref source="GI" accession="527317417" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_263" start="9484" end="9678" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_263" start="11135" end="11234" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_263" start="30717" end="30857" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_263" start="39248" end="40551" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_696997.1">
+              <coordinates coord_system="LRG_263" start="9601" end="39411" strand="1" />
+              <long_name>peripheral myelin protein 22</long_name>
+              <db_xref source="CCDS" accession="CCDS11168.1" />
+              <db_xref source="GeneID" accession="5376" />
+              <db_xref source="GI" accession="24430165" />
             </protein_product>
           </transcript>
         </gene>
@@ -201,8 +252,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000312280.3" other_name="ENST00000312280.3" other_id="ENST00000312280.3" other_start="1" other_end="1810">
         <mapping_span lrg_start="5021" lrg_end="5174" other_start="1" other_end="154" strand="1" />
         <mapping_span lrg_start="9567" lrg_end="9678" other_start="155" other_end="266" strand="1" />
@@ -252,9 +303,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000230971">
+          <symbol source="Clone_based_vega_gene" name="AC005703.3" />
           <coordinates coord_system="LRG_263" start="1" end="2867" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="Clone_based_vega_gene">AC005703.3</symbol>
           <long_name>AC005703.3 (lincRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000230971" />
           <transcript source="Ensembl" accession="ENST00000431343">
@@ -267,8 +318,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000265445">
+          <symbol source="Clone_based_vega_gene" name="RP11-849N15.1" />
           <coordinates coord_system="LRG_263" start="4621" end="9313" strand="-1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_vega_gene">RP11-849N15.1</symbol>
           <long_name>RP11-849N15.1 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000265445" />
           <transcript source="Ensembl" accession="ENST00000579159">
@@ -283,8 +334,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000109099">
+          <symbol source="HGNC" name="PMP22" />
           <coordinates coord_system="LRG_263" start="5002" end="40550" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">PMP22</symbol>
           <long_name>peripheral myelin protein 22 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="5376">
             <synonym>CMT1A</synonym>
@@ -308,10 +359,10 @@
             <exon source="Ensembl" accession="ENSE00001954487">
               <coordinates coord_system="LRG_263" start="5002" end="5174" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003364391">
+            <exon source="Ensembl" accession="ENSE00003533726">
               <coordinates coord_system="LRG_263" start="11135" end="11234" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003245912">
+            <exon source="Ensembl" accession="ENSE00003584813">
               <coordinates coord_system="LRG_263" start="30717" end="30857" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002316600">
@@ -327,7 +378,7 @@
             <exon source="Ensembl" accession="ENSE00001896254">
               <coordinates coord_system="LRG_263" start="5009" end="5174" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003245912">
+            <exon source="Ensembl" accession="ENSE00003584813">
               <coordinates coord_system="LRG_263" start="30717" end="30857" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001931172">
@@ -349,7 +400,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000312280">
             <coordinates coord_system="LRG_263" start="5021" end="40550" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 3, mRNA.,  (protein_coding)</long_name>
+            <long_name>PMP22-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS11168.1" />
             <db_xref source="RefSeq" accession="NM_000304.2" />
             <db_xref source="RefSeq" accession="NM_153322.1" />
@@ -359,10 +410,10 @@
             <exon source="Ensembl" accession="ENSE00000855493">
               <coordinates coord_system="LRG_263" start="9567" end="9678" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003442642">
+            <exon source="Ensembl" accession="ENSE00003558191">
               <coordinates coord_system="LRG_263" start="11135" end="11234" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003255020">
+            <exon source="Ensembl" accession="ENSE00003612568">
               <coordinates coord_system="LRG_263" start="30717" end="30857" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001896595">
@@ -370,7 +421,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000308937">
               <coordinates coord_system="LRG_263" start="9601" end="39411" strand="1" mapped_from="GRCh37" />
-              <long_name>peripheral myelin protein 22 , peripheral myelin protein 22 </long_name>
+              <long_name>peripheral myelin protein 22, peripheral myelin protein 22</long_name>
               <db_xref source="RefSeq" accession="NP_696997.1" />
               <db_xref source="RefSeq" accession="NP_000295.1" />
               <db_xref source="UniProtKB" accession="Q01453">
@@ -389,10 +440,10 @@
             <exon source="Ensembl" accession="ENSE00000855493">
               <coordinates coord_system="LRG_263" start="9567" end="9678" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003442642">
+            <exon source="Ensembl" accession="ENSE00003558191">
               <coordinates coord_system="LRG_263" start="11135" end="11234" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003255020">
+            <exon source="Ensembl" accession="ENSE00003612568">
               <coordinates coord_system="LRG_263" start="30717" end="30857" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001896595">
@@ -400,7 +451,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000379269">
               <coordinates coord_system="LRG_263" start="9601" end="39411" strand="1" mapped_from="GRCh37" />
-              <long_name>peripheral myelin protein 22 </long_name>
+              <long_name>peripheral myelin protein 22</long_name>
               <db_xref source="RefSeq" accession="NP_696996.1" />
               <db_xref source="UniProtKB" accession="Q01453">
                 <synonym>Q8WV01</synonym>
@@ -416,10 +467,10 @@
             <exon source="Ensembl" accession="ENSE00000855493">
               <coordinates coord_system="LRG_263" start="9567" end="9678" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003442642">
+            <exon source="Ensembl" accession="ENSE00003558191">
               <coordinates coord_system="LRG_263" start="11135" end="11234" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003255020">
+            <exon source="Ensembl" accession="ENSE00003612568">
               <coordinates coord_system="LRG_263" start="30717" end="30857" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001523300">
@@ -441,7 +492,7 @@
             <exon source="Ensembl" accession="ENSE00000855493">
               <coordinates coord_system="LRG_263" start="9567" end="9678" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003442642">
+            <exon source="Ensembl" accession="ENSE00003558191">
               <coordinates coord_system="LRG_263" start="11135" end="11234" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002702397">
@@ -463,8 +514,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000265110">
+          <symbol source="HGNC" name="MIR4731" />
           <coordinates coord_system="LRG_263" start="18632" end="18701" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">MIR4731</symbol>
           <long_name>microRNA 4731 (miRNA)</long_name>
           <db_xref source="GeneID" accession="100616125" />
           <db_xref source="HGNC" accession="41597">
@@ -474,7 +525,7 @@
           <db_xref source="Ensembl" accession="ENSG00000265110" />
           <transcript source="Ensembl" accession="ENST00000580859">
             <coordinates coord_system="LRG_263" start="18632" end="18701" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens microRNA 4731 (MIR4731), microRNA. (miRNA)</long_name>
+            <long_name>MIR4731-201 (miRNA)</long_name>
             <db_xref source="RefSeq" accession="NR_039884.1" />
             <exon source="Ensembl" accession="ENSE00002733597">
               <coordinates coord_system="LRG_263" start="18632" end="18701" strand="1" mapped_from="GRCh37" />
@@ -482,14 +533,14 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000238806">
+          <symbol source="RFAM" name="snoU13" />
           <coordinates coord_system="LRG_263" start="32445" end="32543" strand="1" mapped_from="GRCh37" />
-          <symbol source="RFAM">snoU13</symbol>
           <long_name>Small nucleolar RNA U13 [Source:RFAM;Acc:RF01210] (snoRNA)</long_name>
           <db_xref source="RFAM" accession="RF01210" />
           <db_xref source="Ensembl" accession="ENSG00000238806" />
           <transcript source="Ensembl" accession="ENST00000458745">
             <coordinates coord_system="LRG_263" start="32445" end="32543" strand="1" mapped_from="GRCh37" />
-            <long_name>snoU13.256-201 (snoRNA)</long_name>
+            <long_name>snoU13.252-201 (snoRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001807740">
               <coordinates coord_system="LRG_263" start="32445" end="32543" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -502,7 +553,7 @@
         <name>List of locus specific databases for PMP22</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PMP22</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_396</id>
+    <hgnc_id>1330</hgnc_id>
     <sequence_source>NG_029747.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>James Ware</name>
         <address>Molecular Cardiology, Imperial College, London, UK</address>
         <email>j.ware@imperial.ac.uk</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,38 +30,38 @@
           <sequence>MLSHNTMMKQRKQQATAIMKEVHGNDVDGMDLGKKVSIPRDIMLEELSHLSNRGARLFKMRQRRSDKYTFENFQYQSRAQINHSIAMQNGKVDGSNLEGGSQQAPLTPPNTPDPRSPPNPDNIAPGYSGPLKEIPPEKFNTTAVPKYYQSPWEQAISNDPELLEALYPKLFKPEGKAELPDYRSFNRVATPFGGFEKASRMVKFKVPDFELLLLTDPRFMSFVNPLSGRRSFNRTPKGWISENIPIVITTEPTDDTTVPESEDL</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_396" start="5001" end="5199" strand="1" />
-        <coordinates coord_system="LRG_396_t1" start="1" end="199" />
+        <coordinates coord_system="LRG_396t1" start="1" end="199" />
       </exon>
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_396" start="5729" end="5818" strand="1" />
-        <coordinates coord_system="LRG_396_t1" start="200" end="289" />
-        <coordinates coord_system="LRG_396_p1" start="1" end="26" />
+        <coordinates coord_system="LRG_396t1" start="200" end="289" />
+        <coordinates coord_system="LRG_396p1" start="1" end="26" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_396" start="20089" end="20258" strand="1" />
-        <coordinates coord_system="LRG_396_t1" start="290" end="459" />
-        <coordinates coord_system="LRG_396_p1" start="26" end="82" />
+        <coordinates coord_system="LRG_396t1" start="290" end="459" />
+        <coordinates coord_system="LRG_396p1" start="26" end="82" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_396" start="27239" end="27368" strand="1" />
-        <coordinates coord_system="LRG_396_t1" start="460" end="589" />
-        <coordinates coord_system="LRG_396_p1" start="83" end="126" />
+        <coordinates coord_system="LRG_396t1" start="460" end="589" />
+        <coordinates coord_system="LRG_396p1" start="83" end="126" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_396" start="33428" end="33611" strand="1" />
-        <coordinates coord_system="LRG_396_t1" start="590" end="773" />
-        <coordinates coord_system="LRG_396_p1" start="126" end="187" />
+        <coordinates coord_system="LRG_396t1" start="590" end="773" />
+        <coordinates coord_system="LRG_396p1" start="126" end="187" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_396" start="55183" end="57006" strand="1" />
-        <coordinates coord_system="LRG_396_t1" start="774" end="2597" />
-        <coordinates coord_system="LRG_396_p1" start="187" end="264" />
+        <coordinates coord_system="LRG_396t1" start="774" end="2597" />
+        <coordinates coord_system="LRG_396p1" start="187" end="264" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -84,8 +76,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="4" other_id="NC_000004.11" other_start="120051939" other_end="120110944">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="4" other_id="NC_000004.11" other_start="120051939" other_end="120110944">
         <mapping_span lrg_start="1" lrg_end="59006" other_start="120051939" other_end="120110944" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">MYOZ2</lrg_locus>
@@ -101,35 +93,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_029747.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_396" start="5001" end="5199" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_396" start="5729" end="5818" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_396" start="20089" end="20258" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_396" start="27239" end="27368" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_396" start="33428" end="33611" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_396" start="55183" end="57006" />
-            <label>6</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_016599.4" other_name="NM_016599.4" other_id="NM_016599.4" other_start="1" other_end="2597">
         <mapping_span lrg_start="5001" lrg_end="5199" other_start="1" other_end="199" strand="1" />
         <mapping_span lrg_start="5729" lrg_end="5818" other_start="200" other_end="289" strand="1" />
@@ -138,14 +102,14 @@
         <mapping_span lrg_start="33428" lrg_end="33611" other_start="590" other_end="773" strand="1" />
         <mapping_span lrg_start="55183" lrg_end="57006" other_start="774" other_end="2597" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">MYOZ2</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="51778">
+          <symbol source="HGNC" name="MYOZ2">
+            <synonym>C4orf5</synonym>
+            <synonym>CMH16</synonym>
+            <synonym>CS-1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_396" start="5001" end="57006" strand="1" />
-          <symbol>MYOZ2</symbol>
-          <symbol>C4orf5</symbol>
-          <symbol>CMH16</symbol>
-          <symbol>CS-1</symbol>
           <long_name>myozenin 2</long_name>
           <db_xref source="GeneID" accession="51778" />
           <db_xref source="HGNC" accession="1330" />
@@ -199,8 +163,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000307128.5" other_name="ENST00000307128.5" other_id="ENST00000307128.5" other_start="1" other_end="2597">
         <mapping_span lrg_start="5001" lrg_end="5199" other_start="1" other_end="199" strand="1" />
         <mapping_span lrg_start="5729" lrg_end="5818" other_start="200" other_end="289" strand="1" />
@@ -211,8 +175,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000172399">
+          <symbol source="HGNC" name="MYOZ2" />
           <coordinates coord_system="LRG_396" start="5001" end="57006" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">MYOZ2</symbol>
           <long_name>myozenin 2 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="51778">
             <synonym>C4orf5</synonym>
@@ -250,7 +214,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000306997">
               <coordinates coord_system="LRG_396" start="5743" end="55417" strand="1" mapped_from="GRCh37" />
-              <long_name>myozenin-2 </long_name>
+              <long_name>myozenin-2</long_name>
               <db_xref source="RefSeq" accession="NP_057683.1" />
               <db_xref source="UniProtKB" accession="Q9NPC6">
                 <synonym>O43415</synonym>
@@ -266,7 +230,7 @@
         <name>List of locus specific databases for MYOZ2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MYOZ2</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

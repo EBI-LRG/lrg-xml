@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_675</id>
+    <hgnc_id>15924</hgnc_id>
     <sequence_source>NG_008000.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Dennis Dooijes</name>
         <address>UMC Utrecht, The Netherlands</address>
         <email>D.Dooijes@umcutrecht.nl</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,28 +30,28 @@
           <sequence>MSRRKQAKPQHINSEEDQGEQQPQQQTPEFADAAPAAPAAGELGAPVNHPGNDEVASEDEATVKRLRREETHVCEKCCAEFFSISEFLEHKKNCTKNPPVLIMNDSEGPVPSEDFSGAVLSHQPTSPGSKDCHRENGGSSEDMKEKPDAESVVYLKTETALPPTPQDISYLAKGKVANTNVTLQALRGTKVAVNQRSADALPAPVPGANSIPWVLEQILCLQQQQLQQIQLTEQIRIQVNMWASHALHSSGAGADTLKTLGSHMSQQVSAAVALLSQKAGSQGLSLDALKQAKLPHANIPSATSSLSPGLAPFTLKPDGTRVLPNVMSRLPSALLPQAPGSVLFQSPFSTVALDTSKKGKGKPPNISAVDVKPKDEAALYKHKCKYCSKVFGTDSSLQIHLRSHTGERPFVCSVCGHRFTTKGNLKVHFHRHPQVKANPQLFAEFQDKVAAGNGIPYALSVPDPIDEPSLSLDSKPVLVTTSVGLPQNLSSGTNPKDLTGGSLPGDLQPGPSPESEGGPTLPGVGPNYNSPRAGGFQGSGTPEPGSETLKLQQLVENIDKATTDPNECLICHRVLSCQSSLKMHYRTHTGERPFQCKICGRAFSTKGNLKTHLGVHRTNTSIKTQHSCPICQKKFTNAVMLQQHIRMHMGGQIPNTPLPENPCDFTGSEPMTVGENGSTGAICHDDVIESIDVEEVSSQEAPSSSSKVPTPLPSIHSASPTLGFAMMASLDAPGKVGPAPFNLQRQGSRENGSVESDGLTNDSSSLMGDQEYQSRSPDILETTSFQALSPANSQAESIKSKSPDAGSKAESSENSRTEMEGRSSLPSTFIRAPPTYVKVEVPGTFVGPSTLSPGMTPLLAAQPRRQAKQHGCTRCGKNFSSASALQIHERTHTGEKPFVCNICGRAFTTKGNLKVHYMTHGANNNSARRGRKLAIENTMALLGTDGKRVSEIFPKEILAPSVNVDPVVWNQYTSMLNGGLAVKTNEISVIQSGGVPTLPVSLGATSVVNNATVSKMDGSQSGISADVEKPSATDGVPKHQFPHFLEENKIAVS</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_675" start="5001" end="5231" strand="1" />
-        <coordinates coord_system="LRG_675_t1" start="1" end="231" />
-        <coordinates coord_system="LRG_675_p1" start="1" end="44" />
+        <coordinates coord_system="LRG_675t1" start="1" end="231" />
+        <coordinates coord_system="LRG_675p1" start="1" end="44" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_675" start="15158" end="17488" strand="1" />
-        <coordinates coord_system="LRG_675_t1" start="232" end="2562" />
-        <coordinates coord_system="LRG_675_p1" start="44" end="821" />
+        <coordinates coord_system="LRG_675t1" start="232" end="2562" />
+        <coordinates coord_system="LRG_675p1" start="44" end="821" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_675" start="18369" end="18649" strand="1" />
-        <coordinates coord_system="LRG_675_t1" start="2563" end="2843" />
-        <coordinates coord_system="LRG_675_p1" start="821" end="914" />
+        <coordinates coord_system="LRG_675t1" start="2563" end="2843" />
+        <coordinates coord_system="LRG_675p1" start="821" end="914" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_675" start="22826" end="23468" strand="1" />
-        <coordinates coord_system="LRG_675_t1" start="2844" end="3486" />
-        <coordinates coord_system="LRG_675_p1" start="915" end="1053" />
+        <coordinates coord_system="LRG_675t1" start="2844" end="3486" />
+        <coordinates coord_system="LRG_675p1" start="915" end="1053" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -74,8 +66,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="20" other_id="NC_000020.10" other_start="50398581" other_end="50424048">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="20" other_id="NC_000020.10" other_start="50398581" other_end="50424048">
         <mapping_span lrg_start="1" lrg_end="25468" other_start="50398581" other_end="50424048" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">SALL4</lrg_locus>
@@ -91,42 +83,22 @@
         </contact>
       </source>
       <comment>Annotation from NG_008000.1</comment>
-      <modification_date>2013-03-28</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_675" start="5001" end="5231" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_675" start="15158" end="17488" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_675" start="18369" end="18649" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_675" start="22826" end="23468" />
-            <label>4</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_020436.3" other_name="NM_020436.3" other_id="NM_020436.3" other_start="1" other_end="3486">
         <mapping_span lrg_start="5001" lrg_end="5231" other_start="1" other_end="231" strand="1" />
         <mapping_span lrg_start="15158" lrg_end="17488" other_start="232" other_end="2562" strand="1" />
         <mapping_span lrg_start="18369" lrg_end="18649" other_start="2563" other_end="2843" strand="1" />
         <mapping_span lrg_start="22826" lrg_end="23468" other_start="2844" other_end="3486" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">SALL4</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="57167">
+          <symbol source="HGNC" name="SALL4">
+            <synonym>dJ1112F19.1</synonym>
+            <synonym>DRRS</synonym>
+            <synonym>HSAL4</synonym>
+            <synonym>ZNF797</synonym>
+          </symbol>
           <coordinates coord_system="LRG_675" start="5001" end="23468" strand="1" />
-          <symbol>SALL4</symbol>
-          <symbol>dJ1112F19.1</symbol>
-          <symbol>DRRS</symbol>
-          <symbol>HSAL4</symbol>
-          <symbol>ZNF797</symbol>
           <long_name>sal-like 4 (Drosophila)</long_name>
           <db_xref source="GeneID" accession="57167" />
           <db_xref source="HGNC" accession="15924" />
@@ -173,8 +145,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000217086.4" other_name="ENST00000217086.4" other_id="ENST00000217086.4" other_start="1" other_end="3497">
         <mapping_span lrg_start="4990" lrg_end="5231" other_start="1" other_end="242" strand="1" />
         <mapping_span lrg_start="15158" lrg_end="17488" other_start="243" other_end="2573" strand="1" />
@@ -204,8 +176,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000101115">
+          <symbol source="HGNC" name="SALL4" />
           <coordinates coord_system="LRG_675" start="4990" end="23468" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">SALL4</symbol>
           <long_name>sal-like 4 (Drosophila) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="57167">
             <synonym>dJ1112F19.1</synonym>
@@ -238,10 +210,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000217086">
               <coordinates coord_system="LRG_675" start="5102" end="23245" strand="1" mapped_from="GRCh37" />
-              <long_name>sal-like protein 4 </long_name>
+              <long_name>sal-like protein 4</long_name>
               <db_xref source="RefSeq" accession="NP_065169.1" />
               <db_xref source="UniProtKB" accession="Q9UJQ4">
+                <synonym>A2A2D8</synonym>
                 <synonym>Q540H3</synonym>
+                <synonym>Q6Y8G6</synonym>
               </db_xref>
             </protein_product>
           </transcript>
@@ -257,11 +231,16 @@
             <exon source="Ensembl" accession="ENSE00000662751">
               <coordinates coord_system="LRG_675" start="18369" end="18649" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003416488">
+            <exon source="Ensembl" accession="ENSE00003474327">
               <coordinates coord_system="LRG_675" start="22826" end="23245" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000379319">
               <coordinates coord_system="LRG_675" start="5102" end="23245" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q9UJQ4">
+                <synonym>A2A2D8</synonym>
+                <synonym>Q540H3</synonym>
+                <synonym>Q6Y8G6</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000371539">
@@ -273,7 +252,7 @@
             <exon source="Ensembl" accession="ENSE00000662751">
               <coordinates coord_system="LRG_675" start="18369" end="18649" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003315853">
+            <exon source="Ensembl" accession="ENSE00003622751">
               <coordinates coord_system="LRG_675" start="22826" end="23245" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000360594">
@@ -314,7 +293,7 @@
         <name>List of locus specific databases for SALL4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SALL4</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_168</id>
+    <hgnc_id>11784</hgnc_id>
     <sequence_source>NG_012027.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -13,15 +14,6 @@
         <name>Sujatha Mohan</name>
         <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
         <email>sujatha@rcai.riken.jp</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -39,10 +31,10 @@
           <sequence>MLGVLVLGALALAGLGFPAPAEPQPGGSQCVEHDCFALYPGPATFLNASQICDGLRGHLMTVRSSVAADVISLLLNGDGGVGRRRLWIGLQLPPGCGDPKRLGPLRGFQWVTGDNNTSYSRWARLDLNGAPLCGPLCVAVSAAEATVPSEPIWEEQQCEVKADGFLCEFHFPATCRPLAVEPGAAAAAVSITYGTPFAARGADFQALPVGSSAAVAPLGLQLMCTAPPGAVQGHWAREAPGAWDCSVENGGCEHACNAIPGAPRCQCPAGAALQADGRSCTASATQSCNDLCEHFCVPNPDQPGSYSCMCETGYRLAADQHRCEDVDDCILEPSPCPQRCVNTQGGFECHCYPNYDLVDGECVEPVDPCFRANCEYQCQPLNQTSYLCVCAEGFAPIPHEPHRCQMFCNQTACPADCDPNTQASCECPEGYILDDGFICTDIDECENGGFCSGVCHNLPGTFECICGPDSALARHIGTDCDSGKVDGGDSGSGEPPPSPTPGSTLTPPAVGLVHSGLLIGISIASLCLVVALLALLCHLRKKQGAARAKMEYKCAAPSKEVVLQHVRTERTPQRL</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_168" start="5001" end="9032" strand="1" />
-        <coordinates coord_system="LRG_168_t1" start="1" end="4032" />
-        <coordinates coord_system="LRG_168_p1" start="1" end="575" />
+        <coordinates coord_system="LRG_168t1" start="1" end="4032" />
+        <coordinates coord_system="LRG_168p1" start="1" end="575" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -57,8 +49,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="20" other_id="NC_000020.10" other_start="23024270" other_end="23035301">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="20" other_id="NC_000020.10" other_start="23024270" other_end="23035301">
         <mapping_span lrg_start="1" lrg_end="11032" other_start="23024270" other_end="23035301" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">THBD</lrg_locus>
@@ -74,29 +66,21 @@
         </contact>
       </source>
       <comment>Annotation from NG_012027.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_168" start="5001" end="9032" />
-            <label>1</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_000361.2" other_name="NM_000361.2" other_id="NM_000361.2" other_start="1" other_end="4032">
         <mapping_span lrg_start="5001" lrg_end="9032" other_start="1" other_end="4032" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">THBD</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="7056">
+          <symbol source="HGNC" name="THBD">
+            <synonym>AHUS6</synonym>
+            <synonym>BDCA3</synonym>
+            <synonym>CD141</synonym>
+            <synonym>THPH12</synonym>
+            <synonym>THRM</synonym>
+            <synonym>TM</synonym>
+          </symbol>
           <coordinates coord_system="LRG_168" start="5001" end="9032" strand="1" />
-          <symbol>THBD</symbol>
-          <symbol>AHUS6</symbol>
-          <symbol>BDCA3</symbol>
-          <symbol>CD141</symbol>
-          <symbol>THPH12</symbol>
-          <symbol>THRM</symbol>
-          <symbol>TM</symbol>
           <long_name>thrombomodulin</long_name>
           <db_xref source="GeneID" accession="7056" />
           <db_xref source="HGNC" accession="11784" />
@@ -134,15 +118,15 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000377103.2" other_name="ENST00000377103.2" other_id="ENST00000377103.2" other_start="1" other_end="4109">
         <mapping_span lrg_start="4924" lrg_end="9032" other_start="1" other_end="4109" strand="1" />
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000178726">
+          <symbol source="HGNC" name="THBD" />
           <coordinates coord_system="LRG_168" start="4924" end="9032" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">THBD</symbol>
           <long_name>thrombomodulin (protein_coding)</long_name>
           <db_xref source="GeneID" accession="7056">
             <synonym>AHUS6</synonym>
@@ -167,7 +151,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000366307">
               <coordinates coord_system="LRG_168" start="5161" end="6888" strand="1" mapped_from="GRCh37" />
-              <long_name>thrombomodulin precursor </long_name>
+              <long_name>thrombomodulin precursor</long_name>
               <db_xref source="RefSeq" accession="NP_000352.1" />
               <db_xref source="UniProtKB" accession="P07204">
                 <synonym>Q8IV29</synonym>
@@ -183,7 +167,7 @@
         <name>List of locus specific databases for THBD</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/THBD</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

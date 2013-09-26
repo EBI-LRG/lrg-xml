@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_742</id>
+    <hgnc_id>939</hgnc_id>
     <sequence_source>NG_016125.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -29,28 +30,28 @@
           <sequence>MSAATHSPMMQVASGNGDRDPLPPGWEIKIDPQTGWPFFVDHNSRTTTWNDPRVPSEGPKETPSSANGPSREGSRLPPAREGHPVYPQLRPGYIPIPVLHEGAENRQVHPFHVYPQPGMQRFRTEAAAAAPQRSQSPLRGMPETTQPDKQCGQVAAAAAAQPPASHGPERSQSPAASDCSSSSSSASLPSSGRSSLGSHQLPRGYISIPVIHEQNVTRPAAQPSFHQAQKTHYPAQQGEYQTHQPVYHKIQGDDWEPRPLRAASPFRSSVQGASSREGSPARSSTPLHSPSPIRVHTVVDRPQQPMTHRETAPVSQPENKPESKPGPVGPELPPGHIPIQVIRKEVDSKPVSQKPPPPSEKVEVKVPPAPVPCPPPSPGPSAVPSSPKSVATEERAAPSTAPAEATPPKPGEAEAPPKHPGVLKVEAILEKVQGLEQAVDNFEGKKTDKKYLMIEEYLTKELLALDSVDPEGRADVRQARRDGVRKVQTILEKLEQKAIDVPGQVQVYELQPSNLEADQPLQAIMEMGAVAADKGKKNAGNAEDPHTETQQPEATAAATSNPSSMTDTPGNPAAP</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_742" start="5001" end="5486" strand="1" />
-        <coordinates coord_system="LRG_742_t1" start="1" end="486" />
-        <coordinates coord_system="LRG_742_p1" start="1" end="60" />
+        <coordinates coord_system="LRG_742t1" start="1" end="486" />
+        <coordinates coord_system="LRG_742p1" start="1" end="60" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_742" start="23482" end="23808" strand="1" />
-        <coordinates coord_system="LRG_742_t1" start="487" end="813" />
-        <coordinates coord_system="LRG_742_p1" start="61" end="169" />
+        <coordinates coord_system="LRG_742t1" start="487" end="813" />
+        <coordinates coord_system="LRG_742p1" start="61" end="169" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_742" start="25886" end="26287" strand="1" />
-        <coordinates coord_system="LRG_742_t1" start="814" end="1215" />
-        <coordinates coord_system="LRG_742_p1" start="170" end="303" />
+        <coordinates coord_system="LRG_742t1" start="814" end="1215" />
+        <coordinates coord_system="LRG_742p1" start="170" end="303" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_742" start="30095" end="31450" strand="1" />
-        <coordinates coord_system="LRG_742_t1" start="1216" end="2571" />
-        <coordinates coord_system="LRG_742_p1" start="304" end="575" />
+        <coordinates coord_system="LRG_742t1" start="1216" end="2571" />
+        <coordinates coord_system="LRG_742p1" start="304" end="575" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -65,8 +66,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-07-22</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="10" other_id="NC_000010.10" other_start="121405882" other_end="121439331">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_start="121405882" other_end="121439331">
         <mapping_span lrg_start="1" lrg_end="33450" other_start="121405882" other_end="121439331" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">BAG3</lrg_locus>
@@ -82,41 +83,22 @@
         </contact>
       </source>
       <comment>Annotation from NG_016125.1</comment>
-      <modification_date>2013-07-03</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="LRG-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_742" start="5001" end="5486" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_742" start="23482" end="23808" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_742" start="25886" end="26287" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_742" start="30095" end="31450" />
-            <label>4</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_004281.3" other_name="NM_004281.3" other_id="NM_004281.3" other_start="1" other_end="2571">
         <mapping_span lrg_start="5001" lrg_end="5486" other_start="1" other_end="486" strand="1" />
         <mapping_span lrg_start="23482" lrg_end="23808" other_start="487" other_end="813" strand="1" />
         <mapping_span lrg_start="25886" lrg_end="26287" other_start="814" other_end="1215" strand="1" />
         <mapping_span lrg_start="30095" lrg_end="31450" other_start="1216" other_end="2571" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">BAG3</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="9531">
+          <symbol source="HGNC" name="BAG3">
+            <synonym>BAG-3</synonym>
+            <synonym>BIS</synonym>
+            <synonym>CAIR-1</synonym>
+            <synonym>MFM6</synonym>
+          </symbol>
           <coordinates coord_system="LRG_742" start="5001" end="31450" strand="1" />
-          <symbol source="HGNC">BAG3</symbol>
-          <symbol>BAG-3</symbol>
-          <symbol>BIS</symbol>
-          <symbol>CAIR-1</symbol>
           <long_name>BCL2-associated athanogene 3</long_name>
           <db_xref source="GeneID" accession="9531" />
           <db_xref source="HGNC" accession="939" />
@@ -164,8 +146,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 72</comment>
-      <modification_date>2013-07-22</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000369085.3" other_name="ENST00000369085.3" other_id="ENST00000369085.3" other_start="1" other_end="2571">
         <mapping_span lrg_start="5001" lrg_end="5486" other_start="1" other_end="486" strand="1" />
         <mapping_span lrg_start="23482" lrg_end="23808" other_start="487" other_end="813" strand="1" />
@@ -181,8 +163,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000151929">
+          <symbol source="HGNC" name="BAG3" />
           <coordinates coord_system="LRG_742" start="5001" end="31450" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">BAG3</symbol>
           <long_name>BCL2-associated athanogene 3 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="9531">
             <synonym>BAG-3</synonym>
@@ -211,7 +193,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000358081">
               <coordinates coord_system="LRG_742" start="5307" end="30913" strand="1" mapped_from="GRCh37" />
-              <long_name>BAG family molecular chaperone regulator 3 </long_name>
+              <long_name>BAG family molecular chaperone regulator 3</long_name>
               <db_xref source="RefSeq" accession="NP_004272.2" />
               <db_xref source="UniProtKB" accession="O95817">
                 <synonym>A8K5L8</synonym>
@@ -251,7 +233,7 @@
         <name>List of locus specific databases for BAG3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/BAG3</url>
       </source>
-      <modification_date>2013-07-22</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_239</id>
+    <hgnc_id>3239</hgnc_id>
     <sequence_source>NG_008936.2</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Valerie Delague</name>
         <address>Aix-Marseille University, Marseille, France</address>
         <email>valerie.delague@univ-amu.fr</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,16 +30,16 @@
           <sequence>MMTAKAVDKIPVTLSGFVHQLSDNIYPVEDLAATSVTIFPNAELGGPFDQMNGVAGDGMINIDMTGEKRSLDLPYPSSFAPVSAPRNQTFTYMGKFSIDPQYPGASCYPEGIINIVSAGILQGVTSPASTTASSSVTSASPNPLATGPLGVCTMSQTQPDLDHLYSPPPPPPPYSGCAGDLYQDPSAFLSAATTSTSSSLAYPPPPSYPSPKPATDPGLFPMIPDYPGFFPSQCQRDLHGTAGPDRKPFPCPLDTLRVPPPLTPLSTIRNFTLGGPSAGVTGPGASGGSEGPRLPGSSSAAAAAAAAAAYNPHHLPLRPILRPRKYPNRPSKTPVHERPYPCPAEGCDRRFSRSDELTRHIRIHTGHKPFQCRICMRNFSRSDHLTTHIRTHTGEKPFACDYCGRKFARSDERKRHTKIHLRQKERKSSAPSASVPAPSTASCSGGVQPGGTLCSSNSSSLGGGPLAPCSSRTRTP</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="3c">
         <coordinates coord_system="LRG_239" start="108535" end="109040" strand="1" />
-        <coordinates coord_system="LRG_239_t1" start="1" end="506" />
-        <coordinates coord_system="LRG_239_p1" start="1" end="57" />
+        <coordinates coord_system="LRG_239t1" start="1" end="506" />
+        <coordinates coord_system="LRG_239p1" start="1" end="57" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_239" start="110433" end="112904" strand="1" />
-        <coordinates coord_system="LRG_239_t1" start="507" end="2978" />
-        <coordinates coord_system="LRG_239_p1" start="57" end="476" />
+        <coordinates coord_system="LRG_239t1" start="507" end="2978" />
+        <coordinates coord_system="LRG_239p1" start="57" end="476" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -62,8 +54,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="10" other_id="NC_000010.10" other_start="64569756" other_end="64684660">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_start="64569756" other_end="64684660">
         <mapping_span lrg_start="1" lrg_end="114904" other_start="64569756" other_end="64684660" strand="-1">
           <diff type="mismatch" lrg_start="110890" lrg_end="110890" other_start="64573771" other_end="64573771" lrg_sequence="A" other_sequence="G" />
           <diff type="other_ins" lrg_start="112615" lrg_end="112616" other_start="64572045" other_end="64572045" lrg_sequence="-" other_sequence="A" />
@@ -82,19 +74,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008936.2</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_239" start="108535" end="109040" />
-            <label>3c</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_239" start="110433" end="112904" />
-            <label>4</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_000399.3" other_name="NM_000399.3" other_id="NM_000399.3" other_start="1" other_end="2978">
         <mapping_span lrg_start="108535" lrg_end="109040" other_start="1" other_end="506" strand="1" />
         <mapping_span lrg_start="110433" lrg_end="112904" other_start="507" other_end="2978" strand="1" />
@@ -115,15 +95,15 @@
         <mapping_span lrg_start="108932" lrg_end="109040" other_start="298" other_end="406" strand="1" />
         <mapping_span lrg_start="110433" lrg_end="112904" other_start="407" other_end="2878" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">EGR2</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="1959">
+          <symbol source="HGNC" name="EGR2">
+            <synonym>AT591</synonym>
+            <synonym>CMT1D</synonym>
+            <synonym>CMT4E</synonym>
+            <synonym>KROX20</synonym>
+          </symbol>
           <coordinates coord_system="LRG_239" start="105734" end="112904" strand="1" />
-          <symbol>EGR2</symbol>
-          <symbol>AT591</symbol>
-          <symbol>CMT1D</symbol>
-          <symbol>CMT4E</symbol>
-          <symbol>KROX20</symbol>
           <long_name>early growth response 2</long_name>
           <db_xref source="GeneID" accession="1959" />
           <db_xref source="HGNC" accession="3239" />
@@ -131,6 +111,31 @@
           <db_xref source="CCDS" accession="CCDS44409.1" />
           <db_xref source="CCDS" accession="CCDS7267.1" />
           <db_xref source="GI" accession="383209662" />
+          <transcript source="RefSeq" accession="NM_001136178.1">
+            <coordinates coord_system="LRG_239" start="105734" end="112904" strand="1" />
+            <long_name>early growth response 2, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="1959" />
+            <db_xref source="GI" accession="209969754" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_239" start="105734" end="105795" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_239" start="106254" end="106360" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_239" start="108832" end="109040" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_239" start="110433" end="112904" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001129650.1">
+              <coordinates coord_system="LRG_239" start="108872" end="111694" strand="1" />
+              <long_name>E3 SUMO-protein ligase EGR2 isoform a</long_name>
+              <db_xref source="CCDS" accession="CCDS7267.1" />
+              <db_xref source="GeneID" accession="1959" />
+              <db_xref source="GI" accession="209969755" />
+            </protein_product>
+          </transcript>
           <transcript source="RefSeq" accession="NM_000399.3" fixed_id="t1">
             <coordinates coord_system="LRG_239" start="108535" end="112904" strand="1" />
             <long_name>early growth response 2, transcript variant 1</long_name>
@@ -154,6 +159,50 @@
               <db_xref source="GI" accession="9845524" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_001136179.1">
+            <coordinates coord_system="LRG_239" start="108535" end="112904" strand="1" />
+            <long_name>early growth response 2, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="1959" />
+            <db_xref source="GI" accession="209969756" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_239" start="108535" end="108831" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_239" start="108932" end="109040" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_239" start="110433" end="112904" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001129651.1">
+              <coordinates coord_system="LRG_239" start="109022" end="111694" strand="1" />
+              <long_name>E3 SUMO-protein ligase EGR2 isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS44409.1" />
+              <db_xref source="GeneID" accession="1959" />
+              <db_xref source="GI" accession="209969757" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001136177.1">
+            <coordinates coord_system="LRG_239" start="108535" end="112904" strand="1" />
+            <long_name>early growth response 2, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="1959" />
+            <db_xref source="GI" accession="209969752" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_239" start="108535" end="108648" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_239" start="108832" end="109040" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_239" start="110433" end="112904" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001129649.1">
+              <coordinates coord_system="LRG_239" start="108872" end="111694" strand="1" />
+              <long_name>E3 SUMO-protein ligase EGR2 isoform a</long_name>
+              <db_xref source="CCDS" accession="CCDS7267.1" />
+              <db_xref source="GeneID" accession="1959" />
+              <db_xref source="GI" accession="209969753" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -167,8 +216,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000242480.3" other_name="ENST00000242480.3" other_id="ENST00000242480.3" other_start="1" other_end="2968">
         <mapping_span lrg_start="108546" lrg_end="109040" other_start="1" other_end="495" strand="1" />
         <mapping_span lrg_start="110433" lrg_end="112904" other_start="496" other_end="2968" strand="1">
@@ -205,8 +254,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000122877">
+          <symbol source="HGNC" name="EGR2" />
           <coordinates coord_system="LRG_239" start="5001" end="112904" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">EGR2</symbol>
           <long_name>early growth response 2 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="1959">
             <synonym>AT591</synonym>
@@ -240,7 +289,7 @@
             <exon source="Ensembl" accession="ENSE00001821397">
               <coordinates coord_system="LRG_239" start="31351" end="31394" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003414809">
+            <exon source="Ensembl" accession="ENSE00003520862">
               <coordinates coord_system="LRG_239" start="108932" end="109040" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001815326">
@@ -266,7 +315,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000402040">
               <coordinates coord_system="LRG_239" start="108872" end="111694" strand="1" mapped_from="GRCh37" />
-              <long_name>E3 SUMO-protein ligase EGR2 isoform a </long_name>
+              <long_name>E3 SUMO-protein ligase EGR2 isoform a</long_name>
               <db_xref source="RefSeq" accession="NP_001129650.1" />
               <db_xref source="UniProtKB" accession="P11161">
                 <synonym>B2R724</synonym>
@@ -285,7 +334,7 @@
             <exon source="Ensembl" accession="ENSE00001760892">
               <coordinates coord_system="LRG_239" start="108535" end="108831" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003313502">
+            <exon source="Ensembl" accession="ENSE00003464435">
               <coordinates coord_system="LRG_239" start="108932" end="109040" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000834013">
@@ -293,7 +342,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000387634">
               <coordinates coord_system="LRG_239" start="109022" end="111694" strand="1" mapped_from="GRCh37" />
-              <long_name>E3 SUMO-protein ligase EGR2 isoform b </long_name>
+              <long_name>E3 SUMO-protein ligase EGR2 isoform b</long_name>
               <db_xref source="RefSeq" accession="NP_001129651.1" />
               <db_xref source="UniProtKB" accession="P11161">
                 <synonym>B2R724</synonym>
@@ -306,7 +355,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000242480">
             <coordinates coord_system="LRG_239" start="108546" end="112904" strand="1" mapped_from="GRCh37" />
-            <long_name>,  (protein_coding)</long_name>
+            <long_name>EGR2-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS7267.1" />
             <db_xref source="RefSeq" accession="NM_000399.3" />
             <db_xref source="RefSeq" accession="NM_001136177.1" />
@@ -318,7 +367,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000242480">
               <coordinates coord_system="LRG_239" start="108872" end="111694" strand="1" mapped_from="GRCh37" />
-              <long_name>E3 SUMO-protein ligase EGR2 isoform a , E3 SUMO-protein ligase EGR2 isoform a </long_name>
+              <long_name>E3 SUMO-protein ligase EGR2 isoform a, E3 SUMO-protein ligase EGR2 isoform a</long_name>
               <db_xref source="RefSeq" accession="NP_000390.2" />
               <db_xref source="RefSeq" accession="NP_001129649.1" />
               <db_xref source="UniProtKB" accession="P11161">
@@ -338,7 +387,7 @@
         <name>List of locus specific databases for EGR2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/EGR2</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

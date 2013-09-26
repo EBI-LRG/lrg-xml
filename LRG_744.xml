@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_744</id>
+    <hgnc_id>23406</hgnc_id>
     <sequence_source>NG_017009.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -29,10 +30,10 @@
           <sequence>MTRECPSPAPGPGAPLSGSVLAEAAVVFAVVLSIHATVWDRYSWCAVALAVQAFYVQYKWDRLLQQGSAVFQFRMSANSGLLPASMVMPLLGLVMKERCQTAGNPFFERFGIVVAATGMAVALFSSVLALGITRPVPTNTCVILGLAGGVIIYIMKHSLSVGEVIEVLEVLLIFVYLNMILLYLLPRCFTPGEALLVLGGISFVLNQLIKRSLTLVESQGDPVDFFLLVVVVGMVLMGIFFSTLFVFMDSGTWASSIFFHLMTCVLSLGVVLPWLHRLIRRNPLLWLLQFLFQTDTRIYLLAYWSLLATLACLVVLYQNAKRSSSESKKHQAPTIARKYFHLIVVATYIPGIIFDRPLLYVAATVCLAVFIFLEYVRYFRIKPLGHTLRSFLSLFLDERDSGPLILTHIYLLLGMSLPIWLIPRPCTQKGSLGGARALVPYAGVLAVGVGDTVASIFGSTMGEIRWPGTKKTFEGTMTSIFAQIISVALILIFDSGVDLNYSYAWILGSISTVSLLEAYTTQIDNLLLPLYLLILLMA</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_744" start="5001" end="7204" strand="1" />
-        <coordinates coord_system="LRG_744_t1" start="1" end="2204" />
-        <coordinates coord_system="LRG_744_p1" start="1" end="538" />
+        <coordinates coord_system="LRG_744t1" start="1" end="2204" />
+        <coordinates coord_system="LRG_744p1" start="1" end="538" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -47,8 +48,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-07-22</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="9" other_id="NC_000009.11" other_start="131705809" other_end="131715012">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="131705809" other_end="131715012">
         <mapping_span lrg_start="1" lrg_end="9204" other_start="131705809" other_end="131715012" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">DOLK</lrg_locus>
@@ -64,26 +65,18 @@
         </contact>
       </source>
       <comment>Annotation from NG_017009.1</comment>
-      <modification_date>2013-07-03</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="LRG-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_744" start="5001" end="7204" />
-            <label>1</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_014908.3" other_name="NM_014908.3" other_id="NM_014908.3" other_start="1" other_end="2204">
         <mapping_span lrg_start="5001" lrg_end="7204" other_start="1" other_end="2204" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">DOLK</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="23511">
+          <symbol source="HGNC" name="NUP188">
+            <synonym>hNup188</synonym>
+            <synonym>KIAA0169</synonym>
+          </symbol>
           <coordinates coord_system="LRG_744" start="1" end="5041" strand="-1" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">NUP188</symbol>
-          <symbol>hNup188</symbol>
-          <symbol>KIAA0169</symbol>
           <long_name>nucleoporin 188kDa</long_name>
           <db_xref source="GeneID" accession="23511" />
           <db_xref source="HGNC" accession="17859" />
@@ -111,13 +104,14 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="22845">
+          <symbol source="HGNC" name="DOLK">
+            <synonym>CDG1M</synonym>
+            <synonym>DK</synonym>
+            <synonym>DK1</synonym>
+            <synonym>SEC59</synonym>
+            <synonym>TMEM15</synonym>
+          </symbol>
           <coordinates coord_system="LRG_744" start="5001" end="7204" strand="1" />
-          <symbol source="HGNC">DOLK</symbol>
-          <symbol>CDG1M</symbol>
-          <symbol>DK</symbol>
-          <symbol>DK1</symbol>
-          <symbol>SEC59</symbol>
-          <symbol>TMEM15</symbol>
           <long_name>dolichol kinase</long_name>
           <db_xref source="GeneID" accession="22845" />
           <db_xref source="HGNC" accession="23406" />
@@ -156,16 +150,16 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 72</comment>
-      <modification_date>2013-07-22</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000372586.3" other_name="ENST00000372586.3" other_id="ENST00000372586.3" other_start="1" other_end="2090">
         <mapping_span lrg_start="5115" lrg_end="7204" other_start="1" other_end="2090" strand="1" />
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000095319">
+          <symbol source="HGNC" name="NUP188" />
           <coordinates coord_system="LRG_744" start="1" end="5035" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">NUP188</symbol>
           <long_name>nucleoporin 188kDa (protein_coding)</long_name>
           <db_xref source="GeneID" accession="23511">
             <synonym>hNup188</synonym>
@@ -190,7 +184,7 @@
             <protein_product source="Ensembl" accession="ENSP00000361658">
               <coordinates coord_system="LRG_744" start="1" end="5014" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>nucleoporin NUP188 homolog </long_name>
+              <long_name>nucleoporin NUP188 homolog</long_name>
               <db_xref source="RefSeq" accession="NP_056169.1" />
               <db_xref source="UniProtKB" accession="Q5SRE5">
                 <synonym>Q14675</synonym>
@@ -232,10 +226,10 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000251184">
+          <symbol source="Clone_based_vega_gene" name="RP11-101E3.5" />
           <coordinates coord_system="LRG_744" start="1" end="9204" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <partial>3-prime</partial>
-          <symbol source="Clone_based_vega_gene">RP11-101E3.5</symbol>
           <long_name>RP11-101E3.5 (protein_coding)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000251184" />
           <transcript source="Ensembl" accession="ENST00000482796">
@@ -254,8 +248,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000175283">
+          <symbol source="HGNC" name="DOLK" />
           <coordinates coord_system="LRG_744" start="5115" end="7204" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">DOLK</symbol>
           <long_name>dolichol kinase (protein_coding)</long_name>
           <db_xref source="GeneID" accession="22845">
             <synonym>CDG1M</synonym>
@@ -281,7 +275,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000361667">
               <coordinates coord_system="LRG_744" start="5431" end="7047" strand="1" mapped_from="GRCh37" />
-              <long_name>dolichol kinase </long_name>
+              <long_name>dolichol kinase</long_name>
               <db_xref source="RefSeq" accession="NP_055723.1" />
               <db_xref source="UniProtKB" accession="Q9UPQ8">
                 <synonym>Q5SRE6</synonym>
@@ -296,7 +290,7 @@
         <name>List of locus specific databases for DOLK</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DOLK</url>
       </source>
-      <modification_date>2013-07-22</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

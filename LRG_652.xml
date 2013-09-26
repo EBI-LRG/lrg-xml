@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_652</id>
+    <hgnc_id>11179</hgnc_id>
     <sequence_source>NG_008689.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Dennis Dooijes</name>
         <address>UMC Utrecht, The Netherlands</address>
         <email>D.Dooijes@umcutrecht.nl</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,34 +30,34 @@
           <sequence>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_652" start="5001" end="5220" strand="1" />
-        <coordinates coord_system="LRG_652_t1" start="1" end="220" />
-        <coordinates coord_system="LRG_652_p1" start="1" end="24" />
+        <coordinates coord_system="LRG_652t1" start="1" end="220" />
+        <coordinates coord_system="LRG_652p1" start="1" end="24" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_652" start="9169" end="9265" strand="1" />
-        <coordinates coord_system="LRG_652_t1" start="221" end="317" />
-        <coordinates coord_system="LRG_652_p1" start="25" end="57" />
+        <coordinates coord_system="LRG_652t1" start="221" end="317" />
+        <coordinates coord_system="LRG_652p1" start="25" end="57" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_652" start="11828" end="11897" strand="1" />
-        <coordinates coord_system="LRG_652_t1" start="318" end="387" />
-        <coordinates coord_system="LRG_652_p1" start="57" end="80" />
+        <coordinates coord_system="LRG_652t1" start="318" end="387" />
+        <coordinates coord_system="LRG_652p1" start="57" end="80" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_652" start="12637" end="12754" strand="1" />
-        <coordinates coord_system="LRG_652_t1" start="388" end="505" />
-        <coordinates coord_system="LRG_652_p1" start="80" end="119" />
+        <coordinates coord_system="LRG_652t1" start="388" end="505" />
+        <coordinates coord_system="LRG_652p1" start="80" end="119" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_652" start="13850" end="14310" strand="1" />
-        <coordinates coord_system="LRG_652_t1" start="506" end="966" />
-        <coordinates coord_system="LRG_652_p1" start="120" end="154" />
+        <coordinates coord_system="LRG_652t1" start="506" end="966" />
+        <coordinates coord_system="LRG_652p1" start="120" end="154" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -80,8 +72,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="21" other_id="NC_000021.8" other_start="33026935" other_end="33043244">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="21" other_id="NC_000021.8" other_start="33026935" other_end="33043244">
         <mapping_span lrg_start="1" lrg_end="16310" other_start="33026935" other_end="33043244" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">SOD1</lrg_locus>
@@ -97,31 +89,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008689.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_652" start="5001" end="5220" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_652" start="9169" end="9265" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_652" start="11828" end="11897" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_652" start="12637" end="12754" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_652" start="13850" end="14310" />
-            <label>5</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_000454.4" other_name="NM_000454.4" other_id="NM_000454.4" other_start="1" other_end="966">
         <mapping_span lrg_start="5001" lrg_end="5220" other_start="1" other_end="220" strand="1" />
         <mapping_span lrg_start="9169" lrg_end="9265" other_start="221" other_end="317" strand="1" />
@@ -129,17 +97,17 @@
         <mapping_span lrg_start="12637" lrg_end="12754" other_start="388" other_end="505" strand="1" />
         <mapping_span lrg_start="13850" lrg_end="14310" other_start="506" other_end="966" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">SOD1</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="6647">
+          <symbol source="HGNC" name="SOD1">
+            <synonym>ALS</synonym>
+            <synonym>ALS1</synonym>
+            <synonym>homodimer</synonym>
+            <synonym>hSod1</synonym>
+            <synonym>IPOA</synonym>
+            <synonym>SOD</synonym>
+          </symbol>
           <coordinates coord_system="LRG_652" start="5001" end="14310" strand="1" />
-          <symbol>SOD1</symbol>
-          <symbol>ALS</symbol>
-          <symbol>ALS1</symbol>
-          <symbol>homodimer</symbol>
-          <symbol>hSod1</symbol>
-          <symbol>IPOA</symbol>
-          <symbol>SOD</symbol>
           <long_name>superoxide dismutase 1, soluble</long_name>
           <db_xref source="GeneID" accession="6647" />
           <db_xref source="HGNC" accession="11179" />
@@ -191,8 +159,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000270142.6" other_name="ENST00000270142.6" other_id="ENST00000270142.6" other_start="1" other_end="966">
         <mapping_span lrg_start="5001" lrg_end="5220" other_start="1" other_end="220" strand="1" />
         <mapping_span lrg_start="9169" lrg_end="9265" other_start="221" other_end="317" strand="1" />
@@ -223,9 +191,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000234509">
+          <symbol source="Clone_based_vega_gene" name="AP000253.1" />
           <coordinates coord_system="LRG_652" start="1" end="4879" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="Clone_based_vega_gene">AP000253.1</symbol>
           <long_name>AP000253.1 (processed_transcript)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000234509" />
           <transcript source="Ensembl" accession="ENST00000449339">
@@ -245,8 +213,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000142168">
+          <symbol source="HGNC" name="SOD1" />
           <coordinates coord_system="LRG_652" start="5001" end="14310" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">SOD1</symbol>
           <long_name>superoxide dismutase 1, soluble (protein_coding)</long_name>
           <db_xref source="GeneID" accession="6647">
             <synonym>ALS</synonym>
@@ -271,21 +239,21 @@
             <exon source="Ensembl" accession="ENSE00001507447">
               <coordinates coord_system="LRG_652" start="5001" end="5220" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003368491">
+            <exon source="Ensembl" accession="ENSE00003492976">
               <coordinates coord_system="LRG_652" start="9169" end="9265" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003441324">
+            <exon source="Ensembl" accession="ENSE00003624439">
               <coordinates coord_system="LRG_652" start="11828" end="11897" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003453412">
+            <exon source="Ensembl" accession="ENSE00003555033">
               <coordinates coord_system="LRG_652" start="12637" end="12754" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003325853">
+            <exon source="Ensembl" accession="ENSE00003683357">
               <coordinates coord_system="LRG_652" start="13850" end="14310" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000270142">
               <coordinates coord_system="LRG_652" start="5149" end="13957" strand="1" mapped_from="GRCh37" />
-              <long_name>superoxide dismutase </long_name>
+              <long_name>superoxide dismutase</long_name>
               <db_xref source="RefSeq" accession="NP_000445.1" />
               <db_xref source="UniProtKB" accession="P00441">
                 <synonym>A6NHJ0</synonym>
@@ -305,16 +273,16 @@
             <exon source="Ensembl" accession="ENSE00001723323">
               <coordinates coord_system="LRG_652" start="5045" end="5163" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003368491">
+            <exon source="Ensembl" accession="ENSE00003492976">
               <coordinates coord_system="LRG_652" start="9169" end="9265" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003441324">
+            <exon source="Ensembl" accession="ENSE00003624439">
               <coordinates coord_system="LRG_652" start="11828" end="11897" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003453412">
+            <exon source="Ensembl" accession="ENSE00003555033">
               <coordinates coord_system="LRG_652" start="12637" end="12754" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003325853">
+            <exon source="Ensembl" accession="ENSE00003683357">
               <coordinates coord_system="LRG_652" start="13850" end="14310" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000374645">
@@ -330,10 +298,10 @@
             <exon source="Ensembl" accession="ENSE00001850931">
               <coordinates coord_system="LRG_652" start="6928" end="7113" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003425600">
+            <exon source="Ensembl" accession="ENSE00003562612">
               <coordinates coord_system="LRG_652" start="9169" end="9265" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003310257">
+            <exon source="Ensembl" accession="ENSE00003528357">
               <coordinates coord_system="LRG_652" start="11828" end="11897" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001892860">
@@ -346,23 +314,23 @@
             <exon source="Ensembl" accession="ENSE00001898140">
               <coordinates coord_system="LRG_652" start="5088" end="6087" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003425600">
+            <exon source="Ensembl" accession="ENSE00003562612">
               <coordinates coord_system="LRG_652" start="9169" end="9265" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003310257">
+            <exon source="Ensembl" accession="ENSE00003528357">
               <coordinates coord_system="LRG_652" start="11828" end="11897" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003347855">
+            <exon source="Ensembl" accession="ENSE00003551618">
               <coordinates coord_system="LRG_652" start="12637" end="12754" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003404719">
+            <exon source="Ensembl" accession="ENSE00003567152">
               <coordinates coord_system="LRG_652" start="13850" end="14310" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000238390">
+          <symbol source="RFAM" name="SNORA81" />
           <coordinates coord_system="LRG_652" start="9685" end="9861" strand="1" mapped_from="GRCh37" />
-          <symbol source="RFAM">SNORA81</symbol>
           <long_name>Small nucleolar RNA SNORA81 [Source:RFAM;Acc:RF01241] (snoRNA)</long_name>
           <db_xref source="RFAM" accession="RF01241" />
           <db_xref source="Ensembl" accession="ENSG00000238390" />
@@ -381,7 +349,7 @@
         <name>List of locus specific databases for SOD1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SOD1</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

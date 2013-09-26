@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_452</id>
+    <hgnc_id>3805</hgnc_id>
     <sequence_source>NG_032165.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>James Ware</name>
         <address>Molecular Cardiology, Imperial College, London, UK</address>
         <email>j.ware@imperial.ac.uk</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,10 +30,10 @@
           <sequence>MNLPRAERLRSTPQRSLRDSDGEDGKIDVLGEEEDEDEEEAASQQFLEQSLQPGLQVARWGGVALPREHIEGGGGPSDPSEFGTEFRAPPRSAAASEDARQPAKPPSSYIALITMAILQSPHKRLTLSGICAFISDRFPYYRRKFPAWQNSIRHNLSLNDCFVKIPREPGRPGKGNYWSLDPASQDMFDNGSFLRRRKRFQRHQPTPGAHLPHPFPLPAAHAALHNPRPGPLLGAPAPPQPVPGAYPNTGPGRRPYALLHPHPPRYLLLSAPAYAGAPKKAEGADLATPAPFPCCSPHLVLSLGRRARVWRRHREADASLSALRVSCKGSGERVQGLRRVCPRPRGATAPCSSDRQACRTILQQQQRHQEEDCANGCAPTKGAVLGGHLSAASALLRYQAVAEGSGLTSLAAPLGGEGTSPVFLVSPTPSSLAESAGPS</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_452" start="5001" end="7187" strand="1" />
-        <coordinates coord_system="LRG_452_t1" start="1" end="2187" />
-        <coordinates coord_system="LRG_452_p1" start="1" end="439" />
+        <coordinates coord_system="LRG_452t1" start="1" end="2187" />
+        <coordinates coord_system="LRG_452p1" start="1" end="439" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -56,8 +48,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="9" other_id="NC_000009.11" other_start="114234" other_end="123417">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="114234" other_end="123417">
         <mapping_span lrg_start="1" lrg_end="9184" other_start="114234" other_end="123417" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">FOXD4</lrg_locus>
@@ -73,25 +65,17 @@
         </contact>
       </source>
       <comment>Annotation from NG_032165.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_452" start="5001" end="7187" />
-            <label>1</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_207305.4" other_name="NM_207305.4" other_id="NM_207305.4" other_start="1" other_end="2187">
         <mapping_span lrg_start="5001" lrg_end="7187" other_start="1" other_end="2187" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">FOXD4</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="55871">
+          <symbol source="HGNC" name="CBWD1">
+            <synonym>COBP</synonym>
+          </symbol>
           <coordinates coord_system="LRG_452" start="1" end="2380" strand="1" />
           <partial>5-prime</partial>
-          <symbol>CBWD1</symbol>
-          <symbol>COBP</symbol>
           <long_name>COBW domain containing 1</long_name>
           <db_xref source="GeneID" accession="55871" />
           <db_xref source="HGNC" accession="17134" />
@@ -197,12 +181,13 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="2298">
+          <symbol source="HGNC" name="FOXD4">
+            <synonym>FKHL9</synonym>
+            <synonym>FOXD4A</synonym>
+            <synonym>FREAC-5</synonym>
+            <synonym>FREAC5</synonym>
+          </symbol>
           <coordinates coord_system="LRG_452" start="5001" end="7187" strand="1" />
-          <symbol>FOXD4</symbol>
-          <symbol>FKHL9</symbol>
-          <symbol>FOXD4A</symbol>
-          <symbol>FREAC-5</symbol>
-          <symbol>FREAC5</symbol>
           <long_name>forkhead box D4</long_name>
           <db_xref source="GeneID" accession="2298" />
           <db_xref source="HGNC" accession="3805" />
@@ -243,16 +228,16 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000382500.2" other_name="ENST00000382500.2" other_id="ENST00000382500.2" other_start="1" other_end="2181">
         <mapping_span lrg_start="5001" lrg_end="7181" other_start="1" other_end="2181" strand="1" />
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000172785">
+          <symbol source="HGNC" name="CBWD1" />
           <coordinates coord_system="LRG_452" start="1" end="2377" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">CBWD1</symbol>
           <long_name>COBW domain containing 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="55871">
             <synonym>COBP</synonym>
@@ -270,14 +255,14 @@
             <long_name>CBWD1-008 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS6438.1" />
             <db_xref source="RefSeq" accession="NM_018491.3" />
-            <exon source="Ensembl" accession="ENSE00003253266">
+            <exon source="Ensembl" accession="ENSE00003537099">
               <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003274077">
+            <exon source="Ensembl" accession="ENSE00003634857">
               <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003411878">
+            <exon source="Ensembl" accession="ENSE00003587421">
               <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001850433">
@@ -286,7 +271,7 @@
             <protein_product source="Ensembl" accession="ENSP00000348915">
               <coordinates coord_system="LRG_452" start="1" end="1951" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>COBW domain-containing protein 1 isoform 1 </long_name>
+              <long_name>COBW domain-containing protein 1 isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_060961.3" />
               <db_xref source="UniProtKB" accession="Q9BRT8">
                 <synonym>A2RU55</synonym>
@@ -306,14 +291,14 @@
             <coordinates coord_system="LRG_452" start="1" end="2376" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>CBWD1-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003253266">
+            <exon source="Ensembl" accession="ENSE00003537099">
               <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003274077">
+            <exon source="Ensembl" accession="ENSE00003634857">
               <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003411878">
+            <exon source="Ensembl" accession="ENSE00003587421">
               <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001720758">
@@ -328,7 +313,7 @@
             <coordinates coord_system="LRG_452" start="1" end="2366" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>CBWD1-004 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003302373">
+            <exon source="Ensembl" accession="ENSE00003690842">
               <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
@@ -342,14 +327,14 @@
             <long_name>CBWD1-012 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS47947.1" />
             <db_xref source="RefSeq" accession="NM_001145356.1" />
-            <exon source="Ensembl" accession="ENSE00003253266">
+            <exon source="Ensembl" accession="ENSE00003537099">
               <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003274077">
+            <exon source="Ensembl" accession="ENSE00003634857">
               <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003411878">
+            <exon source="Ensembl" accession="ENSE00003587421">
               <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001899746">
@@ -358,7 +343,7 @@
             <protein_product source="Ensembl" accession="ENSP00000371885">
               <coordinates coord_system="LRG_452" start="1" end="1951" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>COBW domain-containing protein 1 isoform 3 </long_name>
+              <long_name>COBW domain-containing protein 1 isoform 3</long_name>
               <db_xref source="RefSeq" accession="NP_001138828.1" />
               <db_xref source="UniProtKB" accession="Q9BRT8">
                 <synonym>A2RU55</synonym>
@@ -378,17 +363,17 @@
             <coordinates coord_system="LRG_452" start="1" end="2008" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>CBWD1-014 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003302373">
+            <exon source="Ensembl" accession="ENSE00003690842">
               <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003254157">
+            <exon source="Ensembl" accession="ENSE00003593429">
               <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003339749">
+            <exon source="Ensembl" accession="ENSE00003569247">
               <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003345931">
+            <exon source="Ensembl" accession="ENSE00003579091">
               <coordinates coord_system="LRG_452" start="1845" end="2008" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -398,23 +383,23 @@
             <long_name>CBWD1-009 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS47948.1" />
             <db_xref source="RefSeq" accession="NM_001145355.1" />
-            <exon source="Ensembl" accession="ENSE00003253266">
+            <exon source="Ensembl" accession="ENSE00003537099">
               <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003274077">
+            <exon source="Ensembl" accession="ENSE00003634857">
               <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003411878">
+            <exon source="Ensembl" accession="ENSE00003587421">
               <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003401824">
+            <exon source="Ensembl" accession="ENSE00003689618">
               <coordinates coord_system="LRG_452" start="1845" end="2008" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000323433">
               <coordinates coord_system="LRG_452" start="1" end="1951" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>COBW domain-containing protein 1 isoform 2 </long_name>
+              <long_name>COBW domain-containing protein 1 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001138827.1" />
               <db_xref source="UniProtKB" accession="Q9BRT8">
                 <synonym>A2RU55</synonym>
@@ -434,17 +419,17 @@
             <coordinates coord_system="LRG_452" start="1" end="2008" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>CBWD1-001 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003302373">
+            <exon source="Ensembl" accession="ENSE00003690842">
               <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003254157">
+            <exon source="Ensembl" accession="ENSE00003593429">
               <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003339749">
+            <exon source="Ensembl" accession="ENSE00003569247">
               <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003345931">
+            <exon source="Ensembl" accession="ENSE00003579091">
               <coordinates coord_system="LRG_452" start="1845" end="2008" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -456,10 +441,10 @@
               <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003254157">
+            <exon source="Ensembl" accession="ENSE00003593429">
               <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003339749">
+            <exon source="Ensembl" accession="ENSE00003569247">
               <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001883856">
@@ -470,14 +455,14 @@
             <coordinates coord_system="LRG_452" start="1" end="2000" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>CBWD1-003 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003302373">
+            <exon source="Ensembl" accession="ENSE00003690842">
               <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003254157">
+            <exon source="Ensembl" accession="ENSE00003593429">
               <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003339749">
+            <exon source="Ensembl" accession="ENSE00003569247">
               <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001858908">
@@ -488,11 +473,11 @@
             <coordinates coord_system="LRG_452" start="1" end="1915" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>CBWD1-006 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003302373">
+            <exon source="Ensembl" accession="ENSE00003690842">
               <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003254157">
+            <exon source="Ensembl" accession="ENSE00003593429">
               <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001878625">
@@ -506,11 +491,11 @@
             <coordinates coord_system="LRG_452" start="1" end="1447" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>CBWD1-002 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003302373">
+            <exon source="Ensembl" accession="ENSE00003690842">
               <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003254157">
+            <exon source="Ensembl" accession="ENSE00003593429">
               <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001869933">
@@ -519,8 +504,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000170122">
+          <symbol source="HGNC" name="FOXD4" />
           <coordinates coord_system="LRG_452" start="5001" end="7181" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">FOXD4</symbol>
           <long_name>forkhead box D4 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="2298">
             <synonym>FKHL9</synonym>
@@ -545,7 +530,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000371940">
               <coordinates coord_system="LRG_452" start="5299" end="6618" strand="1" mapped_from="GRCh37" />
-              <long_name>forkhead box protein D4 </long_name>
+              <long_name>forkhead box protein D4</long_name>
               <db_xref source="RefSeq" accession="NP_997188.2" />
               <db_xref source="UniProtKB" accession="Q12950">
                 <synonym>B2RN05</synonym>
@@ -563,7 +548,7 @@
         <name>List of locus specific databases for FOXD4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FOXD4</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

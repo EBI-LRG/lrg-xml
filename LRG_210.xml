@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_210</id>
+    <hgnc_id>11610</hgnc_id>
     <sequence_source>NG_008892.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -13,15 +14,6 @@
         <name>Johan den Dunnen</name>
         <address>Leiden University Medical Center, Leiden, The Netherlands</address>
         <email>ddunnen@lumc.nl</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,16 +30,16 @@
           <sequence>MATSELSCEVSEENCERREAFWAEWKDLTLSTRPEEGCSLHEEDTQRHETYHQQGQCQVLVQRSPWLMMRMGILGRGLQEYQLPYQRVLPLPIFTPAKMGATKEEREDTPIQLQELLALETALGGQCVDRQEVAEITKQLPPVVPVSKPGALRRSLSRSMSQEAQRG</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_210" start="5001" end="5124" strand="1" />
-        <coordinates coord_system="LRG_210_t1" start="1" end="124" />
-        <coordinates coord_system="LRG_210_p1" start="1" end="37" />
+        <coordinates coord_system="LRG_210t1" start="1" end="124" />
+        <coordinates coord_system="LRG_210p1" start="1" end="37" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_210" start="5371" end="6209" strand="1" />
-        <coordinates coord_system="LRG_210_t1" start="125" end="963" />
-        <coordinates coord_system="LRG_210_p1" start="37" end="167" />
+        <coordinates coord_system="LRG_210t1" start="125" end="963" />
+        <coordinates coord_system="LRG_210p1" start="37" end="167" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -62,8 +54,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="17" other_id="NC_000017.10" other_start="37816599" other_end="37824807">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="37816599" other_end="37824807">
         <mapping_span lrg_start="1" lrg_end="8209" other_start="37816599" other_end="37824807" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">TCAP</lrg_locus>
@@ -79,32 +71,20 @@
         </contact>
       </source>
       <comment>Annotation from NG_008892.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_210" start="5001" end="5124" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_210" start="5371" end="6209" />
-            <label>2</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_003673.3" other_name="NM_003673.3" other_id="NM_003673.3" other_start="1" other_end="963">
         <mapping_span lrg_start="5001" lrg_end="5124" other_start="1" other_end="124" strand="1" />
         <mapping_span lrg_start="5371" lrg_end="6209" other_start="125" other_end="963" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">TCAP</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="10948">
+          <symbol source="HGNC" name="STARD3">
+            <synonym>CAB1</synonym>
+            <synonym>es64</synonym>
+            <synonym>MLN64</synonym>
+          </symbol>
           <coordinates coord_system="LRG_210" start="1" end="3856" strand="1" />
           <partial>5-prime</partial>
-          <symbol>STARD3</symbol>
-          <symbol>CAB1</symbol>
-          <symbol>es64</symbol>
-          <symbol>MLN64</symbol>
           <long_name>StAR-related lipid transfer (START) domain containing 3</long_name>
           <db_xref source="GeneID" accession="10948" />
           <db_xref source="HGNC" accession="17579" />
@@ -222,13 +202,14 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="8557">
+          <symbol source="HGNC" name="TCAP">
+            <synonym>CMD1N</synonym>
+            <synonym>LGMD2G</synonym>
+            <synonym>T-cap</synonym>
+            <synonym>TELE</synonym>
+            <synonym>telethonin</synonym>
+          </symbol>
           <coordinates coord_system="LRG_210" start="5001" end="6209" strand="1" />
-          <symbol>TCAP</symbol>
-          <symbol>CMD1N</symbol>
-          <symbol>LGMD2G</symbol>
-          <symbol>T-cap</symbol>
-          <symbol>TELE</symbol>
-          <symbol>telethonin</symbol>
           <long_name>titin-cap</long_name>
           <db_xref source="GeneID" accession="8557" />
           <db_xref source="HGNC" accession="11610" />
@@ -259,11 +240,12 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="5409">
+          <symbol source="HGNC" name="PNMT">
+            <synonym>PENT</synonym>
+            <synonym>PNMTase</synonym>
+          </symbol>
           <coordinates coord_system="LRG_210" start="7636" end="8209" strand="1" />
           <partial>3-prime</partial>
-          <symbol>PNMT</symbol>
-          <symbol>PENT</symbol>
-          <symbol>PNMTase</symbol>
           <long_name>phenylethanolamine N-methyltransferase</long_name>
           <db_xref source="GeneID" accession="5409" />
           <db_xref source="HGNC" accession="9160" />
@@ -313,8 +295,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000309889.2" other_name="ENST00000309889.2" other_id="ENST00000309889.2" other_start="1" other_end="2123">
         <mapping_span lrg_start="3842" lrg_end="5124" other_start="1" other_end="1283" strand="1" />
         <mapping_span lrg_start="5371" lrg_end="6210" other_start="1284" other_end="2123" strand="1" />
@@ -326,9 +308,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000131748">
+          <symbol source="HGNC" name="STARD3" />
           <coordinates coord_system="LRG_210" start="1" end="3139" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">STARD3</symbol>
           <long_name>StAR-related lipid transfer (START) domain containing 3 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="10948">
             <synonym>CAB1</synonym>
@@ -344,29 +326,29 @@
           <transcript source="Ensembl" accession="ENST00000336308">
             <coordinates coord_system="LRG_210" start="1" end="3139" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>,  (protein_coding)</long_name>
+            <long_name>STARD3-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS11341.1" />
             <db_xref source="RefSeq" accession="NM_001165937.1" />
             <db_xref source="RefSeq" accession="NM_006804.3" />
-            <exon source="Ensembl" accession="ENSE00003441531">
+            <exon source="Ensembl" accession="ENSE00003616833">
               <coordinates coord_system="LRG_210" start="86" end="181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003419159">
+            <exon source="Ensembl" accession="ENSE00003521825">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003413867">
+            <exon source="Ensembl" accession="ENSE00003572659">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003334051">
+            <exon source="Ensembl" accession="ENSE00003580635">
               <coordinates coord_system="LRG_210" start="1906" end="1999" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003368527">
+            <exon source="Ensembl" accession="ENSE00003595153">
               <coordinates coord_system="LRG_210" start="2459" end="3139" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000337446">
               <coordinates coord_system="LRG_210" start="1" end="2563" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>stAR-related lipid transfer protein 3 isoform 1 , stAR-related lipid transfer protein 3 isoform 2 </long_name>
+              <long_name>stAR-related lipid transfer protein 3 isoform 1, stAR-related lipid transfer protein 3 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_006795.3" />
               <db_xref source="RefSeq" accession="NP_001159409.1" />
               <db_xref source="UniProtKB" accession="Q14849">
@@ -383,16 +365,16 @@
             <partial>5-prime</partial>
             <long_name>STARD3-012 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS54117.1" />
-            <exon source="Ensembl" accession="ENSE00003441531">
+            <exon source="Ensembl" accession="ENSE00003616833">
               <coordinates coord_system="LRG_210" start="86" end="181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003419159">
+            <exon source="Ensembl" accession="ENSE00003521825">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003413867">
+            <exon source="Ensembl" accession="ENSE00003572659">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003334051">
+            <exon source="Ensembl" accession="ENSE00003580635">
               <coordinates coord_system="LRG_210" start="1906" end="1999" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002722150">
@@ -414,16 +396,16 @@
             <coordinates coord_system="LRG_210" start="1" end="2662" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>STARD3-011 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00003384985">
+            <exon source="Ensembl" accession="ENSE00003616879">
               <coordinates coord_system="LRG_210" start="86" end="181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003445317">
+            <exon source="Ensembl" accession="ENSE00003621780">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003340465">
+            <exon source="Ensembl" accession="ENSE00003666947">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003446664">
+            <exon source="Ensembl" accession="ENSE00003474554">
               <coordinates coord_system="LRG_210" start="1906" end="1999" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002693915">
@@ -436,16 +418,16 @@
             <long_name>STARD3-008 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS54118.1" />
             <db_xref source="RefSeq" accession="NM_001165938.1" />
-            <exon source="Ensembl" accession="ENSE00003441531">
+            <exon source="Ensembl" accession="ENSE00003616833">
               <coordinates coord_system="LRG_210" start="86" end="181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003419159">
+            <exon source="Ensembl" accession="ENSE00003521825">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003413867">
+            <exon source="Ensembl" accession="ENSE00003572659">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003334051">
+            <exon source="Ensembl" accession="ENSE00003580635">
               <coordinates coord_system="LRG_210" start="1906" end="1999" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001951183">
@@ -454,7 +436,7 @@
             <protein_product source="Ensembl" accession="ENSP00000377794">
               <coordinates coord_system="LRG_210" start="1" end="2563" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>stAR-related lipid transfer protein 3 isoform 3 </long_name>
+              <long_name>stAR-related lipid transfer protein 3 isoform 3</long_name>
               <db_xref source="RefSeq" accession="NP_001159410.1" />
               <db_xref source="UniProtKB" accession="Q14849">
                 <synonym>A8MXA4</synonym>
@@ -469,19 +451,19 @@
             <coordinates coord_system="LRG_210" start="1" end="3139" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>STARD3-013 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003441531">
+            <exon source="Ensembl" accession="ENSE00003616833">
               <coordinates coord_system="LRG_210" start="86" end="181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003419159">
+            <exon source="Ensembl" accession="ENSE00003521825">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003413867">
+            <exon source="Ensembl" accession="ENSE00003572659">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002688775">
               <coordinates coord_system="LRG_210" start="1906" end="2022" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003338672">
+            <exon source="Ensembl" accession="ENSE00003523001">
               <coordinates coord_system="LRG_210" start="2459" end="3139" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000463613">
@@ -493,19 +475,19 @@
             <coordinates coord_system="LRG_210" start="1" end="3139" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>STARD3-003 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00003384985">
+            <exon source="Ensembl" accession="ENSE00003616879">
               <coordinates coord_system="LRG_210" start="86" end="181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003445317">
+            <exon source="Ensembl" accession="ENSE00003621780">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003340465">
+            <exon source="Ensembl" accession="ENSE00003666947">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003446664">
+            <exon source="Ensembl" accession="ENSE00003474554">
               <coordinates coord_system="LRG_210" start="1906" end="1999" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003317273">
+            <exon source="Ensembl" accession="ENSE00003586565">
               <coordinates coord_system="LRG_210" start="2459" end="3139" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
@@ -517,10 +499,10 @@
               <coordinates coord_system="LRG_210" start="1" end="181" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003445317">
+            <exon source="Ensembl" accession="ENSE00003621780">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003340465">
+            <exon source="Ensembl" accession="ENSE00003666947">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001908462">
@@ -531,16 +513,16 @@
             <coordinates coord_system="LRG_210" start="1" end="3088" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>STARD3-014 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00003384985">
+            <exon source="Ensembl" accession="ENSE00003616879">
               <coordinates coord_system="LRG_210" start="86" end="181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003445317">
+            <exon source="Ensembl" accession="ENSE00003621780">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003340465">
+            <exon source="Ensembl" accession="ENSE00003666947">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003446664">
+            <exon source="Ensembl" accession="ENSE00003474554">
               <coordinates coord_system="LRG_210" start="1906" end="1999" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002232855">
@@ -555,13 +537,13 @@
               <coordinates coord_system="LRG_210" start="1" end="181" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003445317">
+            <exon source="Ensembl" accession="ENSE00003621780">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003340465">
+            <exon source="Ensembl" accession="ENSE00003666947">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003446664">
+            <exon source="Ensembl" accession="ENSE00003474554">
               <coordinates coord_system="LRG_210" start="1906" end="1999" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001239235">
@@ -576,13 +558,13 @@
               <coordinates coord_system="LRG_210" start="1" end="181" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003445317">
+            <exon source="Ensembl" accession="ENSE00003621780">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003340465">
+            <exon source="Ensembl" accession="ENSE00003666947">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003446664">
+            <exon source="Ensembl" accession="ENSE00003474554">
               <coordinates coord_system="LRG_210" start="1906" end="1999" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001239235">
@@ -593,13 +575,13 @@
             <coordinates coord_system="LRG_210" start="1" end="1976" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>STARD3-025 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00003384985">
+            <exon source="Ensembl" accession="ENSE00003616879">
               <coordinates coord_system="LRG_210" start="86" end="181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003445317">
+            <exon source="Ensembl" accession="ENSE00003621780">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003340465">
+            <exon source="Ensembl" accession="ENSE00003666947">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002686231">
@@ -610,13 +592,13 @@
             <coordinates coord_system="LRG_210" start="1" end="2551" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>STARD3-028 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003384985">
+            <exon source="Ensembl" accession="ENSE00003616879">
               <coordinates coord_system="LRG_210" start="86" end="181" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003445317">
+            <exon source="Ensembl" accession="ENSE00003621780">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003340465">
+            <exon source="Ensembl" accession="ENSE00003666947">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002725992">
@@ -631,10 +613,10 @@
               <coordinates coord_system="LRG_210" start="1" end="181" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003445317">
+            <exon source="Ensembl" accession="ENSE00003621780">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003340465">
+            <exon source="Ensembl" accession="ENSE00003666947">
               <coordinates coord_system="LRG_210" start="636" end="740" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002685588">
@@ -649,7 +631,7 @@
               <coordinates coord_system="LRG_210" start="1" end="181" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </exon>
-            <exon source="Ensembl" accession="ENSE00003445317">
+            <exon source="Ensembl" accession="ENSE00003621780">
               <coordinates coord_system="LRG_210" start="465" end="544" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002733142">
@@ -658,8 +640,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000173991">
+          <symbol source="HGNC" name="TCAP" />
           <coordinates coord_system="LRG_210" start="3842" end="6210" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">TCAP</symbol>
           <long_name>titin-cap (protein_coding)</long_name>
           <db_xref source="GeneID" accession="8557">
             <synonym>CMD1N</synonym>
@@ -709,15 +691,15 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000462787">
               <coordinates coord_system="LRG_210" start="5015" end="5764" strand="1" mapped_from="GRCh37" />
-              <long_name>telethonin </long_name>
+              <long_name>telethonin</long_name>
               <db_xref source="RefSeq" accession="NP_003664.1" />
             </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000141744">
+          <symbol source="HGNC" name="PNMT" />
           <coordinates coord_system="LRG_210" start="7636" end="8209" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="HGNC">PNMT</symbol>
           <long_name>phenylethanolamine N-methyltransferase (protein_coding)</long_name>
           <db_xref source="GeneID" accession="5409">
             <synonym>PENT</synonym>
@@ -749,7 +731,7 @@
             <protein_product source="Ensembl" accession="ENSP00000269582">
               <coordinates coord_system="LRG_210" start="8131" end="8209" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>phenylethanolamine N-methyltransferase </long_name>
+              <long_name>phenylethanolamine N-methyltransferase</long_name>
               <db_xref source="RefSeq" accession="NP_002677.1" />
               <db_xref source="UniProtKB" accession="P11086" />
             </protein_product>
@@ -775,7 +757,7 @@
         <name>List of locus specific databases for TCAP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TCAP</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

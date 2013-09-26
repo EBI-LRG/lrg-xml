@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_266</id>
+    <hgnc_id>9788</hgnc_id>
     <sequence_source>NG_008070.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Valerie Delague</name>
         <address>Aix-Marseille University, Marseille, France</address>
         <email>valerie.delague@univ-amu.fr</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,38 +30,38 @@
           <sequence>MTSRKKVLLKVIILGDSGVGKTSLMNQYVNKKFSNQYKATIGADFLTKEVMVDDRLVTMQIWDTAGQERFQSLGVAFYRGADCCVLVFDVTAPNTFKTLDSWRDEFLIQASPRDPENFPFVVLGNKIDLENRQVATKRAQAWCYSKNNIPYFETSAKEAINVEQAFQTIARNALKQETEVELYNEFPEPIKLDKNDRAKASAESCSC</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_266" start="5001" end="5224" strand="1" />
-        <coordinates coord_system="LRG_266_t1" start="1" end="224" />
+        <coordinates coord_system="LRG_266t1" start="1" end="224" />
       </exon>
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_266" start="74225" end="74285" strand="1" />
-        <coordinates coord_system="LRG_266_t1" start="225" end="285" />
-        <coordinates coord_system="LRG_266_p1" start="1" end="18" />
+        <coordinates coord_system="LRG_266t1" start="225" end="285" />
+        <coordinates coord_system="LRG_266p1" start="1" end="18" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_266" start="76808" end="76934" strand="1" />
-        <coordinates coord_system="LRG_266_t1" start="286" end="412" />
-        <coordinates coord_system="LRG_266_p1" start="18" end="60" />
+        <coordinates coord_system="LRG_266t1" start="286" end="412" />
+        <coordinates coord_system="LRG_266p1" start="18" end="60" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_266" start="85237" end="85455" strand="1" />
-        <coordinates coord_system="LRG_266_t1" start="413" end="631" />
-        <coordinates coord_system="LRG_266_p1" start="61" end="133" />
+        <coordinates coord_system="LRG_266t1" start="413" end="631" />
+        <coordinates coord_system="LRG_266p1" start="61" end="133" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_266" start="86408" end="86536" strand="1" />
-        <coordinates coord_system="LRG_266_t1" start="632" end="760" />
-        <coordinates coord_system="LRG_266_p1" start="134" end="176" />
+        <coordinates coord_system="LRG_266t1" start="632" end="760" />
+        <coordinates coord_system="LRG_266p1" start="134" end="176" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="6">
         <coordinates coord_system="LRG_266" start="92192" end="93663" strand="1" />
-        <coordinates coord_system="LRG_266_t1" start="761" end="2232" />
-        <coordinates coord_system="LRG_266_p1" start="177" end="207" />
+        <coordinates coord_system="LRG_266t1" start="761" end="2232" />
+        <coordinates coord_system="LRG_266p1" start="177" end="207" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -84,8 +76,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="3" other_id="NC_000003.11" other_start="128439979" other_end="128535641">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="128439979" other_end="128535641">
         <mapping_span lrg_start="1" lrg_end="95663" other_start="128439979" other_end="128535641" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">RAB7A</lrg_locus>
@@ -101,35 +93,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008070.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_266" start="5001" end="5224" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_266" start="74225" end="74285" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_266" start="76808" end="76934" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_266" start="85237" end="85455" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_266" start="86408" end="86536" />
-            <label>5</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_266" start="92192" end="93663" />
-            <label>6</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_004637.5" other_name="NM_004637.5" other_id="NM_004637.5" other_start="1" other_end="2232">
         <mapping_span lrg_start="5001" lrg_end="5224" other_start="1" other_end="224" strand="1" />
         <mapping_span lrg_start="74225" lrg_end="74285" other_start="225" other_end="285" strand="1" />
@@ -138,13 +102,13 @@
         <mapping_span lrg_start="86408" lrg_end="86536" other_start="632" other_end="760" strand="1" />
         <mapping_span lrg_start="92192" lrg_end="93663" other_start="761" other_end="2232" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">RAB7A</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="7879">
+          <symbol source="HGNC" name="RAB7A">
+            <synonym>PRO2706</synonym>
+            <synonym>RAB7</synonym>
+          </symbol>
           <coordinates coord_system="LRG_266" start="5001" end="93663" strand="1" />
-          <symbol>RAB7A</symbol>
-          <symbol>PRO2706</symbol>
-          <symbol>RAB7</symbol>
           <long_name>RAB7A, member RAS oncogene family</long_name>
           <db_xref source="GeneID" accession="7879" />
           <db_xref source="HGNC" accession="9788" />
@@ -186,9 +150,10 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="2499">
+          <symbol source="HGNC" name="FTH1P4">
+            <synonym>FTHL4</synonym>
+          </symbol>
           <coordinates coord_system="LRG_266" start="43071" end="44182" strand="-1" />
-          <symbol>FTH1P4</symbol>
-          <symbol>FTHL4</symbol>
           <long_name>ferritin, heavy polypeptide 1 pseudogene 4</long_name>
           <db_xref source="GeneID" accession="2499" />
           <db_xref source="HGNC" accession="3991" />
@@ -205,8 +170,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000265062.3" other_name="ENST00000265062.3" other_id="ENST00000265062.3" other_start="1" other_end="2244">
         <mapping_span lrg_start="4987" lrg_end="5224" other_start="1" other_end="238" strand="1" />
         <mapping_span lrg_start="74225" lrg_end="74285" other_start="239" other_end="299" strand="1" />
@@ -259,8 +224,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000075785">
+          <symbol source="HGNC" name="RAB7A" />
           <coordinates coord_system="LRG_266" start="4987" end="93661" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">RAB7A</symbol>
           <long_name>RAB7A, member RAS oncogene family (protein_coding)</long_name>
           <db_xref source="GeneID" accession="7879">
             <synonym>PRO2706</synonym>
@@ -279,7 +244,7 @@
             <exon source="Ensembl" accession="ENSE00001236693">
               <coordinates coord_system="LRG_266" start="4987" end="5224" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003281147">
+            <exon source="Ensembl" accession="ENSE00003489442">
               <coordinates coord_system="LRG_266" start="74225" end="74285" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000903897">
@@ -296,7 +261,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000265062">
               <coordinates coord_system="LRG_266" start="74233" end="92287" strand="1" mapped_from="GRCh37" />
-              <long_name>ras-related protein Rab-7a </long_name>
+              <long_name>ras-related protein Rab-7a</long_name>
               <db_xref source="RefSeq" accession="NP_004628.4" />
               <db_xref source="UniProtKB" accession="P51149">
                 <synonym>A8K3V6</synonym>
@@ -311,7 +276,7 @@
             <exon source="Ensembl" accession="ENSE00001951473">
               <coordinates coord_system="LRG_266" start="5058" end="5224" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003281147">
+            <exon source="Ensembl" accession="ENSE00003489442">
               <coordinates coord_system="LRG_266" start="74225" end="74285" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000903897">
@@ -336,7 +301,7 @@
             <exon source="Ensembl" accession="ENSE00002343280">
               <coordinates coord_system="LRG_266" start="5217" end="5224" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003427614">
+            <exon source="Ensembl" accession="ENSE00003661760">
               <coordinates coord_system="LRG_266" start="74225" end="74285" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001901746">
@@ -437,8 +402,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000239503">
+          <symbol source="HGNC" name="MARK2P8" />
           <coordinates coord_system="LRG_266" start="27403" end="28354" strand="-1" mapped_from="GRCh37" />
-          <symbol source="HGNC">MARK2P8</symbol>
           <long_name>MAP/microtubule affinity-regulating kinase 2 pseudogene 8 (pseudogene)</long_name>
           <db_xref source="HGNC" accession="39799" />
           <db_xref source="Ensembl" accession="ENSG00000239503" />
@@ -451,8 +416,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000242992">
+          <symbol source="HGNC" name="FTH1P4" />
           <coordinates coord_system="LRG_266" start="43331" end="43883" strand="-1" mapped_from="GRCh37" />
-          <symbol source="HGNC">FTH1P4</symbol>
           <long_name>ferritin, heavy polypeptide 1 pseudogene 4 (pseudogene)</long_name>
           <db_xref source="HGNC" accession="3991">
             <synonym>FTHL4</synonym>
@@ -474,22 +439,23 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000244232">
+          <symbol source="HGNC" name="RN7SL698P" />
           <coordinates coord_system="LRG_266" start="64012" end="64310" strand="1" mapped_from="GRCh37" />
-          <symbol source="RFAM">Metazoa_SRP</symbol>
-          <long_name>Metazoan signal recognition particle RNA [Source:RFAM;Acc:RF00017] (misc_RNA)</long_name>
+          <long_name>RNA, 7SL, cytoplasmic 698, pseudogene (misc_RNA)</long_name>
+          <db_xref source="HGNC" accession="46714" />
           <db_xref source="RFAM" accession="RF00017" />
           <db_xref source="Ensembl" accession="ENSG00000244232" />
           <transcript source="Ensembl" accession="ENST00000480095">
             <coordinates coord_system="LRG_266" start="64012" end="64310" strand="1" mapped_from="GRCh37" />
-            <long_name>Metazoa_SRP.460-201 (misc_RNA)</long_name>
+            <long_name>RN7SL698P-201 (misc_RNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001860813">
               <coordinates coord_system="LRG_266" start="64012" end="64310" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000239483">
+          <symbol source="HGNC" name="RPS15AP16" />
           <coordinates coord_system="LRG_266" start="77706" end="78066" strand="-1" mapped_from="GRCh37" />
-          <symbol source="HGNC">RPS15AP16</symbol>
           <long_name>ribosomal protein S15a pseudogene 16 (pseudogene)</long_name>
           <db_xref source="HGNC" accession="36764" />
           <db_xref source="Ensembl" accession="ENSG00000239483" />
@@ -508,7 +474,7 @@
         <name>List of locus specific databases for RAB7A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RAB7A</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_691</id>
+    <hgnc_id>2079</hgnc_id>
     <sequence_source>NG_008656.2</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -37,20 +38,20 @@
           <sequence>MNPASDGGTSESIFDLDYASWGIRSTLMVAGFVFYLGVFVVCHQLSSSLNATYRSLVAREKVFWDLAATRAVFGVQSTAAGLWALLGDPVLHADKARGQQNWCWFHITTATGFFCFENVAVHLSNLIFRTFDLFLVIHHLFAFLGFLGCLVNLQAGHYLAMTTLLLEMSTPFTCVSWMLLKAGWSESLFWKLNQWLMIHMFHCRMVLTYHMWWVCFWHWDGLVSSLYLPHLTLFLVGLALLTLIINPYWTHKKTQQLLNPVDWNFAQPEAKSRPEGNGQLLRKKRP</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_691" start="12927" end="13108" strand="1" />
-        <coordinates coord_system="LRG_691_t1" start="1" end="182" />
+        <coordinates coord_system="LRG_691t1" start="1" end="182" />
       </exon>
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_691" start="20155" end="20820" strand="1" />
-        <coordinates coord_system="LRG_691_t1" start="183" end="848" />
-        <coordinates coord_system="LRG_691_p1" start="1" end="181" />
+        <coordinates coord_system="LRG_691t1" start="183" end="848" />
+        <coordinates coord_system="LRG_691p1" start="1" end="181" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_691" start="29473" end="35793" strand="1" />
-        <coordinates coord_system="LRG_691_t1" start="849" end="7169" />
-        <coordinates coord_system="LRG_691_p1" start="182" end="286" />
+        <coordinates coord_system="LRG_691t1" start="849" end="7169" />
+        <coordinates coord_system="LRG_691p1" start="182" end="286" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -65,8 +66,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="8" other_id="NC_000008.10" other_start="1698944" other_end="1736736">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="8" other_id="NC_000008.10" other_start="1698944" other_end="1736736">
         <mapping_span lrg_start="1" lrg_end="37793" other_start="1698944" other_end="1736736" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">CLN8</lrg_locus>
@@ -82,35 +83,19 @@
         </contact>
       </source>
       <comment>Annotation from NG_008656.2</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_691" start="12927" end="13108" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_691" start="20155" end="20820" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_691" start="29473" end="35793" />
-            <label>3</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_018941.3" other_name="NM_018941.3" other_id="NM_018941.3" other_start="1" other_end="7169">
         <mapping_span lrg_start="12927" lrg_end="13108" other_start="1" other_end="182" strand="1" />
         <mapping_span lrg_start="20155" lrg_end="20820" other_start="183" other_end="848" strand="1" />
         <mapping_span lrg_start="29473" lrg_end="35793" other_start="849" other_end="7169" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">CLN8</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="2055">
+          <symbol source="HGNC" name="CLN8">
+            <synonym>C8orf61</synonym>
+            <synonym>EPMR</synonym>
+          </symbol>
           <coordinates coord_system="LRG_691" start="12927" end="35793" strand="1" />
-          <symbol>CLN8</symbol>
-          <symbol>C8orf61</symbol>
-          <symbol>EPMR</symbol>
           <long_name>ceroid-lipofuscinosis, neuronal 8 (epilepsy, progressive with mental retardation)</long_name>
           <db_xref source="GeneID" accession="2055" />
           <db_xref source="HGNC" accession="2079" />
@@ -152,8 +137,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000331222.4" other_name="ENST00000331222.4" other_id="ENST00000331222.4" other_start="1" other_end="7113">
         <mapping_span lrg_start="12985" lrg_end="13108" other_start="1" other_end="124" strand="1" />
         <mapping_span lrg_start="20155" lrg_end="20820" other_start="125" other_end="790" strand="1" />
@@ -186,8 +171,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000182372">
+          <symbol source="HGNC" name="CLN8" />
           <coordinates coord_system="LRG_691" start="5001" end="35795" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">CLN8</symbol>
           <long_name>ceroid-lipofuscinosis, neuronal 8 (epilepsy, progressive with mental retardation) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="2055">
             <synonym>C8orf61</synonym>
@@ -249,7 +234,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000328182">
               <coordinates coord_system="LRG_691" start="20278" end="29790" strand="1" mapped_from="GRCh37" />
-              <long_name>protein CLN8 </long_name>
+              <long_name>protein CLN8</long_name>
               <db_xref source="RefSeq" accession="NP_061764.2" />
               <db_xref source="UniProtKB" accession="Q9UBY8">
                 <synonym>Q86U71</synonym>
@@ -289,8 +274,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000253982">
+          <symbol source="Clone_based_vega_gene" name="CTD-2336O2.1" />
           <coordinates coord_system="LRG_691" start="11213" end="13725" strand="-1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_vega_gene">CTD-2336O2.1</symbol>
           <long_name>CTD-2336O2.1 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000253982" />
           <transcript source="Ensembl" accession="ENST00000518822">
@@ -331,7 +316,7 @@
         <name>List of locus specific databases for CLN8</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CLN8</url>
       </source>
-      <modification_date>2013-05-31</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

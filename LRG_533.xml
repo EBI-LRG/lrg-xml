@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_533</id>
+    <hgnc_id>1786</hgnc_id>
     <sequence_source>NG_008022.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Nazneen Rahman</name>
         <address>Institute of Cancer Research, Sutton, Surrey, UK</address>
         <email>Nazneen.Rahman@icr.ac.uk</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,20 +30,20 @@
           <sequence>MSDASLRSTSTMERLVARGTFPVLVRTSACRSLFGPVDHEELSRELQARLAELNAEDQNRWDYDFQQDMPLRGPGRLQWTEVDSDSVPAFYRETVQVGRCRLLLAPRPVAVAVAVSPPLEPAAESLDGLEEAPEQLPSVPVPAPASTPPPVPVLAPAPAPAPAPVAAPVAAPVAVAVLAPAPAPAPAPAPAPAPVAAPAPAPAPAPAPAPAPAPAPDAAPQESAEQGANQGQRGQEPLADQLHSGISGRPAAGTAAASANGAAIKKLSGPLISDFFAKRKRSAPEKSSGDVPAPCPSPSAAPGVGSVEQTPRKRLR</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_533" start="5001" end="6096" strand="1" />
-        <coordinates coord_system="LRG_533_t1" start="1" end="1096" />
-        <coordinates coord_system="LRG_533_p1" start="1" end="274" />
+        <coordinates coord_system="LRG_533t1" start="1" end="1096" />
+        <coordinates coord_system="LRG_533p1" start="1" end="274" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" />
-        <coordinates coord_system="LRG_533_t1" start="1097" end="1232" />
-        <coordinates coord_system="LRG_533_p1" start="274" end="316" />
+        <coordinates coord_system="LRG_533t1" start="1097" end="1232" />
+        <coordinates coord_system="LRG_533p1" start="274" end="316" />
       </exon>
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_533" start="6851" end="7548" strand="1" />
-        <coordinates coord_system="LRG_533_t1" start="1233" end="1930" />
+        <coordinates coord_system="LRG_533t1" start="1233" end="1930" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -66,8 +58,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="11" other_id="NC_000011.9" other_start="2902448" other_end="2911995">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="2902448" other_end="2911995">
         <mapping_span lrg_start="1" lrg_end="9548" other_start="2902448" other_end="2911995" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CDKN1C</lrg_locus>
@@ -83,23 +75,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008022.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_533" start="5001" end="6096" />
-            <label>1b</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_533" start="6632" end="6767" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_533" start="6851" end="7548" />
-            <label>3a</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_000076.2" other_name="NM_000076.2" other_id="NM_000076.2" other_start="1" other_end="1930">
         <mapping_span lrg_start="5001" lrg_end="6096" other_start="1" other_end="1096" strand="1" />
         <mapping_span lrg_start="6632" lrg_end="6767" other_start="1097" other_end="1232" strand="1" />
@@ -117,17 +93,17 @@
         <mapping_span lrg_start="6632" lrg_end="6767" other_start="930" other_end="1065" strand="1" />
         <mapping_span lrg_start="6856" lrg_end="7548" other_start="1066" other_end="1758" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">CDKN1C</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="5003">
+          <symbol source="HGNC" name="SLC22A18AS">
+            <synonym>BWR1B</synonym>
+            <synonym>BWSCR1B</synonym>
+            <synonym>ORCTL2S</synonym>
+            <synonym>p27-BWR1B</synonym>
+            <synonym>SLC22A1LS</synonym>
+          </symbol>
           <coordinates coord_system="LRG_533" start="1" end="2669" strand="1" />
           <partial>5-prime</partial>
-          <symbol>SLC22A18AS</symbol>
-          <symbol>BWR1B</symbol>
-          <symbol>BWSCR1B</symbol>
-          <symbol>ORCTL2S</symbol>
-          <symbol>p27-BWR1B</symbol>
-          <symbol>SLC22A1LS</symbol>
           <long_name>solute carrier family 22 (organic cation transporter), member 18 antisense</long_name>
           <db_xref source="GeneID" accession="5003" />
           <db_xref source="HGNC" accession="10965" />
@@ -161,14 +137,15 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="1028">
+          <symbol source="HGNC" name="CDKN1C">
+            <synonym>BWCR</synonym>
+            <synonym>BWS</synonym>
+            <synonym>KIP2</synonym>
+            <synonym>p57</synonym>
+            <synonym>p57Kip2</synonym>
+            <synonym>WBS</synonym>
+          </symbol>
           <coordinates coord_system="LRG_533" start="5001" end="7548" strand="1" />
-          <symbol>CDKN1C</symbol>
-          <symbol>BWCR</symbol>
-          <symbol>BWS</symbol>
-          <symbol>KIP2</symbol>
-          <symbol>p57</symbol>
-          <symbol>p57Kip2</symbol>
-          <symbol>WBS</symbol>
           <long_name>cyclin-dependent kinase inhibitor 1C (p57, Kip2)</long_name>
           <db_xref source="GeneID" accession="1028" />
           <db_xref source="HGNC" accession="1786" />
@@ -199,6 +176,56 @@
               <db_xref source="GI" accession="4557441" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_001122630.1">
+            <coordinates coord_system="LRG_533" start="5001" end="7548" strand="1" />
+            <long_name>cyclin-dependent kinase inhibitor 1C (p57, Kip2), transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="1028" />
+            <db_xref source="GI" accession="169790898" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="5001" end="5132" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="5300" end="6096" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="6851" end="7548" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001116102.1">
+              <coordinates coord_system="LRG_533" start="5310" end="6762" strand="1" />
+              <long_name>cyclin-dependent kinase inhibitor 1C isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS44519.1" />
+              <db_xref source="GeneID" accession="1028" />
+              <db_xref source="GI" accession="169790899" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001122631.1">
+            <coordinates coord_system="LRG_533" start="5001" end="7548" strand="1" />
+            <long_name>cyclin-dependent kinase inhibitor 1C (p57, Kip2), transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="1028" />
+            <db_xref source="GI" accession="169790902" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="5001" end="5132" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="5300" end="6096" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="6856" end="7548" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001116103.1">
+              <coordinates coord_system="LRG_533" start="5310" end="6762" strand="1" />
+              <long_name>cyclin-dependent kinase inhibitor 1C isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS44519.1" />
+              <db_xref source="GeneID" accession="1028" />
+              <db_xref source="GI" accession="169790903" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -212,8 +239,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000313407.6" other_name="ENST00000313407.6" other_id="ENST00000313407.6" other_start="1" other_end="1745">
         <mapping_span lrg_start="5001" lrg_end="5132" other_start="1" other_end="132" strand="1" />
         <mapping_span lrg_start="5300" lrg_end="6096" other_start="133" other_end="929" strand="1" />
@@ -248,9 +275,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000254827">
+          <symbol source="HGNC" name="SLC22A18AS" />
           <coordinates coord_system="LRG_533" start="1" end="2986" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">SLC22A18AS</symbol>
           <long_name>solute carrier family 22 (organic cation transporter), member 18 antisense (protein_coding)</long_name>
           <db_xref source="GeneID" accession="5003">
             <synonym>BWR1B</synonym>
@@ -282,7 +309,7 @@
             <protein_product source="Ensembl" accession="ENSP00000433282">
               <coordinates coord_system="LRG_533" start="1" end="2586" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>beckwith-Wiedemann syndrome chromosomal region 1 candidate gene B protein </long_name>
+              <long_name>beckwith-Wiedemann syndrome chromosomal region 1 candidate gene B protein</long_name>
               <db_xref source="RefSeq" accession="NP_009036.2" />
               <db_xref source="UniProtKB" accession="Q8N1D0">
                 <synonym>E9PLK8</synonym>
@@ -324,8 +351,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000129757">
+          <symbol source="HGNC" name="CDKN1C" />
           <coordinates coord_system="LRG_533" start="4885" end="7553" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">CDKN1C</symbol>
           <long_name>cyclin-dependent kinase inhibitor 1C (p57, Kip2) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="1028">
             <synonym>BWCR</synonym>
@@ -351,15 +378,15 @@
             <exon source="Ensembl" accession="ENSE00001691292">
               <coordinates coord_system="LRG_533" start="4885" end="6096" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003423859">
+            <exon source="Ensembl" accession="ENSE00003634161">
               <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003370528">
+            <exon source="Ensembl" accession="ENSE00003563939">
               <coordinates coord_system="LRG_533" start="6851" end="7553" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000413720">
               <coordinates coord_system="LRG_533" start="5277" end="6762" strand="1" mapped_from="GRCh37" />
-              <long_name>cyclin-dependent kinase inhibitor 1C isoform a </long_name>
+              <long_name>cyclin-dependent kinase inhibitor 1C isoform a</long_name>
               <db_xref source="RefSeq" accession="NP_000067.1" />
               <db_xref source="UniProtKB" accession="P49918" />
             </protein_product>
@@ -374,7 +401,7 @@
             <exon source="Ensembl" accession="ENSE00001486025">
               <coordinates coord_system="LRG_533" start="5300" end="6096" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003423859">
+            <exon source="Ensembl" accession="ENSE00003634161">
               <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001771741">
@@ -392,7 +419,7 @@
             <exon source="Ensembl" accession="ENSE00001593098">
               <coordinates coord_system="LRG_533" start="4995" end="6096" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003423859">
+            <exon source="Ensembl" accession="ENSE00003634161">
               <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001820727">
@@ -405,7 +432,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000313407">
             <coordinates coord_system="LRG_533" start="5001" end="7535" strand="1" mapped_from="GRCh37" />
-            <long_name>,  (protein_coding)</long_name>
+            <long_name>CDKN1C-201 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS44519.1" />
             <db_xref source="RefSeq" accession="NM_001122630.1" />
             <db_xref source="RefSeq" accession="NM_001122631.1" />
@@ -415,7 +442,7 @@
             <exon source="Ensembl" accession="ENSE00001486025">
               <coordinates coord_system="LRG_533" start="5300" end="6096" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003423859">
+            <exon source="Ensembl" accession="ENSE00003634161">
               <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001662007">
@@ -423,7 +450,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000321019">
               <coordinates coord_system="LRG_533" start="5310" end="6762" strand="1" mapped_from="GRCh37" />
-              <long_name>cyclin-dependent kinase inhibitor 1C isoform b , cyclin-dependent kinase inhibitor 1C isoform b </long_name>
+              <long_name>cyclin-dependent kinase inhibitor 1C isoform b, cyclin-dependent kinase inhibitor 1C isoform b</long_name>
               <db_xref source="RefSeq" accession="NP_001116102.1" />
               <db_xref source="RefSeq" accession="NP_001116103.1" />
               <db_xref source="UniProtKB" accession="P49918" />
@@ -438,10 +465,10 @@
             <exon source="Ensembl" accession="ENSE00001486036">
               <coordinates coord_system="LRG_533" start="5300" end="5564" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003396411">
+            <exon source="Ensembl" accession="ENSE00003687341">
               <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003323885">
+            <exon source="Ensembl" accession="ENSE00003646989">
               <coordinates coord_system="LRG_533" start="6851" end="7553" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000370101">
@@ -466,7 +493,7 @@
         <name>List of locus specific databases for CDKN1C</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CDKN1C</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

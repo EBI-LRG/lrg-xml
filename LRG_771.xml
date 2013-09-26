@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_771</id>
+    <hgnc_id>5112</hgnc_id>
     <sequence_source>NG_033789.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -29,16 +30,16 @@
           <sequence>MEPGNYATLDGAKDIEGLLGAGGGRNLVAHSPLTSHPAAPTLMPAVNYAPLDLPGSAEPPKQCHPCPGVPQGTSPAPVPYGYFGGGYYSCRVSRSSLKPCAQAATLAAYPAETPTAGEEYPSRPTEFAFYPGYPGTYQPMASYLDVSVVQTLGAPGEPRHDSLLPVDSYQSWALAGGWNSQMCCQGEQNPPGPFWKAAFADSSGQHPPDACAFRRGRKKRIPYSKGQLRELEREYAANKFITKDKRRKISAATSLSERQITIWFQNRRVKEKKVLAKVKNSATP</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_771" start="5001" end="5757" strand="1" />
-        <coordinates coord_system="LRG_771_t1" start="1" end="757" />
-        <coordinates coord_system="LRG_771_p1" start="1" end="201" />
+        <coordinates coord_system="LRG_771t1" start="1" end="757" />
+        <coordinates coord_system="LRG_771p1" start="1" end="201" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_771" start="6707" end="8987" strand="1" />
-        <coordinates coord_system="LRG_771_t1" start="758" end="3038" />
-        <coordinates coord_system="LRG_771_p1" start="201" end="284" />
+        <coordinates coord_system="LRG_771t1" start="758" end="3038" />
+        <coordinates coord_system="LRG_771p1" start="201" end="284" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -53,7 +54,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-08-28</modification_date>
+      <modification_date>2013-09-26</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="46800125" other_end="46811111">
         <mapping_span lrg_start="1" lrg_end="10987" other_start="46800125" other_end="46811111" strand="-1" />
       </mapping>
@@ -70,29 +71,17 @@
         </contact>
       </source>
       <comment>Annotation from NG_033789.1</comment>
-      <modification_date>2013-08-28</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="LRG-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_771" start="5001" end="5757" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_771" start="6707" end="8987" />
-            <label>2</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_006361.5" other_name="NM_006361.5" other_id="NM_006361.5" other_start="1" other_end="3038">
         <mapping_span lrg_start="5001" lrg_end="5757" other_start="1" other_end="757" strand="1" />
         <mapping_span lrg_start="6707" lrg_end="8987" other_start="758" other_end="3038" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">HOXB13</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="10481">
+          <symbol source="HGNC" name="HOXB13">
+            <synonym>PSGD</synonym>
+          </symbol>
           <coordinates coord_system="LRG_771" start="5001" end="8987" strand="1" />
-          <symbol source="HGNC">HOXB13</symbol>
-          <symbol>PSGD</symbol>
           <long_name>homeobox B13</long_name>
           <db_xref source="GeneID" accession="10481" />
           <db_xref source="HGNC" accession="5112" />
@@ -120,19 +109,20 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="360205">
+          <symbol source="HGNC" name="PRAC2">
+            <synonym>C17orf93</synonym>
+            <synonym>HOXB-AS5</synonym>
+            <synonym>HOXB13-AS1</synonym>
+            <synonym>NCRNA00253</synonym>
+          </symbol>
           <coordinates coord_system="LRG_771" start="8992" end="10582" strand="-1" />
-          <symbol source="HGNC">HOXB-AS5</symbol>
-          <symbol>C17orf93</symbol>
-          <symbol>HOXB13-AS1</symbol>
-          <symbol>NCRNA00253</symbol>
-          <symbol>PRAC2</symbol>
-          <long_name>HOXB cluster antisense RNA 5</long_name>
+          <long_name>prostate cancer susceptibility candidate 2</long_name>
           <db_xref source="GeneID" accession="360205" />
           <db_xref source="HGNC" accession="30143" />
           <db_xref source="MIM" accession="610787" />
           <transcript source="RefSeq" accession="NM_001282275.1">
             <coordinates coord_system="LRG_771" start="8992" end="10582" strand="-1" />
-            <long_name>HOXB cluster antisense RNA 5, transcript variant 2</long_name>
+            <long_name>prostate cancer susceptibility candidate 2, transcript variant 2</long_name>
             <db_xref source="GeneID" accession="360205" />
             <db_xref source="GI" accession="533112474" />
             <exon source="RefSeq" accession="">
@@ -146,13 +136,15 @@
               <long_name>small nuclear protein PRAC2 isoform b</long_name>
               <long_name>prostate, rectum and colon 2</long_name>
               <long_name>small nuclear protein PRAC2</long_name>
+              <long_name>prostate, rectum and colon expressed gene 2 protein</long_name>
+              <long_name>HOXB cluster antisense RNA 5</long_name>
               <db_xref source="GeneID" accession="360205" />
               <db_xref source="GI" accession="533112475" />
             </protein_product>
           </transcript>
           <transcript source="RefSeq" accession="NM_001282276.1">
             <coordinates coord_system="LRG_771" start="8992" end="10058" strand="-1" />
-            <long_name>HOXB cluster antisense RNA 5, transcript variant 1</long_name>
+            <long_name>prostate cancer susceptibility candidate 2, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="360205" />
             <db_xref source="GI" accession="533112476" />
             <exon source="RefSeq" accession="">
@@ -166,14 +158,16 @@
               <long_name>small nuclear protein PRAC2 isoform a</long_name>
               <long_name>prostate, rectum and colon 2</long_name>
               <long_name>small nuclear protein PRAC2</long_name>
+              <long_name>prostate, rectum and colon expressed gene 2 protein</long_name>
+              <long_name>HOXB cluster antisense RNA 5</long_name>
               <db_xref source="GeneID" accession="360205" />
               <db_xref source="GI" accession="533112477" />
             </protein_product>
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="100422978">
+          <symbol source="HGNC" name="MIR3185" />
           <coordinates coord_system="LRG_771" start="9275" end="9342" strand="1" />
-          <symbol source="HGNC">MIR3185</symbol>
           <long_name>microRNA 3185</long_name>
           <db_xref source="GeneID" accession="100422978" />
           <db_xref source="HGNC" accession="38391" />
@@ -200,17 +194,17 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 72</comment>
-      <modification_date>2013-08-28</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-26</modification_date>
       <mapping coord_system="ENST00000290295.7" other_name="ENST00000290295.7" other_id="ENST00000290295.7" other_start="1" other_end="3467">
         <mapping_span lrg_start="4572" lrg_end="5757" other_start="1" other_end="1186" strand="1" />
         <mapping_span lrg_start="6707" lrg_end="8987" other_start="1187" other_end="3467" strand="1" />
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000242407">
+          <symbol source="Clone_based_vega_gene" name="CTD-2377D24.4" />
           <coordinates coord_system="LRG_771" start="1" end="659" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <symbol source="Clone_based_vega_gene">CTD-2377D24.4</symbol>
           <long_name>CTD-2377D24.4 (lincRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000242407" />
           <transcript source="Ensembl" accession="ENST00000495536">
@@ -227,8 +221,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000159184">
+          <symbol source="HGNC" name="HOXB13" />
           <coordinates coord_system="LRG_771" start="4572" end="8987" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">HOXB13</symbol>
           <long_name>homeobox B13 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="10481">
             <synonym>PSGD</synonym>
@@ -260,8 +254,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000229637">
+          <symbol source="HGNC" name="HOXB-AS5" />
           <coordinates coord_system="LRG_771" start="8293" end="10582" strand="-1" mapped_from="GRCh37" />
-          <symbol source="HGNC">HOXB-AS5</symbol>
           <long_name>HOXB cluster antisense RNA 5 (antisense)</long_name>
           <db_xref source="GeneID" accession="360205">
             <synonym>C17orf93</synonym>
@@ -304,8 +298,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000263602">
+          <symbol source="HGNC" name="MIR3185" />
           <coordinates coord_system="LRG_771" start="9275" end="9342" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">MIR3185</symbol>
           <long_name>microRNA 3185 (miRNA)</long_name>
           <db_xref source="GeneID" accession="100422978" />
           <db_xref source="HGNC" accession="38391">
@@ -329,7 +323,7 @@
         <name>List of locus specific databases for HOXB13</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HOXB13</url>
       </source>
-      <modification_date>2013-08-28</modification_date>
+      <modification_date>2013-09-26</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

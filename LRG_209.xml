@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_209</id>
+    <hgnc_id>11322</hgnc_id>
     <sequence_source>NG_012011.2</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -13,15 +14,6 @@
         <name>Johan den Dunnen</name>
         <address>Leiden University Medical Center, Leiden, The Netherlands</address>
         <email>ddunnen@lumc.nl</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -39,20 +31,20 @@
           <sequence>MLCVSYQVDERTCIQFSMKLLYFLLSALGLTVCVLAVAFAAHHYSQLTQFTCETTLDSCQCKLPSSEPLSRTFVYRDVTDCTSVTGTFKLFLLIQMILNLVCGLVCLLACFVMWKHRYQVFYVGVRICSLTASEGPQQKI</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_209" start="78346" end="78541" strand="1" />
-        <coordinates coord_system="LRG_209_t1" start="1" end="196" />
+        <coordinates coord_system="LRG_209t1" start="1" end="196" />
       </exon>
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_209" start="107303" end="107389" strand="1" />
-        <coordinates coord_system="LRG_209_t1" start="197" end="283" />
-        <coordinates coord_system="LRG_209_p1" start="1" end="19" />
+        <coordinates coord_system="LRG_209t1" start="197" end="283" />
+        <coordinates coord_system="LRG_209p1" start="1" end="19" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_209" start="113721" end="117787" strand="1" />
-        <coordinates coord_system="LRG_209_t1" start="284" end="4350" />
-        <coordinates coord_system="LRG_209_p1" start="20" end="140" />
+        <coordinates coord_system="LRG_209t1" start="284" end="4350" />
+        <coordinates coord_system="LRG_209p1" start="20" end="140" />
       </exon>
     </transcript>
     <transcript name="t2">
@@ -67,22 +59,22 @@
           <sequence>MGKNKQPRGQQRQGGPPAADAAGPDDMEPKKGTGAPKECGEEEPRTCCGCRFPLLLALLQLALGIAVTVVGFLMASISSSLLVRDTPFWAGIIVCLVAYLGLFMLCVSYQVDERTCIQFSMKLLYFLLSALGLTVCVLAVAFAAHHYSQLTQFTCETTLDSCQCKLPSSEPLSRTFVYRDVTDCTSVTGTFKLFLLIQMILNLVCGLVCLLACFVMWKHRYQVFYVGVRICSLTASEGPQQKI</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_209" start="78583" end="78961" strand="1" />
-        <coordinates coord_system="LRG_209_t2" start="1" end="379" />
-        <coordinates coord_system="LRG_209_p2" start="1" end="93" />
+        <coordinates coord_system="LRG_209t2" start="1" end="379" />
+        <coordinates coord_system="LRG_209p2" start="1" end="93" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_209" start="107303" end="107389" strand="1" />
-        <coordinates coord_system="LRG_209_t2" start="380" end="466" />
-        <coordinates coord_system="LRG_209_p2" start="94" end="122" />
+        <coordinates coord_system="LRG_209t2" start="380" end="466" />
+        <coordinates coord_system="LRG_209p2" start="94" end="122" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_209" start="113721" end="117787" strand="1" />
-        <coordinates coord_system="LRG_209_t2" start="467" end="4533" />
-        <coordinates coord_system="LRG_209_p2" start="123" end="243" />
+        <coordinates coord_system="LRG_209t2" start="467" end="4533" />
+        <coordinates coord_system="LRG_209p2" start="123" end="243" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -97,8 +89,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="12" other_id="NC_000012.11" other_start="26269924" other_end="26454223">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_start="26269924" other_end="26454223">
         <mapping_span lrg_start="1" lrg_end="184300" other_start="26269924" other_end="26454223" strand="1">
           <diff type="mismatch" lrg_start="117654" lrg_end="117654" other_start="26387577" other_end="26387577" lrg_sequence="T" other_sequence="A" />
         </mapping_span>
@@ -116,39 +108,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012011.2</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_209" start="78346" end="78541" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_209" start="107303" end="107389" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_209" start="113721" end="117787" />
-            <label>4</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
-      <fixed_transcript_annotation name="t2">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_209" start="78583" end="78961" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_209" start="107303" end="107389" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_209" start="113721" end="117787" />
-            <label>4</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_001135823.1" other_name="NM_001135823.1" other_id="NM_001135823.1" other_start="1" other_end="4350">
         <mapping_span lrg_start="78346" lrg_end="78541" other_start="1" other_end="196" strand="1" />
         <mapping_span lrg_start="107303" lrg_end="107389" other_start="197" other_end="283" strand="1" />
@@ -159,17 +119,15 @@
         <mapping_span lrg_start="107303" lrg_end="107389" other_start="380" other_end="466" strand="1" />
         <mapping_span lrg_start="113721" lrg_end="117787" other_start="467" other_end="4533" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">SSPN</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="79365">
+          <symbol source="HGNC" name="BHLHE41">
+            <synonym>BHLHB3</synonym>
+            <synonym>DEC2</synonym>
+            <synonym>hDEC2</synonym>
+            <synonym>SHARP1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_209" start="3036" end="8080" strand="-1" />
-          <partial>3-prime</partial>
-          <partial>5-prime</partial>
-          <symbol>BHLHE41</symbol>
-          <symbol>BHLHB3</symbol>
-          <symbol>DEC2</symbol>
-          <symbol>hDEC2</symbol>
-          <symbol>SHARP1</symbol>
           <long_name>basic helix-loop-helix family, member e41</long_name>
           <db_xref source="GeneID" accession="79365" />
           <db_xref source="HGNC" accession="16617" />
@@ -200,7 +158,6 @@
               <long_name>basic helix-loop-helix domain containing, class B, 3</long_name>
               <long_name>enhancer-of-split and hairy-related protein 1</long_name>
               <long_name>differentially expressed in chondrocytes protein 2</long_name>
-              <long_name>differentially expressed in chondrocytes 2</long_name>
               <db_xref source="CCDS" accession="CCDS8706.1" />
               <db_xref source="GeneID" accession="79365" />
               <db_xref source="GI" accession="13540521" />
@@ -208,13 +165,14 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="8082">
+          <symbol source="HGNC" name="SSPN">
+            <synonym>DAGA5</synonym>
+            <synonym>KRAG</synonym>
+            <synonym>NSPN</synonym>
+            <synonym>SPN1</synonym>
+            <synonym>SPN2</synonym>
+          </symbol>
           <coordinates coord_system="LRG_209" start="78346" end="117787" strand="1" />
-          <symbol>SSPN</symbol>
-          <symbol>DAGA5</symbol>
-          <symbol>KRAG</symbol>
-          <symbol>NSPN</symbol>
-          <symbol>SPN1</symbol>
-          <symbol>SPN2</symbol>
           <long_name>sarcospan</long_name>
           <db_xref source="GeneID" accession="8082" />
           <db_xref source="HGNC" accession="11322" />
@@ -291,8 +249,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000242729.2" other_name="ENST00000242729.2" other_id="ENST00000242729.2" other_start="1" other_end="2788">
         <mapping_span lrg_start="78506" lrg_end="78961" other_start="1" other_end="456" strand="1" />
         <mapping_span lrg_start="107303" lrg_end="107389" other_start="457" other_end="543" strand="1" />
@@ -336,8 +294,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000123095">
+          <symbol source="HGNC" name="BHLHE41" />
           <coordinates coord_system="LRG_209" start="3036" end="8137" strand="-1" mapped_from="GRCh37" />
-          <symbol source="HGNC">BHLHE41</symbol>
           <long_name>basic helix-loop-helix family, member e41 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="79365">
             <synonym>BHLHB3</synonym>
@@ -362,7 +320,7 @@
             <exon source="Ensembl" accession="ENSE00001007937">
               <coordinates coord_system="LRG_209" start="7728" end="8137" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003259467">
+            <exon source="Ensembl" accession="ENSE00003584720">
               <coordinates coord_system="LRG_209" start="7529" end="7592" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00000835814">
@@ -376,7 +334,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000242728">
               <coordinates coord_system="LRG_209" start="5076" end="7789" strand="-1" mapped_from="GRCh37" />
-              <long_name>class E basic helix-loop-helix protein 41 </long_name>
+              <long_name>class E basic helix-loop-helix protein 41</long_name>
               <db_xref source="RefSeq" accession="NP_110389.1" />
               <db_xref source="UniProtKB" accession="Q9C0J9">
                 <synonym>A2I2N8</synonym>
@@ -399,7 +357,7 @@
             <exon source="Ensembl" accession="ENSE00002241640">
               <coordinates coord_system="LRG_209" start="7728" end="7909" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003434906">
+            <exon source="Ensembl" accession="ENSE00003550737">
               <coordinates coord_system="LRG_209" start="7529" end="7592" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002321970">
@@ -408,8 +366,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000123096">
+          <symbol source="HGNC" name="SSPN" />
           <coordinates coord_system="LRG_209" start="5001" end="182300" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">SSPN</symbol>
           <long_name>sarcospan (protein_coding)</long_name>
           <db_xref source="GeneID" accession="8082">
             <synonym>DAGA5</synonym>
@@ -431,7 +389,7 @@
             <exon source="Ensembl" accession="ENSE00002225889">
               <coordinates coord_system="LRG_209" start="5001" end="5162" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003272125">
+            <exon source="Ensembl" accession="ENSE00003690075">
               <coordinates coord_system="LRG_209" start="107303" end="107389" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002312916">
@@ -447,7 +405,7 @@
             <exon source="Ensembl" accession="ENSE00002210500">
               <coordinates coord_system="LRG_209" start="5062" end="5162" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003343436">
+            <exon source="Ensembl" accession="ENSE00003527151">
               <coordinates coord_system="LRG_209" start="135878" end="135930" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002224928">
@@ -474,7 +432,7 @@
             <exon source="Ensembl" accession="ENSE00002294580">
               <coordinates coord_system="LRG_209" start="17977" end="18040" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003272125">
+            <exon source="Ensembl" accession="ENSE00003690075">
               <coordinates coord_system="LRG_209" start="107303" end="107389" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002208694">
@@ -492,7 +450,7 @@
             <exon source="Ensembl" accession="ENSE00001646648">
               <coordinates coord_system="LRG_209" start="78350" end="78541" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003272125">
+            <exon source="Ensembl" accession="ENSE00003690075">
               <coordinates coord_system="LRG_209" start="107303" end="107389" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001007939">
@@ -500,8 +458,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000396087">
               <coordinates coord_system="LRG_209" start="107333" end="114086" strand="1" mapped_from="GRCh37" />
-              <long_name>sarcospan isoform 2 </long_name>
+              <long_name>sarcospan isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001129295.1" />
+              <db_xref source="UniProtKB" accession="Q14714">
+                <synonym>B3KS67</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000544231">
@@ -510,10 +471,10 @@
             <exon source="Ensembl" accession="ENSE00002300213">
               <coordinates coord_system="LRG_209" start="78366" end="78541" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003349516">
+            <exon source="Ensembl" accession="ENSE00003572415">
               <coordinates coord_system="LRG_209" start="107303" end="107389" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003343436">
+            <exon source="Ensembl" accession="ENSE00003527151">
               <coordinates coord_system="LRG_209" start="135878" end="135930" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002284262">
@@ -522,13 +483,13 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000242729">
             <coordinates coord_system="LRG_209" start="78506" end="115965" strand="1" mapped_from="GRCh37" />
-            <long_name>Homo sapiens sarcospan (SSPN), transcript variant 1, mRNA. (protein_coding)</long_name>
+            <long_name>SSPN-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS8707.1" />
             <db_xref source="RefSeq" accession="NM_005086.4" />
             <exon source="Ensembl" accession="ENSE00001775981">
               <coordinates coord_system="LRG_209" start="78506" end="78961" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003257656">
+            <exon source="Ensembl" accession="ENSE00003664807">
               <coordinates coord_system="LRG_209" start="107303" end="107389" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001704835">
@@ -536,9 +497,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000242729">
               <coordinates coord_system="LRG_209" start="78683" end="114086" strand="1" mapped_from="GRCh37" />
-              <long_name>sarcospan isoform 1 </long_name>
+              <long_name>sarcospan isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_005077.2" />
-              <db_xref source="UniProtKB" accession="Q14714" />
+              <db_xref source="UniProtKB" accession="Q14714">
+                <synonym>B3KS67</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000535504">
@@ -547,10 +510,10 @@
             <exon source="Ensembl" accession="ENSE00000835817">
               <coordinates coord_system="LRG_209" start="78683" end="78961" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003257656">
+            <exon source="Ensembl" accession="ENSE00003664807">
               <coordinates coord_system="LRG_209" start="107303" end="107389" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003453653">
+            <exon source="Ensembl" accession="ENSE00003528583">
               <coordinates coord_system="LRG_209" start="135878" end="135930" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000438801">
@@ -559,8 +522,8 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000256894">
+          <symbol source="Clone_based_vega_gene" name="RP11-283G6.3" />
           <coordinates coord_system="LRG_209" start="8165" end="9627" strand="-1" mapped_from="GRCh37" />
-          <symbol source="Clone_based_vega_gene">RP11-283G6.3</symbol>
           <long_name>RP11-283G6.3 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000256894" />
           <transcript source="Ensembl" accession="ENST00000535914">
@@ -591,9 +554,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000256234">
+          <symbol source="Clone_based_vega_gene" name="RP11-283G6.4" />
           <coordinates coord_system="LRG_209" start="94174" end="184300" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="Clone_based_vega_gene">RP11-283G6.4</symbol>
           <long_name>RP11-283G6.4 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000256234" />
           <transcript source="Ensembl" accession="ENST00000540392">
@@ -609,9 +572,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000255750">
+          <symbol source="Clone_based_vega_gene" name="RP11-283G6.5" />
           <coordinates coord_system="LRG_209" start="113829" end="184300" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="Clone_based_vega_gene">RP11-283G6.5</symbol>
           <long_name>RP11-283G6.5 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000255750" />
           <transcript source="Ensembl" accession="ENST00000540625">
@@ -659,7 +622,7 @@
         <name>List of locus specific databases for SSPN</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SSPN</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

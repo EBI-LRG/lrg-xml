@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_259</id>
+    <hgnc_id>7739</hgnc_id>
     <sequence_source>NG_008492.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -12,15 +13,6 @@
         <name>Valerie Delague</name>
         <address>Aix-Marseille University, Marseille, France</address>
         <email>valerie.delague@univ-amu.fr</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -38,28 +30,28 @@
           <sequence>MSSFSYEPYYSTSYKRRYVETPRVHISSVRSGYSTARSAYSSYSAPVSSSLSVRRSYSSSSGSLMPSLENLDLSQVAAISNDLKSIRTQEKAQLQDLNDRFASFIERVHELEQQNKVLEAELLVLRQKHSEPSRFRALYEQEIRDLRLAAEDATNEKQALQGEREGLEETLRNLQARYEEEVLSREDAEGRLMEARKGADEAALARAELEKRIDSLMDEISFLKKVHEEEIAELQAQIQYAQISVEMDVTKPDLSAALKDIRAQYEKLAAKNMQNAEEWFKSRFTVLTESAAKNTDAVRAAKDEVSESRRLLKAKTLEIEACRGMNEALEKQLQELEDKQNADISAMQDTINKLENELRTTKSEMARYLKEYQDLLNVKMALDIEIAAYRKLLEGEETRLSFTSVGSITSGYSQSSQVFGRSAYGGLQTSSYLMSTRSFPSYYTSHVQEEQIEVEETIEAAKAEEAKDEPPSEGEAEEEEKDKEEAEEEEAAEEEEAAKEESEEAKEEEEGGEGEEGEETKEAEEEEKKVEGAGEEQAAKKKD</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_259" start="4749" end="6146" strand="1" />
-        <coordinates coord_system="LRG_259_t1" start="1" end="1398" />
-        <coordinates coord_system="LRG_259_p1" start="1" end="348" />
+        <coordinates coord_system="LRG_259t1" start="1" end="1398" />
+        <coordinates coord_system="LRG_259p1" start="1" end="348" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_259" start="7313" end="7437" strand="1" />
-        <coordinates coord_system="LRG_259_t1" start="1399" end="1523" />
-        <coordinates coord_system="LRG_259_p1" start="349" end="390" />
+        <coordinates coord_system="LRG_259t1" start="1399" end="1523" />
+        <coordinates coord_system="LRG_259p1" start="349" end="390" />
       </exon>
       <intron phase="2" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_259" start="7823" end="8142" strand="1" />
-        <coordinates coord_system="LRG_259_t1" start="1524" end="1843" />
-        <coordinates coord_system="LRG_259_p1" start="390" end="497" />
+        <coordinates coord_system="LRG_259t1" start="1524" end="1843" />
+        <coordinates coord_system="LRG_259p1" start="390" end="497" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_259" start="8666" end="10663" strand="1" />
-        <coordinates coord_system="LRG_259_t1" start="1844" end="3841" />
-        <coordinates coord_system="LRG_259_p1" start="497" end="543" />
+        <coordinates coord_system="LRG_259t1" start="1844" end="3841" />
+        <coordinates coord_system="LRG_259p1" start="497" end="543" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -74,8 +66,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="8" other_id="NC_000008.10" other_start="24806468" other_end="24819131">
+      <modification_date>2013-09-16</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="8" other_id="NC_000008.10" other_start="24806468" other_end="24819131">
         <mapping_span lrg_start="1" lrg_end="12663" other_start="24806468" other_end="24819131" strand="-1">
           <diff type="other_ins" lrg_start="8060" lrg_end="8061" other_start="24811071" other_end="24811071" lrg_sequence="-" other_sequence="C" />
         </mapping_span>
@@ -93,43 +85,23 @@
         </contact>
       </source>
       <comment>Annotation from NG_008492.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_259" start="4749" end="6146" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_259" start="7313" end="7437" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_259" start="7823" end="8142" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_259" start="8666" end="10663" />
-            <label>4</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-12</modification_date>
       <mapping coord_system="NM_006158.4" other_name="NM_006158.4" other_id="NM_006158.4" other_start="1" other_end="3841">
         <mapping_span lrg_start="4749" lrg_end="6146" other_start="1" other_end="1398" strand="1" />
         <mapping_span lrg_start="7313" lrg_end="7437" other_start="1399" other_end="1523" strand="1" />
         <mapping_span lrg_start="7823" lrg_end="8142" other_start="1524" other_end="1843" strand="1" />
         <mapping_span lrg_start="8666" lrg_end="10663" other_start="1844" other_end="3841" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">NEFL</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="4747">
+          <symbol source="HGNC" name="NEFL">
+            <synonym>CMT1F</synonym>
+            <synonym>CMT2E</synonym>
+            <synonym>NF-L</synonym>
+            <synonym>NF68</synonym>
+            <synonym>NFL</synonym>
+          </symbol>
           <coordinates coord_system="LRG_259" start="4749" end="10663" strand="1" />
-          <symbol>NEFL</symbol>
-          <symbol>CMT1F</symbol>
-          <symbol>CMT2E</symbol>
-          <symbol>NF-L</symbol>
-          <symbol>NF68</symbol>
-          <symbol>NFL</symbol>
           <long_name>neurofilament, light polypeptide</long_name>
           <db_xref source="GeneID" accession="4747" />
           <db_xref source="HGNC" accession="7739" />
@@ -177,8 +149,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-16</modification_date>
       <mapping coord_system="ENST00000221169.5" other_name="ENST00000221169.5" other_id="ENST00000221169.5" other_start="1" other_end="4083">
         <mapping_span lrg_start="4508" lrg_end="6146" other_start="1" other_end="1639" strand="1" />
         <mapping_span lrg_start="7313" lrg_end="7437" other_start="1640" other_end="1764" strand="1" />
@@ -189,8 +161,8 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000104725">
+          <symbol source="HGNC" name="NEFL" />
           <coordinates coord_system="LRG_259" start="4508" end="10663" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">NEFL</symbol>
           <long_name>neurofilament, light polypeptide (processed_transcript)</long_name>
           <db_xref source="HGNC" accession="7739">
             <synonym>CMT1F</synonym>
@@ -216,6 +188,19 @@
             </exon>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000272157">
+          <symbol source="Clone_based_vega_gene" name="CTD-2168K21.2" />
+          <coordinates coord_system="LRG_259" start="4508" end="4997" strand="-1" mapped_from="GRCh37" />
+          <long_name>CTD-2168K21.2 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000272157" />
+          <transcript source="Ensembl" accession="ENST00000607735">
+            <coordinates coord_system="LRG_259" start="4508" end="4997" strand="-1" mapped_from="GRCh37" />
+            <long_name>CTD-2168K21.2-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00003702449">
+              <coordinates coord_system="LRG_259" start="4508" end="4997" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
       </features>
     </annotation_set>
     <annotation_set>
@@ -223,7 +208,7 @@
         <name>List of locus specific databases for NEFL</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NEFL</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-16</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

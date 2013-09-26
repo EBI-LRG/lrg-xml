@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.7">
+<lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_10</id>
+    <hgnc_id>9255</hgnc_id>
     <sequence_source>NG_012979.1</sequence_source>
     <organism taxon="9606">Homo sapiens</organism>
     <source>
@@ -13,15 +14,6 @@
         <name>Raymond Dalgleish</name>
         <address>Department of Genetics, University of Leicester</address>
         <email>ray@leicester.ac.uk</email>
-      </contact>
-    </source>
-    <source>
-      <name>NCBI RefSeqGene</name>
-      <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
-      <contact>
-        <name>RefSeqGene Group</name>
-        <address>NCBI/NLM/NIH</address>
-        <email>rsgene@ncbi.nlm.nih.gov</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -39,34 +31,34 @@
           <sequence>MLRLSERNMKVLLAAALIAGSVFFLLLPGPSAADEKKKGPKVTVKVYFDLRIGDEDVGRVIFGLFGKTVPKTVDNFVALATGEKGFGYKNSKFHRVIKDFMIQGGDFTRGDGTGGKSIYGERFPDENFKLKHYGPGWVSMANAGKDTNGSQFFITTVKTAWLDGKHVVFGKVLEGMEVVRKVESTKTDSRDKPLKDVIIADCGKIEVEKPFAIAKE</sequence>
         </translation>
       </coding_region>
-      <exon>
+      <exon label="1">
         <coordinates coord_system="LRG_10" start="5001" end="5304" strand="1" />
-        <coordinates coord_system="LRG_10_t1" start="1" end="304" />
-        <coordinates coord_system="LRG_10_p1" start="1" end="45" />
+        <coordinates coord_system="LRG_10t1" start="1" end="304" />
+        <coordinates coord_system="LRG_10p1" start="1" end="45" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="2">
         <coordinates coord_system="LRG_10" start="6002" end="6115" strand="1" />
-        <coordinates coord_system="LRG_10_t1" start="305" end="418" />
-        <coordinates coord_system="LRG_10_p1" start="46" end="83" />
+        <coordinates coord_system="LRG_10t1" start="305" end="418" />
+        <coordinates coord_system="LRG_10p1" start="46" end="83" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="3">
         <coordinates coord_system="LRG_10" start="7959" end="8052" strand="1" />
-        <coordinates coord_system="LRG_10_t1" start="419" end="512" />
-        <coordinates coord_system="LRG_10_p1" start="84" end="115" />
+        <coordinates coord_system="LRG_10t1" start="419" end="512" />
+        <coordinates coord_system="LRG_10p1" start="84" end="115" />
       </exon>
       <intron phase="1" />
-      <exon>
+      <exon label="4">
         <coordinates coord_system="LRG_10" start="11247" end="11431" strand="1" />
-        <coordinates coord_system="LRG_10_t1" start="513" end="697" />
-        <coordinates coord_system="LRG_10_p1" start="115" end="176" />
+        <coordinates coord_system="LRG_10t1" start="513" end="697" />
+        <coordinates coord_system="LRG_10p1" start="115" end="176" />
       </exon>
       <intron phase="0" />
-      <exon>
+      <exon label="5">
         <coordinates coord_system="LRG_10" start="12011" end="12341" strand="1" />
-        <coordinates coord_system="LRG_10_t1" start="698" end="1028" />
-        <coordinates coord_system="LRG_10_p1" start="177" end="216" />
+        <coordinates coord_system="LRG_10t1" start="698" end="1028" />
+        <coordinates coord_system="LRG_10p1" start="177" end="216" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -81,8 +73,8 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-04-23</modification_date>
-      <mapping coord_system="GRCh37.p10" other_name="15" other_id="NC_000015.9" other_start="64446014" other_end="64460354">
+      <modification_date>2013-09-13</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="15" other_id="NC_000015.9" other_start="64446014" other_end="64460354">
         <mapping_span lrg_start="1" lrg_end="14341" other_start="64446014" other_end="64460354" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">PPIB</lrg_locus>
@@ -98,31 +90,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012979.1</comment>
-      <modification_date>2013-03-21</modification_date>
-      <fixed_transcript_annotation name="t1">
-        <other_exon_naming description="NCBI RefSeqGene-specific numbering for all exons">
-          <exon>
-            <coordinates coord_system="LRG_10" start="5001" end="5304" />
-            <label>1</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_10" start="6002" end="6115" />
-            <label>2</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_10" start="7959" end="8052" />
-            <label>3</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_10" start="11247" end="11431" />
-            <label>4</label>
-          </exon>
-          <exon>
-            <coordinates coord_system="LRG_10" start="12011" end="12341" />
-            <label>5</label>
-          </exon>
-        </other_exon_naming>
-      </fixed_transcript_annotation>
+      <modification_date>2013-09-10</modification_date>
       <mapping coord_system="NM_000942.4" other_name="NM_000942.4" other_id="NM_000942.4" other_start="1" other_end="1028">
         <mapping_span lrg_start="5001" lrg_end="5304" other_start="1" other_end="304" strand="1" />
         <mapping_span lrg_start="6002" lrg_end="6115" other_start="305" other_end="418" strand="1" />
@@ -130,13 +98,13 @@
         <mapping_span lrg_start="11247" lrg_end="11431" other_start="513" other_end="697" strand="1" />
         <mapping_span lrg_start="12011" lrg_end="12341" other_start="698" other_end="1028" strand="1" />
       </mapping>
-      <lrg_locus source="HGNC">PPIB</lrg_locus>
       <features>
         <gene source="NCBI-Gene" accession="53944">
+          <symbol source="HGNC" name="CSNK1G1">
+            <synonym>CK1gamma1</synonym>
+          </symbol>
           <coordinates coord_system="LRG_10" start="1" end="2639" strand="1" />
           <partial>5-prime</partial>
-          <symbol>CSNK1G1</symbol>
-          <symbol>CK1gamma1</symbol>
           <long_name>casein kinase 1, gamma 1</long_name>
           <db_xref source="GeneID" accession="53944" />
           <db_xref source="HGNC" accession="2454" />
@@ -154,12 +122,13 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="5479">
+          <symbol source="HGNC" name="PPIB">
+            <synonym>CYP-S1</synonym>
+            <synonym>CYPB</synonym>
+            <synonym>OI9</synonym>
+            <synonym>SCYLP</synonym>
+          </symbol>
           <coordinates coord_system="LRG_10" start="5001" end="12341" strand="1" />
-          <symbol>PPIB</symbol>
-          <symbol>CYP-S1</symbol>
-          <symbol>CYPB</symbol>
-          <symbol>OI9</symbol>
-          <symbol>SCYLP</symbol>
           <long_name>peptidylprolyl isomerase B (cyclophilin B)</long_name>
           <db_xref source="GeneID" accession="5479" />
           <db_xref source="HGNC" accession="9255" />
@@ -201,9 +170,9 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="79856">
+          <symbol source="HGNC" name="SNX22" />
           <coordinates coord_system="LRG_10" start="10675" end="14341" strand="-1" />
           <partial>5-prime</partial>
-          <symbol>SNX22</symbol>
           <long_name>sorting nexin 22</long_name>
           <db_xref source="GeneID" accession="79856" />
           <db_xref source="HGNC" accession="16315" />
@@ -264,8 +233,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 71</comment>
-      <modification_date>2013-04-23</modification_date>
+      <comment>Annotation is based on Ensembl release 73</comment>
+      <modification_date>2013-09-13</modification_date>
       <mapping coord_system="ENST00000300026.3" other_name="ENST00000300026.3" other_id="ENST00000300026.3" other_start="1" other_end="1081">
         <mapping_span lrg_start="4951" lrg_end="5304" other_start="1" other_end="354" strand="1" />
         <mapping_span lrg_start="6002" lrg_end="6115" other_start="355" other_end="468" strand="1" />
@@ -285,9 +254,9 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000169118">
+          <symbol source="HGNC" name="CSNK1G1" />
           <coordinates coord_system="LRG_10" start="1" end="2639" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">CSNK1G1</symbol>
           <long_name>casein kinase 1, gamma 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="53944">
             <synonym>CK1gamma1</synonym>
@@ -308,10 +277,22 @@
               <partial>5-prime</partial>
             </exon>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000607537">
+            <coordinates coord_system="LRG_10" start="1" end="2422" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>CSNK1G1-002 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003701869">
+              <coordinates coord_system="LRG_10" start="2076" end="2422" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000475724">
+              <coordinates coord_system="LRG_10" start="1" end="2178" strand="1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000166794">
+          <symbol source="HGNC" name="PPIB" />
           <coordinates coord_system="LRG_10" start="4951" end="12344" strand="1" mapped_from="GRCh37" />
-          <symbol source="HGNC">PPIB</symbol>
           <long_name>peptidylprolyl isomerase B (cyclophilin B) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="5479">
             <synonym>CYP-S1</synonym>
@@ -333,10 +314,10 @@
             <exon source="Ensembl" accession="ENSE00001201753">
               <coordinates coord_system="LRG_10" start="4951" end="5304" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003442598">
+            <exon source="Ensembl" accession="ENSE00003563048">
               <coordinates coord_system="LRG_10" start="6002" end="6115" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003396346">
+            <exon source="Ensembl" accession="ENSE00003665606">
               <coordinates coord_system="LRG_10" start="7959" end="8052" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001106702">
@@ -347,7 +328,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000300026">
               <coordinates coord_system="LRG_10" start="5170" end="12133" strand="1" mapped_from="GRCh37" />
-              <long_name>peptidyl-prolyl cis-trans isomerase B precursor </long_name>
+              <long_name>peptidyl-prolyl cis-trans isomerase B precursor</long_name>
               <db_xref source="RefSeq" accession="NP_000933.1" />
               <db_xref source="UniProtKB" accession="P23284">
                 <synonym>A8K534</synonym>
@@ -362,7 +343,7 @@
             <exon source="Ensembl" accession="ENSE00002540887">
               <coordinates coord_system="LRG_10" start="5135" end="5304" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003274824">
+            <exon source="Ensembl" accession="ENSE00003578687">
               <coordinates coord_system="LRG_10" start="6002" end="6115" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002549492">
@@ -375,7 +356,7 @@
             <exon source="Ensembl" accession="ENSE00002573568">
               <coordinates coord_system="LRG_10" start="5150" end="5304" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003359569">
+            <exon source="Ensembl" accession="ENSE00003551015">
               <coordinates coord_system="LRG_10" start="7959" end="8052" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002537992">
@@ -384,9 +365,9 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000157734">
+          <symbol source="HGNC" name="SNX22" />
           <coordinates coord_system="LRG_10" start="10675" end="14341" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <symbol source="HGNC">SNX22</symbol>
           <long_name>sorting nexin 22 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="79856" />
           <db_xref source="HGNC" accession="16315">
@@ -410,7 +391,7 @@
             <long_name>SNX22-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS10190.1" />
             <db_xref source="RefSeq" accession="NM_024798.2" />
-            <exon source="Ensembl" accession="ENSE00003381934">
+            <exon source="Ensembl" accession="ENSE00003537636">
               <coordinates coord_system="LRG_10" start="14154" end="14221" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001267685">
@@ -419,7 +400,7 @@
             <protein_product source="Ensembl" accession="ENSP00000323435">
               <coordinates coord_system="LRG_10" start="13648" end="14341" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>sorting nexin-22 </long_name>
+              <long_name>sorting nexin-22</long_name>
               <db_xref source="RefSeq" accession="NP_079074.2" />
               <db_xref source="UniProtKB" accession="Q96L94">
                 <synonym>Q9H844</synonym>
@@ -429,9 +410,9 @@
           <transcript source="Ensembl" accession="ENST00000560997">
             <coordinates coord_system="LRG_10" start="10676" end="14341" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>Homo sapiens sorting nexin 22 (SNX22), transcript variant 2, non-coding RNA. (retained_intron)</long_name>
+            <long_name>SNX22-006 (retained_intron)</long_name>
             <db_xref source="RefSeq" accession="NR_073534.1" />
-            <exon source="Ensembl" accession="ENSE00003380268">
+            <exon source="Ensembl" accession="ENSE00003563741">
               <coordinates coord_system="LRG_10" start="14154" end="14221" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002559875">
@@ -442,7 +423,7 @@
             <coordinates coord_system="LRG_10" start="12323" end="14341" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SNX22-003 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00003380268">
+            <exon source="Ensembl" accession="ENSE00003563741">
               <coordinates coord_system="LRG_10" start="14154" end="14221" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002567649">
@@ -465,7 +446,7 @@
             <coordinates coord_system="LRG_10" start="13394" end="14341" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SNX22-005 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00003380268">
+            <exon source="Ensembl" accession="ENSE00003563741">
               <coordinates coord_system="LRG_10" start="14154" end="14221" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002545755">
@@ -488,7 +469,7 @@
         <name>List of locus specific databases for PPIB</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PPIB</url>
       </source>
-      <modification_date>2013-04-23</modification_date>
+      <modification_date>2013-09-13</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
