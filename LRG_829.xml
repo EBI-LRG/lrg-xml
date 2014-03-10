@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lrg2html.xsl"?>
+
 <lrg schema_version="1.8">
   <fixed_annotation>
     <id>LRG_829</id>
@@ -6,11 +9,6 @@
     <organism taxon="9606">Homo sapiens</organism>
     <source>
       <name></name>
-      <contact>
-        <name>Martina Witsch-Baumgartner</name>
-        <address>Medizinische Universitat Innsbruck</address>
-        <email>witsch-baumgartner@i-med.ac.at</email>
-      </contact>
       <contact>
         <name>Rita Menassa</name>
         <address>Centre de Biologie et de Pathologie Est, Bron Cedex, France</address>
@@ -27,82 +25,293 @@
         <email>yves.morel@chu-lyon.fr</email>
       </contact>
     </source>
+    <source>
+      <name></name>
+      <contact>
+        <name>Martina Witsch-Baumgartner</name>
+        <address>Medizinische Universitat Innsbruck, Austria</address>
+        <email>witsch-baumgartner@i-med.ac.at</email>
+      </contact>
+    </source>
     <mol_type>dna</mol_type>
     <creation_date>2008-05-31</creation_date>
     <sequence>GGAGAACTTACAGGTCCTGCCACAATCCTAATGCAAGGATGGAGCTGCAAGTTCAGTTTGGGAATCATCAGCCTGGATTGGTTTGGTGGAAGCCAGGGAGTGGTTGAGACCCCCACAGGGGAGCTCTGAGGAAGGAAGTTCCGAAGGAGGGAACGTAAGAAATGACCAGGTCAGAACCAAGGGTGGTCCAGAAGCTAACCCTTAGCTTAGGGACAGTTTCACAGAGAACACGTCCATGATGCAAGACTCTGCTGAGGGCCTGGAGCAGTGAAGACTGGGGCAAGGTCACCCTCTGGGAAGTGAAGTCACCAGAGACCTTGCGGAGCAGCTTTGAGAGTTCTCTGAGTAGGAAGGTAACAGAATGTGAAGGACACTGGAGAGAAGGCCAATAGGAAGCAAACAAAAACAGGCCAAGGAAACCCAGTACAGGGGGCTGCAGGGCCCAGGGAGTGGGTCCCTCATCTCTCCTCCCCACGCTTGGCCAGGTCCCCACCTCCCGGGAGTGCGTGGGCTTTGAGGCTGTGCAGGAAGTGCCGGTGGGGCTGGTGCAGCCGGCCAGCGCAACCCTGTACGACTACTACAACCCCGGTGAGCACTGCAGGACACCCTGAAATTCAGGAGAACTTTGGCATAGGTGCCCTCCTATGGGACAATGGACACCGGGGTAGTGAGGGGGCAGAGAGCCCTGGGGCTCCCTGGGACTGAGGAGGCAGAATGGAGGGGCCTGTGCCCTAACTCCTCTCTGTTCTCCAGAGCGCAGATGTTCTGTGTTTTACGGGGCACCAAGTAAGAGCAGACTCTTGGCCACCTTGTGTTCTGCTGAAGTCTGCCAGTGTGCTGAGGGTGAGACTGAGGGCCTGGGGCGGGGCAGTGGAGGCGGGATGGCCGGGGCCCCCCCCACACTGTCTGATGGGTTCCCCAACTTCAGGGAAGTGCCCTCGCCAGCGTCGCGCCCTGGAGCGGGGTCTGCAGGACGAGGATGGCTACAGGATGAAGTTTGCCTGCTACTACCCCCGTGTGGAGTACGGTCAGTCTTCCCACCGAGGCCCTGGCCTGACCCTCCCTCGGGGACCGGCCGTTTTGGTCTCTCTGGGTGTAGCCTGCTCCTCTTACAGGTCATGCACGCAGCCTGTTTGCTCTGACACCAACTTCCTACCCTCTCAGCCTCAAAGTAACTCACCTTTCCCCCTTCTCCTCACCCCCTCTTAGGCTTCCAGGTTAAGGTTCTCCGAGAAGACAGCAGAGCTGCTTTCCGCCTCTTTGAGACCAAGATCACCCAAGTCCTGCACTTCAGTATGAAGCAAACCGGAGAGGCGGGCAGGGCTGGGGGGAGACAGGGAGGCTGAGGTGTGGCCGAGGACCTGACCATCTGGAAGTGTGAAAATCCCCTTGGGCTGTCAGAAGCCTTGGGCTTGGCCATAAATAGGGAGGCAGTGGCACCTCTCCATGGGGGTGGCGAAGGTGGAATGAGAGGATCTACACAGAGTCCCCAGCCTGGGCTCACCCTGCACCTTCTCTTCCCCTCTGACCACTTTTGCGCACGTCATCCCCGCAGCCAAGGATGTCAAGGCCGCTGCTAATCAGATGCGCAACTTCCTGGTTCGAGCCTCCTGCCGCCTTCGCTTGGAACCTGGGAAAGAATATTTGATCATGGGTCTGGATGGGGCCACCTATGACCTCGAGGGACAGTGAGTCATCTGGTCCCCTCAGTCTCTTGTCCTCCCCATGCCTCGCCACCTAGGCCTTGCCCCTCAGAAGCCAGATGCCTGTGCTCTCCGTTTCCACCTGCCATCCTCCCGAGCCCTGCTGACTGCCCCTTTGCCCCCTGCAGCCCCCAGTACCTGCTGGACTCGAATAGCTGGATCGAGGAGATGCCCTCTGAACGCCTGTGCCGGAGCACCCGCCAGCGGGCAGCCTGTGCCCAGCTCAACGACTTCCTCCAGGAGTATGGCACTCAGGGGTGCCAGGTGTGAGGGCTGCCCTCCCACCTCCGCTGGGAGGAACCTGAACCTGGGAACCATGAAGCTGGAAGCACTGCTGTGTCCGCTTTCATGAACACAGCCTGGGACCAGGGCATATTAAAGGCTTTTGGCAGCAAAGTGTCAGTGTTGGCAGTGAAGTGTCAGTGTGTGTTGCTAGGGCTGAGAGCAGTGCCCCTGCCCGATGCAGTTCTGGGCAGGCCAGGTTGACATAACCTTAGACTCTCTGAGCCCTGATGACCCTTGGGCTGTTCAGCTCTGCTAGAACCTCCCAGATGACCCGCTAGGAGTCTAGTGCTTCACAGGACCACCCCGAGCAGAACTGGGACCCAAGAGCCTGCACCCCAAGGACCAGAGTCCATGCCAAGACCACCCTTCAGCTTCCAAGGCCCTCCACTGCCCGGCTGTCGCCAGTCACCACGGCCTCAGACAGGGCTTGTGCTCAGCTGACACCTGTGACACAGCTCTTCTGCCTCATGAGCTGTTGTCCAGCTACACCTCCCCGACTCTGTCCTCGTGCTGCTGGCGGTTCTGAGGTCTGCAGATTTTAGCTGAGTTCCGGGCTGTTGAAAGCCTGCTGACGCTTGGTTCTGTTATCAGTGGAATGAGGTGACTTTCCCGGAGTTGTGCAATCCTCAGGTCCGGCAGTGTCTTCTTCCAGTTACTGGTTTCAAACAAGCCAAAAGTCTGACTTTGGTGTGTTTGTGAATCCTCTGAGGAAGCCGCTGTTCTCCTGGGGTCTCCCCTTCCCACCGGACCTGCCTAACTTTCCCCCATTTAGTGGCACACCTGGGGTCTTCAGAGATGACTCCGCGTCTGTCCAAAGAAGTTTGGTGAGATCAGTTTCCGTAGAGGTCATGACAGTTCAGCAGCCTGCCATCCAGTCATTCGACAGAAATTCGGGAATCTTTCACTTCATGCCATGCCCTGTGCCAGGTGCCAGAGATACAGCTGCTCACTCCAGGGCTCATCGCTGGGGAGACAGATAAGAGGACGGGCAGTCCCCACCCTCTGTGAAAGATGTGATGTCAGGGAGCAGTGTGGTCCTGTGGGGCATCTAACCAAGTCAGGGGCATTGCCAGGCAGGGACAGGGAAGGCTTCCTGGAGCAGGTGGCCTCCAAGTGGGGCTCTGAAGACTGAGAAGGAGCCAGGAAAAGAGCAGGGGTAGATGAGGGCATCTGGGGCAGAAGGAGAATATACAAAGGCCCAGAGGCCGGGGGCAGGACAGGGTACCTTTGGGGACATTGCATGTAATTGACCACATTCGGAGTTTGGATTTGGAAGTGGTGGAAGAGATGGAGATGGTGAGACAAGTAGTAAGCACGTCAGCCTTCCAGGTGCGCTCCTTTCCGATGAGCACTGTCTTATCCCACGTAACTTTGAGAAGTTTGGGCCTTTCCCACTGTGGCAGAGGTTTCCTGAGGCTCTTGCATACATGGCCCTATGGTTGCTCATCAGATCTTTCTCCCAGTAGCTGCTCAGCATGGTGGTGGCATAAGCCCATTTTCCGGAGCCAGGGATTCAGTTGCAGCAAGACATGGCCCGGTCTGGGAGGTCAACCATGAAGAAGGCAGTAGCTGTCATTGCCCAACCCCAGAAATCCCAATCCTGTTTTCTCCCTCTCAGTCCTGATCATGGATTCAGCAGCAGCGAACTCGCCAATGTAGTGGGTGGCACAGCCAGGGTCTTGACTCTGGCTCTGCAGTAGCACAGTCTGGAAAAGCTCTGAGGGGAGAGAGACCCCCACTGGTCCGAGGGTCTGGCACAGAGCCAGAAATGGGGGGGAAGGTATGGGGCTGGGTCGCCTCTGACCTCTCAGGTACCATCCAGGAGGCCCTGGCCTCTCACTGAACCCGGCCACTCCTCTTTGGCATGGCCTCTTCCCAAATCCCCAAACTGCCTCCTTACCCACAAAAGTGGTCTCTGAGTGTCAGTCCAGTGGGACCCCCACCCCTTATGGCTTCAGTTCCCCAAATAGGGCTGGACCCTTGATCCTGATCCAGCTGTGGCTATCCAGCCCCTTCCTGGGGACTTTGGACTTTGAGGGGGGCATGCCCAGTTGTGCTGGGAATCCATACTTTCCCTGGCTGGAGTAGAACCTGTGGACTGTAGTCCTGAGGGCAGTCATGTTCTGCCTGTGCCTGGAAACACAAGAAACTTGACTGCAGAGAGAAGAAAGAGGAGAGAGGAACAGAGCGAGGAAACCGCCCGTCTCCGGGGCTTTTTCTGTTCCCTATCCTTGACTTTCTAAGACCAGTGGGGTCCCCTCCTCTGCTTCTTTTTCCTGAGTTCTGTGAAATTCCCCAATTCTTATTTTTTATCTCAAACCAGCTCAAGGTGGGCTGTTTTCCTTTCAACCAAAGAAAGGTGCTCCTGGTGGCTAAAGGTACATATTCGACAGCTAGATTTCCAGGCTGGAATCCTGCCCTCCACAACATGCGAACAATACCCGTGTTGCATATAGAGCATGGCTGTGAAGAGTTGAGTGAGTGCCCACAAAGCACTTAGAGCAGTGTCTGGTACATGCTATTACTCCGCAGCGGGAAACCACTTCCTCCTTTGTCTTCTGGGCACTTTTGTGAGTGAAAGGAGGCACTAATAACAATCACACTGGGATACCTGTATATACTGGAATGCCCCAGGCAAACCAGGCTTAAACTGTATTACTCTATCTGTAGCTTAAACTAACAAACAACCCACACAAATCACATTTTGTTCTTCAGGCGATTCAGGAAGGCCTATTAGGCAGGGACTGCCATTTTCTCTCTGAGACAAACATCATGCCAGTAAACTGGCCCACGGTGGGGTGGCAGAGGGAGAGGGCCCAGGTGGGGGCGGACACTATTGCCTGCACAGTTGATGTGGAACCAGAAAGCTGACTCTGGATGCAGGAAAAAGGTCAGGGTTGCATTTCCCTTCCTTGCTTCTTGATGGGTGATCAATTTTTTTGAAATACGGACGTCCCAAGGCCAATGAGACTGGTGTCATTCCAGAAAAGGGCCACTCTGTGGGCGGGTCGGTGGGAGGGTACCTGAAGGTGGGGTCAAGGGAGGCCCCAAAACAGTCTACACAGCAGGAGGGATGGCTGGGGCTCTTGAGCTATAAGTGGCACCTCAGGGCCCTGACGGGCGTCTCGCCATGCTGCTCCTGGGCCTGCTGCTGCTGCCCCTGCTGGCTGGCGCCCGCCTGCTGTGGAACTGGTGGAAGCTCCGGAGCCTCCACCTCCCGCCTCTTGCCCCGGGCTTCTTGCACTTGCTGCAGCCCGACCTCCCAATCTATCTGCTTGGCCTGACTCAGAAATTCGGGCCCATCTACAGGCTCCACCTTGGGCTGCAAGGTGAGAGGCTGATCTCGCTCTGGCCCTCACCATAGGAGGGGGCGGAGGTGACGGAGAGGGTCCTCTCTCCGCTGACGCTGCTTTGGCTGTCTCCCAGATGTGGTGGTGCTGAACTCCAAGAGGACCATTGAGGAAGCCATGGTCAAAAAGTGGGCAGACTTTGCTGGCAGACCTGAGCCACTTACCTGTAAGGGCCGGGGGCATTTTTTCTTTCTTAAAAAAATTTTTTTTTAAGAGATGGGTTCTTGCTATGCTGCCCAGGCTGGTCTTAAATTCCTAGTCTCAAATGATCCTCCCACCTCAGCCTCAAGTGTGAGCCACCTTTGGGGCATCCCCAATCCAGGTCCCTGGAAGCTCTTGGGGGGGCATATCTGGTGGGGAGAAAGCAGGGGTTGGGGAGGCCGAAGAAGGTCAGGCCCTCAGCTGCCTTCATCAGTTCCCACCCTCCAGCCCCCACCTCCTCCTGCAGACAAGCTGGTGTCTAGGAACTACCCGGACCTGTCCTTGGGAGACTACTCCCTGCTCTGGAAAGCCCACAAGAAGCTCACCCGCTCAGCCCTGCTGCTGGGCATCCGTGACTCCATGGAGCCAGTGGTGGAGCAGCTGACCCAGGAGTTCTGTGAGGTAAGGCTGGGCTCCTGAGGCCACCTCGGGTCAGCCTCGCCTCTCACAGTAGCCCCCGCCCTGCCCGCTGCACAGCGGCCTGCTGAACTCACACTGTTTCTCCACAGCGCATGAGAGCCCAGCCCGGCACCCCTGTGGCCATTGAGGAGGAATTCTCTCTCCTCACCTGCAGCATCATCTGTTACCTCACCTTCGGAGACAAGATCAAGGTGCCTCACAGCCCCTCAGGCCCACCCCCAGCCCCTCCCTGAGCCTCTCCTTGTCCTGAACTGAAAGTACTCCCTCCTTTTCTGGCAGGACGACAACTTAATGCCTGCCTATTACAAATGTATCCAGGAGGTGTTAAAAACCTGGAGCCACTGGTCCATCCAAATTGTGGACGTGATTCCCTTTCTCAGGGTGAGGACCTGGAGCCTAGACACCCCTGGGTTGTAGGGGAGAGGCTGGGGTGGAGGGAGAGGCTCCTTCCCACAGCTGCATTCTCATGCTTCCTGCCGCAGTTCTTCCCCAATCCAGGTCTCCGGAGGCTGAAGCAGGCCATAGAGAAGAGGGATCACATCGTGGAGATGCAGCTGAGGCAGCACAAGGTGGGGACTGTACGTGGACGGCCTCCCCTCGGCCCACAGCCAGTGATGCTACCGGCCTCAGCATTGCTATGAGGCGGGTTCTTTTGCATACCCCAGTTATGGGCCTGTTGCCACTCTGTACTCCTCTCCCCAGGCCAGCCGCTCAGCCCGCTCCTTTCACCCTCTGCAGGAGAGCCTCGTGGCAGGCCAGTGGAGGGACATGATGGACTACATGCTCCAAGGGGTGGCGCAGCCGAGCATGGAAGAGGGCTCTGGACAGCTCCTGGAAGGGCACGTGCACATGGCTGCAGTGGACCTCCTGATCGGTGGCACTGAGACCACAGCAAACACCCTCTCCTGGGCCGTGGTTTTTTTGCTTCACCACCCTGAGGTGCGTCCTGGGGACAAGCAAAAGGCTCCTTCCCAGCAACCTGGCCAGGGCGGTGGGCACCCTCACTCAGCTCTGAGCACTGTGCGGCTGGGGCTGTGCTTGCCTCACCGGCACTCAGGCTCACTGGGTTGCTGAGGGAGCGGCTGGAGGCTGGGCAGCTGTGGGCTGCTGGGGCAGGACTCCACCCGATCATTCCCCAGATTCAGCAGCGACTGCAGGAGGAGCTAGACCACGAACTGGGCCCTGGTGCCTCCAGCTCCCGGGTCCCCTACAAGGACCGTGCACGGCTGCCCTTGCTCAATGCCACCATCGCCGAGGTGCTGCGCCTGCGGCCCGTTGTGCCCTTAGCCTTGCCCCACCGCACCACACGGCCCAGCAGGTGACTCCCGAGGGTTGGGGATGAGTGAGGAAAGCCCGAGCCCAGGGAGGTCCTGGCCAGCCTCTAACTCCAGCCCCCTTCAGCATCTCCGGCTACGACATCCCTGAGGGCACAGTCATCATTCCGAACCTCCAAGGCGCCCACCTGGATGAGACGGTCTGGGAGAGGCCACATGAGTTCTGGCCTGGTATGTGGGGGGCCGGGGGCCTGCCGTGAAAATGTGGTGGAGGCTGGTCCCCGCTGCCGCTGAACGCCTCCCCACCCACCTGTCCACCCGCCCGCAGATCGCTTCCTGGAGCCAGGCAAGAACTCCAGAGCTCTGGCCTTCGGCTGCGGTGCCCGCGTGTGCCTGGGCGAGCCGCTGGCGCGCCTGGAGCTCTTCGTGGTGCTGACCCGACTGCTGCAGGCCTTCACGCTGCTGCCCTCCGGGGACGCCCTGCCCTCCCTGCAGCCCCTGCCCCACTGCAGTGTCATCCTCAAGATGCAGCCTTTCCAAGTGCGGCTGCAGCCCCGGGGGATGGGGGCCCACAGCCCGGGCCAGAGCCAGTGATGGGGCAGGACCGATGCCAGCCGGGTACCTCAGTTTCTCCTTTATTGCTCCCGTACGAACCCCTCCCCTCCCCCCTGTAAACACAGTGCTGCGAGATCGCTGGCAGAGAAGGCTTCCTCCAGCGGCTGGGTGGTGAAGGACCCTGGCTCTTCTCTCGGGGCGACCCCTCAGTGCTCGGCAGTCATACTGGGGTGCGAGAGAGGTGGGCAGCAGCTCAGCCTCCCCCCGCTGGGGAGCGAAAGTTTCTTGGTCTCAGCTTCATTTCCGTGAAGGGCACCGAGAACTCGAAGCCCTTCCAGTGGTACCAGCTCACTCCCTGGGAAAGGGGTTGTCAAGAGAGAGTCAAAGCCGGATGTCCCATCTGCTCTTCCCGTTCCCCTTAAGGAGGTAGCTCCCAGCACTCAACCAACCTCCCCGCAGAGCTCCCTTCCTGACCCTCCGCTGCAGAGGATTGAGGCTTAATTCTGAGCTGGCCCTTTCCAGCCAATAAATCAACTCCAGCTCCCTCTGCGAGGCTGGCATGATTGTTCCATTTCACCCAGCCACTCAGTCCCTTGCCTGTTACACTGTGGGGCTGAAACCTAGGCAGGCCGAGCCCCAGCCACCCCAGCTCTGAGCCGCCTCCCCACCCCTCACCTGATGGTCCACTGTGCTCCCGTAGAGCCCGTTGAGGTTGGCGTAGTGGCAGTTCCTGTACCACCAGGCCCCTCGGTAGGAGACAGCGCAGGAGATGAGCAAGCTGTTGGGGTCCCGATCACGGGCAGAGAAGACACTGCCGCTGTGGTAGCTCATGGAGTCCCCTGGGCAGGGTGGAGGAAGGAGCCATGAGGGCCTCCCCTCCCAGCCTCACCCTCCCAGCCTCACAGCCTCTGCTTACCTGCGGTGCCGTGGTAGCCCTCCAAGTGGAGGCGGTAGTACTCCGCAGCCGAGTCTACGTGGAAGGAGTCGTACTGGGCGAACACAGCCTCGTCCCCAGCCCGCAGGTCCACGCGCATGGAGTAGTCACCTGCCTGTGTCAGGCTGTGCAGGGCCTCATTGCCTGGGGGTGGGATACGTGCCCTCATCAGGGTCCTGGTGTCCACAGGGCCCCCATCCCCATCCGTAGTTCCCCAGTCCCTGTGAGGCACTGACCCAGCCAGAACTCTCCAGAGATGTTCCCAAAACCATGGGCATAGTCCTCCCAGTCCCTCCAGAAGTCTGTCTGTCCATCCATGCGGCGCTGGAACACCTGGGAAGCAAGTGGGGGCACCATCAGCCTCTGGCTCCCGGGGCAACAGACCCTGCCCTGCACAGACCCCTGGGCTTCCCAATGCCACCCACCAGCCAGCCGCCCCCATCAGTCTCCATGTCGCAAAACACGTTCAGGGGCCGCTCGCGGTTGCCGTTGAGGAAGATGGTGCTGGTCCTGGAGGCACCGGCTCCGTTCTGCATCTCCTCCCCGCAGTCCCTGGGGAAGGGGATCCGCAGCCCACCTGGGAGAGGAGAGCAGGGGCCAGTCCTTTTCCAAGCCTTAGGCCCTGGCTGCCCACCCAGCCCCCGGCCCCGGGCCCGTGCGTCCAGGTACCCGTGGTGAAAGAGGTGGACACGGGCGGCAGGAGGCTCTGGCCCCACATGGCCTGGAGCCGTGCATTGTAGGAGGTGGAGGGAAAGAGGCCAAGGAGCTGGTGAGATGTGATCCCTCCTGGGAGCAGGATCTCCTGTGGGACAGACAAGGGGGGGTCAGGGGAGAGGGAGGTGGAGACCCTCCGGGAGGGCCAGAGGCAGCACCTCCTGGAATCACCCAGGGAGGGGAGTTGGGTCAGTGGGGCCGGGGCACCTGGTTCTGTCCACCAGGGGTGTGGAAGCTGAGCAGGTAGCCTGCGGGCCGGACTGGGGGCTCAGTCCAAGTGAGCAGGGCGGTGCGGGGGGTCACTTCCTTGGCCTCCAAGTCCCGAGGGGCCTCTAGCCCTAGGAGGGAAAGCAGGAAGAGGAGATGGGGATGAGGCCCAACCTGGCTCCCTCTACCTCCTCTCCCTGTCCCACACACCCCACAGACCCTACCTGTGGTGAAGGTGATGCTGGCTGGGGAAGTGAGGTTGGGGCCCCGCAGGCCACGCACTGTGGCGGTGTAGTTGGTGTGGAGGACAAGGTCATGCAGGGGGTAGTCCACCGCGCTGCCTGGGGTCTCCGCCTGCAGAGGCGGGGCTGGGAGTGTAGAGAGGGGCATCAAGGCCTGCCCCCTCCATCCTCGGCCAGAGTCCAGCCTCCCCCCTGCAATCCCCACCCTGAACAAGTCCCCTCCAGAGGCCTCAGGCCTGCTCACCCCCAGGGGCTGTGACCTGGACGTCATAGGTGTCCACAGGATTCTGGGGGGGCTTCCAGTGCAGCACGGCGAATCCCTCGGTCAAGTTCAGTGCACGCAACTGTGTGGGACCGTCAGGAACTGGGGGAAGGGGAGGGGCTCAGAAGGGTCCCCGCGGCTCTCTCTACTCCGTGCCTCCCCAGACTCCACTGGCCTCCCGTCCGCAA</sequence>
     <transcript name="t1">
-      <coordinates coord_system="LRG_829" end="8363" start="4961" strand="1"></coordinates>
+      <coordinates coord_system="LRG_829" start="4961" end="8363" strand="1" />
       <cdna>
         <sequence>GGTGTCATTCCAGAAAAGGGCCACTCTGTGGGCGGGTCGGTGGGAGGGTACCTGAAGGTGGGGTCAAGGGAGGCCCCAAAACAGTCTACACAGCAGGAGGGATGGCTGGGGCTCTTGAGCTATAAGTGGCACCTCAGGGCCCTGACGGGCGTCTCGCCATGCTGCTCCTGGGCCTGCTGCTGCTGCCCCTGCTGGCTGGCGCCCGCCTGCTGTGGAACTGGTGGAAGCTCCGGAGCCTCCACCTCCCGCCTCTTGCCCCGGGCTTCTTGCACTTGCTGCAGCCCGACCTCCCAATCTATCTGCTTGGCCTGACTCAGAAATTCGGGCCCATCTACAGGCTCCACCTTGGGCTGCAAGATGTGGTGGTGCTGAACTCCAAGAGGACCATTGAGGAAGCCATGGTCAAAAAGTGGGCAGACTTTGCTGGCAGACCTGAGCCACTTACCTACAAGCTGGTGTCTAGGAACTACCCGGACCTGTCCTTGGGAGACTACTCCCTGCTCTGGAAAGCCCACAAGAAGCTCACCCGCTCAGCCCTGCTGCTGGGCATCCGTGACTCCATGGAGCCAGTGGTGGAGCAGCTGACCCAGGAGTTCTGTGAGCGCATGAGAGCCCAGCCCGGCACCCCTGTGGCCATTGAGGAGGAATTCTCTCTCCTCACCTGCAGCATCATCTGTTACCTCACCTTCGGAGACAAGATCAAGGACGACAACTTAATGCCTGCCTATTACAAATGTATCCAGGAGGTGTTAAAAACCTGGAGCCACTGGTCCATCCAAATTGTGGACGTGATTCCCTTTCTCAGGTTCTTCCCCAATCCAGGTCTCCGGAGGCTGAAGCAGGCCATAGAGAAGAGGGATCACATCGTGGAGATGCAGCTGAGGCAGCACAAGGAGAGCCTCGTGGCAGGCCAGTGGAGGGACATGATGGACTACATGCTCCAAGGGGTGGCGCAGCCGAGCATGGAAGAGGGCTCTGGACAGCTCCTGGAAGGGCACGTGCACATGGCTGCAGTGGACCTCCTGATCGGTGGCACTGAGACCACAGCAAACACCCTCTCCTGGGCCGTGGTTTTTTTGCTTCACCACCCTGAGATTCAGCAGCGACTGCAGGAGGAGCTAGACCACGAACTGGGCCCTGGTGCCTCCAGCTCCCGGGTCCCCTACAAGGACCGTGCACGGCTGCCCTTGCTCAATGCCACCATCGCCGAGGTGCTGCGCCTGCGGCCCGTTGTGCCCTTAGCCTTGCCCCACCGCACCACACGGCCCAGCAGCATCTCCGGCTACGACATCCCTGAGGGCACAGTCATCATTCCGAACCTCCAAGGCGCCCACCTGGATGAGACGGTCTGGGAGAGGCCACATGAGTTCTGGCCTGATCGCTTCCTGGAGCCAGGCAAGAACTCCAGAGCTCTGGCCTTCGGCTGCGGTGCCCGCGTGTGCCTGGGCGAGCCGCTGGCGCGCCTGGAGCTCTTCGTGGTGCTGACCCGACTGCTGCAGGCCTTCACGCTGCTGCCCTCCGGGGACGCCCTGCCCTCCCTGCAGCCCCTGCCCCACTGCAGTGTCATCCTCAAGATGCAGCCTTTCCAAGTGCGGCTGCAGCCCCGGGGGATGGGGGCCCACAGCCCGGGCCAGAGCCAGTGATGGGGCAGGACCGATGCCAGCCGGGTACCTCAGTTTCTCCTTTATTGCTCCCGTACGAACCCCTCCCCTCCCCCCTGTAAACACAGTGCTGCGAGATCGCTGGCAGAGAAGGCTTCCTCCAGCGGCTGGGTGGTGAAGGACCCTGGCTCTTCTCTCGGGGCGACCCCTCAGTGCTCGGCAGTCATACTGGGGTGCGAGAGAGGTGGGCAGCAGCTCAGCCTCCCCCCGCTGGGGAGCGAAAGTTTCTTGGTCTCAGCTTCATTTCCGTGAAGGGCACCGAGAACTCGAAGCCCTTCCAGTGGTACCAGCTCACTCCCTGGGAAAGGGGTTGTCAAGAGAGAGTCAAAGCCGGATGTCCCATCTGCTCTTCCCGTTCCCCTTAAGGAGGTAGCTCCCAGCACTCAACCAACCTCCCCGCAGAGCTCCCTTCCTGACCCTCCGCTGCAGAGGATTGAGGCTTAATTCTGAGCTGGCCCTTTCCAGCCAATAAATCAACTCCAGCTCCCTCTGCGAGGCTGGCATGATTGTTCCATTTC</sequence>
       </cdna>
       <coding_region>
-        <coordinates coord_system="LRG_829" end="7827" start="5119" strand="1"></coordinates>
+        <coordinates coord_system="LRG_829" start="5119" end="7827" strand="1" />
         <translation name="p1">
           <sequence>MLLLGLLLLPLLAGARLLWNWWKLRSLHLPPLAPGFLHLLQPDLPIYLLGLTQKFGPIYRLHLGLQDVVVLNSKRTIEEAMVKKWADFAGRPEPLTYKLVSRNYPDLSLGDYSLLWKAHKKLTRSALLLGIRDSMEPVVEQLTQEFCERMRAQPGTPVAIEEEFSLLTCSIICYLTFGDKIKDDNLMPAYYKCIQEVLKTWSHWSIQIVDVIPFLRFFPNPGLRRLKQAIEKRDHIVEMQLRQHKESLVAGQWRDMMDYMLQGVAQPSMEEGSGQLLEGHVHMAAVDLLIGGTETTANTLSWAVVFLLHHPEIQQRLQEELDHELGPGASSSRVPYKDRARLPLLNATIAEVLRLRPVVPLALPHRTTRPSSISGYDIPEGTVIIPNLQGAHLDETVWERPHEFWPDRFLEPGKNSRALAFGCGARVCLGEPLARLELFVVLTRLLQAFTLLPSGDALPSLQPLPHCSVILKMQPFQVRLQPRGMGAHSPGQSQ</sequence>
         </translation>
       </coding_region>
       <exon label="1">
-        <coordinates coord_system="LRG_829" end="5317" start="4961" strand="1"></coordinates>
-        <coordinates coord_system="LRG_829t1" end="357" start="1"></coordinates>
-        <coordinates coord_system="LRG_829p1" end="67" start="1"></coordinates>
+        <coordinates coord_system="LRG_829" start="4961" end="5317" strand="1" />
+        <coordinates coord_system="LRG_829t1" start="1" end="357" />
+        <coordinates coord_system="LRG_829p1" start="1" end="67" />
       </exon>
-      <intron phase="1"></intron>
+      <intron phase="1" />
       <exon label="2">
-        <coordinates coord_system="LRG_829" end="5504" start="5415" strand="1"></coordinates>
-        <coordinates coord_system="LRG_829t1" end="447" start="358"></coordinates>
-        <coordinates coord_system="LRG_829p1" end="97" start="67"></coordinates>
+        <coordinates coord_system="LRG_829" start="5415" end="5504" strand="1" />
+        <coordinates coord_system="LRG_829t1" start="358" end="447" />
+        <coordinates coord_system="LRG_829p1" start="67" end="97" />
       </exon>
-      <intron phase="1"></intron>
+      <intron phase="1" />
       <exon label="3">
-        <coordinates coord_system="LRG_829" end="5941" start="5787" strand="1"></coordinates>
-        <coordinates coord_system="LRG_829t1" end="602" start="448"></coordinates>
-        <coordinates coord_system="LRG_829p1" end="148" start="97"></coordinates>
+        <coordinates coord_system="LRG_829" start="5787" end="5941" strand="1" />
+        <coordinates coord_system="LRG_829t1" start="448" end="602" />
+        <coordinates coord_system="LRG_829p1" start="97" end="148" />
       </exon>
-      <intron phase="0"></intron>
+      <intron phase="0" />
       <exon label="4">
-        <coordinates coord_system="LRG_829" end="6150" start="6049" strand="1"></coordinates>
-        <coordinates coord_system="LRG_829t1" end="704" start="603"></coordinates>
-        <coordinates coord_system="LRG_829p1" end="182" start="149"></coordinates>
+        <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" />
+        <coordinates coord_system="LRG_829t1" start="603" end="704" />
+        <coordinates coord_system="LRG_829p1" start="149" end="182" />
       </exon>
-      <intron phase="0"></intron>
+      <intron phase="0" />
       <exon label="5">
-        <coordinates coord_system="LRG_829" end="6340" start="6239" strand="1"></coordinates>
-        <coordinates coord_system="LRG_829t1" end="806" start="705"></coordinates>
-        <coordinates coord_system="LRG_829p1" end="216" start="183"></coordinates>
+        <coordinates coord_system="LRG_829" start="6239" end="6340" strand="1" />
+        <coordinates coord_system="LRG_829t1" start="705" end="806" />
+        <coordinates coord_system="LRG_829p1" start="183" end="216" />
       </exon>
-      <intron phase="0"></intron>
+      <intron phase="0" />
       <exon label="6">
-        <coordinates coord_system="LRG_829" end="6528" start="6442" strand="1"></coordinates>
-        <coordinates coord_system="LRG_829t1" end="893" start="807"></coordinates>
-        <coordinates coord_system="LRG_829p1" end="245" start="217"></coordinates>
+        <coordinates coord_system="LRG_829" start="6442" end="6528" strand="1" />
+        <coordinates coord_system="LRG_829t1" start="807" end="893" />
+        <coordinates coord_system="LRG_829p1" start="217" end="245" />
       </exon>
-      <intron phase="0"></intron>
+      <intron phase="0" />
       <exon label="7">
-        <coordinates coord_system="LRG_829" end="6898" start="6698" strand="1"></coordinates>
-        <coordinates coord_system="LRG_829t1" end="1094" start="894"></coordinates>
-        <coordinates coord_system="LRG_829p1" end="312" start="246"></coordinates>
+        <coordinates coord_system="LRG_829" start="6698" end="6898" strand="1" />
+        <coordinates coord_system="LRG_829t1" start="894" end="1094" />
+        <coordinates coord_system="LRG_829p1" start="246" end="312" />
       </exon>
-      <intron phase="0"></intron>
+      <intron phase="0" />
       <exon label="8">
-        <coordinates coord_system="LRG_829" end="7277" start="7099" strand="1"></coordinates>
-        <coordinates coord_system="LRG_829t1" end="1273" start="1095"></coordinates>
-        <coordinates coord_system="LRG_829p1" end="372" start="313"></coordinates>
+        <coordinates coord_system="LRG_829" start="7099" end="7277" strand="1" />
+        <coordinates coord_system="LRG_829t1" start="1095" end="1273" />
+        <coordinates coord_system="LRG_829p1" start="313" end="372" />
       </exon>
-      <intron phase="2"></intron>
+      <intron phase="2" />
       <exon label="9">
-        <coordinates coord_system="LRG_829" end="7464" start="7361" strand="1"></coordinates>
-        <coordinates coord_system="LRG_829t1" end="1377" start="1274"></coordinates>
-        <coordinates coord_system="LRG_829p1" end="407" start="372"></coordinates>
+        <coordinates coord_system="LRG_829" start="7361" end="7464" strand="1" />
+        <coordinates coord_system="LRG_829t1" start="1274" end="1377" />
+        <coordinates coord_system="LRG_829p1" start="372" end="407" />
       </exon>
-      <intron phase="1"></intron>
+      <intron phase="1" />
       <exon label="10">
-        <coordinates coord_system="LRG_829" end="8363" start="7562" strand="1"></coordinates>
-        <coordinates coord_system="LRG_829t1" end="2179" start="1378"></coordinates>
-        <coordinates coord_system="LRG_829p1" end="494" start="407"></coordinates>
+        <coordinates coord_system="LRG_829" start="7562" end="8363" strand="1" />
+        <coordinates coord_system="LRG_829t1" start="1378" end="2179" />
+        <coordinates coord_system="LRG_829p1" start="407" end="494" />
       </exon>
     </transcript>
   </fixed_annotation>
   <updatable_annotation>
+    <annotation_set>
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2014-03-10</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="unlocalized" other_id="NT_167249.1" other_start="3333793" other_end="3344127">
+        <mapping_span lrg_start="1" lrg_end="10335" other_start="3333793" other_end="3344127" strand="1">
+          <diff type="mismatch" lrg_start="1659" lrg_end="1659" other_start="3335451" other_end="3335451" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="2116" lrg_end="2116" other_start="3335908" other_end="3335908" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3133" lrg_end="3133" other_start="3336925" other_end="3336925" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3774" lrg_end="3774" other_start="3337566" other_end="3337566" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5513" lrg_end="5513" other_start="3339305" other_end="3339305" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="5537" lrg_end="5537" other_start="3339329" other_end="3339329" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5571" lrg_end="5571" other_start="3339363" other_end="3339363" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="5774" lrg_end="5774" other_start="3339566" other_end="3339566" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3339594" other_end="3339594" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7812" lrg_end="7812" other_start="3341604" other_end="3341604" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7820" lrg_end="7820" other_start="3341612" other_end="3341612" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="8372" lrg_end="8372" other_start="3342164" other_end="3342164" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="9188" lrg_end="9188" other_start="3342980" other_end="3342980" lrg_sequence="T" other_sequence="A" />
+          <diff type="mismatch" lrg_start="9648" lrg_end="9648" other_start="3343440" other_end="3343440" lrg_sequence="T" other_sequence="G" />
+          <diff type="mismatch" lrg_start="10120" lrg_end="10120" other_start="3343912" other_end="3343912" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="10151" lrg_end="10151" other_start="3343943" other_end="3343943" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10164" lrg_end="10164" other_start="3343956" other_end="3343956" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10274" lrg_end="10274" other_start="3344066" other_end="3344066" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh37.p13" other_name="unlocalized" other_id="NT_167247.1" other_start="3380927" other_end="3391260">
+        <mapping_span lrg_start="1" lrg_end="10335" other_start="3380927" other_end="3391260" strand="1">
+          <diff type="mismatch" lrg_start="1659" lrg_end="1659" other_start="3382585" other_end="3382585" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="2116" lrg_end="2116" other_start="3383042" other_end="3383042" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3133" lrg_end="3133" other_start="3384059" other_end="3384059" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3774" lrg_end="3774" other_start="3384700" other_end="3384700" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5513" lrg_end="5513" other_start="3386439" other_end="3386439" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="5537" lrg_end="5537" other_start="3386463" other_end="3386463" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5571" lrg_end="5571" other_start="3386497" other_end="3386497" lrg_sequence="C" other_sequence="T" />
+          <diff type="lrg_ins" lrg_start="5677" lrg_end="5677" other_start="3386602" other_end="3386603" lrg_sequence="G" other_sequence="-" />
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7812" lrg_end="7812" other_start="3388737" other_end="3388737" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7820" lrg_end="7820" other_start="3388745" other_end="3388745" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="8372" lrg_end="8372" other_start="3389297" other_end="3389297" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="9188" lrg_end="9188" other_start="3390113" other_end="3390113" lrg_sequence="T" other_sequence="A" />
+          <diff type="mismatch" lrg_start="9648" lrg_end="9648" other_start="3390573" other_end="3390573" lrg_sequence="T" other_sequence="G" />
+          <diff type="mismatch" lrg_start="10120" lrg_end="10120" other_start="3391045" other_end="3391045" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="10151" lrg_end="10151" other_start="3391076" other_end="3391076" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10164" lrg_end="10164" other_start="3391089" other_end="3391089" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10274" lrg_end="10274" other_start="3391199" other_end="3391199" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh37.p13" other_name="unlocalized" other_id="NT_167245.1" other_start="3280298" other_end="3290636">
+        <mapping_span lrg_start="1" lrg_end="10335" other_start="3280298" other_end="3290636" strand="1">
+          <diff type="mismatch" lrg_start="1077" lrg_end="1077" other_start="3281374" other_end="3281374" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="2116" lrg_end="2116" other_start="3282413" other_end="3282413" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="2946" lrg_end="2946" other_start="3283243" other_end="3283243" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="3133" lrg_end="3133" other_start="3283430" other_end="3283430" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3353" lrg_end="3353" other_start="3283650" other_end="3283650" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="3774" lrg_end="3774" other_start="3284071" other_end="3284071" lrg_sequence="G" other_sequence="A" />
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="3285431" other_end="3285433" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5720" lrg_end="5720" other_start="3286020" other_end="3286020" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5774" lrg_end="5774" other_start="3286074" other_end="3286074" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5979" lrg_end="5979" other_start="3286279" other_end="3286279" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="7367" lrg_end="7367" other_start="3287667" other_end="3287667" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8195" lrg_end="8195" other_start="3288495" other_end="3288495" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8217" lrg_end="8217" other_start="3288517" other_end="3288517" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="8267" lrg_end="8267" other_start="3288567" other_end="3288567" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8270" lrg_end="8270" other_start="3288570" other_end="3288570" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8291" lrg_end="8291" other_start="3288591" other_end="3288591" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8301" lrg_end="8301" other_start="3288601" other_end="3288601" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8372" lrg_end="8372" other_start="3288672" other_end="3288672" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="9105" lrg_end="9105" other_start="3289405" other_end="3289405" lrg_sequence="A" other_sequence="C" />
+          <diff type="other_ins" lrg_start="9108" lrg_end="9109" other_start="3289409" other_end="3289409" lrg_sequence="-" other_sequence="T" />
+          <diff type="mismatch" lrg_start="9439" lrg_end="9439" other_start="3289740" other_end="3289740" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="9648" lrg_end="9648" other_start="3289949" other_end="3289949" lrg_sequence="T" other_sequence="G" />
+          <diff type="mismatch" lrg_start="10120" lrg_end="10120" other_start="3290421" other_end="3290421" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="10151" lrg_end="10151" other_start="3290452" other_end="3290452" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10164" lrg_end="10164" other_start="3290465" other_end="3290465" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10274" lrg_end="10274" other_start="3290575" other_end="3290575" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh37.p13" other_name="unlocalized" other_id="NT_113891.2" other_start="3471733" other_end="3482070">
+        <mapping_span lrg_start="1" lrg_end="10335" other_start="3471733" other_end="3482070" strand="1">
+          <diff type="mismatch" lrg_start="1077" lrg_end="1077" other_start="3472809" other_end="3472809" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="2116" lrg_end="2116" other_start="3473848" other_end="3473848" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3133" lrg_end="3133" other_start="3474865" other_end="3474865" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3353" lrg_end="3353" other_start="3475085" other_end="3475085" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="3774" lrg_end="3774" other_start="3475506" other_end="3475506" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="4186" lrg_end="4186" other_start="3475918" other_end="3475918" lrg_sequence="C" other_sequence="T" />
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="3476866" other_end="3476868" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5513" lrg_end="5513" other_start="3477248" other_end="3477248" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="5979" lrg_end="5979" other_start="3477714" other_end="3477714" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="7879" lrg_end="7879" other_start="3479614" other_end="3479614" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_start="32001082" other_end="32011419">
+        <mapping_span lrg_start="1" lrg_end="10335" other_start="32001082" other_end="32011419" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="32006215" other_end="32006217" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="32006317" other_end="32006317" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="32006337" other_end="32006337" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="unlocalized" other_id="NT_113891.3" other_start="3471627" other_end="3481964">
+        <mapping_span lrg_start="1" lrg_end="10335" other_start="3471627" other_end="3481964" strand="1">
+          <diff type="mismatch" lrg_start="1077" lrg_end="1077" other_start="3472703" other_end="3472703" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="2116" lrg_end="2116" other_start="3473742" other_end="3473742" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3133" lrg_end="3133" other_start="3474759" other_end="3474759" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3353" lrg_end="3353" other_start="3474979" other_end="3474979" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="3774" lrg_end="3774" other_start="3475400" other_end="3475400" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="4186" lrg_end="4186" other_start="3475812" other_end="3475812" lrg_sequence="C" other_sequence="T" />
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="3476760" other_end="3476762" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5513" lrg_end="5513" other_start="3477142" other_end="3477142" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="5979" lrg_end="5979" other_start="3477608" other_end="3477608" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="7879" lrg_end="7879" other_start="3479508" other_end="3479508" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="6" other_id="NC_000006.12" other_start="32033305" other_end="32043642">
+        <mapping_span lrg_start="1" lrg_end="10335" other_start="32033305" other_end="32043642" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="32038438" other_end="32038440" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="32038540" other_end="32038540" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="32038560" other_end="32038560" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="unlocalized" other_id="NT_167249.2" other_start="3334495" other_end="3344829">
+        <mapping_span lrg_start="1" lrg_end="10335" other_start="3334495" other_end="3344829" strand="1">
+          <diff type="mismatch" lrg_start="1659" lrg_end="1659" other_start="3336153" other_end="3336153" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="2116" lrg_end="2116" other_start="3336610" other_end="3336610" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3133" lrg_end="3133" other_start="3337627" other_end="3337627" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3774" lrg_end="3774" other_start="3338268" other_end="3338268" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5513" lrg_end="5513" other_start="3340007" other_end="3340007" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="5537" lrg_end="5537" other_start="3340031" other_end="3340031" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5571" lrg_end="5571" other_start="3340065" other_end="3340065" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="5774" lrg_end="5774" other_start="3340268" other_end="3340268" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3340296" other_end="3340296" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7812" lrg_end="7812" other_start="3342306" other_end="3342306" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7820" lrg_end="7820" other_start="3342314" other_end="3342314" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="8372" lrg_end="8372" other_start="3342866" other_end="3342866" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="9188" lrg_end="9188" other_start="3343682" other_end="3343682" lrg_sequence="T" other_sequence="A" />
+          <diff type="mismatch" lrg_start="9648" lrg_end="9648" other_start="3344142" other_end="3344142" lrg_sequence="T" other_sequence="G" />
+          <diff type="mismatch" lrg_start="10120" lrg_end="10120" other_start="3344614" other_end="3344614" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="10151" lrg_end="10151" other_start="3344645" other_end="3344645" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10164" lrg_end="10164" other_start="3344658" other_end="3344658" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10274" lrg_end="10274" other_start="3344768" other_end="3344768" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="unlocalized" other_id="NT_167247.2" other_start="3375342" other_end="3385675">
+        <mapping_span lrg_start="1" lrg_end="10335" other_start="3375342" other_end="3385675" strand="1">
+          <diff type="mismatch" lrg_start="1659" lrg_end="1659" other_start="3377000" other_end="3377000" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="2116" lrg_end="2116" other_start="3377457" other_end="3377457" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3133" lrg_end="3133" other_start="3378474" other_end="3378474" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3774" lrg_end="3774" other_start="3379115" other_end="3379115" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5513" lrg_end="5513" other_start="3380854" other_end="3380854" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="5537" lrg_end="5537" other_start="3380878" other_end="3380878" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5571" lrg_end="5571" other_start="3380912" other_end="3380912" lrg_sequence="C" other_sequence="T" />
+          <diff type="lrg_ins" lrg_start="5677" lrg_end="5677" other_start="3381017" other_end="3381018" lrg_sequence="G" other_sequence="-" />
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3381142" other_end="3381142" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7812" lrg_end="7812" other_start="3383152" other_end="3383152" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7820" lrg_end="7820" other_start="3383160" other_end="3383160" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="8372" lrg_end="8372" other_start="3383712" other_end="3383712" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="9188" lrg_end="9188" other_start="3384528" other_end="3384528" lrg_sequence="T" other_sequence="A" />
+          <diff type="mismatch" lrg_start="9648" lrg_end="9648" other_start="3384988" other_end="3384988" lrg_sequence="T" other_sequence="G" />
+          <diff type="mismatch" lrg_start="10120" lrg_end="10120" other_start="3385460" other_end="3385460" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="10151" lrg_end="10151" other_start="3385491" other_end="3385491" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10164" lrg_end="10164" other_start="3385504" other_end="3385504" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10274" lrg_end="10274" other_start="3385614" other_end="3385614" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="unlocalized" other_id="NT_167245.2" other_start="3274713" other_end="3285051">
+        <mapping_span lrg_start="1" lrg_end="10335" other_start="3274713" other_end="3285051" strand="1">
+          <diff type="mismatch" lrg_start="1077" lrg_end="1077" other_start="3275789" other_end="3275789" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="2116" lrg_end="2116" other_start="3276828" other_end="3276828" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="2946" lrg_end="2946" other_start="3277658" other_end="3277658" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="3133" lrg_end="3133" other_start="3277845" other_end="3277845" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3353" lrg_end="3353" other_start="3278065" other_end="3278065" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="3774" lrg_end="3774" other_start="3278486" other_end="3278486" lrg_sequence="G" other_sequence="A" />
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="3279846" other_end="3279848" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5720" lrg_end="5720" other_start="3280435" other_end="3280435" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5774" lrg_end="5774" other_start="3280489" other_end="3280489" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5979" lrg_end="5979" other_start="3280694" other_end="3280694" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="7367" lrg_end="7367" other_start="3282082" other_end="3282082" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8195" lrg_end="8195" other_start="3282910" other_end="3282910" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8217" lrg_end="8217" other_start="3282932" other_end="3282932" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="8267" lrg_end="8267" other_start="3282982" other_end="3282982" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8270" lrg_end="8270" other_start="3282985" other_end="3282985" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8291" lrg_end="8291" other_start="3283006" other_end="3283006" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8301" lrg_end="8301" other_start="3283016" other_end="3283016" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8372" lrg_end="8372" other_start="3283087" other_end="3283087" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="9105" lrg_end="9105" other_start="3283820" other_end="3283820" lrg_sequence="A" other_sequence="C" />
+          <diff type="other_ins" lrg_start="9108" lrg_end="9109" other_start="3283824" other_end="3283824" lrg_sequence="-" other_sequence="T" />
+          <diff type="mismatch" lrg_start="9439" lrg_end="9439" other_start="3284155" other_end="3284155" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="9648" lrg_end="9648" other_start="3284364" other_end="3284364" lrg_sequence="T" other_sequence="G" />
+          <diff type="mismatch" lrg_start="10120" lrg_end="10120" other_start="3284836" other_end="3284836" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="10151" lrg_end="10151" other_start="3284867" other_end="3284867" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10164" lrg_end="10164" other_start="3284880" other_end="3284880" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10274" lrg_end="10274" other_start="3284990" other_end="3284990" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <lrg_locus source="HGNC">CYP21A2</lrg_locus>
+    </annotation_set>
     <annotation_set>
       <source>
         <name>NCBI RefSeqGene</name>
@@ -115,243 +324,52 @@
       </source>
       <comment>Annotation from NG_007941.2</comment>
       <modification_date>2014-03-04</modification_date>
-      <mapping coord_system="GRCh37.p13" other_end="32011419" other_id="NC_000006.11" other_name="6" other_start="32001082">
-        <mapping_span lrg_end="10335" lrg_start="1" other_end="32011419" other_start="32001082" strand="1">
-          <diff lrg_end="5134" lrg_sequence="-" lrg_start="5133" other_end="32006217" other_sequence="CTG" other_start="32006215" type="other_ins"></diff>
-          <diff lrg_end="5233" lrg_sequence="T" lrg_start="5233" other_end="32006317" other_sequence="C" other_start="32006317" type="mismatch"></diff>
-          <diff lrg_end="5253" lrg_sequence="A" lrg_start="5253" other_end="32006337" other_sequence="C" other_start="32006337" type="mismatch"></diff>
+      <mapping coord_system="NM_000500.6" other_name="NM_000500.6" other_id="NM_000500.6" other_start="1" other_end="2179">
+        <mapping_span lrg_start="4961" lrg_end="5317" other_start="1" other_end="357" strand="1" />
+        <mapping_span lrg_start="5415" lrg_end="5504" other_start="358" other_end="447" strand="1" />
+        <mapping_span lrg_start="5787" lrg_end="5941" other_start="448" other_end="602" strand="1" />
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="603" other_end="704" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6340" other_start="705" other_end="806" strand="1" />
+        <mapping_span lrg_start="6442" lrg_end="6528" other_start="807" other_end="893" strand="1" />
+        <mapping_span lrg_start="6698" lrg_end="6898" other_start="894" other_end="1094" strand="1" />
+        <mapping_span lrg_start="7099" lrg_end="7277" other_start="1095" other_end="1273" strand="1" />
+        <mapping_span lrg_start="7361" lrg_end="7464" other_start="1274" other_end="1377" strand="1" />
+        <mapping_span lrg_start="7562" lrg_end="8363" other_start="1378" other_end="2179" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_000500.7" other_name="NM_000500.7" other_id="NM_000500.7" other_start="1" other_end="2131">
+        <mapping_span lrg_start="5012" lrg_end="5317" other_start="1" other_end="309" strand="1">
+          <diff type="other_ins" lrg_start="5146" lrg_end="5147" other_start="136" other_end="138" lrg_sequence="-" other_sequence="TGC" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="225" other_end="225" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="245" other_end="245" lrg_sequence="A" other_sequence="C" />
         </mapping_span>
+        <mapping_span lrg_start="5415" lrg_end="5504" other_start="310" other_end="399" strand="1" />
+        <mapping_span lrg_start="5787" lrg_end="5941" other_start="400" other_end="554" strand="1" />
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="555" other_end="656" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6340" other_start="657" other_end="758" strand="1" />
+        <mapping_span lrg_start="6442" lrg_end="6528" other_start="759" other_end="845" strand="1" />
+        <mapping_span lrg_start="6698" lrg_end="6898" other_start="846" other_end="1046" strand="1" />
+        <mapping_span lrg_start="7099" lrg_end="7277" other_start="1047" other_end="1225" strand="1" />
+        <mapping_span lrg_start="7361" lrg_end="7464" other_start="1226" other_end="1329" strand="1" />
+        <mapping_span lrg_start="7562" lrg_end="8363" other_start="1330" other_end="2131" strand="1" />
       </mapping>
-      <mapping coord_system="GRCh37.p13" other_end="3482070" other_id="NT_113891.2" other_name="unlocalized" other_start="3471733">
-        <mapping_span lrg_end="10335" lrg_start="1" other_end="3482070" other_start="3471733" strand="1">
-          <diff lrg_end="1077" lrg_sequence="C" lrg_start="1077" other_end="3472809" other_sequence="T" other_start="3472809" type="mismatch"></diff>
-          <diff lrg_end="2116" lrg_sequence="T" lrg_start="2116" other_end="3473848" other_sequence="C" other_start="3473848" type="mismatch"></diff>
-          <diff lrg_end="3133" lrg_sequence="A" lrg_start="3133" other_end="3474865" other_sequence="C" other_start="3474865" type="mismatch"></diff>
-          <diff lrg_end="3353" lrg_sequence="C" lrg_start="3353" other_end="3475085" other_sequence="T" other_start="3475085" type="mismatch"></diff>
-          <diff lrg_end="3774" lrg_sequence="G" lrg_start="3774" other_end="3475506" other_sequence="A" other_start="3475506" type="mismatch"></diff>
-          <diff lrg_end="4186" lrg_sequence="C" lrg_start="4186" other_end="3475918" other_sequence="T" other_start="3475918" type="mismatch"></diff>
-          <diff lrg_end="5134" lrg_sequence="-" lrg_start="5133" other_end="3476868" other_sequence="CTG" other_start="3476866" type="other_ins"></diff>
-          <diff lrg_end="5513" lrg_sequence="C" lrg_start="5513" other_end="3477248" other_sequence="T" other_start="3477248" type="mismatch"></diff>
-          <diff lrg_end="5979" lrg_sequence="C" lrg_start="5979" other_end="3477714" other_sequence="T" other_start="3477714" type="mismatch"></diff>
-          <diff lrg_end="7879" lrg_sequence="C" lrg_start="7879" other_end="3479614" other_sequence="T" other_start="3479614" type="mismatch"></diff>
+      <mapping coord_system="NM_001128590.3" other_name="NM_001128590.3" other_id="NM_001128590.3" other_start="1" other_end="2041">
+        <mapping_span lrg_start="5012" lrg_end="5317" other_start="1" other_end="309" strand="1">
+          <diff type="other_ins" lrg_start="5146" lrg_end="5147" other_start="136" other_end="138" lrg_sequence="-" other_sequence="TGC" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="225" other_end="225" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="245" other_end="245" lrg_sequence="A" other_sequence="C" />
         </mapping_span>
+        <mapping_span lrg_start="5787" lrg_end="5941" other_start="310" other_end="464" strand="1" />
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="465" other_end="566" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6340" other_start="567" other_end="668" strand="1" />
+        <mapping_span lrg_start="6442" lrg_end="6528" other_start="669" other_end="755" strand="1" />
+        <mapping_span lrg_start="6698" lrg_end="6898" other_start="756" other_end="956" strand="1" />
+        <mapping_span lrg_start="7099" lrg_end="7277" other_start="957" other_end="1135" strand="1" />
+        <mapping_span lrg_start="7361" lrg_end="7464" other_start="1136" other_end="1239" strand="1" />
+        <mapping_span lrg_start="7562" lrg_end="8363" other_start="1240" other_end="2041" strand="1" />
       </mapping>
-      <mapping coord_system="GRCh37.p13" other_end="3290636" other_id="NT_167245.1" other_name="unlocalized" other_start="3280298">
-        <mapping_span lrg_end="10335" lrg_start="1" other_end="3290636" other_start="3280298" strand="1">
-          <diff lrg_end="1077" lrg_sequence="C" lrg_start="1077" other_end="3281374" other_sequence="T" other_start="3281374" type="mismatch"></diff>
-          <diff lrg_end="2116" lrg_sequence="T" lrg_start="2116" other_end="3282413" other_sequence="C" other_start="3282413" type="mismatch"></diff>
-          <diff lrg_end="2946" lrg_sequence="C" lrg_start="2946" other_end="3283243" other_sequence="T" other_start="3283243" type="mismatch"></diff>
-          <diff lrg_end="3133" lrg_sequence="A" lrg_start="3133" other_end="3283430" other_sequence="C" other_start="3283430" type="mismatch"></diff>
-          <diff lrg_end="3353" lrg_sequence="C" lrg_start="3353" other_end="3283650" other_sequence="T" other_start="3283650" type="mismatch"></diff>
-          <diff lrg_end="3774" lrg_sequence="G" lrg_start="3774" other_end="3284071" other_sequence="A" other_start="3284071" type="mismatch"></diff>
-          <diff lrg_end="5134" lrg_sequence="-" lrg_start="5133" other_end="3285433" other_sequence="CTG" other_start="3285431" type="other_ins"></diff>
-          <diff lrg_end="5720" lrg_sequence="C" lrg_start="5720" other_end="3286020" other_sequence="A" other_start="3286020" type="mismatch"></diff>
-          <diff lrg_end="5774" lrg_sequence="C" lrg_start="5774" other_end="3286074" other_sequence="A" other_start="3286074" type="mismatch"></diff>
-          <diff lrg_end="5979" lrg_sequence="C" lrg_start="5979" other_end="3286279" other_sequence="T" other_start="3286279" type="mismatch"></diff>
-          <diff lrg_end="7367" lrg_sequence="C" lrg_start="7367" other_end="3287667" other_sequence="T" other_start="3287667" type="mismatch"></diff>
-          <diff lrg_end="8195" lrg_sequence="T" lrg_start="8195" other_end="3288495" other_sequence="C" other_start="3288495" type="mismatch"></diff>
-          <diff lrg_end="8217" lrg_sequence="A" lrg_start="8217" other_end="3288517" other_sequence="G" other_start="3288517" type="mismatch"></diff>
-          <diff lrg_end="8267" lrg_sequence="C" lrg_start="8267" other_end="3288567" other_sequence="T" other_start="3288567" type="mismatch"></diff>
-          <diff lrg_end="8270" lrg_sequence="T" lrg_start="8270" other_end="3288570" other_sequence="C" other_start="3288570" type="mismatch"></diff>
-          <diff lrg_end="8291" lrg_sequence="T" lrg_start="8291" other_end="3288591" other_sequence="C" other_start="3288591" type="mismatch"></diff>
-          <diff lrg_end="8301" lrg_sequence="C" lrg_start="8301" other_end="3288601" other_sequence="T" other_start="3288601" type="mismatch"></diff>
-          <diff lrg_end="8372" lrg_sequence="A" lrg_start="8372" other_end="3288672" other_sequence="G" other_start="3288672" type="mismatch"></diff>
-          <diff lrg_end="9105" lrg_sequence="A" lrg_start="9105" other_end="3289405" other_sequence="C" other_start="3289405" type="mismatch"></diff>
-          <diff lrg_end="9109" lrg_sequence="-" lrg_start="9108" other_end="3289409" other_sequence="T" other_start="3289409" type="other_ins"></diff>
-          <diff lrg_end="9439" lrg_sequence="A" lrg_start="9439" other_end="3289740" other_sequence="G" other_start="3289740" type="mismatch"></diff>
-          <diff lrg_end="9648" lrg_sequence="T" lrg_start="9648" other_end="3289949" other_sequence="G" other_start="3289949" type="mismatch"></diff>
-          <diff lrg_end="10120" lrg_sequence="G" lrg_start="10120" other_end="3290421" other_sequence="C" other_start="3290421" type="mismatch"></diff>
-          <diff lrg_end="10151" lrg_sequence="C" lrg_start="10151" other_end="3290452" other_sequence="T" other_start="3290452" type="mismatch"></diff>
-          <diff lrg_end="10164" lrg_sequence="C" lrg_start="10164" other_end="3290465" other_sequence="T" other_start="3290465" type="mismatch"></diff>
-          <diff lrg_end="10274" lrg_sequence="A" lrg_start="10274" other_end="3290575" other_sequence="G" other_start="3290575" type="mismatch"></diff>
-        </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh37.p13" other_end="3391260" other_id="NT_167247.1" other_name="unlocalized" other_start="3380927">
-        <mapping_span lrg_end="10335" lrg_start="1" other_end="3391260" other_start="3380927" strand="1">
-          <diff lrg_end="1659" lrg_sequence="G" lrg_start="1659" other_end="3382585" other_sequence="A" other_start="3382585" type="mismatch"></diff>
-          <diff lrg_end="2116" lrg_sequence="T" lrg_start="2116" other_end="3383042" other_sequence="C" other_start="3383042" type="mismatch"></diff>
-          <diff lrg_end="3133" lrg_sequence="A" lrg_start="3133" other_end="3384059" other_sequence="C" other_start="3384059" type="mismatch"></diff>
-          <diff lrg_end="3774" lrg_sequence="G" lrg_start="3774" other_end="3384700" other_sequence="A" other_start="3384700" type="mismatch"></diff>
-          <diff lrg_end="5513" lrg_sequence="C" lrg_start="5513" other_end="3386439" other_sequence="T" other_start="3386439" type="mismatch"></diff>
-          <diff lrg_end="5537" lrg_sequence="A" lrg_start="5537" other_end="3386463" other_sequence="C" other_start="3386463" type="mismatch"></diff>
-          <diff lrg_end="5571" lrg_sequence="C" lrg_start="5571" other_end="3386497" other_sequence="T" other_start="3386497" type="mismatch"></diff>
-          <diff lrg_end="5677" lrg_sequence="G" lrg_start="5677" other_end="3386603" other_sequence="-" other_start="3386602" type="lrg_ins"></diff>
-          <diff lrg_end="5802" lrg_sequence="G" lrg_start="5802" other_end="3386727" other_sequence="A" other_start="3386727" type="mismatch"></diff>
-          <diff lrg_end="7812" lrg_sequence="G" lrg_start="7812" other_end="3388737" other_sequence="A" other_start="3388737" type="mismatch"></diff>
-          <diff lrg_end="7820" lrg_sequence="G" lrg_start="7820" other_end="3388745" other_sequence="A" other_start="3388745" type="mismatch"></diff>
-          <diff lrg_end="8372" lrg_sequence="A" lrg_start="8372" other_end="3389297" other_sequence="G" other_start="3389297" type="mismatch"></diff>
-          <diff lrg_end="9188" lrg_sequence="T" lrg_start="9188" other_end="3390113" other_sequence="A" other_start="3390113" type="mismatch"></diff>
-          <diff lrg_end="9648" lrg_sequence="T" lrg_start="9648" other_end="3390573" other_sequence="G" other_start="3390573" type="mismatch"></diff>
-          <diff lrg_end="10120" lrg_sequence="G" lrg_start="10120" other_end="3391045" other_sequence="C" other_start="3391045" type="mismatch"></diff>
-          <diff lrg_end="10151" lrg_sequence="C" lrg_start="10151" other_end="3391076" other_sequence="T" other_start="3391076" type="mismatch"></diff>
-          <diff lrg_end="10164" lrg_sequence="C" lrg_start="10164" other_end="3391089" other_sequence="T" other_start="3391089" type="mismatch"></diff>
-          <diff lrg_end="10274" lrg_sequence="A" lrg_start="10274" other_end="3391199" other_sequence="G" other_start="3391199" type="mismatch"></diff>
-        </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh37.p13" other_end="3344127" other_id="NT_167249.1" other_name="unlocalized" other_start="3333793">
-        <mapping_span lrg_end="10335" lrg_start="1" other_end="3344127" other_start="3333793" strand="1">
-          <diff lrg_end="1659" lrg_sequence="G" lrg_start="1659" other_end="3335451" other_sequence="A" other_start="3335451" type="mismatch"></diff>
-          <diff lrg_end="2116" lrg_sequence="T" lrg_start="2116" other_end="3335908" other_sequence="C" other_start="3335908" type="mismatch"></diff>
-          <diff lrg_end="3133" lrg_sequence="A" lrg_start="3133" other_end="3336925" other_sequence="C" other_start="3336925" type="mismatch"></diff>
-          <diff lrg_end="3774" lrg_sequence="G" lrg_start="3774" other_end="3337566" other_sequence="A" other_start="3337566" type="mismatch"></diff>
-          <diff lrg_end="5513" lrg_sequence="C" lrg_start="5513" other_end="3339305" other_sequence="T" other_start="3339305" type="mismatch"></diff>
-          <diff lrg_end="5537" lrg_sequence="A" lrg_start="5537" other_end="3339329" other_sequence="C" other_start="3339329" type="mismatch"></diff>
-          <diff lrg_end="5571" lrg_sequence="C" lrg_start="5571" other_end="3339363" other_sequence="T" other_start="3339363" type="mismatch"></diff>
-          <diff lrg_end="5774" lrg_sequence="C" lrg_start="5774" other_end="3339566" other_sequence="A" other_start="3339566" type="mismatch"></diff>
-          <diff lrg_end="5802" lrg_sequence="G" lrg_start="5802" other_end="3339594" other_sequence="A" other_start="3339594" type="mismatch"></diff>
-          <diff lrg_end="7812" lrg_sequence="G" lrg_start="7812" other_end="3341604" other_sequence="A" other_start="3341604" type="mismatch"></diff>
-          <diff lrg_end="7820" lrg_sequence="G" lrg_start="7820" other_end="3341612" other_sequence="A" other_start="3341612" type="mismatch"></diff>
-          <diff lrg_end="8372" lrg_sequence="A" lrg_start="8372" other_end="3342164" other_sequence="G" other_start="3342164" type="mismatch"></diff>
-          <diff lrg_end="9188" lrg_sequence="T" lrg_start="9188" other_end="3342980" other_sequence="A" other_start="3342980" type="mismatch"></diff>
-          <diff lrg_end="9648" lrg_sequence="T" lrg_start="9648" other_end="3343440" other_sequence="G" other_start="3343440" type="mismatch"></diff>
-          <diff lrg_end="10120" lrg_sequence="G" lrg_start="10120" other_end="3343912" other_sequence="C" other_start="3343912" type="mismatch"></diff>
-          <diff lrg_end="10151" lrg_sequence="C" lrg_start="10151" other_end="3343943" other_sequence="T" other_start="3343943" type="mismatch"></diff>
-          <diff lrg_end="10164" lrg_sequence="C" lrg_start="10164" other_end="3343956" other_sequence="T" other_start="3343956" type="mismatch"></diff>
-          <diff lrg_end="10274" lrg_sequence="A" lrg_start="10274" other_end="3344066" other_sequence="G" other_start="3344066" type="mismatch"></diff>
-        </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh38" other_end="32043642" other_id="NC_000006.12" other_name="6" other_start="32033305">
-        <mapping_span lrg_end="10335" lrg_start="1" other_end="32043642" other_start="32033305" strand="1">
-          <diff lrg_end="5134" lrg_sequence="-" lrg_start="5133" other_end="32038440" other_sequence="CTG" other_start="32038438" type="other_ins"></diff>
-          <diff lrg_end="5233" lrg_sequence="T" lrg_start="5233" other_end="32038540" other_sequence="C" other_start="32038540" type="mismatch"></diff>
-          <diff lrg_end="5253" lrg_sequence="A" lrg_start="5253" other_end="32038560" other_sequence="C" other_start="32038560" type="mismatch"></diff>
-        </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh38" other_end="3481964" other_id="NT_113891.3" other_name="unlocalized" other_start="3471627">
-        <mapping_span lrg_end="10335" lrg_start="1" other_end="3481964" other_start="3471627" strand="1">
-          <diff lrg_end="1077" lrg_sequence="C" lrg_start="1077" other_end="3472703" other_sequence="T" other_start="3472703" type="mismatch"></diff>
-          <diff lrg_end="2116" lrg_sequence="T" lrg_start="2116" other_end="3473742" other_sequence="C" other_start="3473742" type="mismatch"></diff>
-          <diff lrg_end="3133" lrg_sequence="A" lrg_start="3133" other_end="3474759" other_sequence="C" other_start="3474759" type="mismatch"></diff>
-          <diff lrg_end="3353" lrg_sequence="C" lrg_start="3353" other_end="3474979" other_sequence="T" other_start="3474979" type="mismatch"></diff>
-          <diff lrg_end="3774" lrg_sequence="G" lrg_start="3774" other_end="3475400" other_sequence="A" other_start="3475400" type="mismatch"></diff>
-          <diff lrg_end="4186" lrg_sequence="C" lrg_start="4186" other_end="3475812" other_sequence="T" other_start="3475812" type="mismatch"></diff>
-          <diff lrg_end="5134" lrg_sequence="-" lrg_start="5133" other_end="3476762" other_sequence="CTG" other_start="3476760" type="other_ins"></diff>
-          <diff lrg_end="5513" lrg_sequence="C" lrg_start="5513" other_end="3477142" other_sequence="T" other_start="3477142" type="mismatch"></diff>
-          <diff lrg_end="5979" lrg_sequence="C" lrg_start="5979" other_end="3477608" other_sequence="T" other_start="3477608" type="mismatch"></diff>
-          <diff lrg_end="7879" lrg_sequence="C" lrg_start="7879" other_end="3479508" other_sequence="T" other_start="3479508" type="mismatch"></diff>
-        </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh38" other_end="3285051" other_id="NT_167245.2" other_name="unlocalized" other_start="3274713">
-        <mapping_span lrg_end="10335" lrg_start="1" other_end="3285051" other_start="3274713" strand="1">
-          <diff lrg_end="1077" lrg_sequence="C" lrg_start="1077" other_end="3275789" other_sequence="T" other_start="3275789" type="mismatch"></diff>
-          <diff lrg_end="2116" lrg_sequence="T" lrg_start="2116" other_end="3276828" other_sequence="C" other_start="3276828" type="mismatch"></diff>
-          <diff lrg_end="2946" lrg_sequence="C" lrg_start="2946" other_end="3277658" other_sequence="T" other_start="3277658" type="mismatch"></diff>
-          <diff lrg_end="3133" lrg_sequence="A" lrg_start="3133" other_end="3277845" other_sequence="C" other_start="3277845" type="mismatch"></diff>
-          <diff lrg_end="3353" lrg_sequence="C" lrg_start="3353" other_end="3278065" other_sequence="T" other_start="3278065" type="mismatch"></diff>
-          <diff lrg_end="3774" lrg_sequence="G" lrg_start="3774" other_end="3278486" other_sequence="A" other_start="3278486" type="mismatch"></diff>
-          <diff lrg_end="5134" lrg_sequence="-" lrg_start="5133" other_end="3279848" other_sequence="CTG" other_start="3279846" type="other_ins"></diff>
-          <diff lrg_end="5720" lrg_sequence="C" lrg_start="5720" other_end="3280435" other_sequence="A" other_start="3280435" type="mismatch"></diff>
-          <diff lrg_end="5774" lrg_sequence="C" lrg_start="5774" other_end="3280489" other_sequence="A" other_start="3280489" type="mismatch"></diff>
-          <diff lrg_end="5979" lrg_sequence="C" lrg_start="5979" other_end="3280694" other_sequence="T" other_start="3280694" type="mismatch"></diff>
-          <diff lrg_end="7367" lrg_sequence="C" lrg_start="7367" other_end="3282082" other_sequence="T" other_start="3282082" type="mismatch"></diff>
-          <diff lrg_end="8195" lrg_sequence="T" lrg_start="8195" other_end="3282910" other_sequence="C" other_start="3282910" type="mismatch"></diff>
-          <diff lrg_end="8217" lrg_sequence="A" lrg_start="8217" other_end="3282932" other_sequence="G" other_start="3282932" type="mismatch"></diff>
-          <diff lrg_end="8267" lrg_sequence="C" lrg_start="8267" other_end="3282982" other_sequence="T" other_start="3282982" type="mismatch"></diff>
-          <diff lrg_end="8270" lrg_sequence="T" lrg_start="8270" other_end="3282985" other_sequence="C" other_start="3282985" type="mismatch"></diff>
-          <diff lrg_end="8291" lrg_sequence="T" lrg_start="8291" other_end="3283006" other_sequence="C" other_start="3283006" type="mismatch"></diff>
-          <diff lrg_end="8301" lrg_sequence="C" lrg_start="8301" other_end="3283016" other_sequence="T" other_start="3283016" type="mismatch"></diff>
-          <diff lrg_end="8372" lrg_sequence="A" lrg_start="8372" other_end="3283087" other_sequence="G" other_start="3283087" type="mismatch"></diff>
-          <diff lrg_end="9105" lrg_sequence="A" lrg_start="9105" other_end="3283820" other_sequence="C" other_start="3283820" type="mismatch"></diff>
-          <diff lrg_end="9109" lrg_sequence="-" lrg_start="9108" other_end="3283824" other_sequence="T" other_start="3283824" type="other_ins"></diff>
-          <diff lrg_end="9439" lrg_sequence="A" lrg_start="9439" other_end="3284155" other_sequence="G" other_start="3284155" type="mismatch"></diff>
-          <diff lrg_end="9648" lrg_sequence="T" lrg_start="9648" other_end="3284364" other_sequence="G" other_start="3284364" type="mismatch"></diff>
-          <diff lrg_end="10120" lrg_sequence="G" lrg_start="10120" other_end="3284836" other_sequence="C" other_start="3284836" type="mismatch"></diff>
-          <diff lrg_end="10151" lrg_sequence="C" lrg_start="10151" other_end="3284867" other_sequence="T" other_start="3284867" type="mismatch"></diff>
-          <diff lrg_end="10164" lrg_sequence="C" lrg_start="10164" other_end="3284880" other_sequence="T" other_start="3284880" type="mismatch"></diff>
-          <diff lrg_end="10274" lrg_sequence="A" lrg_start="10274" other_end="3284990" other_sequence="G" other_start="3284990" type="mismatch"></diff>
-        </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh38" other_end="3385675" other_id="NT_167247.2" other_name="unlocalized" other_start="3375342">
-        <mapping_span lrg_end="10335" lrg_start="1" other_end="3385675" other_start="3375342" strand="1">
-          <diff lrg_end="1659" lrg_sequence="G" lrg_start="1659" other_end="3377000" other_sequence="A" other_start="3377000" type="mismatch"></diff>
-          <diff lrg_end="2116" lrg_sequence="T" lrg_start="2116" other_end="3377457" other_sequence="C" other_start="3377457" type="mismatch"></diff>
-          <diff lrg_end="3133" lrg_sequence="A" lrg_start="3133" other_end="3378474" other_sequence="C" other_start="3378474" type="mismatch"></diff>
-          <diff lrg_end="3774" lrg_sequence="G" lrg_start="3774" other_end="3379115" other_sequence="A" other_start="3379115" type="mismatch"></diff>
-          <diff lrg_end="5513" lrg_sequence="C" lrg_start="5513" other_end="3380854" other_sequence="T" other_start="3380854" type="mismatch"></diff>
-          <diff lrg_end="5537" lrg_sequence="A" lrg_start="5537" other_end="3380878" other_sequence="C" other_start="3380878" type="mismatch"></diff>
-          <diff lrg_end="5571" lrg_sequence="C" lrg_start="5571" other_end="3380912" other_sequence="T" other_start="3380912" type="mismatch"></diff>
-          <diff lrg_end="5677" lrg_sequence="G" lrg_start="5677" other_end="3381018" other_sequence="-" other_start="3381017" type="lrg_ins"></diff>
-          <diff lrg_end="5802" lrg_sequence="G" lrg_start="5802" other_end="3381142" other_sequence="A" other_start="3381142" type="mismatch"></diff>
-          <diff lrg_end="7812" lrg_sequence="G" lrg_start="7812" other_end="3383152" other_sequence="A" other_start="3383152" type="mismatch"></diff>
-          <diff lrg_end="7820" lrg_sequence="G" lrg_start="7820" other_end="3383160" other_sequence="A" other_start="3383160" type="mismatch"></diff>
-          <diff lrg_end="8372" lrg_sequence="A" lrg_start="8372" other_end="3383712" other_sequence="G" other_start="3383712" type="mismatch"></diff>
-          <diff lrg_end="9188" lrg_sequence="T" lrg_start="9188" other_end="3384528" other_sequence="A" other_start="3384528" type="mismatch"></diff>
-          <diff lrg_end="9648" lrg_sequence="T" lrg_start="9648" other_end="3384988" other_sequence="G" other_start="3384988" type="mismatch"></diff>
-          <diff lrg_end="10120" lrg_sequence="G" lrg_start="10120" other_end="3385460" other_sequence="C" other_start="3385460" type="mismatch"></diff>
-          <diff lrg_end="10151" lrg_sequence="C" lrg_start="10151" other_end="3385491" other_sequence="T" other_start="3385491" type="mismatch"></diff>
-          <diff lrg_end="10164" lrg_sequence="C" lrg_start="10164" other_end="3385504" other_sequence="T" other_start="3385504" type="mismatch"></diff>
-          <diff lrg_end="10274" lrg_sequence="A" lrg_start="10274" other_end="3385614" other_sequence="G" other_start="3385614" type="mismatch"></diff>
-        </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh38" other_end="3344829" other_id="NT_167249.2" other_name="unlocalized" other_start="3334495">
-        <mapping_span lrg_end="10335" lrg_start="1" other_end="3344829" other_start="3334495" strand="1">
-          <diff lrg_end="1659" lrg_sequence="G" lrg_start="1659" other_end="3336153" other_sequence="A" other_start="3336153" type="mismatch"></diff>
-          <diff lrg_end="2116" lrg_sequence="T" lrg_start="2116" other_end="3336610" other_sequence="C" other_start="3336610" type="mismatch"></diff>
-          <diff lrg_end="3133" lrg_sequence="A" lrg_start="3133" other_end="3337627" other_sequence="C" other_start="3337627" type="mismatch"></diff>
-          <diff lrg_end="3774" lrg_sequence="G" lrg_start="3774" other_end="3338268" other_sequence="A" other_start="3338268" type="mismatch"></diff>
-          <diff lrg_end="5513" lrg_sequence="C" lrg_start="5513" other_end="3340007" other_sequence="T" other_start="3340007" type="mismatch"></diff>
-          <diff lrg_end="5537" lrg_sequence="A" lrg_start="5537" other_end="3340031" other_sequence="C" other_start="3340031" type="mismatch"></diff>
-          <diff lrg_end="5571" lrg_sequence="C" lrg_start="5571" other_end="3340065" other_sequence="T" other_start="3340065" type="mismatch"></diff>
-          <diff lrg_end="5774" lrg_sequence="C" lrg_start="5774" other_end="3340268" other_sequence="A" other_start="3340268" type="mismatch"></diff>
-          <diff lrg_end="5802" lrg_sequence="G" lrg_start="5802" other_end="3340296" other_sequence="A" other_start="3340296" type="mismatch"></diff>
-          <diff lrg_end="7812" lrg_sequence="G" lrg_start="7812" other_end="3342306" other_sequence="A" other_start="3342306" type="mismatch"></diff>
-          <diff lrg_end="7820" lrg_sequence="G" lrg_start="7820" other_end="3342314" other_sequence="A" other_start="3342314" type="mismatch"></diff>
-          <diff lrg_end="8372" lrg_sequence="A" lrg_start="8372" other_end="3342866" other_sequence="G" other_start="3342866" type="mismatch"></diff>
-          <diff lrg_end="9188" lrg_sequence="T" lrg_start="9188" other_end="3343682" other_sequence="A" other_start="3343682" type="mismatch"></diff>
-          <diff lrg_end="9648" lrg_sequence="T" lrg_start="9648" other_end="3344142" other_sequence="G" other_start="3344142" type="mismatch"></diff>
-          <diff lrg_end="10120" lrg_sequence="G" lrg_start="10120" other_end="3344614" other_sequence="C" other_start="3344614" type="mismatch"></diff>
-          <diff lrg_end="10151" lrg_sequence="C" lrg_start="10151" other_end="3344645" other_sequence="T" other_start="3344645" type="mismatch"></diff>
-          <diff lrg_end="10164" lrg_sequence="C" lrg_start="10164" other_end="3344658" other_sequence="T" other_start="3344658" type="mismatch"></diff>
-          <diff lrg_end="10274" lrg_sequence="A" lrg_start="10274" other_end="3344768" other_sequence="G" other_start="3344768" type="mismatch"></diff>
-        </mapping_span>
-      </mapping>
-      <mapping coord_system="NM_000500.6" other_end="2179" other_id="NM_000500.6" other_start="1">
-        <mapping_span lrg_end="5317" lrg_start="4961" other_end="357" other_start="1" strand="1"></mapping_span>
-        <mapping_span lrg_end="5504" lrg_start="5415" other_end="447" other_start="358" strand="1"></mapping_span>
-        <mapping_span lrg_end="5941" lrg_start="5787" other_end="602" other_start="448" strand="1"></mapping_span>
-        <mapping_span lrg_end="6150" lrg_start="6049" other_end="704" other_start="603" strand="1"></mapping_span>
-        <mapping_span lrg_end="6340" lrg_start="6239" other_end="806" other_start="705" strand="1"></mapping_span>
-        <mapping_span lrg_end="6528" lrg_start="6442" other_end="893" other_start="807" strand="1"></mapping_span>
-        <mapping_span lrg_end="6898" lrg_start="6698" other_end="1094" other_start="894" strand="1"></mapping_span>
-        <mapping_span lrg_end="7277" lrg_start="7099" other_end="1273" other_start="1095" strand="1"></mapping_span>
-        <mapping_span lrg_end="7464" lrg_start="7361" other_end="1377" other_start="1274" strand="1"></mapping_span>
-        <mapping_span lrg_end="8363" lrg_start="7562" other_end="2179" other_start="1378" strand="1"></mapping_span>
-      </mapping>
-      <mapping coord_system="NM_000500.7" other_end="2131" other_id="NM_000500.7" other_start="1">
-        <mapping_span lrg_end="5317" lrg_start="5012" other_end="309" other_start="1" strand="1">
-          <diff lrg_end="5147" lrg_sequence="-" lrg_start="5146" other_end="138" other_sequence="TGC" other_start="136" type="other_ins"></diff>
-          <diff lrg_end="5233" lrg_sequence="T" lrg_start="5233" other_end="225" other_sequence="C" other_start="225" type="mismatch"></diff>
-          <diff lrg_end="5253" lrg_sequence="A" lrg_start="5253" other_end="245" other_sequence="C" other_start="245" type="mismatch"></diff>
-        </mapping_span>
-        <mapping_span lrg_end="5504" lrg_start="5415" other_end="399" other_start="310" strand="1"></mapping_span>
-        <mapping_span lrg_end="5941" lrg_start="5787" other_end="554" other_start="400" strand="1"></mapping_span>
-        <mapping_span lrg_end="6150" lrg_start="6049" other_end="656" other_start="555" strand="1"></mapping_span>
-        <mapping_span lrg_end="6340" lrg_start="6239" other_end="758" other_start="657" strand="1"></mapping_span>
-        <mapping_span lrg_end="6528" lrg_start="6442" other_end="845" other_start="759" strand="1"></mapping_span>
-        <mapping_span lrg_end="6898" lrg_start="6698" other_end="1046" other_start="846" strand="1"></mapping_span>
-        <mapping_span lrg_end="7277" lrg_start="7099" other_end="1225" other_start="1047" strand="1"></mapping_span>
-        <mapping_span lrg_end="7464" lrg_start="7361" other_end="1329" other_start="1226" strand="1"></mapping_span>
-        <mapping_span lrg_end="8363" lrg_start="7562" other_end="2131" other_start="1330" strand="1"></mapping_span>
-      </mapping>
-      <mapping coord_system="NM_001128590.3" other_end="2041" other_id="NM_001128590.3" other_start="1">
-        <mapping_span lrg_end="5317" lrg_start="5012" other_end="309" other_start="1" strand="1">
-          <diff lrg_end="5147" lrg_sequence="-" lrg_start="5146" other_end="138" other_sequence="TGC" other_start="136" type="other_ins"></diff>
-          <diff lrg_end="5233" lrg_sequence="T" lrg_start="5233" other_end="225" other_sequence="C" other_start="225" type="mismatch"></diff>
-          <diff lrg_end="5253" lrg_sequence="A" lrg_start="5253" other_end="245" other_sequence="C" other_start="245" type="mismatch"></diff>
-        </mapping_span>
-        <mapping_span lrg_end="5941" lrg_start="5787" other_end="464" other_start="310" strand="1"></mapping_span>
-        <mapping_span lrg_end="6150" lrg_start="6049" other_end="566" other_start="465" strand="1"></mapping_span>
-        <mapping_span lrg_end="6340" lrg_start="6239" other_end="668" other_start="567" strand="1"></mapping_span>
-        <mapping_span lrg_end="6528" lrg_start="6442" other_end="755" other_start="669" strand="1"></mapping_span>
-        <mapping_span lrg_end="6898" lrg_start="6698" other_end="956" other_start="756" strand="1"></mapping_span>
-        <mapping_span lrg_end="7277" lrg_start="7099" other_end="1135" other_start="957" strand="1"></mapping_span>
-        <mapping_span lrg_end="7464" lrg_start="7361" other_end="1239" other_start="1136" strand="1"></mapping_span>
-        <mapping_span lrg_end="8363" lrg_start="7562" other_end="2041" other_start="1240" strand="1"></mapping_span>
-      </mapping>
-      <lrg_locus source="HGNC">CYP21A2</lrg_locus>
       <features>
-        <gene accession="721" source="NCBI-Gene">
-          <symbol name="C4B" source="HGNC">
+        <gene source="NCBI-Gene" accession="721">
+          <symbol source="HGNC" name="C4B">
             <synonym>C4B1</synonym>
             <synonym>C4B12</synonym>
             <synonym>C4B2</synonym>
@@ -364,39 +382,39 @@
             <synonym>CO4</synonym>
             <synonym>CPAMD3</synonym>
           </symbol>
-          <coordinates coord_system="LRG_829" end="2114" start="1" strand="1"></coordinates>
+          <coordinates coord_system="LRG_829" start="1" end="2114" strand="1" />
           <partial>5-prime</partial>
           <long_name>complement component 4B (Chido blood group)</long_name>
-          <db_xref accession="721" source="GeneID"></db_xref>
-          <db_xref accession="1324" source="HGNC"></db_xref>
-          <db_xref accession="120820" source="MIM"></db_xref>
-          <transcript accession="NM_001002029.3" source="RefSeq">
-            <coordinates coord_system="LRG_829" end="2114" start="486" strand="1"></coordinates>
+          <db_xref source="GeneID" accession="721" />
+          <db_xref source="HGNC" accession="1324" />
+          <db_xref source="MIM" accession="120820" />
+          <transcript source="RefSeq" accession="NM_001002029.3">
+            <coordinates coord_system="LRG_829" start="486" end="2114" strand="1" />
             <partial>5-prime</partial>
             <long_name>complement component 4B (Chido blood group)</long_name>
-            <db_xref accession="721" source="GeneID"></db_xref>
-            <db_xref accession="178557738" source="GI"></db_xref>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="588" start="486" strand="1"></coordinates>
+            <db_xref source="GeneID" accession="721" />
+            <db_xref source="GI" accession="178557738" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="486" end="588" strand="1" />
               <partial>5-prime</partial>
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="843" start="754" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="754" end="843" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="1027" start="929" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="929" end="1027" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="1293" start="1210" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="1210" end="1293" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="1688" start="1556" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="1556" end="1688" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="2114" start="1832" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="1832" end="2114" strand="1" />
             </exon>
-            <protein_product accession="NP_001002029.3" codon_start="1" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="1973" start="486" strand="1"></coordinates>
+            <protein_product source="RefSeq" accession="NP_001002029.3" codon_start="1">
+              <coordinates coord_system="LRG_829" start="486" end="1973" strand="1" />
               <partial>5-prime</partial>
               <long_name>complement C4-B preproprotein</long_name>
               <long_name>Chido form of C4</long_name>
@@ -404,14 +422,14 @@
               <long_name>complement C4B1a</long_name>
               <long_name>basic complement C4</long_name>
               <long_name>C3 and PZP-like alpha-2-macroglobulin domain-containing protein 3</long_name>
-              <db_xref accession="CCDS47405.1" source="CCDS"></db_xref>
-              <db_xref accession="721" source="GeneID"></db_xref>
-              <db_xref accession="178557739" source="GI"></db_xref>
+              <db_xref source="CCDS" accession="CCDS47405.1" />
+              <db_xref source="GeneID" accession="721" />
+              <db_xref source="GI" accession="178557739" />
             </protein_product>
           </transcript>
         </gene>
-        <gene accession="1589" source="NCBI-Gene">
-          <symbol name="CYP21A2" source="HGNC">
+        <gene source="NCBI-Gene" accession="1589">
+          <symbol source="HGNC" name="CYP21A2">
             <synonym>CA21H</synonym>
             <synonym>CAH1</synonym>
             <synonym>CPS1</synonym>
@@ -419,51 +437,51 @@
             <synonym>CYP21B</synonym>
             <synonym>P450c21B</synonym>
           </symbol>
-          <coordinates coord_system="LRG_829" end="8363" start="4961" strand="1"></coordinates>
+          <coordinates coord_system="LRG_829" start="4961" end="8363" strand="1" />
           <long_name>cytochrome P450, family 21, subfamily A, polypeptide 2</long_name>
-          <db_xref accession="1589" source="GeneID"></db_xref>
-          <db_xref accession="2600" source="HGNC"></db_xref>
-          <db_xref accession="613815" source="MIM"></db_xref>
-          <db_xref accession="CCDS4735.1" source="CCDS"></db_xref>
-          <db_xref accession="CCDS47406.1" source="CCDS"></db_xref>
-          <db_xref accession="323510628" source="GI"></db_xref>
-          <transcript accession="NM_000500.6" fixed_id="t1" source="RefSeq">
-            <coordinates coord_system="LRG_829" end="8363" start="4961" strand="1"></coordinates>
+          <db_xref source="GeneID" accession="1589" />
+          <db_xref source="HGNC" accession="2600" />
+          <db_xref source="MIM" accession="613815" />
+          <db_xref source="CCDS" accession="CCDS4735.1" />
+          <db_xref source="CCDS" accession="CCDS47406.1" />
+          <db_xref source="GI" accession="323510628" />
+          <transcript source="RefSeq" accession="NM_000500.6" fixed_id="t1">
+            <coordinates coord_system="LRG_829" start="4961" end="8363" strand="1" />
             <long_name>cytochrome P450, family 21, subfamily A, polypeptide 2, transcript variant 1</long_name>
-            <db_xref accession="1589" source="GeneID"></db_xref>
-            <db_xref accession="322812149" source="GI"></db_xref>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="5317" start="4961" strand="1"></coordinates>
+            <db_xref source="GeneID" accession="1589" />
+            <db_xref source="GI" accession="322812149" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="4961" end="5317" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="5504" start="5415" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="5415" end="5504" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="5941" start="5787" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="5787" end="5941" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="6150" start="6049" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="6340" start="6239" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="6239" end="6340" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="6528" start="6442" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="6442" end="6528" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="6898" start="6698" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="6698" end="6898" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="7277" start="7099" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="7099" end="7277" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="7464" start="7361" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="7361" end="7464" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="8363" start="7562" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="7562" end="8363" strand="1" />
             </exon>
-            <protein_product accession="NP_000491.3" fixed_id="p1" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="7827" start="5119" strand="1"></coordinates>
+            <protein_product source="RefSeq" accession="NP_000491.3" fixed_id="p1">
+              <coordinates coord_system="LRG_829" start="5119" end="7827" strand="1" />
               <long_name>steroid 21-hydroxylase isoform a</long_name>
               <long_name>steroid 21-monooxygenase</long_name>
               <long_name>cytochrome P450, subfamily XXIA (steroid 21-hydroxylase, congenital adrenal hyperplasia), polypeptide 2</long_name>
@@ -471,97 +489,97 @@
               <long_name>cytochrome P450 21</long_name>
               <long_name>cytochrome P450 XXI</long_name>
               <long_name>cytochrome P450-C21B</long_name>
-              <db_xref accession="CCDS4735.1" source="CCDS"></db_xref>
-              <db_xref accession="1589" source="GeneID"></db_xref>
-              <db_xref accession="322812150" source="GI"></db_xref>
+              <db_xref source="CCDS" accession="CCDS4735.1" />
+              <db_xref source="GeneID" accession="1589" />
+              <db_xref source="GI" accession="322812150" />
             </protein_product>
           </transcript>
-          <transcript accession="NM_000500.7" source="RefSeq">
-            <coordinates coord_system="LRG_829" end="8363" start="5012" strand="1"></coordinates>
+          <transcript source="RefSeq" accession="NM_000500.7">
+            <coordinates coord_system="LRG_829" start="5012" end="8363" strand="1" />
             <long_name>cytochrome P450, family 21, subfamily A, polypeptide 2, transcript variant 1</long_name>
-            <db_xref accession="1589" source="GeneID"></db_xref>
-            <db_xref accession="323510662" source="GI"></db_xref>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="5317" start="5012" strand="1"></coordinates>
+            <db_xref source="GeneID" accession="1589" />
+            <db_xref source="GI" accession="323510662" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="5012" end="5317" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="5504" start="5415" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="5415" end="5504" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="5941" start="5787" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="5787" end="5941" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="6150" start="6049" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="6340" start="6239" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="6239" end="6340" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="6528" start="6442" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="6442" end="6528" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="6898" start="6698" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="6698" end="6898" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="7277" start="7099" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="7099" end="7277" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="7464" start="7361" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="7361" end="7464" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="8363" start="7562" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="7562" end="8363" strand="1" />
             </exon>
-            <protein_product accession="NP_000491.4" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="7827" start="5119" strand="1"></coordinates>
+            <protein_product source="RefSeq" accession="NP_000491.4">
+              <coordinates coord_system="LRG_829" start="5119" end="7827" strand="1" />
               <long_name>steroid 21-hydroxylase isoform a</long_name>
-              <db_xref accession="CCDS4735.1" source="CCDS"></db_xref>
-              <db_xref accession="1589" source="GeneID"></db_xref>
-              <db_xref accession="323510663" source="GI"></db_xref>
+              <db_xref source="CCDS" accession="CCDS4735.1" />
+              <db_xref source="GeneID" accession="1589" />
+              <db_xref source="GI" accession="323510663" />
             </protein_product>
           </transcript>
-          <transcript accession="NM_001128590.3" source="RefSeq">
-            <coordinates coord_system="LRG_829" end="8363" start="5012" strand="1"></coordinates>
+          <transcript source="RefSeq" accession="NM_001128590.3">
+            <coordinates coord_system="LRG_829" start="5012" end="8363" strand="1" />
             <long_name>cytochrome P450, family 21, subfamily A, polypeptide 2, transcript variant 2</long_name>
-            <db_xref accession="1589" source="GeneID"></db_xref>
-            <db_xref accession="323510664" source="GI"></db_xref>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="5317" start="5012" strand="1"></coordinates>
+            <db_xref source="GeneID" accession="1589" />
+            <db_xref source="GI" accession="323510664" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="5012" end="5317" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="5941" start="5787" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="5787" end="5941" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="6150" start="6049" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="6340" start="6239" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="6239" end="6340" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="6528" start="6442" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="6442" end="6528" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="6898" start="6698" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="6698" end="6898" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="7277" start="7099" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="7099" end="7277" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="7464" start="7361" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="7361" end="7464" strand="1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="8363" start="7562" strand="1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="7562" end="8363" strand="1" />
             </exon>
-            <protein_product accession="NP_001122062.3" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="7827" start="5119" strand="1"></coordinates>
+            <protein_product source="RefSeq" accession="NP_001122062.3">
+              <coordinates coord_system="LRG_829" start="5119" end="7827" strand="1" />
               <long_name>steroid 21-hydroxylase isoform b</long_name>
-              <db_xref accession="CCDS47406.1" source="CCDS"></db_xref>
-              <db_xref accession="1589" source="GeneID"></db_xref>
-              <db_xref accession="323510665" source="GI"></db_xref>
+              <db_xref source="CCDS" accession="CCDS47406.1" />
+              <db_xref source="GeneID" accession="1589" />
+              <db_xref source="GI" accession="323510665" />
             </protein_product>
           </transcript>
         </gene>
-        <gene accession="7148" source="NCBI-Gene">
-          <symbol name="TNXB" source="HGNC">
+        <gene source="NCBI-Gene" accession="7148">
+          <symbol source="HGNC" name="TNXB">
             <synonym>EDS3</synonym>
             <synonym>HXBL</synonym>
             <synonym>TENX</synonym>
@@ -573,48 +591,48 @@
             <synonym>XB</synonym>
             <synonym>XBS</synonym>
           </symbol>
-          <coordinates coord_system="LRG_829" end="10335" start="7848" strand="-1"></coordinates>
+          <coordinates coord_system="LRG_829" start="7848" end="10335" strand="-1" />
           <partial>5-prime</partial>
           <long_name>tenascin XB</long_name>
-          <db_xref accession="7148" source="GeneID"></db_xref>
-          <db_xref accession="11976" source="HGNC"></db_xref>
-          <db_xref accession="600985" source="MIM"></db_xref>
-          <transcript accession="NM_019105.6" source="RefSeq">
-            <coordinates coord_system="LRG_829" end="10249" start="7848" strand="-1"></coordinates>
+          <db_xref source="GeneID" accession="7148" />
+          <db_xref source="HGNC" accession="11976" />
+          <db_xref source="MIM" accession="600985" />
+          <transcript source="RefSeq" accession="NM_019105.6">
+            <coordinates coord_system="LRG_829" start="7848" end="10249" strand="-1" />
             <partial>5-prime</partial>
             <long_name>tenascin XB, transcript variant XB</long_name>
-            <db_xref accession="7148" source="GeneID"></db_xref>
-            <db_xref accession="188528647" source="GI"></db_xref>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="10249" start="10130" strand="-1"></coordinates>
+            <db_xref source="GeneID" accession="7148" />
+            <db_xref source="GI" accession="188528647" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="10130" end="10249" strand="-1" />
               <partial>5-prime</partial>
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="10011" start="9868" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="9868" end="10011" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="9774" start="9644" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="9644" end="9774" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="9524" start="9392" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="9392" end="9524" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="9299" start="9148" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="9148" end="9299" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="9055" start="8959" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="8959" end="9055" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="8866" start="8705" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="8705" end="8866" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="8627" start="8464" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="8464" end="8627" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="8143" start="7848" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="7848" end="8143" strand="-1" />
             </exon>
-            <protein_product accession="NP_061978.6" codon_start="3" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="10249" start="8042" strand="-1"></coordinates>
+            <protein_product source="RefSeq" accession="NP_061978.6" codon_start="3">
+              <coordinates coord_system="LRG_829" start="8042" end="10249" strand="-1" />
               <partial>5-prime</partial>
               <long_name>tenascin-X isoform 1 precursor</long_name>
               <long_name>tenascin XB1</long_name>
@@ -622,46 +640,46 @@
               <long_name>tenascin-X</long_name>
               <long_name>growth-inhibiting protein 45</long_name>
               <long_name>hexabrachion-like protein</long_name>
-              <db_xref accession="7148" source="GeneID"></db_xref>
-              <db_xref accession="188528648" source="GI"></db_xref>
+              <db_xref source="GeneID" accession="7148" />
+              <db_xref source="GI" accession="188528648" />
             </protein_product>
           </transcript>
-          <transcript accession="NM_032470.3" source="RefSeq">
-            <coordinates coord_system="LRG_829" end="10249" start="7848" strand="-1"></coordinates>
+          <transcript source="RefSeq" accession="NM_032470.3">
+            <coordinates coord_system="LRG_829" start="7848" end="10249" strand="-1" />
             <partial>5-prime</partial>
             <long_name>tenascin XB, transcript variant XB-S</long_name>
-            <db_xref accession="7148" source="GeneID"></db_xref>
-            <db_xref accession="188528649" source="GI"></db_xref>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="10249" start="10130" strand="-1"></coordinates>
+            <db_xref source="GeneID" accession="7148" />
+            <db_xref source="GI" accession="188528649" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="10130" end="10249" strand="-1" />
               <partial>5-prime</partial>
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="10011" start="9868" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="9868" end="10011" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="9774" start="9644" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="9644" end="9774" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="9524" start="9392" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="9392" end="9524" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="9299" start="9148" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="9148" end="9299" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="9055" start="8959" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="8959" end="9055" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="8866" start="8705" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="8705" end="8866" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="8627" start="8464" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="8464" end="8627" strand="-1" />
             </exon>
-            <exon accession="" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="8143" start="7848" strand="-1"></coordinates>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_829" start="7848" end="8143" strand="-1" />
             </exon>
-            <protein_product accession="NP_115859.2" codon_start="3" source="RefSeq">
-              <coordinates coord_system="LRG_829" end="10249" start="8042" strand="-1"></coordinates>
+            <protein_product source="RefSeq" accession="NP_115859.2" codon_start="3">
+              <coordinates coord_system="LRG_829" start="8042" end="10249" strand="-1" />
               <partial>5-prime</partial>
               <long_name>tenascin-X isoform 2</long_name>
               <long_name>tenascin XB1</long_name>
@@ -669,13 +687,1167 @@
               <long_name>tenascin-X</long_name>
               <long_name>growth-inhibiting protein 45</long_name>
               <long_name>hexabrachion-like protein</long_name>
-              <db_xref accession="CCDS4736.1" source="CCDS"></db_xref>
-              <db_xref accession="7148" source="GeneID"></db_xref>
-              <db_xref accession="20665034" source="GI"></db_xref>
+              <db_xref source="CCDS" accession="CCDS4736.1" />
+              <db_xref source="GeneID" accession="7148" />
+              <db_xref source="GI" accession="20665034" />
             </protein_product>
           </transcript>
         </gene>
       </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-10</modification_date>
+      <mapping coord_system="ENST00000418967.2" other_name="ENST00000418967.2" other_id="ENST00000418967.2" other_start="1" other_end="2182">
+        <mapping_span lrg_start="4961" lrg_end="5317" other_start="1" other_end="360" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="174" other_end="176" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="276" other_end="276" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="296" other_end="296" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="5415" lrg_end="5504" other_start="361" other_end="450" strand="1" />
+        <mapping_span lrg_start="5787" lrg_end="5941" other_start="451" other_end="605" strand="1">
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="606" other_end="707" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6340" other_start="708" other_end="809" strand="1" />
+        <mapping_span lrg_start="6442" lrg_end="6528" other_start="810" other_end="896" strand="1" />
+        <mapping_span lrg_start="6698" lrg_end="6898" other_start="897" other_end="1097" strand="1" />
+        <mapping_span lrg_start="7099" lrg_end="7277" other_start="1098" other_end="1276" strand="1" />
+        <mapping_span lrg_start="7361" lrg_end="7464" other_start="1277" other_end="1380" strand="1">
+          <diff type="mismatch" lrg_start="7367" lrg_end="7367" other_start="3287667" other_end="3287667" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+        <mapping_span lrg_start="7562" lrg_end="8363" other_start="1381" other_end="2182" strand="1">
+          <diff type="mismatch" lrg_start="7812" lrg_end="7812" other_start="3388737" other_end="3388737" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7820" lrg_end="7820" other_start="3388745" other_end="3388745" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7879" lrg_end="7879" other_start="3479614" other_end="3479614" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8195" lrg_end="8195" other_start="3288495" other_end="3288495" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8217" lrg_end="8217" other_start="3288517" other_end="3288517" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="8267" lrg_end="8267" other_start="3288567" other_end="3288567" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8270" lrg_end="8270" other_start="3288570" other_end="3288570" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8291" lrg_end="8291" other_start="3288591" other_end="3288591" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8301" lrg_end="8301" other_start="3288601" other_end="3288601" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000435122.2" other_name="ENST00000435122.2" other_id="ENST00000435122.2" other_start="1" other_end="1914">
+        <mapping_span lrg_start="5111" lrg_end="5317" other_start="1" other_end="210" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="24" other_end="26" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="126" other_end="126" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="146" other_end="146" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="5787" lrg_end="5941" other_start="211" other_end="365" strand="1">
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="366" other_end="467" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6340" other_start="468" other_end="569" strand="1" />
+        <mapping_span lrg_start="6442" lrg_end="6528" other_start="570" other_end="656" strand="1" />
+        <mapping_span lrg_start="6698" lrg_end="6898" other_start="657" other_end="857" strand="1" />
+        <mapping_span lrg_start="7099" lrg_end="7277" other_start="858" other_end="1036" strand="1" />
+        <mapping_span lrg_start="7361" lrg_end="7464" other_start="1037" other_end="1140" strand="1">
+          <diff type="mismatch" lrg_start="7367" lrg_end="7367" other_start="3287667" other_end="3287667" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+        <mapping_span lrg_start="7562" lrg_end="8335" other_start="1141" other_end="1914" strand="1">
+          <diff type="mismatch" lrg_start="7812" lrg_end="7812" other_start="3388737" other_end="3388737" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7820" lrg_end="7820" other_start="3388745" other_end="3388745" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7879" lrg_end="7879" other_start="3479614" other_end="3479614" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8195" lrg_end="8195" other_start="3288495" other_end="3288495" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8217" lrg_end="8217" other_start="3288517" other_end="3288517" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="8267" lrg_end="8267" other_start="3288567" other_end="3288567" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8270" lrg_end="8270" other_start="3288570" other_end="3288570" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8291" lrg_end="8291" other_start="3288591" other_end="3288591" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8301" lrg_end="8301" other_start="3288601" other_end="3288601" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000462278.1" other_name="ENST00000462278.1" other_id="ENST00000462278.1" other_start="1" other_end="564">
+        <mapping_span lrg_start="5907" lrg_end="5941" other_start="1" other_end="35" strand="1" />
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="36" other_end="137" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6665" other_start="138" other_end="564" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000464325.1" other_name="ENST00000464325.1" other_id="ENST00000464325.1" other_start="1" other_end="580">
+        <mapping_span lrg_start="5276" lrg_end="5504" other_start="1" other_end="229" strand="1" />
+        <mapping_span lrg_start="5803" lrg_end="5941" other_start="230" other_end="368" strand="1" />
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="369" other_end="470" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6340" other_start="471" other_end="572" strand="1" />
+        <mapping_span lrg_start="6442" lrg_end="6449" other_start="573" other_end="580" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000466779.1" other_name="ENST00000466779.1" other_id="ENST00000466779.1" other_start="1" other_end="842">
+        <mapping_span lrg_start="5023" lrg_end="5317" other_start="1" other_end="298" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="112" other_end="114" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="214" other_end="214" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="234" other_end="234" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="5415" lrg_end="5504" other_start="299" other_end="388" strand="1" />
+        <mapping_span lrg_start="5768" lrg_end="5941" other_start="389" other_end="562" strand="1">
+          <diff type="mismatch" lrg_start="5774" lrg_end="5774" other_start="3286074" other_end="3286074" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="563" other_end="664" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6340" other_start="665" other_end="766" strand="1" />
+        <mapping_span lrg_start="6442" lrg_end="6517" other_start="767" other_end="842" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000466879.1" other_name="ENST00000466879.1" other_id="ENST00000466879.1" other_start="1" other_end="777">
+        <mapping_span lrg_start="5444" lrg_end="5941" other_start="1" other_end="498" strand="1">
+          <diff type="mismatch" lrg_start="5513" lrg_end="5513" other_start="3477248" other_end="3477248" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="5537" lrg_end="5537" other_start="3386463" other_end="3386463" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5571" lrg_end="5571" other_start="3386497" other_end="3386497" lrg_sequence="C" other_sequence="T" />
+          <diff type="lrg_ins" lrg_start="5677" lrg_end="5677" other_start="3386602" other_end="3386603" lrg_sequence="G" other_sequence="-" />
+          <diff type="mismatch" lrg_start="5720" lrg_end="5720" other_start="3286020" other_end="3286020" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5774" lrg_end="5774" other_start="3286074" other_end="3286074" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="499" other_end="600" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6340" other_start="601" other_end="702" strand="1" />
+        <mapping_span lrg_start="6442" lrg_end="6516" other_start="703" other_end="777" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000469053.1" other_name="ENST00000469053.1" other_id="ENST00000469053.1" other_start="1" other_end="580">
+        <mapping_span lrg_start="5112" lrg_end="5317" other_start="1" other_end="209" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="23" other_end="25" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="125" other_end="125" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="145" other_end="145" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="5768" lrg_end="5941" other_start="210" other_end="383" strand="1">
+          <diff type="mismatch" lrg_start="5774" lrg_end="5774" other_start="3286074" other_end="3286074" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="384" other_end="485" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6333" other_start="486" other_end="580" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000471671.1" other_name="ENST00000471671.1" other_id="ENST00000471671.1" other_start="1" other_end="579">
+        <mapping_span lrg_start="5111" lrg_end="5317" other_start="1" other_end="210" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="24" other_end="26" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="126" other_end="126" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="146" other_end="146" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="5415" lrg_end="5504" other_start="211" other_end="300" strand="1" />
+        <mapping_span lrg_start="5787" lrg_end="5941" other_start="301" other_end="455" strand="1">
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="456" other_end="557" strand="1" />
+        <mapping_span lrg_start="6278" lrg_end="6299" other_start="558" other_end="579" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000478281.1" other_name="ENST00000478281.1" other_id="ENST00000478281.1" other_start="1" other_end="599">
+        <mapping_span lrg_start="5078" lrg_end="5317" other_start="1" other_end="243" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="57" other_end="59" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="159" other_end="159" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="179" other_end="179" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="5415" lrg_end="5504" other_start="244" other_end="333" strand="1" />
+        <mapping_span lrg_start="5754" lrg_end="5941" other_start="334" other_end="521" strand="1">
+          <diff type="mismatch" lrg_start="5774" lrg_end="5774" other_start="3286074" other_end="3286074" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+        <mapping_span lrg_start="6049" lrg_end="6126" other_start="522" other_end="599" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000479074.1" other_name="ENST00000479074.1" other_id="ENST00000479074.1" other_start="1" other_end="2137">
+        <mapping_span lrg_start="5061" lrg_end="5317" other_start="1" other_end="260" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="74" other_end="76" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="176" other_end="176" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="196" other_end="196" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="5415" lrg_end="5504" other_start="261" other_end="350" strand="1" />
+        <mapping_span lrg_start="5787" lrg_end="5941" other_start="351" other_end="505" strand="1">
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="506" other_end="607" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6340" other_start="608" other_end="709" strand="1" />
+        <mapping_span lrg_start="6442" lrg_end="6528" other_start="710" other_end="796" strand="1" />
+        <mapping_span lrg_start="6698" lrg_end="6898" other_start="797" other_end="997" strand="1" />
+        <mapping_span lrg_start="7099" lrg_end="7464" other_start="998" other_end="1363" strand="1">
+          <diff type="mismatch" lrg_start="7367" lrg_end="7367" other_start="3287667" other_end="3287667" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+        <mapping_span lrg_start="7562" lrg_end="8335" other_start="1364" other_end="2137" strand="1">
+          <diff type="mismatch" lrg_start="7812" lrg_end="7812" other_start="3388737" other_end="3388737" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7820" lrg_end="7820" other_start="3388745" other_end="3388745" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7879" lrg_end="7879" other_start="3479614" other_end="3479614" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8195" lrg_end="8195" other_start="3288495" other_end="3288495" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8217" lrg_end="8217" other_start="3288517" other_end="3288517" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="8267" lrg_end="8267" other_start="3288567" other_end="3288567" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8270" lrg_end="8270" other_start="3288570" other_end="3288570" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8291" lrg_end="8291" other_start="3288591" other_end="3288591" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8301" lrg_end="8301" other_start="3288601" other_end="3288601" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000479730.1" other_name="ENST00000479730.1" other_id="ENST00000479730.1" other_start="1" other_end="2112">
+        <mapping_span lrg_start="5061" lrg_end="5504" other_start="1" other_end="447" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="74" other_end="76" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="176" other_end="176" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="196" other_end="196" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="5787" lrg_end="5941" other_start="448" other_end="602" strand="1">
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="603" other_end="704" strand="1" />
+        <mapping_span lrg_start="6278" lrg_end="6340" other_start="705" other_end="767" strand="1" />
+        <mapping_span lrg_start="6442" lrg_end="6528" other_start="768" other_end="854" strand="1" />
+        <mapping_span lrg_start="6698" lrg_end="6898" other_start="855" other_end="1055" strand="1" />
+        <mapping_span lrg_start="7099" lrg_end="7277" other_start="1056" other_end="1234" strand="1" />
+        <mapping_span lrg_start="7361" lrg_end="7464" other_start="1235" other_end="1338" strand="1">
+          <diff type="mismatch" lrg_start="7367" lrg_end="7367" other_start="3287667" other_end="3287667" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+        <mapping_span lrg_start="7562" lrg_end="8335" other_start="1339" other_end="2112" strand="1">
+          <diff type="mismatch" lrg_start="7812" lrg_end="7812" other_start="3388737" other_end="3388737" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7820" lrg_end="7820" other_start="3388745" other_end="3388745" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7879" lrg_end="7879" other_start="3479614" other_end="3479614" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8195" lrg_end="8195" other_start="3288495" other_end="3288495" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8217" lrg_end="8217" other_start="3288517" other_end="3288517" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="8267" lrg_end="8267" other_start="3288567" other_end="3288567" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8270" lrg_end="8270" other_start="3288570" other_end="3288570" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8291" lrg_end="8291" other_start="3288591" other_end="3288591" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8301" lrg_end="8301" other_start="3288601" other_end="3288601" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000480027.1" other_name="ENST00000480027.1" other_id="ENST00000480027.1" other_start="1" other_end="649">
+        <mapping_span lrg_start="5066" lrg_end="5317" other_start="1" other_end="255" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="69" other_end="71" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="171" other_end="171" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="191" other_end="191" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="5415" lrg_end="5808" other_start="256" other_end="649" strand="1">
+          <diff type="mismatch" lrg_start="5513" lrg_end="5513" other_start="3477248" other_end="3477248" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="5537" lrg_end="5537" other_start="3386463" other_end="3386463" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5571" lrg_end="5571" other_start="3386497" other_end="3386497" lrg_sequence="C" other_sequence="T" />
+          <diff type="lrg_ins" lrg_start="5677" lrg_end="5677" other_start="3386602" other_end="3386603" lrg_sequence="G" other_sequence="-" />
+          <diff type="mismatch" lrg_start="5720" lrg_end="5720" other_start="3286020" other_end="3286020" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5774" lrg_end="5774" other_start="3286074" other_end="3286074" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000483041.1" other_name="ENST00000483041.1" other_id="ENST00000483041.1" other_start="1" other_end="1709">
+        <mapping_span lrg_start="5066" lrg_end="5504" other_start="1" other_end="442" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="69" other_end="71" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="171" other_end="171" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="191" other_end="191" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="5768" lrg_end="5941" other_start="443" other_end="616" strand="1">
+          <diff type="mismatch" lrg_start="5774" lrg_end="5774" other_start="3286074" other_end="3286074" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="617" other_end="718" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6340" other_start="719" other_end="820" strand="1" />
+        <mapping_span lrg_start="6442" lrg_end="6528" other_start="821" other_end="907" strand="1" />
+        <mapping_span lrg_start="6698" lrg_end="6898" other_start="908" other_end="1108" strand="1" />
+        <mapping_span lrg_start="7099" lrg_end="7277" other_start="1109" other_end="1287" strand="1" />
+        <mapping_span lrg_start="7361" lrg_end="7464" other_start="1288" other_end="1391" strand="1">
+          <diff type="mismatch" lrg_start="7367" lrg_end="7367" other_start="3287667" other_end="3287667" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+        <mapping_span lrg_start="7562" lrg_end="7879" other_start="1392" other_end="1709" strand="1">
+          <diff type="mismatch" lrg_start="7812" lrg_end="7812" other_start="3388737" other_end="3388737" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7820" lrg_end="7820" other_start="3388745" other_end="3388745" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000486063.1" other_name="ENST00000486063.1" other_id="ENST00000486063.1" other_start="1" other_end="1975">
+        <mapping_span lrg_start="5036" lrg_end="5504" other_start="1" other_end="472" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="99" other_end="101" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="201" other_end="201" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="221" other_end="221" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="5787" lrg_end="5941" other_start="473" other_end="627" strand="1">
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+        <mapping_span lrg_start="6049" lrg_end="6150" other_start="628" other_end="729" strand="1" />
+        <mapping_span lrg_start="6239" lrg_end="6340" other_start="730" other_end="831" strand="1" />
+        <mapping_span lrg_start="6442" lrg_end="6528" other_start="832" other_end="918" strand="1" />
+        <mapping_span lrg_start="7099" lrg_end="7277" other_start="919" other_end="1097" strand="1" />
+        <mapping_span lrg_start="7361" lrg_end="7464" other_start="1098" other_end="1201" strand="1">
+          <diff type="mismatch" lrg_start="7367" lrg_end="7367" other_start="3287667" other_end="3287667" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+        <mapping_span lrg_start="7562" lrg_end="8335" other_start="1202" other_end="1975" strand="1">
+          <diff type="mismatch" lrg_start="7812" lrg_end="7812" other_start="3388737" other_end="3388737" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7820" lrg_end="7820" other_start="3388745" other_end="3388745" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7879" lrg_end="7879" other_start="3479614" other_end="3479614" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8195" lrg_end="8195" other_start="3288495" other_end="3288495" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8217" lrg_end="8217" other_start="3288517" other_end="3288517" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="8267" lrg_end="8267" other_start="3288567" other_end="3288567" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8270" lrg_end="8270" other_start="3288570" other_end="3288570" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8291" lrg_end="8291" other_start="3288591" other_end="3288591" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="8301" lrg_end="8301" other_start="3288601" other_end="3288601" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000488465.1" other_name="ENST00000488465.1" other_id="ENST00000488465.1" other_start="1" other_end="584">
+        <mapping_span lrg_start="5111" lrg_end="5317" other_start="1" other_end="210" strand="1">
+          <diff type="other_ins" lrg_start="5133" lrg_end="5134" other_start="24" other_end="26" lrg_sequence="-" other_sequence="CTG" />
+          <diff type="mismatch" lrg_start="5233" lrg_end="5233" other_start="126" other_end="126" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="5253" lrg_end="5253" other_start="146" other_end="146" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="5415" lrg_end="5504" other_start="211" other_end="300" strand="1" />
+        <mapping_span lrg_start="5787" lrg_end="5941" other_start="301" other_end="455" strand="1">
+          <diff type="mismatch" lrg_start="5802" lrg_end="5802" other_start="3386727" other_end="3386727" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+        <mapping_span lrg_start="6049" lrg_end="6177" other_start="456" other_end="584" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000229776">
+          <symbol source="HGNC" name="C4B-AS1" />
+          <coordinates coord_system="LRG_829" start="1" end="2954" strand="-1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <long_name>C4B antisense RNA 1 (antisense)</long_name>
+          <db_xref source="HGNC" accession="39752" />
+          <db_xref source="GeneID" accession="102060414" />
+          <db_xref source="Ensembl" accession="ENSG00000229776" />
+          <transcript source="Ensembl" accession="ENST00000415626">
+            <coordinates coord_system="LRG_829" start="1" end="2954" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>C4B-AS1-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00001615309">
+              <coordinates coord_system="LRG_829" start="2453" end="2954" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001620235">
+              <coordinates coord_system="LRG_829" start="1" end="1001" strand="-1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000224389">
+          <symbol source="HGNC" name="C4B" />
+          <coordinates coord_system="LRG_829" start="1" end="2114" strand="1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <long_name>complement component 4B (Chido blood group) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="120820" />
+          <db_xref source="HGNC" accession="1324">
+            <synonym>C4B1</synonym>
+            <synonym>C4B3</synonym>
+            <synonym>C4F</synonym>
+            <synonym>CH</synonym>
+            <synonym>CO4</synonym>
+            <synonym>CPAMD3</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="100293534" />
+          <db_xref source="GeneID" accession="721">
+            <synonym>C4B1</synonym>
+            <synonym>C4B12</synonym>
+            <synonym>C4B2</synonym>
+            <synonym>C4B3</synonym>
+            <synonym>C4B5</synonym>
+            <synonym>C4BD</synonym>
+            <synonym>C4B_2</synonym>
+            <synonym>C4F</synonym>
+            <synonym>CH</synonym>
+            <synonym>CO4</synonym>
+            <synonym>CPAMD3</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000224389" />
+          <transcript source="Ensembl" accession="ENST00000435363">
+            <coordinates coord_system="LRG_829" start="1" end="2114" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>C4B-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS47405.1" />
+            <db_xref source="RefSeq" accession="NM_001002029.3" />
+            <exon source="Ensembl" accession="ENSE00003566299">
+              <coordinates coord_system="LRG_829" start="486" end="588" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593779">
+              <coordinates coord_system="LRG_829" start="754" end="843" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003612534">
+              <coordinates coord_system="LRG_829" start="929" end="1027" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003466216">
+              <coordinates coord_system="LRG_829" start="1210" end="1293" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003660114">
+              <coordinates coord_system="LRG_829" start="1556" end="1688" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001855698">
+              <coordinates coord_system="LRG_829" start="1832" end="2114" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000415941">
+              <coordinates coord_system="LRG_829" start="1" end="1973" strand="1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+              <long_name>complement C4-B preproprotein</long_name>
+              <db_xref source="UniProtKB" accession="P0C0L5">
+                <synonym>A2BHY4</synonym>
+                <synonym>P01028</synonym>
+                <synonym>P78445</synonym>
+                <synonym>Q13160</synonym>
+                <synonym>Q13906</synonym>
+                <synonym>Q14033</synonym>
+                <synonym>Q14835</synonym>
+                <synonym>Q6U2E9</synonym>
+                <synonym>Q6U2G1</synonym>
+                <synonym>Q6U2I5</synonym>
+                <synonym>Q6U2L1</synonym>
+                <synonym>Q6U2L7</synonym>
+                <synonym>Q6U2L9</synonym>
+                <synonym>Q6U2M5</synonym>
+                <synonym>Q6VCV8</synonym>
+                <synonym>Q96SA7</synonym>
+                <synonym>Q9NPK5</synonym>
+                <synonym>Q9UIP5</synonym>
+              </db_xref>
+              <db_xref source="RefSeq" accession="NP_001002029.3" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000486992">
+            <coordinates coord_system="LRG_829" start="1" end="487" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>C4B-017 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001859178">
+              <coordinates coord_system="LRG_829" start="486" end="487" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000468936">
+            <coordinates coord_system="LRG_829" start="1" end="2099" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>C4B-011 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003586075">
+              <coordinates coord_system="LRG_829" start="486" end="588" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678977">
+              <coordinates coord_system="LRG_829" start="754" end="843" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003652422">
+              <coordinates coord_system="LRG_829" start="929" end="1027" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001950716">
+              <coordinates coord_system="LRG_829" start="1210" end="1688" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001881631">
+              <coordinates coord_system="LRG_829" start="1832" end="2099" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000463249">
+            <coordinates coord_system="LRG_829" start="1" end="1930" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>C4B-010 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003586075">
+              <coordinates coord_system="LRG_829" start="486" end="588" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678977">
+              <coordinates coord_system="LRG_829" start="754" end="843" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003652422">
+              <coordinates coord_system="LRG_829" start="929" end="1027" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003485011">
+              <coordinates coord_system="LRG_829" start="1210" end="1293" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003479511">
+              <coordinates coord_system="LRG_829" start="1556" end="1688" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001851946">
+              <coordinates coord_system="LRG_829" start="1832" end="1930" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000425700">
+            <coordinates coord_system="LRG_829" start="1" end="2096" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>C4B-201 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003566299">
+              <coordinates coord_system="LRG_829" start="486" end="588" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593779">
+              <coordinates coord_system="LRG_829" start="754" end="843" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003612534">
+              <coordinates coord_system="LRG_829" start="929" end="1027" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003466216">
+              <coordinates coord_system="LRG_829" start="1210" end="1293" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003660114">
+              <coordinates coord_system="LRG_829" start="1556" end="1688" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001717644">
+              <coordinates coord_system="LRG_829" start="1832" end="2096" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000391933">
+              <coordinates coord_system="LRG_829" start="1" end="1973" strand="1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000468237">
+            <coordinates coord_system="LRG_829" start="431" end="2097" strand="1" mapped_from="GRCh37" />
+            <long_name>C4B-002 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001943591">
+              <coordinates coord_system="LRG_829" start="431" end="588" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678977">
+              <coordinates coord_system="LRG_829" start="754" end="843" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003652422">
+              <coordinates coord_system="LRG_829" start="929" end="1027" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003485011">
+              <coordinates coord_system="LRG_829" start="1210" end="1293" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003479511">
+              <coordinates coord_system="LRG_829" start="1556" end="1688" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001814286">
+              <coordinates coord_system="LRG_829" start="1832" end="2097" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000496065">
+            <coordinates coord_system="LRG_829" start="560" end="1698" strand="1" mapped_from="GRCh37" />
+            <long_name>C4B-012 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001958651">
+              <coordinates coord_system="LRG_829" start="560" end="588" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001858803">
+              <coordinates coord_system="LRG_829" start="754" end="1698" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000473957">
+            <coordinates coord_system="LRG_829" start="640" end="1211" strand="1" mapped_from="GRCh37" />
+            <long_name>C4B-016 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001854010">
+              <coordinates coord_system="LRG_829" start="640" end="843" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003652422">
+              <coordinates coord_system="LRG_829" start="929" end="1027" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001886971">
+              <coordinates coord_system="LRG_829" start="1210" end="1211" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000496560">
+            <coordinates coord_system="LRG_829" start="693" end="1301" strand="1" mapped_from="GRCh37" />
+            <long_name>C4B-007 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001810755">
+              <coordinates coord_system="LRG_829" start="693" end="843" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001950983">
+              <coordinates coord_system="LRG_829" start="929" end="1301" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000231852">
+          <symbol source="HGNC" name="CYP21A2" />
+          <coordinates coord_system="LRG_829" start="4961" end="8363" strand="1" mapped_from="GRCh37" />
+          <long_name>cytochrome P450, family 21, subfamily A, polypeptide 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="613815" />
+          <db_xref source="HGNC" accession="2600">
+            <synonym>CA21H</synonym>
+            <synonym>CAH1</synonym>
+            <synonym>CPS1</synonym>
+            <synonym>CYP21</synonym>
+            <synonym>CYP21B</synonym>
+            <synonym>P450c21B</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="1589">
+            <synonym>CA21H</synonym>
+            <synonym>CAH1</synonym>
+            <synonym>CPS1</synonym>
+            <synonym>CYP21</synonym>
+            <synonym>CYP21B</synonym>
+            <synonym>P450c21B</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000231852" />
+          <transcript source="Ensembl" accession="ENST00000418967">
+            <coordinates coord_system="LRG_829" start="4961" end="8363" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS4735.1" />
+            <db_xref source="RefSeq" accession="NM_000500.7" />
+            <exon source="Ensembl" accession="ENSE00001874106">
+              <coordinates coord_system="LRG_829" start="4961" end="5317" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003548514">
+              <coordinates coord_system="LRG_829" start="5415" end="5504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003462628">
+              <coordinates coord_system="LRG_829" start="5787" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003643642">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003646483">
+              <coordinates coord_system="LRG_829" start="6239" end="6340" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003507396">
+              <coordinates coord_system="LRG_829" start="6442" end="6528" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003519966">
+              <coordinates coord_system="LRG_829" start="6698" end="6898" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003619629">
+              <coordinates coord_system="LRG_829" start="7099" end="7277" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003546581">
+              <coordinates coord_system="LRG_829" start="7361" end="7464" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001893734">
+              <coordinates coord_system="LRG_829" start="7562" end="8363" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000408860">
+              <coordinates coord_system="LRG_829" start="5119" end="7827" strand="1" mapped_from="GRCh37" />
+              <long_name>steroid 21-hydroxylase isoform a</long_name>
+              <db_xref source="RefSeq" accession="NP_000491.4" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000466779">
+            <coordinates coord_system="LRG_829" start="5023" end="6517" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-010 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001857326">
+              <coordinates coord_system="LRG_829" start="5023" end="5317" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003548514">
+              <coordinates coord_system="LRG_829" start="5415" end="5504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003548181">
+              <coordinates coord_system="LRG_829" start="5768" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003669166">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003615823">
+              <coordinates coord_system="LRG_829" start="6239" end="6340" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001912073">
+              <coordinates coord_system="LRG_829" start="6442" end="6517" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000417321">
+              <coordinates coord_system="LRG_829" start="5119" end="5802" strand="1" mapped_from="GRCh37" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000486063">
+            <coordinates coord_system="LRG_829" start="5036" end="8335" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-005 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001837798">
+              <coordinates coord_system="LRG_829" start="5036" end="5504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003595155">
+              <coordinates coord_system="LRG_829" start="5787" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003669166">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003615823">
+              <coordinates coord_system="LRG_829" start="6239" end="6340" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003476198">
+              <coordinates coord_system="LRG_829" start="6442" end="6528" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003685871">
+              <coordinates coord_system="LRG_829" start="7099" end="7277" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003661039">
+              <coordinates coord_system="LRG_829" start="7361" end="7464" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003664115">
+              <coordinates coord_system="LRG_829" start="7562" end="8335" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000479074">
+            <coordinates coord_system="LRG_829" start="5061" end="8335" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-004 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001817189">
+              <coordinates coord_system="LRG_829" start="5061" end="5317" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003622858">
+              <coordinates coord_system="LRG_829" start="5415" end="5504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003595155">
+              <coordinates coord_system="LRG_829" start="5787" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003669166">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003615823">
+              <coordinates coord_system="LRG_829" start="6239" end="6340" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003476198">
+              <coordinates coord_system="LRG_829" start="6442" end="6528" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003628127">
+              <coordinates coord_system="LRG_829" start="6698" end="6898" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001839242">
+              <coordinates coord_system="LRG_829" start="7099" end="7464" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003664115">
+              <coordinates coord_system="LRG_829" start="7562" end="8335" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000479730">
+            <coordinates coord_system="LRG_829" start="5061" end="8335" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-006 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001869146">
+              <coordinates coord_system="LRG_829" start="5061" end="5504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003595155">
+              <coordinates coord_system="LRG_829" start="5787" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003669166">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001940972">
+              <coordinates coord_system="LRG_829" start="6278" end="6340" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003476198">
+              <coordinates coord_system="LRG_829" start="6442" end="6528" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003628127">
+              <coordinates coord_system="LRG_829" start="6698" end="6898" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003685871">
+              <coordinates coord_system="LRG_829" start="7099" end="7277" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003661039">
+              <coordinates coord_system="LRG_829" start="7361" end="7464" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003664115">
+              <coordinates coord_system="LRG_829" start="7562" end="8335" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000480027">
+            <coordinates coord_system="LRG_829" start="5066" end="5808" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-008 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001905088">
+              <coordinates coord_system="LRG_829" start="5066" end="5317" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001937629">
+              <coordinates coord_system="LRG_829" start="5415" end="5808" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000483041">
+            <coordinates coord_system="LRG_829" start="5066" end="7879" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-007 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001871742">
+              <coordinates coord_system="LRG_829" start="5066" end="5504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003625945">
+              <coordinates coord_system="LRG_829" start="5768" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003669166">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003615823">
+              <coordinates coord_system="LRG_829" start="6239" end="6340" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003476198">
+              <coordinates coord_system="LRG_829" start="6442" end="6528" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003628127">
+              <coordinates coord_system="LRG_829" start="6698" end="6898" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003685871">
+              <coordinates coord_system="LRG_829" start="7099" end="7277" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003661039">
+              <coordinates coord_system="LRG_829" start="7361" end="7464" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001898723">
+              <coordinates coord_system="LRG_829" start="7562" end="7879" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000478281">
+            <coordinates coord_system="LRG_829" start="5078" end="6126" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-015 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001902041">
+              <coordinates coord_system="LRG_829" start="5078" end="5317" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003548514">
+              <coordinates coord_system="LRG_829" start="5415" end="5504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001848350">
+              <coordinates coord_system="LRG_829" start="5754" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001943605">
+              <coordinates coord_system="LRG_829" start="6049" end="6126" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000419572">
+              <coordinates coord_system="LRG_829" start="5119" end="6126" strand="1" mapped_from="GRCh37" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000488465">
+            <coordinates coord_system="LRG_829" start="5111" end="6177" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-009 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003673018">
+              <coordinates coord_system="LRG_829" start="5111" end="5317" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003622858">
+              <coordinates coord_system="LRG_829" start="5415" end="5504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003595155">
+              <coordinates coord_system="LRG_829" start="5787" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001926209">
+              <coordinates coord_system="LRG_829" start="6049" end="6177" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000471671">
+            <coordinates coord_system="LRG_829" start="5111" end="6299" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-013 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003588711">
+              <coordinates coord_system="LRG_829" start="5111" end="5317" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003548514">
+              <coordinates coord_system="LRG_829" start="5415" end="5504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003462628">
+              <coordinates coord_system="LRG_829" start="5787" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003643642">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001956762">
+              <coordinates coord_system="LRG_829" start="6278" end="6299" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000418561">
+              <coordinates coord_system="LRG_829" start="5119" end="6299" strand="1" mapped_from="GRCh37" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000435122">
+            <coordinates coord_system="LRG_829" start="5111" end="8335" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS47406.1" />
+            <db_xref source="RefSeq" accession="NM_001128590.3" />
+            <exon source="Ensembl" accession="ENSE00003588711">
+              <coordinates coord_system="LRG_829" start="5111" end="5317" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003462628">
+              <coordinates coord_system="LRG_829" start="5787" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003643642">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003646483">
+              <coordinates coord_system="LRG_829" start="6239" end="6340" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003507396">
+              <coordinates coord_system="LRG_829" start="6442" end="6528" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003519966">
+              <coordinates coord_system="LRG_829" start="6698" end="6898" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003619629">
+              <coordinates coord_system="LRG_829" start="7099" end="7277" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003546581">
+              <coordinates coord_system="LRG_829" start="7361" end="7464" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003651995">
+              <coordinates coord_system="LRG_829" start="7562" end="8335" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000415043">
+              <coordinates coord_system="LRG_829" start="5119" end="7827" strand="1" mapped_from="GRCh37" />
+              <long_name>steroid 21-hydroxylase isoform b</long_name>
+              <db_xref source="UniProtKB" accession="P08686">
+                <synonym>A2BHY6</synonym>
+                <synonym>P04033</synonym>
+                <synonym>Q01204</synonym>
+                <synonym>Q08AG8</synonym>
+                <synonym>Q16749</synonym>
+                <synonym>Q16806</synonym>
+                <synonym>Q5ST44</synonym>
+                <synonym>Q96NU8</synonym>
+              </db_xref>
+              <db_xref source="RefSeq" accession="NP_001122062.3" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000469053">
+            <coordinates coord_system="LRG_829" start="5112" end="6333" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-011 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001899374">
+              <coordinates coord_system="LRG_829" start="5112" end="5317" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003548181">
+              <coordinates coord_system="LRG_829" start="5768" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003669166">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001862756">
+              <coordinates coord_system="LRG_829" start="6239" end="6333" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000418104">
+              <coordinates coord_system="LRG_829" start="5119" end="5802" strand="1" mapped_from="GRCh37" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000464325">
+            <coordinates coord_system="LRG_829" start="5276" end="6449" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-012 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001878404">
+              <coordinates coord_system="LRG_829" start="5276" end="5504" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001849316">
+              <coordinates coord_system="LRG_829" start="5803" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003669166">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003615823">
+              <coordinates coord_system="LRG_829" start="6239" end="6340" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001833489">
+              <coordinates coord_system="LRG_829" start="6442" end="6449" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000466879">
+            <coordinates coord_system="LRG_829" start="5444" end="6516" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001930019">
+              <coordinates coord_system="LRG_829" start="5444" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003669166">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003615823">
+              <coordinates coord_system="LRG_829" start="6239" end="6340" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001869913">
+              <coordinates coord_system="LRG_829" start="6442" end="6516" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000462278">
+            <coordinates coord_system="LRG_829" start="5907" end="6665" strand="1" mapped_from="GRCh37" />
+            <long_name>CYP21A2-014 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001911862">
+              <coordinates coord_system="LRG_829" start="5907" end="5941" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003669166">
+              <coordinates coord_system="LRG_829" start="6049" end="6150" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001926515">
+              <coordinates coord_system="LRG_829" start="6239" end="6665" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000168477">
+          <symbol source="HGNC" name="TNXB" />
+          <coordinates coord_system="LRG_829" start="7847" end="10335" strand="-1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <long_name>tenascin XB (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600985" />
+          <db_xref source="HGNC" accession="11976">
+            <synonym>TNXB1</synonym>
+            <synonym>TNXB2</synonym>
+            <synonym>TNXBS</synonym>
+            <synonym>XB</synonym>
+            <synonym>XBS</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="7148">
+            <synonym>EDS3</synonym>
+            <synonym>HXBL</synonym>
+            <synonym>TENX</synonym>
+            <synonym>TN-X</synonym>
+            <synonym>TNX</synonym>
+            <synonym>TNXB1</synonym>
+            <synonym>TNXB2</synonym>
+            <synonym>TNXBS</synonym>
+            <synonym>XB</synonym>
+            <synonym>XBS</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000168477" />
+          <transcript source="Ensembl" accession="ENST00000375244">
+            <coordinates coord_system="LRG_829" start="7847" end="10335" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>TNXB-001 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003581705">
+              <coordinates coord_system="LRG_829" start="10130" end="10249" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003511471">
+              <coordinates coord_system="LRG_829" start="9868" end="10011" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003690559">
+              <coordinates coord_system="LRG_829" start="9644" end="9774" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003544251">
+              <coordinates coord_system="LRG_829" start="9392" end="9524" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003691909">
+              <coordinates coord_system="LRG_829" start="9148" end="9299" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003564051">
+              <coordinates coord_system="LRG_829" start="8959" end="9055" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003504909">
+              <coordinates coord_system="LRG_829" start="8705" end="8866" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003655236">
+              <coordinates coord_system="LRG_829" start="8464" end="8627" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001818230">
+              <coordinates coord_system="LRG_829" start="7847" end="8143" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000364393">
+              <coordinates coord_system="LRG_829" start="8042" end="10335" strand="-1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000451343">
+            <coordinates coord_system="LRG_829" start="7848" end="10335" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>TNXB-006 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS4736.1" />
+            <db_xref source="RefSeq" accession="NM_032470.3" />
+            <exon source="Ensembl" accession="ENSE00003581705">
+              <coordinates coord_system="LRG_829" start="10130" end="10249" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003511471">
+              <coordinates coord_system="LRG_829" start="9868" end="10011" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003690559">
+              <coordinates coord_system="LRG_829" start="9644" end="9774" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003544251">
+              <coordinates coord_system="LRG_829" start="9392" end="9524" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003691909">
+              <coordinates coord_system="LRG_829" start="9148" end="9299" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003564051">
+              <coordinates coord_system="LRG_829" start="8959" end="9055" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003504909">
+              <coordinates coord_system="LRG_829" start="8705" end="8866" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003655236">
+              <coordinates coord_system="LRG_829" start="8464" end="8627" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003500103">
+              <coordinates coord_system="LRG_829" start="7848" end="8143" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000407685">
+              <coordinates coord_system="LRG_829" start="8042" end="10335" strand="-1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+              <long_name>tenascin-X isoform 2</long_name>
+              <db_xref source="UniProtKB" accession="P22105">
+                <synonym>P78530</synonym>
+                <synonym>P78531</synonym>
+                <synonym>Q08424</synonym>
+                <synonym>Q08AM0</synonym>
+                <synonym>Q08AM1</synonym>
+                <synonym>Q59GU7</synonym>
+                <synonym>Q5SQD3</synonym>
+                <synonym>Q5ST74</synonym>
+                <synonym>Q7L8Q4</synonym>
+                <synonym>Q8N4R1</synonym>
+                <synonym>Q9NPK9</synonym>
+                <synonym>Q9UC10</synonym>
+                <synonym>Q9UC11</synonym>
+                <synonym>Q9UC12</synonym>
+                <synonym>Q9UC13</synonym>
+                <synonym>Q9UMG7</synonym>
+              </db_xref>
+              <db_xref source="RefSeq" accession="NP_115859.2" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000490077">
+            <coordinates coord_system="LRG_829" start="7848" end="10335" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>TNXB-005 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003549077">
+              <coordinates coord_system="LRG_829" start="10130" end="10249" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003686298">
+              <coordinates coord_system="LRG_829" start="9868" end="10011" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003606604">
+              <coordinates coord_system="LRG_829" start="9644" end="9774" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003658756">
+              <coordinates coord_system="LRG_829" start="9392" end="9524" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003586064">
+              <coordinates coord_system="LRG_829" start="9148" end="9299" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003591835">
+              <coordinates coord_system="LRG_829" start="8959" end="9055" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003537555">
+              <coordinates coord_system="LRG_829" start="8705" end="8866" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003590206">
+              <coordinates coord_system="LRG_829" start="8464" end="8627" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003641666">
+              <coordinates coord_system="LRG_829" start="7848" end="8143" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000375247">
+            <coordinates coord_system="LRG_829" start="7848" end="10335" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>TNXB-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_019105.6" />
+            <exon source="Ensembl" accession="ENSE00003581705">
+              <coordinates coord_system="LRG_829" start="10130" end="10249" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003511471">
+              <coordinates coord_system="LRG_829" start="9868" end="10011" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003690559">
+              <coordinates coord_system="LRG_829" start="9644" end="9774" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003544251">
+              <coordinates coord_system="LRG_829" start="9392" end="9524" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003691909">
+              <coordinates coord_system="LRG_829" start="9148" end="9299" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003564051">
+              <coordinates coord_system="LRG_829" start="8959" end="9055" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003504909">
+              <coordinates coord_system="LRG_829" start="8705" end="8866" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003655236">
+              <coordinates coord_system="LRG_829" start="8464" end="8627" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003500103">
+              <coordinates coord_system="LRG_829" start="7848" end="8143" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000364396">
+              <coordinates coord_system="LRG_829" start="8042" end="10335" strand="-1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+              <long_name>tenascin-X isoform 1 precursor</long_name>
+              <db_xref source="UniProtKB" accession="P22105">
+                <synonym>P78530</synonym>
+                <synonym>P78531</synonym>
+                <synonym>Q08424</synonym>
+                <synonym>Q08AM0</synonym>
+                <synonym>Q08AM1</synonym>
+                <synonym>Q59GU7</synonym>
+                <synonym>Q5SQD3</synonym>
+                <synonym>Q5ST74</synonym>
+                <synonym>Q7L8Q4</synonym>
+                <synonym>Q8N4R1</synonym>
+                <synonym>Q9NPK9</synonym>
+                <synonym>Q9UC10</synonym>
+                <synonym>Q9UC11</synonym>
+                <synonym>Q9UC12</synonym>
+                <synonym>Q9UC13</synonym>
+                <synonym>Q9UMG7</synonym>
+              </db_xref>
+              <db_xref source="RefSeq" accession="NP_061978.6" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000498094">
+            <coordinates coord_system="LRG_829" start="8959" end="10145" strand="-1" mapped_from="GRCh37" />
+            <long_name>TNXB-004 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001953728">
+              <coordinates coord_system="LRG_829" start="10130" end="10145" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003686298">
+              <coordinates coord_system="LRG_829" start="9868" end="10011" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001895372">
+              <coordinates coord_system="LRG_829" start="9392" end="9774" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003586064">
+              <coordinates coord_system="LRG_829" start="9148" end="9299" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003591835">
+              <coordinates coord_system="LRG_829" start="8959" end="9055" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set>
+      <source>
+        <name>List of locus specific databases for CYP21A2</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CYP21A2</url>
+      </source>
+      <modification_date>2014-03-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
