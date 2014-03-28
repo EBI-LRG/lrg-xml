@@ -124,10 +124,16 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="20" other_id="NC_000020.10" other_start="43246163" other_end="43285376">
         <mapping_span lrg_start="1" lrg_end="39214" other_start="43246163" other_end="43285376" strand="-1">
           <diff type="mismatch" lrg_start="20450" lrg_end="20450" other_start="43264927" other_end="43264927" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="20" other_id="NC_000020.11" other_start="44617522" other_end="44656735">
+        <mapping_span lrg_start="1" lrg_end="39214" other_start="44617522" other_end="44656735" strand="-1">
+          <diff type="mismatch" lrg_start="20450" lrg_end="20450" other_start="44636286" other_end="44636286" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="30887" lrg_end="30887" other_start="44625849" other_end="44625849" lrg_sequence="T" other_sequence="C" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">ADA</lrg_locus>
@@ -143,7 +149,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007385.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000022.2" other_name="NM_000022.2" other_id="NM_000022.2" other_start="1" other_end="1532">
         <mapping_span lrg_start="5001" lrg_end="5161" other_start="1" other_end="161" strand="1" />
         <mapping_span lrg_start="20448" lrg_end="20509" other_start="162" other_end="223" strand="1" />
@@ -337,8 +343,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000372874.4" other_name="ENST00000372874.4" other_id="ENST00000372874.4" other_start="1" other_end="1539">
         <mapping_span lrg_start="4994" lrg_end="5161" other_start="1" other_end="168" strand="1" />
         <mapping_span lrg_start="20448" lrg_end="20509" other_start="169" other_end="230" strand="1">
@@ -476,9 +482,9 @@
           <symbol source="HGNC" name="ADA" />
           <coordinates coord_system="LRG_16" start="4503" end="37214" strand="1" mapped_from="GRCh37" />
           <long_name>adenosine deaminase (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="100" />
-          <db_xref source="HGNC" accession="186" />
           <db_xref source="MIM" accession="608958" />
+          <db_xref source="HGNC" accession="186" />
+          <db_xref source="GeneID" accession="100" />
           <db_xref source="Ensembl" accession="ENSG00000196839" />
           <transcript source="Ensembl" accession="ENST00000535573">
             <coordinates coord_system="LRG_16" start="4503" end="20665" strand="1" mapped_from="GRCh37" />
@@ -550,11 +556,11 @@
             <protein_product source="Ensembl" accession="ENSP00000361965">
               <coordinates coord_system="LRG_16" start="5129" end="36902" strand="1" mapped_from="GRCh37" />
               <long_name>adenosine deaminase</long_name>
-              <db_xref source="RefSeq" accession="NP_000013.2" />
               <db_xref source="UniProtKB" accession="P00813">
                 <synonym>Q53F92</synonym>
                 <synonym>Q6LA59</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000013.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000492931">
@@ -755,9 +761,11 @@
           <coordinates coord_system="LRG_16" start="32489" end="39214" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>protein kinase (cAMP-dependent, catalytic) inhibitor gamma (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="11142" />
-          <db_xref source="HGNC" accession="9019" />
           <db_xref source="MIM" accession="604932" />
+          <db_xref source="HGNC" accession="9019" />
+          <db_xref source="GeneID" accession="11142">
+            <synonym>PKI-gamma</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000168734" />
           <transcript source="Ensembl" accession="ENST00000372887">
             <coordinates coord_system="LRG_16" start="32489" end="39214" strand="-1" mapped_from="GRCh37" />
@@ -788,7 +796,7 @@
             <partial>5-prime</partial>
             <long_name>PKIG-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13334.1" />
-            <db_xref source="RefSeq" accession="NM_007066.3" />
+            <db_xref source="RefSeq" accession="NM_007066.4" />
             <exon source="Ensembl" accession="ENSE00001126435">
               <coordinates coord_system="LRG_16" start="37699" end="38451" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -796,8 +804,8 @@
               <coordinates coord_system="LRG_16" start="38372" end="39214" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>cAMP-dependent protein kinase inhibitor gamma</long_name>
-              <db_xref source="RefSeq" accession="NP_008997.1" />
               <db_xref source="UniProtKB" accession="Q9Y2B9" />
+              <db_xref source="RefSeq" accession="NP_008997.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372892">
@@ -805,7 +813,7 @@
             <partial>5-prime</partial>
             <long_name>PKIG-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13334.1" />
-            <db_xref source="RefSeq" accession="NM_181804.1" />
+            <db_xref source="RefSeq" accession="NM_181804.2" />
             <exon source="Ensembl" accession="ENSE00001126435">
               <coordinates coord_system="LRG_16" start="37699" end="38451" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -813,8 +821,8 @@
               <coordinates coord_system="LRG_16" start="38372" end="39214" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>cAMP-dependent protein kinase inhibitor gamma</long_name>
-              <db_xref source="RefSeq" accession="NP_861520.1" />
               <db_xref source="UniProtKB" accession="Q9Y2B9" />
+              <db_xref source="RefSeq" accession="NP_861520.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372891">
@@ -822,7 +830,7 @@
             <partial>5-prime</partial>
             <long_name>PKIG-003 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13334.1" />
-            <db_xref source="RefSeq" accession="NM_181805.1" />
+            <db_xref source="RefSeq" accession="NM_181805.2" />
             <exon source="Ensembl" accession="ENSE00001126435">
               <coordinates coord_system="LRG_16" start="37699" end="38451" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -830,8 +838,8 @@
               <coordinates coord_system="LRG_16" start="38372" end="39214" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>cAMP-dependent protein kinase inhibitor gamma</long_name>
-              <db_xref source="RefSeq" accession="NP_861521.1" />
               <db_xref source="UniProtKB" accession="Q9Y2B9" />
+              <db_xref source="RefSeq" accession="NP_861521.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372889">
@@ -839,13 +847,16 @@
             <partial>5-prime</partial>
             <long_name>PKIG-006 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13334.1" />
+            <db_xref source="RefSeq" accession="NM_001281444.1" />
             <exon source="Ensembl" accession="ENSE00001126435">
               <coordinates coord_system="LRG_16" start="37699" end="38451" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000361980">
               <coordinates coord_system="LRG_16" start="38372" end="39214" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
+              <long_name>cAMP-dependent protein kinase inhibitor gamma</long_name>
               <db_xref source="UniProtKB" accession="Q9Y2B9" />
+              <db_xref source="RefSeq" accession="NP_001268373.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372886">
@@ -853,13 +864,16 @@
             <partial>5-prime</partial>
             <long_name>PKIG-004 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13334.1" />
+            <db_xref source="RefSeq" accession="NM_001281445.1" />
             <exon source="Ensembl" accession="ENSE00001126435">
               <coordinates coord_system="LRG_16" start="37699" end="38451" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000361977">
               <coordinates coord_system="LRG_16" start="38372" end="39214" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
+              <long_name>cAMP-dependent protein kinase inhibitor gamma</long_name>
               <db_xref source="UniProtKB" accession="Q9Y2B9" />
+              <db_xref source="RefSeq" accession="NP_001268374.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000349959">
@@ -903,7 +917,7 @@
         <name>List of locus specific databases for ADA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ADA</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

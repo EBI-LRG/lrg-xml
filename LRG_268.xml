@@ -193,9 +193,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="135134827" other_end="135235372">
         <mapping_span lrg_start="1" lrg_end="100546" other_start="135134827" other_end="135235372" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="9" other_id="NC_000009.12" other_start="132259440" other_end="132359985">
+        <mapping_span lrg_start="1" lrg_end="100546" other_start="132259440" other_end="132359985" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">SETX</lrg_locus>
     </annotation_set>
@@ -210,7 +213,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007946.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_015046.5" other_name="NM_015046.5" other_id="NM_015046.5" other_start="1" other_end="11016">
         <mapping_span lrg_start="5001" lrg_end="5069" other_start="1" other_end="69" strand="1" />
         <mapping_span lrg_start="6231" lrg_end="6337" other_start="70" other_end="176" strand="1" />
@@ -360,8 +363,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000224140.5" other_name="ENST00000224140.5" other_id="ENST00000224140.5" other_start="1" other_end="11100">
         <mapping_span lrg_start="5001" lrg_end="5069" other_start="1" other_end="69" strand="1" />
         <mapping_span lrg_start="6231" lrg_end="6337" other_start="70" other_end="176" strand="1" />
@@ -486,19 +489,19 @@
           <symbol source="HGNC" name="SETX" />
           <coordinates coord_system="LRG_268" start="5001" end="98630" strand="1" mapped_from="GRCh37" />
           <long_name>senataxin (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="23064">
-            <synonym>ALS4</synonym>
-            <synonym>AOA2</synonym>
-            <synonym>bA479K20.2</synonym>
-            <synonym>SCAR1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="608465" />
           <db_xref source="HGNC" accession="445">
             <synonym>ALS4</synonym>
             <synonym>AOA2</synonym>
             <synonym>KIAA0625</synonym>
             <synonym>SCAR1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="608465" />
+          <db_xref source="GeneID" accession="23064">
+            <synonym>ALS4</synonym>
+            <synonym>AOA2</synonym>
+            <synonym>bA479K20.2</synonym>
+            <synonym>SCAR1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000107290" />
           <transcript source="Ensembl" accession="ENST00000224140">
             <coordinates coord_system="LRG_268" start="5001" end="98630" strand="1" mapped_from="GRCh37" />
@@ -586,7 +589,6 @@
             <protein_product source="Ensembl" accession="ENSP00000224140">
               <coordinates coord_system="LRG_268" start="10558" end="95747" strand="1" mapped_from="GRCh37" />
               <long_name>probable helicase senataxin</long_name>
-              <db_xref source="RefSeq" accession="NP_055861.3" />
               <db_xref source="UniProtKB" accession="Q7Z333">
                 <synonym>A2A396</synonym>
                 <synonym>B2RPB2</synonym>
@@ -602,6 +604,7 @@
                 <synonym>Q9H9D1</synonym>
                 <synonym>Q9NVP9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_055861.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372169">
@@ -860,21 +863,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000409143">
               <coordinates coord_system="LRG_268" start="48130" end="95747" strand="1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="Q7Z333">
-                <synonym>A2A396</synonym>
-                <synonym>B2RPB2</synonym>
-                <synonym>B5ME16</synonym>
-                <synonym>C9JQ10</synonym>
-                <synonym>O75120</synonym>
-                <synonym>Q3KQX4</synonym>
-                <synonym>Q5JUJ1</synonym>
-                <synonym>Q68DW5</synonym>
-                <synonym>Q6AZD7</synonym>
-                <synonym>Q7Z3J6</synonym>
-                <synonym>Q8WX33</synonym>
-                <synonym>Q9H9D1</synonym>
-                <synonym>Q9NVP9</synonym>
-              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000474172">
@@ -927,7 +915,7 @@
         <name>List of locus specific databases for SETX</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SETX</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

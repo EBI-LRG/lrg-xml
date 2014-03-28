@@ -174,9 +174,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_start="75752872" other_end="75881918">
         <mapping_span lrg_start="1" lrg_end="129047" other_start="75752872" other_end="75881918" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="10" other_id="NC_000010.11" other_start="73993114" other_end="74122160">
+        <mapping_span lrg_start="1" lrg_end="129047" other_start="73993114" other_end="74122160" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">VCL</lrg_locus>
     </annotation_set>
@@ -191,7 +194,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008868.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_003373.3" other_name="NM_003373.3" other_id="NM_003373.3" other_start="1" other_end="5286">
         <mapping_span lrg_start="5001" lrg_end="5262" other_start="1" other_end="262" strand="1" />
         <mapping_span lrg_start="49970" lrg_end="50040" other_start="263" other_end="333" strand="1" />
@@ -244,6 +247,7 @@
           <symbol source="HGNC" name="VCL">
             <synonym>CMD1W</synonym>
             <synonym>CMH15</synonym>
+            <synonym>HEL114</synonym>
             <synonym>MV</synonym>
             <synonym>MVCL</synonym>
           </symbol>
@@ -330,6 +334,7 @@
               <coordinates coord_system="LRG_383" start="5095" end="125056" strand="1" />
               <long_name>vinculin isoform meta-VCL</long_name>
               <long_name>metavinculin</long_name>
+              <long_name>epididymis luminal protein 114</long_name>
               <db_xref source="CCDS" accession="CCDS7341.1" />
               <db_xref source="GeneID" accession="7414" />
               <db_xref source="GI" accession="7669550" />
@@ -413,7 +418,9 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="26985">
-          <symbol source="HGNC" name="AP3M1" />
+          <symbol source="HGNC" name="AP3M1">
+            <synonym>RP11-178G16.4</synonym>
+          </symbol>
           <coordinates coord_system="LRG_383" start="127144" end="129047" strand="-1" />
           <partial>5-prime</partial>
           <long_name>adaptor-related protein complex 3, mu 1 subunit</long_name>
@@ -455,8 +462,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000211998.4" other_name="ENST00000211998.4" other_id="ENST00000211998.4" other_start="1" other_end="5482">
         <mapping_span lrg_start="5001" lrg_end="5262" other_start="1" other_end="262" strand="1" />
         <mapping_span lrg_start="49970" lrg_end="50040" other_start="263" other_end="333" strand="1" />
@@ -551,14 +558,15 @@
           <symbol source="HGNC" name="VCL" />
           <coordinates coord_system="LRG_383" start="5001" end="127047" strand="1" mapped_from="GRCh37" />
           <long_name>vinculin (protein_coding)</long_name>
+          <db_xref source="MIM" accession="193065" />
+          <db_xref source="HGNC" accession="12665" />
           <db_xref source="GeneID" accession="7414">
             <synonym>CMD1W</synonym>
             <synonym>CMH15</synonym>
+            <synonym>HEL114</synonym>
             <synonym>MV</synonym>
             <synonym>MVCL</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="12665" />
-          <db_xref source="MIM" accession="193065" />
           <db_xref source="Ensembl" accession="ENSG00000035403" />
           <transcript source="Ensembl" accession="ENST00000372755">
             <coordinates coord_system="LRG_383" start="5001" end="127047" strand="1" mapped_from="GRCh37" />
@@ -631,13 +639,13 @@
             <protein_product source="Ensembl" accession="ENSP00000361841">
               <coordinates coord_system="LRG_383" start="5095" end="125056" strand="1" mapped_from="GRCh37" />
               <long_name>vinculin isoform VCL</long_name>
-              <db_xref source="RefSeq" accession="NP_003364.1" />
               <db_xref source="UniProtKB" accession="P18206">
                 <synonym>Q16450</synonym>
                 <synonym>Q5SWX2</synonym>
                 <synonym>Q7Z3B8</synonym>
                 <synonym>Q8IXU7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003364.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000211998">
@@ -714,13 +722,13 @@
             <protein_product source="Ensembl" accession="ENSP00000211998">
               <coordinates coord_system="LRG_383" start="5095" end="125056" strand="1" mapped_from="GRCh37" />
               <long_name>vinculin isoform meta-VCL</long_name>
-              <db_xref source="RefSeq" accession="NP_054706.1" />
               <db_xref source="UniProtKB" accession="P18206">
                 <synonym>Q16450</synonym>
                 <synonym>Q5SWX2</synonym>
                 <synonym>Q7Z3B8</synonym>
                 <synonym>Q8IXU7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_054706.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000478896">
@@ -893,9 +901,11 @@
           <coordinates coord_system="LRG_383" start="128653" end="129047" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>adaptor-related protein complex 3, mu 1 subunit (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="26985" />
-          <db_xref source="HGNC" accession="569" />
           <db_xref source="MIM" accession="610366" />
+          <db_xref source="HGNC" accession="569" />
+          <db_xref source="GeneID" accession="26985">
+            <synonym>RP11-178G16.4</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000185009" />
           <transcript source="Ensembl" accession="ENST00000355264">
             <coordinates coord_system="LRG_383" start="128653" end="129047" strand="-1" mapped_from="GRCh37" />
@@ -916,7 +926,7 @@
         <name>List of locus specific databases for VCL</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/VCL</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

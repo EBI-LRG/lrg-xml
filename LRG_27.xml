@@ -293,9 +293,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_start="6675846" other_end="6725662">
         <mapping_span lrg_start="1" lrg_end="49817" other_start="6675846" other_end="6725662" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="19" other_id="NC_000019.10" other_start="6675835" other_end="6725651">
+        <mapping_span lrg_start="1" lrg_end="49817" other_start="6675835" other_end="6725651" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">C3</lrg_locus>
     </annotation_set>
@@ -310,7 +313,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009557.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000064.2" other_name="NM_000064.2" other_id="NM_000064.2" other_start="1" other_end="5101">
         <mapping_span lrg_start="5001" lrg_end="5136" other_start="1" other_end="136" strand="1" />
         <mapping_span lrg_start="6249" lrg_end="6441" other_start="137" other_end="329" strand="1" />
@@ -363,6 +366,7 @@
             <synonym>C3a</synonym>
             <synonym>C3b</synonym>
             <synonym>CPAMD1</synonym>
+            <synonym>HEL-S-62p</synonym>
           </symbol>
           <coordinates coord_system="LRG_27" start="5001" end="47817" strand="1" />
           <long_name>complement component 3</long_name>
@@ -509,6 +513,7 @@
               <long_name>C3a anaphylatoxin</long_name>
               <long_name>complement component C3a</long_name>
               <long_name>complement component C3b</long_name>
+              <long_name>epididymis secretory sperm binding protein Li 62p</long_name>
               <long_name>C3 and PZP-like alpha-2-macroglobulin domain-containing protein 1</long_name>
               <db_xref source="CCDS" accession="CCDS32883.1" />
               <db_xref source="GeneID" accession="718" />
@@ -528,8 +533,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000245907.6" other_name="ENST00000245907.6" other_id="ENST00000245907.6" other_start="1" other_end="5263">
         <mapping_span lrg_start="4970" lrg_end="5136" other_start="1" other_end="167" strand="1" />
         <mapping_span lrg_start="6249" lrg_end="6441" other_start="168" other_end="360" strand="1" />
@@ -679,6 +684,13 @@
           <coordinates coord_system="LRG_27" start="1" end="47948" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>complement component 3 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="120700" />
+          <db_xref source="HGNC" accession="1318">
+            <synonym>ARMD9</synonym>
+            <synonym>C3a</synonym>
+            <synonym>C3b</synonym>
+            <synonym>CPAMD1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="718">
             <synonym>AHUS5</synonym>
             <synonym>ARMD9</synonym>
@@ -686,14 +698,8 @@
             <synonym>C3a</synonym>
             <synonym>C3b</synonym>
             <synonym>CPAMD1</synonym>
+            <synonym>HEL-S-62p</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1318">
-            <synonym>ARMD9</synonym>
-            <synonym>C3a</synonym>
-            <synonym>C3b</synonym>
-            <synonym>CPAMD1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="120700" />
           <db_xref source="Ensembl" accession="ENSG00000125730" />
           <transcript source="Ensembl" accession="ENST00000600744">
             <coordinates coord_system="LRG_27" start="1" end="7405" strand="1" mapped_from="GRCh37" />
@@ -843,10 +849,10 @@
             <protein_product source="Ensembl" accession="ENSP00000245907">
               <coordinates coord_system="LRG_27" start="5063" end="47770" strand="1" mapped_from="GRCh37" />
               <long_name>complement C3 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000055.2" />
               <db_xref source="UniProtKB" accession="P01024">
                 <synonym>A7E236</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000055.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000594936">
@@ -1119,7 +1125,7 @@
         <name>List of locus specific databases for C3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/C3</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

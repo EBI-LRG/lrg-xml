@@ -128,9 +128,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="98325031" other_end="98358323">
         <mapping_span lrg_start="1" lrg_end="33293" other_start="98325031" other_end="98358323" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="97708568" other_end="97741860">
+        <mapping_span lrg_start="1" lrg_end="33293" other_start="97708568" other_end="97741860" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">ZAP70</lrg_locus>
     </annotation_set>
@@ -145,7 +148,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007727.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001079.3" other_name="NM_001079.3" other_id="NM_001079.3" other_start="1" other_end="2429">
         <mapping_span lrg_start="5001" lrg_end="5107" other_start="1" other_end="107" strand="1" />
         <mapping_span lrg_start="5349" lrg_end="5427" other_start="108" other_end="186" strand="1" />
@@ -291,8 +294,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000264972.5" other_name="ENST00000264972.5" other_id="ENST00000264972.5" other_start="1" other_end="2437">
         <mapping_span lrg_start="4993" lrg_end="5107" other_start="1" other_end="115" strand="1" />
         <mapping_span lrg_start="5349" lrg_end="5427" other_start="116" other_end="194" strand="1" />
@@ -383,6 +386,12 @@
           <symbol source="HGNC" name="ZAP70" />
           <coordinates coord_system="LRG_126" start="4993" end="31295" strand="1" mapped_from="GRCh37" />
           <long_name>zeta-chain (TCR) associated protein kinase 70kDa (protein_coding)</long_name>
+          <db_xref source="MIM" accession="176947" />
+          <db_xref source="HGNC" accession="12858">
+            <synonym>SRK</synonym>
+            <synonym>STD</synonym>
+            <synonym>ZAP-70</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="7535">
             <synonym>SRK</synonym>
             <synonym>STCD</synonym>
@@ -390,12 +399,6 @@
             <synonym>TZK</synonym>
             <synonym>ZAP-70</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="12858">
-            <synonym>SRK</synonym>
-            <synonym>STD</synonym>
-            <synonym>ZAP-70</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="176947" />
           <db_xref source="Ensembl" accession="ENSG00000115085" />
           <transcript source="Ensembl" accession="ENST00000264972">
             <coordinates coord_system="LRG_126" start="4993" end="31293" strand="1" mapped_from="GRCh37" />
@@ -447,13 +450,13 @@
             <protein_product source="Ensembl" accession="ENSP00000264972">
               <coordinates coord_system="LRG_126" start="15470" end="30931" strand="1" mapped_from="GRCh37" />
               <long_name>tyrosine-protein kinase ZAP-70 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001070.2" />
               <db_xref source="UniProtKB" accession="P43403">
                 <synonym>A6NFP4</synonym>
                 <synonym>Q6PIA4</synonym>
                 <synonym>Q8IXD6</synonym>
                 <synonym>Q9UBS6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001070.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000483781">
@@ -637,13 +640,13 @@
             <protein_product source="Ensembl" accession="ENSP00000400475">
               <coordinates coord_system="LRG_126" start="25985" end="30931" strand="1" mapped_from="GRCh37" />
               <long_name>tyrosine-protein kinase ZAP-70 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_997402.1" />
               <db_xref source="UniProtKB" accession="P43403">
                 <synonym>A6NFP4</synonym>
                 <synonym>Q6PIA4</synonym>
                 <synonym>Q8IXD6</synonym>
                 <synonym>Q9UBS6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_997402.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000495754">
@@ -677,7 +680,7 @@
         <name>List of locus specific databases for ZAP70</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ZAP70</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

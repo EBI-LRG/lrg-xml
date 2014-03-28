@@ -177,9 +177,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="47625263" other_end="47791450">
         <mapping_span lrg_start="1" lrg_end="166188" other_start="47625263" other_end="47791450" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="47398124" other_end="47564311">
+        <mapping_span lrg_start="1" lrg_end="166188" other_start="47398124" other_end="47564311" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">MSH2</lrg_locus>
     </annotation_set>
@@ -194,7 +197,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007110.2</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000251.2" other_name="NM_000251.2" other_id="NM_000251.2" other_start="1" other_end="3209">
         <mapping_span lrg_start="4944" lrg_end="5279" other_start="1" other_end="336" strand="1" />
         <mapping_span lrg_start="10278" lrg_end="10432" other_start="337" other_end="491" strand="1" />
@@ -424,8 +427,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000233146.2" other_name="ENST00000233146.2" other_id="ENST00000233146.2" other_start="1" other_end="3307">
         <mapping_span lrg_start="4846" lrg_end="5279" other_start="1" other_end="434" strand="1" />
         <mapping_span lrg_start="10278" lrg_end="10432" other_start="435" other_end="589" strand="1" />
@@ -500,7 +503,13 @@
         <gene source="Ensembl" accession="ENSG00000095002">
           <symbol source="HGNC" name="MSH2" />
           <coordinates coord_system="LRG_218" start="4846" end="164188" strand="1" mapped_from="GRCh37" />
-          <long_name>mutS homolog 2, colon cancer, nonpolyposis type 1 (E. coli) (protein_coding)</long_name>
+          <long_name>mutS homolog 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="609309" />
+          <db_xref source="HGNC" accession="7325">
+            <synonym>COCA1</synonym>
+            <synonym>HNPCC</synonym>
+            <synonym>HNPCC1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4436">
             <synonym>COCA1</synonym>
             <synonym>FCC1</synonym>
@@ -508,12 +517,6 @@
             <synonym>HNPCC1</synonym>
             <synonym>LCFS2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7325">
-            <synonym>COCA1</synonym>
-            <synonym>HNPCC</synonym>
-            <synonym>HNPCC1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="609309" />
           <db_xref source="Ensembl" accession="ENSG00000095002" />
           <transcript source="Ensembl" accession="ENST00000233146">
             <coordinates coord_system="LRG_218" start="4846" end="85105" strand="1" mapped_from="GRCh37" />
@@ -571,11 +574,11 @@
             <protein_product source="Ensembl" accession="ENSP00000233146">
               <coordinates coord_system="LRG_218" start="5069" end="84826" strand="1" mapped_from="GRCh37" />
               <long_name>DNA mismatch repair protein Msh2 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_000242.1" />
               <db_xref source="UniProtKB" accession="P43246">
                 <synonym>B4E2Z2</synonym>
                 <synonym>O75488</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000242.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000454849">
@@ -656,11 +659,11 @@
             <protein_product source="Ensembl" accession="ENSP00000442697">
               <coordinates coord_system="LRG_218" start="5267" end="84826" strand="1" mapped_from="GRCh37" />
               <long_name>DNA mismatch repair protein Msh2 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001245210.1" />
               <db_xref source="UniProtKB" accession="P43246">
                 <synonym>B4E2Z2</synonym>
                 <synonym>O75488</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001245210.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000406134">
@@ -760,36 +763,36 @@
         </gene>
         <gene source="Ensembl" accession="ENSG00000184261">
           <symbol source="HGNC" name="KCNK12" />
-          <coordinates coord_system="LRG_218" start="122648" end="166188" strand="-1" mapped_from="GRCh37" />
+          <coordinates coord_system="LRG_218" start="118458" end="166188" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>potassium channel, subfamily K, member 12 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="56660">
-            <synonym>K2p12.1</synonym>
-            <synonym>THIK-2</synonym>
-            <synonym>THIK2</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="607366" />
           <db_xref source="HGNC" accession="6274">
             <synonym>K2p12.1</synonym>
             <synonym>THIK-2</synonym>
             <synonym>THIK2</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="607366" />
+          <db_xref source="GeneID" accession="56660">
+            <synonym>K2p12.1</synonym>
+            <synonym>THIK-2</synonym>
+            <synonym>THIK2</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000184261" />
           <transcript source="Ensembl" accession="ENST00000327876">
-            <coordinates coord_system="LRG_218" start="122648" end="166188" strand="-1" mapped_from="GRCh37" />
+            <coordinates coord_system="LRG_218" start="118458" end="166188" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>KCNK12-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS1835.1" />
             <db_xref source="RefSeq" accession="NM_022055.1" />
             <exon source="Ensembl" accession="ENSE00001303467">
-              <coordinates coord_system="LRG_218" start="122648" end="123685" strand="-1" mapped_from="GRCh37" />
+              <coordinates coord_system="LRG_218" start="118458" end="123685" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000327611">
               <coordinates coord_system="LRG_218" start="122784" end="166188" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>potassium channel subfamily K member 12</long_name>
-              <db_xref source="RefSeq" accession="NP_071338.1" />
               <db_xref source="UniProtKB" accession="Q9HB15" />
+              <db_xref source="RefSeq" accession="NP_071338.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000493527">
@@ -805,7 +808,6 @@
           <symbol source="Clone_based_vega_gene" name="AC138655.4" />
           <coordinates coord_system="LRG_218" start="129414" end="137076" strand="1" mapped_from="GRCh37" />
           <long_name>AC138655.4 (antisense)</long_name>
-          <db_xref source="GeneID" accession="644093" />
           <db_xref source="Ensembl" accession="ENSG00000235760" />
           <transcript source="Ensembl" accession="ENST00000435331">
             <coordinates coord_system="LRG_218" start="129414" end="131041" strand="1" mapped_from="GRCh37" />
@@ -838,7 +840,7 @@
         <name>List of locus specific databases for MSH2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MSH2</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -98,9 +98,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_start="66450690" other_end="66465588">
         <mapping_span lrg_start="1" lrg_end="14899" other_start="66450690" other_end="66465588" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="7" other_id="NC_000007.14" other_start="66985703" other_end="67000601">
+        <mapping_span lrg_start="1" lrg_end="14899" other_start="66985703" other_end="67000601" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">SBDS</lrg_locus>
     </annotation_set>
@@ -115,7 +118,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007277.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_016038.2" other_name="NM_016038.2" other_id="NM_016038.2" other_start="1" other_end="1605">
         <mapping_span lrg_start="5001" lrg_end="5312" other_start="1" other_end="312" strand="1" />
         <mapping_span lrg_start="6261" lrg_end="6390" other_start="313" other_end="442" strand="1" />
@@ -219,8 +222,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000246868.2" other_name="ENST00000246868.2" other_id="ENST00000246868.2" other_start="1" other_end="1631">
         <mapping_span lrg_start="5001" lrg_end="5312" other_start="1" other_end="312" strand="1" />
         <mapping_span lrg_start="6261" lrg_end="6390" other_start="313" other_end="442" strand="1" />
@@ -252,11 +255,7 @@
           <coordinates coord_system="LRG_104" start="1" end="5429" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>tRNA-yW synthesizing protein 1 homolog (S. cerevisiae) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="55253">
-            <synonym>RSAFD1</synonym>
-            <synonym>TYW1A</synonym>
-            <synonym>YPL207W</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="611243" />
           <db_xref source="HGNC" accession="25598">
             <synonym>FLJ10900</synonym>
             <synonym>MGC23001</synonym>
@@ -265,14 +264,18 @@
             <synonym>TYW1A</synonym>
             <synonym>YPL207W</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="611243" />
+          <db_xref source="GeneID" accession="55253">
+            <synonym>RSAFD1</synonym>
+            <synonym>TYW1A</synonym>
+            <synonym>YPL207W</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000198874" />
           <transcript source="Ensembl" accession="ENST00000359626">
             <coordinates coord_system="LRG_104" start="1" end="3787" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>TYW1-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS5538.1" />
-            <db_xref source="RefSeq" accession="NM_018264.2" />
+            <db_xref source="RefSeq" accession="NM_018264.3" />
             <exon source="Ensembl" accession="ENSE00001947681">
               <coordinates coord_system="LRG_104" start="3620" end="3787" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -286,7 +289,6 @@
               <coordinates coord_system="LRG_104" start="1" end="3623" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>tRNA wybutosine-synthesizing protein 1 homolog</long_name>
-              <db_xref source="RefSeq" accession="NP_060734.2" />
               <db_xref source="UniProtKB" accession="Q9NV66">
                 <synonym>Q6PJG8</synonym>
                 <synonym>Q75MG8</synonym>
@@ -295,6 +297,7 @@
                 <synonym>Q8IVS7</synonym>
                 <synonym>Q9H9C4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_060734.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000442959">
@@ -373,17 +376,17 @@
           <symbol source="HGNC" name="SBDS" />
           <coordinates coord_system="LRG_104" start="5001" end="12925" strand="1" mapped_from="GRCh37" />
           <long_name>Shwachman-Bodian-Diamond syndrome (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="51119">
-            <synonym>SDS</synonym>
-            <synonym>SWDS</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="607444" />
           <db_xref source="HGNC" accession="19440">
             <synonym>CGI-97</synonym>
             <synonym>FLJ10917</synonym>
             <synonym>SDS</synonym>
             <synonym>SWDS</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="607444" />
+          <db_xref source="GeneID" accession="51119">
+            <synonym>SDS</synonym>
+            <synonym>SWDS</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000126524" />
           <transcript source="Ensembl" accession="ENST00000246868">
             <coordinates coord_system="LRG_104" start="5001" end="12925" strand="1" mapped_from="GRCh37" />
@@ -408,12 +411,12 @@
             <protein_product source="Ensembl" accession="ENSP00000246868">
               <coordinates coord_system="LRG_104" start="5185" end="12231" strand="1" mapped_from="GRCh37" />
               <long_name>ribosome maturation protein SBDS</long_name>
-              <db_xref source="RefSeq" accession="NP_057122.2" />
               <db_xref source="UniProtKB" accession="Q9Y3A5">
                 <synonym>A8K0P4</synonym>
                 <synonym>Q96FX0</synonym>
                 <synonym>Q9NV53</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_057122.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000414306">
@@ -475,7 +478,7 @@
         <name>List of locus specific databases for SBDS</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SBDS</url>
       </source>
-      <modification_date>2013-12-06</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

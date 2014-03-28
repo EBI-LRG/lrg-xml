@@ -88,9 +88,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_start="136548399" other_end="136707002">
         <mapping_span lrg_start="1" lrg_end="158604" other_start="136548399" other_end="136707002" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="7" other_id="NC_000007.14" other_start="136863652" other_end="137022255">
+        <mapping_span lrg_start="1" lrg_end="158604" other_start="136863652" other_end="137022255" strand="1">
+          <diff type="mismatch" lrg_start="155309" lrg_end="155309" other_start="137018960" other_end="137018960" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">CHRM2</lrg_locus>
     </annotation_set>
@@ -105,7 +110,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011846.2</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000739.2" other_name="NM_000739.2" other_id="NM_000739.2" other_start="1" other_end="2530">
         <mapping_span lrg_start="5434" lrg_end="5522" other_start="1" other_end="89" strand="1" />
         <mapping_span lrg_start="5610" lrg_end="5767" other_start="90" other_end="247" strand="1" />
@@ -360,7 +365,7 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="349160">
-          <symbol name="LOC349160" />
+          <symbol name="AC009264.1" />
           <coordinates coord_system="LRG_405" start="35122" end="158604" strand="-1" />
           <partial>5-prime</partial>
           <long_name>uncharacterized LOC349160</long_name>
@@ -413,8 +418,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000320658.5" other_name="ENST00000320658.5" other_id="ENST00000320658.5" other_start="1" other_end="1694">
         <mapping_span lrg_start="5434" lrg_end="5522" other_start="1" other_end="89" strand="1" />
         <mapping_span lrg_start="5610" lrg_end="5767" other_start="90" other_end="247" strand="1" />
@@ -442,7 +447,9 @@
       <mapping coord_system="ENST00000445907.2" other_name="ENST00000445907.2" other_id="ENST00000445907.2" other_start="1" other_end="5918">
         <mapping_span lrg_start="5018" lrg_end="5341" other_start="1" other_end="324" strand="1" />
         <mapping_span lrg_start="5610" lrg_end="5767" other_start="325" other_end="482" strand="1" />
-        <mapping_span lrg_start="151169" lrg_end="156604" other_start="483" other_end="5918" strand="1" />
+        <mapping_span lrg_start="151169" lrg_end="156604" other_start="483" other_end="5918" strand="1">
+          <diff type="mismatch" lrg_start="155309" lrg_end="155309" other_start="137018960" other_end="137018960" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <mapping coord_system="ENST00000453373.1" other_name="ENST00000453373.1" other_id="ENST00000453373.1" other_start="1" other_end="2014">
         <mapping_span lrg_start="5434" lrg_end="5466" other_start="1" other_end="33" strand="1" />
@@ -466,53 +473,59 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000234352">
-          <symbol source="Clone_based_vega_gene" name="AC009264.1" />
+          <symbol source="miRBase" name="hsa-mir-490" />
           <coordinates coord_system="LRG_405" start="1" end="158604" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <partial>5-prime</partial>
-          <long_name>AC009264.1 (antisense)</long_name>
+          <long_name>hsa-mir-490 [Source:miRBase;Acc:MI0003125] (antisense)</long_name>
+          <db_xref source="miRBase" accession="MI0003125" />
+          <db_xref source="GeneID" accession="574443">
+            <synonym>hsa-mir-490</synonym>
+            <synonym>miR-490</synonym>
+            <synonym>MIRN490</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="349160" />
           <db_xref source="Ensembl" accession="ENSG00000234352" />
           <transcript source="Ensembl" accession="ENST00000586239">
             <coordinates coord_system="LRG_405" start="1" end="158604" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <partial>5-prime</partial>
-            <long_name>AC009264.1-003 (antisense)</long_name>
+            <long_name>hsa-mir-490.1-003 (antisense)</long_name>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000597642">
             <coordinates coord_system="LRG_405" start="1" end="158604" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <partial>5-prime</partial>
-            <long_name>AC009264.1-005 (antisense)</long_name>
+            <long_name>hsa-mir-490.1-005 (antisense)</long_name>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000593789">
             <coordinates coord_system="LRG_405" start="1" end="158604" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <partial>5-prime</partial>
-            <long_name>AC009264.1-006 (antisense)</long_name>
+            <long_name>hsa-mir-490.1-006 (antisense)</long_name>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000598184">
             <coordinates coord_system="LRG_405" start="1" end="158604" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <partial>5-prime</partial>
-            <long_name>AC009264.1-007 (antisense)</long_name>
+            <long_name>hsa-mir-490.1-007 (antisense)</long_name>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000439694">
             <coordinates coord_system="LRG_405" start="1" end="158604" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <partial>5-prime</partial>
-            <long_name>AC009264.1-001 (antisense)</long_name>
+            <long_name>hsa-mir-490.1-001 (antisense)</long_name>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000592183">
             <coordinates coord_system="LRG_405" start="1" end="158604" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <partial>5-prime</partial>
-            <long_name>AC009264.1-004 (antisense)</long_name>
+            <long_name>hsa-mir-490.1-004 (antisense)</long_name>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000425981">
             <coordinates coord_system="LRG_405" start="35122" end="158604" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>AC009264.1-002 (antisense)</long_name>
+            <long_name>hsa-mir-490.1-002 (antisense)</long_name>
             <db_xref source="RefSeq" accession="NR_046103.1" />
             <exon source="Ensembl" accession="ENSE00001647381">
               <coordinates coord_system="LRG_405" start="38199" end="38350" strand="-1" mapped_from="GRCh37" />
@@ -521,16 +534,33 @@
               <coordinates coord_system="LRG_405" start="35122" end="36166" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000608269">
+            <coordinates coord_system="LRG_405" start="38255" end="50651" strand="-1" mapped_from="GRCh37" />
+            <long_name>hsa-mir-490.1-009 (antisense)</long_name>
+            <db_xref source="RefSeq" accession="NR_030165.1" />
+            <exon source="Ensembl" accession="ENSE00003710827">
+              <coordinates coord_system="LRG_405" start="50479" end="50651" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003704417">
+              <coordinates coord_system="LRG_405" start="44197" end="44322" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003704772">
+              <coordinates coord_system="LRG_405" start="43257" end="43314" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003706479">
+              <coordinates coord_system="LRG_405" start="38255" end="39725" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000181072">
           <symbol source="HGNC" name="CHRM2" />
           <coordinates coord_system="LRG_405" start="5018" end="156604" strand="1" mapped_from="GRCh37" />
           <long_name>cholinergic receptor, muscarinic 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="118493" />
+          <db_xref source="HGNC" accession="1951" />
           <db_xref source="GeneID" accession="1129">
             <synonym>HM2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1951" />
-          <db_xref source="MIM" accession="118493" />
           <db_xref source="Ensembl" accession="ENSG00000181072" />
           <transcript source="Ensembl" accession="ENST00000445907">
             <coordinates coord_system="LRG_405" start="5018" end="156604" strand="1" mapped_from="GRCh37" />
@@ -550,12 +580,12 @@
             <protein_product source="Ensembl" accession="ENSP00000399745">
               <coordinates coord_system="LRG_405" start="151215" end="152615" strand="1" mapped_from="GRCh37" />
               <long_name>muscarinic acetylcholine receptor M2, muscarinic acetylcholine receptor M2</long_name>
-              <db_xref source="RefSeq" accession="NP_001006628.1" />
-              <db_xref source="RefSeq" accession="NP_001006630.1" />
               <db_xref source="UniProtKB" accession="P08172">
                 <synonym>Q4VBK6</synonym>
                 <synonym>Q9P1X9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001006628.1" />
+              <db_xref source="RefSeq" accession="NP_001006630.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000471195">
@@ -614,11 +644,11 @@
             <protein_product source="Ensembl" accession="ENSP00000319984">
               <coordinates coord_system="LRG_405" start="151215" end="152615" strand="1" mapped_from="GRCh37" />
               <long_name>muscarinic acetylcholine receptor M2</long_name>
-              <db_xref source="RefSeq" accession="NP_001006633.1" />
               <db_xref source="UniProtKB" accession="P08172">
                 <synonym>Q4VBK6</synonym>
                 <synonym>Q9P1X9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001006633.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000453373">
@@ -664,13 +694,13 @@
             <protein_product source="Ensembl" accession="ENSP00000380733">
               <coordinates coord_system="LRG_405" start="151215" end="152615" strand="1" mapped_from="GRCh37" />
               <long_name>muscarinic acetylcholine receptor M2, muscarinic acetylcholine receptor M2, muscarinic acetylcholine receptor M2</long_name>
-              <db_xref source="RefSeq" accession="NP_001006629.1" />
-              <db_xref source="RefSeq" accession="NP_001006631.1" />
-              <db_xref source="RefSeq" accession="NP_000730.1" />
               <db_xref source="UniProtKB" accession="P08172">
                 <synonym>Q4VBK6</synonym>
                 <synonym>Q9P1X9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000730.1" />
+              <db_xref source="RefSeq" accession="NP_001006629.1" />
+              <db_xref source="RefSeq" accession="NP_001006631.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000402486">
@@ -695,13 +725,13 @@
             <protein_product source="Ensembl" accession="ENSP00000384937">
               <coordinates coord_system="LRG_405" start="151215" end="152615" strand="1" mapped_from="GRCh37" />
               <long_name>muscarinic acetylcholine receptor M2, muscarinic acetylcholine receptor M2, muscarinic acetylcholine receptor M2</long_name>
-              <db_xref source="RefSeq" accession="NP_001006629.1" />
-              <db_xref source="RefSeq" accession="NP_001006631.1" />
-              <db_xref source="RefSeq" accession="NP_001006632.1" />
               <db_xref source="UniProtKB" accession="P08172">
                 <synonym>Q4VBK6</synonym>
                 <synonym>Q9P1X9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001006632.1" />
+              <db_xref source="RefSeq" accession="NP_001006629.1" />
+              <db_xref source="RefSeq" accession="NP_001006631.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000401861">
@@ -727,11 +757,11 @@
             <protein_product source="Ensembl" accession="ENSP00000384401">
               <coordinates coord_system="LRG_405" start="151215" end="152615" strand="1" mapped_from="GRCh37" />
               <long_name>muscarinic acetylcholine receptor M2</long_name>
-              <db_xref source="RefSeq" accession="NP_001006627.1" />
               <db_xref source="UniProtKB" accession="P08172">
                 <synonym>Q4VBK6</synonym>
                 <synonym>Q9P1X9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001006627.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -739,17 +769,17 @@
           <symbol source="HGNC" name="MIR490" />
           <coordinates coord_system="LRG_405" start="39516" end="39643" strand="1" mapped_from="GRCh37" />
           <long_name>microRNA 490 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="574443">
-            <synonym>hsa-mir-490</synonym>
-            <synonym>miR-490</synonym>
-            <synonym>MIRN490</synonym>
-          </db_xref>
+          <db_xref source="miRBase" accession="MI0003125" />
           <db_xref source="HGNC" accession="32075">
             <synonym>hsa-mir-490</synonym>
             <synonym>miR-490</synonym>
             <synonym>MIRN490</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0003125" />
+          <db_xref source="GeneID" accession="574443">
+            <synonym>hsa-mir-490</synonym>
+            <synonym>miR-490</synonym>
+            <synonym>MIRN490</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000207597" />
           <transcript source="Ensembl" accession="ENST00000384865">
             <coordinates coord_system="LRG_405" start="39516" end="39643" strand="1" mapped_from="GRCh37" />
@@ -781,7 +811,7 @@
         <name>List of locus specific databases for CHRM2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CHRM2</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

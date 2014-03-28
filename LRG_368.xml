@@ -150,9 +150,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_start="50316536" other_end="50342237">
         <mapping_span lrg_start="1" lrg_end="25702" other_start="50316536" other_end="50342237" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="19" other_id="NC_000019.10" other_start="49813279" other_end="49838980">
+        <mapping_span lrg_start="1" lrg_end="25702" other_start="49813279" other_end="49838980" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">MED25</lrg_locus>
     </annotation_set>
@@ -167,7 +170,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_017091.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_030973.3" other_name="NM_030973.3" other_id="NM_030973.3" other_start="1" other_end="2343">
         <mapping_span lrg_start="5001" lrg_end="5197" other_start="1" other_end="197" strand="1" />
         <mapping_span lrg_start="5293" lrg_end="5338" other_start="198" other_end="243" strand="1" />
@@ -290,8 +293,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000312865.6" other_name="ENST00000312865.6" other_id="ENST00000312865.6" other_start="1" other_end="2332">
         <mapping_span lrg_start="5011" lrg_end="5197" other_start="1" other_end="187" strand="1" />
         <mapping_span lrg_start="5293" lrg_end="5338" other_start="188" other_end="233" strand="1" />
@@ -370,15 +373,15 @@
           <coordinates coord_system="LRG_368" start="1" end="4098" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>fuzzy planar cell polarity protein (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="80199">
-            <synonym>FY</synonym>
-            <synonym>NTD</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="610622" />
           <db_xref source="HGNC" accession="26219">
             <synonym>FLJ22688</synonym>
             <synonym>Fy</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="610622" />
+          <db_xref source="GeneID" accession="80199">
+            <synonym>FY</synonym>
+            <synonym>NTD</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000010361" />
           <transcript source="Ensembl" accession="ENST00000531017">
             <coordinates coord_system="LRG_368" start="1" end="31" strand="-1" mapped_from="GRCh37" />
@@ -441,6 +444,17 @@
           <symbol source="HGNC" name="MED25" />
           <coordinates coord_system="LRG_368" start="5004" end="25538" strand="1" mapped_from="GRCh37" />
           <long_name>mediator complex subunit 25 (protein_coding)</long_name>
+          <db_xref source="miRBase" accession="MI0022645" />
+          <db_xref source="MIM" accession="610197" />
+          <db_xref source="HGNC" accession="28845">
+            <synonym>ACID1</synonym>
+            <synonym>ARC92</synonym>
+            <synonym>DKFZp434K0512</synonym>
+            <synonym>TCBAP0758</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="102465480">
+            <synonym>hsa-mir-6800</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="81857">
             <synonym>ACID1</synonym>
             <synonym>ARC92</synonym>
@@ -448,14 +462,6 @@
             <synonym>P78</synonym>
             <synonym>PTOV2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="28845">
-            <synonym>ACID1</synonym>
-            <synonym>ARC92</synonym>
-            <synonym>DKFZp434K0512</synonym>
-            <synonym>TCBAP0758</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="610197" />
-          <db_xref source="miRBase" accession="MI0022645" />
           <db_xref source="Ensembl" accession="ENSG00000104973" />
           <transcript source="Ensembl" accession="ENST00000593595">
             <coordinates coord_system="LRG_368" start="5004" end="5604" strand="1" mapped_from="GRCh37" />
@@ -542,9 +548,9 @@
             <protein_product source="Ensembl" accession="ENSP00000326767">
               <coordinates coord_system="LRG_368" start="5064" end="23666" strand="1" mapped_from="GRCh37" />
               <long_name>mediator of RNA polymerase II transcription subunit 25</long_name>
-              <db_xref source="RefSeq" accession="NP_112235.2" />
               <db_xref source="UniProtKB" accession="Q71SY5">
                 <synonym>A8K095</synonym>
+                <synonym>B9TX30</synonym>
                 <synonym>O95783</synonym>
                 <synonym>Q6P143</synonym>
                 <synonym>Q6QMH5</synonym>
@@ -553,6 +559,7 @@
                 <synonym>Q9H0L5</synonym>
                 <synonym>Q9HB34</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_112235.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000595185">
@@ -627,11 +634,23 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000437496">
               <coordinates coord_system="LRG_368" start="5064" end="23666" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q71SY5">
+                <synonym>A8K095</synonym>
+                <synonym>B9TX30</synonym>
+                <synonym>O95783</synonym>
+                <synonym>Q6P143</synonym>
+                <synonym>Q6QMH5</synonym>
+                <synonym>Q707U4</synonym>
+                <synonym>Q8TB55</synonym>
+                <synonym>Q9H0L5</synonym>
+                <synonym>Q9HB34</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000599722">
             <coordinates coord_system="LRG_368" start="17565" end="19137" strand="1" mapped_from="GRCh37" />
             <long_name>MED25-021 (retained_intron)</long_name>
+            <db_xref source="RefSeq" accession="NR_106858.1" />
             <exon source="Ensembl" accession="ENSE00002977289">
               <coordinates coord_system="LRG_368" start="17565" end="17609" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -689,8 +708,8 @@
           <coordinates coord_system="LRG_368" start="25361" end="25702" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>PTOV1 antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100506033" />
           <db_xref source="HGNC" accession="44174" />
+          <db_xref source="GeneID" accession="100506033" />
           <db_xref source="Ensembl" accession="ENSG00000268006" />
           <transcript source="Ensembl" accession="ENST00000596521">
             <coordinates coord_system="LRG_368" start="25361" end="25702" strand="-1" mapped_from="GRCh37" />
@@ -710,7 +729,7 @@
         <name>List of locus specific databases for MED25</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MED25</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

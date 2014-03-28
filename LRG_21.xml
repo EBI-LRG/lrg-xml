@@ -150,9 +150,18 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-18</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="10q24.1" other_id="NW_003871070.1" other_start="1" other_end="97915">
+        <mapping_span lrg_start="1958" lrg_end="99872" other_start="1" other_end="97915" strand="1" />
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_start="97941455" other_end="98041326">
         <mapping_span lrg_start="1" lrg_end="99872" other_start="97941455" other_end="98041326" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="10" other_id="NC_000010.11" other_start="96181699" other_end="96281569">
+        <mapping_span lrg_start="1" lrg_end="99872" other_start="96181699" other_end="96281569" strand="-1">
+          <diff type="lrg_ins" lrg_start="30792" lrg_end="30792" other_start="96250778" other_end="96250779" lrg_sequence="C" other_sequence="-" />
+          <diff type="mismatch" lrg_start="37527" lrg_end="37527" other_start="96244044" other_end="96244044" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">BLNK</lrg_locus>
     </annotation_set>
@@ -167,7 +176,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007575.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001114094.1" other_name="NM_001114094.1" other_id="NM_001114094.1" other_start="1" other_end="1754">
         <mapping_span lrg_start="9994" lrg_end="10218" other_start="1" other_end="225" strand="1" />
         <mapping_span lrg_start="34522" lrg_end="34587" other_start="226" other_end="291" strand="1" />
@@ -552,8 +561,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000224337.5" other_name="ENST00000224337.5" other_id="ENST00000224337.5" other_start="1" other_end="1784">
         <mapping_span lrg_start="10030" lrg_end="10218" other_start="1" other_end="189" strand="1" />
         <mapping_span lrg_start="34522" lrg_end="34587" other_start="190" other_end="255" strand="1" />
@@ -669,6 +678,15 @@
           <symbol source="HGNC" name="BLNK" />
           <coordinates coord_system="LRG_21" start="9983" end="89869" strand="1" mapped_from="GRCh37" />
           <long_name>B-cell linker (protein_coding)</long_name>
+          <db_xref source="MIM" accession="604515" />
+          <db_xref source="HGNC" accession="14211">
+            <synonym>BASH</synonym>
+            <synonym>bca</synonym>
+            <synonym>BLNK-s</synonym>
+            <synonym>Ly57</synonym>
+            <synonym>SLP-65</synonym>
+            <synonym>SLP65</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="29760">
             <synonym>AGM4</synonym>
             <synonym>BASH</synonym>
@@ -678,15 +696,6 @@
             <synonym>SLP-65</synonym>
             <synonym>SLP65</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="14211">
-            <synonym>BASH</synonym>
-            <synonym>bca</synonym>
-            <synonym>BLNK-s</synonym>
-            <synonym>Ly57</synonym>
-            <synonym>SLP-65</synonym>
-            <synonym>SLP65</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="604515" />
           <db_xref source="Ensembl" accession="ENSG00000095585" />
           <transcript source="Ensembl" accession="ENST00000467799">
             <coordinates coord_system="LRG_21" start="9983" end="77039" strand="1" mapped_from="GRCh37" />
@@ -842,12 +851,12 @@
             <protein_product source="Ensembl" accession="ENSP00000397487">
               <coordinates coord_system="LRG_21" start="10172" end="89598" strand="1" mapped_from="GRCh37" />
               <long_name>B-cell linker protein isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001245369.1" />
               <db_xref source="UniProtKB" accession="Q8WV28">
                 <synonym>O75498</synonym>
                 <synonym>O75499</synonym>
                 <synonym>Q2MD49</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001245369.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000224337">
@@ -909,12 +918,12 @@
             <protein_product source="Ensembl" accession="ENSP00000224337">
               <coordinates coord_system="LRG_21" start="10172" end="89598" strand="1" mapped_from="GRCh37" />
               <long_name>B-cell linker protein isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_037446.1" />
               <db_xref source="UniProtKB" accession="Q8WV28">
                 <synonym>O75498</synonym>
                 <synonym>O75499</synonym>
                 <synonym>Q2MD49</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_037446.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000371176">
@@ -973,14 +982,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000360218">
               <coordinates coord_system="LRG_21" start="10172" end="89598" strand="1" mapped_from="GRCh37" />
-              <long_name>B-cell linker protein isoform 2, B-cell linker protein isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_001107566.1" />
-              <db_xref source="RefSeq" accession="NP_001245370.1" />
+              <long_name>B-cell linker protein isoform 4, B-cell linker protein isoform 2</long_name>
               <db_xref source="UniProtKB" accession="Q8WV28">
                 <synonym>O75498</synonym>
                 <synonym>O75499</synonym>
                 <synonym>Q2MD49</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001245370.1" />
+              <db_xref source="RefSeq" accession="NP_001107566.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000495266">
@@ -1053,11 +1062,11 @@
           <coordinates coord_system="LRG_21" start="76283" end="99872" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>zinc finger protein 518A (processed_transcript)</long_name>
-          <db_xref source="GeneID" accession="9849">
-            <synonym>ZNF518</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="29009">
             <synonym>KIAA0335</synonym>
+            <synonym>ZNF518</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="9849">
             <synonym>ZNF518</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000177853" />
@@ -1102,7 +1111,7 @@
         <name>List of locus specific databases for BLNK</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/BLNK</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -99,9 +99,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-24</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="138607895" other_end="138647617">
         <mapping_span lrg_start="1" lrg_end="39723" other_start="138607895" other_end="138647617" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="X" other_id="NC_000023.11" other_start="139525736" other_end="139565458">
+        <mapping_span lrg_start="1" lrg_end="39723" other_start="139525736" other_end="139565458" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">F9</lrg_locus>
     </annotation_set>
@@ -116,7 +119,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007994.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000133.3" other_name="NM_000133.3" other_id="NM_000133.3" other_start="1" other_end="2802">
         <mapping_span lrg_start="5001" lrg_end="5117" other_start="1" other_end="117" strand="1" />
         <mapping_span lrg_start="11275" lrg_end="11438" other_start="118" other_end="281" strand="1" />
@@ -200,8 +203,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-24</modification_date>
       <mapping coord_system="ENST00000218099.2" other_name="ENST00000218099.2" other_id="ENST00000218099.2" other_start="1" other_end="2780">
         <mapping_span lrg_start="5023" lrg_end="5117" other_start="1" other_end="95" strand="1" />
         <mapping_span lrg_start="11275" lrg_end="11438" other_start="96" other_end="259" strand="1" />
@@ -221,10 +224,10 @@
         <mapping_span lrg_start="35006" lrg_end="35120" other_start="610" other_end="724" strand="1" />
         <mapping_span lrg_start="35789" lrg_end="36336" other_start="725" other_end="1272" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000479617.1" other_name="ENST00000479617.1" other_id="ENST00000479617.1" other_start="1" other_end="374">
+      <mapping coord_system="ENST00000479617.2" other_name="ENST00000479617.2" other_id="ENST00000479617.2" other_start="1" other_end="374">
         <mapping_span lrg_start="5023" lrg_end="5117" other_start="1" other_end="95" strand="1" />
-        <mapping_span lrg_start="11275" lrg_end="11421" other_start="96" other_end="242" strand="1" />
-        <mapping_span lrg_start="15353" lrg_end="15454" other_start="243" other_end="344" strand="1" />
+        <mapping_span lrg_start="11275" lrg_end="11420" other_start="96" other_end="241" strand="1" />
+        <mapping_span lrg_start="15352" lrg_end="15454" other_start="242" other_end="344" strand="1" />
         <mapping_span lrg_start="22628" lrg_end="22657" other_start="345" other_end="374" strand="1" />
       </mapping>
       <features>
@@ -232,6 +235,10 @@
           <symbol source="HGNC" name="F9" />
           <coordinates coord_system="LRG_556" start="5023" end="37723" strand="1" mapped_from="GRCh37" />
           <long_name>coagulation factor IX (protein_coding)</long_name>
+          <db_xref source="MIM" accession="300746" />
+          <db_xref source="HGNC" accession="3551">
+            <synonym>FIX</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2158">
             <synonym>FIX</synonym>
             <synonym>HEMB</synonym>
@@ -239,10 +246,6 @@
             <synonym>PTC</synonym>
             <synonym>THPH8</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3551">
-            <synonym>FIX</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="300746" />
           <db_xref source="Ensembl" accession="ENSG00000101981" />
           <transcript source="Ensembl" accession="ENST00000479617">
             <coordinates coord_system="LRG_556" start="5023" end="22657" strand="1" mapped_from="GRCh37" />
@@ -251,10 +254,10 @@
               <coordinates coord_system="LRG_556" start="5023" end="5117" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001904128">
-              <coordinates coord_system="LRG_556" start="11275" end="11421" strand="1" mapped_from="GRCh37" />
+              <coordinates coord_system="LRG_556" start="11275" end="11420" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001930480">
-              <coordinates coord_system="LRG_556" start="15353" end="15454" strand="1" mapped_from="GRCh37" />
+              <coordinates coord_system="LRG_556" start="15352" end="15454" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001820383">
               <coordinates coord_system="LRG_556" start="22628" end="22657" strand="1" mapped_from="GRCh37" />
@@ -292,12 +295,13 @@
             <protein_product source="Ensembl" accession="ENSP00000218099">
               <coordinates coord_system="LRG_556" start="5030" end="36336" strand="1" mapped_from="GRCh37" />
               <long_name>coagulation factor IX preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_000124.1" />
               <db_xref source="UniProtKB" accession="P00740">
                 <synonym>A8K9N4</synonym>
                 <synonym>F2RM36</synonym>
+                <synonym>Q5FBE1</synonym>
                 <synonym>Q5JYJ8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000124.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000394090">
@@ -326,6 +330,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000377650">
               <coordinates coord_system="LRG_556" start="5030" end="36336" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="P00740">
+                <synonym>A8K9N4</synonym>
+                <synonym>F2RM36</synonym>
+                <synonym>Q5FBE1</synonym>
+                <synonym>Q5JYJ8</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
         </gene>
@@ -336,7 +346,7 @@
         <name>List of locus specific databases for F9</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/F9</url>
       </source>
-      <modification_date>2013-12-02</modification_date>
+      <modification_date>2014-03-24</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

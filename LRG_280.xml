@@ -66,9 +66,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="65480367" other_end="65493409">
         <mapping_span lrg_start="1" lrg_end="13043" other_start="65480367" other_end="65493409" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="11" other_id="NC_000011.10" other_start="65712896" other_end="65725938">
+        <mapping_span lrg_start="1" lrg_end="13043" other_start="65712896" other_end="65725938" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">RNASEH2C</lrg_locus>
     </annotation_set>
@@ -83,7 +86,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008976.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_032193.3" other_name="NM_032193.3" other_id="NM_032193.3" other_start="1" other_end="2785">
         <mapping_span lrg_start="5001" lrg_end="5352" other_start="1" other_end="352" strand="1" />
         <mapping_span lrg_start="5522" lrg_end="5697" other_start="353" other_end="528" strand="1" />
@@ -385,8 +388,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000308418.4" other_name="ENST00000308418.4" other_id="ENST00000308418.4" other_start="1" other_end="2794">
         <mapping_span lrg_start="4992" lrg_end="5352" other_start="1" other_end="361" strand="1" />
         <mapping_span lrg_start="5522" lrg_end="5697" other_start="362" other_end="537" strand="1" />
@@ -431,15 +434,15 @@
           <symbol source="HGNC" name="RNASEH2C" />
           <coordinates coord_system="LRG_280" start="4992" end="11043" strand="1" mapped_from="GRCh37" />
           <long_name>ribonuclease H2, subunit C (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="84153">
-            <synonym>AGS3</synonym>
-            <synonym>AYP1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="610330" />
           <db_xref source="HGNC" accession="24116">
             <synonym>AGS3</synonym>
             <synonym>AYP1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="610330" />
+          <db_xref source="GeneID" accession="84153">
+            <synonym>AGS3</synonym>
+            <synonym>AYP1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000172922" />
           <transcript source="Ensembl" accession="ENST00000308418">
             <coordinates coord_system="LRG_280" start="4992" end="8266" strand="1" mapped_from="GRCh37" />
@@ -461,10 +464,10 @@
             <protein_product source="Ensembl" accession="ENSP00000308193">
               <coordinates coord_system="LRG_280" start="5181" end="6156" strand="1" mapped_from="GRCh37" />
               <long_name>ribonuclease H2 subunit C</long_name>
-              <db_xref source="RefSeq" accession="NP_115569.2" />
               <db_xref source="UniProtKB" accession="Q8TDP1">
                 <synonym>Q9H7F5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_115569.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000528220">
@@ -575,6 +578,16 @@
           <coordinates coord_system="LRG_280" start="6335" end="13043" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>K(lysine) acetyltransferase 5 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="601409" />
+          <db_xref source="HGNC" accession="5275">
+            <synonym>cPLA2</synonym>
+            <synonym>ESA1</synonym>
+            <synonym>HTATIP</synonym>
+            <synonym>HTATIP1</synonym>
+            <synonym>PLIP</synonym>
+            <synonym>TIP60</synonym>
+            <synonym>ZC2HC5</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="10524">
             <synonym>cPLA2</synonym>
             <synonym>ESA1</synonym>
@@ -585,16 +598,6 @@
             <synonym>TIP60</synonym>
             <synonym>ZC2HC5</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="5275">
-            <synonym>cPLA2</synonym>
-            <synonym>ESA1</synonym>
-            <synonym>HTATIP</synonym>
-            <synonym>HTATIP1</synonym>
-            <synonym>PLIP</synonym>
-            <synonym>TIP60</synonym>
-            <synonym>ZC2HC5</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="601409" />
           <db_xref source="Ensembl" accession="ENSG00000172977" />
           <transcript source="Ensembl" accession="ENST00000377046">
             <coordinates coord_system="LRG_280" start="6335" end="13043" strand="-1" mapped_from="GRCh37" />
@@ -639,7 +642,6 @@
               <coordinates coord_system="LRG_280" start="6758" end="13043" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>histone acetyltransferase KAT5 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_006379.2" />
               <db_xref source="UniProtKB" accession="Q92993">
                 <synonym>B4E3C7</synonym>
                 <synonym>C9JL99</synonym>
@@ -650,6 +652,7 @@
                 <synonym>Q6GSE8</synonym>
                 <synonym>Q9BWK7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006379.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000352980">
@@ -692,9 +695,7 @@
             <protein_product source="Ensembl" accession="ENSP00000344955">
               <coordinates coord_system="LRG_280" start="6758" end="13043" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>histone acetyltransferase KAT5 isoform 3, histone acetyltransferase KAT5 isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_874368.1" />
-              <db_xref source="RefSeq" accession="NP_001193762.1" />
+              <long_name>histone acetyltransferase KAT5 isoform 4, histone acetyltransferase KAT5 isoform 3</long_name>
               <db_xref source="UniProtKB" accession="Q92993">
                 <synonym>B4E3C7</synonym>
                 <synonym>C9JL99</synonym>
@@ -705,6 +706,8 @@
                 <synonym>Q6GSE8</synonym>
                 <synonym>Q9BWK7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001193762.1" />
+              <db_xref source="RefSeq" accession="NP_874368.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000534650">
@@ -804,7 +807,6 @@
               <coordinates coord_system="LRG_280" start="6758" end="13043" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>histone acetyltransferase KAT5 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_874369.1" />
               <db_xref source="UniProtKB" accession="Q92993">
                 <synonym>B4E3C7</synonym>
                 <synonym>C9JL99</synonym>
@@ -815,6 +817,7 @@
                 <synonym>Q6GSE8</synonym>
                 <synonym>Q9BWK7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_874369.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000530446">
@@ -1064,7 +1067,7 @@
         <name>List of locus specific databases for RNASEH2C</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RNASEH2C</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -161,9 +161,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="207622645" other_end="207665240">
         <mapping_span lrg_start="1" lrg_end="42596" other_start="207622645" other_end="207665240" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="207449300" other_end="207491895">
+        <mapping_span lrg_start="1" lrg_end="42596" other_start="207449300" other_end="207491895" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">CR2</lrg_locus>
     </annotation_set>
@@ -178,7 +181,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_013006.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001006658.2" other_name="NM_001006658.2" other_id="NM_001006658.2" other_start="1" other_end="4170">
         <mapping_span lrg_start="5001" lrg_end="5177" other_start="1" other_end="177" strand="1" />
         <mapping_span lrg_start="17227" lrg_end="17613" other_start="178" other_end="564" strand="1" />
@@ -398,8 +401,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000367057.3" other_name="ENST00000367057.3" other_id="ENST00000367057.3" other_start="1" other_end="4240">
         <mapping_span lrg_start="4931" lrg_end="5177" other_start="1" other_end="247" strand="1" />
         <mapping_span lrg_start="17227" lrg_end="17613" other_start="248" other_end="634" strand="1" />
@@ -504,6 +507,10 @@
           <symbol source="HGNC" name="CR2" />
           <coordinates coord_system="LRG_348" start="4931" end="40596" strand="1" mapped_from="GRCh37" />
           <long_name>complement component (3d/Epstein Barr virus) receptor 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="120650" />
+          <db_xref source="HGNC" accession="2336">
+            <synonym>CD21</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="1380">
             <synonym>C3DR</synonym>
             <synonym>CD21</synonym>
@@ -511,10 +518,6 @@
             <synonym>CVID7</synonym>
             <synonym>SLEB9</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="2336">
-            <synonym>CD21</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="120650" />
           <db_xref source="Ensembl" accession="ENSG00000117322" />
           <transcript source="Ensembl" accession="ENST00000367058">
             <coordinates coord_system="LRG_348" start="4931" end="40596" strand="1" mapped_from="GRCh37" />
@@ -581,7 +584,6 @@
             <protein_product source="Ensembl" accession="ENSP00000356025">
               <coordinates coord_system="LRG_348" start="5120" end="36255" strand="1" mapped_from="GRCh37" />
               <long_name>complement receptor type 2 isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001868.2" />
               <db_xref source="UniProtKB" accession="P20023">
                 <synonym>C9JHD2</synonym>
                 <synonym>Q13866</synonym>
@@ -591,6 +593,7 @@
                 <synonym>Q5SR46</synonym>
                 <synonym>Q5SR48</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001868.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000367057">
@@ -661,7 +664,6 @@
             <protein_product source="Ensembl" accession="ENSP00000356024">
               <coordinates coord_system="LRG_348" start="5120" end="36255" strand="1" mapped_from="GRCh37" />
               <long_name>complement receptor type 2 isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001006659.1" />
               <db_xref source="UniProtKB" accession="P20023">
                 <synonym>C9JHD2</synonym>
                 <synonym>Q13866</synonym>
@@ -671,6 +673,7 @@
                 <synonym>Q5SR46</synonym>
                 <synonym>Q5SR48</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001006659.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000367059">
@@ -845,7 +848,7 @@
         <name>List of locus specific databases for CR2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CR2</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

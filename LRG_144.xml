@@ -141,9 +141,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="36929644" other_end="36953509">
         <mapping_span lrg_start="1" lrg_end="23866" other_start="36929644" other_end="36953509" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="36464043" other_end="36487908">
+        <mapping_span lrg_start="1" lrg_end="23866" other_start="36464043" other_end="36487908" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CSF3R</lrg_locus>
     </annotation_set>
@@ -158,7 +161,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_016270.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000760.3" other_name="NM_000760.3" other_id="NM_000760.3" other_start="1" other_end="3409">
         <mapping_span lrg_start="4595" lrg_end="5098" other_start="1" other_end="504" strand="1" />
         <mapping_span lrg_start="6372" lrg_end="6431" other_start="505" other_end="564" strand="1" />
@@ -477,8 +480,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000331941.5" other_name="ENST00000331941.5" other_id="ENST00000331941.5" other_start="1" other_end="2352">
         <mapping_span lrg_start="8413" lrg_end="8476" other_start="1" other_end="64" strand="1" />
         <mapping_span lrg_start="12236" lrg_end="12532" other_start="65" other_end="361" strand="1" />
@@ -702,15 +705,15 @@
           <symbol source="HGNC" name="CSF3R" />
           <coordinates coord_system="LRG_144" start="4631" end="21866" strand="1" mapped_from="GRCh37" />
           <long_name>colony stimulating factor 3 receptor (granulocyte) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="1441">
-            <synonym>CD114</synonym>
-            <synonym>GCSFR</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="138971" />
           <db_xref source="HGNC" accession="2439">
             <synonym>CD114</synonym>
             <synonym>GCSFR</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="138971" />
+          <db_xref source="GeneID" accession="1441">
+            <synonym>CD114</synonym>
+            <synonym>GCSFR</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000119535" />
           <transcript source="Ensembl" accession="ENST00000373106">
             <coordinates coord_system="LRG_144" start="4631" end="21866" strand="1" mapped_from="GRCh37" />
@@ -771,8 +774,8 @@
             <protein_product source="Ensembl" accession="ENSP00000362198">
               <coordinates coord_system="LRG_144" start="8413" end="21552" strand="1" mapped_from="GRCh37" />
               <long_name>granulocyte colony-stimulating factor receptor isoform a precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000751.1" />
               <db_xref source="UniProtKB" accession="Q99062" />
+              <db_xref source="RefSeq" accession="NP_000751.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000373104">
@@ -837,8 +840,8 @@
             <protein_product source="Ensembl" accession="ENSP00000362196">
               <coordinates coord_system="LRG_144" start="8413" end="21813" strand="1" mapped_from="GRCh37" />
               <long_name>granulocyte colony-stimulating factor receptor isoform d precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_758519.1" />
               <db_xref source="UniProtKB" accession="Q99062" />
+              <db_xref source="RefSeq" accession="NP_758519.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000373103">
@@ -900,8 +903,8 @@
             <protein_product source="Ensembl" accession="ENSP00000362195">
               <coordinates coord_system="LRG_144" start="8413" end="21552" strand="1" mapped_from="GRCh37" />
               <long_name>granulocyte colony-stimulating factor receptor isoform c precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_724781.1" />
               <db_xref source="UniProtKB" accession="Q99062" />
+              <db_xref source="RefSeq" accession="NP_724781.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000489551">
@@ -1389,15 +1392,15 @@
           <coordinates coord_system="LRG_144" start="23472" end="23866" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>mitochondrial ribosomal protein S15 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="611979" />
+          <db_xref source="HGNC" accession="14504">
+            <synonym>FLJ11564</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="64960">
             <synonym>MPR-S15</synonym>
             <synonym>RPMS15</synonym>
             <synonym>S15mt</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="14504">
-            <synonym>FLJ11564</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="611979" />
           <db_xref source="Ensembl" accession="ENSG00000116898" />
           <transcript source="Ensembl" accession="ENST00000373116">
             <coordinates coord_system="LRG_144" start="23472" end="23866" strand="1" mapped_from="GRCh37" />
@@ -1412,11 +1415,11 @@
               <coordinates coord_system="LRG_144" start="23634" end="23866" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>28S ribosomal protein S15, mitochondrial</long_name>
-              <db_xref source="RefSeq" accession="NP_112570.2" />
               <db_xref source="UniProtKB" accession="P82914">
                 <synonym>B2RD82</synonym>
                 <synonym>Q9H2K1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_112570.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000462067">
@@ -1435,7 +1438,7 @@
         <name>List of locus specific databases for CSF3R</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CSF3R</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

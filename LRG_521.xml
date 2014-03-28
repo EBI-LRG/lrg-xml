@@ -114,10 +114,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_start="104258719" other_end="104395214">
         <mapping_span lrg_start="1" lrg_end="136496" other_start="104258719" other_end="104395214" strand="1">
           <diff type="mismatch" lrg_start="131214" lrg_end="131214" other_start="104389932" other_end="104389932" lrg_sequence="G" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="10" other_id="NC_000010.11" other_start="102498962" other_end="102635457">
+        <mapping_span lrg_start="1" lrg_end="136496" other_start="102498962" other_end="102635457" strand="1">
+          <diff type="mismatch" lrg_start="131214" lrg_end="131214" other_start="102630175" other_end="102630175" lrg_sequence="G" other_sequence="T" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">SUFU</lrg_locus>
@@ -133,7 +138,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_021338.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001178133.1" other_name="NM_001178133.1" other_id="NM_001178133.1" other_start="1" other_end="1885">
         <mapping_span lrg_start="5001" lrg_end="5373" other_start="1" other_end="373" strand="1" />
         <mapping_span lrg_start="10208" lrg_end="10342" other_start="374" other_end="508" strand="1" />
@@ -327,8 +332,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000369899.2" other_name="ENST00000369899.2" other_id="ENST00000369899.2" other_start="1" other_end="1839">
         <mapping_span lrg_start="5046" lrg_end="5373" other_start="1" other_end="328" strand="1" />
         <mapping_span lrg_start="10208" lrg_end="10342" other_start="329" other_end="463" strand="1" />
@@ -384,14 +389,14 @@
           <coordinates coord_system="LRG_521" start="1" end="3764" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>ARP1 actin-related protein 1 homolog A, centractin alpha (yeast) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="605143" />
+          <db_xref source="HGNC" accession="167">
+            <synonym>ARP1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="10121">
             <synonym>ARP1</synonym>
             <synonym>CTRN1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="167">
-            <synonym>ARP1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="605143" />
           <db_xref source="Ensembl" accession="ENSG00000138107" />
           <transcript source="Ensembl" accession="ENST00000369905">
             <coordinates coord_system="LRG_521" start="1" end="3750" strand="-1" mapped_from="GRCh37" />
@@ -406,11 +411,11 @@
               <coordinates coord_system="LRG_521" start="1" end="3686" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>alpha-centractin</long_name>
-              <db_xref source="RefSeq" accession="NP_005727.1" />
               <db_xref source="UniProtKB" accession="P61163">
                 <synonym>B2R6B0</synonym>
                 <synonym>P42024</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_005727.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000487599">
@@ -454,17 +459,17 @@
           <symbol source="HGNC" name="SUFU" />
           <coordinates coord_system="LRG_521" start="5026" end="134574" strand="1" mapped_from="GRCh37" />
           <long_name>suppressor of fused homolog (Drosophila) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="51684">
-            <synonym>PRO1280</synonym>
-            <synonym>SUFUH</synonym>
-            <synonym>SUFUXL</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="607035" />
           <db_xref source="HGNC" accession="16466">
             <synonym>PRO1280</synonym>
             <synonym>SUFUH</synonym>
             <synonym>SUFUXL</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="607035" />
+          <db_xref source="GeneID" accession="51684">
+            <synonym>PRO1280</synonym>
+            <synonym>SUFUH</synonym>
+            <synonym>SUFUXL</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000107882" />
           <transcript source="Ensembl" accession="ENST00000369902">
             <coordinates coord_system="LRG_521" start="5026" end="134574" strand="1" mapped_from="GRCh37" />
@@ -510,7 +515,6 @@
             <protein_product source="Ensembl" accession="ENSP00000358918">
               <coordinates coord_system="LRG_521" start="5192" end="131194" strand="1" mapped_from="GRCh37" />
               <long_name>suppressor of fused homolog isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_057253.2" />
               <db_xref source="UniProtKB" accession="Q9UMX1">
                 <synonym>Q7LCP7</synonym>
                 <synonym>Q9NT90</synonym>
@@ -519,6 +523,7 @@
                 <synonym>Q9UHM8</synonym>
                 <synonym>Q9UMY0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_057253.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000369899">
@@ -562,7 +567,6 @@
             <protein_product source="Ensembl" accession="ENSP00000358915">
               <coordinates coord_system="LRG_521" start="5192" end="120110" strand="1" mapped_from="GRCh37" />
               <long_name>suppressor of fused homolog isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001171604.1" />
               <db_xref source="UniProtKB" accession="Q9UMX1">
                 <synonym>Q7LCP7</synonym>
                 <synonym>Q9NT90</synonym>
@@ -571,6 +575,7 @@
                 <synonym>Q9UHM8</synonym>
                 <synonym>Q9UMY0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001171604.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000423559">
@@ -645,8 +650,8 @@
           <symbol source="HGNC" name="RN7SL21P" />
           <coordinates coord_system="LRG_521" start="27004" end="27283" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, 7SL, cytoplasmic 21, pseudogene (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="46037" />
           <db_xref source="RFAM" accession="RF00017" />
+          <db_xref source="HGNC" accession="46037" />
           <db_xref source="Ensembl" accession="ENSG00000242311" />
           <transcript source="Ensembl" accession="ENST00000483160">
             <coordinates coord_system="LRG_521" start="27004" end="27283" strand="1" mapped_from="GRCh37" />
@@ -673,10 +678,10 @@
           <symbol source="HGNC" name="RNU6-43P" />
           <coordinates coord_system="LRG_521" start="92563" end="92669" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, U6 small nuclear 43, pseudogene (snRNA)</long_name>
+          <db_xref source="RFAM" accession="RF00026" />
           <db_xref source="HGNC" accession="34287">
             <synonym>RNU6-43</synonym>
           </db_xref>
-          <db_xref source="RFAM" accession="RF00026" />
           <db_xref source="Ensembl" accession="ENSG00000207029" />
           <transcript source="Ensembl" accession="ENST00000384302">
             <coordinates coord_system="LRG_521" start="92563" end="92669" strand="1" mapped_from="GRCh37" />
@@ -693,7 +698,7 @@
         <name>List of locus specific databases for SUFU</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SUFU</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

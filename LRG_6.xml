@@ -186,9 +186,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="160080548" other_end="160115381">
         <mapping_span lrg_start="1" lrg_end="34834" other_start="160080548" other_end="160115381" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="160110758" other_end="160145591">
+        <mapping_span lrg_start="1" lrg_end="34834" other_start="160110758" other_end="160145591" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">ATP1A2</lrg_locus>
     </annotation_set>
@@ -203,7 +206,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008014.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000702.2" other_name="NM_000702.2" other_id="NM_000702.2" other_start="1" other_end="5436">
         <mapping_span lrg_start="5001" lrg_end="5116" other_start="1" other_end="116" strand="1" />
         <mapping_span lrg_start="10149" lrg_end="10253" other_start="117" other_end="221" strand="1" />
@@ -369,8 +372,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000361216.3" other_name="ENST00000361216.3" other_id="ENST00000361216.3" other_start="1" other_end="5421">
         <mapping_span lrg_start="5016" lrg_end="5116" other_start="1" other_end="101" strand="1" />
         <mapping_span lrg_start="10149" lrg_end="10253" other_start="102" other_end="206" strand="1" />
@@ -486,19 +489,19 @@
           <symbol source="HGNC" name="ATP1A2" />
           <coordinates coord_system="LRG_6" start="5002" end="32834" strand="1" mapped_from="GRCh37" />
           <long_name>ATPase, Na+/K+ transporting, alpha 2 polypeptide (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="477">
-            <synonym>FHM2</synonym>
-            <synonym>MHP2</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="182340" />
           <db_xref source="HGNC" accession="800">
             <synonym>FHM2</synonym>
             <synonym>MHP2</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="182340" />
+          <db_xref source="GeneID" accession="477">
+            <synonym>FHM2</synonym>
+            <synonym>MHP2</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000018625" />
           <transcript source="Ensembl" accession="ENST00000472488">
             <coordinates coord_system="LRG_6" start="5002" end="26445" strand="1" mapped_from="GRCh37" />
-            <long_name>ATP1A2-002 (processed_transcript)</long_name>
+            <long_name>ATP1A2-002 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001436636">
               <coordinates coord_system="LRG_6" start="5002" end="5116" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -562,7 +565,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000478587">
             <coordinates coord_system="LRG_6" start="5006" end="10518" strand="1" mapped_from="GRCh37" />
-            <long_name>ATP1A2-007 (processed_transcript)</long_name>
+            <long_name>ATP1A2-007 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001926914">
               <coordinates coord_system="LRG_6" start="5006" end="5116" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -647,7 +650,6 @@
             <protein_product source="Ensembl" accession="ENSP00000354490">
               <coordinates coord_system="LRG_6" start="5105" end="30565" strand="1" mapped_from="GRCh37" />
               <long_name>sodium/potassium-transporting ATPase subunit alpha-2 proprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_000693.1" />
               <db_xref source="UniProtKB" accession="P50993">
                 <synonym>D3DVE4</synonym>
                 <synonym>Q07059</synonym>
@@ -655,6 +657,7 @@
                 <synonym>Q86UZ5</synonym>
                 <synonym>Q9UQ25</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000693.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000392233">
@@ -735,7 +738,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000468587">
             <coordinates coord_system="LRG_6" start="13201" end="14785" strand="1" mapped_from="GRCh37" />
-            <long_name>ATP1A2-006 (processed_transcript)</long_name>
+            <long_name>ATP1A2-006 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001928256">
               <coordinates coord_system="LRG_6" start="13201" end="13299" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -803,7 +806,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000463989">
             <coordinates coord_system="LRG_6" start="25914" end="29301" strand="1" mapped_from="GRCh37" />
-            <long_name>ATP1A2-005 (processed_transcript)</long_name>
+            <long_name>ATP1A2-005 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001912478">
               <coordinates coord_system="LRG_6" start="25914" end="25958" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -838,7 +841,7 @@
         <name>List of locus specific databases for ATP1A2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ATP1A2</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -96,10 +96,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="167397876" other_end="167492846">
         <mapping_span lrg_start="1" lrg_end="94971" other_start="167397876" other_end="167492846" strand="-1">
           <diff type="mismatch" lrg_start="92885" lrg_end="92885" other_start="167399962" other_end="167399962" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="167428639" other_end="167523609">
+        <mapping_span lrg_start="1" lrg_end="94971" other_start="167428639" other_end="167523609" strand="-1">
+          <diff type="mismatch" lrg_start="92885" lrg_end="92885" other_start="167430725" other_end="167430725" lrg_sequence="G" other_sequence="A" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">CD247</lrg_locus>
@@ -115,7 +120,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007384.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000734.3" other_name="NM_000734.3" other_id="NM_000734.3" other_start="1" other_end="1678">
         <mapping_span lrg_start="5000" lrg_end="5202" other_start="1" other_end="203" strand="1" />
         <mapping_span lrg_start="82843" lrg_end="82946" other_start="204" other_end="307" strand="1" />
@@ -248,8 +253,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000362089.5" other_name="ENST00000362089.5" other_id="ENST00000362089.5" other_start="1" other_end="1609">
         <mapping_span lrg_start="5072" lrg_end="5202" other_start="1" other_end="131" strand="1" />
         <mapping_span lrg_start="82843" lrg_end="82946" other_start="132" other_end="235" strand="1" />
@@ -338,6 +343,12 @@
           <symbol source="HGNC" name="CD247" />
           <coordinates coord_system="LRG_36" start="5000" end="92970" strand="1" mapped_from="GRCh37" />
           <long_name>CD247 molecule (protein_coding)</long_name>
+          <db_xref source="MIM" accession="186780" />
+          <db_xref source="HGNC" accession="1677">
+            <synonym>CD3H</synonym>
+            <synonym>CD3Q</synonym>
+            <synonym>CD3Z</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="919">
             <synonym>CD3-ZETA</synonym>
             <synonym>CD3H</synonym>
@@ -346,12 +357,6 @@
             <synonym>T3Z</synonym>
             <synonym>TCRZ</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1677">
-            <synonym>CD3H</synonym>
-            <synonym>CD3Q</synonym>
-            <synonym>CD3Z</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="186780" />
           <db_xref source="Ensembl" accession="ENSG00000198821" />
           <transcript source="Ensembl" accession="ENST00000392122">
             <coordinates coord_system="LRG_36" start="5000" end="92970" strand="1" mapped_from="GRCh37" />
@@ -385,14 +390,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000375969">
               <coordinates coord_system="LRG_36" start="5145" end="91929" strand="1" mapped_from="GRCh37" />
-              <long_name>T-cell surface glycoprotein CD3 zeta chain isoform 2 precursor, T-cell surface glycoprotein CD3 zeta chain isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000725.1" />
-              <db_xref source="RefSeq" accession="NP_932170.1" />
+              <long_name>T-cell surface glycoprotein CD3 zeta chain isoform 1 precursor, T-cell surface glycoprotein CD3 zeta chain isoform 2 precursor</long_name>
               <db_xref source="UniProtKB" accession="P20963">
                 <synonym>B1AK49</synonym>
                 <synonym>Q5VX13</synonym>
                 <synonym>Q8TAX4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_932170.1" />
+              <db_xref source="RefSeq" accession="NP_000725.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000479979">
@@ -528,6 +533,22 @@
             </exon>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000273160">
+          <symbol source="Clone_based_vega_gene" name="RP11-104L21.3" />
+          <coordinates coord_system="LRG_36" start="63719" end="65868" strand="1" mapped_from="GRCh37" />
+          <long_name>RP11-104L21.3 (lincRNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000273160" />
+          <transcript source="Ensembl" accession="ENST00000610044">
+            <coordinates coord_system="LRG_36" start="63719" end="65868" strand="1" mapped_from="GRCh37" />
+            <long_name>RP11-104L21.3-001 (lincRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00003703613">
+              <coordinates coord_system="LRG_36" start="63719" end="64002" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003707570">
+              <coordinates coord_system="LRG_36" start="65850" end="65868" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000233411">
           <symbol source="Clone_based_vega_gene" name="RP11-104L21.2" />
           <coordinates coord_system="LRG_36" start="64949" end="66227" strand="1" mapped_from="GRCh37" />
@@ -551,7 +572,7 @@
         <name>List of locus specific databases for CD247</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CD247</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

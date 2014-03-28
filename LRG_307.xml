@@ -10,14 +10,6 @@
     <source>
       <name></name>
       <contact>
-        <name>Suzanne Kamel-Reid</name>
-        <address>The University Health Network and The Ontario Cancer Institute, University of Toronto, Canada</address>
-        <email>Suzanne.Kamel-Reid@uhn.ca</email>
-      </contact>
-    </source>
-    <source>
-      <name></name>
-      <contact>
         <name>Rod Docking</name>
         <url>www.bcgsc.ca</url>
         <address>Centre for Clinical Genomics, Vancouver, Canada</address>
@@ -36,6 +28,14 @@
         <name>Nazneen Rahman</name>
         <address>Institute of Cancer Research, Sutton, Surrey, UK</address>
         <email>Nazneen.Rahman@icr.ac.uk</email>
+      </contact>
+    </source>
+    <source>
+      <name></name>
+      <contact>
+        <name>Suzanne Kamel-Reid</name>
+        <address>The University Health Network and The Ontario Cancer Institute, University of Toronto, Canada</address>
+        <email>Suzanne.Kamel-Reid@uhn.ca</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -191,9 +191,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="4" other_id="NC_000004.11" other_start="55519161" other_end="55608855">
         <mapping_span lrg_start="1" lrg_end="89695" other_start="55519161" other_end="55608855" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="4" other_id="NC_000004.12" other_start="54652994" other_end="54742689">
+        <mapping_span lrg_start="1" lrg_end="89695" other_start="54652994" other_end="54742689" strand="1">
+          <diff type="other_ins" lrg_start="7020" lrg_end="7021" other_start="54660014" other_end="54660014" lrg_sequence="-" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">KIT</lrg_locus>
     </annotation_set>
@@ -208,7 +213,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007456.1</comment>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000222.2" other_name="NM_000222.2" other_id="NM_000222.2" other_start="1" other_end="5176">
         <mapping_span lrg_start="4935" lrg_end="5088" other_start="1" other_end="154" strand="1" />
         <mapping_span lrg_start="42518" lrg_end="42787" other_start="155" other_end="424" strand="1" />
@@ -444,8 +449,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-28</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000288135.5" other_name="ENST00000288135.5" other_id="ENST00000288135.5" other_start="1" other_end="5186">
         <mapping_span lrg_start="4925" lrg_end="5088" other_start="1" other_end="164" strand="1" />
         <mapping_span lrg_start="42518" lrg_end="42787" other_start="165" other_end="434" strand="1" />
@@ -507,19 +512,19 @@
           <symbol source="HGNC" name="KIT" />
           <coordinates coord_system="LRG_307" start="4925" end="87721" strand="1" mapped_from="GRCh37" />
           <long_name>v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3815">
-            <synonym>C-Kit</synonym>
-            <synonym>CD117</synonym>
-            <synonym>PBT</synonym>
-            <synonym>SCFR</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="164920" />
           <db_xref source="HGNC" accession="6342">
             <synonym>C-Kit</synonym>
             <synonym>CD117</synonym>
             <synonym>PBT</synonym>
             <synonym>SCFR</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="164920" />
+          <db_xref source="GeneID" accession="3815">
+            <synonym>C-Kit</synonym>
+            <synonym>CD117</synonym>
+            <synonym>PBT</synonym>
+            <synonym>SCFR</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000157404" />
           <transcript source="Ensembl" accession="ENST00000412167">
             <coordinates coord_system="LRG_307" start="4925" end="86017" strand="1" mapped_from="GRCh37" />
@@ -672,9 +677,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000288135">
               <coordinates coord_system="LRG_307" start="5022" end="85563" strand="1" mapped_from="GRCh37" />
-              <long_name>mast/stem cell growth factor receptor Kit isoform 1 precursor, mast/stem cell growth factor receptor Kit isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000213.1" />
-              <db_xref source="RefSeq" accession="NP_001087241.1" />
+              <long_name>mast/stem cell growth factor receptor Kit isoform 2 precursor, mast/stem cell growth factor receptor Kit isoform 1 precursor</long_name>
               <db_xref source="UniProtKB" accession="P10721">
                 <synonym>B5A956</synonym>
                 <synonym>D5LXN2</synonym>
@@ -684,6 +687,8 @@
                 <synonym>Q99662</synonym>
                 <synonym>Q9UM99</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001087241.1" />
+              <db_xref source="RefSeq" accession="NP_000213.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000514582">
@@ -720,7 +725,7 @@
         <name>List of locus specific databases for KIT</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/KIT</url>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

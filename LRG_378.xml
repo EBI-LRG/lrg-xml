@@ -78,9 +78,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="52483107" other_end="52493057">
         <mapping_span lrg_start="1" lrg_end="9951" other_start="52483107" other_end="52493057" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="52449091" other_end="52459041">
+        <mapping_span lrg_start="1" lrg_end="9951" other_start="52449091" other_end="52459041" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">TNNC1</lrg_locus>
     </annotation_set>
@@ -95,7 +98,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008963.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_003280.2" other_name="NM_003280.2" other_id="NM_003280.2" other_start="1" other_end="696">
         <mapping_span lrg_start="5001" lrg_end="5050" other_start="1" other_end="50" strand="1" />
         <mapping_span lrg_start="6529" lrg_end="6559" other_start="51" other_end="81" strand="1" />
@@ -117,6 +120,7 @@
           <long_name>nischarin</long_name>
           <db_xref source="GeneID" accession="11188" />
           <db_xref source="HGNC" accession="18006" />
+          <db_xref source="MIM" accession="615507" />
           <transcript source="RefSeq" accession="NM_007184.3">
             <coordinates coord_system="LRG_378" start="198" end="3534" strand="-1" />
             <partial>3-prime</partial>
@@ -170,6 +174,7 @@
               <long_name>imidazoline receptor antisera selected</long_name>
               <long_name>I1R candidate protein</long_name>
               <long_name>imidazoline receptor 1</long_name>
+              <db_xref source="CCDS" accession="CCDS63652.1" />
               <db_xref source="GeneID" accession="11188" />
               <db_xref source="GI" accession="443497968" />
             </protein_product>
@@ -198,6 +203,7 @@
               <long_name>imidazoline receptor antisera selected</long_name>
               <long_name>I1R candidate protein</long_name>
               <long_name>imidazoline receptor 1</long_name>
+              <db_xref source="CCDS" accession="CCDS63651.1" />
               <db_xref source="GeneID" accession="11188" />
               <db_xref source="GI" accession="443497970" />
             </protein_product>
@@ -265,8 +271,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000232975.3" other_name="ENST00000232975.3" other_id="ENST00000232975.3" other_start="1" other_end="714">
         <mapping_span lrg_start="4972" lrg_end="5050" other_start="1" other_end="79" strand="1" />
         <mapping_span lrg_start="6529" lrg_end="6559" other_start="80" other_end="110" strand="1" />
@@ -291,16 +297,17 @@
           <coordinates coord_system="LRG_378" start="1" end="3924" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>nischarin (protein_coding)</long_name>
+          <db_xref source="MIM" accession="615507" />
+          <db_xref source="HGNC" accession="18006">
+            <synonym>I-1</synonym>
+            <synonym>IRAS</synonym>
+            <synonym>KIAA0975</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="11188">
             <synonym>hIRAS</synonym>
             <synonym>I-1</synonym>
             <synonym>IR1</synonym>
             <synonym>IRAS</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="18006">
-            <synonym>I-1</synonym>
-            <synonym>IRAS</synonym>
-            <synonym>KIAA0975</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000010322" />
           <transcript source="Ensembl" accession="ENST00000479054">
@@ -339,6 +346,7 @@
             <coordinates coord_system="LRG_378" start="1" end="3425" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>NISCH-004 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS63652.1" />
             <db_xref source="RefSeq" accession="NM_001276293.1" />
             <exon source="Ensembl" accession="ENSE00001923093">
               <coordinates coord_system="LRG_378" start="3308" end="3425" strand="-1" mapped_from="GRCh37" />
@@ -360,6 +368,7 @@
             <coordinates coord_system="LRG_378" start="1" end="3425" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>NISCH-014 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS63651.1" />
             <db_xref source="RefSeq" accession="NM_001276294.1" />
             <exon source="Ensembl" accession="ENSE00001923093">
               <coordinates coord_system="LRG_378" start="3308" end="3425" strand="-1" mapped_from="GRCh37" />
@@ -374,7 +383,6 @@
               <coordinates coord_system="LRG_378" start="1" end="3400" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>nischarin isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001263223.1" />
               <db_xref source="UniProtKB" accession="Q9Y2I1">
                 <synonym>C9J245</synonym>
                 <synonym>Q6PGP3</synonym>
@@ -385,6 +393,7 @@
                 <synonym>Q9UEU4</synonym>
                 <synonym>Q9UFW3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001263223.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000489895">
@@ -414,7 +423,6 @@
               <coordinates coord_system="LRG_378" start="1" end="3400" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>nischarin isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_009115.2" />
               <db_xref source="UniProtKB" accession="Q9Y2I1">
                 <synonym>C9J245</synonym>
                 <synonym>Q6PGP3</synonym>
@@ -425,6 +433,7 @@
                 <synonym>Q9UEU4</synonym>
                 <synonym>Q9UFW3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_009115.2" />
             </protein_product>
           </transcript>
         </gene>
@@ -432,6 +441,10 @@
           <symbol source="HGNC" name="TNNC1" />
           <coordinates coord_system="LRG_378" start="4972" end="7940" strand="1" mapped_from="GRCh37" />
           <long_name>troponin C type 1 (slow) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="191040" />
+          <db_xref source="HGNC" accession="11943">
+            <synonym>TNNC</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="7134">
             <synonym>CMD1Z</synonym>
             <synonym>CMH13</synonym>
@@ -439,10 +452,6 @@
             <synonym>TNC</synonym>
             <synonym>TNNC</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11943">
-            <synonym>TNNC</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="191040" />
           <db_xref source="Ensembl" accession="ENSG00000114854" />
           <transcript source="Ensembl" accession="ENST00000232975">
             <coordinates coord_system="LRG_378" start="4972" end="7940" strand="1" mapped_from="GRCh37" />
@@ -470,12 +479,12 @@
             <protein_product source="Ensembl" accession="ENSP00000232975">
               <coordinates coord_system="LRG_378" start="5027" end="7767" strand="1" mapped_from="GRCh37" />
               <long_name>troponin C, slow skeletal and cardiac muscles</long_name>
-              <db_xref source="RefSeq" accession="NP_003271.1" />
               <db_xref source="UniProtKB" accession="P63316">
                 <synonym>O14800</synonym>
                 <synonym>P02590</synonym>
                 <synonym>P04463</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003271.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000496590">
@@ -515,7 +524,7 @@
         <name>List of locus specific databases for TNNC1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TNNC1</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

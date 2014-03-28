@@ -269,9 +269,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="156047364" other_end="156111878">
         <mapping_span lrg_start="1" lrg_end="64515" other_start="156047364" other_end="156111878" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="156077573" other_end="156142087">
+        <mapping_span lrg_start="1" lrg_end="64515" other_start="156077573" other_end="156142087" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">LMNA</lrg_locus>
     </annotation_set>
@@ -286,7 +289,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008692.2</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001257374.2" other_name="NM_001257374.2" other_id="NM_001257374.2" other_start="1" other_end="2062">
         <mapping_span lrg_start="48545" lrg_end="48651" other_start="1" other_end="107" strand="1" />
         <mapping_span lrg_start="53045" lrg_end="53201" other_start="108" other_end="264" strand="1" />
@@ -691,8 +694,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000347559.2" other_name="ENST00000347559.2" other_id="ENST00000347559.2" other_start="1" other_end="3135">
         <mapping_span lrg_start="37098" lrg_end="37702" other_start="1" other_end="605" strand="1" />
         <mapping_span lrg_start="53045" lrg_end="53201" other_start="606" other_end="762" strand="1" />
@@ -919,15 +922,15 @@
           <symbol source="HGNC" name="MEX3A" />
           <coordinates coord_system="LRG_254" start="1" end="4426" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <long_name>mex-3 homolog A (C. elegans) (protein_coding)</long_name>
+          <long_name>mex-3 RNA binding family member A (protein_coding)</long_name>
+          <db_xref source="MIM" accession="611007" />
+          <db_xref source="HGNC" accession="33482">
+            <synonym>RKHD4</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="92312">
             <synonym>MEX-3A</synonym>
             <synonym>RKHD4</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="33482">
-            <synonym>RKHD4</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="611007" />
           <db_xref source="Ensembl" accession="ENSG00000254726" />
           <transcript source="Ensembl" accession="ENST00000532414">
             <coordinates coord_system="LRG_254" start="1" end="4426" strand="-1" mapped_from="GRCh37" />
@@ -946,8 +949,8 @@
               <coordinates coord_system="LRG_254" start="1" end="4426" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>RNA-binding protein MEX3A</long_name>
-              <db_xref source="RefSeq" accession="NP_001087194.1" />
               <db_xref source="UniProtKB" accession="A1L020" />
+              <db_xref source="RefSeq" accession="NP_001087194.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000442784">
@@ -967,6 +970,15 @@
           <symbol source="HGNC" name="LMNA" />
           <coordinates coord_system="LRG_254" start="5001" end="62517" strand="1" mapped_from="GRCh37" />
           <long_name>lamin A/C (protein_coding)</long_name>
+          <db_xref source="MIM" accession="150330" />
+          <db_xref source="HGNC" accession="6636">
+            <synonym>CMD1A</synonym>
+            <synonym>HGPS</synonym>
+            <synonym>LGMD1B</synonym>
+            <synonym>LMN1</synonym>
+            <synonym>LMNL1</synonym>
+            <synonym>PRO1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4000">
             <synonym>CDCD1</synonym>
             <synonym>CDDC</synonym>
@@ -986,15 +998,6 @@
             <synonym>LMNL1</synonym>
             <synonym>PRO1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6636">
-            <synonym>CMD1A</synonym>
-            <synonym>HGPS</synonym>
-            <synonym>LGMD1B</synonym>
-            <synonym>LMN1</synonym>
-            <synonym>LMNL1</synonym>
-            <synonym>PRO1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="150330" />
           <db_xref source="Ensembl" accession="ENSG00000160789" />
           <transcript source="Ensembl" accession="ENST00000502751">
             <coordinates coord_system="LRG_254" start="5001" end="56915" strand="1" mapped_from="GRCh37" />
@@ -1016,6 +1019,7 @@
             <coordinates coord_system="LRG_254" start="5006" end="60293" strand="1" mapped_from="GRCh37" />
             <long_name>LMNA-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS1131.1" />
+            <db_xref source="RefSeq" accession="NM_001282625.1" />
             <exon source="Ensembl" accession="ENSE00001446811">
               <coordinates coord_system="LRG_254" start="5006" end="5091" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -1057,16 +1061,22 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000357284">
               <coordinates coord_system="LRG_254" start="37347" end="60192" strand="1" mapped_from="GRCh37" />
+              <long_name>lamin isoform C</long_name>
               <db_xref source="UniProtKB" accession="P02545">
                 <synonym>B4DI32</synonym>
                 <synonym>D3DVB0</synonym>
+                <synonym>D6RAQ3</synonym>
                 <synonym>E7EUI9</synonym>
                 <synonym>P02546</synonym>
+                <synonym>Q5I6Y4</synonym>
+                <synonym>Q5I6Y6</synonym>
                 <synonym>Q5TCJ2</synonym>
                 <synonym>Q5TCJ3</synonym>
+                <synonym>Q6UYC3</synonym>
                 <synonym>Q969I8</synonym>
                 <synonym>Q96JA2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001269554.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000495341">
@@ -1151,17 +1161,21 @@
             <protein_product source="Ensembl" accession="ENSP00000292304">
               <coordinates coord_system="LRG_254" start="37347" end="61534" strand="1" mapped_from="GRCh37" />
               <long_name>lamin isoform A-delta10</long_name>
-              <db_xref source="RefSeq" accession="NP_733822.1" />
               <db_xref source="UniProtKB" accession="P02545">
                 <synonym>B4DI32</synonym>
                 <synonym>D3DVB0</synonym>
+                <synonym>D6RAQ3</synonym>
                 <synonym>E7EUI9</synonym>
                 <synonym>P02546</synonym>
+                <synonym>Q5I6Y4</synonym>
+                <synonym>Q5I6Y6</synonym>
                 <synonym>Q5TCJ2</synonym>
                 <synonym>Q5TCJ3</synonym>
+                <synonym>Q6UYC3</synonym>
                 <synonym>Q969I8</synonym>
                 <synonym>Q96JA2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_733822.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000361308">
@@ -1202,17 +1216,21 @@
             <protein_product source="Ensembl" accession="ENSP00000355292">
               <coordinates coord_system="LRG_254" start="37347" end="60192" strand="1" mapped_from="GRCh37" />
               <long_name>lamin isoform C</long_name>
-              <db_xref source="RefSeq" accession="NP_005563.1" />
               <db_xref source="UniProtKB" accession="P02545">
                 <synonym>B4DI32</synonym>
                 <synonym>D3DVB0</synonym>
+                <synonym>D6RAQ3</synonym>
                 <synonym>E7EUI9</synonym>
                 <synonym>P02546</synonym>
+                <synonym>Q5I6Y4</synonym>
+                <synonym>Q5I6Y6</synonym>
                 <synonym>Q5TCJ2</synonym>
                 <synonym>Q5TCJ3</synonym>
+                <synonym>Q6UYC3</synonym>
                 <synonym>Q969I8</synonym>
                 <synonym>Q96JA2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_005563.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000368300">
@@ -1259,17 +1277,21 @@
             <protein_product source="Ensembl" accession="ENSP00000357283">
               <coordinates coord_system="LRG_254" start="37347" end="61534" strand="1" mapped_from="GRCh37" />
               <long_name>lamin isoform A</long_name>
-              <db_xref source="RefSeq" accession="NP_733821.1" />
               <db_xref source="UniProtKB" accession="P02545">
                 <synonym>B4DI32</synonym>
                 <synonym>D3DVB0</synonym>
+                <synonym>D6RAQ3</synonym>
                 <synonym>E7EUI9</synonym>
                 <synonym>P02546</synonym>
+                <synonym>Q5I6Y4</synonym>
+                <synonym>Q5I6Y6</synonym>
                 <synonym>Q5TCJ2</synonym>
                 <synonym>Q5TCJ3</synonym>
+                <synonym>Q6UYC3</synonym>
                 <synonym>Q969I8</synonym>
                 <synonym>Q96JA2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_733821.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000478063">
@@ -1314,6 +1336,7 @@
           <transcript source="Ensembl" accession="ENST00000368299">
             <coordinates coord_system="LRG_254" start="37150" end="61745" strand="1" mapped_from="GRCh37" />
             <long_name>LMNA-004 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001282626.1" />
             <exon source="Ensembl" accession="ENSE00001913839">
               <coordinates coord_system="LRG_254" start="37150" end="37702" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -1352,6 +1375,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000357282">
               <coordinates coord_system="LRG_254" start="37347" end="61534" strand="1" mapped_from="GRCh37" />
+              <long_name>lamin isoform A-delta50</long_name>
+              <db_xref source="RefSeq" accession="NP_001269555.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000502357">
@@ -1414,17 +1439,21 @@
             <protein_product source="Ensembl" accession="ENSP00000395597">
               <coordinates coord_system="LRG_254" start="48632" end="62267" strand="1" mapped_from="GRCh37" />
               <long_name>lamin isoform D</long_name>
-              <db_xref source="RefSeq" accession="NP_001244303.1" />
               <db_xref source="UniProtKB" accession="P02545">
                 <synonym>B4DI32</synonym>
                 <synonym>D3DVB0</synonym>
+                <synonym>D6RAQ3</synonym>
                 <synonym>E7EUI9</synonym>
                 <synonym>P02546</synonym>
+                <synonym>Q5I6Y4</synonym>
+                <synonym>Q5I6Y6</synonym>
                 <synonym>Q5TCJ2</synonym>
                 <synonym>Q5TCJ3</synonym>
+                <synonym>Q6UYC3</synonym>
                 <synonym>Q969I8</synonym>
                 <synonym>Q96JA2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001244303.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000515459">
@@ -1455,6 +1484,7 @@
           <transcript source="Ensembl" accession="ENST00000368297">
             <coordinates coord_system="LRG_254" start="48617" end="60293" strand="1" mapped_from="GRCh37" />
             <long_name>LMNA-007 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001282624.1" />
             <exon source="Ensembl" accession="ENSE00001446800">
               <coordinates coord_system="LRG_254" start="48617" end="48651" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -1490,6 +1520,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000357280">
               <coordinates coord_system="LRG_254" start="49231" end="60192" strand="1" mapped_from="GRCh37" />
+              <long_name>lamin isoform E</long_name>
+              <db_xref source="RefSeq" accession="NP_001269553.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000504687">
@@ -1687,10 +1719,14 @@
               <db_xref source="UniProtKB" accession="P02545">
                 <synonym>B4DI32</synonym>
                 <synonym>D3DVB0</synonym>
+                <synonym>D6RAQ3</synonym>
                 <synonym>E7EUI9</synonym>
                 <synonym>P02546</synonym>
+                <synonym>Q5I6Y4</synonym>
+                <synonym>Q5I6Y6</synonym>
                 <synonym>Q5TCJ2</synonym>
                 <synonym>Q5TCJ3</synonym>
+                <synonym>Q6UYC3</synonym>
                 <synonym>Q969I8</synonym>
                 <synonym>Q96JA2</synonym>
               </db_xref>
@@ -1727,7 +1763,7 @@
         <name>List of locus specific databases for LMNA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/LMNA</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -106,9 +106,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="47481612" other_end="47494704">
         <mapping_span lrg_start="1" lrg_end="13093" other_start="47481612" other_end="47494704" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="X" other_id="NC_000023.11" other_start="47622213" other_end="47635305">
+        <mapping_span lrg_start="1" lrg_end="13093" other_start="47622213" other_end="47635305" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CFP</lrg_locus>
     </annotation_set>
@@ -123,7 +126,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009893.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001145252.1" other_name="NM_001145252.1" other_id="NM_001145252.1" other_start="1" other_end="1598">
         <mapping_span lrg_start="5336" lrg_end="5537" other_start="1" other_end="202" strand="1" />
         <mapping_span lrg_start="5632" lrg_end="5782" other_start="203" other_end="353" strand="1" />
@@ -260,8 +263,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000247153.3" other_name="ENST00000247153.3" other_id="ENST00000247153.3" other_start="1" other_end="1713">
         <mapping_span lrg_start="5001" lrg_end="5177" other_start="1" other_end="177" strand="1" />
         <mapping_span lrg_start="5397" lrg_end="5537" other_start="178" other_end="318" strand="1" />
@@ -328,16 +331,16 @@
           <symbol source="HGNC" name="CFP" />
           <coordinates coord_system="LRG_129" start="5001" end="11093" strand="1" mapped_from="GRCh37" />
           <long_name>complement factor properdin (protein_coding)</long_name>
+          <db_xref source="MIM" accession="300383" />
+          <db_xref source="HGNC" accession="8864">
+            <synonym>PFC</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5199">
             <synonym>BFD</synonym>
             <synonym>PFC</synonym>
             <synonym>PFD</synonym>
             <synonym>PROPERDIN</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="8864">
-            <synonym>PFC</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="300383" />
           <db_xref source="Ensembl" accession="ENSG00000126759" />
           <transcript source="Ensembl" accession="ENST00000247153">
             <coordinates coord_system="LRG_129" start="5001" end="11092" strand="1" mapped_from="GRCh37" />
@@ -377,13 +380,13 @@
             <protein_product source="Ensembl" accession="ENSP00000247153">
               <coordinates coord_system="LRG_129" start="5462" end="11031" strand="1" mapped_from="GRCh37" />
               <long_name>properdin precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_002612.1" />
               <db_xref source="UniProtKB" accession="P27918">
                 <synonym>O15134</synonym>
                 <synonym>O15135</synonym>
                 <synonym>O15136</synonym>
                 <synonym>O75826</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002612.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000396992">
@@ -421,13 +424,13 @@
             <protein_product source="Ensembl" accession="ENSP00000380189">
               <coordinates coord_system="LRG_129" start="5462" end="11031" strand="1" mapped_from="GRCh37" />
               <long_name>properdin precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001138724.1" />
               <db_xref source="UniProtKB" accession="P27918">
                 <synonym>O15134</synonym>
                 <synonym>O15135</synonym>
                 <synonym>O15136</synonym>
                 <synonym>O75826</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001138724.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000377005">
@@ -548,7 +551,7 @@
         <name>List of locus specific databases for CFP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CFP</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -120,9 +120,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="22" other_id="NC_000022.10" other_start="17560851" other_end="17598584">
         <mapping_span lrg_start="1" lrg_end="37734" other_start="17560851" other_end="17598584" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="22" other_id="NC_000022.11" other_start="17079961" other_end="17117694">
+        <mapping_span lrg_start="1" lrg_end="37734" other_start="17079961" other_end="17117694" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">IL17RA</lrg_locus>
     </annotation_set>
@@ -137,7 +140,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_028257.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_014339.6" other_name="NM_014339.6" other_id="NM_014339.6" other_start="1" other_end="8608">
         <mapping_span lrg_start="4999" lrg_end="5269" other_start="1" other_end="271" strand="1" />
         <mapping_span lrg_start="17102" lrg_end="17126" other_start="272" other_end="296" strand="1" />
@@ -172,7 +175,7 @@
           <db_xref source="GI" accession="327180727" />
           <transcript source="RefSeq" accession="NM_014339.6" fixed_id="t1">
             <coordinates coord_system="LRG_355" start="4999" end="35734" strand="1" />
-            <long_name>interleukin 17 receptor A</long_name>
+            <long_name>interleukin 17 receptor A, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="23765" />
             <db_xref source="GI" accession="411147377" />
             <exon source="RefSeq" accession="">
@@ -216,7 +219,7 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_055154.3" fixed_id="p1">
               <coordinates coord_system="LRG_355" start="5132" end="29860" strand="1" />
-              <long_name>interleukin-17 receptor A precursor</long_name>
+              <long_name>interleukin-17 receptor A isoform 1 precursor</long_name>
               <long_name>IL-17 receptor A</long_name>
               <db_xref source="CCDS" accession="CCDS13739.1" />
               <db_xref source="GeneID" accession="23765" />
@@ -275,8 +278,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000319363.6" other_name="ENST00000319363.6" other_id="ENST00000319363.6" other_start="1" other_end="8607">
         <mapping_span lrg_start="4999" lrg_end="5269" other_start="1" other_end="271" strand="1" />
         <mapping_span lrg_start="17102" lrg_end="17126" other_start="272" other_end="296" strand="1" />
@@ -303,10 +306,31 @@
         <mapping_span lrg_start="20395" lrg_end="20509" other_start="537" other_end="651" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000273442">
+          <symbol source="Clone_based_vega_gene" name="AC006946.17" />
+          <coordinates coord_system="LRG_355" start="741" end="1496" strand="1" mapped_from="GRCh37" />
+          <long_name>AC006946.17 (lincRNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000273442" />
+          <transcript source="Ensembl" accession="ENST00000609791">
+            <coordinates coord_system="LRG_355" start="741" end="1496" strand="1" mapped_from="GRCh37" />
+            <long_name>AC006946.17-001 (lincRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00003708397">
+              <coordinates coord_system="LRG_355" start="741" end="1496" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000177663">
           <symbol source="HGNC" name="IL17RA" />
           <coordinates coord_system="LRG_355" start="4994" end="35733" strand="1" mapped_from="GRCh37" />
           <long_name>interleukin 17 receptor A (protein_coding)</long_name>
+          <db_xref source="MIM" accession="605461" />
+          <db_xref source="HGNC" accession="5985">
+            <synonym>CD217</synonym>
+            <synonym>CDw217</synonym>
+            <synonym>hIL-17R</synonym>
+            <synonym>IL-17RA</synonym>
+            <synonym>IL17R</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="23765">
             <synonym>CANDF5</synonym>
             <synonym>CD217</synonym>
@@ -315,14 +339,6 @@
             <synonym>IL-17RA</synonym>
             <synonym>IL17R</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="5985">
-            <synonym>CD217</synonym>
-            <synonym>CDw217</synonym>
-            <synonym>hIL-17R</synonym>
-            <synonym>IL-17RA</synonym>
-            <synonym>IL17R</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="605461" />
           <db_xref source="Ensembl" accession="ENSG00000177663" />
           <transcript source="Ensembl" accession="ENST00000477874">
             <coordinates coord_system="LRG_355" start="4994" end="20509" strand="1" mapped_from="GRCh37" />
@@ -344,7 +360,7 @@
             <coordinates coord_system="LRG_355" start="4999" end="35733" strand="1" mapped_from="GRCh37" />
             <long_name>IL17RA-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS13739.1" />
-            <db_xref source="RefSeq" accession="NM_014339.5" />
+            <db_xref source="RefSeq" accession="NM_014339.6" />
             <exon source="Ensembl" accession="ENSE00001240049">
               <coordinates coord_system="LRG_355" start="4999" end="5269" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -387,11 +403,11 @@
             <protein_product source="Ensembl" accession="ENSP00000320936">
               <coordinates coord_system="LRG_355" start="5132" end="29860" strand="1" mapped_from="GRCh37" />
               <long_name>interleukin-17 receptor A precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_055154.3" />
               <db_xref source="UniProtKB" accession="Q96F46">
                 <synonym>O43844</synonym>
                 <synonym>Q20WK1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_055154.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000459971">
@@ -423,8 +439,8 @@
           <coordinates coord_system="LRG_355" start="36339" end="37734" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>cat eye syndrome chromosome region, candidate 6 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="27439" />
           <db_xref source="HGNC" accession="1844" />
+          <db_xref source="GeneID" accession="27439" />
           <db_xref source="Ensembl" accession="ENSG00000183307" />
           <transcript source="Ensembl" accession="ENST00000399875">
             <coordinates coord_system="LRG_355" start="36339" end="37734" strand="-1" mapped_from="GRCh37" />
@@ -456,7 +472,7 @@
         <name>List of locus specific databases for IL17RA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/IL17RA</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

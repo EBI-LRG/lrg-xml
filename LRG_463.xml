@@ -125,9 +125,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-24</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_start="14009014" other_end="14048205">
         <mapping_span lrg_start="1" lrg_end="39192" other_start="14009014" other_end="14048205" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="16" other_id="NC_000016.10" other_start="13915157" other_end="13954348">
+        <mapping_span lrg_start="1" lrg_end="39192" other_start="13915157" other_end="13954348" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">ERCC4</lrg_locus>
     </annotation_set>
@@ -142,7 +145,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011442.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_005236.2" other_name="NM_005236.2" other_id="NM_005236.2" other_start="1" other_end="6761">
         <mapping_span lrg_start="5001" lrg_end="5216" other_start="1" other_end="216" strand="1" />
         <mapping_span lrg_start="6875" lrg_end="7055" other_start="217" other_end="397" strand="1" />
@@ -235,8 +238,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-24</modification_date>
       <mapping coord_system="ENST00000311895.7" other_name="ENST00000311895.7" other_id="ENST00000311895.7" other_start="1" other_end="6758">
         <mapping_span lrg_start="5001" lrg_end="5216" other_start="1" other_end="216" strand="1" />
         <mapping_span lrg_start="6875" lrg_end="7055" other_start="217" other_end="397" strand="1" />
@@ -297,18 +300,18 @@
           <symbol source="HGNC" name="ERCC4" />
           <coordinates coord_system="LRG_463" start="5001" end="37189" strand="1" mapped_from="GRCh37" />
           <long_name>excision repair cross-complementing rodent repair deficiency, complementation group 4 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="133520" />
+          <db_xref source="HGNC" accession="3436">
+            <synonym>FANCQ</synonym>
+            <synonym>RAD1</synonym>
+            <synonym>XPF</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2072">
             <synonym>ERCC11</synonym>
             <synonym>FANCQ</synonym>
             <synonym>RAD1</synonym>
             <synonym>XPF</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3436">
-            <synonym>FANCQ</synonym>
-            <synonym>RAD1</synonym>
-            <synonym>XPF</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="133520" />
           <db_xref source="Ensembl" accession="ENSG00000175595" />
           <transcript source="Ensembl" accession="ENST00000575156">
             <coordinates coord_system="LRG_463" start="5001" end="18091" strand="1" mapped_from="GRCh37" />
@@ -376,12 +379,12 @@
             <protein_product source="Ensembl" accession="ENSP00000310520">
               <coordinates coord_system="LRG_463" start="5010" end="33191" strand="1" mapped_from="GRCh37" />
               <long_name>DNA repair endonuclease XPF</long_name>
-              <db_xref source="RefSeq" accession="NP_005227.1" />
               <db_xref source="UniProtKB" accession="Q92889">
                 <synonym>A8K111</synonym>
                 <synonym>O00140</synonym>
                 <synonym>Q8TD83</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_005227.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000576348">
@@ -540,7 +543,7 @@
         <name>List of locus specific databases for ERCC4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ERCC4</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-24</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

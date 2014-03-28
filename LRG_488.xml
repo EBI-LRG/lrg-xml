@@ -216,9 +216,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="29413640" other_end="30149432">
         <mapping_span lrg_start="1" lrg_end="735793" other_start="29413640" other_end="30149432" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="29190774" other_end="29926566">
+        <mapping_span lrg_start="1" lrg_end="735793" other_start="29190774" other_end="29926566" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">ALK</lrg_locus>
     </annotation_set>
@@ -233,7 +236,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009445.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_004304.3" other_name="NM_004304.3" other_id="NM_004304.3" other_start="1" other_end="6220">
         <mapping_span lrg_start="5001" lrg_end="6574" other_start="1" other_end="1574" strand="1" />
         <mapping_span lrg_start="208870" lrg_end="208989" other_start="1575" other_end="1694" strand="1" />
@@ -425,8 +428,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000389048.3" other_name="ENST00000389048.3" other_id="ENST00000389048.3" other_start="1" other_end="6220">
         <mapping_span lrg_start="5001" lrg_end="6574" other_start="1" other_end="1574" strand="1" />
         <mapping_span lrg_start="208870" lrg_end="208989" other_start="1575" other_end="1694" strand="1" />
@@ -482,14 +485,14 @@
           <symbol source="HGNC" name="ALK" />
           <coordinates coord_system="LRG_488" start="5001" end="733793" strand="1" mapped_from="GRCh37" />
           <long_name>anaplastic lymphoma receptor tyrosine kinase (protein_coding)</long_name>
+          <db_xref source="MIM" accession="105590" />
+          <db_xref source="HGNC" accession="427">
+            <synonym>CD246</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="238">
             <synonym>CD246</synonym>
             <synonym>NBLST3</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="427">
-            <synonym>CD246</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="105590" />
           <db_xref source="Ensembl" accession="ENSG00000171094" />
           <transcript source="Ensembl" accession="ENST00000389048">
             <coordinates coord_system="LRG_488" start="5001" end="733793" strand="1" mapped_from="GRCh37" />
@@ -586,7 +589,6 @@
             <protein_product source="Ensembl" accession="ENSP00000373700">
               <coordinates coord_system="LRG_488" start="5908" end="733343" strand="1" mapped_from="GRCh37" />
               <long_name>ALK tyrosine kinase receptor precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_004295.2" />
               <db_xref source="UniProtKB" accession="Q9UM73">
                 <synonym>Q4ZFX9</synonym>
                 <synonym>Q53QQ6</synonym>
@@ -594,6 +596,7 @@
                 <synonym>Q59FI3</synonym>
                 <synonym>Q9Y4K6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004295.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000431873">
@@ -690,8 +693,8 @@
           <symbol source="HGNC" name="RN7SL516P" />
           <coordinates coord_system="LRG_488" start="245244" end="245538" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, 7SL, cytoplasmic 516, pseudogene (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="46532" />
           <db_xref source="RFAM" accession="RF00017" />
+          <db_xref source="HGNC" accession="46532" />
           <db_xref source="Ensembl" accession="ENSG00000242699" />
           <transcript source="Ensembl" accession="ENST00000496127">
             <coordinates coord_system="LRG_488" start="245244" end="245538" strand="1" mapped_from="GRCh37" />
@@ -721,7 +724,7 @@
         <name>List of locus specific databases for ALK</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ALK</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

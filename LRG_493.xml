@@ -117,9 +117,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="8" other_id="NC_000008.10" other_start="118804729" other_end="119129058">
         <mapping_span lrg_start="1" lrg_end="324330" other_start="118804729" other_end="119129058" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="8" other_id="NC_000008.11" other_start="117792490" other_end="118116819">
+        <mapping_span lrg_start="1" lrg_end="324330" other_start="117792490" other_end="118116819" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">EXT1</lrg_locus>
     </annotation_set>
@@ -134,7 +137,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007455.2</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000127.2" other_name="NM_000127.2" other_id="NM_000127.2" other_start="1" other_end="3363">
         <mapping_span lrg_start="5001" lrg_end="6735" other_start="1" other_end="1735" strand="1" />
         <mapping_span lrg_start="279619" lrg_end="279712" other_start="1736" other_end="1829" strand="1" />
@@ -231,8 +234,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000378204.2" other_name="ENST00000378204.2" other_id="ENST00000378204.2" other_start="1" other_end="8270">
         <mapping_span lrg_start="4967" lrg_end="6735" other_start="1" other_end="1769" strand="1" />
         <mapping_span lrg_start="279619" lrg_end="279712" other_start="1770" other_end="1863" strand="1" />
@@ -270,6 +273,12 @@
           <symbol source="HGNC" name="EXT1" />
           <coordinates coord_system="LRG_493" start="4967" end="322330" strand="1" mapped_from="GRCh37" />
           <long_name>exostosin glycosyltransferase 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="608177" />
+          <db_xref source="HGNC" accession="3512">
+            <synonym>LGCR</synonym>
+            <synonym>LGS</synonym>
+            <synonym>ttv</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2131">
             <synonym>EXT</synonym>
             <synonym>LGCR</synonym>
@@ -277,12 +286,6 @@
             <synonym>TRPS2</synonym>
             <synonym>TTV</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3512">
-            <synonym>LGCR</synonym>
-            <synonym>LGS</synonym>
-            <synonym>ttv</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="608177" />
           <db_xref source="Ensembl" accession="ENSG00000182197" />
           <transcript source="Ensembl" accession="ENST00000378204">
             <coordinates coord_system="LRG_493" start="4967" end="322330" strand="1" mapped_from="GRCh37" />
@@ -325,11 +328,11 @@
             <protein_product source="Ensembl" accession="ENSP00000367446">
               <coordinates coord_system="LRG_493" start="5774" end="317108" strand="1" mapped_from="GRCh37" />
               <long_name>exostosin-1</long_name>
-              <db_xref source="RefSeq" accession="NP_000118.2" />
               <db_xref source="UniProtKB" accession="Q16394">
                 <synonym>B2R7V2</synonym>
                 <synonym>Q9BVI9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000118.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000437196">
@@ -399,7 +402,7 @@
         <name>List of locus specific databases for EXT1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/EXT1</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

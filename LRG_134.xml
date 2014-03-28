@@ -97,9 +97,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_start="90745288" other_end="90777542">
         <mapping_span lrg_start="1" lrg_end="32255" other_start="90745288" other_end="90777542" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="10" other_id="NC_000010.11" other_start="88985531" other_end="89017785">
+        <mapping_span lrg_start="1" lrg_end="32255" other_start="88985531" other_end="89017785" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">FAS</lrg_locus>
     </annotation_set>
@@ -114,7 +117,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009089.2</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000043.4" other_name="NM_000043.4" other_id="NM_000043.4" other_start="1" other_end="2689">
         <mapping_span lrg_start="5001" lrg_end="5376" other_start="1" other_end="376" strand="1" />
         <mapping_span lrg_start="17499" lrg_end="17664" other_start="377" other_end="542" strand="1" />
@@ -215,6 +218,7 @@
             <synonym>CD95</synonym>
             <synonym>FAS1</synonym>
             <synonym>FASTM</synonym>
+            <synonym>RP11-399O19.9</synonym>
             <synonym>TNFRSF6</synonym>
           </symbol>
           <coordinates coord_system="LRG_134" start="5001" end="30255" strand="1" />
@@ -272,6 +276,7 @@
               <long_name>Delta Fas/APO-1/CD95</long_name>
               <long_name>Fas (TNF receptor superfamily, member 6)</long_name>
               <long_name>TNF receptor superfamily member 6</long_name>
+              <long_name>FAS receptor variant 9</long_name>
               <db_xref source="CCDS" accession="CCDS7393.1" />
               <db_xref source="GeneID" accession="355" />
               <db_xref source="GI" accession="4507583" />
@@ -384,8 +389,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000313771.5" other_name="ENST00000313771.5" other_id="ENST00000313771.5" other_start="1" other_end="1044">
         <mapping_span lrg_start="5758" lrg_end="6096" other_start="1" other_end="339" strand="1" />
         <mapping_span lrg_start="17499" lrg_end="17664" other_start="340" other_end="505" strand="1" />
@@ -536,15 +541,15 @@
           <coordinates coord_system="LRG_134" start="1" end="5860" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>actin, alpha 2, smooth muscle, aorta (protein_coding)</long_name>
+          <db_xref source="MIM" accession="102620" />
+          <db_xref source="HGNC" accession="130">
+            <synonym>ACTSA</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="59">
             <synonym>AAT6</synonym>
             <synonym>ACTSA</synonym>
             <synonym>MYMY5</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="130">
-            <synonym>ACTSA</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="102620" />
           <db_xref source="Ensembl" accession="ENSG00000107796" />
           <transcript source="Ensembl" accession="ENST00000458159">
             <coordinates coord_system="LRG_134" start="1" end="5758" strand="-1" mapped_from="GRCh37" />
@@ -577,6 +582,14 @@
           <symbol source="HGNC" name="FAS" />
           <coordinates coord_system="LRG_134" start="5127" end="30255" strand="1" mapped_from="GRCh37" />
           <long_name>Fas cell surface death receptor (protein_coding)</long_name>
+          <db_xref source="MIM" accession="134637" />
+          <db_xref source="HGNC" accession="11920">
+            <synonym>APO-1</synonym>
+            <synonym>APT1</synonym>
+            <synonym>CD95</synonym>
+            <synonym>FAS1</synonym>
+            <synonym>TNFRSF6</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="355">
             <synonym>ALPS1A</synonym>
             <synonym>APO-1</synonym>
@@ -586,14 +599,6 @@
             <synonym>FASTM</synonym>
             <synonym>TNFRSF6</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11920">
-            <synonym>APO-1</synonym>
-            <synonym>APT1</synonym>
-            <synonym>CD95</synonym>
-            <synonym>FAS1</synonym>
-            <synonym>TNFRSF6</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="134637" />
           <db_xref source="Ensembl" accession="ENSG00000026103" />
           <transcript source="Ensembl" accession="ENST00000355740">
             <coordinates coord_system="LRG_134" start="5127" end="30255" strand="1" mapped_from="GRCh37" />
@@ -631,10 +636,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000347979">
               <coordinates coord_system="LRG_134" start="5347" end="28920" strand="1" mapped_from="GRCh37" />
-              <long_name>tumor necrosis factor receptor superfamily member 6 isoform 1 precursor, tumor necrosis factor receptor superfamily member 6 isoform 2 precursor, tumor necrosis factor receptor superfamily member 6 isoform 3 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000034.1" />
-              <db_xref source="RefSeq" accession="NP_690610.1" />
-              <db_xref source="RefSeq" accession="NP_690611.1" />
+              <long_name>tumor necrosis factor receptor superfamily member 6 isoform 2 precursor, tumor necrosis factor receptor superfamily member 6 isoform 3 precursor, tumor necrosis factor receptor superfamily member 6 isoform 1 precursor</long_name>
               <db_xref source="UniProtKB" accession="P25445">
                 <synonym>A9UJX4</synonym>
                 <synonym>B6VNV4</synonym>
@@ -648,6 +650,9 @@
                 <synonym>Q5T9P3</synonym>
                 <synonym>Q6SSE9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_690610.1" />
+              <db_xref source="RefSeq" accession="NP_690611.1" />
+              <db_xref source="RefSeq" accession="NP_000034.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000352159">
@@ -1138,13 +1143,13 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000261438">
-          <symbol source="Clone_based_vega_gene" name="RP11-399O19.8" />
+          <symbol source="Clone_based_vega_gene" name="RP11-399O19.9" />
           <coordinates coord_system="LRG_134" start="30306" end="31529" strand="1" mapped_from="GRCh37" />
-          <long_name>RP11-399O19.8 (sense_overlapping)</long_name>
+          <long_name>RP11-399O19.9 (sense_overlapping)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000261438" />
           <transcript source="Ensembl" accession="ENST00000562983">
             <coordinates coord_system="LRG_134" start="30306" end="31529" strand="1" mapped_from="GRCh37" />
-            <long_name>RP11-399O19.8-001 (sense_overlapping)</long_name>
+            <long_name>RP11-399O19.9-001 (sense_overlapping)</long_name>
             <exon source="Ensembl" accession="ENSE00002601294">
               <coordinates coord_system="LRG_134" start="30306" end="31529" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -1157,7 +1162,7 @@
         <name>List of locus specific databases for FAS</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FAS</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

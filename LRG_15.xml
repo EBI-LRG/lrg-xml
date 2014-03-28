@@ -102,9 +102,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="15" other_id="NC_000015.9" other_start="25580396" other_end="25689128">
         <mapping_span lrg_start="1" lrg_end="108733" other_start="25580396" other_end="25689128" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="15" other_id="NC_000015.10" other_start="25335249" other_end="25443981">
+        <mapping_span lrg_start="1" lrg_end="108733" other_start="25335249" other_end="25443981" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">UBE3A</lrg_locus>
     </annotation_set>
@@ -119,7 +122,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009268.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000462.3" other_name="NM_000462.3" other_id="NM_000462.3" other_start="1" other_end="5276">
         <mapping_span lrg_start="4954" lrg_end="5493" other_start="1" other_end="540" strand="1" />
         <mapping_span lrg_start="32011" lrg_end="32074" other_start="541" other_end="604" strand="1" />
@@ -351,8 +354,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000232165.3" other_name="ENST00000232165.3" other_id="ENST00000232165.3" other_start="1" other_end="5179">
         <mapping_span lrg_start="5001" lrg_end="5493" other_start="1" other_end="493" strand="1" />
         <mapping_span lrg_start="32011" lrg_end="32074" other_start="494" other_end="557" strand="1" />
@@ -435,13 +438,7 @@
           <symbol source="HGNC" name="UBE3A" />
           <coordinates coord_system="LRG_15" start="5001" end="106748" strand="1" mapped_from="GRCh37" />
           <long_name>ubiquitin protein ligase E3A (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="7337">
-            <synonym>ANCR</synonym>
-            <synonym>AS</synonym>
-            <synonym>E6-AP</synonym>
-            <synonym>EPVE6AP</synonym>
-            <synonym>HPVE6A</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="601623" />
           <db_xref source="HGNC" accession="12496">
             <synonym>ANCR</synonym>
             <synonym>AS</synonym>
@@ -450,7 +447,13 @@
             <synonym>FLJ26981</synonym>
             <synonym>HPVE6A</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="601623" />
+          <db_xref source="GeneID" accession="7337">
+            <synonym>ANCR</synonym>
+            <synonym>AS</synonym>
+            <synonym>E6-AP</synonym>
+            <synonym>EPVE6AP</synonym>
+            <synonym>HPVE6A</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000114062" />
           <transcript source="Ensembl" accession="ENST00000232165">
             <coordinates coord_system="LRG_15" start="5001" end="106748" strand="1" mapped_from="GRCh37" />
@@ -499,9 +502,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000232165">
               <coordinates coord_system="LRG_15" start="34875" end="104845" strand="1" mapped_from="GRCh37" />
-              <long_name>ubiquitin-protein ligase E3A isoform 3, ubiquitin-protein ligase E3A isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_570854.1" />
-              <db_xref source="RefSeq" accession="NP_000453.2" />
+              <long_name>ubiquitin-protein ligase E3A isoform 2, ubiquitin-protein ligase E3A isoform 3</long_name>
               <db_xref source="UniProtKB" accession="Q05086">
                 <synonym>A8K8Z9</synonym>
                 <synonym>P78355</synonym>
@@ -513,6 +514,8 @@
                 <synonym>Q9UEP8</synonym>
                 <synonym>Q9UEP9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000453.2" />
+              <db_xref source="RefSeq" accession="NP_570854.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000566215">
@@ -724,7 +727,6 @@
             <protein_product source="Ensembl" accession="ENSP00000411258">
               <coordinates coord_system="LRG_15" start="38520" end="104845" strand="1" mapped_from="GRCh37" />
               <long_name>ubiquitin-protein ligase E3A isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_570853.1" />
               <db_xref source="UniProtKB" accession="Q05086">
                 <synonym>A8K8Z9</synonym>
                 <synonym>P78355</synonym>
@@ -736,6 +738,7 @@
                 <synonym>Q9UEP8</synonym>
                 <synonym>Q9UEP9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_570853.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000604860">
@@ -763,35 +766,42 @@
           <coordinates coord_system="LRG_15" start="24520" end="108733" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>small nucleolar RNA host gene 14 (non-protein coding) (processed_transcript)</long_name>
-          <db_xref source="GeneID" accession="91380">
-            <synonym>HBII-436</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="100033416">
-            <synonym>HBII-85-4</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="100033433">
-            <synonym>HBII-85-22</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="100033444">
-            <synonym>HBII-52-7</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="100033450">
-            <synonym>HBII-52-13</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="100033802">
-            <synonym>HBII-52-26</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="100033820">
-            <synonym>HBII-85-28</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="100506948" />
+          <db_xref source="RFAM" accession="RF01164" />
+          <db_xref source="RFAM" accession="RF00108" />
+          <db_xref source="RFAM" accession="RF00105" />
+          <db_xref source="MIM" accession="601491" />
           <db_xref source="HGNC" accession="37462">
             <synonym>NCRNA00214</synonym>
             <synonym>UBE3A-AS1</synonym>
           </db_xref>
-          <db_xref source="RFAM" accession="RF00105" />
-          <db_xref source="RFAM" accession="RF00108" />
-          <db_xref source="RFAM" accession="RF01164" />
+          <db_xref source="GeneID" accession="101930404" />
+          <db_xref source="GeneID" accession="100033820">
+            <synonym>HBII-85-28</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="100033802">
+            <synonym>HBII-52-26</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="100033450">
+            <synonym>HBII-52-13</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="100033444">
+            <synonym>HBII-52-7</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="100033433">
+            <synonym>HBII-85-22</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="100033416">
+            <synonym>HBII-85-4</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="347746">
+            <synonym>PAR-SN</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="91380">
+            <synonym>HBII-436</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="3653">
+            <synonym>NCRNA00002</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000224078" />
           <transcript source="Ensembl" accession="ENST00000554726">
             <coordinates coord_system="LRG_15" start="24520" end="108733" strand="-1" mapped_from="GRCh37" />
@@ -840,7 +850,7 @@
         <name>List of locus specific databases for UBE3A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/UBE3A</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

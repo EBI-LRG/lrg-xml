@@ -118,9 +118,29 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-12</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="Xp11.23-11.22" other_id="NW_004070880.2" other_start="1487865" other_end="1509254">
+        <mapping_span lrg_start="1" lrg_end="21392" other_start="1487865" other_end="1509254" strand="-1">
+          <diff type="lrg_ins" lrg_start="3268" lrg_end="3268" other_start="1505987" other_end="1505988" lrg_sequence="T" other_sequence="-" />
+          <diff type="mismatch" lrg_start="4979" lrg_end="4979" other_start="1504277" other_end="1504277" lrg_sequence="C" other_sequence="T" />
+          <diff type="lrg_ins" lrg_start="5320" lrg_end="5322" other_start="1503936" other_end="1503937" lrg_sequence="ATA" other_sequence="-" />
+          <diff type="lrg_ins" lrg_start="6657" lrg_end="6658" other_start="1502602" other_end="1502603" lrg_sequence="TT" other_sequence="-" />
+          <diff type="mismatch" lrg_start="8048" lrg_end="8048" other_start="1501213" other_end="1501213" lrg_sequence="A" other_sequence="C" />
+          <diff type="other_ins" lrg_start="13607" lrg_end="13608" other_start="1495650" other_end="1495653" lrg_sequence="-" other_sequence="CTCT" />
+        </mapping_span>
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="49104897" other_end="49126288">
         <mapping_span lrg_start="1" lrg_end="21392" other_start="49104897" other_end="49126288" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="X" other_id="NC_000023.11" other_start="49248436" other_end="49269825">
+        <mapping_span lrg_start="1" lrg_end="21392" other_start="49248436" other_end="49269825" strand="-1">
+          <diff type="lrg_ins" lrg_start="3268" lrg_end="3268" other_start="49266558" other_end="49266559" lrg_sequence="T" other_sequence="-" />
+          <diff type="mismatch" lrg_start="4979" lrg_end="4979" other_start="49264848" other_end="49264848" lrg_sequence="C" other_sequence="T" />
+          <diff type="lrg_ins" lrg_start="5320" lrg_end="5322" other_start="49264507" other_end="49264508" lrg_sequence="ATA" other_sequence="-" />
+          <diff type="lrg_ins" lrg_start="6657" lrg_end="6658" other_start="49263173" other_end="49263174" lrg_sequence="TT" other_sequence="-" />
+          <diff type="mismatch" lrg_start="8048" lrg_end="8048" other_start="49261784" other_end="49261784" lrg_sequence="A" other_sequence="C" />
+          <diff type="other_ins" lrg_start="13607" lrg_end="13608" other_start="49256221" other_end="49256224" lrg_sequence="-" other_sequence="CTCT" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">FOXP3</lrg_locus>
     </annotation_set>
@@ -135,7 +155,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007392.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001114377.1" other_name="NM_001114377.1" other_id="NM_001114377.1" other_start="1" other_end="2277">
         <mapping_span lrg_start="5001" lrg_end="5166" other_start="1" other_end="166" strand="1" />
         <mapping_span lrg_start="11305" lrg_end="11536" other_start="167" other_end="398" strand="1" />
@@ -343,8 +363,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000376197.1" other_name="ENST00000376197.1" other_id="ENST00000376197.1" other_start="1" other_end="1326">
         <mapping_span lrg_start="10592" lrg_end="10607" other_start="1" other_end="16" strand="1" />
         <mapping_span lrg_start="11388" lrg_end="11536" other_start="17" other_end="165" strand="1" />
@@ -424,13 +444,7 @@
           <symbol source="HGNC" name="FOXP3" />
           <coordinates coord_system="LRG_62" start="5001" end="19392" strand="1" mapped_from="GRCh37" />
           <long_name>forkhead box P3 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="50943">
-            <synonym>AIID</synonym>
-            <synonym>DIETER</synonym>
-            <synonym>IPEX</synonym>
-            <synonym>PIDX</synonym>
-            <synonym>XPID</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="300292" />
           <db_xref source="HGNC" accession="6106">
             <synonym>AIID</synonym>
             <synonym>DIETER</synonym>
@@ -440,7 +454,13 @@
             <synonym>SCURFIN</synonym>
             <synonym>XPID</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="300292" />
+          <db_xref source="GeneID" accession="50943">
+            <synonym>AIID</synonym>
+            <synonym>DIETER</synonym>
+            <synonym>IPEX</synonym>
+            <synonym>PIDX</synonym>
+            <synonym>XPID</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000049768" />
           <transcript source="Ensembl" accession="ENST00000376207">
             <coordinates coord_system="LRG_62" start="5001" end="19392" strand="1" mapped_from="GRCh37" />
@@ -486,14 +506,15 @@
             <protein_product source="Ensembl" accession="ENSP00000365380">
               <coordinates coord_system="LRG_62" start="11327" end="18494" strand="1" mapped_from="GRCh37" />
               <long_name>forkhead box protein P3 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_054728.2" />
               <db_xref source="UniProtKB" accession="Q9BZS1">
                 <synonym>A5HJT1</synonym>
                 <synonym>B7ZLG0</synonym>
+                <synonym>B9UN80</synonym>
                 <synonym>O60827</synonym>
                 <synonym>Q14DD8</synonym>
                 <synonym>Q4ZH51</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_054728.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000376199">
@@ -537,14 +558,15 @@
             <protein_product source="Ensembl" accession="ENSP00000365372">
               <coordinates coord_system="LRG_62" start="11327" end="18494" strand="1" mapped_from="GRCh37" />
               <long_name>forkhead box protein P3 isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_001107849.1" />
               <db_xref source="UniProtKB" accession="Q9BZS1">
                 <synonym>A5HJT1</synonym>
                 <synonym>B7ZLG0</synonym>
+                <synonym>B9UN80</synonym>
                 <synonym>O60827</synonym>
                 <synonym>Q14DD8</synonym>
                 <synonym>Q4ZH51</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001107849.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000376197">
@@ -585,6 +607,7 @@
               <db_xref source="UniProtKB" accession="Q9BZS1">
                 <synonym>A5HJT1</synonym>
                 <synonym>B7ZLG0</synonym>
+                <synonym>B9UN80</synonym>
                 <synonym>O60827</synonym>
                 <synonym>Q14DD8</synonym>
                 <synonym>Q4ZH51</synonym>
@@ -630,6 +653,7 @@
               <db_xref source="UniProtKB" accession="Q9BZS1">
                 <synonym>A5HJT1</synonym>
                 <synonym>B7ZLG0</synonym>
+                <synonym>B9UN80</synonym>
                 <synonym>O60827</synonym>
                 <synonym>Q14DD8</synonym>
                 <synonym>Q4ZH51</synonym>
@@ -671,6 +695,7 @@
               <db_xref source="UniProtKB" accession="Q9BZS1">
                 <synonym>A5HJT1</synonym>
                 <synonym>B7ZLG0</synonym>
+                <synonym>B9UN80</synonym>
                 <synonym>O60827</synonym>
                 <synonym>Q14DD8</synonym>
                 <synonym>Q4ZH51</synonym>
@@ -712,6 +737,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000396415">
               <coordinates coord_system="LRG_62" start="11327" end="18494" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q9BZS1">
+                <synonym>A5HJT1</synonym>
+                <synonym>B7ZLG0</synonym>
+                <synonym>B9UN80</synonym>
+                <synonym>O60827</synonym>
+                <synonym>Q14DD8</synonym>
+                <synonym>Q4ZH51</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
         </gene>
@@ -720,14 +753,14 @@
           <coordinates coord_system="LRG_62" start="19302" end="21392" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>coiled-coil domain containing 22 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="28952">
-            <synonym>CXorf37</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="300859" />
           <db_xref source="HGNC" accession="28909">
             <synonym>CXorf37</synonym>
             <synonym>JM1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="300859" />
+          <db_xref source="GeneID" accession="28952">
+            <synonym>CXorf37</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000101997" />
           <transcript source="Ensembl" accession="ENST00000376227">
             <coordinates coord_system="LRG_62" start="19302" end="21392" strand="-1" mapped_from="GRCh37" />
@@ -761,26 +794,11 @@
               <coordinates coord_system="LRG_62" start="19567" end="21392" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>coiled-coil domain-containing protein 22</long_name>
-              <db_xref source="RefSeq" accession="NP_054727.1" />
               <db_xref source="UniProtKB" accession="O60826">
                 <synonym>A8K7G1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_054727.1" />
             </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000492334">
-            <coordinates coord_system="LRG_62" start="19313" end="21392" strand="-1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>CCDC22-004 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00003644942">
-              <coordinates coord_system="LRG_62" start="21305" end="21392" strand="-1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001901972">
-              <coordinates coord_system="LRG_62" start="21136" end="21195" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001854897">
-              <coordinates coord_system="LRG_62" start="19313" end="19458" strand="-1" mapped_from="GRCh37" />
-            </exon>
           </transcript>
         </gene>
       </features>
@@ -790,7 +808,7 @@
         <name>List of locus specific databases for FOXP3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FOXP3</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

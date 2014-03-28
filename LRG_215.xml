@@ -117,9 +117,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="47567302" other_end="47616167">
         <mapping_span lrg_start="1" lrg_end="48866" other_start="47567302" other_end="47616167" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="47340163" other_end="47389028">
+        <mapping_span lrg_start="1" lrg_end="48866" other_start="47340163" other_end="47389028" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">EPCAM</lrg_locus>
     </annotation_set>
@@ -134,7 +137,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012352.2</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_002354.2" other_name="NM_002354.2" other_id="NM_002354.2" other_start="1" other_end="1718">
         <mapping_span lrg_start="28986" lrg_end="29419" other_start="1" other_end="434" strand="1" />
         <mapping_span lrg_start="33301" lrg_end="33408" other_start="435" other_end="542" strand="1" />
@@ -250,8 +253,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000263735.4" other_name="ENST00000263735.4" other_id="ENST00000263735.4" other_start="1" other_end="1724">
         <mapping_span lrg_start="28986" lrg_end="29419" other_start="1" other_end="434" strand="1" />
         <mapping_span lrg_start="33301" lrg_end="33408" other_start="435" other_end="542" strand="1" />
@@ -312,6 +315,7 @@
           <coordinates coord_system="LRG_215" start="1" end="4912" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>AC073283.4 (lincRNA)</long_name>
+          <db_xref source="GeneID" accession="101927043" />
           <db_xref source="Ensembl" accession="ENSG00000234690" />
           <transcript source="Ensembl" accession="ENST00000448713">
             <coordinates coord_system="LRG_215" start="1" end="4827" strand="-1" mapped_from="GRCh37" />
@@ -325,6 +329,7 @@
             <coordinates coord_system="LRG_215" start="1" end="4912" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>AC073283.4-005 (lincRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_110208.1" />
             <exon source="Ensembl" accession="ENSE00001735365">
               <coordinates coord_system="LRG_215" start="4739" end="4912" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -333,6 +338,7 @@
             <coordinates coord_system="LRG_215" start="1" end="4804" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>AC073283.4-001 (lincRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_110207.1" />
             <exon source="Ensembl" accession="ENSE00001592216">
               <coordinates coord_system="LRG_215" start="4739" end="4804" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -359,19 +365,19 @@
           <coordinates coord_system="LRG_215" start="1" end="4355" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>brain cytoplasmic RNA 1 (lincRNA)</long_name>
-          <db_xref source="GeneID" accession="618">
-            <synonym>BC200</synonym>
-            <synonym>BC200a</synonym>
-            <synonym>LINC00004</synonym>
-            <synonym>NCRNA00004</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606089" />
           <db_xref source="HGNC" accession="1022">
             <synonym>BC200</synonym>
             <synonym>BC200a</synonym>
             <synonym>LINC00004</synonym>
             <synonym>NCRNA00004</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="606089" />
+          <db_xref source="GeneID" accession="618">
+            <synonym>BC200</synonym>
+            <synonym>BC200a</synonym>
+            <synonym>LINC00004</synonym>
+            <synonym>NCRNA00004</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000236824" />
           <transcript source="Ensembl" accession="ENST00000418539">
             <coordinates coord_system="LRG_215" start="1" end="4355" strand="1" mapped_from="GRCh37" />
@@ -388,20 +394,8 @@
           <symbol source="HGNC" name="EPCAM" />
           <coordinates coord_system="LRG_215" start="4996" end="47439" strand="1" mapped_from="GRCh37" />
           <long_name>epithelial cell adhesion molecule (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4072">
-            <synonym>DIAR5</synonym>
-            <synonym>EGP-2</synonym>
-            <synonym>EGP314</synonym>
-            <synonym>EGP40</synonym>
-            <synonym>ESA</synonym>
-            <synonym>HNPCC8</synonym>
-            <synonym>KS1/4</synonym>
-            <synonym>KSA</synonym>
-            <synonym>M4S1</synonym>
-            <synonym>MIC18</synonym>
-            <synonym>MK-1</synonym>
-            <synonym>TACSTD1</synonym>
-            <synonym>TROP1</synonym>
+          <db_xref source="MIM" accession="185535">
+            <synonym>600718</synonym>
           </db_xref>
           <db_xref source="HGNC" accession="11529">
             <synonym>17-1A</synonym>
@@ -427,8 +421,20 @@
             <synonym>TACSTD1</synonym>
             <synonym>TROP1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="185535">
-            <synonym>600718</synonym>
+          <db_xref source="GeneID" accession="4072">
+            <synonym>DIAR5</synonym>
+            <synonym>EGP-2</synonym>
+            <synonym>EGP314</synonym>
+            <synonym>EGP40</synonym>
+            <synonym>ESA</synonym>
+            <synonym>HNPCC8</synonym>
+            <synonym>KS1/4</synonym>
+            <synonym>KSA</synonym>
+            <synonym>M4S1</synonym>
+            <synonym>MIC18</synonym>
+            <synonym>MK-1</synonym>
+            <synonym>TACSTD1</synonym>
+            <synonym>TROP1</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000119888" />
           <transcript source="Ensembl" accession="ENST00000405271">
@@ -543,7 +549,6 @@
             <protein_product source="Ensembl" accession="ENSP00000263735">
               <coordinates coord_system="LRG_215" start="29344" end="46451" strand="1" mapped_from="GRCh37" />
               <long_name>epithelial cell adhesion molecule precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_002345.2" />
               <db_xref source="UniProtKB" accession="P16422">
                 <synonym>P18180</synonym>
                 <synonym>Q6FG26</synonym>
@@ -551,6 +556,7 @@
                 <synonym>Q96C47</synonym>
                 <synonym>Q9UCD0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002345.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000474691">
@@ -609,8 +615,8 @@
           <symbol source="HGNC" name="RN7SKP119" />
           <coordinates coord_system="LRG_215" start="19343" end="19615" strand="-1" mapped_from="GRCh37" />
           <long_name>RNA, 7SK small nuclear pseudogene 119 (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="45843" />
           <db_xref source="RFAM" accession="RF00100" />
+          <db_xref source="HGNC" accession="45843" />
           <db_xref source="Ensembl" accession="ENSG00000222685" />
           <transcript source="Ensembl" accession="ENST00000410753">
             <coordinates coord_system="LRG_215" start="19343" end="19615" strand="-1" mapped_from="GRCh37" />
@@ -624,15 +630,15 @@
           <symbol source="HGNC" name="MIR559" />
           <coordinates coord_system="LRG_215" start="37513" end="37608" strand="1" mapped_from="GRCh37" />
           <long_name>microRNA 559 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="693144">
-            <synonym>hsa-mir-559</synonym>
-            <synonym>MIRN559</synonym>
-          </db_xref>
+          <db_xref source="miRBase" accession="MI0003565" />
           <db_xref source="HGNC" accession="32815">
             <synonym>hsa-mir-559</synonym>
             <synonym>MIRN559</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0003565" />
+          <db_xref source="GeneID" accession="693144">
+            <synonym>hsa-mir-559</synonym>
+            <synonym>MIRN559</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000207923" />
           <transcript source="Ensembl" accession="ENST00000385188">
             <coordinates coord_system="LRG_215" start="37513" end="37608" strand="1" mapped_from="GRCh37" />
@@ -650,7 +656,7 @@
         <name>List of locus specific databases for EPCAM</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/EPCAM</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

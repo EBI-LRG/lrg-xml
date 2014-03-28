@@ -86,9 +86,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="100435191" other_end="100464691">
         <mapping_span lrg_start="1" lrg_end="29501" other_start="100435191" other_end="100464691" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="9" other_id="NC_000009.12" other_start="97672909" other_end="97702409">
+        <mapping_span lrg_start="1" lrg_end="29501" other_start="97672909" other_end="97702409" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">XPA</lrg_locus>
     </annotation_set>
@@ -103,7 +106,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011642.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000380.3" other_name="NM_000380.3" other_id="NM_000380.3" other_start="1" other_end="1469">
         <mapping_span lrg_start="5001" lrg_end="5289" other_start="1" other_end="289" strand="1" />
         <mapping_span lrg_start="8651" lrg_end="8761" other_start="290" other_end="400" strand="1" />
@@ -133,6 +136,7 @@
         </gene>
         <gene source="NCBI-Gene" accession="7507">
           <symbol source="HGNC" name="XPA">
+            <synonym>RP11-244N9.4</synonym>
             <synonym>XP1</synonym>
             <synonym>XPAC</synonym>
           </symbol>
@@ -171,6 +175,7 @@
               <long_name>DNA repair protein complementing XP-A cells</long_name>
               <long_name>excision repair-controlling</long_name>
               <long_name>xeroderma pigmentosum group A-complementing protein</long_name>
+              <long_name>mutant xeroderma pigmentosum complementation group A</long_name>
               <db_xref source="CCDS" accession="CCDS6729.1" />
               <db_xref source="GeneID" accession="7507" />
               <db_xref source="GI" accession="4507937" />
@@ -213,8 +218,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000375128.4" other_name="ENST00000375128.4" other_id="ENST00000375128.4" other_start="1" other_end="1417">
         <mapping_span lrg_start="5053" lrg_end="5289" other_start="1" other_end="237" strand="1" />
         <mapping_span lrg_start="8651" lrg_end="8761" other_start="238" other_end="348" strand="1" />
@@ -279,15 +284,15 @@
           <symbol source="HGNC" name="XPA" />
           <coordinates coord_system="LRG_471" start="5053" end="27501" strand="1" mapped_from="GRCh37" />
           <long_name>xeroderma pigmentosum, complementation group A (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="7507">
-            <synonym>XP1</synonym>
-            <synonym>XPAC</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="611153" />
           <db_xref source="HGNC" accession="12814">
             <synonym>XP1</synonym>
             <synonym>XPAC</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="611153" />
+          <db_xref source="GeneID" accession="7507">
+            <synonym>XP1</synonym>
+            <synonym>XPAC</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000136936" />
           <transcript source="Ensembl" accession="ENST00000375128">
             <coordinates coord_system="LRG_471" start="5053" end="27501" strand="1" mapped_from="GRCh37" />
@@ -315,12 +320,12 @@
             <protein_product source="Ensembl" accession="ENSP00000364270">
               <coordinates coord_system="LRG_471" start="5118" end="26971" strand="1" mapped_from="GRCh37" />
               <long_name>DNA repair protein complementing XP-A cells</long_name>
-              <db_xref source="RefSeq" accession="NP_000371.1" />
               <db_xref source="UniProtKB" accession="P23025">
                 <synonym>Q5T1U9</synonym>
                 <synonym>Q6LCW7</synonym>
                 <synonym>Q6LD02</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000371.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000496104">
@@ -383,17 +388,17 @@
           <coordinates coord_system="LRG_471" start="28662" end="29501" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>nuclear cap binding protein subunit 1, 80kDa (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4686">
-            <synonym>CBP80</synonym>
-            <synonym>NCBP</synonym>
-            <synonym>Sto1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="600469" />
           <db_xref source="HGNC" accession="7658">
             <synonym>CBP80</synonym>
             <synonym>NCBP</synonym>
             <synonym>Sto1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="600469" />
+          <db_xref source="GeneID" accession="4686">
+            <synonym>CBP80</synonym>
+            <synonym>NCBP</synonym>
+            <synonym>Sto1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000136937" />
           <transcript source="Ensembl" accession="ENST00000375147">
             <coordinates coord_system="LRG_471" start="28662" end="29501" strand="-1" mapped_from="GRCh37" />
@@ -422,7 +427,7 @@
         <name>List of locus specific databases for XPA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/XPA</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

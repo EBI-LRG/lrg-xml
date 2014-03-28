@@ -104,9 +104,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="220278099" other_end="220293461">
         <mapping_span lrg_start="1" lrg_end="15363" other_start="220278099" other_end="220293461" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="219413377" other_end="219428739">
+        <mapping_span lrg_start="1" lrg_end="15363" other_start="219413377" other_end="219428739" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">DES</lrg_locus>
     </annotation_set>
@@ -121,7 +124,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008043.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001927.3" other_name="NM_001927.3" other_id="NM_001927.3" other_start="1" other_end="2248">
         <mapping_span lrg_start="5001" lrg_end="5664" other_start="1" other_end="664" strand="1" />
         <mapping_span lrg_start="6719" lrg_end="6779" other_start="665" other_end="725" strand="1" />
@@ -183,6 +186,7 @@
               <coordinates coord_system="LRG_380" start="5087" end="12614" strand="1" />
               <long_name>desmin</long_name>
               <long_name>intermediate filament protein</long_name>
+              <long_name>mutant desmin p.K241E</long_name>
               <db_xref source="CCDS" accession="CCDS33383.1" />
               <db_xref source="GeneID" accession="1674" />
               <db_xref source="GI" accession="55749932" />
@@ -201,8 +205,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000373960.3" other_name="ENST00000373960.3" other_id="ENST00000373960.3" other_start="1" other_end="2248">
         <mapping_span lrg_start="5001" lrg_end="5664" other_start="1" other_end="664" strand="1" />
         <mapping_span lrg_start="6719" lrg_end="6779" other_start="665" other_end="725" strand="1" />
@@ -239,16 +243,17 @@
           <symbol source="HGNC" name="DES" />
           <coordinates coord_system="LRG_380" start="5001" end="13363" strand="1" mapped_from="GRCh37" />
           <long_name>desmin (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="1674">
-            <synonym>CSM1</synonym>
-            <synonym>CSM2</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="125660" />
           <db_xref source="HGNC" accession="2770">
             <synonym>CMD1I</synonym>
             <synonym>CSM1</synonym>
             <synonym>CSM2</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="125660" />
+          <db_xref source="GeneID" accession="1674">
+            <synonym>CSM1</synonym>
+            <synonym>CSM2</synonym>
+            <synonym>LGMD2R</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000175084" />
           <transcript source="Ensembl" accession="ENST00000373960">
             <coordinates coord_system="LRG_380" start="5001" end="13363" strand="1" mapped_from="GRCh37" />
@@ -285,7 +290,6 @@
             <protein_product source="Ensembl" accession="ENSP00000363071">
               <coordinates coord_system="LRG_380" start="5087" end="12614" strand="1" mapped_from="GRCh37" />
               <long_name>desmin</long_name>
-              <db_xref source="RefSeq" accession="NP_001918.3" />
               <db_xref source="UniProtKB" accession="P17661">
                 <synonym>Q15787</synonym>
                 <synonym>Q549R7</synonym>
@@ -301,6 +305,7 @@
                 <synonym>Q9UHN5</synonym>
                 <synonym>Q9UJ80</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001918.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000477226">
@@ -381,7 +386,7 @@
         <name>List of locus specific databases for DES</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DES</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

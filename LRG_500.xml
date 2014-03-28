@@ -276,11 +276,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="15" other_id="NC_000015.9" other_start="89782194" other_end="89862362">
         <mapping_span lrg_start="1" lrg_end="80169" other_start="89782194" other_end="89862362" strand="1">
           <diff type="mismatch" lrg_start="56043" lrg_end="56043" other_start="89838236" other_end="89838236" lrg_sequence="A" other_sequence="G" />
         </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="15" other_id="NC_000015.10" other_start="89238963" other_end="89319131">
+        <mapping_span lrg_start="1" lrg_end="80169" other_start="89238963" other_end="89319131" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">FANCI</lrg_locus>
     </annotation_set>
@@ -295,7 +298,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011736.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001113378.1" other_name="NM_001113378.1" other_id="NM_001113378.1" other_start="1" other_end="4749">
         <mapping_span lrg_start="5001" lrg_end="5071" other_start="1" other_end="71" strand="1" />
         <mapping_span lrg_start="8667" lrg_end="8769" other_start="72" other_end="174" strand="1" />
@@ -732,8 +735,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000300027.8" other_name="ENST00000300027.8" other_id="ENST00000300027.8" other_start="1" other_end="4713">
         <mapping_span lrg_start="4987" lrg_end="5071" other_start="1" other_end="85" strand="1" />
         <mapping_span lrg_start="8667" lrg_end="8769" other_start="86" other_end="188" strand="1" />
@@ -1021,14 +1024,14 @@
           <symbol source="HGNC" name="FANCI" />
           <coordinates coord_system="LRG_500" start="4987" end="78299" strand="1" mapped_from="GRCh37" />
           <long_name>Fanconi anemia, complementation group I (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="55215">
-            <synonym>KIAA1794</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="611360" />
           <db_xref source="HGNC" accession="25568">
             <synonym>FLJ10719</synonym>
             <synonym>KIAA1794</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="611360" />
+          <db_xref source="GeneID" accession="55215">
+            <synonym>KIAA1794</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000140525" />
           <transcript source="Ensembl" accession="ENST00000300027">
             <coordinates coord_system="LRG_500" start="4987" end="78299" strand="1" mapped_from="GRCh37" />
@@ -1149,7 +1152,6 @@
             <protein_product source="Ensembl" accession="ENSP00000300027">
               <coordinates coord_system="LRG_500" start="8686" end="77497" strand="1" mapped_from="GRCh37" />
               <long_name>Fanconi anemia group I protein isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_060663.2" />
               <db_xref source="UniProtKB" accession="Q9NVI1">
                 <synonym>A4ZVE4</synonym>
                 <synonym>A5YMH4</synonym>
@@ -1158,6 +1160,7 @@
                 <synonym>Q96ST0</synonym>
                 <synonym>Q9BT96</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_060663.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000310775">
@@ -1282,7 +1285,6 @@
             <protein_product source="Ensembl" accession="ENSP00000310842">
               <coordinates coord_system="LRG_500" start="8686" end="77497" strand="1" mapped_from="GRCh37" />
               <long_name>Fanconi anemia group I protein isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001106849.1" />
               <db_xref source="UniProtKB" accession="Q9NVI1">
                 <synonym>A4ZVE4</synonym>
                 <synonym>A5YMH4</synonym>
@@ -1291,6 +1293,7 @@
                 <synonym>Q96ST0</synonym>
                 <synonym>Q9BT96</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001106849.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000568670">
@@ -1907,6 +1910,11 @@
           <coordinates coord_system="LRG_500" start="77341" end="80169" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>polymerase (DNA directed), gamma (protein_coding)</long_name>
+          <db_xref source="MIM" accession="174763" />
+          <db_xref source="HGNC" accession="9179">
+            <synonym>POLG1</synonym>
+            <synonym>POLGA</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5428">
             <synonym>MDP1</synonym>
             <synonym>MIRAS</synonym>
@@ -1918,11 +1926,6 @@
             <synonym>SANDO</synonym>
             <synonym>SCAE</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9179">
-            <synonym>POLG1</synonym>
-            <synonym>POLGA</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="174763" />
           <db_xref source="Ensembl" accession="ENSG00000140521" />
           <transcript source="Ensembl" accession="ENST00000268124">
             <coordinates coord_system="LRG_500" start="77341" end="80169" strand="-1" mapped_from="GRCh37" />
@@ -1947,12 +1950,12 @@
               <coordinates coord_system="LRG_500" start="77789" end="80169" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>DNA polymerase subunit gamma-1, DNA polymerase subunit gamma-1</long_name>
-              <db_xref source="RefSeq" accession="NP_002684.1" />
-              <db_xref source="RefSeq" accession="NP_001119603.1" />
               <db_xref source="UniProtKB" accession="P54098">
                 <synonym>Q8NFM2</synonym>
                 <synonym>Q92515</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002684.1" />
+              <db_xref source="RefSeq" accession="NP_001119603.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000442287">
@@ -2023,7 +2026,7 @@
         <name>List of locus specific databases for FANCI</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FANCI</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

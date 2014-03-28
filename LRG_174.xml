@@ -161,9 +161,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="18" other_id="NC_000018.9" other_start="2914992" other_end="3016945">
         <mapping_span lrg_start="1" lrg_end="101954" other_start="2914992" other_end="3016945" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="18" other_id="NC_000018.10" other_start="2914994" other_end="3016947">
+        <mapping_span lrg_start="1" lrg_end="101954" other_start="2914994" other_end="3016947" strand="-1">
+          <diff type="mismatch" lrg_start="34129" lrg_end="34129" other_start="2982819" other_end="2982819" lrg_sequence="G" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">LPIN2</lrg_locus>
     </annotation_set>
@@ -178,7 +183,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007507.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_014646.2" other_name="NM_014646.2" other_id="NM_014646.2" other_start="1" other_end="6229">
         <mapping_span lrg_start="5001" lrg_end="5230" other_start="1" other_end="230" strand="1" />
         <mapping_span lrg_start="56099" lrg_end="56299" other_start="231" other_end="431" strand="1" />
@@ -313,8 +318,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000261596.4" other_name="ENST00000261596.4" other_id="ENST00000261596.4" other_start="1" other_end="6229">
         <mapping_span lrg_start="5001" lrg_end="5230" other_start="1" other_end="230" strand="1" />
         <mapping_span lrg_start="56099" lrg_end="56299" other_start="231" other_end="431" strand="1" />
@@ -350,7 +355,9 @@
         <mapping_span lrg_start="76236" lrg_end="76343" other_start="829" other_end="936" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000584915.1" other_name="ENST00000584915.1" other_id="ENST00000584915.1" other_start="1" other_end="491">
-        <mapping_span lrg_start="34075" lrg_end="34280" other_start="1" other_end="206" strand="1" />
+        <mapping_span lrg_start="34075" lrg_end="34280" other_start="1" other_end="206" strand="1">
+          <diff type="mismatch" lrg_start="34129" lrg_end="34129" other_start="53" other_end="53" lrg_sequence="G" other_sequence="T" />
+        </mapping_span>
         <mapping_span lrg_start="56099" lrg_end="56299" other_start="207" other_end="407" strand="1" />
         <mapping_span lrg_start="62349" lrg_end="62432" other_start="408" other_end="491" strand="1" />
       </mapping>
@@ -359,11 +366,11 @@
           <symbol source="HGNC" name="LPIN2" />
           <coordinates coord_system="LRG_174" start="3633" end="99954" strand="1" mapped_from="GRCh37" />
           <long_name>lipin 2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="9663" />
+          <db_xref source="MIM" accession="605519" />
           <db_xref source="HGNC" accession="14450">
             <synonym>KIAA0249</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="605519" />
+          <db_xref source="GeneID" accession="9663" />
           <db_xref source="Ensembl" accession="ENSG00000101577" />
           <transcript source="Ensembl" accession="ENST00000584294">
             <coordinates coord_system="LRG_174" start="3633" end="76343" strand="1" mapped_from="GRCh37" />
@@ -455,11 +462,11 @@
             <protein_product source="Ensembl" accession="ENSP00000261596">
               <coordinates coord_system="LRG_174" start="56108" end="96655" strand="1" mapped_from="GRCh37" />
               <long_name>phosphatidate phosphatase LPIN2</long_name>
-              <db_xref source="RefSeq" accession="NP_055461.1" />
               <db_xref source="UniProtKB" accession="Q92539">
                 <synonym>A7MD25</synonym>
                 <synonym>D3DUH3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_055461.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000584915">
@@ -579,20 +586,33 @@
             </exon>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000272625">
+          <symbol source="Clone_based_vega_gene" name="RP11-737O24.5" />
+          <coordinates coord_system="LRG_174" start="95263" end="95982" strand="-1" mapped_from="GRCh37" />
+          <long_name>RP11-737O24.5 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000272625" />
+          <transcript source="Ensembl" accession="ENST00000608032">
+            <coordinates coord_system="LRG_174" start="95263" end="95982" strand="-1" mapped_from="GRCh37" />
+            <long_name>RP11-737O24.5-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00003707145">
+              <coordinates coord_system="LRG_174" start="95263" end="95982" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000132205">
           <symbol source="HGNC" name="EMILIN2" />
           <coordinates coord_system="LRG_174" start="100955" end="101954" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>elastin microfibril interfacer 2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="84034">
-            <synonym>EMILIN-2</synonym>
-            <synonym>FOAP-10</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="608928" />
           <db_xref source="HGNC" accession="19881">
             <synonym>FLJ33200</synonym>
             <synonym>FOAP-10</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="608928" />
+          <db_xref source="GeneID" accession="84034">
+            <synonym>EMILIN-2</synonym>
+            <synonym>FOAP-10</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000132205" />
           <transcript source="Ensembl" accession="ENST00000254528">
             <coordinates coord_system="LRG_174" start="100955" end="101954" strand="-1" mapped_from="GRCh37" />
@@ -613,7 +633,7 @@
         <name>List of locus specific databases for LPIN2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/LPIN2</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

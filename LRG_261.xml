@@ -366,9 +366,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="156780542" other_end="156853642">
         <mapping_span lrg_start="1" lrg_end="73101" other_start="156780542" other_end="156853642" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="156810750" other_end="156883850">
+        <mapping_span lrg_start="1" lrg_end="73101" other_start="156810750" other_end="156883850" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">NTRK1</lrg_locus>
     </annotation_set>
@@ -383,7 +386,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007493.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001007792.1" other_name="NM_001007792.1" other_id="NM_001007792.1" other_start="1" other_end="2571">
         <mapping_span lrg_start="5001" lrg_end="5089" other_start="1" other_end="89" strand="1" />
         <mapping_span lrg_start="31332" lrg_end="31444" other_start="90" other_end="202" strand="1" />
@@ -490,42 +493,6 @@
               <db_xref source="GI" accession="239787758" />
             </protein_product>
           </transcript>
-          <transcript source="RefSeq" accession="NM_003975.3">
-            <coordinates coord_system="LRG_261" start="3099" end="6099" strand="-1" />
-            <partial>3-prime</partial>
-            <long_name>SH2 domain containing 2A, transcript variant 2</long_name>
-            <db_xref source="GeneID" accession="9047" />
-            <db_xref source="GI" accession="239787749" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_261" start="5926" end="6099" strand="-1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_261" start="5257" end="5345" strand="-1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_261" start="4288" end="4472" strand="-1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_261" start="3456" end="3545" strand="-1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_261" start="3099" end="3267" strand="-1" />
-              <partial>3-prime</partial>
-            </exon>
-            <protein_product source="RefSeq" accession="NP_003966.2" codon_start="1">
-              <coordinates coord_system="LRG_261" start="3099" end="5959" strand="-1" />
-              <partial>3-prime</partial>
-              <long_name>SH2 domain-containing protein 2A isoform 2</long_name>
-              <long_name>T lymphocyte specific adaptor protein</long_name>
-              <long_name>SH2 domain protein 2A</long_name>
-              <long_name>VEGF receptor-associated protein</long_name>
-              <long_name>SH2 domain-containing protein 2A</long_name>
-              <long_name>T cell specific adapter protein TSAd</long_name>
-              <db_xref source="CCDS" accession="CCDS1159.1" />
-              <db_xref source="GeneID" accession="9047" />
-              <db_xref source="GI" accession="239787750" />
-            </protein_product>
-          </transcript>
           <transcript source="RefSeq" accession="NM_001161444.1">
             <coordinates coord_system="LRG_261" start="3099" end="6099" strand="-1" />
             <partial>3-prime</partial>
@@ -560,6 +527,42 @@
               <db_xref source="CCDS" accession="CCDS1159.1" />
               <db_xref source="GeneID" accession="9047" />
               <db_xref source="GI" accession="239787783" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_003975.3">
+            <coordinates coord_system="LRG_261" start="3099" end="6099" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>SH2 domain containing 2A, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="9047" />
+            <db_xref source="GI" accession="239787749" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_261" start="5926" end="6099" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_261" start="5257" end="5345" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_261" start="4288" end="4472" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_261" start="3456" end="3545" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_261" start="3099" end="3267" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_003966.2" codon_start="1">
+              <coordinates coord_system="LRG_261" start="3099" end="5959" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>SH2 domain-containing protein 2A isoform 2</long_name>
+              <long_name>T lymphocyte specific adaptor protein</long_name>
+              <long_name>SH2 domain protein 2A</long_name>
+              <long_name>VEGF receptor-associated protein</long_name>
+              <long_name>SH2 domain-containing protein 2A</long_name>
+              <long_name>T cell specific adapter protein TSAd</long_name>
+              <db_xref source="CCDS" accession="CCDS1159.1" />
+              <db_xref source="GeneID" accession="9047" />
+              <db_xref source="GI" accession="239787750" />
             </protein_product>
           </transcript>
           <transcript source="RefSeq" accession="NM_001161441.1">
@@ -960,8 +963,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000358660.3" other_name="ENST00000358660.3" other_id="ENST00000358660.3" other_start="1" other_end="2492">
         <mapping_span lrg_start="50145" lrg_end="50397" other_start="1" other_end="253" strand="1" />
         <mapping_span lrg_start="53605" lrg_end="53679" other_start="254" other_end="328" strand="1" />
@@ -1100,17 +1103,17 @@
           <coordinates coord_system="LRG_261" start="1" end="6113" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>SH2 domain containing 2A (protein_coding)</long_name>
+          <db_xref source="MIM" accession="604514" />
+          <db_xref source="HGNC" accession="10821">
+            <synonym>F2771</synonym>
+            <synonym>TSAd</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="9047">
             <synonym>F2771</synonym>
             <synonym>SCAP</synonym>
             <synonym>TSAD</synonym>
             <synonym>VRAP</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="10821">
-            <synonym>F2771</synonym>
-            <synonym>TSAd</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="604514" />
           <db_xref source="Ensembl" accession="ENSG00000027869" />
           <transcript source="Ensembl" accession="ENST00000368198">
             <coordinates coord_system="LRG_261" start="1" end="6085" strand="-1" mapped_from="GRCh37" />
@@ -1137,7 +1140,6 @@
               <coordinates coord_system="LRG_261" start="1" end="5936" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>SH2 domain-containing protein 2A isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001154914.1" />
               <db_xref source="UniProtKB" accession="Q9NP31">
                 <synonym>O43817</synonym>
                 <synonym>Q5UBZ1</synonym>
@@ -1145,6 +1147,7 @@
                 <synonym>Q5VZS5</synonym>
                 <synonym>Q9UPA7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001154914.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000368199">
@@ -1173,10 +1176,7 @@
             <protein_product source="Ensembl" accession="ENSP00000357182">
               <coordinates coord_system="LRG_261" start="1" end="5959" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>SH2 domain-containing protein 2A isoform 2, SH2 domain-containing protein 2A isoform 2, SH2 domain-containing protein 2A isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_001154916.1" />
-              <db_xref source="RefSeq" accession="NP_003966.2" />
-              <db_xref source="RefSeq" accession="NP_001154915.1" />
+              <long_name>SH2 domain-containing protein 2A isoform 4, SH2 domain-containing protein 2A isoform 2, SH2 domain-containing protein 2A isoform 2</long_name>
               <db_xref source="UniProtKB" accession="Q9NP31">
                 <synonym>O43817</synonym>
                 <synonym>Q5UBZ1</synonym>
@@ -1184,6 +1184,9 @@
                 <synonym>Q5VZS5</synonym>
                 <synonym>Q9UPA7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001154915.1" />
+              <db_xref source="RefSeq" accession="NP_003966.2" />
+              <db_xref source="RefSeq" accession="NP_001154916.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000468744">
@@ -1233,7 +1236,6 @@
               <coordinates coord_system="LRG_261" start="1" end="5959" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>SH2 domain-containing protein 2A isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001154913.1" />
               <db_xref source="UniProtKB" accession="Q9NP31">
                 <synonym>O43817</synonym>
                 <synonym>Q5UBZ1</synonym>
@@ -1241,6 +1243,7 @@
                 <synonym>Q5VZS5</synonym>
                 <synonym>Q9UPA7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001154913.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000495306">
@@ -1261,6 +1264,15 @@
           <symbol source="HGNC" name="NTRK1" />
           <coordinates coord_system="LRG_261" start="4891" end="71101" strand="1" mapped_from="GRCh37" />
           <long_name>neurotrophic tyrosine kinase, receptor, type 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="164970" />
+          <db_xref source="MIM" accession="191315">
+            <synonym>164970</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="8031">
+            <synonym>MTC</synonym>
+            <synonym>TRK</synonym>
+            <synonym>TRKA</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4914">
             <synonym>MTC</synonym>
             <synonym>p140-TrkA</synonym>
@@ -1269,15 +1281,6 @@
             <synonym>TRK1</synonym>
             <synonym>TRKA</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="8031">
-            <synonym>MTC</synonym>
-            <synonym>TRK</synonym>
-            <synonym>TRKA</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="191315">
-            <synonym>164970</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="164970" />
           <db_xref source="Ensembl" accession="ENSG00000198400" />
           <transcript source="Ensembl" accession="ENST00000489021">
             <coordinates coord_system="LRG_261" start="4891" end="63141" strand="1" mapped_from="GRCh37" />
@@ -1351,7 +1354,6 @@
             <protein_product source="Ensembl" accession="ENSP00000376120">
               <coordinates coord_system="LRG_261" start="5081" end="70893" strand="1" mapped_from="GRCh37" />
               <long_name>high affinity nerve growth factor receptor isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001007793.1" />
               <db_xref source="UniProtKB" accession="P04629">
                 <synonym>B2R6T5</synonym>
                 <synonym>B7ZM34</synonym>
@@ -1363,6 +1365,7 @@
                 <synonym>Q7Z5C3</synonym>
                 <synonym>Q9UIU7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001007793.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000497019">
@@ -1531,7 +1534,6 @@
             <protein_product source="Ensembl" accession="ENSP00000357179">
               <coordinates coord_system="LRG_261" start="50186" end="70893" strand="1" mapped_from="GRCh37" />
               <long_name>high affinity nerve growth factor receptor isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001012331.1" />
               <db_xref source="UniProtKB" accession="P04629">
                 <synonym>B2R6T5</synonym>
                 <synonym>B7ZM34</synonym>
@@ -1543,6 +1545,7 @@
                 <synonym>Q7Z5C3</synonym>
                 <synonym>Q9UIU7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001012331.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000524377">
@@ -1604,7 +1607,6 @@
             <protein_product source="Ensembl" accession="ENSP00000431418">
               <coordinates coord_system="LRG_261" start="50186" end="70893" strand="1" mapped_from="GRCh37" />
               <long_name>high affinity nerve growth factor receptor isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_002520.2" />
               <db_xref source="UniProtKB" accession="P04629">
                 <synonym>B2R6T5</synonym>
                 <synonym>B7ZM34</synonym>
@@ -1616,6 +1618,7 @@
                 <synonym>Q7Z5C3</synonym>
                 <synonym>Q9UIU7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002520.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000358660">
@@ -1720,13 +1723,13 @@
           <symbol source="HGNC" name="INSRR" />
           <coordinates coord_system="LRG_261" start="29314" end="48269" strand="-1" mapped_from="GRCh37" />
           <long_name>insulin receptor-related receptor (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3645">
-            <synonym>IRR</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="147671" />
           <db_xref source="HGNC" accession="6093">
             <synonym>IRR</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="147671" />
+          <db_xref source="GeneID" accession="3645">
+            <synonym>IRR</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000027644" />
           <transcript source="Ensembl" accession="ENST00000368195">
             <coordinates coord_system="LRG_261" start="29314" end="48269" strand="-1" mapped_from="GRCh37" />
@@ -1802,11 +1805,11 @@
             <protein_product source="Ensembl" accession="ENSP00000357178">
               <coordinates coord_system="LRG_261" start="30124" end="47872" strand="-1" mapped_from="GRCh37" />
               <long_name>insulin receptor-related protein precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_055030.1" />
               <db_xref source="UniProtKB" accession="P14616">
                 <synonym>O60724</synonym>
                 <synonym>Q5VZS3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_055030.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -1817,7 +1820,7 @@
         <name>List of locus specific databases for NTRK1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NTRK1</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

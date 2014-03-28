@@ -143,9 +143,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="193086088" other_end="193225945">
         <mapping_span lrg_start="1" lrg_end="139858" other_start="193086088" other_end="193225945" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="193116958" other_end="193256815">
+        <mapping_span lrg_start="1" lrg_end="139858" other_start="193116958" other_end="193256815" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">CDC73</lrg_locus>
     </annotation_set>
@@ -160,7 +163,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012691.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_024529.4" other_name="NM_024529.4" other_id="NM_024529.4" other_start="1" other_end="5942">
         <mapping_span lrg_start="5001" lrg_end="5374" other_start="1" other_end="374" strand="1" />
         <mapping_span lrg_start="8155" lrg_end="8260" other_start="375" other_end="480" strand="1" />
@@ -184,7 +187,9 @@
         <gene source="NCBI-Gene" accession="79577">
           <symbol source="HGNC" name="CDC73">
             <synonym>C1orf28</synonym>
+            <synonym>FIHP</synonym>
             <synonym>HPTJT</synonym>
+            <synonym>HRPT1</synonym>
             <synonym>HRPT2</synonym>
             <synonym>HYX</synonym>
           </symbol>
@@ -258,6 +263,7 @@
               <long_name>cell division cycle protein 73 homolog</long_name>
               <long_name>cell division cycle 73, Paf1/RNA polymerase II complex component, homolog</long_name>
               <long_name>Paf1/RNA polymerase II complex component</long_name>
+              <long_name>hyperparathyroidism 1</long_name>
               <db_xref source="CCDS" accession="CCDS1382.1" />
               <db_xref source="GeneID" accession="79577" />
               <db_xref source="GI" accession="40018640" />
@@ -310,8 +316,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000367435.3" other_name="ENST00000367435.3" other_id="ENST00000367435.3" other_start="1" other_end="4969">
         <mapping_span lrg_start="5060" lrg_end="5374" other_start="1" other_end="315" strand="1" />
         <mapping_span lrg_start="8155" lrg_end="8260" other_start="316" other_end="421" strand="1" />
@@ -350,18 +356,18 @@
           <symbol source="HGNC" name="CDC73" />
           <coordinates coord_system="LRG_507" start="5060" end="136944" strand="1" mapped_from="GRCh37" />
           <long_name>cell division cycle 73 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="607393" />
+          <db_xref source="HGNC" accession="16783">
+            <synonym>C1orf28</synonym>
+            <synonym>HRPT2</synonym>
+            <synonym>parafibromin</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="79577">
             <synonym>C1orf28</synonym>
             <synonym>HPTJT</synonym>
             <synonym>HRPT2</synonym>
             <synonym>HYX</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="16783">
-            <synonym>C1orf28</synonym>
-            <synonym>HRPT2</synonym>
-            <synonym>parafibromin</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="607393" />
           <db_xref source="Ensembl" accession="ENSG00000134371" />
           <transcript source="Ensembl" accession="ENST00000367435">
             <coordinates coord_system="LRG_507" start="5060" end="136944" strand="1" mapped_from="GRCh37" />
@@ -422,7 +428,6 @@
             <protein_product source="Ensembl" accession="ENSP00000356405">
               <coordinates coord_system="LRG_507" start="5244" end="133755" strand="1" mapped_from="GRCh37" />
               <long_name>parafibromin</long_name>
-              <db_xref source="RefSeq" accession="NP_078805.3" />
               <db_xref source="UniProtKB" accession="Q6P1J9">
                 <synonym>A6NLZ8</synonym>
                 <synonym>B2RBR2</synonym>
@@ -431,6 +436,7 @@
                 <synonym>Q9H245</synonym>
                 <synonym>Q9H5L7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_078805.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000482484">
@@ -476,15 +482,15 @@
           <symbol source="HGNC" name="MIR1278" />
           <coordinates coord_system="LRG_507" start="19546" end="19626" strand="1" mapped_from="GRCh37" />
           <long_name>microRNA 1278 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="100302163">
-            <synonym>hsa-mir-1278</synonym>
-            <synonym>MIRN1278</synonym>
-          </db_xref>
+          <db_xref source="miRBase" accession="MI0006425" />
           <db_xref source="HGNC" accession="35356">
             <synonym>hsa-mir-1278</synonym>
             <synonym>MIRN1278</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0006425" />
+          <db_xref source="GeneID" accession="100302163">
+            <synonym>hsa-mir-1278</synonym>
+            <synonym>MIRN1278</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000221680" />
           <transcript source="Ensembl" accession="ENST00000408753">
             <coordinates coord_system="LRG_507" start="19546" end="19626" strand="1" mapped_from="GRCh37" />
@@ -499,15 +505,15 @@
           <symbol source="HGNC" name="B3GALT2" />
           <coordinates coord_system="LRG_507" start="62088" end="69697" strand="-1" mapped_from="GRCh37" />
           <long_name>UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="603018" />
+          <db_xref source="HGNC" accession="917">
+            <synonym>beta3Gal-T2</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="8707">
             <synonym>beta3Gal-T2</synonym>
             <synonym>BETA3GALT2</synonym>
             <synonym>GLCT2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="917">
-            <synonym>beta3Gal-T2</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="603018" />
           <db_xref source="Ensembl" accession="ENSG00000162630" />
           <transcript source="Ensembl" accession="ENST00000367434">
             <coordinates coord_system="LRG_507" start="62088" end="69697" strand="-1" mapped_from="GRCh37" />
@@ -523,11 +529,11 @@
             <protein_product source="Ensembl" accession="ENSP00000356404">
               <coordinates coord_system="LRG_507" start="63337" end="64605" strand="-1" mapped_from="GRCh37" />
               <long_name>beta-1,3-galactosyltransferase 2</long_name>
-              <db_xref source="RefSeq" accession="NP_003774.1" />
               <db_xref source="UniProtKB" accession="O43825">
                 <synonym>B2RAB1</synonym>
                 <synonym>Q9BZQ9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003774.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -538,7 +544,7 @@
         <name>List of locus specific databases for CDC73</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CDC73</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

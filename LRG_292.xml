@@ -186,9 +186,23 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="41176312" other_end="41370000">
         <mapping_span lrg_start="1" lrg_end="193689" other_start="41176312" other_end="41370000" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="17" other_id="NC_000017.11" other_start="43024295" other_end="43217981">
+        <mapping_span lrg_start="1" lrg_end="193689" other_start="43024295" other_end="43217981" strand="-1">
+          <diff type="mismatch" lrg_start="2600" lrg_end="2600" other_start="43215382" other_end="43215382" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="5792" lrg_end="5792" other_start="43212190" other_end="43212190" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10412" lrg_end="10412" other_start="43207570" other_end="43207570" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="12846" lrg_end="12846" other_start="43205136" other_end="43205136" lrg_sequence="T" other_sequence="C" />
+          <diff type="lrg_ins" lrg_start="13169" lrg_end="13170" other_start="43204813" other_end="43204814" lrg_sequence="TT" other_sequence="-" />
+          <diff type="other_ins" lrg_start="15459" lrg_end="15460" other_start="43202524" other_end="43202524" lrg_sequence="-" other_sequence="T" />
+          <diff type="lrg_ins" lrg_start="15804" lrg_end="15804" other_start="43202179" other_end="43202180" lrg_sequence="T" other_sequence="-" />
+          <diff type="mismatch" lrg_start="16533" lrg_end="16533" other_start="43201451" other_end="43201451" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="16890" lrg_end="16890" other_start="43201094" other_end="43201094" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="62516" lrg_end="62516" other_start="43155468" other_end="43155468" lrg_sequence="T" other_sequence="G" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">BRCA1</lrg_locus>
     </annotation_set>
@@ -203,7 +217,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_005905.2</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_007294.3" other_name="NM_007294.3" other_id="NM_007294.3" other_start="1" other_end="7207">
         <mapping_span lrg_start="92501" lrg_end="92713" other_start="1" other_end="213" strand="1" />
         <mapping_span lrg_start="93869" lrg_end="93967" other_start="214" other_end="312" strand="1" />
@@ -389,12 +403,12 @@
           <long_name>transmembrane protein 106A</long_name>
           <db_xref source="GeneID" accession="113277" />
           <db_xref source="HGNC" accession="28288" />
-          <transcript source="RefSeq" accession="NM_145041.1">
+          <transcript source="RefSeq" accession="NM_145041.2">
             <coordinates coord_system="LRG_292" start="1" end="6107" strand="-1" />
             <partial>3-prime</partial>
             <long_name>transmembrane protein 106A</long_name>
             <db_xref source="GeneID" accession="113277" />
-            <db_xref source="GI" accession="21450795" />
+            <db_xref source="GI" accession="574956992" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_292" start="6060" end="6107" strand="-1" />
             </exon>
@@ -423,7 +437,7 @@
               <coordinates coord_system="LRG_292" start="1" end="301" strand="-1" />
               <partial>3-prime</partial>
             </exon>
-            <protein_product source="RefSeq" accession="NP_659478.1" codon_start="1">
+            <protein_product source="RefSeq" accession="NP_659478.1">
               <coordinates coord_system="LRG_292" start="181" end="4940" strand="-1" />
               <long_name>transmembrane protein 106A</long_name>
               <db_xref source="CCDS" accession="CCDS11462.1" />
@@ -1210,6 +1224,7 @@
               <long_name>ras homolog gene family, member N</long_name>
               <long_name>GTP-binding protein Rho7</long_name>
               <long_name>rho-related GTP-binding protein Rho7</long_name>
+              <long_name>CTD-3199J23.4</long_name>
               <db_xref source="CCDS" accession="CCDS11452.1" />
               <db_xref source="GeneID" accession="8153" />
               <db_xref source="GI" accession="4885581" />
@@ -1228,8 +1243,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000309486.4" other_name="ENST00000309486.4" other_id="ENST00000309486.4" other_start="1" other_end="7114">
         <mapping_span lrg_start="92533" lrg_end="92707" other_start="1" other_end="175" strand="1" />
         <mapping_span lrg_start="93869" lrg_end="93967" other_start="176" other_end="274" strand="1" />
@@ -1693,15 +1708,36 @@
         <mapping_span lrg_start="172182" lrg_end="172421" other_start="324" other_end="563" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000236383">
+          <symbol source="HGNC" name="LINC00854" />
+          <coordinates coord_system="LRG_292" start="1" end="1041" strand="1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <long_name>long intergenic non-protein coding RNA 854 (processed_transcript)</long_name>
+          <db_xref source="HGNC" accession="43658">
+            <synonym>TMEM106A-AS1</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="100874261">
+            <synonym>TMEM106A-AS1</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000236383" />
+          <transcript source="Ensembl" accession="ENST00000427995">
+            <coordinates coord_system="LRG_292" start="1" end="1041" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>LINC00854-002 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00001625054">
+              <coordinates coord_system="LRG_292" start="708" end="1041" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000184988">
           <symbol source="HGNC" name="TMEM106A" />
           <coordinates coord_system="LRG_292" start="1" end="6147" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>transmembrane protein 106A (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="113277" />
           <db_xref source="HGNC" accession="28288">
             <synonym>MGC20235</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="113277" />
           <db_xref source="Ensembl" accession="ENSG00000184988" />
           <transcript source="Ensembl" accession="ENST00000588659">
             <coordinates coord_system="LRG_292" start="1" end="6107" strand="-1" mapped_from="GRCh37" />
@@ -1849,10 +1885,10 @@
             <protein_product source="Ensembl" accession="ENSP00000330774">
               <coordinates coord_system="LRG_292" start="181" end="4940" strand="-1" mapped_from="GRCh37" />
               <long_name>transmembrane protein 106A</long_name>
-              <db_xref source="RefSeq" accession="NP_659478.1" />
               <db_xref source="UniProtKB" accession="Q96A25">
                 <synonym>A8K2X2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_659478.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000588693">
@@ -1941,42 +1977,21 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000236383">
-          <symbol source="HGNC" name="LINC00854" />
-          <coordinates coord_system="LRG_292" start="1" end="1041" strand="1" mapped_from="GRCh37" />
-          <partial>5-prime</partial>
-          <long_name>long intergenic non-protein coding RNA 854 (processed_transcript)</long_name>
-          <db_xref source="GeneID" accession="100874261">
-            <synonym>TMEM106A-AS1</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="43658">
-            <synonym>TMEM106A-AS1</synonym>
-          </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000236383" />
-          <transcript source="Ensembl" accession="ENST00000427995">
-            <coordinates coord_system="LRG_292" start="1" end="1041" strand="1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>LINC00854-002 (antisense)</long_name>
-            <exon source="Ensembl" accession="ENSE00001625054">
-              <coordinates coord_system="LRG_292" start="708" end="1041" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000188554">
           <symbol source="HGNC" name="NBR1" />
           <coordinates coord_system="LRG_292" start="6293" end="47503" strand="-1" mapped_from="GRCh37" />
           <long_name>neighbor of BRCA1 gene 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4077">
-            <synonym>1A1-3B</synonym>
-            <synonym>M17S2</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="166945" />
           <db_xref source="HGNC" accession="6746">
             <synonym>1A1-3B</synonym>
             <synonym>CA125</synonym>
             <synonym>KIAA0049</synonym>
             <synonym>M17S2</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="166945" />
+          <db_xref source="GeneID" accession="4077">
+            <synonym>1A1-3B</synonym>
+            <synonym>M17S2</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000188554" />
           <transcript source="Ensembl" accession="ENST00000341165">
             <coordinates coord_system="LRG_292" start="6293" end="47503" strand="-1" mapped_from="GRCh37" />
@@ -2049,7 +2064,6 @@
             <protein_product source="Ensembl" accession="ENSP00000343479">
               <coordinates coord_system="LRG_292" start="7908" end="42184" strand="-1" mapped_from="GRCh37" />
               <long_name>next to BRCA1 gene 1 protein</long_name>
-              <db_xref source="RefSeq" accession="NP_114068.1" />
               <db_xref source="UniProtKB" accession="Q14596">
                 <synonym>Q13173</synonym>
                 <synonym>Q15026</synonym>
@@ -2057,6 +2071,7 @@
                 <synonym>Q96GB6</synonym>
                 <synonym>Q9NRF7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_114068.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000422280">
@@ -2130,7 +2145,6 @@
             <protein_product source="Ensembl" accession="ENSP00000411250">
               <coordinates coord_system="LRG_292" start="7908" end="42184" strand="-1" mapped_from="GRCh37" />
               <long_name>next to BRCA1 gene 1 protein</long_name>
-              <db_xref source="RefSeq" accession="NP_114064.1" />
               <db_xref source="UniProtKB" accession="Q14596">
                 <synonym>Q13173</synonym>
                 <synonym>Q15026</synonym>
@@ -2138,6 +2152,7 @@
                 <synonym>Q96GB6</synonym>
                 <synonym>Q9NRF7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_114064.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000389312">
@@ -2281,7 +2296,6 @@
             <protein_product source="Ensembl" accession="ENSP00000466667">
               <coordinates coord_system="LRG_292" start="7908" end="42184" strand="-1" mapped_from="GRCh37" />
               <long_name>next to BRCA1 gene 1 protein</long_name>
-              <db_xref source="RefSeq" accession="NP_005890.2" />
               <db_xref source="UniProtKB" accession="Q14596">
                 <synonym>Q13173</synonym>
                 <synonym>Q15026</synonym>
@@ -2289,6 +2303,7 @@
                 <synonym>Q96GB6</synonym>
                 <synonym>Q9NRF7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_005890.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000542611">
@@ -2486,6 +2501,7 @@
           <symbol source="Clone_based_vega_gene" name="RP11-242D8.1" />
           <coordinates coord_system="LRG_292" start="47581" end="53801" strand="1" mapped_from="GRCh37" />
           <long_name>RP11-242D8.1 (lincRNA)</long_name>
+          <db_xref source="GeneID" accession="101929767" />
           <db_xref source="Ensembl" accession="ENSG00000267002" />
           <transcript source="Ensembl" accession="ENST00000590740">
             <coordinates coord_system="LRG_292" start="47581" end="53801" strand="1" mapped_from="GRCh37" />
@@ -2531,10 +2547,10 @@
           <symbol source="HGNC" name="NBR2" />
           <coordinates coord_system="LRG_292" start="64313" end="92374" strand="-1" mapped_from="GRCh37" />
           <long_name>neighbor of BRCA1 gene 2 (non-protein coding) (pseudogene)</long_name>
-          <db_xref source="GeneID" accession="10230">
+          <db_xref source="HGNC" accession="20691">
             <synonym>NCRNA00192</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="20691">
+          <db_xref source="GeneID" accession="10230">
             <synonym>NCRNA00192</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000198496" />
@@ -2627,6 +2643,12 @@
           <symbol source="HGNC" name="BRCA1" />
           <coordinates coord_system="LRG_292" start="92501" end="173689" strand="1" mapped_from="GRCh37" />
           <long_name>breast cancer 1, early onset (protein_coding)</long_name>
+          <db_xref source="MIM" accession="113705" />
+          <db_xref source="HGNC" accession="1100">
+            <synonym>BRCC1</synonym>
+            <synonym>PPP1R53</synonym>
+            <synonym>RNF53</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="672">
             <synonym>BRCAI</synonym>
             <synonym>BRCC1</synonym>
@@ -2637,12 +2659,6 @@
             <synonym>PSCP</synonym>
             <synonym>RNF53</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1100">
-            <synonym>BRCC1</synonym>
-            <synonym>PPP1R53</synonym>
-            <synonym>RNF53</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="113705" />
           <db_xref source="Ensembl" accession="ENSG00000012048" />
           <transcript source="Ensembl" accession="ENST00000471181">
             <coordinates coord_system="LRG_292" start="92501" end="172355" strand="1" mapped_from="GRCh37" />
@@ -2942,7 +2958,6 @@
             <protein_product source="Ensembl" accession="ENSP00000417148">
               <coordinates coord_system="LRG_292" start="93888" end="172200" strand="1" mapped_from="GRCh37" />
               <long_name>breast cancer type 1 susceptibility protein isoform 5</long_name>
-              <db_xref source="RefSeq" accession="NP_009230.2" />
               <db_xref source="UniProtKB" accession="P38398">
                 <synonym>O15129</synonym>
                 <synonym>Q3LRJ0</synonym>
@@ -2950,6 +2965,7 @@
                 <synonym>Q6IN79</synonym>
                 <synonym>Q7KYU9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_009230.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000346315">
@@ -3338,7 +3354,6 @@
             <protein_product source="Ensembl" accession="ENSP00000350283">
               <coordinates coord_system="LRG_292" start="93888" end="172306" strand="1" mapped_from="GRCh37" />
               <long_name>breast cancer type 1 susceptibility protein isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_009225.1" />
               <db_xref source="UniProtKB" accession="P38398">
                 <synonym>O15129</synonym>
                 <synonym>Q3LRJ0</synonym>
@@ -3346,6 +3361,7 @@
                 <synonym>Q6IN79</synonym>
                 <synonym>Q7KYU9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_009225.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000461798">
@@ -3374,6 +3390,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000417988">
               <coordinates coord_system="LRG_292" start="93888" end="113029" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="P38398">
+                <synonym>O15129</synonym>
+                <synonym>Q3LRJ0</synonym>
+                <synonym>Q3LRJ6</synonym>
+                <synonym>Q6IN79</synonym>
+                <synonym>Q7KYU9</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000477152">
@@ -3548,6 +3571,13 @@
             <protein_product source="Ensembl" accession="ENSP00000420705">
               <coordinates coord_system="LRG_292" start="93888" end="172306" strand="1" mapped_from="GRCh37" />
               <long_name>breast cancer type 1 susceptibility protein isoform 4</long_name>
+              <db_xref source="UniProtKB" accession="P38398">
+                <synonym>O15129</synonym>
+                <synonym>Q3LRJ0</synonym>
+                <synonym>Q3LRJ6</synonym>
+                <synonym>Q6IN79</synonym>
+                <synonym>Q7KYU9</synonym>
+              </db_xref>
               <db_xref source="RefSeq" accession="NP_009229.2" />
             </protein_product>
           </transcript>
@@ -3898,6 +3928,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000418548">
               <coordinates coord_system="LRG_292" start="93888" end="113029" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="P38398">
+                <synonym>O15129</synonym>
+                <synonym>Q3LRJ0</synonym>
+                <synonym>Q3LRJ6</synonym>
+                <synonym>Q6IN79</synonym>
+                <synonym>Q7KYU9</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000351666">
@@ -4115,17 +4152,17 @@
           <symbol source="HGNC" name="RND2" />
           <coordinates coord_system="LRG_292" start="185944" end="192743" strand="-1" mapped_from="GRCh37" />
           <long_name>Rho family GTPase 2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="8153">
-            <synonym>ARHN</synonym>
-            <synonym>RHO7</synonym>
-            <synonym>RhoN</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="601555" />
           <db_xref source="HGNC" accession="18315">
             <synonym>ARHN</synonym>
             <synonym>Rho7</synonym>
             <synonym>RhoN</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="601555" />
+          <db_xref source="GeneID" accession="8153">
+            <synonym>ARHN</synonym>
+            <synonym>RHO7</synonym>
+            <synonym>RhoN</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000108830" />
           <transcript source="Ensembl" accession="ENST00000544533">
             <coordinates coord_system="LRG_292" start="185944" end="192743" strand="-1" mapped_from="GRCh37" />
@@ -4210,15 +4247,15 @@
           <symbol source="HGNC" name="VAT1" />
           <coordinates coord_system="LRG_292" start="192861" end="193689" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <long_name>vesicle amine transport protein 1 homolog (T. californica) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="10493">
-            <synonym>VATI</synonym>
-          </db_xref>
+          <long_name>vesicle amine transport 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="604631" />
           <db_xref source="HGNC" accession="16919">
             <synonym>FLJ20230</synonym>
             <synonym>VATI</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="604631" />
+          <db_xref source="GeneID" accession="10493">
+            <synonym>VATI</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000108828" />
           <transcript source="Ensembl" accession="ENST00000590924">
             <coordinates coord_system="LRG_292" start="192861" end="193689" strand="1" mapped_from="GRCh37" />
@@ -4244,7 +4281,7 @@
         <name>List of locus specific databases for BRCA1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/BRCA1</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

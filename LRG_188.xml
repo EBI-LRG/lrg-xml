@@ -78,9 +78,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="113870470" other_end="113893593">
         <mapping_span lrg_start="1" lrg_end="23124" other_start="113870470" other_end="113893593" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="113112893" other_end="113136016">
+        <mapping_span lrg_start="1" lrg_end="23124" other_start="113112893" other_end="113136016" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">IL1RN</lrg_locus>
     </annotation_set>
@@ -95,7 +98,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_021240.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000577.4" other_name="NM_000577.4" other_id="NM_000577.4" other_start="1" other_end="1751">
         <mapping_span lrg_start="5001" lrg_end="5136" other_start="1" other_end="136" strand="1" />
         <mapping_span lrg_start="14797" lrg_end="14848" other_start="137" other_end="188" strand="1" />
@@ -282,8 +285,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000259206.5" other_name="ENST00000259206.5" other_id="ENST00000259206.5" other_start="1" other_end="1810">
         <mapping_span lrg_start="5005" lrg_end="5136" other_start="1" other_end="132" strand="1" />
         <mapping_span lrg_start="7174" lrg_end="7236" other_start="133" other_end="195" strand="1" />
@@ -346,6 +349,15 @@
           <coordinates coord_system="LRG_188" start="1" end="21124" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>interleukin 1 receptor antagonist (protein_coding)</long_name>
+          <db_xref source="MIM" accession="147679" />
+          <db_xref source="HGNC" accession="6000">
+            <synonym>ICIL-1RA</synonym>
+            <synonym>IL-1RN</synonym>
+            <synonym>IL1F3</synonym>
+            <synonym>IL1RA</synonym>
+            <synonym>IRAP</synonym>
+            <synonym>MGC10430</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="3557">
             <synonym>DIRA</synonym>
             <synonym>ICIL-1RA</synonym>
@@ -357,15 +369,6 @@
             <synonym>IRAP</synonym>
             <synonym>MVCD4</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6000">
-            <synonym>ICIL-1RA</synonym>
-            <synonym>IL-1RN</synonym>
-            <synonym>IL1F3</synonym>
-            <synonym>IL1RA</synonym>
-            <synonym>IRAP</synonym>
-            <synonym>MGC10430</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="147679" />
           <db_xref source="Ensembl" accession="ENSG00000136689" />
           <transcript source="Ensembl" accession="ENST00000465812">
             <coordinates coord_system="LRG_188" start="1" end="4773" strand="1" mapped_from="GRCh37" />
@@ -456,7 +459,6 @@
             <protein_product source="Ensembl" accession="ENSP00000354816">
               <coordinates coord_system="LRG_188" start="14835" end="19979" strand="1" mapped_from="GRCh37" />
               <long_name>interleukin-1 receptor antagonist protein isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_776215.1" />
               <db_xref source="UniProtKB" accession="P18510">
                 <synonym>A8K4G1</synonym>
                 <synonym>Q14628</synonym>
@@ -465,6 +467,7 @@
                 <synonym>Q96GD6</synonym>
                 <synonym>Q9UPC0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_776215.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000259206">
@@ -493,7 +496,6 @@
             <protein_product source="Ensembl" accession="ENSP00000259206">
               <coordinates coord_system="LRG_188" start="5127" end="19979" strand="1" mapped_from="GRCh37" />
               <long_name>interleukin-1 receptor antagonist protein isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_776213.1" />
               <db_xref source="UniProtKB" accession="P18510">
                 <synonym>A8K4G1</synonym>
                 <synonym>Q14628</synonym>
@@ -502,6 +504,7 @@
                 <synonym>Q96GD6</synonym>
                 <synonym>Q9UPC0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_776213.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000354115">
@@ -527,7 +530,6 @@
             <protein_product source="Ensembl" accession="ENSP00000329072">
               <coordinates coord_system="LRG_188" start="5127" end="19979" strand="1" mapped_from="GRCh37" />
               <long_name>interleukin-1 receptor antagonist protein isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_000568.1" />
               <db_xref source="UniProtKB" accession="P18510">
                 <synonym>A8K4G1</synonym>
                 <synonym>Q14628</synonym>
@@ -536,6 +538,7 @@
                 <synonym>Q96GD6</synonym>
                 <synonym>Q9UPC0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000568.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000486167">
@@ -571,7 +574,6 @@
             <protein_product source="Ensembl" accession="ENSP00000387173">
               <coordinates coord_system="LRG_188" start="14733" end="19979" strand="1" mapped_from="GRCh37" />
               <long_name>interleukin-1 receptor antagonist protein isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_776214.1" />
               <db_xref source="UniProtKB" accession="P18510">
                 <synonym>A8K4G1</synonym>
                 <synonym>Q14628</synonym>
@@ -580,6 +582,7 @@
                 <synonym>Q96GD6</synonym>
                 <synonym>Q9UPC0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_776214.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000472292">
@@ -600,7 +603,7 @@
         <name>List of locus specific databases for IL1RN</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/IL1RN</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

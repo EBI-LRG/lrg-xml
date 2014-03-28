@@ -108,9 +108,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-15</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_start="124763429" other_end="124819806">
         <mapping_span lrg_start="1" lrg_end="56378" other_start="124763429" other_end="124819806" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="10" other_id="NC_000010.11" other_start="123003913" other_end="123060290">
+        <mapping_span lrg_start="1" lrg_end="56378" other_start="123003913" other_end="123060290" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">ACADSB</lrg_locus>
     </annotation_set>
@@ -125,7 +128,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008003.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001609.3" other_name="NM_001609.3" other_id="NM_001609.3" other_start="1" other_end="5941">
         <mapping_span lrg_start="5001" lrg_end="5159" other_start="1" other_end="159" strand="1" />
         <mapping_span lrg_start="30444" lrg_end="30603" other_start="160" other_end="319" strand="1" />
@@ -298,8 +301,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-15</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000358776.4" other_name="ENST00000358776.4" other_id="ENST00000358776.4" other_start="1" other_end="5859">
         <mapping_span lrg_start="5104" lrg_end="5159" other_start="1" other_end="56" strand="1" />
         <mapping_span lrg_start="30444" lrg_end="30603" other_start="57" other_end="216" strand="1" />
@@ -350,16 +353,16 @@
           <coordinates coord_system="LRG_451" start="1" end="4905" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>IKAROS family zinc finger 5 (Pegasus) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="64376">
-            <synonym>PEGASUS</synonym>
-            <synonym>ZNFN1A5</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606238" />
           <db_xref source="HGNC" accession="14283">
             <synonym>FLJ22973</synonym>
             <synonym>Pegasus</synonym>
             <synonym>ZNFN1A5</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="606238" />
+          <db_xref source="GeneID" accession="64376">
+            <synonym>PEGASUS</synonym>
+            <synonym>ZNFN1A5</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000095574" />
           <transcript source="Ensembl" accession="ENST00000368886">
             <coordinates coord_system="LRG_451" start="1" end="4905" strand="-1" mapped_from="GRCh37" />
@@ -367,7 +370,6 @@
             <long_name>IKZF5-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS41574.1" />
             <db_xref source="RefSeq" accession="NM_001271840.1" />
-            <db_xref source="RefSeq" accession="NM_022466.5" />
             <exon source="Ensembl" accession="ENSE00001889065">
               <coordinates coord_system="LRG_451" start="4782" end="4905" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -413,16 +415,16 @@
           <symbol source="HGNC" name="ACADSB" />
           <coordinates coord_system="LRG_451" start="5067" end="54399" strand="1" mapped_from="GRCh37" />
           <long_name>acyl-CoA dehydrogenase, short/branched chain (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600301" />
+          <db_xref source="HGNC" accession="91">
+            <synonym>ACAD7</synonym>
+            <synonym>SBCAD</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="36">
             <synonym>2-MEBCAD</synonym>
             <synonym>ACAD7</synonym>
             <synonym>SBCAD</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="91">
-            <synonym>ACAD7</synonym>
-            <synonym>SBCAD</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="600301" />
           <db_xref source="Ensembl" accession="ENSG00000196177" />
           <transcript source="Ensembl" accession="ENST00000368869">
             <coordinates coord_system="LRG_451" start="5067" end="50207" strand="1" mapped_from="GRCh37" />
@@ -502,11 +504,11 @@
             <protein_product source="Ensembl" accession="ENSP00000357873">
               <coordinates coord_system="LRG_451" start="5118" end="49853" strand="1" mapped_from="GRCh37" />
               <long_name>short/branched chain specific acyl-CoA dehydrogenase, mitochondrial precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001600.1" />
               <db_xref source="UniProtKB" accession="P45954">
                 <synonym>Q5SQN6</synonym>
                 <synonym>Q96CX7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001600.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000411816">
@@ -571,7 +573,7 @@
         <name>List of locus specific databases for ACADSB</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ACADSB</url>
       </source>
-      <modification_date>2013-11-15</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

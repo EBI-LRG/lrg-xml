@@ -77,9 +77,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="33722556" other_end="33763024">
         <mapping_span lrg_start="1" lrg_end="40469" other_start="33722556" other_end="33763024" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="11" other_id="NC_000011.10" other_start="33701010" other_end="33741478">
+        <mapping_span lrg_start="1" lrg_end="40469" other_start="33701010" other_end="33741478" strand="-1">
+          <diff type="mismatch" lrg_start="22916" lrg_end="22916" other_start="33718563" other_end="33718563" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">CD59</lrg_locus>
     </annotation_set>
@@ -94,7 +99,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008057.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000611.5" other_name="NM_000611.5" other_id="NM_000611.5" other_start="1" other_end="7619">
         <mapping_span lrg_start="5000" lrg_end="5097" other_start="1" other_end="98" strand="1" />
         <mapping_span lrg_start="19016" lrg_end="19100" other_start="99" other_end="183" strand="1" />
@@ -434,8 +439,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000351554.3" other_name="ENST00000351554.3" other_id="ENST00000351554.3" other_start="1" other_end="1775">
         <mapping_span lrg_start="5034" lrg_end="5097" other_start="1" other_end="64" strand="1" />
         <mapping_span lrg_start="10011" lrg_end="10055" other_start="65" other_end="109" strand="1" />
@@ -499,7 +504,9 @@
         <mapping_span lrg_start="31136" lrg_end="31398" other_start="390" other_end="652" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000528987.1" other_name="ENST00000528987.1" other_id="ENST00000528987.1" other_start="1" other_end="3716">
-        <mapping_span lrg_start="21868" lrg_end="24109" other_start="1" other_end="2242" strand="1" />
+        <mapping_span lrg_start="21868" lrg_end="24109" other_start="1" other_end="2242" strand="1">
+          <diff type="mismatch" lrg_start="22916" lrg_end="22916" other_start="33718563" other_end="33718563" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
         <mapping_span lrg_start="31136" lrg_end="32609" other_start="2243" other_end="3716" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000533181.1" other_name="ENST00000533181.1" other_id="ENST00000533181.1" other_start="1" other_end="424">
@@ -524,15 +531,15 @@
           <coordinates coord_system="LRG_41" start="1" end="540" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>F-box protein 3 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="26273">
-            <synonym>FBA</synonym>
-            <synonym>FBX3</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="609089" />
           <db_xref source="HGNC" accession="13582">
             <synonym>FBA</synonym>
             <synonym>FBX3</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="609089" />
+          <db_xref source="GeneID" accession="26273">
+            <synonym>FBA</synonym>
+            <synonym>FBX3</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000110429" />
           <transcript source="Ensembl" accession="ENST00000526785">
             <coordinates coord_system="LRG_41" start="1" end="540" strand="1" mapped_from="GRCh37" />
@@ -587,6 +594,22 @@
           <coordinates coord_system="LRG_41" start="5034" end="40469" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>CD59 molecule, complement regulatory protein (protein_coding)</long_name>
+          <db_xref source="MIM" accession="107271">
+            <synonym>143065</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="1689">
+            <synonym>16.3A5</synonym>
+            <synonym>EJ16</synonym>
+            <synonym>EJ30</synonym>
+            <synonym>EL32</synonym>
+            <synonym>G344</synonym>
+            <synonym>MIC11</synonym>
+            <synonym>MIN1</synonym>
+            <synonym>MIN2</synonym>
+            <synonym>MIN3</synonym>
+            <synonym>MSK21</synonym>
+            <synonym>p18-20</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="966">
             <synonym>16.3A5</synonym>
             <synonym>1F5</synonym>
@@ -606,22 +629,6 @@
             <synonym>MIRL</synonym>
             <synonym>MSK21</synonym>
             <synonym>p18-20</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="1689">
-            <synonym>16.3A5</synonym>
-            <synonym>EJ16</synonym>
-            <synonym>EJ30</synonym>
-            <synonym>EL32</synonym>
-            <synonym>G344</synonym>
-            <synonym>MIC11</synonym>
-            <synonym>MIN1</synonym>
-            <synonym>MIN2</synonym>
-            <synonym>MIN3</synonym>
-            <synonym>MSK21</synonym>
-            <synonym>p18-20</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="107271">
-            <synonym>143065</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000085063" />
           <transcript source="Ensembl" accession="ENST00000351554">
@@ -674,14 +681,14 @@
             <protein_product source="Ensembl" accession="ENSP00000379191">
               <coordinates coord_system="LRG_41" start="19034" end="31353" strand="1" mapped_from="GRCh37" />
               <long_name>CD59 glycoprotein preproprotein, CD59 glycoprotein preproprotein, CD59 glycoprotein preproprotein, CD59 glycoprotein preproprotein, CD59 glycoprotein preproprotein, CD59 glycoprotein preproprotein, CD59 glycoprotein preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_976075.1" />
-              <db_xref source="RefSeq" accession="NP_976074.1" />
-              <db_xref source="RefSeq" accession="NP_001120697.1" />
-              <db_xref source="RefSeq" accession="NP_976076.1" />
-              <db_xref source="RefSeq" accession="NP_000602.1" />
-              <db_xref source="RefSeq" accession="NP_001120698.1" />
-              <db_xref source="RefSeq" accession="NP_001120699.1" />
               <db_xref source="UniProtKB" accession="P13987" />
+              <db_xref source="RefSeq" accession="NP_001120699.1" />
+              <db_xref source="RefSeq" accession="NP_976076.1" />
+              <db_xref source="RefSeq" accession="NP_001120698.1" />
+              <db_xref source="RefSeq" accession="NP_001120697.1" />
+              <db_xref source="RefSeq" accession="NP_976074.1" />
+              <db_xref source="RefSeq" accession="NP_976075.1" />
+              <db_xref source="RefSeq" accession="NP_000602.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000527577">
@@ -837,8 +844,8 @@
             <protein_product source="Ensembl" accession="ENSP00000404822">
               <coordinates coord_system="LRG_41" start="19034" end="31353" strand="1" mapped_from="GRCh37" />
               <long_name>CD59 glycoprotein preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_001120695.1" />
               <db_xref source="UniProtKB" accession="P13987" />
+              <db_xref source="RefSeq" accession="NP_001120695.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000525763">
@@ -929,7 +936,7 @@
         <name>List of locus specific databases for CD59</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CD59</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

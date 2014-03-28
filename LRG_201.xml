@@ -105,11 +105,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="5" other_id="NC_000005.9" other_start="137198545" other_end="137225540">
         <mapping_span lrg_start="1" lrg_end="26996" other_start="137198545" other_end="137225540" strand="1">
           <diff type="mismatch" lrg_start="8016" lrg_end="8016" other_start="137206560" other_end="137206560" lrg_sequence="C" other_sequence="A" />
         </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="5" other_id="NC_000005.10" other_start="137862856" other_end="137889851">
+        <mapping_span lrg_start="1" lrg_end="26996" other_start="137862856" other_end="137889851" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">MYOT</lrg_locus>
     </annotation_set>
@@ -124,7 +127,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008894.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001135940.1" other_name="NM_001135940.1" other_id="NM_001135940.1" other_start="1" other_end="1790">
         <mapping_span lrg_start="5001" lrg_end="5098" other_start="1" other_end="98" strand="1" />
         <mapping_span lrg_start="7586" lrg_end="7670" other_start="99" other_end="183" strand="1" />
@@ -345,8 +348,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000239926.4" other_name="ENST00000239926.4" other_id="ENST00000239926.4" other_start="1" other_end="2337">
         <mapping_span lrg_start="4936" lrg_end="5098" other_start="1" other_end="163" strand="1" />
         <mapping_span lrg_start="7586" lrg_end="8152" other_start="164" other_end="730" strand="1">
@@ -449,18 +452,19 @@
           <symbol source="HGNC" name="MYOT" />
           <coordinates coord_system="LRG_201" start="4936" end="24996" strand="1" mapped_from="GRCh37" />
           <long_name>myotilin (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="9499">
-            <synonym>LGMD1</synonym>
-            <synonym>LGMD1A</synonym>
-            <synonym>TTID</synonym>
-            <synonym>TTOD</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="604103" />
           <db_xref source="HGNC" accession="12399">
             <synonym>LGMD1</synonym>
             <synonym>LGMD1A</synonym>
             <synonym>TTID</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="604103" />
+          <db_xref source="GeneID" accession="9499">
+            <synonym>LGMD1</synonym>
+            <synonym>LGMD1A</synonym>
+            <synonym>MFM3</synonym>
+            <synonym>TTID</synonym>
+            <synonym>TTOD</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000120729" />
           <transcript source="Ensembl" accession="ENST00000239926">
             <coordinates coord_system="LRG_201" start="4936" end="24996" strand="1" mapped_from="GRCh37" />
@@ -500,11 +504,11 @@
             <protein_product source="Ensembl" accession="ENSP00000239926">
               <coordinates coord_system="LRG_201" start="7797" end="24530" strand="1" mapped_from="GRCh37" />
               <long_name>myotilin isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_006781.1" />
               <db_xref source="UniProtKB" accession="Q9UBF9">
                 <synonym>A0A4R6</synonym>
                 <synonym>B4DT79</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006781.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000421631">
@@ -545,11 +549,11 @@
             <protein_product source="Ensembl" accession="ENSP00000391185">
               <coordinates coord_system="LRG_201" start="14686" end="24530" strand="1" mapped_from="GRCh37" />
               <long_name>myotilin isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_001129412.1" />
               <db_xref source="UniProtKB" accession="Q9UBF9">
                 <synonym>A0A4R6</synonym>
                 <synonym>B4DT79</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001129412.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000511625">
@@ -669,13 +673,13 @@
           <coordinates coord_system="LRG_201" start="25113" end="26996" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>polycystic kidney disease 2-like 2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="27039">
-            <synonym>TRPP5</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="604669" />
           <db_xref source="HGNC" accession="9012">
             <synonym>TRPP5</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="604669" />
+          <db_xref source="GeneID" accession="27039">
+            <synonym>TRPP5</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000078795" />
           <transcript source="Ensembl" accession="ENST00000503015">
             <coordinates coord_system="LRG_201" start="25113" end="26996" strand="1" mapped_from="GRCh37" />
@@ -718,7 +722,6 @@
               <coordinates coord_system="LRG_201" start="26637" end="26996" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>polycystic kidney disease 2-like 2 protein isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001245378.1" />
               <db_xref source="UniProtKB" accession="Q9NZM6">
                 <synonym>A6NK98</synonym>
                 <synonym>B4DXD2</synonym>
@@ -727,6 +730,7 @@
                 <synonym>Q86YB4</synonym>
                 <synonym>Q9UNJ0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001245378.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000414094">
@@ -762,7 +766,6 @@
               <coordinates coord_system="LRG_201" start="26637" end="26996" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>polycystic kidney disease 2-like 2 protein isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001245377.1" />
               <db_xref source="UniProtKB" accession="Q9NZM6">
                 <synonym>A6NK98</synonym>
                 <synonym>B4DXD2</synonym>
@@ -771,6 +774,7 @@
                 <synonym>Q86YB4</synonym>
                 <synonym>Q9UNJ0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001245377.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000508883">
@@ -806,7 +810,6 @@
               <coordinates coord_system="LRG_201" start="26637" end="26996" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>polycystic kidney disease 2-like 2 protein isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_055201.2" />
               <db_xref source="UniProtKB" accession="Q9NZM6">
                 <synonym>A6NK98</synonym>
                 <synonym>B4DXD2</synonym>
@@ -815,6 +818,7 @@
                 <synonym>Q86YB4</synonym>
                 <synonym>Q9UNJ0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_055201.2" />
             </protein_product>
           </transcript>
         </gene>
@@ -825,7 +829,7 @@
         <name>List of locus specific databases for MYOT</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MYOT</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

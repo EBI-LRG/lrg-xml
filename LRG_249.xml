@@ -60,9 +60,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_start="119611595" other_end="119660936">
         <mapping_span lrg_start="1" lrg_end="49342" other_start="119611595" other_end="119660936" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="12" other_id="NC_000012.12" other_start="119173790" other_end="119223131">
+        <mapping_span lrg_start="1" lrg_end="49342" other_start="119173790" other_end="119223131" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">HSPB8</lrg_locus>
     </annotation_set>
@@ -77,7 +80,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007953.2</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_014365.2" other_name="NM_014365.2" other_id="NM_014365.2" other_start="1" other_end="2002">
         <mapping_span lrg_start="5001" lrg_end="5890" other_start="1" other_end="890" strand="1" />
         <mapping_span lrg_start="13236" lrg_end="13299" other_start="891" other_end="954" strand="1" />
@@ -147,8 +150,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000281938.2" other_name="ENST00000281938.2" other_id="ENST00000281938.2" other_start="1" other_end="2150">
         <mapping_span lrg_start="4853" lrg_end="5890" other_start="1" other_end="1038" strand="1" />
         <mapping_span lrg_start="13236" lrg_end="13299" other_start="1039" other_end="1102" strand="1" />
@@ -185,6 +188,13 @@
           <symbol source="HGNC" name="HSPB8" />
           <coordinates coord_system="LRG_249" start="4853" end="47342" strand="1" mapped_from="GRCh37" />
           <long_name>heat shock 22kDa protein 8 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="608014" />
+          <db_xref source="HGNC" accession="30171">
+            <synonym>E2IG1</synonym>
+            <synonym>H11</synonym>
+            <synonym>HSP22</synonym>
+            <synonym>HspB8</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="26353">
             <synonym>CMT2L</synonym>
             <synonym>DHMN2</synonym>
@@ -194,13 +204,6 @@
             <synonym>HMN2A</synonym>
             <synonym>HSP22</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="30171">
-            <synonym>E2IG1</synonym>
-            <synonym>H11</synonym>
-            <synonym>HSP22</synonym>
-            <synonym>HspB8</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="608014" />
           <db_xref source="Ensembl" accession="ENSG00000152137" />
           <transcript source="Ensembl" accession="ENST00000281938">
             <coordinates coord_system="LRG_249" start="4853" end="20957" strand="1" mapped_from="GRCh37" />
@@ -219,12 +222,12 @@
             <protein_product source="Ensembl" accession="ENSP00000281938">
               <coordinates coord_system="LRG_249" start="5524" end="20069" strand="1" mapped_from="GRCh37" />
               <long_name>heat shock protein beta-8</long_name>
-              <db_xref source="RefSeq" accession="NP_055180.1" />
               <db_xref source="UniProtKB" accession="Q9UJY1">
                 <synonym>B2R6A6</synonym>
                 <synonym>Q6FIH3</synonym>
                 <synonym>Q9UKS3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_055180.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000541798">
@@ -293,7 +296,7 @@
         <name>List of locus specific databases for HSPB8</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HSPB8</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

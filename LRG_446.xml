@@ -54,9 +54,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_start="134205259" other_end="134218675">
         <mapping_span lrg_start="1" lrg_end="13417" other_start="134205259" other_end="134218675" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="6" other_id="NC_000006.12" other_start="133884121" other_end="133897537">
+        <mapping_span lrg_start="1" lrg_end="13417" other_start="133884121" other_end="133897537" strand="1">
+          <diff type="mismatch" lrg_start="8838" lrg_end="8838" other_start="133892958" other_end="133892958" lrg_sequence="G" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">TCF21</lrg_locus>
     </annotation_set>
@@ -71,7 +76,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_032121.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_003206.3" other_name="NM_003206.3" other_id="NM_003206.3" other_start="1" other_end="1271">
         <mapping_span lrg_start="5002" lrg_end="5727" other_start="1" other_end="726" strand="1" />
         <mapping_span lrg_start="7593" lrg_end="8137" other_start="727" other_end="1271" strand="1" />
@@ -153,8 +158,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000237316.3" other_name="ENST00000237316.3" other_id="ENST00000237316.3" other_start="1" other_end="3010">
         <mapping_span lrg_start="5215" lrg_end="5727" other_start="1" other_end="513" strand="1" />
         <mapping_span lrg_start="7593" lrg_end="7690" other_start="514" other_end="611" strand="1" />
@@ -162,7 +167,9 @@
       </mapping>
       <mapping coord_system="ENST00000367882.4" other_name="ENST00000367882.4" other_id="ENST00000367882.4" other_start="1" other_end="4551">
         <mapping_span lrg_start="5018" lrg_end="5727" other_start="1" other_end="710" strand="1" />
-        <mapping_span lrg_start="7593" lrg_end="11433" other_start="711" other_end="4551" strand="1" />
+        <mapping_span lrg_start="7593" lrg_end="11433" other_start="711" other_end="4551" strand="1">
+          <diff type="mismatch" lrg_start="8838" lrg_end="8838" other_start="133892958" other_end="133892958" lrg_sequence="G" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000227954">
@@ -170,11 +177,15 @@
           <coordinates coord_system="LRG_446" start="1" end="7816" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>RP3-323P13.2 (antisense)</long_name>
+          <db_xref source="GeneID" accession="100507308">
+            <synonym>RP1-283K11.3</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000227954" />
           <transcript source="Ensembl" accession="ENST00000607033">
             <coordinates coord_system="LRG_446" start="1" end="4862" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>RP3-323P13.2-002 (antisense)</long_name>
+            <db_xref source="RefSeq" accession="NR_109982.1" />
             <exon source="Ensembl" accession="ENSE00003697201">
               <coordinates coord_system="LRG_446" start="4484" end="4862" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -210,15 +221,15 @@
           <symbol source="HGNC" name="TCF21" />
           <coordinates coord_system="LRG_446" start="5018" end="11433" strand="1" mapped_from="GRCh37" />
           <long_name>transcription factor 21 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6943">
-            <synonym>bHLHa23</synonym>
-            <synonym>POD1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="603306" />
           <db_xref source="HGNC" accession="11632">
             <synonym>bHLHa23</synonym>
             <synonym>POD1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="603306" />
+          <db_xref source="GeneID" accession="6943">
+            <synonym>bHLHa23</synonym>
+            <synonym>POD1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000118526" />
           <transcript source="Ensembl" accession="ENST00000367882">
             <coordinates coord_system="LRG_446" start="5018" end="11433" strand="1" mapped_from="GRCh37" />
@@ -234,13 +245,13 @@
             <protein_product source="Ensembl" accession="ENSP00000356857">
               <coordinates coord_system="LRG_446" start="5278" end="7682" strand="1" mapped_from="GRCh37" />
               <long_name>transcription factor 21</long_name>
-              <db_xref source="RefSeq" accession="NP_003197.2" />
               <db_xref source="UniProtKB" accession="O43680">
                 <synonym>E1P581</synonym>
                 <synonym>O43545</synonym>
                 <synonym>Q6ICV0</synonym>
                 <synonym>Q9BZ14</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003197.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000237316">
@@ -260,13 +271,13 @@
             <protein_product source="Ensembl" accession="ENSP00000237316">
               <coordinates coord_system="LRG_446" start="5278" end="7682" strand="1" mapped_from="GRCh37" />
               <long_name>transcription factor 21</long_name>
-              <db_xref source="RefSeq" accession="NP_938206.1" />
               <db_xref source="UniProtKB" accession="O43680">
                 <synonym>E1P581</synonym>
                 <synonym>O43545</synonym>
                 <synonym>Q6ICV0</synonym>
                 <synonym>Q9BZ14</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_938206.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -277,7 +288,7 @@
         <name>List of locus specific databases for TCF21</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TCF21</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

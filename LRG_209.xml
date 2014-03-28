@@ -89,10 +89,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_start="26269924" other_end="26454223">
         <mapping_span lrg_start="1" lrg_end="184300" other_start="26269924" other_end="26454223" strand="1">
           <diff type="mismatch" lrg_start="117654" lrg_end="117654" other_start="26387577" other_end="26387577" lrg_sequence="T" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="12" other_id="NC_000012.12" other_start="26116991" other_end="26301290">
+        <mapping_span lrg_start="1" lrg_end="184300" other_start="26116991" other_end="26301290" strand="1">
+          <diff type="mismatch" lrg_start="117654" lrg_end="117654" other_start="26234644" other_end="26234644" lrg_sequence="T" other_sequence="A" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">SSPN</lrg_locus>
@@ -108,7 +113,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012011.2</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001135823.1" other_name="NM_001135823.1" other_id="NM_001135823.1" other_start="1" other_end="4350">
         <mapping_span lrg_start="78346" lrg_end="78541" other_start="1" other_end="196" strand="1" />
         <mapping_span lrg_start="107303" lrg_end="107389" other_start="197" other_end="283" strand="1" />
@@ -249,8 +254,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000242729.2" other_name="ENST00000242729.2" other_id="ENST00000242729.2" other_start="1" other_end="2788">
         <mapping_span lrg_start="78506" lrg_end="78961" other_start="1" other_end="456" strand="1" />
         <mapping_span lrg_start="107303" lrg_end="107389" other_start="457" other_end="543" strand="1" />
@@ -297,12 +302,7 @@
           <symbol source="HGNC" name="BHLHE41" />
           <coordinates coord_system="LRG_209" start="3036" end="8137" strand="-1" mapped_from="GRCh37" />
           <long_name>basic helix-loop-helix family, member e41 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="79365">
-            <synonym>BHLHB3</synonym>
-            <synonym>DEC2</synonym>
-            <synonym>hDEC2</synonym>
-            <synonym>SHARP1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606200" />
           <db_xref source="HGNC" accession="16617">
             <synonym>BHLHB3</synonym>
             <synonym>bHLHe41</synonym>
@@ -310,7 +310,12 @@
             <synonym>SHARP-1</synonym>
             <synonym>SHARP1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="606200" />
+          <db_xref source="GeneID" accession="79365">
+            <synonym>BHLHB3</synonym>
+            <synonym>DEC2</synonym>
+            <synonym>hDEC2</synonym>
+            <synonym>SHARP1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000123095" />
           <transcript source="Ensembl" accession="ENST00000242728">
             <coordinates coord_system="LRG_209" start="3036" end="8137" strand="-1" mapped_from="GRCh37" />
@@ -335,10 +340,10 @@
             <protein_product source="Ensembl" accession="ENSP00000242728">
               <coordinates coord_system="LRG_209" start="5076" end="7789" strand="-1" mapped_from="GRCh37" />
               <long_name>class E basic helix-loop-helix protein 41</long_name>
-              <db_xref source="RefSeq" accession="NP_110389.1" />
               <db_xref source="UniProtKB" accession="Q9C0J9">
                 <synonym>A2I2N8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_110389.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000394326">
@@ -369,6 +374,12 @@
           <symbol source="HGNC" name="SSPN" />
           <coordinates coord_system="LRG_209" start="5001" end="182300" strand="1" mapped_from="GRCh37" />
           <long_name>sarcospan (protein_coding)</long_name>
+          <db_xref source="MIM" accession="601599" />
+          <db_xref source="HGNC" accession="11322">
+            <synonym>KRAG</synonym>
+            <synonym>SPN1</synonym>
+            <synonym>SPN2</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="8082">
             <synonym>DAGA5</synonym>
             <synonym>KRAG</synonym>
@@ -376,12 +387,6 @@
             <synonym>SPN1</synonym>
             <synonym>SPN2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11322">
-            <synonym>KRAG</synonym>
-            <synonym>SPN1</synonym>
-            <synonym>SPN2</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="601599" />
           <db_xref source="Ensembl" accession="ENSG00000123096" />
           <transcript source="Ensembl" accession="ENST00000538142">
             <coordinates coord_system="LRG_209" start="5001" end="114024" strand="1" mapped_from="GRCh37" />
@@ -440,6 +445,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000442893">
               <coordinates coord_system="LRG_209" start="107333" end="114086" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q14714">
+                <synonym>B3KS67</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000422622">
@@ -459,10 +467,10 @@
             <protein_product source="Ensembl" accession="ENSP00000396087">
               <coordinates coord_system="LRG_209" start="107333" end="114086" strand="1" mapped_from="GRCh37" />
               <long_name>sarcospan isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001129295.1" />
               <db_xref source="UniProtKB" accession="Q14714">
                 <synonym>B3KS67</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001129295.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000544231">
@@ -498,10 +506,10 @@
             <protein_product source="Ensembl" accession="ENSP00000242729">
               <coordinates coord_system="LRG_209" start="78683" end="114086" strand="1" mapped_from="GRCh37" />
               <long_name>sarcospan isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_005077.2" />
               <db_xref source="UniProtKB" accession="Q14714">
                 <synonym>B3KS67</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_005077.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000535504">
@@ -622,7 +630,7 @@
         <name>List of locus specific databases for SSPN</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SSPN</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

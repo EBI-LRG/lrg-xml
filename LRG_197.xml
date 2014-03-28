@@ -97,10 +97,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="247574475" other_end="247614410">
         <mapping_span lrg_start="1" lrg_end="39936" other_start="247574475" other_end="247614410" strand="1">
           <diff type="mismatch" lrg_start="13057" lrg_end="13057" other_start="247587531" other_end="247587531" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="247411173" other_end="247451108">
+        <mapping_span lrg_start="1" lrg_end="39936" other_start="247411173" other_end="247451108" strand="1">
+          <diff type="mismatch" lrg_start="13057" lrg_end="13057" other_start="247424229" other_end="247424229" lrg_sequence="G" other_sequence="A" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">NLRP3</lrg_locus>
@@ -116,7 +121,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007509.2</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001079821.2" other_name="NM_001079821.2" other_id="NM_001079821.2" other_start="1" other_end="3853">
         <mapping_span lrg_start="4984" lrg_end="5021" other_start="1" other_end="38" strand="1" />
         <mapping_span lrg_start="7057" lrg_end="7118" other_start="39" other_end="100" strand="1" />
@@ -453,8 +458,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000336119.3" other_name="ENST00000336119.3" other_id="ENST00000336119.3" other_start="1" other_end="4170">
         <mapping_span lrg_start="6877" lrg_end="7905" other_start="1" other_end="1029" strand="1" />
         <mapping_span lrg_start="12058" lrg_end="12177" other_start="1030" other_end="1149" strand="1" />
@@ -548,19 +553,7 @@
           <symbol source="HGNC" name="NLRP3" />
           <coordinates coord_system="LRG_197" start="4984" end="37936" strand="1" mapped_from="GRCh37" />
           <long_name>NLR family, pyrin domain containing 3 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="114548">
-            <synonym>AGTAVPRL</synonym>
-            <synonym>AII</synonym>
-            <synonym>AVP</synonym>
-            <synonym>C1orf7</synonym>
-            <synonym>CIAS1</synonym>
-            <synonym>CLR1.1</synonym>
-            <synonym>FCAS</synonym>
-            <synonym>FCU</synonym>
-            <synonym>MWS</synonym>
-            <synonym>NALP3</synonym>
-            <synonym>PYPAF1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606416" />
           <db_xref source="HGNC" accession="16400">
             <synonym>AGTAVPRL</synonym>
             <synonym>AII</synonym>
@@ -574,7 +567,19 @@
             <synonym>NALP3</synonym>
             <synonym>PYPAF1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="606416" />
+          <db_xref source="GeneID" accession="114548">
+            <synonym>AGTAVPRL</synonym>
+            <synonym>AII</synonym>
+            <synonym>AVP</synonym>
+            <synonym>C1orf7</synonym>
+            <synonym>CIAS1</synonym>
+            <synonym>CLR1.1</synonym>
+            <synonym>FCAS</synonym>
+            <synonym>FCU</synonym>
+            <synonym>MWS</synonym>
+            <synonym>NALP3</synonym>
+            <synonym>PYPAF1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000162711" />
           <transcript source="Ensembl" accession="ENST00000391828">
             <coordinates coord_system="LRG_197" start="4984" end="37936" strand="1" mapped_from="GRCh37" />
@@ -617,7 +622,6 @@
             <protein_product source="Ensembl" accession="ENSP00000375704">
               <coordinates coord_system="LRG_197" start="7623" end="37332" strand="1" mapped_from="GRCh37" />
               <long_name>NACHT, LRR and PYD domains-containing protein 3 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_001073289.1" />
               <db_xref source="UniProtKB" accession="Q96P20">
                 <synonym>B7ZKT2</synonym>
                 <synonym>B7ZKT3</synonym>
@@ -631,6 +635,7 @@
                 <synonym>Q8TEU9</synonym>
                 <synonym>Q8WXH9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001073289.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000366497">
@@ -668,7 +673,6 @@
             <protein_product source="Ensembl" accession="ENSP00000355453">
               <coordinates coord_system="LRG_197" start="7623" end="37332" strand="1" mapped_from="GRCh37" />
               <long_name>NACHT, LRR and PYD domains-containing protein 3 isoform c</long_name>
-              <db_xref source="RefSeq" accession="NP_001120933.1" />
               <db_xref source="UniProtKB" accession="Q96P20">
                 <synonym>B7ZKT2</synonym>
                 <synonym>B7ZKT3</synonym>
@@ -682,6 +686,7 @@
                 <synonym>Q8TEU9</synonym>
                 <synonym>Q8WXH9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001120933.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000336119">
@@ -720,10 +725,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000337383">
               <coordinates coord_system="LRG_197" start="7623" end="37332" strand="1" mapped_from="GRCh37" />
-              <long_name>NACHT, LRR and PYD domains-containing protein 3 isoform a, NACHT, LRR and PYD domains-containing protein 3 isoform d, NACHT, LRR and PYD domains-containing protein 3 isoform e</long_name>
-              <db_xref source="RefSeq" accession="NP_004886.3" />
-              <db_xref source="RefSeq" accession="NP_001120934.1" />
-              <db_xref source="RefSeq" accession="NP_001230062.1" />
+              <long_name>NACHT, LRR and PYD domains-containing protein 3 isoform d, NACHT, LRR and PYD domains-containing protein 3 isoform e, NACHT, LRR and PYD domains-containing protein 3 isoform a</long_name>
               <db_xref source="UniProtKB" accession="Q96P20">
                 <synonym>B7ZKT2</synonym>
                 <synonym>B7ZKT3</synonym>
@@ -737,6 +739,9 @@
                 <synonym>Q8TEU9</synonym>
                 <synonym>Q8WXH9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001120934.1" />
+              <db_xref source="RefSeq" accession="NP_001230062.1" />
+              <db_xref source="RefSeq" accession="NP_004886.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000348069">
@@ -768,7 +773,6 @@
             <protein_product source="Ensembl" accession="ENSP00000294752">
               <coordinates coord_system="LRG_197" start="7623" end="37332" strand="1" mapped_from="GRCh37" />
               <long_name>NACHT, LRR and PYD domains-containing protein 3 isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_899632.1" />
               <db_xref source="UniProtKB" accession="Q96P20">
                 <synonym>B7ZKT2</synonym>
                 <synonym>B7ZKT3</synonym>
@@ -782,6 +786,7 @@
                 <synonym>Q8TEU9</synonym>
                 <synonym>Q8WXH9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_899632.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000366496">
@@ -906,8 +911,8 @@
           <coordinates coord_system="LRG_197" start="39781" end="39936" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>olfactory receptor, family 2, subfamily B, member 11 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="127623" />
           <db_xref source="HGNC" accession="31249" />
+          <db_xref source="GeneID" accession="127623" />
           <db_xref source="Ensembl" accession="ENSG00000177535" />
           <transcript source="Ensembl" accession="ENST00000318749">
             <coordinates coord_system="LRG_197" start="39781" end="39936" strand="-1" mapped_from="GRCh37" />
@@ -923,10 +928,10 @@
               <coordinates coord_system="LRG_197" start="39857" end="39936" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>olfactory receptor 2B11</long_name>
-              <db_xref source="RefSeq" accession="NP_001004492.1" />
               <db_xref source="UniProtKB" accession="Q5JQS5">
                 <synonym>B2RP03</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001004492.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -937,7 +942,7 @@
         <name>List of locus specific databases for NLRP3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NLRP3</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

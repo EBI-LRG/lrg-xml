@@ -72,9 +72,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="172623185" other_end="172638013">
         <mapping_span lrg_start="1" lrg_end="14829" other_start="172623185" other_end="172638013" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="172654045" other_end="172668873">
+        <mapping_span lrg_start="1" lrg_end="14829" other_start="172654045" other_end="172668873" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">FASLG</lrg_locus>
     </annotation_set>
@@ -89,7 +92,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007269.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000639.1" other_name="NM_000639.1" other_id="NM_000639.1" other_start="1" other_end="1860">
         <mapping_span lrg_start="5001" lrg_end="5505" other_start="1" other_end="505" strand="1" />
         <mapping_span lrg_start="6051" lrg_end="6096" other_start="506" other_end="551" strand="1" />
@@ -158,8 +161,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000340030.3" other_name="ENST00000340030.3" other_id="ENST00000340030.3" other_start="1" other_end="1846">
         <mapping_span lrg_start="4970" lrg_end="5505" other_start="1" other_end="536" strand="1" />
         <mapping_span lrg_start="10290" lrg_end="10346" other_start="537" other_end="593" strand="1" />
@@ -176,6 +179,13 @@
           <symbol source="HGNC" name="FASLG" />
           <coordinates coord_system="LRG_58" start="4970" end="12830" strand="1" mapped_from="GRCh37" />
           <long_name>Fas ligand (TNF superfamily, member 6) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="134638" />
+          <db_xref source="HGNC" accession="11936">
+            <synonym>APT1LG1</synonym>
+            <synonym>CD178</synonym>
+            <synonym>FasL</synonym>
+            <synonym>TNFSF6</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="356">
             <synonym>ALPS1B</synonym>
             <synonym>APT1LG1</synonym>
@@ -186,13 +196,6 @@
             <synonym>FASL</synonym>
             <synonym>TNFSF6</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11936">
-            <synonym>APT1LG1</synonym>
-            <synonym>CD178</synonym>
-            <synonym>FasL</synonym>
-            <synonym>TNFSF6</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="134638" />
           <db_xref source="Ensembl" accession="ENSG00000117560" />
           <transcript source="Ensembl" accession="ENST00000340030">
             <coordinates coord_system="LRG_58" start="4970" end="12830" strand="1" mapped_from="GRCh37" />
@@ -233,10 +236,10 @@
             <protein_product source="Ensembl" accession="ENSP00000356694">
               <coordinates coord_system="LRG_58" start="5158" end="11972" strand="1" mapped_from="GRCh37" />
               <long_name>tumor necrosis factor ligand superfamily member 6</long_name>
-              <db_xref source="RefSeq" accession="NP_000630.1" />
               <db_xref source="UniProtKB" accession="P48023">
                 <synonym>Q9BZP9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000630.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -247,7 +250,7 @@
         <name>List of locus specific databases for FASLG</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FASLG</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

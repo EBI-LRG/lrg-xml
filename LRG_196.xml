@@ -331,8 +331,13 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="209865" other_end="467259">
+        <mapping_span lrg_start="1" lrg_end="257395" other_start="209865" other_end="467259" strand="1">
+          <diff type="mismatch" lrg_start="219855" lrg_end="219855" other_start="429719" other_end="429719" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="9" other_id="NC_000009.12" other_start="209865" other_end="467259">
         <mapping_span lrg_start="1" lrg_end="257395" other_start="209865" other_end="467259" strand="1">
           <diff type="mismatch" lrg_start="219855" lrg_end="219855" other_start="429719" other_end="429719" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
@@ -350,7 +355,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_017007.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001190458.1" other_name="NM_001190458.1" other_id="NM_001190458.1" other_start="1" other_end="7141">
         <mapping_span lrg_start="63184" lrg_end="63236" other_start="1" other_end="53" strand="1" />
         <mapping_span lrg_start="76597" lrg_end="76772" other_start="54" other_end="229" strand="1" />
@@ -526,6 +531,7 @@
         </gene>
         <gene source="NCBI-Gene" accession="81704">
           <symbol source="HGNC" name="DOCK8">
+            <synonym>HEL-205</synonym>
             <synonym>MRD2</synonym>
             <synonym>ZIR8</synonym>
           </symbol>
@@ -692,6 +698,7 @@
               <long_name>dedicator of cytokinesis protein 8 isoform 1</long_name>
               <long_name>1200017A24Rik</long_name>
               <long_name>dedicator of cytokinesis protein 8</long_name>
+              <long_name>epididymis luminal protein 205</long_name>
               <db_xref source="CCDS" accession="CCDS6440.2" />
               <db_xref source="GeneID" accession="81704" />
               <db_xref source="GI" accession="238231392" />
@@ -1015,8 +1022,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000382329.1" other_name="ENST00000382329.1" other_id="ENST00000382329.1" other_start="1" other_end="6124">
         <mapping_span lrg_start="156387" lrg_end="156688" other_start="1" other_end="302" strand="1" />
         <mapping_span lrg_start="158154" lrg_end="158436" other_start="303" other_end="585" strand="1" />
@@ -1396,11 +1403,11 @@
           <symbol source="HGNC" name="C9orf66" />
           <coordinates coord_system="LRG_196" start="3244" end="6029" strand="-1" mapped_from="GRCh37" />
           <long_name>chromosome 9 open reading frame 66 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="157983">
-            <synonym>RP11-59O6.1</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="26436">
             <synonym>FLJ31158</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="157983">
+            <synonym>RP11-59O6.1</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000183784" />
           <transcript source="Ensembl" accession="ENST00000382387">
@@ -1414,10 +1421,10 @@
             <protein_product source="Ensembl" accession="ENSP00000371824">
               <coordinates coord_system="LRG_196" start="4645" end="5532" strand="-1" mapped_from="GRCh37" />
               <long_name>uncharacterized protein C9orf66</long_name>
-              <db_xref source="RefSeq" accession="NP_689782.2" />
               <db_xref source="UniProtKB" accession="Q5T8R8">
                 <synonym>Q96NB0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_689782.2" />
             </protein_product>
           </transcript>
         </gene>
@@ -1425,17 +1432,17 @@
           <symbol source="HGNC" name="DOCK8" />
           <coordinates coord_system="LRG_196" start="4990" end="255395" strand="1" mapped_from="GRCh37" />
           <long_name>dedicator of cytokinesis 8 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="81704">
-            <synonym>MRD2</synonym>
-            <synonym>ZIR8</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="611432" />
           <db_xref source="HGNC" accession="19191">
             <synonym>FLJ00026</synonym>
             <synonym>FLJ00152</synonym>
             <synonym>FLJ00346</synonym>
             <synonym>ZIR8</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="611432" />
+          <db_xref source="GeneID" accession="81704">
+            <synonym>MRD2</synonym>
+            <synonym>ZIR8</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000107099" />
           <transcript source="Ensembl" accession="ENST00000469197">
             <coordinates coord_system="LRG_196" start="4990" end="76772" strand="1" mapped_from="GRCh37" />
@@ -1831,7 +1838,6 @@
             <protein_product source="Ensembl" accession="ENSP00000394888">
               <coordinates coord_system="LRG_196" start="76645" end="254355" strand="1" mapped_from="GRCh37" />
               <long_name>dedicator of cytokinesis protein 8 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_982272.2" />
               <db_xref source="UniProtKB" accession="Q8NF50">
                 <synonym>A2A350</synonym>
                 <synonym>A2BDF2</synonym>
@@ -1848,6 +1854,7 @@
                 <synonym>Q9H308</synonym>
                 <synonym>Q9H7P2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_982272.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000454469">
@@ -2221,9 +2228,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000419438">
               <coordinates coord_system="LRG_196" start="76645" end="254355" strand="1" mapped_from="GRCh37" />
-              <long_name>dedicator of cytokinesis protein 8 isoform 2, dedicator of cytokinesis protein 8 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001177387.1" />
-              <db_xref source="RefSeq" accession="NP_001180465.1" />
+              <long_name>dedicator of cytokinesis protein 8 isoform 3, dedicator of cytokinesis protein 8 isoform 2</long_name>
               <db_xref source="UniProtKB" accession="Q8NF50">
                 <synonym>A2A350</synonym>
                 <synonym>A2BDF2</synonym>
@@ -2240,6 +2245,8 @@
                 <synonym>Q9H308</synonym>
                 <synonym>Q9H7P2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001180465.1" />
+              <db_xref source="RefSeq" accession="NP_001177387.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000495184">
@@ -2803,6 +2810,16 @@
               <coordinates coord_system="LRG_196" start="247140" end="247183" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000608617">
+            <coordinates coord_system="LRG_196" start="249852" end="256201" strand="-1" mapped_from="GRCh37" />
+            <long_name>RP11-165F24.3-015 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00003704348">
+              <coordinates coord_system="LRG_196" start="256098" end="256201" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003706443">
+              <coordinates coord_system="LRG_196" start="249852" end="249951" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -2811,7 +2828,7 @@
         <name>List of locus specific databases for DOCK8</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DOCK8</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

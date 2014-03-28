@@ -569,9 +569,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="38587553" other_end="38696163">
         <mapping_span lrg_start="1" lrg_end="108611" other_start="38587553" other_end="38696163" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="38546062" other_end="38654672">
+        <mapping_span lrg_start="1" lrg_end="108611" other_start="38546062" other_end="38654672" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">SCN5A</lrg_locus>
     </annotation_set>
@@ -586,7 +589,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008934.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000335.4" other_name="NM_000335.4" other_id="NM_000335.4" other_start="1" other_end="8501">
         <mapping_span lrg_start="5001" lrg_end="5142" other_start="1" other_end="142" strand="1" />
         <mapping_span lrg_start="21314" lrg_end="21638" other_start="143" other_end="467" strand="1" />
@@ -1396,8 +1399,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000327956.6" other_name="ENST00000327956.6" other_id="ENST00000327956.6" other_start="1" other_end="335">
         <mapping_span lrg_start="8897" lrg_end="8982" other_start="1" other_end="86" strand="1" />
         <mapping_span lrg_start="21314" lrg_end="21562" other_start="87" other_end="335" strand="1" />
@@ -1713,6 +1716,22 @@
           <symbol source="HGNC" name="SCN5A" />
           <coordinates coord_system="LRG_289" start="5000" end="106616" strand="1" mapped_from="GRCh37" />
           <long_name>sodium channel, voltage-gated, type V, alpha subunit (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600163" />
+          <db_xref source="HGNC" accession="10593">
+            <synonym>CDCD2</synonym>
+            <synonym>CMD1E</synonym>
+            <synonym>CMPD2</synonym>
+            <synonym>HB1</synonym>
+            <synonym>HB2</synonym>
+            <synonym>HBBD</synonym>
+            <synonym>HH1</synonym>
+            <synonym>ICCD</synonym>
+            <synonym>IVF</synonym>
+            <synonym>LQT3</synonym>
+            <synonym>Nav1.5</synonym>
+            <synonym>PFHB1</synonym>
+            <synonym>SSS1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="6331">
             <synonym>CDCD2</synonym>
             <synonym>CMD1E</synonym>
@@ -1729,22 +1748,6 @@
             <synonym>SSS1</synonym>
             <synonym>VF1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="10593">
-            <synonym>CDCD2</synonym>
-            <synonym>CMD1E</synonym>
-            <synonym>CMPD2</synonym>
-            <synonym>HB1</synonym>
-            <synonym>HB2</synonym>
-            <synonym>HBBD</synonym>
-            <synonym>HH1</synonym>
-            <synonym>ICCD</synonym>
-            <synonym>IVF</synonym>
-            <synonym>LQT3</synonym>
-            <synonym>Nav1.5</synonym>
-            <synonym>PFHB1</synonym>
-            <synonym>SSS1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="600163" />
           <db_xref source="Ensembl" accession="ENSG00000183873" />
           <transcript source="Ensembl" accession="ENST00000491944">
             <coordinates coord_system="LRG_289" start="5000" end="40645" strand="1" mapped_from="GRCh37" />
@@ -1952,9 +1955,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000410257">
               <coordinates coord_system="LRG_289" start="21366" end="104352" strand="1" mapped_from="GRCh37" />
-              <long_name>sodium channel protein type 5 subunit alpha isoform c, sodium channel protein type 5 subunit alpha isoform e</long_name>
-              <db_xref source="RefSeq" accession="NP_001092874.1" />
+              <long_name>sodium channel protein type 5 subunit alpha isoform e, sodium channel protein type 5 subunit alpha isoform c</long_name>
               <db_xref source="RefSeq" accession="NP_001153632.1" />
+              <db_xref source="RefSeq" accession="NP_001092874.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000443581">
@@ -2049,14 +2052,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000397915">
               <coordinates coord_system="LRG_289" start="21366" end="104352" strand="1" mapped_from="GRCh37" />
-              <long_name>sodium channel protein type 5 subunit alpha isoform b, sodium channel protein type 5 subunit alpha isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_000326.2" />
-              <db_xref source="RefSeq" accession="NP_932173.1" />
+              <long_name>sodium channel protein type 5 subunit alpha isoform a, sodium channel protein type 5 subunit alpha isoform b</long_name>
               <db_xref source="UniProtKB" accession="Q14524">
                 <synonym>A5H1P8</synonym>
                 <synonym>A6N922</synonym>
                 <synonym>A6N923</synonym>
                 <synonym>B2RTU0</synonym>
+                <synonym>E7ET19</synonym>
                 <synonym>E9PEF3</synonym>
                 <synonym>E9PEK2</synonym>
                 <synonym>E9PFW7</synonym>
@@ -2067,6 +2069,8 @@
                 <synonym>Q8IZC9</synonym>
                 <synonym>Q96J69</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_932173.1" />
+              <db_xref source="RefSeq" accession="NP_000326.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000425664">
@@ -2256,6 +2260,7 @@
                 <synonym>A6N922</synonym>
                 <synonym>A6N923</synonym>
                 <synonym>B2RTU0</synonym>
+                <synonym>E7ET19</synonym>
                 <synonym>E9PEF3</synonym>
                 <synonym>E9PEK2</synonym>
                 <synonym>E9PFW7</synonym>
@@ -2373,6 +2378,7 @@
                 <synonym>A6N922</synonym>
                 <synonym>A6N923</synonym>
                 <synonym>B2RTU0</synonym>
+                <synonym>E7ET19</synonym>
                 <synonym>E9PEF3</synonym>
                 <synonym>E9PEK2</synonym>
                 <synonym>E9PFW7</synonym>
@@ -2758,7 +2764,7 @@
       <source>
         <name>Community</name>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <fixed_transcript_annotation name="t1">
         <other_exon_naming description="Alternative numbering based on LSDB sources">
           <exon>
@@ -3089,7 +3095,7 @@
         <name>List of locus specific databases for SCN5A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SCN5A</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

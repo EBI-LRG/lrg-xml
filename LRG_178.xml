@@ -118,9 +118,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="139256408" other_end="139273133">
         <mapping_span lrg_start="1" lrg_end="16726" other_start="139256408" other_end="139273133" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="9" other_id="NC_000009.12" other_start="136361956" other_end="136378681">
+        <mapping_span lrg_start="1" lrg_end="16726" other_start="136361956" other_end="136378681" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CARD9</lrg_locus>
     </annotation_set>
@@ -135,7 +138,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_021197.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_052813.4" other_name="NM_052813.4" other_id="NM_052813.4" other_start="1" other_end="2123">
         <mapping_span lrg_start="5001" lrg_end="5150" other_start="1" other_end="150" strand="1" />
         <mapping_span lrg_start="6588" lrg_end="6787" other_start="151" other_end="350" strand="1" />
@@ -402,8 +405,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000315908.7" other_name="ENST00000315908.7" other_id="ENST00000315908.7" other_start="1" other_end="1267">
         <mapping_span lrg_start="5001" lrg_end="5150" other_start="1" other_end="150" strand="1" />
         <mapping_span lrg_start="6588" lrg_end="6787" other_start="151" other_end="350" strand="1" />
@@ -500,16 +503,16 @@
           <coordinates coord_system="LRG_178" start="1" end="3105" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>small nuclear RNA activating complex, polypeptide 4, 190kDa (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6621">
-            <synonym>PTFalpha</synonym>
-            <synonym>SNAP190</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="602777" />
           <db_xref source="HGNC" accession="11137">
             <synonym>FLJ13451</synonym>
             <synonym>PTFalpha</synonym>
             <synonym>SNAP190</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="602777" />
+          <db_xref source="GeneID" accession="6621">
+            <synonym>PTFalpha</synonym>
+            <synonym>SNAP190</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000165684" />
           <transcript source="Ensembl" accession="ENST00000298532">
             <coordinates coord_system="LRG_178" start="1" end="3105" strand="1" mapped_from="GRCh37" />
@@ -531,10 +534,10 @@
               <coordinates coord_system="LRG_178" start="1" end="2326" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>snRNA-activating protein complex subunit 4</long_name>
-              <db_xref source="RefSeq" accession="NP_003077.2" />
               <db_xref source="UniProtKB" accession="Q5SXM2">
                 <synonym>Q9Y6P7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003077.2" />
             </protein_product>
           </transcript>
         </gene>
@@ -543,12 +546,20 @@
           <coordinates coord_system="LRG_178" start="5001" end="16726" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>caspase recruitment domain family, member 9 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="607212" />
+          <db_xref source="HGNC" accession="16391" />
+          <db_xref source="GeneID" accession="728489">
+            <synonym>bA413M3.2</synonym>
+            <synonym>C9orf151</synonym>
+            <synonym>HEP</synonym>
+            <synonym>HEP1</synonym>
+            <synonym>TIMM15</synonym>
+            <synonym>ZIM17</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="64170">
             <synonym>CANDF2</synonym>
             <synonym>hCARD9</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="16391" />
-          <db_xref source="MIM" accession="607212" />
           <db_xref source="Ensembl" accession="ENSG00000187796" />
           <transcript source="Ensembl" accession="ENST00000371734">
             <coordinates coord_system="LRG_178" start="5001" end="14726" strand="1" mapped_from="GRCh37" />
@@ -597,12 +608,12 @@
             <protein_product source="Ensembl" accession="ENSP00000360799">
               <coordinates coord_system="LRG_178" start="6604" end="14557" strand="1" mapped_from="GRCh37" />
               <long_name>caspase recruitment domain-containing protein 9 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_434701.1" />
               <db_xref source="UniProtKB" accession="Q9H257">
                 <synonym>Q5SXM5</synonym>
                 <synonym>Q5SXM6</synonym>
                 <synonym>Q9H854</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_434701.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000371732">
@@ -652,12 +663,12 @@
             <protein_product source="Ensembl" accession="ENSP00000360797">
               <coordinates coord_system="LRG_178" start="6604" end="14380" strand="1" mapped_from="GRCh37" />
               <long_name>caspase recruitment domain-containing protein 9 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_434700.2" />
               <db_xref source="UniProtKB" accession="Q9H257">
                 <synonym>Q5SXM5</synonym>
                 <synonym>Q5SXM6</synonym>
                 <synonym>Q9H854</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_434700.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000315908">
@@ -852,19 +863,19 @@
           <coordinates coord_system="LRG_178" start="14893" end="16726" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>DNL-type zinc finger (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="728489">
-            <synonym>bA413M3.2</synonym>
-            <synonym>C9orf151</synonym>
-            <synonym>HEP</synonym>
-            <synonym>HEP1</synonym>
-            <synonym>TIMM15</synonym>
-            <synonym>ZIM17</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="33879">
             <synonym>bA413M3.2</synonym>
             <synonym>C9orf151</synonym>
             <synonym>HEP</synonym>
             <synonym>RP11-413M3.2</synonym>
+            <synonym>TIMM15</synonym>
+            <synonym>ZIM17</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="728489">
+            <synonym>bA413M3.2</synonym>
+            <synonym>C9orf151</synonym>
+            <synonym>HEP</synonym>
+            <synonym>HEP1</synonym>
             <synonym>TIMM15</synonym>
             <synonym>ZIM17</synonym>
           </db_xref>
@@ -874,7 +885,7 @@
             <partial>3-prime</partial>
             <long_name>DNLZ-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS35179.1" />
-            <db_xref source="RefSeq" accession="NM_001080849.1" />
+            <db_xref source="RefSeq" accession="NM_001080849.2" />
             <exon source="Ensembl" accession="ENSE00001455972">
               <coordinates coord_system="LRG_178" start="14893" end="15195" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -888,11 +899,11 @@
             <protein_product source="Ensembl" accession="ENSP00000360803">
               <coordinates coord_system="LRG_178" start="14968" end="16670" strand="1" mapped_from="GRCh37" />
               <long_name>DNL-type zinc finger protein</long_name>
-              <db_xref source="RefSeq" accession="NP_001074318.1" />
               <db_xref source="UniProtKB" accession="Q5SXM8">
                 <synonym>B2RUX5</synonym>
                 <synonym>B9EJE1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001074318.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000371739">
@@ -918,7 +929,7 @@
         <name>List of locus specific databases for CARD9</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CARD9</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

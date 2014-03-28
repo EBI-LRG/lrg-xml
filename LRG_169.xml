@@ -41,7 +41,7 @@
         <coordinates coord_system="LRG_169p1" start="1" end="10" />
       </exon>
       <intron phase="2" />
-      <exon label="3b">
+      <exon label="3">
         <coordinates coord_system="LRG_169" start="6867" end="6929" strand="1" />
         <coordinates coord_system="LRG_169t1" start="304" end="366" />
         <coordinates coord_system="LRG_169p1" start="10" end="31" />
@@ -83,9 +83,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="22" other_id="NC_000022.10" other_start="36644117" other_end="36665577">
         <mapping_span lrg_start="1" lrg_end="21461" other_start="36644117" other_end="36665577" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="22" other_id="NC_000022.11" other_start="36248071" other_end="36269531">
+        <mapping_span lrg_start="1" lrg_end="21461" other_start="36248071" other_end="36269531" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">APOL1</lrg_locus>
     </annotation_set>
@@ -100,7 +103,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_023228.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001136540.1" other_name="NM_001136540.1" other_id="NM_001136540.1" other_start="1" other_end="2902">
         <mapping_span lrg_start="5001" lrg_end="5149" other_start="1" other_end="149" strand="1" />
         <mapping_span lrg_start="6828" lrg_end="6929" other_start="150" other_end="251" strand="1" />
@@ -287,8 +290,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000319136.4" other_name="ENST00000319136.4" other_id="ENST00000319136.4" other_start="1" other_end="3000">
         <mapping_span lrg_start="5008" lrg_end="5149" other_start="1" other_end="142" strand="1" />
         <mapping_span lrg_start="5768" lrg_end="5921" other_start="143" other_end="296" strand="1" />
@@ -403,16 +406,16 @@
           <symbol source="HGNC" name="APOL1" />
           <coordinates coord_system="LRG_169" start="4940" end="19460" strand="1" mapped_from="GRCh37" />
           <long_name>apolipoprotein L, 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="603743" />
+          <db_xref source="HGNC" accession="618">
+            <synonym>APOL</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="8542">
             <synonym>APO-L</synonym>
             <synonym>APOL</synonym>
             <synonym>APOL-I</synonym>
             <synonym>FSGS4</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="618">
-            <synonym>APOL</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="603743" />
           <db_xref source="Ensembl" accession="ENSG00000100342" />
           <transcript source="Ensembl" accession="ENST00000397278">
             <coordinates coord_system="LRG_169" start="4940" end="19455" strand="1" mapped_from="GRCh37" />
@@ -440,7 +443,6 @@
             <protein_product source="Ensembl" accession="ENSP00000380448">
               <coordinates coord_system="LRG_169" start="6886" end="17963" strand="1" mapped_from="GRCh37" />
               <long_name>apolipoprotein L1 isoform a precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_003652.2" />
               <db_xref source="UniProtKB" accession="O14791">
                 <synonym>A5PLQ4</synonym>
                 <synonym>B4DU12</synonym>
@@ -452,6 +454,7 @@
                 <synonym>Q96PM4</synonym>
                 <synonym>Q9BQ03</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003652.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000422706">
@@ -480,7 +483,6 @@
             <protein_product source="Ensembl" accession="ENSP00000411507">
               <coordinates coord_system="LRG_169" start="6886" end="17963" strand="1" mapped_from="GRCh37" />
               <long_name>apolipoprotein L1 isoform a precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001130012.1" />
               <db_xref source="UniProtKB" accession="O14791">
                 <synonym>A5PLQ4</synonym>
                 <synonym>B4DU12</synonym>
@@ -492,6 +494,7 @@
                 <synonym>Q96PM4</synonym>
                 <synonym>Q9BQ03</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001130012.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000426053">
@@ -517,7 +520,6 @@
             <protein_product source="Ensembl" accession="ENSP00000388477">
               <coordinates coord_system="LRG_169" start="6886" end="17963" strand="1" mapped_from="GRCh37" />
               <long_name>apolipoprotein L1 isoform c</long_name>
-              <db_xref source="RefSeq" accession="NP_001130013.1" />
               <db_xref source="UniProtKB" accession="O14791">
                 <synonym>A5PLQ4</synonym>
                 <synonym>B4DU12</synonym>
@@ -529,6 +531,7 @@
                 <synonym>Q96PM4</synonym>
                 <synonym>Q9BQ03</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001130013.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000319136">
@@ -560,7 +563,6 @@
             <protein_product source="Ensembl" accession="ENSP00000317674">
               <coordinates coord_system="LRG_169" start="5893" end="17963" strand="1" mapped_from="GRCh37" />
               <long_name>apolipoprotein L1 isoform b precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_663318.1" />
               <db_xref source="UniProtKB" accession="O14791">
                 <synonym>A5PLQ4</synonym>
                 <synonym>B4DU12</synonym>
@@ -572,6 +574,7 @@
                 <synonym>Q96PM4</synonym>
                 <synonym>Q9BQ03</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_663318.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000422471">
@@ -832,7 +835,7 @@
         <name>List of locus specific databases for APOL1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/APOL1</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

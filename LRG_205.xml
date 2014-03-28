@@ -95,9 +95,18 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="5" other_id="NC_000005.9" other_start="155292354" other_end="156196799">
         <mapping_span lrg_start="1" lrg_end="904446" other_start="155292354" other_end="156196799" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="5" other_id="NC_000005.10" other_start="155865344" other_end="156769788">
+        <mapping_span lrg_start="1" lrg_end="904446" other_start="155865344" other_end="156769788" strand="1">
+          <diff type="mismatch" lrg_start="259868" lrg_end="259868" other_start="156125211" other_end="156125211" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="373016" lrg_end="373016" other_start="156238359" other_end="156238359" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="677396" lrg_end="677396" other_start="156542739" other_end="156542739" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="727452" lrg_end="727452" other_start="156592795" other_end="156592795" lrg_sequence="G" other_sequence="A" />
+          <diff type="lrg_ins" lrg_start="786711" lrg_end="786711" other_start="156652053" other_end="156652054" lrg_sequence="G" other_sequence="-" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">SGCD</lrg_locus>
     </annotation_set>
@@ -112,7 +121,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008693.2</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000337.5" other_name="NM_000337.5" other_id="NM_000337.5" other_start="1" other_end="9790">
         <mapping_span lrg_start="461414" lrg_end="461889" other_start="1" other_end="476" strand="1" />
         <mapping_span lrg_start="464191" lrg_end="464236" other_start="477" other_end="522" strand="1" />
@@ -294,8 +303,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000337851.4" other_name="ENST00000337851.4" other_id="ENST00000337851.4" other_start="1" other_end="1606">
         <mapping_span lrg_start="461414" lrg_end="461889" other_start="1" other_end="476" strand="1" />
         <mapping_span lrg_start="464191" lrg_end="464236" other_start="477" other_end="522" strand="1" />
@@ -352,6 +361,12 @@
           <symbol source="HGNC" name="SGCD" />
           <coordinates coord_system="LRG_205" start="5001" end="902446" strand="1" mapped_from="GRCh37" />
           <long_name>sarcoglycan, delta (35kDa dystrophin-associated glycoprotein) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="601411" />
+          <db_xref source="HGNC" accession="10807">
+            <synonym>CMD1L</synonym>
+            <synonym>DAGD</synonym>
+            <synonym>LGMD2F</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="6444">
             <synonym>35DAG</synonym>
             <synonym>CMD1L</synonym>
@@ -360,12 +375,6 @@
             <synonym>SGCDP</synonym>
             <synonym>SGD</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="10807">
-            <synonym>CMD1L</synonym>
-            <synonym>DAGD</synonym>
-            <synonym>LGMD2F</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="601411" />
           <db_xref source="Ensembl" accession="ENSG00000170624" />
           <transcript source="Ensembl" accession="ENST00000517913">
             <coordinates coord_system="LRG_205" start="5001" end="892713" strand="1" mapped_from="GRCh37" />
@@ -442,12 +451,12 @@
             <protein_product source="Ensembl" accession="ENSP00000403003">
               <coordinates coord_system="LRG_205" start="479146" end="894048" strand="1" mapped_from="GRCh37" />
               <long_name>delta-sarcoglycan isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001121681.1" />
               <db_xref source="UniProtKB" accession="Q92629">
                 <synonym>A8K9S9</synonym>
                 <synonym>Q53XA5</synonym>
                 <synonym>Q99644</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001121681.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000337851">
@@ -485,12 +494,12 @@
             <protein_product source="Ensembl" accession="ENSP00000338343">
               <coordinates coord_system="LRG_205" start="464234" end="894048" strand="1" mapped_from="GRCh37" />
               <long_name>delta-sarcoglycan isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_000328.2" />
               <db_xref source="UniProtKB" accession="Q92629">
                 <synonym>A8K9S9</synonym>
                 <synonym>Q53XA5</synonym>
                 <synonym>Q99644</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000328.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000447401">
@@ -525,12 +534,12 @@
             <protein_product source="Ensembl" accession="ENSP00000408324">
               <coordinates coord_system="LRG_205" start="464234" end="892434" strand="1" mapped_from="GRCh37" />
               <long_name>delta-sarcoglycan isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_758447.1" />
               <db_xref source="UniProtKB" accession="Q92629">
                 <synonym>A8K9S9</synonym>
                 <synonym>Q53XA5</synonym>
                 <synonym>Q99644</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_758447.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000524347">
@@ -598,7 +607,7 @@
         <name>List of locus specific databases for SGCD</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SGCD</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

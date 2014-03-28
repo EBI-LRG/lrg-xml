@@ -180,10 +180,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="15" other_id="NC_000015.9" other_start="40448210" other_end="40515337">
         <mapping_span lrg_start="1" lrg_end="67128" other_start="40448210" other_end="40515337" strand="1">
           <diff type="mismatch" lrg_start="29622" lrg_end="29622" other_start="40477831" other_end="40477831" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="15" other_id="NC_000015.10" other_start="40156009" other_end="40223136">
+        <mapping_span lrg_start="1" lrg_end="67128" other_start="40156009" other_end="40223136" strand="1">
+          <diff type="mismatch" lrg_start="29622" lrg_end="29622" other_start="40185630" other_end="40185630" lrg_sequence="A" other_sequence="G" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">BUB1B</lrg_locus>
@@ -199,7 +204,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_016338.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001211.5" other_name="NM_001211.5" other_id="NM_001211.5" other_start="1" other_end="3742">
         <mapping_span lrg_start="5001" lrg_end="5247" other_start="1" other_end="247" strand="1" />
         <mapping_span lrg_start="9045" lrg_end="9188" other_start="248" other_end="391" strand="1" />
@@ -374,8 +379,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000287598.6" other_name="ENST00000287598.6" other_id="ENST00000287598.6" other_start="1" other_end="3725">
         <mapping_span lrg_start="5018" lrg_end="5247" other_start="1" other_end="230" strand="1" />
         <mapping_span lrg_start="9045" lrg_end="9188" other_start="231" other_end="374" strand="1" />
@@ -495,6 +500,13 @@
           <symbol source="HGNC" name="BUB1B" />
           <coordinates coord_system="LRG_489" start="5015" end="65128" strand="1" mapped_from="GRCh37" />
           <long_name>BUB1 mitotic checkpoint serine/threonine kinase B (protein_coding)</long_name>
+          <db_xref source="MIM" accession="602860" />
+          <db_xref source="HGNC" accession="1149">
+            <synonym>Bub1A</synonym>
+            <synonym>BUBR1</synonym>
+            <synonym>MAD3L</synonym>
+            <synonym>SSK1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="701">
             <synonym>Bub1A</synonym>
             <synonym>BUB1beta</synonym>
@@ -504,13 +516,6 @@
             <synonym>MVA1</synonym>
             <synonym>SSK1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1149">
-            <synonym>Bub1A</synonym>
-            <synonym>BUBR1</synonym>
-            <synonym>MAD3L</synonym>
-            <synonym>SSK1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="602860" />
           <db_xref source="Ensembl" accession="ENSG00000156970" />
           <transcript source="Ensembl" accession="ENST00000560120">
             <coordinates coord_system="LRG_489" start="5015" end="20613" strand="1" mapped_from="GRCh37" />
@@ -605,7 +610,6 @@
             <protein_product source="Ensembl" accession="ENSP00000287598">
               <coordinates coord_system="LRG_489" start="5213" end="64751" strand="1" mapped_from="GRCh37" />
               <long_name>mitotic checkpoint serine/threonine-protein kinase BUB1 beta</long_name>
-              <db_xref source="RefSeq" accession="NP_001202.4" />
               <db_xref source="UniProtKB" accession="O60566">
                 <synonym>B2R6U0</synonym>
                 <synonym>B4DL09</synonym>
@@ -618,6 +622,7 @@
                 <synonym>Q8WV50</synonym>
                 <synonym>Q96KM4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001202.4" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000559414">
@@ -849,40 +854,6 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000137843">
-          <symbol source="HGNC" name="PAK6" />
-          <coordinates coord_system="LRG_489" start="61420" end="67128" strand="1" mapped_from="GRCh37" />
-          <partial>3-prime</partial>
-          <long_name>p21 protein (Cdc42/Rac)-activated kinase 6 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="56924">
-            <synonym>PAK5</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="16061">
-            <synonym>PAK5</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="608110" />
-          <db_xref source="Ensembl" accession="ENSG00000137843" />
-          <transcript source="Ensembl" accession="ENST00000441369">
-            <coordinates coord_system="LRG_489" start="61420" end="67128" strand="1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>PAK6-201 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS10054.1" />
-            <db_xref source="RefSeq" accession="NM_001128628.1" />
-            <exon source="Ensembl" accession="ENSE00003471265">
-              <coordinates coord_system="LRG_489" start="61420" end="61659" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000453867">
-            <coordinates coord_system="LRG_489" start="61420" end="67128" strand="1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>PAK6-202 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS10054.1" />
-            <db_xref source="RefSeq" accession="NM_001128629.1" />
-            <exon source="Ensembl" accession="ENSE00003471265">
-              <coordinates coord_system="LRG_489" start="61420" end="61659" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000259288">
           <symbol source="Clone_based_vega_gene" name="RP11-133K1.2" />
           <coordinates coord_system="LRG_489" start="61420" end="67128" strand="1" mapped_from="GRCh37" />
@@ -933,6 +904,40 @@
             </protein_product>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000137843">
+          <symbol source="HGNC" name="PAK6" />
+          <coordinates coord_system="LRG_489" start="61420" end="67128" strand="1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <long_name>p21 protein (Cdc42/Rac)-activated kinase 6 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="608110" />
+          <db_xref source="HGNC" accession="16061">
+            <synonym>PAK5</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="56924">
+            <synonym>PAK5</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000137843" />
+          <transcript source="Ensembl" accession="ENST00000441369">
+            <coordinates coord_system="LRG_489" start="61420" end="67128" strand="1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>PAK6-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS10054.1" />
+            <db_xref source="RefSeq" accession="NM_001128628.2" />
+            <exon source="Ensembl" accession="ENSE00003471265">
+              <coordinates coord_system="LRG_489" start="61420" end="61659" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000453867">
+            <coordinates coord_system="LRG_489" start="61420" end="67128" strand="1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>PAK6-202 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS10054.1" />
+            <db_xref source="RefSeq" accession="NM_001128629.2" />
+            <exon source="Ensembl" accession="ENSE00003471265">
+              <coordinates coord_system="LRG_489" start="61420" end="61659" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
       </features>
     </annotation_set>
     <annotation_set>
@@ -940,7 +945,7 @@
         <name>List of locus specific databases for BUB1B</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/BUB1B</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

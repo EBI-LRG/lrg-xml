@@ -271,9 +271,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_start="23849199" other_end="23882486">
         <mapping_span lrg_start="1" lrg_end="33288" other_start="23849199" other_end="23882486" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="14" other_id="NC_000014.9" other_start="23379990" other_end="23413277">
+        <mapping_span lrg_start="1" lrg_end="33288" other_start="23379990" other_end="23413277" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">MYH6</lrg_locus>
     </annotation_set>
@@ -288,7 +291,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_023444.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_002471.3" other_name="NM_002471.3" other_id="NM_002471.3" other_start="1" other_end="5941">
         <mapping_span lrg_start="5001" lrg_end="5025" other_start="1" other_end="25" strand="1" />
         <mapping_span lrg_start="5670" lrg_end="5702" other_start="26" other_end="58" strand="1" />
@@ -540,8 +543,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000356287.3" other_name="ENST00000356287.3" other_id="ENST00000356287.3" other_start="1" other_end="5871">
         <mapping_span lrg_start="5686" lrg_end="5702" other_start="1" other_end="17" strand="1" />
         <mapping_span lrg_start="6042" lrg_end="6255" other_start="18" other_end="231" strand="1" />
@@ -644,6 +647,12 @@
           <coordinates coord_system="LRG_389" start="1" end="540" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>myosin, heavy chain 7, cardiac muscle, beta (protein_coding)</long_name>
+          <db_xref source="MIM" accession="160760" />
+          <db_xref source="HGNC" accession="7577">
+            <synonym>CMD1S</synonym>
+            <synonym>CMH1</synonym>
+            <synonym>MPD1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4625">
             <synonym>CMD1S</synonym>
             <synonym>CMH1</synonym>
@@ -652,12 +661,6 @@
             <synonym>SPMD</synonym>
             <synonym>SPMM</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7577">
-            <synonym>CMD1S</synonym>
-            <synonym>CMH1</synonym>
-            <synonym>MPD1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="160760" />
           <db_xref source="Ensembl" accession="ENSG00000092054" />
           <transcript source="Ensembl" accession="ENST00000355349">
             <coordinates coord_system="LRG_389" start="1" end="540" strand="1" mapped_from="GRCh37" />
@@ -672,7 +675,6 @@
               <coordinates coord_system="LRG_389" start="1" end="424" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>myosin-7</long_name>
-              <db_xref source="RefSeq" accession="NP_000248.2" />
               <db_xref source="UniProtKB" accession="P12883">
                 <synonym>A2TDB6</synonym>
                 <synonym>B6D424</synonym>
@@ -686,6 +688,7 @@
                 <synonym>Q9UDA2</synonym>
                 <synonym>Q9UMM8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000248.2" />
             </protein_product>
           </transcript>
         </gene>
@@ -693,6 +696,8 @@
           <symbol source="HGNC" name="MYH6" />
           <coordinates coord_system="LRG_389" start="5001" end="31288" strand="1" mapped_from="GRCh37" />
           <long_name>myosin, heavy chain 6, cardiac muscle, alpha (protein_coding)</long_name>
+          <db_xref source="MIM" accession="160710" />
+          <db_xref source="HGNC" accession="7576" />
           <db_xref source="GeneID" accession="4624">
             <synonym>alpha-MHC</synonym>
             <synonym>ASD3</synonym>
@@ -702,8 +707,6 @@
             <synonym>MYHCA</synonym>
             <synonym>SSS3</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7576" />
-          <db_xref source="MIM" accession="160710" />
           <db_xref source="Ensembl" accession="ENSG00000197616" />
           <transcript source="Ensembl" accession="ENST00000405093">
             <coordinates coord_system="LRG_389" start="5001" end="31288" strand="1" mapped_from="GRCh37" />
@@ -830,13 +833,14 @@
             <protein_product source="Ensembl" accession="ENSP00000386041">
               <coordinates coord_system="LRG_389" start="6055" end="31238" strand="1" mapped_from="GRCh37" />
               <long_name>myosin-6</long_name>
-              <db_xref source="RefSeq" accession="NP_002462.2" />
               <db_xref source="UniProtKB" accession="P13533">
                 <synonym>A2RTX1</synonym>
+                <synonym>D9YZU2</synonym>
                 <synonym>Q13943</synonym>
                 <synonym>Q14906</synonym>
                 <synonym>Q14907</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002462.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000557461">
@@ -1004,6 +1008,7 @@
               <coordinates coord_system="LRG_389" start="6055" end="31238" strand="1" mapped_from="GRCh37" />
               <db_xref source="UniProtKB" accession="P13533">
                 <synonym>A2RTX1</synonym>
+                <synonym>D9YZU2</synonym>
                 <synonym>Q13943</synonym>
                 <synonym>Q14906</synonym>
                 <synonym>Q14907</synonym>
@@ -1015,6 +1020,14 @@
           <symbol source="HGNC" name="MIR208A" />
           <coordinates coord_system="LRG_389" start="24606" end="24688" strand="1" mapped_from="GRCh37" />
           <long_name>microRNA 208a (miRNA)</long_name>
+          <db_xref source="miRBase" accession="MI0000251" />
+          <db_xref source="MIM" accession="611116" />
+          <db_xref source="HGNC" accession="31585">
+            <synonym>hsa-mir-208</synonym>
+            <synonym>hsa-mir-208a</synonym>
+            <synonym>MIRN208</synonym>
+            <synonym>MIRN208A</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="406990">
             <synonym>hsa-mir-208a</synonym>
             <synonym>MIR208</synonym>
@@ -1022,14 +1035,6 @@
             <synonym>MIRN208A</synonym>
             <synonym>miRNA208</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="31585">
-            <synonym>hsa-mir-208</synonym>
-            <synonym>hsa-mir-208a</synonym>
-            <synonym>MIRN208</synonym>
-            <synonym>MIRN208A</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="611116" />
-          <db_xref source="miRBase" accession="MI0000251" />
           <db_xref source="Ensembl" accession="ENSG00000199157" />
           <transcript source="Ensembl" accession="ENST00000362287">
             <coordinates coord_system="LRG_389" start="24606" end="24688" strand="1" mapped_from="GRCh37" />
@@ -1047,7 +1052,7 @@
         <name>List of locus specific databases for MYH6</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MYH6</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

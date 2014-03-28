@@ -97,9 +97,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="21965751" other_end="21999490">
         <mapping_span lrg_start="1" lrg_end="33740" other_start="21965751" other_end="21999490" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="9" other_id="NC_000009.12" other_start="21965752" other_end="21999491">
+        <mapping_span lrg_start="1" lrg_end="33740" other_start="21965752" other_end="21999491" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CDKN2A</lrg_locus>
     </annotation_set>
@@ -114,7 +117,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007485.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000077.4" other_name="NM_000077.4" other_id="NM_000077.4" other_start="1" other_end="1254">
         <mapping_span lrg_start="24359" lrg_end="24814" other_start="1" other_end="456" strand="1" />
         <mapping_span lrg_start="28284" lrg_end="28590" other_start="457" other_end="763" strand="1" />
@@ -277,8 +280,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000304494.5" other_name="ENST00000304494.5" other_id="ENST00000304494.5" other_start="1" other_end="1218">
         <mapping_span lrg_start="24394" lrg_end="24814" other_start="1" other_end="421" strand="1" />
         <mapping_span lrg_start="28284" lrg_end="28590" other_start="422" other_end="728" strand="1" />
@@ -385,22 +388,24 @@
           <coordinates coord_system="LRG_11" start="1" end="4714" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>CDKN2B antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100048912">
-            <synonym>ANRIL</synonym>
-            <synonym>CDKN2B-AS</synonym>
-            <synonym>CDKN2BAS</synonym>
-            <synonym>NCRNA00089</synonym>
-            <synonym>p15AS</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="613149" />
           <db_xref source="HGNC" accession="34341">
             <synonym>ANRIL</synonym>
             <synonym>CDKN2B-AS</synonym>
             <synonym>CDKN2BAS</synonym>
             <synonym>NCRNA00089</synonym>
             <synonym>p15AS</synonym>
+            <synonym>PCAT12</synonym>
             <synonym>RP11-145E5.4</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="613149" />
+          <db_xref source="GeneID" accession="100048912">
+            <synonym>ANRIL</synonym>
+            <synonym>CDKN2B-AS</synonym>
+            <synonym>CDKN2BAS</synonym>
+            <synonym>NCRNA00089</synonym>
+            <synonym>p15AS</synonym>
+            <synonym>PCAT12</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000240498" />
           <transcript source="Ensembl" accession="ENST00000468603">
             <coordinates coord_system="LRG_11" start="1" end="4714" strand="-1" mapped_from="GRCh37" />
@@ -558,6 +563,22 @@
           <symbol source="HGNC" name="CDKN2A" />
           <coordinates coord_system="LRG_11" start="4191" end="31740" strand="1" mapped_from="GRCh37" />
           <long_name>cyclin-dependent kinase inhibitor 2A (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600160" />
+          <db_xref source="HGNC" accession="1787">
+            <synonym>ARF</synonym>
+            <synonym>CDK4I</synonym>
+            <synonym>CDKN2</synonym>
+            <synonym>CMM2</synonym>
+            <synonym>INK4</synonym>
+            <synonym>INK4a</synonym>
+            <synonym>MLM</synonym>
+            <synonym>MTS1</synonym>
+            <synonym>p14</synonym>
+            <synonym>p16</synonym>
+            <synonym>p16INK4a</synonym>
+            <synonym>p19</synonym>
+            <synonym>p19Arf</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="1029">
             <synonym>ARF</synonym>
             <synonym>CDK4I</synonym>
@@ -578,22 +599,6 @@
             <synonym>P19ARF</synonym>
             <synonym>TP16</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1787">
-            <synonym>ARF</synonym>
-            <synonym>CDK4I</synonym>
-            <synonym>CDKN2</synonym>
-            <synonym>CMM2</synonym>
-            <synonym>INK4</synonym>
-            <synonym>INK4a</synonym>
-            <synonym>MLM</synonym>
-            <synonym>MTS1</synonym>
-            <synonym>p14</synonym>
-            <synonym>p16</synonym>
-            <synonym>p16INK4a</synonym>
-            <synonym>p19</synonym>
-            <synonym>p19Arf</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="600160" />
           <db_xref source="Ensembl" accession="ENSG00000147889" />
           <transcript source="Ensembl" accession="ENST00000498628">
             <coordinates coord_system="LRG_11" start="4191" end="31387" strand="1" mapped_from="GRCh37" />
@@ -701,7 +706,6 @@
             <protein_product source="Ensembl" accession="ENSP00000355153">
               <coordinates coord_system="LRG_11" start="5038" end="28489" strand="1" mapped_from="GRCh37" />
               <long_name>cyclin-dependent kinase inhibitor 2A isoform p14ARF</long_name>
-              <db_xref source="RefSeq" accession="NP_478102.2" />
               <db_xref source="UniProtKB" accession="Q8N726">
                 <synonym>D3DRK2</synonym>
                 <synonym>Q13195</synonym>
@@ -709,6 +713,7 @@
                 <synonym>Q16360</synonym>
                 <synonym>Q7KZR9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_478102.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000530628">
@@ -759,7 +764,6 @@
             <protein_product source="Ensembl" accession="ENSP00000307101">
               <coordinates coord_system="LRG_11" start="24665" end="31263" strand="1" mapped_from="GRCh37" />
               <long_name>cyclin-dependent kinase inhibitor 2A isoform p16INK4a</long_name>
-              <db_xref source="RefSeq" accession="NP_000068.1" />
               <db_xref source="UniProtKB" accession="P42771">
                 <synonym>A5X2G7</synonym>
                 <synonym>D3DRK1</synonym>
@@ -769,6 +773,7 @@
                 <synonym>Q96B52</synonym>
                 <synonym>Q9NP05</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000068.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000446177">
@@ -817,7 +822,6 @@
             <protein_product source="Ensembl" accession="ENSP00000418915">
               <coordinates coord_system="LRG_11" start="24665" end="30767" strand="1" mapped_from="GRCh37" />
               <long_name>cyclin-dependent kinase inhibitor 2A isoform p16gamma</long_name>
-              <db_xref source="RefSeq" accession="NP_001182061.1" />
               <db_xref source="UniProtKB" accession="P42771">
                 <synonym>A5X2G7</synonym>
                 <synonym>D3DRK1</synonym>
@@ -827,6 +831,7 @@
                 <synonym>Q96B52</synonym>
                 <synonym>Q9NP05</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001182061.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000579122">
@@ -964,7 +969,7 @@
         <name>List of locus specific databases for CDKN2A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CDKN2A</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

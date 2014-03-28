@@ -189,9 +189,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_start="45600136" other_end="45672090">
         <mapping_span lrg_start="1" lrg_end="71955" other_start="45600136" other_end="45672090" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="14" other_id="NC_000014.9" other_start="45130933" other_end="45202887">
+        <mapping_span lrg_start="1" lrg_end="71955" other_start="45130933" other_end="45202887" strand="1">
+          <diff type="mismatch" lrg_start="9982" lrg_end="9982" other_start="45140914" other_end="45140914" lrg_sequence="T" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">FANCM</lrg_locus>
     </annotation_set>
@@ -206,7 +211,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007417.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_020937.2" other_name="NM_020937.2" other_id="NM_020937.2" other_start="1" other_end="7128">
         <mapping_span lrg_start="5001" lrg_end="5607" other_start="1" other_end="607" strand="1" />
         <mapping_span lrg_start="6137" lrg_end="6309" other_start="608" other_end="780" strand="1" />
@@ -385,8 +390,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000267430.5" other_name="ENST00000267430.5" other_id="ENST00000267430.5" other_start="1" other_end="7111">
         <mapping_span lrg_start="5015" lrg_end="5607" other_start="1" other_end="593" strand="1" />
         <mapping_span lrg_start="6137" lrg_end="6309" other_start="594" other_end="766" strand="1" />
@@ -512,17 +517,17 @@
           <coordinates coord_system="LRG_502" start="1" end="4387" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>FK506 binding protein 3, 25kDa (protein_coding)</long_name>
+          <db_xref source="MIM" accession="186947" />
+          <db_xref source="HGNC" accession="3719">
+            <synonym>FKBP-25</synonym>
+            <synonym>PPIase</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2287">
             <synonym>FKBP-25</synonym>
             <synonym>FKBP-3</synonym>
             <synonym>FKBP25</synonym>
             <synonym>PPIase</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3719">
-            <synonym>FKBP-25</synonym>
-            <synonym>PPIase</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="186947" />
           <db_xref source="Ensembl" accession="ENSG00000100442" />
           <transcript source="Ensembl" accession="ENST00000216330">
             <coordinates coord_system="LRG_502" start="1" end="4387" strand="-1" mapped_from="GRCh37" />
@@ -580,11 +585,11 @@
               <coordinates coord_system="LRG_502" start="1" end="3524" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>peptidyl-prolyl cis-trans isomerase FKBP3</long_name>
-              <db_xref source="RefSeq" accession="NP_002004.1" />
               <db_xref source="UniProtKB" accession="Q00688">
                 <synonym>B2R4Q9</synonym>
                 <synonym>Q14317</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002004.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -592,15 +597,15 @@
           <symbol source="HGNC" name="FANCM" />
           <coordinates coord_system="LRG_502" start="5008" end="69958" strand="1" mapped_from="GRCh37" />
           <long_name>Fanconi anemia, complementation group M (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="57697">
-            <synonym>FAAP250</synonym>
-            <synonym>KIAA1596</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="609644" />
           <db_xref source="HGNC" accession="23168">
             <synonym>FAAP250</synonym>
             <synonym>KIAA1596</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="609644" />
+          <db_xref source="GeneID" accession="57697">
+            <synonym>FAAP250</synonym>
+            <synonym>KIAA1596</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000187790" />
           <transcript source="Ensembl" accession="ENST00000556036">
             <coordinates coord_system="LRG_502" start="5008" end="36491" strand="1" mapped_from="GRCh37" />
@@ -724,12 +729,12 @@
             <protein_product source="Ensembl" accession="ENSP00000267430">
               <coordinates coord_system="LRG_502" start="5100" end="69076" strand="1" mapped_from="GRCh37" />
               <long_name>Fanconi anemia group M protein</long_name>
-              <db_xref source="RefSeq" accession="NP_065988.1" />
               <db_xref source="UniProtKB" accession="Q8IYD8">
                 <synonym>Q3YFH9</synonym>
                 <synonym>Q8N9X6</synonym>
                 <synonym>Q9HCH6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_065988.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000542564">
@@ -982,7 +987,7 @@
         <name>List of locus specific databases for FANCM</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FANCM</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

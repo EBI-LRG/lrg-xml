@@ -275,9 +275,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_start="81573760" other_end="82078031">
         <mapping_span lrg_start="1" lrg_end="504272" other_start="81573760" other_end="82078031" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="7" other_id="NC_000007.14" other_start="81944444" other_end="82448715">
+        <mapping_span lrg_start="1" lrg_end="504272" other_start="81944444" other_end="82448715" strand="-1">
+          <diff type="mismatch" lrg_start="22881" lrg_end="22881" other_start="82425835" other_end="82425835" lrg_sequence="T" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">CACNA2D1</lrg_locus>
     </annotation_set>
@@ -292,7 +297,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009358.2</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000722.2" other_name="NM_000722.2" other_id="NM_000722.2" other_start="1" other_end="3822">
         <mapping_span lrg_start="5001" lrg_end="5351" other_start="1" other_end="351" strand="1" />
         <mapping_span lrg_start="99067" lrg_end="99148" other_start="352" other_end="433" strand="1" />
@@ -340,6 +345,8 @@
             <synonym>CACNA2</synonym>
             <synonym>CACNL2A</synonym>
             <synonym>CCHL2A</synonym>
+            <synonym>LINC01112</synonym>
+            <synonym>lncRNA-N3</synonym>
           </symbol>
           <coordinates coord_system="LRG_437" start="5001" end="498614" strand="1" />
           <long_name>calcium channel, voltage-dependent, alpha 2/delta subunit 1</long_name>
@@ -476,10 +483,56 @@
               <long_name>calcium channel, L type, alpha 2 polypeptide</long_name>
               <long_name>dihydropyridine-sensitive L-type, calcium channel alpha-2/delta subunit</long_name>
               <long_name>voltage-gated calcium channel subunit alpha-2/delta-1</long_name>
+              <long_name>long intergenic non-protein coding RNA 1112</long_name>
               <db_xref source="CCDS" accession="CCDS5598.1" />
               <db_xref source="GeneID" accession="781" />
               <db_xref source="GI" accession="54112390" />
             </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="101927356">
+          <symbol name="AC006145.4" />
+          <coordinates coord_system="LRG_437" start="418761" end="439539" strand="-1" />
+          <long_name>uncharacterized LOC101927356</long_name>
+          <db_xref source="GeneID" accession="101927356" />
+          <transcript source="RefSeq" accession="NR_110077.1">
+            <coordinates coord_system="LRG_437" start="418761" end="439539" strand="-1" />
+            <long_name>uncharacterized LOC101927356, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="101927356" />
+            <db_xref source="GI" accession="570700921" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_437" start="439454" end="439539" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_437" start="427782" end="427906" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_437" start="424819" end="424873" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_437" start="418761" end="421061" strand="-1" />
+            </exon>
+          </transcript>
+          <transcript source="RefSeq" accession="NR_110076.1">
+            <coordinates coord_system="LRG_437" start="418761" end="439539" strand="-1" />
+            <long_name>uncharacterized LOC101927356, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="101927356" />
+            <db_xref source="GI" accession="570700874" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_437" start="439454" end="439539" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_437" start="427782" end="427906" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_437" start="427511" end="427594" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_437" start="424819" end="424873" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_437" start="418761" end="421061" strand="-1" />
+            </exon>
           </transcript>
         </gene>
       </features>
@@ -494,8 +547,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000356253.5" other_name="ENST00000356253.5" other_id="ENST00000356253.5" other_start="1" other_end="3858">
         <mapping_span lrg_start="5001" lrg_end="5351" other_start="1" other_end="351" strand="1" />
         <mapping_span lrg_start="99067" lrg_end="99148" other_start="352" other_end="433" strand="1" />
@@ -677,17 +730,19 @@
           <symbol source="HGNC" name="CACNA2D1" />
           <coordinates coord_system="LRG_437" start="4918" end="502272" strand="1" mapped_from="GRCh37" />
           <long_name>calcium channel, voltage-dependent, alpha 2/delta subunit 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="114204" />
+          <db_xref source="HGNC" accession="1399">
+            <synonym>CACNA2</synonym>
+            <synonym>CACNL2A</synonym>
+            <synonym>LINC01112</synonym>
+            <synonym>lncRNA-N3</synonym>
+            <synonym>MHS3</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="781">
             <synonym>CACNA2</synonym>
             <synonym>CACNL2A</synonym>
             <synonym>CCHL2A</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1399">
-            <synonym>CACNA2</synonym>
-            <synonym>CACNL2A</synonym>
-            <synonym>MHS3</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="114204" />
           <db_xref source="Ensembl" accession="ENSG00000153956" />
           <transcript source="Ensembl" accession="ENST00000356860">
             <coordinates coord_system="LRG_437" start="4918" end="502272" strand="1" mapped_from="GRCh37" />
@@ -814,13 +869,13 @@
             <protein_product source="Ensembl" accession="ENSP00000349320">
               <coordinates coord_system="LRG_437" start="5257" end="498324" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent calcium channel subunit alpha-2/delta-1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000713.2" />
               <db_xref source="UniProtKB" accession="P54289">
                 <synonym>Q17R45</synonym>
                 <synonym>Q9UD80</synonym>
                 <synonym>Q9UD81</synonym>
                 <synonym>Q9UD82</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000713.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000423588">
@@ -1224,14 +1279,13 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000221262">
-          <symbol source="miRBase" name="hsa-mir-548ba" />
+          <symbol source="Clone_based_ensembl_gene" name="AC005159.1" />
           <coordinates coord_system="LRG_437" start="158554" end="158639" strand="-1" mapped_from="GRCh37" />
-          <long_name>hsa-mir-548ba [Source:miRBase;Acc:MI0025747] (miRNA)</long_name>
-          <db_xref source="miRBase" accession="MI0025747" />
+          <long_name>AC005159.1 (miRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000221262" />
           <transcript source="Ensembl" accession="ENST00000408335">
             <coordinates coord_system="LRG_437" start="158554" end="158639" strand="-1" mapped_from="GRCh37" />
-            <long_name>hsa-mir-548ba.1-201 (miRNA)</long_name>
+            <long_name>AC005159.1-201 (miRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001806968">
               <coordinates coord_system="LRG_437" start="158554" end="158639" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -1241,20 +1295,23 @@
           <symbol source="HGNC" name="MIR1255B1" />
           <coordinates coord_system="LRG_437" start="418761" end="439539" strand="-1" mapped_from="GRCh37" />
           <long_name>microRNA 1255b-1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100313806">
-            <synonym>MIR1255B-1</synonym>
-            <synonym>MIRN1255B1</synonym>
-          </db_xref>
+          <db_xref source="miRBase" accession="MI0006435" />
           <db_xref source="HGNC" accession="35366">
             <synonym>hsa-mir-1255b-1</synonym>
             <synonym>MIRN1255B1</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0006435" />
+          <db_xref source="GeneID" accession="101927356" />
+          <db_xref source="GeneID" accession="100313806">
+            <synonym>MIR1255B-1</synonym>
+            <synonym>MIRN1255B1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000223770" />
           <transcript source="Ensembl" accession="ENST00000439234">
             <coordinates coord_system="LRG_437" start="418761" end="439539" strand="-1" mapped_from="GRCh37" />
             <long_name>MIR1255B1-001 (antisense)</long_name>
             <db_xref source="RefSeq" accession="NR_031701.1" />
+            <db_xref source="RefSeq" accession="NR_110076.1" />
+            <db_xref source="RefSeq" accession="NR_110077.1" />
             <exon source="Ensembl" accession="ENSE00001801469">
               <coordinates coord_system="LRG_437" start="439454" end="439539" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -1295,7 +1352,7 @@
         <name>List of locus specific databases for CACNA2D1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CACNA2D1</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -129,9 +129,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_start="23612483" other_end="23657678">
         <mapping_span lrg_start="1" lrg_end="45196" other_start="23612483" other_end="23657678" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="16" other_id="NC_000016.10" other_start="23601162" other_end="23646357">
+        <mapping_span lrg_start="1" lrg_end="45196" other_start="23601162" other_end="23646357" strand="-1">
+          <diff type="mismatch" lrg_start="32216" lrg_end="32216" other_start="23614142" other_end="23614142" lrg_sequence="T" other_sequence="A" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">PALB2</lrg_locus>
     </annotation_set>
@@ -146,7 +151,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007406.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_024675.3" other_name="NM_024675.3" other_id="NM_024675.3" other_start="1" other_end="4058">
         <mapping_span lrg_start="5001" lrg_end="5248" other_start="1" other_end="248" strand="1" />
         <mapping_span lrg_start="8229" lrg_end="8288" other_start="249" other_end="308" strand="1" />
@@ -349,8 +354,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000261584.4" other_name="ENST00000261584.4" other_id="ENST00000261584.4" other_start="1" other_end="4003">
         <mapping_span lrg_start="5048" lrg_end="5248" other_start="1" other_end="201" strand="1" />
         <mapping_span lrg_start="8229" lrg_end="8288" other_start="202" other_end="261" strand="1" />
@@ -411,12 +416,12 @@
           <coordinates coord_system="LRG_308" start="1" end="4966" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>dynactin 5 (p25) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="84516" />
+          <db_xref source="MIM" accession="612962" />
           <db_xref source="HGNC" accession="24594">
             <synonym>MGC3248</synonym>
             <synonym>p25</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="612962" />
+          <db_xref source="GeneID" accession="84516" />
           <db_xref source="Ensembl" accession="ENSG00000166847" />
           <transcript source="Ensembl" accession="ENST00000300087">
             <coordinates coord_system="LRG_308" start="1" end="4966" strand="-1" mapped_from="GRCh37" />
@@ -434,14 +439,14 @@
             <protein_product source="Ensembl" accession="ENSP00000300087">
               <coordinates coord_system="LRG_308" start="1" end="4815" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>dynactin subunit 5 isoform 1, dynactin subunit 5 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_115875.1" />
-              <db_xref source="RefSeq" accession="NP_001186672.1" />
+              <long_name>dynactin subunit 5 isoform 3, dynactin subunit 5 isoform 1</long_name>
               <db_xref source="UniProtKB" accession="Q9BTE1">
                 <synonym>A8K9X8</synonym>
                 <synonym>H3BN51</synonym>
                 <synonym>H3BQA4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001186672.1" />
+              <db_xref source="RefSeq" accession="NP_115875.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000563998">
@@ -526,12 +531,12 @@
               <coordinates coord_system="LRG_308" start="1" end="4815" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>dynactin subunit 5 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001185940.1" />
               <db_xref source="UniProtKB" accession="Q9BTE1">
                 <synonym>A8K9X8</synonym>
                 <synonym>H3BN51</synonym>
                 <synonym>H3BQA4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001185940.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000566298">
@@ -547,15 +552,15 @@
           <symbol source="HGNC" name="PALB2" />
           <coordinates coord_system="LRG_308" start="5048" end="43191" strand="1" mapped_from="GRCh37" />
           <long_name>partner and localizer of BRCA2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="79728">
-            <synonym>FANCN</synonym>
-            <synonym>PNCA3</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="610355" />
           <db_xref source="HGNC" accession="26144">
             <synonym>FANCN</synonym>
             <synonym>FLJ21816</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="610355" />
+          <db_xref source="GeneID" accession="79728">
+            <synonym>FANCN</synonym>
+            <synonym>PNCA3</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000083093" />
           <transcript source="Ensembl" accession="ENST00000261584">
             <coordinates coord_system="LRG_308" start="5048" end="43188" strand="1" mapped_from="GRCh37" />
@@ -604,13 +609,13 @@
             <protein_product source="Ensembl" accession="ENSP00000261584">
               <coordinates coord_system="LRG_308" start="5201" end="42899" strand="1" mapped_from="GRCh37" />
               <long_name>partner and localizer of BRCA2</long_name>
-              <db_xref source="RefSeq" accession="NP_078951.2" />
               <db_xref source="UniProtKB" accession="Q86YC2">
                 <synonym>A6NIE1</synonym>
                 <synonym>Q8N7Y6</synonym>
                 <synonym>Q8ND31</synonym>
                 <synonym>Q9H6W1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_078951.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000567003">
@@ -765,7 +770,7 @@
         <name>List of locus specific databases for PALB2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PALB2</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

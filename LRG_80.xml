@@ -68,11 +68,17 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="131639391" other_end="131682318">
         <mapping_span lrg_start="1" lrg_end="42928" other_start="131639391" other_end="131682318" strand="1">
           <diff type="mismatch" lrg_start="31529" lrg_end="31529" other_start="131670919" other_end="131670919" lrg_sequence="C" other_sequence="T" />
           <diff type="mismatch" lrg_start="40507" lrg_end="40507" other_start="131679897" other_end="131679897" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="9" other_id="NC_000009.12" other_start="128877112" other_end="128920039">
+        <mapping_span lrg_start="1" lrg_end="42928" other_start="128877112" other_end="128920039" strand="1">
+          <diff type="mismatch" lrg_start="31529" lrg_end="31529" other_start="128908640" other_end="128908640" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="40507" lrg_end="40507" other_start="128917618" other_end="128917618" lrg_sequence="G" other_sequence="A" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">LRRC8A</lrg_locus>
@@ -88,7 +94,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009630.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001127244.1" other_name="NM_001127244.1" other_id="NM_001127244.1" other_start="1" other_end="4624">
         <mapping_span lrg_start="5391" lrg_end="5798" other_start="1" other_end="408" strand="1" />
         <mapping_span lrg_start="8904" lrg_end="9010" other_start="409" other_end="515" strand="1" />
@@ -136,6 +142,17 @@
             <long_name>cysteine conjugate-beta lyase, cytoplasmic, transcript variant 3</long_name>
             <db_xref source="GeneID" accession="883" />
             <db_xref source="GI" accession="169881280" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_80" start="4786" end="4964" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+          <transcript source="RefSeq" accession="NR_109829.1">
+            <coordinates coord_system="LRG_80" start="4786" end="4964" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>cysteine conjugate-beta lyase, cytoplasmic, transcript variant 5</long_name>
+            <db_xref source="GeneID" accession="883" />
+            <db_xref source="GI" accession="565671797" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_80" start="4786" end="4964" strand="-1" />
               <partial>3-prime</partial>
@@ -250,8 +267,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000259324.5" other_name="ENST00000259324.5" other_id="ENST00000259324.5" other_start="1" other_end="4619">
         <mapping_span lrg_start="5391" lrg_end="5798" other_start="1" other_end="408" strand="1" />
         <mapping_span lrg_start="8904" lrg_end="9010" other_start="409" other_end="515" strand="1" />
@@ -295,21 +312,22 @@
           <coordinates coord_system="LRG_80" start="1" end="5383" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>cysteine conjugate-beta lyase, cytoplasmic (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600547" />
+          <db_xref source="HGNC" accession="1564">
+            <synonym>GTK</synonym>
+            <synonym>KATI</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="883">
             <synonym>GTK</synonym>
             <synonym>KAT1</synonym>
             <synonym>KATI</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1564">
-            <synonym>GTK</synonym>
-            <synonym>KATI</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="600547" />
           <db_xref source="Ensembl" accession="ENSG00000171097" />
           <transcript source="Ensembl" accession="ENST00000462722">
             <coordinates coord_system="LRG_80" start="1" end="4925" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>CCBL1-004 (processed_transcript)</long_name>
+            <db_xref source="RefSeq" accession="NR_109829.1" />
             <exon source="Ensembl" accession="ENSE00001932031">
               <coordinates coord_system="LRG_80" start="4786" end="4925" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -355,6 +373,7 @@
             <coordinates coord_system="LRG_80" start="1" end="4820" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>CCBL1-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001287390.1" />
             <exon source="Ensembl" accession="ENSE00002246406">
               <coordinates coord_system="LRG_80" start="4786" end="4820" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -364,16 +383,16 @@
           <symbol source="HGNC" name="LRRC8A" />
           <coordinates coord_system="LRG_80" start="5001" end="40928" strand="1" mapped_from="GRCh37" />
           <long_name>leucine rich repeat containing 8 family, member A (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="56262">
-            <synonym>AGM5</synonym>
-            <synonym>LRRC8</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="608360" />
           <db_xref source="HGNC" accession="19027">
             <synonym>FLJ10337</synonym>
             <synonym>KIAA1437</synonym>
             <synonym>LRRC8</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="608360" />
+          <db_xref source="GeneID" accession="56262">
+            <synonym>AGM5</synonym>
+            <synonym>LRRC8</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000136802" />
           <transcript source="Ensembl" accession="ENST00000372600">
             <coordinates coord_system="LRG_80" start="5001" end="40928" strand="1" mapped_from="GRCh37" />
@@ -395,12 +414,12 @@
             <protein_product source="Ensembl" accession="ENSP00000361682">
               <coordinates coord_system="LRG_80" start="30054" end="39260" strand="1" mapped_from="GRCh37" />
               <long_name>leucine-rich repeat-containing protein 8A</long_name>
-              <db_xref source="RefSeq" accession="NP_062540.2" />
               <db_xref source="UniProtKB" accession="Q8IWT6">
                 <synonym>Q6UXM2</synonym>
                 <synonym>Q8NCI0</synonym>
                 <synonym>Q9P2B1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_062540.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372599">
@@ -420,12 +439,12 @@
             <protein_product source="Ensembl" accession="ENSP00000361680">
               <coordinates coord_system="LRG_80" start="30054" end="39260" strand="1" mapped_from="GRCh37" />
               <long_name>leucine-rich repeat-containing protein 8A</long_name>
-              <db_xref source="RefSeq" accession="NP_001120717.1" />
               <db_xref source="UniProtKB" accession="Q8IWT6">
                 <synonym>Q6UXM2</synonym>
                 <synonym>Q8NCI0</synonym>
                 <synonym>Q9P2B1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001120717.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000259324">
@@ -448,12 +467,12 @@
             <protein_product source="Ensembl" accession="ENSP00000259324">
               <coordinates coord_system="LRG_80" start="30054" end="39260" strand="1" mapped_from="GRCh37" />
               <long_name>leucine-rich repeat-containing protein 8A</long_name>
-              <db_xref source="RefSeq" accession="NP_001120716.1" />
               <db_xref source="UniProtKB" accession="Q8IWT6">
                 <synonym>Q6UXM2</synonym>
                 <synonym>Q8NCI0</synonym>
                 <synonym>Q9P2B1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001120716.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000483638">
@@ -484,7 +503,7 @@
         <name>List of locus specific databases for LRRC8A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/LRRC8A</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

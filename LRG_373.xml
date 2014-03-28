@@ -189,9 +189,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="130208765" other_end="130267780">
         <mapping_span lrg_start="1" lrg_end="59016" other_start="130208765" other_end="130267780" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="9" other_id="NC_000009.12" other_start="127446486" other_end="127505501">
+        <mapping_span lrg_start="1" lrg_end="59016" other_start="127446486" other_end="127505501" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">LRSAM1</lrg_locus>
     </annotation_set>
@@ -206,7 +209,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_032008.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001005373.3" other_name="NM_001005373.3" other_id="NM_001005373.3" other_start="1" other_end="3146">
         <mapping_span lrg_start="5001" lrg_end="5184" other_start="1" other_end="184" strand="1" />
         <mapping_span lrg_start="5444" lrg_end="5599" other_start="185" other_end="340" strand="1" />
@@ -760,34 +763,12 @@
             <synonym>MINERVA</synonym>
             <synonym>OC58</synonym>
           </symbol>
-          <coordinates coord_system="LRG_373" start="58854" end="59016" strand="-1" />
+          <coordinates coord_system="LRG_373" start="58853" end="59016" strand="-1" />
           <partial>5-prime</partial>
           <long_name>family with sequence similarity 129, member B</long_name>
           <db_xref source="GeneID" accession="64855" />
           <db_xref source="HGNC" accession="25282" />
           <db_xref source="MIM" accession="614045" />
-          <transcript source="RefSeq" accession="NM_022833.2">
-            <coordinates coord_system="LRG_373" start="58854" end="59016" strand="-1" />
-            <partial>5-prime</partial>
-            <long_name>family with sequence similarity 129, member B, transcript variant 1</long_name>
-            <db_xref source="GeneID" accession="64855" />
-            <db_xref source="GI" accession="51093862" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_373" start="58854" end="59016" strand="-1" />
-              <partial>5-prime</partial>
-            </exon>
-          </transcript>
-          <transcript source="RefSeq" accession="NM_001035534.1">
-            <coordinates coord_system="LRG_373" start="58854" end="59016" strand="-1" />
-            <partial>5-prime</partial>
-            <long_name>family with sequence similarity 129, member B, transcript variant 2</long_name>
-            <db_xref source="GeneID" accession="64855" />
-            <db_xref source="GI" accession="79750823" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_373" start="58854" end="59016" strand="-1" />
-              <partial>5-prime</partial>
-            </exon>
-          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -801,8 +782,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000300417.6" other_name="ENST00000300417.6" other_id="ENST00000300417.6" other_start="1" other_end="3146">
         <mapping_span lrg_start="5001" lrg_end="5184" other_start="1" other_end="184" strand="1" />
         <mapping_span lrg_start="5444" lrg_end="5599" other_start="185" other_end="340" strand="1" />
@@ -973,13 +954,13 @@
           <symbol source="HGNC" name="RPL12" />
           <coordinates coord_system="LRG_373" start="1189" end="4920" strand="-1" mapped_from="GRCh37" />
           <long_name>ribosomal protein L12 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6136">
-            <synonym>L12</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="180475" />
           <db_xref source="HGNC" accession="10302">
             <synonym>L12</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="180475" />
+          <db_xref source="GeneID" accession="6136">
+            <synonym>L12</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000197958" />
           <transcript source="Ensembl" accession="ENST00000361436">
             <coordinates coord_system="LRG_373" start="1189" end="4920" strand="-1" mapped_from="GRCh37" />
@@ -1010,11 +991,11 @@
             <protein_product source="Ensembl" accession="ENSP00000354739">
               <coordinates coord_system="LRG_373" start="1236" end="4832" strand="-1" mapped_from="GRCh37" />
               <long_name>60S ribosomal protein L12</long_name>
-              <db_xref source="RefSeq" accession="NP_000967.1" />
               <db_xref source="UniProtKB" accession="P30050">
                 <synonym>Q5VVV2</synonym>
                 <synonym>Q6PB27</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000967.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000497825">
@@ -1102,15 +1083,15 @@
           <symbol source="HGNC" name="SNORA65" />
           <coordinates coord_system="LRG_373" start="2016" end="2145" strand="-1" mapped_from="GRCh37" />
           <long_name>small nucleolar RNA, H/ACA box 65 (snoRNA)</long_name>
-          <db_xref source="GeneID" accession="26783">
-            <synonym>RNU65</synonym>
-            <synonym>U65</synonym>
-          </db_xref>
+          <db_xref source="RFAM" accession="RF00302" />
           <db_xref source="HGNC" accession="10222">
             <synonym>RNU65</synonym>
             <synonym>U65</synonym>
           </db_xref>
-          <db_xref source="RFAM" accession="RF00302" />
+          <db_xref source="GeneID" accession="26783">
+            <synonym>RNU65</synonym>
+            <synonym>U65</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000201302" />
           <transcript source="Ensembl" accession="ENST00000364432">
             <coordinates coord_system="LRG_373" start="2016" end="2145" strand="-1" mapped_from="GRCh37" />
@@ -1125,15 +1106,15 @@
           <symbol source="HGNC" name="LRSAM1" />
           <coordinates coord_system="LRG_373" start="5001" end="57016" strand="1" mapped_from="GRCh37" />
           <long_name>leucine rich repeat and sterile alpha motif containing 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="610933" />
+          <db_xref source="HGNC" accession="25135">
+            <synonym>FLJ31641</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="90678">
             <synonym>CMT2P</synonym>
             <synonym>RIFLE</synonym>
             <synonym>TAL</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="25135">
-            <synonym>FLJ31641</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="610933" />
           <db_xref source="Ensembl" accession="ENSG00000148356" />
           <transcript source="Ensembl" accession="ENST00000300417">
             <coordinates coord_system="LRG_373" start="5001" end="57016" strand="1" mapped_from="GRCh37" />
@@ -1221,7 +1202,6 @@
             <protein_product source="Ensembl" accession="ENSP00000300417">
               <coordinates coord_system="LRG_373" start="8043" end="56414" strand="1" mapped_from="GRCh37" />
               <long_name>E3 ubiquitin-protein ligase LRSAM1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001005373.1" />
               <db_xref source="UniProtKB" accession="Q6UWE0">
                 <synonym>Q5VVV0</synonym>
                 <synonym>Q8NB40</synonym>
@@ -1229,6 +1209,7 @@
                 <synonym>Q96MX5</synonym>
                 <synonym>Q96MZ7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001005373.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000373324">
@@ -1314,7 +1295,6 @@
             <protein_product source="Ensembl" accession="ENSP00000362421">
               <coordinates coord_system="LRG_373" start="8043" end="56414" strand="1" mapped_from="GRCh37" />
               <long_name>E3 ubiquitin-protein ligase LRSAM1 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001177652.1" />
               <db_xref source="UniProtKB" accession="Q6UWE0">
                 <synonym>Q5VVV0</synonym>
                 <synonym>Q8NB40</synonym>
@@ -1322,6 +1302,7 @@
                 <synonym>Q96MX5</synonym>
                 <synonym>Q96MZ7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001177652.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000323301">
@@ -1407,7 +1388,6 @@
             <protein_product source="Ensembl" accession="ENSP00000322937">
               <coordinates coord_system="LRG_373" start="8043" end="56414" strand="1" mapped_from="GRCh37" />
               <long_name>E3 ubiquitin-protein ligase LRSAM1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_612370.3" />
               <db_xref source="UniProtKB" accession="Q6UWE0">
                 <synonym>Q5VVV0</synonym>
                 <synonym>Q8NB40</synonym>
@@ -1415,6 +1395,7 @@
                 <synonym>Q96MX5</synonym>
                 <synonym>Q96MZ7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_612370.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000486587">
@@ -1529,7 +1510,6 @@
             <protein_product source="Ensembl" accession="ENSP00000362419">
               <coordinates coord_system="LRG_373" start="8043" end="56414" strand="1" mapped_from="GRCh37" />
               <long_name>E3 ubiquitin-protein ligase LRSAM1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001005374.1" />
               <db_xref source="UniProtKB" accession="Q6UWE0">
                 <synonym>Q5VVV0</synonym>
                 <synonym>Q8NB40</synonym>
@@ -1537,6 +1517,7 @@
                 <synonym>Q96MX5</synonym>
                 <synonym>Q96MZ7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001005374.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000498513">
@@ -1686,13 +1667,7 @@
           <coordinates coord_system="LRG_373" start="58854" end="59016" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>family with sequence similarity 129, member B (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="64855">
-            <synonym>bA356B19.6</synonym>
-            <synonym>C9orf88</synonym>
-            <synonym>MEG-3</synonym>
-            <synonym>MINERVA</synonym>
-            <synonym>OC58</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="614045" />
           <db_xref source="HGNC" accession="25282">
             <synonym>bA356B19.6</synonym>
             <synonym>C9orf88</synonym>
@@ -1702,7 +1677,13 @@
             <synonym>FLJ22298</synonym>
             <synonym>MINERVA</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="614045" />
+          <db_xref source="GeneID" accession="64855">
+            <synonym>bA356B19.6</synonym>
+            <synonym>C9orf88</synonym>
+            <synonym>MEG-3</synonym>
+            <synonym>MINERVA</synonym>
+            <synonym>OC58</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000136830" />
           <transcript source="Ensembl" accession="ENST00000373314">
             <coordinates coord_system="LRG_373" start="58854" end="59016" strand="-1" mapped_from="GRCh37" />
@@ -1742,7 +1723,7 @@
         <name>List of locus specific databases for LRSAM1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/LRSAM1</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

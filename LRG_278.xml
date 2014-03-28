@@ -91,9 +91,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_start="12912428" other_end="12926462">
         <mapping_span lrg_start="1" lrg_end="14035" other_start="12912428" other_end="12926462" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="19" other_id="NC_000019.10" other_start="12801614" other_end="12815648">
+        <mapping_span lrg_start="1" lrg_end="14035" other_start="12801614" other_end="12815648" strand="1">
+          <diff type="mismatch" lrg_start="7700" lrg_end="7700" other_start="12809313" other_end="12809313" lrg_sequence="T" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">RNASEH2A</lrg_locus>
     </annotation_set>
@@ -108,7 +113,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012662.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_006397.2" other_name="NM_006397.2" other_id="NM_006397.2" other_start="1" other_end="1142">
         <mapping_span lrg_start="5001" lrg_end="5187" other_start="1" other_end="187" strand="1" />
         <mapping_span lrg_start="5395" lrg_end="5466" other_start="188" other_end="259" strand="1" />
@@ -122,6 +127,7 @@
       <features>
         <gene source="NCBI-Gene" accession="7001">
           <symbol source="HGNC" name="PRDX2">
+            <synonym>HEL-S-2a</synonym>
             <synonym>NKEF-B</synonym>
             <synonym>NKEFB</synonym>
             <synonym>PRP</synonym>
@@ -223,8 +229,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000221486.4" other_name="ENST00000221486.4" other_id="ENST00000221486.4" other_start="1" other_end="1165">
         <mapping_span lrg_start="4967" lrg_end="5187" other_start="1" other_end="221" strand="1" />
         <mapping_span lrg_start="5395" lrg_end="5466" other_start="222" other_end="293" strand="1" />
@@ -254,19 +260,34 @@
         <mapping_span lrg_start="11715" lrg_end="12025" other_start="1177" other_end="1487" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000267062">
+          <symbol source="Clone_based_vega_gene" name="CTD-2659N19.10" />
+          <coordinates coord_system="LRG_278" start="1" end="236" strand="1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <long_name>CTD-2659N19.10 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000267062" />
+          <transcript source="Ensembl" accession="ENST00000585496">
+            <coordinates coord_system="LRG_278" start="1" end="236" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>CTD-2659N19.10-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002887894">
+              <coordinates coord_system="LRG_278" start="141" end="236" strand="1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000095066">
           <symbol source="HGNC" name="HOOK2" />
           <coordinates coord_system="LRG_278" start="1" end="14035" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <partial>5-prime</partial>
-          <long_name>hook homolog 2 (Drosophila) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="29911">
-            <synonym>HK2</synonym>
-          </db_xref>
+          <long_name>hook microtubule-tethering protein 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="607824" />
           <db_xref source="HGNC" accession="19885">
             <synonym>HK2</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="607824" />
+          <db_xref source="GeneID" accession="29911">
+            <synonym>HK2</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000095066" />
           <transcript source="Ensembl" accession="ENST00000589765">
             <coordinates coord_system="LRG_278" start="1" end="14035" strand="-1" mapped_from="GRCh37" />
@@ -280,7 +301,18 @@
           <coordinates coord_system="LRG_278" start="1" end="267" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>peroxiredoxin 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600538" />
+          <db_xref source="HGNC" accession="9353">
+            <synonym>MGC4104</synonym>
+            <synonym>NKEFB</synonym>
+            <synonym>PRP</synonym>
+            <synonym>PRX2</synonym>
+            <synonym>PRXII</synonym>
+            <synonym>TDPX1</synonym>
+            <synonym>TSA</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="7001">
+            <synonym>HEL-S-2a</synonym>
             <synonym>NKEF-B</synonym>
             <synonym>NKEFB</synonym>
             <synonym>PRP</synonym>
@@ -291,16 +323,6 @@
             <synonym>TPX1</synonym>
             <synonym>TSA</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9353">
-            <synonym>MGC4104</synonym>
-            <synonym>NKEFB</synonym>
-            <synonym>PRP</synonym>
-            <synonym>PRX2</synonym>
-            <synonym>PRXII</synonym>
-            <synonym>TDPX1</synonym>
-            <synonym>TSA</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="600538" />
           <db_xref source="Ensembl" accession="ENSG00000167815" />
           <transcript source="Ensembl" accession="ENST00000334482">
             <coordinates coord_system="LRG_278" start="1" end="174" strand="-1" mapped_from="GRCh37" />
@@ -315,7 +337,7 @@
             <partial>3-prime</partial>
             <long_name>PRDX2-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS12281.1" />
-            <db_xref source="RefSeq" accession="NM_005809.4" />
+            <db_xref source="RefSeq" accession="NM_005809.5" />
             <exon source="Ensembl" accession="ENSE00001899489">
               <coordinates coord_system="LRG_278" start="127" end="246" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -340,24 +362,8 @@
             <coordinates coord_system="LRG_278" start="1" end="267" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>PRDX2-201 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_181738.1" />
             <exon source="Ensembl" accession="ENSE00001129090">
               <coordinates coord_system="LRG_278" start="127" end="267" strand="-1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000267062">
-          <symbol source="Clone_based_vega_gene" name="CTD-2659N19.10" />
-          <coordinates coord_system="LRG_278" start="1" end="236" strand="1" mapped_from="GRCh37" />
-          <partial>5-prime</partial>
-          <long_name>CTD-2659N19.10 (antisense)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000267062" />
-          <transcript source="Ensembl" accession="ENST00000585496">
-            <coordinates coord_system="LRG_278" start="1" end="236" strand="1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>CTD-2659N19.10-001 (antisense)</long_name>
-            <exon source="Ensembl" accession="ENSE00002887894">
-              <coordinates coord_system="LRG_278" start="141" end="236" strand="1" mapped_from="GRCh37" />
             </exon>
           </transcript>
         </gene>
@@ -365,6 +371,13 @@
           <symbol source="HGNC" name="RNASEH2A" />
           <coordinates coord_system="LRG_278" start="4967" end="12025" strand="1" mapped_from="GRCh37" />
           <long_name>ribonuclease H2, subunit A (protein_coding)</long_name>
+          <db_xref source="MIM" accession="606034" />
+          <db_xref source="HGNC" accession="18518">
+            <synonym>AGS4</synonym>
+            <synonym>RNASEHI</synonym>
+            <synonym>RNHIA</synonym>
+            <synonym>RNHL</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="10535">
             <synonym>AGS4</synonym>
             <synonym>JUNB</synonym>
@@ -372,13 +385,6 @@
             <synonym>RNHIA</synonym>
             <synonym>RNHL</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="18518">
-            <synonym>AGS4</synonym>
-            <synonym>RNASEHI</synonym>
-            <synonym>RNHIA</synonym>
-            <synonym>RNHL</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="606034" />
           <db_xref source="Ensembl" accession="ENSG00000104889" />
           <transcript source="Ensembl" accession="ENST00000221486">
             <coordinates coord_system="LRG_278" start="4967" end="12024" strand="1" mapped_from="GRCh37" />
@@ -412,11 +418,11 @@
             <protein_product source="Ensembl" accession="ENSP00000221486">
               <coordinates coord_system="LRG_278" start="5061" end="11853" strand="1" mapped_from="GRCh37" />
               <long_name>ribonuclease H2 subunit A</long_name>
-              <db_xref source="RefSeq" accession="NP_006388.2" />
               <db_xref source="UniProtKB" accession="O75792">
                 <synonym>B2RCY1</synonym>
                 <synonym>Q96F11</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006388.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000593017">
@@ -475,7 +481,7 @@
         <name>List of locus specific databases for RNASEH2A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RNASEH2A</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

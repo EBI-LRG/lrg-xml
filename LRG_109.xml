@@ -159,11 +159,18 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="231031634" other_end="231089827">
         <mapping_span lrg_start="1" lrg_end="58194" other_start="231031634" other_end="231089827" strand="-1">
           <diff type="mismatch" lrg_start="12103" lrg_end="12103" other_start="231077725" other_end="231077725" lrg_sequence="C" other_sequence="T" />
           <diff type="mismatch" lrg_start="39113" lrg_end="39113" other_start="231050715" other_end="231050715" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="230166918" other_end="230225112">
+        <mapping_span lrg_start="1" lrg_end="58194" other_start="230166918" other_end="230225112" strand="-1">
+          <diff type="mismatch" lrg_start="12103" lrg_end="12103" other_start="230213010" other_end="230213010" lrg_sequence="C" other_sequence="T" />
+          <diff type="other_ins" lrg_start="20091" lrg_end="20092" other_start="230205021" other_end="230205021" lrg_sequence="-" other_sequence="A" />
+          <diff type="mismatch" lrg_start="39113" lrg_end="39113" other_start="230185999" other_end="230185999" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">SP110</lrg_locus>
@@ -179,7 +186,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008295.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001185015.1" other_name="NM_001185015.1" other_id="NM_001185015.1" other_start="194" other_end="2118">
         <mapping_span lrg_start="3327" lrg_end="3408" other_start="194" other_end="275" strand="1" />
         <mapping_span lrg_start="8185" lrg_end="8332" other_start="276" other_end="423" strand="1" />
@@ -552,8 +559,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000258381.6" other_name="ENST00000258381.6" other_id="ENST00000258381.6" other_start="1" other_end="2426">
         <mapping_span lrg_start="5163" lrg_end="5239" other_start="1" other_end="77" strand="1" />
         <mapping_span lrg_start="8185" lrg_end="8332" other_start="78" other_end="225" strand="1" />
@@ -761,18 +768,18 @@
           <coordinates coord_system="LRG_109" start="1" end="57819" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>SP110 nuclear body protein (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3431">
-            <synonym>IFI41</synonym>
-            <synonym>IFI75</synonym>
-            <synonym>IPR1</synonym>
-            <synonym>VODI</synonym>
+          <db_xref source="MIM" accession="604457">
+            <synonym>604458</synonym>
           </db_xref>
           <db_xref source="HGNC" accession="5401">
             <synonym>IFI41</synonym>
             <synonym>IFI75</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="604457">
-            <synonym>604458</synonym>
+          <db_xref source="GeneID" accession="3431">
+            <synonym>IFI41</synonym>
+            <synonym>IFI75</synonym>
+            <synonym>IPR1</synonym>
+            <synonym>VODI</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000135899" />
           <transcript source="Ensembl" accession="ENST00000416610">
@@ -846,7 +853,6 @@
             <protein_product source="Ensembl" accession="ENSP00000439558">
               <coordinates coord_system="LRG_109" start="3392" end="48447" strand="1" mapped_from="GRCh37" />
               <long_name>sp110 nuclear body protein isoform d</long_name>
-              <db_xref source="RefSeq" accession="NP_001171944.1" />
               <db_xref source="UniProtKB" accession="Q9HB58">
                 <synonym>B4DVI4</synonym>
                 <synonym>F5H1M1</synonym>
@@ -856,6 +862,7 @@
                 <synonym>Q8WUZ6</synonym>
                 <synonym>Q9HCT8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001171944.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000258382">
@@ -911,7 +918,6 @@
             <protein_product source="Ensembl" accession="ENSP00000258382">
               <coordinates coord_system="LRG_109" start="8186" end="48447" strand="1" mapped_from="GRCh37" />
               <long_name>sp110 nuclear body protein isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_004501.3" />
               <db_xref source="UniProtKB" accession="Q9HB58">
                 <synonym>B4DVI4</synonym>
                 <synonym>F5H1M1</synonym>
@@ -921,6 +927,7 @@
                 <synonym>Q8WUZ6</synonym>
                 <synonym>Q9HCT8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004501.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000338556">
@@ -1124,7 +1131,6 @@
             <protein_product source="Ensembl" accession="ENSP00000351488">
               <coordinates coord_system="LRG_109" start="8186" end="55988" strand="1" mapped_from="GRCh37" />
               <long_name>sp110 nuclear body protein isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_004500.3" />
               <db_xref source="UniProtKB" accession="Q9HB58">
                 <synonym>B4DVI4</synonym>
                 <synonym>F5H1M1</synonym>
@@ -1134,6 +1140,7 @@
                 <synonym>Q8WUZ6</synonym>
                 <synonym>Q9HCT8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004500.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000258381">
@@ -1201,7 +1208,6 @@
             <protein_product source="Ensembl" accession="ENSP00000258381">
               <coordinates coord_system="LRG_109" start="8186" end="55988" strand="1" mapped_from="GRCh37" />
               <long_name>sp110 nuclear body protein isoform c</long_name>
-              <db_xref source="RefSeq" accession="NP_536349.2" />
               <db_xref source="UniProtKB" accession="Q9HB58">
                 <synonym>B4DVI4</synonym>
                 <synonym>F5H1M1</synonym>
@@ -1211,6 +1217,7 @@
                 <synonym>Q8WUZ6</synonym>
                 <synonym>Q9HCT8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_536349.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000409815">
@@ -1341,16 +1348,17 @@
           <coordinates coord_system="LRG_109" start="1" end="22002" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>SP140 nuclear body protein (protein_coding)</long_name>
+          <db_xref source="MIM" accession="608602" />
+          <db_xref source="HGNC" accession="17133">
+            <synonym>LYSP100-A</synonym>
+            <synonym>LYSP100-B</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="101928789" />
           <db_xref source="GeneID" accession="11262">
             <synonym>LYSP100</synonym>
             <synonym>LYSP100-A</synonym>
             <synonym>LYSP100-B</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="17133">
-            <synonym>LYSP100-A</synonym>
-            <synonym>LYSP100-B</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="608602" />
           <db_xref source="Ensembl" accession="ENSG00000079263" />
           <transcript source="Ensembl" accession="ENST00000456542">
             <coordinates coord_system="LRG_109" start="1" end="22002" strand="-1" mapped_from="GRCh37" />
@@ -1382,14 +1390,15 @@
         </gene>
         <gene source="Ensembl" accession="ENSG00000225963">
           <symbol source="Clone_based_vega_gene" name="AC009950.2" />
-          <coordinates coord_system="LRG_109" start="50889" end="53013" strand="-1" mapped_from="GRCh37" />
+          <coordinates coord_system="LRG_109" start="50889" end="58194" strand="-1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
           <long_name>AC009950.2 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000225963" />
           <transcript source="Ensembl" accession="ENST00000595586">
-            <coordinates coord_system="LRG_109" start="50889" end="52989" strand="-1" mapped_from="GRCh37" />
+            <coordinates coord_system="LRG_109" start="50889" end="53068" strand="-1" mapped_from="GRCh37" />
             <long_name>AC009950.2-004 (antisense)</long_name>
-            <exon source="Ensembl" accession="ENSE00001597075">
-              <coordinates coord_system="LRG_109" start="52919" end="52989" strand="-1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00003711276">
+              <coordinates coord_system="LRG_109" start="52919" end="53068" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00003130629">
               <coordinates coord_system="LRG_109" start="52597" end="52687" strand="-1" mapped_from="GRCh37" />
@@ -1406,6 +1415,19 @@
             </exon>
             <exon source="Ensembl" accession="ENSE00001749287">
               <coordinates coord_system="LRG_109" start="51006" end="51424" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000609120">
+            <coordinates coord_system="LRG_109" start="51124" end="58005" strand="-1" mapped_from="GRCh37" />
+            <long_name>AC009950.2-005 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00003702783">
+              <coordinates coord_system="LRG_109" start="57460" end="58005" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003703689">
+              <coordinates coord_system="LRG_109" start="52919" end="53013" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003703360">
+              <coordinates coord_system="LRG_109" start="51124" end="51424" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000594622">
@@ -1428,17 +1450,10 @@
               <coordinates coord_system="LRG_109" start="51551" end="52252" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000231578">
-          <symbol source="Clone_based_vega_gene" name="AC093171.1" />
-          <coordinates coord_system="LRG_109" start="57618" end="58194" strand="-1" mapped_from="GRCh37" />
-          <partial>5-prime</partial>
-          <long_name>AC093171.1 (antisense)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000231578" />
           <transcript source="Ensembl" accession="ENST00000445199">
             <coordinates coord_system="LRG_109" start="57618" end="58194" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>AC093171.1-001 (antisense)</long_name>
+            <long_name>AC009950.2-006 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00001725339">
               <coordinates coord_system="LRG_109" start="57618" end="57815" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -1451,7 +1466,7 @@
         <name>List of locus specific databases for SP110</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SP110</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

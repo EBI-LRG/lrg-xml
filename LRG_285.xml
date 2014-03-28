@@ -145,9 +145,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="7492548" other_end="7523215">
         <mapping_span lrg_start="1" lrg_end="30668" other_start="7492548" other_end="7523215" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="17" other_id="NC_000017.11" other_start="7589230" other_end="7619897">
+        <mapping_span lrg_start="1" lrg_end="30668" other_start="7589230" other_end="7619897" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">FXR2</lrg_locus>
     </annotation_set>
@@ -162,7 +165,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_028105.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_004860.3" other_name="NM_004860.3" other_id="NM_004860.3" other_start="1" other_end="2987">
         <mapping_span lrg_start="5001" lrg_end="5446" other_start="1" other_end="446" strand="1" />
         <mapping_span lrg_start="13749" lrg_end="13801" other_start="447" other_end="499" strand="1" />
@@ -195,17 +198,6 @@
           <db_xref source="GeneID" accession="6462" />
           <db_xref source="HGNC" accession="10839" />
           <db_xref source="MIM" accession="182205" />
-          <transcript source="RefSeq" accession="NR_027463.1">
-            <coordinates coord_system="LRG_285" start="5787" end="5834" strand="-1" />
-            <partial>3-prime</partial>
-            <long_name>sex hormone-binding globulin, transcript variant 6</long_name>
-            <db_xref source="GeneID" accession="6462" />
-            <db_xref source="GI" accession="226371615" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_285" start="5787" end="5834" strand="-1" />
-              <partial>3-prime</partial>
-            </exon>
-          </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="9513">
           <symbol source="HGNC" name="FXR2">
@@ -330,8 +322,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000250113.7" other_name="ENST00000250113.7" other_id="ENST00000250113.7" other_start="1" other_end="2957">
         <mapping_span lrg_start="5031" lrg_end="5446" other_start="1" other_end="416" strand="1" />
         <mapping_span lrg_start="13749" lrg_end="13801" other_start="417" other_end="469" strand="1" />
@@ -388,10 +380,8 @@
           <coordinates coord_system="LRG_285" start="1" end="5834" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>sex hormone-binding globulin (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6462">
-            <synonym>ABP</synonym>
-            <synonym>SBP</synonym>
-            <synonym>TEBG</synonym>
+          <db_xref source="MIM" accession="182205">
+            <synonym>187450</synonym>
           </db_xref>
           <db_xref source="HGNC" accession="10839">
             <synonym>ABP</synonym>
@@ -399,8 +389,10 @@
             <synonym>MGC138391</synonym>
             <synonym>TEBG</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="182205">
-            <synonym>187450</synonym>
+          <db_xref source="GeneID" accession="6462">
+            <synonym>ABP</synonym>
+            <synonym>SBP</synonym>
+            <synonym>TEBG</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000129214" />
           <transcript source="Ensembl" accession="ENST00000572182">
@@ -464,14 +456,14 @@
           <symbol source="HGNC" name="FXR2" />
           <coordinates coord_system="LRG_285" start="5027" end="28668" strand="1" mapped_from="GRCh37" />
           <long_name>fragile X mental retardation, autosomal homolog 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="605339" />
+          <db_xref source="HGNC" accession="4024">
+            <synonym>FMR1L2</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="9513">
             <synonym>FMR1L2</synonym>
             <synonym>FXR2P</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="4024">
-            <synonym>FMR1L2</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="605339" />
           <db_xref source="Ensembl" accession="ENSG00000129245" />
           <transcript source="Ensembl" accession="ENST00000571597">
             <coordinates coord_system="LRG_285" start="5027" end="16930" strand="1" mapped_from="GRCh37" />
@@ -557,13 +549,13 @@
             <protein_product source="Ensembl" accession="ENSP00000250113">
               <coordinates coord_system="LRG_285" start="5366" end="28068" strand="1" mapped_from="GRCh37" />
               <long_name>fragile X mental retardation syndrome-related protein 2</long_name>
-              <db_xref source="RefSeq" accession="NP_004851.2" />
               <db_xref source="UniProtKB" accession="P51116">
                 <synonym>B2R9M2</synonym>
                 <synonym>D3DTQ1</synonym>
                 <synonym>Q86V09</synonym>
                 <synonym>Q8WUM2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004851.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000576693">
@@ -661,6 +653,13 @@
           <coordinates coord_system="LRG_285" start="27109" end="30668" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>mannose-P-dolichol utilization defect 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="604041" />
+          <db_xref source="HGNC" accession="7207">
+            <synonym>CDGIf</synonym>
+            <synonym>Lec35</synonym>
+            <synonym>PQLC5</synonym>
+            <synonym>SL15</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="9526">
             <synonym>CDGIF</synonym>
             <synonym>HBEBP2BPA</synonym>
@@ -670,13 +669,6 @@
             <synonym>PQLC5</synonym>
             <synonym>SL15</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7207">
-            <synonym>CDGIf</synonym>
-            <synonym>Lec35</synonym>
-            <synonym>PQLC5</synonym>
-            <synonym>SL15</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="604041" />
           <db_xref source="Ensembl" accession="ENSG00000129255" />
           <transcript source="Ensembl" accession="ENST00000423172">
             <coordinates coord_system="LRG_285" start="27109" end="30668" strand="-1" mapped_from="GRCh37" />
@@ -708,19 +700,19 @@
           <coordinates coord_system="LRG_285" start="29728" end="30668" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>SRY (sex determining region Y)-box 15 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6665">
-            <synonym>SOX20</synonym>
-            <synonym>SOX26</synonym>
-            <synonym>SOX27</synonym>
+          <db_xref source="MIM" accession="601297">
+            <synonym>605137</synonym>
+            <synonym>605150</synonym>
           </db_xref>
           <db_xref source="HGNC" accession="11196">
             <synonym>SOX20</synonym>
             <synonym>SOX26</synonym>
             <synonym>SOX27</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="601297">
-            <synonym>605137</synonym>
-            <synonym>605150</synonym>
+          <db_xref source="GeneID" accession="6665">
+            <synonym>SOX20</synonym>
+            <synonym>SOX26</synonym>
+            <synonym>SOX27</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000129194" />
           <transcript source="Ensembl" accession="ENST00000250055">
@@ -737,12 +729,12 @@
               <coordinates coord_system="LRG_285" start="30222" end="30668" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>protein SOX-15</long_name>
-              <db_xref source="RefSeq" accession="NP_008873.1" />
               <db_xref source="UniProtKB" accession="O60248">
                 <synonym>D3DTQ0</synonym>
                 <synonym>P35717</synonym>
                 <synonym>Q9Y6W7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_008873.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000570788">
@@ -788,7 +780,7 @@
         <name>List of locus specific databases for FXR2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FXR2</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

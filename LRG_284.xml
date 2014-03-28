@@ -82,9 +82,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_start="89279111" other_end="89297965">
         <mapping_span lrg_start="1" lrg_end="18855" other_start="89279111" other_end="89297965" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="16" other_id="NC_000016.10" other_start="89212703" other_end="89231557">
+        <mapping_span lrg_start="1" lrg_end="18855" other_start="89212703" other_end="89231557" strand="1">
+          <diff type="mismatch" lrg_start="6716" lrg_end="6716" other_start="89219418" other_end="89219418" lrg_sequence="C" other_sequence="A" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">ZNF778</lrg_locus>
     </annotation_set>
@@ -99,7 +104,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_028146.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001201407.1" other_name="NM_001201407.1" other_id="NM_001201407.1" other_start="1" other_end="3608">
         <mapping_span lrg_start="5001" lrg_end="5208" other_start="1" other_end="208" strand="1" />
         <mapping_span lrg_start="8295" lrg_end="8450" other_start="209" other_end="364" strand="1" />
@@ -211,8 +216,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000306502.6" other_name="ENST00000306502.6" other_id="ENST00000306502.6" other_start="1" other_end="2386">
         <mapping_span lrg_start="8374" lrg_end="8450" other_start="1" other_end="77" strand="1" />
         <mapping_span lrg_start="10455" lrg_end="10581" other_start="78" other_end="204" strand="1" />
@@ -255,7 +260,6 @@
           <symbol source="Clone_based_vega_gene" name="RP11-46C24.7" />
           <coordinates coord_system="LRG_284" start="2528" end="4951" strand="-1" mapped_from="GRCh37" />
           <long_name>RP11-46C24.7 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100996810" />
           <db_xref source="Ensembl" accession="ENSG00000259877" />
           <transcript source="Ensembl" accession="ENST00000570267">
             <coordinates coord_system="LRG_284" start="2528" end="4951" strand="-1" mapped_from="GRCh37" />
@@ -269,10 +273,10 @@
           <symbol source="HGNC" name="ZNF778" />
           <coordinates coord_system="LRG_284" start="5008" end="16253" strand="1" mapped_from="GRCh37" />
           <long_name>zinc finger protein 778 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="197320" />
           <db_xref source="HGNC" accession="26479">
             <synonym>FLJ31875</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="197320" />
           <db_xref source="Ensembl" accession="ENSG00000170100" />
           <transcript source="Ensembl" accession="ENST00000565877">
             <coordinates coord_system="LRG_284" start="5008" end="5605" strand="1" mapped_from="GRCh37" />
@@ -329,12 +333,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000405289">
               <coordinates coord_system="LRG_284" start="8426" end="15860" strand="1" mapped_from="GRCh37" />
-              <long_name>zinc finger protein 778 isoform 2, zinc finger protein 778 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_872337.2" />
-              <db_xref source="RefSeq" accession="NP_001188336.1" />
+              <long_name>zinc finger protein 778 isoform 1, zinc finger protein 778 isoform 2</long_name>
               <db_xref source="UniProtKB" accession="Q96MU6">
                 <synonym>Q08AG0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001188336.1" />
+              <db_xref source="RefSeq" accession="NP_872337.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000567651">
@@ -421,7 +425,7 @@
         <name>List of locus specific databases for ZNF778</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ZNF778</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

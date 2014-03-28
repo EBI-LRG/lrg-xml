@@ -83,9 +83,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="106866654" other_end="106896256">
         <mapping_span lrg_start="1" lrg_end="29603" other_start="106866654" other_end="106896256" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="X" other_id="NC_000023.11" other_start="107623424" other_end="107653026">
+        <mapping_span lrg_start="1" lrg_end="29603" other_start="107623424" other_end="107653026" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">PRPS1</lrg_locus>
     </annotation_set>
@@ -100,7 +103,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008407.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001204402.1" other_name="NM_001204402.1" other_id="NM_001204402.1" other_start="1" other_end="1748">
         <mapping_span lrg_start="5001" lrg_end="5327" other_start="1" other_end="327" strand="1" />
         <mapping_span lrg_start="21754" lrg_end="21927" other_start="328" other_end="501" strand="1" />
@@ -187,8 +190,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000372418.1" other_name="ENST00000372418.1" other_id="ENST00000372418.1" other_start="1" other_end="942">
         <mapping_span lrg_start="15935" lrg_end="16055" other_start="1" other_end="121" strand="1" />
         <mapping_span lrg_start="18943" lrg_end="19067" other_start="122" other_end="246" strand="1" />
@@ -235,6 +238,12 @@
           <symbol source="HGNC" name="PRPS1" />
           <coordinates coord_system="LRG_264" start="5084" end="27603" strand="1" mapped_from="GRCh37" />
           <long_name>phosphoribosyl pyrophosphate synthetase 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="311850" />
+          <db_xref source="HGNC" accession="9462">
+            <synonym>CMTX5</synonym>
+            <synonym>DFN2</synonym>
+            <synonym>DFNX1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5631">
             <synonym>ARTS</synonym>
             <synonym>CMTX5</synonym>
@@ -244,12 +253,6 @@
             <synonym>PRS-I</synonym>
             <synonym>PRSI</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9462">
-            <synonym>CMTX5</synonym>
-            <synonym>DFN2</synonym>
-            <synonym>DFNX1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="311850" />
           <db_xref source="Ensembl" accession="ENSG00000147224" />
           <transcript source="Ensembl" accession="ENST00000372435">
             <coordinates coord_system="LRG_264" start="5084" end="27603" strand="1" mapped_from="GRCh37" />
@@ -280,13 +283,13 @@
             <protein_product source="Ensembl" accession="ENSP00000361512">
               <coordinates coord_system="LRG_264" start="5206" end="26609" strand="1" mapped_from="GRCh37" />
               <long_name>ribose-phosphate pyrophosphokinase 1 isoform 2, ribose-phosphate pyrophosphokinase 1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001191331.1" />
-              <db_xref source="RefSeq" accession="NP_002755.1" />
               <db_xref source="UniProtKB" accession="P60891">
                 <synonym>B1ALA8</synonym>
                 <synonym>D3DUX6</synonym>
                 <synonym>P09329</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001191331.1" />
+              <db_xref source="RefSeq" accession="NP_002755.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372428">
@@ -369,12 +372,12 @@
             <protein_product source="Ensembl" accession="ENSP00000443185">
               <coordinates coord_system="LRG_264" start="5206" end="26609" strand="1" mapped_from="GRCh37" />
               <long_name>ribose-phosphate pyrophosphokinase 1 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001191331.1" />
               <db_xref source="UniProtKB" accession="P60891">
                 <synonym>B1ALA8</synonym>
                 <synonym>D3DUX6</synonym>
                 <synonym>P09329</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001191331.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372418">
@@ -409,7 +412,7 @@
         <name>List of locus specific databases for PRPS1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PRPS1</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

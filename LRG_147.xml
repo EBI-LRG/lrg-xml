@@ -72,10 +72,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="41047815" other_end="41067386">
         <mapping_span lrg_start="1" lrg_end="19572" other_start="41047815" other_end="41067386" strand="1">
           <diff type="mismatch" lrg_start="15129" lrg_end="15129" other_start="41062943" other_end="41062943" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="17" other_id="NC_000017.11" other_start="42895798" other_end="42915369">
+        <mapping_span lrg_start="1" lrg_end="19572" other_start="42895798" other_end="42915369" strand="1">
+          <diff type="mismatch" lrg_start="15129" lrg_end="15129" other_start="42910926" other_end="42910926" lrg_sequence="A" other_sequence="G" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">G6PC</lrg_locus>
@@ -91,7 +96,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011808.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000151.2" other_name="NM_000151.2" other_id="NM_000151.2" other_start="1" other_end="3096">
         <mapping_span lrg_start="5001" lrg_end="5309" other_start="1" other_end="309" strand="1" />
         <mapping_span lrg_start="8134" lrg_end="8243" other_start="310" other_end="419" strand="1" />
@@ -234,8 +239,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000253801.2" other_name="ENST00000253801.2" other_id="ENST00000253801.2" other_start="1" other_end="3096">
         <mapping_span lrg_start="5001" lrg_end="5309" other_start="1" other_end="309" strand="1" />
         <mapping_span lrg_start="8134" lrg_end="8243" other_start="310" other_end="419" strand="1" />
@@ -273,6 +278,9 @@
           <partial>3-prime</partial>
           <long_name>long intergenic non-protein coding RNA 671 (lincRNA)</long_name>
           <db_xref source="HGNC" accession="44339" />
+          <db_xref source="GeneID" accession="388387">
+            <synonym>AC100793.2</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000213373" />
           <transcript source="Ensembl" accession="ENST00000301683">
             <coordinates coord_system="LRG_147" start="1" end="2907" strand="-1" mapped_from="GRCh37" />
@@ -314,17 +322,17 @@
           <symbol source="HGNC" name="G6PC" />
           <coordinates coord_system="LRG_147" start="5000" end="17572" strand="1" mapped_from="GRCh37" />
           <long_name>glucose-6-phosphatase, catalytic subunit (protein_coding)</long_name>
+          <db_xref source="MIM" accession="613742" />
+          <db_xref source="HGNC" accession="4056">
+            <synonym>G6PT</synonym>
+            <synonym>GSD1a</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2538">
             <synonym>G6PC1</synonym>
             <synonym>G6PT</synonym>
             <synonym>GSD1</synonym>
             <synonym>GSD1a</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="4056">
-            <synonym>G6PT</synonym>
-            <synonym>GSD1a</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="613742" />
           <db_xref source="Ensembl" accession="ENSG00000131482" />
           <transcript source="Ensembl" accession="ENST00000592383">
             <coordinates coord_system="LRG_147" start="5000" end="15539" strand="1" mapped_from="GRCh37" />
@@ -349,6 +357,11 @@
             <protein_product source="Ensembl" accession="ENSP00000465958">
               <coordinates coord_system="LRG_147" start="5080" end="15163" strand="1" mapped_from="GRCh37" />
               <long_name>glucose-6-phosphatase isoform 2</long_name>
+              <db_xref source="UniProtKB" accession="P35575">
+                <synonym>A1L4C0</synonym>
+                <synonym>B4E1C3</synonym>
+                <synonym>K7EL82</synonym>
+              </db_xref>
               <db_xref source="RefSeq" accession="NP_001257326.1" />
             </protein_product>
           </transcript>
@@ -375,10 +388,12 @@
             <protein_product source="Ensembl" accession="ENSP00000253801">
               <coordinates coord_system="LRG_147" start="5080" end="15629" strand="1" mapped_from="GRCh37" />
               <long_name>glucose-6-phosphatase isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_000142.2" />
               <db_xref source="UniProtKB" accession="P35575">
                 <synonym>A1L4C0</synonym>
+                <synonym>B4E1C3</synonym>
+                <synonym>K7EL82</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000142.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000585489">
@@ -418,7 +433,7 @@
         <name>List of locus specific databases for G6PC</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/G6PC</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

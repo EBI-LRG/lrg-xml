@@ -73,9 +73,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="135725336" other_end="135744549">
         <mapping_span lrg_start="1" lrg_end="19214" other_start="135725336" other_end="135744549" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="X" other_id="NC_000023.11" other_start="136643177" other_end="136662390">
+        <mapping_span lrg_start="1" lrg_end="19214" other_start="136643177" other_end="136662390" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">CD40LG</lrg_locus>
     </annotation_set>
@@ -90,7 +93,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007280.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000074.2" other_name="NM_000074.2" other_id="NM_000074.2" other_start="1" other_end="1833">
         <mapping_span lrg_start="5001" lrg_end="5228" other_start="1" other_end="228" strand="1" />
         <mapping_span lrg_start="7090" lrg_end="7221" other_start="229" other_end="360" strand="1" />
@@ -166,8 +169,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000370628.2" other_name="ENST00000370628.2" other_id="ENST00000370628.2" other_start="1" other_end="1720">
         <mapping_span lrg_start="5051" lrg_end="5228" other_start="1" other_end="178" strand="1" />
         <mapping_span lrg_start="7090" lrg_end="7221" other_start="179" other_end="310" strand="1" />
@@ -186,6 +189,17 @@
           <symbol source="HGNC" name="CD40LG" />
           <coordinates coord_system="LRG_141" start="5017" end="17214" strand="1" mapped_from="GRCh37" />
           <long_name>CD40 ligand (protein_coding)</long_name>
+          <db_xref source="MIM" accession="300386" />
+          <db_xref source="HGNC" accession="11935">
+            <synonym>CD154</synonym>
+            <synonym>CD40L</synonym>
+            <synonym>gp39</synonym>
+            <synonym>hCD40L</synonym>
+            <synonym>HIGM1</synonym>
+            <synonym>IMD3</synonym>
+            <synonym>TNFSF5</synonym>
+            <synonym>TRAP</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="959">
             <synonym>CD154</synonym>
             <synonym>CD40L</synonym>
@@ -198,17 +212,6 @@
             <synonym>TNFSF5</synonym>
             <synonym>TRAP</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11935">
-            <synonym>CD154</synonym>
-            <synonym>CD40L</synonym>
-            <synonym>gp39</synonym>
-            <synonym>hCD40L</synonym>
-            <synonym>HIGM1</synonym>
-            <synonym>IMD3</synonym>
-            <synonym>TNFSF5</synonym>
-            <synonym>TRAP</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="300386" />
           <db_xref source="Ensembl" accession="ENSG00000102245" />
           <transcript source="Ensembl" accession="ENST00000370629">
             <coordinates coord_system="LRG_141" start="5017" end="17214" strand="1" mapped_from="GRCh37" />
@@ -233,8 +236,8 @@
             <protein_product source="Ensembl" accession="ENSP00000359663">
               <coordinates coord_system="LRG_141" start="5073" end="16239" strand="1" mapped_from="GRCh37" />
               <long_name>CD40 ligand</long_name>
-              <db_xref source="RefSeq" accession="NP_000065.1" />
               <db_xref source="UniProtKB" accession="P29965" />
+              <db_xref source="RefSeq" accession="NP_000065.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000370628">
@@ -264,7 +267,7 @@
         <name>List of locus specific databases for CD40LG</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CD40LG</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

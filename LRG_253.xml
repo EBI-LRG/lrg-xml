@@ -67,9 +67,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_start="11639578" other_end="11685806">
         <mapping_span lrg_start="1" lrg_end="46229" other_start="11639578" other_end="11685806" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="16" other_id="NC_000016.10" other_start="11545722" other_end="11591950">
+        <mapping_span lrg_start="1" lrg_end="46229" other_start="11545722" other_end="11591950" strand="-1">
+          <diff type="mismatch" lrg_start="22128" lrg_end="22128" other_start="11569823" other_end="11569823" lrg_sequence="G" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">LITAF</lrg_locus>
     </annotation_set>
@@ -84,7 +89,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009008.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001136472.1" other_name="NM_001136472.1" other_id="NM_001136472.1" other_start="1" other_end="2471">
         <mapping_span lrg_start="5001" lrg_end="5065" other_start="1" other_end="65" strand="1" />
         <mapping_span lrg_start="35216" lrg_end="35440" other_start="66" other_end="290" strand="1" />
@@ -222,8 +227,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000339430.5" other_name="ENST00000339430.5" other_id="ENST00000339430.5" other_start="1" other_end="2356">
         <mapping_span lrg_start="5578" lrg_end="5805" other_start="1" other_end="228" strand="1" />
         <mapping_span lrg_start="35216" lrg_end="35440" other_start="229" other_end="453" strand="1" />
@@ -334,18 +339,18 @@
           <coordinates coord_system="LRG_253" start="1" end="43954" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>lipopolysaccharide-induced TNF factor (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="9516">
-            <synonym>PIG7</synonym>
-            <synonym>SIMPLE</synonym>
-            <synonym>TP53I7</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="603795" />
           <db_xref source="HGNC" accession="16841">
             <synonym>FLJ38636</synonym>
             <synonym>PIG7</synonym>
             <synonym>SIMPLE</synonym>
             <synonym>TP53I7</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="603795" />
+          <db_xref source="GeneID" accession="9516">
+            <synonym>PIG7</synonym>
+            <synonym>SIMPLE</synonym>
+            <synonym>TP53I7</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000189067" />
           <transcript source="Ensembl" accession="ENST00000576036">
             <coordinates coord_system="LRG_253" start="1" end="42338" strand="1" mapped_from="GRCh37" />
@@ -432,13 +437,13 @@
             <protein_product source="Ensembl" accession="ENSP00000459533">
               <coordinates coord_system="LRG_253" start="35221" end="42314" strand="1" mapped_from="GRCh37" />
               <long_name>lipopolysaccharide-induced tumor necrosis factor-alpha factor isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001129944.1" />
               <db_xref source="UniProtKB" accession="Q99732">
                 <synonym>D3DUG1</synonym>
                 <synonym>G5E9K0</synonym>
                 <synonym>Q05DW0</synonym>
                 <synonym>Q9C0L6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001129944.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000574701">
@@ -509,13 +514,13 @@
             <protein_product source="Ensembl" accession="ENSP00000397958">
               <coordinates coord_system="LRG_253" start="35221" end="40228" strand="1" mapped_from="GRCh37" />
               <long_name>lipopolysaccharide-induced tumor necrosis factor-alpha factor isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001129945.1" />
               <db_xref source="UniProtKB" accession="Q99732">
                 <synonym>D3DUG1</synonym>
                 <synonym>G5E9K0</synonym>
                 <synonym>Q05DW0</synonym>
                 <synonym>Q9C0L6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001129945.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000571976">
@@ -716,13 +721,13 @@
             <protein_product source="Ensembl" accession="ENSP00000340118">
               <coordinates coord_system="LRG_253" start="35221" end="42314" strand="1" mapped_from="GRCh37" />
               <long_name>lipopolysaccharide-induced tumor necrosis factor-alpha factor isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_004853.2" />
               <db_xref source="UniProtKB" accession="Q99732">
                 <synonym>D3DUG1</synonym>
                 <synonym>G5E9K0</synonym>
                 <synonym>Q05DW0</synonym>
                 <synonym>Q9C0L6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004853.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000575426">
@@ -749,7 +754,7 @@
         <name>List of locus specific databases for LITAF</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/LITAF</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

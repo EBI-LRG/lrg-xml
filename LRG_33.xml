@@ -105,9 +105,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="202042855" other_end="202096110">
         <mapping_span lrg_start="1" lrg_end="53256" other_start="202042855" other_end="202096110" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="201178132" other_end="201231387">
+        <mapping_span lrg_start="1" lrg_end="53256" other_start="201178132" other_end="201231387" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">CASP10</lrg_locus>
     </annotation_set>
@@ -122,7 +125,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007265.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001206524.1" other_name="NM_001206524.1" other_id="NM_001206524.1" other_start="1" other_end="5705">
         <mapping_span lrg_start="4767" lrg_end="5177" other_start="1" other_end="411" strand="1" />
         <mapping_span lrg_start="7640" lrg_end="7993" other_start="412" other_end="765" strand="1" />
@@ -424,8 +427,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000272879.5" other_name="ENST00000272879.5" other_id="ENST00000272879.5" other_start="1" other_end="2073">
         <mapping_span lrg_start="5001" lrg_end="5177" other_start="1" other_end="177" strand="1" />
         <mapping_span lrg_start="7640" lrg_end="7993" other_start="178" other_end="531" strand="1" />
@@ -544,15 +547,15 @@
           <symbol source="HGNC" name="CASP10" />
           <coordinates coord_system="LRG_33" start="4750" end="51275" strand="1" mapped_from="GRCh37" />
           <long_name>caspase 10, apoptosis-related cysteine peptidase (protein_coding)</long_name>
+          <db_xref source="MIM" accession="601762" />
+          <db_xref source="HGNC" accession="1500">
+            <synonym>MCH4</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="843">
             <synonym>ALPS2</synonym>
             <synonym>FLICE2</synonym>
             <synonym>MCH4</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1500">
-            <synonym>MCH4</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="601762" />
           <db_xref source="Ensembl" accession="ENSG00000003400" />
           <transcript source="Ensembl" accession="ENST00000286186">
             <coordinates coord_system="LRG_33" start="4750" end="43534" strand="1" mapped_from="GRCh37" />
@@ -592,8 +595,8 @@
             <protein_product source="Ensembl" accession="ENSP00000286186">
               <coordinates coord_system="LRG_33" start="7647" end="39610" strand="1" mapped_from="GRCh37" />
               <long_name>caspase-10 isoform 1 preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_116759.2" />
               <db_xref source="UniProtKB" accession="Q92851">
+                <synonym>Q68HC0</synonym>
                 <synonym>Q6KF62</synonym>
                 <synonym>Q6KF63</synonym>
                 <synonym>Q8IUP5</synonym>
@@ -602,6 +605,7 @@
                 <synonym>Q9Y2U6</synonym>
                 <synonym>Q9Y2U7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_116759.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000360132">
@@ -639,11 +643,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000353250">
               <coordinates coord_system="LRG_33" start="7647" end="30044" strand="1" mapped_from="GRCh37" />
-              <long_name>caspase-10 isoform 4, caspase-10 isoform 3 preproprotein, caspase-10 isoform 6 preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_116758.1" />
-              <db_xref source="RefSeq" accession="NP_001221.2" />
-              <db_xref source="RefSeq" accession="NP_001193453.1" />
+              <long_name>caspase-10 isoform 6 preproprotein, caspase-10 isoform 3 preproprotein, caspase-10 isoform 4</long_name>
               <db_xref source="UniProtKB" accession="Q92851">
+                <synonym>Q68HC0</synonym>
                 <synonym>Q6KF62</synonym>
                 <synonym>Q6KF63</synonym>
                 <synonym>Q8IUP5</synonym>
@@ -652,6 +654,9 @@
                 <synonym>Q9Y2U6</synonym>
                 <synonym>Q9Y2U7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001193453.1" />
+              <db_xref source="RefSeq" accession="NP_001221.2" />
+              <db_xref source="RefSeq" accession="NP_116758.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000460140">
@@ -717,8 +722,8 @@
             <protein_product source="Ensembl" accession="ENSP00000272879">
               <coordinates coord_system="LRG_33" start="7647" end="50952" strand="1" mapped_from="GRCh37" />
               <long_name>caspase-10 isoform 2 preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_116756.2" />
               <db_xref source="UniProtKB" accession="Q92851">
+                <synonym>Q68HC0</synonym>
                 <synonym>Q6KF62</synonym>
                 <synonym>Q6KF63</synonym>
                 <synonym>Q8IUP5</synonym>
@@ -727,6 +732,7 @@
                 <synonym>Q9Y2U6</synonym>
                 <synonym>Q9Y2U7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_116756.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000438843">
@@ -777,6 +783,16 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000363781">
               <coordinates coord_system="LRG_33" start="7647" end="22371" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q92851">
+                <synonym>Q68HC0</synonym>
+                <synonym>Q6KF62</synonym>
+                <synonym>Q6KF63</synonym>
+                <synonym>Q8IUP5</synonym>
+                <synonym>Q8WYQ8</synonym>
+                <synonym>Q99845</synonym>
+                <synonym>Q9Y2U6</synonym>
+                <synonym>Q9Y2U7</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000346817">
@@ -810,6 +826,7 @@
             <protein_product source="Ensembl" accession="ENSP00000237865">
               <coordinates coord_system="LRG_33" start="7647" end="39610" strand="1" mapped_from="GRCh37" />
               <db_xref source="UniProtKB" accession="Q92851">
+                <synonym>Q68HC0</synonym>
                 <synonym>Q6KF62</synonym>
                 <synonym>Q6KF63</synonym>
                 <synonym>Q8IUP5</synonym>
@@ -851,6 +868,7 @@
             <protein_product source="Ensembl" accession="ENSP00000314599">
               <coordinates coord_system="LRG_33" start="7647" end="39610" strand="1" mapped_from="GRCh37" />
               <db_xref source="UniProtKB" accession="Q92851">
+                <synonym>Q68HC0</synonym>
                 <synonym>Q6KF62</synonym>
                 <synonym>Q6KF63</synonym>
                 <synonym>Q8IUP5</synonym>
@@ -893,8 +911,8 @@
             <protein_product source="Ensembl" accession="ENSP00000396835">
               <coordinates coord_system="LRG_33" start="7647" end="50952" strand="1" mapped_from="GRCh37" />
               <long_name>caspase-10 isoform 5 preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_001193471.1" />
               <db_xref source="UniProtKB" accession="Q92851">
+                <synonym>Q68HC0</synonym>
                 <synonym>Q6KF62</synonym>
                 <synonym>Q6KF63</synonym>
                 <synonym>Q8IUP5</synonym>
@@ -903,6 +921,7 @@
                 <synonym>Q9Y2U6</synonym>
                 <synonym>Q9Y2U7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001193471.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000484926">
@@ -1015,7 +1034,7 @@
         <name>List of locus specific databases for CASP10</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CASP10</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

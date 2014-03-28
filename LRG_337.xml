@@ -419,9 +419,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="193305933" other_end="193417600">
         <mapping_span lrg_start="1" lrg_end="111668" other_start="193305933" other_end="193417600" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="193588144" other_end="193699811">
+        <mapping_span lrg_start="1" lrg_end="111668" other_start="193588144" other_end="193699811" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">OPA1</lrg_locus>
     </annotation_set>
@@ -436,7 +439,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011605.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_015560.2" other_name="NM_015560.2" other_id="NM_015560.2" other_start="1" other_end="6328">
         <mapping_span lrg_start="5001" lrg_end="5266" other_start="1" other_end="266" strand="1" />
         <mapping_span lrg_start="26580" lrg_end="26898" other_start="267" other_end="585" strand="1" />
@@ -1034,8 +1037,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000361150.2" other_name="ENST00000361150.2" other_id="ENST00000361150.2" other_start="1" other_end="6330">
         <mapping_span lrg_start="5001" lrg_end="5266" other_start="1" other_end="266" strand="1" />
         <mapping_span lrg_start="26580" lrg_end="26898" other_start="267" other_end="585" strand="1" />
@@ -1322,27 +1325,6 @@
         <mapping_span lrg_start="54832" lrg_end="54842" other_start="552" other_end="562" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000127249">
-          <symbol source="HGNC" name="ATP13A4" />
-          <coordinates coord_system="LRG_337" start="1" end="4968" strand="-1" mapped_from="GRCh37" />
-          <partial>3-prime</partial>
-          <long_name>ATPase type 13A4 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="84239" />
-          <db_xref source="HGNC" accession="25422">
-            <synonym>DKFZp761I1011</synonym>
-            <synonym>FLJ37958</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="609556" />
-          <db_xref source="Ensembl" accession="ENSG00000127249" />
-          <transcript source="Ensembl" accession="ENST00000489140">
-            <coordinates coord_system="LRG_337" start="1" end="4968" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>ATP13A4-008 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001925107">
-              <coordinates coord_system="LRG_337" start="4878" end="4968" strand="-1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000236297">
           <symbol source="Clone_based_vega_gene" name="RP11-175P19.2" />
           <coordinates coord_system="LRG_337" start="1" end="4947" strand="-1" mapped_from="GRCh37" />
@@ -1358,16 +1340,32 @@
             </exon>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000127249">
+          <symbol source="HGNC" name="ATP13A4" />
+          <coordinates coord_system="LRG_337" start="1" end="4968" strand="-1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <long_name>ATPase type 13A4 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="609556" />
+          <db_xref source="HGNC" accession="25422">
+            <synonym>DKFZp761I1011</synonym>
+            <synonym>FLJ37958</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="84239" />
+          <db_xref source="Ensembl" accession="ENSG00000127249" />
+          <transcript source="Ensembl" accession="ENST00000489140">
+            <coordinates coord_system="LRG_337" start="1" end="4968" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>ATP13A4-008 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001925107">
+              <coordinates coord_system="LRG_337" start="4878" end="4968" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000198836">
           <symbol source="HGNC" name="OPA1" />
           <coordinates coord_system="LRG_337" start="5001" end="109680" strand="1" mapped_from="GRCh37" />
           <long_name>optic atrophy 1 (autosomal dominant) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4976">
-            <synonym>largeG</synonym>
-            <synonym>MGM1</synonym>
-            <synonym>NPG</synonym>
-            <synonym>NTG</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="605290" />
           <db_xref source="HGNC" accession="8140">
             <synonym>FLJ12460</synonym>
             <synonym>KIAA0567</synonym>
@@ -1375,7 +1373,12 @@
             <synonym>NPG</synonym>
             <synonym>NTG</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="605290" />
+          <db_xref source="GeneID" accession="4976">
+            <synonym>largeG</synonym>
+            <synonym>MGM1</synonym>
+            <synonym>NPG</synonym>
+            <synonym>NTG</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000198836" />
           <transcript source="Ensembl" accession="ENST00000361908">
             <coordinates coord_system="LRG_337" start="5001" end="109668" strand="1" mapped_from="GRCh37" />
@@ -1475,10 +1478,10 @@
             <protein_product source="Ensembl" accession="ENSP00000354681">
               <coordinates coord_system="LRG_337" start="5235" end="103984" strand="1" mapped_from="GRCh37" />
               <long_name>dynamin-like 120 kDa protein, mitochondrial isoform 7</long_name>
-              <db_xref source="RefSeq" accession="NP_570849.2" />
               <db_xref source="UniProtKB" accession="O60313">
                 <synonym>D3DNW4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_570849.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000392438">
@@ -1576,10 +1579,10 @@
             <protein_product source="Ensembl" accession="ENSP00000376233">
               <coordinates coord_system="LRG_337" start="5235" end="103984" strand="1" mapped_from="GRCh37" />
               <long_name>dynamin-like 120 kDa protein, mitochondrial isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_056375.2" />
               <db_xref source="UniProtKB" accession="O60313">
                 <synonym>D3DNW4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_056375.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000361510">
@@ -1882,9 +1885,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000354429">
               <coordinates coord_system="LRG_337" start="5235" end="103984" strand="1" mapped_from="GRCh37" />
-              <long_name>dynamin-like 120 kDa protein, mitochondrial isoform 5, dynamin-like 120 kDa protein, mitochondrial isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_570847.2" />
+              <long_name>dynamin-like 120 kDa protein, mitochondrial isoform 3, dynamin-like 120 kDa protein, mitochondrial isoform 5</long_name>
               <db_xref source="RefSeq" accession="NP_570845.1" />
+              <db_xref source="RefSeq" accession="NP_570847.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000361150">
@@ -1981,9 +1984,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000354781">
               <coordinates coord_system="LRG_337" start="5235" end="103984" strand="1" mapped_from="GRCh37" />
-              <long_name>dynamin-like 120 kDa protein, mitochondrial isoform 4, dynamin-like 120 kDa protein, mitochondrial isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_570846.1" />
+              <long_name>dynamin-like 120 kDa protein, mitochondrial isoform 2, dynamin-like 120 kDa protein, mitochondrial isoform 4</long_name>
               <db_xref source="RefSeq" accession="NP_570844.1" />
+              <db_xref source="RefSeq" accession="NP_570846.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000392437">
@@ -2265,8 +2268,10 @@
           <symbol source="HGNC" name="OPA1-AS1" />
           <coordinates coord_system="LRG_337" start="30466" end="39194" strand="-1" mapped_from="GRCh37" />
           <long_name>OPA1 antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100873941" />
           <db_xref source="HGNC" accession="40421" />
+          <db_xref source="GeneID" accession="100873941">
+            <synonym>RP11-175P19.1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000224855" />
           <transcript source="Ensembl" accession="ENST00000433105">
             <coordinates coord_system="LRG_337" start="30466" end="39189" strand="-1" mapped_from="GRCh37" />
@@ -2314,7 +2319,7 @@
         <name>List of locus specific databases for OPA1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/OPA1</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

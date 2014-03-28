@@ -270,9 +270,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="211337409" other_end="211545831">
         <mapping_span lrg_start="1" lrg_end="208423" other_start="211337409" other_end="211545831" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="210472685" other_end="210681107">
+        <mapping_span lrg_start="1" lrg_end="208423" other_start="210472685" other_end="210681107" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">CPS1</lrg_locus>
     </annotation_set>
@@ -287,7 +290,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008285.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001122633.2" other_name="NM_001122633.2" other_id="NM_001122633.2" other_start="1" other_end="5725">
         <mapping_span lrg_start="4998" lrg_end="5082" other_start="1" other_end="85" strand="1" />
         <mapping_span lrg_start="84035" lrg_end="84175" other_start="86" other_end="226" strand="1" />
@@ -895,8 +898,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000233072.5" other_name="ENST00000233072.5" other_id="ENST00000233072.5" other_start="1" other_end="5821">
         <mapping_span lrg_start="83854" lrg_end="84175" other_start="1" other_end="322" strand="1" />
         <mapping_span lrg_start="100614" lrg_end="100723" other_start="323" other_end="432" strand="1" />
@@ -1062,15 +1065,15 @@
           <coordinates coord_system="LRG_336" start="1" end="4968" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>LanC lantibiotic synthetase component C-like 1 (bacterial) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="10314">
-            <synonym>GPR69A</synonym>
-            <synonym>p40</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="604155" />
           <db_xref source="HGNC" accession="6508">
             <synonym>GPR69A</synonym>
             <synonym>p40</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="604155" />
+          <db_xref source="GeneID" accession="10314">
+            <synonym>GPR69A</synonym>
+            <synonym>p40</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000115365" />
           <transcript source="Ensembl" accession="ENST00000443314">
             <coordinates coord_system="LRG_336" start="1" end="4055" strand="-1" mapped_from="GRCh37" />
@@ -1102,8 +1105,8 @@
               <coordinates coord_system="LRG_336" start="1" end="3712" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>lanC-like protein 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001130047.1" />
               <db_xref source="UniProtKB" accession="O43813" />
+              <db_xref source="RefSeq" accession="NP_001130047.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000450366">
@@ -1123,9 +1126,9 @@
               <coordinates coord_system="LRG_336" start="1" end="3712" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>lanC-like protein 1, lanC-like protein 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001130046.1" />
-              <db_xref source="RefSeq" accession="NP_006046.1" />
               <db_xref source="UniProtKB" accession="O43813" />
+              <db_xref source="RefSeq" accession="NP_006046.1" />
+              <db_xref source="RefSeq" accession="NP_001130046.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000233714">
@@ -1197,11 +1200,12 @@
           <symbol source="HGNC" name="CPS1" />
           <coordinates coord_system="LRG_336" start="4998" end="206423" strand="1" mapped_from="GRCh37" />
           <long_name>carbamoyl-phosphate synthase 1, mitochondrial (protein_coding)</long_name>
+          <db_xref source="MIM" accession="608307" />
+          <db_xref source="HGNC" accession="2323" />
           <db_xref source="GeneID" accession="1373">
             <synonym>CPSASE1</synonym>
+            <synonym>PHN</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="2323" />
-          <db_xref source="MIM" accession="608307" />
           <db_xref source="Ensembl" accession="ENSG00000021826" />
           <transcript source="Ensembl" accession="ENST00000417946">
             <coordinates coord_system="LRG_336" start="4998" end="103790" strand="1" mapped_from="GRCh37" />
@@ -1394,7 +1398,6 @@
             <protein_product source="Ensembl" accession="ENSP00000402608">
               <coordinates coord_system="LRG_336" start="5080" end="205301" strand="1" mapped_from="GRCh37" />
               <long_name>carbamoyl-phosphate synthase</long_name>
-              <db_xref source="RefSeq" accession="NP_001116105.1" />
               <db_xref source="UniProtKB" accession="P31327">
                 <synonym>B7Z818</synonym>
                 <synonym>J3KQL0</synonym>
@@ -1403,6 +1406,7 @@
                 <synonym>Q59HF8</synonym>
                 <synonym>Q7Z5I5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001116105.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000233072">
@@ -1527,7 +1531,6 @@
             <protein_product source="Ensembl" accession="ENSP00000233072">
               <coordinates coord_system="LRG_336" start="84050" end="205301" strand="1" mapped_from="GRCh37" />
               <long_name>carbamoyl-phosphate synthase</long_name>
-              <db_xref source="RefSeq" accession="NP_001866.2" />
               <db_xref source="UniProtKB" accession="P31327">
                 <synonym>B7Z818</synonym>
                 <synonym>J3KQL0</synonym>
@@ -1536,6 +1539,7 @@
                 <synonym>Q59HF8</synonym>
                 <synonym>Q7Z5I5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001866.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000497163">
@@ -1640,7 +1644,6 @@
             <protein_product source="Ensembl" accession="ENSP00000406136">
               <coordinates coord_system="LRG_336" start="122893" end="205301" strand="1" mapped_from="GRCh37" />
               <long_name>carbamoyl-phosphate synthase</long_name>
-              <db_xref source="RefSeq" accession="NP_001116106.1" />
               <db_xref source="UniProtKB" accession="P31327">
                 <synonym>B7Z818</synonym>
                 <synonym>J3KQL0</synonym>
@@ -1649,6 +1652,7 @@
                 <synonym>Q59HF8</synonym>
                 <synonym>Q7Z5I5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001116106.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000467353">
@@ -1720,7 +1724,7 @@
         <name>List of locus specific databases for CPS1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CPS1</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

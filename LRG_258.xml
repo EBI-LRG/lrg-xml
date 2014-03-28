@@ -136,9 +136,20 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="8" other_id="NC_000008.10" other_start="134247414" other_end="134314498">
         <mapping_span lrg_start="1" lrg_end="67085" other_start="134247414" other_end="134314498" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="8" other_id="NC_000008.11" other_start="133235171" other_end="133302255">
+        <mapping_span lrg_start="1" lrg_end="67085" other_start="133235171" other_end="133302255" strand="-1">
+          <diff type="mismatch" lrg_start="20606" lrg_end="20606" other_start="133281650" other_end="133281650" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="29816" lrg_end="29816" other_start="133272440" other_end="133272440" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="57171" lrg_end="57171" other_start="133245085" other_end="133245085" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="57709" lrg_end="57709" other_start="133244547" other_end="133244547" lrg_sequence="T" other_sequence="G" />
+          <diff type="mismatch" lrg_start="60705" lrg_end="60705" other_start="133241551" other_end="133241551" lrg_sequence="T" other_sequence="G" />
+          <diff type="mismatch" lrg_start="63050" lrg_end="63050" other_start="133239206" other_end="133239206" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="65779" lrg_end="65779" other_start="133236477" other_end="133236477" lrg_sequence="C" other_sequence="G" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">NDRG1</lrg_locus>
     </annotation_set>
@@ -153,7 +164,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007943.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001135242.1" other_name="NM_001135242.1" other_id="NM_001135242.1" other_start="1" other_end="3478">
         <mapping_span lrg_start="4952" lrg_end="5519" other_start="1" other_end="568" strand="1" />
         <mapping_span lrg_start="17927" lrg_end="18007" other_start="569" other_end="649" strand="1" />
@@ -503,8 +514,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000323851.7" other_name="ENST00000323851.7" other_id="ENST00000323851.7" other_start="1" other_end="3014">
         <mapping_span lrg_start="5019" lrg_end="5122" other_start="1" other_end="104" strand="1" />
         <mapping_span lrg_start="17927" lrg_end="18007" other_start="105" other_end="185" strand="1" />
@@ -692,7 +703,9 @@
         <mapping_span lrg_start="63137" lrg_end="65080" other_start="406" other_end="2349" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000521438.1" other_name="ENST00000521438.1" other_id="ENST00000521438.1" other_start="1" other_end="2810">
-        <mapping_span lrg_start="60729" lrg_end="63184" other_start="1" other_end="2456" strand="1" />
+        <mapping_span lrg_start="60729" lrg_end="63184" other_start="1" other_end="2456" strand="1">
+          <diff type="mismatch" lrg_start="63050" lrg_end="63050" other_start="133239206" other_end="133239206" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
         <mapping_span lrg_start="64727" lrg_end="65080" other_start="2457" other_end="2810" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000521544.1" other_name="ENST00000521544.1" other_id="ENST00000521544.1" other_start="1" other_end="709">
@@ -772,7 +785,9 @@
         <mapping_span lrg_start="45393" lrg_end="45416" other_start="558" other_end="581" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000523642.1" other_name="ENST00000523642.1" other_id="ENST00000523642.1" other_start="1" other_end="507">
-        <mapping_span lrg_start="57596" lrg_end="57901" other_start="1" other_end="306" strand="1" />
+        <mapping_span lrg_start="57596" lrg_end="57901" other_start="1" other_end="306" strand="1">
+          <diff type="mismatch" lrg_start="57709" lrg_end="57709" other_start="133244547" other_end="133244547" lrg_sequence="T" other_sequence="G" />
+        </mapping_span>
         <mapping_span lrg_start="60182" lrg_end="60382" other_start="307" other_end="507" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000523892.1" other_name="ENST00000523892.1" other_id="ENST00000523892.1" other_start="1" other_end="562">
@@ -809,6 +824,14 @@
           <symbol source="HGNC" name="NDRG1" />
           <coordinates coord_system="LRG_258" start="234" end="65085" strand="1" mapped_from="GRCh37" />
           <long_name>N-myc downstream regulated 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="605262" />
+          <db_xref source="HGNC" accession="7679">
+            <synonym>CAP43</synonym>
+            <synonym>DRG1</synonym>
+            <synonym>NDR1</synonym>
+            <synonym>RTP</synonym>
+            <synonym>TDD5</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="10397">
             <synonym>CAP43</synonym>
             <synonym>CMT4D</synonym>
@@ -824,14 +847,6 @@
             <synonym>TARG1</synonym>
             <synonym>TDD5</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7679">
-            <synonym>CAP43</synonym>
-            <synonym>DRG1</synonym>
-            <synonym>NDR1</synonym>
-            <synonym>RTP</synonym>
-            <synonym>TDD5</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="605262" />
           <db_xref source="Ensembl" accession="ENSG00000104419" />
           <transcript source="Ensembl" accession="ENST00000520230">
             <coordinates coord_system="LRG_258" start="234" end="45471" strand="1" mapped_from="GRCh37" />
@@ -979,7 +994,6 @@
             <protein_product source="Ensembl" accession="ENSP00000404854">
               <coordinates coord_system="LRG_258" start="17945" end="63378" strand="1" mapped_from="GRCh37" />
               <long_name>protein NDRG1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001128714.1" />
               <db_xref source="UniProtKB" accession="Q92597">
                 <synonym>B3KR80</synonym>
                 <synonym>B7Z446</synonym>
@@ -988,6 +1002,7 @@
                 <synonym>Q9NYR6</synonym>
                 <synonym>Q9UK29</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001128714.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000518480">
@@ -1145,7 +1160,6 @@
             <protein_product source="Ensembl" accession="ENSP00000427894">
               <coordinates coord_system="LRG_258" start="37703" end="63378" strand="1" mapped_from="GRCh37" />
               <long_name>protein NDRG1 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001245361.1" />
               <db_xref source="UniProtKB" accession="Q92597">
                 <synonym>B3KR80</synonym>
                 <synonym>B7Z446</synonym>
@@ -1154,6 +1168,7 @@
                 <synonym>Q9NYR6</synonym>
                 <synonym>Q9UK29</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001245361.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000518066">
@@ -1336,7 +1351,6 @@
             <protein_product source="Ensembl" accession="ENSP00000437443">
               <coordinates coord_system="LRG_258" start="40127" end="63378" strand="1" mapped_from="GRCh37" />
               <long_name>protein NDRG1 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001245362.1" />
               <db_xref source="UniProtKB" accession="Q92597">
                 <synonym>B3KR80</synonym>
                 <synonym>B7Z446</synonym>
@@ -1345,6 +1359,7 @@
                 <synonym>Q9NYR6</synonym>
                 <synonym>Q9UK29</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001245362.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000522377">
@@ -1452,7 +1467,6 @@
             <protein_product source="Ensembl" accession="ENSP00000319977">
               <coordinates coord_system="LRG_258" start="17945" end="63378" strand="1" mapped_from="GRCh37" />
               <long_name>protein NDRG1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_006087.2" />
               <db_xref source="UniProtKB" accession="Q92597">
                 <synonym>B3KR80</synonym>
                 <synonym>B7Z446</synonym>
@@ -1461,6 +1475,7 @@
                 <synonym>Q9NYR6</synonym>
                 <synonym>Q9UK29</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006087.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000518176">
@@ -1780,7 +1795,7 @@
         <name>List of locus specific databases for NDRG1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NDRG1</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

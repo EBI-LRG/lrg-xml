@@ -91,9 +91,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="70325259" other_end="70336403">
         <mapping_span lrg_start="1" lrg_end="11145" other_start="70325259" other_end="70336403" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="X" other_id="NC_000023.11" other_start="71105409" other_end="71116553">
+        <mapping_span lrg_start="1" lrg_end="11145" other_start="71105409" other_end="71116553" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">IL2RG</lrg_locus>
     </annotation_set>
@@ -108,7 +111,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009088.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000206.2" other_name="NM_000206.2" other_id="NM_000206.2" other_start="1" other_end="1534">
         <mapping_span lrg_start="4923" lrg_end="5129" other_start="1" other_end="207" strand="1" />
         <mapping_span lrg_start="5504" lrg_end="5657" other_start="208" other_end="361" strand="1" />
@@ -243,8 +246,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000276110.2" other_name="ENST00000276110.2" other_id="ENST00000276110.2" other_start="1" other_end="2035">
         <mapping_span lrg_start="5004" lrg_end="5657" other_start="1" other_end="654" strand="1" />
         <mapping_span lrg_start="5866" lrg_end="6398" other_start="655" other_end="1187" strand="1" />
@@ -312,6 +315,13 @@
           <symbol source="HGNC" name="IL2RG" />
           <coordinates coord_system="LRG_150" start="4446" end="9150" strand="1" mapped_from="GRCh37" />
           <long_name>interleukin 2 receptor, gamma (protein_coding)</long_name>
+          <db_xref source="MIM" accession="308380" />
+          <db_xref source="HGNC" accession="6010">
+            <synonym>CD132</synonym>
+            <synonym>CIDX</synonym>
+            <synonym>IMD4</synonym>
+            <synonym>SCIDX1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="3561">
             <synonym>CD132</synonym>
             <synonym>CIDX</synonym>
@@ -321,13 +331,6 @@
             <synonym>SCIDX</synonym>
             <synonym>SCIDX1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6010">
-            <synonym>CD132</synonym>
-            <synonym>CIDX</synonym>
-            <synonym>IMD4</synonym>
-            <synonym>SCIDX1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="308380" />
           <db_xref source="Ensembl" accession="ENSG00000147168" />
           <transcript source="Ensembl" accession="ENST00000464642">
             <coordinates coord_system="LRG_150" start="4446" end="7892" strand="1" mapped_from="GRCh37" />
@@ -389,8 +392,10 @@
             <protein_product source="Ensembl" accession="ENSP00000363318">
               <coordinates coord_system="LRG_150" start="5015" end="8818" strand="1" mapped_from="GRCh37" />
               <long_name>cytokine receptor common subunit gamma precursor</long_name>
+              <db_xref source="UniProtKB" accession="P31785">
+                <synonym>Q5FC12</synonym>
+              </db_xref>
               <db_xref source="RefSeq" accession="NP_000197.1" />
-              <db_xref source="UniProtKB" accession="P31785" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000512747">
@@ -486,6 +491,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000388967">
               <coordinates coord_system="LRG_150" start="5106" end="8818" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="P31785">
+                <synonym>Q5FC12</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000482750">
@@ -526,70 +534,55 @@
         </gene>
         <gene source="Ensembl" accession="ENSG00000204165">
           <symbol source="HGNC" name="CXorf65" />
-          <coordinates coord_system="LRG_150" start="9843" end="11145" strand="1" mapped_from="GRCh37" />
+          <coordinates coord_system="LRG_150" start="9766" end="11145" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>chromosome X open reading frame 65 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="158830" />
           <db_xref source="HGNC" accession="33713" />
+          <db_xref source="GeneID" accession="158830" />
           <db_xref source="Ensembl" accession="ENSG00000204165" />
           <transcript source="Ensembl" accession="ENST00000438526">
-            <coordinates coord_system="LRG_150" start="9843" end="11145" strand="1" mapped_from="GRCh37" />
+            <coordinates coord_system="LRG_150" start="9766" end="11145" strand="1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>CXorf65-003 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001025265.2" />
+            <long_name>CXorf65-006 (nonsense_mediated_decay)</long_name>
             <exon source="Ensembl" accession="ENSE00001775842">
-              <coordinates coord_system="LRG_150" start="9843" end="10022" strand="1" mapped_from="GRCh37" />
+              <coordinates coord_system="LRG_150" start="9766" end="10022" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00001462922">
-              <coordinates coord_system="LRG_150" start="10128" end="10214" strand="1" mapped_from="GRCh37" />
+            <exon source="Ensembl" accession="ENSE00001832433">
+              <coordinates coord_system="LRG_150" start="10128" end="10195" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003675513">
+            <exon source="Ensembl" accession="ENSE00003702469">
               <coordinates coord_system="LRG_150" start="10417" end="10554" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000411354">
-              <coordinates coord_system="LRG_150" start="9998" end="11145" strand="1" mapped_from="GRCh37" />
-              <partial>3-prime</partial>
-              <long_name>uncharacterized protein CXorf65</long_name>
-              <db_xref source="RefSeq" accession="NP_001020436.1" />
+              <coordinates coord_system="LRG_150" start="9998" end="10452" strand="1" mapped_from="GRCh37" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000485951">
-            <coordinates coord_system="LRG_150" start="9932" end="11145" strand="1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>CXorf65-004 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001925977">
-              <coordinates coord_system="LRG_150" start="9932" end="10022" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001832433">
-              <coordinates coord_system="LRG_150" start="10102" end="10214" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003660098">
-              <coordinates coord_system="LRG_150" start="10417" end="10554" strand="1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000374251">
-            <coordinates coord_system="LRG_150" start="9950" end="11145" strand="1" mapped_from="GRCh37" />
+            <coordinates coord_system="LRG_150" start="9949" end="11145" strand="1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>CXorf65-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS35324.1" />
+            <db_xref source="RefSeq" accession="NM_001025265.2" />
             <exon source="Ensembl" accession="ENSE00001462923">
-              <coordinates coord_system="LRG_150" start="9950" end="10022" strand="1" mapped_from="GRCh37" />
+              <coordinates coord_system="LRG_150" start="9949" end="10022" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001462922">
               <coordinates coord_system="LRG_150" start="10128" end="10214" strand="1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003675513">
+            <exon source="Ensembl" accession="ENSE00003704521">
               <coordinates coord_system="LRG_150" start="10417" end="10554" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000363369">
               <coordinates coord_system="LRG_150" start="9998" end="11145" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
+              <long_name>uncharacterized protein CXorf65</long_name>
               <db_xref source="UniProtKB" accession="A6NEN9" />
+              <db_xref source="RefSeq" accession="NP_001020436.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000483257">
             <coordinates coord_system="LRG_150" start="9984" end="10553" strand="1" mapped_from="GRCh37" />
-            <long_name>CXorf65-002 (processed_transcript)</long_name>
+            <long_name>CXorf65-002 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001854210">
               <coordinates coord_system="LRG_150" start="9984" end="10022" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -605,7 +598,7 @@
         <name>List of locus specific databases for IL2RG</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/IL2RG</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

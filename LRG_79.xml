@@ -58,9 +58,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="13" other_id="NC_000013.10" other_start="108857790" other_end="108872882">
         <mapping_span lrg_start="1" lrg_end="15093" other_start="108857790" other_end="108872882" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="13" other_id="NC_000013.11" other_start="108205442" other_end="108220534">
+        <mapping_span lrg_start="1" lrg_end="15093" other_start="108205442" other_end="108220534" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">LIG4</lrg_locus>
     </annotation_set>
@@ -75,7 +78,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007396.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001098268.1" other_name="NM_001098268.1" other_id="NM_001098268.1" other_start="1" other_end="4062">
         <mapping_span lrg_start="2167" lrg_end="2373" other_start="1" other_end="207" strand="1" />
         <mapping_span lrg_start="9239" lrg_end="13093" other_start="208" other_end="4062" strand="1" />
@@ -202,8 +205,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000356922.4" other_name="ENST00000356922.4" other_id="ENST00000356922.4" other_start="1" other_end="4103">
         <mapping_span lrg_start="5753" lrg_end="5997" other_start="1" other_end="245" strand="1" />
         <mapping_span lrg_start="9239" lrg_end="13096" other_start="246" other_end="4103" strand="1" />
@@ -222,17 +225,17 @@
           <coordinates coord_system="LRG_79" start="1" end="2156" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>abhydrolase domain containing 13 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="84945">
-            <synonym>bA153I24.2</synonym>
-            <synonym>BEM46L1</synonym>
-            <synonym>C13orf6</synonym>
-            <synonym>RP11-153I24.2</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="20293">
             <synonym>bA153I24.2</synonym>
             <synonym>BEM46L1</synonym>
             <synonym>C13orf6</synonym>
             <synonym>FLJ14906</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="84945">
+            <synonym>bA153I24.2</synonym>
+            <synonym>BEM46L1</synonym>
+            <synonym>C13orf6</synonym>
+            <synonym>RP11-153I24.2</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000139826" />
           <transcript source="Ensembl" accession="ENST00000375898">
@@ -250,9 +253,9 @@
           <symbol source="HGNC" name="LIG4" />
           <coordinates coord_system="LRG_79" start="2167" end="13096" strand="1" mapped_from="GRCh37" />
           <long_name>ligase IV, DNA, ATP-dependent (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3981" />
-          <db_xref source="HGNC" accession="6601" />
           <db_xref source="MIM" accession="601837" />
+          <db_xref source="HGNC" accession="6601" />
+          <db_xref source="GeneID" accession="3981" />
           <db_xref source="Ensembl" accession="ENSG00000174405" />
           <transcript source="Ensembl" accession="ENST00000405925">
             <coordinates coord_system="LRG_79" start="2167" end="13089" strand="1" mapped_from="GRCh37" />
@@ -268,11 +271,11 @@
             <protein_product source="Ensembl" accession="ENSP00000385955">
               <coordinates coord_system="LRG_79" start="9267" end="12002" strand="1" mapped_from="GRCh37" />
               <long_name>DNA ligase 4</long_name>
-              <db_xref source="RefSeq" accession="NP_001091738.1" />
               <db_xref source="UniProtKB" accession="P49917">
                 <synonym>Q8IY66</synonym>
                 <synonym>Q8TEU5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001091738.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000442234">
@@ -308,12 +311,12 @@
             <protein_product source="Ensembl" accession="ENSP00000349393">
               <coordinates coord_system="LRG_79" start="9267" end="12002" strand="1" mapped_from="GRCh37" />
               <long_name>DNA ligase 4, DNA ligase 4</long_name>
-              <db_xref source="RefSeq" accession="NP_002303.2" />
-              <db_xref source="RefSeq" accession="NP_996820.1" />
               <db_xref source="UniProtKB" accession="P49917">
                 <synonym>Q8IY66</synonym>
                 <synonym>Q8TEU5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002303.2" />
+              <db_xref source="RefSeq" accession="NP_996820.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -324,7 +327,7 @@
         <name>List of locus specific databases for LIG4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/LIG4</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

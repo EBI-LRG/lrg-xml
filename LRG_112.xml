@@ -199,9 +199,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="40463343" other_end="40545513">
         <mapping_span lrg_start="1" lrg_end="82171" other_start="40463343" other_end="40545513" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="17" other_id="NC_000017.11" other_start="42311325" other_end="42393495">
+        <mapping_span lrg_start="1" lrg_end="82171" other_start="42311325" other_end="42393495" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">STAT3</lrg_locus>
     </annotation_set>
@@ -216,7 +219,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007370.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_003150.3" other_name="NM_003150.3" other_id="NM_003150.3" other_start="1" other_end="4948">
         <mapping_span lrg_start="5001" lrg_end="5217" other_start="1" other_end="217" strand="1" />
         <mapping_span lrg_start="44979" lrg_end="45107" other_start="218" other_end="346" strand="1" />
@@ -592,8 +595,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000264657.5" other_name="ENST00000264657.5" other_id="ENST00000264657.5" other_start="1" other_end="5047">
         <mapping_span lrg_start="4928" lrg_end="5217" other_start="1" other_end="290" strand="1" />
         <mapping_span lrg_start="44957" lrg_end="45107" other_start="291" other_end="441" strand="1" />
@@ -770,15 +773,15 @@
           <symbol source="HGNC" name="STAT3" />
           <coordinates coord_system="LRG_112" start="4928" end="80172" strand="1" mapped_from="GRCh37" />
           <long_name>signal transducer and activator of transcription 3 (acute-phase response factor) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6774">
-            <synonym>APRF</synonym>
-            <synonym>HIES</synonym>
+          <db_xref source="MIM" accession="102582">
+            <synonym>600557</synonym>
           </db_xref>
           <db_xref source="HGNC" accession="11364">
             <synonym>APRF</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="102582">
-            <synonym>600557</synonym>
+          <db_xref source="GeneID" accession="6774">
+            <synonym>APRF</synonym>
+            <synonym>HIES</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000168610" />
           <transcript source="Ensembl" accession="ENST00000264657">
@@ -861,14 +864,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000264657">
               <coordinates coord_system="LRG_112" start="44980" end="77751" strand="1" mapped_from="GRCh37" />
-              <long_name>signal transducer and activator of transcription 3 isoform 1, signal transducer and activator of transcription 3 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_644805.1" />
-              <db_xref source="RefSeq" accession="NP_003141.2" />
+              <long_name>signal transducer and activator of transcription 3 isoform 2, signal transducer and activator of transcription 3 isoform 1</long_name>
               <db_xref source="UniProtKB" accession="P40763">
                 <synonym>A8K7B8</synonym>
                 <synonym>O14916</synonym>
                 <synonym>Q9BW54</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003141.2" />
+              <db_xref source="RefSeq" accession="NP_644805.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000588969">
@@ -1317,21 +1320,22 @@
           <coordinates coord_system="LRG_112" start="81553" end="82171" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>signal transducer and activator of transcription 5A (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6776">
-            <synonym>MGF</synonym>
-            <synonym>STAT5</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="601511" />
           <db_xref source="HGNC" accession="11366">
             <synonym>MGF</synonym>
             <synonym>STAT5</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="601511" />
+          <db_xref source="GeneID" accession="6776">
+            <synonym>MGF</synonym>
+            <synonym>STAT5</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000126561" />
           <transcript source="Ensembl" accession="ENST00000345506">
             <coordinates coord_system="LRG_112" start="81553" end="82171" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>STAT5A-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS11424.1" />
+            <db_xref source="RefSeq" accession="NM_001288718.1" />
             <db_xref source="RefSeq" accession="NM_003152.3" />
             <exon source="Ensembl" accession="ENSE00001319829">
               <coordinates coord_system="LRG_112" start="81553" end="82171" strand="-1" mapped_from="GRCh37" />
@@ -1342,6 +1346,7 @@
             <coordinates coord_system="LRG_112" start="81556" end="82171" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>STAT5A-009 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001288720.1" />
             <exon source="Ensembl" accession="ENSE00002928199">
               <coordinates coord_system="LRG_112" start="81556" end="82171" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
@@ -1364,7 +1369,7 @@
         <name>List of locus specific databases for STAT3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/STAT3</url>
       </source>
-      <modification_date>2013-12-06</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

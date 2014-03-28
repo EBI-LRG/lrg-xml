@@ -84,9 +84,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="87009728" other_end="87040519">
         <mapping_span lrg_start="1" lrg_end="30792" other_start="87009728" other_end="87040519" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="86782605" other_end="86813396">
+        <mapping_span lrg_start="1" lrg_end="30792" other_start="86782605" other_end="86813396" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CD8A</lrg_locus>
     </annotation_set>
@@ -101,7 +104,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011608.2</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001145873.1" other_name="NM_001145873.1" other_id="NM_001145873.1" other_start="1" other_end="3054">
         <mapping_span lrg_start="5001" lrg_end="5278" other_start="1" other_end="278" strand="1" />
         <mapping_span lrg_start="5615" lrg_end="5950" other_start="279" other_end="614" strand="1" />
@@ -273,8 +276,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000283635.3" other_name="ENST00000283635.3" other_id="ENST00000283635.3" other_start="1" other_end="2873">
         <mapping_span lrg_start="21717" lrg_end="22620" other_start="1" other_end="904" strand="1" />
         <mapping_span lrg_start="22716" lrg_end="23069" other_start="905" other_end="1258" strand="1" />
@@ -332,16 +335,16 @@
           <symbol source="HGNC" name="CD8A" />
           <coordinates coord_system="LRG_44" start="5001" end="28791" strand="1" mapped_from="GRCh37" />
           <long_name>CD8a molecule (protein_coding)</long_name>
+          <db_xref source="MIM" accession="186910" />
+          <db_xref source="HGNC" accession="1706">
+            <synonym>CD8</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="925">
             <synonym>CD8</synonym>
             <synonym>Leu2</synonym>
             <synonym>MAL</synonym>
             <synonym>p32</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1706">
-            <synonym>CD8</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="186910" />
           <db_xref source="Ensembl" accession="ENSG00000153563" />
           <transcript source="Ensembl" accession="ENST00000409511">
             <coordinates coord_system="LRG_44" start="5001" end="28786" strand="1" mapped_from="GRCh37" />
@@ -378,12 +381,12 @@
             <protein_product source="Ensembl" accession="ENSP00000386559">
               <coordinates coord_system="LRG_44" start="22572" end="27477" strand="1" mapped_from="GRCh37" />
               <long_name>T-cell surface glycoprotein CD8 alpha chain isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001139345.1" />
               <db_xref source="UniProtKB" accession="P01732">
                 <synonym>D6W5M8</synonym>
                 <synonym>Q13970</synonym>
                 <synonym>Q4ZG17</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001139345.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000456996">
@@ -449,12 +452,12 @@
             <protein_product source="Ensembl" accession="ENSP00000283635">
               <coordinates coord_system="LRG_44" start="22572" end="27477" strand="1" mapped_from="GRCh37" />
               <long_name>T-cell surface glycoprotein CD8 alpha chain isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001759.3" />
               <db_xref source="UniProtKB" accession="P01732">
                 <synonym>D6W5M8</synonym>
                 <synonym>Q13970</synonym>
                 <synonym>Q4ZG17</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001759.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000538832">
@@ -508,12 +511,12 @@
             <protein_product source="Ensembl" accession="ENSP00000321631">
               <coordinates coord_system="LRG_44" start="22572" end="27477" strand="1" mapped_from="GRCh37" />
               <long_name>T-cell surface glycoprotein CD8 alpha chain isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_741969.1" />
               <db_xref source="UniProtKB" accession="P01732">
                 <synonym>D6W5M8</synonym>
                 <synonym>Q13970</synonym>
                 <synonym>Q4ZG17</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_741969.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000409781">
@@ -546,7 +549,7 @@
         <name>List of locus specific databases for CD8A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CD8A</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

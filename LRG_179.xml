@@ -79,9 +79,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_start="10267376" other_end="10287868">
         <mapping_span lrg_start="1" lrg_end="20493" other_start="10267376" other_end="10287868" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="12" other_id="NC_000012.12" other_start="10114777" other_end="10135269">
+        <mapping_span lrg_start="1" lrg_end="20493" other_start="10114777" other_end="10135269" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CLEC7A</lrg_locus>
     </annotation_set>
@@ -96,7 +99,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_016291.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_022570.4" other_name="NM_022570.4" other_id="NM_022570.4" other_start="1" other_end="2474">
         <mapping_span lrg_start="5001" lrg_end="5290" other_start="1" other_end="290" strand="1" />
         <mapping_span lrg_start="7425" lrg_end="7523" other_start="291" other_end="389" strand="1" />
@@ -336,8 +339,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000298523.5" other_name="ENST00000298523.5" other_id="ENST00000298523.5" other_start="1" other_end="1154">
         <mapping_span lrg_start="5117" lrg_end="5290" other_start="1" other_end="174" strand="1" />
         <mapping_span lrg_start="7425" lrg_end="7523" other_start="175" other_end="273" strand="1" />
@@ -434,18 +437,18 @@
           <symbol source="HGNC" name="CLEC7A" />
           <coordinates coord_system="LRG_179" start="5012" end="18493" strand="1" mapped_from="GRCh37" />
           <long_name>C-type lectin domain family 7, member A (protein_coding)</long_name>
+          <db_xref source="MIM" accession="606264" />
+          <db_xref source="HGNC" accession="14558">
+            <synonym>CLECSF12</synonym>
+            <synonym>dectin-1</synonym>
+            <synonym>hDectin-1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="64581">
             <synonym>BGR</synonym>
             <synonym>CANDF4</synonym>
             <synonym>CLECSF12</synonym>
             <synonym>DECTIN1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="14558">
-            <synonym>CLECSF12</synonym>
-            <synonym>dectin-1</synonym>
-            <synonym>hDectin-1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="606264" />
           <db_xref source="Ensembl" accession="ENSG00000172243" />
           <transcript source="Ensembl" accession="ENST00000529761">
             <coordinates coord_system="LRG_179" start="5012" end="18493" strand="1" mapped_from="GRCh37" />
@@ -486,6 +489,7 @@
                 <synonym>Q96D32</synonym>
                 <synonym>Q96DR9</synonym>
                 <synonym>Q96LD3</synonym>
+                <synonym>Q96PA4</synonym>
                 <synonym>Q96PA5</synonym>
                 <synonym>Q96PA6</synonym>
                 <synonym>Q96PA7</synonym>
@@ -551,6 +555,7 @@
                 <synonym>Q96D32</synonym>
                 <synonym>Q96DR9</synonym>
                 <synonym>Q96LD3</synonym>
+                <synonym>Q96PA4</synonym>
                 <synonym>Q96PA5</synonym>
                 <synonym>Q96PA6</synonym>
                 <synonym>Q96PA7</synonym>
@@ -598,7 +603,6 @@
             <protein_product source="Ensembl" accession="ENSP00000266456">
               <coordinates coord_system="LRG_179" start="5188" end="16812" strand="1" mapped_from="GRCh37" />
               <long_name>C-type lectin domain family 7 member A isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_072092.2" />
               <db_xref source="UniProtKB" accession="Q9BXN2">
                 <synonym>B2R861</synonym>
                 <synonym>B7Z494</synonym>
@@ -608,12 +612,14 @@
                 <synonym>Q96D32</synonym>
                 <synonym>Q96DR9</synonym>
                 <synonym>Q96LD3</synonym>
+                <synonym>Q96PA4</synonym>
                 <synonym>Q96PA5</synonym>
                 <synonym>Q96PA6</synonym>
                 <synonym>Q96PA7</synonym>
                 <synonym>Q96PA8</synonym>
                 <synonym>Q9H1K3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_072092.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000304084">
@@ -642,7 +648,6 @@
             <protein_product source="Ensembl" accession="ENSP00000302569">
               <coordinates coord_system="LRG_179" start="5188" end="16812" strand="1" mapped_from="GRCh37" />
               <long_name>C-type lectin domain family 7 member A isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_922938.1" />
               <db_xref source="UniProtKB" accession="Q9BXN2">
                 <synonym>B2R861</synonym>
                 <synonym>B7Z494</synonym>
@@ -652,12 +657,14 @@
                 <synonym>Q96D32</synonym>
                 <synonym>Q96DR9</synonym>
                 <synonym>Q96LD3</synonym>
+                <synonym>Q96PA4</synonym>
                 <synonym>Q96PA5</synonym>
                 <synonym>Q96PA6</synonym>
                 <synonym>Q96PA7</synonym>
                 <synonym>Q96PA8</synonym>
                 <synonym>Q9H1K3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_922938.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000310002">
@@ -677,7 +684,6 @@
             <protein_product source="Ensembl" accession="ENSP00000312089">
               <coordinates coord_system="LRG_179" start="5188" end="7859" strand="1" mapped_from="GRCh37" />
               <long_name>C-type lectin domain family 7 member A isoform f</long_name>
-              <db_xref source="RefSeq" accession="NP_922945.1" />
               <db_xref source="UniProtKB" accession="Q9BXN2">
                 <synonym>B2R861</synonym>
                 <synonym>B7Z494</synonym>
@@ -687,12 +693,14 @@
                 <synonym>Q96D32</synonym>
                 <synonym>Q96DR9</synonym>
                 <synonym>Q96LD3</synonym>
+                <synonym>Q96PA4</synonym>
                 <synonym>Q96PA5</synonym>
                 <synonym>Q96PA6</synonym>
                 <synonym>Q96PA7</synonym>
                 <synonym>Q96PA8</synonym>
                 <synonym>Q9H1K3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_922945.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000396484">
@@ -715,7 +723,6 @@
             <protein_product source="Ensembl" accession="ENSP00000379743">
               <coordinates coord_system="LRG_179" start="5188" end="16812" strand="1" mapped_from="GRCh37" />
               <long_name>C-type lectin domain family 7 member A isoform e</long_name>
-              <db_xref source="RefSeq" accession="NP_922941.1" />
               <db_xref source="UniProtKB" accession="Q9BXN2">
                 <synonym>B2R861</synonym>
                 <synonym>B7Z494</synonym>
@@ -725,12 +732,14 @@
                 <synonym>Q96D32</synonym>
                 <synonym>Q96DR9</synonym>
                 <synonym>Q96LD3</synonym>
+                <synonym>Q96PA4</synonym>
                 <synonym>Q96PA5</synonym>
                 <synonym>Q96PA6</synonym>
                 <synonym>Q96PA7</synonym>
                 <synonym>Q96PA8</synonym>
                 <synonym>Q9H1K3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_922941.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000528799">
@@ -766,7 +775,6 @@
             <protein_product source="Ensembl" accession="ENSP00000298523">
               <coordinates coord_system="LRG_179" start="5188" end="16757" strand="1" mapped_from="GRCh37" />
               <long_name>C-type lectin domain family 7 member A isoform d</long_name>
-              <db_xref source="RefSeq" accession="NP_922940.1" />
               <db_xref source="UniProtKB" accession="Q9BXN2">
                 <synonym>B2R861</synonym>
                 <synonym>B7Z494</synonym>
@@ -776,12 +784,14 @@
                 <synonym>Q96D32</synonym>
                 <synonym>Q96DR9</synonym>
                 <synonym>Q96LD3</synonym>
+                <synonym>Q96PA4</synonym>
                 <synonym>Q96PA5</synonym>
                 <synonym>Q96PA6</synonym>
                 <synonym>Q96PA7</synonym>
                 <synonym>Q96PA8</synonym>
                 <synonym>Q9H1K3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_922940.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000465100">
@@ -813,6 +823,22 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000436923">
               <coordinates coord_system="LRG_179" start="5188" end="8660" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="Q9BXN2">
+                <synonym>B2R861</synonym>
+                <synonym>B7Z494</synonym>
+                <synonym>B7Z5A9</synonym>
+                <synonym>B7Z5B9</synonym>
+                <synonym>Q6IPS7</synonym>
+                <synonym>Q96D32</synonym>
+                <synonym>Q96DR9</synonym>
+                <synonym>Q96LD3</synonym>
+                <synonym>Q96PA4</synonym>
+                <synonym>Q96PA5</synonym>
+                <synonym>Q96PA6</synonym>
+                <synonym>Q96PA7</synonym>
+                <synonym>Q96PA8</synonym>
+                <synonym>Q9H1K3</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000349926">
@@ -838,6 +864,7 @@
                 <synonym>Q96D32</synonym>
                 <synonym>Q96DR9</synonym>
                 <synonym>Q96LD3</synonym>
+                <synonym>Q96PA4</synonym>
                 <synonym>Q96PA5</synonym>
                 <synonym>Q96PA6</synonym>
                 <synonym>Q96PA7</synonym>
@@ -869,7 +896,6 @@
             <protein_product source="Ensembl" accession="ENSP00000431461">
               <coordinates coord_system="LRG_179" start="5188" end="16757" strand="1" mapped_from="GRCh37" />
               <long_name>C-type lectin domain family 7 member A isoform c</long_name>
-              <db_xref source="RefSeq" accession="NP_922939.1" />
               <db_xref source="UniProtKB" accession="Q9BXN2">
                 <synonym>B2R861</synonym>
                 <synonym>B7Z494</synonym>
@@ -879,12 +905,14 @@
                 <synonym>Q96D32</synonym>
                 <synonym>Q96DR9</synonym>
                 <synonym>Q96LD3</synonym>
+                <synonym>Q96PA4</synonym>
                 <synonym>Q96PA5</synonym>
                 <synonym>Q96PA6</synonym>
                 <synonym>Q96PA7</synonym>
                 <synonym>Q96PA8</synonym>
                 <synonym>Q9H1K3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_922939.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -895,7 +923,7 @@
         <name>List of locus specific databases for CLEC7A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CLEC7A</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

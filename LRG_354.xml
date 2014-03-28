@@ -188,9 +188,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="20" other_id="NC_000020.10" other_start="32946062" other_end="33101197">
         <mapping_span lrg_start="1" lrg_end="155136" other_start="32946062" other_end="33101197" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="20" other_id="NC_000020.11" other_start="34358256" other_end="34513392">
+        <mapping_span lrg_start="1" lrg_end="155136" other_start="34358256" other_end="34513392" strand="1">
+          <diff type="other_ins" lrg_start="77436" lrg_end="77437" other_start="34435692" other_end="34435692" lrg_sequence="-" other_sequence="A" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">ITCH</lrg_locus>
     </annotation_set>
@@ -205,7 +210,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_023206.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001257137.1" other_name="NM_001257137.1" other_id="NM_001257137.1" other_start="1" other_end="6524">
         <mapping_span lrg_start="4980" lrg_end="5094" other_start="1" other_end="115" strand="1" />
         <mapping_span lrg_start="11139" lrg_end="11215" other_start="116" other_end="192" strand="1" />
@@ -631,8 +636,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000262650.6" other_name="ENST00000262650.6" other_id="ENST00000262650.6" other_start="1" other_end="3089">
         <mapping_span lrg_start="5057" lrg_end="5094" other_start="1" other_end="38" strand="1" />
         <mapping_span lrg_start="11139" lrg_end="11215" other_start="39" other_end="115" strand="1" />
@@ -750,16 +755,16 @@
           <symbol source="HGNC" name="ITCH" />
           <coordinates coord_system="LRG_354" start="4980" end="153137" strand="1" mapped_from="GRCh37" />
           <long_name>itchy E3 ubiquitin protein ligase (protein_coding)</long_name>
+          <db_xref source="MIM" accession="606409" />
+          <db_xref source="HGNC" accession="13890">
+            <synonym>AIP4</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="83737">
             <synonym>AIF4</synonym>
             <synonym>AIP4</synonym>
             <synonym>dJ468O1.1</synonym>
             <synonym>NAPP1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="13890">
-            <synonym>AIP4</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="606409" />
           <db_xref source="Ensembl" accession="ENSG00000078747" />
           <transcript source="Ensembl" accession="ENST00000374864">
             <coordinates coord_system="LRG_354" start="4980" end="153137" strand="1" mapped_from="GRCh37" />
@@ -845,10 +850,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000363998">
               <coordinates coord_system="LRG_354" start="35557" end="149538" strand="1" mapped_from="GRCh37" />
-              <long_name>E3 ubiquitin-protein ligase Itchy homolog isoform 2, E3 ubiquitin-protein ligase Itchy homolog isoform 3, E3 ubiquitin-protein ligase Itchy homolog isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_113671.3" />
-              <db_xref source="RefSeq" accession="NP_001244067.1" />
-              <db_xref source="RefSeq" accession="NP_001244066.1" />
+              <long_name>E3 ubiquitin-protein ligase Itchy homolog isoform 1, E3 ubiquitin-protein ligase Itchy homolog isoform 2, E3 ubiquitin-protein ligase Itchy homolog isoform 3</long_name>
               <db_xref source="UniProtKB" accession="Q96J02">
                 <synonym>A6NEW4</synonym>
                 <synonym>B4E234</synonym>
@@ -862,6 +864,9 @@
                 <synonym>Q9H451</synonym>
                 <synonym>Q9H4U5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001244066.1" />
+              <db_xref source="RefSeq" accession="NP_113671.3" />
+              <db_xref source="RefSeq" accession="NP_001244067.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000486883">
@@ -1210,18 +1215,18 @@
           <symbol source="HGNC" name="MIR644A" />
           <coordinates coord_system="LRG_354" start="108069" end="108162" strand="1" mapped_from="GRCh37" />
           <long_name>microRNA 644a (miRNA)</long_name>
+          <db_xref source="miRBase" accession="MI0003659" />
+          <db_xref source="HGNC" accession="32900">
+            <synonym>hsa-mir-644</synonym>
+            <synonym>MIR644</synonym>
+            <synonym>MIRN644</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="693229">
             <synonym>hsa-mir-644</synonym>
             <synonym>hsa-mir-644a</synonym>
             <synonym>MIR644</synonym>
             <synonym>MIRN644</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="32900">
-            <synonym>hsa-mir-644</synonym>
-            <synonym>MIR644</synonym>
-            <synonym>MIRN644</synonym>
-          </db_xref>
-          <db_xref source="miRBase" accession="MI0003659" />
           <db_xref source="Ensembl" accession="ENSG00000207997" />
           <transcript source="Ensembl" accession="ENST00000385262">
             <coordinates coord_system="LRG_354" start="108069" end="108162" strand="1" mapped_from="GRCh37" />
@@ -1256,7 +1261,7 @@
         <name>List of locus specific databases for ITCH</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ITCH</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

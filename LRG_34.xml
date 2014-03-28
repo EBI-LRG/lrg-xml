@@ -172,9 +172,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="202093181" other_end="202154432">
         <mapping_span lrg_start="1" lrg_end="61252" other_start="202093181" other_end="202154432" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="201228458" other_end="201289709">
+        <mapping_span lrg_start="1" lrg_end="61252" other_start="201228458" other_end="201289709" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">CASP8</lrg_locus>
     </annotation_set>
@@ -189,7 +192,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007497.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001080124.1" other_name="NM_001080124.1" other_id="NM_001080124.1" other_start="1" other_end="2747">
         <mapping_span lrg_start="4986" lrg_end="5097" other_start="1" other_end="112" strand="1" />
         <mapping_span lrg_start="5559" lrg_end="5655" other_start="113" other_end="209" strand="1" />
@@ -615,8 +618,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000264274.9" other_name="ENST00000264274.9" other_id="ENST00000264274.9" other_start="1" other_end="2540">
         <mapping_span lrg_start="4986" lrg_end="5097" other_start="1" other_end="112" strand="1" />
         <mapping_span lrg_start="5559" lrg_end="5655" other_start="113" other_end="209" strand="1" />
@@ -796,15 +799,15 @@
           <coordinates coord_system="LRG_34" start="1" end="949" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>caspase 10, apoptosis-related cysteine peptidase (protein_coding)</long_name>
+          <db_xref source="MIM" accession="601762" />
+          <db_xref source="HGNC" accession="1500">
+            <synonym>MCH4</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="843">
             <synonym>ALPS2</synonym>
             <synonym>FLICE2</synonym>
             <synonym>MCH4</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1500">
-            <synonym>MCH4</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="601762" />
           <db_xref source="Ensembl" accession="ENSG00000003400" />
           <transcript source="Ensembl" accession="ENST00000272879">
             <coordinates coord_system="LRG_34" start="1" end="949" strand="1" mapped_from="GRCh37" />
@@ -819,8 +822,8 @@
               <coordinates coord_system="LRG_34" start="1" end="626" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>caspase-10 isoform 2 preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_116756.2" />
               <db_xref source="UniProtKB" accession="Q92851">
+                <synonym>Q68HC0</synonym>
                 <synonym>Q6KF62</synonym>
                 <synonym>Q6KF63</synonym>
                 <synonym>Q8IUP5</synonym>
@@ -829,6 +832,7 @@
                 <synonym>Q9Y2U6</synonym>
                 <synonym>Q9Y2U7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_116756.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000448480">
@@ -844,8 +848,8 @@
               <coordinates coord_system="LRG_34" start="1" end="626" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>caspase-10 isoform 5 preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_001193471.1" />
               <db_xref source="UniProtKB" accession="Q92851">
+                <synonym>Q68HC0</synonym>
                 <synonym>Q6KF62</synonym>
                 <synonym>Q6KF63</synonym>
                 <synonym>Q8IUP5</synonym>
@@ -854,6 +858,7 @@
                 <synonym>Q9Y2U6</synonym>
                 <synonym>Q9Y2U7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001193471.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -861,6 +866,13 @@
           <symbol source="HGNC" name="CASP8" />
           <coordinates coord_system="LRG_34" start="4986" end="59254" strand="1" mapped_from="GRCh37" />
           <long_name>caspase 8, apoptosis-related cysteine peptidase (protein_coding)</long_name>
+          <db_xref source="MIM" accession="601763" />
+          <db_xref source="HGNC" accession="1509">
+            <synonym>Casp-8</synonym>
+            <synonym>FLICE</synonym>
+            <synonym>MACH</synonym>
+            <synonym>MCH5</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="841">
             <synonym>ALPS2B</synonym>
             <synonym>CAP4</synonym>
@@ -869,13 +881,6 @@
             <synonym>MACH</synonym>
             <synonym>MCH5</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1509">
-            <synonym>Casp-8</synonym>
-            <synonym>FLICE</synonym>
-            <synonym>MACH</synonym>
-            <synonym>MCH5</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="601763" />
           <db_xref source="Ensembl" accession="ENSG00000064012" />
           <transcript source="Ensembl" accession="ENST00000392263">
             <coordinates coord_system="LRG_34" start="4986" end="58134" strand="1" mapped_from="GRCh37" />
@@ -911,7 +916,6 @@
             <protein_product source="Ensembl" accession="ENSP00000376091">
               <coordinates coord_system="LRG_34" start="38030" end="58134" strand="1" mapped_from="GRCh37" />
               <long_name>caspase-8 isoform C precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001073593.1" />
               <db_xref source="UniProtKB" accession="Q14790">
                 <synonym>O14676</synonym>
                 <synonym>Q14791</synonym>
@@ -932,6 +936,7 @@
                 <synonym>Q9C0K4</synonym>
                 <synonym>Q9UQ81</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001073593.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000264274">
@@ -1126,7 +1131,6 @@
             <protein_product source="Ensembl" accession="ENSP00000412523">
               <coordinates coord_system="LRG_34" start="38030" end="58137" strand="1" mapped_from="GRCh37" />
               <long_name>caspase-8 isoform B precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_203519.1" />
               <db_xref source="UniProtKB" accession="Q14790">
                 <synonym>O14676</synonym>
                 <synonym>Q14791</synonym>
@@ -1147,6 +1151,7 @@
                 <synonym>Q9C0K4</synonym>
                 <synonym>Q9UQ81</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_203519.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000490682">
@@ -1200,7 +1205,6 @@
             <protein_product source="Ensembl" accession="ENSP00000264275">
               <coordinates coord_system="LRG_34" start="38030" end="58137" strand="1" mapped_from="GRCh37" />
               <long_name>caspase-8 isoform A precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001219.2" />
               <db_xref source="UniProtKB" accession="Q14790">
                 <synonym>O14676</synonym>
                 <synonym>Q14791</synonym>
@@ -1221,6 +1225,7 @@
                 <synonym>Q9C0K4</synonym>
                 <synonym>Q9UQ81</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001219.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000471383">
@@ -1318,7 +1323,6 @@
             <protein_product source="Ensembl" accession="ENSP00000376087">
               <coordinates coord_system="LRG_34" start="38030" end="48482" strand="1" mapped_from="GRCh37" />
               <long_name>caspase-8 isoform E</long_name>
-              <db_xref source="RefSeq" accession="NP_203522.1" />
               <db_xref source="UniProtKB" accession="Q14790">
                 <synonym>O14676</synonym>
                 <synonym>Q14791</synonym>
@@ -1339,6 +1343,7 @@
                 <synonym>Q9C0K4</synonym>
                 <synonym>Q9UQ81</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_203522.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000447616">
@@ -1398,7 +1403,6 @@
             <protein_product source="Ensembl" accession="ENSP00000351273">
               <coordinates coord_system="LRG_34" start="29775" end="58137" strand="1" mapped_from="GRCh37" />
               <long_name>caspase-8 isoform G precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001073594.1" />
               <db_xref source="UniProtKB" accession="Q14790">
                 <synonym>O14676</synonym>
                 <synonym>Q14791</synonym>
@@ -1419,6 +1423,7 @@
                 <synonym>Q9C0K4</synonym>
                 <synonym>Q9UQ81</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001073594.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000437283">
@@ -1538,7 +1543,6 @@
             <protein_product source="Ensembl" accession="ENSP00000325722">
               <coordinates coord_system="LRG_34" start="38030" end="58137" strand="1" mapped_from="GRCh37" />
               <long_name>caspase-8 isoform C precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_203520.1" />
               <db_xref source="UniProtKB" accession="Q14790">
                 <synonym>O14676</synonym>
                 <synonym>Q14791</synonym>
@@ -1559,6 +1563,7 @@
                 <synonym>Q9C0K4</synonym>
                 <synonym>Q9UQ81</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_203520.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000429881">
@@ -1615,8 +1620,8 @@
           <coordinates coord_system="LRG_34" start="59814" end="61252" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>amyotrophic lateral sclerosis 2 (juvenile) chromosome region, candidate 12 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="130540" />
           <db_xref source="HGNC" accession="14439" />
+          <db_xref source="GeneID" accession="130540" />
           <db_xref source="Ensembl" accession="ENSG00000155749" />
           <transcript source="Ensembl" accession="ENST00000286190">
             <coordinates coord_system="LRG_34" start="59814" end="61252" strand="-1" mapped_from="GRCh37" />
@@ -1679,12 +1684,12 @@
               <coordinates coord_system="LRG_34" start="60198" end="61252" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>amyotrophic lateral sclerosis 2 chromosomal region candidate gene 12 protein isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_631902.2" />
               <db_xref source="UniProtKB" accession="Q96Q35">
                 <synonym>G5E9S3</synonym>
                 <synonym>Q53TT6</synonym>
                 <synonym>Q8N1B6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_631902.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000494171">
@@ -1722,12 +1727,12 @@
               <coordinates coord_system="LRG_34" start="60198" end="61252" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>amyotrophic lateral sclerosis 2 chromosomal region candidate gene 12 protein isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_001120863.1" />
               <db_xref source="UniProtKB" accession="Q96Q35">
                 <synonym>G5E9S3</synonym>
                 <synonym>Q53TT6</synonym>
                 <synonym>Q8N1B6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001120863.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000439709">
@@ -1778,7 +1783,7 @@
         <name>List of locus specific databases for CASP8</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CASP8</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

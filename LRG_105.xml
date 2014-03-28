@@ -94,9 +94,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="57360027" other_end="57384326">
         <mapping_span lrg_start="1" lrg_end="24300" other_start="57360027" other_end="57384326" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="11" other_id="NC_000011.10" other_start="57592554" other_end="57616853">
+        <mapping_span lrg_start="1" lrg_end="24300" other_start="57592554" other_end="57616853" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">SERPING1</lrg_locus>
     </annotation_set>
@@ -111,7 +114,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009625.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000062.2" other_name="NM_000062.2" other_id="NM_000062.2" other_start="1" other_end="1966">
         <mapping_span lrg_start="5001" lrg_end="5169" other_start="1" other_end="169" strand="1" />
         <mapping_span lrg_start="5696" lrg_end="5768" other_start="170" other_end="242" strand="1" />
@@ -237,8 +240,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000278407.4" other_name="ENST00000278407.4" other_id="ENST00000278407.4" other_start="1" other_end="2002">
         <mapping_span lrg_start="4965" lrg_end="5169" other_start="1" other_end="205" strand="1" />
         <mapping_span lrg_start="5696" lrg_end="5768" other_start="206" other_end="278" strand="1" />
@@ -330,13 +333,7 @@
           <symbol source="HGNC" name="SERPING1" />
           <coordinates coord_system="LRG_105" start="4834" end="22300" strand="1" mapped_from="GRCh37" />
           <long_name>serpin peptidase inhibitor, clade G (C1 inhibitor), member 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="710">
-            <synonym>C1IN</synonym>
-            <synonym>C1INH</synonym>
-            <synonym>C1NH</synonym>
-            <synonym>HAE1</synonym>
-            <synonym>HAE2</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606860" />
           <db_xref source="HGNC" accession="1228">
             <synonym>C1-INH</synonym>
             <synonym>C1IN</synonym>
@@ -344,7 +341,13 @@
             <synonym>HAE1</synonym>
             <synonym>HAE2</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="606860" />
+          <db_xref source="GeneID" accession="710">
+            <synonym>C1IN</synonym>
+            <synonym>C1INH</synonym>
+            <synonym>C1NH</synonym>
+            <synonym>HAE1</synonym>
+            <synonym>HAE2</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000149131" />
           <transcript source="Ensembl" accession="ENST00000405496">
             <coordinates coord_system="LRG_105" start="4834" end="7755" strand="1" mapped_from="GRCh37" />
@@ -394,7 +397,6 @@
             <protein_product source="Ensembl" accession="ENSP00000278407">
               <coordinates coord_system="LRG_105" start="5718" end="22028" strand="1" mapped_from="GRCh37" />
               <long_name>plasma protease C1 inhibitor precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000053.2" />
               <db_xref source="UniProtKB" accession="P05155">
                 <synonym>A6NMU0</synonym>
                 <synonym>A8KAI9</synonym>
@@ -407,6 +409,7 @@
                 <synonym>Q9UC49</synonym>
                 <synonym>Q9UCF9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000053.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000457869">
@@ -637,7 +640,7 @@
         <name>List of locus specific databases for SERPING1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SERPING1</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

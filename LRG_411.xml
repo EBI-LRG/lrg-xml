@@ -264,9 +264,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_start="21066902" other_end="21468116">
         <mapping_span lrg_start="1" lrg_end="401215" other_start="21066902" other_end="21468116" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="10" other_id="NC_000010.11" other_start="20777973" other_end="21179187">
+        <mapping_span lrg_start="1" lrg_end="401215" other_start="20777973" other_end="21179187" strand="-1">
+          <diff type="mismatch" lrg_start="148328" lrg_end="148328" other_start="21030860" other_end="21030860" lrg_sequence="C" other_sequence="G" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">NEBL</lrg_locus>
     </annotation_set>
@@ -281,7 +286,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_017092.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001173484.1" other_name="NM_001173484.1" other_id="NM_001173484.1" other_start="1" other_end="6939">
         <mapping_span lrg_start="5001" lrg_end="5423" other_start="1" other_end="423" strand="1" />
         <mapping_span lrg_start="6711" lrg_end="6805" other_start="424" other_end="518" strand="1" />
@@ -579,8 +584,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000377119.1" other_name="ENST00000377119.1" other_id="ENST00000377119.1" other_start="1" other_end="1599">
         <mapping_span lrg_start="281973" lrg_end="282063" other_start="1" other_end="91" strand="1" />
         <mapping_span lrg_start="282159" lrg_end="282230" other_start="92" other_end="163" strand="1" />
@@ -704,8 +709,8 @@
           <symbol source="HGNC" name="NEBL-AS1" />
           <coordinates coord_system="LRG_411" start="4140" end="5174" strand="-1" mapped_from="GRCh37" />
           <long_name>NEBL antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100128511" />
           <db_xref source="HGNC" accession="44899" />
+          <db_xref source="GeneID" accession="100128511" />
           <db_xref source="Ensembl" accession="ENSG00000231920" />
           <transcript source="Ensembl" accession="ENST00000439097">
             <coordinates coord_system="LRG_411" start="4140" end="5174" strand="-1" mapped_from="GRCh37" />
@@ -734,12 +739,12 @@
           <symbol source="HGNC" name="NEBL" />
           <coordinates coord_system="LRG_411" start="5001" end="399215" strand="1" mapped_from="GRCh37" />
           <long_name>nebulette (protein_coding)</long_name>
+          <db_xref source="MIM" accession="605491" />
+          <db_xref source="HGNC" accession="16932" />
           <db_xref source="GeneID" accession="10529">
             <synonym>LASP2</synonym>
             <synonym>LNEBL</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="16932" />
-          <db_xref source="MIM" accession="605491" />
           <db_xref source="Ensembl" accession="ENSG00000078114" />
           <transcript source="Ensembl" accession="ENST00000417816">
             <coordinates coord_system="LRG_411" start="5001" end="395282" strand="1" mapped_from="GRCh37" />
@@ -771,14 +776,14 @@
             <protein_product source="Ensembl" accession="ENSP00000393896">
               <coordinates coord_system="LRG_411" start="5355" end="393441" strand="1" mapped_from="GRCh37" />
               <long_name>nebulette isoform 2, nebulette isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_998734.1" />
-              <db_xref source="RefSeq" accession="NP_001166955.1" />
               <db_xref source="UniProtKB" accession="O76041">
                 <synonym>B0YJ45</synonym>
                 <synonym>Q2TBD0</synonym>
                 <synonym>Q70I54</synonym>
                 <synonym>Q9UIC4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_998734.1" />
+              <db_xref source="RefSeq" accession="NP_001166955.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000464278">
@@ -940,13 +945,13 @@
             <protein_product source="Ensembl" accession="ENSP00000366326">
               <coordinates coord_system="LRG_411" start="281983" end="393441" strand="1" mapped_from="GRCh37" />
               <long_name>nebulette isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_006384.1" />
               <db_xref source="UniProtKB" accession="O76041">
                 <synonym>B0YJ45</synonym>
                 <synonym>Q2TBD0</synonym>
                 <synonym>Q70I54</synonym>
                 <synonym>Q9UIC4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006384.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000377119">
@@ -1109,10 +1114,10 @@
           <symbol source="HGNC" name="C10orf113" />
           <coordinates coord_system="LRG_411" start="32629" end="53425" strand="1" mapped_from="GRCh37" />
           <long_name>chromosome 10 open reading frame 113 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="387638">
+          <db_xref source="HGNC" accession="31447">
             <synonym>bA165O3.1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="31447">
+          <db_xref source="GeneID" accession="387638">
             <synonym>bA165O3.1</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000204683" />
@@ -1130,11 +1135,11 @@
             <protein_product source="Ensembl" accession="ENSP00000433646">
               <coordinates coord_system="LRG_411" start="32680" end="53365" strand="1" mapped_from="GRCh37" />
               <long_name>putative uncharacterized protein C10orf113 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001010896.2" />
               <db_xref source="UniProtKB" accession="Q5VZT2">
                 <synonym>B9EIM9</synonym>
                 <synonym>E9PRX7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001010896.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000529198">
@@ -1151,11 +1156,11 @@
             <protein_product source="Ensembl" accession="ENSP00000434089">
               <coordinates coord_system="LRG_411" start="32680" end="53102" strand="1" mapped_from="GRCh37" />
               <long_name>putative uncharacterized protein C10orf113 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001170954.1" />
               <db_xref source="UniProtKB" accession="Q5VZT2">
                 <synonym>B9EIM9</synonym>
                 <synonym>E9PRX7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001170954.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000377118">
@@ -1169,10 +1174,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000366322">
               <coordinates coord_system="LRG_411" start="32710" end="53365" strand="1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="Q5VZT2">
-                <synonym>B9EIM9</synonym>
-                <synonym>E9PRX7</synonym>
-              </db_xref>
             </protein_product>
           </transcript>
         </gene>
@@ -1241,7 +1242,7 @@
         <name>List of locus specific databases for NEBL</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NEBL</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

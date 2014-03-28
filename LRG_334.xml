@@ -1220,9 +1220,16 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-27</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_start="2074952" other_end="2809115">
         <mapping_span lrg_start="1" lrg_end="734164" other_start="2074952" other_end="2809115" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="12" other_id="NC_000012.12" other_start="1965786" other_end="2699949">
+        <mapping_span lrg_start="1" lrg_end="734164" other_start="1965786" other_end="2699949" strand="1">
+          <diff type="mismatch" lrg_start="180398" lrg_end="180398" other_start="2146183" other_end="2146183" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="249774" lrg_end="249774" other_start="2215559" other_end="2215559" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="716254" lrg_end="716254" other_start="2682039" other_end="2682039" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">CACNA1C</lrg_locus>
     </annotation_set>
@@ -1237,7 +1244,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008801.2</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000719.6" other_name="NM_000719.6" other_id="NM_000719.6" other_start="1" other_end="13480">
         <mapping_span lrg_start="87465" lrg_end="87826" other_start="1" other_end="362" strand="1" />
         <mapping_span lrg_start="149439" lrg_end="149760" other_start="363" other_end="684" strand="1" />
@@ -2910,6 +2917,7 @@
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 14</long_name>
               <long_name>calcium channel, cardic dihydropyridine-sensitive, alpha-1 subunit</long_name>
               <long_name>DHPR, alpha-1 subunit</long_name>
+              <long_name>voltage-dependent L-type Ca2+ channel alpha 1 subunit</long_name>
               <long_name>voltage-gated L-type calcium channel Cav1.2 alpha 1 subunit, splice variant 10*</long_name>
               <long_name>calcium channel, L type, alpha-1 polypeptide, isoform 1, cardiac muscle</long_name>
               <db_xref source="CCDS" accession="CCDS44787.1" />
@@ -3074,6 +3082,7 @@
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 2</long_name>
               <long_name>calcium channel, cardic dihydropyridine-sensitive, alpha-1 subunit</long_name>
               <long_name>DHPR, alpha-1 subunit</long_name>
+              <long_name>voltage-dependent L-type Ca2+ channel alpha 1 subunit</long_name>
               <long_name>voltage-gated L-type calcium channel Cav1.2 alpha 1 subunit, splice variant 10*</long_name>
               <long_name>calcium channel, L type, alpha-1 polypeptide, isoform 1, cardiac muscle</long_name>
               <db_xref source="CCDS" accession="CCDS44788.1" />
@@ -4162,6 +4171,7 @@
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 18</long_name>
               <long_name>calcium channel, cardic dihydropyridine-sensitive, alpha-1 subunit</long_name>
               <long_name>DHPR, alpha-1 subunit</long_name>
+              <long_name>voltage-dependent L-type Ca2+ channel alpha 1 subunit</long_name>
               <long_name>voltage-gated L-type calcium channel Cav1.2 alpha 1 subunit, splice variant 10*</long_name>
               <long_name>calcium channel, L type, alpha-1 polypeptide, isoform 1, cardiac muscle</long_name>
               <db_xref source="CCDS" accession="CCDS44794.1" />
@@ -5087,6 +5097,7 @@
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 4</long_name>
               <long_name>calcium channel, cardic dihydropyridine-sensitive, alpha-1 subunit</long_name>
               <long_name>DHPR, alpha-1 subunit</long_name>
+              <long_name>voltage-dependent L-type Ca2+ channel alpha 1 subunit</long_name>
               <long_name>voltage-gated L-type calcium channel Cav1.2 alpha 1 subunit, splice variant 10*</long_name>
               <long_name>calcium channel, L type, alpha-1 polypeptide, isoform 1, cardiac muscle</long_name>
               <db_xref source="CCDS" accession="CCDS53736.1" />
@@ -5401,7 +5412,9 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="100652846">
-          <symbol source="HGNC" name="CACNA1C-AS1" />
+          <symbol source="HGNC" name="CACNA1C-AS1">
+            <synonym>RP11-885B4.3</synonym>
+          </symbol>
           <coordinates coord_system="LRG_334" start="710216" end="725372" strand="-1" />
           <long_name>CACNA1C antisense RNA 1</long_name>
           <db_xref source="GeneID" accession="100652846" />
@@ -5437,8 +5450,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-27</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000327702.7" other_name="ENST00000327702.7" other_id="ENST00000327702.7" other_start="1" other_end="6616">
         <mapping_span lrg_start="87778" lrg_end="87826" other_start="1" other_end="49" strand="1" />
         <mapping_span lrg_start="149439" lrg_end="149760" other_start="50" other_end="371" strand="1" />
@@ -5482,7 +5495,9 @@
         <mapping_span lrg_start="711309" lrg_end="711436" other_start="4829" other_end="4956" strand="1" />
         <mapping_span lrg_start="711948" lrg_end="712082" other_start="4957" other_end="5091" strand="1" />
         <mapping_span lrg_start="713659" lrg_end="714011" other_start="5092" other_end="5444" strand="1" />
-        <mapping_span lrg_start="716165" lrg_end="716269" other_start="5445" other_end="5549" strand="1" />
+        <mapping_span lrg_start="716165" lrg_end="716269" other_start="5445" other_end="5549" strand="1">
+          <diff type="mismatch" lrg_start="716254" lrg_end="716254" other_start="2682039" other_end="2682039" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
         <mapping_span lrg_start="716765" lrg_end="716893" other_start="5550" other_end="5678" strand="1" />
         <mapping_span lrg_start="719951" lrg_end="720057" other_start="5679" other_end="5785" strand="1" />
         <mapping_span lrg_start="720381" lrg_end="720484" other_start="5786" other_end="5889" strand="1" />
@@ -5975,7 +5990,9 @@
         <mapping_span lrg_start="711309" lrg_end="711436" other_start="4829" other_end="4956" strand="1" />
         <mapping_span lrg_start="711948" lrg_end="712082" other_start="4957" other_end="5091" strand="1" />
         <mapping_span lrg_start="713659" lrg_end="714011" other_start="5092" other_end="5444" strand="1" />
-        <mapping_span lrg_start="716165" lrg_end="716269" other_start="5445" other_end="5549" strand="1" />
+        <mapping_span lrg_start="716165" lrg_end="716269" other_start="5445" other_end="5549" strand="1">
+          <diff type="mismatch" lrg_start="716254" lrg_end="716254" other_start="2682039" other_end="2682039" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
         <mapping_span lrg_start="716765" lrg_end="716893" other_start="5550" other_end="5678" strand="1" />
         <mapping_span lrg_start="719951" lrg_end="720057" other_start="5679" other_end="5785" strand="1" />
         <mapping_span lrg_start="720381" lrg_end="720484" other_start="5786" other_end="5889" strand="1" />
@@ -6603,14 +6620,14 @@
           <coordinates coord_system="LRG_334" start="1" end="38750" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>decapping mRNA 1B (protein_coding)</long_name>
+          <db_xref source="MIM" accession="609843" />
+          <db_xref source="HGNC" accession="24451">
+            <synonym>FLJ31638</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="196513">
             <synonym>DCP1</synonym>
             <synonym>hDcp1b</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="24451">
-            <synonym>FLJ31638</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="609843" />
           <db_xref source="Ensembl" accession="ENSG00000151065" />
           <transcript source="Ensembl" accession="ENST00000280665">
             <coordinates coord_system="LRG_334" start="1" end="38726" strand="-1" mapped_from="GRCh37" />
@@ -6634,12 +6651,12 @@
               <coordinates coord_system="LRG_334" start="1" end="38646" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>mRNA-decapping enzyme 1B</long_name>
-              <db_xref source="RefSeq" accession="NP_689853.3" />
               <db_xref source="UniProtKB" accession="Q8IZD4">
                 <synonym>Q86XH9</synonym>
                 <synonym>Q96BP8</synonym>
                 <synonym>Q96MZ8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_689853.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000543381">
@@ -6758,15 +6775,7 @@
           <symbol source="HGNC" name="CACNA1C" />
           <coordinates coord_system="LRG_334" start="5001" end="727157" strand="1" mapped_from="GRCh37" />
           <long_name>calcium channel, voltage-dependent, L type, alpha 1C subunit (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="775">
-            <synonym>CACH2</synonym>
-            <synonym>CACN2</synonym>
-            <synonym>CACNL1A1</synonym>
-            <synonym>CaV1.2</synonym>
-            <synonym>CCHL1A1</synonym>
-            <synonym>LQT8</synonym>
-            <synonym>TS</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="114205" />
           <db_xref source="HGNC" accession="1390">
             <synonym>CACH2</synonym>
             <synonym>CACN2</synonym>
@@ -6776,7 +6785,15 @@
             <synonym>LQT8</synonym>
             <synonym>TS</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="114205" />
+          <db_xref source="GeneID" accession="775">
+            <synonym>CACH2</synonym>
+            <synonym>CACN2</synonym>
+            <synonym>CACNL1A1</synonym>
+            <synonym>CaV1.2</synonym>
+            <synonym>CCHL1A1</synonym>
+            <synonym>LQT8</synonym>
+            <synonym>TS</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000151067" />
           <transcript source="Ensembl" accession="ENST00000543114">
             <coordinates coord_system="LRG_334" start="5001" end="149599" strand="1" mapped_from="GRCh37" />
@@ -7092,10 +7109,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000382563">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
-              <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 18, voltage-dependent L-type calcium channel subunit alpha-1C isoform 8, voltage-dependent L-type calcium channel subunit alpha-1C isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_000710.5" />
-              <db_xref source="RefSeq" accession="NP_001123306.1" />
-              <db_xref source="RefSeq" accession="NP_001123301.1" />
+              <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 8, voltage-dependent L-type calcium channel subunit alpha-1C isoform 3, voltage-dependent L-type calcium channel subunit alpha-1C isoform 18</long_name>
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -7127,6 +7141,9 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123306.1" />
+              <db_xref source="RefSeq" accession="NP_001123301.1" />
+              <db_xref source="RefSeq" accession="NP_000710.5" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000480911">
@@ -7369,7 +7386,6 @@
             <protein_product source="Ensembl" accession="ENSP00000382504">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 11</long_name>
-              <db_xref source="RefSeq" accession="NP_001123309.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -7401,6 +7417,7 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123309.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000399644">
@@ -7552,7 +7569,6 @@
             <protein_product source="Ensembl" accession="ENSP00000382552">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 15</long_name>
-              <db_xref source="RefSeq" accession="NP_001123313.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -7584,6 +7600,7 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123313.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000399638">
@@ -7738,7 +7755,6 @@
             <protein_product source="Ensembl" accession="ENSP00000382547">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 5</long_name>
-              <db_xref source="RefSeq" accession="NP_001123303.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -7770,6 +7786,7 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123303.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000399597">
@@ -7922,8 +7939,6 @@
             <protein_product source="Ensembl" accession="ENSP00000382506">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 16, voltage-dependent L-type calcium channel subunit alpha-1C isoform 19</long_name>
-              <db_xref source="RefSeq" accession="NP_001123314.1" />
-              <db_xref source="RefSeq" accession="NP_001123316.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -7955,6 +7970,8 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123314.1" />
+              <db_xref source="RefSeq" accession="NP_001123316.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000399621">
@@ -8286,7 +8303,6 @@
             <protein_product source="Ensembl" accession="ENSP00000382546">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 9</long_name>
-              <db_xref source="RefSeq" accession="NP_001123307.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -8318,6 +8334,7 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123307.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000399591">
@@ -8466,9 +8483,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000382500">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
-              <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 12, voltage-dependent L-type calcium channel subunit alpha-1C isoform 20</long_name>
-              <db_xref source="RefSeq" accession="NP_001123310.1" />
-              <db_xref source="RefSeq" accession="NP_001123318.1" />
+              <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 20, voltage-dependent L-type calcium channel subunit alpha-1C isoform 12</long_name>
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -8500,6 +8515,8 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123318.1" />
+              <db_xref source="RefSeq" accession="NP_001123310.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000399641">
@@ -8651,7 +8668,6 @@
             <protein_product source="Ensembl" accession="ENSP00000382549">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 14</long_name>
-              <db_xref source="RefSeq" accession="NP_001123312.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -8683,6 +8699,7 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123312.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000347598">
@@ -8840,9 +8857,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000266376">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
-              <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 2, voltage-dependent L-type calcium channel subunit alpha-1C isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001123299.1" />
-              <db_xref source="RefSeq" accession="NP_955630.2" />
+              <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 1, voltage-dependent L-type calcium channel subunit alpha-1C isoform 2</long_name>
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -8874,6 +8889,8 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_955630.2" />
+              <db_xref source="RefSeq" accession="NP_001123299.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000399606">
@@ -9028,7 +9045,6 @@
             <protein_product source="Ensembl" accession="ENSP00000382515">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 6</long_name>
-              <db_xref source="RefSeq" accession="NP_001123304.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -9060,6 +9076,7 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123304.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000399601">
@@ -9211,7 +9228,6 @@
             <protein_product source="Ensembl" accession="ENSP00000382510">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 17</long_name>
-              <db_xref source="RefSeq" accession="NP_001123315.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -9243,6 +9259,7 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123315.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000344100">
@@ -9574,7 +9591,6 @@
             <protein_product source="Ensembl" accession="ENSP00000382537">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 10</long_name>
-              <db_xref source="RefSeq" accession="NP_001123308.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -9606,6 +9622,7 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123308.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000327702">
@@ -9760,7 +9777,6 @@
             <protein_product source="Ensembl" accession="ENSP00000329877">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_001123302.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -9792,6 +9808,7 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123302.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000399649">
@@ -9940,7 +9957,6 @@
             <protein_product source="Ensembl" accession="ENSP00000382557">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 13</long_name>
-              <db_xref source="RefSeq" accession="NP_001123311.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -9972,6 +9988,7 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123311.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000402845">
@@ -10123,7 +10140,6 @@
             <protein_product source="Ensembl" accession="ENSP00000385724">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 7</long_name>
-              <db_xref source="RefSeq" accession="NP_001123305.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -10155,6 +10171,7 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123305.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000399603">
@@ -10306,6 +10323,37 @@
             <protein_product source="Ensembl" accession="ENSP00000382512">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 21</long_name>
+              <db_xref source="UniProtKB" accession="Q13936">
+                <synonym>B2RUT3</synonym>
+                <synonym>E9PDJ0</synonym>
+                <synonym>Q13917</synonym>
+                <synonym>Q13918</synonym>
+                <synonym>Q13919</synonym>
+                <synonym>Q13920</synonym>
+                <synonym>Q13921</synonym>
+                <synonym>Q13922</synonym>
+                <synonym>Q13923</synonym>
+                <synonym>Q13924</synonym>
+                <synonym>Q13925</synonym>
+                <synonym>Q13926</synonym>
+                <synonym>Q13927</synonym>
+                <synonym>Q13928</synonym>
+                <synonym>Q13929</synonym>
+                <synonym>Q13930</synonym>
+                <synonym>Q13932</synonym>
+                <synonym>Q13933</synonym>
+                <synonym>Q14743</synonym>
+                <synonym>Q14744</synonym>
+                <synonym>Q15877</synonym>
+                <synonym>Q4VMI7</synonym>
+                <synonym>Q4VMI8</synonym>
+                <synonym>Q4VMI9</synonym>
+                <synonym>Q6PKM7</synonym>
+                <synonym>Q8N6C0</synonym>
+                <synonym>Q99025</synonym>
+                <synonym>Q99241</synonym>
+                <synonym>Q99875</synonym>
+              </db_xref>
               <db_xref source="RefSeq" accession="NP_001161095.1" />
             </protein_product>
           </transcript>
@@ -10615,7 +10663,6 @@
             <protein_product source="Ensembl" accession="ENSP00000382526">
               <coordinates coord_system="LRG_334" start="87778" end="725414" strand="1" mapped_from="GRCh37" />
               <long_name>voltage-dependent L-type calcium channel subunit alpha-1C isoform 22</long_name>
-              <db_xref source="RefSeq" accession="NP_001161096.1" />
               <db_xref source="UniProtKB" accession="Q13936">
                 <synonym>B2RUT3</synonym>
                 <synonym>E9PDJ0</synonym>
@@ -10647,6 +10694,7 @@
                 <synonym>Q99241</synonym>
                 <synonym>Q99875</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001161096.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000406454">
@@ -10960,8 +11008,10 @@
           <symbol source="HGNC" name="CACNA1C-AS4" />
           <coordinates coord_system="LRG_334" start="254752" end="257694" strand="-1" mapped_from="GRCh37" />
           <long_name>CACNA1C antisense RNA 4 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100874234" />
           <db_xref source="HGNC" accession="40116" />
+          <db_xref source="GeneID" accession="100874234">
+            <synonym>RP1-53O8.1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000256025" />
           <transcript source="Ensembl" accession="ENST00000544415">
             <coordinates coord_system="LRG_334" start="254752" end="257694" strand="-1" mapped_from="GRCh37" />
@@ -10985,8 +11035,10 @@
           <symbol source="HGNC" name="CACNA1C-IT3" />
           <coordinates coord_system="LRG_334" start="303991" end="323152" strand="1" mapped_from="GRCh37" />
           <long_name>CACNA1C intronic transcript 3 (non-protein coding) (sense_intronic)</long_name>
-          <db_xref source="GeneID" accession="100874370" />
           <db_xref source="HGNC" accession="41314" />
+          <db_xref source="GeneID" accession="100874370">
+            <synonym>RP5-977L1.1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000256721" />
           <transcript source="Ensembl" accession="ENST00000542680">
             <coordinates coord_system="LRG_334" start="303991" end="323152" strand="1" mapped_from="GRCh37" />
@@ -11057,8 +11109,10 @@
           <symbol source="HGNC" name="CACNA1C-AS1" />
           <coordinates coord_system="LRG_334" start="710216" end="725415" strand="-1" mapped_from="GRCh37" />
           <long_name>CACNA1C antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100652846" />
           <db_xref source="HGNC" accession="40119" />
+          <db_xref source="GeneID" accession="100652846">
+            <synonym>RP11-885B4.3</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000246627" />
           <transcript source="Ensembl" accession="ENST00000501371">
             <coordinates coord_system="LRG_334" start="710216" end="725333" strand="-1" mapped_from="GRCh37" />
@@ -11108,7 +11162,7 @@
         <name>List of locus specific databases for CACNA1C</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CACNA1C</url>
       </source>
-      <modification_date>2013-11-27</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

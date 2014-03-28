@@ -41,9 +41,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="169480398" other_end="169487848">
         <mapping_span lrg_start="1" lrg_end="7451" other_start="169480398" other_end="169487848" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="169762610" other_end="169770060">
+        <mapping_span lrg_start="1" lrg_end="7451" other_start="169762610" other_end="169770060" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">TERC</lrg_locus>
     </annotation_set>
@@ -58,7 +61,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_016363.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NR_001566.1" other_name="NR_001566.1" other_id="NR_001566.1" other_start="1" other_end="451">
         <mapping_span lrg_start="5001" lrg_end="5451" other_start="1" other_end="451" strand="1" />
       </mapping>
@@ -132,8 +135,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000363312.1" other_name="ENST00000363312.1" other_id="ENST00000363312.1" other_start="1" other_end="438">
         <mapping_span lrg_start="5014" lrg_end="5451" other_start="1" other_end="438" strand="1" />
       </mapping>
@@ -161,14 +164,14 @@
           <symbol source="HGNC" name="ACTRT3" />
           <coordinates coord_system="LRG_347" start="166" end="3140" strand="1" mapped_from="GRCh37" />
           <long_name>actin-related protein T3 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="608534" />
+          <db_xref source="HGNC" accession="24022">
+            <synonym>ARPM1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="84517">
             <synonym>ARP-T3</synonym>
             <synonym>ARPM1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="24022">
-            <synonym>ARPM1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="608534" />
           <db_xref source="Ensembl" accession="ENSG00000184378" />
           <transcript source="Ensembl" accession="ENST00000330368">
             <coordinates coord_system="LRG_347" start="166" end="3140" strand="1" mapped_from="GRCh37" />
@@ -184,11 +187,11 @@
             <protein_product source="Ensembl" accession="ENSP00000333037">
               <coordinates coord_system="LRG_347" start="541" end="2629" strand="1" mapped_from="GRCh37" />
               <long_name>actin-related protein T3</long_name>
-              <db_xref source="RefSeq" accession="NP_115876.3" />
               <db_xref source="UniProtKB" accession="Q9BYD9">
                 <synonym>Q96IS0</synonym>
                 <synonym>Q96NJ0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_115876.3" />
             </protein_product>
           </transcript>
         </gene>
@@ -196,6 +199,14 @@
           <symbol source="HGNC" name="TERC" />
           <coordinates coord_system="LRG_347" start="5001" end="5541" strand="1" mapped_from="GRCh37" />
           <long_name>telomerase RNA component (lincRNA)</long_name>
+          <db_xref source="RFAM" accession="RF00024" />
+          <db_xref source="MIM" accession="602322" />
+          <db_xref source="HGNC" accession="11727">
+            <synonym>hTR</synonym>
+            <synonym>SCARNA19</synonym>
+            <synonym>TR</synonym>
+            <synonym>TRC3</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="7012">
             <synonym>DKCA1</synonym>
             <synonym>hTR</synonym>
@@ -204,14 +215,6 @@
             <synonym>TR</synonym>
             <synonym>TRC3</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11727">
-            <synonym>hTR</synonym>
-            <synonym>SCARNA19</synonym>
-            <synonym>TR</synonym>
-            <synonym>TRC3</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="602322" />
-          <db_xref source="RFAM" accession="RF00024" />
           <db_xref source="Ensembl" accession="ENSG00000270141" />
           <transcript source="Ensembl" accession="ENST00000602385">
             <coordinates coord_system="LRG_347" start="5001" end="5541" strand="1" mapped_from="GRCh37" />
@@ -236,7 +239,7 @@
         <name>List of locus specific databases for TERC</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TERC</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

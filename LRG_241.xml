@@ -180,9 +180,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_start="110007424" other_end="110148634">
         <mapping_span lrg_start="1" lrg_end="141211" other_start="110007424" other_end="110148634" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="6" other_id="NC_000006.12" other_start="109686221" other_end="109827431">
+        <mapping_span lrg_start="1" lrg_end="141211" other_start="109686221" other_end="109827431" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">FIG4</lrg_locus>
     </annotation_set>
@@ -197,7 +200,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007977.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_014845.5" other_name="NM_014845.5" other_id="NM_014845.5" other_start="1" other_end="3105">
         <mapping_span lrg_start="5001" lrg_end="5281" other_start="1" other_end="281" strand="1" />
         <mapping_span lrg_start="28858" lrg_end="28956" other_start="282" other_end="380" strand="1" />
@@ -226,6 +229,7 @@
       <features>
         <gene source="NCBI-Gene" accession="221264">
           <symbol source="HGNC" name="AK9">
+            <synonym>AK 9</synonym>
             <synonym>AKD1</synonym>
             <synonym>AKD2</synonym>
             <synonym>C6orf199</synonym>
@@ -357,8 +361,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000230124.3" other_name="ENST00000230124.3" other_id="ENST00000230124.3" other_start="1" other_end="3011">
         <mapping_span lrg_start="5092" lrg_end="5281" other_start="1" other_end="190" strand="1" />
         <mapping_span lrg_start="28858" lrg_end="28956" other_start="191" other_end="289" strand="1" />
@@ -436,14 +440,7 @@
           <coordinates coord_system="LRG_241" start="1" end="4997" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>adenylate kinase 9 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="221264">
-            <synonym>AKD1</synonym>
-            <synonym>AKD2</synonym>
-            <synonym>C6orf199</synonym>
-            <synonym>C6orf224</synonym>
-            <synonym>dJ70A9.1</synonym>
-            <synonym>RP1-70A9.1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="615358" />
           <db_xref source="HGNC" accession="33814">
             <synonym>AKD1</synonym>
             <synonym>AKD2</synonym>
@@ -453,6 +450,15 @@
             <synonym>FLJ25791</synonym>
             <synonym>FLJ42177</synonym>
             <synonym>MGC26954</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="221264">
+            <synonym>AK 9</synonym>
+            <synonym>AKD1</synonym>
+            <synonym>AKD2</synonym>
+            <synonym>C6orf199</synonym>
+            <synonym>C6orf224</synonym>
+            <synonym>dJ70A9.1</synonym>
+            <synonym>RP1-70A9.1</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000155085" />
           <transcript source="Ensembl" accession="ENST00000368948">
@@ -512,14 +518,7 @@
           <symbol source="HGNC" name="FIG4" />
           <coordinates coord_system="LRG_241" start="5076" end="139208" strand="1" mapped_from="GRCh37" />
           <long_name>FIG4 homolog, SAC1 lipid phosphatase domain containing (S. cerevisiae) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="9896">
-            <synonym>ALS11</synonym>
-            <synonym>CMT4J</synonym>
-            <synonym>dJ249I4.1</synonym>
-            <synonym>KIAA0274</synonym>
-            <synonym>SAC3</synonym>
-            <synonym>YVS</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="609390" />
           <db_xref source="HGNC" accession="16873">
             <synonym>ALS11</synonym>
             <synonym>CMT4J</synonym>
@@ -528,7 +527,14 @@
             <synonym>KIAA0274</synonym>
             <synonym>SAC3</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="609390" />
+          <db_xref source="GeneID" accession="9896">
+            <synonym>ALS11</synonym>
+            <synonym>CMT4J</synonym>
+            <synonym>dJ249I4.1</synonym>
+            <synonym>KIAA0274</synonym>
+            <synonym>SAC3</synonym>
+            <synonym>YVS</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000112367" />
           <transcript source="Ensembl" accession="ENST00000441478">
             <coordinates coord_system="LRG_241" start="5076" end="139204" strand="1" mapped_from="GRCh37" />
@@ -665,11 +671,11 @@
             <protein_product source="Ensembl" accession="ENSP00000230124">
               <coordinates coord_system="LRG_241" start="5216" end="139045" strand="1" mapped_from="GRCh37" />
               <long_name>polyphosphoinositide phosphatase</long_name>
-              <db_xref source="RefSeq" accession="NP_055660.1" />
               <db_xref source="UniProtKB" accession="Q92562">
                 <synonym>Q53H49</synonym>
                 <synonym>Q5TCS6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_055660.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000454215">
@@ -780,7 +786,7 @@
         <name>List of locus specific databases for FIG4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FIG4</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

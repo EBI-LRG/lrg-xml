@@ -194,9 +194,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="37029841" other_end="37109380">
         <mapping_span lrg_start="1" lrg_end="79540" other_start="37029841" other_end="37109380" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="36988350" other_end="37067889">
+        <mapping_span lrg_start="1" lrg_end="79540" other_start="36988350" other_end="37067889" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">MLH1</lrg_locus>
     </annotation_set>
@@ -211,7 +214,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007109.2</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000249.3" other_name="NM_000249.3" other_id="NM_000249.3" other_start="1" other_end="2662">
         <mapping_span lrg_start="5001" lrg_end="5314" other_start="1" other_end="314" strand="1" />
         <mapping_span lrg_start="8270" lrg_end="8360" other_start="315" other_end="405" strand="1" />
@@ -1002,8 +1005,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000231790.2" other_name="ENST00000231790.2" other_id="ENST00000231790.2" other_start="1" other_end="2752">
         <mapping_span lrg_start="4983" lrg_end="5314" other_start="1" other_end="332" strand="1" />
         <mapping_span lrg_start="8270" lrg_end="8360" other_start="333" other_end="423" strand="1" />
@@ -1278,12 +1281,12 @@
           <coordinates coord_system="LRG_216" start="1" end="4955" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>EPM2A (laforin) interacting protein 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="9852" />
+          <db_xref source="MIM" accession="607911" />
           <db_xref source="HGNC" accession="19735">
             <synonym>FLJ11207</synonym>
             <synonym>KIAA0766</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="607911" />
+          <db_xref source="GeneID" accession="9852" />
           <db_xref source="Ensembl" accession="ENSG00000178567" />
           <transcript source="Ensembl" accession="ENST00000322716">
             <coordinates coord_system="LRG_216" start="1" end="4955" strand="-1" mapped_from="GRCh37" />
@@ -1298,18 +1301,25 @@
             <protein_product source="Ensembl" accession="ENSP00000406027">
               <coordinates coord_system="LRG_216" start="2905" end="4728" strand="-1" mapped_from="GRCh37" />
               <long_name>EPM2A-interacting protein 1</long_name>
-              <db_xref source="RefSeq" accession="NP_055620.1" />
               <db_xref source="UniProtKB" accession="Q7L775">
                 <synonym>O94866</synonym>
                 <synonym>Q9H3L3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_055620.1" />
             </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000076242">
           <symbol source="HGNC" name="MLH1" />
           <coordinates coord_system="LRG_216" start="4983" end="77540" strand="1" mapped_from="GRCh37" />
-          <long_name>mutL homolog 1, colon cancer, nonpolyposis type 2 (E. coli) (protein_coding)</long_name>
+          <long_name>mutL homolog 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="120436" />
+          <db_xref source="HGNC" accession="7127">
+            <synonym>COCA2</synonym>
+            <synonym>FCC2</synonym>
+            <synonym>HNPCC</synonym>
+            <synonym>HNPCC2</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4292">
             <synonym>COCA2</synonym>
             <synonym>FCC2</synonym>
@@ -1317,13 +1327,6 @@
             <synonym>HNPCC</synonym>
             <synonym>HNPCC2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7127">
-            <synonym>COCA2</synonym>
-            <synonym>FCC2</synonym>
-            <synonym>HNPCC</synonym>
-            <synonym>HNPCC2</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="120436" />
           <db_xref source="Ensembl" accession="ENSG00000076242" />
           <transcript source="Ensembl" accession="ENST00000231790">
             <coordinates coord_system="LRG_216" start="4983" end="62569" strand="1" mapped_from="GRCh37" />
@@ -1390,14 +1393,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000231790">
               <coordinates coord_system="LRG_216" start="5199" end="62304" strand="1" mapped_from="GRCh37" />
-              <long_name>DNA mismatch repair protein Mlh1 isoform 1, DNA mismatch repair protein Mlh1 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_000240.1" />
-              <db_xref source="RefSeq" accession="NP_001245202.1" />
+              <long_name>DNA mismatch repair protein Mlh1 isoform 3, DNA mismatch repair protein Mlh1 isoform 1</long_name>
               <db_xref source="UniProtKB" accession="P40692">
                 <synonym>B4DI13</synonym>
                 <synonym>B4DQ11</synonym>
                 <synonym>E9PCU2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001245202.1" />
+              <db_xref source="RefSeq" accession="NP_000240.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000457004">
@@ -1647,12 +1650,12 @@
             <protein_product source="Ensembl" accession="ENSP00000402667">
               <coordinates coord_system="LRG_216" start="26129" end="62304" strand="1" mapped_from="GRCh37" />
               <long_name>DNA mismatch repair protein Mlh1 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001245203.1" />
               <db_xref source="UniProtKB" accession="P40692">
                 <synonym>B4DI13</synonym>
                 <synonym>B4DQ11</synonym>
                 <synonym>E9PCU2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001245203.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000476172">
@@ -1733,12 +1736,12 @@
             <protein_product source="Ensembl" accession="ENSP00000443665">
               <coordinates coord_system="LRG_216" start="26129" end="62304" strand="1" mapped_from="GRCh37" />
               <long_name>DNA mismatch repair protein Mlh1 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001161091.1" />
               <db_xref source="UniProtKB" accession="P40692">
                 <synonym>B4DI13</synonym>
                 <synonym>B4DQ11</synonym>
                 <synonym>E9PCU2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001161091.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000455445">
@@ -1914,13 +1917,13 @@
             <protein_product source="Ensembl" accession="ENSP00000402564">
               <coordinates coord_system="LRG_216" start="12688" end="62304" strand="1" mapped_from="GRCh37" />
               <long_name>DNA mismatch repair protein Mlh1 isoform 2, DNA mismatch repair protein Mlh1 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001161089.1" />
-              <db_xref source="RefSeq" accession="NP_001161090.1" />
               <db_xref source="UniProtKB" accession="P40692">
                 <synonym>B4DI13</synonym>
                 <synonym>B4DQ11</synonym>
                 <synonym>E9PCU2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001161089.1" />
+              <db_xref source="RefSeq" accession="NP_001161090.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000429117">
@@ -2215,13 +2218,13 @@
           <coordinates coord_system="LRG_216" start="64277" end="79540" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>leucine rich repeat (in FLII) interacting protein 2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="9209">
-            <synonym>HUFI-2</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="614043" />
           <db_xref source="HGNC" accession="6703">
             <synonym>HUFI-2</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="614043" />
+          <db_xref source="GeneID" accession="9209">
+            <synonym>HUFI-2</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000093167" />
           <transcript source="Ensembl" accession="ENST00000421307">
             <coordinates coord_system="LRG_216" start="64277" end="79540" strand="-1" mapped_from="GRCh37" />
@@ -2254,12 +2257,12 @@
               <coordinates coord_system="LRG_216" start="65502" end="79540" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>leucine-rich repeat flightless-interacting protein 2 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_006300.1" />
               <db_xref source="UniProtKB" accession="Q9Y608">
                 <synonym>A8K649</synonym>
                 <synonym>Q68CV3</synonym>
                 <synonym>Q9NXH5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006300.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000354379">
@@ -2290,12 +2293,12 @@
               <coordinates coord_system="LRG_216" start="65502" end="79540" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>leucine-rich repeat flightless-interacting protein 2 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_060194.1" />
               <db_xref source="UniProtKB" accession="Q9Y608">
                 <synonym>A8K649</synonym>
                 <synonym>Q68CV3</synonym>
                 <synonym>Q9NXH5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_060194.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000336686">
@@ -2381,12 +2384,12 @@
               <coordinates coord_system="LRG_216" start="65502" end="79540" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>leucine-rich repeat flightless-interacting protein 2 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001127841.1" />
               <db_xref source="UniProtKB" accession="Q9Y608">
                 <synonym>A8K649</synonym>
                 <synonym>Q68CV3</synonym>
                 <synonym>Q9NXH5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001127841.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000496479">
@@ -2417,6 +2420,8 @@
             <coordinates coord_system="LRG_216" start="65372" end="79540" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>LRRFIP2-006 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS63592.1" />
+            <db_xref source="RefSeq" accession="NM_001282691.1" />
             <exon source="Ensembl" accession="ENSE00003527824">
               <coordinates coord_system="LRG_216" start="77461" end="77593" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -2438,6 +2443,8 @@
             <protein_product source="Ensembl" accession="ENSP00000379705">
               <coordinates coord_system="LRG_216" start="65502" end="79540" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
+              <long_name>leucine-rich repeat flightless-interacting protein 2 isoform 4</long_name>
+              <db_xref source="RefSeq" accession="NP_001269620.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000440230">
@@ -2515,7 +2522,7 @@
         <name>List of locus specific databases for MLH1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MLH1</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

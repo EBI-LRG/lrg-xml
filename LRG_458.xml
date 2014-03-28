@@ -114,9 +114,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="5" other_id="NC_000005.9" other_start="170809708" other_end="170839888">
         <mapping_span lrg_start="1" lrg_end="30181" other_start="170809708" other_end="170839888" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="5" other_id="NC_000005.10" other_start="171382704" other_end="171412884">
+        <mapping_span lrg_start="1" lrg_end="30181" other_start="171382704" other_end="171412884" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">NPM1</lrg_locus>
     </annotation_set>
@@ -131,7 +134,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_016018.1</comment>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001037738.2" other_name="NM_001037738.2" other_id="NM_001037738.2" other_start="1" other_end="1347">
         <mapping_span lrg_start="5001" lrg_end="5303" other_start="1" other_end="303" strand="1" />
         <mapping_span lrg_start="7348" lrg_end="7427" other_start="304" other_end="383" strand="1" />
@@ -331,8 +334,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-28</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000296930.5" other_name="ENST00000296930.5" other_id="ENST00000296930.5" other_start="1" other_end="1758">
         <mapping_span lrg_start="4945" lrg_end="5303" other_start="1" other_end="359" strand="1" />
         <mapping_span lrg_start="7348" lrg_end="7427" other_start="360" other_end="439" strand="1" />
@@ -429,11 +432,11 @@
           <symbol source="HGNC" name="MIR3912" />
           <coordinates coord_system="LRG_458" start="3953" end="4057" strand="-1" mapped_from="GRCh37" />
           <long_name>microRNA 3912 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="100500831" />
+          <db_xref source="miRBase" accession="MI0016416" />
           <db_xref source="HGNC" accession="38923">
             <synonym>hsa-mir-3912</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0016416" />
+          <db_xref source="GeneID" accession="100500831" />
           <db_xref source="Ensembl" accession="ENSG00000264249" />
           <transcript source="Ensembl" accession="ENST00000577566">
             <coordinates coord_system="LRG_458" start="3953" end="4057" strand="-1" mapped_from="GRCh37" />
@@ -448,15 +451,15 @@
           <symbol source="HGNC" name="NPM1" />
           <coordinates coord_system="LRG_458" start="4413" end="28434" strand="1" mapped_from="GRCh37" />
           <long_name>nucleophosmin (nucleolar phosphoprotein B23, numatrin) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4869">
-            <synonym>B23</synonym>
-            <synonym>NPM</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="164040" />
           <db_xref source="HGNC" accession="7910">
             <synonym>B23</synonym>
             <synonym>NPM</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="164040" />
+          <db_xref source="GeneID" accession="4869">
+            <synonym>B23</synonym>
+            <synonym>NPM</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000181163" />
           <transcript source="Ensembl" accession="ENST00000517671">
             <coordinates coord_system="LRG_458" start="4413" end="28180" strand="1" mapped_from="GRCh37" />
@@ -566,7 +569,6 @@
             <protein_product source="Ensembl" accession="ENSP00000296930">
               <coordinates coord_system="LRG_458" start="5246" end="27862" strand="1" mapped_from="GRCh37" />
               <long_name>nucleophosmin isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_002511.1" />
               <db_xref source="UniProtKB" accession="P06748">
                 <synonym>A8K3N7</synonym>
                 <synonym>B5BU00</synonym>
@@ -590,6 +592,7 @@
                 <synonym>Q9BYG9</synonym>
                 <synonym>Q9UDJ7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002511.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000521672">
@@ -655,7 +658,6 @@
             <protein_product source="Ensembl" accession="ENSP00000341168">
               <coordinates coord_system="LRG_458" start="5246" end="27862" strand="1" mapped_from="GRCh37" />
               <long_name>nucleophosmin isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_954654.1" />
               <db_xref source="UniProtKB" accession="P06748">
                 <synonym>A8K3N7</synonym>
                 <synonym>B5BU00</synonym>
@@ -679,6 +681,7 @@
                 <synonym>Q9BYG9</synonym>
                 <synonym>Q9UDJ7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_954654.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000393820">
@@ -719,7 +722,6 @@
             <protein_product source="Ensembl" accession="ENSP00000377408">
               <coordinates coord_system="LRG_458" start="5246" end="23702" strand="1" mapped_from="GRCh37" />
               <long_name>nucleophosmin isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001032827.1" />
               <db_xref source="UniProtKB" accession="P06748">
                 <synonym>A8K3N7</synonym>
                 <synonym>B5BU00</synonym>
@@ -743,6 +745,7 @@
                 <synonym>Q9BYG9</synonym>
                 <synonym>Q9UDJ7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001032827.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000523339">
@@ -838,7 +841,7 @@
         <name>List of locus specific databases for NPM1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NPM1</url>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -239,10 +239,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_start="81767702" other_end="81993899">
         <mapping_span lrg_start="1" lrg_end="226198" other_start="81767702" other_end="81993899" strand="1">
           <diff type="mismatch" lrg_start="52067" lrg_end="52067" other_start="81819768" other_end="81819768" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="16" other_id="NC_000016.10" other_start="81734097" other_end="81960294">
+        <mapping_span lrg_start="1" lrg_end="226198" other_start="81734097" other_end="81960294" strand="1">
+          <diff type="mismatch" lrg_start="52067" lrg_end="52067" other_start="81786163" other_end="81786163" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">PLCG2</lrg_locus>
@@ -258,7 +263,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_032019.2</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_002661.3" other_name="NM_002661.3" other_id="NM_002661.3" other_start="1" other_end="4272">
         <mapping_span lrg_start="45198" lrg_end="45328" other_start="1" other_end="131" strand="1" />
         <mapping_span lrg_start="51847" lrg_end="52086" other_start="132" other_end="371" strand="1" />
@@ -299,6 +304,7 @@
           <symbol source="HGNC" name="PLCG2">
             <synonym>APLAID</synonym>
             <synonym>FCAS3</synonym>
+            <synonym>RP11-510J16.3</synonym>
           </symbol>
           <coordinates coord_system="LRG_376" start="45198" end="224198" strand="1" />
           <long_name>phospholipase C, gamma 2 (phosphatidylinositol-specific)</long_name>
@@ -436,8 +442,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000359376.3" other_name="ENST00000359376.3" other_id="ENST00000359376.3" other_start="1" other_end="4308">
         <mapping_span lrg_start="45162" lrg_end="45328" other_start="1" other_end="167" strand="1" />
         <mapping_span lrg_start="51847" lrg_end="52086" other_start="168" other_end="407" strand="1">
@@ -597,6 +603,7 @@
           <symbol source="Clone_based_vega_gene" name="RP11-960L18.1" />
           <coordinates coord_system="LRG_376" start="4152" end="33610" strand="1" mapped_from="GRCh37" />
           <long_name>RP11-960L18.1 (lincRNA)</long_name>
+          <db_xref source="GeneID" accession="101928342" />
           <db_xref source="Ensembl" accession="ENSG00000261218" />
           <transcript source="Ensembl" accession="ENST00000565674">
             <coordinates coord_system="LRG_376" start="4152" end="5185" strand="1" mapped_from="GRCh37" />
@@ -700,12 +707,13 @@
           <symbol source="HGNC" name="PLCG2" />
           <coordinates coord_system="LRG_376" start="5001" end="224198" strand="1" mapped_from="GRCh37" />
           <long_name>phospholipase C, gamma 2 (phosphatidylinositol-specific) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600220" />
+          <db_xref source="HGNC" accession="9066" />
           <db_xref source="GeneID" accession="5336">
             <synonym>APLAID</synonym>
             <synonym>FCAS3</synonym>
+            <synonym>RP11-510J16.3</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9066" />
-          <db_xref source="MIM" accession="600220" />
           <db_xref source="Ensembl" accession="ENSG00000197943" />
           <transcript source="Ensembl" accession="ENST00000565054">
             <coordinates coord_system="LRG_376" start="5001" end="125067" strand="1" mapped_from="GRCh37" />
@@ -839,13 +847,13 @@
             <protein_product source="Ensembl" accession="ENSP00000352336">
               <coordinates coord_system="LRG_376" start="51894" end="223902" strand="1" mapped_from="GRCh37" />
               <long_name>1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-2</long_name>
-              <db_xref source="RefSeq" accession="NP_002652.2" />
               <db_xref source="UniProtKB" accession="P16885">
                 <synonym>D3DUL3</synonym>
                 <synonym>Q3ZTS2</synonym>
                 <synonym>Q59H45</synonym>
                 <synonym>Q969T5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002652.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000569929">
@@ -1160,7 +1168,7 @@
         <name>List of locus specific databases for PLCG2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PLCG2</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

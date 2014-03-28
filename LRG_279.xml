@@ -181,9 +181,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="13" other_id="NC_000013.10" other_start="51478892" other_end="51546596">
         <mapping_span lrg_start="1" lrg_end="67705" other_start="51478892" other_end="51546596" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="13" other_id="NC_000013.11" other_start="50904756" other_end="50972460">
+        <mapping_span lrg_start="1" lrg_end="67705" other_start="50904756" other_end="50972460" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">RNASEH2B</lrg_locus>
     </annotation_set>
@@ -198,7 +201,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009055.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001142279.2" other_name="NM_001142279.2" other_id="NM_001142279.2" other_start="1" other_end="1669">
         <mapping_span lrg_start="4923" lrg_end="5385" other_start="1" other_end="463" strand="1" />
         <mapping_span lrg_start="22652" lrg_end="22723" other_start="464" other_end="535" strand="1" />
@@ -348,8 +351,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000336617.3" other_name="ENST00000336617.3" other_id="ENST00000336617.3" other_start="1" other_end="1629">
         <mapping_span lrg_start="4923" lrg_end="5385" other_start="1" other_end="463" strand="1" />
         <mapping_span lrg_start="22652" lrg_end="22723" other_start="464" other_end="535" strand="1" />
@@ -379,15 +382,6 @@
         <mapping_span lrg_start="25359" lrg_end="25400" other_start="1" other_end="42" strand="1" />
         <mapping_span lrg_start="25928" lrg_end="26004" other_start="43" other_end="119" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000459983.2" other_name="ENST00000459983.2" other_id="ENST00000459983.2" other_start="1" other_end="932">
-        <mapping_span lrg_start="5036" lrg_end="5385" other_start="1" other_end="350" strand="1" />
-        <mapping_span lrg_start="8240" lrg_end="8376" other_start="351" other_end="487" strand="1" />
-        <mapping_span lrg_start="22652" lrg_end="22723" other_start="488" other_end="559" strand="1" />
-        <mapping_span lrg_start="24720" lrg_end="24827" other_start="560" other_end="667" strand="1" />
-        <mapping_span lrg_start="25928" lrg_end="26004" other_start="668" other_end="744" strand="1" />
-        <mapping_span lrg_start="30130" lrg_end="30244" other_start="745" other_end="859" strand="1" />
-        <mapping_span lrg_start="38566" lrg_end="38638" other_start="860" other_end="932" strand="1" />
-      </mapping>
       <mapping coord_system="ENST00000465541.1" other_name="ENST00000465541.1" other_id="ENST00000465541.1" other_start="1" other_end="498">
         <mapping_span lrg_start="44727" lrg_end="44750" other_start="1" other_end="24" strand="1" />
         <mapping_span lrg_start="45316" lrg_end="45563" other_start="25" other_end="272" strand="1" />
@@ -412,8 +406,10 @@
           <coordinates coord_system="LRG_279" start="1" end="5957" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>RNASEH2B antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100874255" />
           <db_xref source="HGNC" accession="39967" />
+          <db_xref source="GeneID" accession="100874255">
+            <synonym>RP11-40A8.3</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000233672" />
           <transcript source="Ensembl" accession="ENST00000596992">
             <coordinates coord_system="LRG_279" start="1" end="5839" strand="-1" mapped_from="GRCh37" />
@@ -474,16 +470,16 @@
           <symbol source="HGNC" name="RNASEH2B" />
           <coordinates coord_system="LRG_279" start="4923" end="65701" strand="1" mapped_from="GRCh37" />
           <long_name>ribonuclease H2, subunit B (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="79621">
-            <synonym>AGS2</synonym>
-            <synonym>DLEU8</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="610326" />
           <db_xref source="HGNC" accession="25671">
             <synonym>AGS2</synonym>
             <synonym>DLEU8</synonym>
             <synonym>FLJ11712</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="610326" />
+          <db_xref source="GeneID" accession="79621">
+            <synonym>AGS2</synonym>
+            <synonym>DLEU8</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000136104" />
           <transcript source="Ensembl" accession="ENST00000336617">
             <coordinates coord_system="LRG_279" start="4923" end="52010" strand="1" mapped_from="GRCh37" />
@@ -526,11 +522,11 @@
             <protein_product source="Ensembl" accession="ENSP00000337623">
               <coordinates coord_system="LRG_279" start="5322" end="51719" strand="1" mapped_from="GRCh37" />
               <long_name>ribonuclease H2 subunit B isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_078846.2" />
               <db_xref source="UniProtKB" accession="Q5TBB1">
                 <synonym>Q6PK48</synonym>
                 <synonym>Q9HAF7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_078846.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000422660">
@@ -573,31 +569,6 @@
               <long_name>ribonuclease H2 subunit B isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001135751.1" />
             </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000459983">
-            <coordinates coord_system="LRG_279" start="5036" end="38638" strand="1" mapped_from="GRCh37" />
-            <long_name>RNASEH2B-005 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00001844948">
-              <coordinates coord_system="LRG_279" start="5036" end="5385" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003608335">
-              <coordinates coord_system="LRG_279" start="8240" end="8376" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003471228">
-              <coordinates coord_system="LRG_279" start="22652" end="22723" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003517998">
-              <coordinates coord_system="LRG_279" start="24720" end="24827" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003606617">
-              <coordinates coord_system="LRG_279" start="25928" end="26004" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003485219">
-              <coordinates coord_system="LRG_279" start="30130" end="30244" strand="1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003459156">
-              <coordinates coord_system="LRG_279" start="38566" end="38638" strand="1" mapped_from="GRCh37" />
-            </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000495244">
             <coordinates coord_system="LRG_279" start="23607" end="51740" strand="1" mapped_from="GRCh37" />
@@ -667,7 +638,7 @@
         <name>List of locus specific databases for RNASEH2B</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RNASEH2B</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -90,9 +90,16 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="8" other_id="NC_000008.10" other_start="13945373" other_end="15100792">
         <mapping_span lrg_start="1" lrg_end="1155420" other_start="13945373" other_end="15100792" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="8" other_id="NC_000008.11" other_start="14087864" other_end="15243283">
+        <mapping_span lrg_start="1" lrg_end="1155420" other_start="14087864" other_end="15243283" strand="-1">
+          <diff type="mismatch" lrg_start="266026" lrg_end="266026" other_start="14977258" other_end="14977258" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="369859" lrg_end="369859" other_start="14873425" other_end="14873425" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="539972" lrg_end="539972" other_start="14703312" other_end="14703312" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">SGCZ</lrg_locus>
     </annotation_set>
@@ -107,7 +114,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008899.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_139167.2" other_name="NM_139167.2" other_id="NM_139167.2" other_start="1" other_end="2178">
         <mapping_span lrg_start="5001" lrg_end="5699" other_start="1" other_end="699" strand="1" />
         <mapping_span lrg_start="688358" lrg_end="688552" other_start="700" other_end="894" strand="1" />
@@ -187,8 +194,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000382080.1" other_name="ENST00000382080.1" other_id="ENST00000382080.1" other_start="1" other_end="2234">
         <mapping_span lrg_start="4945" lrg_end="5699" other_start="1" other_end="755" strand="1" />
         <mapping_span lrg_start="688358" lrg_end="688552" other_start="756" other_end="950" strand="1" />
@@ -212,13 +219,13 @@
           <symbol source="HGNC" name="SGCZ" />
           <coordinates coord_system="LRG_208" start="4945" end="1153420" strand="1" mapped_from="GRCh37" />
           <long_name>sarcoglycan, zeta (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="137868">
-            <synonym>ZSG1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="608113" />
           <db_xref source="HGNC" accession="14075">
             <synonym>ZSG1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="608113" />
+          <db_xref source="GeneID" accession="137868">
+            <synonym>ZSG1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000185053" />
           <transcript source="Ensembl" accession="ENST00000382080">
             <coordinates coord_system="LRG_208" start="4945" end="1153420" strand="1" mapped_from="GRCh37" />
@@ -252,10 +259,10 @@
             <protein_product source="Ensembl" accession="ENSP00000371512">
               <coordinates coord_system="LRG_208" start="5661" end="1152841" strand="1" mapped_from="GRCh37" />
               <long_name>zeta-sarcoglycan</long_name>
-              <db_xref source="RefSeq" accession="NP_631906.2" />
               <db_xref source="UniProtKB" accession="Q96LD1">
                 <synonym>Q6REU0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_631906.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000421524">
@@ -304,15 +311,15 @@
           <symbol source="HGNC" name="MIR383" />
           <coordinates coord_system="LRG_208" start="389774" end="389846" strand="1" mapped_from="GRCh37" />
           <long_name>microRNA 383 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="494332">
-            <synonym>hsa-mir-383</synonym>
-            <synonym>MIRN383</synonym>
-          </db_xref>
+          <db_xref source="miRBase" accession="MI0000791" />
           <db_xref source="HGNC" accession="31876">
             <synonym>hsa-mir-383</synonym>
             <synonym>MIRN383</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0000791" />
+          <db_xref source="GeneID" accession="494332">
+            <synonym>hsa-mir-383</synonym>
+            <synonym>MIRN383</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000199127" />
           <transcript source="Ensembl" accession="ENST00000362257">
             <coordinates coord_system="LRG_208" start="389774" end="389846" strand="1" mapped_from="GRCh37" />
@@ -353,8 +360,8 @@
           <symbol source="HGNC" name="RNU6-397P" />
           <coordinates coord_system="LRG_208" start="755405" end="755508" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, U6 small nuclear 397, pseudogene (snRNA)</long_name>
-          <db_xref source="HGNC" accession="47360" />
           <db_xref source="RFAM" accession="RF00026" />
+          <db_xref source="HGNC" accession="47360" />
           <db_xref source="Ensembl" accession="ENSG00000252035" />
           <transcript source="Ensembl" accession="ENST00000516226">
             <coordinates coord_system="LRG_208" start="755405" end="755508" strand="1" mapped_from="GRCh37" />
@@ -382,8 +389,8 @@
           <symbol source="HGNC" name="RNU7-153P" />
           <coordinates coord_system="LRG_208" start="923768" end="923829" strand="-1" mapped_from="GRCh37" />
           <long_name>RNA, U7 small nuclear 153 pseudogene (snRNA)</long_name>
-          <db_xref source="HGNC" accession="45687" />
           <db_xref source="RFAM" accession="RF00066" />
+          <db_xref source="HGNC" accession="45687" />
           <db_xref source="Ensembl" accession="ENSG00000252264" />
           <transcript source="Ensembl" accession="ENST00000516455">
             <coordinates coord_system="LRG_208" start="923768" end="923829" strand="-1" mapped_from="GRCh37" />
@@ -432,7 +439,7 @@
         <name>List of locus specific databases for SGCZ</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SGCZ</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -78,9 +78,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="161272525" other_end="161284762">
         <mapping_span lrg_start="1" lrg_end="12238" other_start="161272525" other_end="161284762" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="161302735" other_end="161314972">
+        <mapping_span lrg_start="1" lrg_end="12238" other_start="161302735" other_end="161314972" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">MPZ</lrg_locus>
     </annotation_set>
@@ -95,7 +98,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008055.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000530.6" other_name="NM_000530.6" other_id="NM_000530.6" other_start="1" other_end="1955">
         <mapping_span lrg_start="5001" lrg_end="5134" other_start="1" other_end="134" strand="1" />
         <mapping_span lrg_start="7549" lrg_end="7715" other_start="135" other_end="301" strand="1" />
@@ -239,6 +242,7 @@
               <long_name>succinate-ubiquinone oxidoreductase cytochrome B large subunit</long_name>
               <long_name>succinate dehydrogenase 3, integral membrane subunit</long_name>
               <long_name>succinate dehydrgenase cytochrome b</long_name>
+              <db_xref source="CCDS" accession="CCDS60330.1" />
               <db_xref source="GeneID" accession="6391" />
               <db_xref source="GI" accession="498917305" />
             </protein_product>
@@ -338,8 +342,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000336559.4" other_name="ENST00000336559.4" other_id="ENST00000336559.4" other_start="1" other_end="820">
         <mapping_span lrg_start="5001" lrg_end="5134" other_start="1" other_end="134" strand="1" />
         <mapping_span lrg_start="7549" lrg_end="7715" other_start="135" other_end="301" strand="1" />
@@ -401,18 +405,18 @@
           <coordinates coord_system="LRG_256" start="1" end="716" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>succinate dehydrogenase complex, subunit C, integral membrane protein, 15kDa (protein_coding)</long_name>
+          <db_xref source="MIM" accession="602413">
+            <synonym>603067</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="10682">
+            <synonym>PGL3</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="6391">
             <synonym>CYB560</synonym>
             <synonym>CYBL</synonym>
             <synonym>PGL3</synonym>
             <synonym>QPS1</synonym>
             <synonym>SDH3</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="10682">
-            <synonym>PGL3</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="602413">
-            <synonym>603067</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000143252" />
           <transcript source="Ensembl" accession="ENST00000367975">
@@ -428,7 +432,6 @@
               <coordinates coord_system="LRG_256" start="1" end="567" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>succinate dehydrogenase cytochrome b560 subunit, mitochondrial isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_002992.1" />
               <db_xref source="UniProtKB" accession="Q99643">
                 <synonym>O75609</synonym>
                 <synonym>Q3C259</synonym>
@@ -436,6 +439,7 @@
                 <synonym>Q3C2H4</synonym>
                 <synonym>Q5VTH3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002992.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000515731">
@@ -459,7 +463,6 @@
               <coordinates coord_system="LRG_256" start="1" end="567" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>succinate dehydrogenase cytochrome b560 subunit, mitochondrial isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001030588.1" />
               <db_xref source="UniProtKB" accession="Q99643">
                 <synonym>O75609</synonym>
                 <synonym>Q3C259</synonym>
@@ -467,6 +470,7 @@
                 <synonym>Q3C2H4</synonym>
                 <synonym>Q5VTH3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001030588.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000432287">
@@ -482,7 +486,6 @@
               <coordinates coord_system="LRG_256" start="1" end="567" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>succinate dehydrogenase cytochrome b560 subunit, mitochondrial isoform 3 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001030589.1" />
               <db_xref source="UniProtKB" accession="Q99643">
                 <synonym>O75609</synonym>
                 <synonym>Q3C259</synonym>
@@ -490,6 +493,7 @@
                 <synonym>Q3C2H4</synonym>
                 <synonym>Q5VTH3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001030589.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000392169">
@@ -505,7 +509,6 @@
               <coordinates coord_system="LRG_256" start="1" end="567" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>succinate dehydrogenase cytochrome b560 subunit, mitochondrial isoform 4 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001030590.1" />
               <db_xref source="UniProtKB" accession="Q99643">
                 <synonym>O75609</synonym>
                 <synonym>Q3C259</synonym>
@@ -513,12 +516,15 @@
                 <synonym>Q3C2H4</synonym>
                 <synonym>Q5VTH3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001030590.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000513009">
             <coordinates coord_system="LRG_256" start="1" end="585" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>SDHC-007 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS60330.1" />
+            <db_xref source="RefSeq" accession="NM_001278172.1" />
             <exon source="Ensembl" accession="ENSE00002043185">
               <coordinates coord_system="LRG_256" start="548" end="585" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -526,7 +532,6 @@
               <coordinates coord_system="LRG_256" start="1" end="567" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>succinate dehydrogenase cytochrome b560 subunit, mitochondrial isoform 5 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001265101.1" />
               <db_xref source="UniProtKB" accession="Q99643">
                 <synonym>O75609</synonym>
                 <synonym>Q3C259</synonym>
@@ -534,6 +539,7 @@
                 <synonym>Q3C2H4</synonym>
                 <synonym>Q5VTH3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001265101.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000504963">
@@ -553,6 +559,12 @@
           <symbol source="HGNC" name="MPZ" />
           <coordinates coord_system="LRG_256" start="5001" end="10238" strand="1" mapped_from="GRCh37" />
           <long_name>myelin protein zero (protein_coding)</long_name>
+          <db_xref source="MIM" accession="159440" />
+          <db_xref source="HGNC" accession="7225">
+            <synonym>CMT1</synonym>
+            <synonym>CMT1B</synonym>
+            <synonym>HMSNIB</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4359">
             <synonym>CHM</synonym>
             <synonym>CMT1</synonym>
@@ -567,12 +579,6 @@
             <synonym>MPP</synonym>
             <synonym>P0</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7225">
-            <synonym>CMT1</synonym>
-            <synonym>CMT1B</synonym>
-            <synonym>HMSNIB</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="159440" />
           <db_xref source="Ensembl" accession="ENSG00000158887" />
           <transcript source="Ensembl" accession="ENST00000533357">
             <coordinates coord_system="LRG_256" start="5001" end="10238" strand="1" mapped_from="GRCh37" />
@@ -600,13 +606,13 @@
             <protein_product source="Ensembl" accession="ENSP00000432943">
               <coordinates coord_system="LRG_256" start="5068" end="9097" strand="1" mapped_from="GRCh37" />
               <long_name>myelin protein P0 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000521.2" />
               <db_xref source="UniProtKB" accession="P25189">
                 <synonym>Q16072</synonym>
                 <synonym>Q5VTH4</synonym>
                 <synonym>Q92677</synonym>
                 <synonym>Q9BR67</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000521.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000336559">
@@ -769,7 +775,7 @@
         <name>List of locus specific databases for MPZ</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MPZ</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

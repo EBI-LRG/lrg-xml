@@ -140,9 +140,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-24</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="128012866" other_end="128056752">
         <mapping_span lrg_start="1" lrg_end="43887" other_start="128012866" other_end="128056752" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="127255290" other_end="127299176">
+        <mapping_span lrg_start="1" lrg_end="43887" other_start="127255290" other_end="127299176" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">ERCC3</lrg_locus>
     </annotation_set>
@@ -157,7 +160,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007454.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000122.1" other_name="NM_000122.1" other_id="NM_000122.1" other_start="1" other_end="2750">
         <mapping_span lrg_start="5001" lrg_end="5123" other_start="1" other_end="123" strand="1" />
         <mapping_span lrg_start="5459" lrg_end="5664" other_start="124" other_end="329" strand="1" />
@@ -271,8 +274,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-24</modification_date>
       <mapping coord_system="ENST00000285398.2" other_name="ENST00000285398.2" other_id="ENST00000285398.2" other_start="1" other_end="2750">
         <mapping_span lrg_start="5001" lrg_end="5123" other_start="1" other_end="123" strand="1" />
         <mapping_span lrg_start="5459" lrg_end="5664" other_start="124" other_end="329" strand="1" />
@@ -381,15 +384,15 @@
           <coordinates coord_system="LRG_462" start="1" end="447" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>mitogen-activated protein kinase kinase kinase 2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="10746">
-            <synonym>MEKK2</synonym>
-            <synonym>MEKK2B</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="609487" />
           <db_xref source="HGNC" accession="6854">
             <synonym>MEKK2</synonym>
             <synonym>MEKK2B</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="609487" />
+          <db_xref source="GeneID" accession="10746">
+            <synonym>MEKK2</synonym>
+            <synonym>MEKK2B</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000169967" />
           <transcript source="Ensembl" accession="ENST00000409947">
             <coordinates coord_system="LRG_462" start="1" end="447" strand="1" mapped_from="GRCh37" />
@@ -406,13 +409,7 @@
           <symbol source="HGNC" name="ERCC3" />
           <coordinates coord_system="LRG_462" start="5001" end="41887" strand="1" mapped_from="GRCh37" />
           <long_name>excision repair cross-complementing rodent repair deficiency, complementation group 3 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="2071">
-            <synonym>BTF2</synonym>
-            <synonym>GTF2H</synonym>
-            <synonym>RAD25</synonym>
-            <synonym>TFIIH</synonym>
-            <synonym>XPB</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="133510" />
           <db_xref source="HGNC" accession="3435">
             <synonym>BTF2</synonym>
             <synonym>GTF2H</synonym>
@@ -420,7 +417,13 @@
             <synonym>TFIIH</synonym>
             <synonym>XPB</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="133510" />
+          <db_xref source="GeneID" accession="2071">
+            <synonym>BTF2</synonym>
+            <synonym>GTF2H</synonym>
+            <synonym>RAD25</synonym>
+            <synonym>TFIIH</synonym>
+            <synonym>XPB</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000163161" />
           <transcript source="Ensembl" accession="ENST00000285398">
             <coordinates coord_system="LRG_462" start="5001" end="41887" strand="1" mapped_from="GRCh37" />
@@ -475,10 +478,10 @@
             <protein_product source="Ensembl" accession="ENSP00000285398">
               <coordinates coord_system="LRG_462" start="5096" end="41581" strand="1" mapped_from="GRCh37" />
               <long_name>TFIIH basal transcription factor complex helicase XPB subunit</long_name>
-              <db_xref source="RefSeq" accession="NP_000113.1" />
               <db_xref source="UniProtKB" accession="P19447">
                 <synonym>Q53QM0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000113.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000490062">
@@ -738,7 +741,7 @@
         <name>List of locus specific databases for ERCC3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ERCC3</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-24</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

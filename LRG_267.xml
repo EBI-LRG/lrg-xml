@@ -282,9 +282,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="9798214" other_end="10320754">
         <mapping_span lrg_start="1" lrg_end="522541" other_start="9798214" other_end="10320754" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="11" other_id="NC_000011.10" other_start="9776667" other_end="10299207">
+        <mapping_span lrg_start="1" lrg_end="522541" other_start="9776667" other_end="10299207" strand="-1">
+          <diff type="mismatch" lrg_start="7005" lrg_end="7005" other_start="10292203" other_end="10292203" lrg_sequence="T" other_sequence="A" />
+          <diff type="mismatch" lrg_start="513485" lrg_end="513485" other_start="9785723" other_end="9785723" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">SBF2</lrg_locus>
     </annotation_set>
@@ -299,7 +305,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008074.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_030962.3" other_name="NM_030962.3" other_id="NM_030962.3" other_start="1" other_end="7439">
         <mapping_span lrg_start="5001" lrg_end="5193" other_start="1" other_end="193" strand="1" />
         <mapping_span lrg_start="105221" lrg_end="105306" other_start="194" other_end="279" strand="1" />
@@ -509,8 +515,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000256190.8" other_name="ENST00000256190.8" other_id="ENST00000256190.8" other_start="1" other_end="7439">
         <mapping_span lrg_start="5001" lrg_end="5193" other_start="1" other_end="193" strand="1" />
         <mapping_span lrg_start="105221" lrg_end="105306" other_start="194" other_end="279" strand="1" />
@@ -665,18 +671,18 @@
           <symbol source="HGNC" name="SBF2" />
           <coordinates coord_system="LRG_267" start="5001" end="520541" strand="1" mapped_from="GRCh37" />
           <long_name>SET binding factor 2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="81846">
-            <synonym>CMT4B2</synonym>
-            <synonym>DENND7B</synonym>
-            <synonym>MTMR13</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="607697" />
           <db_xref source="HGNC" accession="2135">
             <synonym>CMT4B2</synonym>
             <synonym>DENND7B</synonym>
             <synonym>KIAA1766</synonym>
             <synonym>MTMR13</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="607697" />
+          <db_xref source="GeneID" accession="81846">
+            <synonym>CMT4B2</synonym>
+            <synonym>DENND7B</synonym>
+            <synonym>MTMR13</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000133812" />
           <transcript source="Ensembl" accession="ENST00000256190">
             <coordinates coord_system="LRG_267" start="5001" end="520541" strand="1" mapped_from="GRCh37" />
@@ -806,7 +812,6 @@
             <protein_product source="Ensembl" accession="ENSP00000256190">
               <coordinates coord_system="LRG_267" start="5139" end="518790" strand="1" mapped_from="GRCh37" />
               <long_name>myotubularin-related protein 13</long_name>
-              <db_xref source="RefSeq" accession="NP_112224.1" />
               <db_xref source="UniProtKB" accession="Q86WG5">
                 <synonym>Q3MJF0</synonym>
                 <synonym>Q68DQ3</synonym>
@@ -818,6 +823,7 @@
                 <synonym>Q96FE2</synonym>
                 <synonym>Q9C097</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_112224.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000533770">
@@ -1171,6 +1177,7 @@
           <symbol source="Clone_based_vega_gene" name="RP11-1H15.2" />
           <coordinates coord_system="LRG_267" start="369945" end="460065" strand="-1" mapped_from="GRCh37" />
           <long_name>RP11-1H15.2 (antisense)</long_name>
+          <db_xref source="GeneID" accession="101928008" />
           <db_xref source="Ensembl" accession="ENSG00000255476" />
           <transcript source="Ensembl" accession="ENST00000533659">
             <coordinates coord_system="LRG_267" start="369945" end="460065" strand="-1" mapped_from="GRCh37" />
@@ -1190,10 +1197,10 @@
           <symbol source="HGNC" name="RNU7-28P" />
           <coordinates coord_system="LRG_267" start="455332" end="455393" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, U7 small nuclear 28 pseudogene (snRNA)</long_name>
+          <db_xref source="RFAM" accession="RF00066" />
           <db_xref source="HGNC" accession="34124">
             <synonym>U7.28</synonym>
           </db_xref>
-          <db_xref source="RFAM" accession="RF00066" />
           <db_xref source="Ensembl" accession="ENSG00000252568" />
           <transcript source="Ensembl" accession="ENST00000516759">
             <coordinates coord_system="LRG_267" start="455332" end="455393" strand="1" mapped_from="GRCh37" />
@@ -1208,8 +1215,10 @@
           <coordinates coord_system="LRG_267" start="487889" end="522541" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>SBF2 antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="283104" />
           <db_xref source="HGNC" accession="27438" />
+          <db_xref source="GeneID" accession="283104">
+            <synonym>RP11-540A21.3</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000246273" />
           <transcript source="Ensembl" accession="ENST00000498905">
             <coordinates coord_system="LRG_267" start="487889" end="522541" strand="-1" mapped_from="GRCh37" />
@@ -1288,7 +1297,7 @@
         <name>List of locus specific databases for SBF2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SBF2</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

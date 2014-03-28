@@ -2512,9 +2512,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="179388716" other_end="179700529">
         <mapping_span lrg_start="1" lrg_end="311814" other_start="179388716" other_end="179700529" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="178523989" other_end="178835802">
+        <mapping_span lrg_start="1" lrg_end="311814" other_start="178523989" other_end="178835802" strand="-1">
+          <diff type="mismatch" lrg_start="79053" lrg_end="79053" other_start="178756750" other_end="178756750" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">TTN</lrg_locus>
     </annotation_set>
@@ -2529,7 +2534,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011618.3</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001256850.1" other_name="NM_001256850.1" other_id="NM_001256850.1" other_start="1" other_end="104301">
         <mapping_span lrg_start="28380" lrg_end="28591" other_start="1" other_end="212" strand="1" />
         <mapping_span lrg_start="31148" lrg_end="31251" other_start="213" other_end="316" strand="1" />
@@ -8178,7 +8183,9 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="100506866">
-          <symbol source="HGNC" name="TTN-AS1" />
+          <symbol source="HGNC" name="TTN-AS1">
+            <synonym>AC009948.3</synonym>
+          </symbol>
           <coordinates coord_system="LRG_391" start="215586" end="311814" strand="-1" />
           <partial>5-prime</partial>
           <long_name>TTN antisense RNA 1</long_name>
@@ -8276,8 +8283,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000342175.6" other_name="ENST00000342175.6" other_id="ENST00000342175.6" other_start="1" other_end="82605">
         <mapping_span lrg_start="28380" lrg_end="28591" other_start="1" other_end="212" strand="1" />
         <mapping_span lrg_start="31148" lrg_end="31251" other_start="213" other_end="316" strand="1" />
@@ -8322,7 +8329,9 @@
         <mapping_span lrg_start="70992" lrg_end="71276" other_start="9791" other_end="10075" strand="1" />
         <mapping_span lrg_start="71501" lrg_end="71626" other_start="10076" other_end="10201" strand="1" />
         <mapping_span lrg_start="76631" lrg_end="76819" other_start="10202" other_end="10390" strand="1" />
-        <mapping_span lrg_start="79006" lrg_end="79581" other_start="10391" other_end="10966" strand="1" />
+        <mapping_span lrg_start="79006" lrg_end="79581" other_start="10391" other_end="10966" strand="1">
+          <diff type="mismatch" lrg_start="79053" lrg_end="79053" other_start="178756750" other_end="178756750" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
         <mapping_span lrg_start="82623" lrg_end="82679" other_start="10967" other_end="11023" strand="1" />
         <mapping_span lrg_start="93882" lrg_end="96662" other_start="11024" other_end="13804" strand="1" />
         <mapping_span lrg_start="97443" lrg_end="97721" other_start="13805" other_end="14083" strand="1" />
@@ -9370,7 +9379,9 @@
         <mapping_span lrg_start="71501" lrg_end="71626" other_start="10214" other_end="10339" strand="1" />
         <mapping_span lrg_start="76631" lrg_end="76819" other_start="10340" other_end="10528" strand="1" />
         <mapping_span lrg_start="77887" lrg_end="78261" other_start="10529" other_end="10903" strand="1" />
-        <mapping_span lrg_start="79006" lrg_end="79581" other_start="10904" other_end="11479" strand="1" />
+        <mapping_span lrg_start="79006" lrg_end="79581" other_start="10904" other_end="11479" strand="1">
+          <diff type="mismatch" lrg_start="79053" lrg_end="79053" other_start="178756750" other_end="178756750" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
         <mapping_span lrg_start="82623" lrg_end="82679" other_start="11480" other_end="11536" strand="1" />
         <mapping_span lrg_start="93882" lrg_end="96662" other_start="11537" other_end="14317" strand="1" />
         <mapping_span lrg_start="97443" lrg_end="97721" other_start="14318" other_end="14596" strand="1" />
@@ -10010,12 +10021,12 @@
           <coordinates coord_system="LRG_391" start="1" end="6046" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>coiled-coil domain containing 141 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="285025">
-            <synonym>CAMDI</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="26821">
             <synonym>CAMDI</synonym>
             <synonym>FLJ39502</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="285025">
+            <synonym>CAMDI</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000163492" />
           <transcript source="Ensembl" accession="ENST00000472828">
@@ -10072,8 +10083,8 @@
           <symbol source="HGNC" name="RNU7-104P" />
           <coordinates coord_system="LRG_391" start="4354" end="4432" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, U7 small nuclear 104 pseudogene (snRNA)</long_name>
-          <db_xref source="HGNC" accession="45638" />
           <db_xref source="RFAM" accession="RF00066" />
+          <db_xref source="HGNC" accession="45638" />
           <db_xref source="Ensembl" accession="ENSG00000238542" />
           <transcript source="Ensembl" accession="ENST00000459398">
             <coordinates coord_system="LRG_391" start="4354" end="4432" strand="1" mapped_from="GRCh37" />
@@ -10087,6 +10098,16 @@
           <symbol source="HGNC" name="TTN" />
           <coordinates coord_system="LRG_391" start="5001" end="309814" strand="1" mapped_from="GRCh37" />
           <long_name>titin (protein_coding)</long_name>
+          <db_xref source="MIM" accession="188840" />
+          <db_xref source="HGNC" accession="12403">
+            <synonym>CMD1G</synonym>
+            <synonym>CMH9</synonym>
+            <synonym>CMPD4</synonym>
+            <synonym>FLJ32040</synonym>
+            <synonym>LGMD2J</synonym>
+            <synonym>MYLK5</synonym>
+            <synonym>TMD</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="7273">
             <synonym>CMD1G</synonym>
             <synonym>CMH9</synonym>
@@ -10097,16 +10118,6 @@
             <synonym>MYLK5</synonym>
             <synonym>TMD</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="12403">
-            <synonym>CMD1G</synonym>
-            <synonym>CMH9</synonym>
-            <synonym>CMPD4</synonym>
-            <synonym>FLJ32040</synonym>
-            <synonym>LGMD2J</synonym>
-            <synonym>MYLK5</synonym>
-            <synonym>TMD</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="188840" />
           <db_xref source="Ensembl" accession="ENSG00000155657" />
           <transcript source="Ensembl" accession="ENST00000412264">
             <coordinates coord_system="LRG_391" start="5001" end="33516" strand="1" mapped_from="GRCh37" />
@@ -10711,7 +10722,6 @@
             <protein_product source="Ensembl" accession="ENSP00000434586">
               <coordinates coord_system="LRG_391" start="31161" end="308791" strand="1" mapped_from="GRCh37" />
               <long_name>titin isoform N2-B</long_name>
-              <db_xref source="RefSeq" accession="NP_003310.4" />
               <db_xref source="UniProtKB" accession="Q8WZ42">
                 <synonym>A6NKB1</synonym>
                 <synonym>E7EQE6</synonym>
@@ -10743,6 +10753,7 @@
                 <synonym>Q9UP84</synonym>
                 <synonym>Q9Y6L9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003310.4" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000589042">
@@ -11842,7 +11853,6 @@
             <protein_product source="Ensembl" accession="ENSP00000467141">
               <coordinates coord_system="LRG_391" start="31161" end="308791" strand="1" mapped_from="GRCh37" />
               <long_name>titin isoform IC</long_name>
-              <db_xref source="RefSeq" accession="NP_001254479.1" />
               <db_xref source="UniProtKB" accession="Q8WZ42">
                 <synonym>A6NKB1</synonym>
                 <synonym>E7EQE6</synonym>
@@ -11874,6 +11884,7 @@
                 <synonym>Q9UP84</synonym>
                 <synonym>Q9Y6L9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001254479.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000591111">
@@ -13437,7 +13448,6 @@
             <protein_product source="Ensembl" accession="ENSP00000340554">
               <coordinates coord_system="LRG_391" start="31161" end="308791" strand="1" mapped_from="GRCh37" />
               <long_name>titin isoform novex-2</long_name>
-              <db_xref source="RefSeq" accession="NP_597681.3" />
               <db_xref source="UniProtKB" accession="Q8WZ42">
                 <synonym>A6NKB1</synonym>
                 <synonym>E7EQE6</synonym>
@@ -13469,6 +13479,7 @@
                 <synonym>Q9UP84</synonym>
                 <synonym>Q9Y6L9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_597681.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000359218">
@@ -14055,7 +14066,6 @@
             <protein_product source="Ensembl" accession="ENSP00000352154">
               <coordinates coord_system="LRG_391" start="31161" end="308791" strand="1" mapped_from="GRCh37" />
               <long_name>titin isoform novex-1</long_name>
-              <db_xref source="RefSeq" accession="NP_597676.3" />
               <db_xref source="UniProtKB" accession="Q8WZ42">
                 <synonym>A6NKB1</synonym>
                 <synonym>E7EQE6</synonym>
@@ -14087,6 +14097,7 @@
                 <synonym>Q9UP84</synonym>
                 <synonym>Q9Y6L9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_597676.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000342992">
@@ -15033,9 +15044,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000343764">
               <coordinates coord_system="LRG_391" start="31161" end="308791" strand="1" mapped_from="GRCh37" />
-              <long_name>titin isoform N2-A, titin isoform N2BA</long_name>
-              <db_xref source="RefSeq" accession="NP_596869.4" />
-              <db_xref source="RefSeq" accession="NP_001243779.1" />
+              <long_name>titin isoform N2BA, titin isoform N2-A</long_name>
               <db_xref source="UniProtKB" accession="Q8WZ42">
                 <synonym>A6NKB1</synonym>
                 <synonym>E7EQE6</synonym>
@@ -15067,13 +15076,15 @@
                 <synonym>Q9UP84</synonym>
                 <synonym>Q9Y6L9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001243779.1" />
+              <db_xref source="RefSeq" accession="NP_596869.4" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000360870">
             <coordinates coord_system="LRG_391" start="28382" end="91398" strand="1" mapped_from="GRCh37" />
             <long_name>TTN-010 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS33337.1" />
-            <db_xref source="RefSeq" accession="NM_133379.3" />
+            <db_xref source="RefSeq" accession="NM_133379.4" />
             <exon source="Ensembl" accession="ENSE00001941105">
               <coordinates coord_system="LRG_391" start="28382" end="28591" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -15215,7 +15226,6 @@
             <protein_product source="Ensembl" accession="ENSP00000354117">
               <coordinates coord_system="LRG_391" start="31161" end="90218" strand="1" mapped_from="GRCh37" />
               <long_name>titin isoform novex-3</long_name>
-              <db_xref source="RefSeq" accession="NP_596870.2" />
               <db_xref source="UniProtKB" accession="Q8WZ42">
                 <synonym>A6NKB1</synonym>
                 <synonym>E7EQE6</synonym>
@@ -15247,6 +15257,7 @@
                 <synonym>Q9UP84</synonym>
                 <synonym>Q9Y6L9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_596870.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000470257">
@@ -15577,6 +15588,7 @@
           <symbol source="Clone_based_vega_gene" name="RP11-88L24.4" />
           <coordinates coord_system="LRG_391" start="55840" end="58877" strand="-1" mapped_from="GRCh37" />
           <long_name>RP11-88L24.4 (antisense)</long_name>
+          <db_xref source="GeneID" accession="101927055" />
           <db_xref source="Ensembl" accession="ENSG00000266413" />
           <transcript source="Ensembl" accession="ENST00000582038">
             <coordinates coord_system="LRG_391" start="55840" end="58877" strand="-1" mapped_from="GRCh37" />
@@ -15594,8 +15606,10 @@
           <coordinates coord_system="LRG_391" start="61128" end="311814" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>TTN antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100506866" />
           <db_xref source="HGNC" accession="44124" />
+          <db_xref source="GeneID" accession="100506866">
+            <synonym>AC009948.3</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000237298" />
           <transcript source="Ensembl" accession="ENST00000584485">
             <coordinates coord_system="LRG_391" start="61128" end="62856" strand="-1" mapped_from="GRCh37" />
@@ -15622,6 +15636,25 @@
             </exon>
             <exon source="Ensembl" accession="ENSE00002956874">
               <coordinates coord_system="LRG_391" start="61145" end="61576" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000610005">
+            <coordinates coord_system="LRG_391" start="61484" end="77049" strand="-1" mapped_from="GRCh37" />
+            <long_name>TTN-AS1-054 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00003704601">
+              <coordinates coord_system="LRG_391" start="76759" end="77049" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003710816">
+              <coordinates coord_system="LRG_391" start="74777" end="74863" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002736742">
+              <coordinates coord_system="LRG_391" start="71435" end="71617" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002873500">
+              <coordinates coord_system="LRG_391" start="62468" end="62528" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003708877">
+              <coordinates coord_system="LRG_391" start="61484" end="61576" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000578746">
@@ -16513,7 +16546,7 @@
         <name>List of locus specific databases for TTN</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TTN</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

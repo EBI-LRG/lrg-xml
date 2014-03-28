@@ -135,9 +135,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="35071835" other_end="35085013">
         <mapping_span lrg_start="1" lrg_end="13179" other_start="35071835" other_end="35085013" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="9" other_id="NC_000009.12" other_start="35071838" other_end="35085016">
+        <mapping_span lrg_start="1" lrg_end="13179" other_start="35071838" other_end="35085016" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">FANCG</lrg_locus>
     </annotation_set>
@@ -152,7 +155,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007312.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_004629.1" other_name="NM_004629.1" other_id="NM_004629.1" other_start="1" other_end="2631">
         <mapping_span lrg_start="5001" lrg_end="5576" other_start="1" other_end="576" strand="1" />
         <mapping_span lrg_start="5776" lrg_end="5866" other_start="577" other_end="667" strand="1" />
@@ -244,7 +247,10 @@
         <gene source="NCBI-Gene" accession="7415">
           <symbol source="HGNC" name="VCP">
             <synonym>ALS14</synonym>
+            <synonym>HEL-220</synonym>
+            <synonym>HEL-S-70</synonym>
             <synonym>IBMPFD</synonym>
+            <synonym>IBMPFD1</synonym>
             <synonym>p97</synonym>
             <synonym>TERA</synonym>
           </symbol>
@@ -270,6 +276,8 @@
               <long_name>transitional endoplasmic reticulum ATPase</long_name>
               <long_name>valosin-containing protein</long_name>
               <long_name>yeast Cdc48p homolog</long_name>
+              <long_name>epididymis luminal protein 220</long_name>
+              <long_name>epididymis secretory protein Li 70</long_name>
               <long_name>TER ATPase</long_name>
               <long_name>15S Mg(2+)-ATPase p97 subunit</long_name>
               <db_xref source="CCDS" accession="CCDS6573.1" />
@@ -290,8 +298,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000378643.3" other_name="ENST00000378643.3" other_id="ENST00000378643.3" other_start="1" other_end="2631">
         <mapping_span lrg_start="5001" lrg_end="5576" other_start="1" other_end="576" strand="1" />
         <mapping_span lrg_start="5776" lrg_end="5866" other_start="577" other_end="667" strand="1" />
@@ -357,15 +365,15 @@
           <symbol source="HGNC" name="FANCG" />
           <coordinates coord_system="LRG_499" start="5001" end="11182" strand="1" mapped_from="GRCh37" />
           <long_name>Fanconi anemia, complementation group G (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="2189">
-            <synonym>FAG</synonym>
-            <synonym>XRCC9</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="602956" />
           <db_xref source="HGNC" accession="3588">
             <synonym>FAG</synonym>
             <synonym>XRCC9</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="602956" />
+          <db_xref source="GeneID" accession="2189">
+            <synonym>FAG</synonym>
+            <synonym>XRCC9</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000221829" />
           <transcript source="Ensembl" accession="ENST00000378643">
             <coordinates coord_system="LRG_499" start="5001" end="11179" strand="1" mapped_from="GRCh37" />
@@ -417,8 +425,8 @@
             <protein_product source="Ensembl" accession="ENSP00000367910">
               <coordinates coord_system="LRG_499" start="5493" end="10909" strand="1" mapped_from="GRCh37" />
               <long_name>Fanconi anemia group G protein</long_name>
-              <db_xref source="RefSeq" accession="NP_004620.1" />
               <db_xref source="UniProtKB" accession="O15287" />
+              <db_xref source="RefSeq" accession="NP_004620.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000448890">
@@ -551,17 +559,20 @@
           <coordinates coord_system="LRG_499" start="11768" end="13179" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>valosin containing protein (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="7415">
-            <synonym>ALS14</synonym>
-            <synonym>IBMPFD</synonym>
-            <synonym>p97</synonym>
-            <synonym>TERA</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="601023" />
           <db_xref source="HGNC" accession="12666">
             <synonym>IBMPFD</synonym>
             <synonym>p97</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="601023" />
+          <db_xref source="GeneID" accession="7415">
+            <synonym>ALS14</synonym>
+            <synonym>HEL-220</synonym>
+            <synonym>HEL-S-70</synonym>
+            <synonym>IBMPFD</synonym>
+            <synonym>IBMPFD1</synonym>
+            <synonym>p97</synonym>
+            <synonym>TERA</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000165280" />
           <transcript source="Ensembl" accession="ENST00000358901">
             <coordinates coord_system="LRG_499" start="11768" end="13179" strand="1" mapped_from="GRCh37" />
@@ -576,7 +587,6 @@
               <coordinates coord_system="LRG_499" start="12664" end="13179" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>transitional endoplasmic reticulum ATPase</long_name>
-              <db_xref source="RefSeq" accession="NP_009057.1" />
               <db_xref source="UniProtKB" accession="P55072">
                 <synonym>B2R5T8</synonym>
                 <synonym>Q0V924</synonym>
@@ -584,6 +594,7 @@
                 <synonym>Q969G7</synonym>
                 <synonym>Q9UCD5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_009057.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000448530">
@@ -619,7 +630,7 @@
         <name>List of locus specific databases for FANCG</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FANCG</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -125,9 +125,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="207920402" other_end="207970858">
         <mapping_span lrg_start="1" lrg_end="50457" other_start="207920402" other_end="207970858" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="207747057" other_end="207797513">
+        <mapping_span lrg_start="1" lrg_end="50457" other_start="207747057" other_end="207797513" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">CD46</lrg_locus>
     </annotation_set>
@@ -142,7 +145,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009296.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_002389.4" other_name="NM_002389.4" other_id="NM_002389.4" other_start="1" other_end="3393">
         <mapping_span lrg_start="4982" lrg_end="5253" other_start="1" other_end="272" strand="1" />
         <mapping_span lrg_start="9958" lrg_end="10146" other_start="273" other_end="461" strand="1" />
@@ -687,8 +690,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000322875.4" other_name="ENST00000322875.4" other_id="ENST00000322875.4" other_start="1" other_end="3278">
         <mapping_span lrg_start="5001" lrg_end="5253" other_start="1" other_end="253" strand="1" />
         <mapping_span lrg_start="9958" lrg_end="10146" other_start="254" other_end="442" strand="1" />
@@ -910,12 +913,9 @@
           <symbol source="HGNC" name="CD46" />
           <coordinates coord_system="LRG_155" start="5001" end="48457" strand="1" mapped_from="GRCh37" />
           <long_name>CD46 molecule, complement regulatory protein (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4179">
-            <synonym>AHUS2</synonym>
-            <synonym>MCP</synonym>
-            <synonym>MIC10</synonym>
-            <synonym>TLX</synonym>
-            <synonym>TRA2.10</synonym>
+          <db_xref source="MIM" accession="120920">
+            <synonym>116954</synonym>
+            <synonym>191020</synonym>
           </db_xref>
           <db_xref source="HGNC" accession="6953">
             <synonym>MCP</synonym>
@@ -924,9 +924,12 @@
             <synonym>TLX</synonym>
             <synonym>TRA2.10</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="120920">
-            <synonym>116954</synonym>
-            <synonym>191020</synonym>
+          <db_xref source="GeneID" accession="4179">
+            <synonym>AHUS2</synonym>
+            <synonym>MCP</synonym>
+            <synonym>MIC10</synonym>
+            <synonym>TLX</synonym>
+            <synonym>TRA2.10</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000117335" />
           <transcript source="Ensembl" accession="ENST00000358170">
@@ -979,7 +982,6 @@
             <protein_product source="Ensembl" accession="ENSP00000350893">
               <coordinates coord_system="LRG_155" start="5157" end="43248" strand="1" mapped_from="GRCh37" />
               <long_name>membrane cofactor protein isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_002380.3" />
               <db_xref source="UniProtKB" accession="P15529">
                 <synonym>A0T1T0</synonym>
                 <synonym>A0T1T1</synonym>
@@ -1001,6 +1003,7 @@
                 <synonym>Q9NNW4</synonym>
                 <synonym>Q9UCJ4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002380.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000354848">
@@ -1047,7 +1050,6 @@
             <protein_product source="Ensembl" accession="ENSP00000346912">
               <coordinates coord_system="LRG_155" start="5157" end="46535" strand="1" mapped_from="GRCh37" />
               <long_name>membrane cofactor protein isoform 4 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_722548.1" />
               <db_xref source="UniProtKB" accession="P15529">
                 <synonym>A0T1T0</synonym>
                 <synonym>A0T1T1</synonym>
@@ -1069,6 +1071,7 @@
                 <synonym>Q9NNW4</synonym>
                 <synonym>Q9UCJ4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_722548.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000322918">
@@ -1109,7 +1112,6 @@
             <protein_product source="Ensembl" accession="ENSP00000314664">
               <coordinates coord_system="LRG_155" start="5157" end="46539" strand="1" mapped_from="GRCh37" />
               <long_name>membrane cofactor protein isoform 14 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_758860.1" />
               <db_xref source="UniProtKB" accession="P15529">
                 <synonym>A0T1T0</synonym>
                 <synonym>A0T1T1</synonym>
@@ -1131,6 +1133,7 @@
                 <synonym>Q9NNW4</synonym>
                 <synonym>Q9UCJ4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_758860.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000367042">
@@ -1180,7 +1183,6 @@
             <protein_product source="Ensembl" accession="ENSP00000356009">
               <coordinates coord_system="LRG_155" start="5157" end="43248" strand="1" mapped_from="GRCh37" />
               <long_name>membrane cofactor protein isoform 3 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_758861.1" />
               <db_xref source="UniProtKB" accession="P15529">
                 <synonym>A0T1T0</synonym>
                 <synonym>A0T1T1</synonym>
@@ -1202,6 +1204,7 @@
                 <synonym>Q9NNW4</synonym>
                 <synonym>Q9UCJ4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_758861.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000367041">
@@ -1248,7 +1251,6 @@
             <protein_product source="Ensembl" accession="ENSP00000356008">
               <coordinates coord_system="LRG_155" start="5157" end="43248" strand="1" mapped_from="GRCh37" />
               <long_name>membrane cofactor protein isoform 5 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_758862.1" />
               <db_xref source="UniProtKB" accession="P15529">
                 <synonym>A0T1T0</synonym>
                 <synonym>A0T1T1</synonym>
@@ -1270,6 +1272,7 @@
                 <synonym>Q9NNW4</synonym>
                 <synonym>Q9UCJ4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_758862.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000357714">
@@ -1313,7 +1316,6 @@
             <protein_product source="Ensembl" accession="ENSP00000350346">
               <coordinates coord_system="LRG_155" start="5157" end="46535" strand="1" mapped_from="GRCh37" />
               <long_name>membrane cofactor protein isoform 6 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_758863.1" />
               <db_xref source="UniProtKB" accession="P15529">
                 <synonym>A0T1T0</synonym>
                 <synonym>A0T1T1</synonym>
@@ -1335,6 +1337,7 @@
                 <synonym>Q9NNW4</synonym>
                 <synonym>Q9UCJ4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_758863.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000322875">
@@ -1384,7 +1387,6 @@
             <protein_product source="Ensembl" accession="ENSP00000313875">
               <coordinates coord_system="LRG_155" start="5157" end="46535" strand="1" mapped_from="GRCh37" />
               <long_name>membrane cofactor protein isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_758869.1" />
               <db_xref source="UniProtKB" accession="P15529">
                 <synonym>A0T1T0</synonym>
                 <synonym>A0T1T1</synonym>
@@ -1406,6 +1408,7 @@
                 <synonym>Q9NNW4</synonym>
                 <synonym>Q9UCJ4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_758869.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000367047">
@@ -1682,7 +1685,6 @@
             <protein_product source="Ensembl" accession="ENSP00000353342">
               <coordinates coord_system="LRG_155" start="5157" end="46535" strand="1" mapped_from="GRCh37" />
               <long_name>membrane cofactor protein isoform 12 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_758871.1" />
               <db_xref source="UniProtKB" accession="P15529">
                 <synonym>A0T1T0</synonym>
                 <synonym>A0T1T1</synonym>
@@ -1704,6 +1706,7 @@
                 <synonym>Q9NNW4</synonym>
                 <synonym>Q9UCJ4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_758871.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000480003">
@@ -1881,7 +1884,7 @@
         <name>List of locus specific databases for CD46</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CD46</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

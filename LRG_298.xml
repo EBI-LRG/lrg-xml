@@ -116,10 +116,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_start="88511396" other_end="88686945">
         <mapping_span lrg_start="1" lrg_end="175550" other_start="88511396" other_end="88686945" strand="1">
           <diff type="mismatch" lrg_start="172495" lrg_end="172495" other_start="88683890" other_end="88683890" lrg_sequence="A" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="10" other_id="NC_000010.11" other_start="86751639" other_end="86927188">
+        <mapping_span lrg_start="1" lrg_end="175550" other_start="86751639" other_end="86927188" strand="1">
+          <diff type="mismatch" lrg_start="172495" lrg_end="172495" other_start="86924133" other_end="86924133" lrg_sequence="A" other_sequence="T" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">BMPR1A</lrg_locus>
@@ -135,7 +140,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009362.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_004329.2" other_name="NM_004329.2" other_id="NM_004329.2" other_start="1" other_end="3616">
         <mapping_span lrg_start="5001" lrg_end="5281" other_start="1" other_end="281" strand="1" />
         <mapping_span lrg_start="87227" lrg_end="87341" other_start="282" other_end="396" strand="1" />
@@ -239,9 +244,9 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
-      <mapping coord_system="ENST00000372037.2" other_name="ENST00000372037.2" other_id="ENST00000372037.2" other_start="1" other_end="3605">
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
+      <mapping coord_system="ENST00000372037.3" other_name="ENST00000372037.3" other_id="ENST00000372037.3" other_start="1" other_end="11255">
         <mapping_span lrg_start="5012" lrg_end="5281" other_start="1" other_end="270" strand="1" />
         <mapping_span lrg_start="87227" lrg_end="87341" other_start="271" other_end="385" strand="1" />
         <mapping_span lrg_start="124229" lrg_end="124447" other_start="386" other_end="604" strand="1" />
@@ -254,7 +259,7 @@
         <mapping_span lrg_start="167534" lrg_end="167831" other_start="1406" other_end="1703" strand="1" />
         <mapping_span lrg_start="169882" lrg_end="170057" other_start="1704" other_end="1879" strand="1" />
         <mapping_span lrg_start="171738" lrg_end="171868" other_start="1880" other_end="2010" strand="1" />
-        <mapping_span lrg_start="171956" lrg_end="173550" other_start="2011" other_end="3605" strand="1">
+        <mapping_span lrg_start="171956" lrg_end="175550" other_start="2011" other_end="11255" strand="1">
           <diff type="mismatch" lrg_start="172495" lrg_end="172495" other_start="2550" other_end="2550" lrg_sequence="A" other_sequence="T" />
         </mapping_span>
       </mapping>
@@ -265,10 +270,33 @@
         <mapping_span lrg_start="138424" lrg_end="138479" other_start="366" other_end="421" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000272631">
+          <symbol source="Clone_based_vega_gene" name="RP11-359E3.4" />
+          <coordinates coord_system="LRG_298" start="1" end="4660" strand="-1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <long_name>RP11-359E3.4 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000272631" />
+          <transcript source="Ensembl" accession="ENST00000608826">
+            <coordinates coord_system="LRG_298" start="1" end="4660" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>RP11-359E3.4-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00003708096">
+              <coordinates coord_system="LRG_298" start="1" end="4660" strand="-1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000107779">
           <symbol source="HGNC" name="BMPR1A" />
-          <coordinates coord_system="LRG_298" start="5012" end="173550" strand="1" mapped_from="GRCh37" />
+          <coordinates coord_system="LRG_298" start="5012" end="175550" strand="1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
           <long_name>bone morphogenetic protein receptor, type IA (protein_coding)</long_name>
+          <db_xref source="MIM" accession="601299" />
+          <db_xref source="HGNC" accession="1076">
+            <synonym>ACVRLK3</synonym>
+            <synonym>ALK3</synonym>
+            <synonym>CD292</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="657">
             <synonym>10q23del</synonym>
             <synonym>ACVRLK3</synonym>
@@ -276,15 +304,10 @@
             <synonym>CD292</synonym>
             <synonym>SKR5</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1076">
-            <synonym>ACVRLK3</synonym>
-            <synonym>ALK3</synonym>
-            <synonym>CD292</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="601299" />
           <db_xref source="Ensembl" accession="ENSG00000107779" />
           <transcript source="Ensembl" accession="ENST00000372037">
-            <coordinates coord_system="LRG_298" start="5012" end="173550" strand="1" mapped_from="GRCh37" />
+            <coordinates coord_system="LRG_298" start="5012" end="175550" strand="1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
             <long_name>BMPR1A-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS7378.1" />
             <db_xref source="RefSeq" accession="NM_004329.2" />
@@ -325,16 +348,17 @@
               <coordinates coord_system="LRG_298" start="171738" end="171868" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001456760">
-              <coordinates coord_system="LRG_298" start="171956" end="173550" strand="1" mapped_from="GRCh37" />
+              <coordinates coord_system="LRG_298" start="171956" end="175550" strand="1" mapped_from="GRCh37" />
+              <partial>3-prime</partial>
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000361107">
               <coordinates coord_system="LRG_298" start="124381" end="172081" strand="1" mapped_from="GRCh37" />
               <long_name>bone morphogenetic protein receptor type-1A precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_004320.2" />
               <db_xref source="UniProtKB" accession="P36894">
                 <synonym>A8K6U9</synonym>
                 <synonym>Q8NEN8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004320.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000480152">
@@ -358,6 +382,10 @@
           <symbol source="Clone_based_vega_gene" name="RP11-420K10.1" />
           <coordinates coord_system="LRG_298" start="103058" end="104598" strand="-1" mapped_from="GRCh37" />
           <long_name>RP11-420K10.1 (pseudogene)</long_name>
+          <db_xref source="MIM" accession="611476" />
+          <db_xref source="GeneID" accession="79871">
+            <synonym>C1orf82</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000270874" />
           <transcript source="Ensembl" accession="ENST00000603626">
             <coordinates coord_system="LRG_298" start="103058" end="104598" strand="-1" mapped_from="GRCh37" />
@@ -377,8 +405,8 @@
           <symbol source="HGNC" name="RNU1-19P" />
           <coordinates coord_system="LRG_298" start="137931" end="138095" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, U1 small nuclear 19, pseudogene (snRNA)</long_name>
-          <db_xref source="HGNC" accession="41945" />
           <db_xref source="RFAM" accession="RF00003" />
+          <db_xref source="HGNC" accession="41945" />
           <db_xref source="Ensembl" accession="ENSG00000200176" />
           <transcript source="Ensembl" accession="ENST00000363306">
             <coordinates coord_system="LRG_298" start="137931" end="138095" strand="1" mapped_from="GRCh37" />
@@ -395,7 +423,7 @@
         <name>List of locus specific databases for BMPR1A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/BMPR1A</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

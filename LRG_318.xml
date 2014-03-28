@@ -112,9 +112,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="18" other_id="NC_000018.9" other_start="48489410" other_end="48613412">
         <mapping_span lrg_start="1" lrg_end="124003" other_start="48489410" other_end="48613412" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="18" other_id="NC_000018.10" other_start="50963040" other_end="51087042">
+        <mapping_span lrg_start="1" lrg_end="124003" other_start="50963040" other_end="51087042" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">SMAD4</lrg_locus>
     </annotation_set>
@@ -129,7 +132,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_013013.2</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_005359.5" other_name="NM_005359.5" other_id="NM_005359.5" other_start="1" other_end="8772">
         <mapping_span lrg_start="67174" lrg_end="67584" other_start="1" other_end="411" strand="1" />
         <mapping_span lrg_start="83881" lrg_end="84256" other_start="412" other_end="787" strand="1" />
@@ -272,8 +275,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000342988.3" other_name="ENST00000342988.3" other_id="ENST00000342988.3" other_start="1" other_end="8769">
         <mapping_span lrg_start="67174" lrg_end="67584" other_start="1" other_end="411" strand="1" />
         <mapping_span lrg_start="83881" lrg_end="84256" other_start="412" other_end="787" strand="1" />
@@ -404,13 +407,13 @@
           <symbol source="HGNC" name="ELAC1" />
           <coordinates coord_system="LRG_318" start="4952" end="25082" strand="1" mapped_from="GRCh37" />
           <long_name>elaC ribonuclease Z 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="55520">
-            <synonym>D29</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="608079" />
           <db_xref source="HGNC" accession="14197">
             <synonym>D29</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="608079" />
+          <db_xref source="GeneID" accession="55520">
+            <synonym>D29</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000141642" />
           <transcript source="Ensembl" accession="ENST00000588577">
             <coordinates coord_system="LRG_318" start="4952" end="23907" strand="1" mapped_from="GRCh37" />
@@ -451,10 +454,10 @@
             <protein_product source="Ensembl" accession="ENSP00000269466">
               <coordinates coord_system="LRG_318" start="11366" end="24046" strand="1" mapped_from="GRCh37" />
               <long_name>zinc phosphodiesterase ELAC protein 1</long_name>
-              <db_xref source="RefSeq" accession="NP_061166.1" />
               <db_xref source="UniProtKB" accession="Q9H777">
                 <synonym>Q9NS99</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_061166.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000586966">
@@ -544,17 +547,17 @@
           <symbol source="HGNC" name="SMAD4" />
           <coordinates coord_system="LRG_318" start="5001" end="122006" strand="1" mapped_from="GRCh37" />
           <long_name>SMAD family member 4 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600993" />
+          <db_xref source="HGNC" accession="6770">
+            <synonym>DPC4</synonym>
+            <synonym>MADH4</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4089">
             <synonym>DPC4</synonym>
             <synonym>JIP</synonym>
             <synonym>MADH4</synonym>
             <synonym>MYHRS</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6770">
-            <synonym>DPC4</synonym>
-            <synonym>MADH4</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="600993" />
           <db_xref source="Ensembl" accession="ENSG00000141646" />
           <transcript source="Ensembl" accession="ENST00000452201">
             <coordinates coord_system="LRG_318" start="5001" end="95105" strand="1" mapped_from="GRCh37" />
@@ -748,10 +751,10 @@
             <protein_product source="Ensembl" accession="ENSP00000341551">
               <coordinates coord_system="LRG_318" start="84008" end="115428" strand="1" mapped_from="GRCh37" />
               <long_name>mothers against decapentaplegic homolog 4</long_name>
-              <db_xref source="RefSeq" accession="NP_005350.1" />
               <db_xref source="UniProtKB" accession="Q13485">
                 <synonym>A8K405</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_005350.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000592911">
@@ -949,7 +952,7 @@
         <name>List of locus specific databases for SMAD4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SMAD4</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -138,9 +138,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="8" other_id="NC_000008.10" other_start="90943564" other_end="91001899">
         <mapping_span lrg_start="1" lrg_end="58336" other_start="90943564" other_end="91001899" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="8" other_id="NC_000008.11" other_start="89931336" other_end="89989671">
+        <mapping_span lrg_start="1" lrg_end="58336" other_start="89931336" other_end="89989671" strand="-1">
+          <diff type="mismatch" lrg_start="1073" lrg_end="1073" other_start="89988599" other_end="89988599" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="1272" lrg_end="1272" other_start="89988400" other_end="89988400" lrg_sequence="C" other_sequence="A" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">NBN</lrg_locus>
     </annotation_set>
@@ -155,7 +161,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008860.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_002485.4" other_name="NM_002485.4" other_id="NM_002485.4" other_start="1" other_end="4621">
         <mapping_span lrg_start="5001" lrg_end="5147" other_start="1" other_end="147" strand="1" />
         <mapping_span lrg_start="6817" lrg_end="6950" other_start="148" other_end="281" strand="1" />
@@ -268,8 +274,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000265433.3" other_name="ENST00000265433.3" other_id="ENST00000265433.3" other_start="1" other_end="4666">
         <mapping_span lrg_start="4956" lrg_end="5147" other_start="1" other_end="192" strand="1" />
         <mapping_span lrg_start="6817" lrg_end="6950" other_start="193" other_end="326" strand="1" />
@@ -374,6 +380,14 @@
           <coordinates coord_system="LRG_158" start="1" end="56336" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>nibrin (protein_coding)</long_name>
+          <db_xref source="MIM" accession="602667" />
+          <db_xref source="HGNC" accession="7652">
+            <synonym>AT-V1</synonym>
+            <synonym>AT-V2</synonym>
+            <synonym>ATV</synonym>
+            <synonym>NBS</synonym>
+            <synonym>NBS1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4683">
             <synonym>AT-V1</synonym>
             <synonym>AT-V2</synonym>
@@ -382,14 +396,6 @@
             <synonym>NBS1</synonym>
             <synonym>P95</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7652">
-            <synonym>AT-V1</synonym>
-            <synonym>AT-V2</synonym>
-            <synonym>ATV</synonym>
-            <synonym>NBS</synonym>
-            <synonym>NBS1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="602667" />
           <db_xref source="Ensembl" accession="ENSG00000104320" />
           <transcript source="Ensembl" accession="ENST00000396252">
             <coordinates coord_system="LRG_158" start="1" end="56336" strand="1" mapped_from="GRCh37" />
@@ -509,7 +515,6 @@
             <protein_product source="Ensembl" accession="ENSP00000265433">
               <coordinates coord_system="LRG_158" start="5111" end="54090" strand="1" mapped_from="GRCh37" />
               <long_name>nibrin</long_name>
-              <db_xref source="RefSeq" accession="NP_002476.2" />
               <db_xref source="UniProtKB" accession="O60934">
                 <synonym>B2R626</synonym>
                 <synonym>B2RNC5</synonym>
@@ -519,6 +524,7 @@
                 <synonym>Q63HR6</synonym>
                 <synonym>Q7LDM2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002476.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000494804">
@@ -717,7 +723,7 @@
         <name>List of locus specific databases for NBN</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NBN</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

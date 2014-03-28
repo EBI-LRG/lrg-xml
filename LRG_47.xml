@@ -180,9 +180,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="196616141" other_end="196718634">
         <mapping_span lrg_start="1" lrg_end="102494" other_start="196616141" other_end="196718634" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="196647011" other_end="196749504">
+        <mapping_span lrg_start="1" lrg_end="102494" other_start="196647011" other_end="196749504" strand="1">
+          <diff type="mismatch" lrg_start="60363" lrg_end="60363" other_start="196707373" other_end="196707373" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="74980" lrg_end="74980" other_start="196721990" other_end="196721990" lrg_sequence="T" other_sequence="A" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">CFH</lrg_locus>
     </annotation_set>
@@ -197,7 +203,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007259.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000186.3" other_name="NM_000186.3" other_id="NM_000186.3" other_start="1" other_end="4127">
         <mapping_span lrg_start="4868" lrg_end="5165" other_start="1" other_end="298" strand="1" />
         <mapping_span lrg_start="25968" lrg_end="26153" other_start="299" other_end="484" strand="1" />
@@ -401,8 +407,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000359637.2" other_name="ENST00000359637.2" other_id="ENST00000359637.2" other_start="1" other_end="1454">
         <mapping_span lrg_start="5046" lrg_end="5165" other_start="1" other_end="120" strand="1" />
         <mapping_span lrg_start="25968" lrg_end="26153" other_start="121" other_end="306" strand="1" />
@@ -482,6 +488,16 @@
           <symbol source="HGNC" name="CFH" />
           <coordinates coord_system="LRG_47" start="4868" end="100494" strand="1" mapped_from="GRCh37" />
           <long_name>complement factor H (protein_coding)</long_name>
+          <db_xref source="MIM" accession="134370" />
+          <db_xref source="HGNC" accession="4883">
+            <synonym>ARMD4</synonym>
+            <synonym>ARMS1</synonym>
+            <synonym>FHL1</synonym>
+            <synonym>HF</synonym>
+            <synonym>HF1</synonym>
+            <synonym>HF2</synonym>
+            <synonym>HUS</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="3075">
             <synonym>AHUS1</synonym>
             <synonym>AMBP1</synonym>
@@ -495,16 +511,6 @@
             <synonym>HF2</synonym>
             <synonym>HUS</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="4883">
-            <synonym>ARMD4</synonym>
-            <synonym>ARMS1</synonym>
-            <synonym>FHL1</synonym>
-            <synonym>HF</synonym>
-            <synonym>HF1</synonym>
-            <synonym>HF2</synonym>
-            <synonym>HUS</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="134370" />
           <db_xref source="Ensembl" accession="ENSG00000000971" />
           <transcript source="Ensembl" accession="ENST00000367429">
             <coordinates coord_system="LRG_47" start="4868" end="100494" strand="1" mapped_from="GRCh37" />
@@ -580,7 +586,6 @@
             <protein_product source="Ensembl" accession="ENSP00000356399">
               <coordinates coord_system="LRG_47" start="5108" end="100303" strand="1" mapped_from="GRCh37" />
               <long_name>complement factor H isoform a precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000177.2" />
               <db_xref source="UniProtKB" accession="P08603">
                 <synonym>A5PL14</synonym>
                 <synonym>P78435</synonym>
@@ -591,6 +596,7 @@
                 <synonym>Q8N708</synonym>
                 <synonym>Q9NU86</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000177.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000439155">
@@ -751,7 +757,7 @@
         <name>List of locus specific databases for CFH</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CFH</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

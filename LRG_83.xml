@@ -142,9 +142,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="238390930" other_end="238464637">
         <mapping_span lrg_start="1" lrg_end="73708" other_start="238390930" other_end="238464637" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="237482287" other_end="237555994">
+        <mapping_span lrg_start="1" lrg_end="73708" other_start="237482287" other_end="237555994" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">MLPH</lrg_locus>
     </annotation_set>
@@ -159,7 +162,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007286.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001042467.1" other_name="NM_001042467.1" other_id="NM_001042467.1" other_start="1" other_end="3672">
         <mapping_span lrg_start="4949" lrg_end="5151" other_start="1" other_end="203" strand="1" />
         <mapping_span lrg_start="11117" lrg_end="11250" other_start="204" other_end="337" strand="1" />
@@ -207,6 +210,8 @@
           <db_xref source="MIM" accession="606526" />
           <db_xref source="CCDS" accession="CCDS2518.1" />
           <db_xref source="CCDS" accession="CCDS42836.1" />
+          <db_xref source="CCDS" accession="CCDS63172.1" />
+          <db_xref source="CCDS" accession="CCDS63173.1" />
           <db_xref source="GI" accession="163965411" />
           <transcript source="RefSeq" accession="NM_024101.5" fixed_id="t1">
             <coordinates coord_system="LRG_83" start="4949" end="73032" strand="1" />
@@ -343,8 +348,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-12</modification_date>
       <mapping coord_system="ENST00000264605.3" other_name="ENST00000264605.3" other_id="ENST00000264605.3" other_start="1" other_end="3823">
         <mapping_span lrg_start="4882" lrg_end="5151" other_start="1" other_end="270" strand="1" />
         <mapping_span lrg_start="11117" lrg_end="11250" other_start="271" other_end="404" strand="1" />
@@ -593,9 +598,7 @@
           <symbol source="HGNC" name="MLPH" />
           <coordinates coord_system="LRG_83" start="3142" end="73032" strand="1" mapped_from="GRCh37" />
           <long_name>melanophilin (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="79083">
-            <synonym>SLAC2-A</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606526" />
           <db_xref source="HGNC" accession="29643">
             <synonym>exophilin-3</synonym>
             <synonym>l(1)-3Rk</synonym>
@@ -603,7 +606,9 @@
             <synonym>ln</synonym>
             <synonym>Slac-2a</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="606526" />
+          <db_xref source="GeneID" accession="79083">
+            <synonym>SLAC2-A</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000115648" />
           <transcript source="Ensembl" accession="ENST00000422695">
             <coordinates coord_system="LRG_83" start="3142" end="28764" strand="1" mapped_from="GRCh37" />
@@ -649,6 +654,8 @@
           <transcript source="Ensembl" accession="ENST00000410032">
             <coordinates coord_system="LRG_83" start="4124" end="71710" strand="1" mapped_from="GRCh37" />
             <long_name>MLPH-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS63172.1" />
+            <db_xref source="RefSeq" accession="NM_001281474.1" />
             <exon source="Ensembl" accession="ENSE00001586716">
               <coordinates coord_system="LRG_83" start="4124" end="4452" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -693,13 +700,15 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000386338">
               <coordinates coord_system="LRG_83" start="11141" end="71306" strand="1" mapped_from="GRCh37" />
+              <long_name>melanophilin isoform 4</long_name>
+              <db_xref source="RefSeq" accession="NP_001268403.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000264605">
             <coordinates coord_system="LRG_83" start="4882" end="73032" strand="1" mapped_from="GRCh37" />
             <long_name>MLPH-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2518.1" />
-            <db_xref source="RefSeq" accession="NM_024101.5" />
+            <db_xref source="RefSeq" accession="NM_024101.6" />
             <exon source="Ensembl" accession="ENSE00001847132">
               <coordinates coord_system="LRG_83" start="4882" end="5151" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -751,10 +760,10 @@
             <protein_product source="Ensembl" accession="ENSP00000264605">
               <coordinates coord_system="LRG_83" start="11141" end="71306" strand="1" mapped_from="GRCh37" />
               <long_name>melanophilin isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_077006.1" />
               <db_xref source="UniProtKB" accession="Q9BV36">
                 <synonym>Q9HA71</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_077006.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000445024">
@@ -875,7 +884,7 @@
             <coordinates coord_system="LRG_83" start="4965" end="71708" strand="1" mapped_from="GRCh37" />
             <long_name>MLPH-004 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS42836.1" />
-            <db_xref source="RefSeq" accession="NM_001042467.1" />
+            <db_xref source="RefSeq" accession="NM_001042467.2" />
             <exon source="Ensembl" accession="ENSE00001708032">
               <coordinates coord_system="LRG_83" start="4965" end="5151" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -924,10 +933,10 @@
             <protein_product source="Ensembl" accession="ENSP00000341845">
               <coordinates coord_system="LRG_83" start="11141" end="71306" strand="1" mapped_from="GRCh37" />
               <long_name>melanophilin isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001035932.1" />
               <db_xref source="UniProtKB" accession="Q9BV36">
                 <synonym>Q9HA71</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001035932.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000469619">
@@ -949,6 +958,8 @@
           <transcript source="Ensembl" accession="ENST00000409373">
             <coordinates coord_system="LRG_83" start="4990" end="71708" strand="1" mapped_from="GRCh37" />
             <long_name>MLPH-005 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS63173.1" />
+            <db_xref source="RefSeq" accession="NM_001281473.1" />
             <exon source="Ensembl" accession="ENSE00001577033">
               <coordinates coord_system="LRG_83" start="4990" end="5151" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -990,9 +1001,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000386780">
               <coordinates coord_system="LRG_83" start="11141" end="71306" strand="1" mapped_from="GRCh37" />
+              <long_name>melanophilin isoform 3</long_name>
               <db_xref source="UniProtKB" accession="Q9BV36">
                 <synonym>Q9HA71</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001268402.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000477501">
@@ -1347,7 +1360,7 @@
         <name>List of locus specific databases for MLPH</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MLPH</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

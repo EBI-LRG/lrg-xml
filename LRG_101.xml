@@ -109,10 +109,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="151311116" other_end="151324769">
         <mapping_span lrg_start="1" lrg_end="13654" other_start="151311116" other_end="151324769" strand="-1">
           <diff type="mismatch" lrg_start="8609" lrg_end="8609" other_start="151316161" other_end="151316161" lrg_sequence="T" other_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="151338640" other_end="151352293">
+        <mapping_span lrg_start="1" lrg_end="13654" other_start="151338640" other_end="151352293" strand="-1">
+          <diff type="mismatch" lrg_start="8609" lrg_end="8609" other_start="151343685" other_end="151343685" lrg_sequence="T" other_sequence="C" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">RFX5</lrg_locus>
@@ -128,7 +133,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007576.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000449.3" other_name="NM_000449.3" other_id="NM_000449.3" other_start="1" other_end="3618">
         <mapping_span lrg_start="5001" lrg_end="5083" other_start="1" other_end="83" strand="1" />
         <mapping_span lrg_start="5688" lrg_end="5812" other_start="84" other_end="208" strand="1" />
@@ -271,8 +276,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000290524.4" other_name="ENST00000290524.4" other_id="ENST00000290524.4" other_start="1" other_end="3576">
         <mapping_span lrg_start="5043" lrg_end="5083" other_start="1" other_end="41" strand="1" />
         <mapping_span lrg_start="5688" lrg_end="5812" other_start="42" other_end="166" strand="1" />
@@ -494,6 +499,7 @@
           <symbol source="Clone_based_vega_gene" name="RP11-126K1.6" />
           <coordinates coord_system="LRG_101" start="4267" end="5327" strand="-1" mapped_from="GRCh37" />
           <long_name>RP11-126K1.6 (antisense)</long_name>
+          <db_xref source="GeneID" accession="101927886" />
           <db_xref source="Ensembl" accession="ENSG00000237976" />
           <transcript source="Ensembl" accession="ENST00000455503">
             <coordinates coord_system="LRG_101" start="4267" end="5327" strand="-1" mapped_from="GRCh37" />
@@ -510,9 +516,9 @@
           <symbol source="HGNC" name="RFX5" />
           <coordinates coord_system="LRG_101" start="4937" end="11654" strand="1" mapped_from="GRCh37" />
           <long_name>regulatory factor X, 5 (influences HLA class II expression) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="5993" />
-          <db_xref source="HGNC" accession="9986" />
           <db_xref source="MIM" accession="601863" />
+          <db_xref source="HGNC" accession="9986" />
+          <db_xref source="GeneID" accession="5993" />
           <db_xref source="Ensembl" accession="ENSG00000143390" />
           <transcript source="Ensembl" accession="ENST00000452671">
             <coordinates coord_system="LRG_101" start="4937" end="10334" strand="1" mapped_from="GRCh37" />
@@ -752,12 +758,12 @@
             <protein_product source="Ensembl" accession="ENSP00000290524">
               <coordinates coord_system="LRG_101" start="5974" end="10108" strand="1" mapped_from="GRCh37" />
               <long_name>DNA-binding protein RFX5, DNA-binding protein RFX5</long_name>
-              <db_xref source="RefSeq" accession="NP_000440.1" />
-              <db_xref source="RefSeq" accession="NP_001020774.1" />
               <db_xref source="UniProtKB" accession="P48382">
                 <synonym>D3DV19</synonym>
                 <synonym>Q5VWC3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000440.1" />
+              <db_xref source="RefSeq" accession="NP_001020774.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000478564">
@@ -1177,7 +1183,7 @@
         <name>List of locus specific databases for RFX5</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RFX5</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

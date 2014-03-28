@@ -54,9 +54,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="37816599" other_end="37824807">
         <mapping_span lrg_start="1" lrg_end="8209" other_start="37816599" other_end="37824807" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="17" other_id="NC_000017.11" other_start="39660346" other_end="39668554">
+        <mapping_span lrg_start="1" lrg_end="8209" other_start="39660346" other_end="39668554" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">TCAP</lrg_locus>
     </annotation_set>
@@ -71,7 +74,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008892.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_003673.3" other_name="NM_003673.3" other_id="NM_003673.3" other_start="1" other_end="963">
         <mapping_span lrg_start="5001" lrg_end="5124" other_start="1" other_end="124" strand="1" />
         <mapping_span lrg_start="5371" lrg_end="6209" other_start="125" other_end="963" strand="1" />
@@ -295,8 +298,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000309889.2" other_name="ENST00000309889.2" other_id="ENST00000309889.2" other_start="1" other_end="2123">
         <mapping_span lrg_start="3842" lrg_end="5124" other_start="1" other_end="1283" strand="1" />
         <mapping_span lrg_start="5371" lrg_end="6210" other_start="1284" other_end="2123" strand="1" />
@@ -312,16 +315,16 @@
           <coordinates coord_system="LRG_210" start="1" end="3139" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>StAR-related lipid transfer (START) domain containing 3 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="607048" />
+          <db_xref source="HGNC" accession="17579">
+            <synonym>es64</synonym>
+            <synonym>MLN64</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="10948">
             <synonym>CAB1</synonym>
             <synonym>es64</synonym>
             <synonym>MLN64</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="17579">
-            <synonym>es64</synonym>
-            <synonym>MLN64</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="607048" />
           <db_xref source="Ensembl" accession="ENSG00000131748" />
           <transcript source="Ensembl" accession="ENST00000336308">
             <coordinates coord_system="LRG_210" start="1" end="3139" strand="1" mapped_from="GRCh37" />
@@ -348,9 +351,7 @@
             <protein_product source="Ensembl" accession="ENSP00000337446">
               <coordinates coord_system="LRG_210" start="1" end="2563" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>stAR-related lipid transfer protein 3 isoform 1, stAR-related lipid transfer protein 3 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_006795.3" />
-              <db_xref source="RefSeq" accession="NP_001159409.1" />
+              <long_name>stAR-related lipid transfer protein 3 isoform 2, stAR-related lipid transfer protein 3 isoform 1</long_name>
               <db_xref source="UniProtKB" accession="Q14849">
                 <synonym>A8MXA4</synonym>
                 <synonym>B4DUY1</synonym>
@@ -358,6 +359,8 @@
                 <synonym>Q53Y53</synonym>
                 <synonym>Q96HM9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001159409.1" />
+              <db_xref source="RefSeq" accession="NP_006795.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000544210">
@@ -437,7 +440,6 @@
               <coordinates coord_system="LRG_210" start="1" end="2563" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>stAR-related lipid transfer protein 3 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001159410.1" />
               <db_xref source="UniProtKB" accession="Q14849">
                 <synonym>A8MXA4</synonym>
                 <synonym>B4DUY1</synonym>
@@ -445,6 +447,7 @@
                 <synonym>Q53Y53</synonym>
                 <synonym>Q96HM9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001159410.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000580611">
@@ -643,13 +646,7 @@
           <symbol source="HGNC" name="TCAP" />
           <coordinates coord_system="LRG_210" start="3842" end="6210" strand="1" mapped_from="GRCh37" />
           <long_name>titin-cap (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="8557">
-            <synonym>CMD1N</synonym>
-            <synonym>LGMD2G</synonym>
-            <synonym>T-cap</synonym>
-            <synonym>TELE</synonym>
-            <synonym>telethonin</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="604488" />
           <db_xref source="HGNC" accession="11610">
             <synonym>CMD1N</synonym>
             <synonym>LGMD2G</synonym>
@@ -657,7 +654,13 @@
             <synonym>TELE</synonym>
             <synonym>telethonin</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="604488" />
+          <db_xref source="GeneID" accession="8557">
+            <synonym>CMD1N</synonym>
+            <synonym>LGMD2G</synonym>
+            <synonym>T-cap</synonym>
+            <synonym>TELE</synonym>
+            <synonym>telethonin</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000173991" />
           <transcript source="Ensembl" accession="ENST00000309889">
             <coordinates coord_system="LRG_210" start="3842" end="6210" strand="1" mapped_from="GRCh37" />
@@ -701,14 +704,14 @@
           <coordinates coord_system="LRG_210" start="7636" end="8209" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>phenylethanolamine N-methyltransferase (protein_coding)</long_name>
+          <db_xref source="MIM" accession="171190" />
+          <db_xref source="HGNC" accession="9160">
+            <synonym>PENT</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5409">
             <synonym>PENT</synonym>
             <synonym>PNMTase</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9160">
-            <synonym>PENT</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="171190" />
           <db_xref source="Ensembl" accession="ENSG00000141744" />
           <transcript source="Ensembl" accession="ENST00000394246">
             <coordinates coord_system="LRG_210" start="7636" end="8209" strand="1" mapped_from="GRCh37" />
@@ -723,7 +726,7 @@
             <partial>3-prime</partial>
             <long_name>PNMT-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS11343.1" />
-            <db_xref source="RefSeq" accession="NM_002686.3" />
+            <db_xref source="RefSeq" accession="NM_002686.4" />
             <exon source="Ensembl" accession="ENSE00000950701">
               <coordinates coord_system="LRG_210" start="7813" end="8209" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
@@ -732,8 +735,8 @@
               <coordinates coord_system="LRG_210" start="8131" end="8209" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>phenylethanolamine N-methyltransferase</long_name>
-              <db_xref source="RefSeq" accession="NP_002677.1" />
               <db_xref source="UniProtKB" accession="P11086" />
+              <db_xref source="RefSeq" accession="NP_002677.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000581428">
@@ -757,7 +760,7 @@
         <name>List of locus specific databases for TCAP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TCAP</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

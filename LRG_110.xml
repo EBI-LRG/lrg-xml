@@ -245,9 +245,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="5" other_id="NC_000005.9" other_start="147438535" other_end="147518925">
         <mapping_span lrg_start="1" lrg_end="80391" other_start="147438535" other_end="147518925" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="5" other_id="NC_000005.10" other_start="148058972" other_end="148139362">
+        <mapping_span lrg_start="1" lrg_end="80391" other_start="148058972" other_end="148139362" strand="1">
+          <diff type="mismatch" lrg_start="20818" lrg_end="20818" other_start="148079789" other_end="148079789" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">SPINK5</lrg_locus>
     </annotation_set>
@@ -262,7 +267,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009633.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001127698.1" other_name="NM_001127698.1" other_id="NM_001127698.1" other_start="1" other_end="3729">
         <mapping_span lrg_start="5001" lrg_end="5128" other_start="1" other_end="128" strand="1" />
         <mapping_span lrg_start="6376" lrg_end="6401" other_start="129" other_end="154" strand="1" />
@@ -723,8 +728,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000256084.7" other_name="ENST00000256084.7" other_id="ENST00000256084.7" other_start="1" other_end="3535">
         <mapping_span lrg_start="5032" lrg_end="5128" other_start="1" other_end="97" strand="1" />
         <mapping_span lrg_start="6376" lrg_end="6401" other_start="98" other_end="123" strand="1" />
@@ -924,13 +929,7 @@
           <coordinates coord_system="LRG_110" start="1" end="78318" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>serine peptidase inhibitor, Kazal type 5 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="11005">
-            <synonym>LEKTI</synonym>
-            <synonym>LETKI</synonym>
-            <synonym>NETS</synonym>
-            <synonym>NS</synonym>
-            <synonym>VAKTI</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="605010" />
           <db_xref source="HGNC" accession="15464">
             <synonym>DKFZp686K19184</synonym>
             <synonym>FLJ21544</synonym>
@@ -943,7 +942,13 @@
             <synonym>NS</synonym>
             <synonym>VAKTI</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="605010" />
+          <db_xref source="GeneID" accession="11005">
+            <synonym>LEKTI</synonym>
+            <synonym>LETKI</synonym>
+            <synonym>NETS</synonym>
+            <synonym>NS</synonym>
+            <synonym>VAKTI</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000133710" />
           <transcript source="Ensembl" accession="ENST00000521206">
             <coordinates coord_system="LRG_110" start="1" end="13230" strand="1" mapped_from="GRCh37" />
@@ -1057,7 +1062,6 @@
             <protein_product source="Ensembl" accession="ENSP00000381472">
               <coordinates coord_system="LRG_110" start="5074" end="65878" strand="1" mapped_from="GRCh37" />
               <long_name>serine protease inhibitor Kazal-type 5 isoform c precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001121171.1" />
               <db_xref source="UniProtKB" accession="Q9NQ38">
                 <synonym>A8MYE8</synonym>
                 <synonym>B7WPB7</synonym>
@@ -1069,6 +1073,7 @@
                 <synonym>Q96PP2</synonym>
                 <synonym>Q96PP3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001121171.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000359874">
@@ -1181,7 +1186,6 @@
             <protein_product source="Ensembl" accession="ENSP00000352936">
               <coordinates coord_system="LRG_110" start="5074" end="78020" strand="1" mapped_from="GRCh37" />
               <long_name>serine protease inhibitor Kazal-type 5 isoform a precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001121170.1" />
               <db_xref source="UniProtKB" accession="Q9NQ38">
                 <synonym>A8MYE8</synonym>
                 <synonym>B7WPB7</synonym>
@@ -1193,6 +1197,7 @@
                 <synonym>Q96PP2</synonym>
                 <synonym>Q96PP3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001121170.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000476697">
@@ -1509,7 +1514,6 @@
             <protein_product source="Ensembl" accession="ENSP00000256084">
               <coordinates coord_system="LRG_110" start="5074" end="78020" strand="1" mapped_from="GRCh37" />
               <long_name>serine protease inhibitor Kazal-type 5 isoform b precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_006837.2" />
               <db_xref source="UniProtKB" accession="Q9NQ38">
                 <synonym>A8MYE8</synonym>
                 <synonym>B7WPB7</synonym>
@@ -1521,6 +1525,7 @@
                 <synonym>Q96PP2</synonym>
                 <synonym>Q96PP3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006837.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000481286">
@@ -1578,7 +1583,7 @@
         <name>List of locus specific databases for SPINK5</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SPINK5</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

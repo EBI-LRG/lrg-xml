@@ -84,9 +84,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_start="58030277" other_end="58057527">
         <mapping_span lrg_start="1" lrg_end="27251" other_start="58030277" other_end="58057527" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="16" other_id="NC_000016.10" other_start="57996373" other_end="58023623">
+        <mapping_span lrg_start="1" lrg_end="27251" other_start="57996373" other_end="58023623" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">USB1</lrg_locus>
     </annotation_set>
@@ -101,7 +104,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_027698.1</comment>
-      <modification_date>2013-11-22</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001195302.1" other_name="NM_001195302.1" other_id="NM_001195302.1" other_start="1" other_end="2233">
         <mapping_span lrg_start="5001" lrg_end="5209" other_start="1" other_end="209" strand="1" />
         <mapping_span lrg_start="6107" lrg_end="6273" other_start="210" other_end="376" strand="1" />
@@ -283,8 +286,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-25</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000219281.3" other_name="ENST00000219281.3" other_id="ENST00000219281.3" other_start="1" other_end="2282">
         <mapping_span lrg_start="5001" lrg_end="5209" other_start="1" other_end="209" strand="1" />
         <mapping_span lrg_start="6107" lrg_end="6273" other_start="210" other_end="376" strand="1" />
@@ -392,12 +395,12 @@
           <coordinates coord_system="LRG_352" start="1" end="4081" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>zinc finger protein 319 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="57567">
-            <synonym>ZFP319</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="13644">
             <synonym>KIAA1388</synonym>
             <synonym>Zfp319</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="57567">
+            <synonym>ZFP319</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000166188" />
           <transcript source="Ensembl" accession="ENST00000299237">
@@ -416,10 +419,10 @@
             <protein_product source="Ensembl" accession="ENSP00000299237">
               <coordinates coord_system="LRG_352" start="145" end="1893" strand="-1" mapped_from="GRCh37" />
               <long_name>zinc finger protein 319</long_name>
-              <db_xref source="RefSeq" accession="NP_065858.1" />
               <db_xref source="UniProtKB" accession="Q9P2F9">
                 <synonym>Q52LH8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_065858.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000562909">
@@ -440,6 +443,13 @@
           <symbol source="HGNC" name="USB1" />
           <coordinates coord_system="LRG_352" start="3174" end="25246" strand="1" mapped_from="GRCh37" />
           <long_name>U6 snRNA biogenesis 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="613276" />
+          <db_xref source="HGNC" accession="25792">
+            <synonym>C16orf57</synonym>
+            <synonym>FLJ13154</synonym>
+            <synonym>HVSL1</synonym>
+            <synonym>Mpn1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="79650">
             <synonym>C16orf57</synonym>
             <synonym>hUsb1</synonym>
@@ -447,13 +457,6 @@
             <synonym>Mpn1</synonym>
             <synonym>PN</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="25792">
-            <synonym>C16orf57</synonym>
-            <synonym>FLJ13154</synonym>
-            <synonym>HVSL1</synonym>
-            <synonym>Mpn1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="613276" />
           <db_xref source="Ensembl" accession="ENSG00000103005" />
           <transcript source="Ensembl" accession="ENST00000561743">
             <coordinates coord_system="LRG_352" start="3174" end="24170" strand="1" mapped_from="GRCh37" />
@@ -512,13 +515,13 @@
             <protein_product source="Ensembl" accession="ENSP00000219281">
               <coordinates coord_system="LRG_352" start="5112" end="23873" strand="1" mapped_from="GRCh37" />
               <long_name>U6 snRNA phosphodiesterase isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_078874.2" />
               <db_xref source="UniProtKB" accession="Q9BQ65">
                 <synonym>B4DWE3</synonym>
                 <synonym>B4DZW5</synonym>
                 <synonym>Q96FZ9</synonym>
                 <synonym>Q9H8X8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_078874.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000539737">
@@ -547,13 +550,13 @@
             <protein_product source="Ensembl" accession="ENSP00000446143">
               <coordinates coord_system="LRG_352" start="5112" end="23873" strand="1" mapped_from="GRCh37" />
               <long_name>U6 snRNA phosphodiesterase isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001182231.1" />
               <db_xref source="UniProtKB" accession="Q9BQ65">
                 <synonym>B4DWE3</synonym>
                 <synonym>B4DZW5</synonym>
                 <synonym>Q96FZ9</synonym>
                 <synonym>Q9H8X8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001182231.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000423271">
@@ -787,7 +790,7 @@
         <name>List of locus specific databases for USB1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/USB1</url>
       </source>
-      <modification_date>2013-11-25</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

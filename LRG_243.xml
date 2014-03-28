@@ -144,9 +144,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_start="30629181" other_end="30675649">
         <mapping_span lrg_start="1" lrg_end="46469" other_start="30629181" other_end="30675649" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="7" other_id="NC_000007.14" other_start="30589565" other_end="30636033">
+        <mapping_span lrg_start="1" lrg_end="46469" other_start="30589565" other_end="30636033" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">GARS</lrg_locus>
     </annotation_set>
@@ -161,7 +164,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007942.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_002047.2" other_name="NM_002047.2" other_id="NM_002047.2" other_start="1" other_end="2750">
         <mapping_span lrg_start="5001" lrg_end="5579" other_start="1" other_end="579" strand="1" />
         <mapping_span lrg_start="9232" lrg_end="9333" other_start="580" other_end="681" strand="1" />
@@ -280,8 +283,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000389266.3" other_name="ENST00000389266.3" other_id="ENST00000389266.3" other_start="1" other_end="2634">
         <mapping_span lrg_start="5117" lrg_end="5579" other_start="1" other_end="463" strand="1" />
         <mapping_span lrg_start="9232" lrg_end="9333" other_start="464" other_end="565" strand="1" />
@@ -362,6 +365,8 @@
           <coordinates coord_system="LRG_243" start="1" end="5245" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>AC005154.6 (processed_transcript)</long_name>
+          <db_xref source="GeneID" accession="101928623" />
+          <db_xref source="GeneID" accession="401320" />
           <db_xref source="Ensembl" accession="ENSG00000196295" />
           <transcript source="Ensembl" accession="ENST00000426529">
             <coordinates coord_system="LRG_243" start="1" end="5179" strand="-1" mapped_from="GRCh37" />
@@ -456,6 +461,13 @@
           <symbol source="HGNC" name="GARS" />
           <coordinates coord_system="LRG_243" start="5117" end="44469" strand="1" mapped_from="GRCh37" />
           <long_name>glycyl-tRNA synthetase (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600287" />
+          <db_xref source="HGNC" accession="4162">
+            <synonym>CMT2D</synonym>
+            <synonym>DSMAV</synonym>
+            <synonym>GlyRS</synonym>
+            <synonym>SMAD1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2617">
             <synonym>CMT2D</synonym>
             <synonym>DSMAV</synonym>
@@ -463,13 +475,6 @@
             <synonym>HMN5</synonym>
             <synonym>SMAD1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="4162">
-            <synonym>CMT2D</synonym>
-            <synonym>DSMAV</synonym>
-            <synonym>GlyRS</synonym>
-            <synonym>SMAD1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="600287" />
           <db_xref source="Ensembl" accession="ENSG00000106105" />
           <transcript source="Ensembl" accession="ENST00000389266">
             <coordinates coord_system="LRG_243" start="5117" end="44469" strand="1" mapped_from="GRCh37" />
@@ -530,12 +535,12 @@
             <protein_product source="Ensembl" accession="ENSP00000373918">
               <coordinates coord_system="LRG_243" start="5358" end="44296" strand="1" mapped_from="GRCh37" />
               <long_name>glycine--tRNA ligase precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_002038.2" />
               <db_xref source="UniProtKB" accession="P41250">
                 <synonym>B3KQA2</synonym>
                 <synonym>B4DIA0</synonym>
                 <synonym>Q969Y1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002038.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000454308">
@@ -701,7 +706,7 @@
         <name>List of locus specific databases for GARS</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GARS</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

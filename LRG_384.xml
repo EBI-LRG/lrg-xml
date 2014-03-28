@@ -278,9 +278,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_start="23879947" other_end="23909870">
         <mapping_span lrg_start="1" lrg_end="29924" other_start="23879947" other_end="23909870" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="14" other_id="NC_000014.9" other_start="23410738" other_end="23440661">
+        <mapping_span lrg_start="1" lrg_end="29924" other_start="23410738" other_end="23440661" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">MYH7</lrg_locus>
     </annotation_set>
@@ -295,7 +298,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007884.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000257.2" other_name="NM_000257.2" other_id="NM_000257.2" other_start="1" other_end="6030">
         <mapping_span lrg_start="5001" lrg_end="5042" other_start="1" other_end="42" strand="1" />
         <mapping_span lrg_start="6413" lrg_end="6468" other_start="43" other_end="98" strand="1" />
@@ -511,8 +514,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000355349.3" other_name="ENST00000355349.3" other_id="ENST00000355349.3" other_start="1" other_end="6087">
         <mapping_span lrg_start="4944" lrg_end="5042" other_start="1" other_end="99" strand="1" />
         <mapping_span lrg_start="6413" lrg_end="6468" other_start="100" other_end="155" strand="1" />
@@ -560,6 +563,12 @@
           <symbol source="HGNC" name="MYH7" />
           <coordinates coord_system="LRG_384" start="4944" end="27924" strand="1" mapped_from="GRCh37" />
           <long_name>myosin, heavy chain 7, cardiac muscle, beta (protein_coding)</long_name>
+          <db_xref source="MIM" accession="160760" />
+          <db_xref source="HGNC" accession="7577">
+            <synonym>CMD1S</synonym>
+            <synonym>CMH1</synonym>
+            <synonym>MPD1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4625">
             <synonym>CMD1S</synonym>
             <synonym>CMH1</synonym>
@@ -568,12 +577,6 @@
             <synonym>SPMD</synonym>
             <synonym>SPMM</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7577">
-            <synonym>CMD1S</synonym>
-            <synonym>CMH1</synonym>
-            <synonym>MPD1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="160760" />
           <db_xref source="Ensembl" accession="ENSG00000092054" />
           <transcript source="Ensembl" accession="ENST00000355349">
             <coordinates coord_system="LRG_384" start="4944" end="27924" strand="1" mapped_from="GRCh37" />
@@ -703,7 +706,6 @@
             <protein_product source="Ensembl" accession="ENSP00000347507">
               <coordinates coord_system="LRG_384" start="6930" end="27808" strand="1" mapped_from="GRCh37" />
               <long_name>myosin-7</long_name>
-              <db_xref source="RefSeq" accession="NP_000248.2" />
               <db_xref source="UniProtKB" accession="P12883">
                 <synonym>A2TDB6</synonym>
                 <synonym>B6D424</synonym>
@@ -717,6 +719,7 @@
                 <synonym>Q9UDA2</synonym>
                 <synonym>Q9UMM8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000248.2" />
             </protein_product>
           </transcript>
         </gene>
@@ -724,15 +727,15 @@
           <symbol source="HGNC" name="MIR208B" />
           <coordinates coord_system="LRG_384" start="22599" end="22675" strand="1" mapped_from="GRCh37" />
           <long_name>microRNA 208b (miRNA)</long_name>
-          <db_xref source="GeneID" accession="100126336">
-            <synonym>MIRN208B</synonym>
-          </db_xref>
+          <db_xref source="miRBase" accession="MI0005570" />
+          <db_xref source="MIM" accession="613613" />
           <db_xref source="HGNC" accession="33669">
             <synonym>hsa-mir-208b</synonym>
             <synonym>MIRN208B</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="613613" />
-          <db_xref source="miRBase" accession="MI0005570" />
+          <db_xref source="GeneID" accession="100126336">
+            <synonym>MIRN208B</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000215991" />
           <transcript source="Ensembl" accession="ENST00000401172">
             <coordinates coord_system="LRG_384" start="22599" end="22675" strand="1" mapped_from="GRCh37" />
@@ -766,7 +769,7 @@
         <name>List of locus specific databases for MYH7</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MYH7</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

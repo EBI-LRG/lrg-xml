@@ -111,9 +111,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_start="35415138" other_end="35436881">
         <mapping_span lrg_start="1" lrg_end="21744" other_start="35415138" other_end="35436881" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="6" other_id="NC_000006.12" other_start="35447361" other_end="35469104">
+        <mapping_span lrg_start="1" lrg_end="21744" other_start="35447361" other_end="35469104" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">FANCE</lrg_locus>
     </annotation_set>
@@ -128,7 +131,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011708.1</comment>
-      <modification_date>2013-09-10</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_021922.2" other_name="NM_021922.2" other_id="NM_021922.2" other_start="1" other_end="2555">
         <mapping_span lrg_start="5001" lrg_end="5433" other_start="1" other_end="433" strand="1" />
         <mapping_span lrg_start="8387" lrg_end="8993" other_start="434" other_end="1040" strand="1" />
@@ -259,8 +262,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-13</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-14</modification_date>
       <mapping coord_system="ENST00000229769.2" other_name="ENST00000229769.2" other_id="ENST00000229769.2" other_start="1" other_end="2554">
         <mapping_span lrg_start="5001" lrg_end="5433" other_start="1" other_end="433" strand="1" />
         <mapping_span lrg_start="8387" lrg_end="8993" other_start="434" other_end="1040" strand="1" />
@@ -301,15 +304,15 @@
           <symbol source="HGNC" name="FANCE" />
           <coordinates coord_system="LRG_498" start="5001" end="19743" strand="1" mapped_from="GRCh37" />
           <long_name>Fanconi anemia, complementation group E (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="2178">
-            <synonym>FACE</synonym>
-            <synonym>FAE</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="613976" />
           <db_xref source="HGNC" accession="3586">
             <synonym>FACE</synonym>
             <synonym>FAE</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="613976" />
+          <db_xref source="GeneID" accession="2178">
+            <synonym>FACE</synonym>
+            <synonym>FAE</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000112039" />
           <transcript source="Ensembl" accession="ENST00000229769">
             <coordinates coord_system="LRG_498" start="5001" end="19743" strand="1" mapped_from="GRCh37" />
@@ -349,11 +352,11 @@
             <protein_product source="Ensembl" accession="ENSP00000229769">
               <coordinates coord_system="LRG_498" start="5186" end="18985" strand="1" mapped_from="GRCh37" />
               <long_name>Fanconi anemia group E protein</long_name>
-              <db_xref source="RefSeq" accession="NP_068741.1" />
               <db_xref source="UniProtKB" accession="Q9HB96">
                 <synonym>A8K907</synonym>
                 <synonym>Q4ZGH2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_068741.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -362,12 +365,12 @@
           <coordinates coord_system="LRG_498" start="21048" end="21744" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>ribosomal protein L10a (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4736">
+          <db_xref source="HGNC" accession="10299">
             <synonym>Csa-19</synonym>
             <synonym>L10A</synonym>
             <synonym>NEDD6</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="10299">
+          <db_xref source="GeneID" accession="4736">
             <synonym>Csa-19</synonym>
             <synonym>L10A</synonym>
             <synonym>NEDD6</synonym>
@@ -392,7 +395,6 @@
               <coordinates coord_system="LRG_498" start="21075" end="21744" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>60S ribosomal protein L10a</long_name>
-              <db_xref source="RefSeq" accession="NP_009035.3" />
               <db_xref source="UniProtKB" accession="P62906">
                 <synonym>B2R801</synonym>
                 <synonym>P52859</synonym>
@@ -400,6 +402,7 @@
                 <synonym>Q5TZT6</synonym>
                 <synonym>Q8J013</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_009035.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000467020">
@@ -462,7 +465,7 @@
         <name>List of locus specific databases for FANCE</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FANCE</url>
       </source>
-      <modification_date>2013-09-13</modification_date>
+      <modification_date>2014-03-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
