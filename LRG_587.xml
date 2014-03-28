@@ -361,10 +361,16 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_start="6056040" other_end="6238836">
         <mapping_span lrg_start="1" lrg_end="182797" other_start="6056040" other_end="6238836" strand="-1">
           <diff type="mismatch" lrg_start="94853" lrg_end="94853" other_start="6143984" other_end="6143984" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="12" other_id="NC_000012.12" other_start="5946874" other_end="6129670">
+        <mapping_span lrg_start="1" lrg_end="182797" other_start="5946874" other_end="6129670" strand="-1">
+          <diff type="mismatch" lrg_start="94853" lrg_end="94853" other_start="6034818" other_end="6034818" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="146913" lrg_end="146913" other_start="5982758" other_end="5982758" lrg_sequence="T" other_sequence="C" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">VWF</lrg_locus>
@@ -380,7 +386,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009072.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000552.3" other_name="NM_000552.3" other_id="NM_000552.3" other_start="1" other_end="8833">
         <mapping_span lrg_start="5001" lrg_end="5250" other_start="1" other_end="250" strand="1" />
         <mapping_span lrg_start="6475" lrg_end="6529" other_start="251" other_end="305" strand="1" />
@@ -631,8 +637,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000261405.5" other_name="ENST00000261405.5" other_id="ENST00000261405.5" other_start="1" other_end="8838">
         <mapping_span lrg_start="4996" lrg_end="5250" other_start="1" other_end="255" strand="1" />
         <mapping_span lrg_start="6475" lrg_end="6529" other_start="256" other_end="310" strand="1" />
@@ -740,14 +746,14 @@
           <symbol source="HGNC" name="VWF" />
           <coordinates coord_system="LRG_587" start="4901" end="180797" strand="1" mapped_from="GRCh37" />
           <long_name>von Willebrand factor (protein_coding)</long_name>
+          <db_xref source="MIM" accession="613160" />
+          <db_xref source="HGNC" accession="12726">
+            <synonym>F8VWF</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="7450">
             <synonym>F8VWF</synonym>
             <synonym>VWD</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="12726">
-            <synonym>F8VWF</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="613160" />
           <db_xref source="Ensembl" accession="ENSG00000110799" />
           <transcript source="Ensembl" accession="ENST00000538635">
             <coordinates coord_system="LRG_587" start="4901" end="135791" strand="1" mapped_from="GRCh37" />
@@ -935,10 +941,10 @@
             <protein_product source="Ensembl" accession="ENSP00000261405">
               <coordinates coord_system="LRG_587" start="6475" end="180656" strand="1" mapped_from="GRCh37" />
               <long_name>von Willebrand factor preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_000543.2" />
               <db_xref source="UniProtKB" accession="P04275">
                 <synonym>Q99806</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000543.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000545906">
@@ -1057,8 +1063,8 @@
           <symbol source="HGNC" name="RN7SL69P" />
           <coordinates coord_system="LRG_587" start="33701" end="33970" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, 7SL, cytoplasmic 69, pseudogene (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="46085" />
           <db_xref source="RFAM" accession="RF00017" />
+          <db_xref source="HGNC" accession="46085" />
           <db_xref source="Ensembl" accession="ENSG00000240533" />
           <transcript source="Ensembl" accession="ENST00000468423">
             <coordinates coord_system="LRG_587" start="33701" end="33970" strand="1" mapped_from="GRCh37" />
@@ -1075,7 +1081,7 @@
         <name>List of locus specific databases for VWF</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/VWF</url>
       </source>
-      <modification_date>2013-12-02</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

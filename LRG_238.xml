@@ -306,9 +306,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_start="10823755" other_end="10944579">
         <mapping_span lrg_start="1" lrg_end="120825" other_start="10823755" other_end="10944579" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="19" other_id="NC_000019.10" other_start="10713079" other_end="10833903">
+        <mapping_span lrg_start="1" lrg_end="120825" other_start="10713079" other_end="10833903" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">DNM2</lrg_locus>
     </annotation_set>
@@ -323,7 +326,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008792.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001005360.2" other_name="NM_001005360.2" other_id="NM_001005360.2" other_start="1" other_end="3666">
         <mapping_span lrg_start="4975" lrg_end="5325" other_start="1" other_end="351" strand="1" />
         <mapping_span lrg_start="46660" lrg_end="46733" other_start="352" other_end="425" strand="1" />
@@ -947,8 +950,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000314646.5" other_name="ENST00000314646.5" other_id="ENST00000314646.5" other_start="1" other_end="3633">
         <mapping_span lrg_start="5001" lrg_end="5325" other_start="1" other_end="325" strand="1" />
         <mapping_span lrg_start="46660" lrg_end="46733" other_start="326" other_end="399" strand="1" />
@@ -1186,15 +1189,15 @@
           <coordinates coord_system="LRG_238" start="1" end="359" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>queuine tRNA-ribosyltransferase 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="609615" />
+          <db_xref source="HGNC" accession="23797">
+            <synonym>TGT</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="81890">
             <synonym>FP3235</synonym>
             <synonym>TGT</synonym>
             <synonym>TGUT</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="23797">
-            <synonym>TGT</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="609615" />
           <db_xref source="Ensembl" accession="ENSG00000213339" />
           <transcript source="Ensembl" accession="ENST00000589488">
             <coordinates coord_system="LRG_238" start="1" end="267" strand="1" mapped_from="GRCh37" />
@@ -1217,11 +1220,11 @@
               <coordinates coord_system="LRG_238" start="1" end="192" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>queuine tRNA-ribosyltransferase</long_name>
-              <db_xref source="RefSeq" accession="NP_112486.1" />
               <db_xref source="UniProtKB" accession="Q9BXR0">
                 <synonym>Q96BQ4</synonym>
                 <synonym>Q9BXQ9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_112486.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000421333">
@@ -1276,14 +1279,7 @@
           <symbol source="HGNC" name="DNM2" />
           <coordinates coord_system="LRG_238" start="5001" end="120410" strand="1" mapped_from="GRCh37" />
           <long_name>dynamin 2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="1785">
-            <synonym>CMT2M</synonym>
-            <synonym>CMTDI1</synonym>
-            <synonym>CMTDIB</synonym>
-            <synonym>DI-CMTB</synonym>
-            <synonym>DYN2</synonym>
-            <synonym>DYNII</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="602378" />
           <db_xref source="HGNC" accession="2974">
             <synonym>CMTDI1</synonym>
             <synonym>CMTDIB</synonym>
@@ -1291,7 +1287,15 @@
             <synonym>DYN2</synonym>
             <synonym>DYNII</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="602378" />
+          <db_xref source="GeneID" accession="1785">
+            <synonym>CMT2M</synonym>
+            <synonym>CMTDI1</synonym>
+            <synonym>CMTDIB</synonym>
+            <synonym>DI-CMTB</synonym>
+            <synonym>DYN2</synonym>
+            <synonym>DYNII</synonym>
+            <synonym>LCCS5</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000079805" />
           <transcript source="Ensembl" accession="ENST00000585892">
             <coordinates coord_system="LRG_238" start="5001" end="117969" strand="1" mapped_from="GRCh37" />
@@ -1362,6 +1366,15 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000468734">
               <coordinates coord_system="LRG_238" start="5165" end="117969" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="P50570">
+                <synonym>A8K1B6</synonym>
+                <synonym>E7EV30</synonym>
+                <synonym>E9PEQ4</synonym>
+                <synonym>K7ESI9</synonym>
+                <synonym>Q5I0Y0</synonym>
+                <synonym>Q7Z5S3</synonym>
+                <synonym>Q9UPH4</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000314646">
@@ -1502,15 +1515,16 @@
             <protein_product source="Ensembl" accession="ENSP00000352721">
               <coordinates coord_system="LRG_238" start="5165" end="117969" strand="1" mapped_from="GRCh37" />
               <long_name>dynamin-2 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_004936.2" />
               <db_xref source="UniProtKB" accession="P50570">
                 <synonym>A8K1B6</synonym>
                 <synonym>E7EV30</synonym>
                 <synonym>E9PEQ4</synonym>
+                <synonym>K7ESI9</synonym>
                 <synonym>Q5I0Y0</synonym>
                 <synonym>Q7Z5S3</synonym>
                 <synonym>Q9UPH4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004936.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000389253">
@@ -1584,15 +1598,16 @@
             <protein_product source="Ensembl" accession="ENSP00000373905">
               <coordinates coord_system="LRG_238" start="5165" end="117969" strand="1" mapped_from="GRCh37" />
               <long_name>dynamin-2 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001005361.1" />
               <db_xref source="UniProtKB" accession="P50570">
                 <synonym>A8K1B6</synonym>
                 <synonym>E7EV30</synonym>
                 <synonym>E9PEQ4</synonym>
+                <synonym>K7ESI9</synonym>
                 <synonym>Q5I0Y0</synonym>
                 <synonym>Q7Z5S3</synonym>
                 <synonym>Q9UPH4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001005361.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000355667">
@@ -1666,17 +1681,18 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000347890">
               <coordinates coord_system="LRG_238" start="5165" end="117969" strand="1" mapped_from="GRCh37" />
-              <long_name>dynamin-2 isoform 1, dynamin-2 isoform 5</long_name>
-              <db_xref source="RefSeq" accession="NP_001005360.1" />
-              <db_xref source="RefSeq" accession="NP_001177645.1" />
+              <long_name>dynamin-2 isoform 5, dynamin-2 isoform 1</long_name>
               <db_xref source="UniProtKB" accession="P50570">
                 <synonym>A8K1B6</synonym>
                 <synonym>E7EV30</synonym>
                 <synonym>E9PEQ4</synonym>
+                <synonym>K7ESI9</synonym>
                 <synonym>Q5I0Y0</synonym>
                 <synonym>Q7Z5S3</synonym>
                 <synonym>Q9UPH4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001177645.1" />
+              <db_xref source="RefSeq" accession="NP_001005360.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000408974">
@@ -1747,15 +1763,16 @@
             <protein_product source="Ensembl" accession="ENSP00000386192">
               <coordinates coord_system="LRG_238" start="5165" end="117969" strand="1" mapped_from="GRCh37" />
               <long_name>dynamin-2 isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_001005362.1" />
               <db_xref source="UniProtKB" accession="P50570">
                 <synonym>A8K1B6</synonym>
                 <synonym>E7EV30</synonym>
                 <synonym>E9PEQ4</synonym>
+                <synonym>K7ESI9</synonym>
                 <synonym>Q5I0Y0</synonym>
                 <synonym>Q7Z5S3</synonym>
                 <synonym>Q9UPH4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001005362.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000586939">
@@ -2026,15 +2043,15 @@
           <symbol source="HGNC" name="MIR638" />
           <coordinates coord_system="LRG_238" start="5326" end="5425" strand="1" mapped_from="GRCh37" />
           <long_name>microRNA 638 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="693223">
-            <synonym>hsa-mir-638</synonym>
-            <synonym>MIRN638</synonym>
-          </db_xref>
+          <db_xref source="miRBase" accession="MI0003653" />
           <db_xref source="HGNC" accession="32894">
             <synonym>hsa-mir-638</synonym>
             <synonym>MIRN638</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0003653" />
+          <db_xref source="GeneID" accession="693223">
+            <synonym>hsa-mir-638</synonym>
+            <synonym>MIRN638</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000207972" />
           <transcript source="Ensembl" accession="ENST00000385237">
             <coordinates coord_system="LRG_238" start="5326" end="5425" strand="1" mapped_from="GRCh37" />
@@ -2049,11 +2066,11 @@
           <symbol source="HGNC" name="MIR4748" />
           <coordinates coord_system="LRG_238" start="67176" end="67257" strand="1" mapped_from="GRCh37" />
           <long_name>microRNA 4748 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="100616425" />
+          <db_xref source="miRBase" accession="MI0017387" />
           <db_xref source="HGNC" accession="41557">
             <synonym>hsa-mir-4748</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0017387" />
+          <db_xref source="GeneID" accession="100616425" />
           <db_xref source="Ensembl" accession="ENSG00000265879" />
           <transcript source="Ensembl" accession="ENST00000578076">
             <coordinates coord_system="LRG_238" start="67176" end="67257" strand="1" mapped_from="GRCh37" />
@@ -2068,16 +2085,16 @@
           <symbol source="HGNC" name="MIR199A1" />
           <coordinates coord_system="LRG_238" start="104348" end="104418" strand="-1" mapped_from="GRCh37" />
           <long_name>microRNA 199a-1 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="406976">
-            <synonym>MIR-199-s</synonym>
-            <synonym>MIRN199A1</synonym>
-          </db_xref>
+          <db_xref source="miRBase" accession="MI0000242" />
+          <db_xref source="MIM" accession="610719" />
           <db_xref source="HGNC" accession="31571">
             <synonym>hsa-mir-199a-1</synonym>
             <synonym>MIRN199A1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="610719" />
-          <db_xref source="miRBase" accession="MI0000242" />
+          <db_xref source="GeneID" accession="406976">
+            <synonym>MIR-199-s</synonym>
+            <synonym>MIRN199A1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000207752" />
           <transcript source="Ensembl" accession="ENST00000385019">
             <coordinates coord_system="LRG_238" start="104348" end="104418" strand="-1" mapped_from="GRCh37" />
@@ -2093,26 +2110,25 @@
           <coordinates coord_system="LRG_238" start="119360" end="120825" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>transmembrane emp24 protein transport domain containing 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="11018">
-            <synonym>Il1rl1l</synonym>
-            <synonym>IL1RL1LG</synonym>
-            <synonym>ST2L</synonym>
-            <synonym>Tp24</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="605395" />
           <db_xref source="HGNC" accession="17291">
             <synonym>Il1rl1l</synonym>
             <synonym>IL1RL1LG</synonym>
             <synonym>MGC1270</synonym>
             <synonym>ST2L</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="605395" />
+          <db_xref source="GeneID" accession="11018">
+            <synonym>Il1rl1l</synonym>
+            <synonym>IL1RL1LG</synonym>
+            <synonym>Tp24</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000099203" />
           <transcript source="Ensembl" accession="ENST00000214869">
             <coordinates coord_system="LRG_238" start="119360" end="120825" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>TMED1-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS12249.1" />
-            <db_xref source="RefSeq" accession="NM_006858.2" />
+            <db_xref source="RefSeq" accession="NM_006858.3" />
             <exon source="Ensembl" accession="ENSE00000888260">
               <coordinates coord_system="LRG_238" start="119360" end="120135" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -2120,8 +2136,8 @@
               <coordinates coord_system="LRG_238" start="119917" end="120825" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>transmembrane emp24 domain-containing protein 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_006849.1" />
               <db_xref source="UniProtKB" accession="Q13445" />
+              <db_xref source="RefSeq" accession="NP_006849.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000586835">
@@ -2196,7 +2212,7 @@
         <name>List of locus specific databases for DNM2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DNM2</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

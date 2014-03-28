@@ -78,9 +78,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="180699497" other_end="180712562">
         <mapping_span lrg_start="1" lrg_end="13066" other_start="180699497" other_end="180712562" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="180981709" other_end="180994774">
+        <mapping_span lrg_start="1" lrg_end="13066" other_start="180981709" other_end="180994774" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">DNAJC19</lrg_locus>
     </annotation_set>
@@ -95,7 +98,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_022933.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001190233.1" other_name="NM_001190233.1" other_id="NM_001190233.1" other_start="1" other_end="1466">
         <mapping_span lrg_start="5257" lrg_end="5443" other_start="1" other_end="187" strand="1" />
         <mapping_span lrg_start="6546" lrg_end="6597" other_start="188" other_end="239" strand="1" />
@@ -231,8 +234,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000382564.2" other_name="ENST00000382564.2" other_id="ENST00000382564.2" other_start="1" other_end="1453">
         <mapping_span lrg_start="5002" lrg_end="5175" other_start="1" other_end="174" strand="1" />
         <mapping_span lrg_start="6546" lrg_end="6597" other_start="175" other_end="226" strand="1" />
@@ -297,12 +300,12 @@
           <coordinates coord_system="LRG_743" start="1" end="5005" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>SOX2 overlapping transcript (non-protein coding) (sense_overlapping)</long_name>
-          <db_xref source="GeneID" accession="347689">
+          <db_xref source="HGNC" accession="20209">
+            <synonym>DKFZp761J1324</synonym>
             <synonym>NCRNA00043</synonym>
             <synonym>SOX2OT</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="20209">
-            <synonym>DKFZp761J1324</synonym>
+          <db_xref source="GeneID" accession="347689">
             <synonym>NCRNA00043</synonym>
             <synonym>SOX2OT</synonym>
           </db_xref>
@@ -328,17 +331,17 @@
           <symbol source="HGNC" name="DNAJC19" />
           <coordinates coord_system="LRG_743" start="5001" end="11066" strand="1" mapped_from="GRCh37" />
           <long_name>DnaJ (Hsp40) homolog, subfamily C, member 19 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="131118">
-            <synonym>PAM18</synonym>
-            <synonym>TIM14</synonym>
-            <synonym>TIMM14</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="608977" />
           <db_xref source="HGNC" accession="30528">
             <synonym>Pam18</synonym>
             <synonym>Tim14</synonym>
             <synonym>TIMM14</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="608977" />
+          <db_xref source="GeneID" accession="131118">
+            <synonym>PAM18</synonym>
+            <synonym>TIM14</synonym>
+            <synonym>TIMM14</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000205981" />
           <transcript source="Ensembl" accession="ENST00000472504">
             <coordinates coord_system="LRG_743" start="5001" end="7189" strand="1" mapped_from="GRCh37" />
@@ -376,11 +379,11 @@
             <protein_product source="Ensembl" accession="ENSP00000372005">
               <coordinates coord_system="LRG_743" start="5173" end="10135" strand="1" mapped_from="GRCh37" />
               <long_name>mitochondrial import inner membrane translocase subunit TIM14 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_660304.1" />
               <db_xref source="UniProtKB" accession="Q96DA6">
                 <synonym>B2R4B1</synonym>
                 <synonym>C9JBV1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_660304.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000486355">
@@ -525,11 +528,11 @@
             <protein_product source="Ensembl" accession="ENSP00000419191">
               <coordinates coord_system="LRG_743" start="6699" end="10135" strand="1" mapped_from="GRCh37" />
               <long_name>mitochondrial import inner membrane translocase subunit TIM14 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001177162.1" />
               <db_xref source="UniProtKB" accession="Q96DA6">
                 <synonym>B2R4B1</synonym>
                 <synonym>C9JBV1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001177162.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -538,11 +541,11 @@
           <coordinates coord_system="LRG_743" start="12022" end="13066" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>fragile X mental retardation, autosomal homolog 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600819" />
+          <db_xref source="HGNC" accession="4023" />
           <db_xref source="GeneID" accession="8087">
             <synonym>FXR1P</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="4023" />
-          <db_xref source="MIM" accession="600819" />
           <db_xref source="Ensembl" accession="ENSG00000114416" />
           <transcript source="Ensembl" accession="ENST00000357559">
             <coordinates coord_system="LRG_743" start="12022" end="13066" strand="-1" mapped_from="GRCh37" />
@@ -564,7 +567,7 @@
         <name>List of locus specific databases for DNAJC19</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DNAJC19</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

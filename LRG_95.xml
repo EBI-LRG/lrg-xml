@@ -243,9 +243,22 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-24</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="1q31" other_id="NW_003315907.1" other_start="275500" other_end="366579">
+        <mapping_span lrg_start="1" lrg_end="91080" other_start="275500" other_end="366579" strand="1" />
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="198603225" other_end="198728330">
         <mapping_span lrg_start="1" lrg_end="125106" other_start="198603225" other_end="198728330" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="unlocalized" other_id="NW_003315907.2" other_start="275500" other_end="366580">
+        <mapping_span lrg_start="1" lrg_end="91080" other_start="275500" other_end="366580" strand="1">
+          <diff type="other_ins" lrg_start="10951" lrg_end="10952" other_start="286451" other_end="286451" lrg_sequence="-" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="198634095" other_end="198759201">
+        <mapping_span lrg_start="1" lrg_end="125106" other_start="198634095" other_end="198759201" strand="1">
+          <diff type="other_ins" lrg_start="10951" lrg_end="10952" other_start="198645046" other_end="198645046" lrg_sequence="-" other_sequence="A" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">PTPRC</lrg_locus>
     </annotation_set>
@@ -260,7 +273,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007730.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001267798.1" other_name="NM_001267798.1" other_id="NM_001267798.1" other_start="1" other_end="1467">
         <mapping_span lrg_start="4874" lrg_end="5043" other_start="1" other_end="170" strand="1" />
         <mapping_span lrg_start="5132" lrg_end="5247" other_start="171" other_end="286" strand="1" />
@@ -624,8 +637,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-24</modification_date>
       <mapping coord_system="ENST00000348564.6" other_name="ENST00000348564.6" other_id="ENST00000348564.6" other_start="1" other_end="4626">
         <mapping_span lrg_start="5001" lrg_end="5043" other_start="1" other_end="43" strand="1" />
         <mapping_span lrg_start="5132" lrg_end="5247" other_start="44" other_end="159" strand="1" />
@@ -927,6 +940,13 @@
           <symbol source="HGNC" name="PTPRC" />
           <coordinates coord_system="LRG_95" start="4577" end="123321" strand="1" mapped_from="GRCh37" />
           <long_name>protein tyrosine phosphatase, receptor type, C (protein_coding)</long_name>
+          <db_xref source="MIM" accession="151460" />
+          <db_xref source="HGNC" accession="9666">
+            <synonym>CD45</synonym>
+            <synonym>GP180</synonym>
+            <synonym>LCA</synonym>
+            <synonym>T200</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5788">
             <synonym>B220</synonym>
             <synonym>CD45</synonym>
@@ -937,13 +957,6 @@
             <synonym>LY5</synonym>
             <synonym>T200</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9666">
-            <synonym>CD45</synonym>
-            <synonym>GP180</synonym>
-            <synonym>LCA</synonym>
-            <synonym>T200</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="151460" />
           <db_xref source="Ensembl" accession="ENSG00000081237" />
           <transcript source="Ensembl" accession="ENST00000367379">
             <coordinates coord_system="LRG_95" start="4577" end="74062" strand="1" mapped_from="GRCh37" />
@@ -1079,12 +1092,12 @@
             <protein_product source="Ensembl" accession="ENSP00000356346">
               <coordinates coord_system="LRG_95" start="5181" end="122086" strand="1" mapped_from="GRCh37" />
               <long_name>receptor-type tyrosine-protein phosphatase C isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_002829.3" />
               <db_xref source="UniProtKB" accession="P08575">
                 <synonym>A8K7W6</synonym>
                 <synonym>Q16614</synonym>
                 <synonym>Q9H0Y6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002829.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000352140">
@@ -1287,12 +1300,12 @@
             <protein_product source="Ensembl" accession="ENSP00000471843">
               <coordinates coord_system="LRG_95" start="5181" end="122086" strand="1" mapped_from="GRCh37" />
               <long_name>receptor-type tyrosine-protein phosphatase C isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_563578.2" />
               <db_xref source="UniProtKB" accession="P08575">
                 <synonym>A8K7W6</synonym>
                 <synonym>Q16614</synonym>
                 <synonym>Q9H0Y6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_563578.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000598951">
@@ -1902,7 +1915,7 @@
         <name>List of locus specific databases for PTPRC</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PTPRC</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-24</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

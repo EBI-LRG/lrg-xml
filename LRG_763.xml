@@ -443,10 +443,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-20</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="4" other_id="NC_000004.11" other_start="3071408" other_end="3247687">
         <mapping_span lrg_start="1" lrg_end="176286" other_start="3071408" other_end="3247687" strand="1">
-          <diff type="lrg_ins" lrg_start="5208" lrg_end="5213" other_start="3076614" other_end="3076615" lrg_sequence="GCAGCA" other_sequence="-" />
+          <diff type="lrg_ins" lrg_start="5197" lrg_end="5202" other_start="3076603" other_end="3076604" lrg_sequence="CAGCAG" other_sequence="-" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="4" other_id="NC_000004.12" other_start="3069681" other_end="3245960">
+        <mapping_span lrg_start="1" lrg_end="176286" other_start="3069681" other_end="3245960" strand="1">
+          <diff type="lrg_ins" lrg_start="5197" lrg_end="5202" other_start="3074876" other_end="3074877" lrg_sequence="CAGCAG" other_sequence="-" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">HTT</lrg_locus>
@@ -462,7 +467,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009378.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_002111.6" other_name="NM_002111.6" other_id="NM_002111.6" other_start="1" other_end="13481">
         <mapping_span lrg_start="5001" lrg_end="5414" other_start="1" other_end="414" strand="1" />
         <mapping_span lrg_start="17265" lrg_end="17348" other_start="415" other_end="498" strand="1" />
@@ -773,11 +778,11 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-20</modification_date>
       <mapping coord_system="ENST00000355072.5" other_name="ENST00000355072.5" other_id="ENST00000355072.5" other_start="1" other_end="13464">
         <mapping_span lrg_start="5001" lrg_end="5414" other_start="1" other_end="408" strand="1">
-          <diff type="lrg_ins" lrg_start="5208" lrg_end="5213" other_start="207" other_end="208" lrg_sequence="GCAGCA" other_sequence="-" />
+          <diff type="lrg_ins" lrg_start="5197" lrg_end="5202" other_start="196" other_end="197" lrg_sequence="CAGCAG" other_sequence="-" />
         </mapping_span>
         <mapping_span lrg_start="17265" lrg_end="17348" other_start="409" other_end="492" strand="1" />
         <mapping_span lrg_start="29600" lrg_end="29720" other_start="493" other_end="613" strand="1" />
@@ -952,21 +957,24 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000251075">
-          <symbol source="HGNC" name="HTT-AS1" />
+          <symbol source="HGNC" name="HTT-AS" />
           <coordinates coord_system="LRG_763" start="1" end="4834" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
-          <long_name>HTT antisense RNA 1 (head to head) (antisense)</long_name>
-          <db_xref source="GeneID" accession="100750326">
+          <long_name>HTT antisense RNA (head to head) (antisense)</long_name>
+          <db_xref source="HGNC" accession="37118">
+            <synonym>HTT-AS1</synonym>
             <synonym>HTTAS</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="37118">
+          <db_xref source="GeneID" accession="100750326">
+            <synonym>HTT-AS1</synonym>
             <synonym>HTTAS</synonym>
+            <synonym>RP11-520M5.6</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000251075" />
           <transcript source="Ensembl" accession="ENST00000503893">
             <coordinates coord_system="LRG_763" start="1" end="4834" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
-            <long_name>HTT-AS1-001 (antisense)</long_name>
+            <long_name>HTT-AS-001 (antisense)</long_name>
             <db_xref source="RefSeq" accession="NR_045414.1" />
             <exon source="Ensembl" accession="ENSE00002053538">
               <coordinates coord_system="LRG_763" start="4746" end="4834" strand="-1" mapped_from="GRCh37" />
@@ -980,15 +988,15 @@
           <symbol source="HGNC" name="HTT" />
           <coordinates coord_system="LRG_763" start="5001" end="174275" strand="1" mapped_from="GRCh37" />
           <long_name>huntingtin (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3064">
-            <synonym>HD</synonym>
-            <synonym>IT15</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="613004" />
           <db_xref source="HGNC" accession="4851">
             <synonym>HD</synonym>
             <synonym>IT15</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="613004" />
+          <db_xref source="GeneID" accession="3064">
+            <synonym>HD</synonym>
+            <synonym>IT15</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000197386" />
           <transcript source="Ensembl" accession="ENST00000355072">
             <coordinates coord_system="LRG_763" start="5001" end="174275" strand="1" mapped_from="GRCh37" />
@@ -1199,10 +1207,10 @@
             <protein_product source="Ensembl" accession="ENSP00000347184">
               <coordinates coord_system="LRG_763" start="5146" end="170385" strand="1" mapped_from="GRCh37" />
               <long_name>huntingtin</long_name>
-              <db_xref source="RefSeq" accession="NP_002102.4" />
               <db_xref source="UniProtKB" accession="P42858">
                 <synonym>Q9UQB7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002102.4" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000506137">
@@ -1502,12 +1510,12 @@
           <coordinates coord_system="LRG_763" start="174695" end="176286" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>Myb/SANT-like DNA-binding domain containing 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="345222">
-            <synonym>C4orf44</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="33741">
             <synonym>C4orf44</synonym>
             <synonym>LOC345222</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="345222">
+            <synonym>C4orf44</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000188981" />
           <transcript source="Ensembl" accession="ENST00000507492">
@@ -1529,7 +1537,7 @@
         <name>List of locus specific databases for HTT</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HTT</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-20</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

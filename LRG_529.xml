@@ -144,9 +144,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="52433024" other_end="52449009">
         <mapping_span lrg_start="1" lrg_end="15986" other_start="52433024" other_end="52449009" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="52399008" other_end="52414993">
+        <mapping_span lrg_start="1" lrg_end="15986" other_start="52399008" other_end="52414993" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">BAP1</lrg_locus>
     </annotation_set>
@@ -161,7 +164,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_031859.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_004656.2" other_name="NM_004656.2" other_id="NM_004656.2" other_start="1" other_end="3585">
         <mapping_span lrg_start="5001" lrg_end="5152" other_start="1" other_end="152" strand="1" />
         <mapping_span lrg_start="5251" lrg_end="5280" other_start="153" other_end="182" strand="1" />
@@ -407,8 +410,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000296288.5" other_name="ENST00000296288.5" other_id="ENST00000296288.5" other_start="1" other_end="3434">
         <mapping_span lrg_start="5080" lrg_end="5152" other_start="1" other_end="73" strand="1" />
         <mapping_span lrg_start="5251" lrg_end="5280" other_start="74" other_end="103" strand="1" />
@@ -507,50 +510,25 @@
       <features>
         <gene source="Ensembl" accession="ENSG00000010318">
           <symbol source="HGNC" name="PHF7" />
-          <coordinates coord_system="LRG_529" start="1" end="5500" strand="-1" mapped_from="GRCh37" />
+          <coordinates coord_system="LRG_529" start="1" end="4337" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>PHD finger protein 7 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="18458">
+            <synonym>HSPC226</synonym>
+            <synonym>NYD-SP6</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="51533">
             <synonym>HSPC045</synonym>
             <synonym>HSPC226</synonym>
             <synonym>NYD-SP6</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="18458">
-            <synonym>HSPC226</synonym>
-            <synonym>NYD-SP6</synonym>
-          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000010318" />
-          <transcript source="Ensembl" accession="ENST00000478707">
-            <coordinates coord_system="LRG_529" start="1" end="4374" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>PHF7-005 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS2854.1" />
-            <exon source="Ensembl" accession="ENSE00001857050">
-              <coordinates coord_system="LRG_529" start="3788" end="4374" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003558861">
-              <coordinates coord_system="LRG_529" start="2074" end="2183" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003470533">
-              <coordinates coord_system="LRG_529" start="946" end="998" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003567348">
-              <coordinates coord_system="LRG_529" start="407" end="498" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000419316">
-              <coordinates coord_system="LRG_529" start="1" end="2114" strand="-1" mapped_from="GRCh37" />
-              <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="Q9BWX1">
-                <synonym>K4DI82</synonym>
-              </db_xref>
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000327906">
             <coordinates coord_system="LRG_529" start="1" end="4337" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>PHF7-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2854.1" />
-            <db_xref source="RefSeq" accession="NM_016483.4" />
+            <db_xref source="RefSeq" accession="NM_016483.5" />
             <exon source="Ensembl" accession="ENSE00001811001">
               <coordinates coord_system="LRG_529" start="3747" end="4337" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -567,10 +545,10 @@
               <coordinates coord_system="LRG_529" start="1" end="2114" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>PHD finger protein 7 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_057567.3" />
               <db_xref source="UniProtKB" accession="Q9BWX1">
                 <synonym>K4DI82</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_057567.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000347025">
@@ -579,7 +557,6 @@
             <long_name>PHF7-004 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2855.1" />
             <db_xref source="RefSeq" accession="NM_001278221.1" />
-            <db_xref source="RefSeq" accession="NM_173341.1" />
             <exon source="Ensembl" accession="ENSE00001907761">
               <coordinates coord_system="LRG_529" start="3747" end="3797" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -596,11 +573,10 @@
               <coordinates coord_system="LRG_529" start="1" end="2114" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>PHD finger protein 7 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001265150.1" />
-              <db_xref source="RefSeq" accession="NP_775463.1" />
               <db_xref source="UniProtKB" accession="Q9BWX1">
                 <synonym>K4DI82</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001265150.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000472337">
@@ -658,46 +634,27 @@
               <coordinates coord_system="LRG_529" start="158" end="266" strand="-1" mapped_from="GRCh37" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000462532">
-            <coordinates coord_system="LRG_529" start="969" end="5500" strand="-1" mapped_from="GRCh37" />
-            <long_name>PHF7-013 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001861934">
-              <coordinates coord_system="LRG_529" start="5261" end="5500" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001893505">
-              <coordinates coord_system="LRG_529" start="3788" end="3965" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003558861">
-              <coordinates coord_system="LRG_529" start="2074" end="2183" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001941577">
-              <coordinates coord_system="LRG_529" start="969" end="998" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000417144">
-              <coordinates coord_system="LRG_529" start="969" end="2114" strand="-1" mapped_from="GRCh37" />
-            </protein_product>
-          </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000163930">
           <symbol source="HGNC" name="BAP1" />
           <coordinates coord_system="LRG_529" start="4644" end="13981" strand="1" mapped_from="GRCh37" />
           <long_name>BRCA1 associated protein-1 (ubiquitin carboxy-terminal hydrolase) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="8314">
-            <synonym>HUCEP-13</synonym>
-            <synonym>UCHL2</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="603089" />
           <db_xref source="HGNC" accession="950">
             <synonym>hucep-6</synonym>
             <synonym>KIAA0272</synonym>
             <synonym>UCHL2</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="603089" />
+          <db_xref source="GeneID" accession="8314">
+            <synonym>HUCEP-13</synonym>
+            <synonym>UCHL2</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000163930" />
           <transcript source="Ensembl" accession="ENST00000460680">
             <coordinates coord_system="LRG_529" start="4644" end="13981" strand="1" mapped_from="GRCh37" />
             <long_name>BAP1-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2853.1" />
-            <db_xref source="RefSeq" accession="NM_004656.2" />
+            <db_xref source="RefSeq" accession="NM_004656.3" />
             <exon source="Ensembl" accession="ENSE00001879355">
               <coordinates coord_system="LRG_529" start="4644" end="5152" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -752,12 +709,12 @@
             <protein_product source="Ensembl" accession="ENSP00000417132">
               <coordinates coord_system="LRG_529" start="5116" end="12706" strand="1" mapped_from="GRCh37" />
               <long_name>ubiquitin carboxyl-terminal hydrolase BAP1</long_name>
-              <db_xref source="RefSeq" accession="NP_004647.1" />
               <db_xref source="UniProtKB" accession="Q92560">
                 <synonym>A8K993</synonym>
                 <synonym>Q6LEM0</synonym>
                 <synonym>Q7Z5E8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004647.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000490917">
@@ -991,13 +948,7 @@
           <coordinates coord_system="LRG_529" start="14503" end="15986" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>dynein, axonemal, heavy chain 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="25981">
-            <synonym>DNAHC1</synonym>
-            <synonym>HDHC7</synonym>
-            <synonym>HL-11</synonym>
-            <synonym>HL11</synonym>
-            <synonym>XLHSRF-1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="603332" />
           <db_xref source="HGNC" accession="2940">
             <synonym>DNAHC1</synonym>
             <synonym>HDHC7</synonym>
@@ -1005,7 +956,13 @@
             <synonym>HL11</synonym>
             <synonym>XLHSRF-1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="603332" />
+          <db_xref source="GeneID" accession="25981">
+            <synonym>DNAHC1</synonym>
+            <synonym>HDHC7</synonym>
+            <synonym>HL-11</synonym>
+            <synonym>HL11</synonym>
+            <synonym>XLHSRF-1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000114841" />
           <transcript source="Ensembl" accession="ENST00000486752">
             <coordinates coord_system="LRG_529" start="14503" end="15986" strand="-1" mapped_from="GRCh37" />
@@ -1042,7 +999,6 @@
               <coordinates coord_system="LRG_529" start="14548" end="15986" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>dynein heavy chain 1, axonemal</long_name>
-              <db_xref source="RefSeq" accession="NP_056327.4" />
               <db_xref source="UniProtKB" accession="Q9P2D7">
                 <synonym>B0I1R6</synonym>
                 <synonym>O00436</synonym>
@@ -1056,6 +1012,7 @@
                 <synonym>Q9UFW6</synonym>
                 <synonym>Q9Y4Z7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_056327.4" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000488988">
@@ -1096,7 +1053,7 @@
         <name>List of locus specific databases for BAP1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/BAP1</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

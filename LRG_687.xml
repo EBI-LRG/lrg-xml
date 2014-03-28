@@ -272,9 +272,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="56280797" other_end="56301966">
         <mapping_span lrg_start="1" lrg_end="21170" other_start="56280797" other_end="56301966" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="17" other_id="NC_000017.11" other_start="58203436" other_end="58224605">
+        <mapping_span lrg_start="1" lrg_end="21170" other_start="58203436" other_end="58224605" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">MKS1</lrg_locus>
     </annotation_set>
@@ -289,7 +292,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_013032.1</comment>
-      <modification_date>2014-01-16</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001165927.1" other_name="NM_001165927.1" other_id="NM_001165927.1" other_start="1" other_end="2387">
         <mapping_span lrg_start="5001" lrg_end="5144" other_start="1" other_end="144" strand="1" />
         <mapping_span lrg_start="5877" lrg_end="5986" other_start="145" other_end="254" strand="1" />
@@ -534,8 +537,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-17</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000313863.6" other_name="ENST00000313863.6" other_id="ENST00000313863.6" other_start="1" other_end="2091">
         <mapping_span lrg_start="5374" lrg_end="5455" other_start="1" other_end="82" strand="1" />
         <mapping_span lrg_start="5877" lrg_end="5986" other_start="83" other_end="192" strand="1" />
@@ -729,13 +732,13 @@
           <coordinates coord_system="LRG_687" start="1" end="6058" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>lactoperoxidase (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4025">
-            <synonym>SPO</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="150205" />
           <db_xref source="HGNC" accession="6678">
             <synonym>SPO</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="150205" />
+          <db_xref source="GeneID" accession="4025">
+            <synonym>SPO</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000167419" />
           <transcript source="Ensembl" accession="ENST00000582328">
             <coordinates coord_system="LRG_687" start="1" end="6058" strand="-1" mapped_from="GRCh37" />
@@ -751,19 +754,19 @@
           <symbol source="HGNC" name="MKS1" />
           <coordinates coord_system="LRG_687" start="5001" end="19164" strand="1" mapped_from="GRCh37" />
           <long_name>Meckel syndrome, type 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="54903">
-            <synonym>BBS13</synonym>
-            <synonym>MES</synonym>
-            <synonym>MKS</synonym>
-            <synonym>POC12</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="609883" />
           <db_xref source="HGNC" accession="7121">
             <synonym>BBS13</synonym>
             <synonym>FLJ20345</synonym>
             <synonym>MKS</synonym>
             <synonym>POC12</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="609883" />
+          <db_xref source="GeneID" accession="54903">
+            <synonym>BBS13</synonym>
+            <synonym>MES</synonym>
+            <synonym>MKS</synonym>
+            <synonym>POC12</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000011143" />
           <transcript source="Ensembl" accession="ENST00000537529">
             <coordinates coord_system="LRG_687" start="5001" end="18866" strand="1" mapped_from="GRCh37" />
@@ -827,13 +830,13 @@
             <protein_product source="Ensembl" accession="ENSP00000442096">
               <coordinates coord_system="LRG_687" start="5095" end="18527" strand="1" mapped_from="GRCh37" />
               <long_name>Meckel syndrome type 1 protein isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001159399.1" />
               <db_xref source="UniProtKB" accession="Q9NXB0">
                 <synonym>B7WNX4</synonym>
                 <synonym>F5H885</synonym>
                 <synonym>Q284T0</synonym>
                 <synonym>Q96G13</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001159399.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000393119">
@@ -898,13 +901,13 @@
             <protein_product source="Ensembl" accession="ENSP00000376827">
               <coordinates coord_system="LRG_687" start="5376" end="18527" strand="1" mapped_from="GRCh37" />
               <long_name>Meckel syndrome type 1 protein isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_060247.2" />
               <db_xref source="UniProtKB" accession="Q9NXB0">
                 <synonym>B7WNX4</synonym>
                 <synonym>F5H885</synonym>
                 <synonym>Q284T0</synonym>
                 <synonym>Q96G13</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_060247.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000580127">
@@ -1358,17 +1361,17 @@
           <coordinates coord_system="LRG_687" start="19432" end="21170" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>eosinophil peroxidase (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="8288">
-            <synonym>EPO</synonym>
-            <synonym>EPP</synonym>
-            <synonym>EPX-PEN</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="131399" />
           <db_xref source="HGNC" accession="3423">
             <synonym>EPO</synonym>
             <synonym>EPP</synonym>
             <synonym>EPX-PEN</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="131399" />
+          <db_xref source="GeneID" accession="8288">
+            <synonym>EPO</synonym>
+            <synonym>EPP</synonym>
+            <synonym>EPX-PEN</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000121053" />
           <transcript source="Ensembl" accession="ENST00000225371">
             <coordinates coord_system="LRG_687" start="19432" end="21170" strand="-1" mapped_from="GRCh37" />
@@ -1386,10 +1389,10 @@
               <coordinates coord_system="LRG_687" start="20183" end="21170" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>eosinophil peroxidase preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_000493.1" />
               <db_xref source="UniProtKB" accession="P11678">
                 <synonym>Q4TVP3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000493.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -1400,7 +1403,7 @@
         <name>List of locus specific databases for MKS1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MKS1</url>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

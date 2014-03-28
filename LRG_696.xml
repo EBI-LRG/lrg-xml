@@ -364,9 +364,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_start="53629595" other_end="53742771">
         <mapping_span lrg_start="1" lrg_end="113177" other_start="53629595" other_end="53742771" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="16" other_id="NC_000016.10" other_start="53595683" other_end="53708859">
+        <mapping_span lrg_start="1" lrg_end="113177" other_start="53595683" other_end="53708859" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">RPGRIP1L</lrg_locus>
     </annotation_set>
@@ -381,7 +384,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008991.2</comment>
-      <modification_date>2014-01-16</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001127897.1" other_name="NM_001127897.1" other_id="NM_001127897.1" other_start="1" other_end="5942">
         <mapping_span lrg_start="5001" lrg_end="5057" other_start="1" other_end="57" strand="1" />
         <mapping_span lrg_start="8130" lrg_end="8221" other_start="58" other_end="149" strand="1" />
@@ -691,8 +694,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-17</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000262135.4" other_name="ENST00000262135.4" other_id="ENST00000262135.4" other_start="1" other_end="8195">
         <mapping_span lrg_start="4971" lrg_end="5057" other_start="1" other_end="87" strand="1" />
         <mapping_span lrg_start="8130" lrg_end="8221" other_start="88" other_end="179" strand="1" />
@@ -858,15 +861,15 @@
           <coordinates coord_system="LRG_696" start="1" end="4897" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>fat mass and obesity associated (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="79068">
-            <synonym>ALKBH9</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="610966" />
           <db_xref source="HGNC" accession="24678">
             <synonym>ALKBH9</synonym>
             <synonym>KIAA1752</synonym>
             <synonym>MGC5149</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="610966" />
+          <db_xref source="GeneID" accession="79068">
+            <synonym>ALKBH9</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000140718" />
           <transcript source="Ensembl" accession="ENST00000471389">
             <coordinates coord_system="LRG_696" start="1" end="4897" strand="-1" mapped_from="GRCh37" />
@@ -881,13 +884,13 @@
               <coordinates coord_system="LRG_696" start="1" end="4675" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>alpha-ketoglutarate-dependent dioxygenase FTO</long_name>
-              <db_xref source="RefSeq" accession="NP_001073901.1" />
               <db_xref source="UniProtKB" accession="Q9C0B1">
                 <synonym>A2RUH1</synonym>
                 <synonym>B2RNS0</synonym>
                 <synonym>Q0P676</synonym>
                 <synonym>Q7Z785</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001073901.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000570395">
@@ -923,13 +926,7 @@
           <symbol source="HGNC" name="RPGRIP1L" />
           <coordinates coord_system="LRG_696" start="4922" end="111177" strand="1" mapped_from="GRCh37" />
           <long_name>RPGRIP1-like (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="23322">
-            <synonym>CORS3</synonym>
-            <synonym>FTM</synonym>
-            <synonym>JBTS7</synonym>
-            <synonym>MKS5</synonym>
-            <synonym>NPHP8</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="610937" />
           <db_xref source="HGNC" accession="29168">
             <synonym>CORS3</synonym>
             <synonym>FTM</synonym>
@@ -938,7 +935,13 @@
             <synonym>MKS5</synonym>
             <synonym>NPHP8</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="610937" />
+          <db_xref source="GeneID" accession="23322">
+            <synonym>CORS3</synonym>
+            <synonym>FTM</synonym>
+            <synonym>JBTS7</synonym>
+            <synonym>MKS5</synonym>
+            <synonym>NPHP8</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000103494" />
           <transcript source="Ensembl" accession="ENST00000566096">
             <coordinates coord_system="LRG_696" start="4922" end="13229" strand="1" mapped_from="GRCh37" />
@@ -1039,11 +1042,11 @@
             <protein_product source="Ensembl" accession="ENSP00000262135">
               <coordinates coord_system="LRG_696" start="8137" end="106784" strand="1" mapped_from="GRCh37" />
               <long_name>protein fantom isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_001121369.1" />
               <db_xref source="UniProtKB" accession="Q68CZ1">
                 <synonym>A0PJ88</synonym>
                 <synonym>Q9Y2K8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001121369.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000564374">
@@ -1321,11 +1324,11 @@
             <protein_product source="Ensembl" accession="ENSP00000369257">
               <coordinates coord_system="LRG_696" start="8137" end="106784" strand="1" mapped_from="GRCh37" />
               <long_name>protein fantom isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_056087.2" />
               <db_xref source="UniProtKB" accession="Q68CZ1">
                 <synonym>A0PJ88</synonym>
                 <synonym>Q9Y2K8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_056087.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000562230">
@@ -1446,7 +1449,7 @@
         <name>List of locus specific databases for RPGRIP1L</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RPGRIP1L</url>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

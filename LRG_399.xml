@@ -83,9 +83,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_start="76422442" other_end="76453092">
         <mapping_span lrg_start="1" lrg_end="30651" other_start="76422442" other_end="76453092" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="14" other_id="NC_000014.9" other_start="75956099" other_end="75986749">
+        <mapping_span lrg_start="1" lrg_end="30651" other_start="75956099" other_end="75986749" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">TGFB3</lrg_locus>
     </annotation_set>
@@ -100,7 +103,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011715.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_003239.2" other_name="NM_003239.2" other_id="NM_003239.2" other_start="1" other_end="3183">
         <mapping_span lrg_start="5001" lrg_end="6208" other_start="1" other_end="1208" strand="1" />
         <mapping_span lrg_start="15032" lrg_end="15195" other_start="1209" other_end="1372" strand="1" />
@@ -231,6 +234,8 @@
         <gene source="NCBI-Gene" accession="7043">
           <symbol source="HGNC" name="TGFB3">
             <synonym>ARVD</synonym>
+            <synonym>ARVD1</synonym>
+            <synonym>RNHF</synonym>
             <synonym>TGF-beta3</synonym>
           </symbol>
           <coordinates coord_system="LRG_399" start="5001" end="28651" strand="1" />
@@ -270,6 +275,7 @@
               <coordinates coord_system="LRG_399" start="5857" end="27563" strand="1" />
               <long_name>transforming growth factor beta-3 preproprotein</long_name>
               <long_name>TGF-beta-3</long_name>
+              <long_name>prepro-transforming growth factor beta-3</long_name>
               <db_xref source="CCDS" accession="CCDS9846.1" />
               <db_xref source="GeneID" accession="7043" />
               <db_xref source="GI" accession="4507465" />
@@ -288,8 +294,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000238682.3" other_name="ENST00000238682.3" other_id="ENST00000238682.3" other_start="1" other_end="2522">
         <mapping_span lrg_start="5559" lrg_end="6208" other_start="1" other_end="650" strand="1" />
         <mapping_span lrg_start="15032" lrg_end="15195" other_start="651" other_end="814" strand="1" />
@@ -338,16 +344,16 @@
           <partial>5-prime</partial>
           <partial>3-prime</partial>
           <long_name>intraflagellar transport 43 homolog (Chlamydomonas) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="112752">
-            <synonym>C14orf179</synonym>
-            <synonym>CED3</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="614068" />
           <db_xref source="HGNC" accession="29669">
             <synonym>C14orf179</synonym>
             <synonym>FLJ32173</synonym>
             <synonym>MGC16028</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="614068" />
+          <db_xref source="GeneID" accession="112752">
+            <synonym>C14orf179</synonym>
+            <synonym>CED3</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000119650" />
           <transcript source="Ensembl" accession="ENST00000555677">
             <coordinates coord_system="LRG_399" start="1" end="30651" strand="-1" mapped_from="GRCh37" />
@@ -418,7 +424,6 @@
               <coordinates coord_system="LRG_399" start="1" end="963" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>intraflagellar transport protein 43 homolog isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_443105.2" />
               <db_xref source="UniProtKB" accession="Q96FT9">
                 <synonym>B3KPT6</synonym>
                 <synonym>B4DZI9</synonym>
@@ -426,6 +431,7 @@
                 <synonym>O95418</synonym>
                 <synonym>Q9ULA9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_443105.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000556742">
@@ -441,7 +447,6 @@
               <coordinates coord_system="LRG_399" start="1" end="963" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>intraflagellar transport protein 43 homolog isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001242924.1" />
               <db_xref source="UniProtKB" accession="Q96FT9">
                 <synonym>B3KPT6</synonym>
                 <synonym>B4DZI9</synonym>
@@ -449,6 +454,7 @@
                 <synonym>O95418</synonym>
                 <synonym>Q9ULA9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001242924.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000553338">
@@ -472,7 +478,6 @@
               <coordinates coord_system="LRG_399" start="1" end="963" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>intraflagellar transport protein 43 homolog isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001096034.1" />
               <db_xref source="UniProtKB" accession="Q96FT9">
                 <synonym>B3KPT6</synonym>
                 <synonym>B4DZI9</synonym>
@@ -480,6 +485,7 @@
                 <synonym>O95418</synonym>
                 <synonym>Q9ULA9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001096034.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -487,12 +493,17 @@
           <symbol source="HGNC" name="TGFB3" />
           <coordinates coord_system="LRG_399" start="3759" end="28651" strand="1" mapped_from="GRCh37" />
           <long_name>transforming growth factor, beta 3 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="190230" />
+          <db_xref source="HGNC" accession="11769">
+            <synonym>ARVD</synonym>
+            <synonym>ARVD1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="7043">
             <synonym>ARVD</synonym>
+            <synonym>ARVD1</synonym>
+            <synonym>RNHF</synonym>
             <synonym>TGF-beta3</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11769" />
-          <db_xref source="MIM" accession="190230" />
           <db_xref source="Ensembl" accession="ENSG00000119699" />
           <transcript source="Ensembl" accession="ENST00000556674">
             <coordinates coord_system="LRG_399" start="3759" end="5507" strand="1" mapped_from="GRCh37" />
@@ -543,8 +554,8 @@
             <protein_product source="Ensembl" accession="ENSP00000238682">
               <coordinates coord_system="LRG_399" start="5857" end="27563" strand="1" mapped_from="GRCh37" />
               <long_name>transforming growth factor beta-3 preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_003230.1" />
               <db_xref source="UniProtKB" accession="P10600" />
+              <db_xref source="RefSeq" accession="NP_003230.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000556285">
@@ -638,7 +649,7 @@
         <name>List of locus specific databases for TGFB3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TGFB3</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

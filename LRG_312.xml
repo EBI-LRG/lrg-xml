@@ -183,10 +183,17 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-18</modification_date>
+      <modification_date>2014-03-20</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="5" other_id="NC_000005.9" other_start="131887616" other_end="131982313">
         <mapping_span lrg_start="1" lrg_end="94698" other_start="131887616" other_end="131982313" strand="1">
           <diff type="mismatch" lrg_start="5364" lrg_end="5364" other_start="131892979" other_end="131892979" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="5" other_id="NC_000005.10" other_start="132551924" other_end="132646621">
+        <mapping_span lrg_start="1" lrg_end="94698" other_start="132551924" other_end="132646621" strand="1">
+          <diff type="mismatch" lrg_start="5364" lrg_end="5364" other_start="132557287" other_end="132557287" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="64457" lrg_end="64457" other_start="132616380" other_end="132616380" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="82850" lrg_end="82850" other_start="132634773" other_end="132634773" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">RAD50</lrg_locus>
@@ -202,7 +209,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_021151.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_005732.3" other_name="NM_005732.3" other_id="NM_005732.3" other_start="1" other_end="6597">
         <mapping_span lrg_start="5001" lrg_end="5530" other_start="1" other_end="530" strand="1" />
         <mapping_span lrg_start="7361" lrg_end="7444" other_start="531" other_end="614" strand="1" />
@@ -345,8 +352,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-18</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-20</modification_date>
       <mapping coord_system="ENST00000265335.6" other_name="ENST00000265335.6" other_id="ENST00000265335.6" other_start="1" other_end="6022">
         <mapping_span lrg_start="5015" lrg_end="5530" other_start="1" other_end="516" strand="1">
           <diff type="mismatch" lrg_start="5364" lrg_end="5364" other_start="350" other_end="350" lrg_sequence="A" other_sequence="G" />
@@ -513,17 +520,17 @@
           <coordinates coord_system="LRG_312" start="1" end="4915" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>interleukin 5 (colony-stimulating factor, eosinophil) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3567">
-            <synonym>EDF</synonym>
-            <synonym>IL-5</synonym>
-            <synonym>TRF</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="147850" />
           <db_xref source="HGNC" accession="6016">
             <synonym>EDF</synonym>
             <synonym>IL-5</synonym>
             <synonym>TRF</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="147850" />
+          <db_xref source="GeneID" accession="3567">
+            <synonym>EDF</synonym>
+            <synonym>IL-5</synonym>
+            <synonym>TRF</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000113525" />
           <transcript source="Ensembl" accession="ENST00000450655">
             <coordinates coord_system="LRG_312" start="1" end="4915" strand="-1" mapped_from="GRCh37" />
@@ -542,16 +549,16 @@
           <symbol source="HGNC" name="RAD50" />
           <coordinates coord_system="LRG_312" start="4096" end="92698" strand="1" mapped_from="GRCh37" />
           <long_name>RAD50 homolog (S. cerevisiae) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="604040" />
+          <db_xref source="HGNC" accession="9816">
+            <synonym>hRad50</synonym>
+            <synonym>RAD50-2</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="10111">
             <synonym>hRad50</synonym>
             <synonym>NBSLD</synonym>
             <synonym>RAD502</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9816">
-            <synonym>hRad50</synonym>
-            <synonym>RAD50-2</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="604040" />
           <db_xref source="Ensembl" accession="ENSG00000113522" />
           <transcript source="Ensembl" accession="ENST00000416135">
             <coordinates coord_system="LRG_312" start="4096" end="27984" strand="1" mapped_from="GRCh37" />
@@ -657,7 +664,6 @@
             <protein_product source="Ensembl" accession="ENSP00000368100">
               <coordinates coord_system="LRG_312" start="27446" end="90441" strand="1" mapped_from="GRCh37" />
               <long_name>DNA repair protein RAD50</long_name>
-              <db_xref source="RefSeq" accession="NP_005723.2" />
               <db_xref source="UniProtKB" accession="Q92878">
                 <synonym>B9EGF5</synonym>
                 <synonym>O43254</synonym>
@@ -665,6 +671,7 @@
                 <synonym>Q6P5X3</synonym>
                 <synonym>Q9UP86</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_005723.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000533482">
@@ -1029,6 +1036,8 @@
           <coordinates coord_system="LRG_312" start="78666" end="94698" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>AC004041.2 (antisense)</long_name>
+          <db_xref source="GeneID" accession="101930600" />
+          <db_xref source="GeneID" accession="101927761" />
           <db_xref source="Ensembl" accession="ENSG00000223442" />
           <transcript source="Ensembl" accession="ENST00000457489">
             <coordinates coord_system="LRG_312" start="78666" end="89850" strand="-1" mapped_from="GRCh37" />
@@ -1084,7 +1093,7 @@
         <name>List of locus specific databases for RAD50</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RAD50</url>
       </source>
-      <modification_date>2013-09-18</modification_date>
+      <modification_date>2014-03-20</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -173,9 +173,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="178861311" other_end="178959881">
         <mapping_span lrg_start="1" lrg_end="98571" other_start="178861311" other_end="178959881" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="179143523" other_end="179242093">
+        <mapping_span lrg_start="1" lrg_end="98571" other_start="179143523" other_end="179242093" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">PIK3CA</lrg_locus>
     </annotation_set>
@@ -190,7 +193,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012113.2</comment>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_006218.2" other_name="NM_006218.2" other_id="NM_006218.2" other_start="1" other_end="3712">
         <mapping_span lrg_start="5001" lrg_end="5081" other_start="1" other_end="81" strand="1" />
         <mapping_span lrg_start="55228" lrg_end="55655" other_start="82" other_end="509" strand="1" />
@@ -397,8 +400,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-28</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000263967.3" other_name="ENST00000263967.3" other_id="ENST00000263967.3" other_start="1" other_end="9093">
         <mapping_span lrg_start="5001" lrg_end="5081" other_start="1" other_end="81" strand="1" />
         <mapping_span lrg_start="55228" lrg_end="55655" other_start="82" other_end="509" strand="1" />
@@ -459,6 +462,10 @@
           <symbol source="HGNC" name="PIK3CA" />
           <coordinates coord_system="LRG_310" start="4592" end="96571" strand="1" mapped_from="GRCh37" />
           <long_name>phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic subunit alpha (protein_coding)</long_name>
+          <db_xref source="MIM" accession="171834" />
+          <db_xref source="HGNC" accession="8975">
+            <synonym>PI3K</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5290">
             <synonym>CLOVE</synonym>
             <synonym>CWS5</synonym>
@@ -468,10 +475,6 @@
             <synonym>p110-alpha</synonym>
             <synonym>PI3K</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="8975">
-            <synonym>PI3K</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="171834" />
           <db_xref source="Ensembl" accession="ENSG00000121879" />
           <transcript source="Ensembl" accession="ENST00000477735">
             <coordinates coord_system="LRG_310" start="4592" end="55366" strand="1" mapped_from="GRCh37" />
@@ -557,11 +560,11 @@
             <protein_product source="Ensembl" accession="ENSP00000263967">
               <coordinates coord_system="LRG_310" start="55304" end="90842" strand="1" mapped_from="GRCh37" />
               <long_name>phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform</long_name>
-              <db_xref source="RefSeq" accession="NP_006209.2" />
               <db_xref source="UniProtKB" accession="P42336">
                 <synonym>Q14CW1</synonym>
                 <synonym>Q99762</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006209.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000468036">
@@ -632,6 +635,11 @@
           <coordinates coord_system="LRG_310" start="96220" end="98571" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>potassium large conductance calcium-activated channel, subfamily M beta member 3 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="605222" />
+          <db_xref source="HGNC" accession="6287">
+            <synonym>KCNMB2</synonym>
+            <synonym>KCNMBL</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="27094">
             <synonym>BKBETA3</synonym>
             <synonym>HBETA3</synonym>
@@ -639,11 +647,6 @@
             <synonym>KCNMBL</synonym>
             <synonym>SLOBETA3</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6287">
-            <synonym>KCNMB2</synonym>
-            <synonym>KCNMBL</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="605222" />
           <db_xref source="Ensembl" accession="ENSG00000171121" />
           <transcript source="Ensembl" accession="ENST00000486944">
             <coordinates coord_system="LRG_310" start="96220" end="98571" strand="-1" mapped_from="GRCh37" />
@@ -666,7 +669,6 @@
               <coordinates coord_system="LRG_310" start="96474" end="98571" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>calcium-activated potassium channel subunit beta-3 isoform e</long_name>
-              <db_xref source="RefSeq" accession="NP_001157149.1" />
               <db_xref source="UniProtKB" accession="Q9NPA1">
                 <synonym>B7Z9C9</synonym>
                 <synonym>D3DNR2</synonym>
@@ -675,6 +677,7 @@
                 <synonym>Q9NRM9</synonym>
                 <synonym>Q9UHN3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001157149.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000392686">
@@ -694,7 +697,7 @@
         <name>List of locus specific databases for PIK3CA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PIK3CA</url>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

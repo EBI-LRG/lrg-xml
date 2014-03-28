@@ -111,9 +111,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="133502342" other_end="133564822">
         <mapping_span lrg_start="1" lrg_end="62481" other_start="133502342" other_end="133564822" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="X" other_id="NC_000023.11" other_start="134368312" other_end="134430792">
+        <mapping_span lrg_start="1" lrg_end="62481" other_start="134368312" other_end="134430792" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">PHF6</lrg_locus>
     </annotation_set>
@@ -128,7 +131,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008886.1</comment>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001015877.1" other_name="NM_001015877.1" other_id="NM_001015877.1" other_start="1" other_end="4432">
         <mapping_span lrg_start="5001" lrg_end="5156" other_start="1" other_end="156" strand="1" />
         <mapping_span lrg_start="9261" lrg_end="9444" other_start="157" other_end="340" strand="1" />
@@ -320,8 +323,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-28</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000332070.3" other_name="ENST00000332070.3" other_id="ENST00000332070.3" other_start="1" other_end="4759">
         <mapping_span lrg_start="5001" lrg_end="5156" other_start="1" other_end="156" strand="1" />
         <mapping_span lrg_start="9261" lrg_end="9444" other_start="157" other_end="340" strand="1" />
@@ -398,11 +401,7 @@
           <symbol source="HGNC" name="PHF6" />
           <coordinates coord_system="LRG_629" start="4942" end="60479" strand="1" mapped_from="GRCh37" />
           <long_name>PHD finger protein 6 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="84295">
-            <synonym>BFLS</synonym>
-            <synonym>BORJ</synonym>
-            <synonym>CENP-31</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="300414" />
           <db_xref source="HGNC" accession="18145">
             <synonym>BFLS</synonym>
             <synonym>BORJ</synonym>
@@ -410,7 +409,11 @@
             <synonym>KIAA1823</synonym>
             <synonym>MGC14797</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="300414" />
+          <db_xref source="GeneID" accession="84295">
+            <synonym>BFLS</synonym>
+            <synonym>BORJ</synonym>
+            <synonym>CENP-31</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000156531" />
           <transcript source="Ensembl" accession="ENST00000370803">
             <coordinates coord_system="LRG_629" start="4942" end="60479" strand="1" mapped_from="GRCh37" />
@@ -452,7 +455,9 @@
             <protein_product source="Ensembl" accession="ENSP00000359839">
               <coordinates coord_system="LRG_629" start="9307" end="57019" strand="1" mapped_from="GRCh37" />
               <db_xref source="UniProtKB" accession="Q8IWS0">
+                <synonym>A8K230</synonym>
                 <synonym>D3DTG3</synonym>
+                <synonym>E9PC97</synonym>
                 <synonym>Q5JRC7</synonym>
                 <synonym>Q5JRC8</synonym>
                 <synonym>Q96JK3</synonym>
@@ -498,14 +503,16 @@
             <protein_product source="Ensembl" accession="ENSP00000329097">
               <coordinates coord_system="LRG_629" start="9307" end="57019" strand="1" mapped_from="GRCh37" />
               <long_name>PHD finger protein 6 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_115834.1" />
               <db_xref source="UniProtKB" accession="Q8IWS0">
+                <synonym>A8K230</synonym>
                 <synonym>D3DTG3</synonym>
+                <synonym>E9PC97</synonym>
                 <synonym>Q5JRC7</synonym>
                 <synonym>Q5JRC8</synonym>
                 <synonym>Q96JK3</synonym>
                 <synonym>Q9BRU0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_115834.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000394292">
@@ -548,6 +555,15 @@
             <protein_product source="Ensembl" accession="ENSP00000377831">
               <coordinates coord_system="LRG_629" start="9307" end="57019" strand="1" mapped_from="GRCh37" />
               <long_name>PHD finger protein 6 isoform 1</long_name>
+              <db_xref source="UniProtKB" accession="Q8IWS0">
+                <synonym>A8K230</synonym>
+                <synonym>D3DTG3</synonym>
+                <synonym>E9PC97</synonym>
+                <synonym>Q5JRC7</synonym>
+                <synonym>Q5JRC8</synonym>
+                <synonym>Q96JK3</synonym>
+                <synonym>Q9BRU0</synonym>
+              </db_xref>
               <db_xref source="RefSeq" accession="NP_001015877.1" />
             </protein_product>
           </transcript>
@@ -654,14 +670,16 @@
             <protein_product source="Ensembl" accession="ENSP00000359836">
               <coordinates coord_system="LRG_629" start="9307" end="46911" strand="1" mapped_from="GRCh37" />
               <long_name>PHD finger protein 6 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_115711.2" />
               <db_xref source="UniProtKB" accession="Q8IWS0">
+                <synonym>A8K230</synonym>
                 <synonym>D3DTG3</synonym>
+                <synonym>E9PC97</synonym>
                 <synonym>Q5JRC7</synonym>
                 <synonym>Q5JRC8</synonym>
                 <synonym>Q96JK3</synonym>
                 <synonym>Q9BRU0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_115711.2" />
             </protein_product>
           </transcript>
         </gene>
@@ -685,7 +703,7 @@
         <name>List of locus specific databases for PHF6</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PHF6</url>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

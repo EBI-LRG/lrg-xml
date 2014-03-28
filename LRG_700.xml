@@ -101,9 +101,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="150641950" other_end="150695786">
         <mapping_span lrg_start="1" lrg_end="53837" other_start="150641950" other_end="150695786" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="150924163" other_end="150977999">
+        <mapping_span lrg_start="1" lrg_end="53837" other_start="150924163" other_end="150977999" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CLRN1</lrg_locus>
     </annotation_set>
@@ -118,7 +121,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009168.1</comment>
-      <modification_date>2014-01-16</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001195794.1" other_name="NM_001195794.1" other_id="NM_001195794.1" other_start="1" other_end="2398">
         <mapping_span lrg_start="5001" lrg_end="5544" other_start="1" other_end="544" strand="1" />
         <mapping_span lrg_start="36239" lrg_end="36418" other_start="545" other_end="724" strand="1" />
@@ -252,8 +255,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-17</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000295911.2" other_name="ENST00000295911.2" other_id="ENST00000295911.2" other_start="1" other_end="1444">
         <mapping_span lrg_start="33764" lrg_end="34180" other_start="1" other_end="417" strand="1" />
         <mapping_span lrg_start="36239" lrg_end="36418" other_start="418" other_end="597" strand="1" />
@@ -294,11 +297,11 @@
           <partial>5-prime</partial>
           <partial>3-prime</partial>
           <long_name>CLRN1 antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="116933">
+          <db_xref source="HGNC" accession="30895">
             <synonym>CLRN1OS</synonym>
             <synonym>UCRP</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="30895">
+          <db_xref source="GeneID" accession="116933">
             <synonym>CLRN1OS</synonym>
             <synonym>UCRP</synonym>
           </db_xref>
@@ -337,16 +340,16 @@
           <symbol source="HGNC" name="CLRN1" />
           <coordinates coord_system="LRG_700" start="5001" end="51837" strand="1" mapped_from="GRCh37" />
           <long_name>clarin 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="606397" />
+          <db_xref source="HGNC" accession="12605">
+            <synonym>USH3</synonym>
+            <synonym>USH3A</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="7401">
             <synonym>RP61</synonym>
             <synonym>USH3</synonym>
             <synonym>USH3A</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="12605">
-            <synonym>USH3</synonym>
-            <synonym>USH3A</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="606397" />
           <db_xref source="Ensembl" accession="ENSG00000163646" />
           <transcript source="Ensembl" accession="ENST00000327047">
             <coordinates coord_system="LRG_700" start="5001" end="51433" strand="1" mapped_from="GRCh37" />
@@ -365,12 +368,12 @@
             <protein_product source="Ensembl" accession="ENSP00000322280">
               <coordinates coord_system="LRG_700" start="5292" end="50064" strand="1" mapped_from="GRCh37" />
               <long_name>clarin-1 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_777367.1" />
               <db_xref source="UniProtKB" accession="P58418">
                 <synonym>D3DNJ3</synonym>
                 <synonym>E1ACU9</synonym>
                 <synonym>Q8N6A9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_777367.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000472224">
@@ -403,12 +406,12 @@
             <protein_product source="Ensembl" accession="ENSP00000329158">
               <coordinates coord_system="LRG_700" start="5292" end="50064" strand="1" mapped_from="GRCh37" />
               <long_name>clarin-1 isoform d</long_name>
-              <db_xref source="RefSeq" accession="NP_001182723.1" />
               <db_xref source="UniProtKB" accession="P58418">
                 <synonym>D3DNJ3</synonym>
                 <synonym>E1ACU9</synonym>
                 <synonym>Q8N6A9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001182723.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000468836">
@@ -450,12 +453,12 @@
             <protein_product source="Ensembl" accession="ENSP00000295911">
               <coordinates coord_system="LRG_700" start="34156" end="51148" strand="1" mapped_from="GRCh37" />
               <long_name>clarin-1 isoform c</long_name>
-              <db_xref source="RefSeq" accession="NP_443721.1" />
               <db_xref source="UniProtKB" accession="P58418">
                 <synonym>D3DNJ3</synonym>
                 <synonym>E1ACU9</synonym>
                 <synonym>Q8N6A9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_443721.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000485607">
@@ -528,7 +531,7 @@
         <name>List of locus specific databases for CLRN1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CLRN1</url>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

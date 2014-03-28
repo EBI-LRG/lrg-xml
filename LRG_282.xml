@@ -49,9 +49,16 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="48502229" other_end="48511044">
         <mapping_span lrg_start="1" lrg_end="8816" other_start="48502229" other_end="48511044" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="48460830" other_end="48469645">
+        <mapping_span lrg_start="1" lrg_end="8816" other_start="48460830" other_end="48469645" strand="1">
+          <diff type="mismatch" lrg_start="3074" lrg_end="3074" other_start="48463903" other_end="48463903" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="3736" lrg_end="3736" other_start="48464565" other_end="48464565" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="6357" lrg_end="6357" other_start="48467186" other_end="48467186" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">TREX1</lrg_locus>
     </annotation_set>
@@ -66,20 +73,26 @@
         </contact>
       </source>
       <comment>Annotation from NG_009820.1</comment>
-      <modification_date>2013-09-12</modification_date>
-      <mapping coord_system="NM_007248.2" other_name="NM_007248.2" other_id="NM_007248.2" other_start="1" other_end="1628">
+      <modification_date>2014-02-12</modification_date>
+      <mapping coord_system="NM_007248.3" other_name="NM_007248.3" other_id="NM_007248.3" other_start="1" other_end="1628">
         <mapping_span lrg_start="4691" lrg_end="5340" other_start="1" other_end="650" strand="1" />
-        <mapping_span lrg_start="5839" lrg_end="6816" other_start="651" other_end="1628" strand="1" />
+        <mapping_span lrg_start="5839" lrg_end="6816" other_start="651" other_end="1628" strand="1">
+          <diff type="mismatch" lrg_start="6357" lrg_end="6357" other_start="1169" other_end="1169" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <mapping coord_system="NM_016381.3" other_name="NM_016381.3" other_id="NM_016381.3" other_start="1" other_end="1816">
         <mapping_span lrg_start="5001" lrg_end="6816" other_start="1" other_end="1816" strand="1" />
       </mapping>
-      <mapping coord_system="NM_016381.4" other_name="NM_016381.4" other_id="NM_016381.4" other_start="1" other_end="2126">
-        <mapping_span lrg_start="4691" lrg_end="6816" other_start="1" other_end="2126" strand="1" />
+      <mapping coord_system="NM_016381.5" other_name="NM_016381.5" other_id="NM_016381.5" other_start="1" other_end="2126">
+        <mapping_span lrg_start="4691" lrg_end="6816" other_start="1" other_end="2126" strand="1">
+          <diff type="mismatch" lrg_start="6357" lrg_end="6357" other_start="1667" other_end="1667" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
-      <mapping coord_system="NM_033629.3" other_name="NM_033629.3" other_id="NM_033629.3" other_start="1" other_end="1806">
+      <mapping coord_system="NM_033629.4" other_name="NM_033629.4" other_id="NM_033629.4" other_start="1" other_end="1806">
         <mapping_span lrg_start="4691" lrg_end="5480" other_start="1" other_end="790" strand="1" />
-        <mapping_span lrg_start="5801" lrg_end="6816" other_start="791" other_end="1806" strand="1" />
+        <mapping_span lrg_start="5801" lrg_end="6816" other_start="791" other_end="1806" strand="1">
+          <diff type="mismatch" lrg_start="6357" lrg_end="6357" other_start="1347" other_end="1347" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="84126">
@@ -236,11 +249,11 @@
           <db_xref source="CCDS" accession="CCDS43086.1" />
           <db_xref source="CCDS" accession="CCDS59451.1" />
           <db_xref source="GI" accession="223972664" />
-          <transcript source="RefSeq" accession="NM_033629.3">
+          <transcript source="RefSeq" accession="NM_033629.4">
             <coordinates coord_system="LRG_282" start="4691" end="6816" strand="1" />
             <long_name>three prime repair exonuclease 1, transcript variant 4</long_name>
             <db_xref source="GeneID" accession="11277" />
-            <db_xref source="GI" accession="404434373" />
+            <db_xref source="GI" accession="574957039" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_282" start="4691" end="5480" strand="1" />
             </exon>
@@ -255,11 +268,11 @@
               <db_xref source="GI" accession="18375535" />
             </protein_product>
           </transcript>
-          <transcript source="RefSeq" accession="NM_007248.2">
+          <transcript source="RefSeq" accession="NM_007248.3">
             <coordinates coord_system="LRG_282" start="4691" end="6816" strand="1" />
             <long_name>three prime repair exonuclease 1, transcript variant 5</long_name>
             <db_xref source="GeneID" accession="11277" />
-            <db_xref source="GI" accession="404434374" />
+            <db_xref source="GI" accession="574957110" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_282" start="4691" end="5340" strand="1" />
             </exon>
@@ -348,6 +361,7 @@
               <long_name>protein shisa-5 isoform b precursor</long_name>
               <long_name>putative NF-kappa-B-activating protein 120</long_name>
               <long_name>shisa homolog 5</long_name>
+              <db_xref source="CCDS" accession="CCDS63623.1" />
               <db_xref source="GeneID" accession="51246" />
               <db_xref source="GI" accession="441418785" />
             </protein_product>
@@ -371,6 +385,7 @@
               <long_name>protein shisa-5 isoform c</long_name>
               <long_name>putative NF-kappa-B-activating protein 120</long_name>
               <long_name>shisa homolog 5</long_name>
+              <db_xref source="CCDS" accession="CCDS63622.1" />
               <db_xref source="GeneID" accession="51246" />
               <db_xref source="GI" accession="441418787" />
             </protein_product>
@@ -394,6 +409,7 @@
               <long_name>protein shisa-5 isoform c</long_name>
               <long_name>putative NF-kappa-B-activating protein 120</long_name>
               <long_name>shisa homolog 5</long_name>
+              <db_xref source="CCDS" accession="CCDS63622.1" />
               <db_xref source="GeneID" accession="51246" />
               <db_xref source="GI" accession="441418789" />
             </protein_product>
@@ -417,6 +433,7 @@
               <long_name>protein shisa-5 isoform c</long_name>
               <long_name>putative NF-kappa-B-activating protein 120</long_name>
               <long_name>shisa homolog 5</long_name>
+              <db_xref source="CCDS" accession="CCDS63622.1" />
               <db_xref source="GeneID" accession="51246" />
               <db_xref source="GI" accession="441418791" />
             </protein_product>
@@ -440,6 +457,7 @@
               <long_name>protein shisa-5 isoform d</long_name>
               <long_name>putative NF-kappa-B-activating protein 120</long_name>
               <long_name>shisa homolog 5</long_name>
+              <db_xref source="CCDS" accession="CCDS63621.1" />
               <db_xref source="GeneID" accession="51246" />
               <db_xref source="GI" accession="441418798" />
             </protein_product>
@@ -477,41 +495,57 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000296443.9" other_name="ENST00000296443.9" other_id="ENST00000296443.9" other_start="1" other_end="1877">
         <mapping_span lrg_start="4217" lrg_end="4254" other_start="1" other_end="38" strand="1" />
         <mapping_span lrg_start="4658" lrg_end="5480" other_start="39" other_end="861" strand="1" />
-        <mapping_span lrg_start="5801" lrg_end="6816" other_start="862" other_end="1877" strand="1" />
+        <mapping_span lrg_start="5801" lrg_end="6816" other_start="862" other_end="1877" strand="1">
+          <diff type="mismatch" lrg_start="6357" lrg_end="6357" other_start="48467186" other_end="48467186" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <mapping coord_system="ENST00000395677.1" other_name="ENST00000395677.1" other_id="ENST00000395677.1" other_start="1" other_end="2197">
         <mapping_span lrg_start="4217" lrg_end="4254" other_start="1" other_end="38" strand="1" />
-        <mapping_span lrg_start="4658" lrg_end="6816" other_start="39" other_end="2197" strand="1" />
+        <mapping_span lrg_start="4658" lrg_end="6816" other_start="39" other_end="2197" strand="1">
+          <diff type="mismatch" lrg_start="6357" lrg_end="6357" other_start="48467186" other_end="48467186" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <mapping coord_system="ENST00000422277.2" other_name="ENST00000422277.2" other_id="ENST00000422277.2" other_start="1" other_end="1813">
-        <mapping_span lrg_start="5001" lrg_end="6813" other_start="1" other_end="1813" strand="1" />
+        <mapping_span lrg_start="5001" lrg_end="6813" other_start="1" other_end="1813" strand="1">
+          <diff type="mismatch" lrg_start="6357" lrg_end="6357" other_start="48467186" other_end="48467186" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <mapping coord_system="ENST00000433541.1" other_name="ENST00000433541.1" other_id="ENST00000433541.1" other_start="1" other_end="1105">
         <mapping_span lrg_start="4982" lrg_end="5109" other_start="1" other_end="128" strand="1" />
         <mapping_span lrg_start="5422" lrg_end="5480" other_start="129" other_end="187" strand="1" />
         <mapping_span lrg_start="5801" lrg_end="5812" other_start="188" other_end="199" strand="1" />
-        <mapping_span lrg_start="5911" lrg_end="6816" other_start="200" other_end="1105" strand="1" />
+        <mapping_span lrg_start="5911" lrg_end="6816" other_start="200" other_end="1105" strand="1">
+          <diff type="mismatch" lrg_start="6357" lrg_end="6357" other_start="48467186" other_end="48467186" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <mapping coord_system="ENST00000436480.2" other_name="ENST00000436480.2" other_id="ENST00000436480.2" other_start="1" other_end="1493">
         <mapping_span lrg_start="5001" lrg_end="5480" other_start="1" other_end="480" strand="1" />
-        <mapping_span lrg_start="5801" lrg_end="6813" other_start="481" other_end="1493" strand="1" />
+        <mapping_span lrg_start="5801" lrg_end="6813" other_start="481" other_end="1493" strand="1">
+          <diff type="mismatch" lrg_start="6357" lrg_end="6357" other_start="48467186" other_end="48467186" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <mapping coord_system="ENST00000444177.1" other_name="ENST00000444177.1" other_id="ENST00000444177.1" other_start="1" other_end="1200">
         <mapping_span lrg_start="5117" lrg_end="5340" other_start="1" other_end="224" strand="1" />
-        <mapping_span lrg_start="5839" lrg_end="6814" other_start="225" other_end="1200" strand="1" />
+        <mapping_span lrg_start="5839" lrg_end="6814" other_start="225" other_end="1200" strand="1">
+          <diff type="mismatch" lrg_start="6357" lrg_end="6357" other_start="48467186" other_end="48467186" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <mapping coord_system="ENST00000456089.1" other_name="ENST00000456089.1" other_id="ENST00000456089.1" other_start="1" other_end="629">
         <mapping_span lrg_start="5433" lrg_end="5480" other_start="1" other_end="48" strand="1" />
-        <mapping_span lrg_start="6236" lrg_end="6816" other_start="49" other_end="629" strand="1" />
+        <mapping_span lrg_start="6236" lrg_end="6816" other_start="49" other_end="629" strand="1">
+          <diff type="mismatch" lrg_start="6357" lrg_end="6357" other_start="48467186" other_end="48467186" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <mapping coord_system="ENST00000492235.1" other_name="ENST00000492235.1" other_id="ENST00000492235.1" other_start="1" other_end="696">
         <mapping_span lrg_start="5441" lrg_end="5480" other_start="1" other_end="40" strand="1" />
-        <mapping_span lrg_start="5949" lrg_end="6604" other_start="41" other_end="696" strand="1" />
+        <mapping_span lrg_start="5949" lrg_end="6604" other_start="41" other_end="696" strand="1">
+          <diff type="mismatch" lrg_start="6357" lrg_end="6357" other_start="48467186" other_end="48467186" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000164053">
@@ -519,21 +553,21 @@
           <coordinates coord_system="LRG_282" start="1" end="4887" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>ATR interacting protein (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="84126" />
+          <db_xref source="MIM" accession="606605" />
           <db_xref source="HGNC" accession="33499">
             <synonym>FLJ12343</synonym>
             <synonym>MGC20625</synonym>
             <synonym>MGC21482</synonym>
             <synonym>MGC26740</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="606605" />
+          <db_xref source="GeneID" accession="84126" />
           <db_xref source="Ensembl" accession="ENSG00000164053" />
           <transcript source="Ensembl" accession="ENST00000320211">
             <coordinates coord_system="LRG_282" start="1" end="4826" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>ATRIP-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2768.1" />
-            <db_xref source="RefSeq" accession="NM_130384.1" />
+            <db_xref source="RefSeq" accession="NM_130384.2" />
             <exon source="Ensembl" accession="ENSE00003635645">
               <coordinates coord_system="LRG_282" start="2916" end="3052" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -553,7 +587,6 @@
               <coordinates coord_system="LRG_282" start="1" end="4725" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>ATR-interacting protein isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_569055.1" />
               <db_xref source="UniProtKB" accession="Q8WXE1">
                 <synonym>A8K6A3</synonym>
                 <synonym>A8K714</synonym>
@@ -566,6 +599,7 @@
                 <synonym>Q96CL3</synonym>
                 <synonym>Q9HA30</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_569055.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000346691">
@@ -573,7 +607,7 @@
             <partial>5-prime</partial>
             <long_name>ATRIP-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2767.1" />
-            <db_xref source="RefSeq" accession="NM_032166.2" />
+            <db_xref source="RefSeq" accession="NM_032166.3" />
             <exon source="Ensembl" accession="ENSE00003635645">
               <coordinates coord_system="LRG_282" start="2916" end="3052" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -590,7 +624,6 @@
               <coordinates coord_system="LRG_282" start="1" end="4725" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>ATR-interacting protein isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_115542.2" />
               <db_xref source="UniProtKB" accession="Q8WXE1">
                 <synonym>A8K6A3</synonym>
                 <synonym>A8K714</synonym>
@@ -603,6 +636,7 @@
                 <synonym>Q96CL3</synonym>
                 <synonym>Q9HA30</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_115542.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000424906">
@@ -650,7 +684,6 @@
               <coordinates coord_system="LRG_282" start="1" end="4725" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>ATR-interacting protein isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_001257952.1" />
               <db_xref source="UniProtKB" accession="Q8WXE1">
                 <synonym>A8K6A3</synonym>
                 <synonym>A8K714</synonym>
@@ -663,6 +696,7 @@
                 <synonym>Q96CL3</synonym>
                 <synonym>Q9HA30</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001257952.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000357105">
@@ -690,7 +724,6 @@
               <coordinates coord_system="LRG_282" start="1" end="4725" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>ATR-interacting protein isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001257951.1" />
               <db_xref source="UniProtKB" accession="Q8WXE1">
                 <synonym>A8K6A3</synonym>
                 <synonym>A8K714</synonym>
@@ -703,6 +736,7 @@
                 <synonym>Q96CL3</synonym>
                 <synonym>Q9HA30</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001257951.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -710,17 +744,19 @@
           <symbol source="HGNC" name="TREX1" />
           <coordinates coord_system="LRG_282" start="4217" end="6816" strand="1" mapped_from="GRCh37" />
           <long_name>three prime repair exonuclease 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="606609" />
+          <db_xref source="MIM" accession="606605" />
+          <db_xref source="HGNC" accession="12269">
+            <synonym>AGS1</synonym>
+            <synonym>DRN3</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="84126" />
           <db_xref source="GeneID" accession="11277">
             <synonym>AGS1</synonym>
             <synonym>CRV</synonym>
             <synonym>DRN3</synonym>
             <synonym>HERNS</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="12269">
-            <synonym>AGS1</synonym>
-            <synonym>DRN3</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="606609" />
           <db_xref source="Ensembl" accession="ENSG00000213689" />
           <transcript source="Ensembl" accession="ENST00000395677">
             <coordinates coord_system="LRG_282" start="4217" end="6816" strand="1" mapped_from="GRCh37" />
@@ -778,27 +814,27 @@
             <coordinates coord_system="LRG_282" start="5001" end="6813" strand="1" mapped_from="GRCh37" />
             <long_name>TREX1-201 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS43086.1" />
-            <db_xref source="RefSeq" accession="NM_016381.3" />
+            <db_xref source="RefSeq" accession="NM_016381.4" />
             <exon source="Ensembl" accession="ENSE00001602325">
               <coordinates coord_system="LRG_282" start="5001" end="6813" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000390478">
               <coordinates coord_system="LRG_282" start="5662" end="6771" strand="1" mapped_from="GRCh37" />
               <long_name>three prime repair exonuclease 1 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_057465.1" />
               <db_xref source="UniProtKB" accession="Q9NSU2">
                 <synonym>B2RCN9</synonym>
                 <synonym>Q8TEU2</synonym>
                 <synonym>Q9BPW1</synonym>
                 <synonym>Q9Y4X2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_057465.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000436480">
             <coordinates coord_system="LRG_282" start="5001" end="6813" strand="1" mapped_from="GRCh37" />
             <long_name>TREX1-202 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2769.1" />
-            <db_xref source="RefSeq" accession="NM_033629.2" />
+            <db_xref source="RefSeq" accession="NM_033629.3" />
             <exon source="Ensembl" accession="ENSE00002321479">
               <coordinates coord_system="LRG_282" start="5001" end="5480" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -808,13 +844,13 @@
             <protein_product source="Ensembl" accession="ENSP00000392569">
               <coordinates coord_system="LRG_282" start="5827" end="6771" strand="1" mapped_from="GRCh37" />
               <long_name>three prime repair exonuclease 1 isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_338599.1" />
               <db_xref source="UniProtKB" accession="Q9NSU2">
                 <synonym>B2RCN9</synonym>
                 <synonym>Q8TEU2</synonym>
                 <synonym>Q9BPW1</synonym>
                 <synonym>Q9Y4X2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_338599.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000444177">
@@ -831,13 +867,13 @@
             <protein_product source="Ensembl" accession="ENSP00000415972">
               <coordinates coord_system="LRG_282" start="5857" end="6771" strand="1" mapped_from="GRCh37" />
               <long_name>three prime repair exonuclease 1 isoform c</long_name>
-              <db_xref source="RefSeq" accession="NP_009179.2" />
               <db_xref source="UniProtKB" accession="Q9NSU2">
                 <synonym>B2RCN9</synonym>
                 <synonym>Q8TEU2</synonym>
                 <synonym>Q9BPW1</synonym>
                 <synonym>Q9Y4X2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_009179.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000456089">
@@ -868,15 +904,15 @@
           <symbol source="HGNC" name="SHISA5" />
           <coordinates coord_system="LRG_282" start="6969" end="8816" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <long_name>shisa homolog 5 (Xenopus laevis) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="51246">
-            <synonym>SCOTIN</synonym>
-          </db_xref>
+          <long_name>shisa family member 5 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="607290" />
           <db_xref source="HGNC" accession="30376">
             <synonym>hShisa5</synonym>
             <synonym>SCOTIN</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="607290" />
+          <db_xref source="GeneID" accession="51246">
+            <synonym>SCOTIN</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000164054" />
           <transcript source="Ensembl" accession="ENST00000296444">
             <coordinates coord_system="LRG_282" start="6969" end="8816" strand="-1" mapped_from="GRCh37" />
@@ -884,7 +920,7 @@
             <long_name>SHISA5-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS2770.1" />
             <db_xref source="RefSeq" accession="NM_001272065.1" />
-            <db_xref source="RefSeq" accession="NM_016479.3" />
+            <db_xref source="RefSeq" accession="NM_016479.4" />
             <exon source="Ensembl" accession="ENSE00003632430">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -894,9 +930,7 @@
             <protein_product source="Ensembl" accession="ENSP00000296444">
               <coordinates coord_system="LRG_282" start="8278" end="8816" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>protein shisa-5 isoform a precursor, protein shisa-5 isoform b precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_057563.3" />
-              <db_xref source="RefSeq" accession="NP_001258994.1" />
+              <long_name>protein shisa-5 isoform b precursor, protein shisa-5 isoform a precursor</long_name>
               <db_xref source="UniProtKB" accession="Q8N114">
                 <synonym>B3KW99</synonym>
                 <synonym>Q69YY9</synonym>
@@ -905,12 +939,15 @@
                 <synonym>Q96MW8</synonym>
                 <synonym>Q9BV58</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001258994.1" />
+              <db_xref source="RefSeq" accession="NP_057563.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000444115">
             <coordinates coord_system="LRG_282" start="7041" end="8816" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SHISA5-012 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS63622.1" />
             <db_xref source="RefSeq" accession="NM_001272066.1" />
             <exon source="Ensembl" accession="ENSE00003632430">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
@@ -922,7 +959,6 @@
               <coordinates coord_system="LRG_282" start="8278" end="8816" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>protein shisa-5 isoform c</long_name>
-              <db_xref source="RefSeq" accession="NP_001258995.1" />
               <db_xref source="UniProtKB" accession="Q8N114">
                 <synonym>B3KW99</synonym>
                 <synonym>Q69YY9</synonym>
@@ -931,6 +967,7 @@
                 <synonym>Q96MW8</synonym>
                 <synonym>Q9BV58</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001258995.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000466424">
@@ -956,7 +993,9 @@
             <coordinates coord_system="LRG_282" start="7047" end="8816" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SHISA5-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS63621.1" />
             <db_xref source="RefSeq" accession="NM_001272082.1" />
+            <db_xref source="RefSeq" accession="NM_001272083.1" />
             <exon source="Ensembl" accession="ENSE00003632430">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -967,8 +1006,6 @@
               <coordinates coord_system="LRG_282" start="8278" end="8816" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>protein shisa-5 isoform d, protein shisa-5 isoform e</long_name>
-              <db_xref source="RefSeq" accession="NP_001259011.1" />
-              <db_xref source="RefSeq" accession="NP_001259012.1" />
               <db_xref source="UniProtKB" accession="Q8N114">
                 <synonym>B3KW99</synonym>
                 <synonym>Q69YY9</synonym>
@@ -977,6 +1014,8 @@
                 <synonym>Q96MW8</synonym>
                 <synonym>Q9BV58</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001259011.1" />
+              <db_xref source="RefSeq" accession="NP_001259012.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000465449">
@@ -1006,6 +1045,7 @@
             <coordinates coord_system="LRG_282" start="7048" end="8816" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SHISA5-007 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS63622.1" />
             <db_xref source="RefSeq" accession="NM_001272067.1" />
             <exon source="Ensembl" accession="ENSE00003632430">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
@@ -1017,7 +1057,6 @@
               <coordinates coord_system="LRG_282" start="8278" end="8816" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>protein shisa-5 isoform c</long_name>
-              <db_xref source="RefSeq" accession="NP_001258996.1" />
               <db_xref source="UniProtKB" accession="Q8N114">
                 <synonym>B3KW99</synonym>
                 <synonym>Q69YY9</synonym>
@@ -1026,12 +1065,14 @@
                 <synonym>Q96MW8</synonym>
                 <synonym>Q9BV58</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001258996.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000443308">
             <coordinates coord_system="LRG_282" start="7082" end="8816" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>SHISA5-009 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS63623.1" />
             <exon source="Ensembl" accession="ENSE00003632430">
               <coordinates coord_system="LRG_282" start="8532" end="8744" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -1088,7 +1129,7 @@
         <name>List of locus specific databases for TREX1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TREX1</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

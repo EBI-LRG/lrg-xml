@@ -95,9 +95,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="69783633" other_end="70019487">
         <mapping_span lrg_start="1" lrg_end="235855" other_start="69783633" other_end="70019487" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="69734482" other_end="69970336">
+        <mapping_span lrg_start="1" lrg_end="235855" other_start="69734482" other_end="69970336" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">MITF</lrg_locus>
     </annotation_set>
@@ -112,7 +115,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011631.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000248.3" other_name="NM_000248.3" other_id="NM_000248.3" other_start="1" other_end="4472">
         <mapping_span lrg_start="202119" lrg_end="202274" other_start="1" other_end="156" strand="1" />
         <mapping_span lrg_start="203341" lrg_end="203568" other_start="157" other_end="384" strand="1" />
@@ -483,8 +486,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000314557.6" other_name="ENST00000314557.6" other_id="ENST00000314557.6" other_start="1" other_end="1798">
         <mapping_span lrg_start="202106" lrg_end="202274" other_start="1" other_end="169" strand="1" />
         <mapping_span lrg_start="203341" lrg_end="203568" other_start="170" other_end="397" strand="1" />
@@ -654,6 +657,13 @@
           <symbol source="HGNC" name="MITF" />
           <coordinates coord_system="LRG_776" start="4954" end="233856" strand="1" mapped_from="GRCh37" />
           <long_name>microphthalmia-associated transcription factor (protein_coding)</long_name>
+          <db_xref source="MIM" accession="156845" />
+          <db_xref source="HGNC" accession="7105">
+            <synonym>bHLHe32</synonym>
+            <synonym>MI</synonym>
+            <synonym>WS2</synonym>
+            <synonym>WS2A</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4286">
             <synonym>bHLHe32</synonym>
             <synonym>CMM8</synonym>
@@ -661,13 +671,6 @@
             <synonym>WS2</synonym>
             <synonym>WS2A</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7105">
-            <synonym>bHLHe32</synonym>
-            <synonym>MI</synonym>
-            <synonym>WS2</synonym>
-            <synonym>WS2A</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="156845" />
           <db_xref source="Ensembl" accession="ENSG00000187098" />
           <transcript source="Ensembl" accession="ENST00000352241">
             <coordinates coord_system="LRG_776" start="4954" end="233855" strand="1" mapped_from="GRCh37" />
@@ -707,7 +710,6 @@
             <protein_product source="Ensembl" accession="ENSP00000295600">
               <coordinates coord_system="LRG_776" start="5117" end="230767" strand="1" mapped_from="GRCh37" />
               <long_name>microphthalmia-associated transcription factor isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_937802.1" />
               <db_xref source="UniProtKB" accession="O75030">
                 <synonym>B4DJL2</synonym>
                 <synonym>D3K197</synonym>
@@ -718,6 +720,7 @@
                 <synonym>Q9P2V2</synonym>
                 <synonym>Q9P2Y8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_937802.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000448226">
@@ -872,7 +875,6 @@
             <protein_product source="Ensembl" accession="ENSP00000418845">
               <coordinates coord_system="LRG_776" start="144705" end="230767" strand="1" mapped_from="GRCh37" />
               <long_name>microphthalmia-associated transcription factor isoform 7</long_name>
-              <db_xref source="RefSeq" accession="NP_001171896.1" />
               <db_xref source="UniProtKB" accession="O75030">
                 <synonym>B4DJL2</synonym>
                 <synonym>D3K197</synonym>
@@ -883,6 +885,7 @@
                 <synonym>Q9P2V2</synonym>
                 <synonym>Q9P2Y8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001171896.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000457080">
@@ -935,7 +938,6 @@
             <protein_product source="Ensembl" accession="ENSP00000327867">
               <coordinates coord_system="LRG_776" start="29361" end="230767" strand="1" mapped_from="GRCh37" />
               <long_name>microphthalmia-associated transcription factor isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_006713.1" />
               <db_xref source="UniProtKB" accession="O75030">
                 <synonym>B4DJL2</synonym>
                 <synonym>D3K197</synonym>
@@ -946,6 +948,7 @@
                 <synonym>Q9P2V2</synonym>
                 <synonym>Q9P2Y8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006713.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000451708">
@@ -1064,7 +1067,6 @@
             <protein_product source="Ensembl" accession="ENSP00000377884">
               <coordinates coord_system="LRG_776" start="144624" end="230767" strand="1" mapped_from="GRCh37" />
               <long_name>microphthalmia-associated transcription factor isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_937820.1" />
               <db_xref source="UniProtKB" accession="O75030">
                 <synonym>B4DJL2</synonym>
                 <synonym>D3K197</synonym>
@@ -1075,6 +1077,7 @@
                 <synonym>Q9P2V2</synonym>
                 <synonym>Q9P2Y8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_937820.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000314557">
@@ -1112,10 +1115,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000324246">
               <coordinates coord_system="LRG_776" start="202242" end="230767" strand="1" mapped_from="GRCh37" />
-              <long_name>microphthalmia-associated transcription factor isoform 8, microphthalmia-associated transcription factor isoform 5, microphthalmia-associated transcription factor isoform 6</long_name>
-              <db_xref source="RefSeq" accession="NP_001171897.1" />
-              <db_xref source="RefSeq" accession="NP_937801.1" />
-              <db_xref source="RefSeq" accession="NP_937821.2" />
+              <long_name>microphthalmia-associated transcription factor isoform 6, microphthalmia-associated transcription factor isoform 5, microphthalmia-associated transcription factor isoform 8</long_name>
               <db_xref source="UniProtKB" accession="O75030">
                 <synonym>B4DJL2</synonym>
                 <synonym>D3K197</synonym>
@@ -1126,6 +1126,9 @@
                 <synonym>Q9P2V2</synonym>
                 <synonym>Q9P2Y8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_937821.2" />
+              <db_xref source="RefSeq" accession="NP_937801.1" />
+              <db_xref source="RefSeq" accession="NP_001171897.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000394351">
@@ -1162,9 +1165,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000377880">
               <coordinates coord_system="LRG_776" start="202242" end="230767" strand="1" mapped_from="GRCh37" />
-              <long_name>microphthalmia-associated transcription factor isoform 8, microphthalmia-associated transcription factor isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_001171897.1" />
-              <db_xref source="RefSeq" accession="NP_000239.1" />
+              <long_name>microphthalmia-associated transcription factor isoform 4, microphthalmia-associated transcription factor isoform 8</long_name>
               <db_xref source="UniProtKB" accession="O75030">
                 <synonym>B4DJL2</synonym>
                 <synonym>D3K197</synonym>
@@ -1175,6 +1176,8 @@
                 <synonym>Q9P2V2</synonym>
                 <synonym>Q9P2Y8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000239.1" />
+              <db_xref source="RefSeq" accession="NP_001171897.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000478490">
@@ -1292,8 +1295,8 @@
           <symbol source="HGNC" name="RN7SL418P" />
           <coordinates coord_system="LRG_776" start="35008" end="35296" strand="-1" mapped_from="GRCh37" />
           <long_name>RNA, 7SL, cytoplasmic 418, pseudogene (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="46434" />
           <db_xref source="RFAM" accession="RF00017" />
+          <db_xref source="HGNC" accession="46434" />
           <db_xref source="Ensembl" accession="ENSG00000241665" />
           <transcript source="Ensembl" accession="ENST00000473031">
             <coordinates coord_system="LRG_776" start="35008" end="35296" strand="-1" mapped_from="GRCh37" />
@@ -1323,7 +1326,7 @@
         <name>List of locus specific databases for MITF</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MITF</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

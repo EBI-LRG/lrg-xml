@@ -1798,9 +1798,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_start="152440822" other_end="152963534">
         <mapping_span lrg_start="1" lrg_end="522713" other_start="152440822" other_end="152963534" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="6" other_id="NC_000006.12" other_start="152119687" other_end="152642399">
+        <mapping_span lrg_start="1" lrg_end="522713" other_start="152119687" other_end="152642399" strand="-1">
+          <diff type="mismatch" lrg_start="413520" lrg_end="413520" other_start="152228880" other_end="152228880" lrg_sequence="T" other_sequence="A" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">SYNE1</lrg_locus>
     </annotation_set>
@@ -1815,7 +1820,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012855.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_033071.3" other_name="NM_033071.3" other_id="NM_033071.3" other_start="1" other_end="27439">
         <mapping_span lrg_start="5549" lrg_end="5762" other_start="1" other_end="214" strand="1" />
         <mapping_span lrg_start="13846" lrg_end="14135" other_start="215" other_end="504" strand="1" />
@@ -3067,8 +3072,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000265368.4" other_name="ENST00000265368.4" other_id="ENST00000265368.4" other_start="1" other_end="27745">
         <mapping_span lrg_start="5001" lrg_end="5211" other_start="1" other_end="211" strand="1" />
         <mapping_span lrg_start="5595" lrg_end="5762" other_start="212" other_end="379" strand="1" />
@@ -4533,17 +4538,7 @@
           <symbol source="HGNC" name="SYNE1" />
           <coordinates coord_system="LRG_427" start="4599" end="520716" strand="1" mapped_from="GRCh37" />
           <long_name>spectrin repeat containing, nuclear envelope 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="23345">
-            <synonym>8B</synonym>
-            <synonym>ARCA1</synonym>
-            <synonym>C6orf98</synonym>
-            <synonym>CPG2</synonym>
-            <synonym>dJ45H2.2</synonym>
-            <synonym>EDMD4</synonym>
-            <synonym>MYNE1</synonym>
-            <synonym>Nesp1</synonym>
-            <synonym>SCAR8</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="608441" />
           <db_xref source="HGNC" accession="17089">
             <synonym>8B</synonym>
             <synonym>ARCA1</synonym>
@@ -4558,7 +4553,17 @@
             <synonym>SCAR8</synonym>
             <synonym>SYNE-1B</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="608441" />
+          <db_xref source="GeneID" accession="23345">
+            <synonym>8B</synonym>
+            <synonym>ARCA1</synonym>
+            <synonym>C6orf98</synonym>
+            <synonym>CPG2</synonym>
+            <synonym>dJ45H2.2</synonym>
+            <synonym>EDMD4</synonym>
+            <synonym>MYNE1</synonym>
+            <synonym>Nesp1</synonym>
+            <synonym>SCAR8</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000131018" />
           <transcript source="Ensembl" accession="ENST00000537750">
             <coordinates coord_system="LRG_427" start="4599" end="177107" strand="1" mapped_from="GRCh37" />
@@ -5064,7 +5069,6 @@
             <protein_product source="Ensembl" accession="ENSP00000356224">
               <coordinates coord_system="LRG_427" start="14069" end="519964" strand="1" mapped_from="GRCh37" />
               <long_name>nesprin-1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_892006.3" />
               <db_xref source="UniProtKB" accession="Q8NF91">
                 <synonym>E7EQI5</synonym>
                 <synonym>O94890</synonym>
@@ -5085,6 +5089,7 @@
                 <synonym>Q9UJ07</synonym>
                 <synonym>Q9ULF8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_892006.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000265368">
@@ -6977,7 +6982,6 @@
             <protein_product source="Ensembl" accession="ENSP00000396024">
               <coordinates coord_system="LRG_427" start="14069" end="519964" strand="1" mapped_from="GRCh37" />
               <long_name>nesprin-1 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_149062.1" />
               <db_xref source="UniProtKB" accession="Q8NF91">
                 <synonym>E7EQI5</synonym>
                 <synonym>O94890</synonym>
@@ -6998,6 +7002,7 @@
                 <synonym>Q9UJ07</synonym>
                 <synonym>Q9ULF8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_149062.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000461872">
@@ -8192,26 +8197,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000349276">
               <coordinates coord_system="LRG_427" start="324176" end="519964" strand="1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="Q8NF91">
-                <synonym>E7EQI5</synonym>
-                <synonym>O94890</synonym>
-                <synonym>Q5JV19</synonym>
-                <synonym>Q5JV22</synonym>
-                <synonym>Q8N9P7</synonym>
-                <synonym>Q8TCP1</synonym>
-                <synonym>Q8WWW6</synonym>
-                <synonym>Q8WWW7</synonym>
-                <synonym>Q8WXF6</synonym>
-                <synonym>Q96N17</synonym>
-                <synonym>Q9C0A7</synonym>
-                <synonym>Q9H525</synonym>
-                <synonym>Q9H526</synonym>
-                <synonym>Q9NS36</synonym>
-                <synonym>Q9NU50</synonym>
-                <synonym>Q9UJ06</synonym>
-                <synonym>Q9UJ07</synonym>
-                <synonym>Q9ULF8</synonym>
-              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000409694">
@@ -9047,10 +9032,10 @@
           <symbol source="HGNC" name="RNA5SP223" />
           <coordinates coord_system="LRG_427" start="232006" end="232125" strand="-1" mapped_from="GRCh37" />
           <long_name>RNA, 5S ribosomal pseudogene 223 (rRNA)</long_name>
+          <db_xref source="RFAM" accession="RF00001" />
           <db_xref source="HGNC" accession="43123">
             <synonym>RN5S223</synonym>
           </db_xref>
-          <db_xref source="RFAM" accession="RF00001" />
           <db_xref source="Ensembl" accession="ENSG00000202044" />
           <transcript source="Ensembl" accession="ENST00000365174">
             <coordinates coord_system="LRG_427" start="232006" end="232125" strand="-1" mapped_from="GRCh37" />
@@ -9080,7 +9065,6 @@
           <symbol source="HGNC" name="SYNE1-AS1" />
           <coordinates coord_system="LRG_427" start="260836" end="261854" strand="-1" mapped_from="GRCh37" />
           <long_name>SYNE1 antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100505475" />
           <db_xref source="HGNC" accession="40793" />
           <db_xref source="Ensembl" accession="ENSG00000234577" />
           <transcript source="Ensembl" accession="ENST00000412161">
@@ -9099,19 +9083,20 @@
           <coordinates coord_system="LRG_427" start="512781" end="522713" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>estrogen receptor 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="2099">
-            <synonym>ER</synonym>
-            <synonym>Era</synonym>
-            <synonym>ESR</synonym>
-            <synonym>ESRA</synonym>
-            <synonym>NR3A1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="133430" />
           <db_xref source="HGNC" accession="3467">
             <synonym>Era</synonym>
             <synonym>ESR</synonym>
             <synonym>NR3A1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="133430" />
+          <db_xref source="GeneID" accession="2099">
+            <synonym>ER</synonym>
+            <synonym>Era</synonym>
+            <synonym>ESR</synonym>
+            <synonym>ESRA</synonym>
+            <synonym>ESTRR</synonym>
+            <synonym>NR3A1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000091831" />
           <transcript source="Ensembl" accession="ENST00000427531">
             <coordinates coord_system="LRG_427" start="512781" end="522713" strand="-1" mapped_from="GRCh37" />
@@ -9120,19 +9105,7 @@
             <exon source="Ensembl" accession="ENSE00001621055">
               <coordinates coord_system="LRG_427" start="512781" end="517134" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000394721" codon_start="2">
-              <coordinates coord_system="LRG_427" start="517052" end="522713" strand="-1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000544394">
-            <coordinates coord_system="LRG_427" start="512799" end="522713" strand="-1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>ESR1-204 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001786770">
-              <coordinates coord_system="LRG_427" start="512799" end="517134" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000445454">
+            <protein_product source="Ensembl" accession="ENSP00000394721">
               <coordinates coord_system="LRG_427" start="517052" end="522713" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </protein_product>
@@ -9145,7 +9118,7 @@
         <name>List of locus specific databases for SYNE1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SYNE1</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

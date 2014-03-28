@@ -118,9 +118,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="11843787" other_end="11871160">
         <mapping_span lrg_start="1" lrg_end="27374" other_start="11843787" other_end="11871160" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="11783730" other_end="11811103">
+        <mapping_span lrg_start="1" lrg_end="27374" other_start="11783730" other_end="11811103" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">MTHFR</lrg_locus>
     </annotation_set>
@@ -135,7 +138,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_013351.1</comment>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_005957.4" other_name="NM_005957.4" other_id="NM_005957.4" other_start="1" other_end="7150">
         <mapping_span lrg_start="5001" lrg_end="5216" other_start="1" other_end="216" strand="1" />
         <mapping_span lrg_start="7975" lrg_end="8223" other_start="217" other_end="465" strand="1" />
@@ -303,8 +306,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-28</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000376486.2" other_name="ENST00000376486.2" other_id="ENST00000376486.2" other_start="1" other_end="1135">
         <mapping_span lrg_start="4184" lrg_end="5216" other_start="1" other_end="1033" strand="1" />
         <mapping_span lrg_start="7975" lrg_end="8076" other_start="1034" other_end="1135" strand="1" />
@@ -389,14 +392,14 @@
           <coordinates coord_system="LRG_726" start="1" end="4954" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>chloride channel, voltage-sensitive 6 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="1185">
-            <synonym>CLC-6</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="602726" />
           <db_xref source="HGNC" accession="2024">
             <synonym>CLC-6</synonym>
             <synonym>KIAA0046</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="602726" />
+          <db_xref source="GeneID" accession="1185">
+            <synonym>CLC-6</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000011021" />
           <transcript source="Ensembl" accession="ENST00000346436">
             <coordinates coord_system="LRG_726" start="1" end="4893" strand="-1" mapped_from="GRCh37" />
@@ -414,7 +417,6 @@
               <coordinates coord_system="LRG_726" start="1" end="4841" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>chloride transport protein 6 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001277.1" />
               <db_xref source="UniProtKB" accession="P51797">
                 <synonym>A8K1T4</synonym>
                 <synonym>B4DGT7</synonym>
@@ -435,6 +437,7 @@
                 <synonym>Q99428</synonym>
                 <synonym>Q99429</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001277.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000376497">
@@ -537,7 +540,6 @@
               <coordinates coord_system="LRG_726" start="1" end="4841" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>chloride transport protein 6 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001243888.1" />
               <db_xref source="UniProtKB" accession="P51797">
                 <synonym>A8K1T4</synonym>
                 <synonym>B4DGT7</synonym>
@@ -558,6 +560,7 @@
                 <synonym>Q99428</synonym>
                 <synonym>Q99429</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001243888.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000312413">
@@ -600,9 +603,9 @@
           <symbol source="HGNC" name="MTHFR" />
           <coordinates coord_system="LRG_726" start="4184" end="25381" strand="1" mapped_from="GRCh37" />
           <long_name>methylenetetrahydrofolate reductase (NAD(P)H) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4524" />
-          <db_xref source="HGNC" accession="7436" />
           <db_xref source="MIM" accession="607093" />
+          <db_xref source="HGNC" accession="7436" />
+          <db_xref source="GeneID" accession="4524" />
           <db_xref source="Ensembl" accession="ENSG00000177000" />
           <transcript source="Ensembl" accession="ENST00000376486">
             <coordinates coord_system="LRG_726" start="4184" end="8076" strand="1" mapped_from="GRCh37" />
@@ -661,13 +664,13 @@
             <protein_product source="Ensembl" accession="ENSP00000365775">
               <coordinates coord_system="LRG_726" start="7988" end="20424" strand="1" mapped_from="GRCh37" />
               <long_name>methylenetetrahydrofolate reductase</long_name>
-              <db_xref source="RefSeq" accession="NP_005948.3" />
               <db_xref source="UniProtKB" accession="P42898">
                 <synonym>B2R7A6</synonym>
                 <synonym>Q5SNW9</synonym>
                 <synonym>Q7Z6M6</synonym>
                 <synonym>Q9UQR2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_005948.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000418034">
@@ -1033,7 +1036,7 @@
         <name>List of locus specific databases for MTHFR</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MTHFR</url>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

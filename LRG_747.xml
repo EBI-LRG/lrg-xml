@@ -162,9 +162,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="26411509" other_end="26472489">
         <mapping_span lrg_start="1" lrg_end="60981" other_start="26411509" other_end="26472489" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="26188640" other_end="26249621">
+        <mapping_span lrg_start="1" lrg_end="60981" other_start="26188640" other_end="26249621" strand="-1">
+          <diff type="other_ins" lrg_start="29586" lrg_end="29587" other_start="26220035" other_end="26220035" lrg_sequence="-" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">HADHA</lrg_locus>
     </annotation_set>
@@ -179,7 +184,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007121.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000182.4" other_name="NM_000182.4" other_id="NM_000182.4" other_start="1" other_end="3037">
         <mapping_span lrg_start="4896" lrg_end="5092" other_start="1" other_end="197" strand="1" />
         <mapping_span lrg_start="10479" lrg_end="10520" other_start="198" other_end="239" strand="1" />
@@ -352,8 +357,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000380649.3" other_name="ENST00000380649.3" other_id="ENST00000380649.3" other_start="1" other_end="3037">
         <mapping_span lrg_start="4896" lrg_end="5092" other_start="1" other_end="197" strand="1" />
         <mapping_span lrg_start="10479" lrg_end="10520" other_start="198" other_end="239" strand="1" />
@@ -410,16 +415,16 @@
           <coordinates coord_system="LRG_747" start="1" end="6452" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>hydroxyacyl-CoA dehydrogenase/3-ketoacyl-CoA thiolase/enoyl-CoA hydratase (trifunctional protein), beta subunit (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3032">
-            <synonym>ECHB</synonym>
-            <synonym>MTPB</synonym>
-            <synonym>TP-BETA</synonym>
+          <db_xref source="MIM" accession="143450">
+            <synonym>251890</synonym>
           </db_xref>
           <db_xref source="HGNC" accession="4803">
             <synonym>MTPB</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="143450">
-            <synonym>251890</synonym>
+          <db_xref source="GeneID" accession="3032">
+            <synonym>ECHB</synonym>
+            <synonym>MTPB</synonym>
+            <synonym>TP-BETA</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000138029" />
           <transcript source="Ensembl" accession="ENST00000448743">
@@ -436,6 +441,7 @@
             <long_name>HADHB-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS1722.1" />
             <db_xref source="RefSeq" accession="NM_000183.2" />
+            <db_xref source="RefSeq" accession="NM_001281512.1" />
             <exon source="Ensembl" accession="ENSE00001168977">
               <coordinates coord_system="LRG_747" start="4632" end="4727" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -476,6 +482,7 @@
             <coordinates coord_system="LRG_747" start="1" end="4673" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>HADHB-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS62871.1" />
             <exon source="Ensembl" accession="ENSE00002310286">
               <coordinates coord_system="LRG_747" start="4632" end="4673" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -484,6 +491,8 @@
             <coordinates coord_system="LRG_747" start="1" end="4660" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>HADHB-202 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS62872.1" />
+            <db_xref source="RefSeq" accession="NM_001281513.1" />
             <exon source="Ensembl" accession="ENSE00002321214">
               <coordinates coord_system="LRG_747" start="4632" end="4660" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -493,6 +502,13 @@
           <symbol source="HGNC" name="HADHA" />
           <coordinates coord_system="LRG_747" start="4896" end="58986" strand="1" mapped_from="GRCh37" />
           <long_name>hydroxyacyl-CoA dehydrogenase/3-ketoacyl-CoA thiolase/enoyl-CoA hydratase (trifunctional protein), alpha subunit (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600890" />
+          <db_xref source="HGNC" accession="4801">
+            <synonym>GBP</synonym>
+            <synonym>LCEH</synonym>
+            <synonym>LCHAD</synonym>
+            <synonym>MTPA</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="3030">
             <synonym>ECHA</synonym>
             <synonym>GBP</synonym>
@@ -502,13 +518,6 @@
             <synonym>MTPA</synonym>
             <synonym>TP-ALPHA</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="4801">
-            <synonym>GBP</synonym>
-            <synonym>LCEH</synonym>
-            <synonym>LCHAD</synonym>
-            <synonym>MTPA</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="600890" />
           <db_xref source="Ensembl" accession="ENSG00000084754" />
           <transcript source="Ensembl" accession="ENST00000380649">
             <coordinates coord_system="LRG_747" start="4896" end="58986" strand="1" mapped_from="GRCh37" />
@@ -578,12 +587,14 @@
             <protein_product source="Ensembl" accession="ENSP00000370023">
               <coordinates coord_system="LRG_747" start="5026" end="58371" strand="1" mapped_from="GRCh37" />
               <long_name>trifunctional enzyme subunit alpha, mitochondrial precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000173.2" />
               <db_xref source="UniProtKB" accession="P40939">
                 <synonym>B2R7L4</synonym>
                 <synonym>Q16679</synonym>
+                <synonym>Q53T69</synonym>
+                <synonym>Q53TA2</synonym>
                 <synonym>Q96GT7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000173.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000457468">
@@ -674,13 +685,13 @@
           <coordinates coord_system="LRG_747" start="59958" end="60981" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>GRB2 associated, regulator of MAPK1-like (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="150946">
-            <synonym>FAM59B</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="27172">
             <synonym>FAM59B</synonym>
             <synonym>FLJ00375</synonym>
             <synonym>KIAA2038</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="150946">
+            <synonym>FAM59B</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000157833" />
           <transcript source="Ensembl" accession="ENST00000401533">
@@ -713,7 +724,7 @@
         <name>List of locus specific databases for HADHA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HADHA</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

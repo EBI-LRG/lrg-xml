@@ -126,9 +126,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="189344216" other_end="189617068">
         <mapping_span lrg_start="1" lrg_end="272853" other_start="189344216" other_end="189617068" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="189626427" other_end="189899279">
+        <mapping_span lrg_start="1" lrg_end="272853" other_start="189626427" other_end="189899279" strand="1">
+          <diff type="mismatch" lrg_start="126723" lrg_end="126723" other_start="189753149" other_end="189753149" lrg_sequence="A" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">TP63</lrg_locus>
     </annotation_set>
@@ -143,7 +148,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007550.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001114978.1" other_name="NM_001114978.1" other_id="NM_001114978.1" other_start="1" other_end="4815">
         <mapping_span lrg_start="5001" lrg_end="5151" other_start="1" other_end="151" strand="1" />
         <mapping_span lrg_start="111314" lrg_end="111442" other_start="152" other_end="280" strand="1" />
@@ -570,8 +575,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000264731.3" other_name="ENST00000264731.3" other_id="ENST00000264731.3" other_start="1" other_end="4909">
         <mapping_span lrg_start="5001" lrg_end="5151" other_start="1" other_end="151" strand="1" />
         <mapping_span lrg_start="111314" lrg_end="111442" other_start="152" other_end="280" strand="1" />
@@ -764,6 +769,22 @@
           <symbol source="HGNC" name="TP63" />
           <coordinates coord_system="LRG_428" start="4990" end="270853" strand="1" mapped_from="GRCh37" />
           <long_name>tumor protein p63 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="603273" />
+          <db_xref source="HGNC" accession="15979">
+            <synonym>EEC3</synonym>
+            <synonym>KET</synonym>
+            <synonym>NBP</synonym>
+            <synonym>OFC8</synonym>
+            <synonym>p51</synonym>
+            <synonym>p53CP</synonym>
+            <synonym>p63</synonym>
+            <synonym>p73H</synonym>
+            <synonym>p73L</synonym>
+            <synonym>SHFM4</synonym>
+            <synonym>TP53CP</synonym>
+            <synonym>TP53L</synonym>
+            <synonym>TP73L</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="8626">
             <synonym>AIS</synonym>
             <synonym>B(p51A)</synonym>
@@ -785,22 +806,6 @@
             <synonym>TP53L</synonym>
             <synonym>TP73L</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="15979">
-            <synonym>EEC3</synonym>
-            <synonym>KET</synonym>
-            <synonym>NBP</synonym>
-            <synonym>OFC8</synonym>
-            <synonym>p51</synonym>
-            <synonym>p53CP</synonym>
-            <synonym>p63</synonym>
-            <synonym>p73H</synonym>
-            <synonym>p73L</synonym>
-            <synonym>SHFM4</synonym>
-            <synonym>TP53CP</synonym>
-            <synonym>TP53L</synonym>
-            <synonym>TP73L</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="603273" />
           <db_xref source="Ensembl" accession="ENSG00000073282" />
           <transcript source="Ensembl" accession="ENST00000486398">
             <coordinates coord_system="LRG_428" start="4990" end="112470" strand="1" mapped_from="GRCh37" />
@@ -865,9 +870,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000264731">
               <coordinates coord_system="LRG_428" start="5090" end="268076" strand="1" mapped_from="GRCh37" />
-              <long_name>tumor protein 63 isoform 1, tumor protein 63 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_003713.3" />
-              <db_xref source="RefSeq" accession="NP_001108450.1" />
+              <long_name>tumor protein 63 isoform 2, tumor protein 63 isoform 1</long_name>
               <db_xref source="UniProtKB" accession="Q9H3D4">
                 <synonym>O75080</synonym>
                 <synonym>O75195</synonym>
@@ -899,6 +902,8 @@
                 <synonym>Q9UP28</synonym>
                 <synonym>Q9UP74</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001108450.1" />
+              <db_xref source="RefSeq" accession="NP_003713.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000382063">
@@ -1019,7 +1024,6 @@
             <protein_product source="Ensembl" accession="ENSP00000407144">
               <coordinates coord_system="LRG_428" start="5090" end="253752" strand="1" mapped_from="GRCh37" />
               <long_name>tumor protein 63 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001108451.1" />
               <db_xref source="UniProtKB" accession="Q9H3D4">
                 <synonym>O75080</synonym>
                 <synonym>O75195</synonym>
@@ -1051,6 +1055,7 @@
                 <synonym>Q9UP28</synonym>
                 <synonym>Q9UP74</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001108451.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000320472">
@@ -1329,9 +1334,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000346614">
               <coordinates coord_system="LRG_428" start="163375" end="268076" strand="1" mapped_from="GRCh37" />
-              <long_name>tumor protein 63 isoform 4, tumor protein 63 isoform 5</long_name>
-              <db_xref source="RefSeq" accession="NP_001108452.1" />
-              <db_xref source="RefSeq" accession="NP_001108453.1" />
+              <long_name>tumor protein 63 isoform 5, tumor protein 63 isoform 4</long_name>
               <db_xref source="UniProtKB" accession="Q9H3D4">
                 <synonym>O75080</synonym>
                 <synonym>O75195</synonym>
@@ -1363,6 +1366,8 @@
                 <synonym>Q9UP28</synonym>
                 <synonym>Q9UP74</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001108453.1" />
+              <db_xref source="RefSeq" accession="NP_001108452.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000434928">
@@ -1447,7 +1452,6 @@
             <protein_product source="Ensembl" accession="ENSP00000392488">
               <coordinates coord_system="LRG_428" start="163375" end="253752" strand="1" mapped_from="GRCh37" />
               <long_name>tumor protein 63 isoform 6</long_name>
-              <db_xref source="RefSeq" accession="NP_001108454.1" />
               <db_xref source="UniProtKB" accession="Q9H3D4">
                 <synonym>O75080</synonym>
                 <synonym>O75195</synonym>
@@ -1479,6 +1483,7 @@
                 <synonym>Q9UP28</synonym>
                 <synonym>Q9UP74</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001108454.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000392463">
@@ -1784,15 +1789,15 @@
           <symbol source="HGNC" name="MIR944" />
           <coordinates coord_system="LRG_428" start="203496" end="203583" strand="1" mapped_from="GRCh37" />
           <long_name>microRNA 944 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="100126340">
-            <synonym>hsa-mir-944</synonym>
-            <synonym>MIRN944</synonym>
-          </db_xref>
+          <db_xref source="miRBase" accession="MI0005769" />
           <db_xref source="HGNC" accession="33690">
             <synonym>hsa-mir-944</synonym>
             <synonym>MIRN944</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0005769" />
+          <db_xref source="GeneID" accession="100126340">
+            <synonym>hsa-mir-944</synonym>
+            <synonym>MIRN944</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000216058" />
           <transcript source="Ensembl" accession="ENST00000401239">
             <coordinates coord_system="LRG_428" start="203496" end="203583" strand="1" mapped_from="GRCh37" />
@@ -1810,7 +1815,7 @@
         <name>List of locus specific databases for TP63</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TP63</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

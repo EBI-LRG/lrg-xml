@@ -251,10 +251,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="23032331" other_end="23243823">
         <mapping_span lrg_start="1" lrg_end="211493" other_start="23032331" other_end="23243823" strand="1">
           <diff type="mismatch" lrg_start="187163" lrg_end="187163" other_start="23219493" other_end="23219493" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="22705838" other_end="22917330">
+        <mapping_span lrg_start="1" lrg_end="211493" other_start="22705838" other_end="22917330" strand="1">
+          <diff type="mismatch" lrg_start="187163" lrg_end="187163" other_start="22893000" other_end="22893000" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">EPHB2</lrg_locus>
@@ -270,7 +275,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011804.1</comment>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_004442.6" other_name="NM_004442.6" other_id="NM_004442.6" other_start="1" other_end="4869">
         <mapping_span lrg_start="5001" lrg_end="5206" other_start="1" other_end="206" strand="1" />
         <mapping_span lrg_start="75584" lrg_end="75648" other_start="207" other_end="271" strand="1" />
@@ -480,8 +485,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-28</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000374627.1" other_name="ENST00000374627.1" other_id="ENST00000374627.1" other_start="1" other_end="4014">
         <mapping_span lrg_start="69341" lrg_end="69407" other_start="1" other_end="67" strand="1" />
         <mapping_span lrg_start="75584" lrg_end="75648" other_start="68" other_end="132" strand="1" />
@@ -591,6 +596,14 @@
           <symbol source="HGNC" name="EPHB2" />
           <coordinates coord_system="LRG_780" start="5002" end="209488" strand="1" mapped_from="GRCh37" />
           <long_name>EPH receptor B2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600997" />
+          <db_xref source="HGNC" accession="3393">
+            <synonym>DRT</synonym>
+            <synonym>EPHT3</synonym>
+            <synonym>ERK</synonym>
+            <synonym>Hek5</synonym>
+            <synonym>Tyro5</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2048">
             <synonym>CAPB</synonym>
             <synonym>DRT</synonym>
@@ -601,14 +614,6 @@
             <synonym>PCBC</synonym>
             <synonym>Tyro5</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3393">
-            <synonym>DRT</synonym>
-            <synonym>EPHT3</synonym>
-            <synonym>ERK</synonym>
-            <synonym>Hek5</synonym>
-            <synonym>Tyro5</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="600997" />
           <db_xref source="Ensembl" accession="ENSG00000133216" />
           <transcript source="Ensembl" accession="ENST00000544305">
             <coordinates coord_system="LRG_780" start="5002" end="185428" strand="1" mapped_from="GRCh37" />
@@ -759,14 +764,14 @@
             <protein_product source="Ensembl" accession="ENSP00000383053">
               <coordinates coord_system="LRG_780" start="5146" end="208033" strand="1" mapped_from="GRCh37" />
               <long_name>ephrin type-B receptor 2 isoform 1 precursor, ephrin type-B receptor 2 isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_059145.2" />
-              <db_xref source="RefSeq" accession="NP_004433.2" />
               <db_xref source="UniProtKB" accession="P29323">
                 <synonym>O43477</synonym>
                 <synonym>Q5T0U6</synonym>
                 <synonym>Q5T0U7</synonym>
                 <synonym>Q5T0U8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_059145.2" />
+              <db_xref source="RefSeq" accession="NP_004433.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000374632">
@@ -923,11 +928,11 @@
           <symbol source="HGNC" name="MIR4684" />
           <coordinates coord_system="LRG_780" start="13680" end="13761" strand="1" mapped_from="GRCh37" />
           <long_name>microRNA 4684 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="100616391" />
+          <db_xref source="miRBase" accession="MI0017316" />
           <db_xref source="HGNC" accession="41695">
             <synonym>hsa-mir-4684</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0017316" />
+          <db_xref source="GeneID" accession="100616391" />
           <db_xref source="Ensembl" accession="ENSG00000265422" />
           <transcript source="Ensembl" accession="ENST00000581646">
             <coordinates coord_system="LRG_780" start="13680" end="13761" strand="1" mapped_from="GRCh37" />
@@ -971,11 +976,11 @@
           <symbol source="HGNC" name="MIR4253" />
           <coordinates coord_system="LRG_780" start="157322" end="157389" strand="-1" mapped_from="GRCh37" />
           <long_name>microRNA 4253 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="100422914" />
+          <db_xref source="miRBase" accession="MI0015860" />
           <db_xref source="HGNC" accession="38231">
             <synonym>hsa-mir-4253</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0015860" />
+          <db_xref source="GeneID" accession="100422914" />
           <db_xref source="Ensembl" accession="ENSG00000264014" />
           <transcript source="Ensembl" accession="ENST00000581187">
             <coordinates coord_system="LRG_780" start="157322" end="157389" strand="-1" mapped_from="GRCh37" />
@@ -1009,7 +1014,7 @@
         <name>List of locus specific databases for EPHB2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/EPHB2</url>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

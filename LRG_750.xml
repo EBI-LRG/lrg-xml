@@ -108,9 +108,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_start="4088319" other_end="4129126">
         <mapping_span lrg_start="1" lrg_end="40808" other_start="4088319" other_end="4129126" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="19" other_id="NC_000019.10" other_start="4088321" other_end="4129129">
+        <mapping_span lrg_start="1" lrg_end="40808" other_start="4088321" other_end="4129129" strand="-1">
+          <diff type="other_ins" lrg_start="6443" lrg_end="6444" other_start="4122686" other_end="4122686" lrg_sequence="-" other_sequence="G" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">MAP2K2</lrg_locus>
     </annotation_set>
@@ -125,7 +130,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007996.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_030662.3" other_name="NM_030662.3" other_id="NM_030662.3" other_start="1" other_end="1734">
         <mapping_span lrg_start="5001" lrg_end="5346" other_start="1" other_end="346" strand="1" />
         <mapping_span lrg_start="11500" lrg_end="11710" other_start="347" other_end="557" strand="1" />
@@ -218,8 +223,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000262948.5" other_name="ENST00000262948.5" other_id="ENST00000262948.5" other_start="1" other_end="1734">
         <mapping_span lrg_start="5001" lrg_end="5346" other_start="1" other_end="346" strand="1" />
         <mapping_span lrg_start="11500" lrg_end="11710" other_start="347" other_end="557" strand="1" />
@@ -316,6 +321,11 @@
           <symbol source="HGNC" name="MAP2K2" />
           <coordinates coord_system="LRG_750" start="5001" end="38808" strand="1" mapped_from="GRCh37" />
           <long_name>mitogen-activated protein kinase kinase 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="601263" />
+          <db_xref source="HGNC" accession="6842">
+            <synonym>MEK2</synonym>
+            <synonym>PRKMK2</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5605">
             <synonym>CFC4</synonym>
             <synonym>MAPKK2</synonym>
@@ -323,11 +333,6 @@
             <synonym>MKK2</synonym>
             <synonym>PRKMK2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6842">
-            <synonym>MEK2</synonym>
-            <synonym>PRKMK2</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="601263" />
           <db_xref source="Ensembl" accession="ENSG00000126934" />
           <transcript source="Ensembl" accession="ENST00000262948">
             <coordinates coord_system="LRG_750" start="5001" end="38808" strand="1" mapped_from="GRCh37" />
@@ -370,8 +375,8 @@
             <protein_product source="Ensembl" accession="ENSP00000262948">
               <coordinates coord_system="LRG_750" start="5255" end="38531" strand="1" mapped_from="GRCh37" />
               <long_name>dual specificity mitogen-activated protein kinase kinase 2</long_name>
-              <db_xref source="RefSeq" accession="NP_109587.1" />
               <db_xref source="UniProtKB" accession="P36507" />
+              <db_xref source="RefSeq" accession="NP_109587.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000394867">
@@ -602,7 +607,7 @@
         <name>List of locus specific databases for MAP2K2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MAP2K2</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

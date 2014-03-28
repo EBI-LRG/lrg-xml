@@ -310,9 +310,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="13" other_id="NC_000013.10" other_start="28872483" other_end="29074265">
         <mapping_span lrg_start="1" lrg_end="201783" other_start="28872483" other_end="29074265" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="13" other_id="NC_000013.11" other_start="28298346" other_end="28500128">
+        <mapping_span lrg_start="1" lrg_end="201783" other_start="28298346" other_end="28500128" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">FLT1</lrg_locus>
     </annotation_set>
@@ -327,7 +330,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012003.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001159920.1" other_name="NM_001159920.1" other_id="NM_001159920.1" other_start="1" other_end="6499">
         <mapping_span lrg_start="5001" lrg_end="5349" other_start="1" other_end="349" strand="1" />
         <mapping_span lrg_start="32512" lrg_end="32608" other_start="350" other_end="446" strand="1" />
@@ -709,8 +712,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000282397.4" other_name="ENST00000282397.4" other_id="ENST00000282397.4" other_start="1" other_end="7084">
         <mapping_span lrg_start="5034" lrg_end="5349" other_start="1" other_end="316" strand="1" />
         <mapping_span lrg_start="32512" lrg_end="32608" other_start="317" other_end="413" strand="1" />
@@ -810,17 +813,17 @@
           <symbol source="HGNC" name="FLT1" />
           <coordinates coord_system="LRG_425" start="5001" end="199777" strand="1" mapped_from="GRCh37" />
           <long_name>fms-related tyrosine kinase 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="165070" />
+          <db_xref source="HGNC" accession="3763">
+            <synonym>FLT</synonym>
+            <synonym>VEGFR1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2321">
             <synonym>FLT</synonym>
             <synonym>FLT-1</synonym>
             <synonym>VEGFR-1</synonym>
             <synonym>VEGFR1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3763">
-            <synonym>FLT</synonym>
-            <synonym>VEGFR1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="165070" />
           <db_xref source="Ensembl" accession="ENSG00000102755" />
           <transcript source="Ensembl" accession="ENST00000541932">
             <coordinates coord_system="LRG_425" start="5001" end="132032" strand="1" mapped_from="GRCh37" />
@@ -875,8 +878,6 @@
             <protein_product source="Ensembl" accession="ENSP00000437631">
               <coordinates coord_system="LRG_425" start="5286" end="131551" strand="1" mapped_from="GRCh37" />
               <long_name>vascular endothelial growth factor receptor 1 isoform 2 precursor, vascular endothelial growth factor receptor 1 isoform 3 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001153392.1" />
-              <db_xref source="RefSeq" accession="NP_001153502.1" />
               <db_xref source="UniProtKB" accession="P17948">
                 <synonym>A3E342</synonym>
                 <synonym>A3E344</synonym>
@@ -884,6 +885,7 @@
                 <synonym>B0LPF1</synonym>
                 <synonym>B2BF46</synonym>
                 <synonym>B2BF47</synonym>
+                <synonym>B2BF48</synonym>
                 <synonym>B3FR89</synonym>
                 <synonym>B5A923</synonym>
                 <synonym>F5H5L6</synonym>
@@ -891,6 +893,8 @@
                 <synonym>P16057</synonym>
                 <synonym>Q12954</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001153392.1" />
+              <db_xref source="RefSeq" accession="NP_001153502.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000539099">
@@ -937,7 +941,6 @@
             <protein_product source="Ensembl" accession="ENSP00000442630">
               <coordinates coord_system="LRG_425" start="5286" end="101085" strand="1" mapped_from="GRCh37" />
               <long_name>vascular endothelial growth factor receptor 1 isoform 4 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001153503.1" />
               <db_xref source="UniProtKB" accession="P17948">
                 <synonym>A3E342</synonym>
                 <synonym>A3E344</synonym>
@@ -945,6 +948,7 @@
                 <synonym>B0LPF1</synonym>
                 <synonym>B2BF46</synonym>
                 <synonym>B2BF47</synonym>
+                <synonym>B2BF48</synonym>
                 <synonym>B3FR89</synonym>
                 <synonym>B5A923</synonym>
                 <synonym>F5H5L6</synonym>
@@ -952,6 +956,7 @@
                 <synonym>P16057</synonym>
                 <synonym>Q12954</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001153503.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000282397">
@@ -1051,9 +1056,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000282397">
               <coordinates coord_system="LRG_425" start="5286" end="196962" strand="1" mapped_from="GRCh37" />
-              <long_name>vascular endothelial growth factor receptor 1 isoform 2 precursor, vascular endothelial growth factor receptor 1 isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001153392.1" />
-              <db_xref source="RefSeq" accession="NP_002010.2" />
+              <long_name>vascular endothelial growth factor receptor 1 isoform 1 precursor, vascular endothelial growth factor receptor 1 isoform 2 precursor</long_name>
               <db_xref source="UniProtKB" accession="P17948">
                 <synonym>A3E342</synonym>
                 <synonym>A3E344</synonym>
@@ -1061,6 +1064,7 @@
                 <synonym>B0LPF1</synonym>
                 <synonym>B2BF46</synonym>
                 <synonym>B2BF47</synonym>
+                <synonym>B2BF48</synonym>
                 <synonym>B3FR89</synonym>
                 <synonym>B5A923</synonym>
                 <synonym>F5H5L6</synonym>
@@ -1068,6 +1072,8 @@
                 <synonym>P16057</synonym>
                 <synonym>Q12954</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002010.2" />
+              <db_xref source="RefSeq" accession="NP_001153392.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000540678">
@@ -1133,6 +1139,7 @@
                 <synonym>B0LPF1</synonym>
                 <synonym>B2BF46</synonym>
                 <synonym>B2BF47</synonym>
+                <synonym>B2BF48</synonym>
                 <synonym>B3FR89</synonym>
                 <synonym>B5A923</synonym>
                 <synonym>F5H5L6</synonym>
@@ -1177,6 +1184,21 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000437841">
               <coordinates coord_system="LRG_425" start="177652" end="196962" strand="1" mapped_from="GRCh37" />
+              <db_xref source="UniProtKB" accession="P17948">
+                <synonym>A3E342</synonym>
+                <synonym>A3E344</synonym>
+                <synonym>A8KA71</synonym>
+                <synonym>B0LPF1</synonym>
+                <synonym>B2BF46</synonym>
+                <synonym>B2BF47</synonym>
+                <synonym>B2BF48</synonym>
+                <synonym>B3FR89</synonym>
+                <synonym>B5A923</synonym>
+                <synonym>F5H5L6</synonym>
+                <synonym>O60722</synonym>
+                <synonym>P16057</synonym>
+                <synonym>Q12954</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
         </gene>
@@ -1187,7 +1209,7 @@
         <name>List of locus specific databases for FLT1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FLT1</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

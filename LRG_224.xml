@@ -111,9 +111,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_start="73598179" other_end="73692399">
         <mapping_span lrg_start="1" lrg_end="94221" other_start="73598179" other_end="73692399" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="14" other_id="NC_000014.9" other_start="73131471" other_end="73225691">
+        <mapping_span lrg_start="1" lrg_end="94221" other_start="73131471" other_end="73225691" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">PSEN1</lrg_locus>
     </annotation_set>
@@ -128,7 +131,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007386.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000021.3" other_name="NM_000021.3" other_id="NM_000021.3" other_start="1" other_end="6090">
         <mapping_span lrg_start="4965" lrg_end="5113" other_start="1" other_end="149" strand="1" />
         <mapping_span lrg_start="16325" lrg_end="16406" other_start="150" other_end="231" strand="1" />
@@ -285,8 +288,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000261970.3" other_name="ENST00000261970.3" other_id="ENST00000261970.3" other_start="1" other_end="2590">
         <mapping_span lrg_start="5001" lrg_end="5113" other_start="1" other_end="113" strand="1" />
         <mapping_span lrg_start="16325" lrg_end="16406" other_start="114" other_end="195" strand="1" />
@@ -531,6 +534,13 @@
           <symbol source="HGNC" name="PSEN1" />
           <coordinates coord_system="LRG_224" start="4948" end="92221" strand="1" mapped_from="GRCh37" />
           <long_name>presenilin 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="104311" />
+          <db_xref source="HGNC" accession="9508">
+            <synonym>AD3</synonym>
+            <synonym>FAD</synonym>
+            <synonym>PS1</synonym>
+            <synonym>S182</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5663">
             <synonym>AD3</synonym>
             <synonym>FAD</synonym>
@@ -538,13 +548,6 @@
             <synonym>PS1</synonym>
             <synonym>S182</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9508">
-            <synonym>AD3</synonym>
-            <synonym>FAD</synonym>
-            <synonym>PS1</synonym>
-            <synonym>S182</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="104311" />
           <db_xref source="Ensembl" accession="ENSG00000080815" />
           <transcript source="Ensembl" accession="ENST00000557356">
             <coordinates coord_system="LRG_224" start="4948" end="42174" strand="1" mapped_from="GRCh37" />
@@ -838,9 +841,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000326366">
               <coordinates coord_system="LRG_224" start="16550" end="87819" strand="1" mapped_from="GRCh37" />
-              <long_name>presenilin-1 isoform I-467, presenilin-1 isoform I-463</long_name>
-              <db_xref source="RefSeq" accession="NP_000012.1" />
-              <db_xref source="RefSeq" accession="NP_015557.2" />
+              <long_name>presenilin-1 isoform I-463, presenilin-1 isoform I-467</long_name>
               <db_xref source="UniProtKB" accession="P49768">
                 <synonym>B2R6D3</synonym>
                 <synonym>O95465</synonym>
@@ -850,6 +851,8 @@
                 <synonym>Q96P33</synonym>
                 <synonym>Q9UIF0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_015557.2" />
+              <db_xref source="RefSeq" accession="NP_000012.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000560005">
@@ -1391,7 +1394,7 @@
         <name>List of locus specific databases for PSEN1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PSEN1</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

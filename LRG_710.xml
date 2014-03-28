@@ -121,9 +121,22 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="Y" other_id="NC_000024.9" other_start="530079" other_end="572146">
+        <mapping_span lrg_start="1" lrg_end="42068" other_start="530079" other_end="572146" strand="1" />
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="580079" other_end="622146">
         <mapping_span lrg_start="1" lrg_end="42068" other_start="580079" other_end="622146" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="X" other_id="NC_000023.11" other_start="619344" other_end="661411">
+        <mapping_span lrg_start="1" lrg_end="42068" other_start="619344" other_end="661411" strand="1">
+          <diff type="mismatch" lrg_start="576" lrg_end="576" other_start="619919" other_end="619919" lrg_sequence="T" other_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="Y" other_id="NC_000024.10" other_start="619344" other_end="661411">
+        <mapping_span lrg_start="1" lrg_end="42068" other_start="619344" other_end="661411" strand="1">
+          <diff type="mismatch" lrg_start="576" lrg_end="576" other_start="619919" other_end="619919" lrg_sequence="T" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">SHOX</lrg_locus>
     </annotation_set>
@@ -138,7 +151,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009385.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000451.3" other_name="NM_000451.3" other_id="NM_000451.3" other_start="1" other_end="3757">
         <mapping_span lrg_start="5001" lrg_end="5259" other_start="1" other_end="259" strand="1" />
         <mapping_span lrg_start="11123" lrg_end="11831" other_start="260" other_end="968" strand="1" />
@@ -251,8 +264,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000334060.3" other_name="ENST00000334060.3" other_id="ENST00000334060.3" other_start="1" other_end="1951">
         <mapping_span lrg_start="5001" lrg_end="5259" other_start="1" other_end="259" strand="1" />
         <mapping_span lrg_start="11123" lrg_end="11831" other_start="260" other_end="968" strand="1" />
@@ -288,20 +301,20 @@
           <symbol source="HGNC" name="SHOX" />
           <coordinates coord_system="LRG_710" start="5001" end="40068" strand="1" mapped_from="GRCh37" />
           <long_name>short stature homeobox (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6473">
-            <synonym>GCFX</synonym>
-            <synonym>PHOG</synonym>
-            <synonym>SHOXY</synonym>
-            <synonym>SS</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="400020" />
+          <db_xref source="MIM" accession="312865" />
           <db_xref source="HGNC" accession="10853">
             <synonym>GCFX</synonym>
             <synonym>PHOG</synonym>
             <synonym>SHOXY</synonym>
             <synonym>SS</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="312865" />
-          <db_xref source="MIM" accession="400020" />
+          <db_xref source="GeneID" accession="6473">
+            <synonym>GCFX</synonym>
+            <synonym>PHOG</synonym>
+            <synonym>SHOXY</synonym>
+            <synonym>SS</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000185960" />
           <transcript source="Ensembl" accession="ENST00000334060">
             <coordinates coord_system="LRG_710" start="5001" end="40068" strand="1" mapped_from="GRCh37" />
@@ -329,12 +342,12 @@
             <protein_product source="Ensembl" accession="ENSP00000335505">
               <coordinates coord_system="LRG_710" start="11555" end="39486" strand="1" mapped_from="GRCh37" />
               <long_name>short stature homeobox protein isoform SHOXb</long_name>
-              <db_xref source="RefSeq" accession="NP_006874.1" />
               <db_xref source="UniProtKB" accession="O15266">
                 <synonym>O00412</synonym>
                 <synonym>O00413</synonym>
                 <synonym>O15267</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006874.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000381578">
@@ -363,12 +376,12 @@
             <protein_product source="Ensembl" accession="ENSP00000370990">
               <coordinates coord_system="LRG_710" start="11555" end="25293" strand="1" mapped_from="GRCh37" />
               <long_name>short stature homeobox protein isoform SHOXa</long_name>
-              <db_xref source="RefSeq" accession="NP_000442.1" />
               <db_xref source="UniProtKB" accession="O15266">
                 <synonym>O00412</synonym>
                 <synonym>O00413</synonym>
                 <synonym>O15267</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000442.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000554971">
@@ -435,7 +448,7 @@
         <name>List of locus specific databases for SHOX</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SHOX</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

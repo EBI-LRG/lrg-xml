@@ -72,9 +72,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_start="65470892" other_end="65574227">
         <mapping_span lrg_start="1" lrg_end="103336" other_start="65470892" other_end="65574227" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="14" other_id="NC_000014.9" other_start="65004174" other_end="65107509">
+        <mapping_span lrg_start="1" lrg_end="103336" other_start="65004174" other_end="65107509" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">MAX</lrg_locus>
     </annotation_set>
@@ -89,7 +92,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_029830.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001271068.1" other_name="NM_001271068.1" other_id="NM_001271068.1" other_start="1" other_end="910">
         <mapping_span lrg_start="4966" lrg_end="5206" other_start="1" other_end="241" strand="1" />
         <mapping_span lrg_start="13695" lrg_end="13802" other_start="242" other_end="349" strand="1" />
@@ -304,7 +307,7 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="100506321">
-          <symbol name="LOC100506321" />
+          <symbol name="RP11-840I19.3" />
           <coordinates coord_system="LRG_530" start="13199" end="17592" strand="-1" />
           <long_name>uncharacterized LOC100506321</long_name>
           <db_xref source="GeneID" accession="100506321" />
@@ -520,8 +523,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000246163.2" other_name="ENST00000246163.2" other_id="ENST00000246163.2" other_start="1" other_end="897">
         <mapping_span lrg_start="5001" lrg_end="5206" other_start="1" other_end="206" strand="1" />
         <mapping_span lrg_start="5938" lrg_end="5964" other_start="207" other_end="233" strand="1" />
@@ -637,9 +640,7 @@
           <symbol source="HGNC" name="MAX" />
           <coordinates coord_system="LRG_530" start="4815" end="101336" strand="1" mapped_from="GRCh37" />
           <long_name>MYC associated factor X (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4149">
-            <synonym>bHLHd4</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="154950" />
           <db_xref source="HGNC" accession="6913">
             <synonym>bHLHd4</synonym>
             <synonym>bHLHd5</synonym>
@@ -647,7 +648,9 @@
             <synonym>bHLHd7</synonym>
             <synonym>bHLHd8</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="154950" />
+          <db_xref source="GeneID" accession="4149">
+            <synonym>bHLHd4</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000125952" />
           <transcript source="Ensembl" accession="ENST00000556892">
             <coordinates coord_system="LRG_530" start="4815" end="30901" strand="1" mapped_from="GRCh37" />
@@ -718,6 +721,7 @@
             <protein_product source="Ensembl" accession="ENSP00000378104">
               <coordinates coord_system="LRG_530" start="5171" end="30098" strand="1" mapped_from="GRCh37" />
               <db_xref source="UniProtKB" accession="P61244">
+                <synonym>A6NH73</synonym>
                 <synonym>A8K265</synonym>
                 <synonym>A8K4G4</synonym>
                 <synonym>A8K824</synonym>
@@ -750,6 +754,7 @@
             <protein_product source="Ensembl" accession="ENSP00000452378">
               <coordinates coord_system="LRG_530" start="5171" end="30098" strand="1" mapped_from="GRCh37" />
               <db_xref source="UniProtKB" accession="P61244">
+                <synonym>A6NH73</synonym>
                 <synonym>A8K265</synonym>
                 <synonym>A8K4G4</synonym>
                 <synonym>A8K824</synonym>
@@ -831,7 +836,7 @@
             <coordinates coord_system="LRG_530" start="5001" end="23766" strand="1" mapped_from="GRCh37" />
             <long_name>MAX-005 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9774.1" />
-            <db_xref source="RefSeq" accession="NM_145114.1" />
+            <db_xref source="RefSeq" accession="NM_145114.2" />
             <exon source="Ensembl" accession="ENSE00001347801">
               <coordinates coord_system="LRG_530" start="5001" end="5206" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -847,9 +852,8 @@
             <protein_product source="Ensembl" accession="ENSP00000246163">
               <coordinates coord_system="LRG_530" start="5171" end="23330" strand="1" mapped_from="GRCh37" />
               <long_name>protein max isoform d, protein max isoform g</long_name>
-              <db_xref source="RefSeq" accession="NP_660089.1" />
-              <db_xref source="RefSeq" accession="NP_001257997.1" />
               <db_xref source="UniProtKB" accession="P61244">
+                <synonym>A6NH73</synonym>
                 <synonym>A8K265</synonym>
                 <synonym>A8K4G4</synonym>
                 <synonym>A8K824</synonym>
@@ -858,13 +862,15 @@
                 <synonym>Q14803</synonym>
                 <synonym>Q96CY8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_660089.1" />
+              <db_xref source="RefSeq" accession="NP_001257997.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000358402">
             <coordinates coord_system="LRG_530" start="5006" end="32386" strand="1" mapped_from="GRCh37" />
             <long_name>MAX-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9772.1" />
-            <db_xref source="RefSeq" accession="NM_145112.1" />
+            <db_xref source="RefSeq" accession="NM_145112.2" />
             <exon source="Ensembl" accession="ENSE00001871687">
               <coordinates coord_system="LRG_530" start="5006" end="5206" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -880,8 +886,8 @@
             <protein_product source="Ensembl" accession="ENSP00000351175">
               <coordinates coord_system="LRG_530" start="5171" end="31034" strand="1" mapped_from="GRCh37" />
               <long_name>protein max isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_660087.1" />
               <db_xref source="UniProtKB" accession="P61244">
+                <synonym>A6NH73</synonym>
                 <synonym>A8K265</synonym>
                 <synonym>A8K4G4</synonym>
                 <synonym>A8K824</synonym>
@@ -890,12 +896,13 @@
                 <synonym>Q14803</synonym>
                 <synonym>Q96CY8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_660087.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000284165">
             <coordinates coord_system="LRG_530" start="5022" end="32308" strand="1" mapped_from="GRCh37" />
             <long_name>MAX-004 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_145113.1" />
+            <db_xref source="RefSeq" accession="NM_145113.2" />
             <exon source="Ensembl" accession="ENSE00001877068">
               <coordinates coord_system="LRG_530" start="5022" end="5206" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -911,8 +918,8 @@
             <protein_product source="Ensembl" accession="ENSP00000284165">
               <coordinates coord_system="LRG_530" start="5171" end="29707" strand="1" mapped_from="GRCh37" />
               <long_name>protein max isoform c</long_name>
-              <db_xref source="RefSeq" accession="NP_660088.1" />
               <db_xref source="UniProtKB" accession="P61244">
+                <synonym>A6NH73</synonym>
                 <synonym>A8K265</synonym>
                 <synonym>A8K4G4</synonym>
                 <synonym>A8K824</synonym>
@@ -921,6 +928,7 @@
                 <synonym>Q14803</synonym>
                 <synonym>Q96CY8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_660088.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000556702">
@@ -953,7 +961,7 @@
             <coordinates coord_system="LRG_530" start="5040" end="31966" strand="1" mapped_from="GRCh37" />
             <long_name>MAX-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9771.1" />
-            <db_xref source="RefSeq" accession="NM_002382.3" />
+            <db_xref source="RefSeq" accession="NM_002382.4" />
             <exon source="Ensembl" accession="ENSE00001956202">
               <coordinates coord_system="LRG_530" start="5040" end="5206" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -972,8 +980,8 @@
             <protein_product source="Ensembl" accession="ENSP00000351490">
               <coordinates coord_system="LRG_530" start="5171" end="31034" strand="1" mapped_from="GRCh37" />
               <long_name>protein max isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_002373.3" />
               <db_xref source="UniProtKB" accession="P61244">
+                <synonym>A6NH73</synonym>
                 <synonym>A8K265</synonym>
                 <synonym>A8K4G4</synonym>
                 <synonym>A8K824</synonym>
@@ -982,13 +990,14 @@
                 <synonym>Q14803</synonym>
                 <synonym>Q96CY8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002373.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000341653">
             <coordinates coord_system="LRG_530" start="5123" end="101336" strand="1" mapped_from="GRCh37" />
             <long_name>MAX-003 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9770.1" />
-            <db_xref source="RefSeq" accession="NM_197957.2" />
+            <db_xref source="RefSeq" accession="NM_197957.3" />
             <exon source="Ensembl" accession="ENSE00001813686">
               <coordinates coord_system="LRG_530" start="5123" end="5206" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -1004,6 +1013,16 @@
             <protein_product source="Ensembl" accession="ENSP00000342482">
               <coordinates coord_system="LRG_530" start="5171" end="101306" strand="1" mapped_from="GRCh37" />
               <long_name>protein max isoform f, protein max isoform h</long_name>
+              <db_xref source="UniProtKB" accession="P61244">
+                <synonym>A6NH73</synonym>
+                <synonym>A8K265</synonym>
+                <synonym>A8K4G4</synonym>
+                <synonym>A8K824</synonym>
+                <synonym>P25912</synonym>
+                <synonym>P52163</synonym>
+                <synonym>Q14803</synonym>
+                <synonym>Q96CY8</synonym>
+              </db_xref>
               <db_xref source="RefSeq" accession="NP_932061.1" />
               <db_xref source="RefSeq" accession="NP_001257998.1" />
             </protein_product>
@@ -1033,6 +1052,7 @@
             <protein_product source="Ensembl" accession="ENSP00000451907">
               <coordinates coord_system="LRG_530" start="5171" end="30098" strand="1" mapped_from="GRCh37" />
               <db_xref source="UniProtKB" accession="P61244">
+                <synonym>A6NH73</synonym>
                 <synonym>A8K265</synonym>
                 <synonym>A8K4G4</synonym>
                 <synonym>A8K824</synonym>
@@ -1136,267 +1156,19 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000125954">
-          <symbol source="HGNC" name="CHURC1-FNTB" />
-          <coordinates coord_system="LRG_530" start="44860" end="103336" strand="-1" mapped_from="GRCh37" />
-          <partial>5-prime</partial>
-          <long_name>CHURC1-FNTB readthrough (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="100529261" />
-          <db_xref source="HGNC" accession="42960" />
-          <db_xref source="Ensembl" accession="ENSG00000125954" />
-          <transcript source="Ensembl" accession="ENST00000448390">
-            <coordinates coord_system="LRG_530" start="44860" end="91927" strand="-1" mapped_from="GRCh37" />
-            <long_name>CHURC1-FNTB-202 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00002260663">
-              <coordinates coord_system="LRG_530" start="91794" end="91927" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003461151">
-              <coordinates coord_system="LRG_530" start="79911" end="80057" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003603113">
-              <coordinates coord_system="LRG_530" start="79729" end="79812" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003487624">
-              <coordinates coord_system="LRG_530" start="74989" end="75151" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003469534">
-              <coordinates coord_system="LRG_530" start="74814" end="74900" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003498880">
-              <coordinates coord_system="LRG_530" start="66591" end="66720" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003685986">
-              <coordinates coord_system="LRG_530" start="63067" end="63199" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003663903">
-              <coordinates coord_system="LRG_530" start="54161" end="54272" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003522045">
-              <coordinates coord_system="LRG_530" start="52821" end="52935" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003569310">
-              <coordinates coord_system="LRG_530" start="44860" end="46329" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000399362">
-              <coordinates coord_system="LRG_530" start="46198" end="66680" strand="-1" mapped_from="GRCh37" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000552941">
-            <coordinates coord_system="LRG_530" start="45707" end="103336" strand="-1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>CHURC1-FNTB-002 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00003589109">
-              <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003570063">
-              <coordinates coord_system="LRG_530" start="95121" end="95193" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003693283">
-              <coordinates coord_system="LRG_530" start="91794" end="91885" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003461151">
-              <coordinates coord_system="LRG_530" start="79911" end="80057" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003603113">
-              <coordinates coord_system="LRG_530" start="79729" end="79812" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003469534">
-              <coordinates coord_system="LRG_530" start="74814" end="74900" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003683853">
-              <coordinates coord_system="LRG_530" start="66591" end="66720" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003624682">
-              <coordinates coord_system="LRG_530" start="63067" end="63199" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003584780">
-              <coordinates coord_system="LRG_530" start="54161" end="54272" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003606992">
-              <coordinates coord_system="LRG_530" start="52821" end="52935" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003498342">
-              <coordinates coord_system="LRG_530" start="45707" end="46329" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000449668" codon_start="2">
-              <coordinates coord_system="LRG_530" start="95122" end="103336" strand="-1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000542227">
-            <coordinates coord_system="LRG_530" start="45707" end="103336" strand="-1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>CHURC1-FNTB-203 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001202558.1" />
-            <exon source="Ensembl" accession="ENSE00003508480">
-              <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003537331">
-              <coordinates coord_system="LRG_530" start="95121" end="95193" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003501398">
-              <coordinates coord_system="LRG_530" start="91794" end="91885" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003483181">
-              <coordinates coord_system="LRG_530" start="79911" end="80057" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003458492">
-              <coordinates coord_system="LRG_530" start="79729" end="79812" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003645515">
-              <coordinates coord_system="LRG_530" start="74814" end="74900" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003474831">
-              <coordinates coord_system="LRG_530" start="66591" end="66720" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003685986">
-              <coordinates coord_system="LRG_530" start="63067" end="63199" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003663903">
-              <coordinates coord_system="LRG_530" start="54161" end="54272" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003522045">
-              <coordinates coord_system="LRG_530" start="52821" end="52935" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003500852">
-              <coordinates coord_system="LRG_530" start="45707" end="46329" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000443140">
-              <coordinates coord_system="LRG_530" start="46198" end="103336" strand="-1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-              <long_name>CHURC1-FNTB protein isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001189487.1" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000549987">
-            <coordinates coord_system="LRG_530" start="46149" end="103336" strand="-1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>CHURC1-FNTB-001 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001202559.1" />
-            <exon source="Ensembl" accession="ENSE00003508480">
-              <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003537331">
-              <coordinates coord_system="LRG_530" start="95121" end="95193" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003501398">
-              <coordinates coord_system="LRG_530" start="91794" end="91885" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003483181">
-              <coordinates coord_system="LRG_530" start="79911" end="80057" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003458492">
-              <coordinates coord_system="LRG_530" start="79729" end="79812" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003645515">
-              <coordinates coord_system="LRG_530" start="74814" end="74900" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003474831">
-              <coordinates coord_system="LRG_530" start="66591" end="66720" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003685986">
-              <coordinates coord_system="LRG_530" start="63067" end="63199" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003663903">
-              <coordinates coord_system="LRG_530" start="54161" end="54272" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003522045">
-              <coordinates coord_system="LRG_530" start="52821" end="52935" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002261797">
-              <coordinates coord_system="LRG_530" start="46149" end="46329" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000447121">
-              <coordinates coord_system="LRG_530" start="46198" end="103336" strand="-1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-              <long_name>CHURC1-FNTB protein isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001189488.1" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000447296">
-            <coordinates coord_system="LRG_530" start="46149" end="103336" strand="-1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>CHURC1-FNTB-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003508480">
-              <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003537331">
-              <coordinates coord_system="LRG_530" start="95121" end="95193" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003501398">
-              <coordinates coord_system="LRG_530" start="91794" end="91885" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003483181">
-              <coordinates coord_system="LRG_530" start="79911" end="80057" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003458492">
-              <coordinates coord_system="LRG_530" start="79729" end="79812" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003645515">
-              <coordinates coord_system="LRG_530" start="74814" end="74900" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003474831">
-              <coordinates coord_system="LRG_530" start="66591" end="66720" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003685986">
-              <coordinates coord_system="LRG_530" start="63067" end="63199" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003663903">
-              <coordinates coord_system="LRG_530" start="54161" end="54272" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003522045">
-              <coordinates coord_system="LRG_530" start="52821" end="52935" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002261797">
-              <coordinates coord_system="LRG_530" start="46149" end="46329" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000406393">
-              <coordinates coord_system="LRG_530" start="46198" end="103336" strand="-1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000551823">
-            <coordinates coord_system="LRG_530" start="91827" end="103336" strand="-1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>CHURC1-FNTB-003 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00003654274">
-              <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003508608">
-              <coordinates coord_system="LRG_530" start="95121" end="95193" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002341524">
-              <coordinates coord_system="LRG_530" start="91827" end="91885" strand="-1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000553743">
-            <coordinates coord_system="LRG_530" start="91835" end="103336" strand="-1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>CHURC1-FNTB-004 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003589109">
-              <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002481565">
-              <coordinates coord_system="LRG_530" start="91835" end="91885" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000450692">
-              <coordinates coord_system="LRG_530" start="91835" end="103336" strand="-1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-            </protein_product>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000257365">
           <symbol source="HGNC" name="FNTB" />
           <coordinates coord_system="LRG_530" start="44860" end="103336" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>farnesyltransferase, CAAX box, beta (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="2342">
-            <synonym>FPTB</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="134636" />
           <db_xref source="HGNC" accession="3785">
             <synonym>FPTB</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="134636" />
+          <db_xref source="GeneID" accession="100529261" />
+          <db_xref source="GeneID" accession="2342">
+            <synonym>FPTB</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000257365" />
           <transcript source="Ensembl" accession="ENST00000554334">
             <coordinates coord_system="LRG_530" start="44860" end="91972" strand="-1" mapped_from="GRCh37" />
@@ -1438,34 +1210,34 @@
             <long_name>FNTB-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS9769.1" />
             <db_xref source="RefSeq" accession="NM_002028.3" />
-            <exon source="Ensembl" accession="ENSE00003551743">
+            <exon source="Ensembl" accession="ENSE00003704144">
               <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003474542">
+            <exon source="Ensembl" accession="ENSE00003703846">
               <coordinates coord_system="LRG_530" start="95121" end="95193" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003625096">
+            <exon source="Ensembl" accession="ENSE00003708004">
               <coordinates coord_system="LRG_530" start="91794" end="91885" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003561738">
+            <exon source="Ensembl" accession="ENSE00003710298">
               <coordinates coord_system="LRG_530" start="79911" end="80057" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003495677">
+            <exon source="Ensembl" accession="ENSE00003704096">
               <coordinates coord_system="LRG_530" start="79729" end="79812" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003599992">
+            <exon source="Ensembl" accession="ENSE00003706171">
               <coordinates coord_system="LRG_530" start="74814" end="74900" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003680443">
+            <exon source="Ensembl" accession="ENSE00003709149">
               <coordinates coord_system="LRG_530" start="66591" end="66720" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003669046">
+            <exon source="Ensembl" accession="ENSE00003709581">
               <coordinates coord_system="LRG_530" start="63067" end="63199" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003478261">
+            <exon source="Ensembl" accession="ENSE00003706291">
               <coordinates coord_system="LRG_530" start="54161" end="54272" strand="-1" mapped_from="GRCh37" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003560612">
+            <exon source="Ensembl" accession="ENSE00003706380">
               <coordinates coord_system="LRG_530" start="52821" end="52935" strand="-1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001013638">
@@ -1475,10 +1247,55 @@
               <coordinates coord_system="LRG_530" start="46198" end="103336" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>protein farnesyltransferase subunit beta</long_name>
-              <db_xref source="RefSeq" accession="NP_002019.1" />
               <db_xref source="UniProtKB" accession="P49356">
                 <synonym>B2RDX6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002019.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000542227">
+            <coordinates coord_system="LRG_530" start="45707" end="103336" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>FNTB-202 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001202558.1" />
+            <exon source="Ensembl" accession="ENSE00003704144">
+              <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003703846">
+              <coordinates coord_system="LRG_530" start="95121" end="95193" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003708004">
+              <coordinates coord_system="LRG_530" start="91794" end="91885" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003710298">
+              <coordinates coord_system="LRG_530" start="79911" end="80057" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003704096">
+              <coordinates coord_system="LRG_530" start="79729" end="79812" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003706171">
+              <coordinates coord_system="LRG_530" start="74814" end="74900" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003709149">
+              <coordinates coord_system="LRG_530" start="66591" end="66720" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003709581">
+              <coordinates coord_system="LRG_530" start="63067" end="63199" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003706291">
+              <coordinates coord_system="LRG_530" start="54161" end="54272" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003706380">
+              <coordinates coord_system="LRG_530" start="52821" end="52935" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003500852">
+              <coordinates coord_system="LRG_530" start="45707" end="46329" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000443140">
+              <coordinates coord_system="LRG_530" start="46198" end="103336" strand="-1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+              <long_name>CHURC1-FNTB protein isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001189487.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000557300">
@@ -1493,6 +1310,48 @@
             <exon source="Ensembl" accession="ENSE00002523800">
               <coordinates coord_system="LRG_530" start="46105" end="46329" strand="-1" mapped_from="GRCh37" />
             </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000447296">
+            <coordinates coord_system="LRG_530" start="46149" end="103336" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>FNTB-201 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003704144">
+              <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003703846">
+              <coordinates coord_system="LRG_530" start="95121" end="95193" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003708004">
+              <coordinates coord_system="LRG_530" start="91794" end="91885" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003710298">
+              <coordinates coord_system="LRG_530" start="79911" end="80057" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003704096">
+              <coordinates coord_system="LRG_530" start="79729" end="79812" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003706171">
+              <coordinates coord_system="LRG_530" start="74814" end="74900" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003709149">
+              <coordinates coord_system="LRG_530" start="66591" end="66720" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003709581">
+              <coordinates coord_system="LRG_530" start="63067" end="63199" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003706291">
+              <coordinates coord_system="LRG_530" start="54161" end="54272" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003706380">
+              <coordinates coord_system="LRG_530" start="52821" end="52935" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003702858">
+              <coordinates coord_system="LRG_530" start="46149" end="46329" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000406393">
+              <coordinates coord_system="LRG_530" start="46198" end="103336" strand="-1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000556709">
             <coordinates coord_system="LRG_530" start="66683" end="91006" strand="-1" mapped_from="GRCh37" />
@@ -1580,15 +1439,140 @@
             </exon>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000125954">
+          <symbol source="HGNC" name="CHURC1-FNTB" />
+          <coordinates coord_system="LRG_530" start="45707" end="103336" strand="-1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <long_name>CHURC1-FNTB readthrough (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="42960" />
+          <db_xref source="GeneID" accession="100529261" />
+          <db_xref source="Ensembl" accession="ENSG00000125954" />
+          <transcript source="Ensembl" accession="ENST00000552941">
+            <coordinates coord_system="LRG_530" start="45707" end="103336" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>CHURC1-FNTB-002 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003589109">
+              <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003570063">
+              <coordinates coord_system="LRG_530" start="95121" end="95193" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003693283">
+              <coordinates coord_system="LRG_530" start="91794" end="91885" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003461151">
+              <coordinates coord_system="LRG_530" start="79911" end="80057" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003603113">
+              <coordinates coord_system="LRG_530" start="79729" end="79812" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003469534">
+              <coordinates coord_system="LRG_530" start="74814" end="74900" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003683853">
+              <coordinates coord_system="LRG_530" start="66591" end="66720" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003624682">
+              <coordinates coord_system="LRG_530" start="63067" end="63199" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003584780">
+              <coordinates coord_system="LRG_530" start="54161" end="54272" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003606992">
+              <coordinates coord_system="LRG_530" start="52821" end="52935" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003498342">
+              <coordinates coord_system="LRG_530" start="45707" end="46329" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000449668" codon_start="2">
+              <coordinates coord_system="LRG_530" start="95122" end="103336" strand="-1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000549987">
+            <coordinates coord_system="LRG_530" start="46149" end="103336" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>CHURC1-FNTB-001 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001202559.1" />
+            <exon source="Ensembl" accession="ENSE00003702971">
+              <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003703593">
+              <coordinates coord_system="LRG_530" start="95121" end="95193" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003709203">
+              <coordinates coord_system="LRG_530" start="91794" end="91885" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003708094">
+              <coordinates coord_system="LRG_530" start="79911" end="80057" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003710301">
+              <coordinates coord_system="LRG_530" start="79729" end="79812" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003708793">
+              <coordinates coord_system="LRG_530" start="74814" end="74900" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003710059">
+              <coordinates coord_system="LRG_530" start="66591" end="66720" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003705992">
+              <coordinates coord_system="LRG_530" start="63067" end="63199" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003710962">
+              <coordinates coord_system="LRG_530" start="54161" end="54272" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003706311">
+              <coordinates coord_system="LRG_530" start="52821" end="52935" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003707988">
+              <coordinates coord_system="LRG_530" start="46149" end="46329" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000447121">
+              <coordinates coord_system="LRG_530" start="46198" end="103336" strand="-1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+              <long_name>CHURC1-FNTB protein isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_001189488.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000551823">
+            <coordinates coord_system="LRG_530" start="91827" end="103336" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>CHURC1-FNTB-003 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003654274">
+              <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003508608">
+              <coordinates coord_system="LRG_530" start="95121" end="95193" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002341524">
+              <coordinates coord_system="LRG_530" start="91827" end="91885" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000553743">
+            <coordinates coord_system="LRG_530" start="91835" end="103336" strand="-1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>CHURC1-FNTB-004 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003589109">
+              <coordinates coord_system="LRG_530" start="103197" end="103261" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002481565">
+              <coordinates coord_system="LRG_530" start="91835" end="91885" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000450692">
+              <coordinates coord_system="LRG_530" start="91835" end="103336" strand="-1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000266531">
           <symbol source="HGNC" name="MIR4706" />
           <coordinates coord_system="LRG_530" start="62741" end="62822" strand="-1" mapped_from="GRCh37" />
           <long_name>microRNA 4706 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="100616490" />
+          <db_xref source="miRBase" accession="MI0017339" />
           <db_xref source="HGNC" accession="41576">
             <synonym>hsa-mir-4706</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0017339" />
+          <db_xref source="GeneID" accession="100616490" />
           <db_xref source="Ensembl" accession="ENSG00000266531" />
           <transcript source="Ensembl" accession="ENST00000582134">
             <coordinates coord_system="LRG_530" start="62741" end="62822" strand="-1" mapped_from="GRCh37" />
@@ -1619,7 +1603,7 @@
         <name>List of locus specific databases for MAX</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MAX</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

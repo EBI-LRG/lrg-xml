@@ -169,9 +169,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="15" other_id="NC_000015.9" other_start="51195869" other_end="51300097">
         <mapping_span lrg_start="1" lrg_end="104229" other_start="51195869" other_end="51300097" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="15" other_id="NC_000015.10" other_start="50903672" other_end="51007900">
+        <mapping_span lrg_start="1" lrg_end="104229" other_start="50903672" other_end="51007900" strand="1">
+          <diff type="mismatch" lrg_start="104181" lrg_end="104181" other_start="51007852" other_end="51007852" lrg_sequence="T" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">AP4E1</lrg_locus>
     </annotation_set>
@@ -186,7 +191,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_031875.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001252127.1" other_name="NM_001252127.1" other_id="NM_001252127.1" other_start="1" other_end="6782">
         <mapping_span lrg_start="5001" lrg_end="5257" other_start="1" other_end="257" strand="1" />
         <mapping_span lrg_start="8407" lrg_end="8478" other_start="258" other_end="329" strand="1" />
@@ -430,8 +435,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000261842.5" other_name="ENST00000261842.5" other_id="ENST00000261842.5" other_start="1" other_end="6758">
         <mapping_span lrg_start="5002" lrg_end="5257" other_start="1" other_end="256" strand="1" />
         <mapping_span lrg_start="8407" lrg_end="8478" other_start="257" other_end="328" strand="1" />
@@ -552,15 +557,15 @@
           <symbol source="HGNC" name="AP4E1" />
           <coordinates coord_system="LRG_732" start="5001" end="102229" strand="1" mapped_from="GRCh37" />
           <long_name>adaptor-related protein complex 4, epsilon 1 subunit (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="23431">
-            <synonym>CPSQ4</synonym>
-            <synonym>SPG51</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="607244" />
           <db_xref source="HGNC" accession="573">
             <synonym>AP-4-EPSILON</synonym>
             <synonym>SPG51</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="607244" />
+          <db_xref source="GeneID" accession="23431">
+            <synonym>CPSQ4</synonym>
+            <synonym>SPG51</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000081014" />
           <transcript source="Ensembl" accession="ENST00000561441">
             <coordinates coord_system="LRG_732" start="5001" end="46478" strand="1" mapped_from="GRCh37" />
@@ -816,9 +821,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000261842">
               <coordinates coord_system="LRG_732" start="5108" end="98991" strand="1" mapped_from="GRCh37" />
-              <long_name>AP-4 complex subunit epsilon-1 isoform 1, AP-4 complex subunit epsilon-1 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_031373.2" />
-              <db_xref source="RefSeq" accession="NP_001239056.1" />
+              <long_name>AP-4 complex subunit epsilon-1 isoform 2, AP-4 complex subunit epsilon-1 isoform 1</long_name>
               <db_xref source="UniProtKB" accession="Q9UPM8">
                 <synonym>A0AVD6</synonym>
                 <synonym>A1L4A9</synonym>
@@ -827,6 +830,8 @@
                 <synonym>Q68D31</synonym>
                 <synonym>Q9Y588</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001239056.1" />
+              <db_xref source="RefSeq" accession="NP_031373.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000560508">
@@ -936,8 +941,8 @@
           <symbol source="HGNC" name="DCAF13P3" />
           <coordinates coord_system="LRG_732" start="40992" end="42325" strand="1" mapped_from="GRCh37" />
           <long_name>DDB1 and CUL4 associated factor 13 pseudogene 3 (pseudogene)</long_name>
-          <db_xref source="GeneID" accession="100132724" />
           <db_xref source="HGNC" accession="43868" />
+          <db_xref source="GeneID" accession="100132724" />
           <db_xref source="Ensembl" accession="ENSG00000259378" />
           <transcript source="Ensembl" accession="ENST00000561147">
             <coordinates coord_system="LRG_732" start="40992" end="42325" strand="1" mapped_from="GRCh37" />
@@ -955,7 +960,7 @@
         <name>List of locus specific databases for AP4E1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/AP4E1</url>
       </source>
-      <modification_date>2013-12-06</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

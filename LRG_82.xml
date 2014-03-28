@@ -123,9 +123,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-29</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="11084580" other_end="11112285">
         <mapping_span lrg_start="1" lrg_end="27706" other_start="11084580" other_end="11112285" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="11024523" other_end="11052228">
+        <mapping_span lrg_start="1" lrg_end="27706" other_start="11024523" other_end="11052228" strand="-1">
+          <diff type="mismatch" lrg_start="11034" lrg_end="11034" other_start="11041195" other_end="11041195" lrg_sequence="G" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">MASP2</lrg_locus>
     </annotation_set>
@@ -140,7 +145,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007289.1</comment>
-      <modification_date>2013-10-21</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_006610.3" other_name="NM_006610.3" other_id="NM_006610.3" other_start="1" other_end="2455">
         <mapping_span lrg_start="4990" lrg_end="5026" other_start="1" other_end="37" strand="1" />
         <mapping_span lrg_start="5110" lrg_end="5338" other_start="38" other_end="266" strand="1" />
@@ -294,8 +299,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-29</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000400897.3" other_name="ENST00000400897.3" other_id="ENST00000400897.3" other_start="1" other_end="2439">
         <mapping_span lrg_start="5006" lrg_end="5026" other_start="1" other_end="21" strand="1" />
         <mapping_span lrg_start="5110" lrg_end="5338" other_start="22" other_end="250" strand="1" />
@@ -330,16 +335,16 @@
           <symbol source="HGNC" name="MASP2" />
           <coordinates coord_system="LRG_82" start="4996" end="25706" strand="1" mapped_from="GRCh37" />
           <long_name>mannan-binding lectin serine peptidase 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="605102" />
+          <db_xref source="HGNC" accession="6902">
+            <synonym>MASP1P1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="10747">
             <synonym>MAP19</synonym>
             <synonym>MASP-2</synonym>
             <synonym>MASP1P1</synonym>
             <synonym>sMAP</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6902">
-            <synonym>MASP1P1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="605102" />
           <db_xref source="Ensembl" accession="ENSG00000009724" />
           <transcript source="Ensembl" accession="ENST00000400898">
             <coordinates coord_system="LRG_82" start="4996" end="7431" strand="1" mapped_from="GRCh37" />
@@ -364,7 +369,6 @@
             <protein_product source="Ensembl" accession="ENSP00000383691">
               <coordinates coord_system="LRG_82" start="5022" end="7289" strand="1" mapped_from="GRCh37" />
               <long_name>mannan-binding lectin serine protease 2 isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_631947.1" />
               <db_xref source="UniProtKB" accession="O00187">
                 <synonym>A8K458</synonym>
                 <synonym>A8MWJ2</synonym>
@@ -381,6 +385,7 @@
                 <synonym>Q9UMV3</synonym>
                 <synonym>Q9Y270</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_631947.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000480221">
@@ -437,7 +442,6 @@
             <protein_product source="Ensembl" accession="ENSP00000383690">
               <coordinates coord_system="LRG_82" start="5022" end="25344" strand="1" mapped_from="GRCh37" />
               <long_name>mannan-binding lectin serine protease 2 isoform 1 preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_006601.2" />
               <db_xref source="UniProtKB" accession="O00187">
                 <synonym>A8K458</synonym>
                 <synonym>A8MWJ2</synonym>
@@ -454,6 +458,7 @@
                 <synonym>Q9UMV3</synonym>
                 <synonym>Q9Y270</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006601.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000478645">
@@ -485,15 +490,15 @@
           <coordinates coord_system="LRG_82" start="26490" end="27706" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>TAR DNA binding protein (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="23435">
-            <synonym>ALS10</synonym>
-            <synonym>TDP-43</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="605078" />
           <db_xref source="HGNC" accession="11571">
             <synonym>ALS10</synonym>
             <synonym>TDP-43</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="605078" />
+          <db_xref source="GeneID" accession="23435">
+            <synonym>ALS10</synonym>
+            <synonym>TDP-43</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000120948" />
           <transcript source="Ensembl" accession="ENST00000496840">
             <coordinates coord_system="LRG_82" start="26490" end="27706" strand="-1" mapped_from="GRCh37" />
@@ -531,7 +536,7 @@
         <name>List of locus specific databases for MASP2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MASP2</url>
       </source>
-      <modification_date>2013-12-06</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

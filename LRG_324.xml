@@ -148,9 +148,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-18</modification_date>
+      <modification_date>2014-03-20</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="4110924" other_end="4225759">
         <mapping_span lrg_start="1" lrg_end="114836" other_start="4110924" other_end="4225759" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="11" other_id="NC_000011.10" other_start="4089694" other_end="4204529">
+        <mapping_span lrg_start="1" lrg_end="114836" other_start="4089694" other_end="4204529" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">RRM1</lrg_locus>
     </annotation_set>
@@ -165,7 +168,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_027992.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001033.3" other_name="NM_001033.3" other_id="NM_001033.3" other_start="1" other_end="3191">
         <mapping_span lrg_start="5001" lrg_end="5338" other_start="1" other_end="338" strand="1" />
         <mapping_span lrg_start="12300" lrg_end="12388" other_start="339" other_end="427" strand="1" />
@@ -192,6 +195,7 @@
           <symbol source="HGNC" name="STIM1">
             <synonym>D11S4896E</synonym>
             <synonym>GOK</synonym>
+            <synonym>IMD10</synonym>
             <synonym>TAM</synonym>
           </symbol>
           <coordinates coord_system="LRG_324" start="1" end="3517" strand="1" />
@@ -251,6 +255,7 @@
               <coordinates coord_system="LRG_324" start="1589" end="1633" strand="1" />
               <partial>5-prime</partial>
               <long_name>stromal interaction molecule 1 isoform 3 precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS60706.1" />
               <db_xref source="GeneID" accession="6786" />
               <db_xref source="GI" accession="485836818" />
             </protein_product>
@@ -383,8 +388,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-18</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-20</modification_date>
       <mapping coord_system="ENST00000300738.5" other_name="ENST00000300738.5" other_id="ENST00000300738.5" other_start="1" other_end="3076">
         <mapping_span lrg_start="5116" lrg_end="5338" other_start="1" other_end="223" strand="1" />
         <mapping_span lrg_start="12300" lrg_end="12388" other_start="224" other_end="312" strand="1" />
@@ -575,23 +580,26 @@
           <coordinates coord_system="LRG_324" start="1" end="3516" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>stromal interaction molecule 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6786">
-            <synonym>D11S4896E</synonym>
-            <synonym>GOK</synonym>
-            <synonym>TAM</synonym>
-          </db_xref>
+          <db_xref source="miRBase" accession="MI0017319" />
+          <db_xref source="MIM" accession="605921" />
           <db_xref source="HGNC" accession="11386">
             <synonym>D11S4896E</synonym>
             <synonym>GOK</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="605921" />
-          <db_xref source="miRBase" accession="MI0017319" />
+          <db_xref source="GeneID" accession="6786">
+            <synonym>D11S4896E</synonym>
+            <synonym>GOK</synonym>
+            <synonym>IMD10</synonym>
+            <synonym>TAM</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000167323" />
           <transcript source="Ensembl" accession="ENST00000300737">
             <coordinates coord_system="LRG_324" start="1" end="3516" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>STIM1-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS7749.1" />
+            <db_xref source="RefSeq" accession="NM_001277961.1" />
+            <db_xref source="RefSeq" accession="NM_001277962.1" />
             <db_xref source="RefSeq" accession="NM_003156.3" />
             <exon source="Ensembl" accession="ENSE00001211655">
               <coordinates coord_system="LRG_324" start="1589" end="3516" strand="1" mapped_from="GRCh37" />
@@ -599,27 +607,26 @@
             <protein_product source="Ensembl" accession="ENSP00000300737">
               <coordinates coord_system="LRG_324" start="1" end="2105" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>stromal interaction molecule 1 isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_003147.2" />
+              <long_name>stromal interaction molecule 1 isoform 1 precursor, stromal interaction molecule 1 isoform 3 precursor, stromal interaction molecule 1 isoform 2 precursor</long_name>
               <db_xref source="UniProtKB" accession="Q13586">
                 <synonym>Q8N382</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001264890.1" />
+              <db_xref source="RefSeq" accession="NP_001264891.1" />
+              <db_xref source="RefSeq" accession="NP_003147.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000527651">
             <coordinates coord_system="LRG_324" start="1" end="2105" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>STIM1-002 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001277962.1" />
+            <db_xref source="CCDS" accession="CCDS60706.1" />
             <exon source="Ensembl" accession="ENSE00002189264">
               <coordinates coord_system="LRG_324" start="1589" end="2105" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000436208">
               <coordinates coord_system="LRG_324" start="1" end="1633" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>stromal interaction molecule 1 isoform 1 precursor, stromal interaction molecule 1 isoform 3 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001264890.1" />
-              <db_xref source="RefSeq" accession="NP_001264891.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000533977">
@@ -667,13 +674,13 @@
           <symbol source="HGNC" name="RRM1" />
           <coordinates coord_system="LRG_324" start="5014" end="49183" strand="1" mapped_from="GRCh37" />
           <long_name>ribonucleotide reductase M1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="180410" />
+          <db_xref source="HGNC" accession="10451" />
           <db_xref source="GeneID" accession="6240">
             <synonym>R1</synonym>
             <synonym>RIR1</synonym>
             <synonym>RR1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="10451" />
-          <db_xref source="MIM" accession="180410" />
           <db_xref source="Ensembl" accession="ENSG00000167325" />
           <transcript source="Ensembl" accession="ENST00000532710">
             <coordinates coord_system="LRG_324" start="5014" end="17787" strand="1" mapped_from="GRCh37" />
@@ -836,10 +843,10 @@
             <protein_product source="Ensembl" accession="ENSP00000300738">
               <coordinates coord_system="LRG_324" start="5320" end="48690" strand="1" mapped_from="GRCh37" />
               <long_name>ribonucleoside-diphosphate reductase large subunit</long_name>
-              <db_xref source="RefSeq" accession="NP_001024.1" />
               <db_xref source="UniProtKB" accession="P23921">
                 <synonym>Q9UNN2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001024.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000533349">
@@ -1286,7 +1293,7 @@
         <name>List of locus specific databases for RRM1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RRM1</url>
       </source>
-      <modification_date>2013-09-18</modification_date>
+      <modification_date>2014-03-20</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

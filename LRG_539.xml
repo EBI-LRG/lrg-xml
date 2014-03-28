@@ -150,9 +150,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="219519379" other_end="219530166">
         <mapping_span lrg_start="1" lrg_end="10788" other_start="219519379" other_end="219530166" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="218654656" other_end="218665443">
+        <mapping_span lrg_start="1" lrg_end="10788" other_start="218654656" other_end="218665443" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">BCS1L</lrg_locus>
     </annotation_set>
@@ -167,7 +170,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008018.1</comment>
-      <modification_date>2014-01-16</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001079866.1" other_name="NM_001079866.1" other_id="NM_001079866.1" other_start="1" other_end="1454">
         <mapping_span lrg_start="5001" lrg_end="5088" other_start="1" other_end="88" strand="1" />
         <mapping_span lrg_start="6284" lrg_end="6652" other_start="89" other_end="457" strand="1" />
@@ -591,8 +594,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-17</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000359273.3" other_name="ENST00000359273.3" other_id="ENST00000359273.3" other_start="1" other_end="1454">
         <mapping_span lrg_start="5001" lrg_end="5088" other_start="1" other_end="88" strand="1" />
         <mapping_span lrg_start="6284" lrg_end="6652" other_start="89" other_end="457" strand="1" />
@@ -749,21 +752,21 @@
           <coordinates coord_system="LRG_539" start="1" end="5000" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>zinc finger protein 142 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="7701">
-            <synonym>pHZ-49</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="604083" />
           <db_xref source="HGNC" accession="12927">
             <synonym>KIAA0236</synonym>
             <synonym>pHZ-49</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="604083" />
+          <db_xref source="GeneID" accession="7701">
+            <synonym>pHZ-49</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000115568" />
           <transcript source="Ensembl" accession="ENST00000449707">
             <coordinates coord_system="LRG_539" start="1" end="4869" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>ZNF142-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS42817.1" />
-            <db_xref source="RefSeq" accession="NM_001105537.1" />
+            <db_xref source="RefSeq" accession="NM_001105537.2" />
             <exon source="Ensembl" accession="ENSE00001758574">
               <coordinates coord_system="LRG_539" start="4714" end="4869" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -780,10 +783,10 @@
               <coordinates coord_system="LRG_539" start="1" end="1774" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>zinc finger protein 142</long_name>
-              <db_xref source="RefSeq" accession="NP_001099007.1" />
               <db_xref source="UniProtKB" accession="P52746">
                 <synonym>Q92510</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001099007.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000433921">
@@ -899,6 +902,13 @@
           <symbol source="HGNC" name="BCS1L" />
           <coordinates coord_system="LRG_539" start="4109" end="8788" strand="1" mapped_from="GRCh37" />
           <long_name>BC1 (ubiquinol-cytochrome c reductase) synthesis-like (protein_coding)</long_name>
+          <db_xref source="MIM" accession="603647" />
+          <db_xref source="HGNC" accession="1020">
+            <synonym>BCS</synonym>
+            <synonym>BJS</synonym>
+            <synonym>h-BCS</synonym>
+            <synonym>Hs.6719</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="617">
             <synonym>BCS</synonym>
             <synonym>BCS1</synonym>
@@ -910,13 +920,6 @@
             <synonym>MC3DN1</synonym>
             <synonym>PTD</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="1020">
-            <synonym>BCS</synonym>
-            <synonym>BJS</synonym>
-            <synonym>h-BCS</synonym>
-            <synonym>Hs.6719</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="603647" />
           <db_xref source="Ensembl" accession="ENSG00000074582" />
           <transcript source="Ensembl" accession="ENST00000428880">
             <coordinates coord_system="LRG_539" start="4109" end="6562" strand="1" mapped_from="GRCh37" />
@@ -1027,12 +1030,12 @@
             <protein_product source="Ensembl" accession="ENSP00000352219">
               <coordinates coord_system="LRG_539" start="6333" end="8731" strand="1" mapped_from="GRCh37" />
               <long_name>mitochondrial chaperone BCS1, mitochondrial chaperone BCS1</long_name>
-              <db_xref source="RefSeq" accession="NP_001244273.1" />
-              <db_xref source="RefSeq" accession="NP_001073335.1" />
               <db_xref source="UniProtKB" accession="Q9Y276">
                 <synonym>B3KTW9</synonym>
                 <synonym>Q7Z2V7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001244273.1" />
+              <db_xref source="RefSeq" accession="NP_001073335.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000490188">
@@ -1081,12 +1084,12 @@
             <protein_product source="Ensembl" accession="ENSP00000375957">
               <coordinates coord_system="LRG_539" start="6333" end="8731" strand="1" mapped_from="GRCh37" />
               <long_name>mitochondrial chaperone BCS1, mitochondrial chaperone BCS1</long_name>
-              <db_xref source="RefSeq" accession="NP_001244272.1" />
-              <db_xref source="RefSeq" accession="NP_004319.1" />
               <db_xref source="UniProtKB" accession="Q9Y276">
                 <synonym>B3KTW9</synonym>
                 <synonym>Q7Z2V7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001244272.1" />
+              <db_xref source="RefSeq" accession="NP_004319.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000392110">
@@ -1124,11 +1127,11 @@
             <protein_product source="Ensembl" accession="ENSP00000375958">
               <coordinates coord_system="LRG_539" start="6333" end="8731" strand="1" mapped_from="GRCh37" />
               <long_name>mitochondrial chaperone BCS1</long_name>
-              <db_xref source="RefSeq" accession="NP_001244271.1" />
               <db_xref source="UniProtKB" accession="Q9Y276">
                 <synonym>B3KTW9</synonym>
                 <synonym>Q7Z2V7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001244271.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000423377">
@@ -1424,12 +1427,12 @@
           <coordinates coord_system="LRG_539" start="9209" end="10788" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>ring finger protein 25 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="64320">
-            <synonym>AO7</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="14662">
             <synonym>AO7</synonym>
             <synonym>FLJ13906</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="64320">
+            <synonym>AO7</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000163481" />
           <transcript source="Ensembl" accession="ENST00000295704">
@@ -1451,12 +1454,12 @@
               <coordinates coord_system="LRG_539" start="9302" end="10788" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>E3 ubiquitin-protein ligase RNF25</long_name>
-              <db_xref source="RefSeq" accession="NP_071898.2" />
               <db_xref source="UniProtKB" accession="Q96BH1">
                 <synonym>A8K0D6</synonym>
                 <synonym>Q53HQ5</synonym>
                 <synonym>Q9H874</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_071898.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000473034">
@@ -1510,7 +1513,7 @@
         <name>List of locus specific databases for BCS1L</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/BCS1L</url>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

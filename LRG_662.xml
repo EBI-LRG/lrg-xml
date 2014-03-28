@@ -166,9 +166,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_start="116307459" other_end="116440440">
         <mapping_span lrg_start="1" lrg_end="132982" other_start="116307459" other_end="116440440" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="7" other_id="NC_000007.14" other_start="116667405" other_end="116800386">
+        <mapping_span lrg_start="1" lrg_end="132982" other_start="116667405" other_end="116800386" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">MET</lrg_locus>
     </annotation_set>
@@ -183,7 +186,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008996.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000245.2" other_name="NM_000245.2" other_id="NM_000245.2" other_start="1" other_end="6622">
         <mapping_span lrg_start="5001" lrg_end="5173" other_start="1" other_end="173" strand="1" />
         <mapping_span lrg_start="31667" lrg_end="32880" other_start="174" other_end="1387" strand="1" />
@@ -419,8 +422,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000318493.6" other_name="ENST00000318493.6" other_id="ENST00000318493.6" other_start="1" other_end="4632">
         <mapping_span lrg_start="5001" lrg_end="5173" other_start="1" other_end="173" strand="1" />
         <mapping_span lrg_start="31667" lrg_end="32880" other_start="174" other_end="1387" strand="1" />
@@ -516,17 +519,17 @@
           <symbol source="HGNC" name="MET" />
           <coordinates coord_system="LRG_662" start="4986" end="130982" strand="1" mapped_from="GRCh37" />
           <long_name>met proto-oncogene (protein_coding)</long_name>
+          <db_xref source="MIM" accession="164860" />
+          <db_xref source="HGNC" accession="7029">
+            <synonym>HGFR</synonym>
+            <synonym>RCCP2</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4233">
             <synonym>AUTS9</synonym>
             <synonym>c-Met</synonym>
             <synonym>HGFR</synonym>
             <synonym>RCCP2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7029">
-            <synonym>HGFR</synonym>
-            <synonym>RCCP2</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="164860" />
           <db_xref source="Ensembl" accession="ENSG00000105976" />
           <transcript source="Ensembl" accession="ENST00000456159">
             <coordinates coord_system="LRG_662" start="4986" end="32195" strand="1" mapped_from="GRCh37" />
@@ -615,9 +618,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000380860">
               <coordinates coord_system="LRG_662" start="31681" end="128720" strand="1" mapped_from="GRCh37" />
-              <long_name>hepatocyte growth factor receptor isoform b precursor, hepatocyte growth factor receptor isoform a precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000236.2" />
-              <db_xref source="RefSeq" accession="NP_001120972.1" />
+              <long_name>hepatocyte growth factor receptor isoform a precursor, hepatocyte growth factor receptor isoform b precursor</long_name>
               <db_xref source="UniProtKB" accession="P08581">
                 <synonym>A1L467</synonym>
                 <synonym>B5A932</synonym>
@@ -627,6 +628,8 @@
                 <synonym>Q9UDX7</synonym>
                 <synonym>Q9UPL8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001120972.1" />
+              <db_xref source="RefSeq" accession="NP_000236.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000318493">
@@ -845,7 +848,7 @@
         <name>List of locus specific databases for MET</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MET</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

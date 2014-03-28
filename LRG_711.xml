@@ -351,10 +351,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="132592696" other_end="132646117">
         <mapping_span lrg_start="1" lrg_end="53422" other_start="132592696" other_end="132646117" strand="1">
           <diff type="mismatch" lrg_start="50900" lrg_end="50900" other_start="132643595" other_end="132643595" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="9" other_id="NC_000009.12" other_start="129830417" other_end="129883838">
+        <mapping_span lrg_start="1" lrg_end="53422" other_start="129830417" other_end="129883838" strand="1">
+          <diff type="mismatch" lrg_start="50900" lrg_end="50900" other_start="129881316" other_end="129881316" lrg_sequence="G" other_sequence="A" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">USP20</lrg_locus>
@@ -370,7 +375,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_033097.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001008563.4" other_name="NM_001008563.4" other_id="NM_001008563.4" other_start="1" other_end="4442">
         <mapping_span lrg_start="5001" lrg_end="5181" other_start="1" other_end="181" strand="1" />
         <mapping_span lrg_start="19397" lrg_end="19508" other_start="182" other_end="293" strand="1" />
@@ -808,8 +813,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000315480.4" other_name="ENST00000315480.4" other_id="ENST00000315480.4" other_start="1" other_end="4458">
         <mapping_span lrg_start="5054" lrg_end="5083" other_start="1" other_end="30" strand="1" />
         <mapping_span lrg_start="19397" lrg_end="19508" other_start="31" other_end="142" strand="1" />
@@ -949,12 +954,12 @@
           <coordinates coord_system="LRG_711" start="1" end="5447" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>chromosome 9 open reading frame 78 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="51759">
-            <synonym>bA409K20.3</synonym>
+          <db_xref source="HGNC" accession="24932">
             <synonym>HCA59</synonym>
             <synonym>HSPC220</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="24932">
+          <db_xref source="GeneID" accession="51759">
+            <synonym>bA409K20.3</synonym>
             <synonym>HCA59</synonym>
             <synonym>HSPC220</synonym>
           </db_xref>
@@ -987,12 +992,12 @@
               <coordinates coord_system="LRG_711" start="1" end="4805" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>uncharacterized protein C9orf78</long_name>
-              <db_xref source="RefSeq" accession="NP_057604.1" />
               <db_xref source="UniProtKB" accession="Q9NZ63">
                 <synonym>B3KPX8</synonym>
                 <synonym>Q8WVU6</synonym>
                 <synonym>Q9NT39</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_057604.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000461349">
@@ -1089,15 +1094,15 @@
           <symbol source="HGNC" name="USP20" />
           <coordinates coord_system="LRG_711" start="4282" end="51412" strand="1" mapped_from="GRCh37" />
           <long_name>ubiquitin specific peptidase 20 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="615143" />
+          <db_xref source="HGNC" accession="12619">
+            <synonym>KIAA1003</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="10868">
             <synonym>hVDU2</synonym>
             <synonym>LSFR3A</synonym>
             <synonym>VDU2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="12619">
-            <synonym>KIAA1003</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="615143" />
           <db_xref source="Ensembl" accession="ENSG00000136878" />
           <transcript source="Ensembl" accession="ENST00000491053">
             <coordinates coord_system="LRG_711" start="4282" end="22220" strand="1" mapped_from="GRCh37" />
@@ -1138,8 +1143,8 @@
             <coordinates coord_system="LRG_711" start="5030" end="51412" strand="1" mapped_from="GRCh37" />
             <long_name>USP20-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS43892.1" />
-            <db_xref source="RefSeq" accession="NM_001110303.2" />
-            <db_xref source="RefSeq" accession="NM_006676.6" />
+            <db_xref source="RefSeq" accession="NM_001110303.3" />
+            <db_xref source="RefSeq" accession="NM_006676.7" />
             <exon source="Ensembl" accession="ENSE00001457792">
               <coordinates coord_system="LRG_711" start="5030" end="5083" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -1221,8 +1226,6 @@
             <protein_product source="Ensembl" accession="ENSP00000361506">
               <coordinates coord_system="LRG_711" start="22140" end="49857" strand="1" mapped_from="GRCh37" />
               <long_name>ubiquitin carboxyl-terminal hydrolase 20, ubiquitin carboxyl-terminal hydrolase 20</long_name>
-              <db_xref source="RefSeq" accession="NP_006667.3" />
-              <db_xref source="RefSeq" accession="NP_001103773.2" />
               <db_xref source="UniProtKB" accession="Q9Y2K6">
                 <synonym>Q541F1</synonym>
                 <synonym>Q8IXQ1</synonym>
@@ -1230,6 +1233,8 @@
                 <synonym>Q9UQN8</synonym>
                 <synonym>Q9UQP0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001103773.2" />
+              <db_xref source="RefSeq" accession="NP_006667.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000315480">
@@ -1326,7 +1331,7 @@
             <coordinates coord_system="LRG_711" start="5062" end="51412" strand="1" mapped_from="GRCh37" />
             <long_name>USP20-002 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS43892.1" />
-            <db_xref source="RefSeq" accession="NM_001008563.3" />
+            <db_xref source="RefSeq" accession="NM_001008563.4" />
             <exon source="Ensembl" accession="ENSE00001418738">
               <coordinates coord_system="LRG_711" start="5062" end="5181" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -1408,7 +1413,6 @@
             <protein_product source="Ensembl" accession="ENSP00000351122">
               <coordinates coord_system="LRG_711" start="22140" end="49857" strand="1" mapped_from="GRCh37" />
               <long_name>ubiquitin carboxyl-terminal hydrolase 20</long_name>
-              <db_xref source="RefSeq" accession="NP_001008563.2" />
               <db_xref source="UniProtKB" accession="Q9Y2K6">
                 <synonym>Q541F1</synonym>
                 <synonym>Q8IXQ1</synonym>
@@ -1416,6 +1420,7 @@
                 <synonym>Q9UQN8</synonym>
                 <synonym>Q9UQP0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001008563.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000474895">
@@ -1520,7 +1525,7 @@
         <name>List of locus specific databases for USP20</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/USP20</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

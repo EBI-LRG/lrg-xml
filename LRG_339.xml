@@ -20,7 +20,7 @@
       <url>http://miracle.igib.res.in/ataxia/home.php?select_db=FXN</url>
       <contact>
         <name>Mohammed Faruq</name>
-        <address>Institute of Genomics and Integrative Biology (CSIR), New delhi, India</address>
+        <address>Institute of Genomics and Integrative Biology (CSIR), New Delhi, India</address>
         <email>farooq@igib.res.in</email>
       </contact>
     </source>
@@ -80,9 +80,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="71645479" other_end="71717094">
         <mapping_span lrg_start="1" lrg_end="71616" other_start="71645479" other_end="71717094" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="9" other_id="NC_000009.12" other_start="69030563" other_end="69102178">
+        <mapping_span lrg_start="1" lrg_end="71616" other_start="69030563" other_end="69102178" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">FXN</lrg_locus>
     </annotation_set>
@@ -97,7 +100,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008845.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000144.4" other_name="NM_000144.4" other_id="NM_000144.4" other_start="1" other_end="7168">
         <mapping_span lrg_start="5001" lrg_end="5385" other_start="1" other_end="385" strand="1" />
         <mapping_span lrg_start="15823" lrg_end="15920" other_start="386" other_end="483" strand="1" />
@@ -236,8 +239,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000377270.3" other_name="ENST00000377270.3" other_id="ENST00000377270.3" other_start="1" other_end="2608">
         <mapping_span lrg_start="4697" lrg_end="5385" other_start="1" other_end="689" strand="1" />
         <mapping_span lrg_start="15823" lrg_end="15920" other_start="690" other_end="787" strand="1" />
@@ -276,13 +279,7 @@
           <symbol source="HGNC" name="FXN" />
           <coordinates coord_system="LRG_339" start="4697" end="69616" strand="1" mapped_from="GRCh37" />
           <long_name>frataxin (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="2395">
-            <synonym>CyaY</synonym>
-            <synonym>FA</synonym>
-            <synonym>FARR</synonym>
-            <synonym>FRDA</synonym>
-            <synonym>X25</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606829" />
           <db_xref source="HGNC" accession="3951">
             <synonym>CyaY</synonym>
             <synonym>FA</synonym>
@@ -290,7 +287,13 @@
             <synonym>FRDA</synonym>
             <synonym>X25</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="606829" />
+          <db_xref source="GeneID" accession="2395">
+            <synonym>CyaY</synonym>
+            <synonym>FA</synonym>
+            <synonym>FARR</synonym>
+            <synonym>FRDA</synonym>
+            <synonym>X25</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000165060" />
           <transcript source="Ensembl" accession="ENST00000377270">
             <coordinates coord_system="LRG_339" start="4697" end="43651" strand="1" mapped_from="GRCh37" />
@@ -315,7 +318,6 @@
             <protein_product source="Ensembl" accession="ENSP00000366482">
               <coordinates coord_system="LRG_339" start="5221" end="42200" strand="1" mapped_from="GRCh37" />
               <long_name>frataxin, mitochondrial isoform 1 preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_000135.2" />
               <db_xref source="UniProtKB" accession="Q16595">
                 <synonym>A8MXJ6</synonym>
                 <synonym>C9JJ89</synonym>
@@ -324,6 +326,7 @@
                 <synonym>Q15294</synonym>
                 <synonym>Q5VZ01</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000135.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000396364">
@@ -349,7 +352,6 @@
             <protein_product source="Ensembl" accession="ENSP00000379650">
               <coordinates coord_system="LRG_339" start="5221" end="69372" strand="1" mapped_from="GRCh37" />
               <long_name>frataxin, mitochondrial isoform 3 preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_001155178.1" />
               <db_xref source="UniProtKB" accession="Q16595">
                 <synonym>A8MXJ6</synonym>
                 <synonym>C9JJ89</synonym>
@@ -358,6 +360,7 @@
                 <synonym>Q15294</synonym>
                 <synonym>Q5VZ01</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001155178.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000396366">
@@ -383,7 +386,6 @@
             <protein_product source="Ensembl" accession="ENSP00000379652">
               <coordinates coord_system="LRG_339" start="5221" end="42150" strand="1" mapped_from="GRCh37" />
               <long_name>frataxin, mitochondrial isoform 2 preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_852090.1" />
               <db_xref source="UniProtKB" accession="Q16595">
                 <synonym>A8MXJ6</synonym>
                 <synonym>C9JJ89</synonym>
@@ -392,6 +394,7 @@
                 <synonym>Q15294</synonym>
                 <synonym>Q5VZ01</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_852090.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000498653">
@@ -440,7 +443,7 @@
         <name>List of locus specific databases for FXN</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FXN</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

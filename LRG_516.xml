@@ -102,9 +102,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="33424811" other_end="33451888">
         <mapping_span lrg_start="1" lrg_end="27078" other_start="33424811" other_end="33451888" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="17" other_id="NC_000017.11" other_start="35097792" other_end="35124869">
+        <mapping_span lrg_start="1" lrg_end="27078" other_start="35097792" other_end="35124869" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">RAD51D</lrg_locus>
     </annotation_set>
@@ -119,7 +122,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_031858.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001142571.1" other_name="NM_001142571.1" other_id="NM_001142571.1" other_start="1" other_end="2464">
         <mapping_span lrg_start="5001" lrg_end="5338" other_start="1" other_end="338" strand="1" />
         <mapping_span lrg_start="5698" lrg_end="5759" other_start="339" other_end="400" strand="1" />
@@ -387,8 +390,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000335858.7" other_name="ENST00000335858.7" other_id="ENST00000335858.7" other_start="1" other_end="1353">
         <mapping_span lrg_start="5125" lrg_end="5338" other_start="1" other_end="214" strand="1" />
         <mapping_span lrg_start="5698" lrg_end="5759" other_start="215" other_end="276" strand="1" />
@@ -626,10 +629,10 @@
           <coordinates coord_system="LRG_516" start="1" end="3291" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>fibronectin type III domain containing 8 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="54752" />
           <db_xref source="HGNC" accession="25286">
             <synonym>DKFZp434H2215</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="54752" />
           <db_xref source="Ensembl" accession="ENSG00000073598" />
           <transcript source="Ensembl" accession="ENST00000158009">
             <coordinates coord_system="LRG_516" start="1" end="3291" strand="-1" mapped_from="GRCh37" />
@@ -644,11 +647,11 @@
               <coordinates coord_system="LRG_516" start="1" end="3176" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>fibronectin type III domain-containing protein 8</long_name>
-              <db_xref source="RefSeq" accession="NP_060029.1" />
               <db_xref source="UniProtKB" accession="Q8TC99">
                 <synonym>B2R9G6</synonym>
                 <synonym>Q9UFC2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_060029.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -656,19 +659,19 @@
           <symbol source="HGNC" name="RAD51D" />
           <coordinates coord_system="LRG_516" start="3348" end="25078" strand="1" mapped_from="GRCh37" />
           <long_name>RAD51 paralog D (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="5892">
-            <synonym>BROVCA4</synonym>
-            <synonym>R51H3</synonym>
-            <synonym>RAD51L3</synonym>
-            <synonym>TRAD</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="602954" />
           <db_xref source="HGNC" accession="9823">
             <synonym>HsTRAD</synonym>
             <synonym>R51H3</synonym>
             <synonym>RAD51L3</synonym>
             <synonym>Trad</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="602954" />
+          <db_xref source="GeneID" accession="5892">
+            <synonym>BROVCA4</synonym>
+            <synonym>R51H3</synonym>
+            <synonym>RAD51L3</synonym>
+            <synonym>TRAD</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000185379" />
           <transcript source="Ensembl" accession="ENST00000415064">
             <coordinates coord_system="LRG_516" start="3348" end="20017" strand="1" mapped_from="GRCh37" />
@@ -922,7 +925,6 @@
             <protein_product source="Ensembl" accession="ENSP00000338790">
               <coordinates coord_system="LRG_516" start="5257" end="23917" strand="1" mapped_from="GRCh37" />
               <long_name>DNA repair protein RAD51 homolog 4 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_002869.3" />
               <db_xref source="UniProtKB" accession="O75771">
                 <synonym>B4DJU7</synonym>
                 <synonym>E1P637</synonym>
@@ -936,6 +938,7 @@
                 <synonym>O94908</synonym>
                 <synonym>Q9UFU5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002869.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000360276">
@@ -1118,7 +1121,6 @@
             <protein_product source="Ensembl" accession="ENSP00000466399">
               <coordinates coord_system="LRG_516" start="5257" end="23917" strand="1" mapped_from="GRCh37" />
               <long_name>DNA repair protein RAD51 homolog 4 isoform 6</long_name>
-              <db_xref source="RefSeq" accession="NP_001136043.1" />
               <db_xref source="UniProtKB" accession="O75771">
                 <synonym>B4DJU7</synonym>
                 <synonym>E1P637</synonym>
@@ -1132,6 +1134,7 @@
                 <synonym>O94908</synonym>
                 <synonym>Q9UFU5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001136043.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000592577">
@@ -1244,7 +1247,6 @@
             <protein_product source="Ensembl" accession="ENSP00000338408">
               <coordinates coord_system="LRG_516" start="5257" end="23917" strand="1" mapped_from="GRCh37" />
               <long_name>DNA repair protein RAD51 homolog 4 isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_598332.1" />
               <db_xref source="UniProtKB" accession="O75771">
                 <synonym>B4DJU7</synonym>
                 <synonym>E1P637</synonym>
@@ -1258,6 +1260,7 @@
                 <synonym>O94908</synonym>
                 <synonym>Q9UFU5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_598332.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000590380">
@@ -1597,7 +1600,7 @@
         <name>List of locus specific databases for RAD51D</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RAD51D</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

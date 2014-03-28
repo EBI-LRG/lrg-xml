@@ -358,9 +358,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="4" other_id="NC_000004.11" other_start="15466489" other_end="15605180">
         <mapping_span lrg_start="1" lrg_end="138692" other_start="15466489" other_end="15605180" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="4" other_id="NC_000004.12" other_start="15464865" other_end="15603557">
+        <mapping_span lrg_start="1" lrg_end="138692" other_start="15464865" other_end="15603557" strand="1">
+          <diff type="other_ins" lrg_start="34446" lrg_end="34447" other_start="15499311" other_end="15499311" lrg_sequence="-" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">CC2D2A</lrg_locus>
     </annotation_set>
@@ -375,7 +380,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_013035.1</comment>
-      <modification_date>2014-01-16</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001080522.2" other_name="NM_001080522.2" other_id="NM_001080522.2" other_start="1" other_end="5240">
         <mapping_span lrg_start="5001" lrg_end="5193" other_start="1" other_end="193" strand="1" />
         <mapping_span lrg_start="8358" lrg_end="8391" other_start="194" other_end="227" strand="1" />
@@ -652,8 +657,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-17</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000389652.5" other_name="ENST00000389652.5" other_id="ENST00000389652.5" other_start="1" other_end="4790">
         <mapping_span lrg_start="14359" lrg_end="14464" other_start="1" other_end="106" strand="1" />
         <mapping_span lrg_start="15840" lrg_end="15963" other_start="107" other_end="230" strand="1" />
@@ -946,16 +951,16 @@
           <symbol source="HGNC" name="CC2D2A" />
           <coordinates coord_system="LRG_697" start="5001" end="136692" strand="1" mapped_from="GRCh37" />
           <long_name>coiled-coil and C2 domain containing 2A (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="57545">
-            <synonym>JBTS9</synonym>
-            <synonym>MKS6</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="612013" />
           <db_xref source="HGNC" accession="29253">
             <synonym>JBTS9</synonym>
             <synonym>KIAA1345</synonym>
             <synonym>MKS6</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="612013" />
+          <db_xref source="GeneID" accession="57545">
+            <synonym>JBTS9</synonym>
+            <synonym>MKS6</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000048342" />
           <transcript source="Ensembl" accession="ENST00000424120">
             <coordinates coord_system="LRG_697" start="5001" end="136692" strand="1" mapped_from="GRCh37" />
@@ -1274,7 +1279,6 @@
             <protein_product source="Ensembl" accession="ENSP00000426109">
               <coordinates coord_system="LRG_697" start="11069" end="16348" strand="1" mapped_from="GRCh37" />
               <long_name>coiled-coil and C2 domain-containing protein 2A isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_065836.2" />
               <db_xref source="UniProtKB" accession="Q9P2K1">
                 <synonym>A6ND97</synonym>
                 <synonym>B3FW08</synonym>
@@ -1284,6 +1288,7 @@
                 <synonym>Q3SYP3</synonym>
                 <synonym>Q9H8A7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_065836.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000512702">
@@ -1454,7 +1459,6 @@
             <protein_product source="Ensembl" accession="ENSP00000424368">
               <coordinates coord_system="LRG_697" start="11069" end="16421" strand="1" mapped_from="GRCh37" />
               <long_name>coiled-coil and C2 domain-containing protein 2A isoform c</long_name>
-              <db_xref source="RefSeq" accession="NP_001158192.1" />
               <db_xref source="UniProtKB" accession="Q9P2K1">
                 <synonym>A6ND97</synonym>
                 <synonym>B3FW08</synonym>
@@ -1464,6 +1468,7 @@
                 <synonym>Q3SYP3</synonym>
                 <synonym>Q9H8A7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001158192.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000514450">
@@ -1616,7 +1621,6 @@
             <protein_product source="Ensembl" accession="ENSP00000421809">
               <coordinates coord_system="LRG_697" start="11069" end="136560" strand="1" mapped_from="GRCh37" />
               <long_name>coiled-coil and C2 domain-containing protein 2A isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_001073991.2" />
               <db_xref source="UniProtKB" accession="Q9P2K1">
                 <synonym>A6ND97</synonym>
                 <synonym>B3FW08</synonym>
@@ -1626,6 +1630,7 @@
                 <synonym>Q3SYP3</synonym>
                 <synonym>Q9H8A7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001073991.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000503658">
@@ -1949,7 +1954,7 @@
         <name>List of locus specific databases for CC2D2A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CC2D2A</url>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

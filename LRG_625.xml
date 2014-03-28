@@ -205,9 +205,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_start="49957001" other_end="50040452">
         <mapping_span lrg_start="1" lrg_end="83452" other_start="49957001" other_end="50040452" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="12" other_id="NC_000012.12" other_start="49563218" other_end="49646669">
+        <mapping_span lrg_start="1" lrg_end="83452" other_start="49563218" other_end="49646669" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">PRPF40B</lrg_locus>
     </annotation_set>
@@ -222,7 +225,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_032901.2</comment>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001031698.2" other_name="NM_001031698.2" other_id="NM_001031698.2" other_start="1" other_end="3333">
         <mapping_span lrg_start="60197" lrg_end="60376" other_start="1" other_end="180" strand="1" />
         <mapping_span lrg_start="67328" lrg_end="67408" other_start="181" other_end="261" strand="1" />
@@ -673,8 +676,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-28</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000261897.1" other_name="ENST00000261897.1" other_id="ENST00000261897.1" other_start="1" other_end="3602">
         <mapping_span lrg_start="60403" lrg_end="60953" other_start="1" other_end="551" strand="1" />
         <mapping_span lrg_start="68184" lrg_end="68327" other_start="552" other_end="695" strand="1" />
@@ -843,13 +846,7 @@
           <coordinates coord_system="LRG_625" start="1" end="4936" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>microspherule protein 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="10445">
-            <synonym>ICP22BP</synonym>
-            <synonym>INO80Q</synonym>
-            <synonym>MCRS2</synonym>
-            <synonym>MSP58</synonym>
-            <synonym>P78</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="609504" />
           <db_xref source="HGNC" accession="6960">
             <synonym>ICP22BP</synonym>
             <synonym>INO80Q</synonym>
@@ -857,13 +854,18 @@
             <synonym>MSP58</synonym>
             <synonym>P78</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="609504" />
+          <db_xref source="GeneID" accession="10445">
+            <synonym>ICP22BP</synonym>
+            <synonym>INO80Q</synonym>
+            <synonym>MCRS2</synonym>
+            <synonym>MSP58</synonym>
+            <synonym>P78</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000187778" />
           <transcript source="Ensembl" accession="ENST00000548602">
             <coordinates coord_system="LRG_625" start="1" end="4914" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>MCRS1-003 (nonsense_mediated_decay)</long_name>
-            <db_xref source="RefSeq" accession="NM_001278341.1" />
             <exon source="Ensembl" accession="ENSE00002206312">
               <coordinates coord_system="LRG_625" start="4831" end="4914" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -881,8 +883,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000447739">
               <coordinates coord_system="LRG_625" start="1609" end="2427" strand="-1" mapped_from="GRCh37" />
-              <long_name>microspherule protein 1 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001265270.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000551625">
@@ -913,7 +913,7 @@
             <partial>3-prime</partial>
             <long_name>MCRS1-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS8787.1" />
-            <db_xref source="RefSeq" accession="NM_006337.3" />
+            <db_xref source="RefSeq" accession="NM_006337.4" />
             <exon source="Ensembl" accession="ENSE00002325343">
               <coordinates coord_system="LRG_625" start="4831" end="4936" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -939,12 +939,12 @@
               <coordinates coord_system="LRG_625" start="1" end="3514" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>microspherule protein 1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_006328.2" />
               <db_xref source="UniProtKB" accession="Q96EZ8">
                 <synonym>O14742</synonym>
                 <synonym>O75497</synonym>
                 <synonym>Q6VN53</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006328.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000550165">
@@ -1014,12 +1014,12 @@
               <coordinates coord_system="LRG_625" start="1" end="3222" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>microspherule protein 1 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001012300.1" />
               <db_xref source="UniProtKB" accession="Q96EZ8">
                 <synonym>O14742</synonym>
                 <synonym>O75497</synonym>
                 <synonym>Q6VN53</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001012300.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000549000">
@@ -1064,6 +1064,8 @@
             <coordinates coord_system="LRG_625" start="1" end="4914" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>MCRS1-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS61118.1" />
+            <db_xref source="RefSeq" accession="NM_001278341.1" />
             <exon source="Ensembl" accession="ENSE00002206312">
               <coordinates coord_system="LRG_625" start="4831" end="4914" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -1082,6 +1084,8 @@
             <protein_product source="Ensembl" accession="ENSP00000444982">
               <coordinates coord_system="LRG_625" start="1" end="313" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
+              <long_name>microspherule protein 1 isoform 3</long_name>
+              <db_xref source="RefSeq" accession="NP_001265270.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000548334">
@@ -1177,10 +1181,10 @@
           <symbol source="HGNC" name="PRPF40B" />
           <coordinates coord_system="LRG_625" start="5001" end="81449" strand="1" mapped_from="GRCh37" />
           <long_name>PRP40 pre-mRNA processing factor 40 homolog B (S. cerevisiae) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="25766">
+          <db_xref source="HGNC" accession="25031">
             <synonym>HYPC</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="25031">
+          <db_xref source="GeneID" accession="25766">
             <synonym>HYPC</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000110844" />
@@ -1694,12 +1698,12 @@
           <symbol source="HGNC" name="FAM186B" />
           <coordinates coord_system="LRG_625" start="19668" end="42422" strand="-1" mapped_from="GRCh37" />
           <long_name>family with sequence similarity 186, member B (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="84070">
-            <synonym>C12orf25</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="25296">
             <synonym>C12orf25</synonym>
             <synonym>DKFZP434J0113</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="84070">
+            <synonym>C12orf25</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000135436" />
           <transcript source="Ensembl" accession="ENST00000548841">
@@ -1854,11 +1858,11 @@
             <protein_product source="Ensembl" accession="ENSP00000257894">
               <coordinates coord_system="LRG_625" start="24388" end="42260" strand="-1" mapped_from="GRCh37" />
               <long_name>protein FAM186B</long_name>
-              <db_xref source="RefSeq" accession="NP_115506.1" />
               <db_xref source="UniProtKB" accession="Q8IYM0">
                 <synonym>Q8TCP7</synonym>
                 <synonym>Q9H0L3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_115506.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -1866,8 +1870,8 @@
           <symbol source="HGNC" name="RNU6-834P" />
           <coordinates coord_system="LRG_625" start="29887" end="29996" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, U6 small nuclear 834, pseudogene (snRNA)</long_name>
-          <db_xref source="HGNC" accession="47797" />
           <db_xref source="RFAM" accession="RF00026" />
+          <db_xref source="HGNC" accession="47797" />
           <db_xref source="Ensembl" accession="ENSG00000199237" />
           <transcript source="Ensembl" accession="ENST00000362367">
             <coordinates coord_system="LRG_625" start="29887" end="29996" strand="1" mapped_from="GRCh37" />
@@ -1923,14 +1927,14 @@
           <coordinates coord_system="LRG_625" start="74724" end="83452" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>formin-like 3 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="91010">
-            <synonym>FHOD3</synonym>
-            <synonym>WBP-3</synonym>
-            <synonym>WBP3</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="23698">
             <synonym>DKFZp762B245</synonym>
             <synonym>MGC45819</synonym>
+            <synonym>WBP3</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="91010">
+            <synonym>FHOD3</synonym>
+            <synonym>WBP-3</synonym>
             <synonym>WBP3</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000161791" />
@@ -1947,11 +1951,11 @@
               <coordinates coord_system="LRG_625" start="82598" end="83452" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>formin-like protein 3 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_783863.4" />
               <db_xref source="UniProtKB" accession="Q8IVF7">
                 <synonym>B0JZA7</synonym>
                 <synonym>Q6ZRJ1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_783863.4" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000550668">
@@ -2001,11 +2005,11 @@
               <coordinates coord_system="LRG_625" start="82598" end="83452" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>formin-like protein 3 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_944489.2" />
               <db_xref source="UniProtKB" accession="Q8IVF7">
                 <synonym>B0JZA7</synonym>
                 <synonym>Q6ZRJ1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_944489.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000293590">
@@ -2033,7 +2037,7 @@
         <name>List of locus specific databases for PRPF40B</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PRPF40B</url>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

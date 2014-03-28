@@ -161,9 +161,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-29</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="69544905" other_end="69619382">
         <mapping_span lrg_start="1" lrg_end="74478" other_start="69544905" other_end="69619382" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="69317773" other_end="69392250">
+        <mapping_span lrg_start="1" lrg_end="74478" other_start="69317773" other_end="69392250" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">GFPT1</lrg_locus>
     </annotation_set>
@@ -178,7 +181,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_029542.1</comment>
-      <modification_date>2013-11-29</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001244710.1" other_name="NM_001244710.1" other_id="NM_001244710.1" other_start="1" other_end="8703">
         <mapping_span lrg_start="4997" lrg_end="5186" other_start="1" other_end="190" strand="1" />
         <mapping_span lrg_start="18138" lrg_end="18245" other_start="191" other_end="298" strand="1" />
@@ -404,8 +407,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-29</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000357308.4" other_name="ENST00000357308.4" other_id="ENST00000357308.4" other_start="1" other_end="8695">
         <mapping_span lrg_start="5001" lrg_end="5186" other_start="1" other_end="186" strand="1" />
         <mapping_span lrg_start="18138" lrg_end="18245" other_start="187" other_end="294" strand="1" />
@@ -428,7 +431,7 @@
         <mapping_span lrg_start="65176" lrg_end="65337" other_start="2073" other_end="2234" strand="1" />
         <mapping_span lrg_start="66018" lrg_end="72478" other_start="2235" other_end="8695" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000361060.4" other_name="ENST00000361060.4" other_id="ENST00000361060.4" other_start="1" other_end="3141">
+      <mapping coord_system="ENST00000361060.5" other_name="ENST00000361060.5" other_id="ENST00000361060.5" other_start="1" other_end="8632">
         <mapping_span lrg_start="5003" lrg_end="5186" other_start="1" other_end="184" strand="1" />
         <mapping_span lrg_start="18138" lrg_end="18245" other_start="185" other_end="292" strand="1" />
         <mapping_span lrg_start="22143" lrg_end="22250" other_start="293" other_end="400" strand="1" />
@@ -447,7 +450,7 @@
         <mapping_span lrg_start="62827" lrg_end="62954" other_start="1721" other_end="1848" strand="1" />
         <mapping_span lrg_start="63813" lrg_end="63980" other_start="1849" other_end="2016" strand="1" />
         <mapping_span lrg_start="65176" lrg_end="65337" other_start="2017" other_end="2178" strand="1" />
-        <mapping_span lrg_start="66018" lrg_end="66980" other_start="2179" other_end="3141" strand="1" />
+        <mapping_span lrg_start="66018" lrg_end="72471" other_start="2179" other_end="8632" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000493759.2" other_name="ENST00000493759.2" other_id="ENST00000493759.2" other_start="1" other_end="524">
         <mapping_span lrg_start="28659" lrg_end="28706" other_start="1" other_end="48" strand="1" />
@@ -470,6 +473,13 @@
           <symbol source="HGNC" name="GFPT1" />
           <coordinates coord_system="LRG_787" start="5001" end="72478" strand="1" mapped_from="GRCh37" />
           <long_name>glutamine--fructose-6-phosphate transaminase 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="138292" />
+          <db_xref source="HGNC" accession="4241">
+            <synonym>GFA</synonym>
+            <synonym>GFAT</synonym>
+            <synonym>GFAT1</synonym>
+            <synonym>GFPT</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2673">
             <synonym>CMSTA1</synonym>
             <synonym>GFA</synonym>
@@ -481,13 +491,6 @@
             <synonym>GFPT1L</synonym>
             <synonym>MSLG</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="4241">
-            <synonym>GFA</synonym>
-            <synonym>GFAT</synonym>
-            <synonym>GFAT1</synonym>
-            <synonym>GFPT</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="138292" />
           <db_xref source="Ensembl" accession="ENSG00000198380" />
           <transcript source="Ensembl" accession="ENST00000494201">
             <coordinates coord_system="LRG_787" start="5001" end="28640" strand="1" mapped_from="GRCh37" />
@@ -576,15 +579,15 @@
             <protein_product source="Ensembl" accession="ENSP00000349860">
               <coordinates coord_system="LRG_787" start="5180" end="66062" strand="1" mapped_from="GRCh37" />
               <long_name>glutamine--fructose-6-phosphate aminotransferase</long_name>
-              <db_xref source="RefSeq" accession="NP_001231639.1" />
               <db_xref source="UniProtKB" accession="Q06210">
                 <synonym>Q53QE6</synonym>
                 <synonym>Q9BXF8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001231639.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000361060">
-            <coordinates coord_system="LRG_787" start="5003" end="66980" strand="1" mapped_from="GRCh37" />
+            <coordinates coord_system="LRG_787" start="5003" end="72471" strand="1" mapped_from="GRCh37" />
             <long_name>GFPT1-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS33216.1" />
             <db_xref source="RefSeq" accession="NM_002056.3" />
@@ -643,16 +646,16 @@
               <coordinates coord_system="LRG_787" start="65176" end="65337" strand="1" mapped_from="GRCh37" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001353023">
-              <coordinates coord_system="LRG_787" start="66018" end="66980" strand="1" mapped_from="GRCh37" />
+              <coordinates coord_system="LRG_787" start="66018" end="72471" strand="1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000354347">
               <coordinates coord_system="LRG_787" start="5180" end="66062" strand="1" mapped_from="GRCh37" />
               <long_name>glutamine--fructose-6-phosphate aminotransferase</long_name>
-              <db_xref source="RefSeq" accession="NP_002047.2" />
               <db_xref source="UniProtKB" accession="Q06210">
                 <synonym>Q53QE6</synonym>
                 <synonym>Q9BXF8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002047.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000493759">
@@ -702,7 +705,7 @@
         <name>List of locus specific databases for GFPT1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GFPT1</url>
       </source>
-      <modification_date>2013-11-29</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

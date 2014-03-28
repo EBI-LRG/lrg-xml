@@ -132,9 +132,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_start="98904351" other_end="98946157">
         <mapping_span lrg_start="1" lrg_end="41807" other_start="98904351" other_end="98946157" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="12" other_id="NC_000012.12" other_start="98510573" other_end="98552379">
+        <mapping_span lrg_start="1" lrg_end="41807" other_start="98510573" other_end="98552379" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">TMPO</lrg_locus>
     </annotation_set>
@@ -149,7 +152,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_021393.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001032283.2" other_name="NM_001032283.2" other_id="NM_001032283.2" other_start="1" other_end="4181">
         <mapping_span lrg_start="5001" lrg_end="5574" other_start="1" other_end="574" strand="1" />
         <mapping_span lrg_start="17314" lrg_end="17440" other_start="575" other_end="701" strand="1" />
@@ -333,8 +336,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000261210.5" other_name="ENST00000261210.5" other_id="ENST00000261210.5" other_start="1" other_end="820">
         <mapping_span lrg_start="5280" lrg_end="5574" other_start="1" other_end="295" strand="1" />
         <mapping_span lrg_start="17314" lrg_end="17440" other_start="296" other_end="422" strand="1" />
@@ -427,8 +430,8 @@
           <symbol source="HGNC" name="TMPO-AS1" />
           <coordinates coord_system="LRG_443" start="2401" end="5850" strand="-1" mapped_from="GRCh37" />
           <long_name>TMPO antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100128191" />
           <db_xref source="HGNC" accession="44158" />
+          <db_xref source="GeneID" accession="100128191" />
           <db_xref source="Ensembl" accession="ENSG00000257167" />
           <transcript source="Ensembl" accession="ENST00000548760">
             <coordinates coord_system="LRG_443" start="2401" end="5850" strand="-1" mapped_from="GRCh37" />
@@ -459,6 +462,12 @@
           <symbol source="HGNC" name="TMPO" />
           <coordinates coord_system="LRG_443" start="4940" end="39807" strand="1" mapped_from="GRCh37" />
           <long_name>thymopoietin (protein_coding)</long_name>
+          <db_xref source="MIM" accession="188380" />
+          <db_xref source="HGNC" accession="11875">
+            <synonym>LAP2</synonym>
+            <synonym>LEMD4</synonym>
+            <synonym>TP</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="7112">
             <synonym>CMD1T</synonym>
             <synonym>LAP2</synonym>
@@ -466,12 +475,6 @@
             <synonym>PRO0868</synonym>
             <synonym>TP</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11875">
-            <synonym>LAP2</synonym>
-            <synonym>LEMD4</synonym>
-            <synonym>TP</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="188380" />
           <db_xref source="Ensembl" accession="ENSG00000120802" />
           <transcript source="Ensembl" accession="ENST00000556029">
             <coordinates coord_system="LRG_443" start="4940" end="39807" strand="1" mapped_from="GRCh37" />
@@ -508,10 +511,10 @@
             <protein_product source="Ensembl" accession="ENSP00000450627">
               <coordinates coord_system="LRG_443" start="5296" end="37286" strand="1" mapped_from="GRCh37" />
               <long_name>thymopoietin isoform beta</long_name>
-              <db_xref source="RefSeq" accession="NP_001027454.1" />
               <db_xref source="UniProtKB" accession="P42167">
                 <synonym>Q14861</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001027454.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000548911">
@@ -578,13 +581,13 @@
             <protein_product source="Ensembl" accession="ENSP00000266732">
               <coordinates coord_system="LRG_443" start="5296" end="23770" strand="1" mapped_from="GRCh37" />
               <long_name>thymopoietin isoform alpha</long_name>
-              <db_xref source="RefSeq" accession="NP_003267.1" />
               <db_xref source="UniProtKB" accession="P42166">
                 <synonym>P08918</synonym>
                 <synonym>P08919</synonym>
                 <synonym>Q14860</synonym>
                 <synonym>Q16295</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003267.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000393053">
@@ -613,10 +616,10 @@
             <protein_product source="Ensembl" accession="ENSP00000376773">
               <coordinates coord_system="LRG_443" start="5296" end="37286" strand="1" mapped_from="GRCh37" />
               <long_name>thymopoietin isoform gamma</long_name>
-              <db_xref source="RefSeq" accession="NP_001027455.1" />
               <db_xref source="UniProtKB" accession="P42167">
                 <synonym>Q14861</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001027455.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000546828">
@@ -755,8 +758,8 @@
           <symbol source="HGNC" name="RN7SL179P" />
           <coordinates coord_system="LRG_443" start="13904" end="14185" strand="-1" mapped_from="GRCh37" />
           <long_name>RNA, 7SL, cytoplasmic 179, pseudogene (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="46195" />
           <db_xref source="RFAM" accession="RF00017" />
+          <db_xref source="HGNC" accession="46195" />
           <db_xref source="Ensembl" accession="ENSG00000264461" />
           <transcript source="Ensembl" accession="ENST00000578359">
             <coordinates coord_system="LRG_443" start="13904" end="14185" strand="-1" mapped_from="GRCh37" />
@@ -773,7 +776,7 @@
         <name>List of locus specific databases for TMPO</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TMPO</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

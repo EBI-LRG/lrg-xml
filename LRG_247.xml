@@ -209,9 +209,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_start="857225" other_end="1022618">
         <mapping_span lrg_start="1" lrg_end="165394" other_start="857225" other_end="1022618" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="12" other_id="NC_000012.12" other_start="748059" other_end="913452">
+        <mapping_span lrg_start="1" lrg_end="165394" other_start="748059" other_end="913452" strand="1">
+          <diff type="mismatch" lrg_start="3371" lrg_end="3371" other_start="751429" other_end="751429" lrg_sequence="A" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">WNK1</lrg_locus>
     </annotation_set>
@@ -226,7 +231,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007984.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001184985.1" other_name="NM_001184985.1" other_id="NM_001184985.1" other_start="1" other_end="11232">
         <mapping_span lrg_start="4865" lrg_end="6266" other_start="1" other_end="1402" strand="1" />
         <mapping_span lrg_start="65584" lrg_end="65756" other_start="1403" other_end="1575" strand="1" />
@@ -653,7 +658,9 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="5893">
-          <symbol source="HGNC" name="RAD52" />
+          <symbol source="HGNC" name="RAD52">
+            <synonym>RP11-359B12.2</synonym>
+          </symbol>
           <coordinates coord_system="LRG_247" start="164031" end="165394" strand="-1" />
           <partial>5-prime</partial>
           <long_name>RAD52 homolog (S. cerevisiae)</long_name>
@@ -694,8 +701,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-17</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000315939.6" other_name="ENST00000315939.6" other_id="ENST00000315939.6" other_start="1" other_end="10452">
         <mapping_span lrg_start="4865" lrg_end="6266" other_start="1" other_end="1402" strand="1" />
         <mapping_span lrg_start="65584" lrg_end="65756" other_start="1403" other_end="1575" strand="1" />
@@ -933,6 +940,14 @@
           <symbol source="HGNC" name="WNK1" />
           <coordinates coord_system="LRG_247" start="4535" end="163394" strand="1" mapped_from="GRCh37" />
           <long_name>WNK lysine deficient protein kinase 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="605232">
+            <synonym>608620</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="14540">
+            <synonym>HSAN2</synonym>
+            <synonym>HSN2</synonym>
+            <synonym>PRKWNK1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="65125">
             <synonym>HSAN2</synonym>
             <synonym>HSN2</synonym>
@@ -940,14 +955,6 @@
             <synonym>p65</synonym>
             <synonym>PRKWNK1</synonym>
             <synonym>PSK</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="14540">
-            <synonym>HSAN2</synonym>
-            <synonym>HSN2</synonym>
-            <synonym>PRKWNK1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="605232">
-            <synonym>608620</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000060237" />
           <transcript source="Ensembl" accession="ENST00000535572">
@@ -1131,7 +1138,6 @@
             <protein_product source="Ensembl" accession="ENSP00000313059">
               <coordinates coord_system="LRG_247" start="5508" end="160734" strand="1" mapped_from="GRCh37" />
               <long_name>serine/threonine-protein kinase WNK1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_061852.3" />
               <db_xref source="UniProtKB" accession="Q9H4A3">
                 <synonym>A1L4B0</synonym>
                 <synonym>C5HTZ5</synonym>
@@ -1145,6 +1151,7 @@
                 <synonym>Q8N673</synonym>
                 <synonym>Q9P1S9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_061852.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000537687">
@@ -1238,9 +1245,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000444465">
               <coordinates coord_system="LRG_247" start="5508" end="160734" strand="1" mapped_from="GRCh37" />
-              <long_name>serine/threonine-protein kinase WNK1 isoform 4, serine/threonine-protein kinase WNK1 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001171914.1" />
-              <db_xref source="RefSeq" accession="NP_998820.3" />
+              <long_name>serine/threonine-protein kinase WNK1 isoform 3, serine/threonine-protein kinase WNK1 isoform 4</long_name>
               <db_xref source="UniProtKB" accession="Q9H4A3">
                 <synonym>A1L4B0</synonym>
                 <synonym>C5HTZ5</synonym>
@@ -1254,6 +1259,8 @@
                 <synonym>Q8N673</synonym>
                 <synonym>Q9P1S9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_998820.3" />
+              <db_xref source="RefSeq" accession="NP_001171914.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000447667">
@@ -1716,8 +1723,8 @@
           <symbol source="HGNC" name="RNU4ATAC16P" />
           <coordinates coord_system="LRG_247" start="33075" end="33200" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, U4atac small nuclear 16, pseudogene (snRNA)</long_name>
-          <db_xref source="HGNC" accession="46902" />
           <db_xref source="RFAM" accession="RF00618" />
+          <db_xref source="HGNC" accession="46902" />
           <db_xref source="Ensembl" accession="ENSG00000221439" />
           <transcript source="Ensembl" accession="ENST00000408512">
             <coordinates coord_system="LRG_247" start="33075" end="33200" strand="1" mapped_from="GRCh37" />
@@ -1732,9 +1739,11 @@
           <coordinates coord_system="LRG_247" start="164019" end="165394" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>RAD52 homolog (S. cerevisiae) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="5893" />
-          <db_xref source="HGNC" accession="9824" />
           <db_xref source="MIM" accession="600392" />
+          <db_xref source="HGNC" accession="9824" />
+          <db_xref source="GeneID" accession="5893">
+            <synonym>RP11-359B12.2</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000002016" />
           <transcript source="Ensembl" accession="ENST00000358495">
             <coordinates coord_system="LRG_247" start="164019" end="165394" strand="-1" mapped_from="GRCh37" />
@@ -1749,10 +1758,13 @@
               <coordinates coord_system="LRG_247" start="165333" end="165394" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>DNA repair protein RAD52 homolog</long_name>
-              <db_xref source="RefSeq" accession="NP_602296.2" />
               <db_xref source="UniProtKB" accession="P43351">
                 <synonym>Q13205</synonym>
+                <synonym>Q9Y5T7</synonym>
+                <synonym>Q9Y5T8</synonym>
+                <synonym>Q9Y5T9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_602296.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000228345">
@@ -1792,6 +1804,9 @@
               <partial>5-prime</partial>
               <db_xref source="UniProtKB" accession="P43351">
                 <synonym>Q13205</synonym>
+                <synonym>Q9Y5T7</synonym>
+                <synonym>Q9Y5T8</synonym>
+                <synonym>Q9Y5T9</synonym>
               </db_xref>
             </protein_product>
           </transcript>
@@ -1838,7 +1853,7 @@
       <source>
         <name>Community</name>
       </source>
-      <modification_date>2013-09-18</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <fixed_transcript_annotation name="t1">
         <other_exon_naming description="Alternative numbering based on LSDB sources">
           <exon>
@@ -1961,7 +1976,7 @@
         <name>List of locus specific databases for WNK1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/WNK1</url>
       </source>
-      <modification_date>2013-09-18</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

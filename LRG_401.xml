@@ -220,9 +220,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="39773692" other_end="39947964">
         <mapping_span lrg_start="1" lrg_end="174273" other_start="39773692" other_end="39947964" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="17" other_id="NC_000017.11" other_start="41617440" other_end="41791712">
+        <mapping_span lrg_start="1" lrg_end="174273" other_start="41617440" other_end="41791712" strand="-1">
+          <diff type="mismatch" lrg_start="121017" lrg_end="121017" other_start="41670696" other_end="41670696" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="132618" lrg_end="132618" other_start="41659095" other_end="41659095" lrg_sequence="T" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">JUP</lrg_locus>
     </annotation_set>
@@ -237,7 +243,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009090.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_002230.2" other_name="NM_002230.2" other_id="NM_002230.2" other_start="1" other_end="3508">
         <mapping_span lrg_start="5001" lrg_end="5125" other_start="1" other_end="125" strand="1" />
         <mapping_span lrg_start="19851" lrg_end="20066" other_start="126" other_end="341" strand="1" />
@@ -750,8 +756,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000310706.5" other_name="ENST00000310706.5" other_id="ENST00000310706.5" other_start="1" other_end="3200">
         <mapping_span lrg_start="5015" lrg_end="5125" other_start="1" other_end="111" strand="1" />
         <mapping_span lrg_start="19851" lrg_end="20066" other_start="112" other_end="327" strand="1" />
@@ -873,6 +879,14 @@
           <symbol source="HGNC" name="JUP" />
           <coordinates coord_system="LRG_401" start="4782" end="172273" strand="1" mapped_from="GRCh37" />
           <long_name>junction plakoglobin (protein_coding)</long_name>
+          <db_xref source="MIM" accession="173325" />
+          <db_xref source="HGNC" accession="6207">
+            <synonym>CTNNG</synonym>
+            <synonym>DP3</synonym>
+            <synonym>DPIII</synonym>
+            <synonym>PDGB</synonym>
+            <synonym>PKGB</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="3728">
             <synonym>ARVD12</synonym>
             <synonym>CTNNG</synonym>
@@ -881,14 +895,6 @@
             <synonym>PDGB</synonym>
             <synonym>PKGB</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6207">
-            <synonym>CTNNG</synonym>
-            <synonym>DP3</synonym>
-            <synonym>DPIII</synonym>
-            <synonym>PDGB</synonym>
-            <synonym>PKGB</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="173325" />
           <db_xref source="Ensembl" accession="ENSG00000173801" />
           <transcript source="Ensembl" accession="ENST00000437187">
             <coordinates coord_system="LRG_401" start="4782" end="24312" strand="1" mapped_from="GRCh37" />
@@ -1013,7 +1019,6 @@
             <protein_product source="Ensembl" accession="ENSP00000311113">
               <coordinates coord_system="LRG_401" start="19859" end="35969" strand="1" mapped_from="GRCh37" />
               <long_name>junction plakoglobin</long_name>
-              <db_xref source="RefSeq" accession="NP_068831.1" />
               <db_xref source="UniProtKB" accession="P14923">
                 <synonym>Q15093</synonym>
                 <synonym>Q15151</synonym>
@@ -1022,6 +1027,7 @@
                 <synonym>Q9BWC4</synonym>
                 <synonym>Q9HCX9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_068831.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000393931">
@@ -1074,7 +1080,6 @@
             <protein_product source="Ensembl" accession="ENSP00000377508">
               <coordinates coord_system="LRG_401" start="19859" end="35969" strand="1" mapped_from="GRCh37" />
               <long_name>junction plakoglobin</long_name>
-              <db_xref source="RefSeq" accession="NP_002221.1" />
               <db_xref source="UniProtKB" accession="P14923">
                 <synonym>Q15093</synonym>
                 <synonym>Q15151</synonym>
@@ -1083,6 +1088,7 @@
                 <synonym>Q9BWC4</synonym>
                 <synonym>Q9HCX9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002221.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000465293">
@@ -1283,19 +1289,19 @@
           <symbol source="HGNC" name="HAP1" />
           <coordinates coord_system="LRG_401" start="57069" end="73971" strand="1" mapped_from="GRCh37" />
           <long_name>huntingtin-associated protein 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="9001">
-            <synonym>HAP2</synonym>
-            <synonym>hHLP1</synonym>
-            <synonym>HIP5</synonym>
-            <synonym>HLP</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="600947" />
           <db_xref source="HGNC" accession="4812">
             <synonym>HAP2</synonym>
             <synonym>hHLP1</synonym>
             <synonym>HIP5</synonym>
             <synonym>HLP</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="600947" />
+          <db_xref source="GeneID" accession="9001">
+            <synonym>HAP2</synonym>
+            <synonym>hHLP1</synonym>
+            <synonym>HIP5</synonym>
+            <synonym>HLP</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000173805" />
           <transcript source="Ensembl" accession="ENST00000393939">
             <coordinates coord_system="LRG_401" start="57069" end="70900" strand="1" mapped_from="GRCh37" />
@@ -1384,7 +1390,6 @@
             <protein_product source="Ensembl" accession="ENSP00000334002">
               <coordinates coord_system="LRG_401" start="57079" end="67012" strand="1" mapped_from="GRCh37" />
               <long_name>huntingtin-associated protein 1 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_817084.2" />
               <db_xref source="UniProtKB" accession="P54257">
                 <synonym>A8MQB5</synonym>
                 <synonym>O75358</synonym>
@@ -1393,6 +1398,7 @@
                 <synonym>Q9HA98</synonym>
                 <synonym>Q9NY90</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_817084.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000341193">
@@ -1433,9 +1439,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000343170">
               <coordinates coord_system="LRG_401" start="57079" end="67012" strand="1" mapped_from="GRCh37" />
-              <long_name>huntingtin-associated protein 1 isoform 3, huntingtin-associated protein 1 isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_001073339.1" />
-              <db_xref source="RefSeq" accession="NP_001073340.1" />
+              <long_name>huntingtin-associated protein 1 isoform 4, huntingtin-associated protein 1 isoform 3</long_name>
               <db_xref source="UniProtKB" accession="P54257">
                 <synonym>A8MQB5</synonym>
                 <synonym>O75358</synonym>
@@ -1444,6 +1448,8 @@
                 <synonym>Q9HA98</synonym>
                 <synonym>Q9NY90</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001073340.1" />
+              <db_xref source="RefSeq" accession="NP_001073339.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000310778">
@@ -1544,8 +1550,8 @@
           <symbol source="HGNC" name="RN7SL399P" />
           <coordinates coord_system="LRG_401" start="61308" end="61584" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, 7SL, cytoplasmic 399, pseudogene (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="46415" />
           <db_xref source="RFAM" accession="RF00017" />
+          <db_xref source="HGNC" accession="46415" />
           <db_xref source="Ensembl" accession="ENSG00000239542" />
           <transcript source="Ensembl" accession="ENST00000471648">
             <coordinates coord_system="LRG_401" start="61308" end="61584" strand="1" mapped_from="GRCh37" />
@@ -1559,10 +1565,10 @@
           <symbol source="HGNC" name="RNA5SP442" />
           <coordinates coord_system="LRG_401" start="73453" end="73559" strand="-1" mapped_from="GRCh37" />
           <long_name>RNA, 5S ribosomal pseudogene 442 (rRNA)</long_name>
+          <db_xref source="RFAM" accession="RF00001" />
           <db_xref source="HGNC" accession="43342">
             <synonym>RN5S442</synonym>
           </db_xref>
-          <db_xref source="RFAM" accession="RF00001" />
           <db_xref source="Ensembl" accession="ENSG00000201920" />
           <transcript source="Ensembl" accession="ENST00000365050">
             <coordinates coord_system="LRG_401" start="73453" end="73559" strand="-1" mapped_from="GRCh37" />
@@ -1576,13 +1582,13 @@
           <symbol source="HGNC" name="GAST" />
           <coordinates coord_system="LRG_401" start="75744" end="79387" strand="-1" mapped_from="GRCh37" />
           <long_name>gastrin (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="2520">
-            <synonym>GAS</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="137250" />
           <db_xref source="HGNC" accession="4164">
             <synonym>GAS</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="137250" />
+          <db_xref source="GeneID" accession="2520">
+            <synonym>GAS</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000184502" />
           <transcript source="Ensembl" accession="ENST00000329402">
             <coordinates coord_system="LRG_401" start="75744" end="79387" strand="-1" mapped_from="GRCh37" />
@@ -1601,11 +1607,11 @@
             <protein_product source="Ensembl" accession="ENSP00000331358">
               <coordinates coord_system="LRG_401" start="75841" end="76276" strand="-1" mapped_from="GRCh37" />
               <long_name>gastrin preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_000796.1" />
               <db_xref source="UniProtKB" accession="P01350">
                 <synonym>P78463</synonym>
                 <synonym>P78464</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000796.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -1613,14 +1619,14 @@
           <symbol source="HGNC" name="EIF1" />
           <coordinates coord_system="LRG_401" start="99045" end="102828" strand="-1" mapped_from="GRCh37" />
           <long_name>eukaryotic translation initiation factor 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="10209">
+          <db_xref source="HGNC" accession="3249">
             <synonym>A121</synonym>
             <synonym>EIF-1</synonym>
             <synonym>EIF1A</synonym>
             <synonym>ISO1</synonym>
             <synonym>SUI1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3249">
+          <db_xref source="GeneID" accession="10209">
             <synonym>A121</synonym>
             <synonym>EIF-1</synonym>
             <synonym>EIF1A</synonym>
@@ -1746,8 +1752,8 @@
           <symbol source="HGNC" name="KRT42P" />
           <coordinates coord_system="LRG_401" start="151514" end="165386" strand="1" mapped_from="GRCh37" />
           <long_name>keratin 42 pseudogene (pseudogene)</long_name>
-          <db_xref source="GeneID" accession="284116" />
           <db_xref source="HGNC" accession="27581" />
+          <db_xref source="GeneID" accession="284116" />
           <db_xref source="Ensembl" accession="ENSG00000214514" />
           <transcript source="Ensembl" accession="ENST00000398469">
             <coordinates coord_system="LRG_401" start="151514" end="165386" strand="1" mapped_from="GRCh37" />
@@ -1875,16 +1881,16 @@
           <symbol source="HGNC" name="KRT17" />
           <coordinates coord_system="LRG_401" start="166871" end="172276" strand="1" mapped_from="GRCh37" />
           <long_name>keratin 17 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="148069" />
+          <db_xref source="HGNC" accession="6427">
+            <synonym>PCHC1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="3872">
             <synonym>K17</synonym>
             <synonym>PC</synonym>
             <synonym>PC2</synonym>
             <synonym>PCHC1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6427">
-            <synonym>PCHC1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="148069" />
           <db_xref source="Ensembl" accession="ENSG00000128422" />
           <transcript source="Ensembl" accession="ENST00000463128">
             <coordinates coord_system="LRG_401" start="166871" end="170687" strand="1" mapped_from="GRCh37" />
@@ -1943,7 +1949,6 @@
             <protein_product source="Ensembl" accession="ENSP00000308452">
               <coordinates coord_system="LRG_401" start="167204" end="172119" strand="1" mapped_from="GRCh37" />
               <long_name>keratin, type I cytoskeletal 17</long_name>
-              <db_xref source="RefSeq" accession="NP_000413.1" />
               <db_xref source="UniProtKB" accession="Q04695">
                 <synonym>A5Z1M9</synonym>
                 <synonym>A5Z1N0</synonym>
@@ -1954,6 +1959,7 @@
                 <synonym>Q6IP98</synonym>
                 <synonym>Q8N1P6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000413.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000491673">
@@ -2034,7 +2040,7 @@
         <name>List of locus specific databases for JUP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/JUP</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

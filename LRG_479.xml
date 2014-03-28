@@ -223,9 +223,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="42447550" other_end="42471873">
         <mapping_span lrg_start="1" lrg_end="24324" other_start="42447550" other_end="42471873" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="17" other_id="NC_000017.11" other_start="44370182" other_end="44394505">
+        <mapping_span lrg_start="1" lrg_end="24324" other_start="44370182" other_end="44394505" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">ITGA2B</lrg_locus>
     </annotation_set>
@@ -240,7 +243,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008331.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000419.3" other_name="NM_000419.3" other_id="NM_000419.3" other_start="1" other_end="3334">
         <mapping_span lrg_start="5001" lrg_end="5220" other_start="1" other_end="220" strand="1" />
         <mapping_span lrg_start="8375" lrg_end="8496" other_start="221" other_end="342" strand="1" />
@@ -413,8 +416,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000262407.5" other_name="ENST00000262407.5" other_id="ENST00000262407.5" other_start="1" other_end="3333">
         <mapping_span lrg_start="5001" lrg_end="5220" other_start="1" other_end="220" strand="1" />
         <mapping_span lrg_start="8375" lrg_end="8496" other_start="221" other_end="342" strand="1" />
@@ -574,6 +577,12 @@
           <symbol source="HGNC" name="ITGA2B" />
           <coordinates coord_system="LRG_479" start="5001" end="22326" strand="1" mapped_from="GRCh37" />
           <long_name>integrin, alpha 2b (platelet glycoprotein IIb of IIb/IIIa complex, antigen CD41) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="607759" />
+          <db_xref source="HGNC" accession="6138">
+            <synonym>CD41</synonym>
+            <synonym>CD41B</synonym>
+            <synonym>GP2B</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="3674">
             <synonym>BDPLT16</synonym>
             <synonym>BDPLT2</synonym>
@@ -585,12 +594,6 @@
             <synonym>GTA</synonym>
             <synonym>HPA3</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6138">
-            <synonym>CD41</synonym>
-            <synonym>CD41B</synonym>
-            <synonym>GP2B</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="607759" />
           <db_xref source="Ensembl" accession="ENSG00000005961" />
           <transcript source="Ensembl" accession="ENST00000262407">
             <coordinates coord_system="LRG_479" start="5001" end="22323" strand="1" mapped_from="GRCh37" />
@@ -690,13 +693,13 @@
             <protein_product source="Ensembl" accession="ENSP00000262407">
               <coordinates coord_system="LRG_479" start="5033" end="22142" strand="1" mapped_from="GRCh37" />
               <long_name>integrin alpha-IIb preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_000410.2" />
               <db_xref source="UniProtKB" accession="P08514">
                 <synonym>B2RCY8</synonym>
                 <synonym>O95366</synonym>
                 <synonym>Q14443</synonym>
                 <synonym>Q17R67</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000410.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000353281">
@@ -1069,7 +1072,7 @@
         <name>List of locus specific databases for ITGA2B</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ITGA2B</url>
       </source>
-      <modification_date>2013-12-05</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

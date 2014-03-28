@@ -77,9 +77,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_start="26082509" other_end="26100571">
         <mapping_span lrg_start="1" lrg_end="18063" other_start="26082509" other_end="26100571" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="6" other_id="NC_000006.12" other_start="26082281" other_end="26100343">
+        <mapping_span lrg_start="1" lrg_end="18063" other_start="26082281" other_end="26100343" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">HFE</lrg_locus>
     </annotation_set>
@@ -94,7 +97,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008720.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000410.3" other_name="NM_000410.3" other_id="NM_000410.3" other_start="1" other_end="2222">
         <mapping_span lrg_start="5001" lrg_end="5236" other_start="1" other_end="236" strand="1" />
         <mapping_span lrg_start="8561" lrg_end="8824" other_start="237" other_end="500" strand="1" />
@@ -450,8 +453,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000309234.6" other_name="ENST00000309234.6" other_id="ENST00000309234.6" other_start="1" other_end="1158">
         <mapping_span lrg_start="5159" lrg_end="5236" other_start="1" other_end="78" strand="1" />
         <mapping_span lrg_start="8561" lrg_end="8824" other_start="79" other_end="342" strand="1" />
@@ -555,6 +558,10 @@
           <symbol source="HGNC" name="HFE" />
           <coordinates coord_system="LRG_748" start="5001" end="16063" strand="1" mapped_from="GRCh37" />
           <long_name>hemochromatosis (protein_coding)</long_name>
+          <db_xref source="MIM" accession="613609" />
+          <db_xref source="HGNC" accession="4886">
+            <synonym>HLA-H</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="3077">
             <synonym>HFE1</synonym>
             <synonym>HH</synonym>
@@ -562,10 +569,6 @@
             <synonym>MVCD7</synonym>
             <synonym>TFQTL2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="4886">
-            <synonym>HLA-H</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="613609" />
           <db_xref source="Ensembl" accession="ENSG00000010704" />
           <transcript source="Ensembl" accession="ENST00000397022">
             <coordinates coord_system="LRG_748" start="5001" end="12088" strand="1" mapped_from="GRCh37" />
@@ -593,7 +596,6 @@
             <protein_product source="Ensembl" accession="ENSP00000380217">
               <coordinates coord_system="LRG_748" start="5161" end="11946" strand="1" mapped_from="GRCh37" />
               <long_name>hereditary hemochromatosis protein isoform 9 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_620578.1" />
               <db_xref source="UniProtKB" accession="Q30201">
                 <synonym>B2CKL0</synonym>
                 <synonym>O75929</synonym>
@@ -609,6 +611,7 @@
                 <synonym>Q9HC70</synonym>
                 <synonym>Q9HC83</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_620578.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000353147">
@@ -631,7 +634,6 @@
             <protein_product source="Ensembl" accession="ENSP00000312342">
               <coordinates coord_system="LRG_748" start="5161" end="11946" strand="1" mapped_from="GRCh37" />
               <long_name>hereditary hemochromatosis protein isoform 10 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_620579.1" />
               <db_xref source="UniProtKB" accession="Q30201">
                 <synonym>B2CKL0</synonym>
                 <synonym>O75929</synonym>
@@ -647,6 +649,7 @@
                 <synonym>Q9HC70</synonym>
                 <synonym>Q9HC83</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_620579.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000352392">
@@ -666,7 +669,6 @@
             <protein_product source="Ensembl" accession="ENSP00000315936">
               <coordinates coord_system="LRG_748" start="5161" end="11946" strand="1" mapped_from="GRCh37" />
               <long_name>hereditary hemochromatosis protein isoform 11 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_620580.1" />
               <db_xref source="UniProtKB" accession="Q30201">
                 <synonym>B2CKL0</synonym>
                 <synonym>O75929</synonym>
@@ -682,6 +684,7 @@
                 <synonym>Q9HC70</synonym>
                 <synonym>Q9HC83</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_620580.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000349999">
@@ -707,9 +710,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000259699">
               <coordinates coord_system="LRG_748" start="5161" end="11946" strand="1" mapped_from="GRCh37" />
-              <long_name>hereditary hemochromatosis protein isoform 7 precursor, hereditary hemochromatosis protein isoform 8 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_620576.1" />
-              <db_xref source="RefSeq" accession="NP_620577.1" />
+              <long_name>hereditary hemochromatosis protein isoform 8 precursor, hereditary hemochromatosis protein isoform 7 precursor</long_name>
               <db_xref source="UniProtKB" accession="Q30201">
                 <synonym>B2CKL0</synonym>
                 <synonym>O75929</synonym>
@@ -725,6 +726,8 @@
                 <synonym>Q9HC70</synonym>
                 <synonym>Q9HC83</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_620577.1" />
+              <db_xref source="RefSeq" accession="NP_620576.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000317896">
@@ -750,9 +753,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000313776">
               <coordinates coord_system="LRG_748" start="5161" end="11946" strand="1" mapped_from="GRCh37" />
-              <long_name>hereditary hemochromatosis protein isoform 4 precursor, hereditary hemochromatosis protein isoform 3 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_620573.1" />
-              <db_xref source="RefSeq" accession="NP_620572.1" />
+              <long_name>hereditary hemochromatosis protein isoform 3 precursor, hereditary hemochromatosis protein isoform 4 precursor</long_name>
               <db_xref source="UniProtKB" accession="Q30201">
                 <synonym>B2CKL0</synonym>
                 <synonym>O75929</synonym>
@@ -768,6 +769,8 @@
                 <synonym>Q9HC70</synonym>
                 <synonym>Q9HC83</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_620572.1" />
+              <db_xref source="RefSeq" accession="NP_620573.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000483782">
@@ -809,9 +812,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000417404">
               <coordinates coord_system="LRG_748" start="5161" end="11946" strand="1" mapped_from="GRCh37" />
-              <long_name>hereditary hemochromatosis protein isoform 1 precursor, hereditary hemochromatosis protein isoform 6 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000401.1" />
-              <db_xref source="RefSeq" accession="NP_620575.1" />
+              <long_name>hereditary hemochromatosis protein isoform 6 precursor, hereditary hemochromatosis protein isoform 1 precursor</long_name>
               <db_xref source="UniProtKB" accession="Q30201">
                 <synonym>B2CKL0</synonym>
                 <synonym>O75929</synonym>
@@ -827,6 +828,8 @@
                 <synonym>Q9HC70</synonym>
                 <synonym>Q9HC83</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_620575.1" />
+              <db_xref source="RefSeq" accession="NP_000401.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000470149">
@@ -1045,7 +1048,7 @@
         <name>List of locus specific databases for HFE</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HFE</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

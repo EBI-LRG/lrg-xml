@@ -180,9 +180,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="108315411" other_end="108405399">
         <mapping_span lrg_start="1" lrg_end="89989" other_start="108315411" other_end="108405399" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="9" other_id="NC_000009.12" other_start="105553130" other_end="105643118">
+        <mapping_span lrg_start="1" lrg_end="89989" other_start="105553130" other_end="105643118" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">FKTN</lrg_locus>
     </annotation_set>
@@ -197,7 +200,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008754.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001079802.1" other_name="NM_001079802.1" other_id="NM_001079802.1" other_start="1" other_end="7456">
         <mapping_span lrg_start="5001" lrg_end="5036" other_start="1" other_end="36" strand="1" />
         <mapping_span lrg_start="20526" lrg_end="20617" other_start="37" other_end="128" strand="1" />
@@ -360,8 +363,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000223528.2" other_name="ENST00000223528.2" other_id="ENST00000223528.2" other_start="1" other_end="7364">
         <mapping_span lrg_start="5001" lrg_end="5036" other_start="1" other_end="36" strand="1" />
         <mapping_span lrg_start="21816" lrg_end="22008" other_start="37" other_end="229" strand="1" />
@@ -484,6 +487,11 @@
           <symbol source="HGNC" name="FKTN" />
           <coordinates coord_system="LRG_434" start="5001" end="87989" strand="1" mapped_from="GRCh37" />
           <long_name>fukutin (protein_coding)</long_name>
+          <db_xref source="MIM" accession="607440" />
+          <db_xref source="HGNC" accession="3622">
+            <synonym>FCMD</synonym>
+            <synonym>LGMD2M</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2218">
             <synonym>CMD1X</synonym>
             <synonym>FCMD</synonym>
@@ -492,11 +500,6 @@
             <synonym>MDDGB4</synonym>
             <synonym>MDDGC4</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3622">
-            <synonym>FCMD</synonym>
-            <synonym>LGMD2M</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="607440" />
           <db_xref source="Ensembl" accession="ENSG00000106692" />
           <transcript source="Ensembl" accession="ENST00000602661">
             <coordinates coord_system="LRG_434" start="5001" end="83109" strand="1" mapped_from="GRCh37" />
@@ -539,6 +542,13 @@
             <protein_product source="Ensembl" accession="ENSP00000473540">
               <coordinates coord_system="LRG_434" start="21904" end="82135" strand="1" mapped_from="GRCh37" />
               <long_name>fukutin isoform a</long_name>
+              <db_xref source="UniProtKB" accession="O75072">
+                <synonym>B4DUX9</synonym>
+                <synonym>J3KP13</synonym>
+                <synonym>Q3MIJ1</synonym>
+                <synonym>Q96TE1</synonym>
+                <synonym>Q9P295</synonym>
+              </db_xref>
               <db_xref source="RefSeq" accession="NP_001073270.1" />
             </protein_product>
           </transcript>
@@ -580,7 +590,6 @@
             <protein_product source="Ensembl" accession="ENSP00000223528">
               <coordinates coord_system="LRG_434" start="21904" end="82135" strand="1" mapped_from="GRCh37" />
               <long_name>fukutin isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_006722.2" />
               <db_xref source="UniProtKB" accession="O75072">
                 <synonym>B4DUX9</synonym>
                 <synonym>J3KP13</synonym>
@@ -588,6 +597,7 @@
                 <synonym>Q96TE1</synonym>
                 <synonym>Q9P295</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006722.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000448551">
@@ -633,6 +643,13 @@
             <protein_product source="Ensembl" accession="ENSP00000399140">
               <coordinates coord_system="LRG_434" start="21904" end="86994" strand="1" mapped_from="GRCh37" />
               <long_name>fukutin isoform b</long_name>
+              <db_xref source="UniProtKB" accession="O75072">
+                <synonym>B4DUX9</synonym>
+                <synonym>J3KP13</synonym>
+                <synonym>Q3MIJ1</synonym>
+                <synonym>Q96TE1</synonym>
+                <synonym>Q9P295</synonym>
+              </db_xref>
               <db_xref source="RefSeq" accession="NP_001185892.1" />
             </protein_product>
           </transcript>
@@ -829,7 +846,7 @@
         <name>List of locus specific databases for FKTN</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FKTN</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

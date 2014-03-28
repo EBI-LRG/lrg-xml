@@ -208,9 +208,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_start="50882580" other_end="50923275">
         <mapping_span lrg_start="1" lrg_end="40696" other_start="50882580" other_end="50923275" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="19" other_id="NC_000019.10" other_start="50379323" other_end="50420018">
+        <mapping_span lrg_start="1" lrg_end="40696" other_start="50379323" other_end="50420018" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">POLD1</lrg_locus>
     </annotation_set>
@@ -225,7 +228,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_033800.1</comment>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001256849.1" other_name="NM_001256849.1" other_id="NM_001256849.1" other_start="1" other_end="3467">
         <mapping_span lrg_start="5001" lrg_end="5068" other_start="1" other_end="68" strand="1" />
         <mapping_span lrg_start="19526" lrg_end="19731" other_start="69" other_end="274" strand="1" />
@@ -714,8 +717,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-28</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000440232.2" other_name="ENST00000440232.2" other_id="ENST00000440232.2" other_start="1" other_end="3444">
         <mapping_span lrg_start="5017" lrg_end="5068" other_start="1" other_end="52" strand="1" />
         <mapping_span lrg_start="19529" lrg_end="19731" other_start="53" other_end="255" strand="1" />
@@ -906,6 +909,14 @@
           <coordinates coord_system="LRG_785" start="1" end="3660" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>nuclear receptor subfamily 1, group H, member 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600380" />
+          <db_xref source="HGNC" accession="7965">
+            <synonym>LXR-b</synonym>
+            <synonym>NER</synonym>
+            <synonym>NER-I</synonym>
+            <synonym>RIP15</synonym>
+            <synonym>UNR</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="7376">
             <synonym>LXR-b</synonym>
             <synonym>LXRB</synonym>
@@ -914,14 +925,6 @@
             <synonym>RIP15</synonym>
             <synonym>UNR</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7965">
-            <synonym>LXR-b</synonym>
-            <synonym>NER</synonym>
-            <synonym>NER-I</synonym>
-            <synonym>RIP15</synonym>
-            <synonym>UNR</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="600380" />
           <db_xref source="Ensembl" accession="ENSG00000131408" />
           <transcript source="Ensembl" accession="ENST00000593532">
             <coordinates coord_system="LRG_785" start="1" end="3657" strand="1" mapped_from="GRCh37" />
@@ -996,12 +999,12 @@
               <coordinates coord_system="LRG_785" start="1" end="3280" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>oxysterols receptor LXR-beta isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_009052.3" />
               <db_xref source="UniProtKB" accession="P55055">
                 <synonym>A8K490</synonym>
                 <synonym>Q12970</synonym>
                 <synonym>Q5I0Y1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_009052.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000599105">
@@ -1080,17 +1083,17 @@
           <symbol source="HGNC" name="POLD1" />
           <coordinates coord_system="LRG_785" start="4882" end="38694" strand="1" mapped_from="GRCh37" />
           <long_name>polymerase (DNA directed), delta 1, catalytic subunit (protein_coding)</long_name>
+          <db_xref source="MIM" accession="174761" />
+          <db_xref source="HGNC" accession="9175">
+            <synonym>CDC2</synonym>
+            <synonym>POLD</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5424">
             <synonym>CDC2</synonym>
             <synonym>CRCS10</synonym>
             <synonym>MDPL</synonym>
             <synonym>POLD</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9175">
-            <synonym>CDC2</synonym>
-            <synonym>POLD</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="174761" />
           <db_xref source="Ensembl" accession="ENSG00000062822" />
           <transcript source="Ensembl" accession="ENST00000600859">
             <coordinates coord_system="LRG_785" start="4882" end="38690" strand="1" mapped_from="GRCh37" />
@@ -1267,12 +1270,12 @@
             <protein_product source="Ensembl" accession="ENSP00000406046">
               <coordinates coord_system="LRG_785" start="19530" end="38625" strand="1" mapped_from="GRCh37" />
               <long_name>DNA polymerase delta catalytic subunit, DNA polymerase delta catalytic subunit</long_name>
-              <db_xref source="RefSeq" accession="NP_002682.2" />
-              <db_xref source="RefSeq" accession="NP_001243778.1" />
               <db_xref source="UniProtKB" accession="P28340">
                 <synonym>Q8NER3</synonym>
                 <synonym>Q96H98</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002682.2" />
+              <db_xref source="RefSeq" accession="NP_001243778.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000601098">
@@ -1665,8 +1668,8 @@
           <symbol source="HGNC" name="RN7SL324P" />
           <coordinates coord_system="LRG_785" start="17931" end="18196" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, 7SL, cytoplasmic 324, pseudogene (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="46340" />
           <db_xref source="RFAM" accession="RF00017" />
+          <db_xref source="HGNC" accession="46340" />
           <db_xref source="Ensembl" accession="ENSG00000264213" />
           <transcript source="Ensembl" accession="ENST00000577945">
             <coordinates coord_system="LRG_785" start="17931" end="18196" strand="1" mapped_from="GRCh37" />
@@ -1715,13 +1718,13 @@
           <coordinates coord_system="LRG_785" start="39616" end="40696" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>Spi-B transcription factor (Spi-1/PU.1 related) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6689">
-            <synonym>SPI-B</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606802" />
           <db_xref source="HGNC" accession="11242">
             <synonym>SPI-B</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="606802" />
+          <db_xref source="GeneID" accession="6689">
+            <synonym>SPI-B</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000269404" />
           <transcript source="Ensembl" accession="ENST00000595883">
             <coordinates coord_system="LRG_785" start="39616" end="40696" strand="1" mapped_from="GRCh37" />
@@ -1740,15 +1743,15 @@
             <protein_product source="Ensembl" accession="ENSP00000471921">
               <coordinates coord_system="LRG_785" start="39641" end="40696" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>transcription factor Spi-B isoform 1, transcription factor Spi-B isoform 3, transcription factor Spi-B isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_003112.2" />
-              <db_xref source="RefSeq" accession="NP_001230928.1" />
-              <db_xref source="RefSeq" accession="NP_001230929.1" />
+              <long_name>transcription factor Spi-B isoform 4, transcription factor Spi-B isoform 3, transcription factor Spi-B isoform 1</long_name>
               <db_xref source="UniProtKB" accession="Q01892">
                 <synonym>A8K9C9</synonym>
                 <synonym>B4DUG6</synonym>
                 <synonym>Q15359</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001230929.1" />
+              <db_xref source="RefSeq" accession="NP_001230928.1" />
+              <db_xref source="RefSeq" accession="NP_003112.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000599923">
@@ -1860,7 +1863,7 @@
         <name>List of locus specific databases for POLD1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/POLD1</url>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

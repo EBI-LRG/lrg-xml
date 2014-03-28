@@ -107,10 +107,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="62455747" other_end="62482046">
         <mapping_span lrg_start="1" lrg_end="26300" other_start="62455747" other_end="62482046" strand="-1">
           <diff type="mismatch" lrg_start="6794" lrg_end="6794" other_start="62475253" other_end="62475253" lrg_sequence="G" other_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="11" other_id="NC_000011.10" other_start="62688275" other_end="62714574">
+        <mapping_span lrg_start="1" lrg_end="26300" other_start="62688275" other_end="62714574" strand="-1">
+          <diff type="mismatch" lrg_start="6794" lrg_end="6794" other_start="62707781" other_end="62707781" lrg_sequence="G" other_sequence="C" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">BSCL2</lrg_locus>
@@ -126,7 +131,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008461.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001122955.3" other_name="NM_001122955.3" other_id="NM_001122955.3" other_start="1" other_end="2006">
         <mapping_span lrg_start="6868" lrg_end="7466" other_start="1" other_end="599" strand="1" />
         <mapping_span lrg_start="8958" lrg_end="9274" other_start="600" other_end="916" strand="1" />
@@ -421,8 +426,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000278893.7" other_name="ENST00000278893.7" other_id="ENST00000278893.7" other_start="1" other_end="1364">
         <mapping_span lrg_start="8260" lrg_end="8372" other_start="1" other_end="113" strand="1" />
         <mapping_span lrg_start="8958" lrg_end="9274" other_start="114" other_end="430" strand="1" />
@@ -645,42 +650,17 @@
         <mapping_span lrg_start="19864" lrg_end="20017" other_start="538" other_end="691" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000214753">
-          <symbol source="HGNC" name="HNRNPUL2" />
-          <coordinates coord_system="LRG_235" start="1" end="1945" strand="1" mapped_from="GRCh37" />
-          <partial>5-prime</partial>
-          <long_name>heterogeneous nuclear ribonucleoprotein U-like 2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="221092">
-            <synonym>HNRPUL2</synonym>
-            <synonym>SAF-A2</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="25451">
-            <synonym>DKFZp762N1910</synonym>
-            <synonym>HNRPUL2</synonym>
-          </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000214753" />
-          <transcript source="Ensembl" accession="ENST00000301785">
-            <coordinates coord_system="LRG_235" start="1" end="1945" strand="1" mapped_from="GRCh37" />
-            <partial>5-prime</partial>
-            <long_name>HNRNPUL2-001 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS41659.1" />
-            <db_xref source="RefSeq" accession="NM_001079559.2" />
-            <exon source="Ensembl" accession="ENSE00001275622">
-              <coordinates coord_system="LRG_235" start="1" end="1945" strand="1" mapped_from="GRCh37" />
-              <partial>5-prime</partial>
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000234857">
-          <symbol source="Clone_based_vega_gene" name="RP11-831H9.16" />
+          <symbol source="HGNC" name="HNRNPUL2-BSCL2" />
           <coordinates coord_system="LRG_235" start="1" end="24300" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
-          <long_name>HCG2044799; Uncharacterized protein  [Source:UniProtKB/TrEMBL;Acc:H3BQZ7] (protein_coding)</long_name>
+          <long_name>HNRNPUL2-BSCL2 readthrough (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="49189" />
           <db_xref source="Ensembl" accession="ENSG00000234857" />
           <transcript source="Ensembl" accession="ENST00000403734">
             <coordinates coord_system="LRG_235" start="1" end="24300" strand="1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
-            <long_name>RP11-831H9.16-001 (nonsense_mediated_decay)</long_name>
+            <long_name>HNRNPUL2-BSCL2-001 (nonsense_mediated_decay)</long_name>
             <exon source="Ensembl" accession="ENSE00003689692">
               <coordinates coord_system="LRG_235" start="7251" end="7466" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -720,20 +700,46 @@
             </protein_product>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000214753">
+          <symbol source="HGNC" name="HNRNPUL2" />
+          <coordinates coord_system="LRG_235" start="1" end="1945" strand="1" mapped_from="GRCh37" />
+          <partial>5-prime</partial>
+          <long_name>heterogeneous nuclear ribonucleoprotein U-like 2 (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="25451">
+            <synonym>DKFZp762N1910</synonym>
+            <synonym>HNRPUL2</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="221092">
+            <synonym>HNRPUL2</synonym>
+            <synonym>SAF-A2</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000214753" />
+          <transcript source="Ensembl" accession="ENST00000301785">
+            <coordinates coord_system="LRG_235" start="1" end="1945" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>HNRNPUL2-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS41659.1" />
+            <db_xref source="RefSeq" accession="NM_001079559.2" />
+            <exon source="Ensembl" accession="ENSE00001275622">
+              <coordinates coord_system="LRG_235" start="1" end="1945" strand="1" mapped_from="GRCh37" />
+              <partial>5-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000168000">
           <symbol source="HGNC" name="BSCL2" />
           <coordinates coord_system="LRG_235" start="4730" end="24300" strand="1" mapped_from="GRCh37" />
           <long_name>Berardinelli-Seip congenital lipodystrophy 2 (seipin) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="606158" />
+          <db_xref source="HGNC" accession="15832">
+            <synonym>GNG3LG</synonym>
+            <synonym>SPG17</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="26580">
             <synonym>GNG3LG</synonym>
             <synonym>HMN5</synonym>
             <synonym>SPG17</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="15832">
-            <synonym>GNG3LG</synonym>
-            <synonym>SPG17</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="606158" />
           <db_xref source="Ensembl" accession="ENSG00000168000" />
           <transcript source="Ensembl" accession="ENST00000464544">
             <coordinates coord_system="LRG_235" start="4730" end="9149" strand="1" mapped_from="GRCh37" />
@@ -1033,13 +1039,13 @@
             <protein_product source="Ensembl" accession="ENSP00000354032">
               <coordinates coord_system="LRG_235" start="7380" end="24208" strand="1" mapped_from="GRCh37" />
               <long_name>seipin isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001116427.1" />
               <db_xref source="UniProtKB" accession="Q96G97">
                 <synonym>G3XAE4</synonym>
                 <synonym>Q567S1</synonym>
                 <synonym>Q96SV1</synonym>
                 <synonym>Q9BSQ0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001116427.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000533982">
@@ -1118,13 +1124,13 @@
             <protein_product source="Ensembl" accession="ENSP00000384080">
               <coordinates coord_system="LRG_235" start="9063" end="24208" strand="1" mapped_from="GRCh37" />
               <long_name>seipin isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_116056.3" />
               <db_xref source="UniProtKB" accession="Q96G97">
                 <synonym>G3XAE4</synonym>
                 <synonym>Q567S1</synonym>
                 <synonym>Q96SV1</synonym>
                 <synonym>Q9BSQ0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_116056.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000421906">
@@ -1212,13 +1218,13 @@
             <protein_product source="Ensembl" accession="ENSP00000278893">
               <coordinates coord_system="LRG_235" start="9063" end="23927" strand="1" mapped_from="GRCh37" />
               <long_name>seipin isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001124174.2" />
               <db_xref source="UniProtKB" accession="Q96G97">
                 <synonym>G3XAE4</synonym>
                 <synonym>Q567S1</synonym>
                 <synonym>Q96SV1</synonym>
                 <synonym>Q9BSQ0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001124174.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000530900">
@@ -1458,9 +1464,9 @@
           <symbol source="HGNC" name="GNG3" />
           <coordinates coord_system="LRG_235" start="5374" end="6917" strand="-1" mapped_from="GRCh37" />
           <long_name>guanine nucleotide binding protein (G protein), gamma 3 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="2785" />
-          <db_xref source="HGNC" accession="4405" />
           <db_xref source="MIM" accession="608941" />
+          <db_xref source="HGNC" accession="4405" />
+          <db_xref source="GeneID" accession="2785" />
           <db_xref source="Ensembl" accession="ENSG00000162188" />
           <transcript source="Ensembl" accession="ENST00000294117">
             <coordinates coord_system="LRG_235" start="5374" end="6917" strand="-1" mapped_from="GRCh37" />
@@ -1479,12 +1485,12 @@
             <protein_product source="Ensembl" accession="ENSP00000294117">
               <coordinates coord_system="LRG_235" start="5769" end="6279" strand="-1" mapped_from="GRCh37" />
               <long_name>guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-3</long_name>
-              <db_xref source="RefSeq" accession="NP_036334.1" />
               <db_xref source="UniProtKB" accession="P63215">
                 <synonym>B2R4S7</synonym>
                 <synonym>P29798</synonym>
                 <synonym>Q61014</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_036334.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -1493,15 +1499,15 @@
           <coordinates coord_system="LRG_235" start="24676" end="26300" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>LRRN4 C-terminal like (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="221091" />
           <db_xref source="HGNC" accession="33724" />
+          <db_xref source="GeneID" accession="221091" />
           <db_xref source="Ensembl" accession="ENSG00000177363" />
           <transcript source="Ensembl" accession="ENST00000317449">
             <coordinates coord_system="LRG_235" start="24676" end="26300" strand="1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>LRRN4CL-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS8030.1" />
-            <db_xref source="RefSeq" accession="NM_203422.2" />
+            <db_xref source="RefSeq" accession="NM_203422.3" />
             <exon source="Ensembl" accession="ENSE00001412494">
               <coordinates coord_system="LRG_235" start="24676" end="25148" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -1513,10 +1519,10 @@
               <coordinates coord_system="LRG_235" start="26067" end="26300" strand="1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>LRRN4 C-terminal-like protein precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_981967.1" />
               <db_xref source="UniProtKB" accession="Q8ND94">
                 <synonym>A8K5L9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_981967.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -1527,7 +1533,7 @@
         <name>List of locus specific databases for BSCL2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/BSCL2</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

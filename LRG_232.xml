@@ -695,9 +695,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="107678154" other_end="107942775">
         <mapping_span lrg_start="1" lrg_end="264622" other_start="107678154" other_end="107942775" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="X" other_id="NC_000023.11" other_start="108434924" other_end="108699545">
+        <mapping_span lrg_start="1" lrg_end="264622" other_start="108434924" other_end="108699545" strand="1">
+          <diff type="mismatch" lrg_start="229869" lrg_end="229869" other_start="108664792" other_end="108664792" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">COL4A5</lrg_locus>
     </annotation_set>
@@ -712,7 +717,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011977.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000495.3" other_name="NM_000495.3" other_id="NM_000495.3" other_start="1" other_end="6427">
         <mapping_span lrg_start="5001" lrg_end="5283" other_start="1" other_end="283" strand="1" />
         <mapping_span lrg_start="104823" lrg_end="104882" other_start="284" other_end="343" strand="1" />
@@ -934,21 +939,22 @@
           <symbol source="HGNC" name="COL4A6">
             <synonym>CXDELq22.3</synonym>
             <synonym>DELXq22.3</synonym>
+            <synonym>DFNX6</synonym>
           </symbol>
-          <coordinates coord_system="LRG_232" start="1" end="4551" strand="-1" />
+          <coordinates coord_system="LRG_232" start="1" end="4574" strand="-1" />
           <partial>3-prime</partial>
           <long_name>collagen, type IV, alpha 6</long_name>
           <db_xref source="GeneID" accession="1288" />
           <db_xref source="HGNC" accession="2208" />
           <db_xref source="MIM" accession="303631" />
-          <transcript source="RefSeq" accession="NM_001847.2">
-            <coordinates coord_system="LRG_232" start="3019" end="4551" strand="-1" />
+          <transcript source="RefSeq" accession="NM_001847.3">
+            <coordinates coord_system="LRG_232" start="3019" end="4574" strand="-1" />
             <partial>3-prime</partial>
             <long_name>collagen, type IV, alpha 6, transcript variant A</long_name>
             <db_xref source="GeneID" accession="1288" />
-            <db_xref source="GI" accession="148536822" />
+            <db_xref source="GI" accession="568815712" />
             <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_232" start="4435" end="4551" strand="-1" />
+              <coordinates coord_system="LRG_232" start="4435" end="4574" strand="-1" />
             </exon>
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_232" start="3019" end="3070" strand="-1" />
@@ -967,14 +973,89 @@
               <db_xref source="GI" accession="148536823" />
             </protein_product>
           </transcript>
-          <transcript source="RefSeq" accession="NM_033641.2">
-            <coordinates coord_system="LRG_232" start="3019" end="3505" strand="-1" />
+          <transcript source="RefSeq" accession="NM_001287758.1">
+            <coordinates coord_system="LRG_232" start="3019" end="3507" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>collagen, type IV, alpha 6, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="1288" />
+            <db_xref source="GI" accession="567757599" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_232" start="3263" end="3507" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_232" start="3019" end="3070" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001274687.1" codon_start="1">
+              <coordinates coord_system="LRG_232" start="3019" end="3273" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>collagen alpha-6(IV) chain isoform 3 precursor</long_name>
+              <long_name>collagen of basement membrane, alpha-6</long_name>
+              <long_name>collagen IV, alpha-6 polypeptide</long_name>
+              <long_name>collagen alpha-6(IV) chain</long_name>
+              <long_name>dJ889N15.4 (Collagen Alpha 6(IV))</long_name>
+              <db_xref source="GeneID" accession="1288" />
+              <db_xref source="GI" accession="567757600" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001287759.1">
+            <coordinates coord_system="LRG_232" start="3019" end="3507" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>collagen, type IV, alpha 6, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="1288" />
+            <db_xref source="GI" accession="567757601" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_232" start="3263" end="3507" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_232" start="3019" end="3070" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001274688.1" codon_start="1">
+              <coordinates coord_system="LRG_232" start="3019" end="3273" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>collagen alpha-6(IV) chain isoform 4 precursor</long_name>
+              <long_name>collagen of basement membrane, alpha-6</long_name>
+              <long_name>collagen IV, alpha-6 polypeptide</long_name>
+              <long_name>collagen alpha-6(IV) chain</long_name>
+              <long_name>dJ889N15.4 (Collagen Alpha 6(IV))</long_name>
+              <db_xref source="GeneID" accession="1288" />
+              <db_xref source="GI" accession="567757602" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001287760.1">
+            <coordinates coord_system="LRG_232" start="3019" end="3507" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>collagen, type IV, alpha 6, transcript variant 5</long_name>
+            <db_xref source="GeneID" accession="1288" />
+            <db_xref source="GI" accession="567757603" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_232" start="3263" end="3507" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_232" start="3019" end="3070" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001274689.1" codon_start="1">
+              <coordinates coord_system="LRG_232" start="3019" end="3273" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>collagen alpha-6(IV) chain isoform 5 precursor</long_name>
+              <long_name>collagen of basement membrane, alpha-6</long_name>
+              <long_name>collagen IV, alpha-6 polypeptide</long_name>
+              <long_name>collagen alpha-6(IV) chain</long_name>
+              <long_name>dJ889N15.4 (Collagen Alpha 6(IV))</long_name>
+              <db_xref source="GeneID" accession="1288" />
+              <db_xref source="GI" accession="567757604" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_033641.3">
+            <coordinates coord_system="LRG_232" start="3019" end="3507" strand="-1" />
             <partial>3-prime</partial>
             <long_name>collagen, type IV, alpha 6, transcript variant B</long_name>
             <db_xref source="GeneID" accession="1288" />
-            <db_xref source="GI" accession="148536826" />
+            <db_xref source="GI" accession="567757598" />
             <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_232" start="3263" end="3505" strand="-1" />
+              <coordinates coord_system="LRG_232" start="3263" end="3507" strand="-1" />
             </exon>
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_232" start="3019" end="3070" strand="-1" />
@@ -1369,8 +1450,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000328300.6" other_name="ENST00000328300.6" other_id="ENST00000328300.6" other_start="1" other_end="6483">
         <mapping_span lrg_start="4959" lrg_end="5283" other_start="1" other_end="325" strand="1" />
         <mapping_span lrg_start="104823" lrg_end="104882" other_start="326" other_end="385" strand="1" />
@@ -1551,12 +1632,12 @@
           <coordinates coord_system="LRG_232" start="1" end="4574" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>collagen, type IV, alpha 6 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="303631" />
+          <db_xref source="HGNC" accession="2208" />
           <db_xref source="GeneID" accession="1288">
             <synonym>CXDELq22.3</synonym>
             <synonym>DELXq22.3</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="2208" />
-          <db_xref source="MIM" accession="303631" />
           <db_xref source="Ensembl" accession="ENSG00000197565" />
           <transcript source="Ensembl" accession="ENST00000334504">
             <coordinates coord_system="LRG_232" start="1" end="3507" strand="-1" mapped_from="GRCh37" />
@@ -1573,8 +1654,7 @@
             <protein_product source="Ensembl" accession="ENSP00000334733">
               <coordinates coord_system="LRG_232" start="1" end="3273" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>collagen alpha-6(IV) chain isoform B precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_378667.1" />
+              <long_name>collagen alpha-6(IV) chain isoform 3 precursor, collagen alpha-6(IV) chain isoform B precursor</long_name>
               <db_xref source="UniProtKB" accession="Q14031">
                 <synonym>Q12823</synonym>
                 <synonym>Q14053</synonym>
@@ -1586,6 +1666,8 @@
                 <synonym>Q9UMG6</synonym>
                 <synonym>Q9Y4L4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001274687.1" />
+              <db_xref source="RefSeq" accession="NP_378667.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372216">
@@ -1604,7 +1686,6 @@
               <coordinates coord_system="LRG_232" start="1" end="4448" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>collagen alpha-6(IV) chain isoform A precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001838.2" />
               <db_xref source="UniProtKB" accession="Q14031">
                 <synonym>Q12823</synonym>
                 <synonym>Q14053</synonym>
@@ -1616,6 +1697,7 @@
                 <synonym>Q9UMG6</synonym>
                 <synonym>Q9Y4L4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001838.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000468338">
@@ -1670,6 +1752,7 @@
             <coordinates coord_system="LRG_232" start="1" end="3403" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>COL4A6-204 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001287759.1" />
             <exon source="Ensembl" accession="ENSE00002307599">
               <coordinates coord_system="LRG_232" start="3263" end="3403" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -1679,12 +1762,15 @@
             <protein_product source="Ensembl" accession="ENSP00000443707">
               <coordinates coord_system="LRG_232" start="1" end="3273" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
+              <long_name>collagen alpha-6(IV) chain isoform 4 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001274688.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000538570">
             <coordinates coord_system="LRG_232" start="1" end="3403" strand="-1" mapped_from="GRCh37" />
             <partial>3-prime</partial>
             <long_name>COL4A6-203 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001287760.1" />
             <exon source="Ensembl" accession="ENSE00002307599">
               <coordinates coord_system="LRG_232" start="3263" end="3403" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -1694,6 +1780,8 @@
             <protein_product source="Ensembl" accession="ENSP00000445236">
               <coordinates coord_system="LRG_232" start="1" end="3273" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
+              <long_name>collagen alpha-6(IV) chain isoform 5 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001274689.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -1701,16 +1789,16 @@
           <symbol source="HGNC" name="COL4A5" />
           <coordinates coord_system="LRG_232" start="4921" end="262622" strand="1" mapped_from="GRCh37" />
           <long_name>collagen, type IV, alpha 5 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="303630" />
+          <db_xref source="HGNC" accession="2207">
+            <synonym>ASLN</synonym>
+            <synonym>ATS</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="1287">
             <synonym>ASLN</synonym>
             <synonym>ATS</synonym>
             <synonym>CA54</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="2207">
-            <synonym>ASLN</synonym>
-            <synonym>ATS</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="303630" />
           <db_xref source="Ensembl" accession="ENSG00000188153" />
           <transcript source="Ensembl" accession="ENST00000477429">
             <coordinates coord_system="LRG_232" start="4921" end="8168" strand="1" mapped_from="GRCh37" />
@@ -1889,7 +1977,6 @@
             <protein_product source="Ensembl" accession="ENSP00000331902">
               <coordinates coord_system="LRG_232" start="5203" end="261455" strand="1" mapped_from="GRCh37" />
               <long_name>collagen alpha-5(IV) chain isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_203699.1" />
               <db_xref source="UniProtKB" accession="P29400">
                 <synonym>Q16006</synonym>
                 <synonym>Q16126</synonym>
@@ -1897,6 +1984,7 @@
                 <synonym>Q7Z700</synonym>
                 <synonym>Q9NUB7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_203699.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000361603">
@@ -2060,7 +2148,6 @@
             <protein_product source="Ensembl" accession="ENSP00000354505">
               <coordinates coord_system="LRG_232" start="5203" end="261455" strand="1" mapped_from="GRCh37" />
               <long_name>collagen alpha-5(IV) chain isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000486.1" />
               <db_xref source="UniProtKB" accession="P29400">
                 <synonym>Q16006</synonym>
                 <synonym>Q16126</synonym>
@@ -2068,6 +2155,7 @@
                 <synonym>Q7Z700</synonym>
                 <synonym>Q9NUB7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000486.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000470339">
@@ -2273,7 +2361,7 @@
         <name>List of locus specific databases for COL4A5</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/COL4A5</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

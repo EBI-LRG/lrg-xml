@@ -98,9 +98,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_start="49452211" other_end="49465111">
         <mapping_span lrg_start="1" lrg_end="12901" other_start="49452211" other_end="49465111" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_start="49414778" other_end="49427678">
+        <mapping_span lrg_start="1" lrg_end="12901" other_start="49414778" other_end="49427678" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">AMT</lrg_locus>
     </annotation_set>
@@ -115,7 +118,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_015986.1</comment>
-      <modification_date>2014-01-16</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000481.3" other_name="NM_000481.3" other_id="NM_000481.3" other_start="1" other_end="2202">
         <mapping_span lrg_start="5001" lrg_end="5318" other_start="1" other_end="318" strand="1" />
         <mapping_span lrg_start="5408" lrg_end="5575" other_start="319" other_end="486" strand="1" />
@@ -432,8 +435,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-17</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000273588.3" other_name="ENST00000273588.3" other_id="ENST00000273588.3" other_start="1" other_end="2276">
         <mapping_span lrg_start="4926" lrg_end="5318" other_start="1" other_end="393" strand="1" />
         <mapping_span lrg_start="5408" lrg_end="5575" other_start="394" other_end="561" strand="1" />
@@ -617,11 +620,11 @@
           <coordinates coord_system="LRG_537" start="1" end="4733" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>nicolin 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="84276" />
+          <db_xref source="MIM" accession="611516" />
           <db_xref source="HGNC" accession="18317">
             <synonym>MGC12936</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="611516" />
+          <db_xref source="GeneID" accession="84276" />
           <db_xref source="Ensembl" accession="ENSG00000145029" />
           <transcript source="Ensembl" accession="ENST00000273598">
             <coordinates coord_system="LRG_537" start="1" end="4733" strand="1" mapped_from="GRCh37" />
@@ -648,10 +651,10 @@
               <coordinates coord_system="LRG_537" start="1" end="2846" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>nicolin-1</long_name>
-              <db_xref source="RefSeq" accession="NP_115692.1" />
               <db_xref source="UniProtKB" accession="Q9BSH3">
                 <synonym>Q8IZQ2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_115692.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000423832">
@@ -789,17 +792,17 @@
           <symbol source="HGNC" name="AMT" />
           <coordinates coord_system="LRG_537" start="4926" end="10901" strand="1" mapped_from="GRCh37" />
           <long_name>aminomethyltransferase (protein_coding)</long_name>
+          <db_xref source="MIM" accession="238310" />
+          <db_xref source="HGNC" accession="473">
+            <synonym>GCST</synonym>
+            <synonym>NKH</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="275">
             <synonym>GCE</synonym>
             <synonym>GCST</synonym>
             <synonym>GCVT</synonym>
             <synonym>NKH</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="473">
-            <synonym>GCST</synonym>
-            <synonym>NKH</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="238310" />
           <db_xref source="Ensembl" accession="ENSG00000145020" />
           <transcript source="Ensembl" accession="ENST00000273588">
             <coordinates coord_system="LRG_537" start="4926" end="10900" strand="1" mapped_from="GRCh37" />
@@ -836,7 +839,6 @@
             <protein_product source="Ensembl" accession="ENSP00000273588">
               <coordinates coord_system="LRG_537" start="5229" end="10139" strand="1" mapped_from="GRCh37" />
               <long_name>aminomethyltransferase, mitochondrial isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000472.2" />
               <db_xref source="UniProtKB" accession="P48728">
                 <synonym>A8K3I5</synonym>
                 <synonym>B4DE61</synonym>
@@ -844,6 +846,7 @@
                 <synonym>E9PBG1</synonym>
                 <synonym>Q96IG6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000472.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000462048">
@@ -900,7 +903,6 @@
             <protein_product source="Ensembl" accession="ENSP00000378747">
               <coordinates coord_system="LRG_537" start="5229" end="10335" strand="1" mapped_from="GRCh37" />
               <long_name>aminomethyltransferase, mitochondrial isoform 4 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001158184.1" />
               <db_xref source="UniProtKB" accession="P48728">
                 <synonym>A8K3I5</synonym>
                 <synonym>B4DE61</synonym>
@@ -908,6 +910,7 @@
                 <synonym>E9PBG1</synonym>
                 <synonym>Q96IG6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001158184.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000538581">
@@ -942,7 +945,6 @@
             <protein_product source="Ensembl" accession="ENSP00000443200">
               <coordinates coord_system="LRG_537" start="5229" end="10139" strand="1" mapped_from="GRCh37" />
               <long_name>aminomethyltransferase, mitochondrial isoform 3 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001158183.1" />
               <db_xref source="UniProtKB" accession="P48728">
                 <synonym>A8K3I5</synonym>
                 <synonym>B4DE61</synonym>
@@ -950,6 +952,7 @@
                 <synonym>E9PBG1</synonym>
                 <synonym>Q96IG6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001158183.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000476226">
@@ -1044,7 +1047,6 @@
             <protein_product source="Ensembl" accession="ENSP00000415619">
               <coordinates coord_system="LRG_537" start="5229" end="10139" strand="1" mapped_from="GRCh37" />
               <long_name>aminomethyltransferase, mitochondrial isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001158182.1" />
               <db_xref source="UniProtKB" accession="P48728">
                 <synonym>A8K3I5</synonym>
                 <synonym>B4DE61</synonym>
@@ -1052,6 +1054,7 @@
                 <synonym>E9PBG1</synonym>
                 <synonym>Q96IG6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001158182.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000487589">
@@ -1361,9 +1364,9 @@
           <coordinates coord_system="LRG_537" start="11204" end="12901" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>T-cell leukemia translocation altered (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6988" />
-          <db_xref source="HGNC" accession="11692" />
           <db_xref source="MIM" accession="600690" />
+          <db_xref source="HGNC" accession="11692" />
+          <db_xref source="GeneID" accession="6988" />
           <db_xref source="Ensembl" accession="ENSG00000145022" />
           <transcript source="Ensembl" accession="ENST00000273590">
             <coordinates coord_system="LRG_537" start="11204" end="12901" strand="-1" mapped_from="GRCh37" />
@@ -1378,12 +1381,12 @@
               <coordinates coord_system="LRG_537" start="12817" end="12901" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>T-cell leukemia translocation-altered gene protein</long_name>
-              <db_xref source="RefSeq" accession="NP_071503.1" />
               <db_xref source="UniProtKB" accession="P57738">
                 <synonym>B2R4I4</synonym>
                 <synonym>Q6I9U4</synonym>
                 <synonym>Q9BSB0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_071503.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000493381">
@@ -1410,7 +1413,7 @@
         <name>List of locus specific databases for AMT</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/AMT</url>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

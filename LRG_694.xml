@@ -366,10 +366,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_start="88440790" other_end="88540993">
         <mapping_span lrg_start="1" lrg_end="100204" other_start="88440790" other_end="88540993" strand="-1">
           <diff type="mismatch" lrg_start="35916" lrg_end="35916" other_start="88505078" other_end="88505078" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="12" other_id="NC_000012.12" other_start="88047013" other_end="88147216">
+        <mapping_span lrg_start="1" lrg_end="100204" other_start="88047013" other_end="88147216" strand="-1">
+          <diff type="mismatch" lrg_start="35916" lrg_end="35916" other_start="88111301" other_end="88111301" lrg_sequence="G" other_sequence="A" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">CEP290</lrg_locus>
@@ -385,7 +390,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008417.1</comment>
-      <modification_date>2014-01-16</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_025114.3" other_name="NM_025114.3" other_id="NM_025114.3" other_start="1" other_end="7955">
         <mapping_span lrg_start="5001" lrg_end="5317" other_start="1" other_end="317" strand="1" />
         <mapping_span lrg_start="5883" lrg_end="6011" other_start="318" other_end="446" strand="1" />
@@ -708,8 +713,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-17</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000309041.7" other_name="ENST00000309041.7" other_id="ENST00000309041.7" other_start="1" other_end="7544">
         <mapping_span lrg_start="5247" lrg_end="5317" other_start="1" other_end="71" strand="1" />
         <mapping_span lrg_start="5883" lrg_end="6011" other_start="72" other_end="200" strand="1" />
@@ -976,11 +981,11 @@
           <coordinates coord_system="LRG_694" start="1" end="4921" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>transmembrane and tetratricopeptide repeat containing 3 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="160418">
-            <synonym>SMILE</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="26899">
             <synonym>FLJ90492</synonym>
+            <synonym>SMILE</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="160418">
             <synonym>SMILE</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000139324" />
@@ -1023,18 +1028,7 @@
           <symbol source="HGNC" name="CEP290" />
           <coordinates coord_system="LRG_694" start="5001" end="98201" strand="1" mapped_from="GRCh37" />
           <long_name>centrosomal protein 290kDa (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="80184">
-            <synonym>3H11Ag</synonym>
-            <synonym>BBS14</synonym>
-            <synonym>CT87</synonym>
-            <synonym>JBTS5</synonym>
-            <synonym>LCA10</synonym>
-            <synonym>MKS4</synonym>
-            <synonym>NPHP6</synonym>
-            <synonym>POC3</synonym>
-            <synonym>rd16</synonym>
-            <synonym>SLSN6</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="610142" />
           <db_xref source="HGNC" accession="29021">
             <synonym>3H11Ag</synonym>
             <synonym>BBS14</synonym>
@@ -1049,7 +1043,18 @@
             <synonym>rd16</synonym>
             <synonym>SLSN6</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="610142" />
+          <db_xref source="GeneID" accession="80184">
+            <synonym>3H11Ag</synonym>
+            <synonym>BBS14</synonym>
+            <synonym>CT87</synonym>
+            <synonym>JBTS5</synonym>
+            <synonym>LCA10</synonym>
+            <synonym>MKS4</synonym>
+            <synonym>NPHP6</synonym>
+            <synonym>POC3</synonym>
+            <synonym>rd16</synonym>
+            <synonym>SLSN6</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000198707" />
           <transcript source="Ensembl" accession="ENST00000552810">
             <coordinates coord_system="LRG_694" start="5001" end="98197" strand="1" mapped_from="GRCh37" />
@@ -1221,7 +1226,6 @@
             <protein_product source="Ensembl" accession="ENSP00000448012">
               <coordinates coord_system="LRG_694" start="5910" end="98033" strand="1" mapped_from="GRCh37" />
               <long_name>centrosomal protein of 290 kDa</long_name>
-              <db_xref source="RefSeq" accession="NP_079390.3" />
               <db_xref source="UniProtKB" accession="O15078">
                 <synonym>Q1PSK5</synonym>
                 <synonym>Q66GS8</synonym>
@@ -1229,6 +1233,7 @@
                 <synonym>Q9H6Q7</synonym>
                 <synonym>Q9H8I0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_079390.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000550962">
@@ -1852,10 +1857,10 @@
           <symbol source="HGNC" name="RNA5SP364" />
           <coordinates coord_system="LRG_694" start="95439" end="95516" strand="-1" mapped_from="GRCh37" />
           <long_name>RNA, 5S ribosomal pseudogene 364 (rRNA)</long_name>
+          <db_xref source="RFAM" accession="RF00001" />
           <db_xref source="HGNC" accession="43264">
             <synonym>RN5S364</synonym>
           </db_xref>
-          <db_xref source="RFAM" accession="RF00001" />
           <db_xref source="Ensembl" accession="ENSG00000252747" />
           <transcript source="Ensembl" accession="ENST00000516938">
             <coordinates coord_system="LRG_694" start="95439" end="95516" strand="-1" mapped_from="GRCh37" />
@@ -1870,10 +1875,10 @@
           <coordinates coord_system="LRG_694" start="97057" end="100204" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>chromosome 12 open reading frame 29 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="91298" />
           <db_xref source="HGNC" accession="25322">
             <synonym>DKFZp434N2030</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="91298" />
           <db_xref source="Ensembl" accession="ENSG00000133641" />
           <transcript source="Ensembl" accession="ENST00000356891">
             <coordinates coord_system="LRG_694" start="97057" end="100204" strand="-1" mapped_from="GRCh37" />
@@ -1888,7 +1893,6 @@
               <coordinates coord_system="LRG_694" start="98795" end="100204" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>uncharacterized protein C12orf29</long_name>
-              <db_xref source="RefSeq" accession="NP_001009894.2" />
               <db_xref source="UniProtKB" accession="Q8N999">
                 <synonym>Q569K5</synonym>
                 <synonym>Q6AWA8</synonym>
@@ -1896,6 +1900,7 @@
                 <synonym>Q8IYQ5</synonym>
                 <synonym>Q9NT75</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001009894.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000550333">
@@ -1938,7 +1943,7 @@
         <name>List of locus specific databases for CEP290</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CEP290</url>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

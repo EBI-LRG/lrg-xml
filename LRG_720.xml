@@ -119,9 +119,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="31804340" other_end="31844509">
         <mapping_span lrg_start="1" lrg_end="40170" other_start="31804340" other_end="31844509" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="11" other_id="NC_000011.10" other_start="31782792" other_end="31822962">
+        <mapping_span lrg_start="1" lrg_end="40170" other_start="31782792" other_end="31822962" strand="-1">
+          <diff type="other_ins" lrg_start="3837" lrg_end="3838" other_start="31819125" other_end="31819125" lrg_sequence="-" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">PAX6</lrg_locus>
     </annotation_set>
@@ -136,7 +141,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008679.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000280.3" other_name="NM_000280.3" other_id="NM_000280.3" other_start="1" other_end="6944">
         <mapping_span lrg_start="11631" lrg_end="11847" other_start="1" other_end="217" strand="1" />
         <mapping_span lrg_start="11947" lrg_end="12134" other_start="218" other_end="405" strand="1" />
@@ -654,35 +659,78 @@
           <symbol source="HGNC" name="ELP4">
             <synonym>C11orf19</synonym>
             <synonym>dJ68P15A.1</synonym>
+            <synonym>hELP4</synonym>
             <synonym>PAX6NEB</synonym>
             <synonym>PAXNEB</synonym>
           </symbol>
-          <coordinates coord_system="LRG_720" start="39181" end="40170" strand="-1" />
+          <coordinates coord_system="LRG_720" start="38437" end="40170" strand="-1" />
           <partial>5-prime</partial>
           <long_name>elongator acetyltransferase complex subunit 4</long_name>
           <db_xref source="GeneID" accession="26610" />
           <db_xref source="HGNC" accession="1171" />
           <db_xref source="MIM" accession="606985" />
-          <transcript source="RefSeq" accession="NM_019040.3">
-            <coordinates coord_system="LRG_720" start="39181" end="39569" strand="-1" />
+          <transcript source="RefSeq" accession="NM_019040.4">
+            <coordinates coord_system="LRG_720" start="38437" end="39569" strand="-1" />
             <partial>5-prime</partial>
-            <long_name>elongator acetyltransferase complex subunit 4</long_name>
+            <long_name>elongator acetyltransferase complex subunit 4, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="26610" />
-            <db_xref source="GI" accession="91208434" />
+            <db_xref source="GI" accession="570359560" />
             <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_720" start="39181" end="39569" strand="-1" />
+              <coordinates coord_system="LRG_720" start="38437" end="39569" strand="-1" />
               <partial>5-prime</partial>
             </exon>
             <protein_product source="RefSeq" accession="NP_061913.3" codon_start="1">
               <coordinates coord_system="LRG_720" start="39438" end="39569" strand="-1" />
               <partial>5-prime</partial>
+              <long_name>elongator complex protein 4 isoform 1</long_name>
               <long_name>elongator complex protein 4</long_name>
-              <long_name>hELP4</long_name>
               <long_name>PAX6 neighbor gene protein</long_name>
               <long_name>elongation protein 4 homolog</long_name>
               <db_xref source="CCDS" accession="CCDS7875.2" />
               <db_xref source="GeneID" accession="26610" />
               <db_xref source="GI" accession="91208435" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001288725.1">
+            <coordinates coord_system="LRG_720" start="38437" end="39569" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>elongator acetyltransferase complex subunit 4, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="26610" />
+            <db_xref source="GI" accession="570359561" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_720" start="38437" end="39569" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001275654.1" codon_start="3">
+              <coordinates coord_system="LRG_720" start="39424" end="39569" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>elongator complex protein 4 isoform 2</long_name>
+              <long_name>elongator complex protein 4</long_name>
+              <long_name>PAX6 neighbor gene protein</long_name>
+              <long_name>elongation protein 4 homolog</long_name>
+              <db_xref source="GeneID" accession="26610" />
+              <db_xref source="GI" accession="570359562" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001288726.1">
+            <coordinates coord_system="LRG_720" start="38437" end="39569" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>elongator acetyltransferase complex subunit 4, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="26610" />
+            <db_xref source="GI" accession="570359563" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_720" start="38437" end="39569" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001275655.1" codon_start="2">
+              <coordinates coord_system="LRG_720" start="39533" end="39569" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>elongator complex protein 4 isoform 3</long_name>
+              <long_name>elongator complex protein 4</long_name>
+              <long_name>PAX6 neighbor gene protein</long_name>
+              <long_name>elongation protein 4 homolog</long_name>
+              <db_xref source="GeneID" accession="26610" />
+              <db_xref source="GI" accession="570359564" />
             </protein_product>
           </transcript>
         </gene>
@@ -698,8 +746,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000241001.8" other_name="ENST00000241001.8" other_id="ENST00000241001.8" other_start="1" other_end="1631">
         <mapping_span lrg_start="11725" lrg_end="11749" other_start="1" other_end="25" strand="1" />
         <mapping_span lrg_start="11947" lrg_end="12134" other_start="26" other_end="213" strand="1" />
@@ -993,19 +1041,20 @@
           <coordinates coord_system="LRG_720" start="1" end="10571" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>reticulocalbin 1, EF-hand calcium binding domain (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="5954">
-            <synonym>PIG20</synonym>
-            <synonym>RCAL</synonym>
-            <synonym>RCN</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="440034" />
+          <db_xref source="MIM" accession="602735" />
           <db_xref source="HGNC" accession="9934">
             <synonym>FLJ37041</synonym>
             <synonym>PIG20</synonym>
             <synonym>Rcal</synonym>
             <synonym>RCN</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="602735" />
+          <db_xref source="GeneID" accession="440034" />
+          <db_xref source="GeneID" accession="5954">
+            <synonym>HEL-S-84</synonym>
+            <synonym>PIG20</synonym>
+            <synonym>RCAL</synonym>
+            <synonym>RCN</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000049449" />
           <transcript source="Ensembl" accession="ENST00000530348">
             <coordinates coord_system="LRG_720" start="1" end="10571" strand="-1" mapped_from="GRCh37" />
@@ -1041,6 +1090,13 @@
           <symbol source="HGNC" name="PAX6" />
           <coordinates coord_system="LRG_720" start="5001" end="38170" strand="1" mapped_from="GRCh37" />
           <long_name>paired box 6 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="607108" />
+          <db_xref source="HGNC" accession="8620">
+            <synonym>AN</synonym>
+            <synonym>AN2</synonym>
+            <synonym>D11S812E</synonym>
+            <synonym>WAGR</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5080">
             <synonym>AN</synonym>
             <synonym>AN2</synonym>
@@ -1048,13 +1104,6 @@
             <synonym>MGDA</synonym>
             <synonym>WAGR</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="8620">
-            <synonym>AN</synonym>
-            <synonym>AN2</synonym>
-            <synonym>D11S812E</synonym>
-            <synonym>WAGR</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="607108" />
           <db_xref source="Ensembl" accession="ENSG00000007372" />
           <transcript source="Ensembl" accession="ENST00000379132">
             <coordinates coord_system="LRG_720" start="5001" end="34052" strand="1" mapped_from="GRCh37" />
@@ -1206,14 +1255,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000404100">
               <coordinates coord_system="LRG_720" start="16551" end="33028" strand="1" mapped_from="GRCh37" />
-              <long_name>paired box protein Pax-6 isoform b, paired box protein Pax-6 isoform b, paired box protein Pax-6 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_001245391.1" />
-              <db_xref source="RefSeq" accession="NP_001245392.1" />
-              <db_xref source="RefSeq" accession="NP_001121084.1" />
+              <long_name>paired box protein Pax-6 isoform a, paired box protein Pax-6 isoform b, paired box protein Pax-6 isoform b</long_name>
               <db_xref source="UniProtKB" accession="P26367">
                 <synonym>Q6N006</synonym>
                 <synonym>Q99413</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001121084.1" />
+              <db_xref source="RefSeq" accession="NP_001245391.1" />
+              <db_xref source="RefSeq" accession="NP_001245392.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000532175">
@@ -1374,12 +1423,12 @@
             <protein_product source="Ensembl" accession="ENSP00000368418">
               <coordinates coord_system="LRG_720" start="16551" end="33028" strand="1" mapped_from="GRCh37" />
               <long_name>paired box protein Pax-6 isoform a, paired box protein Pax-6 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_001245393.1" />
-              <db_xref source="RefSeq" accession="NP_000271.1" />
               <db_xref source="UniProtKB" accession="P26367">
                 <synonym>Q6N006</synonym>
                 <synonym>Q99413</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000271.1" />
+              <db_xref source="RefSeq" accession="NP_001245393.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000379115">
@@ -1432,11 +1481,11 @@
             <protein_product source="Ensembl" accession="ENSP00000368410">
               <coordinates coord_system="LRG_720" start="16551" end="33028" strand="1" mapped_from="GRCh37" />
               <long_name>paired box protein Pax-6 isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_001595.2" />
               <db_xref source="UniProtKB" accession="P26367">
                 <synonym>Q6N006</synonym>
                 <synonym>Q99413</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001595.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000533333">
@@ -1606,11 +1655,11 @@
             <protein_product source="Ensembl" accession="ENSP00000368406">
               <coordinates coord_system="LRG_720" start="16551" end="33028" strand="1" mapped_from="GRCh37" />
               <long_name>paired box protein Pax-6 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_001245394.1" />
               <db_xref source="UniProtKB" accession="P26367">
                 <synonym>Q6N006</synonym>
                 <synonym>Q99413</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001245394.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000379109">
@@ -1980,17 +2029,18 @@
           <coordinates coord_system="LRG_720" start="38964" end="40170" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>elongator acetyltransferase complex subunit 4 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="26610">
-            <synonym>C11orf19</synonym>
-            <synonym>dJ68P15A.1</synonym>
-            <synonym>PAX6NEB</synonym>
-            <synonym>PAXNEB</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606985" />
           <db_xref source="HGNC" accession="1171">
             <synonym>C11orf19</synonym>
             <synonym>PAXNEB</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="606985" />
+          <db_xref source="GeneID" accession="26610">
+            <synonym>C11orf19</synonym>
+            <synonym>dJ68P15A.1</synonym>
+            <synonym>hELP4</synonym>
+            <synonym>PAX6NEB</synonym>
+            <synonym>PAXNEB</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000109911" />
           <transcript source="Ensembl" accession="ENST00000350638">
             <coordinates coord_system="LRG_720" start="38964" end="40170" strand="-1" mapped_from="GRCh37" />
@@ -2004,36 +2054,42 @@
             <protein_product source="Ensembl" accession="ENSP00000298937">
               <coordinates coord_system="LRG_720" start="39438" end="40170" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>elongator complex protein 4</long_name>
-              <db_xref source="RefSeq" accession="NP_061913.3" />
+              <long_name>elongator complex protein 4 isoform 1</long_name>
               <db_xref source="UniProtKB" accession="Q96EB1">
                 <synonym>Q9H4E8</synonym>
                 <synonym>Q9NX11</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_061913.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000395934">
             <coordinates coord_system="LRG_720" start="39187" end="40170" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>ELP4-003 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001288726.1" />
             <exon source="Ensembl" accession="ENSE00002177118">
               <coordinates coord_system="LRG_720" start="39187" end="39569" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000379267">
               <coordinates coord_system="LRG_720" start="39533" end="40170" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
+              <long_name>elongator complex protein 4 isoform 3</long_name>
+              <db_xref source="RefSeq" accession="NP_001275655.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000379163">
             <coordinates coord_system="LRG_720" start="39191" end="40170" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>ELP4-004 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001288725.1" />
             <exon source="Ensembl" accession="ENSE00002176051">
               <coordinates coord_system="LRG_720" start="39191" end="39569" strand="-1" mapped_from="GRCh37" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000368461">
               <coordinates coord_system="LRG_720" start="39424" end="40170" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
+              <long_name>elongator complex protein 4 isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001275654.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -2044,7 +2100,7 @@
         <name>List of locus specific databases for PAX6</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PAX6</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

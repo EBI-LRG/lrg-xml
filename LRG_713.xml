@@ -138,9 +138,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="86439116" other_end="86570206">
         <mapping_span lrg_start="1" lrg_end="131091" other_start="86439116" other_end="86570206" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="86211993" other_end="86343083">
+        <mapping_span lrg_start="1" lrg_end="131091" other_start="86211993" other_end="86343083" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">REEP1</lrg_locus>
     </annotation_set>
@@ -155,7 +158,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_013037.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001164730.1" other_name="NM_001164730.1" other_id="NM_001164730.1" other_start="1" other_end="3741">
         <mapping_span lrg_start="5001" lrg_end="5060" other_start="1" other_end="60" strand="1" />
         <mapping_span lrg_start="60842" lrg_end="60914" other_start="61" other_end="133" strand="1" />
@@ -382,8 +385,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000165698.5" other_name="ENST00000165698.5" other_id="ENST00000165698.5" other_start="1" other_end="3857">
         <mapping_span lrg_start="5430" lrg_end="5605" other_start="1" other_end="176" strand="1" />
         <mapping_span lrg_start="60842" lrg_end="60914" other_start="177" other_end="249" strand="1" />
@@ -477,17 +480,17 @@
           <symbol source="HGNC" name="REEP1" />
           <coordinates coord_system="LRG_713" start="5001" end="129091" strand="1" mapped_from="GRCh37" />
           <long_name>receptor accessory protein 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="65055">
-            <synonym>C2orf23</synonym>
-            <synonym>HMN5B</synonym>
-            <synonym>SPG31</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="609139" />
           <db_xref source="HGNC" accession="25786">
             <synonym>C2orf23</synonym>
             <synonym>FLJ13110</synonym>
             <synonym>SPG31</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="609139" />
+          <db_xref source="GeneID" accession="65055">
+            <synonym>C2orf23</synonym>
+            <synonym>HMN5B</synonym>
+            <synonym>SPG31</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000068615" />
           <transcript source="Ensembl" accession="ENST00000453231">
             <coordinates coord_system="LRG_713" start="5001" end="110414" strand="1" mapped_from="GRCh37" />
@@ -543,7 +546,6 @@
             <protein_product source="Ensembl" accession="ENSP00000438346">
               <coordinates coord_system="LRG_713" start="5008" end="125984" strand="1" mapped_from="GRCh37" />
               <long_name>receptor expression-enhancing protein 1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001158202.1" />
               <db_xref source="UniProtKB" accession="Q9H902">
                 <synonym>B7Z4D7</synonym>
                 <synonym>B7Z4F2</synonym>
@@ -551,6 +553,7 @@
                 <synonym>D6W5M2</synonym>
                 <synonym>Q53TI0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001158202.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000165698">
@@ -582,7 +585,6 @@
             <protein_product source="Ensembl" accession="ENSP00000165698">
               <coordinates coord_system="LRG_713" start="5574" end="125984" strand="1" mapped_from="GRCh37" />
               <long_name>receptor expression-enhancing protein 1 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_075063.1" />
               <db_xref source="UniProtKB" accession="Q9H902">
                 <synonym>B7Z4D7</synonym>
                 <synonym>B7Z4F2</synonym>
@@ -590,6 +592,7 @@
                 <synonym>D6W5M2</synonym>
                 <synonym>Q53TI0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_075063.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000541910">
@@ -615,7 +618,6 @@
             <protein_product source="Ensembl" accession="ENSP00000442681">
               <coordinates coord_system="LRG_713" start="5574" end="126045" strand="1" mapped_from="GRCh37" />
               <long_name>receptor expression-enhancing protein 1 isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_001158204.1" />
               <db_xref source="UniProtKB" accession="Q9H902">
                 <synonym>B7Z4D7</synonym>
                 <synonym>B7Z4F2</synonym>
@@ -623,6 +625,7 @@
                 <synonym>D6W5M2</synonym>
                 <synonym>Q53TI0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001158204.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000535845">
@@ -651,7 +654,6 @@
             <protein_product source="Ensembl" accession="ENSP00000437567">
               <coordinates coord_system="LRG_713" start="5582" end="125984" strand="1" mapped_from="GRCh37" />
               <long_name>receptor expression-enhancing protein 1 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001158203.1" />
               <db_xref source="UniProtKB" accession="Q9H902">
                 <synonym>B7Z4D7</synonym>
                 <synonym>B7Z4F2</synonym>
@@ -659,6 +661,7 @@
                 <synonym>D6W5M2</synonym>
                 <synonym>Q53TI0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001158203.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000428491">
@@ -806,12 +809,12 @@
           <coordinates coord_system="LRG_713" start="129290" end="131091" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>mitochondrial ribosomal protein L35 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="611841" />
+          <db_xref source="HGNC" accession="14489" />
           <db_xref source="GeneID" accession="51318">
             <synonym>L35mt</synonym>
             <synonym>MRP-L35</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="14489" />
-          <db_xref source="MIM" accession="611841" />
           <db_xref source="Ensembl" accession="ENSG00000132313" />
           <transcript source="Ensembl" accession="ENST00000337109">
             <coordinates coord_system="LRG_713" start="129290" end="131091" strand="-1" mapped_from="GRCh37" />
@@ -849,13 +852,13 @@
               <coordinates coord_system="LRG_713" start="130658" end="131091" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>39S ribosomal protein L35, mitochondrial isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_663619.1" />
               <db_xref source="UniProtKB" accession="Q9NZE8">
                 <synonym>A6NKV6</synonym>
                 <synonym>B2RB93</synonym>
                 <synonym>Q658U7</synonym>
                 <synonym>Q8WWA2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_663619.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -866,7 +869,7 @@
         <name>List of locus specific databases for REEP1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/REEP1</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

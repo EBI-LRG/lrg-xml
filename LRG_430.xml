@@ -138,9 +138,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_start="151251200" other_end="151579316">
         <mapping_span lrg_start="1" lrg_end="328117" other_start="151251200" other_end="151579316" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="7" other_id="NC_000007.14" other_start="151554114" other_end="151882231">
+        <mapping_span lrg_start="1" lrg_end="328117" other_start="151554114" other_end="151882231" strand="-1">
+          <diff type="other_ins" lrg_start="33044" lrg_end="33045" other_start="151849187" other_end="151849187" lrg_sequence="-" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">PRKAG2</lrg_locus>
     </annotation_set>
@@ -155,7 +160,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007486.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001040633.1" other_name="NM_001040633.1" other_id="NM_001040633.1" other_start="1" other_end="3139">
         <mapping_span lrg_start="67360" lrg_end="67815" other_start="1" other_end="456" strand="1" />
         <mapping_span lrg_start="95690" lrg_end="95761" other_start="457" other_end="528" strand="1" />
@@ -282,6 +287,7 @@
               <long_name>5'-AMP-activated protein kinase subunit gamma-2 isoform a</long_name>
               <long_name>5'-AMP-activated protein kinase subunit gamma-2</long_name>
               <long_name>AMPK subunit gamma-2</long_name>
+              <long_name>hypothetical protein</long_name>
               <db_xref source="CCDS" accession="CCDS5928.1" />
               <db_xref source="GeneID" accession="51422" />
               <db_xref source="GI" accession="33186925" />
@@ -410,8 +416,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000287878.4" other_name="ENST00000287878.4" other_id="ENST00000287878.4" other_start="1" other_end="3305">
         <mapping_span lrg_start="5107" lrg_end="5725" other_start="1" other_end="619" strand="1" />
         <mapping_span lrg_start="95690" lrg_end="95761" other_start="620" other_end="691" strand="1" />
@@ -612,13 +618,7 @@
           <symbol source="HGNC" name="PRKAG2" />
           <coordinates coord_system="LRG_430" start="5107" end="326120" strand="1" mapped_from="GRCh37" />
           <long_name>protein kinase, AMP-activated, gamma 2 non-catalytic subunit (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="51422">
-            <synonym>AAKG</synonym>
-            <synonym>AAKG2</synonym>
-            <synonym>CMH6</synonym>
-            <synonym>H91620p</synonym>
-            <synonym>WPWS</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="602743" />
           <db_xref source="HGNC" accession="9386">
             <synonym>AAKG</synonym>
             <synonym>AAKG2</synonym>
@@ -626,7 +626,13 @@
             <synonym>H91620p</synonym>
             <synonym>WPWS</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="602743" />
+          <db_xref source="GeneID" accession="51422">
+            <synonym>AAKG</synonym>
+            <synonym>AAKG2</synonym>
+            <synonym>CMH6</synonym>
+            <synonym>H91620p</synonym>
+            <synonym>WPWS</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000106617" />
           <transcript source="Ensembl" accession="ENST00000287878">
             <coordinates coord_system="LRG_430" start="5107" end="326120" strand="1" mapped_from="GRCh37" />
@@ -684,7 +690,6 @@
             <protein_product source="Ensembl" accession="ENSP00000287878">
               <coordinates coord_system="LRG_430" start="5612" end="325030" strand="1" mapped_from="GRCh37" />
               <long_name>5'-AMP-activated protein kinase subunit gamma-2 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_057287.2" />
               <db_xref source="UniProtKB" accession="Q9UGJ0">
                 <synonym>Q53Y07</synonym>
                 <synonym>Q6NUI0</synonym>
@@ -693,6 +698,7 @@
                 <synonym>Q9UDN8</synonym>
                 <synonym>Q9ULX8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_057287.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000481434">
@@ -814,7 +820,6 @@
             <protein_product source="Ensembl" accession="ENSP00000376549">
               <coordinates coord_system="LRG_430" start="95708" end="325030" strand="1" mapped_from="GRCh37" />
               <long_name>5'-AMP-activated protein kinase subunit gamma-2 isoform c</long_name>
-              <db_xref source="RefSeq" accession="NP_001035723.1" />
               <db_xref source="UniProtKB" accession="Q9UGJ0">
                 <synonym>Q53Y07</synonym>
                 <synonym>Q6NUI0</synonym>
@@ -823,6 +828,7 @@
                 <synonym>Q9UDN8</synonym>
                 <synonym>Q9ULX8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001035723.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000461529">
@@ -1027,7 +1033,6 @@
             <protein_product source="Ensembl" accession="ENSP00000387386">
               <coordinates coord_system="LRG_430" start="250132" end="325030" strand="1" mapped_from="GRCh37" />
               <long_name>5'-AMP-activated protein kinase subunit gamma-2 isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_077747.1" />
               <db_xref source="UniProtKB" accession="Q9UGJ0">
                 <synonym>Q53Y07</synonym>
                 <synonym>Q6NUI0</synonym>
@@ -1036,6 +1041,7 @@
                 <synonym>Q9UDN8</synonym>
                 <synonym>Q9ULX8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_077747.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000483775">
@@ -1157,7 +1163,6 @@
           <symbol source="Clone_based_vega_gene" name="RP13-452N2.1" />
           <coordinates coord_system="LRG_430" start="71411" end="75573" strand="-1" mapped_from="GRCh37" />
           <long_name>RP13-452N2.1 (processed_transcript)</long_name>
-          <db_xref source="GeneID" accession="644090" />
           <db_xref source="Ensembl" accession="ENSG00000242048" />
           <transcript source="Ensembl" accession="ENST00000462083">
             <coordinates coord_system="LRG_430" start="71411" end="75497" strand="-1" mapped_from="GRCh37" />
@@ -1190,7 +1195,7 @@
         <name>List of locus specific databases for PRKAG2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PRKAG2</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

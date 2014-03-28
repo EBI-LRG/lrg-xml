@@ -94,9 +94,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_start="112674301" other_end="112775425">
         <mapping_span lrg_start="1" lrg_end="101125" other_start="112674301" other_end="112775425" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="10" other_id="NC_000010.11" other_start="110914543" other_end="111015667">
+        <mapping_span lrg_start="1" lrg_end="101125" other_start="110914543" other_end="111015667" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">SHOC2</lrg_locus>
     </annotation_set>
@@ -111,7 +114,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_028922.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001269039.1" other_name="NM_001269039.1" other_id="NM_001269039.1" other_start="1" other_end="3694">
         <mapping_span lrg_start="49583" lrg_end="50519" other_start="1" other_end="937" strand="1" />
         <mapping_span lrg_start="85873" lrg_end="86003" other_start="938" other_end="1068" strand="1" />
@@ -137,6 +140,7 @@
           <symbol source="HGNC" name="BBIP1">
             <synonym>bA348N5.3</synonym>
             <synonym>BBIP10</synonym>
+            <synonym>BBS18</synonym>
             <synonym>NCRNA00081</synonym>
           </symbol>
           <coordinates coord_system="LRG_753" start="1" end="4824" strand="-1" />
@@ -393,8 +397,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000265277.5" other_name="ENST00000265277.5" other_id="ENST00000265277.5" other_start="1" other_end="3806">
         <mapping_span lrg_start="5001" lrg_end="5115" other_start="1" other_end="115" strand="1" />
         <mapping_span lrg_start="49583" lrg_end="50519" other_start="116" other_end="1052" strand="1" />
@@ -453,17 +457,17 @@
           <coordinates coord_system="LRG_753" start="1" end="4732" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>BBSome interacting protein 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="92482">
-            <synonym>bA348N5.3</synonym>
-            <synonym>BBIP10</synonym>
-            <synonym>NCRNA00081</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="613605" />
           <db_xref source="HGNC" accession="28093">
             <synonym>bA348N5.3</synonym>
             <synonym>BBIP10</synonym>
             <synonym>NCRNA00081</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="613605" />
+          <db_xref source="GeneID" accession="92482">
+            <synonym>bA348N5.3</synonym>
+            <synonym>BBIP10</synonym>
+            <synonym>NCRNA00081</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000214413" />
           <transcript source="Ensembl" accession="ENST00000448814">
             <coordinates coord_system="LRG_753" start="1" end="4732" strand="-1" mapped_from="GRCh37" />
@@ -481,15 +485,15 @@
             <protein_product source="Ensembl" accession="ENSP00000436622">
               <coordinates coord_system="LRG_753" start="1" end="3615" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>BBSome-interacting protein 1 isoform 2, BBSome-interacting protein 1 isoform 2, BBSome-interacting protein 1 isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_001182234.1" />
-              <db_xref source="RefSeq" accession="NP_001182235.1" />
-              <db_xref source="RefSeq" accession="NP_001230712.1" />
+              <long_name>BBSome-interacting protein 1 isoform 4, BBSome-interacting protein 1 isoform 2, BBSome-interacting protein 1 isoform 2</long_name>
               <db_xref source="UniProtKB" accession="A8MTZ0">
                 <synonym>E9PIY9</synonym>
                 <synonym>E9PM41</synonym>
                 <synonym>E9PRI7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001230712.1" />
+              <db_xref source="RefSeq" accession="NP_001182235.1" />
+              <db_xref source="RefSeq" accession="NP_001182234.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000447005">
@@ -517,12 +521,12 @@
               <coordinates coord_system="LRG_753" start="1" end="3615" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>BBSome-interacting protein 1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001182233.1" />
               <db_xref source="UniProtKB" accession="A8MTZ0">
                 <synonym>E9PIY9</synonym>
                 <synonym>E9PM41</synonym>
                 <synonym>E9PRI7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001182233.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000423273">
@@ -541,12 +545,12 @@
               <coordinates coord_system="LRG_753" start="1" end="3615" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>BBSome-interacting protein 1 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001182236.1" />
               <db_xref source="UniProtKB" accession="A8MTZ0">
                 <synonym>E9PIY9</synonym>
                 <synonym>E9PM41</synonym>
                 <synonym>E9PRI7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001182236.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000605742">
@@ -564,6 +568,11 @@
               <coordinates coord_system="LRG_753" start="1" end="3615" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>BBSome-interacting protein 1 isoform 4</long_name>
+              <db_xref source="UniProtKB" accession="A8MTZ0">
+                <synonym>E9PIY9</synonym>
+                <synonym>E9PM41</synonym>
+                <synonym>E9PRI7</synonym>
+              </db_xref>
               <db_xref source="RefSeq" accession="NP_001230712.1" />
             </protein_product>
           </transcript>
@@ -617,11 +626,7 @@
           <symbol source="HGNC" name="SHOC2" />
           <coordinates coord_system="LRG_753" start="5001" end="99125" strand="1" mapped_from="GRCh37" />
           <long_name>soc-2 suppressor of clear homolog (C. elegans) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="8036">
-            <synonym>SIAA0862</synonym>
-            <synonym>SOC2</synonym>
-            <synonym>SUR8</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="602775" />
           <db_xref source="HGNC" accession="15454">
             <synonym>KIAA0862</synonym>
             <synonym>SOC-2</synonym>
@@ -629,7 +634,11 @@
             <synonym>SUR-8</synonym>
             <synonym>SUR8</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="602775" />
+          <db_xref source="GeneID" accession="8036">
+            <synonym>SIAA0862</synonym>
+            <synonym>SOC2</synonym>
+            <synonym>SUR8</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000108061" />
           <transcript source="Ensembl" accession="ENST00000265277">
             <coordinates coord_system="LRG_753" start="5001" end="99122" strand="1" mapped_from="GRCh37" />
@@ -705,7 +714,6 @@
             <protein_product source="Ensembl" accession="ENSP00000358464">
               <coordinates coord_system="LRG_753" start="49817" end="97276" strand="1" mapped_from="GRCh37" />
               <long_name>leucine-rich repeat protein SHOC-2 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_031399.2" />
               <db_xref source="UniProtKB" accession="Q9UQ13">
                 <synonym>A8K9W8</synonym>
                 <synonym>B3KR23</synonym>
@@ -713,6 +721,7 @@
                 <synonym>Q5VZS8</synonym>
                 <synonym>Q5VZS9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_031399.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000480155">
@@ -792,13 +801,6 @@
               <coordinates coord_system="LRG_753" start="50309" end="97276" strand="1" mapped_from="GRCh37" />
               <long_name>leucine-rich repeat protein SHOC-2 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001255968.1" />
-              <db_xref source="UniProtKB" accession="Q9UQ13">
-                <synonym>A8K9W8</synonym>
-                <synonym>B3KR23</synonym>
-                <synonym>O76063</synonym>
-                <synonym>Q5VZS8</synonym>
-                <synonym>Q5VZS9</synonym>
-              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000497305">
@@ -816,12 +818,12 @@
           <symbol source="HGNC" name="RPL13AP6" />
           <coordinates coord_system="LRG_753" start="22080" end="22691" strand="-1" mapped_from="GRCh37" />
           <long_name>ribosomal protein L13a pseudogene 6 (pseudogene)</long_name>
+          <db_xref source="HGNC" accession="23737">
+            <synonym>bA348N5.5</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="644511">
             <synonym>bA348N5.5</synonym>
             <synonym>RPL13A_7_1096</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="23737">
-            <synonym>bA348N5.5</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000234118" />
           <transcript source="Ensembl" accession="ENST00000430133">
@@ -837,15 +839,15 @@
           <symbol source="HGNC" name="MIR548E" />
           <coordinates coord_system="LRG_753" start="74384" end="74471" strand="1" mapped_from="GRCh37" />
           <long_name>microRNA 548e (miRNA)</long_name>
-          <db_xref source="GeneID" accession="100313921">
-            <synonym>hsa-mir-548e</synonym>
-            <synonym>MIRN548E</synonym>
-          </db_xref>
+          <db_xref source="miRBase" accession="MI0006344" />
           <db_xref source="HGNC" accession="35275">
             <synonym>hsa-mir-548e</synonym>
             <synonym>MIRN548E</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0006344" />
+          <db_xref source="GeneID" accession="100313921">
+            <synonym>hsa-mir-548e</synonym>
+            <synonym>MIRN548E</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000221214" />
           <transcript source="Ensembl" accession="ENST00000408287">
             <coordinates coord_system="LRG_753" start="74384" end="74471" strand="1" mapped_from="GRCh37" />
@@ -863,7 +865,7 @@
         <name>List of locus specific databases for SHOC2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SHOC2</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

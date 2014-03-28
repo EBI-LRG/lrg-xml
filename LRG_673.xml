@@ -168,9 +168,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="78070355" other_end="78095679">
         <mapping_span lrg_start="1" lrg_end="25325" other_start="78070355" other_end="78095679" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="17" other_id="NC_000017.11" other_start="80096556" other_end="80121880">
+        <mapping_span lrg_start="1" lrg_end="25325" other_start="80096556" other_end="80121880" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">GAA</lrg_locus>
     </annotation_set>
@@ -185,7 +188,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009822.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000152.3" other_name="NM_000152.3" other_id="NM_000152.3" other_start="1" other_end="3775">
         <mapping_span lrg_start="5001" lrg_end="5335" other_start="1" other_end="335" strand="1" />
         <mapping_span lrg_start="8000" lrg_end="8577" other_start="336" other_end="913" strand="1" />
@@ -257,6 +260,7 @@
         <gene source="NCBI-Gene" accession="55036">
           <symbol source="HGNC" name="CCDC40">
             <synonym>CILD15</synonym>
+            <synonym>FAP172</synonym>
           </symbol>
           <coordinates coord_system="LRG_673" start="1" end="4058" strand="1" />
           <partial>5-prime</partial>
@@ -537,8 +541,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000302262.3" other_name="ENST00000302262.3" other_id="ENST00000302262.3" other_start="1" other_end="3626">
         <mapping_span lrg_start="5149" lrg_end="5335" other_start="1" other_end="187" strand="1" />
         <mapping_span lrg_start="8000" lrg_end="8577" other_start="188" other_end="765" strand="1" />
@@ -631,16 +635,18 @@
           <coordinates coord_system="LRG_673" start="1" end="4058" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>coiled-coil domain containing 40 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="55036">
-            <synonym>CILD15</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="613799" />
           <db_xref source="HGNC" accession="26090">
             <synonym>CILD15</synonym>
+            <synonym>FAP172</synonym>
             <synonym>FLJ20753</synonym>
             <synonym>FLJ32021</synonym>
             <synonym>KIAA1640</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="613799" />
+          <db_xref source="GeneID" accession="55036">
+            <synonym>CILD15</synonym>
+            <synonym>FAP172</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000141519" />
           <transcript source="Ensembl" accession="ENST00000397545">
             <coordinates coord_system="LRG_673" start="1" end="4058" strand="1" mapped_from="GRCh37" />
@@ -658,7 +664,6 @@
               <coordinates coord_system="LRG_673" start="1" end="3220" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>coiled-coil domain-containing protein 40 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_060420.2" />
               <db_xref source="UniProtKB" accession="Q4G0X9">
                 <synonym>A8MTD2</synonym>
                 <synonym>C9JTI9</synonym>
@@ -668,6 +673,7 @@
                 <synonym>Q9HCD2</synonym>
                 <synonym>Q9NWL5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_060420.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000574799">
@@ -694,11 +700,11 @@
           <symbol source="HGNC" name="GAA" />
           <coordinates coord_system="LRG_673" start="5001" end="23324" strand="1" mapped_from="GRCh37" />
           <long_name>glucosidase, alpha; acid (protein_coding)</long_name>
+          <db_xref source="MIM" accession="606800" />
+          <db_xref source="HGNC" accession="4065" />
           <db_xref source="GeneID" accession="2548">
             <synonym>LYAG</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="4065" />
-          <db_xref source="MIM" accession="606800" />
           <db_xref source="Ensembl" accession="ENSG00000171298" />
           <transcript source="Ensembl" accession="ENST00000570803">
             <coordinates coord_system="LRG_673" start="5001" end="11163" strand="1" mapped_from="GRCh37" />
@@ -810,14 +816,14 @@
             <protein_product source="Ensembl" accession="ENSP00000374665">
               <coordinates coord_system="LRG_673" start="8032" end="22776" strand="1" mapped_from="GRCh37" />
               <long_name>lysosomal alpha-glucosidase preproprotein, lysosomal alpha-glucosidase preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_001073271.1" />
-              <db_xref source="RefSeq" accession="NP_001073272.1" />
               <db_xref source="UniProtKB" accession="P10253">
                 <synonym>Q09GN4</synonym>
                 <synonym>Q14351</synonym>
                 <synonym>Q16302</synonym>
                 <synonym>Q8IWE7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001073271.1" />
+              <db_xref source="RefSeq" accession="NP_001073272.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000574376">
@@ -898,13 +904,13 @@
             <protein_product source="Ensembl" accession="ENSP00000305692">
               <coordinates coord_system="LRG_673" start="8032" end="22776" strand="1" mapped_from="GRCh37" />
               <long_name>lysosomal alpha-glucosidase preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_000143.2" />
               <db_xref source="UniProtKB" accession="P10253">
                 <synonym>Q09GN4</synonym>
                 <synonym>Q14351</synonym>
                 <synonym>Q16302</synonym>
                 <synonym>Q8IWE7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000143.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000572080">
@@ -985,7 +991,7 @@
         <name>List of locus specific databases for GAA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GAA</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

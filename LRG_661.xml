@@ -118,9 +118,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_start="42417491" other_end="42432470">
         <mapping_span lrg_start="1" lrg_end="14980" other_start="42417491" other_end="42432470" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="17" other_id="NC_000017.11" other_start="44340123" other_end="44355102">
+        <mapping_span lrg_start="1" lrg_end="14980" other_start="44340123" other_end="44355102" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">GRN</lrg_locus>
     </annotation_set>
@@ -135,7 +138,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007886.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_002087.2" other_name="NM_002087.2" other_id="NM_002087.2" other_start="1" other_end="2305">
         <mapping_span lrg_start="5001" lrg_end="5212" other_start="1" other_end="212" strand="1" />
         <mapping_span lrg_start="9036" lrg_end="9180" other_start="213" other_end="357" strand="1" />
@@ -267,8 +270,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000053867.3" other_name="ENST00000053867.3" other_id="ENST00000053867.3" other_start="1" other_end="2148">
         <mapping_span lrg_start="5158" lrg_end="5212" other_start="1" other_end="55" strand="1" />
         <mapping_span lrg_start="9036" lrg_end="9180" other_start="56" other_end="200" strand="1" />
@@ -430,6 +433,12 @@
           <symbol source="HGNC" name="GRN" />
           <coordinates coord_system="LRG_661" start="5124" end="12980" strand="1" mapped_from="GRCh37" />
           <long_name>granulin (protein_coding)</long_name>
+          <db_xref source="MIM" accession="138945" />
+          <db_xref source="HGNC" accession="4601">
+            <synonym>CLN11</synonym>
+            <synonym>PCDGF</synonym>
+            <synonym>PGRN</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2896">
             <synonym>CLN11</synonym>
             <synonym>GEP</synonym>
@@ -438,12 +447,6 @@
             <synonym>PEPI</synonym>
             <synonym>PGRN</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="4601">
-            <synonym>CLN11</synonym>
-            <synonym>PCDGF</synonym>
-            <synonym>PGRN</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="138945" />
           <db_xref source="Ensembl" accession="ENSG00000030582" />
           <transcript source="Ensembl" accession="ENST00000588170">
             <coordinates coord_system="LRG_661" start="5124" end="9772" strand="1" mapped_from="GRCh37" />
@@ -571,18 +574,20 @@
             <protein_product source="Ensembl" accession="ENSP00000053867">
               <coordinates coord_system="LRG_661" start="9043" end="12676" strand="1" mapped_from="GRCh37" />
               <long_name>granulins precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_002078.1" />
               <db_xref source="UniProtKB" accession="P28799">
                 <synonym>D3DX55</synonym>
                 <synonym>P23781</synonym>
                 <synonym>P23782</synonym>
                 <synonym>P23783</synonym>
                 <synonym>P23784</synonym>
+                <synonym>Q53HQ8</synonym>
                 <synonym>Q53Y88</synonym>
                 <synonym>Q540U8</synonym>
                 <synonym>Q9BWE7</synonym>
+                <synonym>Q9H8S1</synonym>
                 <synonym>Q9UCH0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002078.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000588143">
@@ -937,10 +942,10 @@
           <coordinates coord_system="LRG_661" start="13093" end="14980" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>family with sequence similarity 171, member A2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="284069" />
           <db_xref source="HGNC" accession="30480">
             <synonym>MGC34829</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="284069" />
           <db_xref source="Ensembl" accession="ENSG00000161682" />
           <transcript source="Ensembl" accession="ENST00000293443">
             <coordinates coord_system="LRG_661" start="13093" end="14980" strand="-1" mapped_from="GRCh37" />
@@ -956,10 +961,10 @@
               <coordinates coord_system="LRG_661" start="13611" end="14980" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>protein FAM171A2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_940877.2" />
               <db_xref source="UniProtKB" accession="A8MVW0">
                 <synonym>A8MQB4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_940877.2" />
             </protein_product>
           </transcript>
         </gene>
@@ -970,7 +975,7 @@
         <name>List of locus specific databases for GRN</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GRN</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

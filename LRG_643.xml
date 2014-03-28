@@ -204,8 +204,11 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_start="6530464" other_end="6650692">
+        <mapping_span lrg_start="1" lrg_end="120229" other_start="6530464" other_end="6650692" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="9" other_id="NC_000009.12" other_start="6530464" other_end="6650692">
         <mapping_span lrg_start="1" lrg_end="120229" other_start="6530464" other_end="6650692" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">GLDC</lrg_locus>
@@ -221,7 +224,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_016397.1</comment>
-      <modification_date>2014-01-16</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000170.2" other_name="NM_000170.2" other_id="NM_000170.2" other_start="1" other_end="3809">
         <mapping_span lrg_start="5001" lrg_end="5448" other_start="1" other_end="448" strand="1" />
         <mapping_span lrg_start="6001" lrg_end="6079" other_start="449" other_end="527" strand="1" />
@@ -345,10 +348,12 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_000161.2" fixed_id="p1">
               <coordinates coord_system="LRG_643" start="5194" end="117676" strand="1" />
-              <long_name>glycine dehydrogenase [decarboxylating], mitochondrial precursor</long_name>
+              <long_name>glycine dehydrogenase (decarboxylating), mitochondrial precursor</long_name>
               <long_name>glycine cleavage system protein P</long_name>
               <long_name>glycine dehydrogenase [decarboxylating], mitochondrial</long_name>
               <long_name>glycine decarboxylase P-protein</long_name>
+              <long_name>glycine dehydrogenase (aminomethyl-transferring)</long_name>
+              <long_name>glycine dehydrogenase (decarboxylating), mitochondrial</long_name>
               <db_xref source="CCDS" accession="CCDS34987.1" />
               <db_xref source="GeneID" accession="2731" />
               <db_xref source="GI" accession="108773801" />
@@ -376,8 +381,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-17</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000321612.6" other_name="ENST00000321612.6" other_id="ENST00000321612.6" other_start="1" other_end="3767">
         <mapping_span lrg_start="5043" lrg_end="5448" other_start="1" other_end="406" strand="1" />
         <mapping_span lrg_start="6001" lrg_end="6079" other_start="407" other_end="485" strand="1" />
@@ -448,16 +453,16 @@
           <symbol source="HGNC" name="GLDC" />
           <coordinates coord_system="LRG_643" start="5043" end="118229" strand="1" mapped_from="GRCh37" />
           <long_name>glycine dehydrogenase (decarboxylating) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="238300" />
+          <db_xref source="HGNC" accession="4313">
+            <synonym>GCSP</synonym>
+            <synonym>NKH</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2731">
             <synonym>GCE</synonym>
             <synonym>GCSP</synonym>
             <synonym>HYGN1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="4313">
-            <synonym>GCSP</synonym>
-            <synonym>NKH</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="238300" />
           <db_xref source="Ensembl" accession="ENSG00000178445" />
           <transcript source="Ensembl" accession="ENST00000321612">
             <coordinates coord_system="LRG_643" start="5043" end="118229" strand="1" mapped_from="GRCh37" />
@@ -542,10 +547,10 @@
             <protein_product source="Ensembl" accession="ENSP00000370737">
               <coordinates coord_system="LRG_643" start="5194" end="117676" strand="1" mapped_from="GRCh37" />
               <long_name>glycine dehydrogenase</long_name>
-              <db_xref source="RefSeq" accession="NP_000161.2" />
               <db_xref source="UniProtKB" accession="P23378">
                 <synonym>Q2M2F8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000161.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000463305">
@@ -651,8 +656,8 @@
           <symbol source="HGNC" name="RN7SL25P" />
           <coordinates coord_system="LRG_643" start="108343" end="108599" strand="-1" mapped_from="GRCh37" />
           <long_name>RNA, 7SL, cytoplasmic 25, pseudogene (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="46041" />
           <db_xref source="RFAM" accession="RF00017" />
+          <db_xref source="HGNC" accession="46041" />
           <db_xref source="Ensembl" accession="ENSG00000264530" />
           <transcript source="Ensembl" accession="ENST00000583862">
             <coordinates coord_system="LRG_643" start="108343" end="108599" strand="-1" mapped_from="GRCh37" />
@@ -669,7 +674,7 @@
         <name>List of locus specific databases for GLDC</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GLDC</url>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

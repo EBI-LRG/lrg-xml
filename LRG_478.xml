@@ -55,9 +55,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="22" other_id="NC_000022.10" other_start="19706066" other_end="19714297">
         <mapping_span lrg_start="1" lrg_end="8232" other_start="19706066" other_end="19714297" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="22" other_id="NC_000022.11" other_start="19718543" other_end="19726774">
+        <mapping_span lrg_start="1" lrg_end="8232" other_start="19718543" other_end="19726774" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">GP1BB</lrg_locus>
     </annotation_set>
@@ -72,7 +75,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007974.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000407.4" other_name="NM_000407.4" other_id="NM_000407.4" other_start="1" other_end="958">
         <mapping_span lrg_start="5001" lrg_end="5037" other_start="1" other_end="37" strand="1" />
         <mapping_span lrg_start="5312" lrg_end="6232" other_start="38" other_end="958" strand="1" />
@@ -87,7 +90,7 @@
           <transcript source="RefSeq" accession="NR_037611.1">
             <coordinates coord_system="LRG_478" start="1" end="6232" strand="1" />
             <partial>5-prime</partial>
-            <long_name>SEPT5-GP1BB readthrough</long_name>
+            <long_name>SEPT5-GP1BB readthrough, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="100526833" />
             <db_xref source="GI" accession="313151241" />
             <exon source="RefSeq" accession="">
@@ -142,7 +145,7 @@
           <transcript source="RefSeq" accession="NR_037612.1">
             <coordinates coord_system="LRG_478" start="1" end="6232" strand="1" />
             <partial>5-prime</partial>
-            <long_name>SEPT5-GP1BB readthrough</long_name>
+            <long_name>SEPT5-GP1BB readthrough, transcript variant 2</long_name>
             <db_xref source="GeneID" accession="100526833" />
             <db_xref source="GI" accession="313151242" />
             <exon source="RefSeq" accession="">
@@ -361,8 +364,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000366425.3" other_name="ENST00000366425.3" other_id="ENST00000366425.3" other_start="1" other_end="1553">
         <mapping_span lrg_start="4403" lrg_end="5037" other_start="1" other_end="635" strand="1" />
         <mapping_span lrg_start="5312" lrg_end="6229" other_start="636" other_end="1553" strand="1" />
@@ -373,11 +376,12 @@
           <coordinates coord_system="LRG_478" start="1" end="6230" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>septin 5 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="2812">
-            <synonym>BDPLT1</synonym>
-            <synonym>BS</synonym>
-            <synonym>CD42C</synonym>
-            <synonym>GPIBB</synonym>
+          <db_xref source="MIM" accession="602724" />
+          <db_xref source="MIM" accession="138720" />
+          <db_xref source="HGNC" accession="9164">
+            <synonym>H5</synonym>
+            <synonym>HCDCREL-1</synonym>
+            <synonym>PNUTL1</synonym>
           </db_xref>
           <db_xref source="GeneID" accession="5413">
             <synonym>CDCREL</synonym>
@@ -387,13 +391,12 @@
             <synonym>HCDCREL-1</synonym>
             <synonym>PNUTL1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9164">
-            <synonym>H5</synonym>
-            <synonym>HCDCREL-1</synonym>
-            <synonym>PNUTL1</synonym>
+          <db_xref source="GeneID" accession="2812">
+            <synonym>BDPLT1</synonym>
+            <synonym>BS</synonym>
+            <synonym>CD42C</synonym>
+            <synonym>GPIBB</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="138720" />
-          <db_xref source="MIM" accession="602724" />
           <db_xref source="Ensembl" accession="ENSG00000184702" />
           <transcript source="Ensembl" accession="ENST00000455784">
             <coordinates coord_system="LRG_478" start="1" end="4777" strand="1" mapped_from="GRCh37" />
@@ -435,11 +438,11 @@
               <coordinates coord_system="LRG_478" start="1" end="3942" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>septin-5 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_002679.2" />
               <db_xref source="UniProtKB" accession="Q99719">
                 <synonym>O15251</synonym>
                 <synonym>Q96MY5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002679.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000406395">
@@ -721,11 +724,11 @@
             <protein_product source="Ensembl" accession="ENSP00000394541">
               <coordinates coord_system="LRG_478" start="196" end="3769" strand="1" mapped_from="GRCh37" />
               <long_name>septin-5 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001009939.1" />
               <db_xref source="UniProtKB" accession="Q99719">
                 <synonym>O15251</synonym>
                 <synonym>Q96MY5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001009939.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000431044">
@@ -870,16 +873,16 @@
           <symbol source="HGNC" name="GP1BB" />
           <coordinates coord_system="LRG_478" start="4403" end="6229" strand="1" mapped_from="GRCh37" />
           <long_name>glycoprotein Ib (platelet), beta polypeptide (protein_coding)</long_name>
+          <db_xref source="MIM" accession="138720" />
+          <db_xref source="HGNC" accession="4440">
+            <synonym>CD42c</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2812">
             <synonym>BDPLT1</synonym>
             <synonym>BS</synonym>
             <synonym>CD42C</synonym>
             <synonym>GPIBB</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="4440">
-            <synonym>CD42c</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="138720" />
           <db_xref source="Ensembl" accession="ENSG00000203618" />
           <transcript source="Ensembl" accession="ENST00000366425">
             <coordinates coord_system="LRG_478" start="4403" end="6229" strand="1" mapped_from="GRCh37" />
@@ -895,11 +898,11 @@
             <protein_product source="Ensembl" accession="ENSP00000383382">
               <coordinates coord_system="LRG_478" start="5028" end="5922" strand="1" mapped_from="GRCh37" />
               <long_name>platelet glycoprotein Ib beta chain precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000398.1" />
               <db_xref source="UniProtKB" accession="P13224">
                 <synonym>Q14422</synonym>
                 <synonym>Q8NG40</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000398.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -910,7 +913,7 @@
         <name>List of locus specific databases for GP1BB</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GP1BB</url>
       </source>
-      <modification_date>2013-12-05</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

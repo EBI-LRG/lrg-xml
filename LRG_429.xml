@@ -82,9 +82,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="229564992" other_end="229574843">
         <mapping_span lrg_start="1" lrg_end="9852" other_start="229564992" other_end="229574843" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="229429245" other_end="229439096">
+        <mapping_span lrg_start="1" lrg_end="9852" other_start="229429245" other_end="229439096" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">ACTA1</lrg_locus>
     </annotation_set>
@@ -99,7 +102,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_006672.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001100.3" other_name="NM_001100.3" other_id="NM_001100.3" other_start="1" other_end="1493">
         <mapping_span lrg_start="5001" lrg_end="5093" other_start="1" other_end="93" strand="1" />
         <mapping_span lrg_start="5970" lrg_end="6110" other_start="94" other_end="234" strand="1" />
@@ -177,8 +180,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000366683.2" other_name="ENST00000366683.2" other_id="ENST00000366683.2" other_start="1" other_end="1227">
         <mapping_span lrg_start="4999" lrg_end="5093" other_start="1" other_end="95" strand="1" />
         <mapping_span lrg_start="5970" lrg_end="6110" other_start="96" other_end="236" strand="1" />
@@ -201,6 +204,13 @@
           <symbol source="HGNC" name="ACTA1" />
           <coordinates coord_system="LRG_429" start="4999" end="7852" strand="1" mapped_from="GRCh37" />
           <long_name>actin, alpha 1, skeletal muscle (protein_coding)</long_name>
+          <db_xref source="MIM" accession="102610">
+            <synonym>300020</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="129">
+            <synonym>ACTA</synonym>
+            <synonym>NEM3</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="58">
             <synonym>ACTA</synonym>
             <synonym>ASMA</synonym>
@@ -211,13 +221,6 @@
             <synonym>NEM1</synonym>
             <synonym>NEM2</synonym>
             <synonym>NEM3</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="129">
-            <synonym>ACTA</synonym>
-            <synonym>NEM3</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="102610">
-            <synonym>300020</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000143632" />
           <transcript source="Ensembl" accession="ENST00000366683">
@@ -274,12 +277,12 @@
             <protein_product source="Ensembl" accession="ENSP00000355645">
               <coordinates coord_system="LRG_429" start="5982" end="7598" strand="1" mapped_from="GRCh37" />
               <long_name>actin, alpha skeletal muscle</long_name>
-              <db_xref source="RefSeq" accession="NP_001091.1" />
               <db_xref source="UniProtKB" accession="P68133">
                 <synonym>P02568</synonym>
                 <synonym>P99020</synonym>
                 <synonym>Q5T8M9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001091.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -290,7 +293,7 @@
         <name>List of locus specific databases for ACTA1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ACTA1</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

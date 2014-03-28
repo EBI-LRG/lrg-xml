@@ -160,9 +160,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_start="133557495" other_end="133855258">
         <mapping_span lrg_start="1" lrg_end="297764" other_start="133557495" other_end="133855258" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="6" other_id="NC_000006.12" other_start="133236357" other_end="133534120">
+        <mapping_span lrg_start="1" lrg_end="297764" other_start="133236357" other_end="133534120" strand="1">
+          <diff type="mismatch" lrg_start="150924" lrg_end="150924" other_start="133387280" other_end="133387280" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="204202" lrg_end="204202" other_start="133440558" other_end="133440558" lrg_sequence="T" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">EYA4</lrg_locus>
     </annotation_set>
@@ -177,7 +183,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011596.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_004100.4" other_name="NM_004100.4" other_id="NM_004100.4" other_start="1" other_end="5693">
         <mapping_span lrg_start="5001" lrg_end="5393" other_start="1" other_end="393" strand="1" />
         <mapping_span lrg_start="38360" lrg_end="38457" other_start="394" other_end="491" strand="1" />
@@ -488,8 +494,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000355167.3" other_name="ENST00000355167.3" other_id="ENST00000355167.3" other_start="1" other_end="5692">
         <mapping_span lrg_start="5001" lrg_end="5393" other_start="1" other_end="393" strand="1" />
         <mapping_span lrg_start="38360" lrg_end="38457" other_start="394" other_end="491" strand="1" />
@@ -720,15 +726,15 @@
           <symbol source="HGNC" name="EYA4" />
           <coordinates coord_system="LRG_418" start="4242" end="295764" strand="1" mapped_from="GRCh37" />
           <long_name>eyes absent homolog 4 (Drosophila) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="2070">
-            <synonym>CMD1J</synonym>
-            <synonym>DFNA10</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="603550" />
           <db_xref source="HGNC" accession="3522">
             <synonym>CMD1J</synonym>
             <synonym>DFNA10</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="603550" />
+          <db_xref source="GeneID" accession="2070">
+            <synonym>CMD1J</synonym>
+            <synonym>DFNA10</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000112319" />
           <transcript source="Ensembl" accession="ENST00000452339">
             <coordinates coord_system="LRG_418" start="4242" end="292546" strand="1" mapped_from="GRCh37" />
@@ -930,7 +936,6 @@
             <protein_product source="Ensembl" accession="ENSP00000356870">
               <coordinates coord_system="LRG_418" start="38425" end="292449" strand="1" mapped_from="GRCh37" />
               <long_name>eyes absent homolog 4 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_004091.3" />
               <db_xref source="UniProtKB" accession="O95677">
                 <synonym>B7Z7F7</synonym>
                 <synonym>O95464</synonym>
@@ -938,6 +943,7 @@
                 <synonym>Q8IW39</synonym>
                 <synonym>Q9NTR7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004091.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000355167">
@@ -1008,7 +1014,6 @@
             <protein_product source="Ensembl" accession="ENSP00000347294">
               <coordinates coord_system="LRG_418" start="38425" end="292449" strand="1" mapped_from="GRCh37" />
               <long_name>eyes absent homolog 4 isoform d</long_name>
-              <db_xref source="RefSeq" accession="NP_742103.1" />
               <db_xref source="UniProtKB" accession="O95677">
                 <synonym>B7Z7F7</synonym>
                 <synonym>O95464</synonym>
@@ -1016,6 +1021,7 @@
                 <synonym>Q8IW39</synonym>
                 <synonym>Q9NTR7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_742103.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000441015">
@@ -1096,7 +1102,6 @@
             <protein_product source="Ensembl" accession="ENSP00000347434">
               <coordinates coord_system="LRG_418" start="38425" end="292449" strand="1" mapped_from="GRCh37" />
               <long_name>eyes absent homolog 4 isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_742101.2" />
               <db_xref source="UniProtKB" accession="O95677">
                 <synonym>B7Z7F7</synonym>
                 <synonym>O95464</synonym>
@@ -1104,6 +1109,7 @@
                 <synonym>Q8IW39</synonym>
                 <synonym>Q9NTR7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_742101.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000531901">
@@ -1454,7 +1460,10 @@
           <symbol source="Clone_based_vega_gene" name="RP1-283K11.3" />
           <coordinates coord_system="LRG_418" start="198721" end="203108" strand="-1" mapped_from="GRCh37" />
           <long_name>RP1-283K11.3 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100507308" />
+          <db_xref source="GeneID" accession="101928164" />
+          <db_xref source="GeneID" accession="100507308">
+            <synonym>RP1-283K11.3</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000223542" />
           <transcript source="Ensembl" accession="ENST00000412954">
             <coordinates coord_system="LRG_418" start="198721" end="203108" strand="-1" mapped_from="GRCh37" />
@@ -1491,6 +1500,9 @@
           <coordinates coord_system="LRG_418" start="265896" end="297764" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>RP3-323P13.2 (antisense)</long_name>
+          <db_xref source="GeneID" accession="100507308">
+            <synonym>RP1-283K11.3</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000227954" />
           <transcript source="Ensembl" accession="ENST00000451017">
             <coordinates coord_system="LRG_418" start="265896" end="275372" strand="-1" mapped_from="GRCh37" />
@@ -1512,6 +1524,7 @@
             <coordinates coord_system="LRG_418" start="265896" end="297764" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>RP3-323P13.2-002 (antisense)</long_name>
+            <db_xref source="RefSeq" accession="NR_109982.1" />
             <exon source="Ensembl" accession="ENSE00001755328">
               <coordinates coord_system="LRG_418" start="270888" end="270965" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -1524,13 +1537,14 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000238059">
-          <symbol source="Clone_based_vega_gene" name="RP11-704J17.2" />
+          <symbol source="HGNC" name="HSPE1P21" />
           <coordinates coord_system="LRG_418" start="274030" end="274337" strand="-1" mapped_from="GRCh37" />
-          <long_name>RP11-704J17.2 (pseudogene)</long_name>
+          <long_name>heat shock 10kDa protein 1 pseudogene 21 (pseudogene)</long_name>
+          <db_xref source="HGNC" accession="49340" />
           <db_xref source="Ensembl" accession="ENSG00000238059" />
           <transcript source="Ensembl" accession="ENST00000438283">
             <coordinates coord_system="LRG_418" start="274030" end="274337" strand="-1" mapped_from="GRCh37" />
-            <long_name>RP11-704J17.2-001 (processed_pseudogene)</long_name>
+            <long_name>HSPE1P21-001 (processed_pseudogene)</long_name>
             <exon source="Ensembl" accession="ENSE00001687829">
               <coordinates coord_system="LRG_418" start="274030" end="274337" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -1543,7 +1557,7 @@
         <name>List of locus specific databases for EYA4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/EYA4</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

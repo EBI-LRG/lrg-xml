@@ -127,11 +127,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="20" other_id="NC_000020.10" other_start="30941147" other_end="31029122">
         <mapping_span lrg_start="1" lrg_end="87976" other_start="30941147" other_end="31029122" strand="1">
           <diff type="mismatch" lrg_start="81813" lrg_end="81813" other_start="31022959" other_end="31022959" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="20" other_id="NC_000020.11" other_start="32353344" other_end="32441319">
+        <mapping_span lrg_start="1" lrg_end="87976" other_start="32353344" other_end="32441319" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">ASXL1</lrg_locus>
     </annotation_set>
@@ -146,7 +149,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_027868.1</comment>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001164603.1" other_name="NM_001164603.1" other_id="NM_001164603.1" other_start="1" other_end="1070">
         <mapping_span lrg_start="5001" lrg_end="5489" other_start="1" other_end="489" strand="1" />
         <mapping_span lrg_start="13041" lrg_end="13123" other_start="490" other_end="572" strand="1" />
@@ -248,8 +251,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-28</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000306058.5" other_name="ENST00000306058.5" other_id="ENST00000306058.5" other_start="1" other_end="6591">
         <mapping_span lrg_start="6404" lrg_end="6448" other_start="1" other_end="45" strand="1" />
         <mapping_span lrg_start="13041" lrg_end="13123" other_start="46" other_end="128" strand="1" />
@@ -338,14 +341,14 @@
           <symbol source="HGNC" name="ASXL1" />
           <coordinates coord_system="LRG_630" start="5009" end="85976" strand="1" mapped_from="GRCh37" />
           <long_name>additional sex combs like 1 (Drosophila) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="612990" />
+          <db_xref source="HGNC" accession="18318">
+            <synonym>KIAA0978</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="171023">
             <synonym>BOPS</synonym>
             <synonym>MDS</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="18318">
-            <synonym>KIAA0978</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="612990" />
           <db_xref source="Ensembl" accession="ENSG00000171456" />
           <transcript source="Ensembl" accession="ENST00000375687">
             <coordinates coord_system="LRG_630" start="5009" end="85976" strand="1" mapped_from="GRCh37" />
@@ -393,9 +396,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000364839">
               <coordinates coord_system="LRG_630" start="5433" end="83995" strand="1" mapped_from="GRCh37" />
-              <long_name>putative Polycomb group protein ASXL1 isoform 2, putative Polycomb group protein ASXL1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001158075.1" />
-              <db_xref source="RefSeq" accession="NP_056153.2" />
+              <long_name>putative Polycomb group protein ASXL1 isoform 1, putative Polycomb group protein ASXL1 isoform 2</long_name>
               <db_xref source="UniProtKB" accession="Q8IXJ9">
                 <synonym>B2RP59</synonym>
                 <synonym>Q5JWS9</synonym>
@@ -406,6 +407,8 @@
                 <synonym>Q9UFP8</synonym>
                 <synonym>Q9Y2I4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_056153.2" />
+              <db_xref source="RefSeq" accession="NP_001158075.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000542461">
@@ -607,7 +610,7 @@
         <name>List of locus specific databases for ASXL1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ASXL1</url>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

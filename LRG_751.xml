@@ -60,9 +60,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="11903766" other_end="11912840">
         <mapping_span lrg_start="1" lrg_end="9075" other_start="11903766" other_end="11912840" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="11843709" other_end="11852783">
+        <mapping_span lrg_start="1" lrg_end="9075" other_start="11843709" other_end="11852783" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">NPPA</lrg_locus>
     </annotation_set>
@@ -77,7 +80,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012926.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_006172.3" other_name="NM_006172.3" other_id="NM_006172.3" other_start="1" other_end="855">
         <mapping_span lrg_start="5001" lrg_end="5222" other_start="1" other_end="222" strand="1" />
         <mapping_span lrg_start="5345" lrg_end="5671" other_start="223" other_end="549" strand="1" />
@@ -139,8 +142,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000376476.1" other_name="ENST00000376476.1" other_id="ENST00000376476.1" other_start="1" other_end="728">
         <mapping_span lrg_start="4439" lrg_end="4703" other_start="1" other_end="265" strand="1" />
         <mapping_span lrg_start="5345" lrg_end="5671" other_start="266" other_end="592" strand="1" />
@@ -156,6 +159,11 @@
           <symbol source="HGNC" name="NPPA" />
           <coordinates coord_system="LRG_751" start="4439" end="7075" strand="1" mapped_from="GRCh37" />
           <long_name>natriuretic peptide A (protein_coding)</long_name>
+          <db_xref source="MIM" accession="108780" />
+          <db_xref source="HGNC" accession="7939">
+            <synonym>ANP</synonym>
+            <synonym>PND</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4878">
             <synonym>ANF</synonym>
             <synonym>ANP</synonym>
@@ -163,11 +171,6 @@
             <synonym>CDD-ANF</synonym>
             <synonym>PND</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7939">
-            <synonym>ANP</synonym>
-            <synonym>PND</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="108780" />
           <db_xref source="Ensembl" accession="ENSG00000175206" />
           <transcript source="Ensembl" accession="ENST00000376476">
             <coordinates coord_system="LRG_751" start="4439" end="6905" strand="1" mapped_from="GRCh37" />
@@ -202,11 +205,11 @@
             <protein_product source="Ensembl" accession="ENSP00000365663">
               <coordinates coord_system="LRG_751" start="5100" end="6775" strand="1" mapped_from="GRCh37" />
               <long_name>natriuretic peptides A preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_006163.1" />
               <db_xref source="UniProtKB" accession="P01160">
                 <synonym>Q13766</synonym>
                 <synonym>Q5JZE1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_006163.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -215,11 +218,11 @@
           <coordinates coord_system="LRG_751" start="4705" end="9075" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>NPPA antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100379251">
+          <db_xref source="HGNC" accession="37635">
             <synonym>NPPA-AS</synonym>
             <synonym>NPPAAS</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="37635">
+          <db_xref source="GeneID" accession="100379251">
             <synonym>NPPA-AS</synonym>
             <synonym>NPPAAS</synonym>
           </db_xref>
@@ -261,7 +264,7 @@
         <name>List of locus specific databases for NPPA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NPPA</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

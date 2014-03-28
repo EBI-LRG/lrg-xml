@@ -190,9 +190,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_start="2943709" other_end="3088509">
         <mapping_span lrg_start="1" lrg_end="144801" other_start="2943709" other_end="3088509" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="7" other_id="NC_000007.14" other_start="2904075" other_end="3048875">
+        <mapping_span lrg_start="1" lrg_end="144801" other_start="2904075" other_end="3048875" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">CARD11</lrg_locus>
     </annotation_set>
@@ -207,7 +210,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_027759.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_032415.5" other_name="NM_032415.5" other_id="NM_032415.5" other_start="1" other_end="4432">
         <mapping_span lrg_start="4931" lrg_end="5209" other_start="1" other_end="279" strand="1" />
         <mapping_span lrg_start="90245" lrg_end="90376" other_start="280" other_end="411" strand="1" />
@@ -241,6 +244,7 @@
             <synonym>BENTA</synonym>
             <synonym>BIMP3</synonym>
             <synonym>CARMA1</synonym>
+            <synonym>IMD11</synonym>
             <synonym>PPBL</synonym>
           </symbol>
           <coordinates coord_system="LRG_729" start="4931" end="142801" strand="1" />
@@ -354,8 +358,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000355508.3" other_name="ENST00000355508.3" other_id="ENST00000355508.3" other_start="1" other_end="815">
         <mapping_span lrg_start="118816" lrg_end="118884" other_start="1" other_end="69" strand="1" />
         <mapping_span lrg_start="120181" lrg_end="120278" other_start="70" other_end="167" strand="1" />
@@ -409,17 +413,18 @@
           <symbol source="HGNC" name="CARD11" />
           <coordinates coord_system="LRG_729" start="4931" end="142735" strand="1" mapped_from="GRCh37" />
           <long_name>caspase recruitment domain family, member 11 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="84433">
-            <synonym>BENTA</synonym>
-            <synonym>BIMP3</synonym>
-            <synonym>CARMA1</synonym>
-            <synonym>PPBL</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="607210" />
           <db_xref source="HGNC" accession="16393">
             <synonym>BIMP3</synonym>
             <synonym>CARMA1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="607210" />
+          <db_xref source="GeneID" accession="84433">
+            <synonym>BENTA</synonym>
+            <synonym>BIMP3</synonym>
+            <synonym>CARMA1</synonym>
+            <synonym>IMD11</synonym>
+            <synonym>PPBL</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000198286" />
           <transcript source="Ensembl" accession="ENST00000396946">
             <coordinates coord_system="LRG_729" start="4931" end="142735" strand="1" mapped_from="GRCh37" />
@@ -504,12 +509,12 @@
             <protein_product source="Ensembl" accession="ENSP00000380150">
               <coordinates coord_system="LRG_729" start="90370" end="142238" strand="1" mapped_from="GRCh37" />
               <long_name>caspase recruitment domain-containing protein 11</long_name>
-              <db_xref source="RefSeq" accession="NP_115791.3" />
               <db_xref source="UniProtKB" accession="Q9BXL7">
                 <synonym>A4D1Z7</synonym>
                 <synonym>Q2NKN7</synonym>
                 <synonym>Q548H3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_115791.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000356408">
@@ -580,8 +585,8 @@
           <symbol source="HGNC" name="RN7SKP130" />
           <coordinates coord_system="LRG_729" start="49482" end="49782" strand="-1" mapped_from="GRCh37" />
           <long_name>RNA, 7SK small nuclear pseudogene 130 (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="45854" />
           <db_xref source="RFAM" accession="RF00100" />
+          <db_xref source="HGNC" accession="45854" />
           <db_xref source="Ensembl" accession="ENSG00000201794" />
           <transcript source="Ensembl" accession="ENST00000364924">
             <coordinates coord_system="LRG_729" start="49482" end="49782" strand="-1" mapped_from="GRCh37" />
@@ -595,6 +600,7 @@
           <symbol source="Clone_based_vega_gene" name="AC004906.3" />
           <coordinates coord_system="LRG_729" start="101785" end="104841" strand="-1" mapped_from="GRCh37" />
           <long_name>AC004906.3 (antisense)</long_name>
+          <db_xref source="GeneID" accession="101927256" />
           <db_xref source="Ensembl" accession="ENSG00000237286" />
           <transcript source="Ensembl" accession="ENST00000423194">
             <coordinates coord_system="LRG_729" start="101785" end="104841" strand="-1" mapped_from="GRCh37" />
@@ -614,7 +620,7 @@
         <name>List of locus specific databases for CARD11</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CARD11</url>
       </source>
-      <modification_date>2013-12-06</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

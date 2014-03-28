@@ -76,9 +76,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_start="35516592" other_end="35533353">
         <mapping_span lrg_start="1" lrg_end="16762" other_start="35516592" other_end="35533353" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="19" other_id="NC_000019.10" other_start="35025688" other_end="35042449">
+        <mapping_span lrg_start="1" lrg_end="16762" other_start="35025688" other_end="35042449" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">SCN1B</lrg_locus>
     </annotation_set>
@@ -93,7 +96,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_013359.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001037.4" other_name="NM_001037.4" other_id="NM_001037.4" other_start="1" other_end="1448">
         <mapping_span lrg_start="5001" lrg_end="5173" other_start="1" other_end="173" strand="1" />
         <mapping_span lrg_start="6841" lrg_end="7007" other_start="174" other_end="340" strand="1" />
@@ -160,6 +163,8 @@
         </gene>
         <gene source="NCBI-Gene" accession="6324">
           <symbol source="HGNC" name="SCN1B">
+            <synonym>ATFB13</synonym>
+            <synonym>BRGDA5</synonym>
             <synonym>GEFSP1</synonym>
           </symbol>
           <coordinates coord_system="LRG_420" start="5001" end="14762" strand="1" />
@@ -277,8 +282,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000262631.5" other_name="ENST00000262631.5" other_id="ENST00000262631.5" other_start="1" other_end="1451">
         <mapping_span lrg_start="4997" lrg_end="5173" other_start="1" other_end="177" strand="1" />
         <mapping_span lrg_start="6841" lrg_end="7007" other_start="178" other_end="344" strand="1" />
@@ -316,11 +321,11 @@
           <coordinates coord_system="LRG_420" start="1" end="784" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>GRAM domain containing 1A (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="57655">
-            <synonym>KIAA1533</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="29305">
             <synonym>FLJ90346</synonym>
+            <synonym>KIAA1533</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="57655">
             <synonym>KIAA1533</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000089351" />
@@ -349,12 +354,12 @@
               <coordinates coord_system="LRG_420" start="1" end="454" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>GRAM domain-containing protein 1A isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_065946.2" />
               <db_xref source="UniProtKB" accession="Q96CP6">
                 <synonym>A6NKY7</synonym>
                 <synonym>Q8NC77</synonym>
                 <synonym>Q9P1Z5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_065946.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000600231">
@@ -378,12 +383,12 @@
               <coordinates coord_system="LRG_420" start="1" end="454" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>GRAM domain-containing protein 1A isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001129671.1" />
               <db_xref source="UniProtKB" accession="Q96CP6">
                 <synonym>A6NKY7</synonym>
                 <synonym>Q8NC77</synonym>
                 <synonym>Q9P1Z5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001129671.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000598118">
@@ -411,11 +416,13 @@
           <symbol source="HGNC" name="SCN1B" />
           <coordinates coord_system="LRG_420" start="4997" end="14761" strand="1" mapped_from="GRCh37" />
           <long_name>sodium channel, voltage-gated, type I, beta subunit (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600235" />
+          <db_xref source="HGNC" accession="10586" />
           <db_xref source="GeneID" accession="6324">
+            <synonym>ATFB13</synonym>
+            <synonym>BRGDA5</synonym>
             <synonym>GEFSP1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="10586" />
-          <db_xref source="MIM" accession="600235" />
           <db_xref source="Ensembl" accession="ENSG00000105711" />
           <transcript source="Ensembl" accession="ENST00000262631">
             <coordinates coord_system="LRG_420" start="4997" end="14761" strand="1" mapped_from="GRCh37" />
@@ -443,11 +450,11 @@
             <protein_product source="Ensembl" accession="ENSP00000262631">
               <coordinates coord_system="LRG_420" start="5134" end="14014" strand="1" mapped_from="GRCh37" />
               <long_name>sodium channel subunit beta-1 isoform a precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001028.1" />
               <db_xref source="UniProtKB" accession="Q07699">
                 <synonym>Q5TZZ4</synonym>
                 <synonym>Q6TN97</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001028.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000595652">
@@ -492,11 +499,11 @@
             <protein_product source="Ensembl" accession="ENSP00000396915">
               <coordinates coord_system="LRG_420" start="5134" end="8411" strand="1" mapped_from="GRCh37" />
               <long_name>sodium channel subunit beta-1 isoform b precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_950238.1" />
               <db_xref source="UniProtKB" accession="Q07699">
                 <synonym>Q5TZZ4</synonym>
                 <synonym>Q6TN97</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_950238.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000596348">
@@ -547,13 +554,13 @@
           <coordinates coord_system="LRG_420" start="14819" end="16762" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>hepsin (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3249">
-            <synonym>TMPRSS1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="142440" />
           <db_xref source="HGNC" accession="5155">
             <synonym>TMPRSS1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="142440" />
+          <db_xref source="GeneID" accession="3249">
+            <synonym>TMPRSS1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000105707" />
           <transcript source="Ensembl" accession="ENST00000262626">
             <coordinates coord_system="LRG_420" start="14819" end="16762" strand="1" mapped_from="GRCh37" />
@@ -618,7 +625,7 @@
         <name>List of locus specific databases for SCN1B</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SCN1B</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

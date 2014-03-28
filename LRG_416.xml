@@ -74,9 +74,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="18" other_id="NC_000018.9" other_start="29166730" other_end="29180987">
         <mapping_span lrg_start="1" lrg_end="14258" other_start="29166730" other_end="29180987" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="18" other_id="NC_000018.10" other_start="31586767" other_end="31601024">
+        <mapping_span lrg_start="1" lrg_end="14258" other_start="31586767" other_end="31601024" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">TTR</lrg_locus>
     </annotation_set>
@@ -91,7 +94,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009490.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000371.3" other_name="NM_000371.3" other_id="NM_000371.3" other_start="1" other_end="929">
         <mapping_span lrg_start="5001" lrg_end="5205" other_start="1" other_end="205" strand="1" />
         <mapping_span lrg_start="6130" lrg_end="6260" other_start="206" other_end="336" strand="1" />
@@ -103,6 +106,7 @@
           <symbol source="HGNC" name="TTR">
             <synonym>CTS</synonym>
             <synonym>CTS1</synonym>
+            <synonym>HEL111</synonym>
             <synonym>HsT2651</synonym>
             <synonym>PALB</synonym>
             <synonym>TBPA</synonym>
@@ -138,6 +142,7 @@
               <long_name>prealbumin, amyloidosis type I</long_name>
               <long_name>thyroxine-binding prealbumin</long_name>
               <long_name>ATTR</long_name>
+              <long_name>epididymis luminal protein 111</long_name>
               <db_xref source="CCDS" accession="CCDS11899.1" />
               <db_xref source="GeneID" accession="7276" />
               <db_xref source="GI" accession="4507725" />
@@ -156,8 +161,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000237014.3" other_name="ENST00000237014.3" other_id="ENST00000237014.3" other_start="1" other_end="957">
         <mapping_span lrg_start="4960" lrg_end="5205" other_start="1" other_end="246" strand="1" />
         <mapping_span lrg_start="6130" lrg_end="6260" other_start="247" other_end="377" strand="1" />
@@ -178,18 +183,19 @@
           <symbol source="HGNC" name="TTR" />
           <coordinates coord_system="LRG_416" start="4960" end="12245" strand="1" mapped_from="GRCh37" />
           <long_name>transthyretin (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="7276">
-            <synonym>CTS</synonym>
-            <synonym>CTS1</synonym>
-            <synonym>HsT2651</synonym>
-            <synonym>PALB</synonym>
-            <synonym>TBPA</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="176300" />
           <db_xref source="HGNC" accession="12405">
             <synonym>HsT2651</synonym>
             <synonym>PALB</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="176300" />
+          <db_xref source="GeneID" accession="7276">
+            <synonym>CTS</synonym>
+            <synonym>CTS1</synonym>
+            <synonym>HEL111</synonym>
+            <synonym>HsT2651</synonym>
+            <synonym>PALB</synonym>
+            <synonym>TBPA</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000118271" />
           <transcript source="Ensembl" accession="ENST00000237014">
             <coordinates coord_system="LRG_416" start="4960" end="12245" strand="1" mapped_from="GRCh37" />
@@ -211,13 +217,13 @@
             <protein_product source="Ensembl" accession="ENSP00000237014">
               <coordinates coord_system="LRG_416" start="5137" end="11909" strand="1" mapped_from="GRCh37" />
               <long_name>transthyretin precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000362.1" />
               <db_xref source="UniProtKB" accession="P02766">
                 <synonym>Q549C7</synonym>
                 <synonym>Q6IB96</synonym>
                 <synonym>Q9UBZ6</synonym>
                 <synonym>Q9UCM9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000362.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000432547">
@@ -251,7 +257,7 @@
         <name>List of locus specific databases for TTR</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TTR</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

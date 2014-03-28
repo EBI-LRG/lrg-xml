@@ -67,9 +67,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_start="47244303" other_end="47282245">
         <mapping_span lrg_start="1" lrg_end="37943" other_start="47244303" other_end="47282245" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="19" other_id="NC_000019.10" other_start="46741046" other_end="46778988">
+        <mapping_span lrg_start="1" lrg_end="37943" other_start="46741046" other_end="46778988" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">FKRP</lrg_locus>
     </annotation_set>
@@ -84,7 +87,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008898.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001039885.2" other_name="NM_001039885.2" other_id="NM_001039885.2" other_start="1" other_end="3474">
         <mapping_span lrg_start="5001" lrg_end="5045" other_start="1" other_end="45" strand="1" />
         <mapping_span lrg_start="6982" lrg_end="7043" other_start="46" other_end="107" strand="1" />
@@ -353,8 +356,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000318584.5" other_name="ENST00000318584.5" other_id="ENST00000318584.5" other_start="1" other_end="3332">
         <mapping_span lrg_start="5001" lrg_end="5045" other_start="1" other_end="45" strand="1" />
         <mapping_span lrg_start="6982" lrg_end="7043" other_start="46" other_end="107" strand="1" />
@@ -524,15 +527,15 @@
           <coordinates coord_system="LRG_761" start="1" end="5949" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>striatin, calmodulin binding protein 4 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="29888">
-            <synonym>ZIN</synonym>
-            <synonym>zinedin</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="614767" />
           <db_xref source="HGNC" accession="15721">
             <synonym>ZIN</synonym>
             <synonym>zinedin</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="614767" />
+          <db_xref source="GeneID" accession="29888">
+            <synonym>ZIN</synonym>
+            <synonym>zinedin</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000090372" />
           <transcript source="Ensembl" accession="ENST00000263280">
             <coordinates coord_system="LRG_761" start="1" end="5435" strand="-1" mapped_from="GRCh37" />
@@ -547,12 +550,12 @@
             <protein_product source="Ensembl" accession="ENSP00000263280">
               <coordinates coord_system="LRG_761" start="1" end="5385" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
-              <long_name>striatin-4 isoform 1, striatin-4 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_037535.2" />
-              <db_xref source="RefSeq" accession="NP_001034966.1" />
+              <long_name>striatin-4 isoform 2, striatin-4 isoform 1</long_name>
               <db_xref source="UniProtKB" accession="Q9NRL3">
                 <synonym>Q8NE53</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001034966.1" />
+              <db_xref source="RefSeq" accession="NP_037535.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000391910">
@@ -639,6 +642,11 @@
           <symbol source="HGNC" name="FKRP" />
           <coordinates coord_system="LRG_761" start="5001" end="35943" strand="1" mapped_from="GRCh37" />
           <long_name>fukutin related protein (protein_coding)</long_name>
+          <db_xref source="MIM" accession="606596" />
+          <db_xref source="HGNC" accession="17997">
+            <synonym>LGMD2I</synonym>
+            <synonym>MDC1C</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="79147">
             <synonym>LGMD2I</synonym>
             <synonym>MDC1C</synonym>
@@ -646,11 +654,6 @@
             <synonym>MDDGB5</synonym>
             <synonym>MDDGC5</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="17997">
-            <synonym>LGMD2I</synonym>
-            <synonym>MDC1C</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="606596" />
           <db_xref source="Ensembl" accession="ENSG00000181027" />
           <transcript source="Ensembl" accession="ENST00000596974">
             <coordinates coord_system="LRG_761" start="5001" end="14747" strand="1" mapped_from="GRCh37" />
@@ -705,11 +708,11 @@
             <protein_product source="Ensembl" accession="ENSP00000326570">
               <coordinates coord_system="LRG_761" start="14406" end="15893" strand="1" mapped_from="GRCh37" />
               <long_name>fukutin-related protein, fukutin-related protein</long_name>
-              <db_xref source="RefSeq" accession="NP_077277.1" />
-              <db_xref source="RefSeq" accession="NP_001034974.1" />
               <db_xref source="UniProtKB" accession="Q9H9S5">
                 <synonym>A8K5G7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001034974.1" />
+              <db_xref source="RefSeq" accession="NP_077277.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000595570">
@@ -1163,6 +1166,15 @@
           <coordinates coord_system="LRG_761" start="33838" end="37943" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>solute carrier family 1 (neutral amino acid transporter), member 5 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="109190">
+            <synonym>600683</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="10943">
+            <synonym>AAAT</synonym>
+            <synonym>ASCT2</synonym>
+            <synonym>M7V1</synonym>
+            <synonym>RDRC</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="6510">
             <synonym>AAAT</synonym>
             <synonym>ASCT2</synonym>
@@ -1171,15 +1183,6 @@
             <synonym>M7VS1</synonym>
             <synonym>R16</synonym>
             <synonym>RDRC</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="10943">
-            <synonym>AAAT</synonym>
-            <synonym>ASCT2</synonym>
-            <synonym>M7V1</synonym>
-            <synonym>RDRC</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="109190">
-            <synonym>600683</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000105281" />
           <transcript source="Ensembl" accession="ENST00000542575">
@@ -1204,7 +1207,6 @@
               <coordinates coord_system="LRG_761" start="34465" end="37943" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>neutral amino acid transporter B(0) isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_005619.1" />
               <db_xref source="UniProtKB" accession="Q15758">
                 <synonym>A8K9H5</synonym>
                 <synonym>B4DR77</synonym>
@@ -1217,6 +1219,7 @@
                 <synonym>Q9BWQ3</synonym>
                 <synonym>Q9UNP2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_005619.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000434726">
@@ -1241,7 +1244,6 @@
               <coordinates coord_system="LRG_761" start="34465" end="37943" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>neutral amino acid transporter B(0) isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001138617.1" />
               <db_xref source="UniProtKB" accession="Q15758">
                 <synonym>A8K9H5</synonym>
                 <synonym>B4DR77</synonym>
@@ -1254,6 +1256,7 @@
                 <synonym>Q9BWQ3</synonym>
                 <synonym>Q9UNP2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001138617.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000594991">
@@ -1299,7 +1302,6 @@
               <coordinates coord_system="LRG_761" start="34465" end="37943" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>neutral amino acid transporter B(0) isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001138616.1" />
               <db_xref source="UniProtKB" accession="Q15758">
                 <synonym>A8K9H5</synonym>
                 <synonym>B4DR77</synonym>
@@ -1312,6 +1314,7 @@
                 <synonym>Q9BWQ3</synonym>
                 <synonym>Q9UNP2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001138616.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000593713">
@@ -1337,7 +1340,7 @@
         <name>List of locus specific databases for FKRP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FKRP</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

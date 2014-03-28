@@ -78,9 +78,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="20" other_id="NC_000020.10" other_start="56959245" other_end="57028157">
         <mapping_span lrg_start="1" lrg_end="68913" other_start="56959245" other_end="57028157" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="20" other_id="NC_000020.11" other_start="58384189" other_end="58453101">
+        <mapping_span lrg_start="1" lrg_end="68913" other_start="58384189" other_end="58453101" strand="1">
+          <diff type="mismatch" lrg_start="12359" lrg_end="12359" other_start="58396547" other_end="58396547" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">VAPB</lrg_locus>
     </annotation_set>
@@ -95,7 +100,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008073.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001195677.1" other_name="NM_001195677.1" other_id="NM_001195677.1" other_start="1" other_end="7577">
         <mapping_span lrg_start="4931" lrg_end="5329" other_start="1" other_end="399" strand="1" />
         <mapping_span lrg_start="34023" lrg_end="34175" other_start="400" other_end="552" strand="1" />
@@ -198,8 +203,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000265619.2" other_name="ENST00000265619.2" other_id="ENST00000265619.2" other_start="1" other_end="3596">
         <mapping_span lrg_start="5187" lrg_end="5329" other_start="1" other_end="143" strand="1" />
         <mapping_span lrg_start="5940" lrg_end="6152" other_start="144" other_end="356" strand="1" />
@@ -244,17 +249,17 @@
           <symbol source="HGNC" name="VAPB" />
           <coordinates coord_system="LRG_656" start="4934" end="66913" strand="1" mapped_from="GRCh37" />
           <long_name>VAMP (vesicle-associated membrane protein)-associated protein B and C (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="9217">
-            <synonym>ALS8</synonym>
-            <synonym>VAMP-B</synonym>
-            <synonym>VAP-B</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="605704" />
           <db_xref source="HGNC" accession="12649">
             <synonym>ALS8</synonym>
             <synonym>VAP-B</synonym>
             <synonym>VAP-C</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="605704" />
+          <db_xref source="GeneID" accession="9217">
+            <synonym>ALS8</synonym>
+            <synonym>VAMP-B</synonym>
+            <synonym>VAP-B</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000124164" />
           <transcript source="Ensembl" accession="ENST00000475243">
             <coordinates coord_system="LRG_656" start="4934" end="66913" strand="1" mapped_from="GRCh37" />
@@ -282,12 +287,12 @@
             <protein_product source="Ensembl" accession="ENSP00000417175">
               <coordinates coord_system="LRG_656" start="5272" end="60047" strand="1" mapped_from="GRCh37" />
               <long_name>vesicle-associated membrane protein-associated protein B/C isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_004729.1" />
               <db_xref source="UniProtKB" accession="O95292">
                 <synonym>A2A2F2</synonym>
                 <synonym>O95293</synonym>
                 <synonym>Q9P0H0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004729.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000395802">
@@ -307,12 +312,12 @@
             <protein_product source="Ensembl" accession="ENSP00000379147">
               <coordinates coord_system="LRG_656" start="5272" end="59977" strand="1" mapped_from="GRCh37" />
               <long_name>vesicle-associated membrane protein-associated protein B/C isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001182606.1" />
               <db_xref source="UniProtKB" accession="O95292">
                 <synonym>A2A2F2</synonym>
                 <synonym>O95293</synonym>
                 <synonym>Q9P0H0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001182606.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000520497">
@@ -396,7 +401,7 @@
         <name>List of locus specific databases for VAPB</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/VAPB</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

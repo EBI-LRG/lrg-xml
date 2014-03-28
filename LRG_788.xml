@@ -160,11 +160,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-11-29</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="8" other_id="NC_000008.10" other_start="103214729" other_end="103256346">
         <mapping_span lrg_start="1" lrg_end="41618" other_start="103214729" other_end="103256346" strand="-1">
           <diff type="mismatch" lrg_start="35996" lrg_end="35996" other_start="103220351" other_end="103220351" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="8" other_id="NC_000008.11" other_start="102202501" other_end="102244118">
+        <mapping_span lrg_start="1" lrg_end="41618" other_start="102202501" other_end="102244118" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">RRM2B</lrg_locus>
     </annotation_set>
@@ -179,7 +182,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_016617.1</comment>
-      <modification_date>2013-11-29</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001172477.1" other_name="NM_001172477.1" other_id="NM_001172477.1" other_start="1" other_end="4913">
         <mapping_span lrg_start="5288" lrg_end="5560" other_start="1" other_end="273" strand="1" />
         <mapping_span lrg_start="11815" lrg_end="11970" other_start="274" other_end="429" strand="1" />
@@ -366,8 +369,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-11-29</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000251810.3" other_name="ENST00000251810.3" other_id="ENST00000251810.3" other_start="1" other_end="4931">
         <mapping_span lrg_start="5001" lrg_end="5292" other_start="1" other_end="292" strand="1" />
         <mapping_span lrg_start="11815" lrg_end="11970" other_start="293" other_end="448" strand="1" />
@@ -474,13 +477,14 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000253328">
-          <symbol source="Clone_based_vega_gene" name="KB-431C1.3" />
+          <symbol source="HGNC" name="SUMO2P19" />
           <coordinates coord_system="LRG_788" start="1500" end="2079" strand="1" mapped_from="GRCh37" />
-          <long_name>KB-431C1.3 (pseudogene)</long_name>
+          <long_name>SUMO2 pseudogene 19 (pseudogene)</long_name>
+          <db_xref source="HGNC" accession="49357" />
           <db_xref source="Ensembl" accession="ENSG00000253328" />
           <transcript source="Ensembl" accession="ENST00000518920">
             <coordinates coord_system="LRG_788" start="1500" end="2079" strand="1" mapped_from="GRCh37" />
-            <long_name>KB-431C1.3-001 (unprocessed_pseudogene)</long_name>
+            <long_name>SUMO2P19-001 (unprocessed_pseudogene)</long_name>
             <exon source="Ensembl" accession="ENSE00002097503">
               <coordinates coord_system="LRG_788" start="1500" end="1607" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -493,15 +497,15 @@
           <symbol source="HGNC" name="RRM2B" />
           <coordinates coord_system="LRG_788" start="5001" end="39617" strand="1" mapped_from="GRCh37" />
           <long_name>ribonucleotide reductase M2 B (TP53 inducible) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="604712" />
+          <db_xref source="HGNC" accession="17296">
+            <synonym>p53R2</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="50484">
             <synonym>MTDPS8A</synonym>
             <synonym>MTDPS8B</synonym>
             <synonym>P53R2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="17296">
-            <synonym>p53R2</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="604712" />
           <db_xref source="Ensembl" accession="ENSG00000048392" />
           <transcript source="Ensembl" accession="ENST00000251810">
             <coordinates coord_system="LRG_788" start="5001" end="39617" strand="1" mapped_from="GRCh37" />
@@ -538,9 +542,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000251810">
               <coordinates coord_system="LRG_788" start="5245" end="35986" strand="1" mapped_from="GRCh37" />
-              <long_name>ribonucleoside-diphosphate reductase subunit M2 B isoform 1, ribonucleoside-diphosphate reductase subunit M2 B isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_056528.2" />
-              <db_xref source="RefSeq" accession="NP_001165949.1" />
+              <long_name>ribonucleoside-diphosphate reductase subunit M2 B isoform 3, ribonucleoside-diphosphate reductase subunit M2 B isoform 1</long_name>
               <db_xref source="UniProtKB" accession="Q7LG56">
                 <synonym>Q17R22</synonym>
                 <synonym>Q75PQ6</synonym>
@@ -552,6 +554,8 @@
                 <synonym>Q9NTD8</synonym>
                 <synonym>Q9NUW3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001165949.1" />
+              <db_xref source="RefSeq" accession="NP_056528.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000523957">
@@ -787,7 +791,7 @@
         <name>List of locus specific databases for RRM2B</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RRM2B</url>
       </source>
-      <modification_date>2013-11-29</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

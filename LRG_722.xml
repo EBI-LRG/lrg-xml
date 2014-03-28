@@ -234,11 +234,18 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_start="97541299" other_end="98391615">
         <mapping_span lrg_start="1" lrg_end="850317" other_start="97541299" other_end="98391615" strand="-1">
           <diff type="mismatch" lrg_start="42731" lrg_end="42731" other_start="98348885" other_end="98348885" lrg_sequence="T" other_sequence="C" />
           <diff type="mismatch" lrg_start="205539" lrg_end="205539" other_start="98186077" other_end="98186077" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_start="97075743" other_end="97926059">
+        <mapping_span lrg_start="1" lrg_end="850317" other_start="97075743" other_end="97926059" strand="-1">
+          <diff type="mismatch" lrg_start="205539" lrg_end="205539" other_start="97720521" other_end="97720521" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="597252" lrg_end="597252" other_start="97328808" other_end="97328808" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="819782" lrg_end="819782" other_start="97106278" other_end="97106278" lrg_sequence="T" other_sequence="C" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">DPYD</lrg_locus>
@@ -254,7 +261,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008807.2</comment>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000110.3" other_name="NM_000110.3" other_id="NM_000110.3" other_start="1" other_end="4448">
         <mapping_span lrg_start="5001" lrg_end="5176" other_start="1" other_end="176" strand="1" />
         <mapping_span lrg_start="42686" lrg_end="42796" other_start="177" other_end="287" strand="1" />
@@ -485,8 +492,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-28</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000306031.5" other_name="ENST00000306031.5" other_id="ENST00000306031.5" other_start="1" other_end="1779">
         <mapping_span lrg_start="5011" lrg_end="5176" other_start="1" other_end="166" strand="1" />
         <mapping_span lrg_start="42686" lrg_end="42796" other_start="167" other_end="277" strand="1">
@@ -553,15 +560,15 @@
           <symbol source="HGNC" name="DPYD" />
           <coordinates coord_system="LRG_722" start="5011" end="848317" strand="1" mapped_from="GRCh37" />
           <long_name>dihydropyrimidine dehydrogenase (protein_coding)</long_name>
+          <db_xref source="MIM" accession="612779" />
+          <db_xref source="HGNC" accession="3012">
+            <synonym>DPD</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="1806">
             <synonym>DHP</synonym>
             <synonym>DHPDHASE</synonym>
             <synonym>DPD</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3012">
-            <synonym>DPD</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="612779" />
           <db_xref source="Ensembl" accession="ENSG00000188641" />
           <transcript source="Ensembl" accession="ENST00000306031">
             <coordinates coord_system="LRG_722" start="5011" end="206302" strand="1" mapped_from="GRCh37" />
@@ -669,7 +676,6 @@
             <protein_product source="Ensembl" accession="ENSP00000359211">
               <coordinates coord_system="LRG_722" start="5138" end="847084" strand="1" mapped_from="GRCh37" />
               <long_name>dihydropyrimidine dehydrogenase</long_name>
-              <db_xref source="RefSeq" accession="NP_000101.2" />
               <db_xref source="UniProtKB" accession="Q12882">
                 <synonym>A2RRQ2</synonym>
                 <synonym>A2RRQ3</synonym>
@@ -683,6 +689,7 @@
                 <synonym>Q96HL6</synonym>
                 <synonym>Q96TH1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000101.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000460019">
@@ -761,10 +768,12 @@
           <coordinates coord_system="LRG_722" start="127994" end="129139" strand="-1" mapped_from="GRCh37" />
           <long_name>DPYD antisense RNA 2 (antisense)</long_name>
           <db_xref source="HGNC" accession="40196" />
+          <db_xref source="GeneID" accession="100873933" />
           <db_xref source="Ensembl" accession="ENSG00000235777" />
           <transcript source="Ensembl" accession="ENST00000422259">
             <coordinates coord_system="LRG_722" start="127994" end="129095" strand="-1" mapped_from="GRCh37" />
             <long_name>DPYD-AS2-002 (antisense)</long_name>
+            <db_xref source="RefSeq" accession="NR_046591.1" />
             <exon source="Ensembl" accession="ENSE00001597495">
               <coordinates coord_system="LRG_722" start="128988" end="129095" strand="-1" mapped_from="GRCh37" />
             </exon>
@@ -848,8 +857,10 @@
           <symbol source="HGNC" name="DPYD-AS1" />
           <coordinates coord_system="LRG_722" start="603105" end="830137" strand="-1" mapped_from="GRCh37" />
           <long_name>DPYD antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100873932" />
           <db_xref source="HGNC" accession="40195" />
+          <db_xref source="GeneID" accession="100873932">
+            <synonym>RP11-526F14.1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000232878" />
           <transcript source="Ensembl" accession="ENST00000422980">
             <coordinates coord_system="LRG_722" start="603105" end="830137" strand="-1" mapped_from="GRCh37" />
@@ -879,7 +890,7 @@
         <name>List of locus specific databases for DPYD</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DPYD</url>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

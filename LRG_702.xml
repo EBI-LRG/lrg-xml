@@ -80,9 +80,17 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="18647644" other_end="18700568">
         <mapping_span lrg_start="1" lrg_end="52925" other_start="18647644" other_end="18700568" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="X" other_id="NC_000023.11" other_start="18629524" other_end="18682449">
+        <mapping_span lrg_start="1" lrg_end="52925" other_start="18629524" other_end="18682449" strand="-1">
+          <diff type="mismatch" lrg_start="2460" lrg_end="2460" other_start="18679990" other_end="18679990" lrg_sequence="G" other_sequence="T" />
+          <diff type="mismatch" lrg_start="2528" lrg_end="2528" other_start="18679922" other_end="18679922" lrg_sequence="A" other_sequence="G" />
+          <diff type="other_ins" lrg_start="5779" lrg_end="5780" other_start="18676670" other_end="18676670" lrg_sequence="-" other_sequence="T" />
+          <diff type="mismatch" lrg_start="14261" lrg_end="14261" other_start="18668188" other_end="18668188" lrg_sequence="T" other_sequence="C" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">RS1</lrg_locus>
     </annotation_set>
@@ -97,7 +105,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008659.3</comment>
-      <modification_date>2014-01-16</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000330.3" other_name="NM_000330.3" other_id="NM_000330.3" other_start="1" other_end="3026">
         <mapping_span lrg_start="10346" lrg_end="10432" other_start="1" other_end="87" strand="1" />
         <mapping_span lrg_start="24784" lrg_end="24809" other_start="88" other_end="113" strand="1" />
@@ -233,8 +241,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-17</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000379984.3" other_name="ENST00000379984.3" other_id="ENST00000379984.3" other_start="1" other_end="2810">
         <mapping_span lrg_start="10340" lrg_end="10432" other_start="1" other_end="93" strand="1" />
         <mapping_span lrg_start="24784" lrg_end="24809" other_start="94" other_end="119" strand="1" />
@@ -256,17 +264,17 @@
           <coordinates coord_system="LRG_702" start="1" end="6540" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>protein phosphatase, EF-hand calcium binding domain 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="300109" />
+          <db_xref source="HGNC" accession="9243">
+            <synonym>PPEF</synonym>
+            <synonym>PPP7CA</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5475">
             <synonym>PP7</synonym>
             <synonym>PPEF</synonym>
             <synonym>PPP7C</synonym>
             <synonym>PPP7CA</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9243">
-            <synonym>PPEF</synonym>
-            <synonym>PPP7CA</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="300109" />
           <db_xref source="Ensembl" accession="ENSG00000086717" />
           <transcript source="Ensembl" accession="ENST00000486029">
             <coordinates coord_system="LRG_702" start="1" end="6540" strand="-1" mapped_from="GRCh37" />
@@ -281,15 +289,15 @@
           <symbol source="HGNC" name="RS1" />
           <coordinates coord_system="LRG_702" start="10340" end="42539" strand="1" mapped_from="GRCh37" />
           <long_name>retinoschisin 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6247">
-            <synonym>RS</synonym>
-            <synonym>XLRS1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="300839" />
           <db_xref source="HGNC" accession="10457">
             <synonym>RS</synonym>
             <synonym>XLRS1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="300839" />
+          <db_xref source="GeneID" accession="6247">
+            <synonym>RS</synonym>
+            <synonym>XLRS1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000102104" />
           <transcript source="Ensembl" accession="ENST00000379984">
             <coordinates coord_system="LRG_702" start="10340" end="42539" strand="1" mapped_from="GRCh37" />
@@ -317,8 +325,8 @@
             <protein_product source="Ensembl" accession="ENSP00000369320">
               <coordinates coord_system="LRG_702" start="10381" end="40445" strand="1" mapped_from="GRCh37" />
               <long_name>retinoschisin precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000321.1" />
               <db_xref source="UniProtKB" accession="O15537" />
+              <db_xref source="RefSeq" accession="NP_000321.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000476595">
@@ -346,16 +354,16 @@
           <coordinates coord_system="LRG_702" start="28820" end="52925" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>cyclin-dependent kinase-like 5 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="300203" />
+          <db_xref source="HGNC" accession="11411">
+            <synonym>EIEE2</synonym>
+            <synonym>STK9</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="6792">
             <synonym>EIEE2</synonym>
             <synonym>ISSX</synonym>
             <synonym>STK9</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11411">
-            <synonym>EIEE2</synonym>
-            <synonym>STK9</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="300203" />
           <db_xref source="Ensembl" accession="ENSG00000008086" />
           <transcript source="Ensembl" accession="ENST00000379996">
             <coordinates coord_system="LRG_702" start="28820" end="52925" strand="-1" mapped_from="GRCh37" />
@@ -376,7 +384,6 @@
               <coordinates coord_system="LRG_702" start="28905" end="52925" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>cyclin-dependent kinase-like 5</long_name>
-              <db_xref source="RefSeq" accession="NP_003150.1" />
               <db_xref source="UniProtKB" accession="O76039">
                 <synonym>G9B9X4</synonym>
                 <synonym>Q14198</synonym>
@@ -384,6 +391,7 @@
                 <synonym>Q8IYC7</synonym>
                 <synonym>Q9UJL6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003150.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000379989">
@@ -405,7 +413,6 @@
               <coordinates coord_system="LRG_702" start="28905" end="52925" strand="-1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>cyclin-dependent kinase-like 5</long_name>
-              <db_xref source="RefSeq" accession="NP_001032420.1" />
               <db_xref source="UniProtKB" accession="O76039">
                 <synonym>G9B9X4</synonym>
                 <synonym>Q14198</synonym>
@@ -413,6 +420,7 @@
                 <synonym>Q8IYC7</synonym>
                 <synonym>Q9UJL6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001032420.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -423,7 +431,7 @@
         <name>List of locus specific databases for RS1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RS1</url>
       </source>
-      <modification_date>2014-01-17</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

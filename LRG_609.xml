@@ -96,9 +96,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_start="11797788" other_end="12050336">
         <mapping_span lrg_start="1" lrg_end="252549" other_start="11797788" other_end="12050336" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="12" other_id="NC_000012.12" other_start="11644854" other_end="11897402">
+        <mapping_span lrg_start="1" lrg_end="252549" other_start="11644854" other_end="11897402" strand="1">
+          <diff type="mismatch" lrg_start="9880" lrg_end="9880" other_start="11654733" other_end="11654733" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">ETV6</lrg_locus>
     </annotation_set>
@@ -113,7 +118,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011443.1</comment>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001987.4" other_name="NM_001987.4" other_id="NM_001987.4" other_start="1" other_end="5989">
         <mapping_span lrg_start="5001" lrg_end="5307" other_start="1" other_end="307" strand="1" />
         <mapping_span lrg_start="107597" lrg_end="107726" other_start="308" other_end="437" strand="1" />
@@ -191,8 +196,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-28</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000266427.3" other_name="ENST00000266427.3" other_id="ENST00000266427.3" other_start="1" other_end="160">
         <mapping_span lrg_start="241084" lrg_end="241173" other_start="1" other_end="90" strand="1" />
         <mapping_span lrg_start="246688" lrg_end="246757" other_start="91" other_end="160" strand="1" />
@@ -228,14 +233,14 @@
           <symbol source="HGNC" name="ETV6" />
           <coordinates coord_system="LRG_609" start="5001" end="250549" strand="1" mapped_from="GRCh37" />
           <long_name>ets variant 6 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="600618" />
+          <db_xref source="HGNC" accession="3495">
+            <synonym>TEL</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2120">
             <synonym>TEL</synonym>
             <synonym>TEL/ABL</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3495">
-            <synonym>TEL</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="600618" />
           <db_xref source="Ensembl" accession="ENSG00000139083" />
           <transcript source="Ensembl" accession="ENST00000396373">
             <coordinates coord_system="LRG_609" start="5001" end="250549" strand="1" mapped_from="GRCh37" />
@@ -269,7 +274,6 @@
             <protein_product source="Ensembl" accession="ENSP00000379658">
               <coordinates coord_system="LRG_609" start="5275" end="246193" strand="1" mapped_from="GRCh37" />
               <long_name>transcription factor ETV6</long_name>
-              <db_xref source="RefSeq" accession="NP_001978.1" />
               <db_xref source="UniProtKB" accession="P41212">
                 <synonym>A3QVP6</synonym>
                 <synonym>A8K076</synonym>
@@ -277,6 +281,7 @@
                 <synonym>Q9UMF7</synonym>
                 <synonym>Q9UMG0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001978.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000541426">
@@ -345,7 +350,7 @@
         <name>List of locus specific databases for ETV6</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ETV6</url>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

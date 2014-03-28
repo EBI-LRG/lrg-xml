@@ -101,9 +101,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_start="27408723" other_end="27464115">
         <mapping_span lrg_start="1" lrg_end="55393" other_start="27408723" other_end="27464115" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="16" other_id="NC_000016.10" other_start="27397402" other_end="27452794">
+        <mapping_span lrg_start="1" lrg_end="55393" other_start="27397402" other_end="27452794" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">IL21R</lrg_locus>
     </annotation_set>
@@ -118,7 +121,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012222.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_021798.3" other_name="NM_021798.3" other_id="NM_021798.3" other_start="1" other_end="4496">
         <mapping_span lrg_start="29857" lrg_end="29960" other_start="1" other_end="104" strand="1" />
         <mapping_span lrg_start="32655" lrg_end="32719" other_start="105" other_end="169" strand="1" />
@@ -303,8 +306,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000337929.3" other_name="ENST00000337929.3" other_id="ENST00000337929.3" other_start="1" other_end="3365">
         <mapping_span lrg_start="4761" lrg_end="5217" other_start="1" other_end="457" strand="1" />
         <mapping_span lrg_start="32655" lrg_end="32719" other_start="458" other_end="522" strand="1" />
@@ -366,14 +369,14 @@
           <symbol source="HGNC" name="IL21R" />
           <coordinates coord_system="LRG_731" start="4761" end="53393" strand="1" mapped_from="GRCh37" />
           <long_name>interleukin 21 receptor (protein_coding)</long_name>
+          <db_xref source="MIM" accession="605383" />
+          <db_xref source="HGNC" accession="6006">
+            <synonym>CD360</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="50615">
             <synonym>CD360</synonym>
             <synonym>NILR</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6006">
-            <synonym>CD360</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="605383" />
           <db_xref source="Ensembl" accession="ENSG00000103522" />
           <transcript source="Ensembl" accession="ENST00000337929">
             <coordinates coord_system="LRG_731" start="4761" end="53157" strand="1" mapped_from="GRCh37" />
@@ -410,13 +413,13 @@
             <protein_product source="Ensembl" accession="ENSP00000338010">
               <coordinates coord_system="LRG_731" start="32671" end="51882" strand="1" mapped_from="GRCh37" />
               <long_name>interleukin-21 receptor isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_851564.1" />
               <db_xref source="UniProtKB" accession="Q9HBE5">
                 <synonym>A8K9E8</synonym>
                 <synonym>D3DWF7</synonym>
                 <synonym>Q96HZ1</synonym>
                 <synonym>Q9HB91</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_851564.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000564089">
@@ -457,13 +460,13 @@
             <protein_product source="Ensembl" accession="ENSP00000456707">
               <coordinates coord_system="LRG_731" start="32671" end="51882" strand="1" mapped_from="GRCh37" />
               <long_name>interleukin-21 receptor isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_851565.4" />
               <db_xref source="UniProtKB" accession="Q9HBE5">
                 <synonym>A8K9E8</synonym>
                 <synonym>D3DWF7</synonym>
                 <synonym>Q96HZ1</synonym>
                 <synonym>Q9HB91</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_851565.4" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000395755">
@@ -542,13 +545,13 @@
             <protein_product source="Ensembl" accession="ENSP00000379103">
               <coordinates coord_system="LRG_731" start="32671" end="51882" strand="1" mapped_from="GRCh37" />
               <long_name>interleukin-21 receptor isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_068570.1" />
               <db_xref source="UniProtKB" accession="Q9HBE5">
                 <synonym>A8K9E8</synonym>
                 <synonym>D3DWF7</synonym>
                 <synonym>Q96HZ1</synonym>
                 <synonym>Q9HB91</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_068570.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000561953">
@@ -586,8 +589,10 @@
           <coordinates coord_system="LRG_731" start="50268" end="55393" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>IL21R antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="283888" />
           <db_xref source="HGNC" accession="27551" />
+          <db_xref source="GeneID" accession="283888">
+            <synonym>AC002303.5</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000259954" />
           <transcript source="Ensembl" accession="ENST00000563191">
             <coordinates coord_system="LRG_731" start="50268" end="55393" strand="-1" mapped_from="GRCh37" />
@@ -610,7 +615,7 @@
         <name>List of locus specific databases for IL21R</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/IL21R</url>
       </source>
-      <modification_date>2013-12-06</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

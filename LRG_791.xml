@@ -61,9 +61,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-12-18</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_start="35768410" other_end="35778046">
         <mapping_span lrg_start="1" lrg_end="9637" other_start="35768410" other_end="35778046" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="19" other_id="NC_000019.10" other_start="35277507" other_end="35287143">
+        <mapping_span lrg_start="1" lrg_end="9637" other_start="35277507" other_end="35287143" strand="1">
+          <diff type="mismatch" lrg_start="8667" lrg_end="8667" other_start="35286173" other_end="35286173" lrg_sequence="G" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">HAMP</lrg_locus>
     </annotation_set>
@@ -78,7 +83,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011563.1</comment>
-      <modification_date>2013-12-18</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_021175.2" other_name="NM_021175.2" other_id="NM_021175.2" other_start="1" other_end="427">
         <mapping_span lrg_start="5001" lrg_end="5161" other_start="1" other_end="161" strand="1" />
         <mapping_span lrg_start="7283" lrg_end="7342" other_start="162" other_end="221" strand="1" />
@@ -208,8 +213,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-12-18</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000222304.3" other_name="ENST00000222304.3" other_id="ENST00000222304.3" other_start="1" other_end="558">
         <mapping_span lrg_start="4840" lrg_end="5161" other_start="1" other_end="322" strand="1" />
         <mapping_span lrg_start="7283" lrg_end="7342" other_start="323" other_end="382" strand="1" />
@@ -227,18 +232,18 @@
       <features>
         <gene source="Ensembl" accession="ENSG00000105698">
           <symbol source="HGNC" name="USF2" />
-          <coordinates coord_system="LRG_791" start="1" end="2309" strand="1" mapped_from="GRCh37" />
+          <coordinates coord_system="LRG_791" start="1" end="2315" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>upstream transcription factor 2, c-fos interacting (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="7392">
-            <synonym>bHLHb12</synonym>
-            <synonym>FIP</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="600390" />
           <db_xref source="HGNC" accession="12594">
             <synonym>bHLHb12</synonym>
             <synonym>FIP</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="600390" />
+          <db_xref source="GeneID" accession="7392">
+            <synonym>bHLHb12</synonym>
+            <synonym>FIP</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000105698" />
           <transcript source="Ensembl" accession="ENST00000343550">
             <coordinates coord_system="LRG_791" start="1" end="2309" strand="1" mapped_from="GRCh37" />
@@ -259,7 +264,6 @@
               <coordinates coord_system="LRG_791" start="1" end="1750" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>upstream stimulatory factor 2 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_997174.1" />
               <db_xref source="UniProtKB" accession="Q15853">
                 <synonym>O00671</synonym>
                 <synonym>O00709</synonym>
@@ -268,7 +272,9 @@
                 <synonym>Q15851</synonym>
                 <synonym>Q15852</synonym>
                 <synonym>Q6FI33</synonym>
+                <synonym>Q6YI47</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_997174.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000222305">
@@ -290,7 +296,6 @@
               <coordinates coord_system="LRG_791" start="1" end="1750" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>upstream stimulatory factor 2 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_003358.1" />
               <db_xref source="UniProtKB" accession="Q15853">
                 <synonym>O00671</synonym>
                 <synonym>O00709</synonym>
@@ -299,7 +304,9 @@
                 <synonym>Q15851</synonym>
                 <synonym>Q15852</synonym>
                 <synonym>Q6FI33</synonym>
+                <synonym>Q6YI47</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003358.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000595068">
@@ -326,6 +333,7 @@
                 <synonym>Q15851</synonym>
                 <synonym>Q15852</synonym>
                 <synonym>Q6FI33</synonym>
+                <synonym>Q6YI47</synonym>
               </db_xref>
             </protein_product>
           </transcript>
@@ -345,6 +353,16 @@
             <protein_product source="Ensembl" accession="ENSP00000368429">
               <coordinates coord_system="LRG_791" start="1" end="1750" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
+              <db_xref source="UniProtKB" accession="Q15853">
+                <synonym>O00671</synonym>
+                <synonym>O00709</synonym>
+                <synonym>Q05750</synonym>
+                <synonym>Q07952</synonym>
+                <synonym>Q15851</synonym>
+                <synonym>Q15852</synonym>
+                <synonym>Q6FI33</synonym>
+                <synonym>Q6YI47</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000594064">
@@ -361,6 +379,20 @@
               <coordinates coord_system="LRG_791" start="1" end="1673" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000607959">
+            <coordinates coord_system="LRG_791" start="1" end="2315" strand="1" mapped_from="GRCh37" />
+            <partial>5-prime</partial>
+            <long_name>USF2-017 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003544269">
+              <coordinates coord_system="LRG_791" start="1192" end="1286" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003561840">
+              <coordinates coord_system="LRG_791" start="1440" end="1568" strand="1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003708603">
+              <coordinates coord_system="LRG_791" start="1661" end="2315" strand="1" mapped_from="GRCh37" />
+            </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000596380">
             <coordinates coord_system="LRG_791" start="1" end="1259" strand="1" mapped_from="GRCh37" />
@@ -459,19 +491,19 @@
           <symbol source="HGNC" name="HAMP" />
           <coordinates coord_system="LRG_791" start="3210" end="7637" strand="1" mapped_from="GRCh37" />
           <long_name>hepcidin antimicrobial peptide (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="57817">
-            <synonym>HEPC</synonym>
-            <synonym>HFE2B</synonym>
-            <synonym>LEAP1</synonym>
-            <synonym>PLTR</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606464" />
           <db_xref source="HGNC" accession="15598">
             <synonym>HEPC</synonym>
             <synonym>HFE2B</synonym>
             <synonym>LEAP-1</synonym>
             <synonym>LEAP1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="606464" />
+          <db_xref source="GeneID" accession="57817">
+            <synonym>HEPC</synonym>
+            <synonym>HFE2B</synonym>
+            <synonym>LEAP1</synonym>
+            <synonym>PLTR</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000105697" />
           <transcript source="Ensembl" accession="ENST00000598398">
             <coordinates coord_system="LRG_791" start="3210" end="7637" strand="1" mapped_from="GRCh37" />
@@ -493,11 +525,11 @@
             <protein_product source="Ensembl" accession="ENSP00000471894">
               <coordinates coord_system="LRG_791" start="5072" end="7536" strand="1" mapped_from="GRCh37" />
               <long_name>hepcidin preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_066998.1" />
               <db_xref source="UniProtKB" accession="P81172">
                 <synonym>Q1HE14</synonym>
                 <synonym>Q9BY68</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_066998.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000222304">
@@ -536,7 +568,7 @@
         <name>List of locus specific databases for HAMP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HAMP</url>
       </source>
-      <modification_date>2013-12-18</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

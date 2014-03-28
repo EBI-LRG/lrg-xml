@@ -234,9 +234,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_start="74586282" other_end="74624214">
         <mapping_span lrg_start="1" lrg_end="37933" other_start="74586282" other_end="74624214" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_start="74359155" other_end="74397087">
+        <mapping_span lrg_start="1" lrg_end="37933" other_start="74359155" other_end="74397087" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">DCTN1</lrg_locus>
     </annotation_set>
@@ -251,7 +254,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008735.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001135040.2" other_name="NM_001135040.2" other_id="NM_001135040.2" other_start="1" other_end="4425">
         <mapping_span lrg_start="16733" lrg_end="17083" other_start="1" other_end="351" strand="1" />
         <mapping_span lrg_start="18843" lrg_end="19088" other_start="352" other_end="597" strand="1" />
@@ -467,7 +470,9 @@
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="100189589">
-          <symbol source="HGNC" name="DCTN1-AS1" />
+          <symbol source="HGNC" name="DCTN1-AS1">
+            <synonym>AC005041.9</synonym>
+          </symbol>
           <coordinates coord_system="LRG_237" start="3207" end="11370" strand="-1" />
           <partial>3-prime</partial>
           <long_name>DCTN1 antisense RNA 1</long_name>
@@ -1120,8 +1125,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000361874.3" other_name="ENST00000361874.3" other_id="ENST00000361874.3" other_start="1" other_end="4500">
         <mapping_span lrg_start="16733" lrg_end="17083" other_start="1" other_end="351" strand="1" />
         <mapping_span lrg_start="18843" lrg_end="19088" other_start="352" other_end="597" strand="1" />
@@ -1492,8 +1497,10 @@
           <symbol source="HGNC" name="DCTN1-AS1" />
           <coordinates coord_system="LRG_237" start="3206" end="11602" strand="-1" mapped_from="GRCh37" />
           <long_name>DCTN1 antisense RNA 1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="100189589" />
           <db_xref source="HGNC" accession="44151" />
+          <db_xref source="GeneID" accession="100189589">
+            <synonym>AC005041.9</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000237737" />
           <transcript source="Ensembl" accession="ENST00000437991">
             <coordinates coord_system="LRG_237" start="3206" end="11370" strand="-1" mapped_from="GRCh37" />
@@ -1579,13 +1586,13 @@
           <symbol source="HGNC" name="DCTN1" />
           <coordinates coord_system="LRG_237" start="5001" end="35934" strand="1" mapped_from="GRCh37" />
           <long_name>dynactin 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="601143" />
+          <db_xref source="HGNC" accession="2711" />
           <db_xref source="GeneID" accession="1639">
             <synonym>DAP-150</synonym>
             <synonym>DP-150</synonym>
             <synonym>P135</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="2711" />
-          <db_xref source="MIM" accession="601143" />
           <db_xref source="Ensembl" accession="ENSG00000204843" />
           <transcript source="Ensembl" accession="ENST00000409240">
             <coordinates coord_system="LRG_237" start="5001" end="35931" strand="1" mapped_from="GRCh37" />
@@ -1679,7 +1686,6 @@
             <protein_product source="Ensembl" accession="ENSP00000386406">
               <coordinates coord_system="LRG_237" start="18861" end="35589" strand="1" mapped_from="GRCh37" />
               <long_name>dynactin subunit 1 isoform 5</long_name>
-              <db_xref source="RefSeq" accession="NP_001177765.1" />
               <db_xref source="UniProtKB" accession="Q14203">
                 <synonym>A8MY36</synonym>
                 <synonym>B4DM45</synonym>
@@ -1692,6 +1698,7 @@
                 <synonym>Q9UIU1</synonym>
                 <synonym>Q9UIU2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001177765.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000440727">
@@ -2106,7 +2113,6 @@
             <protein_product source="Ensembl" accession="ENSP00000354791">
               <coordinates coord_system="LRG_237" start="17051" end="35589" strand="1" mapped_from="GRCh37" />
               <long_name>dynactin subunit 1 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_004073.2" />
               <db_xref source="UniProtKB" accession="Q14203">
                 <synonym>A8MY36</synonym>
                 <synonym>B4DM45</synonym>
@@ -2119,6 +2125,7 @@
                 <synonym>Q9UIU1</synonym>
                 <synonym>Q9UIU2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004073.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000394003">
@@ -2222,7 +2229,6 @@
             <protein_product source="Ensembl" accession="ENSP00000377571">
               <coordinates coord_system="LRG_237" start="17051" end="35589" strand="1" mapped_from="GRCh37" />
               <long_name>dynactin subunit 1 isoform 6</long_name>
-              <db_xref source="RefSeq" accession="NP_001177766.1" />
               <db_xref source="UniProtKB" accession="Q14203">
                 <synonym>A8MY36</synonym>
                 <synonym>B4DM45</synonym>
@@ -2235,6 +2241,7 @@
                 <synonym>Q9UIU1</synonym>
                 <synonym>Q9UIU2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001177766.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000454119">
@@ -2351,7 +2358,6 @@
             <protein_product source="Ensembl" accession="ENSP00000386843">
               <coordinates coord_system="LRG_237" start="17051" end="35589" strand="1" mapped_from="GRCh37" />
               <long_name>dynactin subunit 1 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001128512.1" />
               <db_xref source="UniProtKB" accession="Q14203">
                 <synonym>A8MY36</synonym>
                 <synonym>B4DM45</synonym>
@@ -2364,6 +2370,7 @@
                 <synonym>Q9UIU1</synonym>
                 <synonym>Q9UIU2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001128512.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000413111">
@@ -2468,7 +2475,6 @@
             <protein_product source="Ensembl" accession="ENSP00000387270">
               <coordinates coord_system="LRG_237" start="22736" end="35589" strand="1" mapped_from="GRCh37" />
               <long_name>dynactin subunit 1 isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_001128513.1" />
               <db_xref source="UniProtKB" accession="Q14203">
                 <synonym>A8MY36</synonym>
                 <synonym>B4DM45</synonym>
@@ -2481,6 +2487,7 @@
                 <synonym>Q9UIU1</synonym>
                 <synonym>Q9UIU2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001128513.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000407639">
@@ -2572,7 +2579,6 @@
             <protein_product source="Ensembl" accession="ENSP00000384844">
               <coordinates coord_system="LRG_237" start="22736" end="35589" strand="1" mapped_from="GRCh37" />
               <long_name>dynactin subunit 1 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_075408.1" />
               <db_xref source="UniProtKB" accession="Q14203">
                 <synonym>A8MY36</synonym>
                 <synonym>B4DM45</synonym>
@@ -2585,6 +2591,7 @@
                 <synonym>Q9UIU1</synonym>
                 <synonym>Q9UIU2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_075408.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000477966">
@@ -2780,6 +2787,10 @@
           <coordinates coord_system="LRG_237" start="33711" end="37933" strand="1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>Uncharacterized protein  [Source:UniProtKB/TrEMBL;Acc:E7EWF7] (protein_coding)</long_name>
+          <db_xref source="MIM" accession="606757" />
+          <db_xref source="GeneID" accession="57835">
+            <synonym>NBC4</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000264324" />
           <transcript source="Ensembl" accession="ENST00000451608">
             <coordinates coord_system="LRG_237" start="33711" end="37933" strand="1" mapped_from="GRCh37" />
@@ -2815,7 +2826,7 @@
         <name>List of locus specific databases for DCTN1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DCTN1</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

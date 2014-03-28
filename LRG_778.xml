@@ -438,11 +438,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="15" other_id="NC_000015.9" other_start="48698503" other_end="48942985">
         <mapping_span lrg_start="1" lrg_end="244483" other_start="48698503" other_end="48942985" strand="-1">
           <diff type="mismatch" lrg_start="135349" lrg_end="135349" other_start="48807637" other_end="48807637" lrg_sequence="A" other_sequence="G" />
         </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="15" other_id="NC_000015.10" other_start="48406306" other_end="48650788">
+        <mapping_span lrg_start="1" lrg_end="244483" other_start="48406306" other_end="48650788" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">FBN1</lrg_locus>
     </annotation_set>
@@ -457,7 +460,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008805.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000138.4" other_name="NM_000138.4" other_id="NM_000138.4" other_start="1" other_end="11695">
         <mapping_span lrg_start="5001" lrg_end="5214" other_start="1" other_end="214" strand="1" />
         <mapping_span lrg_start="5839" lrg_end="6183" other_start="215" other_end="559" strand="1" />
@@ -773,8 +776,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000316623.5" other_name="ENST00000316623.5" other_id="ENST00000316623.5" other_start="1" other_end="11756">
         <mapping_span lrg_start="4940" lrg_end="5214" other_start="1" other_end="275" strand="1" />
         <mapping_span lrg_start="5839" lrg_end="6183" other_start="276" other_end="620" strand="1" />
@@ -941,7 +944,6 @@
           <coordinates coord_system="LRG_778" start="1" end="4838" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>RP11-227D13.1 (lincRNA)</long_name>
-          <db_xref source="GeneID" accession="100506059" />
           <db_xref source="Ensembl" accession="ENSG00000259705" />
           <transcript source="Ensembl" accession="ENST00000558061">
             <coordinates coord_system="LRG_778" start="1" end="4838" strand="-1" mapped_from="GRCh37" />
@@ -956,6 +958,15 @@
           <symbol source="HGNC" name="FBN1" />
           <coordinates coord_system="LRG_778" start="4940" end="242483" strand="1" mapped_from="GRCh37" />
           <long_name>fibrillin 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="134797" />
+          <db_xref source="HGNC" accession="3603">
+            <synonym>FBN</synonym>
+            <synonym>MASS</synonym>
+            <synonym>MFS1</synonym>
+            <synonym>OCTD</synonym>
+            <synonym>SGS</synonym>
+            <synonym>WMS</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2200">
             <synonym>ACMICD</synonym>
             <synonym>ECTOL1</synonym>
@@ -969,15 +980,6 @@
             <synonym>WMS</synonym>
             <synonym>WMS2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3603">
-            <synonym>FBN</synonym>
-            <synonym>MASS</synonym>
-            <synonym>MFS1</synonym>
-            <synonym>OCTD</synonym>
-            <synonym>SGS</synonym>
-            <synonym>WMS</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="134797" />
           <db_xref source="Ensembl" accession="ENSG00000166147" />
           <transcript source="Ensembl" accession="ENST00000316623">
             <coordinates coord_system="LRG_778" start="4940" end="242483" strand="1" mapped_from="GRCh37" />
@@ -1185,13 +1187,13 @@
             <protein_product source="Ensembl" accession="ENSP00000325527">
               <coordinates coord_system="LRG_778" start="6020" end="239799" strand="1" mapped_from="GRCh37" />
               <long_name>fibrillin-1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000129.3" />
               <db_xref source="UniProtKB" accession="P35555">
                 <synonym>B2RUU0</synonym>
                 <synonym>D2JYH6</synonym>
                 <synonym>Q15972</synonym>
                 <synonym>Q75N87</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000129.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000560355">
@@ -1467,7 +1469,7 @@
         <name>List of locus specific databases for FBN1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FBN1</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

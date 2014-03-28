@@ -65,13 +65,21 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_start="8243851" other_end="8295182">
         <mapping_span lrg_start="1" lrg_end="51332" other_start="8243851" other_end="8295182" strand="-1">
           <diff type="mismatch" lrg_start="10059" lrg_end="10059" other_start="8285124" other_end="8285124" lrg_sequence="G" other_sequence="T" />
           <diff type="mismatch" lrg_start="10188" lrg_end="10188" other_start="8284995" other_end="8284995" lrg_sequence="G" other_sequence="A" />
           <diff type="mismatch" lrg_start="10202" lrg_end="10202" other_start="8284981" other_end="8284981" lrg_sequence="G" other_sequence="T" />
           <diff type="mismatch" lrg_start="43262" lrg_end="43262" other_start="8251921" other_end="8251921" lrg_sequence="G" other_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="11" other_id="NC_000011.10" other_start="8222304" other_end="8273635">
+        <mapping_span lrg_start="1" lrg_end="51332" other_start="8222304" other_end="8273635" strand="-1">
+          <diff type="mismatch" lrg_start="10059" lrg_end="10059" other_start="8263577" other_end="8263577" lrg_sequence="G" other_sequence="T" />
+          <diff type="mismatch" lrg_start="10188" lrg_end="10188" other_start="8263448" other_end="8263448" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="10202" lrg_end="10202" other_start="8263434" other_end="8263434" lrg_sequence="G" other_sequence="T" />
+          <diff type="mismatch" lrg_start="43262" lrg_end="43262" other_start="8230374" other_end="8230374" lrg_sequence="G" other_sequence="C" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">LMO1</lrg_locus>
@@ -87,7 +95,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_032827.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001270428.1" other_name="NM_001270428.1" other_id="NM_001270428.1" other_start="1" other_end="967">
         <mapping_span lrg_start="5001" lrg_end="5209" other_start="1" other_end="209" strand="1" />
         <mapping_span lrg_start="43132" lrg_end="43345" other_start="210" other_end="423" strand="1">
@@ -208,8 +216,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000335790.3" other_name="ENST00000335790.3" other_id="ENST00000335790.3" other_start="1" other_end="1279">
         <mapping_span lrg_start="9778" lrg_end="10298" other_start="1" other_end="521" strand="1">
           <diff type="mismatch" lrg_start="10059" lrg_end="10059" other_start="282" other_end="282" lrg_sequence="G" other_sequence="T" />
@@ -251,17 +259,17 @@
           <symbol source="HGNC" name="LMO1" />
           <coordinates coord_system="LRG_508" start="4920" end="49332" strand="1" mapped_from="GRCh37" />
           <long_name>LIM domain only 1 (rhombotin 1) (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4004">
-            <synonym>RBTN1</synonym>
-            <synonym>RHOM1</synonym>
-            <synonym>TTG1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="186921" />
           <db_xref source="HGNC" accession="6641">
             <synonym>RBTN1</synonym>
             <synonym>RHOM1</synonym>
             <synonym>TTG1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="186921" />
+          <db_xref source="GeneID" accession="4004">
+            <synonym>RBTN1</synonym>
+            <synonym>RHOM1</synonym>
+            <synonym>TTG1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000166407" />
           <transcript source="Ensembl" accession="ENST00000428101">
             <coordinates coord_system="LRG_508" start="4920" end="49322" strand="1" mapped_from="GRCh37" />
@@ -283,12 +291,12 @@
             <protein_product source="Ensembl" accession="ENSP00000404538">
               <coordinates coord_system="LRG_508" start="5188" end="49020" strand="1" mapped_from="GRCh37" />
               <long_name>rhombotin-1 isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_001257357.1" />
               <db_xref source="UniProtKB" accession="P25800">
                 <synonym>E9PSF5</synonym>
                 <synonym>Q4VBC5</synonym>
                 <synonym>Q8IXR0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001257357.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000335790">
@@ -311,12 +319,12 @@
             <protein_product source="Ensembl" accession="ENSP00000338207">
               <coordinates coord_system="LRG_508" start="10274" end="49020" strand="1" mapped_from="GRCh37" />
               <long_name>rhombotin-1 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_002306.1" />
               <db_xref source="UniProtKB" accession="P25800">
                 <synonym>E9PSF5</synonym>
                 <synonym>Q4VBC5</synonym>
                 <synonym>Q8IXR0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002306.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000534484">
@@ -363,7 +371,7 @@
         <name>List of locus specific databases for LMO1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/LMO1</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

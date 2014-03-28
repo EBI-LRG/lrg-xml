@@ -143,9 +143,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_start="112851536" other_end="112949717">
         <mapping_span lrg_start="1" lrg_end="98182" other_start="112851536" other_end="112949717" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="12" other_id="NC_000012.12" other_start="112413732" other_end="112511913">
+        <mapping_span lrg_start="1" lrg_end="98182" other_start="112413732" other_end="112511913" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">PTPN11</lrg_locus>
     </annotation_set>
@@ -160,7 +163,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007459.1</comment>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_002834.3" other_name="NM_002834.3" other_id="NM_002834.3" other_start="1" other_end="6283">
         <mapping_span lrg_start="5001" lrg_end="5394" other_start="1" other_end="394" strand="1" />
         <mapping_span lrg_start="32545" lrg_end="32667" other_start="395" other_end="517" strand="1" />
@@ -335,8 +338,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 74</comment>
-      <modification_date>2014-01-28</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000351677.2" other_name="ENST00000351677.2" other_id="ENST00000351677.2" other_start="1" other_end="6101">
         <mapping_span lrg_start="5183" lrg_end="5394" other_start="1" other_end="212" strand="1" />
         <mapping_span lrg_start="32545" lrg_end="32667" other_start="213" other_end="335" strand="1" />
@@ -384,18 +387,18 @@
           <coordinates coord_system="LRG_614" start="1" end="5107" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>ribosomal protein L6 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="603703" />
+          <db_xref source="HGNC" accession="10362">
+            <synonym>L6</synonym>
+            <synonym>TAXREB107</synonym>
+            <synonym>TXREB1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="6128">
             <synonym>L6</synonym>
             <synonym>SHUJUN-2</synonym>
             <synonym>TAXREB107</synonym>
             <synonym>TXREB1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="10362">
-            <synonym>L6</synonym>
-            <synonym>TAXREB107</synonym>
-            <synonym>TXREB1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="603703" />
           <db_xref source="Ensembl" accession="ENSG00000089009" />
           <transcript source="Ensembl" accession="ENST00000551291">
             <coordinates coord_system="LRG_614" start="1" end="5107" strand="-1" mapped_from="GRCh37" />
@@ -410,6 +413,15 @@
           <symbol source="HGNC" name="PTPN11" />
           <coordinates coord_system="LRG_614" start="4620" end="96182" strand="1" mapped_from="GRCh37" />
           <long_name>protein tyrosine phosphatase, non-receptor type 11 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="176876" />
+          <db_xref source="HGNC" accession="9644">
+            <synonym>BPTP3</synonym>
+            <synonym>NS1</synonym>
+            <synonym>PTP2C</synonym>
+            <synonym>SH-PTP2</synonym>
+            <synonym>SHP-2</synonym>
+            <synonym>SHP2</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5781">
             <synonym>BPTP3</synonym>
             <synonym>CFC</synonym>
@@ -420,15 +432,6 @@
             <synonym>SH-PTP3</synonym>
             <synonym>SHP2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9644">
-            <synonym>BPTP3</synonym>
-            <synonym>NS1</synonym>
-            <synonym>PTP2C</synonym>
-            <synonym>SH-PTP2</synonym>
-            <synonym>SHP-2</synonym>
-            <synonym>SHP2</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="176876" />
           <db_xref source="Ensembl" accession="ENSG00000179295" />
           <transcript source="Ensembl" accession="ENST00000531326">
             <coordinates coord_system="LRG_614" start="4620" end="5350" strand="1" mapped_from="GRCh37" />
@@ -481,11 +484,11 @@
             <protein_product source="Ensembl" accession="ENSP00000376376">
               <coordinates coord_system="LRG_614" start="5381" end="72902" strand="1" mapped_from="GRCh37" />
               <long_name>tyrosine-protein phosphatase non-receptor type 11 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_542168.1" />
               <db_xref source="UniProtKB" accession="Q06124">
                 <synonym>A8K1D9</synonym>
                 <synonym>Q96HD7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_542168.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000351677">
@@ -544,11 +547,11 @@
             <protein_product source="Ensembl" accession="ENSP00000340944">
               <coordinates coord_system="LRG_614" start="5381" end="91033" strand="1" mapped_from="GRCh37" />
               <long_name>tyrosine-protein phosphatase non-receptor type 11 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_002825.3" />
               <db_xref source="UniProtKB" accession="Q06124">
                 <synonym>A8K1D9</synonym>
                 <synonym>Q96HD7</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002825.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000530818">
@@ -578,7 +581,7 @@
         <name>List of locus specific databases for PTPN11</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PTPN11</url>
       </source>
-      <modification_date>2014-01-28</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

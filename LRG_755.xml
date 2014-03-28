@@ -89,9 +89,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_start="35240042" other_end="35298711">
         <mapping_span lrg_start="1" lrg_end="58670" other_start="35240042" other_end="35298711" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="7" other_id="NC_000007.14" other_start="35200430" other_end="35259100">
+        <mapping_span lrg_start="1" lrg_end="58670" other_start="35200430" other_end="35259100" strand="-1">
+          <diff type="other_ins" lrg_start="8469" lrg_end="8470" other_start="35250631" other_end="35250631" lrg_sequence="-" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">TBX20</lrg_locus>
     </annotation_set>
@@ -106,7 +111,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_015805.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001077653.2" other_name="NM_001077653.2" other_id="NM_001077653.2" other_start="1" other_end="1824">
         <mapping_span lrg_start="5001" lrg_end="5607" other_start="1" other_end="607" strand="1" />
         <mapping_span lrg_start="8897" lrg_end="9149" other_start="608" other_end="860" strand="1" />
@@ -189,8 +194,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000408931.3" other_name="ENST00000408931.3" other_id="ENST00000408931.3" other_start="1" other_end="1871">
         <mapping_span lrg_start="4954" lrg_end="5607" other_start="1" other_end="654" strand="1" />
         <mapping_span lrg_start="8897" lrg_end="9149" other_start="655" other_end="907" strand="1" />
@@ -229,11 +234,11 @@
           <symbol source="HGNC" name="TBX20" />
           <coordinates coord_system="LRG_755" start="4954" end="56670" strand="1" mapped_from="GRCh37" />
           <long_name>T-box 20 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="606061" />
+          <db_xref source="HGNC" accession="11598" />
           <db_xref source="GeneID" accession="57057">
             <synonym>ASD4</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11598" />
-          <db_xref source="MIM" accession="606061" />
           <db_xref source="Ensembl" accession="ENSG00000164532" />
           <transcript source="Ensembl" accession="ENST00000408931">
             <coordinates coord_system="LRG_755" start="4954" end="56670" strand="1" mapped_from="GRCh37" />
@@ -267,9 +272,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000386170">
               <coordinates coord_system="LRG_755" start="5481" end="56670" strand="1" mapped_from="GRCh37" />
-              <long_name>T-box transcription factor TBX20 isoform 1, T-box transcription factor TBX20 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001071121.1" />
-              <db_xref source="RefSeq" accession="NP_001159692.1" />
+              <long_name>T-box transcription factor TBX20 isoform 2, T-box transcription factor TBX20 isoform 1</long_name>
               <db_xref source="UniProtKB" accession="Q9UMR3">
                 <synonym>A4D1Y6</synonym>
                 <synonym>Q000T4</synonym>
@@ -277,6 +280,8 @@
                 <synonym>Q0VAS1</synonym>
                 <synonym>Q9Y2N5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001159692.1" />
+              <db_xref source="RefSeq" accession="NP_001071121.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000492961">
@@ -309,7 +314,7 @@
         <name>List of locus specific databases for TBX20</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TBX20</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

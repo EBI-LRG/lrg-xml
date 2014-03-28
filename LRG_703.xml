@@ -91,9 +91,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="13" other_id="NC_000013.10" other_start="37416968" other_end="37499409">
         <mapping_span lrg_start="1" lrg_end="82442" other_start="37416968" other_end="37499409" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="13" other_id="NC_000013.11" other_start="36842831" other_end="36925272">
+        <mapping_span lrg_start="1" lrg_end="82442" other_start="36842831" other_end="36925272" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">SMAD9</lrg_locus>
     </annotation_set>
@@ -108,7 +111,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_016963.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_001127217.2" other_name="NM_001127217.2" other_id="NM_001127217.2" other_start="1" other_end="5592">
         <mapping_span lrg_start="5001" lrg_end="5157" other_start="1" other_end="157" strand="1" />
         <mapping_span lrg_start="45398" lrg_end="45995" other_start="158" other_end="755" strand="1" />
@@ -232,8 +235,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000350148.5" other_name="ENST00000350148.5" other_id="ENST00000350148.5" other_start="1" other_end="5447">
         <mapping_span lrg_start="5035" lrg_end="5157" other_start="1" other_end="123" strand="1" />
         <mapping_span lrg_start="45398" lrg_end="45995" other_start="124" other_end="721" strand="1" />
@@ -282,18 +285,19 @@
           <symbol source="HGNC" name="SMAD9" />
           <coordinates coord_system="LRG_703" start="4508" end="80442" strand="1" mapped_from="GRCh37" />
           <long_name>SMAD family member 9 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4093">
-            <synonym>MADH6</synonym>
-            <synonym>MADH9</synonym>
-            <synonym>SMAD8</synonym>
-            <synonym>SMAD8A</synonym>
-            <synonym>SMAD8B</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="603295" />
           <db_xref source="HGNC" accession="6774">
             <synonym>MADH6</synonym>
             <synonym>MADH9</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="603295" />
+          <db_xref source="GeneID" accession="4093">
+            <synonym>MADH6</synonym>
+            <synonym>MADH9</synonym>
+            <synonym>PPH2</synonym>
+            <synonym>SMAD8</synonym>
+            <synonym>SMAD8A</synonym>
+            <synonym>SMAD8B</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000120693" />
           <transcript source="Ensembl" accession="ENST00000483941">
             <coordinates coord_system="LRG_703" start="4508" end="45811" strand="1" mapped_from="GRCh37" />
@@ -334,12 +338,12 @@
             <protein_product source="Ensembl" accession="ENSP00000369154">
               <coordinates coord_system="LRG_703" start="45584" end="76597" strand="1" mapped_from="GRCh37" />
               <long_name>mothers against decapentaplegic homolog 9 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_001120689.1" />
               <db_xref source="UniProtKB" accession="O15198">
                 <synonym>A2A2Y6</synonym>
                 <synonym>O14989</synonym>
                 <synonym>Q5TBA1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001120689.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000350148">
@@ -368,12 +372,12 @@
             <protein_product source="Ensembl" accession="ENSP00000239885">
               <coordinates coord_system="LRG_703" start="45584" end="76597" strand="1" mapped_from="GRCh37" />
               <long_name>mothers against decapentaplegic homolog 9 isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_005896.1" />
               <db_xref source="UniProtKB" accession="O15198">
                 <synonym>A2A2Y6</synonym>
                 <synonym>O14989</synonym>
                 <synonym>Q5TBA1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_005896.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000399275">
@@ -411,12 +415,12 @@
         <gene source="Ensembl" accession="ENSG00000236711">
           <symbol source="HGNC" name="SMAD9-AS1" />
           <coordinates coord_system="LRG_703" start="75227" end="75907" strand="1" mapped_from="GRCh37" />
-          <long_name>SMAD9 antisense RNA 1 (antisense)</long_name>
+          <long_name>SMAD9 antisense RNA 1 (sense_intronic)</long_name>
           <db_xref source="HGNC" accession="39963" />
           <db_xref source="Ensembl" accession="ENSG00000236711" />
           <transcript source="Ensembl" accession="ENST00000437983">
             <coordinates coord_system="LRG_703" start="75227" end="75907" strand="1" mapped_from="GRCh37" />
-            <long_name>SMAD9-AS1-001 (antisense)</long_name>
+            <long_name>SMAD9-AS1-001 (sense_intronic)</long_name>
             <exon source="Ensembl" accession="ENSE00001687825">
               <coordinates coord_system="LRG_703" start="75227" end="75333" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -432,7 +436,7 @@
         <name>List of locus specific databases for SMAD9</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SMAD9</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -257,9 +257,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_start="76453909" other_end="76631254">
         <mapping_span lrg_start="1" lrg_end="177346" other_start="76453909" other_end="76631254" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="6" other_id="NC_000006.12" other_start="75744193" other_end="75921537">
+        <mapping_span lrg_start="1" lrg_end="177346" other_start="75744193" other_end="75921537" strand="1">
+          <diff type="lrg_ins" lrg_start="715" lrg_end="715" other_start="75744906" other_end="75744907" lrg_sequence="C" other_sequence="-" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">MYO6</lrg_locus>
     </annotation_set>
@@ -274,7 +279,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009934.1</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_004999.3" other_name="NM_004999.3" other_id="NM_004999.3" other_start="1" other_end="8662">
         <mapping_span lrg_start="5001" lrg_end="5232" other_start="1" other_end="232" strand="1" />
         <mapping_span lrg_start="73310" lrg_end="73473" other_start="233" other_end="396" strand="1" />
@@ -471,8 +476,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000369975.1" other_name="ENST00000369975.1" other_id="ENST00000369975.1" other_start="1" other_end="5387">
         <mapping_span lrg_start="73332" lrg_end="73473" other_start="1" other_end="142" strand="1" />
         <mapping_span lrg_start="78591" lrg_end="78660" other_start="143" other_end="212" strand="1" />
@@ -638,16 +643,16 @@
           <symbol source="HGNC" name="MYO6" />
           <coordinates coord_system="LRG_438" start="5001" end="175346" strand="1" mapped_from="GRCh37" />
           <long_name>myosin VI (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4646">
-            <synonym>DFNA22</synonym>
-            <synonym>DFNB37</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="600970" />
           <db_xref source="HGNC" accession="7605">
             <synonym>DFNA22</synonym>
             <synonym>DFNB37</synonym>
             <synonym>KIAA0389</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="600970" />
+          <db_xref source="GeneID" accession="4646">
+            <synonym>DFNA22</synonym>
+            <synonym>DFNB37</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000196586" />
           <transcript source="Ensembl" accession="ENST00000369981">
             <coordinates coord_system="LRG_438" start="5001" end="175346" strand="1" mapped_from="GRCh37" />
@@ -989,7 +994,6 @@
             <protein_product source="Ensembl" accession="ENSP00000358994">
               <coordinates coord_system="LRG_438" start="73357" end="170821" strand="1" mapped_from="GRCh37" />
               <long_name>unconventional myosin-VI</long_name>
-              <db_xref source="RefSeq" accession="NP_004990.3" />
               <db_xref source="UniProtKB" accession="Q9UM54">
                 <synonym>A6H8V4</synonym>
                 <synonym>E1P540</synonym>
@@ -999,6 +1003,7 @@
                 <synonym>Q9BZZ7</synonym>
                 <synonym>Q9UEG2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004990.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000369975">
@@ -1099,15 +1104,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000358992">
               <coordinates coord_system="LRG_438" start="73357" end="170821" strand="1" mapped_from="GRCh37" />
-              <db_xref source="UniProtKB" accession="Q9UM54">
-                <synonym>A6H8V4</synonym>
-                <synonym>E1P540</synonym>
-                <synonym>Q5TEM5</synonym>
-                <synonym>Q5TEM6</synonym>
-                <synonym>Q5TEM7</synonym>
-                <synonym>Q9BZZ7</synonym>
-                <synonym>Q9UEG2</synonym>
-              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000462633">
@@ -1168,8 +1164,8 @@
           <symbol source="HGNC" name="RNU6-155P" />
           <coordinates coord_system="LRG_438" start="23868" end="23967" strand="-1" mapped_from="GRCh37" />
           <long_name>RNA, U6 small nuclear 155, pseudogene (snRNA)</long_name>
-          <db_xref source="HGNC" accession="47118" />
           <db_xref source="RFAM" accession="RF00026" />
+          <db_xref source="HGNC" accession="47118" />
           <db_xref source="Ensembl" accession="ENSG00000252156" />
           <transcript source="Ensembl" accession="ENST00000516347">
             <coordinates coord_system="LRG_438" start="23868" end="23967" strand="-1" mapped_from="GRCh37" />
@@ -1183,10 +1179,10 @@
           <symbol source="HGNC" name="RNA5SP209" />
           <coordinates coord_system="LRG_438" start="121048" end="121144" strand="-1" mapped_from="GRCh37" />
           <long_name>RNA, 5S ribosomal pseudogene 209 (rRNA)</long_name>
+          <db_xref source="RFAM" accession="RF00001" />
           <db_xref source="HGNC" accession="43109">
             <synonym>RN5S209</synonym>
           </db_xref>
-          <db_xref source="RFAM" accession="RF00001" />
           <db_xref source="Ensembl" accession="ENSG00000223169" />
           <transcript source="Ensembl" accession="ENST00000411237">
             <coordinates coord_system="LRG_438" start="121048" end="121144" strand="-1" mapped_from="GRCh37" />
@@ -1215,23 +1211,24 @@
           <coordinates coord_system="LRG_438" start="176924" end="177346" strand="-1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>interphotoreceptor matrix proteoglycan 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3617">
-            <synonym>GP147</synonym>
-            <synonym>IPM150</synonym>
-            <synonym>SPACR</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="602870" />
           <db_xref source="HGNC" accession="6055">
             <synonym>GP147</synonym>
             <synonym>IPM150</synonym>
             <synonym>SPACR</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="602870" />
+          <db_xref source="GeneID" accession="3617">
+            <synonym>GP147</synonym>
+            <synonym>IPM150</synonym>
+            <synonym>SPACR</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000112706" />
           <transcript source="Ensembl" accession="ENST00000369950">
             <coordinates coord_system="LRG_438" start="176924" end="177346" strand="-1" mapped_from="GRCh37" />
             <partial>5-prime</partial>
             <long_name>IMPG1-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS4985.1" />
+            <db_xref source="RefSeq" accession="NM_001282368.1" />
             <db_xref source="RefSeq" accession="NM_001563.2" />
             <exon source="Ensembl" accession="ENSE00003539077">
               <coordinates coord_system="LRG_438" start="176924" end="177346" strand="-1" mapped_from="GRCh37" />
@@ -1255,7 +1252,7 @@
         <name>List of locus specific databases for MYO6</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MYO6</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -90,10 +90,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_start="55661135" other_end="55674100">
         <mapping_span lrg_start="1" lrg_end="12966" other_start="55661135" other_end="55674100" strand="-1">
           <diff type="mismatch" lrg_start="8517" lrg_end="8517" other_start="55665584" other_end="55665584" lrg_sequence="G" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="19" other_id="NC_000019.10" other_start="55149767" other_end="55162732">
+        <mapping_span lrg_start="1" lrg_end="12966" other_start="55149767" other_end="55162732" strand="-1">
+          <diff type="mismatch" lrg_start="2764" lrg_end="2764" other_start="55159969" other_end="55159969" lrg_sequence="G" other_sequence="A" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">TNNI3</lrg_locus>
@@ -109,7 +114,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007866.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000363.4" other_name="NM_000363.4" other_id="NM_000363.4" other_start="1" other_end="843">
         <mapping_span lrg_start="5001" lrg_end="5154" other_start="1" other_end="154" strand="1" />
         <mapping_span lrg_start="5425" lrg_end="5437" other_start="155" other_end="167" strand="1" />
@@ -352,6 +357,7 @@
             <protein_product source="RefSeq" accession="NP_000354.4" fixed_id="p1">
               <coordinates coord_system="LRG_432" start="5144" end="10899" strand="1" />
               <long_name>troponin I, cardiac muscle</long_name>
+              <long_name>cardiomyopathy, dilated 2A (autosomal recessive)</long_name>
               <db_xref source="CCDS" accession="CCDS42628.1" />
               <db_xref source="GeneID" accession="7137" />
               <db_xref source="GI" accession="151101270" />
@@ -370,8 +376,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000344887.5" other_name="ENST00000344887.5" other_id="ENST00000344887.5" other_start="1" other_end="840">
         <mapping_span lrg_start="5001" lrg_end="5154" other_start="1" other_end="154" strand="1" />
         <mapping_span lrg_start="5425" lrg_end="5437" other_start="155" other_end="167" strand="1" />
@@ -434,18 +440,34 @@
         <mapping_span lrg_start="7903" lrg_end="7987" other_start="455" other_end="539" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000267577">
+          <symbol source="Clone_based_vega_gene" name="CTD-2587H24.5" />
+          <coordinates coord_system="LRG_432" start="1" end="3794" strand="-1" mapped_from="GRCh37" />
+          <partial>3-prime</partial>
+          <long_name>CTD-2587H24.5 (antisense)</long_name>
+          <db_xref source="GeneID" accession="101930593" />
+          <db_xref source="Ensembl" accession="ENSG00000267577" />
+          <transcript source="Ensembl" accession="ENST00000591665">
+            <coordinates coord_system="LRG_432" start="1" end="3794" strand="-1" mapped_from="GRCh37" />
+            <partial>3-prime</partial>
+            <long_name>CTD-2587H24.5-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002939982">
+              <coordinates coord_system="LRG_432" start="3395" end="3794" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002960915">
+              <coordinates coord_system="LRG_432" start="2745" end="3311" strand="-1" mapped_from="GRCh37" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002860549">
+              <coordinates coord_system="LRG_432" start="1519" end="1687" strand="-1" mapped_from="GRCh37" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000167646">
           <symbol source="HGNC" name="DNAAF3" />
           <coordinates coord_system="LRG_432" start="1" end="4070" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>dynein, axonemal, assembly factor 3 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="352909">
-            <synonym>C19orf51</synonym>
-            <synonym>CILD2</synonym>
-            <synonym>DAB1</synonym>
-            <synonym>PCD</synonym>
-            <synonym>PF22</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="614566" />
           <db_xref source="HGNC" accession="30492">
             <synonym>C19orf51</synonym>
             <synonym>CILD2</synonym>
@@ -454,7 +476,13 @@
             <synonym>PCD</synonym>
             <synonym>PF22</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="614566" />
+          <db_xref source="GeneID" accession="352909">
+            <synonym>C19orf51</synonym>
+            <synonym>CILD2</synonym>
+            <synonym>DAB1</synonym>
+            <synonym>PCD</synonym>
+            <synonym>PF22</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000167646" />
           <transcript source="Ensembl" accession="ENST00000524407">
             <coordinates coord_system="LRG_432" start="1" end="4070" strand="1" mapped_from="GRCh37" />
@@ -560,7 +588,6 @@
               <coordinates coord_system="LRG_432" start="1" end="3671" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>dynein assembly factor 3, axonemal isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001243643.1" />
               <db_xref source="UniProtKB" accession="Q8N9W5">
                 <synonym>A8MUY0</synonym>
                 <synonym>E9PAX5</synonym>
@@ -568,6 +595,7 @@
                 <synonym>Q8N9W0</synonym>
                 <synonym>Q96AR2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001243643.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000391720">
@@ -605,10 +633,7 @@
             <protein_product source="Ensembl" accession="ENSP00000375600">
               <coordinates coord_system="LRG_432" start="1" end="3671" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
-              <long_name>dynein assembly factor 3, axonemal isoform 2, dynein assembly factor 3, axonemal isoform 4, dynein assembly factor 3, axonemal isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_849159.2" />
-              <db_xref source="RefSeq" accession="NP_001243645.1" />
-              <db_xref source="RefSeq" accession="NP_001243644.1" />
+              <long_name>dynein assembly factor 3, axonemal isoform 4, dynein assembly factor 3, axonemal isoform 2, dynein assembly factor 3, axonemal isoform 3</long_name>
               <db_xref source="UniProtKB" accession="Q8N9W5">
                 <synonym>A8MUY0</synonym>
                 <synonym>E9PAX5</synonym>
@@ -616,6 +641,9 @@
                 <synonym>Q8N9W0</synonym>
                 <synonym>Q96AR2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_849159.2" />
+              <db_xref source="RefSeq" accession="NP_001243645.1" />
+              <db_xref source="RefSeq" accession="NP_001243644.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000527292">
@@ -806,27 +834,6 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000267577">
-          <symbol source="Clone_based_vega_gene" name="CTD-2587H24.5" />
-          <coordinates coord_system="LRG_432" start="1" end="3794" strand="-1" mapped_from="GRCh37" />
-          <partial>3-prime</partial>
-          <long_name>CTD-2587H24.5 (antisense)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000267577" />
-          <transcript source="Ensembl" accession="ENST00000591665">
-            <coordinates coord_system="LRG_432" start="1" end="3794" strand="-1" mapped_from="GRCh37" />
-            <partial>3-prime</partial>
-            <long_name>CTD-2587H24.5-001 (antisense)</long_name>
-            <exon source="Ensembl" accession="ENSE00002939982">
-              <coordinates coord_system="LRG_432" start="3395" end="3794" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002960915">
-              <coordinates coord_system="LRG_432" start="2745" end="3311" strand="-1" mapped_from="GRCh37" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002860549">
-              <coordinates coord_system="LRG_432" start="1519" end="1687" strand="-1" mapped_from="GRCh37" />
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000267110">
           <symbol source="Clone_based_vega_gene" name="CTD-2587H24.4" />
           <coordinates coord_system="LRG_432" start="2062" end="7976" strand="1" mapped_from="GRCh37" />
@@ -871,6 +878,11 @@
           <symbol source="HGNC" name="TNNI3" />
           <coordinates coord_system="LRG_432" start="4960" end="10964" strand="1" mapped_from="GRCh37" />
           <long_name>troponin I type 3 (cardiac) (protein_coding)</long_name>
+          <db_xref source="MIM" accession="191044" />
+          <db_xref source="HGNC" accession="11947">
+            <synonym>CMH7</synonym>
+            <synonym>TNNC1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="7137">
             <synonym>CMD1FF</synonym>
             <synonym>CMD2A</synonym>
@@ -879,11 +891,6 @@
             <synonym>RCM1</synonym>
             <synonym>TNNC1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11947">
-            <synonym>CMH7</synonym>
-            <synonym>TNNC1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="191044" />
           <db_xref source="Ensembl" accession="ENSG00000129991" />
           <transcript source="Ensembl" accession="ENST00000587176">
             <coordinates coord_system="LRG_432" start="4960" end="8428" strand="1" mapped_from="GRCh37" />
@@ -939,8 +946,8 @@
             <protein_product source="Ensembl" accession="ENSP00000341838">
               <coordinates coord_system="LRG_432" start="5144" end="10899" strand="1" mapped_from="GRCh37" />
               <long_name>troponin I, cardiac muscle</long_name>
-              <db_xref source="RefSeq" accession="NP_000354.4" />
               <db_xref source="UniProtKB" accession="P19429" />
+              <db_xref source="RefSeq" accession="NP_000354.4" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000586446">
@@ -1066,7 +1073,7 @@
         <name>List of locus specific databases for TNNI3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TNNI3</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

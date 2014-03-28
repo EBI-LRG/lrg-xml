@@ -167,9 +167,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="18" other_id="NC_000018.9" other_start="19279918" other_end="19452918">
         <mapping_span lrg_start="1" lrg_end="173001" other_start="19279918" other_end="19452918" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="18" other_id="NC_000018.10" other_start="21699957" other_end="21872957">
+        <mapping_span lrg_start="1" lrg_end="173001" other_start="21699957" other_end="21872957" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">MIB1</lrg_locus>
     </annotation_set>
@@ -184,7 +187,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_033272.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_020774.3" other_name="NM_020774.3" other_id="NM_020774.3" other_start="1" other_end="9567">
         <mapping_span lrg_start="41373" lrg_end="41856" other_start="1" other_end="484" strand="1" />
         <mapping_span lrg_start="65816" lrg_end="65987" other_start="485" other_end="656" strand="1" />
@@ -406,8 +409,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000261537.6" other_name="ENST00000261537.6" other_id="ENST00000261537.6" other_start="1" other_end="9576">
         <mapping_span lrg_start="41364" lrg_end="41856" other_start="1" other_end="493" strand="1" />
         <mapping_span lrg_start="65816" lrg_end="65987" other_start="494" other_end="665" strand="1" />
@@ -473,13 +476,13 @@
           <coordinates coord_system="LRG_759" start="1" end="4849" strand="-1" mapped_from="GRCh37" />
           <partial>3-prime</partial>
           <long_name>abhydrolase domain containing 3 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="171586">
-            <synonym>LABH3</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="612197" />
           <db_xref source="HGNC" accession="18718">
             <synonym>LABH3</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="612197" />
+          <db_xref source="GeneID" accession="171586">
+            <synonym>LABH3</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000158201" />
           <transcript source="Ensembl" accession="ENST00000289119">
             <coordinates coord_system="LRG_759" start="1" end="4849" strand="-1" mapped_from="GRCh37" />
@@ -500,11 +503,11 @@
               <coordinates coord_system="LRG_759" start="1" end="4709" strand="-1" mapped_from="GRCh37" />
               <partial>3-prime</partial>
               <long_name>abhydrolase domain-containing protein 3</long_name>
-              <db_xref source="RefSeq" accession="NP_612213.2" />
               <db_xref source="UniProtKB" accession="Q8WU67">
                 <synonym>B0YIV0</synonym>
                 <synonym>O43411</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_612213.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000580981">
@@ -614,6 +617,14 @@
           <symbol source="HGNC" name="MIB1" />
           <coordinates coord_system="LRG_759" start="5001" end="171001" strand="1" mapped_from="GRCh37" />
           <long_name>mindbomb E3 ubiquitin protein ligase 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="608677" />
+          <db_xref source="HGNC" accession="21086">
+            <synonym>DIP-1</synonym>
+            <synonym>KIAA1323</synonym>
+            <synonym>MIB</synonym>
+            <synonym>ZZANK2</synonym>
+            <synonym>ZZZ6</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="57534">
             <synonym>DIP-1</synonym>
             <synonym>DIP1</synonym>
@@ -622,14 +633,6 @@
             <synonym>ZZANK2</synonym>
             <synonym>ZZZ6</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="21086">
-            <synonym>DIP-1</synonym>
-            <synonym>KIAA1323</synonym>
-            <synonym>MIB</synonym>
-            <synonym>ZZANK2</synonym>
-            <synonym>ZZZ6</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="608677" />
           <db_xref source="Ensembl" accession="ENSG00000101752" />
           <transcript source="Ensembl" accession="ENST00000578646">
             <coordinates coord_system="LRG_759" start="5001" end="165018" strand="1" mapped_from="GRCh37" />
@@ -702,7 +705,7 @@
             <coordinates coord_system="LRG_759" start="41364" end="171001" strand="1" mapped_from="GRCh37" />
             <long_name>MIB1-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS11871.1" />
-            <db_xref source="RefSeq" accession="NM_020774.2" />
+            <db_xref source="RefSeq" accession="NM_020774.3" />
             <exon source="Ensembl" accession="ENSE00001240503">
               <coordinates coord_system="LRG_759" start="41364" end="41856" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -769,7 +772,6 @@
             <protein_product source="Ensembl" accession="ENSP00000261537">
               <coordinates coord_system="LRG_759" start="41628" end="164710" strand="1" mapped_from="GRCh37" />
               <long_name>E3 ubiquitin-protein ligase MIB1</long_name>
-              <db_xref source="RefSeq" accession="NP_065825.1" />
               <db_xref source="UniProtKB" accession="Q86YT6">
                 <synonym>B0YJ38</synonym>
                 <synonym>Q2TB37</synonym>
@@ -780,6 +782,7 @@
                 <synonym>Q8TCL7</synonym>
                 <synonym>Q9P2M3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_065825.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000577749">
@@ -863,8 +866,8 @@
           <symbol source="HGNC" name="RN7SL233P" />
           <coordinates coord_system="LRG_759" start="93927" end="94201" strand="1" mapped_from="GRCh37" />
           <long_name>RNA, 7SL, cytoplasmic 233, pseudogene (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="46249" />
           <db_xref source="RFAM" accession="RF00017" />
+          <db_xref source="HGNC" accession="46249" />
           <db_xref source="Ensembl" accession="ENSG00000242971" />
           <transcript source="Ensembl" accession="ENST00000469988">
             <coordinates coord_system="LRG_759" start="93927" end="94201" strand="1" mapped_from="GRCh37" />
@@ -891,27 +894,27 @@
         <gene source="Ensembl" accession="ENSG00000265142">
           <symbol source="HGNC" name="MIR1-2" />
           <coordinates coord_system="LRG_759" start="125531" end="131454" strand="-1" mapped_from="GRCh37" />
-          <long_name>microRNA 1-2, microRNA 133a-1 (antisense)</long_name>
-          <db_xref source="GeneID" accession="406905">
-            <synonym>hsa-mir-1-2</synonym>
-            <synonym>MIRN1-2</synonym>
-            <synonym>miRNA1-2</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="406922">
+          <long_name>microRNA 133a-1, microRNA 1-2 (antisense)</long_name>
+          <db_xref source="miRBase" accession="MI0000450" />
+          <db_xref source="miRBase" accession="MI0000437" />
+          <db_xref source="MIM" accession="610254" />
+          <db_xref source="MIM" accession="610252" />
+          <db_xref source="HGNC" accession="31517">
+            <synonym>hsa-mir-133a-1</synonym>
             <synonym>MIRN133A1</synonym>
           </db_xref>
           <db_xref source="HGNC" accession="31500">
             <synonym>hsa-mir-1-2</synonym>
             <synonym>MIRN1-2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="31517">
-            <synonym>hsa-mir-133a-1</synonym>
+          <db_xref source="GeneID" accession="406922">
             <synonym>MIRN133A1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="610252" />
-          <db_xref source="MIM" accession="610254" />
-          <db_xref source="miRBase" accession="MI0000437" />
-          <db_xref source="miRBase" accession="MI0000450" />
+          <db_xref source="GeneID" accession="406905">
+            <synonym>hsa-mir-1-2</synonym>
+            <synonym>MIRN1-2</synonym>
+            <synonym>miRNA1-2</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000265142" />
           <transcript source="Ensembl" accession="ENST00000581072">
             <coordinates coord_system="LRG_759" start="125531" end="131450" strand="-1" mapped_from="GRCh37" />
@@ -1006,7 +1009,7 @@
         <name>List of locus specific databases for MIB1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MIB1</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

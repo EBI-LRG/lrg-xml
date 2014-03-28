@@ -216,9 +216,18 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="Xq28" other_id="NW_003871103.3" other_start="1293499" other_end="1348205">
+        <mapping_span lrg_start="1" lrg_end="54707" other_start="1293499" other_end="1348205" strand="-1" />
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_start="153124971" other_end="153179677">
         <mapping_span lrg_start="1" lrg_end="54707" other_start="153124971" other_end="153179677" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38" other_name="X" other_id="NC_000023.11" other_start="153859516" other_end="153914223">
+        <mapping_span lrg_start="1" lrg_end="54707" other_start="153859516" other_end="153914223" strand="-1">
+          <diff type="other_ins" lrg_start="29969" lrg_end="29970" other_start="153884254" other_end="153884254" lrg_sequence="-" other_sequence="G" />
+          <diff type="mismatch" lrg_start="45157" lrg_end="45157" other_start="153869066" other_end="153869066" lrg_sequence="C" other_sequence="G" />
+        </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">L1CAM</lrg_locus>
     </annotation_set>
@@ -233,7 +242,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009645.2</comment>
-      <modification_date>2013-09-12</modification_date>
+      <modification_date>2014-02-12</modification_date>
       <mapping coord_system="NM_000425.3" other_name="NM_000425.3" other_id="NM_000425.3" other_start="1" other_end="5029">
         <mapping_span lrg_start="38279" lrg_end="38462" other_start="1" other_end="184" strand="1" />
         <mapping_span lrg_start="40981" lrg_end="40995" other_start="185" other_end="199" strand="1" />
@@ -1028,8 +1037,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 73</comment>
-      <modification_date>2013-09-16</modification_date>
+      <comment>Annotation is based on Ensembl release 75 (GRCh37  primary assembly)</comment>
+      <modification_date>2014-03-18</modification_date>
       <mapping coord_system="ENST00000361699.4" other_name="ENST00000361699.4" other_id="ENST00000361699.4" other_start="1" other_end="3888">
         <mapping_span lrg_start="38376" lrg_end="38462" other_start="1" other_end="87" strand="1" />
         <mapping_span lrg_start="40981" lrg_end="40995" other_start="88" other_end="102" strand="1" />
@@ -1235,10 +1244,14 @@
       </mapping>
       <mapping coord_system="ENST00000484587.1" other_name="ENST00000484587.1" other_id="ENST00000484587.1" other_start="1" other_end="739">
         <mapping_span lrg_start="28063" lrg_end="28159" other_start="1" other_end="97" strand="1" />
-        <mapping_span lrg_start="29718" lrg_end="30359" other_start="98" other_end="739" strand="1" />
+        <mapping_span lrg_start="29718" lrg_end="30359" other_start="98" other_end="739" strand="1">
+          <diff type="other_ins" lrg_start="29969" lrg_end="29970" other_start="153884254" other_end="153884254" lrg_sequence="-" other_sequence="G" />
+        </mapping_span>
       </mapping>
       <mapping coord_system="ENST00000484652.1" other_name="ENST00000484652.1" other_id="ENST00000484652.1" other_start="1" other_end="551">
-        <mapping_span lrg_start="45051" lrg_end="45382" other_start="1" other_end="332" strand="1" />
+        <mapping_span lrg_start="45051" lrg_end="45382" other_start="1" other_end="332" strand="1">
+          <diff type="mismatch" lrg_start="45157" lrg_end="45157" other_start="153869066" other_end="153869066" lrg_sequence="C" other_sequence="G" />
+        </mapping_span>
         <mapping_span lrg_start="45496" lrg_end="45662" other_start="333" other_end="499" strand="1" />
         <mapping_span lrg_start="45765" lrg_end="45816" other_start="500" other_end="551" strand="1" />
       </mapping>
@@ -1318,13 +1331,7 @@
           <coordinates coord_system="LRG_14" start="1" end="6857" strand="1" mapped_from="GRCh37" />
           <partial>5-prime</partial>
           <long_name>Rho GTPase activating protein 4 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="393">
-            <synonym>C1</synonym>
-            <synonym>p115</synonym>
-            <synonym>RGC1</synonym>
-            <synonym>RhoGAP4</synonym>
-            <synonym>SrGAP4</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="300023" />
           <db_xref source="HGNC" accession="674">
             <synonym>C1</synonym>
             <synonym>KIAA0131</synonym>
@@ -1332,7 +1339,13 @@
             <synonym>RhoGAP4</synonym>
             <synonym>SrGAP4</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="300023" />
+          <db_xref source="GeneID" accession="393">
+            <synonym>C1</synonym>
+            <synonym>p115</synonym>
+            <synonym>RGC1</synonym>
+            <synonym>RhoGAP4</synonym>
+            <synonym>SrGAP4</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000089820" />
           <transcript source="Ensembl" accession="ENST00000393721">
             <coordinates coord_system="LRG_14" start="1" end="6857" strand="1" mapped_from="GRCh37" />
@@ -1443,11 +1456,11 @@
               <coordinates coord_system="LRG_14" start="1" end="6495" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>rho GTPase-activating protein 4 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001158213.1" />
               <db_xref source="UniProtKB" accession="P98171">
                 <synonym>Q14144</synonym>
                 <synonym>Q86UY3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001158213.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000420383">
@@ -1550,11 +1563,11 @@
               <coordinates coord_system="LRG_14" start="1" end="6495" strand="1" mapped_from="GRCh37" />
               <partial>5-prime</partial>
               <long_name>rho GTPase-activating protein 4 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001657.3" />
               <db_xref source="UniProtKB" accession="P98171">
                 <synonym>Q14144</synonym>
                 <synonym>Q86UY3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001657.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000370016">
@@ -1987,6 +2000,16 @@
           <symbol source="HGNC" name="L1CAM" />
           <coordinates coord_system="LRG_14" start="5001" end="52709" strand="1" mapped_from="GRCh37" />
           <long_name>L1 cell adhesion molecule (protein_coding)</long_name>
+          <db_xref source="MIM" accession="308840" />
+          <db_xref source="HGNC" accession="6470">
+            <synonym>CD171</synonym>
+            <synonym>HSAS</synonym>
+            <synonym>HSAS1</synonym>
+            <synonym>MASA</synonym>
+            <synonym>MIC5</synonym>
+            <synonym>S10</synonym>
+            <synonym>SPG1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="3897">
             <synonym>CAML1</synonym>
             <synonym>CD171</synonym>
@@ -2000,16 +2023,6 @@
             <synonym>S10</synonym>
             <synonym>SPG1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6470">
-            <synonym>CD171</synonym>
-            <synonym>HSAS</synonym>
-            <synonym>HSAS1</synonym>
-            <synonym>MASA</synonym>
-            <synonym>MIC5</synonym>
-            <synonym>S10</synonym>
-            <synonym>SPG1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="308840" />
           <db_xref source="Ensembl" accession="ENSG00000198910" />
           <transcript source="Ensembl" accession="ENST00000464967">
             <coordinates coord_system="LRG_14" start="5001" end="42002" strand="1" mapped_from="GRCh37" />
@@ -2253,7 +2266,6 @@
             <protein_product source="Ensembl" accession="ENSP00000359077">
               <coordinates coord_system="LRG_14" start="38387" end="51560" strand="1" mapped_from="GRCh37" />
               <long_name>neural cell adhesion molecule L1 isoform 1 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001265045.1" />
               <db_xref source="UniProtKB" accession="P32004">
                 <synonym>A0AV65</synonym>
                 <synonym>A4ZYW4</synonym>
@@ -2261,6 +2273,7 @@
                 <synonym>G3XAF4</synonym>
                 <synonym>Q8TA87</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001265045.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000460553">
@@ -2431,8 +2444,8 @@
             <coordinates coord_system="LRG_14" start="38279" end="52705" strand="1" mapped_from="GRCh37" />
             <long_name>L1CAM-202 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS14733.1" />
-            <db_xref source="RefSeq" accession="NM_000425.3" />
-            <db_xref source="RefSeq" accession="NM_024003.2" />
+            <db_xref source="RefSeq" accession="NM_000425.4" />
+            <db_xref source="RefSeq" accession="NM_024003.3" />
             <exon source="Ensembl" accession="ENSE00003577699">
               <coordinates coord_system="LRG_14" start="38279" end="38462" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -2519,9 +2532,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000359074">
               <coordinates coord_system="LRG_14" start="38387" end="51560" strand="1" mapped_from="GRCh37" />
-              <long_name>neural cell adhesion molecule L1 isoform 1 precursor, neural cell adhesion molecule L1 isoform 2 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_000416.1" />
-              <db_xref source="RefSeq" accession="NP_076493.1" />
+              <long_name>neural cell adhesion molecule L1 isoform 2 precursor, neural cell adhesion molecule L1 isoform 1 precursor</long_name>
               <db_xref source="UniProtKB" accession="P32004">
                 <synonym>A0AV65</synonym>
                 <synonym>A4ZYW4</synonym>
@@ -2529,6 +2540,8 @@
                 <synonym>G3XAF4</synonym>
                 <synonym>Q8TA87</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_076493.1" />
+              <db_xref source="RefSeq" accession="NP_000416.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000538883">
@@ -2623,7 +2636,7 @@
             <coordinates coord_system="LRG_14" start="38279" end="52705" strand="1" mapped_from="GRCh37" />
             <long_name>L1CAM-201 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS48192.1" />
-            <db_xref source="RefSeq" accession="NM_001143963.1" />
+            <db_xref source="RefSeq" accession="NM_001143963.2" />
             <exon source="Ensembl" accession="ENSE00003577699">
               <coordinates coord_system="LRG_14" start="38279" end="38462" strand="1" mapped_from="GRCh37" />
             </exon>
@@ -2705,7 +2718,6 @@
             <protein_product source="Ensembl" accession="ENSP00000354712">
               <coordinates coord_system="LRG_14" start="38387" end="51560" strand="1" mapped_from="GRCh37" />
               <long_name>neural cell adhesion molecule L1 isoform 3 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001137435.1" />
               <db_xref source="UniProtKB" accession="P32004">
                 <synonym>A0AV65</synonym>
                 <synonym>A4ZYW4</synonym>
@@ -2713,6 +2725,7 @@
                 <synonym>G3XAF4</synonym>
                 <synonym>Q8TA87</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001137435.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000361699">
@@ -2912,6 +2925,12 @@
           <symbol source="HGNC" name="AVPR2" />
           <coordinates coord_system="LRG_14" start="7058" end="11693" strand="-1" mapped_from="GRCh37" />
           <long_name>arginine vasopressin receptor 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="300538" />
+          <db_xref source="HGNC" accession="897">
+            <synonym>DIR</synonym>
+            <synonym>DIR3</synonym>
+            <synonym>V2R</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="554">
             <synonym>ADHR</synonym>
             <synonym>DI1</synonym>
@@ -2920,12 +2939,6 @@
             <synonym>NDI</synonym>
             <synonym>V2R</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="897">
-            <synonym>DIR</synonym>
-            <synonym>DIR3</synonym>
-            <synonym>V2R</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="300538" />
           <db_xref source="Ensembl" accession="ENSG00000126895" />
           <transcript source="Ensembl" accession="ENST00000358927">
             <coordinates coord_system="LRG_14" start="7058" end="9489" strand="-1" mapped_from="GRCh37" />
@@ -2989,15 +3002,15 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000338072">
               <coordinates coord_system="LRG_14" start="7496" end="9078" strand="-1" mapped_from="GRCh37" />
-              <long_name>vasopressin V2 receptor isoform 1, vasopressin V2 receptor isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_000045.1" />
-              <db_xref source="RefSeq" accession="NP_001139623.1" />
+              <long_name>vasopressin V2 receptor isoform 2, vasopressin V2 receptor isoform 1</long_name>
               <db_xref source="UniProtKB" accession="P30518">
                 <synonym>C5HF20</synonym>
                 <synonym>O43192</synonym>
                 <synonym>Q3MJD3</synonym>
                 <synonym>Q9UCV9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001139623.1" />
+              <db_xref source="RefSeq" accession="NP_000045.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000430697">
@@ -3108,7 +3121,7 @@
         <name>List of locus specific databases for L1CAM</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/L1CAM</url>
       </source>
-      <modification_date>2013-09-16</modification_date>
+      <modification_date>2014-03-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
