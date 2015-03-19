@@ -117,7 +117,7 @@
           <email>Nazneen.Rahman@icr.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -129,13 +129,13 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="47231493" other_end="47262769" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="31277" other_start="47231493" other_end="47262769" strand="1">
           <diff type="mismatch" lrg_start="7030" lrg_end="7030" other_start="47238522" other_end="47238522" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
       </mapping>
-      <mapping coord_system="GRCh38" other_name="11" other_id="NC_000011.10" other_id_syn="CM000673.2" other_start="47209942" other_end="47241218" type="main_assembly">
+      <mapping coord_system="GRCh38.p2" other_name="11" other_id="NC_000011.10" other_id_syn="CM000673.2" other_start="47209942" other_end="47241218" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="31277" other_start="47209942" other_end="47241218" strand="1">
           <diff type="mismatch" lrg_start="14191" lrg_end="14191" other_start="47224132" other_end="47224132" lrg_sequence="A" other_sequence="T" />
         </mapping_span>
@@ -153,7 +153,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009365.1</comment>
-      <modification_date>2014-10-22</modification_date>
+      <modification_date>2015-03-18</modification_date>
       <mapping coord_system="NM_000107.2" other_name="NM_000107.2" other_id="NM_000107.2" other_start="1" other_end="1848" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5322" other_start="1" other_end="322" strand="1" />
         <mapping_span lrg_start="6395" lrg_end="6531" other_start="323" other_end="459" strand="1" />
@@ -165,6 +165,14 @@
         <mapping_span lrg_start="27896" lrg_end="28060" other_start="1219" other_end="1383" strand="1" />
         <mapping_span lrg_start="28197" lrg_end="28242" other_start="1384" other_end="1429" strand="1" />
         <mapping_span lrg_start="28859" lrg_end="29277" other_start="1430" other_end="1848" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001300734.1" other_name="NM_001300734.1" other_id="NM_001300734.1" other_start="1" other_end="1281" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5322" other_start="1" other_end="322" strand="1" />
+        <mapping_span lrg_start="6395" lrg_end="6531" other_start="323" other_end="459" strand="1" />
+        <mapping_span lrg_start="6917" lrg_end="7108" other_start="460" other_end="651" strand="1" />
+        <mapping_span lrg_start="27896" lrg_end="28060" other_start="652" other_end="816" strand="1" />
+        <mapping_span lrg_start="28197" lrg_end="28242" other_start="817" other_end="862" strand="1" />
+        <mapping_span lrg_start="28859" lrg_end="29277" other_start="863" other_end="1281" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="1643">
@@ -182,7 +190,7 @@
           <db_xref source="GI" accession="221139899" />
           <transcript source="RefSeq" accession="NM_000107.2" fixed_id="t1">
             <coordinates coord_system="LRG_467" start="5001" end="29277" strand="1" />
-            <long_name>damage-specific DNA binding protein 2, 48kDa</long_name>
+            <long_name>damage-specific DNA binding protein 2, 48kDa, transcript variant WT</long_name>
             <db_xref source="GeneID" accession="1643" />
             <db_xref source="GI" accession="164419759" />
             <exon source="RefSeq" accession="">
@@ -217,10 +225,11 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_000098.1" fixed_id="p1">
               <coordinates coord_system="LRG_467" start="5196" end="28908" strand="1" />
-              <long_name>DNA damage-binding protein 2</long_name>
+              <long_name>DNA damage-binding protein 2 isoform WT</long_name>
               <long_name>xeroderma pigmentosum group E protein</long_name>
               <long_name>UV-damaged DNA-binding protein 2</long_name>
               <long_name>DDB p48 subunit</long_name>
+              <long_name>DNA damage-binding protein 2</long_name>
               <long_name>UV-DDB 2</long_name>
               <long_name>damage-specific DNA-binding protein 2</long_name>
               <db_xref source="CCDS" accession="CCDS7927.1" />
@@ -228,23 +237,73 @@
               <db_xref source="GI" accession="4557515" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_001300734.1">
+            <coordinates coord_system="LRG_467" start="5001" end="29277" strand="1" />
+            <long_name>damage-specific DNA binding protein 2, 48kDa, transcript variant D1</long_name>
+            <db_xref source="GeneID" accession="1643" />
+            <db_xref source="GI" accession="663429591" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_467" start="5001" end="5322" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_467" start="6395" end="6531" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_467" start="6917" end="7108" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_467" start="27896" end="28060" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_467" start="28197" end="28242" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_467" start="28859" end="29277" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001287663.1">
+              <coordinates coord_system="LRG_467" start="5196" end="28908" strand="1" />
+              <long_name>DNA damage-binding protein 2 isoform D1</long_name>
+              <db_xref source="CCDS" accession="CCDS73284.1" />
+              <db_xref source="GeneID" accession="1643" />
+              <db_xref source="GI" accession="663429592" />
+            </protein_product>
+          </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="53">
-          <symbol source="HGNC" name="ACP2" />
+          <symbol source="HGNC" name="ACP2">
+            <synonym>LAP</synonym>
+          </symbol>
           <coordinates coord_system="LRG_467" start="29361" end="31277" strand="-1" />
           <partial>5-prime</partial>
           <long_name>acid phosphatase 2, lysosomal</long_name>
           <db_xref source="GeneID" accession="53" />
           <db_xref source="HGNC" accession="HGNC:123" />
           <db_xref source="MIM" accession="171650" />
-          <db_xref source="CCDS" accession="CCDS44583.1" />
           <db_xref source="CCDS" accession="CCDS7928.1" />
-          <transcript source="RefSeq" accession="NM_001610.2">
+          <transcript source="RefSeq" accession="NM_001302489.1">
+            <coordinates coord_system="LRG_467" start="29361" end="30308" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>acid phosphatase 2, lysosomal, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="53" />
+            <db_xref source="GI" accession="699964206" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_467" start="29361" end="30308" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001289418.1" codon_start="3">
+              <coordinates coord_system="LRG_467" start="30175" end="30308" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>lysosomal acid phosphatase isoform 3</long_name>
+              <db_xref source="GeneID" accession="53" />
+              <db_xref source="GI" accession="699964207" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001610.3">
             <coordinates coord_system="LRG_467" start="29361" end="30308" strand="-1" />
             <partial>5-prime</partial>
             <long_name>acid phosphatase 2, lysosomal, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="53" />
-            <db_xref source="GI" accession="197100212" />
+            <db_xref source="GI" accession="699964213" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_467" start="29361" end="30308" strand="-1" />
               <partial>5-prime</partial>
@@ -253,10 +312,63 @@
               <coordinates coord_system="LRG_467" start="30175" end="30308" strand="-1" />
               <partial>5-prime</partial>
               <long_name>lysosomal acid phosphatase isoform 1 precursor</long_name>
-              <long_name>LAP</long_name>
               <db_xref source="CCDS" accession="CCDS7928.1" />
               <db_xref source="GeneID" accession="53" />
               <db_xref source="GI" accession="4557010" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001302490.1">
+            <coordinates coord_system="LRG_467" start="29361" end="30308" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>acid phosphatase 2, lysosomal, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="53" />
+            <db_xref source="GI" accession="699964214" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_467" start="29361" end="30308" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001289419.1" codon_start="3">
+              <coordinates coord_system="LRG_467" start="30175" end="30308" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>lysosomal acid phosphatase isoform 4 precursor</long_name>
+              <db_xref source="GeneID" accession="53" />
+              <db_xref source="GI" accession="699964215" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001302491.1">
+            <coordinates coord_system="LRG_467" start="29361" end="30308" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>acid phosphatase 2, lysosomal, transcript variant 5</long_name>
+            <db_xref source="GeneID" accession="53" />
+            <db_xref source="GI" accession="699964216" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_467" start="29361" end="30308" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001289420.1" codon_start="3">
+              <coordinates coord_system="LRG_467" start="30175" end="30308" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>lysosomal acid phosphatase isoform 5 precursor</long_name>
+              <db_xref source="GeneID" accession="53" />
+              <db_xref source="GI" accession="699964217" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001302492.1">
+            <coordinates coord_system="LRG_467" start="29361" end="30308" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>acid phosphatase 2, lysosomal, transcript variant 6</long_name>
+            <db_xref source="GeneID" accession="53" />
+            <db_xref source="GI" accession="699964218" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_467" start="29361" end="30308" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001289421.1" codon_start="3">
+              <coordinates coord_system="LRG_467" start="30175" end="30308" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>lysosomal acid phosphatase isoform 6</long_name>
+              <db_xref source="GeneID" accession="53" />
+              <db_xref source="GI" accession="699964219" />
             </protein_product>
           </transcript>
         </gene>
@@ -272,9 +384,9 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 77 (GRCh38  primary assembly)</comment>
-      <modification_date>2014-10-31</modification_date>
-      <mapping coord_system="ENST00000256996.6" other_name="ENST00000256996.6" other_id="ENST00000256996.6" other_start="1" other_end="1870" type="transcript">
+      <comment>Annotation is based on Ensembl release 79 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-03-19</modification_date>
+      <mapping coord_system="ENST00000256996.7" other_name="ENST00000256996.7" other_id="ENST00000256996.7" other_start="1" other_end="1870" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5322" other_start="1" other_end="322" strand="1" />
         <mapping_span lrg_start="6395" lrg_end="6531" other_start="323" other_end="459" strand="1" />
         <mapping_span lrg_start="6917" lrg_end="7108" other_start="460" other_end="651" strand="1">
@@ -288,7 +400,7 @@
         <mapping_span lrg_start="28197" lrg_end="28242" other_start="1384" other_end="1429" strand="1" />
         <mapping_span lrg_start="28859" lrg_end="29299" other_start="1430" other_end="1870" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000378600.5" other_name="ENST00000378600.5" other_id="ENST00000378600.5" other_start="1" other_end="717" type="transcript">
+      <mapping coord_system="ENST00000378600.6" other_name="ENST00000378600.6" other_id="ENST00000378600.6" other_start="1" other_end="717" type="transcript">
         <mapping_span lrg_start="5196" lrg_end="5322" other_start="1" other_end="127" strand="1" />
         <mapping_span lrg_start="6395" lrg_end="6531" other_start="128" other_end="264" strand="1" />
         <mapping_span lrg_start="6917" lrg_end="7108" other_start="265" other_end="456" strand="1">
@@ -298,7 +410,7 @@
         <mapping_span lrg_start="28197" lrg_end="28242" other_start="622" other_end="667" strand="1" />
         <mapping_span lrg_start="28859" lrg_end="28908" other_start="668" other_end="717" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000378601.5" other_name="ENST00000378601.5" other_id="ENST00000378601.5" other_start="1" other_end="1591" type="transcript">
+      <mapping coord_system="ENST00000378601.6" other_name="ENST00000378601.6" other_id="ENST00000378601.6" other_start="1" other_end="1591" type="transcript">
         <mapping_span lrg_start="5051" lrg_end="5322" other_start="1" other_end="272" strand="1" />
         <mapping_span lrg_start="6395" lrg_end="6531" other_start="273" other_end="409" strand="1" />
         <mapping_span lrg_start="6917" lrg_end="7108" other_start="410" other_end="601" strand="1">
@@ -311,7 +423,7 @@
         <mapping_span lrg_start="28197" lrg_end="28242" other_start="1156" other_end="1201" strand="1" />
         <mapping_span lrg_start="28859" lrg_end="29248" other_start="1202" other_end="1591" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000378603.5" other_name="ENST00000378603.5" other_id="ENST00000378603.5" other_start="1" other_end="1092" type="transcript">
+      <mapping coord_system="ENST00000378603.6" other_name="ENST00000378603.6" other_id="ENST00000378603.6" other_start="1" other_end="1092" type="transcript">
         <mapping_span lrg_start="5196" lrg_end="5322" other_start="1" other_end="127" strand="1" />
         <mapping_span lrg_start="6395" lrg_end="6531" other_start="128" other_end="264" strand="1" />
         <mapping_span lrg_start="22873" lrg_end="23018" other_start="265" other_end="410" strand="1" />
@@ -322,7 +434,7 @@
         <mapping_span lrg_start="28197" lrg_end="28242" other_start="997" other_end="1042" strand="1" />
         <mapping_span lrg_start="28859" lrg_end="28908" other_start="1043" other_end="1092" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000610805.2" other_name="ENST00000610805.2" other_id="ENST00000610805.2" other_start="1" other_end="793" type="transcript">
+      <mapping coord_system="ENST00000610805.3" other_name="ENST00000610805.3" other_id="ENST00000610805.3" other_start="1" other_end="793" type="transcript">
         <mapping_span lrg_start="5147" lrg_end="5322" other_start="1" other_end="176" strand="1" />
         <mapping_span lrg_start="6253" lrg_end="6531" other_start="177" other_end="455" strand="1" />
         <mapping_span lrg_start="6917" lrg_end="7108" other_start="456" other_end="647" strand="1">
@@ -330,7 +442,7 @@
         </mapping_span>
         <mapping_span lrg_start="22873" lrg_end="23018" other_start="648" other_end="793" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000612309.2" other_name="ENST00000612309.2" other_id="ENST00000612309.2" other_start="1" other_end="3101" type="transcript">
+      <mapping coord_system="ENST00000612309.3" other_name="ENST00000612309.3" other_id="ENST00000612309.3" other_start="1" other_end="3101" type="transcript">
         <mapping_span lrg_start="5154" lrg_end="6531" other_start="1" other_end="1378" strand="1" />
         <mapping_span lrg_start="6917" lrg_end="7108" other_start="1379" other_end="1570" strand="1">
           <diff type="mismatch" lrg_start="7030" lrg_end="7030" other_start="47238522" other_end="47238522" lrg_sequence="C" other_sequence="T" />
@@ -347,7 +459,7 @@
         <mapping_span lrg_start="24816" lrg_end="24993" other_start="93" other_end="270" strand="1" />
         <mapping_span lrg_start="25329" lrg_end="26146" other_start="271" other_end="1088" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000614825.2" other_name="ENST00000614825.2" other_id="ENST00000614825.2" other_start="1" other_end="852" type="transcript">
+      <mapping coord_system="ENST00000614825.3" other_name="ENST00000614825.3" other_id="ENST00000614825.3" other_start="1" other_end="852" type="transcript">
         <mapping_span lrg_start="4629" lrg_end="4733" other_start="1" other_end="105" strand="1" />
         <mapping_span lrg_start="5132" lrg_end="5322" other_start="106" other_end="296" strand="1" />
         <mapping_span lrg_start="6395" lrg_end="6531" other_start="297" other_end="433" strand="1" />
@@ -369,7 +481,7 @@
           <diff type="mismatch" lrg_start="7030" lrg_end="7030" other_start="47238522" other_end="47238522" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
       </mapping>
-      <mapping coord_system="ENST00000616278.2" other_name="ENST00000616278.2" other_id="ENST00000616278.2" other_start="1" other_end="960" type="transcript">
+      <mapping coord_system="ENST00000616278.3" other_name="ENST00000616278.3" other_id="ENST00000616278.3" other_start="1" other_end="960" type="transcript">
         <mapping_span lrg_start="5196" lrg_end="5322" other_start="1" other_end="127" strand="1" />
         <mapping_span lrg_start="6395" lrg_end="6531" other_start="128" other_end="264" strand="1" />
         <mapping_span lrg_start="6917" lrg_end="7108" other_start="265" other_end="456" strand="1">
@@ -381,7 +493,7 @@
         <mapping_span lrg_start="28197" lrg_end="28242" other_start="865" other_end="910" strand="1" />
         <mapping_span lrg_start="28859" lrg_end="28908" other_start="911" other_end="960" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000617022.2" other_name="ENST00000617022.2" other_id="ENST00000617022.2" other_start="1" other_end="2181" type="transcript">
+      <mapping coord_system="ENST00000617022.3" other_name="ENST00000617022.3" other_id="ENST00000617022.3" other_start="1" other_end="2181" type="transcript">
         <mapping_span lrg_start="5171" lrg_end="6531" other_start="1" other_end="1361" strand="1" />
         <mapping_span lrg_start="6917" lrg_end="7108" other_start="1362" other_end="1553" strand="1">
           <diff type="mismatch" lrg_start="7030" lrg_end="7030" other_start="47238522" other_end="47238522" lrg_sequence="C" other_sequence="T" />
@@ -390,7 +502,7 @@
         <mapping_span lrg_start="28197" lrg_end="28242" other_start="1719" other_end="1764" strand="1" />
         <mapping_span lrg_start="28859" lrg_end="29275" other_start="1765" other_end="2181" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000617847.2" other_name="ENST00000617847.2" other_id="ENST00000617847.2" other_start="1" other_end="1649" type="transcript">
+      <mapping coord_system="ENST00000617847.3" other_name="ENST00000617847.3" other_id="ENST00000617847.3" other_start="1" other_end="1649" type="transcript">
         <mapping_span lrg_start="6972" lrg_end="7108" other_start="1" other_end="137" strand="1">
           <diff type="mismatch" lrg_start="7030" lrg_end="7030" other_start="47238522" other_end="47238522" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
@@ -410,7 +522,7 @@
         <mapping_span lrg_start="27678" lrg_end="27771" other_start="190" other_end="283" strand="1" />
         <mapping_span lrg_start="27896" lrg_end="27959" other_start="284" other_end="347" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000622090.2" other_name="ENST00000622090.2" other_id="ENST00000622090.2" other_start="1" other_end="580" type="transcript">
+      <mapping coord_system="ENST00000622090.3" other_name="ENST00000622090.3" other_id="ENST00000622090.3" other_start="1" other_end="580" type="transcript">
         <mapping_span lrg_start="5104" lrg_end="5331" other_start="1" other_end="228" strand="1" />
         <mapping_span lrg_start="6395" lrg_end="6531" other_start="229" other_end="365" strand="1" />
         <mapping_span lrg_start="6917" lrg_end="7108" other_start="366" other_end="557" strand="1">
@@ -418,7 +530,7 @@
         </mapping_span>
         <mapping_span lrg_start="22873" lrg_end="22895" other_start="558" other_end="580" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000622878.2" other_name="ENST00000622878.2" other_id="ENST00000622878.2" other_start="1" other_end="556" type="transcript">
+      <mapping coord_system="ENST00000622878.3" other_name="ENST00000622878.3" other_id="ENST00000622878.3" other_start="1" other_end="556" type="transcript">
         <mapping_span lrg_start="4524" lrg_end="4733" other_start="1" other_end="210" strand="1" />
         <mapping_span lrg_start="5130" lrg_end="5322" other_start="211" other_end="403" strand="1" />
         <mapping_span lrg_start="6395" lrg_end="6531" other_start="404" other_end="540" strand="1" />
@@ -700,6 +812,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000478411">
               <coordinates coord_system="LRG_467" start="5196" end="24646" strand="1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="Q92466">
+                <synonym>B2R875</synonym>
+                <synonym>Q76E54</synonym>
+                <synonym>Q76E55</synonym>
+                <synonym>Q76E56</synonym>
+                <synonym>Q76E57</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000378600">
@@ -880,7 +999,9 @@
           <coordinates coord_system="LRG_467" start="29361" end="31277" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>acid phosphatase 2, lysosomal (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="53" />
+          <db_xref source="GeneID" accession="53">
+            <synonym>LAP</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="123" />
           <db_xref source="MIM" accession="171650" />
           <db_xref source="Ensembl" accession="ENSG00000134575" />
@@ -923,6 +1044,8 @@
             <protein_product source="Ensembl" accession="ENSP00000436658">
               <coordinates coord_system="LRG_467" start="30175" end="31277" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <long_name>lysosomal acid phosphatase isoform 5 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001289420.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000534448">
@@ -943,6 +1066,8 @@
             <protein_product source="Ensembl" accession="ENSP00000432205">
               <coordinates coord_system="LRG_467" start="30175" end="31277" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <long_name>lysosomal acid phosphatase isoform 4 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001289419.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000531004">
@@ -963,6 +1088,8 @@
             <protein_product source="Ensembl" accession="ENSP00000432439">
               <coordinates coord_system="LRG_467" start="30175" end="31277" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <long_name>lysosomal acid phosphatase isoform 3</long_name>
+              <db_xref source="RefSeq" accession="NP_001289418.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000525230">
@@ -981,7 +1108,7 @@
         <name>List of locus specific databases for DDB2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DDB2</url>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

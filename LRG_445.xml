@@ -86,7 +86,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -98,11 +98,11 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_id_syn="CM000663.1" other_start="112311284" other_end="112536777" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="225494" other_start="112311284" other_end="112536777" strand="-1" />
       </mapping>
-      <mapping coord_system="GRCh38" other_name="1" other_id="NC_000001.11" other_id_syn="CM000663.2" other_start="111768662" other_end="111994155" type="main_assembly">
+      <mapping coord_system="GRCh38.p2" other_name="1" other_id="NC_000001.11" other_id_syn="CM000663.2" other_start="111768662" other_end="111994155" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="225494" other_start="111768662" other_end="111994155" strand="-1">
           <diff type="mismatch" lrg_start="182159" lrg_end="182159" other_start="111811997" other_end="111811997" lrg_sequence="T" other_sequence="C" />
         </mapping_span>
@@ -120,7 +120,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_032011.2</comment>
-      <modification_date>2014-10-22</modification_date>
+      <modification_date>2015-03-18</modification_date>
       <mapping coord_system="NM_004980.4" other_name="NM_004980.4" other_id="NM_004980.4" other_start="1" other_end="2693" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5408" other_start="1" other_end="408" strand="1" />
         <mapping_span lrg_start="11358" lrg_end="12535" other_start="409" other_end="1586" strand="1" />
@@ -176,16 +176,16 @@
             <synonym>SCA22</synonym>
           </symbol>
           <coordinates coord_system="LRG_445" start="5001" end="218324" strand="1" />
-          <long_name>potassium voltage-gated channel, Shal-related subfamily, member 3</long_name>
+          <long_name>potassium channel, voltage gated Shal related subfamily D, member 3</long_name>
           <db_xref source="GeneID" accession="3752" />
           <db_xref source="HGNC" accession="HGNC:6239" />
           <db_xref source="MIM" accession="605411" />
-          <db_xref source="CCDS" accession="CCDS844.1" />
           <db_xref source="CCDS" accession="CCDS843.1" />
+          <db_xref source="CCDS" accession="CCDS844.1" />
           <db_xref source="GI" accession="404501526" />
           <transcript source="RefSeq" accession="NM_004980.4" fixed_id="t1">
             <coordinates coord_system="LRG_445" start="5001" end="218324" strand="1" />
-            <long_name>potassium voltage-gated channel, Shal-related subfamily, member 3, transcript variant 1</long_name>
+            <long_name>potassium channel, voltage gated Shal related subfamily D, member 3, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="3752" />
             <db_xref source="GI" accession="320089593" />
             <exon source="RefSeq" accession="">
@@ -218,6 +218,7 @@
               <long_name>sha1-related potassium channel Kv4.3</long_name>
               <long_name>voltage-gated K+ channel</long_name>
               <long_name>potassium ionic channel Kv4.3</long_name>
+              <long_name>potassium voltage-gated channel, Shal-related subfamily, member 3</long_name>
               <long_name>potassium voltage-gated channel subfamily D member 3</long_name>
               <long_name>voltage-gated potassium channel subunit Kv4.3</long_name>
               <db_xref source="CCDS" accession="CCDS843.1" />
@@ -227,7 +228,7 @@
           </transcript>
           <transcript source="RefSeq" accession="NM_172198.2">
             <coordinates coord_system="LRG_445" start="5001" end="218324" strand="1" />
-            <long_name>potassium voltage-gated channel, Shal-related subfamily, member 3, transcript variant 2</long_name>
+            <long_name>potassium channel, voltage gated Shal related subfamily D, member 3, transcript variant 2</long_name>
             <db_xref source="GeneID" accession="3752" />
             <db_xref source="GI" accession="320089591" />
             <exon source="RefSeq" accession="">
@@ -260,6 +261,25 @@
             </protein_product>
           </transcript>
         </gene>
+        <gene source="NCBI-Gene" accession="100874295">
+          <symbol source="HGNC" name="KCND3-IT1" />
+          <coordinates coord_system="LRG_445" start="137251" end="140394" strand="1" />
+          <long_name>KCND3 intronic transcript 1</long_name>
+          <db_xref source="GeneID" accession="100874295" />
+          <db_xref source="HGNC" accession="HGNC:41350" />
+          <transcript source="RefSeq" accession="NR_046783.1">
+            <coordinates coord_system="LRG_445" start="137251" end="140394" strand="1" />
+            <long_name>KCND3 intronic transcript 1</long_name>
+            <db_xref source="GeneID" accession="100874295" />
+            <db_xref source="GI" accession="570700908" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_445" start="137251" end="137338" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_445" start="140107" end="140394" strand="1" />
+            </exon>
+          </transcript>
+        </gene>
       </features>
     </annotation_set>
     <annotation_set type="ensembl">
@@ -272,8 +292,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 77 (GRCh38  primary assembly)</comment>
-      <modification_date>2014-10-31</modification_date>
+      <comment>Annotation is based on Ensembl release 79 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-03-19</modification_date>
       <mapping coord_system="ENST00000302127.4" other_name="ENST00000302127.4" other_id="ENST00000302127.4" other_start="1" other_end="2659" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5408" other_start="1" other_end="408" strand="1" />
         <mapping_span lrg_start="11358" lrg_end="12535" other_start="409" other_end="1586" strand="1" />
@@ -283,7 +303,7 @@
         <mapping_span lrg_start="216883" lrg_end="217130" other_start="1942" other_end="2189" strand="1" />
         <mapping_span lrg_start="217878" lrg_end="218347" other_start="2190" other_end="2659" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000315987.4" other_name="ENST00000315987.4" other_id="ENST00000315987.4" other_start="1" other_end="2716" type="transcript">
+      <mapping coord_system="ENST00000315987.5" other_name="ENST00000315987.5" other_id="ENST00000315987.5" other_start="1" other_end="2716" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5408" other_start="1" other_end="408" strand="1" />
         <mapping_span lrg_start="11358" lrg_end="12535" other_start="409" other_end="1586" strand="1" />
         <mapping_span lrg_start="207050" lrg_end="207212" other_start="1587" other_end="1749" strand="1" />
@@ -293,7 +313,7 @@
         <mapping_span lrg_start="216883" lrg_end="217130" other_start="1999" other_end="2246" strand="1" />
         <mapping_span lrg_start="217878" lrg_end="218347" other_start="2247" other_end="2716" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000369697.3" other_name="ENST00000369697.3" other_id="ENST00000369697.3" other_start="1" other_end="7396" type="transcript">
+      <mapping coord_system="ENST00000369697.4" other_name="ENST00000369697.4" other_id="ENST00000369697.4" other_start="1" other_end="7396" type="transcript">
         <mapping_span lrg_start="11360" lrg_end="12535" other_start="1" other_end="1176" strand="1" />
         <mapping_span lrg_start="207050" lrg_end="207212" other_start="1177" other_end="1339" strand="1" />
         <mapping_span lrg_start="213365" lrg_end="213466" other_start="1340" other_end="1441" strand="1" />
@@ -340,7 +360,7 @@
         <gene source="Ensembl" accession="ENSG00000171385">
           <symbol source="HGNC" name="KCND3" />
           <coordinates coord_system="LRG_445" start="5001" end="223494" strand="1" mapped_from="GRCh38" />
-          <long_name>potassium voltage-gated channel, Shal-related subfamily, member 3 (protein_coding)</long_name>
+          <long_name>potassium channel, voltage gated Shal related subfamily D, member 3 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="3752">
             <synonym>KCND3L</synonym>
             <synonym>KCND3S</synonym>
@@ -553,7 +573,7 @@
         <name>List of locus specific databases for KCND3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/KCND3</url>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

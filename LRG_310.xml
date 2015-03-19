@@ -179,7 +179,7 @@
           <email>sichan@bcgsc.ca</email>
         </contact>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -191,11 +191,11 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_id_syn="CM000665.1" other_start="178861311" other_end="178959881" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="98571" other_start="178861311" other_end="178959881" strand="1" />
       </mapping>
-      <mapping coord_system="GRCh38" other_name="3" other_id="NC_000003.12" other_id_syn="CM000665.2" other_start="179143523" other_end="179242093" type="main_assembly">
+      <mapping coord_system="GRCh38.p2" other_name="3" other_id="NC_000003.12" other_id_syn="CM000665.2" other_start="179143523" other_end="179242093" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="98571" other_start="179143523" other_end="179242093" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">PIK3CA</lrg_locus>
@@ -211,7 +211,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012113.2</comment>
-      <modification_date>2014-10-22</modification_date>
+      <modification_date>2015-03-18</modification_date>
       <mapping coord_system="NM_006218.2" other_name="NM_006218.2" other_id="NM_006218.2" other_start="1" other_end="3712" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5081" other_start="1" other_end="81" strand="1" />
         <mapping_span lrg_start="55228" lrg_end="55655" other_start="82" other_end="509" strand="1" />
@@ -236,6 +236,24 @@
         <mapping_span lrg_start="90572" lrg_end="91190" other_start="3094" other_end="3712" strand="1" />
       </mapping>
       <features>
+        <gene source="NCBI-Gene" accession="101928739">
+          <symbol name="LOC101928739" />
+          <coordinates coord_system="LRG_310" start="1" end="4451" strand="-1" />
+          <partial>3-prime</partial>
+          <long_name>uncharacterized LOC101928739</long_name>
+          <db_xref source="GeneID" accession="101928739" />
+          <transcript source="RefSeq" accession="NR_125401.1">
+            <coordinates coord_system="LRG_310" start="4394" end="4451" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>uncharacterized LOC101928739</long_name>
+            <db_xref source="GeneID" accession="101928739" />
+            <db_xref source="GI" accession="667751633" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_310" start="4394" end="4451" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
         <gene source="NCBI-Gene" accession="5290">
           <symbol source="HGNC" name="PIK3CA">
             <synonym>CLOVE</synonym>
@@ -343,25 +361,27 @@
           <symbol source="HGNC" name="KCNMB3">
             <synonym>BKBETA3</synonym>
             <synonym>HBETA3</synonym>
+            <synonym>K(VCA)BETA-3</synonym>
             <synonym>KCNMB2</synonym>
             <synonym>KCNMBL</synonym>
+            <synonym>SLO-BETA-3</synonym>
             <synonym>SLOBETA3</synonym>
           </symbol>
           <coordinates coord_system="LRG_310" start="96227" end="98571" strand="-1" />
           <partial>5-prime</partial>
-          <long_name>potassium large conductance calcium-activated channel, subfamily M beta member 3</long_name>
+          <long_name>potassium channel subfamily M regulatory beta subunit 3</long_name>
           <db_xref source="GeneID" accession="27094" />
           <db_xref source="HGNC" accession="HGNC:6287" />
           <db_xref source="MIM" accession="605222" />
-          <db_xref source="CCDS" accession="CCDS3226.1" />
           <db_xref source="CCDS" accession="CCDS3225.1" />
           <db_xref source="CCDS" accession="CCDS43172.1" />
-          <db_xref source="CCDS" accession="CCDS54683.1" />
           <db_xref source="CCDS" accession="CCDS43173.1" />
+          <db_xref source="CCDS" accession="CCDS3226.1" />
+          <db_xref source="CCDS" accession="CCDS54683.1" />
           <transcript source="RefSeq" accession="NM_001163677.1">
             <coordinates coord_system="LRG_310" start="96227" end="96542" strand="-1" />
             <partial>5-prime</partial>
-            <long_name>potassium large conductance calcium-activated channel, subfamily M beta member 3, transcript variant 5</long_name>
+            <long_name>potassium channel subfamily M regulatory beta subunit 3, transcript variant 5</long_name>
             <db_xref source="GeneID" accession="27094" />
             <db_xref source="GI" accession="254750630" />
             <exon source="RefSeq" accession="">
@@ -375,8 +395,11 @@
               <long_name>large conductance, voltage and Ca2+ activated potassium channel Maxi K beta 3 subunit</long_name>
               <long_name>BK channel subunit beta-3</long_name>
               <long_name>charybdotoxin receptor subunit beta-3</long_name>
-              <long_name>K(VCA)beta-3</long_name>
-              <long_name>slo-beta-3</long_name>
+              <long_name>calcium-activated potassium channel regulatory subunit</long_name>
+              <long_name>potassium large conductance calcium-activated channel, subfamily M beta member 3</long_name>
+              <long_name>BK channel beta subunit 3</long_name>
+              <long_name>MaxiK channel beta-subunit 3</long_name>
+              <long_name>big potassium channel beta subunit 3</long_name>
               <long_name>maxi K channel subunit beta-3</long_name>
               <long_name>calcium-activated potassium channel, subfamily M subunit beta-3</long_name>
               <db_xref source="CCDS" accession="CCDS54683.1" />
@@ -387,7 +410,7 @@
           <transcript source="RefSeq" accession="NR_028135.1">
             <coordinates coord_system="LRG_310" start="96227" end="96542" strand="-1" />
             <partial>5-prime</partial>
-            <long_name>potassium large conductance calcium-activated channel, subfamily M beta member 3, transcript variant 6</long_name>
+            <long_name>potassium channel subfamily M regulatory beta subunit 3, transcript variant 6</long_name>
             <db_xref source="GeneID" accession="27094" />
             <db_xref source="GI" accession="254750633" />
             <exon source="RefSeq" accession="">
@@ -401,8 +424,11 @@
               <long_name>large conductance, voltage and Ca2+ activated potassium channel Maxi K beta 3 subunit</long_name>
               <long_name>BK channel subunit beta-3</long_name>
               <long_name>charybdotoxin receptor subunit beta-3</long_name>
-              <long_name>K(VCA)beta-3</long_name>
-              <long_name>slo-beta-3</long_name>
+              <long_name>calcium-activated potassium channel regulatory subunit</long_name>
+              <long_name>potassium large conductance calcium-activated channel, subfamily M beta member 3</long_name>
+              <long_name>BK channel beta subunit 3</long_name>
+              <long_name>MaxiK channel beta-subunit 3</long_name>
+              <long_name>big potassium channel beta subunit 3</long_name>
               <long_name>maxi K channel subunit beta-3</long_name>
               <long_name>calcium-activated potassium channel, subfamily M subunit beta-3</long_name>
               <db_xref source="CCDS" accession="CCDS54683.1" />
@@ -423,8 +449,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 77 (GRCh38  primary assembly)</comment>
-      <modification_date>2014-10-31</modification_date>
+      <comment>Annotation is based on Ensembl release 79 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-03-19</modification_date>
       <mapping coord_system="ENST00000263967.3" other_name="ENST00000263967.3" other_id="ENST00000263967.3" other_start="1" other_end="9093" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5081" other_start="1" other_end="81" strand="1" />
         <mapping_span lrg_start="55228" lrg_end="55655" other_start="82" other_end="509" strand="1" />
@@ -635,7 +661,7 @@
           <db_xref source="Ensembl" accession="ENSG00000201957" />
           <transcript source="Ensembl" accession="ENST00000365087">
             <coordinates coord_system="LRG_310" start="25561" end="25688" strand="-1" mapped_from="GRCh38" />
-            <long_name>SNORA25.1-209 (snoRNA)</long_name>
+            <long_name>SNORA25.9-201 (snoRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001439850">
               <coordinates coord_system="LRG_310" start="25561" end="25688" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -645,7 +671,7 @@
           <symbol source="HGNC" name="KCNMB3" />
           <coordinates coord_system="LRG_310" start="93169" end="98571" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>potassium large conductance calcium-activated channel, subfamily M beta member 3 (protein_coding)</long_name>
+          <long_name>potassium channel subfamily M regulatory beta subunit 3 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="27094">
             <synonym>BKBETA3</synonym>
             <synonym>HBETA3</synonym>
@@ -725,7 +751,7 @@
         <name>List of locus specific databases for PIK3CA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PIK3CA</url>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

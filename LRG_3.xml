@@ -348,7 +348,7 @@
           <email>ray@leicester.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -360,13 +360,13 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_id_syn="CM000664.1" other_start="189834099" other_end="189879472" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="45374" other_start="189834099" other_end="189879472" strand="1">
           <diff type="mismatch" lrg_start="41323" lrg_end="41323" other_start="189875421" other_end="189875421" lrg_sequence="G" other_sequence="T" />
         </mapping_span>
       </mapping>
-      <mapping coord_system="GRCh38" other_name="2" other_id="NC_000002.12" other_id_syn="CM000664.2" other_start="188969373" other_end="189014746" type="main_assembly">
+      <mapping coord_system="GRCh38.p2" other_name="2" other_id="NC_000002.12" other_id_syn="CM000664.2" other_start="188969373" other_end="189014746" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="45374" other_start="188969373" other_end="189014746" strand="1">
           <diff type="mismatch" lrg_start="41323" lrg_end="41323" other_start="189010695" other_end="189010695" lrg_sequence="G" other_sequence="T" />
         </mapping_span>
@@ -384,7 +384,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007404.1</comment>
-      <modification_date>2014-10-22</modification_date>
+      <modification_date>2015-03-18</modification_date>
       <mapping coord_system="NM_000090.3" other_name="NM_000090.3" other_id="NM_000090.3" other_start="1" other_end="5490" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5196" other_start="1" other_end="196" strand="1" />
         <mapping_span lrg_start="15388" lrg_end="15590" other_start="197" other_end="399" strand="1" />
@@ -633,9 +633,9 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 77 (GRCh38  primary assembly)</comment>
-      <modification_date>2014-10-31</modification_date>
-      <mapping coord_system="ENST00000304636.5" other_name="ENST00000304636.5" other_id="ENST00000304636.5" other_start="1" other_end="5543" type="transcript">
+      <comment>Annotation is based on Ensembl release 79 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-03-19</modification_date>
+      <mapping coord_system="ENST00000304636.6" other_name="ENST00000304636.6" other_id="ENST00000304636.6" other_start="1" other_end="5543" type="transcript">
         <mapping_span lrg_start="4948" lrg_end="5196" other_start="1" other_end="249" strand="1" />
         <mapping_span lrg_start="15388" lrg_end="15590" other_start="250" other_end="452" strand="1" />
         <mapping_span lrg_start="15825" lrg_end="15875" other_start="453" other_end="503" strand="1" />
@@ -690,7 +690,7 @@
         </mapping_span>
         <mapping_span lrg_start="42256" lrg_end="43374" other_start="4425" other_end="5543" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000317840.7" other_name="ENST00000317840.7" other_id="ENST00000317840.7" other_start="1" other_end="3873" type="transcript">
+      <mapping coord_system="ENST00000317840.8" other_name="ENST00000317840.8" other_id="ENST00000317840.8" other_start="1" other_end="3873" type="transcript">
         <mapping_span lrg_start="5014" lrg_end="5196" other_start="1" other_end="183" strand="1" />
         <mapping_span lrg_start="15388" lrg_end="15590" other_start="184" other_end="386" strand="1" />
         <mapping_span lrg_start="15825" lrg_end="15875" other_start="387" other_end="437" strand="1" />
@@ -1082,6 +1082,26 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000315243">
               <coordinates coord_system="LRG_3" start="5118" end="42402" strand="1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="P02461">
+                <synonym>D2JYH5</synonym>
+                <synonym>D3DPH4</synonym>
+                <synonym>P78429</synonym>
+                <synonym>Q15112</synonym>
+                <synonym>Q16403</synonym>
+                <synonym>Q53S91</synonym>
+                <synonym>Q541P8</synonym>
+                <synonym>Q6LDB3</synonym>
+                <synonym>Q6LDJ2</synonym>
+                <synonym>Q6LDJ3</synonym>
+                <synonym>Q7KZ56</synonym>
+                <synonym>Q8N6U4</synonym>
+                <synonym>Q9UC88</synonym>
+                <synonym>Q9UC89</synonym>
+                <synonym>Q9UC90</synonym>
+                <synonym>Q9UC91</synonym>
+                <synonym>R4N3C5</synonym>
+                <synonym>V9GZI1</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000470167">
@@ -1140,24 +1160,37 @@
             </exon>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000281204">
+          <symbol source="Clone_based_ensembl_gene" name="AC066694.1" />
+          <coordinates coord_system="LRG_3" start="5047" end="5183" strand="1" mapped_from="GRCh38" />
+          <long_name>AC066694.1 (miRNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000281204" />
+          <transcript source="Ensembl" accession="ENST00000631329">
+            <coordinates coord_system="LRG_3" start="5047" end="5183" strand="1" mapped_from="GRCh38" />
+            <long_name>AC066694.1-201 (miRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00003766748">
+              <coordinates coord_system="LRG_3" start="5047" end="5183" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000221502">
           <symbol source="HGNC" name="MIR1245A" />
           <coordinates coord_system="LRG_3" start="8720" end="8789" strand="1" mapped_from="GRCh38" />
           <long_name>microRNA 1245a (miRNA)</long_name>
-          <db_xref source="GeneID" accession="100616324" />
           <db_xref source="GeneID" accession="100302219">
             <synonym>hsa-mir-1245</synonym>
             <synonym>hsa-mir-1245a</synonym>
             <synonym>MIR1245</synonym>
             <synonym>MIRN1245</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="100616324" />
           <db_xref source="HGNC" accession="35311">
             <synonym>hsa-mir-1245</synonym>
             <synonym>MIR1245</synonym>
             <synonym>MIRN1245</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0017431" />
           <db_xref source="miRBase" accession="MI0006380" />
+          <db_xref source="miRBase" accession="MI0017431" />
           <db_xref source="Ensembl" accession="ENSG00000221502" />
           <transcript source="Ensembl" accession="ENST00000408575">
             <coordinates coord_system="LRG_3" start="8720" end="8789" strand="1" mapped_from="GRCh38" />
@@ -1175,7 +1208,7 @@
       <source>
         <name>Community</name>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
       <fixed_transcript_annotation name="t1">
         <other_exon_naming description="Alternative numbering based on Ehlers-Danlos Syndrome Variant Database - COL3A1">
           <url>http://www.le.ac.uk/genetics/collagen/nomenclature.html#exon_numbering</url>
@@ -1395,7 +1428,7 @@
         <name>List of locus specific databases for COL3A1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/COL3A1</url>
       </source>
-      <modification_date>2014-10-31</modification_date>
+      <modification_date>2015-03-19</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
