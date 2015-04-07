@@ -120,7 +120,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2015-03-30</modification_date>
+      <modification_date>2015-04-07</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -132,7 +132,10 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2015-03-30</modification_date>
+      <modification_date>2015-04-07</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="153757606" other_end="153780787" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="23182" other_start="153757606" other_end="153780787" strand="-1" />
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="Xq28" other_id="NW_003871103.3" other_id_syn="JH159150.3" other_start="1963370" other_end="1986551" type="patch">
         <mapping_span lrg_start="1" lrg_end="23182" other_start="1963370" other_end="1986551" strand="-1">
           <diff type="mismatch" lrg_start="5428" lrg_end="5428" other_start="1981124" other_end="1981124" lrg_sequence="T" other_sequence="G" />
@@ -148,9 +151,6 @@
           <diff type="mismatch" lrg_start="22173" lrg_end="22173" other_start="1964379" other_end="1964379" lrg_sequence="C" other_sequence="T" />
           <diff type="mismatch" lrg_start="22599" lrg_end="22599" other_start="1963953" other_end="1963953" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="153757606" other_end="153780787" type="other_assembly">
-        <mapping_span lrg_start="1" lrg_end="23182" other_start="153757606" other_end="153780787" strand="-1" />
       </mapping>
       <mapping coord_system="GRCh38.p2" other_name="X" other_id="NC_000023.11" other_id_syn="CM000685.2" other_start="154529391" other_end="154552572" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="23182" other_start="154529391" other_end="154552572" strand="-1">
@@ -181,7 +181,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009015.1</comment>
-      <modification_date>2015-03-25</modification_date>
+      <modification_date>2015-04-03</modification_date>
       <mapping coord_system="NM_000402.3" other_name="NM_000402.3" other_id="NM_000402.3" other_start="1" other_end="2395" type="transcript">
         <mapping_span lrg_start="5555" lrg_end="5784" other_start="1" other_end="230" strand="1" />
         <mapping_span lrg_start="6410" lrg_end="6537" other_start="231" other_end="358" strand="1" />
@@ -257,8 +257,8 @@
           <db_xref source="HGNC" accession="5961" />
           <db_xref source="MIM" accession="300248" />
           <db_xref source="CCDS" accession="CCDS48196.1" />
-          <db_xref source="CCDS" accession="CCDS48197.1" />
           <db_xref source="CCDS" accession="CCDS14757.1" />
+          <db_xref source="CCDS" accession="CCDS48197.1" />
           <transcript source="RefSeq" accession="NM_001099856.3">
             <coordinates coord_system="LRG_148" start="384" end="10329" strand="-1" />
             <partial>3-prime</partial>
@@ -524,7 +524,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 79 (GRCh38  primary assembly)</comment>
-      <modification_date>2015-03-30</modification_date>
+      <modification_date>2015-04-07</modification_date>
       <mapping coord_system="ENST00000369620.5" other_name="ENST00000369620.5" other_id="ENST00000369620.5" other_start="1" other_end="1799" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5105" other_start="1" other_end="105" strand="1" />
         <mapping_span lrg_start="6410" lrg_end="6537" other_start="106" other_end="233" strand="1" />
@@ -657,7 +657,7 @@
         </mapping_span>
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000269335">
+        <gene source="Ensembl" accession="ENSG00000269335.4">
           <symbol source="HGNC" name="IKBKG" />
           <coordinates coord_system="LRG_148" start="1" end="11374" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
@@ -690,7 +690,7 @@
             <synonym>603723</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000269335" />
-          <transcript source="Ensembl" accession="ENST00000440286">
+          <transcript source="Ensembl" accession="ENST00000440286.4">
             <coordinates coord_system="LRG_148" start="1" end="11374" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-007 (protein_coding)</long_name>
@@ -700,12 +700,12 @@
             <exon source="Ensembl" accession="ENSE00003738507">
               <coordinates coord_system="LRG_148" start="384" end="585" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000394934">
+            <protein_product source="Ensembl" accession="ENSP00000394934.1">
               <coordinates coord_system="LRG_148" start="1" end="570" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000422680">
+          <transcript source="Ensembl" accession="ENST00000422680.4">
             <coordinates coord_system="LRG_148" start="1" end="11318" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-008 (protein_coding)</long_name>
@@ -718,12 +718,12 @@
             <exon source="Ensembl" accession="ENSE00003738507">
               <coordinates coord_system="LRG_148" start="384" end="585" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000390368">
+            <protein_product source="Ensembl" accession="ENSP00000390368.2">
               <coordinates coord_system="LRG_148" start="1" end="570" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000618670">
+          <transcript source="Ensembl" accession="ENST00000618670.3">
             <coordinates coord_system="LRG_148" start="1" end="10329" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-002 (protein_coding)</long_name>
@@ -735,7 +735,7 @@
             <exon source="Ensembl" accession="ENSE00003750762">
               <coordinates coord_system="LRG_148" start="384" end="585" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000483825">
+            <protein_product source="Ensembl" accession="ENSP00000483825.1">
               <coordinates coord_system="LRG_148" start="1" end="10309" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
               <long_name>NF-kappa-B essential modulator isoform b</long_name>
@@ -746,7 +746,7 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000612051">
+          <transcript source="Ensembl" accession="ENST00000612051.1">
             <coordinates coord_system="LRG_148" start="1" end="10310" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-003 (nonsense_mediated_decay)</long_name>
@@ -756,11 +756,11 @@
             <exon source="Ensembl" accession="ENSE00003740872">
               <coordinates coord_system="LRG_148" start="384" end="585" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000480431">
+            <protein_product source="Ensembl" accession="ENSP00000480431.1">
               <coordinates coord_system="LRG_148" start="563" end="10309" strand="-1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000445622">
+          <transcript source="Ensembl" accession="ENST00000445622.4">
             <coordinates coord_system="LRG_148" start="1" end="6646" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-012 (protein_coding)</long_name>
@@ -770,12 +770,12 @@
             <exon source="Ensembl" accession="ENSE00003738507">
               <coordinates coord_system="LRG_148" start="384" end="585" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000395205">
+            <protein_product source="Ensembl" accession="ENSP00000395205.1">
               <coordinates coord_system="LRG_148" start="1" end="570" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000594239">
+          <transcript source="Ensembl" accession="ENST00000594239.4">
             <coordinates coord_system="LRG_148" start="1" end="5266" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-004 (protein_coding)</long_name>
@@ -787,7 +787,7 @@
             <exon source="Ensembl" accession="ENSE00003738507">
               <coordinates coord_system="LRG_148" start="384" end="585" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000471166">
+            <protein_product source="Ensembl" accession="ENSP00000471166.1">
               <coordinates coord_system="LRG_148" start="1" end="570" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
               <long_name>NF-kappa-B essential modulator isoform a</long_name>
@@ -798,7 +798,7 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000413620">
+          <transcript source="Ensembl" accession="ENST00000413620.4">
             <coordinates coord_system="LRG_148" start="1" end="5214" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-009 (protein_coding)</long_name>
@@ -808,12 +808,12 @@
             <exon source="Ensembl" accession="ENSE00001651956">
               <coordinates coord_system="LRG_148" start="384" end="562" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000398579">
+            <protein_product source="Ensembl" accession="ENSP00000398579.1">
               <coordinates coord_system="LRG_148" start="1" end="534" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000619941">
+          <transcript source="Ensembl" accession="ENST00000619941.3">
             <coordinates coord_system="LRG_148" start="1" end="4935" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-014 (protein_coding)</long_name>
@@ -823,12 +823,12 @@
             <exon source="Ensembl" accession="ENSE00003738507">
               <coordinates coord_system="LRG_148" start="384" end="585" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000478979">
+            <protein_product source="Ensembl" accession="ENSP00000478979.1">
               <coordinates coord_system="LRG_148" start="1" end="570" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000615874">
+          <transcript source="Ensembl" accession="ENST00000615874.3">
             <coordinates coord_system="LRG_148" start="1" end="4935" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-016 (protein_coding)</long_name>
@@ -838,12 +838,12 @@
             <exon source="Ensembl" accession="ENSE00003738507">
               <coordinates coord_system="LRG_148" start="384" end="585" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000483381">
+            <protein_product source="Ensembl" accession="ENSP00000483381.1">
               <coordinates coord_system="LRG_148" start="1" end="570" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000617207">
+          <transcript source="Ensembl" accession="ENST00000617207.3">
             <coordinates coord_system="LRG_148" start="1" end="4932" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-017 (protein_coding)</long_name>
@@ -853,12 +853,12 @@
             <exon source="Ensembl" accession="ENSE00003738507">
               <coordinates coord_system="LRG_148" start="384" end="585" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000484023">
+            <protein_product source="Ensembl" accession="ENSP00000484023.1">
               <coordinates coord_system="LRG_148" start="1" end="570" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000611176">
+          <transcript source="Ensembl" accession="ENST00000611176.3">
             <coordinates coord_system="LRG_148" start="1" end="4931" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-006 (protein_coding)</long_name>
@@ -870,7 +870,7 @@
             <exon source="Ensembl" accession="ENSE00003738507">
               <coordinates coord_system="LRG_148" start="384" end="585" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000478616">
+            <protein_product source="Ensembl" accession="ENSP00000478616.1">
               <coordinates coord_system="LRG_148" start="1" end="570" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
               <long_name>NF-kappa-B essential modulator isoform c</long_name>
@@ -881,7 +881,7 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000615186">
+          <transcript source="Ensembl" accession="ENST00000615186.3">
             <coordinates coord_system="LRG_148" start="1" end="4883" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-013 (protein_coding)</long_name>
@@ -889,7 +889,7 @@
               <coordinates coord_system="LRG_148" start="4828" end="4883" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000611071">
+          <transcript source="Ensembl" accession="ENST00000611071.3">
             <coordinates coord_system="LRG_148" start="1" end="4726" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-005 (protein_coding)</long_name>
@@ -901,7 +901,7 @@
             <exon source="Ensembl" accession="ENSE00003738507">
               <coordinates coord_system="LRG_148" start="384" end="585" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000479662">
+            <protein_product source="Ensembl" accession="ENSP00000479662.1">
               <coordinates coord_system="LRG_148" start="1" end="570" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
               <long_name>NF-kappa-B essential modulator isoform a</long_name>
@@ -912,7 +912,7 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000617838">
+          <transcript source="Ensembl" accession="ENST00000617838.1">
             <coordinates coord_system="LRG_148" start="1" end="582" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-015 (processed_transcript)</long_name>
@@ -920,20 +920,20 @@
               <coordinates coord_system="LRG_148" start="384" end="582" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000492469">
+          <transcript source="Ensembl" accession="ENST00000492469.2">
             <coordinates coord_system="LRG_148" start="1" end="402" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-010 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00001827683">
               <coordinates coord_system="LRG_148" start="384" end="402" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000484275">
+            <protein_product source="Ensembl" accession="ENSP00000484275.1">
               <coordinates coord_system="LRG_148" start="1" end="402" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000160211">
+        <gene source="Ensembl" accession="ENSG00000160211.14">
           <symbol source="HGNC" name="G6PD" />
           <coordinates coord_system="LRG_148" start="5001" end="21182" strand="1" mapped_from="GRCh38" />
           <long_name>glucose-6-phosphate dehydrogenase (protein_coding)</long_name>
@@ -945,7 +945,7 @@
           </db_xref>
           <db_xref source="MIM" accession="305900" />
           <db_xref source="Ensembl" accession="ENSG00000160211" />
-          <transcript source="Ensembl" accession="ENST00000393564">
+          <transcript source="Ensembl" accession="ENST00000393564.5">
             <coordinates coord_system="LRG_148" start="5001" end="20573" strand="1" mapped_from="GRCh38" />
             <long_name>G6PD-006 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS44023.1" />
@@ -989,7 +989,7 @@
             <exon source="Ensembl" accession="ENSE00001515849">
               <coordinates coord_system="LRG_148" start="20483" end="20573" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000377194">
+            <protein_product source="Ensembl" accession="ENSP00000377194.2">
               <coordinates coord_system="LRG_148" start="6418" end="20573" strand="1" mapped_from="GRCh38" />
               <long_name>glucose-6-phosphate 1-dehydrogenase isoform b</long_name>
               <db_xref source="RefSeq" accession="NP_001035810.1" />
@@ -1004,7 +1004,7 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000369620">
+          <transcript source="Ensembl" accession="ENST00000369620.5">
             <coordinates coord_system="LRG_148" start="5001" end="20573" strand="1" mapped_from="GRCh38" />
             <long_name>G6PD-010 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00001450454">
@@ -1046,7 +1046,7 @@
             <exon source="Ensembl" accession="ENSE00001515849">
               <coordinates coord_system="LRG_148" start="20483" end="20573" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000358633">
+            <protein_product source="Ensembl" accession="ENSP00000358633.2">
               <coordinates coord_system="LRG_148" start="6418" end="20573" strand="1" mapped_from="GRCh38" />
               <db_xref source="UniProtKB" accession="P11413">
                 <synonym>D3DWX9</synonym>
@@ -1059,7 +1059,7 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000440967">
+          <transcript source="Ensembl" accession="ENST00000440967.4">
             <coordinates coord_system="LRG_148" start="5016" end="19539" strand="1" mapped_from="GRCh38" />
             <long_name>G6PD-007 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00001757521">
@@ -1089,11 +1089,11 @@
             <exon source="Ensembl" accession="ENSE00001657787">
               <coordinates coord_system="LRG_148" start="19445" end="19539" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000400648">
+            <protein_product source="Ensembl" accession="ENSP00000400648.1">
               <coordinates coord_system="LRG_148" start="6418" end="19539" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000393562">
+          <transcript source="Ensembl" accession="ENST00000393562.5">
             <coordinates coord_system="LRG_148" start="5319" end="21182" strand="1" mapped_from="GRCh38" />
             <long_name>G6PD-001 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS14756.2" />
@@ -1137,7 +1137,7 @@
             <exon source="Ensembl" accession="ENSE00001050607">
               <coordinates coord_system="LRG_148" start="20483" end="21182" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000377192">
+            <protein_product source="Ensembl" accession="ENSP00000377192.2">
               <coordinates coord_system="LRG_148" start="5703" end="20573" strand="1" mapped_from="GRCh38" />
               <long_name>glucose-6-phosphate 1-dehydrogenase isoform a</long_name>
               <db_xref source="RefSeq" accession="NP_000393.4" />
@@ -1152,7 +1152,7 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000621232">
+          <transcript source="Ensembl" accession="ENST00000621232.3">
             <coordinates coord_system="LRG_148" start="5319" end="21182" strand="1" mapped_from="GRCh38" />
             <long_name>G6PD-201 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS44023.1" />
@@ -1195,7 +1195,7 @@
             <exon source="Ensembl" accession="ENSE00001050607">
               <coordinates coord_system="LRG_148" start="20483" end="21182" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000483686">
+            <protein_product source="Ensembl" accession="ENSP00000483686.1">
               <coordinates coord_system="LRG_148" start="6418" end="20573" strand="1" mapped_from="GRCh38" />
               <db_xref source="UniProtKB" accession="P11413">
                 <synonym>D3DWX9</synonym>
@@ -1208,7 +1208,7 @@
               </db_xref>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000439227">
+          <transcript source="Ensembl" accession="ENST00000439227.4">
             <coordinates coord_system="LRG_148" start="5735" end="19593" strand="1" mapped_from="GRCh38" />
             <long_name>G6PD-002 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00001664690">
@@ -1238,11 +1238,11 @@
             <exon source="Ensembl" accession="ENSE00001777240">
               <coordinates coord_system="LRG_148" start="19445" end="19593" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000395599">
+            <protein_product source="Ensembl" accession="ENSP00000395599.1">
               <coordinates coord_system="LRG_148" start="6418" end="19593" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000433845">
+          <transcript source="Ensembl" accession="ENST00000433845.1">
             <coordinates coord_system="LRG_148" start="5741" end="18537" strand="1" mapped_from="GRCh38" />
             <long_name>G6PD-005 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00001735999">
@@ -1266,11 +1266,11 @@
             <exon source="Ensembl" accession="ENSE00001802919">
               <coordinates coord_system="LRG_148" start="18413" end="18537" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000394690">
+            <protein_product source="Ensembl" accession="ENSP00000394690.1">
               <coordinates coord_system="LRG_148" start="6418" end="18537" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000497281">
+          <transcript source="Ensembl" accession="ENST00000497281.4">
             <coordinates coord_system="LRG_148" start="6464" end="17498" strand="1" mapped_from="GRCh38" />
             <long_name>G6PD-004 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00001877920">
@@ -1286,7 +1286,7 @@
               <coordinates coord_system="LRG_148" start="17188" end="17498" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000488434">
+          <transcript source="Ensembl" accession="ENST00000488434.1">
             <coordinates coord_system="LRG_148" start="6464" end="16847" strand="1" mapped_from="GRCh38" />
             <long_name>G6PD-003 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001877920">
@@ -1299,7 +1299,7 @@
               <coordinates coord_system="LRG_148" start="16528" end="16847" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000489497">
+          <transcript source="Ensembl" accession="ENST00000489497.1">
             <coordinates coord_system="LRG_148" start="18380" end="19256" strand="1" mapped_from="GRCh38" />
             <long_name>G6PD-008 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001865632">
@@ -1309,7 +1309,7 @@
               <coordinates coord_system="LRG_148" start="18904" end="19256" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000490651">
+          <transcript source="Ensembl" accession="ENST00000490651.1">
             <coordinates coord_system="LRG_148" start="19499" end="20490" strand="1" mapped_from="GRCh38" />
             <long_name>G6PD-009 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001905443">
@@ -1330,7 +1330,7 @@
         <name>List of locus specific databases for G6PD</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/G6PD</url>
       </source>
-      <modification_date>2015-03-30</modification_date>
+      <modification_date>2015-04-07</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
