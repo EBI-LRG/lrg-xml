@@ -103,7 +103,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2015-10-05</modification_date>
+      <modification_date>2015-10-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -115,7 +115,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2015-10-05</modification_date>
+      <modification_date>2015-10-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_id_syn="CM000679.1" other_start="7584389" other_end="7608820" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="24432" other_start="7584389" other_end="7608820" strand="1" />
       </mapping>
@@ -506,8 +506,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 81 (GRCh38  primary assembly)</comment>
-      <modification_date>2015-10-05</modification_date>
+      <comment>Annotation is based on Ensembl release 82 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-10-12</modification_date>
       <mapping coord_system="ENST00000316024.9" other_name="ENST00000316024.9" other_id="ENST00000316024.9" other_start="1" other_end="4011" type="transcript">
         <mapping_span lrg_start="5231" lrg_end="8009" other_start="1" other_end="2779" strand="1" />
         <mapping_span lrg_start="8154" lrg_end="8252" other_start="2780" other_end="2878" strand="1" />
@@ -622,12 +622,12 @@
             <synonym>P53</synonym>
             <synonym>TRP53</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="191170">
+            <synonym>120460</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="11998">
             <synonym>LFS1</synonym>
             <synonym>p53</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="191170">
-            <synonym>120460</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000141510" />
           <transcript source="Ensembl" accession="ENST00000610292.4">
@@ -792,12 +792,12 @@
             <synonym>TCAB1</synonym>
             <synonym>WDR79</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="612661" />
           <db_xref source="HGNC" accession="25522">
             <synonym>FLJ10385</synonym>
             <synonym>TCAB1</synonym>
             <synonym>WDR79</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="612661" />
           <db_xref source="Ensembl" accession="ENSG00000141499" />
           <transcript source="Ensembl" accession="ENST00000431639.6">
             <coordinates coord_system="LRG_375" start="5001" end="22432" strand="1" mapped_from="GRCh38" />
@@ -840,7 +840,12 @@
             <protein_product source="Ensembl" accession="ENSP00000397219.2">
               <coordinates coord_system="LRG_375" start="7579" end="22416" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001137462.1" />
-              <db_xref source="UniProtKB" accession="Q9BUR4" />
+              <db_xref source="UniProtKB" accession="Q9BUR4">
+                <synonym>B3KPR9</synonym>
+                <synonym>D3DTQ4</synonym>
+                <synonym>Q08ET9</synonym>
+                <synonym>Q9NW09</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000316024.9">
@@ -879,7 +884,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000324203.5">
               <coordinates coord_system="LRG_375" start="7579" end="22416" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q9BUR4" />
+              <db_xref source="UniProtKB" accession="Q9BUR4">
+                <synonym>B3KPR9</synonym>
+                <synonym>D3DTQ4</synonym>
+                <synonym>Q08ET9</synonym>
+                <synonym>Q9NW09</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000457584.6">
@@ -923,7 +933,12 @@
             <protein_product source="Ensembl" accession="ENSP00000411061.2">
               <coordinates coord_system="LRG_375" start="7579" end="22416" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001137463.1" />
-              <db_xref source="UniProtKB" accession="Q9BUR4" />
+              <db_xref source="UniProtKB" accession="Q9BUR4">
+                <synonym>B3KPR9</synonym>
+                <synonym>D3DTQ4</synonym>
+                <synonym>Q08ET9</synonym>
+                <synonym>Q9NW09</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000498311.5">
@@ -1007,9 +1022,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000379727.2">
               <coordinates coord_system="LRG_375" start="7579" end="22416" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_060551.2" />
               <db_xref source="RefSeq" accession="NP_001137464.1" />
-              <db_xref source="UniProtKB" accession="Q9BUR4" />
+              <db_xref source="RefSeq" accession="NP_060551.2" />
+              <db_xref source="UniProtKB" accession="Q9BUR4">
+                <synonym>B3KPR9</synonym>
+                <synonym>D3DTQ4</synonym>
+                <synonym>Q08ET9</synonym>
+                <synonym>Q9NW09</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000467699.5">
@@ -1133,11 +1153,11 @@
             <synonym>EPLG8</synonym>
             <synonym>LERK8</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="602297" />
           <db_xref source="HGNC" accession="3228">
             <synonym>EPLG8</synonym>
             <synonym>LERK-8</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="602297" />
           <db_xref source="Ensembl" accession="ENSG00000108947" />
           <transcript source="Ensembl" accession="ENST00000226091.2">
             <coordinates coord_system="LRG_375" start="24132" end="24432" strand="1" mapped_from="GRCh38" />
@@ -1158,7 +1178,7 @@
         <name>List of locus specific databases for WRAP53</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/WRAP53</url>
       </source>
-      <modification_date>2015-10-05</modification_date>
+      <modification_date>2015-10-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -131,7 +131,7 @@
           <email>valerie.delague@univ-amu.fr</email>
         </contact>
       </source>
-      <modification_date>2015-10-05</modification_date>
+      <modification_date>2015-10-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -143,7 +143,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2015-10-05</modification_date>
+      <modification_date>2015-10-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="95564046" other_end="95662371" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="98326" other_start="95564046" other_end="95662371" strand="-1" />
       </mapping>
@@ -604,8 +604,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 81 (GRCh38  primary assembly)</comment>
-      <modification_date>2015-10-05</modification_date>
+      <comment>Annotation is based on Ensembl release 82 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-10-12</modification_date>
       <mapping coord_system="ENST00000346299.9" other_name="ENST00000346299.9" other_id="ENST00000346299.9" other_start="1" other_end="4681" type="transcript">
         <mapping_span lrg_start="4913" lrg_end="5333" other_start="1" other_end="421" strand="1" />
         <mapping_span lrg_start="40947" lrg_end="41052" other_start="422" other_end="527" strand="1" />
@@ -779,11 +779,11 @@
             <synonym>CMT4B</synonym>
             <synonym>CMT4B1</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="603557" />
           <db_xref source="HGNC" accession="7450">
             <synonym>CMT4B</synonym>
             <synonym>KIAA1073</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="603557" />
           <db_xref source="Ensembl" accession="ENSG00000087053" />
           <transcript source="Ensembl" accession="ENST00000485988.1">
             <coordinates coord_system="LRG_257" start="3893" end="4729" strand="1" mapped_from="GRCh38" />
@@ -867,7 +867,10 @@
             <protein_product source="Ensembl" accession="ENSP00000345752.5">
               <coordinates coord_system="LRG_257" start="5254" end="93918" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_057240.3" />
-              <db_xref source="UniProtKB" accession="Q13614" />
+              <db_xref source="UniProtKB" accession="Q13614">
+                <synonym>A6NN98</synonym>
+                <synonym>Q9UPS9</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000393223.7">
@@ -921,7 +924,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000376915.3">
               <coordinates coord_system="LRG_257" start="63562" end="93918" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q13614" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000481642.5">
@@ -999,9 +1001,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000343737.7">
               <coordinates coord_system="LRG_257" start="63562" end="93918" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_958438.1" />
               <db_xref source="RefSeq" accession="NP_958435.1" />
-              <db_xref source="UniProtKB" accession="Q13614" />
+              <db_xref source="RefSeq" accession="NP_958438.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000409459.5">
@@ -1063,7 +1064,6 @@
             <protein_product source="Ensembl" accession="ENSP00000386882.1">
               <coordinates coord_system="LRG_257" start="63562" end="93918" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001230500.1" />
-              <db_xref source="UniProtKB" accession="Q13614" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000495134.5">
@@ -1306,12 +1306,12 @@
             <synonym>PIG8</synonym>
             <synonym>TSP57</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="607951" />
           <db_xref source="HGNC" accession="30794">
             <synonym>KIAA0092</synonym>
             <synonym>Translokin</synonym>
             <synonym>TSP57</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="607951" />
           <db_xref source="Ensembl" accession="ENSG00000166037" />
           <transcript source="Ensembl" accession="ENST00000325542.9">
             <coordinates coord_system="LRG_257" start="96515" end="98326" strand="-1" mapped_from="GRCh38" />
@@ -1326,7 +1326,16 @@
               <coordinates coord_system="LRG_257" start="97952" end="98326" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <db_xref source="RefSeq" accession="NP_055494.2" />
-              <db_xref source="UniProtKB" accession="Q86XR8" />
+              <db_xref source="UniProtKB" accession="Q86XR8">
+                <synonym>A0PJH1</synonym>
+                <synonym>A8K5D0</synonym>
+                <synonym>B4DDP5</synonym>
+                <synonym>F5H5F7</synonym>
+                <synonym>Q14704</synonym>
+                <synonym>Q5JB46</synonym>
+                <synonym>Q8IXP0</synonym>
+                <synonym>Q9BVF9</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000325486.9">
@@ -1342,7 +1351,16 @@
               <coordinates coord_system="LRG_257" start="97952" end="98326" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <db_xref source="RefSeq" accession="NP_001230706.1" />
-              <db_xref source="UniProtKB" accession="Q86XR8" />
+              <db_xref source="UniProtKB" accession="Q86XR8">
+                <synonym>A0PJH1</synonym>
+                <synonym>A8K5D0</synonym>
+                <synonym>B4DDP5</synonym>
+                <synonym>F5H5F7</synonym>
+                <synonym>Q14704</synonym>
+                <synonym>Q5JB46</synonym>
+                <synonym>Q8IXP0</synonym>
+                <synonym>Q9BVF9</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000541150.5">
@@ -1358,7 +1376,16 @@
               <coordinates coord_system="LRG_257" start="97952" end="98326" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <db_xref source="RefSeq" accession="NP_001230705.1" />
-              <db_xref source="UniProtKB" accession="Q86XR8" />
+              <db_xref source="UniProtKB" accession="Q86XR8">
+                <synonym>A0PJH1</synonym>
+                <synonym>A8K5D0</synonym>
+                <synonym>B4DDP5</synonym>
+                <synonym>F5H5F7</synonym>
+                <synonym>Q14704</synonym>
+                <synonym>Q5JB46</synonym>
+                <synonym>Q8IXP0</synonym>
+                <synonym>Q9BVF9</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000540830.5">
@@ -1417,7 +1444,7 @@
         <name>List of locus specific databases for MTMR2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MTMR2</url>
       </source>
-      <modification_date>2015-10-05</modification_date>
+      <modification_date>2015-10-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

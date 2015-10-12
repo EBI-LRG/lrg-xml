@@ -319,7 +319,7 @@
           <email>s.povey@ucl.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2015-10-05</modification_date>
+      <modification_date>2015-10-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -331,7 +331,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2015-10-05</modification_date>
+      <modification_date>2015-10-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_id_syn="CM000678.1" other_start="2094307" other_end="2141120" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="46814" other_start="2094307" other_end="2141120" strand="1" />
       </mapping>
@@ -1046,8 +1046,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 81 (GRCh38  primary assembly)</comment>
-      <modification_date>2015-10-05</modification_date>
+      <comment>Annotation is based on Ensembl release 82 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-10-12</modification_date>
       <mapping coord_system="ENST00000219476.7" other_name="ENST00000219476.7" other_id="ENST00000219476.7" other_start="1" other_end="6156" type="transcript">
         <mapping_span lrg_start="3160" lrg_end="3760" other_start="1" other_end="601" strand="1" />
         <mapping_span lrg_start="4282" lrg_end="4448" other_start="602" other_end="768" strand="1" />
@@ -1479,17 +1479,18 @@
           <symbol source="HGNC" name="NTHL1" />
           <coordinates coord_system="LRG_487" start="1" end="3561" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>nth endonuclease III-like 1 (E. coli) (protein_coding)</long_name>
+          <long_name>nth-like DNA glycosylase 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="4913">
+            <synonym>FAP3</synonym>
             <synonym>hNTH1</synonym>
             <synonym>NTH1</synonym>
             <synonym>OCTS3</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="602656" />
           <db_xref source="HGNC" accession="8028">
             <synonym>NTH1</synonym>
             <synonym>OCTS3</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="602656" />
           <db_xref source="Ensembl" accession="ENSG00000065057" />
           <transcript source="Ensembl" accession="ENST00000219066.5">
             <coordinates coord_system="LRG_487" start="1" end="3561" strand="-1" mapped_from="GRCh38" />
@@ -1604,13 +1605,13 @@
             <synonym>PPP1R160</synonym>
             <synonym>TSC4</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="191092" />
           <db_xref source="HGNC" accession="12363">
             <synonym>LAM</synonym>
             <synonym>PPP1R160</synonym>
             <synonym>TSC4</synonym>
             <synonym>tuberin</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="191092" />
           <db_xref source="Ensembl" accession="ENSG00000103197" />
           <transcript source="Ensembl" accession="ENST00000219476.7">
             <coordinates coord_system="LRG_487" start="3160" end="44407" strand="1" mapped_from="GRCh38" />
@@ -1746,7 +1747,17 @@
             <protein_product source="Ensembl" accession="ENSP00000219476.3">
               <coordinates coord_system="LRG_487" start="4311" end="44305" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_000539.2" />
-              <db_xref source="UniProtKB" accession="P49815" />
+              <db_xref source="UniProtKB" accession="P49815">
+                <synonym>A7E2E2</synonym>
+                <synonym>B4DIL8</synonym>
+                <synonym>B4DIQ7</synonym>
+                <synonym>B4DRN2</synonym>
+                <synonym>B7Z2B8</synonym>
+                <synonym>C9J378</synonym>
+                <synonym>O75275</synonym>
+                <synonym>Q4LE71</synonym>
+                <synonym>Q8TAZ1</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000382538.10">
@@ -1871,7 +1882,17 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000371978.6">
               <coordinates coord_system="LRG_487" start="6104" end="44305" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P49815" />
+              <db_xref source="UniProtKB" accession="P49815">
+                <synonym>A7E2E2</synonym>
+                <synonym>B4DIL8</synonym>
+                <synonym>B4DIQ7</synonym>
+                <synonym>B4DRN2</synonym>
+                <synonym>B7Z2B8</synonym>
+                <synonym>C9J378</synonym>
+                <synonym>O75275</synonym>
+                <synonym>Q4LE71</synonym>
+                <synonym>Q8TAZ1</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000401874.6">
@@ -2002,7 +2023,6 @@
             <protein_product source="Ensembl" accession="ENSP00000384468.2">
               <coordinates coord_system="LRG_487" start="4311" end="44305" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001070651.1" />
-              <db_xref source="UniProtKB" accession="P49815" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000461648.2">
@@ -2143,7 +2163,17 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000399232.2">
               <coordinates coord_system="LRG_487" start="4311" end="44305" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P49815" />
+              <db_xref source="UniProtKB" accession="P49815">
+                <synonym>A7E2E2</synonym>
+                <synonym>B4DIL8</synonym>
+                <synonym>B4DIQ7</synonym>
+                <synonym>B4DRN2</synonym>
+                <synonym>B7Z2B8</synonym>
+                <synonym>C9J378</synonym>
+                <synonym>O75275</synonym>
+                <synonym>Q4LE71</synonym>
+                <synonym>Q8TAZ1</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000350773.8">
@@ -2277,7 +2307,17 @@
             <protein_product source="Ensembl" accession="ENSP00000344383.4">
               <coordinates coord_system="LRG_487" start="4311" end="44305" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001107854.1" />
-              <db_xref source="UniProtKB" accession="P49815" />
+              <db_xref source="UniProtKB" accession="P49815">
+                <synonym>A7E2E2</synonym>
+                <synonym>B4DIL8</synonym>
+                <synonym>B4DIQ7</synonym>
+                <synonym>B4DRN2</synonym>
+                <synonym>B7Z2B8</synonym>
+                <synonym>C9J378</synonym>
+                <synonym>O75275</synonym>
+                <synonym>Q4LE71</synonym>
+                <synonym>Q8TAZ1</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000439117.6">
@@ -2902,12 +2942,12 @@
             <synonym>Pc-1</synonym>
             <synonym>TRPP1</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="601313" />
           <db_xref source="HGNC" accession="9008">
             <synonym>PBP</synonym>
             <synonym>Pc-1</synonym>
             <synonym>TRPP1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="601313" />
           <db_xref source="Ensembl" accession="ENSG00000008710" />
           <transcript source="Ensembl" accession="ENST00000262304.8">
             <coordinates coord_system="LRG_487" start="44405" end="46814" strand="-1" mapped_from="GRCh38" />
@@ -2932,7 +2972,10 @@
               <coordinates coord_system="LRG_487" start="45422" end="46814" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <db_xref source="RefSeq" accession="NP_001009944.2" />
-              <db_xref source="UniProtKB" accession="P98161" />
+              <db_xref source="UniProtKB" accession="P98161">
+                <synonym>Q15140</synonym>
+                <synonym>Q15141</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000423118.5">
@@ -2958,7 +3001,10 @@
               <coordinates coord_system="LRG_487" start="45422" end="46814" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <db_xref source="RefSeq" accession="NP_000287.3" />
-              <db_xref source="UniProtKB" accession="P98161" />
+              <db_xref source="UniProtKB" accession="P98161">
+                <synonym>Q15140</synonym>
+                <synonym>Q15141</synonym>
+              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000472577.1">
@@ -3012,12 +3058,12 @@
           <db_xref source="GeneID" accession="100188847">
             <synonym>MIRN1225</synonym>
           </db_xref>
+          <db_xref source="miRBase" accession="MI0006311" />
+          <db_xref source="MIM" accession="611621" />
           <db_xref source="HGNC" accession="33931">
             <synonym>hsa-mir-1225</synonym>
             <synonym>MIRN1225</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="611621" />
-          <db_xref source="miRBase" accession="MI0006311" />
           <db_xref source="Ensembl" accession="ENSG00000221656" />
           <transcript source="Ensembl" accession="ENST00000408729.1">
             <coordinates coord_system="LRG_487" start="45890" end="45979" strand="-1" mapped_from="GRCh38" />
@@ -3034,7 +3080,7 @@
       <source>
         <name>Community</name>
       </source>
-      <modification_date>2015-10-05</modification_date>
+      <modification_date>2015-10-12</modification_date>
       <fixed_transcript_annotation name="t1">
         <other_exon_naming description="Alternative numbering based on Tuberous sclerosis database - Tuberous sclerosis 2 (TSC2)">
           <exon>
@@ -3213,7 +3259,7 @@
         <name>List of locus specific databases for TSC2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TSC2</url>
       </source>
-      <modification_date>2015-10-05</modification_date>
+      <modification_date>2015-10-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
