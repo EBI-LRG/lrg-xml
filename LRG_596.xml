@@ -140,7 +140,7 @@
           <email>is250@cam.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2015-06-15</modification_date>
+      <modification_date>2016-02-18</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -152,7 +152,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2015-06-15</modification_date>
+      <modification_date>2016-02-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_id_syn="CM000663.1" other_start="186793032" other_end="186960113" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="167082" other_start="186793032" other_end="186960113" strand="1">
           <diff type="mismatch" lrg_start="153881" lrg_end="153881" other_start="186946912" other_end="186946912" lrg_sequence="A" other_sequence="G" />
@@ -176,7 +176,25 @@
         </contact>
       </source>
       <comment>Annotation from NG_012203.1</comment>
-      <modification_date>2015-06-05</modification_date>
+      <modification_date>2016-02-12</modification_date>
+      <mapping coord_system="NM_001311193.1" other_name="NM_001311193.1" other_id="NM_001311193.1" other_start="1" other_end="2748" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5136" other_start="1" other_end="136" strand="1" />
+        <mapping_span lrg_start="30387" lrg_end="30488" other_start="137" other_end="238" strand="1" />
+        <mapping_span lrg_start="46536" lrg_end="46617" other_start="239" other_end="320" strand="1" />
+        <mapping_span lrg_start="69112" lrg_end="69260" other_start="321" other_end="469" strand="1" />
+        <mapping_span lrg_start="70199" lrg_end="70312" other_start="470" other_end="583" strand="1" />
+        <mapping_span lrg_start="108864" lrg_end="109000" other_start="584" other_end="720" strand="1" />
+        <mapping_span lrg_start="115109" lrg_end="115331" other_start="721" other_end="943" strand="1" />
+        <mapping_span lrg_start="116081" lrg_end="116195" other_start="944" other_end="1058" strand="1" />
+        <mapping_span lrg_start="122738" lrg_end="122875" other_start="1059" other_end="1196" strand="1" />
+        <mapping_span lrg_start="122970" lrg_end="123062" other_start="1197" other_end="1289" strand="1" />
+        <mapping_span lrg_start="126758" lrg_end="126829" other_start="1290" other_end="1361" strand="1" />
+        <mapping_span lrg_start="132203" lrg_end="132445" other_start="1362" other_end="1604" strand="1" />
+        <mapping_span lrg_start="141510" lrg_end="141694" other_start="1605" other_end="1789" strand="1" />
+        <mapping_span lrg_start="153694" lrg_end="153889" other_start="1790" other_end="1985" strand="1" />
+        <mapping_span lrg_start="155416" lrg_end="155573" other_start="1986" other_end="2143" strand="1" />
+        <mapping_span lrg_start="164478" lrg_end="165082" other_start="2144" other_end="2748" strand="1" />
+      </mapping>
       <mapping coord_system="NM_024420.2" other_name="NM_024420.2" other_id="NM_024420.2" other_start="1" other_end="2928" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5136" other_start="1" other_end="136" strand="1" />
         <mapping_span lrg_start="30387" lrg_end="30488" other_start="137" other_end="238" strand="1" />
@@ -200,11 +218,12 @@
       <features>
         <gene source="NCBI-Gene" accession="5321">
           <symbol source="HGNC" name="PLA2G4A">
+            <synonym>cPLA2</synonym>
             <synonym>cPLA2-alpha</synonym>
             <synonym>PLA2G4</synonym>
           </symbol>
           <coordinates coord_system="LRG_596" start="5001" end="165082" strand="1" />
-          <long_name>phospholipase A2, group IVA (cytosolic, calcium-dependent)</long_name>
+          <long_name>phospholipase A2 group IVA</long_name>
           <db_xref source="GeneID" accession="5321" />
           <db_xref source="HGNC" accession="HGNC:9035" />
           <db_xref source="MIM" accession="600522" />
@@ -212,7 +231,7 @@
           <db_xref source="GI" accession="238018080" />
           <transcript source="RefSeq" accession="NM_024420.2" fixed_id="t1">
             <coordinates coord_system="LRG_596" start="5001" end="165082" strand="1" />
-            <long_name>phospholipase A2, group IVA (cytosolic, calcium-dependent)</long_name>
+            <long_name>phospholipase A2 group IVA, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="5321" />
             <db_xref source="GI" accession="113722110" />
             <exon source="RefSeq" accession="">
@@ -271,12 +290,12 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_077734.1" fixed_id="p1">
               <coordinates coord_system="LRG_596" start="30456" end="164609" strand="1" />
-              <long_name>cytosolic phospholipase A2</long_name>
+              <long_name>cytosolic phospholipase A2 isoform 1</long_name>
               <long_name>calcium-dependent phospholipid-binding protein</long_name>
               <long_name>phosphatidylcholine 2-acylhydrolase</long_name>
               <long_name>lysophospholipase</long_name>
-              <long_name>cPLA2</long_name>
-              <long_name>phospholipase A2 group IVA</long_name>
+              <long_name>cytosolic phospholipase A2</long_name>
+              <long_name>phospholipase A2, group IVA (cytosolic, calcium-dependent)</long_name>
               <db_xref source="CCDS" accession="CCDS1372.1" />
               <db_xref source="GeneID" accession="5321" />
               <db_xref source="GI" accession="23943920" />
@@ -295,8 +314,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
-      <modification_date>2015-06-15</modification_date>
+      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-02-18</modification_date>
       <mapping coord_system="ENST00000367466.3" other_name="ENST00000367466.3" other_id="ENST00000367466.3" other_start="1" other_end="2875" type="transcript">
         <mapping_span lrg_start="5054" lrg_end="5136" other_start="1" other_end="83" strand="1" />
         <mapping_span lrg_start="30387" lrg_end="30488" other_start="84" other_end="185" strand="1" />
@@ -334,14 +353,15 @@
           <coordinates coord_system="LRG_596" start="5054" end="165082" strand="1" mapped_from="GRCh38" />
           <long_name>phospholipase A2, group IVA (cytosolic, calcium-dependent) (protein_coding)</long_name>
           <db_xref source="GeneID" accession="5321">
+            <synonym>cPLA2</synonym>
             <synonym>cPLA2-alpha</synonym>
             <synonym>PLA2G4</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="600522" />
           <db_xref source="HGNC" accession="9035">
             <synonym>cPLA2-alpha</synonym>
             <synonym>PLA2G4</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="600522" />
           <db_xref source="Ensembl" accession="ENSG00000116711" />
           <transcript source="Ensembl" accession="ENST00000367466.3">
             <coordinates coord_system="LRG_596" start="5054" end="165082" strand="1" mapped_from="GRCh38" />
@@ -404,7 +424,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000356436.3">
               <coordinates coord_system="LRG_596" start="30456" end="164609" strand="1" mapped_from="GRCh38" />
-              <long_name>cytosolic phospholipase A2</long_name>
               <db_xref source="RefSeq" accession="NP_077734.1" />
               <db_xref source="UniProtKB" accession="P47712">
                 <synonym>B1AKG4</synonym>
@@ -445,7 +464,7 @@
         <name>List of locus specific databases for PLA2G4A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PLA2G4A</url>
       </source>
-      <modification_date>2015-06-15</modification_date>
+      <modification_date>2016-02-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
