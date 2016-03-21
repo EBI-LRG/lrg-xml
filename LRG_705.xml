@@ -116,7 +116,7 @@
           <email>ddunnen@humgen.nl</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -128,7 +128,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_id_syn="CM000678.1" other_start="770582" other_end="781473" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="10892" other_start="770582" other_end="781473" strand="-1" />
       </mapping>
@@ -148,7 +148,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_032932.1</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_001031737.2" other_name="NM_001031737.2" other_id="NM_001031737.2" other_start="1" other_end="1611" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5166" other_start="1" other_end="166" strand="1" />
         <mapping_span lrg_start="5389" lrg_end="5508" other_start="167" other_end="286" strand="1" />
@@ -440,8 +440,8 @@
           <long_name>family with sequence similarity 173 member A</long_name>
           <db_xref source="GeneID" accession="65990" />
           <db_xref source="HGNC" accession="HGNC:14152" />
-          <db_xref source="CCDS" accession="CCDS59254.1" />
           <db_xref source="CCDS" accession="CCDS10423.1" />
+          <db_xref source="CCDS" accession="CCDS59254.1" />
           <transcript source="RefSeq" accession="NM_001271285.1">
             <coordinates coord_system="LRG_705" start="8884" end="10332" strand="-1" />
             <long_name>family with sequence similarity 173 member A, transcript variant 2</long_name>
@@ -512,8 +512,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000293889.10" other_name="ENST00000293889.10" other_id="ENST00000293889.10" other_start="1" other_end="1611" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5166" other_start="1" other_end="166" strand="1" />
         <mapping_span lrg_start="5389" lrg_end="5508" other_start="167" other_end="286" strand="1" />
@@ -670,15 +670,15 @@
           <partial>5-prime</partial>
           <partial>3-prime</partial>
           <long_name>mesothelin (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="10232">
-            <synonym>MPF</synonym>
-            <synonym>SMRP</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="601051" />
           <db_xref source="HGNC" accession="7371">
             <synonym>CAK1</synonym>
             <synonym>MPF</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="601051" />
+          <db_xref source="GeneID" accession="10232">
+            <synonym>MPF</synonym>
+            <synonym>SMRP</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000102854" />
           <transcript source="Ensembl" accession="ENST00000620831.4">
             <coordinates coord_system="LRG_705" start="1" end="10892" strand="-1" mapped_from="GRCh38" />
@@ -693,10 +693,10 @@
           <coordinates coord_system="LRG_705" start="1" end="4538" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>hydroxyacylglutathione hydrolase-like (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="84264" />
           <db_xref source="HGNC" accession="14177">
             <synonym>MGC2605</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="84264" />
           <db_xref source="Ensembl" accession="ENSG00000103253" />
           <transcript source="Ensembl" accession="ENST00000563156.1">
             <coordinates coord_system="LRG_705" start="1" end="2960" strand="-1" mapped_from="GRCh38" />
@@ -847,9 +847,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000374353.3">
               <coordinates coord_system="LRG_705" start="2018" end="3964" strand="-1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001277066.1" />
-              <db_xref source="RefSeq" accession="NP_001277068.1" />
-              <db_xref source="RefSeq" accession="NP_115680.1" />
               <db_xref source="UniProtKB" accession="Q6PII5">
                 <synonym>A6NCC4</synonym>
                 <synonym>D3DU64</synonym>
@@ -859,6 +856,9 @@
                 <synonym>Q96S11</synonym>
                 <synonym>Q9BT45</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_115680.1" />
+              <db_xref source="RefSeq" accession="NP_001277068.1" />
+              <db_xref source="RefSeq" accession="NP_001277066.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000567696.1">
@@ -1102,19 +1102,19 @@
           <coordinates coord_system="LRG_705" start="1" end="1721" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>nuclear prelamin A recognition factor-like (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="64428">
-            <synonym>HPRN</synonym>
-            <synonym>IOP1</synonym>
-            <synonym>LET1L</synonym>
-            <synonym>PRN</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="611118" />
           <db_xref source="HGNC" accession="14179">
             <synonym>FLJ21988</synonym>
             <synonym>HPRN</synonym>
             <synonym>IOP1</synonym>
             <synonym>PRN</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="611118" />
+          <db_xref source="GeneID" accession="64428">
+            <synonym>HPRN</synonym>
+            <synonym>IOP1</synonym>
+            <synonym>LET1L</synonym>
+            <synonym>PRN</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000103245" />
           <transcript source="Ensembl" accession="ENST00000251588.6">
             <coordinates coord_system="LRG_705" start="1" end="1721" strand="1" mapped_from="GRCh38" />
@@ -1131,7 +1131,6 @@
             <protein_product source="Ensembl" accession="ENSP00000251588.2">
               <coordinates coord_system="LRG_705" start="1" end="1057" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="RefSeq" accession="NP_071938.1" />
               <db_xref source="UniProtKB" accession="Q9H6Q4">
                 <synonym>A1L385</synonym>
                 <synonym>B3KTJ3</synonym>
@@ -1139,6 +1138,7 @@
                 <synonym>Q96S10</synonym>
                 <synonym>Q9H6J8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_071938.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000568545.5">
@@ -1190,7 +1190,6 @@
             <protein_product source="Ensembl" accession="ENSP00000444008.1">
               <coordinates coord_system="LRG_705" start="1" end="1057" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="RefSeq" accession="NP_001291728.1" />
               <db_xref source="UniProtKB" accession="Q9H6Q4">
                 <synonym>A1L385</synonym>
                 <synonym>B3KTJ3</synonym>
@@ -1198,6 +1197,7 @@
                 <synonym>Q96S10</synonym>
                 <synonym>Q9H6J8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001291728.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000563051.1">
@@ -1250,17 +1250,17 @@
           <symbol source="HGNC" name="CCDC78" />
           <coordinates coord_system="LRG_705" start="4520" end="8892" strand="1" mapped_from="GRCh38" />
           <long_name>coiled-coil domain containing 78 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="614666" />
+          <db_xref source="HGNC" accession="14153">
+            <synonym>C16orf25</synonym>
+            <synonym>FLJ34512</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="124093">
             <synonym>C16orf25</synonym>
             <synonym>CNM4</synonym>
             <synonym>hsCCDC78</synonym>
             <synonym>JFP10</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="14153">
-            <synonym>C16orf25</synonym>
-            <synonym>FLJ34512</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="614666" />
           <db_xref source="Ensembl" accession="ENSG00000162004" />
           <transcript source="Ensembl" accession="ENST00000471861.5">
             <coordinates coord_system="LRG_705" start="4520" end="6473" strand="1" mapped_from="GRCh38" />
@@ -1420,7 +1420,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000293889.6">
               <coordinates coord_system="LRG_705" start="5107" end="8704" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001026907.2" />
               <db_xref source="UniProtKB" accession="A2IDD5">
                 <synonym>B4DNY4</synonym>
                 <synonym>B4E1U6</synonym>
@@ -1432,6 +1431,7 @@
                 <synonym>Q8NAY7</synonym>
                 <synonym>Q96S12</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001026907.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000482878.5">
@@ -1705,13 +1705,13 @@
           <symbol source="HGNC" name="FAM173A" />
           <coordinates coord_system="LRG_705" start="8873" end="10892" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>family with sequence similarity 173, member A (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="65990">
-            <synonym>C16orf24</synonym>
-          </db_xref>
+          <long_name>family with sequence similarity 173 member A (protein_coding)</long_name>
           <db_xref source="HGNC" accession="14152">
             <synonym>C16orf24</synonym>
             <synonym>MGC2494</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="65990">
+            <synonym>C16orf24</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000103254" />
           <transcript source="Ensembl" accession="ENST00000569529.5">
@@ -1736,10 +1736,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000454380.1">
               <coordinates coord_system="LRG_705" start="8917" end="10199" strand="-1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_076422.1" />
               <db_xref source="UniProtKB" accession="Q9BQD7">
                 <synonym>A2IDD4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_076422.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000568916.1">
@@ -1861,7 +1861,7 @@
         <name>List of locus specific databases for CCDC78</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CCDC78</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
