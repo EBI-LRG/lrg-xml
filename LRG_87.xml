@@ -118,7 +118,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -130,10 +130,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
-      <mapping coord_system="GRCh37.p13" other_name="7q11.22-11.23" other_id="NW_003871064.1" other_id_syn="JH159134.2" other_start="2298200" other_end="2320552" type="patch">
-        <mapping_span lrg_start="1" lrg_end="22353" other_start="2298200" other_end="2320552" strand="1" />
-      </mapping>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_id_syn="CM000669.1" other_start="74183309" other_end="74205659" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="22353" other_start="74183309" other_end="74205659" strand="1">
           <diff type="mismatch" lrg_start="322" lrg_end="322" other_start="74183630" other_end="74183630" lrg_sequence="C" other_sequence="T" />
@@ -191,6 +188,9 @@
           <diff type="mismatch" lrg_start="22184" lrg_end="22184" other_start="74205490" other_end="74205490" lrg_sequence="T" other_sequence="A" />
         </mapping_span>
       </mapping>
+      <mapping coord_system="GRCh37.p13" other_name="7q11.22-11.23" other_id="NW_003871064.1" other_id_syn="JH159134.2" other_start="2298200" other_end="2320552" type="patch">
+        <mapping_span lrg_start="1" lrg_end="22353" other_start="2298200" other_end="2320552" strand="1" />
+      </mapping>
       <mapping coord_system="GRCh38.p2" other_name="7" other_id="NC_000007.14" other_id_syn="CM000669.2" other_start="74768964" other_end="74791316" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="22353" other_start="74768964" other_end="74791316" strand="1" />
       </mapping>
@@ -207,7 +207,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009078.2</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_000265.5" other_name="NM_000265.5" other_id="NM_000265.5" other_start="1" other_end="1459" type="transcript">
         <mapping_span lrg_start="4999" lrg_end="5140" other_start="1" other_end="142" strand="1" />
         <mapping_span lrg_start="8304" lrg_end="8384" other_start="143" other_end="223" strand="1" />
@@ -306,8 +306,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000289473.8" other_name="ENST00000289473.8" other_id="ENST00000289473.8" other_start="1" other_end="1396" type="transcript">
         <mapping_span lrg_start="4999" lrg_end="5140" other_start="1" other_end="142" strand="1" />
         <mapping_span lrg_start="8304" lrg_end="8384" other_start="143" other_end="223" strand="1" />
@@ -445,19 +445,19 @@
           <symbol source="HGNC" name="NCF1" />
           <coordinates coord_system="LRG_87" start="4999" end="20352" strand="1" mapped_from="GRCh38" />
           <long_name>neutrophil cytosolic factor 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="653361">
-            <synonym>NCF1A</synonym>
-            <synonym>NOXO2</synonym>
-            <synonym>p47phox</synonym>
-            <synonym>SH3PXD1A</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="608512" />
           <db_xref source="HGNC" accession="7660">
             <synonym>NCF1A</synonym>
             <synonym>NOXO2</synonym>
             <synonym>p47phox</synonym>
             <synonym>SH3PXD1A</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="608512" />
+          <db_xref source="GeneID" accession="653361">
+            <synonym>NCF1A</synonym>
+            <synonym>NOXO2</synonym>
+            <synonym>p47phox</synonym>
+            <synonym>SH3PXD1A</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000158517" />
           <transcript source="Ensembl" accession="ENST00000289473.8">
             <coordinates coord_system="LRG_87" start="4999" end="20350" strand="1" mapped_from="GRCh38" />
@@ -499,8 +499,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000289473.4">
               <coordinates coord_system="LRG_87" start="5069" end="20197" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_000256.4" />
               <db_xref source="UniProtKB" accession="P14598" />
+              <db_xref source="RefSeq" accession="NP_000256.4" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000449343.6">
@@ -725,7 +725,7 @@
         <name>List of locus specific databases for NCF1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NCF1</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

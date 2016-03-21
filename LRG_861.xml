@@ -153,7 +153,7 @@
           <address>Department of Clinical Genetics, Leiden University Medical Center, Leiden, The Netherlands</address>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -165,7 +165,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_id_syn="CM000668.1" other_start="157094064" other_end="157533913" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="439850" other_start="157094064" other_end="157533913" strand="1" />
       </mapping>
@@ -188,7 +188,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_032093.1</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_017519.2" other_name="NM_017519.2" other_id="NM_017519.2" other_start="1" other_end="9599" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="6542" other_start="1" other_end="1542" strand="1" />
         <mapping_span lrg_start="56298" lrg_end="56492" other_start="1543" other_end="1737" strand="1" />
@@ -249,8 +249,8 @@
           <db_xref source="GeneID" accession="57492" />
           <db_xref source="HGNC" accession="HGNC:18040" />
           <db_xref source="MIM" accession="614556" />
-          <db_xref source="CCDS" accession="CCDS5251.2" />
           <db_xref source="CCDS" accession="CCDS55072.1" />
+          <db_xref source="CCDS" accession="CCDS5251.2" />
           <db_xref source="GI" accession="378744205" />
           <transcript source="RefSeq" accession="NM_020732.3" fixed_id="t1">
             <coordinates coord_system="LRG_861" start="5001" end="437850" strand="1" />
@@ -432,8 +432,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000319584.10" other_name="ENST00000319584.10" other_id="ENST00000319584.10" other_start="1" other_end="2202" type="transcript">
         <mapping_span lrg_start="128444" lrg_end="128596" other_start="1" other_end="153" strand="1" />
         <mapping_span lrg_start="162537" lrg_end="162647" other_start="154" other_end="264" strand="1" />
@@ -575,7 +575,16 @@
         <gene source="Ensembl" accession="ENSG00000049618.21">
           <symbol source="HGNC" name="ARID1B" />
           <coordinates coord_system="LRG_861" start="4445" end="437850" strand="1" mapped_from="GRCh38" />
-          <long_name>AT rich interactive domain 1B (SWI1-like) (protein_coding)</long_name>
+          <long_name>AT-rich interaction domain 1B (protein_coding)</long_name>
+          <db_xref source="MIM" accession="614556" />
+          <db_xref source="HGNC" accession="18040">
+            <synonym>6A3-5</synonym>
+            <synonym>BAF250b</synonym>
+            <synonym>DAN15</synonym>
+            <synonym>ELD/OSA1</synonym>
+            <synonym>KIAA1235</synonym>
+            <synonym>p250R</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="57492">
             <synonym>6A3-5</synonym>
             <synonym>BAF250B</synonym>
@@ -586,15 +595,6 @@
             <synonym>OSA2</synonym>
             <synonym>P250R</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="18040">
-            <synonym>6A3-5</synonym>
-            <synonym>BAF250b</synonym>
-            <synonym>DAN15</synonym>
-            <synonym>ELD/OSA1</synonym>
-            <synonym>KIAA1235</synonym>
-            <synonym>p250R</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="614556" />
           <db_xref source="Ensembl" accession="ENSG00000049618" />
           <transcript source="Ensembl" accession="ENST00000346085.9">
             <coordinates coord_system="LRG_861" start="4445" end="437850" strand="1" mapped_from="GRCh38" />
@@ -663,7 +663,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000344546.4">
               <coordinates coord_system="LRG_861" start="5001" end="434962" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_065783.3" />
               <db_xref source="UniProtKB" accession="Q8NFD5">
                 <synonym>Q5JRD1</synonym>
                 <synonym>Q5VYC4</synonym>
@@ -673,6 +672,7 @@
                 <synonym>Q99491</synonym>
                 <synonym>Q9ULI5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_065783.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000350026.9">
@@ -739,7 +739,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000055163.7">
               <coordinates coord_system="LRG_861" start="5001" end="434962" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_059989.2" />
               <db_xref source="UniProtKB" accession="Q8NFD5">
                 <synonym>Q5JRD1</synonym>
                 <synonym>Q5VYC4</synonym>
@@ -749,6 +748,7 @@
                 <synonym>Q99491</synonym>
                 <synonym>Q9ULI5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_059989.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000414678.6">
@@ -949,13 +949,13 @@
           <symbol source="HGNC" name="MIR4466" />
           <coordinates coord_system="LRG_861" start="6749" end="6802" strand="-1" mapped_from="GRCh38" />
           <long_name>microRNA 4466 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="100616154">
-            <synonym>mir-4466</synonym>
-          </db_xref>
+          <db_xref source="miRBase" accession="MI0016817" />
           <db_xref source="HGNC" accession="41726">
             <synonym>hsa-mir-4466</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0016817" />
+          <db_xref source="GeneID" accession="100616154">
+            <synonym>mir-4466</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000271899" />
           <transcript source="Ensembl" accession="ENST00000606121.1">
             <coordinates coord_system="LRG_861" start="6749" end="6802" strand="-1" mapped_from="GRCh38" />
@@ -1018,7 +1018,7 @@
         <name>List of locus specific databases for ARID1B</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ARID1B</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

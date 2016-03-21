@@ -225,7 +225,7 @@
           <email>tom.winder@preventiongenetics.com</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -237,7 +237,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_id_syn="CM000663.1" other_start="154125780" other_end="154169609" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="43830" other_start="154125780" other_end="154169609" strand="-1" />
       </mapping>
@@ -257,7 +257,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008621.1</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_001043351.1" other_name="NM_001043351.1" other_id="NM_001043351.1" other_start="1" other_end="3212" type="transcript">
         <mapping_span lrg_start="13885" lrg_end="14146" other_start="1" other_end="262" strand="1" />
         <mapping_span lrg_start="20886" lrg_end="21019" other_start="263" other_end="396" strand="1" />
@@ -400,14 +400,14 @@
           <db_xref source="GeneID" accession="7170" />
           <db_xref source="HGNC" accession="HGNC:12012" />
           <db_xref source="MIM" accession="191030" />
+          <db_xref source="CCDS" accession="CCDS41400.1" />
+          <db_xref source="CCDS" accession="CCDS41401.1" />
+          <db_xref source="CCDS" accession="CCDS60274.1" />
           <db_xref source="CCDS" accession="CCDS41403.1" />
           <db_xref source="CCDS" accession="CCDS1060.1" />
           <db_xref source="CCDS" accession="CCDS41402.1" />
           <db_xref source="CCDS" accession="CCDS60275.1" />
           <db_xref source="CCDS" accession="CCDS72922.1" />
-          <db_xref source="CCDS" accession="CCDS41400.1" />
-          <db_xref source="CCDS" accession="CCDS41401.1" />
-          <db_xref source="CCDS" accession="CCDS60274.1" />
           <db_xref source="GI" accession="206597535" />
           <transcript source="RefSeq" accession="NM_152263.2" fixed_id="t2">
             <coordinates coord_system="LRG_681" start="5001" end="35320" strand="1" />
@@ -802,8 +802,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000271850.11" other_name="ENST00000271850.11" other_id="ENST00000271850.11" other_start="1" other_end="1219" type="transcript">
         <mapping_span lrg_start="5076" lrg_end="5232" other_start="1" other_end="157" strand="1" />
         <mapping_span lrg_start="5823" lrg_end="5948" other_start="158" other_end="283" strand="1" />
@@ -1001,6 +1001,11 @@
           <symbol source="HGNC" name="TPM3" />
           <coordinates coord_system="LRG_681" start="2486" end="41830" strand="1" mapped_from="GRCh38" />
           <long_name>tropomyosin 3 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="191030" />
+          <db_xref source="HGNC" accession="12012">
+            <synonym>NEM1</synonym>
+            <synonym>TRK</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="7170">
             <synonym>CAPM1</synonym>
             <synonym>CFTD</synonym>
@@ -1017,11 +1022,6 @@
             <synonym>TPMsk3</synonym>
             <synonym>TRK</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="12012">
-            <synonym>NEM1</synonym>
-            <synonym>TRK</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="191030" />
           <db_xref source="Ensembl" accession="ENSG00000143549" />
           <transcript source="Ensembl" accession="ENST00000515609.1">
             <coordinates coord_system="LRG_681" start="2486" end="5931" strand="1" mapped_from="GRCh38" />
@@ -1076,7 +1076,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000357516.2">
               <coordinates coord_system="LRG_681" start="5116" end="29197" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_689476.2" />
               <db_xref source="UniProtKB" accession="P06753">
                 <synonym>D3DV71</synonym>
                 <synonym>P12324</synonym>
@@ -1090,6 +1089,7 @@
                 <synonym>Q969Q2</synonym>
                 <synonym>Q9NQH8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_689476.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000271850.11">
@@ -1304,7 +1304,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000339035.7">
               <coordinates coord_system="LRG_681" start="14015" end="39495" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001036816.1" />
               <db_xref source="UniProtKB" accession="P06753">
                 <synonym>D3DV71</synonym>
                 <synonym>P12324</synonym>
@@ -1318,6 +1317,7 @@
                 <synonym>Q969Q2</synonym>
                 <synonym>Q9NQH8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001036816.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000341372.7">
@@ -1400,8 +1400,6 @@
             <protein_product source="Ensembl" accession="ENSP00000357521.3">
               <coordinates coord_system="LRG_681" start="14015" end="39495" strand="1" mapped_from="GRCh38" />
               <long_name>tropomyosin alpha-3 chain isoform 6</long_name>
-              <db_xref source="RefSeq" accession="NP_001265117.1" />
-              <db_xref source="RefSeq" accession="NP_705935.1" />
               <db_xref source="UniProtKB" accession="P06753">
                 <synonym>D3DV71</synonym>
                 <synonym>P12324</synonym>
@@ -1415,6 +1413,8 @@
                 <synonym>Q969Q2</synonym>
                 <synonym>Q9NQH8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_705935.1" />
+              <db_xref source="RefSeq" accession="NP_001265117.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000323144.11">
@@ -1448,7 +1448,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000357518.4">
               <coordinates coord_system="LRG_681" start="14015" end="38165" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001036818.1" />
               <db_xref source="UniProtKB" accession="P06753">
                 <synonym>D3DV71</synonym>
                 <synonym>P12324</synonym>
@@ -1462,6 +1461,7 @@
                 <synonym>Q969Q2</synonym>
                 <synonym>Q9NQH8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001036818.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000469717.5">
@@ -1514,7 +1514,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000357517.2">
               <coordinates coord_system="LRG_681" start="14015" end="38165" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001036817.1" />
               <db_xref source="UniProtKB" accession="P06753">
                 <synonym>D3DV71</synonym>
                 <synonym>P12324</synonym>
@@ -1528,6 +1527,7 @@
                 <synonym>Q969Q2</synonym>
                 <synonym>Q9NQH8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001036817.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000328159.8">
@@ -1564,7 +1564,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000357520.1">
               <coordinates coord_system="LRG_681" start="14015" end="39416" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001265118.1" />
               <db_xref source="UniProtKB" accession="P06753">
                 <synonym>D3DV71</synonym>
                 <synonym>P12324</synonym>
@@ -1578,6 +1577,7 @@
                 <synonym>Q969Q2</synonym>
                 <synonym>Q9NQH8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001265118.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000312970.12">
@@ -1639,7 +1639,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000307712.5">
               <coordinates coord_system="LRG_681" start="23937" end="39495" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001265120.1" />
               <db_xref source="UniProtKB" accession="P06753">
                 <synonym>D3DV71</synonym>
                 <synonym>P12324</synonym>
@@ -1653,6 +1652,7 @@
                 <synonym>Q969Q2</synonym>
                 <synonym>Q9NQH8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001265120.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000505010.5">
@@ -1735,8 +1735,8 @@
           <symbol source="HGNC" name="RN7SL431P" />
           <coordinates coord_system="LRG_681" start="30585" end="30889" strand="1" mapped_from="GRCh38" />
           <long_name>RNA, 7SL, cytoplasmic 431, pseudogene (misc_RNA)</long_name>
-          <db_xref source="HGNC" accession="46447" />
           <db_xref source="RFAM" accession="RF00017" />
+          <db_xref source="HGNC" accession="46447" />
           <db_xref source="Ensembl" accession="ENSG00000264384" />
           <transcript source="Ensembl" accession="ENST00000582918.2">
             <coordinates coord_system="LRG_681" start="30585" end="30889" strand="1" mapped_from="GRCh38" />
@@ -1750,9 +1750,9 @@
           <symbol source="HGNC" name="NUP210L" />
           <coordinates coord_system="LRG_681" start="42018" end="43830" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>nucleoporin 210kDa-like (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="91181" />
+          <long_name>nucleoporin 210kDa like (protein_coding)</long_name>
           <db_xref source="HGNC" accession="29915" />
+          <db_xref source="GeneID" accession="91181" />
           <db_xref source="Ensembl" accession="ENSG00000143552" />
           <transcript source="Ensembl" accession="ENST00000368559.7">
             <coordinates coord_system="LRG_681" start="42018" end="43830" strand="1" mapped_from="GRCh38" />
@@ -1766,7 +1766,6 @@
             <protein_product source="Ensembl" accession="ENSP00000357547.3">
               <coordinates coord_system="LRG_681" start="42090" end="43830" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_997191.2" />
               <db_xref source="UniProtKB" accession="Q5VU65">
                 <synonym>E7EP56</synonym>
                 <synonym>Q5T4L7</synonym>
@@ -1776,6 +1775,7 @@
                 <synonym>Q8NDI6</synonym>
                 <synonym>Q9UF31</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_997191.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000271854.3">
@@ -1790,7 +1790,6 @@
             <protein_product source="Ensembl" accession="ENSP00000271854.3">
               <coordinates coord_system="LRG_681" start="42090" end="43830" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_001152956.1" />
               <db_xref source="UniProtKB" accession="Q5VU65">
                 <synonym>E7EP56</synonym>
                 <synonym>Q5T4L7</synonym>
@@ -1800,6 +1799,7 @@
                 <synonym>Q8NDI6</synonym>
                 <synonym>Q9UF31</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001152956.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -1810,7 +1810,7 @@
         <name>List of locus specific databases for TPM3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TPM3</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
