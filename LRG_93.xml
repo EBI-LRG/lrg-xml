@@ -64,7 +64,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -76,15 +76,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
-      <mapping coord_system="GRCh37.p13" other_name="12q24.31" other_id="NW_004504303.2" other_id_syn="KB663607.2" other_start="297573" other_end="320037" type="patch">
-        <mapping_span lrg_start="1" lrg_end="22459" other_start="297573" other_end="320037" strand="1">
-          <diff type="other_ins" lrg_start="5299" lrg_end="5300" other_start="302872" other_end="302877" lrg_sequence="-" other_sequence="CCGCCA" />
-        </mapping_span>
-      </mapping>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_id_syn="CM000674.1" other_start="122059475" other_end="122081939" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="22459" other_start="122059475" other_end="122081939" strand="1">
           <diff type="other_ins" lrg_start="5299" lrg_end="5300" other_start="122064774" other_end="122064779" lrg_sequence="-" other_sequence="CCGCCA" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh37.p13" other_name="12q24.31" other_id="NW_004504303.2" other_id_syn="KB663607.2" other_start="297573" other_end="320037" type="patch">
+        <mapping_span lrg_start="1" lrg_end="22459" other_start="297573" other_end="320037" strand="1">
+          <diff type="other_ins" lrg_start="5299" lrg_end="5300" other_start="302872" other_end="302877" lrg_sequence="-" other_sequence="CCGCCA" />
         </mapping_span>
       </mapping>
       <mapping coord_system="GRCh38.p2" other_name="12" other_id="NC_000012.12" other_id_syn="CM000674.2" other_start="121621570" other_end="121644033" type="main_assembly">
@@ -106,7 +106,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007500.1</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_032790.3" other_name="NM_032790.3" other_id="NM_032790.3" other_start="1" other_end="1496" type="transcript">
         <mapping_span lrg_start="4981" lrg_end="5476" other_start="1" other_end="496" strand="1" />
         <mapping_span lrg_start="19467" lrg_end="20466" other_start="497" other_end="1496" strand="1" />
@@ -160,8 +160,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000611718.1" other_name="ENST00000611718.1" other_id="ENST00000611718.1" other_start="1" other_end="852" type="transcript">
         <mapping_span lrg_start="5247" lrg_end="5600" other_start="1" other_end="359" strand="1">
           <diff type="other_ins" lrg_start="5296" lrg_end="5297" other_start="51" other_end="55" lrg_sequence="-" other_sequence="GCCCC" />
@@ -188,6 +188,12 @@
           <symbol source="HGNC" name="ORAI1" />
           <coordinates coord_system="LRG_93" start="4981" end="21103" strand="1" mapped_from="GRCh38" />
           <long_name>ORAI calcium release-activated calcium modulator 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="610277" />
+          <db_xref source="HGNC" accession="25896">
+            <synonym>CRACM1</synonym>
+            <synonym>FLJ14466</synonym>
+            <synonym>TMEM142A</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="84876">
             <synonym>CRACM1</synonym>
             <synonym>IMD9</synonym>
@@ -195,12 +201,6 @@
             <synonym>TAM2</synonym>
             <synonym>TMEM142A</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="25896">
-            <synonym>CRACM1</synonym>
-            <synonym>FLJ14466</synonym>
-            <synonym>TMEM142A</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="610277" />
           <db_xref source="Ensembl" accession="ENSG00000276045" />
           <transcript source="Ensembl" accession="ENST00000617316.1">
             <coordinates coord_system="LRG_93" start="4981" end="21103" strand="1" mapped_from="GRCh38" />
@@ -230,13 +230,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000480616.1">
               <coordinates coord_system="LRG_93" start="5174" end="20069" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_116179.2" />
+              <long_name>calcium release-activated calcium channel protein 1</long_name>
               <db_xref source="UniProtKB" accession="Q96D31">
                 <synonym>Q3MHV3</synonym>
                 <synonym>Q6DHX2</synonym>
                 <synonym>Q96BP7</synonym>
                 <synonym>Q96K71</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_116179.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000611718.1">
@@ -260,7 +261,7 @@
         <name>List of locus specific databases for ORAI1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ORAI1</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

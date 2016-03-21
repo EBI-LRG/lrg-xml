@@ -287,7 +287,7 @@
           <email>valerie.delague@univ-amu.fr</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -299,7 +299,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_id_syn="CM000681.1" other_start="10242022" other_end="10346962" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="104941" other_start="10242022" other_end="10346962" strand="-1" />
       </mapping>
@@ -319,7 +319,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_028016.3</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_001130823.1" other_name="NM_001130823.1" other_id="NM_001130823.1" other_start="1" other_end="5400" type="transcript">
         <mapping_span lrg_start="41208" lrg_end="41467" other_start="1" other_end="260" strand="1" />
         <mapping_span lrg_start="54210" lrg_end="54246" other_start="261" other_end="297" strand="1" />
@@ -481,8 +481,8 @@
           <db_xref source="GeneID" accession="1786" />
           <db_xref source="HGNC" accession="HGNC:2976" />
           <db_xref source="MIM" accession="126375" />
-          <db_xref source="CCDS" accession="CCDS12228.1" />
           <db_xref source="CCDS" accession="CCDS45958.1" />
+          <db_xref source="CCDS" accession="CCDS12228.1" />
           <db_xref source="GI" accession="453040315" />
           <transcript source="RefSeq" accession="NM_001130823.1" fixed_id="t1">
             <coordinates coord_system="LRG_362" start="41208" end="102941" strand="1" />
@@ -769,8 +769,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000340748.8" other_name="ENST00000340748.8" other_id="ENST00000340748.8" other_start="1" other_end="5408" type="transcript">
         <mapping_span lrg_start="41152" lrg_end="41467" other_start="1" other_end="316" strand="1" />
         <mapping_span lrg_start="54210" lrg_end="54246" other_start="317" other_end="353" strand="1" />
@@ -1124,6 +1124,12 @@
           <symbol source="HGNC" name="DNMT1" />
           <coordinates coord_system="LRG_362" start="5001" end="102942" strand="1" mapped_from="GRCh38" />
           <long_name>DNA (cytosine-5-)-methyltransferase 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="126375" />
+          <db_xref source="HGNC" accession="2976">
+            <synonym>CXXC9</synonym>
+            <synonym>DNMT</synonym>
+            <synonym>MCMT</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="1786">
             <synonym>ADCADN</synonym>
             <synonym>AIM</synonym>
@@ -1132,12 +1138,6 @@
             <synonym>HSN1E</synonym>
             <synonym>MCMT</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="2976">
-            <synonym>CXXC9</synonym>
-            <synonym>DNMT</synonym>
-            <synonym>MCMT</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="126375" />
           <db_xref source="Ensembl" accession="ENSG00000130816" />
           <transcript source="Ensembl" accession="ENST00000588952.5">
             <coordinates coord_system="LRG_362" start="5001" end="63197" strand="1" mapped_from="GRCh38" />
@@ -1381,7 +1381,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000345739.3">
               <coordinates coord_system="LRG_362" start="41388" end="102620" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001370.1" />
               <db_xref source="UniProtKB" accession="P26358">
                 <synonym>A0AV63</synonym>
                 <synonym>B7ZLW6</synonym>
@@ -1389,6 +1388,7 @@
                 <synonym>Q9ULA2</synonym>
                 <synonym>Q9UMZ6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001370.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000540357.5">
@@ -1646,7 +1646,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000352516.3">
               <coordinates coord_system="LRG_362" start="41388" end="102620" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001124295.1" />
               <db_xref source="UniProtKB" accession="P26358">
                 <synonym>A0AV63</synonym>
                 <synonym>B7ZLW6</synonym>
@@ -1654,6 +1653,7 @@
                 <synonym>Q9ULA2</synonym>
                 <synonym>Q9UMZ6</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001124295.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000592705.5">
@@ -2196,6 +2196,13 @@
           <symbol source="HGNC" name="S1PR2" />
           <coordinates coord_system="LRG_362" start="5015" end="14852" strand="1" mapped_from="GRCh38" />
           <long_name>sphingosine-1-phosphate receptor 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="605111" />
+          <db_xref source="HGNC" accession="3169">
+            <synonym>AGR16</synonym>
+            <synonym>EDG5</synonym>
+            <synonym>Gpcr13</synonym>
+            <synonym>H218</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="9294">
             <synonym>AGR16</synonym>
             <synonym>EDG-5</synonym>
@@ -2205,13 +2212,6 @@
             <synonym>LPB2</synonym>
             <synonym>S1P2</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3169">
-            <synonym>AGR16</synonym>
-            <synonym>EDG5</synonym>
-            <synonym>Gpcr13</synonym>
-            <synonym>H218</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="605111" />
           <db_xref source="Ensembl" accession="ENSG00000267534" />
           <transcript source="Ensembl" accession="ENST00000590320.2">
             <coordinates coord_system="LRG_362" start="5015" end="14852" strand="1" mapped_from="GRCh38" />
@@ -2226,10 +2226,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000466933.1">
               <coordinates coord_system="LRG_362" start="11382" end="12443" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_004221.3" />
               <db_xref source="UniProtKB" accession="O95136">
                 <synonym>Q86UN8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_004221.3" />
             </protein_product>
           </transcript>
         </gene>
@@ -2237,11 +2237,11 @@
           <symbol source="HGNC" name="MIR4322" />
           <coordinates coord_system="LRG_362" start="5802" end="5874" strand="-1" mapped_from="GRCh38" />
           <long_name>microRNA 4322 (miRNA)</long_name>
-          <db_xref source="GeneID" accession="100422925" />
+          <db_xref source="miRBase" accession="MI0015851" />
           <db_xref source="HGNC" accession="38261">
             <synonym>hsa-mir-4322</synonym>
           </db_xref>
-          <db_xref source="miRBase" accession="MI0015851" />
+          <db_xref source="GeneID" accession="100422925" />
           <db_xref source="Ensembl" accession="ENSG00000264266" />
           <transcript source="Ensembl" accession="ENST00000585009.1">
             <coordinates coord_system="LRG_362" start="5802" end="5874" strand="-1" mapped_from="GRCh38" />
@@ -2259,7 +2259,7 @@
         <name>List of locus specific databases for DNMT1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DNMT1</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

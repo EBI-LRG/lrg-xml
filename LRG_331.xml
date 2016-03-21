@@ -340,7 +340,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -352,7 +352,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_id_syn="CM000669.1" other_start="91565189" other_end="91741987" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="176799" other_start="91565189" other_end="91741987" strand="1" />
       </mapping>
@@ -374,7 +374,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011623.1</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_005751.4" other_name="NM_005751.4" other_id="NM_005751.4" other_start="1" other_end="12463" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5273" other_start="1" other_end="273" strand="1" />
         <mapping_span lrg_start="37837" lrg_end="38094" other_start="274" other_end="531" strand="1" />
@@ -729,8 +729,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000356239.7" other_name="ENST00000356239.7" other_id="ENST00000356239.7" other_start="1" other_end="12471" type="transcript">
         <mapping_span lrg_start="4993" lrg_end="5273" other_start="1" other_end="281" strand="1" />
         <mapping_span lrg_start="37837" lrg_end="38094" other_start="282" other_end="539" strand="1" />
@@ -1016,19 +1016,8 @@
         <gene source="Ensembl" accession="ENSG00000127914.16">
           <symbol source="HGNC" name="AKAP9" />
           <coordinates coord_system="LRG_331" start="4993" end="174799" strand="1" mapped_from="GRCh38" />
-          <long_name>A kinase (PRKA) anchor protein 9 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="10142">
-            <synonym>AKAP-9</synonym>
-            <synonym>AKAP350</synonym>
-            <synonym>AKAP450</synonym>
-            <synonym>CG-NAP</synonym>
-            <synonym>HYPERION</synonym>
-            <synonym>LQT11</synonym>
-            <synonym>MU-RMS-40.16A</synonym>
-            <synonym>PPP1R45</synonym>
-            <synonym>PRKA9</synonym>
-            <synonym>YOTIAO</synonym>
-          </db_xref>
+          <long_name>A-kinase anchoring protein 9 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="604001" />
           <db_xref source="HGNC" accession="379">
             <synonym>AKAP350</synonym>
             <synonym>AKAP450</synonym>
@@ -1041,7 +1030,18 @@
             <synonym>PRKA9</synonym>
             <synonym>YOTIAO</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="604001" />
+          <db_xref source="GeneID" accession="10142">
+            <synonym>AKAP-9</synonym>
+            <synonym>AKAP350</synonym>
+            <synonym>AKAP450</synonym>
+            <synonym>CG-NAP</synonym>
+            <synonym>HYPERION</synonym>
+            <synonym>LQT11</synonym>
+            <synonym>MU-RMS-40.16A</synonym>
+            <synonym>PPP1R45</synonym>
+            <synonym>PRKA9</synonym>
+            <synonym>YOTIAO</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000127914" />
           <transcript source="Ensembl" accession="ENST00000356239.7">
             <coordinates coord_system="LRG_331" start="4993" end="174799" strand="1" mapped_from="GRCh38" />
@@ -1202,9 +1202,9 @@
             <protein_product source="Ensembl" accession="ENSP00000348573.3">
               <coordinates coord_system="LRG_331" start="5226" end="174285" strand="1" mapped_from="GRCh38" />
               <long_name>A-kinase anchor protein 9 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_671714.1" />
-              <db_xref source="RefSeq" accession="NP_005742.4" />
               <db_xref source="UniProtKB" accession="Q99996" />
+              <db_xref source="RefSeq" accession="NP_005742.4" />
+              <db_xref source="RefSeq" accession="NP_671714.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000493453.1">
@@ -1890,15 +1890,8 @@
           <symbol source="HGNC" name="CYP51A1" />
           <coordinates coord_system="LRG_331" start="176277" end="176799" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>cytochrome P450, family 51, subfamily A, polypeptide 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="1595">
-            <synonym>CP51</synonym>
-            <synonym>CYP51</synonym>
-            <synonym>CYPL1</synonym>
-            <synonym>LDM</synonym>
-            <synonym>P450-14DM</synonym>
-            <synonym>P450L1</synonym>
-          </db_xref>
+          <long_name>cytochrome P450 family 51 subfamily A member 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="601637" />
           <db_xref source="HGNC" accession="2649">
             <synonym>CP51</synonym>
             <synonym>CYP51</synonym>
@@ -1907,7 +1900,14 @@
             <synonym>P450-14DM</synonym>
             <synonym>P450L1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="601637" />
+          <db_xref source="GeneID" accession="1595">
+            <synonym>CP51</synonym>
+            <synonym>CYP51</synonym>
+            <synonym>CYPL1</synonym>
+            <synonym>LDM</synonym>
+            <synonym>P450-14DM</synonym>
+            <synonym>P450L1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000001630" />
           <transcript source="Ensembl" accession="ENST00000003100.12">
             <coordinates coord_system="LRG_331" start="176277" end="176799" strand="-1" mapped_from="GRCh38" />
@@ -1926,10 +1926,10 @@
           <coordinates coord_system="LRG_331" start="176285" end="176799" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>leucine-rich repeats and death domain containing 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="401387" />
           <db_xref source="HGNC" accession="34300">
             <synonym>IMAGE:4798971</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="401387" />
           <db_xref source="Ensembl" accession="ENSG00000240720" />
           <transcript source="Ensembl" accession="ENST00000422722.1">
             <coordinates coord_system="LRG_331" start="176285" end="176799" strand="-1" mapped_from="GRCh38" />
@@ -1948,7 +1948,7 @@
         <name>List of locus specific databases for AKAP9</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/AKAP9</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

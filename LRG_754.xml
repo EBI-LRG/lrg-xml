@@ -179,7 +179,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -191,7 +191,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_id_syn="CM000664.1" other_start="39206690" other_end="39352604" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="145915" other_start="39206690" other_end="39352604" strand="-1" />
       </mapping>
@@ -211,7 +211,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007530.1</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_005633.3" other_name="NM_005633.3" other_id="NM_005633.3" other_start="1" other_end="8318" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5128" other_start="1" other_end="128" strand="1" />
         <mapping_span lrg_start="57711" lrg_end="57836" other_start="129" other_end="254" strand="1" />
@@ -351,8 +351,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000395038.6" other_name="ENST00000395038.6" other_id="ENST00000395038.6" other_start="1" other_end="4123" type="transcript">
         <mapping_span lrg_start="5014" lrg_end="5128" other_start="1" other_end="115" strand="1" />
         <mapping_span lrg_start="57711" lrg_end="57836" other_start="116" other_end="241" strand="1" />
@@ -457,7 +457,13 @@
         <gene source="Ensembl" accession="ENSG00000115904.12">
           <symbol source="HGNC" name="SOS1" />
           <coordinates coord_system="LRG_754" start="1119" end="144068" strand="1" mapped_from="GRCh38" />
-          <long_name>son of sevenless homolog 1 (Drosophila) (protein_coding)</long_name>
+          <long_name>SOS Ras/Rac guanine nucleotide exchange factor 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="182530" />
+          <db_xref source="HGNC" accession="11187">
+            <synonym>GF1</synonym>
+            <synonym>GINGF</synonym>
+            <synonym>HGF</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="6654">
             <synonym>GF1</synonym>
             <synonym>GGF1</synonym>
@@ -465,12 +471,6 @@
             <synonym>HGF</synonym>
             <synonym>NS4</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11187">
-            <synonym>GF1</synonym>
-            <synonym>GINGF</synonym>
-            <synonym>HGF</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="182530" />
           <db_xref source="Ensembl" accession="ENSG00000115904" />
           <transcript source="Ensembl" accession="ENST00000451331.1">
             <coordinates coord_system="LRG_754" start="1119" end="68731" strand="1" mapped_from="GRCh38" />
@@ -651,11 +651,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000384675.2">
               <coordinates coord_system="LRG_754" start="5042" end="139640" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_005624.2" />
               <db_xref source="UniProtKB" accession="Q07889">
                 <synonym>A8K2G3</synonym>
                 <synonym>B4DXG2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_005624.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000395038.6">
@@ -784,7 +784,7 @@
         <gene source="Ensembl" accession="ENSG00000225900.1">
           <symbol source="HGNC" name="HSPE1P13" />
           <coordinates coord_system="LRG_754" start="27019" end="27315" strand="1" mapped_from="GRCh38" />
-          <long_name>heat shock 10kDa protein 1 pseudogene 13 (processed_pseudogene)</long_name>
+          <long_name>heat shock protein family E (Hsp10) member 1 pseudogene 13 (processed_pseudogene)</long_name>
           <db_xref source="HGNC" accession="49332" />
           <db_xref source="Ensembl" accession="ENSG00000225900" />
           <transcript source="Ensembl" accession="ENST00000451143.1">
@@ -799,8 +799,8 @@
           <symbol source="HGNC" name="RNU6-198P" />
           <coordinates coord_system="LRG_754" start="42772" end="42875" strand="-1" mapped_from="GRCh38" />
           <long_name>RNA, U6 small nuclear 198, pseudogene (snRNA)</long_name>
-          <db_xref source="HGNC" accession="47161" />
           <db_xref source="RFAM" accession="RF00026" />
+          <db_xref source="HGNC" accession="47161" />
           <db_xref source="Ensembl" accession="ENSG00000206985" />
           <transcript source="Ensembl" accession="ENST00000384258.1">
             <coordinates coord_system="LRG_754" start="42772" end="42875" strand="-1" mapped_from="GRCh38" />
@@ -854,7 +854,7 @@
         <name>List of locus specific databases for SOS1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SOS1</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

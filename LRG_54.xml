@@ -136,7 +136,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -148,7 +148,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_id_syn="CM000672.1" other_start="14946870" other_end="15001094" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="54225" other_start="14946870" other_end="15001094" strand="-1" />
       </mapping>
@@ -168,7 +168,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007276.1</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_001033855.1" other_name="NM_001033855.1" other_id="NM_001033855.1" other_start="1" other_end="3701" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5194" other_start="1" other_end="194" strand="1" />
         <mapping_span lrg_start="10009" lrg_end="10060" other_start="195" other_end="246" strand="1" />
@@ -347,9 +347,9 @@
           <db_xref source="GeneID" accession="64421" />
           <db_xref source="HGNC" accession="HGNC:17642" />
           <db_xref source="MIM" accession="605988" />
+          <db_xref source="CCDS" accession="CCDS7105.1" />
           <db_xref source="CCDS" accession="CCDS31149.1" />
           <db_xref source="CCDS" accession="CCDS31150.1" />
-          <db_xref source="CCDS" accession="CCDS7105.1" />
           <db_xref source="GI" accession="163965401" />
           <transcript source="RefSeq" accession="NM_001033858.2">
             <coordinates coord_system="LRG_54" start="4664" end="54225" strand="1" />
@@ -826,8 +826,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000357717.6" other_name="ENST00000357717.6" other_id="ENST00000357717.6" other_start="1" other_end="2228" type="transcript">
         <mapping_span lrg_start="5038" lrg_end="5194" other_start="1" other_end="157" strand="1" />
         <mapping_span lrg_start="10009" lrg_end="10060" other_start="158" other_end="209" strand="1" />
@@ -1035,13 +1035,7 @@
           <coordinates coord_system="LRG_54" start="4664" end="54225" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>DNA cross-link repair 1C (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="64421">
-            <synonym>A-SCID</synonym>
-            <synonym>DCLREC1C</synonym>
-            <synonym>RS-SCID</synonym>
-            <synonym>SCIDA</synonym>
-            <synonym>SNM1C</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="605988" />
           <db_xref source="HGNC" accession="17642">
             <synonym>A-SCID</synonym>
             <synonym>ARTEMIS</synonym>
@@ -1049,7 +1043,13 @@
             <synonym>SCIDA</synonym>
             <synonym>SNM1C</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="605988" />
+          <db_xref source="GeneID" accession="64421">
+            <synonym>A-SCID</synonym>
+            <synonym>DCLREC1C</synonym>
+            <synonym>RS-SCID</synonym>
+            <synonym>SCIDA</synonym>
+            <synonym>SNM1C</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000152457" />
           <transcript source="Ensembl" accession="ENST00000378289.8">
             <coordinates coord_system="LRG_54" start="4664" end="54225" strand="1" mapped_from="GRCh38" />
@@ -1162,7 +1162,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000367492.2">
               <coordinates coord_system="LRG_54" start="19270" end="50688" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_071932.2" />
               <db_xref source="UniProtKB" accession="Q96SD1">
                 <synonym>D3DRT6</synonym>
                 <synonym>Q1HCL2</synonym>
@@ -1180,6 +1179,7 @@
                 <synonym>Q9BVW9</synonym>
                 <synonym>Q9HAM4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_071932.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000378258.5">
@@ -1234,7 +1234,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000367506.1">
               <coordinates coord_system="LRG_54" start="22557" end="50688" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001029029.1" />
               <db_xref source="UniProtKB" accession="Q96SD1">
                 <synonym>D3DRT6</synonym>
                 <synonym>Q1HCL2</synonym>
@@ -1252,6 +1251,7 @@
                 <synonym>Q9BVW9</synonym>
                 <synonym>Q9HAM4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001029029.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000357717.6">
@@ -1297,7 +1297,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000350349.2">
               <coordinates coord_system="LRG_54" start="19270" end="50688" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001276005.1" />
               <db_xref source="UniProtKB" accession="Q96SD1">
                 <synonym>D3DRT6</synonym>
                 <synonym>Q1HCL2</synonym>
@@ -1315,6 +1314,7 @@
                 <synonym>Q9BVW9</synonym>
                 <synonym>Q9HAM4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001276005.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000378249.5">
@@ -1360,7 +1360,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000367496.1">
               <coordinates coord_system="LRG_54" start="19270" end="50688" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001276007.1" />
               <db_xref source="UniProtKB" accession="Q96SD1">
                 <synonym>D3DRT6</synonym>
                 <synonym>Q1HCL2</synonym>
@@ -1378,6 +1377,7 @@
                 <synonym>Q9BVW9</synonym>
                 <synonym>Q9HAM4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001276007.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000396817.6">
@@ -1435,7 +1435,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000380030.2">
               <coordinates coord_system="LRG_54" start="22557" end="50688" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001029030.1" />
               <db_xref source="UniProtKB" accession="Q96SD1">
                 <synonym>D3DRT6</synonym>
                 <synonym>Q1HCL2</synonym>
@@ -1453,6 +1452,7 @@
                 <synonym>Q9BVW9</synonym>
                 <synonym>Q9HAM4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001029030.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000378255.5">
@@ -1510,7 +1510,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000367503.1">
               <coordinates coord_system="LRG_54" start="22557" end="50688" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001276008.1" />
               <db_xref source="UniProtKB" accession="Q96SD1">
                 <synonym>D3DRT6</synonym>
                 <synonym>Q1HCL2</synonym>
@@ -1528,6 +1527,7 @@
                 <synonym>Q9BVW9</synonym>
                 <synonym>Q9HAM4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001276008.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000378254.5">
@@ -1582,7 +1582,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000367502.1">
               <coordinates coord_system="LRG_54" start="22557" end="50688" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001276006.1" />
               <db_xref source="UniProtKB" accession="Q96SD1">
                 <synonym>D3DRT6</synonym>
                 <synonym>Q1HCL2</synonym>
@@ -1600,6 +1599,7 @@
                 <synonym>Q9BVW9</synonym>
                 <synonym>Q9HAM4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001276006.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000378278.6">
@@ -1651,7 +1651,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000367527.2">
               <coordinates coord_system="LRG_54" start="5086" end="50688" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001029027.1" />
               <db_xref source="UniProtKB" accession="Q96SD1">
                 <synonym>D3DRT6</synonym>
                 <synonym>Q1HCL2</synonym>
@@ -1669,6 +1668,7 @@
                 <synonym>Q9BVW9</synonym>
                 <synonym>Q9HAM4</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001029027.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000418843.5">
@@ -1848,7 +1848,7 @@
         <name>List of locus specific databases for DCLRE1C</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DCLRE1C</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

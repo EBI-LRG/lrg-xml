@@ -77,7 +77,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -89,7 +89,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_id_syn="CM000663.1" other_start="172623185" other_end="172638013" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="14829" other_start="172623185" other_end="172638013" strand="1" />
       </mapping>
@@ -109,7 +109,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007269.1</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_000639.1" other_name="NM_000639.1" other_id="NM_000639.1" other_start="1" other_end="1860" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5505" other_start="1" other_end="505" strand="1" />
         <mapping_span lrg_start="6051" lrg_end="6096" other_start="506" other_end="551" strand="1" />
@@ -216,8 +216,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000340030.4" other_name="ENST00000340030.4" other_id="ENST00000340030.4" other_start="1" other_end="917" type="transcript">
         <mapping_span lrg_start="5100" lrg_end="5505" other_start="1" other_end="406" strand="1" />
         <mapping_span lrg_start="10290" lrg_end="10346" other_start="407" other_end="463" strand="1" />
@@ -233,7 +233,14 @@
         <gene source="Ensembl" accession="ENSG00000117560.7">
           <symbol source="HGNC" name="FASLG" />
           <coordinates coord_system="LRG_58" start="4974" end="12830" strand="1" mapped_from="GRCh38" />
-          <long_name>Fas ligand (TNF superfamily, member 6) (protein_coding)</long_name>
+          <long_name>Fas ligand (protein_coding)</long_name>
+          <db_xref source="MIM" accession="134638" />
+          <db_xref source="HGNC" accession="11936">
+            <synonym>APT1LG1</synonym>
+            <synonym>CD178</synonym>
+            <synonym>FasL</synonym>
+            <synonym>TNFSF6</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="356">
             <synonym>ALPS1B</synonym>
             <synonym>APT1LG1</synonym>
@@ -244,13 +251,6 @@
             <synonym>FASL</synonym>
             <synonym>TNFSF6</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="11936">
-            <synonym>APT1LG1</synonym>
-            <synonym>CD178</synonym>
-            <synonym>FasL</synonym>
-            <synonym>TNFSF6</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="134638" />
           <db_xref source="Ensembl" accession="ENSG00000117560" />
           <transcript source="Ensembl" accession="ENST00000367721.2">
             <coordinates coord_system="LRG_58" start="4974" end="12830" strand="1" mapped_from="GRCh38" />
@@ -271,10 +271,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000356694.2">
               <coordinates coord_system="LRG_58" start="5158" end="11972" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_000630.1" />
               <db_xref source="UniProtKB" accession="P48023">
                 <synonym>Q9BZP9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000630.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000340030.4">
@@ -293,10 +293,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000344739.3">
               <coordinates coord_system="LRG_58" start="5158" end="10325" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001289675.1" />
               <db_xref source="UniProtKB" accession="P48023">
                 <synonym>Q9BZP9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001289675.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -307,7 +307,7 @@
         <name>List of locus specific databases for FASLG</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FASLG</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

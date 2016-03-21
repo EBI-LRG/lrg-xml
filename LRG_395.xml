@@ -81,7 +81,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -93,7 +93,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_id_syn="CM000665.1" other_start="46897357" other_end="46928659" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="31303" other_start="46897357" other_end="46928659" strand="-1" />
       </mapping>
@@ -113,7 +113,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007555.2</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_000258.2" other_name="NM_000258.2" other_id="NM_000258.2" other_start="1" other_end="929" type="transcript">
         <mapping_span lrg_start="23687" lrg_end="23908" other_start="1" other_end="222" strand="1" />
         <mapping_span lrg_start="26183" lrg_end="26210" other_start="223" other_end="250" strand="1" />
@@ -270,8 +270,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000292327.4" other_name="ENST00000292327.4" other_id="ENST00000292327.4" other_start="1" other_end="924" type="transcript">
         <mapping_span lrg_start="23687" lrg_end="23908" other_start="1" other_end="222" strand="1" />
         <mapping_span lrg_start="26183" lrg_end="26210" other_start="223" other_end="250" strand="1" />
@@ -301,16 +301,16 @@
           <coordinates coord_system="LRG_395" start="1" end="9424" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>parathyroid hormone 1 receptor (protein_coding)</long_name>
+          <db_xref source="MIM" accession="168468" />
+          <db_xref source="HGNC" accession="9608">
+            <synonym>PTHR</synonym>
+            <synonym>PTHR1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="5745">
             <synonym>PFE</synonym>
             <synonym>PTHR</synonym>
             <synonym>PTHR1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="9608">
-            <synonym>PTHR</synonym>
-            <synonym>PTHR1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="168468" />
           <db_xref source="Ensembl" accession="ENSG00000160801" />
           <transcript source="Ensembl" accession="ENST00000449590.5">
             <coordinates coord_system="LRG_395" start="1" end="9424" strand="-1" mapped_from="GRCh38" />
@@ -330,10 +330,10 @@
             <protein_product source="Ensembl" accession="ENSP00000402723.1">
               <coordinates coord_system="LRG_395" start="1" end="3610" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_000307.1" />
               <db_xref source="UniProtKB" accession="Q03431">
                 <synonym>Q2M1U3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000307.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000418619.5">
@@ -416,30 +416,32 @@
             <protein_product source="Ensembl" accession="ENSP00000413774.2">
               <coordinates coord_system="LRG_395" start="1" end="3610" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_001171673.1" />
               <db_xref source="UniProtKB" accession="Q03431">
                 <synonym>Q2M1U3</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001171673.1" />
             </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000160808.9">
           <symbol source="HGNC" name="MYL3" />
           <coordinates coord_system="LRG_395" start="5001" end="29298" strand="1" mapped_from="GRCh38" />
-          <long_name>myosin, light chain 3, alkali; ventricular, skeletal, slow (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4634">
-            <synonym>CMH8</synonym>
-            <synonym>MLC1SB</synonym>
-            <synonym>MLC1V</synonym>
-            <synonym>VLC1</synonym>
-          </db_xref>
+          <long_name>myosin light chain 3 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="160790" />
           <db_xref source="HGNC" accession="7584">
             <synonym>CMH8</synonym>
             <synonym>MLC1SB</synonym>
             <synonym>MLC1V</synonym>
             <synonym>VLC1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="160790" />
+          <db_xref source="GeneID" accession="4634">
+            <synonym>CMH8</synonym>
+            <synonym>MLC-lV/sb</synonym>
+            <synonym>MLC1SB</synonym>
+            <synonym>MLC1V</synonym>
+            <synonym>VLC1</synonym>
+            <synonym>VLCl</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000160808" />
           <transcript source="Ensembl" accession="ENST00000431168.1">
             <coordinates coord_system="LRG_395" start="5001" end="26191" strand="1" mapped_from="GRCh38" />
@@ -488,11 +490,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000292327.4">
               <coordinates coord_system="LRG_395" start="23780" end="28926" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_000249.1" />
               <db_xref source="UniProtKB" accession="P08590">
                 <synonym>B2R534</synonym>
                 <synonym>Q9NRS8</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000249.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000395869.5">
@@ -533,7 +535,7 @@
         <name>List of locus specific databases for MYL3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MYL3</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

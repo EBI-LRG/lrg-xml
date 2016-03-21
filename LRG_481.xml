@@ -124,7 +124,7 @@
           <email>is250@cam.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -136,7 +136,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_id_syn="CM000679.1" other_start="45326208" other_end="45423658" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="97451" other_start="45326208" other_end="45423658" strand="1" />
       </mapping>
@@ -156,7 +156,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008332.2</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_000212.2" other_name="NM_000212.2" other_id="NM_000212.2" other_start="1" other_end="4894" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5099" other_start="1" other_end="99" strand="1" />
         <mapping_span lrg_start="25578" lrg_end="25663" other_start="100" other_end="185" strand="1" />
@@ -398,8 +398,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000559488.5" other_name="ENST00000559488.5" other_id="ENST00000559488.5" other_start="1" other_end="3995" type="transcript">
         <mapping_span lrg_start="5005" lrg_end="5099" other_start="1" other_end="95" strand="1" />
         <mapping_span lrg_start="25578" lrg_end="25663" other_start="96" other_end="181" strand="1" />
@@ -436,7 +436,13 @@
         <gene source="Ensembl" accession="ENSG00000259207.7">
           <symbol source="HGNC" name="ITGB3" />
           <coordinates coord_system="LRG_481" start="5005" end="62975" strand="1" mapped_from="GRCh38" />
-          <long_name>integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61) (protein_coding)</long_name>
+          <long_name>integrin subunit beta 3 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="173470" />
+          <db_xref source="HGNC" accession="6156">
+            <synonym>CD61</synonym>
+            <synonym>GP3A</synonym>
+            <synonym>GPIIIa</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="3690">
             <synonym>BDPLT16</synonym>
             <synonym>BDPLT2</synonym>
@@ -445,12 +451,6 @@
             <synonym>GPIIIa</synonym>
             <synonym>GT</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="6156">
-            <synonym>CD61</synonym>
-            <synonym>GP3A</synonym>
-            <synonym>GPIIIa</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="173470" />
           <db_xref source="Ensembl" accession="ENSG00000259207" />
           <transcript source="Ensembl" accession="ENST00000559488.5">
             <coordinates coord_system="LRG_481" start="5005" end="62975" strand="1" mapped_from="GRCh38" />
@@ -504,7 +504,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000452786.1">
               <coordinates coord_system="LRG_481" start="5021" end="61363" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_000203.2" />
               <db_xref source="UniProtKB" accession="P05106">
                 <synonym>A0PJW2</synonym>
                 <synonym>D3DXJ8</synonym>
@@ -514,6 +513,7 @@
                 <synonym>Q14648</synonym>
                 <synonym>Q16499</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000203.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000571680.1">
@@ -635,8 +635,8 @@
           <symbol source="HGNC" name="RNU7-186P" />
           <coordinates coord_system="LRG_481" start="10517" end="10579" strand="-1" mapped_from="GRCh38" />
           <long_name>RNA, U7 small nuclear 186 pseudogene (snRNA)</long_name>
-          <db_xref source="HGNC" accession="45720" />
           <db_xref source="RFAM" accession="RF00066" />
+          <db_xref source="HGNC" accession="45720" />
           <db_xref source="Ensembl" accession="ENSG00000238419" />
           <transcript source="Ensembl" accession="ENST00000458818.1">
             <coordinates coord_system="LRG_481" start="10517" end="10579" strand="-1" mapped_from="GRCh38" />
@@ -695,12 +695,12 @@
           <coordinates coord_system="LRG_481" start="74449" end="97451" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>EF-hand calcium binding domain 13 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="124989">
-            <synonym>C17orf57</synonym>
-          </db_xref>
           <db_xref source="HGNC" accession="26864">
             <synonym>C17orf57</synonym>
             <synonym>FLJ40342</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="124989">
+            <synonym>C17orf57</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000178852" />
           <transcript source="Ensembl" accession="ENST00000518170.1">
@@ -823,11 +823,11 @@
             <protein_product source="Ensembl" accession="ENSP00000332111.2">
               <coordinates coord_system="LRG_481" start="79513" end="97451" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_689560.3" />
               <db_xref source="UniProtKB" accession="Q8IY85">
                 <synonym>G3V128</synonym>
                 <synonym>Q49AG9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_689560.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000519772.5">
@@ -885,11 +885,11 @@
             <protein_product source="Ensembl" accession="ENSP00000430048.1">
               <coordinates coord_system="LRG_481" start="79513" end="97451" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_001182121.1" />
               <db_xref source="UniProtKB" accession="Q8IY85">
                 <synonym>G3V128</synonym>
                 <synonym>Q49AG9</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001182121.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000520776.5">
@@ -949,7 +949,7 @@
         <name>List of locus specific databases for ITGB3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ITGB3</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

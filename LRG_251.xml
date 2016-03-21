@@ -261,7 +261,7 @@
           <email>valerie.delague@univ-amu.fr</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -273,7 +273,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_id_syn="CM000671.1" other_start="111627800" other_end="111701608" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="73809" other_start="111627800" other_end="111701608" strand="-1" />
       </mapping>
@@ -293,7 +293,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008788.1</comment>
-      <modification_date>2016-03-11</modification_date>
+      <modification_date>2016-03-18</modification_date>
       <mapping coord_system="NM_003640.3" other_name="NM_003640.3" other_id="NM_003640.3" other_start="1" other_end="6114" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5465" other_start="1" other_end="465" strand="1" />
         <mapping_span lrg_start="8128" lrg_end="8332" other_start="466" other_end="670" strand="1" />
@@ -534,8 +534,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 83 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-03-14</modification_date>
+      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-03-21</modification_date>
       <mapping coord_system="ENST00000374647.9" other_name="ENST00000374647.9" other_id="ENST00000374647.9" other_start="1" other_end="5905" type="transcript">
         <mapping_span lrg_start="5213" lrg_end="5465" other_start="1" other_end="253" strand="1" />
         <mapping_span lrg_start="8128" lrg_end="8332" other_start="254" other_end="458" strand="1" />
@@ -634,16 +634,16 @@
           <symbol source="HGNC" name="FAM206A" />
           <coordinates coord_system="LRG_251" start="1" end="5148" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>family with sequence similarity 206, member A (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="54942">
-            <synonym>C9orf6</synonym>
-            <synonym>CG-8</synonym>
-            <synonym>Simiate</synonym>
-          </db_xref>
+          <long_name>family with sequence similarity 206 member A (protein_coding)</long_name>
           <db_xref source="HGNC" accession="1364">
             <synonym>C9orf6</synonym>
             <synonym>CG-8</synonym>
             <synonym>FLJ20457</synonym>
+            <synonym>Simiate</synonym>
+          </db_xref>
+          <db_xref source="GeneID" accession="54942">
+            <synonym>C9orf6</synonym>
+            <synonym>CG-8</synonym>
             <synonym>Simiate</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000119328" />
@@ -668,11 +668,11 @@
             <protein_product source="Ensembl" accession="ENSP00000363753.3">
               <coordinates coord_system="LRG_251" start="1" end="4842" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_060302.1" />
               <db_xref source="UniProtKB" accession="Q9NX38">
                 <synonym>Q5JTR0</synonym>
                 <synonym>Q5JTR1</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_060302.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000374624.7">
@@ -726,6 +726,14 @@
           <symbol source="HGNC" name="IKBKAP" />
           <coordinates coord_system="LRG_251" start="5213" end="71812" strand="1" mapped_from="GRCh38" />
           <long_name>inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase complex-associated protein (protein_coding)</long_name>
+          <db_xref source="MIM" accession="603722" />
+          <db_xref source="HGNC" accession="5959">
+            <synonym>DYS</synonym>
+            <synonym>ELP1</synonym>
+            <synonym>IKAP</synonym>
+            <synonym>IKI3</synonym>
+            <synonym>TOT1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="8518">
             <synonym>DYS</synonym>
             <synonym>ELP1</synonym>
@@ -734,14 +742,6 @@
             <synonym>IKI3</synonym>
             <synonym>TOT1</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="5959">
-            <synonym>DYS</synonym>
-            <synonym>ELP1</synonym>
-            <synonym>IKAP</synonym>
-            <synonym>IKI3</synonym>
-            <synonym>TOT1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="603722" />
           <db_xref source="Ensembl" accession="ENSG00000070061" />
           <transcript source="Ensembl" accession="ENST00000374647.9">
             <coordinates coord_system="LRG_251" start="5213" end="71812" strand="1" mapped_from="GRCh38" />
@@ -861,12 +861,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000363779.5">
               <coordinates coord_system="LRG_251" start="8183" end="70214" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_003631.2" />
               <db_xref source="UniProtKB" accession="O95163">
                 <synonym>Q5JSV2</synonym>
                 <synonym>Q9H327</synonym>
                 <synonym>Q9UG87</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003631.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000537196.1">
@@ -1039,7 +1039,7 @@
         <name>List of locus specific databases for IKBKAP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/IKBKAP</url>
       </source>
-      <modification_date>2016-03-14</modification_date>
+      <modification_date>2016-03-21</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
