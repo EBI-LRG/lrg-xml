@@ -49,7 +49,7 @@
           <email>dmonk@idibell.cat</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -61,7 +61,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="20" other_id="NC_000020.10" other_id_syn="CM000682.1" other_start="57391973" other_end="57430958" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="38986" other_start="57391973" other_end="57430958" strand="-1" />
       </mapping>
@@ -280,8 +280,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000424094.6" other_name="ENST00000424094.6" other_id="ENST00000424094.6" other_start="1" other_end="1156" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5374" other_start="1" other_end="374" strand="1" />
         <mapping_span lrg_start="6987" lrg_end="7025" other_start="375" other_end="413" strand="1" />
@@ -310,16 +310,6 @@
           <coordinates coord_system="LRG_1051" start="1" end="16186" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>GNAS complex locus (protein_coding)</long_name>
-          <db_xref source="MIM" accession="139320" />
-          <db_xref source="HGNC" accession="4392">
-            <synonym>GNAS1</synonym>
-            <synonym>GNASXL</synonym>
-            <synonym>GPSA</synonym>
-            <synonym>NESP</synonym>
-            <synonym>NESP55</synonym>
-            <synonym>SCG6</synonym>
-            <synonym>SgVI</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="2778">
             <synonym>AHO</synonym>
             <synonym>C20orf45</synonym>
@@ -332,6 +322,16 @@
             <synonym>SCG6</synonym>
             <synonym>SgVI</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="4392">
+            <synonym>GNAS1</synonym>
+            <synonym>GNASXL</synonym>
+            <synonym>GPSA</synonym>
+            <synonym>NESP</synonym>
+            <synonym>NESP55</synonym>
+            <synonym>SCG6</synonym>
+            <synonym>SgVI</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="139320" />
           <db_xref source="Ensembl" accession="ENSG00000087460" />
           <transcript source="Ensembl" accession="ENST00000313949.11">
             <coordinates coord_system="LRG_1051" start="1" end="16186" strand="-1" mapped_from="GRCh38" />
@@ -378,12 +378,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000360115.3">
               <coordinates coord_system="LRG_1051" start="15060" end="15797" strand="-1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_057676.1" />
               <db_xref source="UniProtKB" accession="O95467">
                 <synonym>B2RB88</synonym>
                 <synonym>E1P5G2</synonym>
                 <synonym>O95417</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_057676.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000453292.5">
@@ -479,6 +479,7 @@
             <protein_product source="Ensembl" accession="ENSP00000360141.3">
               <coordinates coord_system="LRG_1051" start="1" end="2638" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <db_xref source="RefSeq" accession="NP_536350.2" />
               <db_xref source="UniProtKB" accession="Q5JWF2">
                 <synonym>A2A2S3</synonym>
                 <synonym>E1P5G3</synonym>
@@ -488,7 +489,6 @@
                 <synonym>Q5JWF1</synonym>
                 <synonym>Q9NY42</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_536350.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000371099.6">
@@ -592,9 +592,9 @@
             <protein_product source="Ensembl" accession="ENSP00000302237.3">
               <coordinates coord_system="LRG_1051" start="571" end="2448" strand="-1" mapped_from="GRCh38" />
               <long_name>protein ALEX isoform Alex, protein ALEX isoform Alex</long_name>
-              <db_xref source="UniProtKB" accession="P84996" />
-              <db_xref source="RefSeq" accession="NP_001296812.1" />
               <db_xref source="RefSeq" accession="NP_001070958.1" />
+              <db_xref source="RefSeq" accession="NP_001296812.1" />
+              <db_xref source="UniProtKB" accession="P84996" />
             </protein_product>
           </transcript>
         </gene>
@@ -616,16 +616,6 @@
           <symbol source="HGNC" name="GNAS-AS1" />
           <coordinates coord_system="LRG_1051" start="5001" end="36985" strand="1" mapped_from="GRCh38" />
           <long_name>GNAS antisense RNA 1 (antisense)</long_name>
-          <db_xref source="MIM" accession="610540" />
-          <db_xref source="HGNC" accession="24872">
-            <synonym>GNAS-AS</synonym>
-            <synonym>GNAS1AS</synonym>
-            <synonym>GNASAS</synonym>
-            <synonym>NCRNA00075</synonym>
-            <synonym>NESP-AS</synonym>
-            <synonym>NESPAS</synonym>
-            <synonym>SANG</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="149775">
             <synonym>GNAS-AS</synonym>
             <synonym>GNAS1AS</synonym>
@@ -635,6 +625,16 @@
             <synonym>NESPAS</synonym>
             <synonym>SANG</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="24872">
+            <synonym>GNAS-AS</synonym>
+            <synonym>GNAS1AS</synonym>
+            <synonym>GNASAS</synonym>
+            <synonym>NCRNA00075</synonym>
+            <synonym>NESP-AS</synonym>
+            <synonym>NESPAS</synonym>
+            <synonym>SANG</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="610540" />
           <db_xref source="Ensembl" accession="ENSG00000235590" />
           <transcript source="Ensembl" accession="ENST00000424094.6">
             <coordinates coord_system="LRG_1051" start="5001" end="36985" strand="1" mapped_from="GRCh38" />
@@ -754,59 +754,29 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000216031.1">
-          <symbol source="HGNC" name="MIR298" />
-          <coordinates coord_system="LRG_1051" start="37591" end="37678" strand="1" mapped_from="GRCh38" />
-          <long_name>microRNA 298 (miRNA)</long_name>
-          <db_xref source="miRBase" accession="MI0005523" />
-          <db_xref source="MIM" accession="614914" />
-          <db_xref source="HGNC" accession="33634">
-            <synonym>hsa-mir-298</synonym>
-            <synonym>MIRN298</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="100126296">
-            <synonym>hsa-mir-298</synonym>
-            <synonym>MIRN298</synonym>
-          </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000216031" />
-          <transcript source="Ensembl" accession="ENST00000401212.1">
-            <coordinates coord_system="LRG_1051" start="37591" end="37678" strand="1" mapped_from="GRCh38" />
-            <long_name>MIR298-201 (miRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_030580.1" />
-            <exon source="Ensembl" accession="ENSE00001546556">
-              <coordinates coord_system="LRG_1051" start="37591" end="37678" strand="1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000268649.3">
-          <symbol source="Clone_based_vega_gene" name="RP4-806M20.4" />
-          <coordinates coord_system="LRG_1051" start="38179" end="38772" strand="1" mapped_from="GRCh38" />
-          <long_name>RP4-806M20.4 (lincRNA)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000268649" />
-          <transcript source="Ensembl" accession="ENST00000596276.1">
-            <coordinates coord_system="LRG_1051" start="38179" end="38772" strand="1" mapped_from="GRCh38" />
-            <long_name>RP4-806M20.4-001 (lincRNA)</long_name>
-            <exon source="Ensembl" accession="ENSE00003143093">
-              <coordinates coord_system="LRG_1051" start="38179" end="38772" strand="1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000276373.1">
+        <gene source="Ensembl" accession="ENSG00000268649.4">
           <symbol source="HGNC" name="MIR296" />
-          <coordinates coord_system="LRG_1051" start="38210" end="38289" strand="1" mapped_from="GRCh38" />
-          <long_name>microRNA 296 (miRNA)</long_name>
-          <db_xref source="miRBase" accession="MI0000747" />
-          <db_xref source="MIM" accession="610945" />
-          <db_xref source="HGNC" accession="31617">
-            <synonym>hsa-mir-296</synonym>
-            <synonym>MIRN296</synonym>
-          </db_xref>
+          <coordinates coord_system="LRG_1051" start="38179" end="38772" strand="1" mapped_from="GRCh38" />
+          <long_name>microRNA 296 (lincRNA)</long_name>
           <db_xref source="GeneID" accession="407022">
             <synonym>mir-296</synonym>
             <synonym>MIRN296</synonym>
             <synonym>miRNA296</synonym>
           </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000276373" />
+          <db_xref source="HGNC" accession="31617">
+            <synonym>hsa-mir-296</synonym>
+            <synonym>MIRN296</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="610945" />
+          <db_xref source="miRBase" accession="MI0000747" />
+          <db_xref source="Ensembl" accession="ENSG00000268649" />
+          <transcript source="Ensembl" accession="ENST00000596276.1">
+            <coordinates coord_system="LRG_1051" start="38179" end="38772" strand="1" mapped_from="GRCh38" />
+            <long_name>MIR296-001 (lincRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00003143093">
+              <coordinates coord_system="LRG_1051" start="38179" end="38772" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000385215.1">
             <coordinates coord_system="LRG_1051" start="38210" end="38289" strand="1" mapped_from="GRCh38" />
             <long_name>MIR296-201 (miRNA)</long_name>
@@ -823,7 +793,7 @@
         <name>List of locus specific databases for GNAS-AS1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GNAS-AS1</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -107,7 +107,7 @@
           <email>dmonk@idibell.cat</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -119,12 +119,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
-      <mapping coord_system="GRCh37.p13" other_name="7q32" other_id="NW_003871065.1" other_id_syn="JH636058.1" other_start="136623" other_end="163710" type="patch">
-        <mapping_span lrg_start="1" lrg_end="27088" other_start="136623" other_end="163710" strand="1" />
-      </mapping>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_id_syn="CM000669.1" other_start="130121046" other_end="130148133" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="27088" other_start="130121046" other_end="130148133" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh37.p13" other_name="7q32" other_id="NW_003871065.1" other_id_syn="JH636058.1" other_start="136623" other_end="163710" type="patch">
+        <mapping_span lrg_start="1" lrg_end="27088" other_start="136623" other_end="163710" strand="1" />
       </mapping>
       <mapping coord_system="GRCh38.p7" other_name="7" other_id="NC_000007.14" other_id_syn="CM000669.2" other_start="130481205" other_end="130508292" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="27088" other_start="130481205" other_end="130508292" strand="1" />
@@ -536,8 +536,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000223215.8" other_name="ENST00000223215.8" other_id="ENST00000223215.8" other_start="1" other_end="2465" type="transcript">
         <mapping_span lrg_start="10889" lrg_end="11135" other_start="1" other_end="247" strand="1" />
         <mapping_span lrg_start="14164" lrg_end="14318" other_start="248" other_end="402" strand="1" />
@@ -749,11 +749,10 @@
           <symbol source="HGNC" name="MEST" />
           <coordinates coord_system="LRG_1033" start="4967" end="25092" strand="1" mapped_from="GRCh38" />
           <long_name>mesoderm specific transcript (protein_coding)</long_name>
-          <db_xref source="MIM" accession="601029" />
-          <db_xref source="HGNC" accession="7028">
+          <db_xref source="GeneID" accession="4232">
             <synonym>PEG1</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="4232">
+          <db_xref source="HGNC" accession="7028">
             <synonym>PEG1</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000106484" />
@@ -800,6 +799,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000342749.4">
               <coordinates coord_system="LRG_1033" start="14165" end="23852" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_803490.1" />
               <db_xref source="UniProtKB" accession="Q5EB52">
                 <synonym>B2R6S1</synonym>
                 <synonym>O14973</synonym>
@@ -807,7 +807,6 @@
                 <synonym>Q6AI49</synonym>
                 <synonym>Q92571</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_803490.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000427521.5">
@@ -885,6 +884,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000408933.2">
               <coordinates coord_system="LRG_1033" start="14165" end="23852" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001240830.1" />
+              <db_xref source="RefSeq" accession="NP_001240831.1" />
               <db_xref source="UniProtKB" accession="Q5EB52">
                 <synonym>B2R6S1</synonym>
                 <synonym>O14973</synonym>
@@ -892,8 +893,6 @@
                 <synonym>Q6AI49</synonym>
                 <synonym>Q92571</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001240831.1" />
-              <db_xref source="RefSeq" accession="NP_001240830.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000378576.8">
@@ -1034,6 +1033,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000376884.1">
               <coordinates coord_system="LRG_1033" start="14165" end="23852" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_803491.1" />
               <db_xref source="UniProtKB" accession="Q5EB52">
                 <synonym>B2R6S1</synonym>
                 <synonym>O14973</synonym>
@@ -1041,7 +1041,6 @@
                 <synonym>Q6AI49</synonym>
                 <synonym>Q92571</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_803491.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000421001.5">
@@ -1123,6 +1122,8 @@
             <protein_product source="Ensembl" accession="ENSP00000223215.4">
               <coordinates coord_system="LRG_1033" start="11110" end="23852" strand="1" mapped_from="GRCh38" />
               <long_name>mesoderm-specific transcript homolog protein isoform c</long_name>
+              <db_xref source="RefSeq" accession="NP_001240829.1" />
+              <db_xref source="RefSeq" accession="NP_002393.2" />
               <db_xref source="UniProtKB" accession="Q5EB52">
                 <synonym>B2R6S1</synonym>
                 <synonym>O14973</synonym>
@@ -1130,8 +1131,6 @@
                 <synonym>Q6AI49</synonym>
                 <synonym>Q92571</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_002393.2" />
-              <db_xref source="RefSeq" accession="NP_001240829.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000437945.5">
@@ -1388,45 +1387,19 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000199043.1">
-          <symbol source="HGNC" name="MIR335" />
-          <coordinates coord_system="LRG_1033" start="14907" end="15000" strand="1" mapped_from="GRCh38" />
-          <long_name>microRNA 335 (miRNA)</long_name>
-          <db_xref source="miRBase" accession="MI0000816" />
-          <db_xref source="MIM" accession="611768" />
-          <db_xref source="HGNC" accession="31773">
-            <synonym>hsa-mir-335</synonym>
-            <synonym>MIRN335</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="442904">
-            <synonym>hsa-mir-335</synonym>
-            <synonym>mir-335</synonym>
-            <synonym>MIRN335</synonym>
-            <synonym>miRNA335</synonym>
-          </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000199043" />
-          <transcript source="Ensembl" accession="ENST00000362173.1">
-            <coordinates coord_system="LRG_1033" start="14907" end="15000" strand="1" mapped_from="GRCh38" />
-            <long_name>MIR335-201 (miRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_029899.1" />
-            <exon source="Ensembl" accession="ENSE00001436936">
-              <coordinates coord_system="LRG_1033" start="14907" end="15000" strand="1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000158623.14">
           <symbol source="HGNC" name="COPG2" />
           <coordinates coord_system="LRG_1033" start="25034" end="27088" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>coatomer protein complex subunit gamma 2 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="604355" />
-          <db_xref source="HGNC" accession="2237">
-            <synonym>2-COP</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="26958">
             <synonym>2-COP</synonym>
             <synonym>gamma-2-COP</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="2237">
+            <synonym>2-COP</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="604355" />
           <db_xref source="Ensembl" accession="ENSG00000158623" />
           <transcript source="Ensembl" accession="ENST00000425248.5">
             <coordinates coord_system="LRG_1033" start="25034" end="27088" strand="-1" mapped_from="GRCh38" />
@@ -1446,13 +1419,13 @@
             <protein_product source="Ensembl" accession="ENSP00000402346.2">
               <coordinates coord_system="LRG_1033" start="25472" end="27088" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <db_xref source="RefSeq" accession="NP_036265.3" />
               <db_xref source="UniProtKB" accession="Q9UBF2">
                 <synonym>A6NH74</synonym>
                 <synonym>Q2NLA0</synonym>
                 <synonym>Q54AC3</synonym>
                 <synonym>Q8WVW8</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_036265.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000617523.1">
@@ -1490,7 +1463,7 @@
         <name>List of locus specific databases for MEST</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MEST</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

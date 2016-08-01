@@ -122,7 +122,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -134,7 +134,10 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="153634877" other_end="153652065" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="17189" other_start="153634877" other_end="153652065" strand="1" />
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="Xq28" other_id="NW_003871103.3" other_id_syn="JH159150.3" other_start="1840514" other_end="1857702" type="patch">
         <mapping_span lrg_start="1" lrg_end="17189" other_start="1840514" other_end="1857702" strand="1">
           <diff type="mismatch" lrg_start="23" lrg_end="23" other_start="1840536" other_end="1840536" lrg_sequence="C" other_sequence="T" />
@@ -165,9 +168,6 @@
           <diff type="lrg_ins" lrg_start="16926" lrg_end="16928" other_start="1857441" other_end="1857442" lrg_sequence="AAA" other_sequence="-" />
           <diff type="mismatch" lrg_start="17032" lrg_end="17032" other_start="1857545" other_end="1857545" lrg_sequence="G" other_sequence="A" />
         </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="153634877" other_end="153652065" type="other_assembly">
-        <mapping_span lrg_start="1" lrg_end="17189" other_start="153634877" other_end="153652065" strand="1" />
       </mapping>
       <mapping coord_system="GRCh38.p7" other_name="X" other_id="NC_000023.11" other_id_syn="CM000685.2" other_start="154406535" other_end="154423723" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="17189" other_start="154406535" other_end="154423723" strand="1">
@@ -544,8 +544,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000369776.8" other_name="ENST00000369776.8" other_id="ENST00000369776.8" other_start="1" other_end="1596" type="transcript">
         <mapping_span lrg_start="5220" lrg_end="5467" other_start="1" other_end="248" strand="1" />
         <mapping_span lrg_start="6668" lrg_end="6713" other_start="249" other_end="294" strand="1" />
@@ -778,15 +778,6 @@
           <coordinates coord_system="LRG_131" start="1" end="2628" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>ribosomal protein L10 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="312173" />
-          <db_xref source="HGNC" accession="10298">
-            <synonym>DXS648</synonym>
-            <synonym>DXS648E</synonym>
-            <synonym>FLJ23544</synonym>
-            <synonym>L10</synonym>
-            <synonym>NOV</synonym>
-            <synonym>QM</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="6134">
             <synonym>AUTSX5</synonym>
             <synonym>DXS648</synonym>
@@ -795,6 +786,15 @@
             <synonym>NOV</synonym>
             <synonym>QM</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="10298">
+            <synonym>DXS648</synonym>
+            <synonym>DXS648E</synonym>
+            <synonym>FLJ23544</synonym>
+            <synonym>L10</synonym>
+            <synonym>NOV</synonym>
+            <synonym>QM</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="312173" />
           <db_xref source="Ensembl" accession="ENSG00000147403" />
           <transcript source="Ensembl" accession="ENST00000428169.1">
             <coordinates coord_system="LRG_131" start="1" end="2628" strand="1" mapped_from="GRCh38" />
@@ -814,8 +814,12 @@
           <coordinates coord_system="LRG_131" start="1" end="5573" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>deoxyribonuclease I-like 1 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="300081">
-            <synonym>600793</synonym>
+          <db_xref source="GeneID" accession="1774">
+            <synonym>DNAS1L1</synonym>
+            <synonym>DNASEX</synonym>
+            <synonym>DNL1L</synonym>
+            <synonym>G4.8</synonym>
+            <synonym>XIB</synonym>
           </db_xref>
           <db_xref source="HGNC" accession="2957">
             <synonym>DNAS1L1</synonym>
@@ -823,12 +827,8 @@
             <synonym>DNL1L</synonym>
             <synonym>XIB</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="1774">
-            <synonym>DNAS1L1</synonym>
-            <synonym>DNASEX</synonym>
-            <synonym>DNL1L</synonym>
-            <synonym>G4.8</synonym>
-            <synonym>XIB</synonym>
+          <db_xref source="MIM" accession="300081">
+            <synonym>600793</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000013563" />
           <transcript source="Ensembl" accession="ENST00000369807.5">
@@ -912,6 +912,16 @@
               <coordinates coord_system="LRG_131" start="2572" end="2656" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000393638.5">
+            <coordinates coord_system="LRG_131" start="1" end="5551" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>DNASE1L1-202 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS14747.1" />
+            <db_xref source="RefSeq" accession="NM_001009934.2" />
+            <exon source="Ensembl" accession="ENSE00001450971">
+              <coordinates coord_system="LRG_131" start="5352" end="5551" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000369809.5">
             <coordinates coord_system="LRG_131" start="1" end="5551" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
@@ -928,30 +938,11 @@
               <coordinates coord_system="LRG_131" start="2572" end="2656" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000393638.5">
-            <coordinates coord_system="LRG_131" start="1" end="5551" strand="-1" mapped_from="GRCh38" />
-            <partial>3-prime</partial>
-            <long_name>DNASE1L1-202 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS14747.1" />
-            <db_xref source="RefSeq" accession="NM_001009934.2" />
-            <exon source="Ensembl" accession="ENSE00001450971">
-              <coordinates coord_system="LRG_131" start="5352" end="5551" strand="-1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000102125.15">
           <symbol source="HGNC" name="TAZ" />
           <coordinates coord_system="LRG_131" start="4978" end="15189" strand="1" mapped_from="GRCh38" />
           <long_name>tafazzin (protein_coding)</long_name>
-          <db_xref source="MIM" accession="300394" />
-          <db_xref source="HGNC" accession="11577">
-            <synonym>BTHS</synonym>
-            <synonym>CMD3A</synonym>
-            <synonym>EFE</synonym>
-            <synonym>EFE2</synonym>
-            <synonym>G4.5</synonym>
-            <synonym>XAP-2</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="6901">
             <synonym>BTHS</synonym>
             <synonym>CMD3A</synonym>
@@ -961,6 +952,16 @@
             <synonym>LVNCX</synonym>
             <synonym>Taz1</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="11577">
+            <synonym>BTHS</synonym>
+            <synonym>CMD3A</synonym>
+            <synonym>EFE</synonym>
+            <synonym>EFE2</synonym>
+            <synonym>G4.5</synonym>
+            <synonym>TAZ1</synonym>
+            <synonym>XAP-2</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="300394" />
           <db_xref source="Ensembl" accession="ENSG00000102125" />
           <transcript source="Ensembl" accession="ENST00000615658.4">
             <coordinates coord_system="LRG_131" start="4978" end="13544" strand="1" mapped_from="GRCh38" />
@@ -1059,6 +1060,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000478154.1">
               <coordinates coord_system="LRG_131" start="5305" end="14467" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_851830.1" />
               <db_xref source="UniProtKB" accession="Q16635">
                 <synonym>A3KQT2</synonym>
                 <synonym>D3DWX2</synonym>
@@ -1072,7 +1074,6 @@
                 <synonym>Q86XQ9</synonym>
                 <synonym>Q86XR0</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_851830.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000475699.5">
@@ -1114,6 +1115,8 @@
             <protein_product source="Ensembl" accession="ENSP00000419854.2">
               <coordinates coord_system="LRG_131" start="5305" end="14467" strand="1" mapped_from="GRCh38" />
               <long_name>tafazzin isoform 5</long_name>
+              <db_xref source="RefSeq" accession="NP_001290394.1" />
+              <db_xref source="RefSeq" accession="NP_851829.1" />
               <db_xref source="UniProtKB" accession="Q16635">
                 <synonym>A3KQT2</synonym>
                 <synonym>D3DWX2</synonym>
@@ -1127,8 +1130,6 @@
                 <synonym>Q86XQ9</synonym>
                 <synonym>Q86XR0</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_851829.1" />
-              <db_xref source="RefSeq" accession="NP_001290394.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000612012.4">
@@ -1196,6 +1197,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000481037.1">
               <coordinates coord_system="LRG_131" start="5305" end="14467" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_851828.1" />
               <db_xref source="UniProtKB" accession="Q16635">
                 <synonym>A3KQT2</synonym>
                 <synonym>D3DWX2</synonym>
@@ -1209,7 +1211,6 @@
                 <synonym>Q86XQ9</synonym>
                 <synonym>Q86XR0</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_851828.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000601016.5">
@@ -1252,6 +1253,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000469981.1">
               <coordinates coord_system="LRG_131" start="5305" end="14467" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_000107.1" />
               <db_xref source="UniProtKB" accession="Q16635">
                 <synonym>A3KQT2</synonym>
                 <synonym>D3DWX2</synonym>
@@ -1265,7 +1267,6 @@
                 <synonym>Q86XQ9</synonym>
                 <synonym>Q86XR0</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_000107.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000621647.1">
@@ -1589,7 +1590,7 @@
         <name>List of locus specific databases for TAZ</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TAZ</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

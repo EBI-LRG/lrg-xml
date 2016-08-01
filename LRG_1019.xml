@@ -151,7 +151,7 @@
           <email>is250@cam.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -163,7 +163,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_id_syn="CM000676.1" other_start="77891018" other_end="77928983" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="37966" other_start="77891018" other_end="77928983" strand="-1">
           <diff type="mismatch" lrg_start="35553" lrg_end="35553" other_start="77893431" other_end="77893431" lrg_sequence="C" other_sequence="T" />
@@ -732,8 +732,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000327028.8" other_name="ENST00000327028.8" other_id="ENST00000327028.8" other_start="1" other_end="2614" type="transcript">
         <mapping_span lrg_start="5080" lrg_end="5146" other_start="1" other_end="67" strand="1" />
         <mapping_span lrg_start="5276" lrg_end="5546" other_start="68" other_end="338" strand="1" />
@@ -916,18 +916,20 @@
           <symbol source="HGNC" name="AHSA1" />
           <coordinates coord_system="LRG_1019" start="1" end="4771" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>AHA1, activator of heat shock 90kDa protein ATPase homolog 1 (yeast) (protein_coding)</long_name>
-          <db_xref source="MIM" accession="608466" />
-          <db_xref source="HGNC" accession="1189">
-            <synonym>Aha1</synonym>
-            <synonym>C14orf3</synonym>
-            <synonym>p38</synonym>
-          </db_xref>
+          <long_name>activator of Hsp90 ATPase activity 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="10598">
             <synonym>AHA1</synonym>
             <synonym>C14orf3</synonym>
+            <synonym>hAha1</synonym>
             <synonym>p38</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="1189">
+            <synonym>Aha1</synonym>
+            <synonym>C14orf3</synonym>
+            <synonym>hAha1</synonym>
+            <synonym>p38</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="608466" />
           <db_xref source="Ensembl" accession="ENSG00000100591" />
           <transcript source="Ensembl" accession="ENST00000555133.5">
             <coordinates coord_system="LRG_1019" start="1" end="4771" strand="-1" mapped_from="GRCh38" />
@@ -961,13 +963,13 @@
             <protein_product source="Ensembl" accession="ENSP00000216479.3">
               <coordinates coord_system="LRG_1019" start="1" end="4451" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <db_xref source="RefSeq" accession="NP_036243.1" />
               <db_xref source="UniProtKB" accession="O95433">
                 <synonym>B2R9L2</synonym>
                 <synonym>B4DUR9</synonym>
                 <synonym>Q96IL6</synonym>
                 <synonym>Q9P060</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_036243.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000535854.6">
@@ -1087,32 +1089,10 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000280888.1">
-          <symbol source="Clone_based_ensembl_gene" name="AF111168.3" />
-          <coordinates coord_system="LRG_1019" start="4364" end="4435" strand="-1" mapped_from="GRCh38" />
-          <long_name>AF111168.3 (miRNA)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000280888" />
-          <transcript source="Ensembl" accession="ENST00000626851.1">
-            <coordinates coord_system="LRG_1019" start="4364" end="4435" strand="-1" mapped_from="GRCh38" />
-            <long_name>AF111168.3-201 (miRNA)</long_name>
-            <exon source="Ensembl" accession="ENSE00003775071">
-              <coordinates coord_system="LRG_1019" start="4364" end="4435" strand="-1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000151445.15">
           <symbol source="HGNC" name="VIPAS39" />
           <coordinates coord_system="LRG_1019" start="4689" end="35966" strand="1" mapped_from="GRCh38" />
           <long_name>VPS33B interacting protein, apical-basolateral polarity regulator, spe-39 homolog (protein_coding)</long_name>
-          <db_xref source="MIM" accession="613401" />
-          <db_xref source="HGNC" accession="20347">
-            <synonym>C14orf133</synonym>
-            <synonym>hSPE-39</synonym>
-            <synonym>SPE-39</synonym>
-            <synonym>SPE39</synonym>
-            <synonym>VIPAR</synonym>
-            <synonym>VPS16B</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="63894">
             <synonym>C14orf133</synonym>
             <synonym>hSPE-39</synonym>
@@ -1121,6 +1101,15 @@
             <synonym>VIPAR</synonym>
             <synonym>VPS16B</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="20347">
+            <synonym>C14orf133</synonym>
+            <synonym>hSPE-39</synonym>
+            <synonym>SPE-39</synonym>
+            <synonym>SPE39</synonym>
+            <synonym>VIPAR</synonym>
+            <synonym>VPS16B</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="613401" />
           <db_xref source="Ensembl" accession="ENSG00000151445" />
           <transcript source="Ensembl" accession="ENST00000556909.1">
             <coordinates coord_system="LRG_1019" start="4689" end="5361" strand="1" mapped_from="GRCh38" />
@@ -1199,13 +1188,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000452191.1">
               <coordinates coord_system="LRG_1019" start="8539" end="35025" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001180244.1" />
               <db_xref source="UniProtKB" accession="Q9H9C1">
                 <synonym>B4DPI6</synonym>
                 <synonym>O95434</synonym>
                 <synonym>Q9H7E1</synonym>
                 <synonym>Q9H9I9</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001180244.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000553888.5">
@@ -1277,15 +1266,15 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000452181.1">
               <coordinates coord_system="LRG_1019" start="8539" end="35025" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_071350.2" />
+              <db_xref source="RefSeq" accession="NP_001180243.1" />
+              <db_xref source="RefSeq" accession="NP_001180246.1" />
               <db_xref source="UniProtKB" accession="Q9H9C1">
                 <synonym>B4DPI6</synonym>
                 <synonym>O95434</synonym>
                 <synonym>Q9H7E1</synonym>
                 <synonym>Q9H9I9</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001180246.1" />
-              <db_xref source="RefSeq" accession="NP_001180243.1" />
-              <db_xref source="RefSeq" accession="NP_071350.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000448935.6">
@@ -1352,13 +1341,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000404815.2">
               <coordinates coord_system="LRG_1019" start="8539" end="35025" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001180245.1" />
               <db_xref source="UniProtKB" accession="Q9H9C1">
                 <synonym>B4DPI6</synonym>
                 <synonym>O95434</synonym>
                 <synonym>Q9H7E1</synonym>
                 <synonym>Q9H9I9</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001180245.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000557466.1">
@@ -1674,19 +1663,6 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000277645.1">
-          <symbol source="Clone_based_ensembl_gene" name="AF111168.1" />
-          <coordinates coord_system="LRG_1019" start="14569" end="14675" strand="1" mapped_from="GRCh38" />
-          <long_name>AF111168.1 (miRNA)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000277645" />
-          <transcript source="Ensembl" accession="ENST00000615428.1">
-            <coordinates coord_system="LRG_1019" start="14569" end="14675" strand="1" mapped_from="GRCh38" />
-            <long_name>AF111168.1-201 (miRNA)</long_name>
-            <exon source="Ensembl" accession="ENSE00003735929">
-              <coordinates coord_system="LRG_1019" start="14569" end="14675" strand="1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
       </features>
     </annotation_set>
     <annotation_set type="lsdb">
@@ -1694,7 +1670,7 @@
         <name>List of locus specific databases for VIPAS39</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/VIPAS39</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

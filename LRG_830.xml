@@ -111,7 +111,7 @@
           <email>s.mole@ucl.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -123,7 +123,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="6631997" other_end="6645692" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="13696" other_start="6631997" other_end="6645692" strand="-1" />
       </mapping>
@@ -356,8 +356,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000299427.10" other_name="ENST00000299427.10" other_id="ENST00000299427.10" other_start="1" other_end="3536" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5078" other_start="1" other_end="78" strand="1" />
         <mapping_span lrg_start="5195" lrg_end="5266" other_start="79" other_end="150" strand="1" />
@@ -461,29 +461,21 @@
         <mapping_span lrg_start="7034" lrg_end="7161" other_start="366" other_end="493" strand="1" />
         <mapping_span lrg_start="7309" lrg_end="7451" other_start="494" other_end="636" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000611494.4" other_name="ENST00000611494.4" other_id="ENST00000611494.4" other_start="1" other_end="2418" type="transcript">
-        <mapping_span lrg_start="5032" lrg_end="5078" other_start="1" other_end="47" strand="1" />
-        <mapping_span lrg_start="5195" lrg_end="5266" other_start="48" other_end="119" strand="1" />
-        <mapping_span lrg_start="5547" lrg_end="5686" other_start="120" other_end="259" strand="1" />
-        <mapping_span lrg_start="6686" lrg_end="6836" other_start="260" other_end="410" strand="1" />
-        <mapping_span lrg_start="7034" lrg_end="7161" other_start="411" other_end="538" strand="1" />
-        <mapping_span lrg_start="7309" lrg_end="7487" other_start="539" other_end="717" strand="1" />
-        <mapping_span lrg_start="7603" lrg_end="7801" other_start="718" other_end="916" strand="1" />
-        <mapping_span lrg_start="7959" lrg_end="8147" other_start="917" other_end="1105" strand="1" />
-        <mapping_span lrg_start="8388" lrg_end="8457" other_start="1106" other_end="1175" strand="1" />
-        <mapping_span lrg_start="8900" lrg_end="9020" other_start="1176" other_end="1296" strand="1" />
-        <mapping_span lrg_start="9133" lrg_end="9291" other_start="1297" other_end="1455" strand="1" />
-        <mapping_span lrg_start="9471" lrg_end="9596" other_start="1456" other_end="1581" strand="1" />
-        <mapping_span lrg_start="9776" lrg_end="9874" other_start="1582" other_end="1680" strand="1" />
-        <mapping_span lrg_start="9876" lrg_end="10613" other_start="1681" other_end="2418" strand="1" />
-      </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000166341.7">
           <symbol source="HGNC" name="DCHS1" />
           <coordinates coord_system="LRG_830" start="1" end="3139" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>dachsous cadherin-related 1 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="603057" />
+          <db_xref source="GeneID" accession="8642">
+            <synonym>CDH19</synonym>
+            <synonym>CDH25</synonym>
+            <synonym>CDHR6</synonym>
+            <synonym>FIB1</synonym>
+            <synonym>MVP2</synonym>
+            <synonym>PCDH16</synonym>
+            <synonym>VMLDS1</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="13681">
             <synonym>CDH25</synonym>
             <synonym>CDHR6</synonym>
@@ -492,14 +484,7 @@
             <synonym>KIAA1773</synonym>
             <synonym>PCDH16</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="8642">
-            <synonym>CDH19</synonym>
-            <synonym>CDH25</synonym>
-            <synonym>CDHR6</synonym>
-            <synonym>FIB1</synonym>
-            <synonym>PCDH16</synonym>
-            <synonym>VMLDS1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="603057" />
           <db_xref source="Ensembl" accession="ENSG00000166341" />
           <transcript source="Ensembl" accession="ENST00000299441.4">
             <coordinates coord_system="LRG_830" start="1" end="3139" strand="1" mapped_from="GRCh38" />
@@ -513,10 +498,10 @@
             <protein_product source="Ensembl" accession="ENSP00000299441.3">
               <coordinates coord_system="LRG_830" start="1" end="2683" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <db_xref source="RefSeq" accession="NP_003728.1" />
               <db_xref source="UniProtKB" accession="Q96JQ0">
                 <synonym>O15098</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_003728.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -552,15 +537,10 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000166340.14">
+        <gene source="Ensembl" accession="ENSG00000166340.15">
           <symbol source="HGNC" name="TPP1" />
           <coordinates coord_system="LRG_830" start="5001" end="11699" strand="1" mapped_from="GRCh38" />
-          <long_name>tripeptidyl peptidase I (protein_coding)</long_name>
-          <db_xref source="MIM" accession="607998" />
-          <db_xref source="HGNC" accession="2073">
-            <synonym>CLN2</synonym>
-            <synonym>SCAR7</synonym>
-          </db_xref>
+          <long_name>tripeptidyl peptidase 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="1200">
             <synonym>CLN2</synonym>
             <synonym>GIG1</synonym>
@@ -568,6 +548,11 @@
             <synonym>SCAR7</synonym>
             <synonym>TPP-1</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="2073">
+            <synonym>CLN2</synonym>
+            <synonym>SCAR7</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="607998" />
           <db_xref source="Ensembl" accession="ENSG00000166340" />
           <transcript source="Ensembl" accession="ENST00000299427.10">
             <coordinates coord_system="LRG_830" start="5001" end="11699" strand="1" mapped_from="GRCh38" />
@@ -615,6 +600,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000299427.6">
               <coordinates coord_system="LRG_830" start="5062" end="9916" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_000382.3" />
               <db_xref source="UniProtKB" accession="O14773">
                 <synonym>Q53HT1</synonym>
                 <synonym>Q5JAK6</synonym>
@@ -622,7 +608,6 @@
                 <synonym>Q71JP6</synonym>
                 <synonym>Q96C37</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_000382.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000531754.1">
@@ -637,55 +622,6 @@
             <exon source="Ensembl" accession="ENSE00002173783">
               <coordinates coord_system="LRG_830" start="5547" end="6019" strand="1" mapped_from="GRCh38" />
             </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000611494.4">
-            <coordinates coord_system="LRG_830" start="5032" end="10613" strand="1" mapped_from="GRCh38" />
-            <long_name>TPP1-201 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003729024">
-              <coordinates coord_system="LRG_830" start="5032" end="5078" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003636553">
-              <coordinates coord_system="LRG_830" start="5195" end="5266" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003643573">
-              <coordinates coord_system="LRG_830" start="5547" end="5686" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003578517">
-              <coordinates coord_system="LRG_830" start="6686" end="6836" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003483995">
-              <coordinates coord_system="LRG_830" start="7034" end="7161" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003624610">
-              <coordinates coord_system="LRG_830" start="7309" end="7487" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003589176">
-              <coordinates coord_system="LRG_830" start="7603" end="7801" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001102236">
-              <coordinates coord_system="LRG_830" start="7959" end="8147" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001102252">
-              <coordinates coord_system="LRG_830" start="8388" end="8457" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003689508">
-              <coordinates coord_system="LRG_830" start="8900" end="9020" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001102249">
-              <coordinates coord_system="LRG_830" start="9133" end="9291" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003637165">
-              <coordinates coord_system="LRG_830" start="9471" end="9596" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003746028">
-              <coordinates coord_system="LRG_830" start="9776" end="9874" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003716269">
-              <coordinates coord_system="LRG_830" start="9876" end="10613" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000484546.1">
-              <coordinates coord_system="LRG_830" start="5062" end="9896" strand="1" mapped_from="GRCh38" />
-            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000436873.6">
             <coordinates coord_system="LRG_830" start="5033" end="8039" strand="1" mapped_from="GRCh38" />
@@ -933,17 +869,17 @@
           <coordinates coord_system="LRG_830" start="11795" end="13696" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>TATA-box binding protein associated factor 10 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="600475" />
-          <db_xref source="HGNC" accession="11543">
-            <synonym>TAF2A</synonym>
-            <synonym>TAF2H</synonym>
-            <synonym>TAFII30</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="6881">
             <synonym>TAF2A</synonym>
             <synonym>TAF2H</synonym>
             <synonym>TAFII30</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="11543">
+            <synonym>TAF2A</synonym>
+            <synonym>TAF2H</synonym>
+            <synonym>TAFII30</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="600475" />
           <db_xref source="Ensembl" accession="ENSG00000166337" />
           <transcript source="Ensembl" accession="ENST00000299424.8">
             <coordinates coord_system="LRG_830" start="11795" end="13620" strand="1" mapped_from="GRCh38" />
@@ -967,12 +903,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000299424.4">
               <coordinates coord_system="LRG_830" start="12273" end="13540" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_006275.1" />
               <db_xref source="UniProtKB" accession="Q12962">
                 <synonym>O00703</synonym>
                 <synonym>Q13175</synonym>
                 <synonym>Q6FH13</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_006275.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000531760.1">
@@ -1041,8 +977,6 @@
           <coordinates coord_system="LRG_830" start="13588" end="13696" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>integrin linked kinase (protein_coding)</long_name>
-          <db_xref source="MIM" accession="602366" />
-          <db_xref source="HGNC" accession="6040" />
           <db_xref source="GeneID" accession="3611">
             <synonym>HEL-S-28</synonym>
             <synonym>ILK-1</synonym>
@@ -1050,6 +984,8 @@
             <synonym>P59</synonym>
             <synonym>p59ILK</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="6040" />
+          <db_xref source="MIM" accession="602366" />
           <db_xref source="Ensembl" accession="ENSG00000166333" />
           <transcript source="Ensembl" accession="ENST00000526711.5">
             <coordinates coord_system="LRG_830" start="13588" end="13696" strand="-1" mapped_from="GRCh38" />
@@ -1141,7 +1077,7 @@
         <name>List of locus specific databases for TPP1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TPP1</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

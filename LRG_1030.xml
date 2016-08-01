@@ -48,7 +48,7 @@
           <email>dmonk@idibell.cat</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -60,7 +60,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="2014406" other_end="2024065" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="9660" other_start="2014406" other_end="2024065" strand="-1" />
       </mapping>
@@ -196,8 +196,11 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
+      <mapping coord_system="ENST00000390168.6" other_name="ENST00000390168.6" other_id="ENST00000390168.6" other_start="1" other_end="73" type="transcript">
+        <mapping_span lrg_start="6005" lrg_end="6077" other_start="1" other_end="73" strand="1" />
+      </mapping>
       <mapping coord_system="ENST00000411754.5" other_name="ENST00000411754.5" other_id="ENST00000411754.5" other_start="1" other_end="1788" type="transcript">
         <mapping_span lrg_start="5039" lrg_end="5139" other_start="1" other_end="101" strand="1" />
         <mapping_span lrg_start="5561" lrg_end="6318" other_start="102" other_end="859" strand="1" />
@@ -286,18 +289,10 @@
         <mapping_span lrg_start="7042" lrg_end="7148" other_start="418" other_end="524" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000130600.15">
+        <gene source="Ensembl" accession="ENSG00000130600.16">
           <symbol source="HGNC" name="H19" />
           <coordinates coord_system="LRG_1030" start="1366" end="7673" strand="1" mapped_from="GRCh38" />
           <long_name>H19, imprinted maternally expressed transcript (non-protein coding) (processed_transcript)</long_name>
-          <db_xref source="MIM" accession="103280" />
-          <db_xref source="HGNC" accession="4713">
-            <synonym>ASM</synonym>
-            <synonym>ASM1</synonym>
-            <synonym>D11S813E</synonym>
-            <synonym>LINC00008</synonym>
-            <synonym>NCRNA00008</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="283120">
             <synonym>ASM</synonym>
             <synonym>ASM1</synonym>
@@ -307,6 +302,20 @@
             <synonym>NCRNA00008</synonym>
             <synonym>WT2</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="100033819">
+            <synonym>hsa-mir-675</synonym>
+            <synonym>MIRN675</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="4713">
+            <synonym>ASM</synonym>
+            <synonym>ASM1</synonym>
+            <synonym>D11S813E</synonym>
+            <synonym>LINC00008</synonym>
+            <synonym>NCRNA00008</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="103280" />
+          <db_xref source="MIM" accession="615509" />
+          <db_xref source="miRBase" accession="MI0005416" />
           <db_xref source="Ensembl" accession="ENSG00000130600" />
           <transcript source="Ensembl" accession="ENST00000428066.5">
             <coordinates coord_system="LRG_1030" start="1366" end="7153" strand="1" mapped_from="GRCh38" />
@@ -500,6 +509,14 @@
               <coordinates coord_system="LRG_1030" start="7042" end="7602" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000390168.6">
+            <coordinates coord_system="LRG_1030" start="6005" end="6077" strand="1" mapped_from="GRCh38" />
+            <long_name>H19-201 (miRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_030533.1" />
+            <exon source="Ensembl" accession="ENSE00001507595">
+              <coordinates coord_system="LRG_1030" start="6005" end="6077" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000436715.5">
             <coordinates coord_system="LRG_1030" start="6265" end="7397" strand="1" mapped_from="GRCh38" />
             <long_name>H19-013 (retained_intron)</long_name>
@@ -546,20 +563,6 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000280586.1">
-          <symbol source="RFAM" name="H19_3" />
-          <coordinates coord_system="LRG_1030" start="5008" end="5123" strand="-1" mapped_from="GRCh38" />
-          <long_name>H19 conserved region 3 [Source:RFAM;Acc:RF01974] (misc_RNA)</long_name>
-          <db_xref source="RFAM" accession="RF01974" />
-          <db_xref source="Ensembl" accession="ENSG00000280586" />
-          <transcript source="Ensembl" accession="ENST00000627792.1">
-            <coordinates coord_system="LRG_1030" start="5008" end="5123" strand="-1" mapped_from="GRCh38" />
-            <long_name>H19_3.3-201 (misc_RNA)</long_name>
-            <exon source="Ensembl" accession="ENSE00003770181">
-              <coordinates coord_system="LRG_1030" start="5008" end="5123" strand="-1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000274866.1">
           <symbol source="RFAM" name="H19_2" />
           <coordinates coord_system="LRG_1030" start="5284" end="5352" strand="-1" mapped_from="GRCh38" />
@@ -571,23 +574,6 @@
             <long_name>H19_2.1-201 (misc_RNA)</long_name>
             <exon source="Ensembl" accession="ENSE00003731616">
               <coordinates coord_system="LRG_1030" start="5284" end="5352" strand="-1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000278648.1">
-          <symbol source="HGNC" name="MIR675" />
-          <coordinates coord_system="LRG_1030" start="5994" end="6106" strand="1" mapped_from="GRCh38" />
-          <long_name>microRNA 675 (miRNA)</long_name>
-          <db_xref source="HGNC" accession="33351">
-            <synonym>hsa-mir-675</synonym>
-            <synonym>MIRN675</synonym>
-          </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000278648" />
-          <transcript source="Ensembl" accession="ENST00000390168.5">
-            <coordinates coord_system="LRG_1030" start="5994" end="6106" strand="1" mapped_from="GRCh38" />
-            <long_name>MIR675-201 (miRNA)</long_name>
-            <exon source="Ensembl" accession="ENSE00001507595">
-              <coordinates coord_system="LRG_1030" start="5994" end="6106" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
         </gene>
@@ -610,8 +596,8 @@
           <coordinates coord_system="LRG_1030" start="9367" end="9660" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>long intergenic non-protein coding RNA 1219 (lincRNA)</long_name>
-          <db_xref source="HGNC" accession="49653" />
           <db_xref source="GeneID" accession="104355220" />
+          <db_xref source="HGNC" accession="49653" />
           <db_xref source="Ensembl" accession="ENSG00000232987" />
           <transcript source="Ensembl" accession="ENST00000418612.1">
             <coordinates coord_system="LRG_1030" start="9367" end="9660" strand="-1" mapped_from="GRCh38" />
@@ -630,7 +616,7 @@
         <name>List of locus specific databases for H19</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/H19</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

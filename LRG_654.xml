@@ -235,7 +235,7 @@
           <email>D.Dooijes@umcutrecht.nl</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -247,7 +247,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_id_syn="CM000664.1" other_start="202562986" other_end="202650895" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="87910" other_start="202562986" other_end="202650895" strand="-1" />
       </mapping>
@@ -496,8 +496,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000264276.10" other_name="ENST00000264276.10" other_id="ENST00000264276.10" other_start="1" other_end="6644" type="transcript">
         <mapping_span lrg_start="4984" lrg_end="5296" other_start="1" other_end="313" strand="1" />
         <mapping_span lrg_start="17228" lrg_end="17307" other_start="314" other_end="393" strand="1" />
@@ -660,16 +660,16 @@
           <symbol source="HGNC" name="ALS2" />
           <coordinates coord_system="LRG_654" start="4984" end="85619" strand="1" mapped_from="GRCh38" />
           <long_name>ALS2, alsin Rho guanine nucleotide exchange factor (protein_coding)</long_name>
-          <db_xref source="MIM" accession="606352" />
-          <db_xref source="HGNC" accession="443">
-            <synonym>ALS2CR6</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="57679">
             <synonym>ALS2CR6</synonym>
             <synonym>ALSJ</synonym>
             <synonym>IAHSP</synonym>
             <synonym>PLSJ</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="443">
+            <synonym>ALS2CR6</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="606352" />
           <db_xref source="Ensembl" accession="ENSG00000003393" />
           <transcript source="Ensembl" accession="ENST00000264276.10">
             <coordinates coord_system="LRG_654" start="4984" end="85619" strand="1" mapped_from="GRCh38" />
@@ -780,6 +780,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000264276.6">
               <coordinates coord_system="LRG_654" start="17288" end="84322" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_065970.2" />
               <db_xref source="UniProtKB" accession="Q96Q42">
                 <synonym>Q53TT1</synonym>
                 <synonym>Q53TV2</synonym>
@@ -789,7 +790,6 @@
                 <synonym>Q9H973</synonym>
                 <synonym>Q9HCK9</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_065970.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000482891.5">
@@ -921,6 +921,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000429223.1">
               <coordinates coord_system="LRG_654" start="17288" end="25370" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001129217.1" />
               <db_xref source="UniProtKB" accession="Q96Q42">
                 <synonym>Q53TT1</synonym>
                 <synonym>Q53TV2</synonym>
@@ -930,7 +931,6 @@
                 <synonym>Q9H973</synonym>
                 <synonym>Q9HCK9</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001129217.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000496244.5">
@@ -1171,32 +1171,19 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000281201.1">
-          <symbol source="Clone_based_ensembl_gene" name="AC007279.1" />
-          <coordinates coord_system="LRG_654" start="29275" end="29399" strand="-1" mapped_from="GRCh38" />
-          <long_name>AC007279.1 (miRNA)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000281201" />
-          <transcript source="Ensembl" accession="ENST00000628570.1">
-            <coordinates coord_system="LRG_654" start="29275" end="29399" strand="-1" mapped_from="GRCh38" />
-            <long_name>AC007279.1-201 (miRNA)</long_name>
-            <exon source="Ensembl" accession="ENSE00003769337">
-              <coordinates coord_system="LRG_654" start="29275" end="29399" strand="-1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000082126.17">
           <symbol source="HGNC" name="MPP4" />
           <coordinates coord_system="LRG_654" start="87479" end="87910" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>membrane protein, palmitoylated 4 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="606575" />
-          <db_xref source="HGNC" accession="13680">
-            <synonym>DLG6</synonym>
-          </db_xref>
+          <long_name>membrane palmitoylated protein 4 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="58538">
             <synonym>ALS2CR5</synonym>
             <synonym>DLG6</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="13680">
+            <synonym>DLG6</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="606575" />
           <db_xref source="Ensembl" accession="ENSG00000082126" />
           <transcript source="Ensembl" accession="ENST00000409474.7">
             <coordinates coord_system="LRG_654" start="87479" end="87910" strand="1" mapped_from="GRCh38" />
@@ -1280,7 +1267,7 @@
         <name>List of locus specific databases for ALS2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ALS2</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
