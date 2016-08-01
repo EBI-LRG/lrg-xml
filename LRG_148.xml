@@ -120,7 +120,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -132,7 +132,10 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="153757606" other_end="153780787" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="23182" other_start="153757606" other_end="153780787" strand="-1" />
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="Xq28" other_id="NW_003871103.3" other_id_syn="JH159150.3" other_start="1963370" other_end="1986551" type="patch">
         <mapping_span lrg_start="1" lrg_end="23182" other_start="1963370" other_end="1986551" strand="-1">
           <diff type="mismatch" lrg_start="5428" lrg_end="5428" other_start="1981124" other_end="1981124" lrg_sequence="T" other_sequence="G" />
@@ -148,9 +151,6 @@
           <diff type="mismatch" lrg_start="22173" lrg_end="22173" other_start="1964379" other_end="1964379" lrg_sequence="C" other_sequence="T" />
           <diff type="mismatch" lrg_start="22599" lrg_end="22599" other_start="1963953" other_end="1963953" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="153757606" other_end="153780787" type="other_assembly">
-        <mapping_span lrg_start="1" lrg_end="23182" other_start="153757606" other_end="153780787" strand="-1" />
       </mapping>
       <mapping coord_system="GRCh38.p7" other_name="X" other_id="NC_000023.11" other_id_syn="CM000685.2" other_start="154529391" other_end="154552572" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="23182" other_start="154529391" other_end="154552572" strand="-1">
@@ -523,8 +523,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000369620.6" other_name="ENST00000369620.6" other_id="ENST00000369620.6" other_start="1" other_end="1799" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5105" other_start="1" other_end="105" strand="1" />
         <mapping_span lrg_start="6410" lrg_end="6537" other_start="106" other_end="233" strand="1" />
@@ -662,8 +662,21 @@
           <coordinates coord_system="LRG_148" start="1" end="11374" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma (protein_coding)</long_name>
-          <db_xref source="MIM" accession="300248">
-            <synonym>603723</synonym>
+          <db_xref source="GeneID" accession="8517">
+            <synonym>AMCBX1</synonym>
+            <synonym>FIP-3</synonym>
+            <synonym>FIP3</synonym>
+            <synonym>Fip3p</synonym>
+            <synonym>IKK-gamma</synonym>
+            <synonym>IKKAP1</synonym>
+            <synonym>IKKG</synonym>
+            <synonym>IMD33</synonym>
+            <synonym>IP</synonym>
+            <synonym>IP1</synonym>
+            <synonym>IP2</synonym>
+            <synonym>IPD2</synonym>
+            <synonym>NEMO</synonym>
+            <synonym>ZC2HC9</synonym>
           </db_xref>
           <db_xref source="HGNC" accession="5961">
             <synonym>FIP-3</synonym>
@@ -672,20 +685,6 @@
             <synonym>IKK-gamma</synonym>
             <synonym>IP1</synonym>
             <synonym>IP2</synonym>
-            <synonym>NEMO</synonym>
-            <synonym>ZC2HC9</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="8517">
-            <synonym>AMCBX1</synonym>
-            <synonym>FIP-3</synonym>
-            <synonym>FIP3</synonym>
-            <synonym>Fip3p</synonym>
-            <synonym>IKK-gamma</synonym>
-            <synonym>IMD33</synonym>
-            <synonym>IP</synonym>
-            <synonym>IP1</synonym>
-            <synonym>IP2</synonym>
-            <synonym>IPD2</synonym>
             <synonym>NEMO</synonym>
             <synonym>ZC2HC9</synonym>
           </db_xref>
@@ -738,17 +737,18 @@
             <protein_product source="Ensembl" accession="ENSP00000483825.1">
               <coordinates coord_system="LRG_148" start="1" end="10309" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <db_xref source="RefSeq" accession="NP_001093326.2" />
               <db_xref source="UniProtKB" accession="Q9Y6K9">
                 <synonym>Q7LBY6</synonym>
                 <synonym>Q7Z7F1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001093326.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000612051.1">
             <coordinates coord_system="LRG_148" start="1" end="10310" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>IKBKG-003 (nonsense_mediated_decay)</long_name>
+            <db_xref source="RefSeq" accession="NM_001321396.1" />
             <exon source="Ensembl" accession="ENSE00003739506">
               <coordinates coord_system="LRG_148" start="10186" end="10310" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -757,6 +757,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000480431.1">
               <coordinates coord_system="LRG_148" start="563" end="10309" strand="-1" mapped_from="GRCh38" />
+              <long_name>NF-kappa-B essential modulator isoform a</long_name>
+              <db_xref source="RefSeq" accession="NP_001308325.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000445622.5">
@@ -780,6 +782,7 @@
             <long_name>IKBKG-004 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS14757.1" />
             <db_xref source="RefSeq" accession="NM_001099857.2" />
+            <db_xref source="RefSeq" accession="NM_001321397.1" />
             <exon source="Ensembl" accession="ENSE00003223451">
               <coordinates coord_system="LRG_148" start="4828" end="5266" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -789,11 +792,13 @@
             <protein_product source="Ensembl" accession="ENSP00000471166.1">
               <coordinates coord_system="LRG_148" start="1" end="570" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <long_name>NF-kappa-B essential modulator isoform d</long_name>
+              <db_xref source="RefSeq" accession="NP_001308326.1" />
+              <db_xref source="RefSeq" accession="NP_001093327.1" />
               <db_xref source="UniProtKB" accession="Q9Y6K9">
                 <synonym>Q7LBY6</synonym>
                 <synonym>Q7Z7F1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001093327.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000413620.5">
@@ -871,11 +876,11 @@
             <protein_product source="Ensembl" accession="ENSP00000478616.1">
               <coordinates coord_system="LRG_148" start="1" end="570" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <db_xref source="RefSeq" accession="NP_001138727.1" />
               <db_xref source="UniProtKB" accession="Q9Y6K9">
                 <synonym>Q7LBY6</synonym>
                 <synonym>Q7Z7F1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001138727.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000615186.4">
@@ -901,11 +906,11 @@
             <protein_product source="Ensembl" accession="ENSP00000479662.1">
               <coordinates coord_system="LRG_148" start="1" end="570" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <db_xref source="RefSeq" accession="NP_003630.1" />
               <db_xref source="UniProtKB" accession="Q9Y6K9">
                 <synonym>Q7LBY6</synonym>
                 <synonym>Q7Z7F1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_003630.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000617838.1">
@@ -933,11 +938,10 @@
           <symbol source="HGNC" name="G6PD" />
           <coordinates coord_system="LRG_148" start="5001" end="21182" strand="1" mapped_from="GRCh38" />
           <long_name>glucose-6-phosphate dehydrogenase (protein_coding)</long_name>
-          <db_xref source="MIM" accession="305900" />
-          <db_xref source="HGNC" accession="4057">
+          <db_xref source="GeneID" accession="2539">
             <synonym>G6PD1</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="2539">
+          <db_xref source="HGNC" accession="4057">
             <synonym>G6PD1</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000160211" />
@@ -987,6 +991,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000377194.2">
               <coordinates coord_system="LRG_148" start="6418" end="20573" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001035810.1" />
               <db_xref source="UniProtKB" accession="P11413">
                 <synonym>D3DWX9</synonym>
                 <synonym>Q16000</synonym>
@@ -996,7 +1001,6 @@
                 <synonym>Q8IUA6</synonym>
                 <synonym>Q96PQ2</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001035810.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000369620.6">
@@ -1134,6 +1138,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000377192.2">
               <coordinates coord_system="LRG_148" start="5703" end="20573" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_000393.4" />
               <db_xref source="UniProtKB" accession="P11413">
                 <synonym>D3DWX9</synonym>
                 <synonym>Q16000</synonym>
@@ -1143,7 +1148,6 @@
                 <synonym>Q8IUA6</synonym>
                 <synonym>Q96PQ2</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_000393.4" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000621232.4">
@@ -1324,7 +1328,7 @@
         <name>List of locus specific databases for G6PD</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/G6PD</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

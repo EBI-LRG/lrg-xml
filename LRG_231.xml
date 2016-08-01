@@ -338,7 +338,7 @@
           <email>jasavige@unimelb.edu.au</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -350,7 +350,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_id_syn="CM000664.1" other_start="227865427" other_end="228034275" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="168849" other_start="227865427" other_end="228034275" strand="-1" />
       </mapping>
@@ -630,8 +630,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000396625.3" other_name="ENST00000396625.3" other_id="ENST00000396625.3" other_start="1" other_end="9895" type="transcript">
         <mapping_span lrg_start="5447" lrg_end="5553" other_start="1" other_end="107" strand="1" />
         <mapping_span lrg_start="21976" lrg_end="22147" other_start="108" other_end="279" strand="1" />
@@ -687,10 +687,10 @@
           <symbol source="HGNC" name="COL4A3" />
           <coordinates coord_system="LRG_231" start="1" end="4995" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>collagen, type IV, alpha 3 (Goodpasture antigen) (protein_coding)</long_name>
-          <db_xref source="MIM" accession="120070" />
-          <db_xref source="HGNC" accession="2204" />
+          <long_name>collagen type IV alpha 3 chain (protein_coding)</long_name>
           <db_xref source="GeneID" accession="1285" />
+          <db_xref source="HGNC" accession="2204" />
+          <db_xref source="MIM" accession="120070" />
           <db_xref source="Ensembl" accession="ENSG00000169031" />
           <transcript source="Ensembl" accession="ENST00000396578.7">
             <coordinates coord_system="LRG_231" start="1" end="4995" strand="-1" mapped_from="GRCh38" />
@@ -704,6 +704,7 @@
             <protein_product source="Ensembl" accession="ENSP00000379823.3">
               <coordinates coord_system="LRG_231" start="1" end="4833" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <db_xref source="RefSeq" accession="NP_000082.2" />
               <db_xref source="UniProtKB" accession="Q01955">
                 <synonym>Q53QQ1</synonym>
                 <synonym>Q53R14</synonym>
@@ -715,21 +716,20 @@
                 <synonym>Q9UDL0</synonym>
                 <synonym>Q9UDL1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_000082.2" />
             </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000081052.11">
           <symbol source="HGNC" name="COL4A4" />
           <coordinates coord_system="LRG_231" start="5447" end="166849" strand="1" mapped_from="GRCh38" />
-          <long_name>collagen, type IV, alpha 4 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="120131" />
-          <db_xref source="HGNC" accession="2206">
-            <synonym>CA44</synonym>
-          </db_xref>
+          <long_name>collagen type IV alpha 4 chain (protein_coding)</long_name>
           <db_xref source="GeneID" accession="1286">
             <synonym>CA44</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="2206">
+            <synonym>CA44</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="120131" />
           <db_xref source="Ensembl" accession="ENSG00000081052" />
           <transcript source="Ensembl" accession="ENST00000396625.3">
             <coordinates coord_system="LRG_231" start="5447" end="166849" strand="1" mapped_from="GRCh38" />
@@ -882,27 +882,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000379866.3">
               <coordinates coord_system="LRG_231" start="22077" end="162235" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_000083.3" />
               <db_xref source="UniProtKB" accession="P53420">
                 <synonym>A8MTZ1</synonym>
                 <synonym>Q53RW9</synonym>
                 <synonym>Q53S42</synonym>
                 <synonym>Q53WR1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_000083.3" />
             </protein_product>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000221608.1">
-          <symbol source="Clone_based_ensembl_gene" name="AC079235.1" />
-          <coordinates coord_system="LRG_231" start="45202" end="45317" strand="-1" mapped_from="GRCh38" />
-          <long_name>AC079235.1 (miRNA)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000221608" />
-          <transcript source="Ensembl" accession="ENST00000408681.1">
-            <coordinates coord_system="LRG_231" start="45202" end="45317" strand="-1" mapped_from="GRCh38" />
-            <long_name>AC079235.1-201 (miRNA)</long_name>
-            <exon source="Ensembl" accession="ENSE00001565316">
-              <coordinates coord_system="LRG_231" start="45202" end="45317" strand="-1" mapped_from="GRCh38" />
-            </exon>
           </transcript>
         </gene>
       </features>
@@ -912,7 +899,7 @@
         <name>List of locus specific databases for COL4A4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/COL4A4</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

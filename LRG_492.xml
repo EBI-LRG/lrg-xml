@@ -201,7 +201,7 @@
           <email>Nazneen.Rahman@icr.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -213,7 +213,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_id_syn="CM000676.1" other_start="95550565" other_end="95628759" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="78195" other_start="95550565" other_end="95628759" strand="-1" />
       </mapping>
@@ -915,8 +915,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000343455.7" other_name="ENST00000343455.7" other_id="ENST00000343455.7" other_start="1" other_end="10277" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5193" other_start="1" other_end="193" strand="1" />
         <mapping_span lrg_start="28920" lrg_end="29108" other_start="194" other_end="382" strand="1" />
@@ -1137,12 +1137,12 @@
           <coordinates coord_system="LRG_492" start="1" end="4778" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>DICER1 antisense RNA 1 (antisense)</long_name>
+          <db_xref source="GeneID" accession="400242">
+            <synonym>DICER1-AS</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="43017">
             <synonym>DICER1-AS</synonym>
             <synonym>FLJ45244</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="400242">
-            <synonym>DICER1-AS</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000235706" />
           <transcript source="Ensembl" accession="ENST00000554631.2">
@@ -1186,15 +1186,7 @@
         <gene source="Ensembl" accession="ENSG00000100697.14">
           <symbol source="HGNC" name="DICER1" />
           <coordinates coord_system="LRG_492" start="4413" end="76195" strand="1" mapped_from="GRCh38" />
-          <long_name>dicer 1, ribonuclease type III (protein_coding)</long_name>
-          <db_xref source="MIM" accession="606241" />
-          <db_xref source="HGNC" accession="17098">
-            <synonym>Dicer</synonym>
-            <synonym>HERNA</synonym>
-            <synonym>K12H4.8-LIKE</synonym>
-            <synonym>KIAA0928</synonym>
-            <synonym>MNG1</synonym>
-          </db_xref>
+          <long_name>dicer 1, ribonuclease III (protein_coding)</long_name>
           <db_xref source="GeneID" accession="23405">
             <synonym>DCR1</synonym>
             <synonym>Dicer</synonym>
@@ -1203,6 +1195,13 @@
             <synonym>K12H4.8-LIKE</synonym>
             <synonym>MNG1</synonym>
             <synonym>RMSE2</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="17098">
+            <synonym>Dicer</synonym>
+            <synonym>HERNA</synonym>
+            <synonym>K12H4.8-LIKE</synonym>
+            <synonym>KIAA0928</synonym>
+            <synonym>MNG1</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000100697" />
           <transcript source="Ensembl" accession="ENST00000526495.5">
@@ -1300,6 +1299,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000437256.1">
               <coordinates coord_system="LRG_492" start="28965" end="71925" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_085124.2" />
+              <db_xref source="RefSeq" accession="NP_001278557.1" />
               <db_xref source="UniProtKB" accession="Q9UPY3">
                 <synonym>A7E2D3</synonym>
                 <synonym>B3KRG4</synonym>
@@ -1307,8 +1308,6 @@
                 <synonym>O95943</synonym>
                 <synonym>Q9UQ02</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001278557.1" />
-              <db_xref source="RefSeq" accession="NP_085124.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000529206.1">
@@ -1421,6 +1420,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000343745.3">
               <coordinates coord_system="LRG_492" start="28965" end="71925" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_803187.1" />
               <db_xref source="UniProtKB" accession="Q9UPY3">
                 <synonym>A7E2D3</synonym>
                 <synonym>B3KRG4</synonym>
@@ -1428,7 +1428,6 @@
                 <synonym>O95943</synonym>
                 <synonym>Q9UQ02</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_803187.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000531162.5">
@@ -1668,6 +1667,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000435681.1">
               <coordinates coord_system="LRG_492" start="28965" end="71925" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001258211.1" />
               <db_xref source="UniProtKB" accession="Q9UPY3">
                 <synonym>A7E2D3</synonym>
                 <synonym>B3KRG4</synonym>
@@ -1675,7 +1675,6 @@
                 <synonym>O95943</synonym>
                 <synonym>Q9UQ02</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001258211.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000541352.5">
@@ -1760,6 +1759,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000444719.1">
               <coordinates coord_system="LRG_492" start="28965" end="71809" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001182502.1" />
               <db_xref source="UniProtKB" accession="Q9UPY3">
                 <synonym>A7E2D3</synonym>
                 <synonym>B3KRG4</synonym>
@@ -1767,7 +1767,6 @@
                 <synonym>O95943</synonym>
                 <synonym>Q9UQ02</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001182502.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000532458.1">
@@ -1902,27 +1901,6 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000264607.1">
-          <symbol source="HGNC" name="MIR3173" />
-          <coordinates coord_system="LRG_492" start="24437" end="24504" strand="1" mapped_from="GRCh38" />
-          <long_name>microRNA 3173 (miRNA)</long_name>
-          <db_xref source="miRBase" accession="MI0014204" />
-          <db_xref source="HGNC" accession="38174">
-            <synonym>hsa-mir-3173</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="100422981">
-            <synonym>mir-3173</synonym>
-          </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000264607" />
-          <transcript source="Ensembl" accession="ENST00000580810.1">
-            <coordinates coord_system="LRG_492" start="24437" end="24504" strand="1" mapped_from="GRCh38" />
-            <long_name>MIR3173-201 (miRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_036131.1" />
-            <exon source="Ensembl" accession="ENSE00002696963">
-              <coordinates coord_system="LRG_492" start="24437" end="24504" strand="1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
       </features>
     </annotation_set>
     <annotation_set type="lsdb">
@@ -1930,7 +1908,7 @@
         <name>List of locus specific databases for DICER1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DICER1</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

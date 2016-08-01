@@ -133,7 +133,7 @@
           <address>University of Tampere, Finland</address>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -145,7 +145,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="20" other_id="NC_000020.10" other_id_syn="CM000682.1" other_start="43246163" other_end="43285376" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="39214" other_start="43246163" other_end="43285376" strand="-1">
           <diff type="mismatch" lrg_start="20450" lrg_end="20450" other_start="43264927" other_end="43264927" lrg_sequence="A" other_sequence="G" />
@@ -415,8 +415,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000372874.8" other_name="ENST00000372874.8" other_id="ENST00000372874.8" other_start="1" other_end="1539" type="transcript">
         <mapping_span lrg_start="4994" lrg_end="5161" other_start="1" other_end="168" strand="1" />
         <mapping_span lrg_start="20448" lrg_end="20509" other_start="169" other_end="230" strand="1">
@@ -523,27 +523,34 @@
         <mapping_span lrg_start="30137" lrg_end="30413" other_start="273" other_end="549" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000132832.9">
+        <gene source="Ensembl" accession="ENSG00000132832.10">
           <symbol source="HGNC" name="LINC01260" />
           <coordinates coord_system="LRG_16" start="1" end="285" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>long intergenic non-protein coding RNA 1260 (antisense)</long_name>
+          <long_name>long intergenic non-protein coding RNA 1260 (lincRNA)</long_name>
           <db_xref source="HGNC" accession="49900" />
           <db_xref source="Ensembl" accession="ENSG00000132832" />
-          <transcript source="Ensembl" accession="ENST00000255183.8">
+          <transcript source="Ensembl" accession="ENST00000415889.2">
             <coordinates coord_system="LRG_16" start="1" end="285" strand="1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>LINC01260-001 (antisense)</long_name>
-            <exon source="Ensembl" accession="ENSE00001542722">
+            <long_name>LINC01260-001 (lincRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00003800971">
               <coordinates coord_system="LRG_16" start="1" end="285" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000415889.2">
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000283440.1">
+          <symbol source="Clone_based_vega_gene" name="RP11-445H22.3" />
+          <coordinates coord_system="LRG_16" start="1" end="285" strand="1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <long_name>RP11-445H22.3 (lincRNA)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000283440" />
+          <transcript source="Ensembl" accession="ENST00000255183.8">
             <coordinates coord_system="LRG_16" start="1" end="285" strand="1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>LINC01260-002 (antisense)</long_name>
-            <exon source="Ensembl" accession="ENSE00001542722">
+            <long_name>RP11-445H22.3-001 (lincRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00003793428">
               <coordinates coord_system="LRG_16" start="1" end="285" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
             </exon>
@@ -553,9 +560,9 @@
           <symbol source="HGNC" name="ADA" />
           <coordinates coord_system="LRG_16" start="4503" end="37214" strand="1" mapped_from="GRCh38" />
           <long_name>adenosine deaminase (protein_coding)</long_name>
-          <db_xref source="MIM" accession="608958" />
-          <db_xref source="HGNC" accession="186" />
           <db_xref source="GeneID" accession="100" />
+          <db_xref source="HGNC" accession="186" />
+          <db_xref source="MIM" accession="608958" />
           <db_xref source="Ensembl" accession="ENSG00000196839" />
           <transcript source="Ensembl" accession="ENST00000535573.1">
             <coordinates coord_system="LRG_16" start="4503" end="20665" strand="1" mapped_from="GRCh38" />
@@ -626,11 +633,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000361965.4">
               <coordinates coord_system="LRG_16" start="5129" end="36902" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_000013.2" />
               <db_xref source="UniProtKB" accession="P00813">
                 <synonym>Q53F92</synonym>
                 <synonym>Q6LA59</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_000013.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000492931.5">
@@ -742,6 +749,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000441818.1">
               <coordinates coord_system="LRG_16" start="5129" end="36902" strand="1" mapped_from="GRCh38" />
+              <long_name>adenosine deaminase isoform 3</long_name>
+              <db_xref source="RefSeq" accession="NP_001308980.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000536532.5">
@@ -831,11 +840,11 @@
           <coordinates coord_system="LRG_16" start="32489" end="39214" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>protein kinase (cAMP-dependent, catalytic) inhibitor gamma (protein_coding)</long_name>
-          <db_xref source="MIM" accession="604932" />
-          <db_xref source="HGNC" accession="9019" />
           <db_xref source="GeneID" accession="11142">
             <synonym>PKI-gamma</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="9019" />
+          <db_xref source="MIM" accession="604932" />
           <db_xref source="Ensembl" accession="ENSG00000168734" />
           <transcript source="Ensembl" accession="ENST00000372887.5">
             <coordinates coord_system="LRG_16" start="32489" end="39214" strand="-1" mapped_from="GRCh38" />
@@ -861,8 +870,8 @@
             <protein_product source="Ensembl" accession="ENSP00000361985.3">
               <coordinates coord_system="LRG_16" start="38372" end="39214" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="UniProtKB" accession="Q9Y2B9" />
               <db_xref source="RefSeq" accession="NP_008997.1" />
+              <db_xref source="UniProtKB" accession="Q9Y2B9" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372892.7">
@@ -877,8 +886,8 @@
             <protein_product source="Ensembl" accession="ENSP00000361983.3">
               <coordinates coord_system="LRG_16" start="38372" end="39214" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="UniProtKB" accession="Q9Y2B9" />
               <db_xref source="RefSeq" accession="NP_861520.1" />
+              <db_xref source="UniProtKB" accession="Q9Y2B9" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372891.7">
@@ -893,8 +902,8 @@
             <protein_product source="Ensembl" accession="ENSP00000361981.3">
               <coordinates coord_system="LRG_16" start="38372" end="39214" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="UniProtKB" accession="Q9Y2B9" />
               <db_xref source="RefSeq" accession="NP_861521.1" />
+              <db_xref source="UniProtKB" accession="Q9Y2B9" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372889.5">
@@ -909,8 +918,8 @@
             <protein_product source="Ensembl" accession="ENSP00000361980.1">
               <coordinates coord_system="LRG_16" start="38372" end="39214" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="UniProtKB" accession="Q9Y2B9" />
               <db_xref source="RefSeq" accession="NP_001268373.1" />
+              <db_xref source="UniProtKB" accession="Q9Y2B9" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372886.5">
@@ -925,8 +934,8 @@
             <protein_product source="Ensembl" accession="ENSP00000361977.1">
               <coordinates coord_system="LRG_16" start="38372" end="39214" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="UniProtKB" accession="Q9Y2B9" />
               <db_xref source="RefSeq" accession="NP_001268374.1" />
+              <db_xref source="UniProtKB" accession="Q9Y2B9" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000349959.3">
@@ -951,7 +960,7 @@
         <name>List of locus specific databases for ADA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ADA</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

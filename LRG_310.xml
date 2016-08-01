@@ -179,7 +179,7 @@
           <email>sichan@bcgsc.ca</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -191,7 +191,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_id_syn="CM000665.1" other_start="178861311" other_end="178959881" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="98571" other_start="178861311" other_end="178959881" strand="1" />
       </mapping>
@@ -441,8 +441,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000263967.3" other_name="ENST00000263967.3" other_id="ENST00000263967.3" other_start="1" other_end="9093" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5081" other_start="1" other_end="81" strand="1" />
         <mapping_span lrg_start="55228" lrg_end="55655" other_start="82" other_end="509" strand="1" />
@@ -504,10 +504,6 @@
           <symbol source="HGNC" name="PIK3CA" />
           <coordinates coord_system="LRG_310" start="4592" end="96571" strand="1" mapped_from="GRCh38" />
           <long_name>phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha (protein_coding)</long_name>
-          <db_xref source="MIM" accession="171834" />
-          <db_xref source="HGNC" accession="8975">
-            <synonym>PI3K</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="5290">
             <synonym>CLOVE</synonym>
             <synonym>CWS5</synonym>
@@ -516,7 +512,12 @@
             <synonym>MCMTC</synonym>
             <synonym>p110-alpha</synonym>
             <synonym>PI3K</synonym>
+            <synonym>PI3K-alpha</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="8975">
+            <synonym>PI3K</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="171834" />
           <db_xref source="Ensembl" accession="ENSG00000121879" />
           <transcript source="Ensembl" accession="ENST00000477735.1">
             <coordinates coord_system="LRG_310" start="4592" end="55366" strand="1" mapped_from="GRCh38" />
@@ -601,11 +602,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000263967.3">
               <coordinates coord_system="LRG_310" start="55304" end="90842" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_006209.2" />
               <db_xref source="UniProtKB" accession="P42336">
                 <synonym>Q14CW1</synonym>
                 <synonym>Q99762</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_006209.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000468036.1">
@@ -662,12 +663,7 @@
           <symbol source="HGNC" name="KCNMB3" />
           <coordinates coord_system="LRG_310" start="93169" end="98571" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>potassium channel subfamily M regulatory beta subunit 3 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="605222" />
-          <db_xref source="HGNC" accession="6287">
-            <synonym>KCNMB2</synonym>
-            <synonym>KCNMBL</synonym>
-          </db_xref>
+          <long_name>potassium calcium-activated channel subfamily M regulatory beta subunit 3 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="27094">
             <synonym>BKBETA3</synonym>
             <synonym>HBETA3</synonym>
@@ -677,6 +673,11 @@
             <synonym>SLO-BETA-3</synonym>
             <synonym>SLOBETA3</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="6287">
+            <synonym>KCNMB2</synonym>
+            <synonym>KCNMBL</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="605222" />
           <db_xref source="Ensembl" accession="ENSG00000171121" />
           <transcript source="Ensembl" accession="ENST00000485523.5">
             <coordinates coord_system="LRG_310" start="93169" end="98571" strand="-1" mapped_from="GRCh38" />
@@ -713,6 +714,7 @@
             <protein_product source="Ensembl" accession="ENSP00000417091.1">
               <coordinates coord_system="LRG_310" start="96474" end="98571" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <db_xref source="RefSeq" accession="NP_001157149.1" />
               <db_xref source="UniProtKB" accession="Q9NPA1">
                 <synonym>B7Z9C9</synonym>
                 <synonym>D3DNR2</synonym>
@@ -721,7 +723,6 @@
                 <synonym>Q9NRM9</synonym>
                 <synonym>Q9UHN3</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001157149.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000392686.6">
@@ -741,7 +742,7 @@
         <name>List of locus specific databases for PIK3CA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PIK3CA</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

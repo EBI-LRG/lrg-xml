@@ -319,7 +319,7 @@
           <email>s.povey@ucl.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -331,7 +331,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="16" other_id="NC_000016.9" other_id_syn="CM000678.1" other_start="2094307" other_end="2141120" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="46814" other_start="2094307" other_end="2141120" strand="1" />
       </mapping>
@@ -1276,8 +1276,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000219476.7" other_name="ENST00000219476.7" other_id="ENST00000219476.7" other_start="1" other_end="6156" type="transcript">
         <mapping_span lrg_start="3160" lrg_end="3760" other_start="1" other_end="601" strand="1" />
         <mapping_span lrg_start="4282" lrg_end="4448" other_start="602" other_end="768" strand="1" />
@@ -1710,17 +1710,17 @@
           <coordinates coord_system="LRG_487" start="1" end="3561" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>nth-like DNA glycosylase 1 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="602656" />
-          <db_xref source="HGNC" accession="8028">
-            <synonym>NTH1</synonym>
-            <synonym>OCTS3</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="4913">
             <synonym>FAP3</synonym>
             <synonym>hNTH1</synonym>
             <synonym>NTH1</synonym>
             <synonym>OCTS3</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="8028">
+            <synonym>NTH1</synonym>
+            <synonym>OCTS3</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="602656" />
           <db_xref source="Ensembl" accession="ENSG00000065057" />
           <transcript source="Ensembl" accession="ENST00000219066.5">
             <coordinates coord_system="LRG_487" start="1" end="3561" strand="-1" mapped_from="GRCh38" />
@@ -1740,13 +1740,13 @@
             <protein_product source="Ensembl" accession="ENSP00000219066.1">
               <coordinates coord_system="LRG_487" start="1" end="3542" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <db_xref source="RefSeq" accession="NP_002519.1" />
               <db_xref source="UniProtKB" accession="P78549">
                 <synonym>Q1MVR1</synonym>
                 <synonym>Q99566</synonym>
                 <synonym>Q99794</synonym>
                 <synonym>Q9BPX2</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_002519.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000565406.5">
@@ -1770,6 +1770,8 @@
             <protein_product source="Ensembl" accession="ENSP00000455267.1" codon_start="2">
               <coordinates coord_system="LRG_487" start="1" end="3481" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <long_name>endonuclease III-like protein 1 isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001305122.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000568513.5">
@@ -1830,18 +1832,18 @@
           <symbol source="HGNC" name="TSC2" />
           <coordinates coord_system="LRG_487" start="3160" end="44415" strand="1" mapped_from="GRCh38" />
           <long_name>tuberous sclerosis 2 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="191092" />
+          <db_xref source="GeneID" accession="7249">
+            <synonym>LAM</synonym>
+            <synonym>PPP1R160</synonym>
+            <synonym>TSC4</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="12363">
             <synonym>LAM</synonym>
             <synonym>PPP1R160</synonym>
             <synonym>TSC4</synonym>
             <synonym>tuberin</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="7249">
-            <synonym>LAM</synonym>
-            <synonym>PPP1R160</synonym>
-            <synonym>TSC4</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="191092" />
           <db_xref source="Ensembl" accession="ENSG00000103197" />
           <transcript source="Ensembl" accession="ENST00000219476.7">
             <coordinates coord_system="LRG_487" start="3160" end="44407" strand="1" mapped_from="GRCh38" />
@@ -1976,6 +1978,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000219476.3">
               <coordinates coord_system="LRG_487" start="4311" end="44305" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_000539.2" />
               <db_xref source="UniProtKB" accession="P49815">
                 <synonym>A7E2E2</synonym>
                 <synonym>B4DIL8</synonym>
@@ -1987,12 +1990,12 @@
                 <synonym>Q4LE71</synonym>
                 <synonym>Q8TAZ1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_000539.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000382538.10">
             <coordinates coord_system="LRG_487" start="3675" end="44395" strand="1" mapped_from="GRCh38" />
             <long_name>TSC2-007 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001318829.1" />
             <exon source="Ensembl" accession="ENSE00001720062">
               <coordinates coord_system="LRG_487" start="3675" end="3760" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2112,6 +2115,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000371978.6">
               <coordinates coord_system="LRG_487" start="6104" end="44305" strand="1" mapped_from="GRCh38" />
+              <long_name>tuberin isoform 7</long_name>
+              <db_xref source="RefSeq" accession="NP_001305758.1" />
               <db_xref source="UniProtKB" accession="P49815">
                 <synonym>A7E2E2</synonym>
                 <synonym>B4DIL8</synonym>
@@ -2252,6 +2257,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000384468.2">
               <coordinates coord_system="LRG_487" start="4311" end="44305" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001070651.1" />
               <db_xref source="UniProtKB" accession="P49815">
                 <synonym>A7E2E2</synonym>
                 <synonym>B4DIL8</synonym>
@@ -2263,7 +2269,6 @@
                 <synonym>Q4LE71</synonym>
                 <synonym>Q8TAZ1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001070651.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000461648.2">
@@ -2285,6 +2290,7 @@
           <transcript source="Ensembl" accession="ENST00000439673.6">
             <coordinates coord_system="LRG_487" start="3709" end="44396" strand="1" mapped_from="GRCh38" />
             <long_name>TSC2-017 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001318827.1" />
             <exon source="Ensembl" accession="ENSE00001554562">
               <coordinates coord_system="LRG_487" start="3709" end="3760" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2404,6 +2410,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000399232.2">
               <coordinates coord_system="LRG_487" start="4311" end="44305" strand="1" mapped_from="GRCh38" />
+              <long_name>tuberin isoform 6</long_name>
+              <db_xref source="RefSeq" accession="NP_001305756.1" />
               <db_xref source="UniProtKB" accession="P49815">
                 <synonym>A7E2E2</synonym>
                 <synonym>B4DIL8</synonym>
@@ -2547,6 +2555,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000344383.4">
               <coordinates coord_system="LRG_487" start="4311" end="44305" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001107854.1" />
               <db_xref source="UniProtKB" accession="P49815">
                 <synonym>A7E2E2</synonym>
                 <synonym>B4DIL8</synonym>
@@ -2558,12 +2567,12 @@
                 <synonym>Q4LE71</synonym>
                 <synonym>Q8TAZ1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001107854.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000439117.6">
             <coordinates coord_system="LRG_487" start="3728" end="44398" strand="1" mapped_from="GRCh38" />
             <long_name>TSC2-002 (nonsense_mediated_decay)</long_name>
+            <db_xref source="RefSeq" accession="NM_001318831.1" />
             <exon source="Ensembl" accession="ENSE00001642130">
               <coordinates coord_system="LRG_487" start="3728" end="3760" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2680,11 +2689,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000406980.2">
               <coordinates coord_system="LRG_487" start="4311" end="12391" strand="1" mapped_from="GRCh38" />
+              <long_name>tuberin isoform 8</long_name>
+              <db_xref source="RefSeq" accession="NP_001305760.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000568454.5">
             <coordinates coord_system="LRG_487" start="3897" end="44415" strand="1" mapped_from="GRCh38" />
             <long_name>TSC2-006 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001318832.1" />
             <exon source="Ensembl" accession="ENSE00001745163">
               <coordinates coord_system="LRG_487" start="3897" end="3968" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2807,6 +2819,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000454487.1">
               <coordinates coord_system="LRG_487" start="3965" end="44305" strand="1" mapped_from="GRCh38" />
+              <long_name>tuberin isoform 9</long_name>
+              <db_xref source="RefSeq" accession="NP_001305761.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000432909.2">
@@ -3173,22 +3187,27 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000008710.17">
+        <gene source="Ensembl" accession="ENSG00000008710.18">
           <symbol source="HGNC" name="PKD1" />
           <coordinates coord_system="LRG_487" start="44405" end="46814" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>polycystic kidney disease 1 (autosomal dominant) (protein_coding)</long_name>
-          <db_xref source="MIM" accession="601313" />
-          <db_xref source="HGNC" accession="9008">
-            <synonym>PBP</synonym>
-            <synonym>Pc-1</synonym>
-            <synonym>TRPP1</synonym>
-          </db_xref>
+          <long_name>polycystin 1, transient receptor potential channel interacting (protein_coding)</long_name>
           <db_xref source="GeneID" accession="5310">
             <synonym>PBP</synonym>
             <synonym>Pc-1</synonym>
             <synonym>TRPP1</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="102465429">
+            <synonym>hsa-mir-6511b-1</synonym>
+            <synonym>MIR6511B-1</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="9008">
+            <synonym>PBP</synonym>
+            <synonym>Pc-1</synonym>
+            <synonym>TRPP1</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="601313" />
+          <db_xref source="miRBase" accession="MI0022552" />
           <db_xref source="Ensembl" accession="ENSG00000008710" />
           <transcript source="Ensembl" accession="ENST00000262304.8">
             <coordinates coord_system="LRG_487" start="44405" end="46814" strand="-1" mapped_from="GRCh38" />
@@ -3212,11 +3231,11 @@
             <protein_product source="Ensembl" accession="ENSP00000262304.4">
               <coordinates coord_system="LRG_487" start="45422" end="46814" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <db_xref source="RefSeq" accession="NP_001009944.2" />
               <db_xref source="UniProtKB" accession="P98161">
                 <synonym>Q15140</synonym>
                 <synonym>Q15141</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001009944.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000423118.5">
@@ -3241,11 +3260,11 @@
             <protein_product source="Ensembl" accession="ENSP00000399501.1">
               <coordinates coord_system="LRG_487" start="45422" end="46814" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <db_xref source="RefSeq" accession="NP_000287.3" />
               <db_xref source="UniProtKB" accession="P98161">
                 <synonym>Q15140</synonym>
                 <synonym>Q15141</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_000287.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000472577.1">
@@ -3292,36 +3311,13 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000221656.1">
-          <symbol source="HGNC" name="MIR1225" />
-          <coordinates coord_system="LRG_487" start="45890" end="45979" strand="-1" mapped_from="GRCh38" />
-          <long_name>microRNA 1225 (miRNA)</long_name>
-          <db_xref source="miRBase" accession="MI0006311" />
-          <db_xref source="MIM" accession="611621" />
-          <db_xref source="HGNC" accession="33931">
-            <synonym>hsa-mir-1225</synonym>
-            <synonym>MIRN1225</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="100188847">
-            <synonym>MIRN1225</synonym>
-          </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000221656" />
-          <transcript source="Ensembl" accession="ENST00000408729.1">
-            <coordinates coord_system="LRG_487" start="45890" end="45979" strand="-1" mapped_from="GRCh38" />
-            <long_name>MIR1225-201 (miRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_030646.1" />
-            <exon source="Ensembl" accession="ENSE00001565364">
-              <coordinates coord_system="LRG_487" start="45890" end="45979" strand="-1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
       </features>
     </annotation_set>
     <annotation_set type="community">
       <source>
         <name>Community</name>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <fixed_transcript_annotation name="t1">
         <other_exon_naming description="Alternative numbering based on Tuberous sclerosis database - Tuberous sclerosis 2 (TSC2)">
           <exon>
@@ -3500,7 +3496,7 @@
         <name>List of locus specific databases for TSC2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TSC2</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

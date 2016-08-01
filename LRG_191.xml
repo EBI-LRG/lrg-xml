@@ -182,7 +182,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -194,7 +194,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_id_syn="CM000663.1" other_start="9706790" other_end="9791172" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="84383" other_start="9706790" other_end="9791172" strand="1" />
       </mapping>
@@ -530,8 +530,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000361110.6" other_name="ENST00000361110.6" other_id="ENST00000361110.6" other_start="1" other_end="3508" type="transcript">
         <mapping_span lrg_start="63467" lrg_end="63549" other_start="1" other_end="83" strand="1" />
         <mapping_span lrg_start="63693" lrg_end="63865" other_start="84" other_end="256" strand="1" />
@@ -681,10 +681,6 @@
           <symbol source="HGNC" name="PIK3CD" />
           <coordinates coord_system="LRG_191" start="5001" end="82383" strand="1" mapped_from="GRCh38" />
           <long_name>phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta (protein_coding)</long_name>
-          <db_xref source="MIM" accession="602839" />
-          <db_xref source="HGNC" accession="8977">
-            <synonym>p110D</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="5293">
             <synonym>APDS</synonym>
             <synonym>IMD14</synonym>
@@ -692,6 +688,10 @@
             <synonym>P110DELTA</synonym>
             <synonym>PI3K</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="8977">
+            <synonym>p110D</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="602839" />
           <db_xref source="Ensembl" accession="ENSG00000171608" />
           <transcript source="Ensembl" accession="ENST00000536656.5">
             <coordinates coord_system="LRG_191" start="5001" end="82383" strand="1" mapped_from="GRCh38" />
@@ -933,13 +933,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000366563.4">
               <coordinates coord_system="LRG_191" start="63725" end="80315" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_005017.3" />
               <db_xref source="UniProtKB" accession="O00329">
                 <synonym>A6NCG0</synonym>
                 <synonym>G1FFP1</synonym>
                 <synonym>O15445</synonym>
                 <synonym>Q5SR49</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_005017.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000484851.1">
@@ -1138,10 +1138,10 @@
           <symbol source="HGNC" name="PIK3CD-AS1" />
           <coordinates coord_system="LRG_191" start="5879" end="7855" strand="-1" mapped_from="GRCh38" />
           <long_name>PIK3CD antisense RNA 1 (antisense)</long_name>
-          <db_xref source="HGNC" accession="32346">
+          <db_xref source="GeneID" accession="644997">
             <synonym>C1orf200</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="644997">
+          <db_xref source="HGNC" accession="32346">
             <synonym>C1orf200</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000179840" />
@@ -1177,8 +1177,8 @@
           <symbol source="HGNC" name="PIK3CD-AS2" />
           <coordinates coord_system="LRG_191" start="25695" end="40824" strand="-1" mapped_from="GRCh38" />
           <long_name>PIK3CD antisense RNA 2 (antisense)</long_name>
-          <db_xref source="HGNC" accession="51334" />
           <db_xref source="GeneID" accession="101929074" />
+          <db_xref source="HGNC" accession="51334" />
           <db_xref source="Ensembl" accession="ENSG00000231789" />
           <transcript source="Ensembl" accession="ENST00000415330.2">
             <coordinates coord_system="LRG_191" start="25695" end="40824" strand="-1" mapped_from="GRCh38" />
@@ -1200,12 +1200,6 @@
           <coordinates coord_system="LRG_191" start="82295" end="84383" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>calsyntenin 1 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="611321" />
-          <db_xref source="HGNC" accession="17447">
-            <synonym>CDHR12</synonym>
-            <synonym>CSTN1</synonym>
-            <synonym>KIAA0911</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="22883">
             <synonym>ALC-ALPHA</synonym>
             <synonym>alcalpha1</synonym>
@@ -1216,6 +1210,12 @@
             <synonym>PIK3CD</synonym>
             <synonym>XB31alpha</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="17447">
+            <synonym>CDHR12</synonym>
+            <synonym>CSTN1</synonym>
+            <synonym>KIAA0911</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="611321" />
           <db_xref source="Ensembl" accession="ENSG00000171603" />
           <transcript source="Ensembl" accession="ENST00000377298.8">
             <coordinates coord_system="LRG_191" start="82295" end="84383" strand="-1" mapped_from="GRCh38" />
@@ -1231,6 +1231,8 @@
               <coordinates coord_system="LRG_191" start="83777" end="84383" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <long_name>calsyntenin-1 isoform 3 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001289812.1" />
+              <db_xref source="RefSeq" accession="NP_001009566.1" />
               <db_xref source="UniProtKB" accession="O94985">
                 <synonym>A8K183</synonym>
                 <synonym>Q5SR52</synonym>
@@ -1238,8 +1240,6 @@
                 <synonym>Q71MN0</synonym>
                 <synonym>Q8N4K9</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001009566.1" />
-              <db_xref source="RefSeq" accession="NP_001289812.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000477264.1">
@@ -1274,6 +1274,7 @@
             <protein_product source="Ensembl" accession="ENSP00000354997.4">
               <coordinates coord_system="LRG_191" start="83777" end="84383" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <db_xref source="RefSeq" accession="NP_055759.3" />
               <db_xref source="UniProtKB" accession="O94985">
                 <synonym>A8K183</synonym>
                 <synonym>Q5SR52</synonym>
@@ -1281,7 +1282,6 @@
                 <synonym>Q71MN0</synonym>
                 <synonym>Q8N4K9</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_055759.3" />
             </protein_product>
           </transcript>
         </gene>
@@ -1292,7 +1292,7 @@
         <name>List of locus specific databases for PIK3CD</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PIK3CD</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

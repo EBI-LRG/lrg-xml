@@ -99,7 +99,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -111,14 +111,14 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
-      <mapping coord_system="GRCh37.p13" other_name="11q23.3" other_id="NW_003871076.1" other_id_syn="JH159138.1" other_start="43951" other_end="57505" type="patch">
-        <mapping_span lrg_start="1" lrg_end="13555" other_start="43951" other_end="57505" strand="-1" />
-      </mapping>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="118893061" other_end="118906616" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="13555" other_start="118893061" other_end="118906616" strand="-1">
           <diff type="other_ins" lrg_start="8180" lrg_end="8181" other_start="118898436" other_end="118898436" lrg_sequence="-" other_sequence="G" />
         </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh37.p13" other_name="11q23.3" other_id="NW_003871076.1" other_id_syn="JH159138.1" other_start="43951" other_end="57505" type="patch">
+        <mapping_span lrg_start="1" lrg_end="13555" other_start="43951" other_end="57505" strand="-1" />
       </mapping>
       <mapping coord_system="GRCh38.p7" other_name="11q23.3" other_id="NW_009646203.1" other_id_syn="KN196481.1" other_start="43951" other_end="57505" type="patch">
         <mapping_span lrg_start="1" lrg_end="13555" other_start="43951" other_end="57505" strand="-1" />
@@ -421,8 +421,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000330775.9" other_name="ENST00000330775.9" other_id="ENST00000330775.9" other_start="1" other_end="2102" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5058" other_start="1" other_end="58" strand="1" />
         <mapping_span lrg_start="6343" lrg_end="6685" other_start="59" other_end="401" strand="1" />
@@ -614,16 +614,7 @@
         <gene source="Ensembl" accession="ENSG00000137700.16">
           <symbol source="HGNC" name="SLC37A4" />
           <coordinates coord_system="LRG_187" start="5001" end="11792" strand="1" mapped_from="GRCh38" />
-          <long_name>solute carrier family 37 (glucose-6-phosphate transporter), member 4 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="602671" />
-          <db_xref source="HGNC" accession="4061">
-            <synonym>G6PT1</synonym>
-            <synonym>G6PT2</synonym>
-            <synonym>G6PT3</synonym>
-            <synonym>GSD1b</synonym>
-            <synonym>GSD1c</synonym>
-            <synonym>GSD1d</synonym>
-          </db_xref>
+          <long_name>solute carrier family 37 member 4 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="2542">
             <synonym>G6PT1</synonym>
             <synonym>G6PT2</synonym>
@@ -635,6 +626,15 @@
             <synonym>TRG-19</synonym>
             <synonym>TRG19</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="4061">
+            <synonym>G6PT1</synonym>
+            <synonym>G6PT2</synonym>
+            <synonym>G6PT3</synonym>
+            <synonym>GSD1b</synonym>
+            <synonym>GSD1c</synonym>
+            <synonym>GSD1d</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="602671" />
           <db_xref source="Ensembl" accession="ENSG00000137700" />
           <transcript source="Ensembl" accession="ENST00000525102.5">
             <coordinates coord_system="LRG_187" start="5001" end="11792" strand="1" mapped_from="GRCh38" />
@@ -669,6 +669,49 @@
             <exon source="Ensembl" accession="ENSE00002156119">
               <coordinates coord_system="LRG_187" start="10830" end="11792" strand="1" mapped_from="GRCh38" />
             </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000545985.5">
+            <coordinates coord_system="LRG_187" start="5001" end="11555" strand="1" mapped_from="GRCh38" />
+            <long_name>SLC37A4-204 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001164277.1" />
+            <exon source="Ensembl" accession="ENSE00002173179">
+              <coordinates coord_system="LRG_187" start="5001" end="5058" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002144586">
+              <coordinates coord_system="LRG_187" start="5172" end="5675" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003485364">
+              <coordinates coord_system="LRG_187" start="6343" end="6685" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003632987">
+              <coordinates coord_system="LRG_187" start="7481" end="7713" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001273889">
+              <coordinates coord_system="LRG_187" start="8035" end="8180" end_ext="1" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001273714">
+              <coordinates coord_system="LRG_187" start="8182" end="8278" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003624719">
+              <coordinates coord_system="LRG_187" start="8811" end="8969" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003573641">
+              <coordinates coord_system="LRG_187" start="9218" end="9303" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003538303">
+              <coordinates coord_system="LRG_187" start="9826" end="9939" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003549654">
+              <coordinates coord_system="LRG_187" start="10577" end="10715" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003739767">
+              <coordinates coord_system="LRG_187" start="10830" end="11555" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000475241.2">
+              <coordinates coord_system="LRG_187" start="6538" end="10996" strand="1" mapped_from="GRCh38" />
+              <long_name>glucose-6-phosphate exchanger SLC37A4 isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_001157749.1" />
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000357590.9">
             <coordinates coord_system="LRG_187" start="5001" end="11555" strand="1" mapped_from="GRCh38" />
@@ -712,8 +755,50 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000476176.2">
               <coordinates coord_system="LRG_187" start="6538" end="10996" strand="1" mapped_from="GRCh38" />
-              <long_name>glucose-6-phosphate translocase isoform 2</long_name>
+              <long_name>glucose-6-phosphate exchanger SLC37A4 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001157750.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000330775.9">
+            <coordinates coord_system="LRG_187" start="5001" end="11555" strand="1" mapped_from="GRCh38" />
+            <long_name>SLC37A4-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001164280.1" />
+            <db_xref source="RefSeq" accession="NM_001467.5" />
+            <exon source="Ensembl" accession="ENSE00002173179">
+              <coordinates coord_system="LRG_187" start="5001" end="5058" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003485364">
+              <coordinates coord_system="LRG_187" start="6343" end="6685" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003632987">
+              <coordinates coord_system="LRG_187" start="7481" end="7713" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001273889">
+              <coordinates coord_system="LRG_187" start="8035" end="8180" end_ext="1" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001273714">
+              <coordinates coord_system="LRG_187" start="8182" end="8278" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003624719">
+              <coordinates coord_system="LRG_187" start="8811" end="8969" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003573641">
+              <coordinates coord_system="LRG_187" start="9218" end="9303" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003538303">
+              <coordinates coord_system="LRG_187" start="9826" end="9939" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003549654">
+              <coordinates coord_system="LRG_187" start="10577" end="10715" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003739767">
+              <coordinates coord_system="LRG_187" start="10830" end="11555" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000476242.2">
+              <coordinates coord_system="LRG_187" start="6538" end="10996" strand="1" mapped_from="GRCh38" />
+              <long_name>glucose-6-phosphate exchanger SLC37A4 isoform 1, glucose-6-phosphate exchanger SLC37A4 isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_001458.1" />
+              <db_xref source="RefSeq" accession="NP_001157752.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000538950.5">
@@ -755,93 +840,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000475991.2">
               <coordinates coord_system="LRG_187" start="7552" end="10996" strand="1" mapped_from="GRCh38" />
-              <long_name>glucose-6-phosphate translocase isoform 3</long_name>
+              <long_name>glucose-6-phosphate exchanger SLC37A4 isoform 3</long_name>
               <db_xref source="RefSeq" accession="NP_001157751.1" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000545985.5">
-            <coordinates coord_system="LRG_187" start="5001" end="11555" strand="1" mapped_from="GRCh38" />
-            <long_name>SLC37A4-204 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001164277.1" />
-            <exon source="Ensembl" accession="ENSE00002173179">
-              <coordinates coord_system="LRG_187" start="5001" end="5058" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002144586">
-              <coordinates coord_system="LRG_187" start="5172" end="5675" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003485364">
-              <coordinates coord_system="LRG_187" start="6343" end="6685" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003632987">
-              <coordinates coord_system="LRG_187" start="7481" end="7713" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001273889">
-              <coordinates coord_system="LRG_187" start="8035" end="8180" end_ext="1" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001273714">
-              <coordinates coord_system="LRG_187" start="8182" end="8278" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003624719">
-              <coordinates coord_system="LRG_187" start="8811" end="8969" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003573641">
-              <coordinates coord_system="LRG_187" start="9218" end="9303" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003538303">
-              <coordinates coord_system="LRG_187" start="9826" end="9939" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003549654">
-              <coordinates coord_system="LRG_187" start="10577" end="10715" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003739767">
-              <coordinates coord_system="LRG_187" start="10830" end="11555" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000475241.2">
-              <coordinates coord_system="LRG_187" start="6538" end="10996" strand="1" mapped_from="GRCh38" />
-              <long_name>glucose-6-phosphate translocase isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001157749.1" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000330775.9">
-            <coordinates coord_system="LRG_187" start="5001" end="11555" strand="1" mapped_from="GRCh38" />
-            <long_name>SLC37A4-201 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001164280.1" />
-            <db_xref source="RefSeq" accession="NM_001467.5" />
-            <exon source="Ensembl" accession="ENSE00002173179">
-              <coordinates coord_system="LRG_187" start="5001" end="5058" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003485364">
-              <coordinates coord_system="LRG_187" start="6343" end="6685" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003632987">
-              <coordinates coord_system="LRG_187" start="7481" end="7713" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001273889">
-              <coordinates coord_system="LRG_187" start="8035" end="8180" end_ext="1" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001273714">
-              <coordinates coord_system="LRG_187" start="8182" end="8278" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003624719">
-              <coordinates coord_system="LRG_187" start="8811" end="8969" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003573641">
-              <coordinates coord_system="LRG_187" start="9218" end="9303" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003538303">
-              <coordinates coord_system="LRG_187" start="9826" end="9939" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003549654">
-              <coordinates coord_system="LRG_187" start="10577" end="10715" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003739767">
-              <coordinates coord_system="LRG_187" start="10830" end="11555" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000476242.2">
-              <coordinates coord_system="LRG_187" start="6538" end="10996" strand="1" mapped_from="GRCh38" />
-              <long_name>glucose-6-phosphate translocase isoform 1, glucose-6-phosphate translocase isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001157752.1" />
-              <db_xref source="RefSeq" accession="NP_001458.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000525039.5">
@@ -1106,17 +1106,11 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000196655.9">
+        <gene source="Ensembl" accession="ENSG00000196655.10">
           <symbol source="HGNC" name="TRAPPC4" />
           <coordinates coord_system="LRG_187" start="10452" end="13555" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>trafficking protein particle complex 4 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="610971" />
-          <db_xref source="HGNC" accession="19943">
-            <synonym>PTD009</synonym>
-            <synonym>SBDN</synonym>
-            <synonym>TRS23</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="51399">
             <synonym>CGI-104</synonym>
             <synonym>HSPC172</synonym>
@@ -1125,6 +1119,16 @@
             <synonym>SYNBINDIN</synonym>
             <synonym>TRS23</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="100500840">
+            <synonym>mir-3656</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="19943">
+            <synonym>PTD009</synonym>
+            <synonym>SBDN</synonym>
+            <synonym>TRS23</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="610971" />
+          <db_xref source="miRBase" accession="MI0016056" />
           <db_xref source="Ensembl" accession="ENSG00000196655" />
           <transcript source="Ensembl" accession="ENST00000533058.5">
             <coordinates coord_system="LRG_187" start="10452" end="13555" strand="-1" mapped_from="GRCh38" />
@@ -1150,11 +1154,11 @@
             <protein_product source="Ensembl" accession="ENSP00000436005.1">
               <coordinates coord_system="LRG_187" start="12507" end="13555" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <db_xref source="RefSeq" accession="NP_057230.1" />
               <db_xref source="UniProtKB" accession="Q9Y296">
                 <synonym>A8K3A5</synonym>
                 <synonym>B4DME1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_057230.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000524797.1">
@@ -1183,6 +1187,8 @@
             <protein_product source="Ensembl" accession="ENSP00000351896.4">
               <coordinates coord_system="LRG_187" start="12507" end="13555" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <long_name>trafficking protein particle complex subunit 4 isoform 3</long_name>
+              <db_xref source="RefSeq" accession="NP_001305417.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000533149.1">
@@ -1203,6 +1209,8 @@
             <protein_product source="Ensembl" accession="ENSP00000405033.2">
               <coordinates coord_system="LRG_187" start="12507" end="13555" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <long_name>trafficking protein particle complex subunit 4 isoform 4</long_name>
+              <db_xref source="RefSeq" accession="NP_001305418.1" />
               <db_xref source="UniProtKB" accession="Q9Y296">
                 <synonym>A8K3A5</synonym>
                 <synonym>B4DME1</synonym>
@@ -1227,6 +1235,8 @@
             <protein_product source="Ensembl" accession="ENSP00000435339.1">
               <coordinates coord_system="LRG_187" start="12507" end="13555" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <long_name>trafficking protein particle complex subunit 4 isoform 7</long_name>
+              <db_xref source="RefSeq" accession="NP_001305423.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000528230.5">
@@ -1239,6 +1249,8 @@
             <protein_product source="Ensembl" accession="ENSP00000436827.1">
               <coordinates coord_system="LRG_187" start="12507" end="13555" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <long_name>trafficking protein particle complex subunit 4 isoform 5</long_name>
+              <db_xref source="RefSeq" accession="NP_001305419.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000525079.5">
@@ -1265,7 +1277,7 @@
         <name>List of locus specific databases for SLC37A4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SLC37A4</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

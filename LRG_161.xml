@@ -149,7 +149,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -161,7 +161,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_id_syn="CM000669.1" other_start="6010870" other_end="6053737" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="42868" other_start="6010870" other_end="6053737" strand="-1">
           <diff type="mismatch" lrg_start="26963" lrg_end="26963" other_start="6026775" other_end="6026775" lrg_sequence="G" other_sequence="A" />
@@ -691,8 +691,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000265849.11" other_name="ENST00000265849.11" other_id="ENST00000265849.11" other_start="1" other_end="2855" type="transcript">
         <mapping_span lrg_start="4982" lrg_end="5110" other_start="1" other_end="129" strand="1" />
         <mapping_span lrg_start="8076" lrg_end="8215" other_start="130" other_end="269" strand="1" />
@@ -780,20 +780,19 @@
           <symbol source="HGNC" name="AIMP2" />
           <coordinates coord_system="LRG_161" start="1" end="4862" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>aminoacyl tRNA synthetase complex-interacting multifunctional protein 2 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="600859" />
+          <long_name>aminoacyl tRNA synthetase complex interacting multifunctional protein 2 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="7965">
+            <synonym>JTV-1</synonym>
+            <synonym>JTV1</synonym>
+            <synonym>P38</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="20609">
             <synonym>JTV-1</synonym>
             <synonym>JTV1</synonym>
             <synonym>p38</synonym>
             <synonym>PRO0992</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="7965">
-            <synonym>JTV-1</synonym>
-            <synonym>JTV1</synonym>
-            <synonym>P38</synonym>
-            <synonym>PRO0992</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="600859" />
           <db_xref source="Ensembl" accession="ENSG00000106305" />
           <transcript source="Ensembl" accession="ENST00000223029.7">
             <coordinates coord_system="LRG_161" start="1" end="4862" strand="-1" mapped_from="GRCh38" />
@@ -807,12 +806,12 @@
             <protein_product source="Ensembl" accession="ENSP00000223029.3">
               <coordinates coord_system="LRG_161" start="1" end="4743" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <db_xref source="RefSeq" accession="NP_006294.2" />
               <db_xref source="UniProtKB" accession="Q13155">
                 <synonym>Q75MR1</synonym>
                 <synonym>Q96CZ5</synonym>
                 <synonym>Q9P1L2</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_006294.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000400479.6">
@@ -847,6 +846,8 @@
             <protein_product source="Ensembl" accession="ENSP00000378658.2">
               <coordinates coord_system="LRG_161" start="1" end="4743" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <long_name>aminoacyl tRNA synthase complex-interacting multifunctional protein 2 isoform c</long_name>
+              <db_xref source="RefSeq" accession="NP_001313536.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -854,19 +855,19 @@
           <symbol source="HGNC" name="PMS2" />
           <coordinates coord_system="LRG_161" start="4982" end="40868" strand="1" mapped_from="GRCh38" />
           <long_name>PMS1 homolog 2, mismatch repair system component (protein_coding)</long_name>
-          <db_xref source="MIM" accession="600259" />
-          <db_xref source="HGNC" accession="9122">
-            <synonym>HNPCC4</synonym>
-            <synonym>H_DJ0042M02.9</synonym>
-            <synonym>MLH4</synonym>
-            <synonym>PMSL2</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="5395">
             <synonym>HNPCC4</synonym>
             <synonym>MLH4</synonym>
             <synonym>PMS2CL</synonym>
             <synonym>PMSL2</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="9122">
+            <synonym>HNPCC4</synonym>
+            <synonym>H_DJ0042M02.9</synonym>
+            <synonym>MLH4</synonym>
+            <synonym>PMSL2</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="600259" />
           <db_xref source="Ensembl" accession="ENSG00000122512" />
           <transcript source="Ensembl" accession="ENST00000265849.11">
             <coordinates coord_system="LRG_161" start="4982" end="40868" strand="1" mapped_from="GRCh38" />
@@ -920,6 +921,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000265849.7">
               <coordinates coord_system="LRG_161" start="5088" end="40708" strand="1" mapped_from="GRCh38" />
+              <long_name>mismatch repair endonuclease PMS2 isoform i</long_name>
+              <db_xref source="RefSeq" accession="NP_001308943.1" />
+              <db_xref source="RefSeq" accession="NP_000526.1" />
               <db_xref source="UniProtKB" accession="P54278">
                 <synonym>B2R610</synonym>
                 <synonym>Q52LH6</synonym>
@@ -928,7 +932,6 @@
                 <synonym>Q5FBX2</synonym>
                 <synonym>Q75MR2</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_000526.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000441476.6">
@@ -978,6 +981,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000392843.2">
               <coordinates coord_system="LRG_161" start="10101" end="40708" strand="1" mapped_from="GRCh38" />
+              <long_name>mismatch repair endonuclease PMS2 isoform b, mismatch repair endonuclease PMS2 isoform e, mismatch repair endonuclease PMS2 isoform d, mismatch repair endonuclease PMS2 isoform b, mismatch repair endonuclease PMS2 isoform d, mismatch repair endonuclease PMS2 isoform b</long_name>
+              <db_xref source="RefSeq" accession="NP_001308932.1" />
+              <db_xref source="RefSeq" accession="NP_001308938.1" />
+              <db_xref source="RefSeq" accession="NP_001308936.1" />
+              <db_xref source="RefSeq" accession="NP_001308934.1" />
+              <db_xref source="RefSeq" accession="NP_001308937.1" />
+              <db_xref source="RefSeq" accession="NP_001308933.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000380416.5">
@@ -1119,7 +1129,7 @@
           <db_xref source="Ensembl" accession="ENSG00000201990" />
           <transcript source="Ensembl" accession="ENST00000365120.1">
             <coordinates coord_system="LRG_161" start="9722" end="9824" strand="1" mapped_from="GRCh38" />
-            <long_name>Y_RNA.319-201 (misc_RNA)</long_name>
+            <long_name>Y_RNA.317-201 (misc_RNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001439883">
               <coordinates coord_system="LRG_161" start="9722" end="9824" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1132,7 +1142,7 @@
         <name>List of locus specific databases for PMS2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PMS2</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

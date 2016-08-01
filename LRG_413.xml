@@ -141,7 +141,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -153,7 +153,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_id_syn="CM000665.1" other_start="12623108" other_end="12710678" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="87571" other_start="12623108" other_end="12710678" strand="-1" />
       </mapping>
@@ -356,8 +356,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000251849.8" other_name="ENST00000251849.8" other_id="ENST00000251849.8" other_start="1" other_end="3300" type="transcript">
         <mapping_span lrg_start="4954" lrg_end="5367" other_start="1" other_end="414" strand="1" />
         <mapping_span lrg_start="50433" lrg_end="50665" other_start="415" other_end="647" strand="1" />
@@ -484,12 +484,6 @@
           <symbol source="HGNC" name="RAF1" />
           <coordinates coord_system="LRG_413" start="4954" end="85579" strand="1" mapped_from="GRCh38" />
           <long_name>Raf-1 proto-oncogene, serine/threonine kinase (protein_coding)</long_name>
-          <db_xref source="MIM" accession="164760" />
-          <db_xref source="HGNC" accession="9829">
-            <synonym>c-Raf</synonym>
-            <synonym>CRAF</synonym>
-            <synonym>Raf-1</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="5894">
             <synonym>c-Raf</synonym>
             <synonym>CMD1NN</synonym>
@@ -497,6 +491,12 @@
             <synonym>NS5</synonym>
             <synonym>Raf-1</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="9829">
+            <synonym>c-Raf</synonym>
+            <synonym>CRAF</synonym>
+            <synonym>Raf-1</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="164760" />
           <db_xref source="Ensembl" accession="ENSG00000132155" />
           <transcript source="Ensembl" accession="ENST00000251849.8">
             <coordinates coord_system="LRG_413" start="4954" end="85579" strand="1" mapped_from="GRCh38" />
@@ -556,13 +556,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000251849.4">
               <coordinates coord_system="LRG_413" start="50459" end="84666" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_002871.1" />
               <db_xref source="UniProtKB" accession="P04049">
                 <synonym>B0LPH8</synonym>
                 <synonym>B2R5N3</synonym>
                 <synonym>Q15278</synonym>
                 <synonym>Q9UC20</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_002871.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000442415.6">
@@ -873,15 +873,15 @@
           <coordinates coord_system="LRG_413" start="85467" end="87571" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>makorin ring finger protein 2 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="608426" />
-          <db_xref source="HGNC" accession="7113">
-            <synonym>HSPC070</synonym>
-            <synonym>RNF62</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="23609">
             <synonym>HSPC070</synonym>
             <synonym>RNF62</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="7113">
+            <synonym>HSPC070</synonym>
+            <synonym>RNF62</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="608426" />
           <db_xref source="Ensembl" accession="ENSG00000075975" />
           <transcript source="Ensembl" accession="ENST00000170447.11">
             <coordinates coord_system="LRG_413" start="85467" end="87571" strand="-1" mapped_from="GRCh38" />
@@ -898,6 +898,7 @@
             <protein_product source="Ensembl" accession="ENSP00000170447.7">
               <coordinates coord_system="LRG_413" start="86927" end="87571" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <db_xref source="RefSeq" accession="NP_054879.3" />
               <db_xref source="UniProtKB" accession="Q9H000">
                 <synonym>A6NIA2</synonym>
                 <synonym>B3KRC5</synonym>
@@ -907,7 +908,6 @@
                 <synonym>Q9BUY2</synonym>
                 <synonym>Q9NRY1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_054879.3" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000448482.1">
@@ -940,6 +940,7 @@
             <protein_product source="Ensembl" accession="ENSP00000396340.1">
               <coordinates coord_system="LRG_413" start="86927" end="87571" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <db_xref source="RefSeq" accession="NP_001258636.1" />
               <db_xref source="UniProtKB" accession="Q9H000">
                 <synonym>A6NIA2</synonym>
                 <synonym>B3KRC5</synonym>
@@ -949,7 +950,6 @@
                 <synonym>Q9BUY2</synonym>
                 <synonym>Q9NRY1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001258636.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -960,7 +960,7 @@
         <name>List of locus specific databases for RAF1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RAF1</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
