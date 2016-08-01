@@ -104,7 +104,7 @@
           <email>is250@cam.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -116,7 +116,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="5" other_id="NC_000005.9" other_id_syn="CM000667.1" other_start="133620041" other_end="133711738" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="91698" other_start="133620041" other_end="133711738" strand="-1" />
       </mapping>
@@ -385,8 +385,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-25</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-08-01</modification_date>
       <mapping coord_system="ENST00000265334.8" other_name="ENST00000265334.8" other_id="ENST00000265334.8" other_start="1" other_end="2130" type="transcript">
         <mapping_span lrg_start="8974" lrg_end="9071" other_start="1" other_end="98" strand="1" />
         <mapping_span lrg_start="9504" lrg_end="9689" other_start="99" other_end="284" strand="1" />
@@ -492,13 +492,7 @@
           <symbol source="HGNC" name="UBE2B" />
           <coordinates coord_system="LRG_1006" start="1" end="4869" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>ubiquitin conjugating enzyme E2B (protein_coding)</long_name>
-          <db_xref source="MIM" accession="179095" />
-          <db_xref source="HGNC" accession="12473">
-            <synonym>HHR6B</synonym>
-            <synonym>RAD6B</synonym>
-            <synonym>UBC2</synonym>
-          </db_xref>
+          <long_name>ubiquitin conjugating enzyme E2 B (protein_coding)</long_name>
           <db_xref source="GeneID" accession="7320">
             <synonym>E2-17kDa</synonym>
             <synonym>HHR6B</synonym>
@@ -506,6 +500,12 @@
             <synonym>RAD6B</synonym>
             <synonym>UBC2</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="12473">
+            <synonym>HHR6B</synonym>
+            <synonym>RAD6B</synonym>
+            <synonym>UBC2</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="179095" />
           <db_xref source="Ensembl" accession="ENSG00000119048" />
           <transcript source="Ensembl" accession="ENST00000265339.6">
             <coordinates coord_system="LRG_1006" start="1" end="4869" strand="-1" mapped_from="GRCh38" />
@@ -522,6 +522,7 @@
             <protein_product source="Ensembl" accession="ENSP00000265339.2">
               <coordinates coord_system="LRG_1006" start="1" end="4452" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <db_xref source="RefSeq" accession="NP_003328.1" />
               <db_xref source="UniProtKB" accession="P63146">
                 <synonym>B2R503</synonym>
                 <synonym>D3DQA2</synonym>
@@ -529,7 +530,6 @@
                 <synonym>Q4PJ15</synonym>
                 <synonym>Q9D0J6</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_003328.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000510021.5">
@@ -602,14 +602,14 @@
         <gene source="Ensembl" accession="ENSG00000006837.11">
           <symbol source="HGNC" name="CDKL3" />
           <coordinates coord_system="LRG_1006" start="5001" end="89698" strand="1" mapped_from="GRCh38" />
-          <long_name>cyclin-dependent kinase-like 3 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="608459" />
-          <db_xref source="HGNC" accession="15483">
-            <synonym>NKIAMRE</synonym>
-          </db_xref>
+          <long_name>cyclin dependent kinase like 3 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="51265">
             <synonym>NKIAMRE</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="15483">
+            <synonym>NKIAMRE</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="608459" />
           <db_xref source="Ensembl" accession="ENSG00000006837" />
           <transcript source="Ensembl" accession="ENST00000519312.5">
             <coordinates coord_system="LRG_1006" start="5001" end="89610" strand="1" mapped_from="GRCh38" />
@@ -809,12 +809,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000265334.4">
               <coordinates coord_system="LRG_1006" start="9525" end="77397" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001107047.1" />
               <db_xref source="UniProtKB" accession="Q8IVW4">
                 <synonym>D3DQA0</synonym>
                 <synonym>D3DQA1</synonym>
                 <synonym>Q9P114</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001107047.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000521118.5">
@@ -894,12 +894,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000430496.1">
               <coordinates coord_system="LRG_1006" start="9525" end="67914" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_057592.2" />
               <db_xref source="UniProtKB" accession="Q8IVW4">
                 <synonym>D3DQA0</synonym>
                 <synonym>D3DQA1</synonym>
                 <synonym>Q9P114</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_057592.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000520592.1">
@@ -1007,7 +1007,7 @@
         <name>List of locus specific databases for CDKL3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CDKL3</url>
       </source>
-      <modification_date>2016-07-25</modification_date>
+      <modification_date>2016-08-01</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
