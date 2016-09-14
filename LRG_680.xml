@@ -165,7 +165,7 @@
           <email>tom.winder@preventiongenetics.com</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -177,7 +177,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_id_syn="CM000671.1" other_start="35679990" other_end="35695054" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="15065" other_start="35679990" other_end="35695054" strand="-1" />
       </mapping>
@@ -197,7 +197,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011620.1</comment>
-      <modification_date>2016-07-01</modification_date>
+      <modification_date>2016-09-09</modification_date>
       <mapping coord_system="NM_001301226.1" other_name="NM_001301226.1" other_id="NM_001301226.1" other_start="1" other_end="1182" type="transcript">
         <mapping_span lrg_start="5002" lrg_end="5354" other_start="1" other_end="353" strand="1" />
         <mapping_span lrg_start="5787" lrg_end="5912" other_start="354" other_end="479" strand="1" />
@@ -257,9 +257,9 @@
           <db_xref source="GeneID" accession="7169" />
           <db_xref source="HGNC" accession="HGNC:12011" />
           <db_xref source="MIM" accession="190990" />
-          <db_xref source="CCDS" accession="CCDS6587.1" />
           <db_xref source="CCDS" accession="CCDS6586.1" />
           <db_xref source="CCDS" accession="CCDS78394.1" />
+          <db_xref source="CCDS" accession="CCDS6587.1" />
           <db_xref source="GI" accession="225543373" />
           <transcript source="RefSeq" accession="NM_213674.1" fixed_id="t1">
             <coordinates coord_system="LRG_680" start="5002" end="13065" strand="1" />
@@ -451,8 +451,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-04</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="ENST00000329305.6" other_name="ENST00000329305.6" other_id="ENST00000329305.6" other_start="1" other_end="1018" type="transcript">
         <mapping_span lrg_start="5145" lrg_end="5354" other_start="1" other_end="210" strand="1" />
         <mapping_span lrg_start="5787" lrg_end="5912" other_start="211" other_end="336" strand="1" />
@@ -528,12 +528,6 @@
           <symbol source="HGNC" name="TPM2" />
           <coordinates coord_system="LRG_680" start="4038" end="13066" strand="1" mapped_from="GRCh38" />
           <long_name>tropomyosin 2 (beta) (protein_coding)</long_name>
-          <db_xref source="MIM" accession="190990" />
-          <db_xref source="HGNC" accession="12011">
-            <synonym>AMCD1</synonym>
-            <synonym>DA1</synonym>
-            <synonym>NEM4</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="7169">
             <synonym>AMCD1</synonym>
             <synonym>DA1</synonym>
@@ -542,6 +536,12 @@
             <synonym>NEM4</synonym>
             <synonym>TMSB</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="12011">
+            <synonym>AMCD1</synonym>
+            <synonym>DA1</synonym>
+            <synonym>NEM4</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="190990" />
           <db_xref source="Ensembl" accession="ENSG00000198467" />
           <transcript source="Ensembl" accession="ENST00000378292.7">
             <coordinates coord_system="LRG_680" start="4038" end="13066" strand="1" mapped_from="GRCh38" />
@@ -577,6 +577,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000367542.3">
               <coordinates coord_system="LRG_680" start="5241" end="12977" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_998839.1" />
               <db_xref source="UniProtKB" accession="P07951">
                 <synonym>A6NM85</synonym>
                 <synonym>P06468</synonym>
@@ -586,7 +587,6 @@
                 <synonym>Q5TCU7</synonym>
                 <synonym>Q9UH67</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_998839.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000604975.1">
@@ -640,6 +640,8 @@
             <protein_product source="Ensembl" accession="ENSP00000354219.2">
               <coordinates coord_system="LRG_680" start="5241" end="11899" strand="1" mapped_from="GRCh38" />
               <long_name>tropomyosin beta chain isoform Tpm2.4</long_name>
+              <db_xref source="RefSeq" accession="NP_001288156.1" />
+              <db_xref source="RefSeq" accession="NP_003280.2" />
               <db_xref source="UniProtKB" accession="P07951">
                 <synonym>A6NM85</synonym>
                 <synonym>P06468</synonym>
@@ -649,8 +651,6 @@
                 <synonym>Q5TCU7</synonym>
                 <synonym>Q9UH67</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_003280.2" />
-              <db_xref source="RefSeq" accession="NP_001288156.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000329305.6">
@@ -786,16 +786,16 @@
           <symbol source="HGNC" name="CA9" />
           <coordinates coord_system="LRG_680" start="13899" end="15065" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>carbonic anhydrase IX (protein_coding)</long_name>
-          <db_xref source="MIM" accession="603179" />
-          <db_xref source="HGNC" accession="1383">
-            <synonym>CAIX</synonym>
-            <synonym>MN</synonym>
-          </db_xref>
+          <long_name>carbonic anhydrase 9 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="768">
             <synonym>CAIX</synonym>
             <synonym>MN</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="1383">
+            <synonym>CAIX</synonym>
+            <synonym>MN</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="603179" />
           <db_xref source="Ensembl" accession="ENSG00000107159" />
           <transcript source="Ensembl" accession="ENST00000378357.8">
             <coordinates coord_system="LRG_680" start="13899" end="15065" strand="-1" mapped_from="GRCh38" />
@@ -819,10 +819,10 @@
             <protein_product source="Ensembl" accession="ENSP00000367608.4">
               <coordinates coord_system="LRG_680" start="14033" end="15065" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <db_xref source="RefSeq" accession="NP_001207.2" />
               <db_xref source="UniProtKB" accession="Q16790">
                 <synonym>Q5T4R1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001207.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000485665.1">
@@ -876,7 +876,7 @@
         <name>List of locus specific databases for TPM2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TPM2</url>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

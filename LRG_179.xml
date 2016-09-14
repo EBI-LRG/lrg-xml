@@ -79,7 +79,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -91,7 +91,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_id_syn="CM000674.1" other_start="10267376" other_end="10287868" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="20493" other_start="10267376" other_end="10287868" strand="-1" />
       </mapping>
@@ -111,7 +111,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_016291.1</comment>
-      <modification_date>2016-07-01</modification_date>
+      <modification_date>2016-09-09</modification_date>
       <mapping coord_system="NM_022570.4" other_name="NM_022570.4" other_id="NM_022570.4" other_start="1" other_end="2474" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5290" other_start="1" other_end="290" strand="1" />
         <mapping_span lrg_start="7425" lrg_end="7523" other_start="291" other_end="389" strand="1" />
@@ -175,12 +175,12 @@
           <db_xref source="GeneID" accession="64581" />
           <db_xref source="HGNC" accession="HGNC:14558" />
           <db_xref source="MIM" accession="606264" />
-          <db_xref source="CCDS" accession="CCDS41754.1" />
           <db_xref source="CCDS" accession="CCDS8614.1" />
           <db_xref source="CCDS" accession="CCDS8617.1" />
           <db_xref source="CCDS" accession="CCDS41753.1" />
           <db_xref source="CCDS" accession="CCDS53744.1" />
           <db_xref source="CCDS" accession="CCDS8613.1" />
+          <db_xref source="CCDS" accession="CCDS41754.1" />
           <db_xref source="GI" accession="282721096" />
           <transcript source="RefSeq" accession="NM_197947.2" fixed_id="t1">
             <coordinates coord_system="LRG_179" start="5001" end="18493" strand="1" />
@@ -207,16 +207,6 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_922938.1" fixed_id="p1">
               <coordinates coord_system="LRG_179" start="5188" end="16812" strand="1" />
-              <long_name>C-type lectin domain family 7 member A isoform a</long_name>
-              <long_name>beta-glucan receptor</long_name>
-              <long_name>C-type (calcium dependent, carbohydrate-recognition domain) lectin, superfamily member 12</long_name>
-              <long_name>lectin-like receptor 1</long_name>
-              <long_name>dectin-1</long_name>
-              <long_name>dendritic cell-associated C-type lectin-1</long_name>
-              <long_name>DC-associated C-type lectin 1</long_name>
-              <long_name>C-type lectin superfamily member 12</long_name>
-              <long_name>dendritic cell-associated C-type lectin 1</long_name>
-              <long_name>C-type lectin domain family 7, member A</long_name>
               <db_xref source="CCDS" accession="CCDS41753.1" />
               <db_xref source="GeneID" accession="64581" />
               <db_xref source="GI" accession="37675373" />
@@ -363,8 +353,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-04</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="ENST00000298523.9" other_name="ENST00000298523.9" other_id="ENST00000298523.9" other_start="1" other_end="1154" type="transcript">
         <mapping_span lrg_start="5117" lrg_end="5290" other_start="1" other_end="174" strand="1" />
         <mapping_span lrg_start="7425" lrg_end="7523" other_start="175" other_end="273" strand="1" />
@@ -461,20 +451,22 @@
           <symbol source="HGNC" name="CLEC7A" />
           <coordinates coord_system="LRG_179" start="5012" end="18493" strand="1" mapped_from="GRCh38" />
           <long_name>C-type lectin domain family 7 member A (protein_coding)</long_name>
-          <db_xref source="MIM" accession="606264" />
-          <db_xref source="HGNC" accession="14558">
-            <synonym>CD369</synonym>
-            <synonym>CLECSF12</synonym>
-            <synonym>dectin-1</synonym>
-            <synonym>hDectin-1</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="64581">
             <synonym>BGR</synonym>
             <synonym>CANDF4</synonym>
             <synonym>CD369</synonym>
             <synonym>CLECSF12</synonym>
             <synonym>DECTIN1</synonym>
+            <synonym>SCARE2</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="14558">
+            <synonym>CD369</synonym>
+            <synonym>CLECSF12</synonym>
+            <synonym>dectin-1</synonym>
+            <synonym>hDectin-1</synonym>
+            <synonym>SCARE2</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="606264" />
           <db_xref source="Ensembl" accession="ENSG00000172243" />
           <transcript source="Ensembl" accession="ENST00000529761.5">
             <coordinates coord_system="LRG_179" start="5012" end="18493" strand="1" mapped_from="GRCh38" />
@@ -628,6 +620,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000266456.6">
               <coordinates coord_system="LRG_179" start="5188" end="16812" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_072092.2" />
               <db_xref source="UniProtKB" accession="Q9BXN2">
                 <synonym>B2R861</synonym>
                 <synonym>B7Z494</synonym>
@@ -644,7 +637,6 @@
                 <synonym>Q96PA8</synonym>
                 <synonym>Q9H1K3</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_072092.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000304084.12">
@@ -672,6 +664,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000302569.8">
               <coordinates coord_system="LRG_179" start="5188" end="16812" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_922938.1" />
               <db_xref source="UniProtKB" accession="Q9BXN2">
                 <synonym>B2R861</synonym>
                 <synonym>B7Z494</synonym>
@@ -688,7 +681,6 @@
                 <synonym>Q96PA8</synonym>
                 <synonym>Q9H1K3</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_922938.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000310002.4">
@@ -707,6 +699,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000312089.4">
               <coordinates coord_system="LRG_179" start="5188" end="7859" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_922945.1" />
               <db_xref source="UniProtKB" accession="Q9BXN2">
                 <synonym>B2R861</synonym>
                 <synonym>B7Z494</synonym>
@@ -723,7 +716,6 @@
                 <synonym>Q96PA8</synonym>
                 <synonym>Q9H1K3</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_922945.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000396484.6">
@@ -745,6 +737,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000379743.2">
               <coordinates coord_system="LRG_179" start="5188" end="16812" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_922941.1" />
               <db_xref source="UniProtKB" accession="Q9BXN2">
                 <synonym>B2R861</synonym>
                 <synonym>B7Z494</synonym>
@@ -761,7 +754,6 @@
                 <synonym>Q96PA8</synonym>
                 <synonym>Q9H1K3</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_922941.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000528799.1">
@@ -796,6 +788,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000298523.5">
               <coordinates coord_system="LRG_179" start="5188" end="16757" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_922940.1" />
               <db_xref source="UniProtKB" accession="Q9BXN2">
                 <synonym>B2R861</synonym>
                 <synonym>B7Z494</synonym>
@@ -812,7 +805,6 @@
                 <synonym>Q96PA8</synonym>
                 <synonym>Q9H1K3</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_922940.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000465100.5">
@@ -916,6 +908,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000431461.1">
               <coordinates coord_system="LRG_179" start="5188" end="16757" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_922939.1" />
               <db_xref source="UniProtKB" accession="Q9BXN2">
                 <synonym>B2R861</synonym>
                 <synonym>B7Z494</synonym>
@@ -932,7 +925,6 @@
                 <synonym>Q96PA8</synonym>
                 <synonym>Q9H1K3</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_922939.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -943,7 +935,7 @@
         <name>List of locus specific databases for CLEC7A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CLEC7A</url>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

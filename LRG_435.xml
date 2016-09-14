@@ -113,7 +113,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -125,7 +125,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_id_syn="CM000665.1" other_start="14161440" other_end="14187180" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="25741" other_start="14161440" other_end="14187180" strand="1" />
       </mapping>
@@ -145,7 +145,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008975.1</comment>
-      <modification_date>2016-07-01</modification_date>
+      <modification_date>2016-09-09</modification_date>
       <mapping coord_system="NM_024334.2" other_name="NM_024334.2" other_id="NM_024334.2" other_start="1" other_end="3342" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5266" other_start="1" other_end="266" strand="1" />
         <mapping_span lrg_start="9473" lrg_end="9622" other_start="267" other_end="416" strand="1" />
@@ -315,8 +315,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-04</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="ENST00000306077.4" other_name="ENST00000306077.4" other_id="ENST00000306077.4" other_start="1" other_end="3341" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5266" other_start="1" other_end="266" strand="1" />
         <mapping_span lrg_start="9473" lrg_end="9622" other_start="267" other_end="416" strand="1" />
@@ -346,16 +346,16 @@
           <coordinates coord_system="LRG_435" start="1" end="4931" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>coiled-coil-helix-coiled-coil-helix domain containing 4 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="611077" />
+          <db_xref source="GeneID" accession="131474">
+            <synonym>MIA40</synonym>
+            <synonym>TIMM40</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="26467">
             <synonym>FLJ31709</synonym>
             <synonym>MIA40</synonym>
             <synonym>TIMM40</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="131474">
-            <synonym>MIA40</synonym>
-            <synonym>TIMM40</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="611077" />
           <db_xref source="Ensembl" accession="ENSG00000163528" />
           <transcript source="Ensembl" accession="ENST00000295767.9">
             <coordinates coord_system="LRG_435" start="1" end="4931" strand="-1" mapped_from="GRCh38" />
@@ -372,12 +372,12 @@
             <protein_product source="Ensembl" accession="ENSP00000295767.5">
               <coordinates coord_system="LRG_435" start="1" end="2038" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <db_xref source="RefSeq" accession="NP_653237.1" />
               <db_xref source="UniProtKB" accession="Q8N4Q1">
                 <synonym>A8K3Z9</synonym>
                 <synonym>Q96AI2</synonym>
                 <synonym>Q96MY6</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_653237.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000396914.3">
@@ -392,46 +392,43 @@
             <protein_product source="Ensembl" accession="ENSP00000380122.3">
               <coordinates coord_system="LRG_435" start="1" end="4737" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <db_xref source="RefSeq" accession="NP_001091972.1" />
               <db_xref source="UniProtKB" accession="Q8N4Q1">
                 <synonym>A8K3Z9</synonym>
                 <synonym>Q96AI2</synonym>
                 <synonym>Q96MY6</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001091972.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000420103.1">
             <coordinates coord_system="LRG_435" start="1" end="4810" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>CHCHD4-003 (nonsense_mediated_decay)</long_name>
+            <long_name>CHCHD4-003 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00001683280">
               <coordinates coord_system="LRG_435" start="4716" end="4810" strand="-1" mapped_from="GRCh38" />
             </exon>
             <exon source="Ensembl" accession="ENSE00003691674">
               <coordinates coord_system="LRG_435" start="1978" end="2147" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000402716.1">
-              <coordinates coord_system="LRG_435" start="2068" end="4737" strand="-1" mapped_from="GRCh38" />
-            </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000170876.7">
           <symbol source="HGNC" name="TMEM43" />
           <coordinates coord_system="LRG_435" start="5001" end="23740" strand="1" mapped_from="GRCh38" />
           <long_name>transmembrane protein 43 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="612048" />
-          <db_xref source="HGNC" accession="28472">
-            <synonym>ARVD5</synonym>
-            <synonym>DKFZp586G1919</synonym>
-            <synonym>LUMA</synonym>
-            <synonym>MGC3222</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="79188">
             <synonym>ARVC5</synonym>
             <synonym>ARVD5</synonym>
             <synonym>EDMD7</synonym>
             <synonym>LUMA</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="28472">
+            <synonym>ARVD5</synonym>
+            <synonym>DKFZp586G1919</synonym>
+            <synonym>LUMA</synonym>
+            <synonym>MGC3222</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="612048" />
           <db_xref source="Ensembl" accession="ENSG00000170876" />
           <transcript source="Ensembl" accession="ENST00000306077.4">
             <coordinates coord_system="LRG_435" start="5001" end="23740" strand="1" mapped_from="GRCh38" />
@@ -476,6 +473,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000303992.4">
               <coordinates coord_system="LRG_435" start="5255" end="21856" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_077310.1" />
               <db_xref source="UniProtKB" accession="Q9BTV4">
                 <synonym>Q7L4N5</synonym>
                 <synonym>Q8NC30</synonym>
@@ -484,7 +482,6 @@
                 <synonym>Q96JX0</synonym>
                 <synonym>Q9H076</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_077310.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000432444.1">
@@ -694,18 +691,18 @@
           <symbol source="HGNC" name="XPC" />
           <coordinates coord_system="LRG_435" start="25208" end="25741" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>xeroderma pigmentosum, complementation group C (protein_coding)</long_name>
-          <db_xref source="MIM" accession="613208" />
-          <db_xref source="HGNC" accession="12816">
-            <synonym>RAD4</synonym>
-            <synonym>XPCC</synonym>
-          </db_xref>
+          <long_name>XPC complex subunit, DNA damage recognition and repair factor (protein_coding)</long_name>
           <db_xref source="GeneID" accession="7508">
             <synonym>p125</synonym>
             <synonym>RAD4</synonym>
             <synonym>XP3</synonym>
             <synonym>XPCC</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="12816">
+            <synonym>RAD4</synonym>
+            <synonym>XPCC</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="613208" />
           <db_xref source="Ensembl" accession="ENSG00000154767" />
           <transcript source="Ensembl" accession="ENST00000285021.11">
             <coordinates coord_system="LRG_435" start="25208" end="25741" strand="-1" mapped_from="GRCh38" />
@@ -726,7 +723,7 @@
         <name>List of locus specific databases for TMEM43</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TMEM43</url>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

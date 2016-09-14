@@ -113,7 +113,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -125,7 +125,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_id_syn="CM000674.1" other_start="25356180" other_end="25408854" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="52675" other_start="25356180" other_end="25408854" strand="-1">
           <diff type="mismatch" lrg_start="46390" lrg_end="46390" other_start="25362465" other_end="25362465" lrg_sequence="T" other_sequence="C" />
@@ -152,7 +152,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007524.1</comment>
-      <modification_date>2016-07-01</modification_date>
+      <modification_date>2016-09-09</modification_date>
       <mapping coord_system="NM_004985.4" other_name="NM_004985.4" other_id="NM_004985.4" other_start="1" other_end="5765" type="transcript">
         <mapping_span lrg_start="4990" lrg_end="5170" other_start="1" other_end="181" strand="1" />
         <mapping_span lrg_start="10526" lrg_end="10647" other_start="182" other_end="303" strand="1" />
@@ -172,6 +172,7 @@
         <gene source="NCBI-Gene" accession="3845">
           <symbol source="HGNC" name="KRAS">
             <synonym>C-K-RAS</synonym>
+            <synonym>c-Ki-ras2</synonym>
             <synonym>CFC2</synonym>
             <synonym>K-RAS2A</synonym>
             <synonym>K-RAS2B</synonym>
@@ -252,17 +253,19 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="144363">
-          <symbol source="HGNC" name="LYRM5" />
+          <symbol source="HGNC" name="ETFRF1">
+            <synonym>LYRM5</synonym>
+          </symbol>
           <coordinates coord_system="LRG_344" start="50906" end="52675" strand="-1" />
           <partial>5-prime</partial>
-          <long_name>LYR motif containing 5</long_name>
+          <long_name>electron transfer flavoprotein regulatory factor 1</long_name>
           <db_xref source="GeneID" accession="144363" />
           <db_xref source="HGNC" accession="HGNC:27052" />
           <db_xref source="CCDS" accession="CCDS53764.1" />
           <transcript source="RefSeq" accession="NM_001001660.2">
             <coordinates coord_system="LRG_344" start="50906" end="52001" strand="-1" />
             <partial>5-prime</partial>
-            <long_name>LYR motif containing 5</long_name>
+            <long_name>electron transfer flavoprotein regulatory factor 1</long_name>
             <db_xref source="GeneID" accession="144363" />
             <db_xref source="GI" accession="115430226" />
             <exon source="RefSeq" accession="">
@@ -292,8 +295,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-04</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="ENST00000256078.8" other_name="ENST00000256078.8" other_id="ENST00000256078.8" other_start="1" other_end="1119" type="transcript">
         <mapping_span lrg_start="5118" lrg_end="5170" other_start="1" other_end="53" strand="1" />
         <mapping_span lrg_start="10526" lrg_end="10647" other_start="54" other_end="175" strand="1" />
@@ -332,14 +335,7 @@
         <gene source="Ensembl" accession="ENSG00000133703.11">
           <symbol source="HGNC" name="KRAS" />
           <coordinates coord_system="LRG_344" start="4985" end="51132" strand="1" mapped_from="GRCh38" />
-          <long_name>Kirsten rat sarcoma viral oncogene homolog (protein_coding)</long_name>
-          <db_xref source="MIM" accession="190070">
-            <synonym>190110</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="6407">
-            <synonym>KRAS1</synonym>
-            <synonym>KRAS2</synonym>
-          </db_xref>
+          <long_name>KRAS proto-oncogene, GTPase (protein_coding)</long_name>
           <db_xref source="GeneID" accession="3845">
             <synonym>C-K-RAS</synonym>
             <synonym>CFC2</synonym>
@@ -354,6 +350,13 @@
             <synonym>NS3</synonym>
             <synonym>RALD</synonym>
             <synonym>RASK2</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="6407">
+            <synonym>KRAS1</synonym>
+            <synonym>KRAS2</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="190070">
+            <synonym>190110</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000133703" />
           <transcript source="Ensembl" accession="ENST00000557334.5">
@@ -394,13 +397,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000308495.3">
               <coordinates coord_system="LRG_344" start="10537" end="46126" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_004976.2" />
               <db_xref source="UniProtKB" accession="P01116">
                 <synonym>A8K8Z5</synonym>
                 <synonym>B0LPF9</synonym>
                 <synonym>P01118</synonym>
                 <synonym>Q96D10</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_004976.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000556131.1">
@@ -444,13 +447,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000256078.4">
               <coordinates coord_system="LRG_344" start="10537" end="40480" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_203524.1" />
               <db_xref source="UniProtKB" accession="P01116">
                 <synonym>A8K8Z5</synonym>
                 <synonym>B0LPF9</synonym>
                 <synonym>P01118</synonym>
                 <synonym>Q96D10</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_203524.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -485,8 +488,8 @@
           <coordinates coord_system="LRG_344" start="46276" end="52675" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>LYR motif containing 5 (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="27052" />
           <db_xref source="GeneID" accession="144363" />
+          <db_xref source="HGNC" accession="27052" />
           <db_xref source="Ensembl" accession="ENSG00000205707" />
           <transcript source="Ensembl" accession="ENST00000553788.5">
             <coordinates coord_system="LRG_344" start="46276" end="52675" strand="-1" mapped_from="GRCh38" />
@@ -547,10 +550,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000370761.4">
               <coordinates coord_system="LRG_344" start="51609" end="51964" strand="-1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001001660.2" />
               <db_xref source="UniProtKB" accession="Q6IPR1">
                 <synonym>J3KPI7</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001001660.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000556402.5">
@@ -648,7 +651,7 @@
         <name>List of locus specific databases for KRAS</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/KRAS</url>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

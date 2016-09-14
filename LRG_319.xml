@@ -99,7 +99,7 @@
           <email>Nazneen.Rahman@icr.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -111,7 +111,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_id_syn="CM000681.1" other_start="1184406" other_end="1230434" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="46029" other_start="1184406" other_end="1230434" strand="1" />
       </mapping>
@@ -131,7 +131,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007460.2</comment>
-      <modification_date>2016-07-01</modification_date>
+      <modification_date>2016-09-09</modification_date>
       <mapping coord_system="NM_000455.4" other_name="NM_000455.4" other_id="NM_000455.4" other_start="1" other_end="3276" type="transcript">
         <mapping_span lrg_start="21393" lrg_end="22797" other_start="1" other_end="1405" strand="1" />
         <mapping_span lrg_start="34011" lrg_end="34094" other_start="1406" other_end="1489" strand="1" />
@@ -202,12 +202,6 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_000446.1" fixed_id="p1">
               <coordinates coord_system="LRG_319" start="22508" end="42241" strand="1" />
-              <long_name>serine/threonine-protein kinase STK11</long_name>
-              <long_name>serine/threonine-protein kinase 11</long_name>
-              <long_name>polarization-related protein LKB1</long_name>
-              <long_name>renal carcinoma antigen NY-REN-19</long_name>
-              <long_name>serine/threonine-protein kinase LKB1</long_name>
-              <long_name>liver kinase B1</long_name>
               <db_xref source="CCDS" accession="CCDS45896.1" />
               <db_xref source="GeneID" accession="6794" />
               <db_xref source="GI" accession="4507271" />
@@ -250,8 +244,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-04</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="ENST00000326873.11" other_name="ENST00000326873.11" other_id="ENST00000326873.11" other_start="1" other_end="2611" type="transcript">
         <mapping_span lrg_start="22058" lrg_end="22797" other_start="1" other_end="740" strand="1" />
         <mapping_span lrg_start="34011" lrg_end="34094" other_start="741" other_end="824" strand="1" />
@@ -330,16 +324,16 @@
           <coordinates coord_system="LRG_319" start="1" end="44029" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>serine/threonine kinase 11 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="602216" />
-          <db_xref source="HGNC" accession="11389">
-            <synonym>LKB1</synonym>
-            <synonym>PJS</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="6794">
             <synonym>hLKB1</synonym>
             <synonym>LKB1</synonym>
             <synonym>PJS</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="11389">
+            <synonym>LKB1</synonym>
+            <synonym>PJS</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="602216" />
           <db_xref source="Ensembl" accession="ENSG00000118046" />
           <transcript source="Ensembl" accession="ENST00000585748.2">
             <coordinates coord_system="LRG_319" start="1" end="34980" strand="1" mapped_from="GRCh38" />
@@ -441,11 +435,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000324856.6">
               <coordinates coord_system="LRG_319" start="22508" end="42241" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_000446.1" />
               <db_xref source="UniProtKB" accession="Q15831">
                 <synonym>B2RBX7</synonym>
                 <synonym>E7EW76</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_000446.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000593219.5">
@@ -551,7 +545,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000585465.2">
             <coordinates coord_system="LRG_319" start="38742" end="43689" strand="1" mapped_from="GRCh38" />
-            <long_name>STK11-003 (retained_intron)</long_name>
+            <long_name>STK11-003 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00002758829">
               <coordinates coord_system="LRG_319" start="38742" end="38766" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -561,6 +555,9 @@
             <exon source="Ensembl" accession="ENSE00002882786">
               <coordinates coord_system="LRG_319" start="43187" end="43689" strand="1" mapped_from="GRCh38" />
             </exon>
+            <protein_product source="Ensembl" accession="ENSP00000490268.1">
+              <coordinates coord_system="LRG_319" start="38742" end="39338" strand="1" mapped_from="GRCh38" />
+            </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000267736.2">
@@ -581,17 +578,17 @@
           <symbol source="HGNC" name="CBARP" />
           <coordinates coord_system="LRG_319" start="43881" end="46029" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>calcium channel, voltage-dependent, beta subunit associated regulatory protein (protein_coding)</long_name>
+          <long_name>CACN beta subunit associated regulatory protein (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="255057">
+            <synonym>BARP</synonym>
+            <synonym>C19orf26</synonym>
+            <synonym>DOS</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="28617">
             <synonym>BARP</synonym>
             <synonym>C19orf26</synonym>
             <synonym>DOS</synonym>
             <synonym>MGC40084</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="255057">
-            <synonym>BARP</synonym>
-            <synonym>C19orf26</synonym>
-            <synonym>DOS</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000099625" />
           <transcript source="Ensembl" accession="ENST00000590083.5">
@@ -615,9 +612,6 @@
             <protein_product source="Ensembl" accession="ENSP00000371917.2">
               <coordinates coord_system="LRG_319" start="44773" end="46029" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="UniProtKB" accession="Q8N350">
-                <synonym>O43385</synonym>
-              </db_xref>
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000591127.1">
@@ -636,7 +630,7 @@
         <name>List of locus specific databases for STK11</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/STK11</url>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

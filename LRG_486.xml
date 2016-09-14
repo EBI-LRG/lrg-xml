@@ -203,7 +203,7 @@
           <email>s.povey@ucl.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -215,7 +215,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_id_syn="CM000671.1" other_start="135764735" other_end="135825020" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="60286" other_start="135764735" other_end="135825020" strand="-1" />
       </mapping>
@@ -235,7 +235,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012386.1</comment>
-      <modification_date>2016-07-01</modification_date>
+      <modification_date>2016-09-09</modification_date>
       <mapping coord_system="NM_000368.3" other_name="NM_000368.3" other_id="NM_000368.3" other_start="1" other_end="8615" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5091" other_start="1" other_end="91" strand="1" />
         <mapping_span lrg_start="14539" lrg_end="14601" other_start="92" other_end="154" strand="1" />
@@ -425,10 +425,6 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_000359.1" fixed_id="p1">
               <coordinates coord_system="LRG_486" start="20762" end="53399" strand="1" />
-              <long_name>hamartin isoform 1</long_name>
-              <long_name>hamartin</long_name>
-              <long_name>tumor suppressor</long_name>
-              <long_name>tuberous sclerosis 1 protein</long_name>
               <db_xref source="CCDS" accession="CCDS6956.1" />
               <db_xref source="GeneID" accession="7248" />
               <db_xref source="GI" accession="4507693" />
@@ -525,6 +521,7 @@
           <db_xref source="GeneID" accession="11092" />
           <db_xref source="HGNC" accession="HGNC:1367" />
           <db_xref source="CCDS" accession="CCDS6955.1" />
+          <db_xref source="CCDS" accession="CCDS83434.1" />
           <transcript source="RefSeq" accession="NR_133631.1">
             <coordinates coord_system="LRG_486" start="59602" end="60286" strand="-1" />
             <partial>5-prime</partial>
@@ -538,8 +535,6 @@
             <protein_product source="RefSeq" accession="NP_061829.3" codon_start="1">
               <coordinates coord_system="LRG_486" start="59666" end="59677" strand="-1" />
               <partial>5-prime</partial>
-              <long_name>uncharacterized protein C9orf9 isoform b</long_name>
-              <long_name>Rsb66 homolog</long_name>
               <db_xref source="CCDS" accession="CCDS6955.1" />
               <db_xref source="GeneID" accession="11092" />
               <db_xref source="GI" accession="33285006" />
@@ -558,8 +553,6 @@
             <protein_product source="RefSeq" accession="NP_001303829.1" codon_start="1">
               <coordinates coord_system="LRG_486" start="59666" end="59677" strand="-1" />
               <partial>5-prime</partial>
-              <long_name>uncharacterized protein C9orf9 isoform c</long_name>
-              <long_name>Rsb66 homolog</long_name>
               <db_xref source="GeneID" accession="11092" />
               <db_xref source="GI" accession="948284200" />
             </protein_product>
@@ -577,8 +570,6 @@
             <protein_product source="RefSeq" accession="NP_061829.3" codon_start="1">
               <coordinates coord_system="LRG_486" start="59666" end="59677" strand="-1" />
               <partial>5-prime</partial>
-              <long_name>uncharacterized protein C9orf9 isoform b</long_name>
-              <long_name>Rsb66 homolog</long_name>
               <db_xref source="CCDS" accession="CCDS6955.1" />
               <db_xref source="GeneID" accession="11092" />
               <db_xref source="GI" accession="33285006" />
@@ -597,8 +588,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-04</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="ENST00000298552.7" other_name="ENST00000298552.7" other_id="ENST00000298552.7" other_start="1" other_end="8604" type="transcript">
         <mapping_span lrg_start="5013" lrg_end="5091" other_start="1" other_end="79" strand="1" />
         <mapping_span lrg_start="14539" lrg_end="14601" other_start="80" other_end="142" strand="1" />
@@ -716,35 +707,34 @@
         <mapping_span lrg_start="52880" lrg_end="58284" other_start="2906" other_end="8310" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000233800.3">
-          <symbol source="Clone_based_vega_gene" name="RP11-295G24.4" />
-          <coordinates coord_system="LRG_486" start="1" end="2565" strand="-1" mapped_from="GRCh38" />
-          <partial>3-prime</partial>
-          <long_name>RP11-295G24.4 (sense_intronic)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000233800" />
-          <transcript source="Ensembl" accession="ENST00000443690.2">
-            <coordinates coord_system="LRG_486" start="1" end="2565" strand="-1" mapped_from="GRCh38" />
-            <partial>3-prime</partial>
-            <long_name>RP11-295G24.4-001 (sense_intronic)</long_name>
-            <exon source="Ensembl" accession="ENSE00001691650">
-              <coordinates coord_system="LRG_486" start="2388" end="2565" strand="-1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000165702.12">
+        <gene source="Ensembl" accession="ENSG00000165702.13">
           <symbol source="HGNC" name="GFI1B" />
-          <coordinates coord_system="LRG_486" start="1" end="4101" strand="-1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_486" start="1" end="5634" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>growth factor independent 1B transcription repressor (protein_coding)</long_name>
-          <db_xref source="MIM" accession="604383" />
-          <db_xref source="HGNC" accession="4238">
-            <synonym>ZNF163B</synonym>
-          </db_xref>
+          <long_name>growth factor independent 1B transcriptional repressor (protein_coding)</long_name>
           <db_xref source="GeneID" accession="8328">
             <synonym>BDPLT17</synonym>
             <synonym>ZNF163B</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="4238">
+            <synonym>ZNF163B</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="604383" />
           <db_xref source="Ensembl" accession="ENSG00000165702" />
+          <transcript source="Ensembl" accession="ENST00000443690.3">
+            <coordinates coord_system="LRG_486" start="1" end="5634" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>GFI1B-005 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003794232">
+              <coordinates coord_system="LRG_486" start="5588" end="5634" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003800707">
+              <coordinates coord_system="LRG_486" start="4838" end="5070" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001691650">
+              <coordinates coord_system="LRG_486" start="2388" end="2573" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000339463.7">
             <coordinates coord_system="LRG_486" start="1" end="4083" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
@@ -766,40 +756,21 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000263816.1">
-          <symbol source="HGNC" name="MIR548AW" />
-          <coordinates coord_system="LRG_486" start="3863" end="3927" strand="-1" mapped_from="GRCh38" />
-          <long_name>microRNA 548aw (miRNA)</long_name>
-          <db_xref source="miRBase" accession="MI0019283" />
-          <db_xref source="HGNC" accession="43454">
-            <synonym>hsa-mir-548aw</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="100846992" />
-          <db_xref source="Ensembl" accession="ENSG00000263816" />
-          <transcript source="Ensembl" accession="ENST00000584899.1">
-            <coordinates coord_system="LRG_486" start="3863" end="3927" strand="-1" mapped_from="GRCh38" />
-            <long_name>MIR548AW-201 (miRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_049862.1" />
-            <exon source="Ensembl" accession="ENSE00002711631">
-              <coordinates coord_system="LRG_486" start="3863" end="3927" strand="-1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000165699.13">
           <symbol source="HGNC" name="TSC1" />
           <coordinates coord_system="LRG_486" start="5001" end="58286" strand="1" mapped_from="GRCh38" />
           <long_name>tuberous sclerosis 1 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="605284" />
+          <db_xref source="GeneID" accession="7248">
+            <synonym>LAM</synonym>
+            <synonym>TSC</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="12362">
             <synonym>hamartin</synonym>
             <synonym>KIAA0243</synonym>
             <synonym>LAM</synonym>
             <synonym>TSC</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="7248">
-            <synonym>LAM</synonym>
-            <synonym>TSC</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="605284" />
           <db_xref source="Ensembl" accession="ENSG00000165699" />
           <transcript source="Ensembl" accession="ENST00000403810.5">
             <coordinates coord_system="LRG_486" start="5001" end="38425" strand="1" mapped_from="GRCh38" />
@@ -916,12 +887,12 @@
             <protein_product source="Ensembl" accession="ENSP00000298552.3">
               <coordinates coord_system="LRG_486" start="20762" end="53399" strand="1" mapped_from="GRCh38" />
               <long_name>hamartin isoform 3</long_name>
+              <db_xref source="RefSeq" accession="NP_001155898.1" />
+              <db_xref source="RefSeq" accession="NP_000359.1" />
               <db_xref source="UniProtKB" accession="Q92574">
                 <synonym>B7Z897</synonym>
                 <synonym>Q5VVN5</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_000359.1" />
-              <db_xref source="RefSeq" accession="NP_001155898.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000490179.2">
@@ -1075,11 +1046,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000444017.1">
               <coordinates coord_system="LRG_486" start="20762" end="53399" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001155899.1" />
               <db_xref source="UniProtKB" accession="Q92574">
                 <synonym>B7Z897</synonym>
                 <synonym>Q5VVN5</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001155899.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000440111.6">
@@ -1169,21 +1140,23 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000165698.15">
-          <symbol source="HGNC" name="C9orf9" />
+          <symbol source="HGNC" name="SPACA9" />
           <coordinates coord_system="LRG_486" start="59433" end="60286" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>chromosome 9 open reading frame 9 (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="1367">
+          <long_name>sperm acrosome associated 9 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="11092">
+            <synonym>C9orf9</synonym>
             <synonym>Mast</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="11092">
+          <db_xref source="HGNC" accession="1367">
+            <synonym>C9orf9</synonym>
             <synonym>Mast</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000165698" />
           <transcript source="Ensembl" accession="ENST00000350499.6">
             <coordinates coord_system="LRG_486" start="59433" end="60286" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>C9orf9-003 (protein_coding)</long_name>
+            <long_name>SPACA9-003 (protein_coding)</long_name>
             <db_xref source="CCDS" accession="CCDS6955.1" />
             <db_xref source="RefSeq" accession="NM_018956.3" />
             <exon source="Ensembl" accession="ENSE00001381028">
@@ -1193,17 +1166,17 @@
               <coordinates coord_system="LRG_486" start="59666" end="60286" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <long_name>uncharacterized protein C9orf9 isoform c</long_name>
+              <db_xref source="RefSeq" accession="NP_001303829.1" />
+              <db_xref source="RefSeq" accession="NP_061829.3" />
               <db_xref source="UniProtKB" accession="Q96E40">
                 <synonym>Q9UGQ0</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_061829.3" />
-              <db_xref source="RefSeq" accession="NP_001303829.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372136.7">
             <coordinates coord_system="LRG_486" start="59603" end="60286" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>C9orf9-001 (protein_coding)</long_name>
+            <long_name>SPACA9-001 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00001351023">
               <coordinates coord_system="LRG_486" start="59603" end="60286" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
@@ -1212,7 +1185,7 @@
           <transcript source="Ensembl" accession="ENST00000356311.9">
             <coordinates coord_system="LRG_486" start="59603" end="60286" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>C9orf9-002 (protein_coding)</long_name>
+            <long_name>SPACA9-002 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001316897.1" />
             <exon source="Ensembl" accession="ENSE00001351023">
               <coordinates coord_system="LRG_486" start="59603" end="60286" strand="-1" mapped_from="GRCh38" />
@@ -1227,7 +1200,7 @@
         <name>List of locus specific databases for TSC1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TSC1</url>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

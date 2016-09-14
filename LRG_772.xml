@@ -122,7 +122,7 @@
           <email>sichan@bcgsc.ca</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -134,7 +134,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="8" other_id="NC_000008.10" other_id_syn="CM000670.1" other_start="117856173" other_end="117892105" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="35933" other_start="117856173" other_end="117892105" strand="-1" />
       </mapping>
@@ -154,7 +154,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_032862.1</comment>
-      <modification_date>2016-07-01</modification_date>
+      <modification_date>2016-09-09</modification_date>
       <mapping coord_system="NM_006265.2" other_name="NM_006265.2" other_id="NM_006265.2" other_start="1" other_end="3750" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5256" other_start="1" other_end="256" strand="1" />
         <mapping_span lrg_start="13106" lrg_end="13281" other_start="257" other_end="432" strand="1" />
@@ -305,8 +305,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-04</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="ENST00000297338.6" other_name="ENST00000297338.6" other_id="ENST00000297338.6" other_start="1" other_end="3749" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5256" other_start="1" other_end="256" strand="1" />
         <mapping_span lrg_start="13106" lrg_end="13281" other_start="257" other_end="432" strand="1" />
@@ -378,16 +378,19 @@
         <mapping_span lrg_start="30838" lrg_end="30921" other_start="1636" other_end="1719" strand="1" />
         <mapping_span lrg_start="32176" lrg_end="32962" other_start="1720" other_end="2506" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000582903.1" other_name="ENST00000582903.1" other_id="ENST00000582903.1" other_start="1" other_end="73" type="transcript">
+        <mapping_span lrg_start="5067" lrg_end="5139" other_start="1" other_end="73" strand="1" />
+      </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000253327.2">
           <symbol source="HGNC" name="RAD21-AS1" />
           <coordinates coord_system="LRG_772" start="2999" end="5443" strand="-1" mapped_from="GRCh38" />
           <long_name>RAD21 antisense RNA 1 (antisense)</long_name>
-          <db_xref source="HGNC" accession="32158">
+          <db_xref source="GeneID" accession="644660">
             <synonym>C8orf81</synonym>
             <synonym>NCRNA00255</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="644660">
+          <db_xref source="HGNC" accession="32158">
             <synonym>C8orf81</synonym>
             <synonym>NCRNA00255</synonym>
           </db_xref>
@@ -404,16 +407,10 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000164754.12">
+        <gene source="Ensembl" accession="ENSG00000164754.13">
           <symbol source="HGNC" name="RAD21" />
           <coordinates coord_system="LRG_772" start="5001" end="33932" strand="1" mapped_from="GRCh38" />
           <long_name>RAD21 cohesin complex component (protein_coding)</long_name>
-          <db_xref source="MIM" accession="606462" />
-          <db_xref source="HGNC" accession="9811">
-            <synonym>hHR21</synonym>
-            <synonym>KIAA0078</synonym>
-            <synonym>SCC1</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="5885">
             <synonym>CDLS4</synonym>
             <synonym>hHR21</synonym>
@@ -423,6 +420,16 @@
             <synonym>NXP1</synonym>
             <synonym>SCC1</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="100500914">
+            <synonym>mir-3610</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="9811">
+            <synonym>hHR21</synonym>
+            <synonym>KIAA0078</synonym>
+            <synonym>SCC1</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="606462" />
+          <db_xref source="miRBase" accession="MI0016000" />
           <db_xref source="Ensembl" accession="ENSG00000164754" />
           <transcript source="Ensembl" accession="ENST00000297338.6">
             <coordinates coord_system="LRG_772" start="5001" end="33932" strand="1" mapped_from="GRCh38" />
@@ -473,13 +480,21 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000297338.2">
               <coordinates coord_system="LRG_772" start="13138" end="32367" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_006256.1" />
               <db_xref source="UniProtKB" accession="O60216">
                 <synonym>A8K0E0</synonym>
                 <synonym>Q15001</synonym>
                 <synonym>Q99568</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_006256.1" />
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000582903.1">
+            <coordinates coord_system="LRG_772" start="5067" end="5139" strand="1" mapped_from="GRCh38" />
+            <long_name>RAD21-201 (miRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_037404.1" />
+            <exon source="Ensembl" accession="ENSE00002695110">
+              <coordinates coord_system="LRG_772" start="5067" end="5139" strand="1" mapped_from="GRCh38" />
+            </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000517485.5">
             <coordinates coord_system="LRG_772" start="5339" end="22588" strand="1" mapped_from="GRCh38" />
@@ -650,27 +665,6 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000264875.1">
-          <symbol source="HGNC" name="MIR3610" />
-          <coordinates coord_system="LRG_772" start="5067" end="5139" strand="1" mapped_from="GRCh38" />
-          <long_name>microRNA 3610 (miRNA)</long_name>
-          <db_xref source="miRBase" accession="MI0016000" />
-          <db_xref source="HGNC" accession="38942">
-            <synonym>hsa-mir-3610</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="100500914">
-            <synonym>mir-3610</synonym>
-          </db_xref>
-          <db_xref source="Ensembl" accession="ENSG00000264875" />
-          <transcript source="Ensembl" accession="ENST00000582903.1">
-            <coordinates coord_system="LRG_772" start="5067" end="5139" strand="1" mapped_from="GRCh38" />
-            <long_name>MIR3610-201 (miRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_037404.1" />
-            <exon source="Ensembl" accession="ENSE00002695110">
-              <coordinates coord_system="LRG_772" start="5067" end="5139" strand="1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
         <gene source="Ensembl" accession="ENSG00000281527.1">
           <symbol source="Clone_based_ensembl_gene" name="AC087350.1" />
           <coordinates coord_system="LRG_772" start="28794" end="29983" strand="-1" mapped_from="GRCh38" />
@@ -701,12 +695,12 @@
           <coordinates coord_system="LRG_772" start="30404" end="35933" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>UTP23, small subunit processome component (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="84294">
+            <synonym>C8orf53</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="28224">
             <synonym>C8orf53</synonym>
             <synonym>MGC14595</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="84294">
-            <synonym>C8orf53</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000147679" />
           <transcript source="Ensembl" accession="ENST00000517820.1">
@@ -757,7 +751,7 @@
         <name>List of locus specific databases for RAD21</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RAD21</url>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

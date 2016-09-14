@@ -269,7 +269,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -281,7 +281,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="8" other_id="NC_000008.10" other_id_syn="CM000670.1" other_start="61586339" other_end="61781465" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="195127" other_start="61586339" other_end="61781465" strand="1" />
       </mapping>
@@ -301,7 +301,14 @@
         </contact>
       </source>
       <comment>Annotation from NG_007009.1</comment>
-      <modification_date>2016-07-01</modification_date>
+      <modification_date>2016-09-09</modification_date>
+      <mapping coord_system="NM_001316690.1" other_name="NM_001316690.1" other_id="NM_001316690.1" other_start="1" other_end="5116" type="transcript">
+        <mapping_span lrg_start="67480" lrg_end="69318" other_start="1" other_end="1839" strand="1" />
+        <mapping_span lrg_start="107221" lrg_end="107271" other_start="1840" other_end="1890" strand="1" />
+        <mapping_span lrg_start="188450" lrg_end="188557" other_start="1891" other_end="1998" strand="1" />
+        <mapping_span lrg_start="188769" lrg_end="188873" other_start="1999" other_end="2103" strand="1" />
+        <mapping_span lrg_start="191237" lrg_end="194249" other_start="2104" other_end="5116" strand="1" />
+      </mapping>
       <mapping coord_system="NM_017780.2" other_name="NM_017780.2" other_id="NM_017780.2" other_start="1" other_end="10444" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5303" other_start="1" other_end="303" strand="1" />
         <mapping_span lrg_start="67480" lrg_end="69318" other_start="304" other_end="2142" strand="1" />
@@ -395,6 +402,7 @@
           <db_xref source="GeneID" accession="55636" />
           <db_xref source="HGNC" accession="HGNC:20626" />
           <db_xref source="MIM" accession="608892" />
+          <db_xref source="CCDS" accession="CCDS83299.1" />
           <db_xref source="CCDS" accession="CCDS47865.1" />
           <db_xref source="GI" accession="158081724" />
           <transcript source="RefSeq" accession="NM_017780.2" fixed_id="t1">
@@ -518,10 +526,6 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_060250.2" fixed_id="p1">
               <coordinates coord_system="LRG_176" start="67654" end="192154" strand="1" />
-              <long_name>chromodomain-helicase-DNA-binding protein 7 isoform 1</long_name>
-              <long_name>chromodomain helicase DNA binding protein 7 isoform CRA_e</long_name>
-              <long_name>ATP-dependent helicase CHD7</long_name>
-              <long_name>CHARGE association</long_name>
               <db_xref source="CCDS" accession="CCDS47865.1" />
               <db_xref source="GeneID" accession="55636" />
               <db_xref source="GI" accession="54112403" />
@@ -540,8 +544,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-07-04</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-09-12</modification_date>
       <mapping coord_system="ENST00000423902.6" other_name="ENST00000423902.6" other_id="ENST00000423902.6" other_start="1" other_end="11568" type="transcript">
         <mapping_span lrg_start="4999" lrg_end="5303" other_start="1" other_end="305" strand="1" />
         <mapping_span lrg_start="67480" lrg_end="69318" other_start="306" other_end="2144" strand="1" />
@@ -651,19 +655,19 @@
           <symbol source="HGNC" name="CHD7" />
           <coordinates coord_system="LRG_176" start="4999" end="194249" strand="1" mapped_from="GRCh38" />
           <long_name>chromodomain helicase DNA binding protein 7 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="608892" />
-          <db_xref source="HGNC" accession="20626">
-            <synonym>CRG</synonym>
-            <synonym>FLJ20357</synonym>
-            <synonym>FLJ20361</synonym>
-            <synonym>KIAA1416</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="55636">
             <synonym>CRG</synonym>
             <synonym>HH5</synonym>
             <synonym>IS3</synonym>
             <synonym>KAL5</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="20626">
+            <synonym>CRG</synonym>
+            <synonym>FLJ20357</synonym>
+            <synonym>FLJ20361</synonym>
+            <synonym>KIAA1416</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="608892" />
           <db_xref source="Ensembl" accession="ENSG00000171316" />
           <transcript source="Ensembl" accession="ENST00000423902.6">
             <coordinates coord_system="LRG_176" start="4999" end="194249" strand="1" mapped_from="GRCh38" />
@@ -786,6 +790,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000392028.1">
               <coordinates coord_system="LRG_176" start="67654" end="192154" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_060250.2" />
               <db_xref source="UniProtKB" accession="Q9P2D1">
                 <synonym>D0VBA5</synonym>
                 <synonym>E9PNZ2</synonym>
@@ -797,7 +802,6 @@
                 <synonym>Q9NXA0</synonym>
                 <synonym>Q9NXA3</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_060250.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000526846.1">
@@ -834,6 +838,7 @@
             <protein_product source="Ensembl" accession="ENSP00000437061.1">
               <coordinates coord_system="LRG_176" start="67654" end="192154" strand="1" mapped_from="GRCh38" />
               <long_name>chromodomain-helicase-DNA-binding protein 7 isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001303619.1" />
               <db_xref source="UniProtKB" accession="Q9P2D1">
                 <synonym>D0VBA5</synonym>
                 <synonym>E9PNZ2</synonym>
@@ -845,7 +850,6 @@
                 <synonym>Q9NXA0</synonym>
                 <synonym>Q9NXA3</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_001303619.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000525508.1">
@@ -1033,7 +1037,7 @@
         <name>List of locus specific databases for CHD7</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CHD7</url>
       </source>
-      <modification_date>2016-07-04</modification_date>
+      <modification_date>2016-09-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
