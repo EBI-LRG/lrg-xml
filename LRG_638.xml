@@ -58,7 +58,7 @@
           <email>is250@cam.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-09-26</modification_date>
+      <modification_date>2016-10-03</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -70,7 +70,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-09-26</modification_date>
+      <modification_date>2016-10-03</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="20" other_id="NC_000020.10" other_id_syn="CM000682.1" other_start="33754774" other_end="33805707" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="50934" other_start="33754774" other_end="33805707" strand="1" />
       </mapping>
@@ -90,7 +90,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_032899.2</comment>
-      <modification_date>2016-09-21</modification_date>
+      <modification_date>2016-09-30</modification_date>
       <mapping coord_system="NM_006404.4" other_name="NM_006404.4" other_id="NM_006404.4" other_start="1" other_end="1484" type="transcript">
         <mapping_span lrg_start="4967" lrg_end="5254" other_start="1" other_end="288" strand="1" />
         <mapping_span lrg_start="7732" lrg_end="7983" other_start="289" other_end="540" strand="1" />
@@ -148,8 +148,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 84 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-09-26</modification_date>
+      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-10-03</modification_date>
       <mapping coord_system="ENST00000216968.4" other_name="ENST00000216968.4" other_id="ENST00000216968.4" other_start="1" other_end="1348" type="transcript">
         <mapping_span lrg_start="5103" lrg_end="5254" other_start="1" other_end="152" strand="1" />
         <mapping_span lrg_start="7732" lrg_end="7983" other_start="153" other_end="404" strand="1" />
@@ -171,17 +171,17 @@
           <symbol source="HGNC" name="PROCR" />
           <coordinates coord_system="LRG_638" start="5103" end="49270" strand="1" mapped_from="GRCh38" />
           <long_name>protein C receptor (protein_coding)</long_name>
-          <db_xref source="MIM" accession="600646" />
-          <db_xref source="HGNC" accession="9452">
-            <synonym>CCD41</synonym>
-            <synonym>CD201</synonym>
-            <synonym>EPCR</synonym>
-          </db_xref>
           <db_xref source="GeneID" accession="10544">
             <synonym>CCCA</synonym>
             <synonym>CCD41</synonym>
             <synonym>EPCR</synonym>
           </db_xref>
+          <db_xref source="HGNC" accession="9452">
+            <synonym>CCD41</synonym>
+            <synonym>CD201</synonym>
+            <synonym>EPCR</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="600646" />
           <db_xref source="Ensembl" accession="ENSG00000101000" />
           <transcript source="Ensembl" accession="ENST00000216968.4">
             <coordinates coord_system="LRG_638" start="5103" end="10392" strand="1" mapped_from="GRCh38" />
@@ -202,6 +202,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000216968.3">
               <coordinates coord_system="LRG_638" start="5185" end="9843" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_006395.2" />
               <db_xref source="UniProtKB" accession="Q9UNN8">
                 <synonym>B2RC04</synonym>
                 <synonym>Q14218</synonym>
@@ -209,7 +210,6 @@
                 <synonym>Q96CB3</synonym>
                 <synonym>Q9ULX1</synonym>
               </db_xref>
-              <db_xref source="RefSeq" accession="NP_006395.2" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000635377.1">
@@ -262,10 +262,10 @@
           <symbol source="HGNC" name="RNA5SP483" />
           <coordinates coord_system="LRG_638" start="28336" end="28453" strand="1" mapped_from="GRCh38" />
           <long_name>RNA, 5S ribosomal pseudogene 483 (rRNA)</long_name>
-          <db_xref source="RFAM" accession="RF00001" />
           <db_xref source="HGNC" accession="43383">
             <synonym>RN5S483</synonym>
           </db_xref>
+          <db_xref source="RFAM" accession="RF00001" />
           <db_xref source="Ensembl" accession="ENSG00000200301" />
           <transcript source="Ensembl" accession="ENST00000363431.1">
             <coordinates coord_system="LRG_638" start="28336" end="28453" strand="1" mapped_from="GRCh38" />
@@ -326,19 +326,6 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000264888.1">
-          <symbol source="Clone_based_ensembl_gene" name="AL121753.1" />
-          <coordinates coord_system="LRG_638" start="47619" end="47719" strand="1" mapped_from="GRCh38" />
-          <long_name>AL121753.1 (miRNA)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000264888" />
-          <transcript source="Ensembl" accession="ENST00000578222.1">
-            <coordinates coord_system="LRG_638" start="47619" end="47719" strand="1" mapped_from="GRCh38" />
-            <long_name>AL121753.1-201 (miRNA)</long_name>
-            <exon source="Ensembl" accession="ENSE00002727651">
-              <coordinates coord_system="LRG_638" start="47619" end="47719" strand="1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
       </features>
     </annotation_set>
     <annotation_set type="lsdb">
@@ -346,7 +333,7 @@
         <name>List of locus specific databases for PROCR</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PROCR</url>
       </source>
-      <modification_date>2016-09-26</modification_date>
+      <modification_date>2016-10-03</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
