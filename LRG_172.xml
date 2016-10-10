@@ -133,7 +133,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -145,7 +145,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="15" other_id="NC_000015.9" other_id_syn="CM000677.1" other_start="77282465" other_end="77331671" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="49207" other_start="77282465" other_end="77331671" strand="1" />
       </mapping>
@@ -165,7 +165,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007526.1</comment>
-      <modification_date>2016-09-30</modification_date>
+      <modification_date>2016-10-07</modification_date>
       <mapping coord_system="NM_001321135.1" other_name="NM_001321135.1" other_id="NM_001321135.1" other_start="1" other_end="1982" type="transcript">
         <mapping_span lrg_start="4962" lrg_end="5486" other_start="1" other_end="525" strand="1" />
         <mapping_span lrg_start="28025" lrg_end="28125" other_start="526" other_end="626" strand="1" />
@@ -281,8 +281,8 @@
           <db_xref source="GeneID" accession="9051" />
           <db_xref source="HGNC" accession="HGNC:9580" />
           <db_xref source="MIM" accession="606347" />
-          <db_xref source="CCDS" accession="CCDS81910.1" />
           <db_xref source="CCDS" accession="CCDS45312.1" />
+          <db_xref source="CCDS" accession="CCDS81910.1" />
           <db_xref source="GI" accession="183074518" />
           <transcript source="RefSeq" accession="NM_001321135.1">
             <coordinates coord_system="LRG_172" start="4962" end="47352" strand="1" />
@@ -409,8 +409,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-10-03</modification_date>
+      <comment>Annotation is based on Ensembl release 86 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-10-10</modification_date>
       <mapping coord_system="ENST00000379595.7" other_name="ENST00000379595.7" other_id="ENST00000379595.7" other_start="1" other_end="1840" type="transcript">
         <mapping_span lrg_start="5008" lrg_end="5486" other_start="1" other_end="479" strand="1" />
         <mapping_span lrg_start="28025" lrg_end="28125" other_start="480" other_end="580" strand="1" />
@@ -621,14 +621,7 @@
           <symbol source="HGNC" name="PSTPIP1" />
           <coordinates coord_system="LRG_172" start="3236" end="47209" strand="1" mapped_from="GRCh38" />
           <long_name>proline-serine-threonine phosphatase interacting protein 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="9051">
-            <synonym>CD2BP1</synonym>
-            <synonym>CD2BP1L</synonym>
-            <synonym>CD2BP1S</synonym>
-            <synonym>H-PIP</synonym>
-            <synonym>PAPAS</synonym>
-            <synonym>PSTPIP</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606347" />
           <db_xref source="HGNC" accession="9580">
             <synonym>CD2BP1</synonym>
             <synonym>CD2BP1L</synonym>
@@ -637,7 +630,14 @@
             <synonym>PAPAS</synonym>
             <synonym>PSTPIP</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="606347" />
+          <db_xref source="GeneID" accession="9051">
+            <synonym>CD2BP1</synonym>
+            <synonym>CD2BP1L</synonym>
+            <synonym>CD2BP1S</synonym>
+            <synonym>H-PIP</synonym>
+            <synonym>PAPAS</synonym>
+            <synonym>PSTPIP</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000140368" />
           <transcript source="Ensembl" accession="ENST00000558407.5">
             <coordinates coord_system="LRG_172" start="3236" end="35459" strand="1" mapped_from="GRCh38" />
@@ -775,14 +775,14 @@
             <protein_product source="Ensembl" accession="ENSP00000452746.1">
               <coordinates coord_system="LRG_172" start="5451" end="47053" strand="1" mapped_from="GRCh38" />
               <long_name>proline-serine-threonine phosphatase-interacting protein 1 isoform 3</long_name>
-              <db_xref source="RefSeq" accession="NP_001308065.1" />
-              <db_xref source="RefSeq" accession="NP_003969.2" />
               <db_xref source="UniProtKB" accession="O43586">
                 <synonym>B5BU74</synonym>
                 <synonym>B5BUK4</synonym>
                 <synonym>O43585</synonym>
                 <synonym>O95657</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_003969.2" />
+              <db_xref source="RefSeq" accession="NP_001308065.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000560223.5">
@@ -1117,13 +1117,13 @@
             <protein_product source="Ensembl" accession="ENSP00000452743.1">
               <coordinates coord_system="LRG_172" start="5451" end="47053" strand="1" mapped_from="GRCh38" />
               <long_name>proline-serine-threonine phosphatase-interacting protein 1 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001308064.1" />
               <db_xref source="UniProtKB" accession="O43586">
                 <synonym>B5BU74</synonym>
                 <synonym>B5BUK4</synonym>
                 <synonym>O43585</synonym>
                 <synonym>O95657</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001308064.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000559859.5">
@@ -1281,7 +1281,7 @@
         <name>List of locus specific databases for PSTPIP1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PSTPIP1</url>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

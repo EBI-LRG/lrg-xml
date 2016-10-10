@@ -143,7 +143,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -155,7 +155,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="Xq28" other_id="NW_003871103.3" other_id_syn="JH159150.3" other_start="2191735" other_end="2213668" type="patch">
         <mapping_span lrg_start="1" lrg_end="21934" other_start="2191735" other_end="2213668" strand="1">
           <diff type="mismatch" lrg_start="8566" lrg_end="8566" other_start="2200300" other_end="2200300" lrg_sequence="T" other_sequence="G" />
@@ -184,7 +184,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009780.1</comment>
-      <modification_date>2016-09-30</modification_date>
+      <modification_date>2016-10-07</modification_date>
       <mapping coord_system="NM_001142463.2" other_name="NM_001142463.2" other_id="NM_001142463.2" other_start="1" other_end="2576" type="transcript">
         <mapping_span lrg_start="4987" lrg_end="5226" other_start="1" other_end="240" strand="1" />
         <mapping_span lrg_start="7144" lrg_end="7211" other_start="241" other_end="308" strand="1" />
@@ -316,8 +316,8 @@
           <db_xref source="GeneID" accession="1736" />
           <db_xref source="HGNC" accession="HGNC:2890" />
           <db_xref source="MIM" accession="300126" />
-          <db_xref source="CCDS" accession="CCDS76062.1" />
           <db_xref source="CCDS" accession="CCDS14761.1" />
+          <db_xref source="CCDS" accession="CCDS76062.1" />
           <db_xref source="GI" accession="223671928" />
           <transcript source="RefSeq" accession="NM_001288747.1">
             <coordinates coord_system="LRG_55" start="4987" end="19934" strand="1" />
@@ -613,8 +613,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-10-03</modification_date>
+      <comment>Annotation is based on Ensembl release 86 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-10-10</modification_date>
       <mapping coord_system="ENST00000369550.9" other_name="ENST00000369550.9" other_id="ENST00000369550.9" other_start="1" other_end="2577" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5226" other_start="1" other_end="226" strand="1" />
         <mapping_span lrg_start="7144" lrg_end="7211" other_start="227" other_end="294" strand="1" />
@@ -750,10 +750,12 @@
           <symbol source="HGNC" name="DKC1" />
           <coordinates coord_system="LRG_55" start="4987" end="19934" strand="1" mapped_from="GRCh38" />
           <long_name>dyskerin pseudouridine synthase 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="1736">
-            <synonym>CBF5</synonym>
+          <db_xref source="miRBase" accession="MI0019134" />
+          <db_xref source="MIM" accession="300126" />
+          <db_xref source="HGNC" accession="2890">
+            <synonym>Cbf5</synonym>
             <synonym>DKC</synonym>
-            <synonym>DKCX</synonym>
+            <synonym>dyskerin</synonym>
             <synonym>NAP57</synonym>
             <synonym>NOLA4</synonym>
             <synonym>XAP101</synonym>
@@ -763,16 +765,14 @@
             <synonym>mir-664b</synonym>
             <synonym>MIR644B</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="2890">
-            <synonym>Cbf5</synonym>
+          <db_xref source="GeneID" accession="1736">
+            <synonym>CBF5</synonym>
             <synonym>DKC</synonym>
-            <synonym>dyskerin</synonym>
+            <synonym>DKCX</synonym>
             <synonym>NAP57</synonym>
             <synonym>NOLA4</synonym>
             <synonym>XAP101</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="300126" />
-          <db_xref source="miRBase" accession="MI0019134" />
           <db_xref source="Ensembl" accession="ENSG00000130826" />
           <transcript source="Ensembl" accession="ENST00000620277.4">
             <coordinates coord_system="LRG_55" start="4987" end="19933" strand="1" mapped_from="GRCh38" />
@@ -823,13 +823,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000478387.1">
               <coordinates coord_system="LRG_55" start="5211" end="16954" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001275676.1" />
               <db_xref source="UniProtKB" accession="O60832">
                 <synonym>F5BSB3</synonym>
                 <synonym>O43845</synonym>
                 <synonym>Q96G67</synonym>
                 <synonym>Q9Y505</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001275676.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000369550.9">
@@ -886,14 +886,14 @@
             <protein_product source="Ensembl" accession="ENSP00000358563.5">
               <coordinates coord_system="LRG_55" start="5211" end="19112" strand="1" mapped_from="GRCh38" />
               <long_name>H/ACA ribonucleoprotein complex subunit 4 isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001135935.1" />
-              <db_xref source="RefSeq" accession="NP_001354.1" />
               <db_xref source="UniProtKB" accession="O60832">
                 <synonym>F5BSB3</synonym>
                 <synonym>O43845</synonym>
                 <synonym>Q96G67</synonym>
                 <synonym>Q9Y505</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001354.1" />
+              <db_xref source="RefSeq" accession="NP_001135935.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000475423.1">
@@ -1148,13 +1148,13 @@
           <symbol source="HGNC" name="SNORA36A" />
           <coordinates coord_system="LRG_55" start="10773" end="10904" strand="1" mapped_from="GRCh38" />
           <long_name>small nucleolar RNA, H/ACA box 36A (snoRNA)</long_name>
-          <db_xref source="GeneID" accession="677817">
-            <synonym>ACA36</synonym>
-          </db_xref>
+          <db_xref source="RFAM" accession="RF00340" />
           <db_xref source="HGNC" accession="32628">
             <synonym>ACA36</synonym>
           </db_xref>
-          <db_xref source="RFAM" accession="RF00340" />
+          <db_xref source="GeneID" accession="677817">
+            <synonym>ACA36</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000206948" />
           <transcript source="Ensembl" accession="ENST00000384221.1">
             <coordinates coord_system="LRG_55" start="10773" end="10904" strand="1" mapped_from="GRCh38" />
@@ -1169,13 +1169,13 @@
           <symbol source="HGNC" name="SNORA56" />
           <coordinates coord_system="LRG_55" start="17243" end="17371" strand="1" mapped_from="GRCh38" />
           <long_name>small nucleolar RNA, H/ACA box 56 (snoRNA)</long_name>
-          <db_xref source="GeneID" accession="677835">
-            <synonym>ACA56</synonym>
-          </db_xref>
+          <db_xref source="RFAM" accession="RF00417" />
           <db_xref source="HGNC" accession="32650">
             <synonym>ACA56</synonym>
           </db_xref>
-          <db_xref source="RFAM" accession="RF00417" />
+          <db_xref source="GeneID" accession="677835">
+            <synonym>ACA56</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000206693" />
           <transcript source="Ensembl" accession="ENST00000383966.1">
             <coordinates coord_system="LRG_55" start="17243" end="17371" strand="1" mapped_from="GRCh38" />
@@ -1191,6 +1191,11 @@
           <coordinates coord_system="LRG_55" start="20929" end="21934" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>membrane palmitoylated protein 1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="305360" />
+          <db_xref source="HGNC" accession="7219">
+            <synonym>DXS552E</synonym>
+            <synonym>PEMP</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="4354">
             <synonym>AAG12</synonym>
             <synonym>DXS552E</synonym>
@@ -1198,11 +1203,6 @@
             <synonym>MRG1</synonym>
             <synonym>PEMP</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="7219">
-            <synonym>DXS552E</synonym>
-            <synonym>PEMP</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="305360" />
           <db_xref source="Ensembl" accession="ENSG00000130830" />
           <transcript source="Ensembl" accession="ENST00000369534.7">
             <coordinates coord_system="LRG_55" start="20929" end="21934" strand="-1" mapped_from="GRCh38" />
@@ -1218,14 +1218,14 @@
               <coordinates coord_system="LRG_55" start="21422" end="21934" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <long_name>55 kDa erythrocyte membrane protein isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001159932.1" />
-              <db_xref source="RefSeq" accession="NP_002427.1" />
               <db_xref source="UniProtKB" accession="Q00013">
                 <synonym>B4DZV5</synonym>
                 <synonym>G3XAI1</synonym>
                 <synonym>Q2TSB6</synonym>
                 <synonym>Q5J7V5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_002427.1" />
+              <db_xref source="RefSeq" accession="NP_001159932.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000491955.5">
@@ -1248,13 +1248,13 @@
             <protein_product source="Ensembl" accession="ENSP00000400155.3">
               <coordinates coord_system="LRG_55" start="21422" end="21934" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="RefSeq" accession="NP_001159934.1" />
               <db_xref source="UniProtKB" accession="Q00013">
                 <synonym>B4DZV5</synonym>
                 <synonym>G3XAI1</synonym>
                 <synonym>Q2TSB6</synonym>
                 <synonym>Q5J7V5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001159934.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000482757.1">
@@ -1285,13 +1285,13 @@
             <protein_product source="Ensembl" accession="ENSP00000377165.1">
               <coordinates coord_system="LRG_55" start="21422" end="21934" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="RefSeq" accession="NP_001159933.1" />
               <db_xref source="UniProtKB" accession="Q00013">
                 <synonym>B4DZV5</synonym>
                 <synonym>G3XAI1</synonym>
                 <synonym>Q2TSB6</synonym>
                 <synonym>Q5J7V5</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001159933.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -1302,7 +1302,7 @@
         <name>List of locus specific databases for DKC1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DKC1</url>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
