@@ -121,7 +121,7 @@
           <email>Kate.Thomson@ouh.nhs.uk</email>
         </contact>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -133,7 +133,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_id_syn="CM000664.1" other_start="105972169" other_end="106060230" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="88062" other_start="105972169" other_end="106060230" strand="-1" />
       </mapping>
@@ -153,7 +153,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008844.2</comment>
-      <modification_date>2016-09-30</modification_date>
+      <modification_date>2016-10-07</modification_date>
       <mapping coord_system="NM_001039492.2" other_name="NM_001039492.2" other_id="NM_001039492.2" other_start="1" other_end="1521" type="transcript">
         <mapping_span lrg_start="44656" lrg_end="44804" other_start="1" other_end="149" strand="1" />
         <mapping_span lrg_start="47077" lrg_end="47127" other_start="150" other_end="200" strand="1" />
@@ -495,8 +495,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-10-03</modification_date>
+      <comment>Annotation is based on Ensembl release 86 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-10-10</modification_date>
       <mapping coord_system="ENST00000322142.12" other_name="ENST00000322142.12" other_id="ENST00000322142.12" other_start="1" other_end="1462" type="transcript">
         <mapping_span lrg_start="44713" lrg_end="44804" other_start="1" other_end="92" strand="1" />
         <mapping_span lrg_start="47077" lrg_end="47127" other_start="93" other_end="143" strand="1" />
@@ -595,6 +595,11 @@
           <symbol source="HGNC" name="FHL2" />
           <coordinates coord_system="LRG_740" start="5261" end="86062" strand="1" mapped_from="GRCh38" />
           <long_name>four and a half LIM domains 2 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="602633" />
+          <db_xref source="HGNC" accession="3703">
+            <synonym>DRAL</synonym>
+            <synonym>SLIM3</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="2274">
             <synonym>AAG11</synonym>
             <synonym>DRAL</synonym>
@@ -602,11 +607,6 @@
             <synonym>SLIM-3</synonym>
             <synonym>SLIM3</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="3703">
-            <synonym>DRAL</synonym>
-            <synonym>SLIM3</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="602633" />
           <db_xref source="Ensembl" accession="ENSG00000115641" />
           <transcript source="Ensembl" accession="ENST00000607522.1">
             <coordinates coord_system="LRG_740" start="5261" end="57877" strand="1" mapped_from="GRCh38" />
@@ -647,8 +647,6 @@
             <protein_product source="Ensembl" accession="ENSP00000377020.3">
               <coordinates coord_system="LRG_740" start="57258" end="82491" strand="1" mapped_from="GRCh38" />
               <long_name>four and a half LIM domains protein 2 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_001305823.1" />
-              <db_xref source="RefSeq" accession="NP_963851.2" />
               <db_xref source="UniProtKB" accession="Q14192">
                 <synonym>Q13229</synonym>
                 <synonym>Q13644</synonym>
@@ -656,6 +654,8 @@
                 <synonym>Q5TM15</synonym>
                 <synonym>Q9P294</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_963851.2" />
+              <db_xref source="RefSeq" accession="NP_001305823.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000409177.5">
@@ -770,7 +770,6 @@
             <protein_product source="Ensembl" accession="ENSP00000350846.5">
               <coordinates coord_system="LRG_740" start="57258" end="80432" strand="1" mapped_from="GRCh38" />
               <long_name>four and a half LIM domains protein 2 isoform b</long_name>
-              <db_xref source="RefSeq" accession="NP_001305827.1" />
               <db_xref source="UniProtKB" accession="Q14192">
                 <synonym>Q13229</synonym>
                 <synonym>Q13644</synonym>
@@ -778,6 +777,7 @@
                 <synonym>Q5TM15</synonym>
                 <synonym>Q9P294</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001305827.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000322142.12">
@@ -810,9 +810,6 @@
             <protein_product source="Ensembl" accession="ENSP00000322909.8">
               <coordinates coord_system="LRG_740" start="57258" end="82491" strand="1" mapped_from="GRCh38" />
               <long_name>four and a half LIM domains protein 2 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_001305823.1" />
-              <db_xref source="RefSeq" accession="NP_001034581.1" />
-              <db_xref source="RefSeq" accession="NP_963849.1" />
               <db_xref source="UniProtKB" accession="Q14192">
                 <synonym>Q13229</synonym>
                 <synonym>Q13644</synonym>
@@ -820,6 +817,9 @@
                 <synonym>Q5TM15</synonym>
                 <synonym>Q9P294</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_963849.1" />
+              <db_xref source="RefSeq" accession="NP_001034581.1" />
+              <db_xref source="RefSeq" accession="NP_001305823.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000393353.7">
@@ -848,8 +848,6 @@
             <protein_product source="Ensembl" accession="ENSP00000377021.3">
               <coordinates coord_system="LRG_740" start="57258" end="82491" strand="1" mapped_from="GRCh38" />
               <long_name>four and a half LIM domains protein 2 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_001305823.1" />
-              <db_xref source="RefSeq" accession="NP_001441.4" />
               <db_xref source="UniProtKB" accession="Q14192">
                 <synonym>Q13229</synonym>
                 <synonym>Q13644</synonym>
@@ -857,6 +855,8 @@
                 <synonym>Q5TM15</synonym>
                 <synonym>Q9P294</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001441.4" />
+              <db_xref source="RefSeq" accession="NP_001305823.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000408995.5">
@@ -885,8 +885,6 @@
             <protein_product source="Ensembl" accession="ENSP00000386633.1">
               <coordinates coord_system="LRG_740" start="57258" end="82491" strand="1" mapped_from="GRCh38" />
               <long_name>four and a half LIM domains protein 2 isoform a, four and a half LIM domains protein 2 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_001305823.1" />
-              <db_xref source="RefSeq" accession="NP_001305825.1" />
               <db_xref source="UniProtKB" accession="Q14192">
                 <synonym>Q13229</synonym>
                 <synonym>Q13644</synonym>
@@ -894,6 +892,8 @@
                 <synonym>Q5TM15</synonym>
                 <synonym>Q9P294</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001305825.1" />
+              <db_xref source="RefSeq" accession="NP_001305823.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000409807.5">
@@ -921,7 +921,6 @@
             <protein_product source="Ensembl" accession="ENSP00000386665.1">
               <coordinates coord_system="LRG_740" start="57258" end="82491" strand="1" mapped_from="GRCh38" />
               <long_name>four and a half LIM domains protein 2 isoform a</long_name>
-              <db_xref source="RefSeq" accession="NP_001305823.1" />
               <db_xref source="UniProtKB" accession="Q14192">
                 <synonym>Q13229</synonym>
                 <synonym>Q13644</synonym>
@@ -929,6 +928,7 @@
                 <synonym>Q5TM15</synonym>
                 <synonym>Q9P294</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001305823.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000447958.1">
@@ -1015,7 +1015,7 @@
         <name>List of locus specific databases for FHL2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FHL2</url>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

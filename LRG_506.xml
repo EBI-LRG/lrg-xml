@@ -65,7 +65,7 @@
           <email>Nazneen.Rahman@icr.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -77,7 +77,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="530242" other_end="540550" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="10309" other_start="530242" other_end="540550" strand="-1" />
       </mapping>
@@ -100,7 +100,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007666.1</comment>
-      <modification_date>2016-09-30</modification_date>
+      <modification_date>2016-10-07</modification_date>
       <mapping coord_system="NM_001130442.2" other_name="NM_001130442.2" other_id="NM_001130442.2" other_start="1" other_end="1169" type="transcript">
         <mapping_span lrg_start="4984" lrg_end="5135" other_start="1" other_end="152" strand="1" />
         <mapping_span lrg_start="6176" lrg_end="6339" other_start="153" other_end="316" strand="1" />
@@ -168,8 +168,8 @@
           <db_xref source="GeneID" accession="3265" />
           <db_xref source="HGNC" accession="HGNC:5173" />
           <db_xref source="MIM" accession="190020" />
-          <db_xref source="CCDS" accession="CCDS7698.1" />
           <db_xref source="CCDS" accession="CCDS7699.1" />
+          <db_xref source="CCDS" accession="CCDS7698.1" />
           <db_xref source="GI" accession="187960074" />
           <transcript source="RefSeq" accession="NM_176795.4">
             <coordinates coord_system="LRG_506" start="4984" end="8309" strand="1" />
@@ -273,8 +273,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-10-03</modification_date>
+      <comment>Annotation is based on Ensembl release 86 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-10-10</modification_date>
       <mapping coord_system="ENST00000311189.7" other_name="ENST00000311189.7" other_id="ENST00000311189.7" other_start="1" other_end="894" type="transcript">
         <mapping_span lrg_start="5017" lrg_end="5135" other_start="1" other_end="119" strand="1" />
         <mapping_span lrg_start="6176" lrg_end="6339" other_start="120" other_end="283" strand="1" />
@@ -352,11 +352,11 @@
           <coordinates coord_system="LRG_506" start="1" end="3024" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>leucine rich repeat containing 56 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="115399" />
           <db_xref source="HGNC" accession="25430">
             <synonym>DKFZp761L1518</synonym>
             <synonym>FLJ00101</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="115399" />
           <db_xref source="Ensembl" accession="ENSG00000161328" />
           <transcript source="Ensembl" accession="ENST00000270115.7">
             <coordinates coord_system="LRG_506" start="1" end="3024" strand="-1" mapped_from="GRCh38" />
@@ -378,7 +378,13 @@
         <gene source="Ensembl" accession="ENSG00000174775.16">
           <symbol source="HGNC" name="HRAS" />
           <coordinates coord_system="LRG_506" start="3264" end="8309" strand="1" mapped_from="GRCh38" />
-          <long_name>Harvey rat sarcoma viral oncogene homolog (protein_coding)</long_name>
+          <long_name>HRas proto-oncogene, GTPase (protein_coding)</long_name>
+          <db_xref source="MIM" accession="190020">
+            <synonym>310990</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="5173">
+            <synonym>HRAS1</synonym>
+          </db_xref>
           <db_xref source="GeneID" accession="3265">
             <synonym>C-BAS/HAS</synonym>
             <synonym>C-H-RAS</synonym>
@@ -389,12 +395,6 @@
             <synonym>HRAS1</synonym>
             <synonym>p21ras</synonym>
             <synonym>RASH1</synonym>
-          </db_xref>
-          <db_xref source="HGNC" accession="5173">
-            <synonym>HRAS1</synonym>
-          </db_xref>
-          <db_xref source="MIM" accession="190020">
-            <synonym>310990</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000174775" />
           <transcript source="Ensembl" accession="ENST00000468682.2">
@@ -435,7 +435,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000388246.1">
               <coordinates coord_system="LRG_506" start="6229" end="7255" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_789765.1" />
               <db_xref source="UniProtKB" accession="P01112">
                 <synonym>B5BUA0</synonym>
                 <synonym>Q14080</synonym>
@@ -443,6 +442,7 @@
                 <synonym>Q9BR65</synonym>
                 <synonym>Q9UCE2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_789765.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000451590.5">
@@ -468,8 +468,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000407586.1">
               <coordinates coord_system="LRG_506" start="6229" end="7915" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_005334.1" />
-              <db_xref source="RefSeq" accession="NP_001123914.1" />
               <db_xref source="UniProtKB" accession="P01112">
                 <synonym>B5BUA0</synonym>
                 <synonym>Q14080</synonym>
@@ -477,6 +475,8 @@
                 <synonym>Q9BR65</synonym>
                 <synonym>Q9UCE2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001123914.1" />
+              <db_xref source="RefSeq" accession="NP_005334.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000493230.5">
@@ -508,7 +508,6 @@
             <protein_product source="Ensembl" accession="ENSP00000434023.1">
               <coordinates coord_system="LRG_506" start="6229" end="7255" strand="1" mapped_from="GRCh38" />
               <long_name>GTPase HRas isoform 3 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001304983.1" />
               <db_xref source="UniProtKB" accession="P01112">
                 <synonym>B5BUA0</synonym>
                 <synonym>Q14080</synonym>
@@ -516,6 +515,7 @@
                 <synonym>Q9BR65</synonym>
                 <synonym>Q9UCE2</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_001304983.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000311189.7">
@@ -671,7 +671,7 @@
         <name>List of locus specific databases for HRAS</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HRAS</url>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

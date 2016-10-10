@@ -64,7 +64,7 @@
           <email>UMP@ssi.dk</email>
         </contact>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -76,7 +76,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_id_syn="CM000671.1" other_start="132573221" other_end="132591441" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="18221" other_start="132573221" other_end="132591441" strand="-1" />
       </mapping>
@@ -96,7 +96,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008049.1</comment>
-      <modification_date>2016-09-30</modification_date>
+      <modification_date>2016-10-07</modification_date>
       <mapping coord_system="NM_000113.2" other_name="NM_000113.2" other_id="NM_000113.2" other_start="1" other_end="2106" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5255" other_start="1" other_end="255" strand="1" />
         <mapping_span lrg_start="6317" lrg_end="6582" other_start="256" other_end="521" strand="1" />
@@ -130,8 +130,6 @@
             <protein_product source="RefSeq" accession="NP_057604.1" codon_start="3">
               <coordinates coord_system="LRG_1029" start="911" end="1002" strand="1" />
               <partial>5-prime</partial>
-              <long_name>uncharacterized protein C9orf78</long_name>
-              <long_name>hepatocellular carcinoma-associated antigen 59</long_name>
               <db_xref source="CCDS" accession="CCDS6931.1" />
               <db_xref source="GeneID" accession="51759" />
               <db_xref source="GI" accession="7706557" />
@@ -172,13 +170,6 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_000104.1" fixed_id="p1">
               <coordinates coord_system="LRG_1029" start="5078" end="15191" strand="1" />
-              <long_name>torsin-1A precursor</long_name>
-              <long_name>dystonia 1, torsion (autosomal dominant; torsin A)</long_name>
-              <long_name>dystonia 1 protein</long_name>
-              <long_name>torsin ATPase 1</long_name>
-              <long_name>torsin ATPase-1A</long_name>
-              <long_name>torsin family 1, member A (torsin A)</long_name>
-              <long_name>torsin A</long_name>
               <db_xref source="CCDS" accession="CCDS6930.1" />
               <db_xref source="GeneID" accession="1861" />
               <db_xref source="GI" accession="4557541" />
@@ -242,8 +233,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 85 (GRCh38  primary assembly)</comment>
-      <modification_date>2016-10-03</modification_date>
+      <comment>Annotation is based on Ensembl release 86 (GRCh38  primary assembly)</comment>
+      <modification_date>2016-10-10</modification_date>
       <mapping coord_system="ENST00000351698.4" other_name="ENST00000351698.4" other_id="ENST00000351698.4" other_start="1" other_end="2076" type="transcript">
         <mapping_span lrg_start="5029" lrg_end="5255" other_start="1" other_end="227" strand="1" />
         <mapping_span lrg_start="6317" lrg_end="6582" other_start="228" other_end="493" strand="1" />
@@ -272,12 +263,12 @@
           <coordinates coord_system="LRG_1029" start="1" end="1873" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>chromosome 9 open reading frame 78 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="51759">
-            <synonym>bA409K20.3</synonym>
+          <db_xref source="HGNC" accession="24932">
             <synonym>HCA59</synonym>
             <synonym>HSPC220</synonym>
           </db_xref>
-          <db_xref source="HGNC" accession="24932">
+          <db_xref source="GeneID" accession="51759">
+            <synonym>bA409K20.3</synonym>
             <synonym>HCA59</synonym>
             <synonym>HSPC220</synonym>
           </db_xref>
@@ -294,12 +285,12 @@
             <protein_product source="Ensembl" accession="ENSP00000361524.3">
               <coordinates coord_system="LRG_1029" start="1" end="1002" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="RefSeq" accession="NP_057604.1" />
               <db_xref source="UniProtKB" accession="Q9NZ63">
                 <synonym>B3KPX8</synonym>
                 <synonym>Q8WVU6</synonym>
                 <synonym>Q9NT39</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_057604.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000461349.5">
@@ -333,15 +324,15 @@
           <symbol source="HGNC" name="TOR1A" />
           <coordinates coord_system="LRG_1029" start="5029" end="16219" strand="1" mapped_from="GRCh38" />
           <long_name>torsin family 1 member A (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="1861">
-            <synonym>DQ2</synonym>
-            <synonym>DYT1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="605204" />
           <db_xref source="HGNC" accession="3098">
             <synonym>DQ2</synonym>
             <synonym>DYT1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="605204" />
+          <db_xref source="GeneID" accession="1861">
+            <synonym>DQ2</synonym>
+            <synonym>DYT1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000136827" />
           <transcript source="Ensembl" accession="ENST00000351698.4">
             <coordinates coord_system="LRG_1029" start="5029" end="16219" strand="1" mapped_from="GRCh38" />
@@ -365,12 +356,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000345719.4">
               <coordinates coord_system="LRG_1029" start="5078" end="15191" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_000104.1" />
               <db_xref source="UniProtKB" accession="O14656">
                 <synonym>B2RB58</synonym>
                 <synonym>Q53Y64</synonym>
                 <synonym>Q96CA0</synonym>
               </db_xref>
+              <db_xref source="RefSeq" accession="NP_000104.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000473084.1">
@@ -418,14 +409,14 @@
           <coordinates coord_system="LRG_1029" start="17882" end="18221" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>torsin family 1 member B (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="27348">
-            <synonym>DQ1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="608050" />
           <db_xref source="HGNC" accession="11995">
             <synonym>DQ1</synonym>
             <synonym>MGC4386</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="608050" />
+          <db_xref source="GeneID" accession="27348">
+            <synonym>DQ1</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000136816" />
           <transcript source="Ensembl" accession="ENST00000259339.6">
             <coordinates coord_system="LRG_1029" start="17882" end="18221" strand="-1" mapped_from="GRCh38" />
@@ -446,7 +437,7 @@
         <name>List of locus specific databases for TOR1A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TOR1A</url>
       </source>
-      <modification_date>2016-10-03</modification_date>
+      <modification_date>2016-10-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
