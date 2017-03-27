@@ -95,7 +95,7 @@
           <email>valerie.delague@univ-amu.fr</email>
         </contact>
       </source>
-      <modification_date>2017-03-20</modification_date>
+      <modification_date>2017-03-27</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -107,7 +107,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-03-20</modification_date>
+      <modification_date>2017-03-27</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="5" other_id="NC_000005.9" other_id_syn="CM000667.1" other_start="16471147" other_end="16622118" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="150972" other_start="16471147" other_end="16622118" strand="-1">
           <diff type="mismatch" lrg_start="5020" lrg_end="5020" other_start="16617099" other_end="16617099" lrg_sequence="C" other_sequence="T" />
@@ -131,7 +131,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_016644.2</comment>
-      <modification_date>2017-03-17</modification_date>
+      <modification_date>2017-03-24</modification_date>
       <mapping coord_system="NM_001034850.2" other_name="NM_001034850.2" other_id="NM_001034850.2" other_start="1" other_end="3284" type="transcript">
         <mapping_span lrg_start="4952" lrg_end="5358" other_start="1" other_end="407" strand="1" />
         <mapping_span lrg_start="49908" lrg_end="50014" other_start="408" other_end="514" strand="1" />
@@ -154,12 +154,13 @@
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="54463">
-          <symbol name="FAM134B">
+          <symbol source="HGNC" name="RETREG1">
+            <synonym>FAM134B</synonym>
             <synonym>JK-1</synonym>
             <synonym>JK1</synonym>
           </symbol>
           <coordinates coord_system="LRG_363" start="4952" end="148972" strand="1" />
-          <long_name>family with sequence similarity 134 member B</long_name>
+          <long_name>reticulophagy regulator 1</long_name>
           <db_xref source="GeneID" accession="54463" />
           <db_xref source="HGNC" accession="HGNC:25964" />
           <db_xref source="MIM" accession="613114" />
@@ -168,7 +169,7 @@
           <db_xref source="GI" accession="356995899" />
           <transcript source="RefSeq" accession="NM_001034850.2" fixed_id="t1">
             <coordinates coord_system="LRG_363" start="4952" end="148972" strand="1" />
-            <long_name>family with sequence similarity 134 member B, transcript variant 1</long_name>
+            <long_name>reticulophagy regulator 1, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="54463" />
             <db_xref source="GI" accession="356582279" />
             <exon source="RefSeq" accession="">
@@ -207,7 +208,7 @@
           </transcript>
           <transcript source="RefSeq" accession="NM_019000.4">
             <coordinates coord_system="LRG_363" start="113012" end="148972" strand="1" />
-            <long_name>family with sequence similarity 134 member B, transcript variant 2</long_name>
+            <long_name>reticulophagy regulator 1, transcript variant 2</long_name>
             <db_xref source="GeneID" accession="54463" />
             <db_xref source="GI" accession="356582286" />
             <exon source="RefSeq" accession="">
@@ -253,7 +254,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-03-20</modification_date>
+      <modification_date>2017-03-27</modification_date>
       <features>
         <gene source="Ensembl" accession="ENSG00000246214.1">
           <symbol source="Clone_based_vega_gene" name="RP11-260E18.1" />
@@ -315,7 +316,6 @@
           <transcript source="Ensembl" accession="ENST00000306320.9">
             <coordinates coord_system="LRG_363" start="4952" end="148956" strand="1" mapped_from="GRCh38" />
             <long_name>FAM134B-001 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS43304.1" />
             <db_xref source="RefSeq" accession="NM_001034850.2" />
             <exon source="Ensembl" accession="ENSE00002055885">
               <coordinates coord_system="LRG_363" start="4952" end="5358" strand="1" mapped_from="GRCh38" />
@@ -353,6 +353,7 @@
                 <synonym>Q9H764</synonym>
                 <synonym>Q9NXM8</synonym>
               </db_xref>
+              <db_xref source="CCDS" accession="CCDS43304.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000509048.1">
@@ -393,7 +394,6 @@
           <transcript source="Ensembl" accession="ENST00000399793.6">
             <coordinates coord_system="LRG_363" start="113012" end="148957" strand="1" mapped_from="GRCh38" />
             <long_name>FAM134B-003 (protein_coding)</long_name>
-            <db_xref source="CCDS" accession="CCDS43305.1" />
             <db_xref source="RefSeq" accession="NM_019000.4" />
             <exon source="Ensembl" accession="ENSE00001540209">
               <coordinates coord_system="LRG_363" start="113012" end="113432" strand="1" mapped_from="GRCh38" />
@@ -425,6 +425,7 @@
                 <synonym>Q9H764</synonym>
                 <synonym>Q9NXM8</synonym>
               </db_xref>
+              <db_xref source="CCDS" accession="CCDS43305.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000506441.1">
@@ -464,7 +465,7 @@
         <name>List of locus specific databases for RETREG1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RETREG1</url>
       </source>
-      <modification_date>2017-03-20</modification_date>
+      <modification_date>2017-03-27</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
