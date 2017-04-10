@@ -57,7 +57,7 @@
           <email>jill.storry@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -69,7 +69,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_id_syn="CM000669.1" other_start="30888010" other_end="30967131" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="79123" other_start="30888010" other_end="30967131" strand="1">
           <diff type="lrg_ins" lrg_start="15572" lrg_end="15572" other_start="30903580" other_end="30903581" lrg_sequence="C" other_sequence="-" />
@@ -269,13 +269,13 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-04-06</modification_date>
-      <mapping coord_system="ENST00000311813.8" other_name="ENST00000311813.8" other_id="ENST00000311813.8" other_start="1" other_end="2752" type="transcript">
-        <mapping_span lrg_start="63462" lrg_end="63900" other_start="1" other_end="439" strand="1" />
-        <mapping_span lrg_start="73673" lrg_end="73837" other_start="440" other_end="604" strand="1" />
-        <mapping_span lrg_start="74171" lrg_end="74251" other_start="605" other_end="685" strand="1" />
-        <mapping_span lrg_start="75057" lrg_end="77123" other_start="686" other_end="2752" strand="1" />
+      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-04-10</modification_date>
+      <mapping coord_system="ENST00000311813.9" other_name="ENST00000311813.9" other_id="ENST00000311813.9" other_start="1" other_end="2913" type="transcript">
+        <mapping_span lrg_start="63301" lrg_end="63900" other_start="1" other_end="600" strand="1" />
+        <mapping_span lrg_start="73673" lrg_end="73837" other_start="601" other_end="765" strand="1" />
+        <mapping_span lrg_start="74171" lrg_end="74251" other_start="766" other_end="846" strand="1" />
+        <mapping_span lrg_start="75057" lrg_end="77123" other_start="847" other_end="2913" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000409611.1" other_name="ENST00000409611.1" other_id="ENST00000409611.1" other_start="1" other_end="1140" type="transcript">
         <mapping_span lrg_start="73097" lrg_end="73445" other_start="1" other_end="349" strand="1" />
@@ -304,16 +304,19 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000254959.6">
-          <symbol source="HGNC" name="INMT-FAM188B" />
+          <symbol source="HGNC" name="INMT-MINDY4" />
           <coordinates coord_system="LRG_808" start="1" end="43688" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>INMT-FAM188B readthrough (NMD candidate) (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="41995" />
+          <long_name>INMT-MINDY4 readthrough (NMD candidate) (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="41995">
+            <synonym>INMT-FAM188B</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000254959" />
           <transcript source="Ensembl" accession="ENST00000458257.5">
             <coordinates coord_system="LRG_808" start="1" end="43688" strand="1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>INMT-FAM188B-001 (nonsense_mediated_decay)</long_name>
+            <long_name>INMT-MINDY4-001 (nonsense_mediated_decay)</long_name>
+            <db_xref source="RefSeq" accession="NR_037598.1" />
             <exon source="Ensembl" accession="ENSE00003520134">
               <coordinates coord_system="LRG_808" start="2061" end="2162" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -344,22 +347,21 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000106125.14">
-          <symbol source="HGNC" name="FAM188B" />
+          <symbol source="HGNC" name="MINDY4" />
           <coordinates coord_system="LRG_808" start="1" end="43994" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>family with sequence similarity 188 member B (protein_coding)</long_name>
+          <long_name>MINDY lysine 48 deubiquitinase 4 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="84182" />
           <db_xref source="HGNC" accession="21916">
             <synonym>C7orf67</synonym>
+            <synonym>FAM188B</synonym>
             <synonym>FLJ22374</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="84182">
-            <synonym>C7orf67</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000106125" />
           <transcript source="Ensembl" accession="ENST00000265299.6">
             <coordinates coord_system="LRG_808" start="1" end="43994" strand="1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>FAM188B-001 (protein_coding)</long_name>
+            <long_name>MINDY4-001 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_032222.2" />
             <exon source="Ensembl" accession="ENSE00003468210">
               <coordinates coord_system="LRG_808" start="2061" end="2162" strand="1" mapped_from="GRCh38" />
@@ -392,16 +394,13 @@
               <coordinates coord_system="LRG_808" start="1" end="43612" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <db_xref source="RefSeq" accession="NP_115598.2" />
-              <db_xref source="UniProtKB" accession="Q4G0A6">
-                <synonym>Q71AZ7</synonym>
-                <synonym>Q9H6D2</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q4G0A6" />
               <db_xref source="CCDS" accession="CCDS43565.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000409881.1">
             <coordinates coord_system="LRG_808" start="9354" end="43993" strand="1" mapped_from="GRCh38" />
-            <long_name>FAM188B-002 (retained_intron)</long_name>
+            <long_name>MINDY4-002 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001583644">
               <coordinates coord_system="LRG_808" start="9354" end="10931" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -468,29 +467,23 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000240583.10">
+        <gene source="Ensembl" accession="ENSG00000240583.11">
           <symbol source="HGNC" name="AQP1" />
-          <coordinates coord_system="LRG_808" start="63462" end="77123" strand="1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_808" start="63301" end="77123" strand="1" mapped_from="GRCh38" />
           <long_name>aquaporin 1 (Colton blood group) (protein_coding)</long_name>
-          <db_xref source="MIM" accession="107776">
-            <synonym>118150</synonym>
-          </db_xref>
+          <db_xref source="GeneID" accession="358" />
           <db_xref source="HGNC" accession="633">
             <synonym>CHIP28</synonym>
             <synonym>CO</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="358">
-            <synonym>AQP-CHIP</synonym>
-            <synonym>CHIP28</synonym>
-            <synonym>CO</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="107776" />
           <db_xref source="Ensembl" accession="ENSG00000240583" />
-          <transcript source="Ensembl" accession="ENST00000311813.8" fixed_id="t1">
-            <coordinates coord_system="LRG_808" start="63462" end="77123" strand="1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000311813.9" fixed_id="t1">
+            <coordinates coord_system="LRG_808" start="63301" end="77123" strand="1" mapped_from="GRCh38" />
             <long_name>AQP1-001 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_198098.2" />
             <exon source="Ensembl" accession="ENSE00001939785">
-              <coordinates coord_system="LRG_808" start="63462" end="63900" strand="1" mapped_from="GRCh38" />
+              <coordinates coord_system="LRG_808" start="63301" end="63900" strand="1" mapped_from="GRCh38" />
             </exon>
             <exon source="Ensembl" accession="ENSE00003687504">
               <coordinates coord_system="LRG_808" start="73673" end="73837" strand="1" mapped_from="GRCh38" />
@@ -504,14 +497,7 @@
             <protein_product source="Ensembl" accession="ENSP00000311165.4">
               <coordinates coord_system="LRG_808" start="63517" end="75236" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_932766.1" />
-              <db_xref source="UniProtKB" accession="P29972">
-                <synonym>B5BU39</synonym>
-                <synonym>E7EM69</synonym>
-                <synonym>E9PC21</synonym>
-                <synonym>F5GY19</synonym>
-                <synonym>Q8TBI5</synonym>
-                <synonym>Q8TDC1</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P29972" />
               <db_xref source="CCDS" accession="CCDS5431.1" />
             </protein_product>
           </transcript>
@@ -553,14 +539,7 @@
             <protein_product source="Ensembl" accession="ENSP00000405698.2">
               <coordinates coord_system="LRG_808" start="73311" end="75236" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001171989.1" />
-              <db_xref source="UniProtKB" accession="P29972">
-                <synonym>B5BU39</synonym>
-                <synonym>E7EM69</synonym>
-                <synonym>E9PC21</synonym>
-                <synonym>F5GY19</synonym>
-                <synonym>Q8TBI5</synonym>
-                <synonym>Q8TDC1</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P29972" />
               <db_xref source="CCDS" accession="CCDS55098.1" />
             </protein_product>
           </transcript>
@@ -583,14 +562,7 @@
             <protein_product source="Ensembl" accession="ENSP00000386712.1">
               <coordinates coord_system="LRG_808" start="73193" end="75236" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001171991.1" />
-              <db_xref source="UniProtKB" accession="P29972">
-                <synonym>B5BU39</synonym>
-                <synonym>E7EM69</synonym>
-                <synonym>E9PC21</synonym>
-                <synonym>F5GY19</synonym>
-                <synonym>Q8TBI5</synonym>
-                <synonym>Q8TDC1</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P29972" />
               <db_xref source="CCDS" accession="CCDS55096.1" />
             </protein_product>
           </transcript>
@@ -613,15 +585,7 @@
             <protein_product source="Ensembl" accession="ENSP00000387178.1">
               <coordinates coord_system="LRG_808" start="73215" end="75236" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001171990.1" />
-              <db_xref source="UniProtKB" accession="P29972">
-                <synonym>B5BU39</synonym>
-                <synonym>E7EM69</synonym>
-                <synonym>E9PC21</synonym>
-                <synonym>F5GY19</synonym>
-                <synonym>Q8TBI5</synonym>
-                <synonym>Q8TDC1</synonym>
-              </db_xref>
-              <db_xref source="CCDS" accession="CCDS55097.1" />
+              <db_xref source="UniProtKB" accession="P29972" />
             </protein_product>
           </transcript>
         </gene>
@@ -632,7 +596,7 @@
         <name>List of locus specific databases for AQP1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/AQP1</url>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -113,7 +113,7 @@
           <email>auerbac@mail.rockefeller.edu</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -125,7 +125,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_id_syn="CM000679.1" other_start="56764963" other_end="56813692" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="48730" other_start="56764963" other_end="56813692" strand="1" />
       </mapping>
@@ -277,8 +277,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-04-06</modification_date>
+      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="ENST00000337432.8" other_name="ENST00000337432.8" other_id="ENST00000337432.8" other_start="1" other_end="2591" type="transcript">
         <mapping_span lrg_start="4972" lrg_end="5187" other_start="1" other_end="216" strand="1" />
         <mapping_span lrg_start="7330" lrg_end="7588" other_start="217" other_end="475" strand="1" />
@@ -411,23 +411,37 @@
         <mapping_span lrg_start="12274" lrg_end="12652" other_start="308" other_end="686" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000266826.2">
+          <symbol source="Clone_based_vega_gene" name="CTD-2200P10.1" />
+          <coordinates coord_system="LRG_314" start="1" end="4417" strand="-1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>CTD-2200P10.1 (protein_coding)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000266826" />
+          <transcript source="Ensembl" accession="ENST00000583666.2">
+            <coordinates coord_system="LRG_314" start="1" end="4417" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>CTD-2200P10.1-001 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003804343">
+              <coordinates coord_system="LRG_314" start="4338" end="4417" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000121101.15">
           <symbol source="HGNC" name="TEX14" />
           <coordinates coord_system="LRG_314" start="1" end="4454" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>testis expressed 14, intercellular bridge forming factor (protein_coding)</long_name>
-          <db_xref source="MIM" accession="605792" />
+          <db_xref source="GeneID" accession="56155" />
           <db_xref source="HGNC" accession="11737">
             <synonym>CT113</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="56155">
-            <synonym>CT113</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="605792" />
           <db_xref source="Ensembl" accession="ENSG00000121101" />
           <transcript source="Ensembl" accession="ENST00000389934.7">
             <coordinates coord_system="LRG_314" start="1" end="4454" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>TEX14-001 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001201457.1" />
             <db_xref source="RefSeq" accession="NM_198393.3" />
             <exon source="Ensembl" accession="ENSE00001360676">
               <coordinates coord_system="LRG_314" start="4338" end="4454" strand="-1" mapped_from="GRCh38" />
@@ -437,7 +451,6 @@
             <coordinates coord_system="LRG_314" start="1" end="4422" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>TEX14-003 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001201457.1" />
             <exon source="Ensembl" accession="ENSE00002693503">
               <coordinates coord_system="LRG_314" start="4338" end="4422" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -464,17 +477,12 @@
           <symbol source="HGNC" name="RAD51C" />
           <coordinates coord_system="LRG_314" start="4972" end="48010" strand="1" mapped_from="GRCh38" />
           <long_name>RAD51 paralog C (protein_coding)</long_name>
-          <db_xref source="MIM" accession="602774" />
+          <db_xref source="GeneID" accession="5889" />
           <db_xref source="HGNC" accession="9820">
             <synonym>FANCO</synonym>
             <synonym>RAD51L2</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="5889">
-            <synonym>BROVCA3</synonym>
-            <synonym>FANCO</synonym>
-            <synonym>R51H3</synonym>
-            <synonym>RAD51L2</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="602774" />
           <db_xref source="Ensembl" accession="ENSG00000108384" />
           <transcript source="Ensembl" accession="ENST00000461271.5">
             <coordinates coord_system="LRG_314" start="4972" end="22310" strand="1" mapped_from="GRCh38" />
@@ -563,10 +571,7 @@
             <protein_product source="Ensembl" accession="ENSP00000336701.4">
               <coordinates coord_system="LRG_314" start="5043" end="46621" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_478123.1" />
-              <db_xref source="UniProtKB" accession="O43502">
-                <synonym>O43503</synonym>
-                <synonym>Q3B783</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="O43502" />
               <db_xref source="CCDS" accession="CCDS11611.1" />
             </protein_product>
           </transcript>
@@ -680,6 +685,7 @@
           <transcript source="Ensembl" accession="ENST00000482007.5">
             <coordinates coord_system="LRG_314" start="5014" end="46726" strand="1" mapped_from="GRCh38" />
             <long_name>RAD51C-003 (nonsense_mediated_decay)</long_name>
+            <db_xref source="RefSeq" accession="NR_103872.1" />
             <exon source="Ensembl" accession="ENSE00001868358">
               <coordinates coord_system="LRG_314" start="5014" end="5187" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -721,10 +727,7 @@
             <protein_product source="Ensembl" accession="ENSP00000391450.2">
               <coordinates coord_system="LRG_314" start="5043" end="7592" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_002867.1" />
-              <db_xref source="UniProtKB" accession="O43502">
-                <synonym>O43503</synonym>
-                <synonym>Q3B783</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="O43502" />
               <db_xref source="CCDS" accession="CCDS45745.1" />
             </protein_product>
           </transcript>
@@ -894,7 +897,7 @@
         <name>List of locus specific databases for RAD51C</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RAD51C</url>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -238,7 +238,7 @@
           <email>is250@cam.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -250,7 +250,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_id_syn="CM000671.1" other_start="130575291" other_end="130622047" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="46757" other_start="130575291" other_end="130622047" strand="-1">
           <diff type="mismatch" lrg_start="5090" lrg_end="5090" other_start="130616958" other_end="130616958" lrg_sequence="G" other_sequence="A" />
@@ -646,8 +646,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-04-06</modification_date>
+      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="ENST00000344849.4" other_name="ENST00000344849.4" other_id="ENST00000344849.4" other_start="1" other_end="3059" type="transcript">
         <mapping_span lrg_start="5133" lrg_end="5480" other_start="1" other_end="348" strand="1" />
         <mapping_span lrg_start="16524" lrg_end="16675" other_start="349" other_end="500" strand="1" />
@@ -716,7 +716,7 @@
           <symbol source="HGNC" name="ENG" />
           <coordinates coord_system="LRG_589" start="5013" end="44757" strand="1" mapped_from="GRCh38" />
           <long_name>endoglin (protein_coding)</long_name>
-          <db_xref source="MIM" accession="131195" />
+          <db_xref source="GeneID" accession="2022" />
           <db_xref source="HGNC" accession="3349">
             <synonym>CD105</synonym>
             <synonym>END</synonym>
@@ -724,15 +724,12 @@
             <synonym>ORW</synonym>
             <synonym>ORW1</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="2022">
-            <synonym>END</synonym>
-            <synonym>HHT1</synonym>
-            <synonym>ORW1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="131195" />
           <db_xref source="Ensembl" accession="ENSG00000106991" />
           <transcript source="Ensembl" accession="ENST00000373203.8">
             <coordinates coord_system="LRG_589" start="5013" end="44757" strand="1" mapped_from="GRCh38" />
             <long_name>ENG-002 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_000118.3" />
             <db_xref source="RefSeq" accession="NM_001114753.2" />
             <exon source="Ensembl" accession="ENSE00001181101">
               <coordinates coord_system="LRG_589" start="5013" end="5480" strand="1" mapped_from="GRCh38" />
@@ -781,19 +778,16 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000362299.4">
               <coordinates coord_system="LRG_589" start="5414" end="44087" strand="1" mapped_from="GRCh38" />
+              <long_name>endoglin isoform 2 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_000109.1" />
               <db_xref source="RefSeq" accession="NP_001108225.1" />
-              <db_xref source="UniProtKB" accession="P17813">
-                <synonym>Q14248</synonym>
-                <synonym>Q14926</synonym>
-                <synonym>Q5T9C0</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P17813" />
               <db_xref source="CCDS" accession="CCDS48029.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000344849.4" fixed_id="t1">
             <coordinates coord_system="LRG_589" start="5133" end="44752" strand="1" mapped_from="GRCh38" />
             <long_name>ENG-001 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_000118.3" />
             <exon source="Ensembl" accession="ENSE00001834314">
               <coordinates coord_system="LRG_589" start="5133" end="5480" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -838,12 +832,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000341917.3">
               <coordinates coord_system="LRG_589" start="5414" end="43852" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_000109.1" />
-              <db_xref source="UniProtKB" accession="P17813">
-                <synonym>Q14248</synonym>
-                <synonym>Q14926</synonym>
-                <synonym>Q5T9C0</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P17813" />
               <db_xref source="CCDS" accession="CCDS6880.1" />
             </protein_product>
           </transcript>
@@ -944,6 +933,7 @@
           <transcript source="Ensembl" accession="ENST00000410523.1">
             <coordinates coord_system="LRG_589" start="18547" end="18657" strand="1" mapped_from="GRCh38" />
             <long_name>RNA5SP296-201 (rRNA)</long_name>
+            <db_xref source="RefSeq" accession="RNA5SP296" />
             <exon source="Ensembl" accession="ENSE00001590341">
               <coordinates coord_system="LRG_589" start="18547" end="18657" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1011,9 +1001,9 @@
           <coordinates coord_system="LRG_589" start="45442" end="46757" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>folylpolyglutamate synthase (protein_coding)</long_name>
-          <db_xref source="MIM" accession="136510" />
-          <db_xref source="HGNC" accession="3824" />
           <db_xref source="GeneID" accession="2356" />
+          <db_xref source="HGNC" accession="3824" />
+          <db_xref source="MIM" accession="136510" />
           <db_xref source="Ensembl" accession="ENSG00000136877" />
           <transcript source="Ensembl" accession="ENST00000467826.5">
             <coordinates coord_system="LRG_589" start="45442" end="46757" strand="-1" mapped_from="GRCh38" />
@@ -1038,14 +1028,7 @@
               <coordinates coord_system="LRG_589" start="46165" end="46757" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <db_xref source="RefSeq" accession="NP_001275732.1" />
-              <db_xref source="UniProtKB" accession="Q05932">
-                <synonym>B3KPW4</synonym>
-                <synonym>B7Z2Z3</synonym>
-                <synonym>F5H0K6</synonym>
-                <synonym>Q5JU19</synonym>
-                <synonym>Q5JU22</synonym>
-                <synonym>Q6P2P6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q05932" />
               <db_xref source="CCDS" accession="CCDS75905.1" />
             </protein_product>
           </transcript>
@@ -1062,6 +1045,7 @@
             <partial>5-prime</partial>
             <long_name>FPGS-011 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_004957.5" />
+            <db_xref source="RefSeq" accession="NR_110170.1" />
             <exon source="Ensembl" accession="ENSE00001943891">
               <coordinates coord_system="LRG_589" start="45700" end="46574" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1069,14 +1053,7 @@
               <coordinates coord_system="LRG_589" start="46165" end="46757" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <db_xref source="RefSeq" accession="NP_004948.4" />
-              <db_xref source="UniProtKB" accession="Q05932">
-                <synonym>B3KPW4</synonym>
-                <synonym>B7Z2Z3</synonym>
-                <synonym>F5H0K6</synonym>
-                <synonym>Q5JU19</synonym>
-                <synonym>Q5JU22</synonym>
-                <synonym>Q6P2P6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q05932" />
               <db_xref source="CCDS" accession="CCDS35148.1" />
             </protein_product>
           </transcript>
@@ -1092,14 +1069,7 @@
               <coordinates coord_system="LRG_589" start="46165" end="46757" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <db_xref source="RefSeq" accession="NP_001018088.1" />
-              <db_xref source="UniProtKB" accession="Q05932">
-                <synonym>B3KPW4</synonym>
-                <synonym>B7Z2Z3</synonym>
-                <synonym>F5H0K6</synonym>
-                <synonym>Q5JU19</synonym>
-                <synonym>Q5JU22</synonym>
-                <synonym>Q6P2P6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q05932" />
               <db_xref source="CCDS" accession="CCDS35149.1" />
             </protein_product>
           </transcript>
@@ -1107,7 +1077,6 @@
             <coordinates coord_system="LRG_589" start="45711" end="46757" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
             <long_name>FPGS-014 (processed_transcript)</long_name>
-            <db_xref source="RefSeq" accession="NR_110170.1" />
             <exon source="Ensembl" accession="ENSE00001867637">
               <coordinates coord_system="LRG_589" start="45711" end="46574" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1144,7 +1113,7 @@
         <name>List of locus specific databases for ENG</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ENG</url>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

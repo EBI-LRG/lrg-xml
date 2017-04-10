@@ -82,7 +82,7 @@
           <email>sichan@bcgsc.ca</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -94,7 +94,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="18" other_id="NC_000018.9" other_id_syn="CM000680.1" other_start="652604" other_end="675499" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="22896" other_start="652604" other_end="675499" strand="1" />
       </mapping>
@@ -335,8 +335,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-04-06</modification_date>
+      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="ENST00000323224.7" other_name="ENST00000323224.7" other_id="ENST00000323224.7" other_start="1" other_end="1327" type="transcript">
         <mapping_span lrg_start="5140" lrg_end="5344" other_start="1" other_end="205" strand="1" />
         <mapping_span lrg_start="7038" lrg_end="7111" other_start="206" other_end="279" strand="1" />
@@ -416,6 +416,7 @@
             <coordinates coord_system="LRG_783" start="1" end="5737" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>TYMSOS-001 (antisense)</long_name>
+            <db_xref source="RefSeq" accession="NM_001012716.2" />
             <exon source="Ensembl" accession="ENSE00001226490">
               <coordinates coord_system="LRG_783" start="5239" end="5737" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -441,18 +442,14 @@
           <symbol source="HGNC" name="TYMS" />
           <coordinates coord_system="LRG_783" start="5001" end="20975" strand="1" mapped_from="GRCh38" />
           <long_name>thymidylate synthetase (protein_coding)</long_name>
-          <db_xref source="MIM" accession="188350" />
+          <db_xref source="GeneID" accession="7298" />
           <db_xref source="HGNC" accession="12441">
             <synonym>HsT422</synonym>
             <synonym>TMS</synonym>
             <synonym>TS</synonym>
             <synonym>Tsase</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="7298">
-            <synonym>HST422</synonym>
-            <synonym>TMS</synonym>
-            <synonym>TS</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="188350" />
           <db_xref source="Ensembl" accession="ENSG00000176890" />
           <transcript source="Ensembl" accession="ENST00000323274.14" fixed_id="t1">
             <coordinates coord_system="LRG_783" start="5001" end="20975" strand="1" mapped_from="GRCh38" />
@@ -482,10 +479,7 @@
             <protein_product source="Ensembl" accession="ENSP00000315644.10">
               <coordinates coord_system="LRG_783" start="5140" end="20394" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001062.1" />
-              <db_xref source="UniProtKB" accession="P04818">
-                <synonym>Q8WYK3</synonym>
-                <synonym>Q8WYK4</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P04818" />
               <db_xref source="CCDS" accession="CCDS11821.1" />
             </protein_product>
           </transcript>
@@ -525,10 +519,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000314902.5">
               <coordinates coord_system="LRG_783" start="5140" end="20394" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P04818">
-                <synonym>Q8WYK3</synonym>
-                <synonym>Q8WYK4</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P04818" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000323224.7">
@@ -554,10 +545,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000314727.7">
               <coordinates coord_system="LRG_783" start="5140" end="20394" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P04818">
-                <synonym>Q8WYK3</synonym>
-                <synonym>Q8WYK4</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P04818" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000584122.1">
@@ -595,16 +583,13 @@
           <coordinates coord_system="LRG_783" start="17721" end="22896" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>enolase superfamily member 1 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="607427" />
+          <db_xref source="GeneID" accession="55556" />
           <db_xref source="HGNC" accession="30365">
             <synonym>HSRTSBETA</synonym>
             <synonym>rTS</synonym>
             <synonym>TYMSAS</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="55556">
-            <synonym>RTS</synonym>
-            <synonym>TYMSAS</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="607427" />
           <db_xref source="Ensembl" accession="ENSG00000132199" />
           <transcript source="Ensembl" accession="ENST00000584259.6">
             <coordinates coord_system="LRG_783" start="17721" end="22896" strand="-1" mapped_from="GRCh38" />
@@ -625,6 +610,7 @@
             <partial>5-prime</partial>
             <long_name>ENOSF1-201 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001126123.3" />
+            <db_xref source="RefSeq" accession="NM_001318759.1" />
             <exon source="Ensembl" accession="ENSE00003669138">
               <coordinates coord_system="LRG_783" start="22718" end="22799" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -637,20 +623,10 @@
             <protein_product source="Ensembl" accession="ENSP00000373072.3">
               <coordinates coord_system="LRG_783" start="21702" end="22896" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <long_name>mitochondrial enolase superfamily member 1 isoform rTSbeta</long_name>
+              <db_xref source="RefSeq" accession="NP_001305688.1" />
               <db_xref source="RefSeq" accession="NP_001119595.1" />
-              <db_xref source="UniProtKB" accession="Q7L5Y1">
-                <synonym>A6NMP3</synonym>
-                <synonym>A8K9R5</synonym>
-                <synonym>B3KSL6</synonym>
-                <synonym>B3KXE4</synonym>
-                <synonym>D3DUH0</synonym>
-                <synonym>Q15407</synonym>
-                <synonym>Q15594</synonym>
-                <synonym>Q15595</synonym>
-                <synonym>Q6ZS08</synonym>
-                <synonym>Q9HAS5</synonym>
-                <synonym>Q9HAS6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q7L5Y1" />
               <db_xref source="CCDS" accession="CCDS45821.1" />
             </protein_product>
           </transcript>
@@ -658,7 +634,6 @@
             <coordinates coord_system="LRG_783" start="21256" end="22896" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
             <long_name>ENOSF1-001 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001318759.1" />
             <db_xref source="RefSeq" accession="NM_017512.5" />
             <exon source="Ensembl" accession="ENSE00003669138">
               <coordinates coord_system="LRG_783" start="22718" end="22799" strand="-1" mapped_from="GRCh38" />
@@ -670,20 +645,7 @@
               <coordinates coord_system="LRG_783" start="21702" end="22896" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <db_xref source="RefSeq" accession="NP_059982.2" />
-              <db_xref source="RefSeq" accession="NP_001305688.1" />
-              <db_xref source="UniProtKB" accession="Q7L5Y1">
-                <synonym>A6NMP3</synonym>
-                <synonym>A8K9R5</synonym>
-                <synonym>B3KSL6</synonym>
-                <synonym>B3KXE4</synonym>
-                <synonym>D3DUH0</synonym>
-                <synonym>Q15407</synonym>
-                <synonym>Q15594</synonym>
-                <synonym>Q15595</synonym>
-                <synonym>Q6ZS08</synonym>
-                <synonym>Q9HAS5</synonym>
-                <synonym>Q9HAS6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q7L5Y1" />
               <db_xref source="CCDS" accession="CCDS11822.1" />
             </protein_product>
           </transcript>
@@ -736,19 +698,7 @@
               <coordinates coord_system="LRG_783" start="21702" end="22896" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <db_xref source="RefSeq" accession="NP_974487.1" />
-              <db_xref source="UniProtKB" accession="Q7L5Y1">
-                <synonym>A6NMP3</synonym>
-                <synonym>A8K9R5</synonym>
-                <synonym>B3KSL6</synonym>
-                <synonym>B3KXE4</synonym>
-                <synonym>D3DUH0</synonym>
-                <synonym>Q15407</synonym>
-                <synonym>Q15594</synonym>
-                <synonym>Q15595</synonym>
-                <synonym>Q6ZS08</synonym>
-                <synonym>Q9HAS5</synonym>
-                <synonym>Q9HAS6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q7L5Y1" />
               <db_xref source="CCDS" accession="CCDS11823.1" />
             </protein_product>
           </transcript>
@@ -833,7 +783,7 @@
         <name>List of locus specific databases for TYMS</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TYMS</url>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

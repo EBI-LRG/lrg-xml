@@ -86,7 +86,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -98,7 +98,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_id_syn="CM000663.1" other_start="112311284" other_end="112536777" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="225494" other_start="112311284" other_end="112536777" strand="-1" />
       </mapping>
@@ -305,8 +305,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-04-06</modification_date>
+      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="ENST00000302127.4" other_name="ENST00000302127.4" other_id="ENST00000302127.4" other_start="1" other_end="2659" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5408" other_start="1" other_end="408" strand="1" />
         <mapping_span lrg_start="11358" lrg_end="12535" other_start="409" other_end="1586" strand="1" />
@@ -336,22 +336,26 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000231437.3">
-          <symbol source="Clone_based_vega_gene" name="RP11-88H9.2" />
+          <symbol source="HGNC" name="LINC01750" />
           <coordinates coord_system="LRG_445" start="1" end="4386" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>RP11-88H9.2 (lincRNA)</long_name>
+          <long_name>long intergenic non-protein coding RNA 1750 (lincRNA)</long_name>
+          <db_xref source="GeneID" accession="643355" />
+          <db_xref source="HGNC" accession="52538" />
           <db_xref source="Ensembl" accession="ENSG00000231437" />
           <transcript source="Ensembl" accession="ENST00000438293.1">
             <coordinates coord_system="LRG_445" start="1" end="3620" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RP11-88H9.2-003 (lincRNA)</long_name>
+            <long_name>LINC01750-003 (lincRNA)</long_name>
+            <db_xref source="RefSeq" accession="NM_001270945.1" />
+            <db_xref source="RefSeq" accession="NR_145438.1" />
             <exon source="Ensembl" accession="ENSE00001614374">
               <coordinates coord_system="LRG_445" start="2969" end="3620" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000428461.1">
             <coordinates coord_system="LRG_445" start="2983" end="3860" strand="-1" mapped_from="GRCh38" />
-            <long_name>RP11-88H9.2-002 (lincRNA)</long_name>
+            <long_name>LINC01750-002 (lincRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001627072">
               <coordinates coord_system="LRG_445" start="3758" end="3860" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -361,7 +365,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000442751.1">
             <coordinates coord_system="LRG_445" start="3033" end="4386" strand="-1" mapped_from="GRCh38" />
-            <long_name>RP11-88H9.2-001 (lincRNA)</long_name>
+            <long_name>LINC01750-001 (lincRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001783051">
               <coordinates coord_system="LRG_445" start="3968" end="4386" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -374,22 +378,14 @@
           <symbol source="HGNC" name="KCND3" />
           <coordinates coord_system="LRG_445" start="5001" end="223494" strand="1" mapped_from="GRCh38" />
           <long_name>potassium voltage-gated channel subfamily D member 3 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="605411" />
+          <db_xref source="GeneID" accession="3752" />
           <db_xref source="HGNC" accession="6239">
             <synonym>KSHIVB</synonym>
             <synonym>Kv4.3</synonym>
             <synonym>SCA19</synonym>
             <synonym>SCA22</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="3752">
-            <synonym>BRGDA9</synonym>
-            <synonym>KCND3L</synonym>
-            <synonym>KCND3S</synonym>
-            <synonym>KSHIVB</synonym>
-            <synonym>KV4.3</synonym>
-            <synonym>SCA19</synonym>
-            <synonym>SCA22</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="605411" />
           <db_xref source="Ensembl" accession="ENSG00000171385" />
           <transcript source="Ensembl" accession="ENST00000315987.6" fixed_id="t1">
             <coordinates coord_system="LRG_445" start="5001" end="218347" strand="1" mapped_from="GRCh38" />
@@ -422,15 +418,7 @@
             <protein_product source="Ensembl" accession="ENSP00000319591.2">
               <coordinates coord_system="LRG_445" start="11430" end="218079" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_004971.2" />
-              <db_xref source="UniProtKB" accession="Q9UK17">
-                <synonym>O60576</synonym>
-                <synonym>O60577</synonym>
-                <synonym>Q14D71</synonym>
-                <synonym>Q5T0M0</synonym>
-                <synonym>Q9UH85</synonym>
-                <synonym>Q9UH86</synonym>
-                <synonym>Q9UK16</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q9UK17" />
               <db_xref source="CCDS" accession="CCDS843.1" />
             </protein_product>
           </transcript>
@@ -462,15 +450,7 @@
             <protein_product source="Ensembl" accession="ENSP00000306923.3">
               <coordinates coord_system="LRG_445" start="11430" end="218079" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_751948.1" />
-              <db_xref source="UniProtKB" accession="Q9UK17">
-                <synonym>O60576</synonym>
-                <synonym>O60577</synonym>
-                <synonym>Q14D71</synonym>
-                <synonym>Q5T0M0</synonym>
-                <synonym>Q9UH85</synonym>
-                <synonym>Q9UH86</synonym>
-                <synonym>Q9UK16</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q9UK17" />
               <db_xref source="CCDS" accession="CCDS844.1" />
             </protein_product>
           </transcript>
@@ -497,15 +477,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000358711.1">
               <coordinates coord_system="LRG_445" start="11430" end="218079" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q9UK17">
-                <synonym>O60576</synonym>
-                <synonym>O60577</synonym>
-                <synonym>Q14D71</synonym>
-                <synonym>Q5T0M0</synonym>
-                <synonym>Q9UH85</synonym>
-                <synonym>Q9UH86</synonym>
-                <synonym>Q9UK16</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q9UK17" />
               <db_xref source="CCDS" accession="CCDS844.1" />
             </protein_product>
           </transcript>
@@ -519,6 +491,7 @@
           <transcript source="Ensembl" accession="ENST00000427471.1">
             <coordinates coord_system="LRG_445" start="83225" end="84508" strand="-1" mapped_from="GRCh38" />
             <long_name>KCND3-AS1-002 (antisense)</long_name>
+            <db_xref source="RefSeq" accession="NR_046619.1" />
             <exon source="Ensembl" accession="ENSE00001628797">
               <coordinates coord_system="LRG_445" start="84263" end="84508" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -563,8 +536,8 @@
           <symbol source="HGNC" name="KCND3-IT1" />
           <coordinates coord_system="LRG_445" start="137251" end="140394" strand="1" mapped_from="GRCh38" />
           <long_name>KCND3 intronic transcript 1 (sense_intronic)</long_name>
-          <db_xref source="HGNC" accession="41350" />
           <db_xref source="GeneID" accession="100874295" />
+          <db_xref source="HGNC" accession="41350" />
           <db_xref source="Ensembl" accession="ENSG00000232558" />
           <transcript source="Ensembl" accession="ENST00000439736.1">
             <coordinates coord_system="LRG_445" start="137251" end="140394" strand="1" mapped_from="GRCh38" />
@@ -585,7 +558,7 @@
         <name>List of locus specific databases for KCND3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/KCND3</url>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

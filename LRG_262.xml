@@ -164,7 +164,7 @@
           <email>valerie.delague@univ-amu.fr</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -176,7 +176,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_id_syn="CM000663.1" other_start="6524152" other_end="6585069" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="60918" other_start="6524152" other_end="6585069" strand="-1" />
       </mapping>
@@ -1261,8 +1261,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-04-06</modification_date>
+      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="ENST00000340850.9" other_name="ENST00000340850.9" other_id="ENST00000340850.9" other_start="1" other_end="4715" type="transcript">
         <mapping_span lrg_start="34430" lrg_end="34565" other_start="1" other_end="136" strand="1" />
         <mapping_span lrg_start="47352" lrg_end="47481" other_start="137" other_end="266" strand="1" />
@@ -1530,18 +1530,19 @@
         <mapping_span lrg_start="56424" lrg_end="57185" other_start="2552" other_end="3313" strand="1" />
         <mapping_span lrg_start="57438" lrg_end="58918" other_start="3314" other_end="4794" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000639593.1" other_name="ENST00000639593.1" other_id="ENST00000639593.1" other_start="1" other_end="210" type="transcript">
+        <mapping_span lrg_start="18852" lrg_end="18984" other_start="1" other_end="133" strand="1" />
+        <mapping_span lrg_start="28441" lrg_end="28517" other_start="134" other_end="210" strand="1" />
+      </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000162408.10">
           <symbol source="HGNC" name="NOL9" />
           <coordinates coord_system="LRG_262" start="1" end="3663" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>nucleolar protein 9 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="79707" />
           <db_xref source="HGNC" accession="26265">
             <synonym>FLJ23323</synonym>
-            <synonym>Grc3</synonym>
-            <synonym>NET6</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="79707">
             <synonym>Grc3</synonym>
             <synonym>NET6</synonym>
           </db_xref>
@@ -1557,24 +1558,18 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000171680.20">
+        <gene source="Ensembl" accession="ENSG00000171680.21">
           <symbol source="HGNC" name="PLEKHG5" />
           <coordinates coord_system="LRG_262" start="4949" end="58918" strand="1" mapped_from="GRCh38" />
           <long_name>pleckstrin homology and RhoGEF domain containing G5 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="611101" />
+          <db_xref source="GeneID" accession="57449" />
           <db_xref source="HGNC" accession="29105">
             <synonym>GEF720</synonym>
             <synonym>KIAA0720</synonym>
             <synonym>Syx</synonym>
             <synonym>Tech</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="57449">
-            <synonym>CMTRIC</synonym>
-            <synonym>DSMA4</synonym>
-            <synonym>GEF720</synonym>
-            <synonym>Syx</synonym>
-            <synonym>Tech</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="611101" />
           <db_xref source="Ensembl" accession="ENSG00000171680" />
           <transcript source="Ensembl" accession="ENST00000377740.4">
             <coordinates coord_system="LRG_262" start="4949" end="57888" strand="1" mapped_from="GRCh38" />
@@ -1722,21 +1717,21 @@
             <protein_product source="Ensembl" accession="ENSP00000366977.1">
               <coordinates coord_system="LRG_262" start="5499" end="57447" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_941374.2" />
-              <db_xref source="UniProtKB" accession="O94827">
-                <synonym>B3KU07</synonym>
-                <synonym>B7Z2M3</synonym>
-                <synonym>B7Z5X2</synonym>
-                <synonym>F5GZ21</synonym>
-                <synonym>F5H1I0</synonym>
-                <synonym>Q5SY17</synonym>
-                <synonym>Q5T8W5</synonym>
-                <synonym>Q5T8W9</synonym>
-                <synonym>Q6ZNM0</synonym>
-                <synonym>Q7Z436</synonym>
-                <synonym>Q86YD8</synonym>
-                <synonym>Q96BS1</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="O94827" />
               <db_xref source="CCDS" accession="CCDS41240.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000639593.1">
+            <coordinates coord_system="LRG_262" start="18852" end="28517" strand="1" mapped_from="GRCh38" />
+            <long_name>PLEKHG5-010 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003806038">
+              <coordinates coord_system="LRG_262" start="18852" end="18984" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003655750">
+              <coordinates coord_system="LRG_262" start="28441" end="28517" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000491569.1">
+              <coordinates coord_system="LRG_262" start="18852" end="28517" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000400915.7">
@@ -1812,20 +1807,7 @@
             <protein_product source="Ensembl" accession="ENSP00000383706.3">
               <coordinates coord_system="LRG_262" start="27687" end="57447" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001036128.1" />
-              <db_xref source="UniProtKB" accession="O94827">
-                <synonym>B3KU07</synonym>
-                <synonym>B7Z2M3</synonym>
-                <synonym>B7Z5X2</synonym>
-                <synonym>F5GZ21</synonym>
-                <synonym>F5H1I0</synonym>
-                <synonym>Q5SY17</synonym>
-                <synonym>Q5T8W5</synonym>
-                <synonym>Q5T8W9</synonym>
-                <synonym>Q6ZNM0</synonym>
-                <synonym>Q7Z436</synonym>
-                <synonym>Q86YD8</synonym>
-                <synonym>Q96BS1</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="O94827" />
               <db_xref source="CCDS" accession="CCDS41241.1" />
             </protein_product>
           </transcript>
@@ -1902,20 +1884,7 @@
             <protein_product source="Ensembl" accession="ENSP00000439625.1">
               <coordinates coord_system="LRG_262" start="27979" end="57447" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001252521.1" />
-              <db_xref source="UniProtKB" accession="O94827">
-                <synonym>B3KU07</synonym>
-                <synonym>B7Z2M3</synonym>
-                <synonym>B7Z5X2</synonym>
-                <synonym>F5GZ21</synonym>
-                <synonym>F5H1I0</synonym>
-                <synonym>Q5SY17</synonym>
-                <synonym>Q5T8W5</synonym>
-                <synonym>Q5T8W9</synonym>
-                <synonym>Q6ZNM0</synonym>
-                <synonym>Q7Z436</synonym>
-                <synonym>Q86YD8</synonym>
-                <synonym>Q96BS1</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="O94827" />
               <db_xref source="CCDS" accession="CCDS57969.1" />
             </protein_product>
           </transcript>
@@ -1987,20 +1956,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000366961.1">
               <coordinates coord_system="LRG_262" start="28494" end="57447" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="O94827">
-                <synonym>B3KU07</synonym>
-                <synonym>B7Z2M3</synonym>
-                <synonym>B7Z5X2</synonym>
-                <synonym>F5GZ21</synonym>
-                <synonym>F5H1I0</synonym>
-                <synonym>Q5SY17</synonym>
-                <synonym>Q5T8W5</synonym>
-                <synonym>Q5T8W9</synonym>
-                <synonym>Q6ZNM0</synonym>
-                <synonym>Q7Z436</synonym>
-                <synonym>Q86YD8</synonym>
-                <synonym>Q96BS1</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="O94827" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000377728.7" fixed_id="t1">
@@ -2073,20 +2029,7 @@
             <protein_product source="Ensembl" accession="ENSP00000366957.3">
               <coordinates coord_system="LRG_262" start="47439" end="57447" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_065682.2" />
-              <db_xref source="UniProtKB" accession="O94827">
-                <synonym>B3KU07</synonym>
-                <synonym>B7Z2M3</synonym>
-                <synonym>B7Z5X2</synonym>
-                <synonym>F5GZ21</synonym>
-                <synonym>F5H1I0</synonym>
-                <synonym>Q5SY17</synonym>
-                <synonym>Q5T8W5</synonym>
-                <synonym>Q5T8W9</synonym>
-                <synonym>Q6ZNM0</synonym>
-                <synonym>Q7Z436</synonym>
-                <synonym>Q86YD8</synonym>
-                <synonym>Q96BS1</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="O94827" />
               <db_xref source="CCDS" accession="CCDS79.1" />
             </protein_product>
           </transcript>
@@ -2094,6 +2037,7 @@
             <coordinates coord_system="LRG_262" start="34430" end="58918" strand="1" mapped_from="GRCh38" />
             <long_name>PLEKHG5-201 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001042664.1" />
+            <db_xref source="RefSeq" accession="NM_001265594.1" />
             <exon source="Ensembl" accession="ENSE00001545322">
               <coordinates coord_system="LRG_262" start="34430" end="34565" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2159,28 +2103,16 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000344570.5">
               <coordinates coord_system="LRG_262" start="47439" end="57447" strand="1" mapped_from="GRCh38" />
+              <long_name>pleckstrin homology domain-containing family G member 5 isoform f</long_name>
+              <db_xref source="RefSeq" accession="NP_001252523.1" />
               <db_xref source="RefSeq" accession="NP_001036129.1" />
-              <db_xref source="UniProtKB" accession="O94827">
-                <synonym>B3KU07</synonym>
-                <synonym>B7Z2M3</synonym>
-                <synonym>B7Z5X2</synonym>
-                <synonym>F5GZ21</synonym>
-                <synonym>F5H1I0</synonym>
-                <synonym>Q5SY17</synonym>
-                <synonym>Q5T8W5</synonym>
-                <synonym>Q5T8W9</synonym>
-                <synonym>Q6ZNM0</synonym>
-                <synonym>Q7Z436</synonym>
-                <synonym>Q86YD8</synonym>
-                <synonym>Q96BS1</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="O94827" />
               <db_xref source="CCDS" accession="CCDS79.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000377725.5">
             <coordinates coord_system="LRG_262" start="34440" end="57888" strand="1" mapped_from="GRCh38" />
             <long_name>PLEKHG5-006 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001265594.1" />
             <exon source="Ensembl" accession="ENSE00001422128">
               <coordinates coord_system="LRG_262" start="34440" end="34565" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2249,21 +2181,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000366954.1">
               <coordinates coord_system="LRG_262" start="47439" end="57167" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001252523.1" />
-              <db_xref source="UniProtKB" accession="O94827">
-                <synonym>B3KU07</synonym>
-                <synonym>B7Z2M3</synonym>
-                <synonym>B7Z5X2</synonym>
-                <synonym>F5GZ21</synonym>
-                <synonym>F5H1I0</synonym>
-                <synonym>Q5SY17</synonym>
-                <synonym>Q5T8W5</synonym>
-                <synonym>Q5T8W9</synonym>
-                <synonym>Q6ZNM0</synonym>
-                <synonym>Q7Z436</synonym>
-                <synonym>Q86YD8</synonym>
-                <synonym>Q96BS1</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="O94827" />
               <db_xref source="CCDS" accession="CCDS57967.1" />
             </protein_product>
           </transcript>
@@ -2337,20 +2255,7 @@
             <protein_product source="Ensembl" accession="ENSP00000383704.1">
               <coordinates coord_system="LRG_262" start="47439" end="57447" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001036130.1" />
-              <db_xref source="UniProtKB" accession="O94827">
-                <synonym>B3KU07</synonym>
-                <synonym>B7Z2M3</synonym>
-                <synonym>B7Z5X2</synonym>
-                <synonym>F5GZ21</synonym>
-                <synonym>F5H1I0</synonym>
-                <synonym>Q5SY17</synonym>
-                <synonym>Q5T8W5</synonym>
-                <synonym>Q5T8W9</synonym>
-                <synonym>Q6ZNM0</synonym>
-                <synonym>Q7Z436</synonym>
-                <synonym>Q86YD8</synonym>
-                <synonym>Q96BS1</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="O94827" />
               <db_xref source="CCDS" accession="CCDS79.1" />
             </protein_product>
           </transcript>
@@ -2424,20 +2329,7 @@
             <protein_product source="Ensembl" accession="ENSP00000441445.1">
               <coordinates coord_system="LRG_262" start="39567" end="57447" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001252522.1" />
-              <db_xref source="UniProtKB" accession="O94827">
-                <synonym>B3KU07</synonym>
-                <synonym>B7Z2M3</synonym>
-                <synonym>B7Z5X2</synonym>
-                <synonym>F5GZ21</synonym>
-                <synonym>F5H1I0</synonym>
-                <synonym>Q5SY17</synonym>
-                <synonym>Q5T8W5</synonym>
-                <synonym>Q5T8W9</synonym>
-                <synonym>Q6ZNM0</synonym>
-                <synonym>Q7Z436</synonym>
-                <synonym>Q86YD8</synonym>
-                <synonym>Q96BS1</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="O94827" />
               <db_xref source="CCDS" accession="CCDS57968.1" />
             </protein_product>
           </transcript>
@@ -2539,7 +2431,7 @@
           <coordinates coord_system="LRG_262" start="58815" end="60918" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>TNF receptor superfamily member 25 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="603366" />
+          <db_xref source="GeneID" accession="8718" />
           <db_xref source="HGNC" accession="11910">
             <synonym>APO-3</synonym>
             <synonym>DDR3</synonym>
@@ -2551,23 +2443,14 @@
             <synonym>WSL-1</synonym>
             <synonym>WSL-LR</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="8718">
-            <synonym>APO-3</synonym>
-            <synonym>DDR3</synonym>
-            <synonym>DR3</synonym>
-            <synonym>LARD</synonym>
-            <synonym>TNFRSF12</synonym>
-            <synonym>TR3</synonym>
-            <synonym>TRAMP</synonym>
-            <synonym>WSL-1</synonym>
-            <synonym>WSL-LR</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="603366" />
           <db_xref source="Ensembl" accession="ENSG00000215788" />
           <transcript source="Ensembl" accession="ENST00000356876.7">
             <coordinates coord_system="LRG_262" start="58815" end="60918" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>TNFRSF25-001 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_003790.2" />
+            <db_xref source="RefSeq" accession="NM_148967.1" />
             <exon source="Ensembl" accession="ENSE00001847819">
               <coordinates coord_system="LRG_262" start="58815" end="58941" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2586,33 +2469,10 @@
             <protein_product source="Ensembl" accession="ENSP00000349341.3">
               <coordinates coord_system="LRG_262" start="58903" end="60918" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <long_name>tumor necrosis factor receptor superfamily member 25 isoform 4 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_683868.1" />
               <db_xref source="RefSeq" accession="NP_003781.1" />
-              <db_xref source="UniProtKB" accession="Q93038">
-                <synonym>B1ALX2</synonym>
-                <synonym>B1ALX3</synonym>
-                <synonym>B7ZLL7</synonym>
-                <synonym>O00275</synonym>
-                <synonym>O00276</synonym>
-                <synonym>O00277</synonym>
-                <synonym>O00278</synonym>
-                <synonym>O00279</synonym>
-                <synonym>O00280</synonym>
-                <synonym>O14865</synonym>
-                <synonym>O14866</synonym>
-                <synonym>P78507</synonym>
-                <synonym>P78515</synonym>
-                <synonym>Q17RU4</synonym>
-                <synonym>Q92983</synonym>
-                <synonym>Q93036</synonym>
-                <synonym>Q93037</synonym>
-                <synonym>Q99722</synonym>
-                <synonym>Q99830</synonym>
-                <synonym>Q99831</synonym>
-                <synonym>Q9BY86</synonym>
-                <synonym>Q9UME0</synonym>
-                <synonym>Q9UME1</synonym>
-                <synonym>Q9UME5</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q93038" />
               <db_xref source="CCDS" accession="CCDS71.1" />
             </protein_product>
           </transcript>
@@ -2638,32 +2498,7 @@
             <protein_product source="Ensembl" accession="ENSP00000431554.1">
               <coordinates coord_system="LRG_262" start="58903" end="60918" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="Q93038">
-                <synonym>B1ALX2</synonym>
-                <synonym>B1ALX3</synonym>
-                <synonym>B7ZLL7</synonym>
-                <synonym>O00275</synonym>
-                <synonym>O00276</synonym>
-                <synonym>O00277</synonym>
-                <synonym>O00278</synonym>
-                <synonym>O00279</synonym>
-                <synonym>O00280</synonym>
-                <synonym>O14865</synonym>
-                <synonym>O14866</synonym>
-                <synonym>P78507</synonym>
-                <synonym>P78515</synonym>
-                <synonym>Q17RU4</synonym>
-                <synonym>Q92983</synonym>
-                <synonym>Q93036</synonym>
-                <synonym>Q93037</synonym>
-                <synonym>Q99722</synonym>
-                <synonym>Q99830</synonym>
-                <synonym>Q99831</synonym>
-                <synonym>Q9BY86</synonym>
-                <synonym>Q9UME0</synonym>
-                <synonym>Q9UME1</synonym>
-                <synonym>Q9UME5</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q93038" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000480393.5">
@@ -2714,32 +2549,7 @@
               <coordinates coord_system="LRG_262" start="58903" end="60918" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
               <db_xref source="RefSeq" accession="NP_683866.1" />
-              <db_xref source="UniProtKB" accession="Q93038">
-                <synonym>B1ALX2</synonym>
-                <synonym>B1ALX3</synonym>
-                <synonym>B7ZLL7</synonym>
-                <synonym>O00275</synonym>
-                <synonym>O00276</synonym>
-                <synonym>O00277</synonym>
-                <synonym>O00278</synonym>
-                <synonym>O00279</synonym>
-                <synonym>O00280</synonym>
-                <synonym>O14865</synonym>
-                <synonym>O14866</synonym>
-                <synonym>P78507</synonym>
-                <synonym>P78515</synonym>
-                <synonym>Q17RU4</synonym>
-                <synonym>Q92983</synonym>
-                <synonym>Q93036</synonym>
-                <synonym>Q93037</synonym>
-                <synonym>Q99722</synonym>
-                <synonym>Q99830</synonym>
-                <synonym>Q99831</synonym>
-                <synonym>Q9BY86</synonym>
-                <synonym>Q9UME0</synonym>
-                <synonym>Q9UME1</synonym>
-                <synonym>Q9UME5</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q93038" />
               <db_xref source="CCDS" accession="CCDS72.1" />
             </protein_product>
           </transcript>
@@ -2767,32 +2577,7 @@
               <coordinates coord_system="LRG_262" start="58903" end="60918" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
               <db_xref source="RefSeq" accession="NP_683867.1" />
-              <db_xref source="UniProtKB" accession="Q93038">
-                <synonym>B1ALX2</synonym>
-                <synonym>B1ALX3</synonym>
-                <synonym>B7ZLL7</synonym>
-                <synonym>O00275</synonym>
-                <synonym>O00276</synonym>
-                <synonym>O00277</synonym>
-                <synonym>O00278</synonym>
-                <synonym>O00279</synonym>
-                <synonym>O00280</synonym>
-                <synonym>O14865</synonym>
-                <synonym>O14866</synonym>
-                <synonym>P78507</synonym>
-                <synonym>P78515</synonym>
-                <synonym>Q17RU4</synonym>
-                <synonym>Q92983</synonym>
-                <synonym>Q93036</synonym>
-                <synonym>Q93037</synonym>
-                <synonym>Q99722</synonym>
-                <synonym>Q99830</synonym>
-                <synonym>Q99831</synonym>
-                <synonym>Q9BY86</synonym>
-                <synonym>Q9UME0</synonym>
-                <synonym>Q9UME1</synonym>
-                <synonym>Q9UME5</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q93038" />
               <db_xref source="CCDS" accession="CCDS73.1" />
             </protein_product>
           </transcript>
@@ -2818,32 +2603,7 @@
             <protein_product source="Ensembl" accession="ENSP00000404274.2">
               <coordinates coord_system="LRG_262" start="58903" end="60918" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="Q93038">
-                <synonym>B1ALX2</synonym>
-                <synonym>B1ALX3</synonym>
-                <synonym>B7ZLL7</synonym>
-                <synonym>O00275</synonym>
-                <synonym>O00276</synonym>
-                <synonym>O00277</synonym>
-                <synonym>O00278</synonym>
-                <synonym>O00279</synonym>
-                <synonym>O00280</synonym>
-                <synonym>O14865</synonym>
-                <synonym>O14866</synonym>
-                <synonym>P78507</synonym>
-                <synonym>P78515</synonym>
-                <synonym>Q17RU4</synonym>
-                <synonym>Q92983</synonym>
-                <synonym>Q93036</synonym>
-                <synonym>Q93037</synonym>
-                <synonym>Q99722</synonym>
-                <synonym>Q99830</synonym>
-                <synonym>Q99831</synonym>
-                <synonym>Q9BY86</synonym>
-                <synonym>Q9UME0</synonym>
-                <synonym>Q9UME1</synonym>
-                <synonym>Q9UME5</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q93038" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000351748.7">
@@ -2861,32 +2621,7 @@
               <coordinates coord_system="LRG_262" start="58903" end="60918" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
               <db_xref source="RefSeq" accession="NP_683871.1" />
-              <db_xref source="UniProtKB" accession="Q93038">
-                <synonym>B1ALX2</synonym>
-                <synonym>B1ALX3</synonym>
-                <synonym>B7ZLL7</synonym>
-                <synonym>O00275</synonym>
-                <synonym>O00276</synonym>
-                <synonym>O00277</synonym>
-                <synonym>O00278</synonym>
-                <synonym>O00279</synonym>
-                <synonym>O00280</synonym>
-                <synonym>O14865</synonym>
-                <synonym>O14866</synonym>
-                <synonym>P78507</synonym>
-                <synonym>P78515</synonym>
-                <synonym>Q17RU4</synonym>
-                <synonym>Q92983</synonym>
-                <synonym>Q93036</synonym>
-                <synonym>Q93037</synonym>
-                <synonym>Q99722</synonym>
-                <synonym>Q99830</synonym>
-                <synonym>Q99831</synonym>
-                <synonym>Q9BY86</synonym>
-                <synonym>Q9UME0</synonym>
-                <synonym>Q9UME1</synonym>
-                <synonym>Q9UME5</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q93038" />
               <db_xref source="CCDS" accession="CCDS75.1" />
             </protein_product>
           </transcript>
@@ -2894,7 +2629,6 @@
             <coordinates coord_system="LRG_262" start="58903" end="60918" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>TNFRSF25-016 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_148967.1" />
             <exon source="Ensembl" accession="ENSE00003657916">
               <coordinates coord_system="LRG_262" start="58903" end="58941" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2910,33 +2644,7 @@
             <protein_product source="Ensembl" accession="ENSP00000314451.3">
               <coordinates coord_system="LRG_262" start="58903" end="60918" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_683868.1" />
-              <db_xref source="UniProtKB" accession="Q93038">
-                <synonym>B1ALX2</synonym>
-                <synonym>B1ALX3</synonym>
-                <synonym>B7ZLL7</synonym>
-                <synonym>O00275</synonym>
-                <synonym>O00276</synonym>
-                <synonym>O00277</synonym>
-                <synonym>O00278</synonym>
-                <synonym>O00279</synonym>
-                <synonym>O00280</synonym>
-                <synonym>O14865</synonym>
-                <synonym>O14866</synonym>
-                <synonym>P78507</synonym>
-                <synonym>P78515</synonym>
-                <synonym>Q17RU4</synonym>
-                <synonym>Q92983</synonym>
-                <synonym>Q93036</synonym>
-                <synonym>Q93037</synonym>
-                <synonym>Q99722</synonym>
-                <synonym>Q99830</synonym>
-                <synonym>Q99831</synonym>
-                <synonym>Q9BY86</synonym>
-                <synonym>Q9UME0</synonym>
-                <synonym>Q9UME1</synonym>
-                <synonym>Q9UME5</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q93038" />
               <db_xref source="CCDS" accession="CCDS74.1" />
             </protein_product>
           </transcript>
@@ -2959,32 +2667,7 @@
             <protein_product source="Ensembl" accession="ENSP00000423121.1">
               <coordinates coord_system="LRG_262" start="58903" end="60918" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="Q93038">
-                <synonym>B1ALX2</synonym>
-                <synonym>B1ALX3</synonym>
-                <synonym>B7ZLL7</synonym>
-                <synonym>O00275</synonym>
-                <synonym>O00276</synonym>
-                <synonym>O00277</synonym>
-                <synonym>O00278</synonym>
-                <synonym>O00279</synonym>
-                <synonym>O00280</synonym>
-                <synonym>O14865</synonym>
-                <synonym>O14866</synonym>
-                <synonym>P78507</synonym>
-                <synonym>P78515</synonym>
-                <synonym>Q17RU4</synonym>
-                <synonym>Q92983</synonym>
-                <synonym>Q93036</synonym>
-                <synonym>Q93037</synonym>
-                <synonym>Q99722</synonym>
-                <synonym>Q99830</synonym>
-                <synonym>Q99831</synonym>
-                <synonym>Q9BY86</synonym>
-                <synonym>Q9UME0</synonym>
-                <synonym>Q9UME1</synonym>
-                <synonym>Q9UME5</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q93038" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000502730.5">
@@ -3003,32 +2686,7 @@
             <protein_product source="Ensembl" accession="ENSP00000421976.1">
               <coordinates coord_system="LRG_262" start="58903" end="60918" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="Q93038">
-                <synonym>B1ALX2</synonym>
-                <synonym>B1ALX3</synonym>
-                <synonym>B7ZLL7</synonym>
-                <synonym>O00275</synonym>
-                <synonym>O00276</synonym>
-                <synonym>O00277</synonym>
-                <synonym>O00278</synonym>
-                <synonym>O00279</synonym>
-                <synonym>O00280</synonym>
-                <synonym>O14865</synonym>
-                <synonym>O14866</synonym>
-                <synonym>P78507</synonym>
-                <synonym>P78515</synonym>
-                <synonym>Q17RU4</synonym>
-                <synonym>Q92983</synonym>
-                <synonym>Q93036</synonym>
-                <synonym>Q93037</synonym>
-                <synonym>Q99722</synonym>
-                <synonym>Q99830</synonym>
-                <synonym>Q99831</synonym>
-                <synonym>Q9BY86</synonym>
-                <synonym>Q9UME0</synonym>
-                <synonym>Q9UME1</synonym>
-                <synonym>Q9UME5</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q93038" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000510563.5">
@@ -3055,32 +2713,7 @@
               <partial>3-prime</partial>
               <long_name>tumor necrosis factor receptor superfamily member 25 isoform 12 precursor</long_name>
               <db_xref source="RefSeq" accession="NP_001034753.1" />
-              <db_xref source="UniProtKB" accession="Q93038">
-                <synonym>B1ALX2</synonym>
-                <synonym>B1ALX3</synonym>
-                <synonym>B7ZLL7</synonym>
-                <synonym>O00275</synonym>
-                <synonym>O00276</synonym>
-                <synonym>O00277</synonym>
-                <synonym>O00278</synonym>
-                <synonym>O00279</synonym>
-                <synonym>O00280</synonym>
-                <synonym>O14865</synonym>
-                <synonym>O14866</synonym>
-                <synonym>P78507</synonym>
-                <synonym>P78515</synonym>
-                <synonym>Q17RU4</synonym>
-                <synonym>Q92983</synonym>
-                <synonym>Q93036</synonym>
-                <synonym>Q93037</synonym>
-                <synonym>Q99722</synonym>
-                <synonym>Q99830</synonym>
-                <synonym>Q99831</synonym>
-                <synonym>Q9BY86</synonym>
-                <synonym>Q9UME0</synonym>
-                <synonym>Q9UME1</synonym>
-                <synonym>Q9UME5</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q93038" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000461703.6">
@@ -3121,6 +2754,7 @@
           <transcript source="Ensembl" accession="ENST00000453341.1">
             <coordinates coord_system="LRG_262" start="58911" end="60899" strand="1" mapped_from="GRCh38" />
             <long_name>TNFRSF25-006 (retained_intron)</long_name>
+            <db_xref source="RefSeq" accession="NM_001039664.1" />
             <exon source="Ensembl" accession="ENSE00001414294">
               <coordinates coord_system="LRG_262" start="58911" end="58941" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -3186,7 +2820,7 @@
         <name>List of locus specific databases for PLEKHG5</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PLEKHG5</url>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -84,7 +84,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -96,7 +96,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_id_syn="CM000663.1" other_start="33471586" other_end="33507492" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="35907" other_start="33471586" other_end="33507492" strand="-1" />
       </mapping>
@@ -393,8 +393,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-04-06</modification_date>
+      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="ENST00000354858.10" other_name="ENST00000354858.10" other_id="ENST00000354858.10" other_start="1" other_end="1021" type="transcript">
         <mapping_span lrg_start="4900" lrg_end="5156" other_start="1" other_end="257" strand="1" />
         <mapping_span lrg_start="17325" lrg_end="17450" other_start="258" other_end="383" strand="1" />
@@ -499,11 +499,9 @@
           <coordinates coord_system="LRG_133" start="1" end="33952" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>adenylate kinase 2 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="103020" />
+          <db_xref source="GeneID" accession="204" />
           <db_xref source="HGNC" accession="362" />
-          <db_xref source="GeneID" accession="204">
-            <synonym>ADK2</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="103020" />
           <db_xref source="Ensembl" accession="ENSG00000004455" />
           <transcript source="Ensembl" accession="ENST00000548559.1">
             <coordinates coord_system="LRG_133" start="1" end="20285" strand="1" mapped_from="GRCh38" />
@@ -544,22 +542,14 @@
             <protein_product source="Ensembl" accession="ENSP00000346921.6">
               <coordinates coord_system="LRG_133" start="5064" end="28711" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001616.1" />
-              <db_xref source="UniProtKB" accession="P54819">
-                <synonym>A8K6L1</synonym>
-                <synonym>B4DHH7</synonym>
-                <synonym>B4DL64</synonym>
-                <synonym>Q16856</synonym>
-                <synonym>Q5EB54</synonym>
-                <synonym>Q5TIF7</synonym>
-                <synonym>Q8TCY2</synonym>
-                <synonym>Q8TCY3</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P54819" />
               <db_xref source="CCDS" accession="CCDS374.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000629371.2">
             <coordinates coord_system="LRG_133" start="4981" end="33952" strand="1" mapped_from="GRCh38" />
             <long_name>AK2-202 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NR_134976.1" />
             <exon source="Ensembl" accession="ENSE00003761891">
               <coordinates coord_system="LRG_133" start="4981" end="5156" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -580,11 +570,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000486507.1">
               <coordinates coord_system="LRG_133" start="5064" end="27369" strand="1" mapped_from="GRCh38" />
+              <db_xref source="CCDS" accession="CCDS81295.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000550338.5">
             <coordinates coord_system="LRG_133" start="4990" end="28685" strand="1" mapped_from="GRCh38" />
             <long_name>AK2-011 (nonsense_mediated_decay)</long_name>
+            <db_xref source="RefSeq" accession="NM_001319140.1" />
             <exon source="Ensembl" accession="ENSE00002423612">
               <coordinates coord_system="LRG_133" start="4990" end="5156" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -608,6 +600,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000450008.1">
               <coordinates coord_system="LRG_133" start="5064" end="10266" strand="1" mapped_from="GRCh38" />
+              <long_name>adenylate kinase 2, mitochondrial isoform e</long_name>
+              <db_xref source="RefSeq" accession="NP_001306069.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000467905.5">
@@ -641,6 +635,7 @@
             <protein_product source="Ensembl" accession="ENSP00000447082.1">
               <coordinates coord_system="LRG_133" start="5064" end="29774" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001306070.1" />
+              <db_xref source="CCDS" accession="CCDS81296.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000480134.5">
@@ -665,6 +660,7 @@
             <protein_product source="Ensembl" accession="ENSP00000450109.1">
               <coordinates coord_system="LRG_133" start="5064" end="27369" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001306072.1" />
+              <db_xref source="CCDS" accession="CCDS81295.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000373449.6" fixed_id="t1">
@@ -696,20 +692,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000362548.2">
               <coordinates coord_system="LRG_133" start="5064" end="31063" strand="1" mapped_from="GRCh38" />
-              <long_name>adenylate kinase 2, mitochondrial isoform d, adenylate kinase 2, mitochondrial isoform c</long_name>
-              <db_xref source="RefSeq" accession="NP_037543.1" />
-              <db_xref source="RefSeq" accession="NP_001306068.1" />
+              <long_name>adenylate kinase 2, mitochondrial isoform c, adenylate kinase 2, mitochondrial isoform d</long_name>
               <db_xref source="RefSeq" accession="NP_001186128.1" />
-              <db_xref source="UniProtKB" accession="P54819">
-                <synonym>A8K6L1</synonym>
-                <synonym>B4DHH7</synonym>
-                <synonym>B4DL64</synonym>
-                <synonym>Q16856</synonym>
-                <synonym>Q5EB54</synonym>
-                <synonym>Q5TIF7</synonym>
-                <synonym>Q8TCY2</synonym>
-                <synonym>Q8TCY3</synonym>
-              </db_xref>
+              <db_xref source="RefSeq" accession="NP_001306068.1" />
+              <db_xref source="RefSeq" accession="NP_037543.1" />
+              <db_xref source="UniProtKB" accession="P54819" />
               <db_xref source="CCDS" accession="CCDS373.1" />
             </protein_product>
           </transcript>
@@ -783,6 +770,7 @@
             <protein_product source="Ensembl" accession="ENSP00000449003.1">
               <coordinates coord_system="LRG_133" start="5064" end="31063" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001306071.1" />
+              <db_xref source="CCDS" accession="CCDS81294.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000466029.1">
@@ -871,7 +859,7 @@
         <name>List of locus specific databases for AK2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/AK2</url>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

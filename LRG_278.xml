@@ -91,7 +91,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -103,7 +103,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_id_syn="CM000681.1" other_start="12912428" other_end="12926462" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="14035" other_start="12912428" other_end="12926462" strand="1" />
       </mapping>
@@ -233,8 +233,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-04-06</modification_date>
+      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="ENST00000221486.4" other_name="ENST00000221486.4" other_id="ENST00000221486.4" other_start="1" other_end="1165" type="transcript">
         <mapping_span lrg_start="4967" lrg_end="5187" other_start="1" other_end="221" strand="1" />
         <mapping_span lrg_start="5395" lrg_end="5466" other_start="222" other_end="293" strand="1" />
@@ -263,6 +263,13 @@
         <mapping_span lrg_start="11470" lrg_end="11593" other_start="1053" other_end="1176" strand="1" />
         <mapping_span lrg_start="11715" lrg_end="12025" other_start="1177" other_end="1487" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000639767.1" other_name="ENST00000639767.1" other_id="ENST00000639767.1" other_start="1" other_end="647" type="transcript">
+        <mapping_span lrg_start="450" lrg_end="606" other_start="1" other_end="157" strand="1" />
+        <mapping_span lrg_start="2491" lrg_end="2696" other_start="158" other_end="363" strand="1" />
+        <mapping_span lrg_start="5395" lrg_end="5466" other_start="364" other_end="435" strand="1" />
+        <mapping_span lrg_start="5593" lrg_end="5716" other_start="436" other_end="559" strand="1" />
+        <mapping_span lrg_start="5806" lrg_end="5893" other_start="560" other_end="647" strand="1" />
+      </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000267062.1">
           <symbol source="Clone_based_vega_gene" name="CTD-2659N19.10" />
@@ -285,13 +292,11 @@
           <partial>3-prime</partial>
           <partial>5-prime</partial>
           <long_name>hook microtubule tethering protein 2 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="607824" />
+          <db_xref source="GeneID" accession="29911" />
           <db_xref source="HGNC" accession="19885">
             <synonym>HK2</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="29911">
-            <synonym>HK2</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="607824" />
           <db_xref source="Ensembl" accession="ENSG00000095066" />
           <transcript source="Ensembl" accession="ENST00000589765.1">
             <coordinates coord_system="LRG_278" start="1" end="14035" strand="-1" mapped_from="GRCh38" />
@@ -305,7 +310,7 @@
           <coordinates coord_system="LRG_278" start="1" end="246" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>peroxiredoxin 2 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="600538" />
+          <db_xref source="GeneID" accession="7001" />
           <db_xref source="HGNC" accession="9353">
             <synonym>MGC4104</synonym>
             <synonym>NKEFB</synonym>
@@ -315,18 +320,7 @@
             <synonym>TDPX1</synonym>
             <synonym>TSA</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="7001">
-            <synonym>HEL-S-2a</synonym>
-            <synonym>NKEF-B</synonym>
-            <synonym>NKEFB</synonym>
-            <synonym>PRP</synonym>
-            <synonym>PRX2</synonym>
-            <synonym>PRXII</synonym>
-            <synonym>PTX1</synonym>
-            <synonym>TDPX1</synonym>
-            <synonym>TPX1</synonym>
-            <synonym>TSA</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="600538" />
           <db_xref source="Ensembl" accession="ENSG00000167815" />
           <transcript source="Ensembl" accession="ENST00000334482.9">
             <coordinates coord_system="LRG_278" start="1" end="174" strand="-1" mapped_from="GRCh38" />
@@ -362,25 +356,41 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000104889.4">
+        <gene source="Ensembl" accession="ENSG00000104889.5">
           <symbol source="HGNC" name="RNASEH2A" />
-          <coordinates coord_system="LRG_278" start="4967" end="12025" strand="1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_278" start="450" end="12025" strand="1" mapped_from="GRCh38" />
           <long_name>ribonuclease H2 subunit A (protein_coding)</long_name>
-          <db_xref source="MIM" accession="606034" />
+          <db_xref source="GeneID" accession="10535" />
           <db_xref source="HGNC" accession="18518">
             <synonym>AGS4</synonym>
             <synonym>RNASEHI</synonym>
             <synonym>RNHIA</synonym>
             <synonym>RNHL</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="10535">
-            <synonym>AGS4</synonym>
-            <synonym>JUNB</synonym>
-            <synonym>RNASEHI</synonym>
-            <synonym>RNHIA</synonym>
-            <synonym>RNHL</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606034" />
           <db_xref source="Ensembl" accession="ENSG00000104889" />
+          <transcript source="Ensembl" accession="ENST00000639767.1">
+            <coordinates coord_system="LRG_278" start="450" end="5893" strand="1" mapped_from="GRCh38" />
+            <long_name>RNASEH2A-005 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003807714">
+              <coordinates coord_system="LRG_278" start="450" end="606" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003808120">
+              <coordinates coord_system="LRG_278" start="2491" end="2696" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003811266">
+              <coordinates coord_system="LRG_278" start="5395" end="5466" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593437">
+              <coordinates coord_system="LRG_278" start="5593" end="5716" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003515791">
+              <coordinates coord_system="LRG_278" start="5806" end="5893" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000491410.1">
+              <coordinates coord_system="LRG_278" start="5400" end="5893" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000221486.4" fixed_id="t1">
             <coordinates coord_system="LRG_278" start="4967" end="12024" strand="1" mapped_from="GRCh38" />
             <long_name>RNASEH2A-001 (protein_coding)</long_name>
@@ -412,10 +422,7 @@
             <protein_product source="Ensembl" accession="ENSP00000221486.3">
               <coordinates coord_system="LRG_278" start="5061" end="11853" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_006388.2" />
-              <db_xref source="UniProtKB" accession="O75792">
-                <synonym>B2RCY1</synonym>
-                <synonym>Q96F11</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="O75792" />
               <db_xref source="CCDS" accession="CCDS12282.1" />
             </protein_product>
           </transcript>
@@ -468,6 +475,25 @@
             </exon>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000284491.1">
+          <symbol source="Clone_based_vega_gene" name="CTD-2265O21.8" />
+          <coordinates coord_system="LRG_278" start="459" end="2690" strand="1" mapped_from="GRCh38" />
+          <long_name>CTD-2265O21.8 (protein_coding)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000284491" />
+          <transcript source="Ensembl" accession="ENST00000639810.1">
+            <coordinates coord_system="LRG_278" start="459" end="2690" strand="1" mapped_from="GRCh38" />
+            <long_name>CTD-2265O21.8-001 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003808205">
+              <coordinates coord_system="LRG_278" start="459" end="606" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003803229">
+              <coordinates coord_system="LRG_278" start="2491" end="2690" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000491231.1">
+              <coordinates coord_system="LRG_278" start="459" end="2690" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+        </gene>
       </features>
     </annotation_set>
     <annotation_set type="lsdb">
@@ -475,7 +501,7 @@
         <name>List of locus specific databases for RNASEH2A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RNASEH2A</url>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

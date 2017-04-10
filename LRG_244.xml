@@ -77,7 +77,7 @@
           <email>ddunnen@humgen.nl</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -89,7 +89,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="8" other_id="NC_000008.10" other_id_syn="CM000670.1" other_start="75228365" other_end="75403107" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="174743" other_start="75228365" other_end="75403107" strand="1">
           <diff type="mismatch" lrg_start="34434" lrg_end="34434" other_start="75262798" other_end="75262798" lrg_sequence="C" other_sequence="G" />
@@ -303,8 +303,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-04-06</modification_date>
+      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="ENST00000220822.11" other_name="ENST00000220822.11" other_id="ENST00000220822.11" other_start="1" other_end="3666" type="transcript">
         <mapping_span lrg_start="34253" lrg_end="34449" other_start="1" other_end="197" strand="1" />
         <mapping_span lrg_start="35145" lrg_end="35337" other_start="198" other_end="390" strand="1" />
@@ -364,15 +364,11 @@
           <coordinates coord_system="LRG_244" start="1" end="5199" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>junctophilin 1 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="605266" />
+          <db_xref source="GeneID" accession="56704" />
           <db_xref source="HGNC" accession="14201">
             <synonym>JP-1</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="56704">
-            <synonym>CMT2K</synonym>
-            <synonym>JP-1</synonym>
-            <synonym>JP1</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="605266" />
           <db_xref source="Ensembl" accession="ENSG00000104369" />
           <transcript source="Ensembl" accession="ENST00000342232.4">
             <coordinates coord_system="LRG_244" start="1" end="5199" strand="-1" mapped_from="GRCh38" />
@@ -386,11 +382,9 @@
             <protein_product source="Ensembl" accession="ENSP00000344488.4">
               <coordinates coord_system="LRG_244" start="1" end="5158" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_065698.1" />
               <db_xref source="RefSeq" accession="NP_001304759.1" />
-              <db_xref source="UniProtKB" accession="Q9HDC5">
-                <synonym>B2RTZ0</synonym>
-              </db_xref>
+              <db_xref source="RefSeq" accession="NP_065698.1" />
+              <db_xref source="UniProtKB" accession="Q9HDC5" />
               <db_xref source="CCDS" accession="CCDS6217.1" />
             </protein_product>
           </transcript>
@@ -411,17 +405,13 @@
           <symbol source="HGNC" name="GDAP1" />
           <coordinates coord_system="LRG_244" start="5001" end="172743" strand="1" mapped_from="GRCh38" />
           <long_name>ganglioside induced differentiation associated protein 1 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="606598" />
+          <db_xref source="GeneID" accession="54332" />
           <db_xref source="HGNC" accession="15968">
             <synonym>CMT2K</synonym>
             <synonym>CMT4</synonym>
             <synonym>CMT4A</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="54332">
-            <synonym>CMT4</synonym>
-            <synonym>CMT4A</synonym>
-            <synonym>CMTRIA</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="606598" />
           <db_xref source="Ensembl" accession="ENSG00000104381" />
           <transcript source="Ensembl" accession="ENST00000521096.5">
             <coordinates coord_system="LRG_244" start="5001" end="48161" strand="1" mapped_from="GRCh38" />
@@ -464,7 +454,9 @@
           <transcript source="Ensembl" accession="ENST00000220822.11" fixed_id="t1">
             <coordinates coord_system="LRG_244" start="34253" end="50747" strand="1" mapped_from="GRCh38" />
             <long_name>GDAP1-001 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001040875.2" />
             <db_xref source="RefSeq" accession="NM_018972.2" />
+            <db_xref source="RefSeq" accession="NR_046346.1" />
             <exon source="Ensembl" accession="ENSE00001376753">
               <coordinates coord_system="LRG_244" start="34253" end="34449" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -485,19 +477,16 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000220822.7">
               <coordinates coord_system="LRG_244" start="34333" end="48238" strand="1" mapped_from="GRCh38" />
+              <long_name>ganglioside-induced differentiation-associated protein 1 isoform b</long_name>
+              <db_xref source="RefSeq" accession="NP_001035808.1" />
               <db_xref source="RefSeq" accession="NP_061845.2" />
-              <db_xref source="UniProtKB" accession="Q8TB36">
-                <synonym>A8K957</synonym>
-                <synonym>E7FJF3</synonym>
-                <synonym>E7FJF4</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q8TB36" />
               <db_xref source="CCDS" accession="CCDS34911.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000434412.2">
             <coordinates coord_system="LRG_244" start="34289" end="48475" strand="1" mapped_from="GRCh38" />
             <long_name>GDAP1-002 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001040875.2" />
             <exon source="Ensembl" accession="ENSE00001796320">
               <coordinates coord_system="LRG_244" start="34289" end="34343" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -518,12 +507,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000417006.2">
               <coordinates coord_system="LRG_244" start="35232" end="48238" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001035808.1" />
-              <db_xref source="UniProtKB" accession="Q8TB36">
-                <synonym>A8K957</synonym>
-                <synonym>E7FJF3</synonym>
-                <synonym>E7FJF4</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="Q8TB36" />
               <db_xref source="CCDS" accession="CCDS47877.1" />
             </protein_product>
           </transcript>
@@ -629,7 +613,7 @@
         <name>List of locus specific databases for GDAP1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GDAP1</url>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

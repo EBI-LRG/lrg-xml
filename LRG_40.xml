@@ -106,7 +106,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -118,7 +118,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="20" other_id="NC_000020.10" other_id_syn="CM000682.1" other_start="44741906" other_end="44760384" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="18479" other_start="44741906" other_end="44760384" strand="1" />
       </mapping>
@@ -326,8 +326,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-04-06</modification_date>
+      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="ENST00000372276.7" other_name="ENST00000372276.7" other_id="ENST00000372276.7" other_start="1" other_end="1623" type="transcript">
         <mapping_span lrg_start="5050" lrg_end="5128" other_start="1" other_end="79" strand="1" />
         <mapping_span lrg_start="8554" lrg_end="8632" other_start="80" other_end="158" strand="1" />
@@ -400,24 +400,22 @@
           <symbol source="HGNC" name="CD40" />
           <coordinates coord_system="LRG_40" start="5006" end="16597" strand="1" mapped_from="GRCh38" />
           <long_name>CD40 molecule (protein_coding)</long_name>
-          <db_xref source="MIM" accession="109535" />
+          <db_xref source="GeneID" accession="958" />
           <db_xref source="HGNC" accession="11919">
             <synonym>Bp50</synonym>
             <synonym>p50</synonym>
             <synonym>TNFRSF5</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="958">
-            <synonym>Bp50</synonym>
-            <synonym>CDW40</synonym>
-            <synonym>p50</synonym>
-            <synonym>TNFRSF5</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="109535" />
           <db_xref source="Ensembl" accession="ENSG00000101017" />
           <transcript source="Ensembl" accession="ENST00000372285.7" fixed_id="t1">
             <coordinates coord_system="LRG_40" start="5006" end="16597" strand="1" mapped_from="GRCh38" />
             <long_name>CD40-001 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001250.5" />
+            <db_xref source="RefSeq" accession="NM_001302753.1" />
             <db_xref source="RefSeq" accession="NM_001322421.1" />
+            <db_xref source="RefSeq" accession="NM_001322422.1" />
+            <db_xref source="RefSeq" accession="NR_136327.1" />
             <exon source="Ensembl" accession="ENSE00001043456">
               <coordinates coord_system="LRG_40" start="5006" end="5128" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -447,25 +445,19 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000361359.3">
               <coordinates coord_system="LRG_40" start="5078" end="15774" strand="1" mapped_from="GRCh38" />
-              <long_name>tumor necrosis factor receptor superfamily member 5 isoform 4 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001241.1" />
+              <long_name>tumor necrosis factor receptor superfamily member 5 isoform 4 precursor, tumor necrosis factor receptor superfamily member 5 isoform 5 precursor, tumor necrosis factor receptor superfamily member 5 isoform 3 precursor</long_name>
               <db_xref source="RefSeq" accession="NP_001309350.1" />
-              <db_xref source="UniProtKB" accession="P25942">
-                <synonym>E1P5S9</synonym>
-                <synonym>Q53GN5</synonym>
-                <synonym>Q5JY15</synonym>
-                <synonym>Q5U007</synonym>
-                <synonym>Q7M4Q8</synonym>
-                <synonym>Q86YK5</synonym>
-                <synonym>Q9BYU0</synonym>
-              </db_xref>
+              <db_xref source="RefSeq" accession="NP_001309351.1" />
+              <db_xref source="RefSeq" accession="NP_001289682.1" />
+              <db_xref source="RefSeq" accession="NP_001241.1" />
+              <db_xref source="UniProtKB" accession="P25942" />
               <db_xref source="CCDS" accession="CCDS13393.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000620709.4">
             <coordinates coord_system="LRG_40" start="5012" end="16393" strand="1" mapped_from="GRCh38" />
             <long_name>CD40-201 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001322422.1" />
+            <db_xref source="RefSeq" accession="NR_126502.1" />
             <exon source="Ensembl" accession="ENSE00003748532">
               <coordinates coord_system="LRG_40" start="5012" end="5128" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -489,14 +481,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000484074.1">
               <coordinates coord_system="LRG_40" start="5078" end="14765" strand="1" mapped_from="GRCh38" />
-              <long_name>tumor necrosis factor receptor superfamily member 5 isoform 5 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001309351.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372276.7">
             <coordinates coord_system="LRG_40" start="5050" end="16597" strand="1" mapped_from="GRCh38" />
             <long_name>CD40-002 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001302753.1" />
             <db_xref source="RefSeq" accession="NM_152854.3" />
             <exon source="Ensembl" accession="ENSE00001954828">
               <coordinates coord_system="LRG_40" start="5050" end="5128" strand="1" mapped_from="GRCh38" />
@@ -524,18 +513,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000361350.3">
               <coordinates coord_system="LRG_40" start="5078" end="15091" strand="1" mapped_from="GRCh38" />
-              <long_name>tumor necrosis factor receptor superfamily member 5 isoform 3 precursor</long_name>
               <db_xref source="RefSeq" accession="NP_690593.1" />
-              <db_xref source="RefSeq" accession="NP_001289682.1" />
-              <db_xref source="UniProtKB" accession="P25942">
-                <synonym>E1P5S9</synonym>
-                <synonym>Q53GN5</synonym>
-                <synonym>Q5JY15</synonym>
-                <synonym>Q5U007</synonym>
-                <synonym>Q7M4Q8</synonym>
-                <synonym>Q86YK5</synonym>
-                <synonym>Q9BYU0</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P25942" />
               <db_xref source="CCDS" accession="CCDS13394.1" />
             </protein_product>
           </transcript>
@@ -653,7 +632,7 @@
         <name>List of locus specific databases for CD40</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CD40</url>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

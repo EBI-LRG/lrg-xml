@@ -10,14 +10,6 @@
     <source>
       <name></name>
       <contact>
-        <name>Wim Wuyts</name>
-        <address>University and University Hospital of Antwerp, Belgium</address>
-        <email>Wim.wuyts@ua.ac.be</email>
-      </contact>
-    </source>
-    <source>
-      <name></name>
-      <contact>
         <name>Kevin Colclough</name>
         <address>Royal Devon and Exeter NHS Foundation Trust, UK</address>
         <email>kevin.colclough@nhs.net</email>
@@ -34,6 +26,14 @@
         <name>Valeria Vasta</name>
         <address>Seattle Children's Research Institute</address>
         <email>Valeria.Vasta@seattlechildrens.org</email>
+      </contact>
+    </source>
+    <source>
+      <name></name>
+      <contact>
+        <name>Wim Wuyts</name>
+        <address>University and University Hospital of Antwerp, Belgium</address>
+        <email>Wim.wuyts@ua.ac.be</email>
       </contact>
     </source>
     <mol_type>dna</mol_type>
@@ -265,14 +265,6 @@
       <source>
         <name></name>
         <contact>
-          <name>Wim Wuyts</name>
-          <address>University and University Hospital of Antwerp, Belgium</address>
-          <email>Wim.wuyts@ua.ac.be</email>
-        </contact>
-      </source>
-      <source>
-        <name></name>
-        <contact>
           <name>Kevin Colclough</name>
           <address>Royal Devon and Exeter NHS Foundation Trust, UK</address>
           <email>kevin.colclough@nhs.net</email>
@@ -291,7 +283,15 @@
           <email>Valeria.Vasta@seattlechildrens.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <source>
+        <name></name>
+        <contact>
+          <name>Wim Wuyts</name>
+          <address>University and University Hospital of Antwerp, Belgium</address>
+          <email>Wim.wuyts@ua.ac.be</email>
+        </contact>
+      </source>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -303,7 +303,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="20" other_id="NC_000020.10" other_id_syn="CM000682.1" other_start="42979441" other_end="43062030" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="82590" other_start="42979441" other_end="43062030" strand="1" />
       </mapping>
@@ -817,8 +817,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-04-06</modification_date>
+      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="ENST00000316099.8" other_name="ENST00000316099.8" other_id="ENST00000316099.8" other_start="1" other_end="6445" type="transcript">
         <mapping_span lrg_start="50484" lrg_end="50687" other_start="1" other_end="204" strand="1" />
         <mapping_span lrg_start="55258" lrg_end="55432" other_start="205" other_end="379" strand="1" />
@@ -959,10 +959,8 @@
           <coordinates coord_system="LRG_483" start="1" end="435" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>R3H domain containing like (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="140902" />
           <db_xref source="HGNC" accession="16249">
-            <synonym>dJ881L22.3</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="140902">
             <synonym>dJ881L22.3</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000101074" />
@@ -982,7 +980,7 @@
           <coordinates coord_system="LRG_483" start="4900" end="82590" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>hepatocyte nuclear factor 4 alpha (protein_coding)</long_name>
-          <db_xref source="MIM" accession="600281" />
+          <db_xref source="GeneID" accession="3172" />
           <db_xref source="HGNC" accession="5024">
             <synonym>HNF4</synonym>
             <synonym>MODY</synonym>
@@ -990,25 +988,11 @@
             <synonym>NR2A1</synonym>
             <synonym>TCF14</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="3172">
-            <synonym>FRTS4</synonym>
-            <synonym>HNF4</synonym>
-            <synonym>HNF4a7</synonym>
-            <synonym>HNF4a8</synonym>
-            <synonym>HNF4a9</synonym>
-            <synonym>HNF4alpha</synonym>
-            <synonym>MODY</synonym>
-            <synonym>MODY1</synonym>
-            <synonym>NR2A1</synonym>
-            <synonym>NR2A21</synonym>
-            <synonym>TCF</synonym>
-            <synonym>TCF14</synonym>
-          </db_xref>
+          <db_xref source="MIM" accession="600281" />
           <db_xref source="Ensembl" accession="ENSG00000101076" />
           <transcript source="Ensembl" accession="ENST00000316673.8" fixed_id="t1">
             <coordinates coord_system="LRG_483" start="4900" end="78871" strand="1" mapped_from="GRCh38" />
             <long_name>HNF4A-001 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_175914.4" />
             <exon source="Ensembl" accession="ENSE00001760101">
               <coordinates coord_system="LRG_483" start="4900" end="5053" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1041,23 +1025,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000315180.4">
               <coordinates coord_system="LRG_483" start="5005" end="78865" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_787110.2" />
-              <db_xref source="UniProtKB" accession="P41235">
-                <synonym>A5JW41</synonym>
-                <synonym>B2RPP8</synonym>
-                <synonym>O00659</synonym>
-                <synonym>O00723</synonym>
-                <synonym>Q14540</synonym>
-                <synonym>Q5QPB8</synonym>
-                <synonym>Q6B4V5</synonym>
-                <synonym>Q6B4V6</synonym>
-                <synonym>Q6B4V7</synonym>
-                <synonym>Q92653</synonym>
-                <synonym>Q92654</synonym>
-                <synonym>Q92655</synonym>
-                <synonym>Q99864</synonym>
-                <synonym>Q9NQH0</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P41235" />
               <db_xref source="CCDS" accession="CCDS42876.1" />
             </protein_product>
           </transcript>
@@ -1092,25 +1060,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000476609.1">
               <coordinates coord_system="LRG_483" start="5005" end="73579" strand="1" mapped_from="GRCh38" />
-              <long_name>hepatocyte nuclear factor 4-alpha isoform HNF4alpha12</long_name>
-              <db_xref source="RefSeq" accession="NP_001025175.1" />
+              <long_name>hepatocyte nuclear factor 4-alpha isoform 10</long_name>
               <db_xref source="RefSeq" accession="NP_001274113.1" />
-              <db_xref source="UniProtKB" accession="P41235">
-                <synonym>A5JW41</synonym>
-                <synonym>B2RPP8</synonym>
-                <synonym>O00659</synonym>
-                <synonym>O00723</synonym>
-                <synonym>Q14540</synonym>
-                <synonym>Q5QPB8</synonym>
-                <synonym>Q6B4V5</synonym>
-                <synonym>Q6B4V6</synonym>
-                <synonym>Q6B4V7</synonym>
-                <synonym>Q92653</synonym>
-                <synonym>Q92654</synonym>
-                <synonym>Q92655</synonym>
-                <synonym>Q99864</synonym>
-                <synonym>Q9NQH0</synonym>
-              </db_xref>
+              <db_xref source="RefSeq" accession="NP_001025175.1" />
+              <db_xref source="UniProtKB" accession="P41235" />
               <db_xref source="CCDS" accession="CCDS68131.1" />
             </protein_product>
           </transcript>
@@ -1118,6 +1071,7 @@
             <coordinates coord_system="LRG_483" start="5001" end="78871" strand="1" mapped_from="GRCh38" />
             <long_name>HNF4A-005 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001030003.2" />
+            <db_xref source="RefSeq" accession="NM_175914.4" />
             <exon source="Ensembl" accession="ENSE00001217050">
               <coordinates coord_system="LRG_483" start="5001" end="5053" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1150,23 +1104,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000396216.1">
               <coordinates coord_system="LRG_483" start="5005" end="78865" strand="1" mapped_from="GRCh38" />
+              <long_name>hepatocyte nuclear factor 4-alpha isoform 5</long_name>
+              <db_xref source="RefSeq" accession="NP_787110.2" />
               <db_xref source="RefSeq" accession="NP_001025174.1" />
-              <db_xref source="UniProtKB" accession="P41235">
-                <synonym>A5JW41</synonym>
-                <synonym>B2RPP8</synonym>
-                <synonym>O00659</synonym>
-                <synonym>O00723</synonym>
-                <synonym>Q14540</synonym>
-                <synonym>Q5QPB8</synonym>
-                <synonym>Q6B4V5</synonym>
-                <synonym>Q6B4V6</synonym>
-                <synonym>Q6B4V7</synonym>
-                <synonym>Q92653</synonym>
-                <synonym>Q92654</synonym>
-                <synonym>Q92655</synonym>
-                <synonym>Q99864</synonym>
-                <synonym>Q9NQH0</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P41235" />
               <db_xref source="CCDS" accession="CCDS46604.1" />
             </protein_product>
           </transcript>
@@ -1210,9 +1151,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000481331.1">
               <coordinates coord_system="LRG_483" start="39840" end="78865" strand="1" mapped_from="GRCh38" />
-              <long_name>hepatocyte nuclear factor 4-alpha isoform HNF4alpha10</long_name>
-              <db_xref source="RefSeq" accession="NP_001274112.1" />
+              <long_name>hepatocyte nuclear factor 4-alpha isoform 8</long_name>
               <db_xref source="RefSeq" accession="NP_001274111.1" />
+              <db_xref source="RefSeq" accession="NP_001274112.1" />
               <db_xref source="CCDS" accession="CCDS74728.1" />
             </protein_product>
           </transcript>
@@ -1306,22 +1247,7 @@
             <protein_product source="Ensembl" accession="ENSP00000410911.2">
               <coordinates coord_system="LRG_483" start="50573" end="73579" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_849181.1" />
-              <db_xref source="UniProtKB" accession="P41235">
-                <synonym>A5JW41</synonym>
-                <synonym>B2RPP8</synonym>
-                <synonym>O00659</synonym>
-                <synonym>O00723</synonym>
-                <synonym>Q14540</synonym>
-                <synonym>Q5QPB8</synonym>
-                <synonym>Q6B4V5</synonym>
-                <synonym>Q6B4V6</synonym>
-                <synonym>Q6B4V7</synonym>
-                <synonym>Q92653</synonym>
-                <synonym>Q92654</synonym>
-                <synonym>Q92655</synonym>
-                <synonym>Q99864</synonym>
-                <synonym>Q9NQH0</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P41235" />
               <db_xref source="CCDS" accession="CCDS13331.1" />
             </protein_product>
           </transcript>
@@ -1331,6 +1257,7 @@
             <long_name>HNF4A-002 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_000457.4" />
             <db_xref source="RefSeq" accession="NM_001258355.1" />
+            <db_xref source="RefSeq" accession="NM_178849.2" />
             <exon source="Ensembl" accession="ENSE00001216307">
               <coordinates coord_system="LRG_483" start="50484" end="50687" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1364,32 +1291,17 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000312987.3">
               <coordinates coord_system="LRG_483" start="50573" end="78865" strand="1" mapped_from="GRCh38" />
-              <long_name>hepatocyte nuclear factor 4-alpha isoform HNF4alpha4</long_name>
-              <db_xref source="RefSeq" accession="NP_000448.3" />
+              <long_name>hepatocyte nuclear factor 4-alpha isoform 7, hepatocyte nuclear factor 4-alpha isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_001245284.1" />
-              <db_xref source="UniProtKB" accession="P41235">
-                <synonym>A5JW41</synonym>
-                <synonym>B2RPP8</synonym>
-                <synonym>O00659</synonym>
-                <synonym>O00723</synonym>
-                <synonym>Q14540</synonym>
-                <synonym>Q5QPB8</synonym>
-                <synonym>Q6B4V5</synonym>
-                <synonym>Q6B4V6</synonym>
-                <synonym>Q6B4V7</synonym>
-                <synonym>Q92653</synonym>
-                <synonym>Q92654</synonym>
-                <synonym>Q92655</synonym>
-                <synonym>Q99864</synonym>
-                <synonym>Q9NQH0</synonym>
-              </db_xref>
+              <db_xref source="RefSeq" accession="NP_849180.1" />
+              <db_xref source="RefSeq" accession="NP_000448.3" />
+              <db_xref source="UniProtKB" accession="P41235" />
               <db_xref source="CCDS" accession="CCDS13330.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000415691.2">
             <coordinates coord_system="LRG_483" start="50501" end="79700" strand="1" mapped_from="GRCh38" />
             <long_name>HNF4A-006 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_178849.2" />
             <exon source="Ensembl" accession="ENSE00003709856">
               <coordinates coord_system="LRG_483" start="50501" end="50687" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1422,23 +1334,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000412111.1">
               <coordinates coord_system="LRG_483" start="50573" end="78865" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_849180.1" />
-              <db_xref source="UniProtKB" accession="P41235">
-                <synonym>A5JW41</synonym>
-                <synonym>B2RPP8</synonym>
-                <synonym>O00659</synonym>
-                <synonym>O00723</synonym>
-                <synonym>Q14540</synonym>
-                <synonym>Q5QPB8</synonym>
-                <synonym>Q6B4V5</synonym>
-                <synonym>Q6B4V6</synonym>
-                <synonym>Q6B4V7</synonym>
-                <synonym>Q92653</synonym>
-                <synonym>Q92654</synonym>
-                <synonym>Q92655</synonym>
-                <synonym>Q99864</synonym>
-                <synonym>Q9NQH0</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P41235" />
               <db_xref source="CCDS" accession="CCDS46605.1" />
             </protein_product>
           </transcript>
@@ -1447,10 +1343,8 @@
           <symbol source="HGNC" name="HNF4A-AS1" />
           <coordinates coord_system="LRG_483" start="21946" end="44906" strand="-1" mapped_from="GRCh38" />
           <long_name>HNF4A antisense RNA 1 (antisense)</long_name>
+          <db_xref source="GeneID" accession="101927219" />
           <db_xref source="HGNC" accession="49505">
-            <synonym>uc002xlx</synonym>
-          </db_xref>
-          <db_xref source="GeneID" accession="101927219">
             <synonym>uc002xlx</synonym>
           </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000229005" />
@@ -1504,7 +1398,7 @@
       <source>
         <name>Community</name>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <fixed_transcript_annotation name="t1">
         <other_exon_naming description="Alternative numbering based on Monogenic Diabetes Hepatocyte Nuclear Factor 4, alpha (HNF4A) database">
           <url>http://grenada.lumc.nl/LOVD2/diabetes/home.php?select_db=HNF4A</url>
@@ -1650,7 +1544,7 @@
         <name>List of locus specific databases for HNF4A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HNF4A</url>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
