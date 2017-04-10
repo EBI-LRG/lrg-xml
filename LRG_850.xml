@@ -128,7 +128,7 @@
           <email>ddunnen@humgen.nl</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -140,7 +140,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="1935799" other_end="1961936" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="26138" other_start="1935799" other_end="1961936" strand="1">
           <diff type="mismatch" lrg_start="15680" lrg_end="15680" other_start="1951478" other_end="1951478" lrg_sequence="C" other_sequence="T" />
@@ -577,8 +577,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 87 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-04-06</modification_date>
+      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-04-10</modification_date>
       <mapping coord_system="ENST00000278317.10" other_name="ENST00000278317.10" other_id="ENST00000278317.10" other_start="1" other_end="1210" type="transcript">
         <mapping_span lrg_start="4994" lrg_end="5194" other_start="1" other_end="201" strand="1" />
         <mapping_span lrg_start="8289" lrg_end="8323" other_start="202" other_end="236" strand="1" />
@@ -783,25 +783,35 @@
         <mapping_span lrg_start="19978" lrg_end="20087" other_start="251" other_end="360" strand="1" />
         <mapping_span lrg_start="20261" lrg_end="21013" other_start="361" other_end="1113" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000639560.1" other_name="ENST00000639560.1" other_id="ENST00000639560.1" other_start="1" other_end="878" type="transcript">
+        <mapping_span lrg_start="13254" lrg_end="13469" other_start="1" other_end="216" strand="1" />
+        <mapping_span lrg_start="15242" lrg_end="15260" other_start="217" other_end="235" strand="1" />
+        <mapping_span lrg_start="17901" lrg_end="17946" other_start="236" other_end="281" strand="1" />
+        <mapping_span lrg_start="19153" lrg_end="19269" other_start="282" other_end="398" strand="1" />
+        <mapping_span lrg_start="19363" lrg_end="19440" other_start="399" other_end="476" strand="1" />
+        <mapping_span lrg_start="19764" lrg_end="19877" other_start="477" other_end="590" strand="1" />
+        <mapping_span lrg_start="19978" lrg_end="20087" other_start="591" other_end="700" strand="1" />
+        <mapping_span lrg_start="20261" lrg_end="20351" other_start="701" other_end="791" strand="1" />
+        <mapping_span lrg_start="22395" lrg_end="22435" other_start="792" other_end="832" strand="1" />
+        <mapping_span lrg_start="23870" lrg_end="23915" other_start="833" other_end="878" strand="1" />
+      </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000130595.16">
+        <gene source="Ensembl" accession="ENSG00000130595.17">
           <symbol source="HGNC" name="TNNT3" />
           <coordinates coord_system="LRG_850" start="4994" end="24138" strand="1" mapped_from="GRCh38" />
           <long_name>troponin T3, fast skeletal type (protein_coding)</long_name>
-          <db_xref source="MIM" accession="600692" />
+          <db_xref source="GeneID" accession="7140" />
           <db_xref source="HGNC" accession="11950">
             <synonym>AMCD2B</synonym>
             <synonym>DA2B</synonym>
             <synonym>DKFZp779M2348</synonym>
             <synonym>FSSV</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="7140">
-            <synonym>TNTF</synonym>
-          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000130595" />
           <transcript source="Ensembl" accession="ENST00000278317.10" fixed_id="t1">
             <coordinates coord_system="LRG_850" start="4994" end="24138" strand="1" mapped_from="GRCh38" />
             <long_name>TNNT3-001 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001042782.2" />
             <db_xref source="RefSeq" accession="NM_006757.3" />
             <exon source="Ensembl" accession="ENSE00001919217">
               <coordinates coord_system="LRG_850" start="4994" end="5194" strand="1" mapped_from="GRCh38" />
@@ -853,23 +863,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000278317.6">
               <coordinates coord_system="LRG_850" start="8307" end="23924" strand="1" mapped_from="GRCh38" />
+              <long_name>troponin T, fast skeletal muscle isoform 4</long_name>
+              <db_xref source="RefSeq" accession="NP_001036247.1" />
               <db_xref source="RefSeq" accession="NP_006748.1" />
-              <db_xref source="UniProtKB" accession="P45378">
-                <synonym>A8MQ76</synonym>
-                <synonym>A8MSW1</synonym>
-                <synonym>B3KPX3</synonym>
-                <synonym>B7WP64</synonym>
-                <synonym>B7ZL26</synonym>
-                <synonym>B7ZVV9</synonym>
-                <synonym>Q12975</synonym>
-                <synonym>Q12976</synonym>
-                <synonym>Q12977</synonym>
-                <synonym>Q12978</synonym>
-                <synonym>Q17RG9</synonym>
-                <synonym>Q6FH29</synonym>
-                <synonym>Q6N056</synonym>
-                <synonym>Q86TH6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P45378" />
               <db_xref source="CCDS" accession="CCDS7727.1" />
             </protein_product>
           </transcript>
@@ -1017,22 +1014,7 @@
             <protein_product source="Ensembl" accession="ENSP00000371001.3">
               <coordinates coord_system="LRG_850" start="8307" end="23924" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001036246.1" />
-              <db_xref source="UniProtKB" accession="P45378">
-                <synonym>A8MQ76</synonym>
-                <synonym>A8MSW1</synonym>
-                <synonym>B3KPX3</synonym>
-                <synonym>B7WP64</synonym>
-                <synonym>B7ZL26</synonym>
-                <synonym>B7ZVV9</synonym>
-                <synonym>Q12975</synonym>
-                <synonym>Q12976</synonym>
-                <synonym>Q12977</synonym>
-                <synonym>Q12978</synonym>
-                <synonym>Q17RG9</synonym>
-                <synonym>Q6FH29</synonym>
-                <synonym>Q6N056</synonym>
-                <synonym>Q86TH6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P45378" />
               <db_xref source="CCDS" accession="CCDS41594.1" />
             </protein_product>
           </transcript>
@@ -1088,22 +1070,7 @@
             <protein_product source="Ensembl" accession="ENSP00000370991.3">
               <coordinates coord_system="LRG_850" start="8307" end="23924" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001036245.1" />
-              <db_xref source="UniProtKB" accession="P45378">
-                <synonym>A8MQ76</synonym>
-                <synonym>A8MSW1</synonym>
-                <synonym>B3KPX3</synonym>
-                <synonym>B7WP64</synonym>
-                <synonym>B7ZL26</synonym>
-                <synonym>B7ZVV9</synonym>
-                <synonym>Q12975</synonym>
-                <synonym>Q12976</synonym>
-                <synonym>Q12977</synonym>
-                <synonym>Q12978</synonym>
-                <synonym>Q17RG9</synonym>
-                <synonym>Q6FH29</synonym>
-                <synonym>Q6N056</synonym>
-                <synonym>Q86TH6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P45378" />
               <db_xref source="CCDS" accession="CCDS41595.1" />
             </protein_product>
           </transcript>
@@ -1163,22 +1130,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000370975.4">
               <coordinates coord_system="LRG_850" start="8307" end="23924" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P45378">
-                <synonym>A8MQ76</synonym>
-                <synonym>A8MSW1</synonym>
-                <synonym>B3KPX3</synonym>
-                <synonym>B7WP64</synonym>
-                <synonym>B7ZL26</synonym>
-                <synonym>B7ZVV9</synonym>
-                <synonym>Q12975</synonym>
-                <synonym>Q12976</synonym>
-                <synonym>Q12977</synonym>
-                <synonym>Q12978</synonym>
-                <synonym>Q17RG9</synonym>
-                <synonym>Q6FH29</synonym>
-                <synonym>Q6N056</synonym>
-                <synonym>Q86TH6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P45378" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000344578.8">
@@ -1228,28 +1180,12 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000344870.4">
               <coordinates coord_system="LRG_850" start="8307" end="23924" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P45378">
-                <synonym>A8MQ76</synonym>
-                <synonym>A8MSW1</synonym>
-                <synonym>B3KPX3</synonym>
-                <synonym>B7WP64</synonym>
-                <synonym>B7ZL26</synonym>
-                <synonym>B7ZVV9</synonym>
-                <synonym>Q12975</synonym>
-                <synonym>Q12976</synonym>
-                <synonym>Q12977</synonym>
-                <synonym>Q12978</synonym>
-                <synonym>Q17RG9</synonym>
-                <synonym>Q6FH29</synonym>
-                <synonym>Q6N056</synonym>
-                <synonym>Q86TH6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P45378" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000381558.5">
             <coordinates coord_system="LRG_850" start="6791" end="24138" strand="1" mapped_from="GRCh38" />
             <long_name>TNNT3-004 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001042782.2" />
             <db_xref source="RefSeq" accession="NM_001297646.1" />
             <exon source="Ensembl" accession="ENSE00001489117">
               <coordinates coord_system="LRG_850" start="6791" end="7051" strand="1" mapped_from="GRCh38" />
@@ -1298,24 +1234,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000370970.1">
               <coordinates coord_system="LRG_850" start="8307" end="23924" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001036247.1" />
               <db_xref source="RefSeq" accession="NP_001284575.1" />
-              <db_xref source="UniProtKB" accession="P45378">
-                <synonym>A8MQ76</synonym>
-                <synonym>A8MSW1</synonym>
-                <synonym>B3KPX3</synonym>
-                <synonym>B7WP64</synonym>
-                <synonym>B7ZL26</synonym>
-                <synonym>B7ZVV9</synonym>
-                <synonym>Q12975</synonym>
-                <synonym>Q12976</synonym>
-                <synonym>Q12977</synonym>
-                <synonym>Q12978</synonym>
-                <synonym>Q17RG9</synonym>
-                <synonym>Q6FH29</synonym>
-                <synonym>Q6N056</synonym>
-                <synonym>Q86TH6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P45378" />
               <db_xref source="CCDS" accession="CCDS41596.1" />
             </protein_product>
           </transcript>
@@ -1375,22 +1295,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000380468.1">
               <coordinates coord_system="LRG_850" start="8307" end="23924" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P45378">
-                <synonym>A8MQ76</synonym>
-                <synonym>A8MSW1</synonym>
-                <synonym>B3KPX3</synonym>
-                <synonym>B7WP64</synonym>
-                <synonym>B7ZL26</synonym>
-                <synonym>B7ZVV9</synonym>
-                <synonym>Q12975</synonym>
-                <synonym>Q12976</synonym>
-                <synonym>Q12977</synonym>
-                <synonym>Q12978</synonym>
-                <synonym>Q17RG9</synonym>
-                <synonym>Q6FH29</synonym>
-                <synonym>Q6N056</synonym>
-                <synonym>Q86TH6</synonym>
-              </db_xref>
+              <db_xref source="UniProtKB" accession="P45378" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000397304.6">
@@ -1516,9 +1421,43 @@
               <coordinates coord_system="LRG_850" start="19978" end="20087" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000639560.1">
+            <coordinates coord_system="LRG_850" start="13254" end="23915" strand="1" mapped_from="GRCh38" />
+            <long_name>TNNT3-017 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003810366">
+              <coordinates coord_system="LRG_850" start="13254" end="13469" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003507102">
+              <coordinates coord_system="LRG_850" start="15242" end="15260" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003634223">
+              <coordinates coord_system="LRG_850" start="17901" end="17946" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003661297">
+              <coordinates coord_system="LRG_850" start="19153" end="19269" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003523140">
+              <coordinates coord_system="LRG_850" start="19363" end="19440" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003503930">
+              <coordinates coord_system="LRG_850" start="19764" end="19877" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003615956">
+              <coordinates coord_system="LRG_850" start="19978" end="20087" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003802024">
+              <coordinates coord_system="LRG_850" start="20261" end="20351" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003808613">
+              <coordinates coord_system="LRG_850" start="22395" end="22435" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003802420">
+              <coordinates coord_system="LRG_850" start="23870" end="23915" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000493234.1">
             <coordinates coord_system="LRG_850" start="19305" end="21013" strand="1" mapped_from="GRCh38" />
-            <long_name>TNNT3-008 (processed_transcript)</long_name>
+            <long_name>TNNT3-008 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001887725">
               <coordinates coord_system="LRG_850" start="19305" end="19440" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1550,7 +1489,7 @@
         <name>List of locus specific databases for TNNT3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TNNT3</url>
       </source>
-      <modification_date>2017-04-06</modification_date>
+      <modification_date>2017-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
