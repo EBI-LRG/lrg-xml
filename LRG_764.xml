@@ -90,7 +90,7 @@ United Kingdom</address>
           <email>info@ukneqas-molgen.org.uk</email>
         </contact>
       </source>
-      <modification_date>2017-05-29</modification_date>
+      <modification_date>2017-06-05</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -102,7 +102,12 @@ United Kingdom</address>
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-05-29</modification_date>
+      <modification_date>2017-06-05</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="153285264" other_end="153407578" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="122315" other_start="153285264" other_end="153407578" strand="-1">
+          <diff type="mismatch" lrg_start="113037" lrg_end="113037" other_start="153294542" other_end="153294542" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="Xq28" other_id="NW_003871103.3" other_id_syn="JH159150.3" other_start="1453792" other_end="1576083" type="patch">
         <mapping_span lrg_start="1" lrg_end="122315" other_start="1453792" other_end="1576083" strand="-1">
           <diff type="other_ins" lrg_start="3634" lrg_end="3635" other_start="1572449" other_end="1572449" lrg_sequence="-" other_sequence="T" />
@@ -157,11 +162,6 @@ United Kingdom</address>
           <diff type="mismatch" lrg_start="66519" lrg_end="66519" other_start="1509588" other_end="1509588" lrg_sequence="T" other_sequence="G" />
           <diff type="mismatch" lrg_start="73235" lrg_end="73235" other_start="1502872" other_end="1502872" lrg_sequence="C" other_sequence="A" />
           <diff type="mismatch" lrg_start="113037" lrg_end="113037" other_start="1463070" other_end="1463070" lrg_sequence="G" other_sequence="A" />
-        </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="153285264" other_end="153407578" type="other_assembly">
-        <mapping_span lrg_start="1" lrg_end="122315" other_start="153285264" other_end="153407578" strand="-1">
-          <diff type="mismatch" lrg_start="113037" lrg_end="113037" other_start="153294542" other_end="153294542" lrg_sequence="G" other_sequence="A" />
         </mapping_span>
       </mapping>
       <mapping coord_system="GRCh38.p7" other_name="X" other_id="NC_000023.11" other_id_syn="CM000685.2" other_start="154019813" other_end="154142104" type="main_assembly">
@@ -233,7 +233,7 @@ United Kingdom</address>
         </contact>
       </source>
       <comment>Annotation from NG_007107.2</comment>
-      <modification_date>2017-05-26</modification_date>
+      <modification_date>2017-06-02</modification_date>
       <mapping coord_system="AJ132917.1" other_name="AJ132917.1" other_id="AJ132917.1" other_start="1" other_end="10091" type="transcript">
         <mapping_span lrg_start="49837" lrg_end="49937" other_start="1" other_end="101" strand="1" />
         <mapping_span lrg_start="109571" lrg_end="109921" other_start="102" other_end="452" strand="1" />
@@ -360,9 +360,9 @@ United Kingdom</address>
           <db_xref source="GeneID" accession="3654" />
           <db_xref source="HGNC" accession="HGNC:6112" />
           <db_xref source="MIM" accession="300283" />
-          <db_xref source="CCDS" accession="CCDS35444.1" />
-          <db_xref source="CCDS" accession="CCDS35443.1" />
           <db_xref source="CCDS" accession="CCDS14740.1" />
+          <db_xref source="CCDS" accession="CCDS35443.1" />
+          <db_xref source="CCDS" accession="CCDS35444.1" />
           <transcript source="RefSeq" accession="NM_001569.3">
             <coordinates coord_system="LRG_764" start="122237" end="122315" strand="1" />
             <partial>3-prime</partial>
@@ -409,8 +409,8 @@ United Kingdom</address>
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-05-29</modification_date>
+      <comment>Annotation is based on Ensembl release 89 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-06-05</modification_date>
       <mapping coord_system="ENST00000303391.10" other_name="ENST00000303391.10" other_id="ENST00000303391.10" other_start="1" other_end="10505" type="transcript">
         <mapping_span lrg_start="44367" lrg_end="44518" other_start="1" other_end="152" strand="1" />
         <mapping_span lrg_start="49814" lrg_end="49937" other_start="153" other_end="276" strand="1" />
@@ -553,17 +553,17 @@ United Kingdom</address>
           <symbol source="HGNC" name="MECP2" />
           <coordinates coord_system="LRG_764" start="5001" end="120555" strand="1" mapped_from="GRCh38" />
           <long_name>methyl-CpG binding protein 2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="4204" />
+          <db_xref source="MIM" accession="300005" />
           <db_xref source="HGNC" accession="6990">
             <synonym>MRX16</synonym>
             <synonym>MRX79</synonym>
             <synonym>RTT</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="300005" />
+          <db_xref source="GeneID" accession="4204" />
           <db_xref source="Ensembl" accession="ENSG00000169057" />
           <transcript source="Ensembl" accession="ENST00000631210.1">
             <coordinates coord_system="LRG_764" start="5001" end="109755" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-015 (processed_transcript)</long_name>
+            <long_name>MECP2-220 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003764731">
               <coordinates coord_system="LRG_764" start="5001" end="5047" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -576,7 +576,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000453960.6" fixed_id="t1">
             <coordinates coord_system="LRG_764" start="44358" end="111894" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-002 (protein_coding)</long_name>
+            <long_name>MECP2-205 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001110792.1" />
             <exon source="Ensembl" accession="ENSE00003772911">
               <coordinates coord_system="LRG_764" start="44358" end="44518" strand="1" mapped_from="GRCh38" />
@@ -596,7 +596,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000303391.10">
             <coordinates coord_system="LRG_764" start="44367" end="120555" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-001 (protein_coding)</long_name>
+            <long_name>MECP2-201 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_004992.3" />
             <exon source="Ensembl" accession="ENSE00001869751">
               <coordinates coord_system="LRG_764" start="44367" end="44518" strand="1" mapped_from="GRCh38" />
@@ -619,7 +619,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000628176.2">
             <coordinates coord_system="LRG_764" start="44385" end="111889" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-005 (protein_coding)</long_name>
+            <long_name>MECP2-217 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001316337.1" />
             <exon source="Ensembl" accession="ENSE00001877797">
               <coordinates coord_system="LRG_764" start="44385" end="44518" strand="1" mapped_from="GRCh38" />
@@ -644,7 +644,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000407218.5">
             <coordinates coord_system="LRG_764" start="44433" end="111523" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-019 (protein_coding)</long_name>
+            <long_name>MECP2-203 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00001554249">
               <coordinates coord_system="LRG_764" start="44433" end="44518" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -663,7 +663,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000627864.1">
             <coordinates coord_system="LRG_764" start="44442" end="51319" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-018 (processed_transcript)</long_name>
+            <long_name>MECP2-216 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003774924">
               <coordinates coord_system="LRG_764" start="44442" end="44518" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -676,7 +676,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000369957.5">
             <coordinates coord_system="LRG_764" start="44459" end="110758" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-003 (nonsense_mediated_decay)</long_name>
+            <long_name>MECP2-202 (nonsense_mediated_decay)</long_name>
             <exon source="Ensembl" accession="ENSE00001451321">
               <coordinates coord_system="LRG_764" start="44459" end="44518" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -698,14 +698,14 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000629277.1">
             <coordinates coord_system="LRG_764" start="44599" end="47154" end_ext="1" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-016 (retained_intron)</long_name>
+            <long_name>MECP2-218 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00003760605">
               <coordinates coord_system="LRG_764" start="44599" end="47154" end_ext="1" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000637533.1">
             <coordinates coord_system="LRG_764" start="45096" end="109653" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-022 (processed_transcript)</long_name>
+            <long_name>MECP2-222 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003792861">
               <coordinates coord_system="LRG_764" start="45096" end="45152" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -715,7 +715,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000415944.3">
             <coordinates coord_system="LRG_764" start="45143" end="109693" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-008 (protein_coding)</long_name>
+            <long_name>MECP2-204 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00001717050">
               <coordinates coord_system="LRG_764" start="45143" end="45308" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -731,7 +731,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000496908.5">
             <coordinates coord_system="LRG_764" start="45152" end="109755" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-006 (processed_transcript)</long_name>
+            <long_name>MECP2-211 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003774436">
               <coordinates coord_system="LRG_764" start="45152" end="45308" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -741,7 +741,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000637467.1">
             <coordinates coord_system="LRG_764" start="47340" end="49889" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-023 (processed_transcript)</long_name>
+            <long_name>MECP2-221 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003799453">
               <coordinates coord_system="LRG_764" start="47340" end="47364" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -751,7 +751,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000630151.2">
             <coordinates coord_system="LRG_764" start="47644" end="109669" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-017 (protein_coding)</long_name>
+            <long_name>MECP2-219 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00003774075">
               <coordinates coord_system="LRG_764" start="47644" end="47742" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -767,7 +767,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000611468.1">
             <coordinates coord_system="LRG_764" start="49828" end="110821" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-201 (protein_coding)</long_name>
+            <long_name>MECP2-212 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00003733913">
               <coordinates coord_system="LRG_764" start="49828" end="49937" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -786,7 +786,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000622433.4">
             <coordinates coord_system="LRG_764" start="49828" end="111289" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-202 (protein_coding)</long_name>
+            <long_name>MECP2-213 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00003733913">
               <coordinates coord_system="LRG_764" start="49828" end="49937" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -805,7 +805,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000640414.1">
             <coordinates coord_system="LRG_764" start="49828" end="111522" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-203 (protein_coding)</long_name>
+            <long_name>MECP2-226 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00003733913">
               <coordinates coord_system="LRG_764" start="49828" end="49937" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -824,7 +824,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000637791.1">
             <coordinates coord_system="LRG_764" start="49860" end="108134" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-027 (processed_transcript)</long_name>
+            <long_name>MECP2-223 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003799766">
               <coordinates coord_system="LRG_764" start="49860" end="49937" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -834,7 +834,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000486506.5">
             <coordinates coord_system="LRG_764" start="81770" end="110859" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-004 (retained_intron)</long_name>
+            <long_name>MECP2-209 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00003764047">
               <coordinates coord_system="LRG_764" start="81770" end="83729" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -853,7 +853,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000638041.1">
             <coordinates coord_system="LRG_764" start="84318" end="84980" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-026 (processed_transcript)</long_name>
+            <long_name>MECP2-225 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003795214">
               <coordinates coord_system="LRG_764" start="84318" end="84385" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -863,7 +863,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000463644.5">
             <coordinates coord_system="LRG_764" start="92647" end="109693" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-011 (processed_transcript)</long_name>
+            <long_name>MECP2-207 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00001867690">
               <coordinates coord_system="LRG_764" start="92647" end="93611" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -873,7 +873,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000460227.4">
             <coordinates coord_system="LRG_764" start="92647" end="109693" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-012 (processed_transcript)</long_name>
+            <long_name>MECP2-206 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00001867690">
               <coordinates coord_system="LRG_764" start="92647" end="93611" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -889,7 +889,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000488293.4">
             <coordinates coord_system="LRG_764" start="92649" end="109693" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-010 (processed_transcript)</long_name>
+            <long_name>MECP2-210 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003775021">
               <coordinates coord_system="LRG_764" start="92649" end="93611" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -902,7 +902,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000481807.3">
             <coordinates coord_system="LRG_764" start="102025" end="109694" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-013 (retained_intron)</long_name>
+            <long_name>MECP2-208 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001833933">
               <coordinates coord_system="LRG_764" start="102025" end="102336" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -912,7 +912,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000626422.2">
             <coordinates coord_system="LRG_764" start="107954" end="109669" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-020 (processed_transcript)</long_name>
+            <long_name>MECP2-215 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003765562">
               <coordinates coord_system="LRG_764" start="107954" end="108689" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -922,7 +922,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000625300.1">
             <coordinates coord_system="LRG_764" start="107954" end="109669" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-021 (processed_transcript)</long_name>
+            <long_name>MECP2-214 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003774506">
               <coordinates coord_system="LRG_764" start="107954" end="108204" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -932,7 +932,7 @@ United Kingdom</address>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000637917.1">
             <coordinates coord_system="LRG_764" start="109912" end="111285" strand="1" mapped_from="GRCh38" />
-            <long_name>MECP2-028 (protein_coding)</long_name>
+            <long_name>MECP2-224 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00003799411">
               <coordinates coord_system="LRG_764" start="109912" end="109921" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -952,17 +952,17 @@ United Kingdom</address>
           <coordinates coord_system="LRG_764" start="122148" end="122315" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>interleukin 1 receptor associated kinase 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3654" />
+          <db_xref source="MIM" accession="300283" />
           <db_xref source="HGNC" accession="6112">
             <synonym>IRAK</synonym>
             <synonym>pelle</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="300283" />
+          <db_xref source="GeneID" accession="3654" />
           <db_xref source="Ensembl" accession="ENSG00000184216" />
           <transcript source="Ensembl" accession="ENST00000369980.7">
             <coordinates coord_system="LRG_764" start="122148" end="122315" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>IRAK1-012 (protein_coding)</long_name>
+            <long_name>IRAK1-203 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001025242.1" />
             <db_xref source="RefSeq" accession="NM_001569.3" />
             <exon source="Ensembl" accession="ENSE00001896763">
@@ -973,7 +973,7 @@ United Kingdom</address>
           <transcript source="Ensembl" accession="ENST00000369973.7">
             <coordinates coord_system="LRG_764" start="122231" end="122315" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>IRAK1-004 (nonsense_mediated_decay)</long_name>
+            <long_name>IRAK1-201 (nonsense_mediated_decay)</long_name>
             <exon source="Ensembl" accession="ENSE00001636060">
               <coordinates coord_system="LRG_764" start="122231" end="122315" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
@@ -982,7 +982,7 @@ United Kingdom</address>
           <transcript source="Ensembl" accession="ENST00000369974.6">
             <coordinates coord_system="LRG_764" start="122252" end="122315" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>IRAK1-001 (protein_coding)</long_name>
+            <long_name>IRAK1-202 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001025243.1" />
             <exon source="Ensembl" accession="ENSE00001321946">
               <coordinates coord_system="LRG_764" start="122252" end="122315" strand="1" mapped_from="GRCh38" />
@@ -997,7 +997,7 @@ United Kingdom</address>
         <name>List of locus specific databases for MECP2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MECP2</url>
       </source>
-      <modification_date>2017-05-29</modification_date>
+      <modification_date>2017-06-05</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
