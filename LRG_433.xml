@@ -294,7 +294,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2017-05-29</modification_date>
+      <modification_date>2017-06-05</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -306,7 +306,10 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-05-29</modification_date>
+      <modification_date>2017-06-05</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_id_syn="CM000668.1" other_start="112427134" other_end="112580828" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="153695" other_start="112427134" other_end="112580828" strand="-1" />
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="6q21" other_id="NW_003871062.1" other_id_syn="JH636056.1" other_start="103453" other_end="257147" type="patch">
         <mapping_span lrg_start="1" lrg_end="153695" other_start="103453" other_end="257147" strand="-1">
           <diff type="lrg_ins" lrg_start="18341" lrg_end="18341" other_start="238807" other_end="238808" lrg_sequence="G" other_sequence="-" />
@@ -314,9 +317,6 @@
           <diff type="mismatch" lrg_start="58586" lrg_end="58586" other_start="198562" other_end="198562" lrg_sequence="A" other_sequence="T" />
           <diff type="mismatch" lrg_start="72059" lrg_end="72060" other_start="185088" other_end="185089" lrg_sequence="CA" other_sequence="AC" />
         </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_id_syn="CM000668.1" other_start="112427134" other_end="112580828" type="other_assembly">
-        <mapping_span lrg_start="1" lrg_end="153695" other_start="112427134" other_end="112580828" strand="-1" />
       </mapping>
       <mapping coord_system="GRCh38.p7" other_name="6" other_id="NC_000006.12" other_id_syn="CM000668.2" other_start="112105931" other_end="112259626" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="153695" other_start="112105931" other_end="112259626" strand="-1">
@@ -340,7 +340,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008209.1</comment>
-      <modification_date>2017-05-26</modification_date>
+      <modification_date>2017-06-02</modification_date>
       <mapping coord_system="NM_001105206.2" other_name="NM_001105206.2" other_id="NM_001105206.2" other_start="1" other_end="7376" type="transcript">
         <mapping_span lrg_start="4912" lrg_end="5168" other_start="1" other_end="257" strand="1" />
         <mapping_span lrg_start="5336" lrg_end="5671" other_start="258" other_end="593" strand="1" />
@@ -556,9 +556,9 @@
           <db_xref source="GeneID" accession="3910" />
           <db_xref source="HGNC" accession="HGNC:6484" />
           <db_xref source="MIM" accession="600133" />
+          <db_xref source="CCDS" accession="CCDS43492.1" />
           <db_xref source="CCDS" accession="CCDS34514.1" />
           <db_xref source="CCDS" accession="CCDS43491.1" />
-          <db_xref source="CCDS" accession="CCDS43492.1" />
           <db_xref source="GI" accession="194018436" />
           <transcript source="RefSeq" accession="NM_001105207.2">
             <coordinates coord_system="LRG_433" start="4912" end="151695" strand="1" />
@@ -1136,8 +1136,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 88 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-05-29</modification_date>
+      <comment>Annotation is based on Ensembl release 89 (GRCh38  primary assembly)</comment>
+      <modification_date>2017-06-05</modification_date>
       <mapping coord_system="ENST00000230538.11" other_name="ENST00000230538.11" other_id="ENST00000230538.11" other_start="1" other_end="6547" type="transcript">
         <mapping_span lrg_start="4912" lrg_end="5168" other_start="1" other_end="257" strand="1" />
         <mapping_span lrg_start="5336" lrg_end="5671" other_start="258" other_end="593" strand="1" />
@@ -1421,15 +1421,15 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000226440.7">
-          <symbol source="Clone_based_vega_gene" name="RP11-506B6.6" />
+          <symbol source="Clone_based_ensembl_gene" name="AL365214.2" />
           <coordinates coord_system="LRG_433" start="1" end="23535" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>RP11-506B6.6 (antisense)</long_name>
+          <long_name>AL365214.2 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000226440" />
           <transcript source="Ensembl" accession="ENST00000433684.6">
             <coordinates coord_system="LRG_433" start="1" end="23535" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RP11-506B6.6-001 (antisense)</long_name>
+            <long_name>AL365214.2-201 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00001692398">
               <coordinates coord_system="LRG_433" start="22990" end="23535" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1440,7 +1440,7 @@
           <transcript source="Ensembl" accession="ENST00000588837.5">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RP11-506B6.6-005 (antisense)</long_name>
+            <long_name>AL365214.2-202 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003775332">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1448,7 +1448,7 @@
           <transcript source="Ensembl" accession="ENST00000590293.5">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RP11-506B6.6-006 (antisense)</long_name>
+            <long_name>AL365214.2-203 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003775332">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1456,7 +1456,7 @@
           <transcript source="Ensembl" accession="ENST00000585450.5">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RP11-506B6.6-002 (antisense)</long_name>
+            <long_name>AL365214.2-204 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003775332">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1464,7 +1464,7 @@
           <transcript source="Ensembl" accession="ENST00000629766.2">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RP11-506B6.6-009 (antisense)</long_name>
+            <long_name>AL365214.2-205 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003775332">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1475,7 +1475,7 @@
           <transcript source="Ensembl" accession="ENST00000590804.5">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RP11-506B6.6-003 (antisense)</long_name>
+            <long_name>AL365214.2-206 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003775332">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1483,14 +1483,14 @@
           <transcript source="Ensembl" accession="ENST00000590584.4">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RP11-506B6.6-004 (antisense)</long_name>
+            <long_name>AL365214.2-207 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003775332">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000627025.1">
             <coordinates coord_system="LRG_433" start="2293" end="22798" strand="-1" mapped_from="GRCh38" />
-            <long_name>RP11-506B6.6-008 (antisense)</long_name>
+            <long_name>AL365214.2-209 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003771708">
               <coordinates coord_system="LRG_433" start="22712" end="22798" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1500,7 +1500,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000628122.2">
             <coordinates coord_system="LRG_433" start="8014" end="22798" strand="-1" mapped_from="GRCh38" />
-            <long_name>RP11-506B6.6-007 (antisense)</long_name>
+            <long_name>AL365214.2-208 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003771708">
               <coordinates coord_system="LRG_433" start="22712" end="22798" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1510,15 +1510,15 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000281613.2">
-          <symbol source="Clone_based_vega_gene" name="RP11-506B6.7" />
+          <symbol source="Clone_based_ensembl_gene" name="AL365214.3" />
           <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>RP11-506B6.7 (protein_coding)</long_name>
+          <long_name>AL365214.3 (protein_coding)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000281613" />
           <transcript source="Ensembl" accession="ENST00000585504.5">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RP11-506B6.7-004 (processed_transcript)</long_name>
+            <long_name>AL365214.3-201 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003770622">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1526,7 +1526,7 @@
           <transcript source="Ensembl" accession="ENST00000590673.5">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RP11-506B6.7-001 (protein_coding)</long_name>
+            <long_name>AL365214.3-202 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00003770622">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1534,7 +1534,7 @@
           <transcript source="Ensembl" accession="ENST00000585611.5">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RP11-506B6.7-002 (protein_coding)</long_name>
+            <long_name>AL365214.3-203 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00003770622">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1542,7 +1542,7 @@
           <transcript source="Ensembl" accession="ENST00000587816.2">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RP11-506B6.7-003 (protein_coding)</long_name>
+            <long_name>AL365214.3-204 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00003770622">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1552,15 +1552,15 @@
           <symbol source="HGNC" name="LAMA4" />
           <coordinates coord_system="LRG_433" start="4688" end="150866" strand="1" mapped_from="GRCh38" />
           <long_name>laminin subunit alpha 4 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3910" />
+          <db_xref source="MIM" accession="600133" />
           <db_xref source="HGNC" accession="6484">
             <synonym>LAMA3</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="600133" />
+          <db_xref source="GeneID" accession="3910" />
           <db_xref source="Ensembl" accession="ENSG00000112769" />
           <transcript source="Ensembl" accession="ENST00000521690.1">
             <coordinates coord_system="LRG_433" start="4688" end="43207" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-014 (protein_coding)</long_name>
+            <long_name>LAMA4-216 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00002129739">
               <coordinates coord_system="LRG_433" start="4688" end="4841" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1576,7 +1576,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000519932.5">
             <coordinates coord_system="LRG_433" start="4905" end="52505" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-015 (protein_coding)</long_name>
+            <long_name>LAMA4-213 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00002099001">
               <coordinates coord_system="LRG_433" start="4905" end="5031" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1595,7 +1595,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000230538.11">
             <coordinates coord_system="LRG_433" start="4912" end="150866" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-001 (protein_coding)</long_name>
+            <long_name>LAMA4-201 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001105206.2" />
             <exon source="Ensembl" accession="ENSE00001837645">
               <coordinates coord_system="LRG_433" start="4912" end="5168" strand="1" mapped_from="GRCh38" />
@@ -1722,7 +1722,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000522006.5">
             <coordinates coord_system="LRG_433" start="4917" end="150766" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-008 (protein_coding)</long_name>
+            <long_name>LAMA4-219 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001105207.2" />
             <db_xref source="RefSeq" accession="NM_002290.4" />
             <exon source="Ensembl" accession="ENSE00002123205">
@@ -1844,14 +1844,14 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000429488.1">
               <coordinates coord_system="LRG_433" start="5477" end="150189" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001098677.2" />
               <db_xref source="RefSeq" accession="NP_002281.3" />
+              <db_xref source="RefSeq" accession="NP_001098677.2" />
               <db_xref source="CCDS" accession="CCDS34514.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000455073.1">
             <coordinates coord_system="LRG_433" start="4980" end="5837" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-006 (protein_coding)</long_name>
+            <long_name>LAMA4-210 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00001742698">
               <coordinates coord_system="LRG_433" start="4980" end="5031" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1865,7 +1865,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000389463.8">
             <coordinates coord_system="LRG_433" start="5027" end="150752" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-009 (protein_coding)</long_name>
+            <long_name>LAMA4-205 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00001890199">
               <coordinates coord_system="LRG_433" start="5027" end="5168" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1990,7 +1990,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000368638.4" fixed_id="t1">
             <coordinates coord_system="LRG_433" start="5039" end="6266" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-005 (protein_coding)</long_name>
+            <long_name>LAMA4-203 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00001447682">
               <coordinates coord_system="LRG_433" start="5039" end="5168" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2005,7 +2005,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000453937.2">
             <coordinates coord_system="LRG_433" start="5049" end="5843" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-010 (protein_coding)</long_name>
+            <long_name>LAMA4-209 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001105208.2" />
             <db_xref source="RefSeq" accession="NM_001105209.2" />
             <exon source="Ensembl" accession="ENSE00001447641">
@@ -2016,15 +2016,15 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000398226.2">
               <coordinates coord_system="LRG_433" start="5477" end="5839" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001098678.1" />
               <db_xref source="RefSeq" accession="NP_001098679.1" />
+              <db_xref source="RefSeq" accession="NP_001098678.1" />
               <db_xref source="UniProtKB" accession="Q16363" />
               <db_xref source="CCDS" accession="CCDS43492.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000431543.6">
             <coordinates coord_system="LRG_433" start="5055" end="46085" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-002 (protein_coding)</long_name>
+            <long_name>LAMA4-208 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00002134316">
               <coordinates coord_system="LRG_433" start="5055" end="5168" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2043,7 +2043,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000424408.6">
             <coordinates coord_system="LRG_433" start="5089" end="150333" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-012 (protein_coding)</long_name>
+            <long_name>LAMA4-207 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00002132344">
               <coordinates coord_system="LRG_433" start="5089" end="5671" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2165,7 +2165,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000243219.7">
             <coordinates coord_system="LRG_433" start="5089" end="43226" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-016 (protein_coding)</long_name>
+            <long_name>LAMA4-202 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00002111870">
               <coordinates coord_system="LRG_433" start="5089" end="5225" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2181,7 +2181,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000521398.5">
             <coordinates coord_system="LRG_433" start="5142" end="74308" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-011 (protein_coding)</long_name>
+            <long_name>LAMA4-215 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00002097930">
               <coordinates coord_system="LRG_433" start="5142" end="5671" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2212,7 +2212,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000524032.5">
             <coordinates coord_system="LRG_433" start="42874" end="67908" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-017 (processed_transcript)</long_name>
+            <long_name>LAMA4-221 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00002121627">
               <coordinates coord_system="LRG_433" start="42874" end="42992" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2231,7 +2231,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000423735.2">
             <coordinates coord_system="LRG_433" start="43179" end="59494" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-004 (processed_transcript)</long_name>
+            <long_name>LAMA4-206 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00002139264">
               <coordinates coord_system="LRG_433" start="43179" end="43260" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2247,7 +2247,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000521732.5">
             <coordinates coord_system="LRG_433" start="67816" end="79892" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-007 (protein_coding)</long_name>
+            <long_name>LAMA4-218 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00002123896">
               <coordinates coord_system="LRG_433" start="67816" end="67991" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2269,7 +2269,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000518842.1">
             <coordinates coord_system="LRG_433" start="67826" end="70735" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-018 (retained_intron)</long_name>
+            <long_name>LAMA4-211 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00002101503">
               <coordinates coord_system="LRG_433" start="67826" end="67991" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2279,7 +2279,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000368640.8">
             <coordinates coord_system="LRG_433" start="67863" end="79861" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-003 (protein_coding)</long_name>
+            <long_name>LAMA4-204 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00001512326">
               <coordinates coord_system="LRG_433" start="67863" end="67991" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2301,7 +2301,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000521187.1">
             <coordinates coord_system="LRG_433" start="80125" end="87997" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-013 (retained_intron)</long_name>
+            <long_name>LAMA4-214 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00002121705">
               <coordinates coord_system="LRG_433" start="80125" end="81506" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2314,7 +2314,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000523765.1">
             <coordinates coord_system="LRG_433" start="94463" end="117483" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-019 (nonsense_mediated_decay)</long_name>
+            <long_name>LAMA4-220 (nonsense_mediated_decay)</long_name>
             <exon source="Ensembl" accession="ENSE00002442946">
               <coordinates coord_system="LRG_433" start="94463" end="94467" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2345,7 +2345,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000519245.1">
             <coordinates coord_system="LRG_433" start="120351" end="123802" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-020 (retained_intron)</long_name>
+            <long_name>LAMA4-212 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00002125694">
               <coordinates coord_system="LRG_433" start="120351" end="120507" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2355,7 +2355,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000521693.1">
             <coordinates coord_system="LRG_433" start="129468" end="137565" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-021 (retained_intron)</long_name>
+            <long_name>LAMA4-217 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00002115052">
               <coordinates coord_system="LRG_433" start="129468" end="129751" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2368,7 +2368,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000604740.5">
             <coordinates coord_system="LRG_433" start="129639" end="137851" strand="1" mapped_from="GRCh38" />
-            <long_name>LAMA4-022 (retained_intron)</long_name>
+            <long_name>LAMA4-222 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00003462578">
               <coordinates coord_system="LRG_433" start="129639" end="129751" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2381,26 +2381,26 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000271208.1">
-          <symbol source="Clone_based_vega_gene" name="RP1-142L7.8" />
+          <symbol source="Clone_based_ensembl_gene" name="Z99289.3" />
           <coordinates coord_system="LRG_433" start="24870" end="25463" strand="1" mapped_from="GRCh38" />
-          <long_name>RP1-142L7.8 (lincRNA)</long_name>
+          <long_name>Z99289.3 (lincRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000271208" />
           <transcript source="Ensembl" accession="ENST00000605586.1">
             <coordinates coord_system="LRG_433" start="24870" end="25463" strand="1" mapped_from="GRCh38" />
-            <long_name>RP1-142L7.8-001 (lincRNA)</long_name>
+            <long_name>Z99289.3-201 (lincRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00003478883">
               <coordinates coord_system="LRG_433" start="24870" end="25463" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000270661.1">
-          <symbol source="Clone_based_vega_gene" name="RP1-142L7.9" />
+          <symbol source="Clone_based_ensembl_gene" name="Z99289.2" />
           <coordinates coord_system="LRG_433" start="40058" end="41988" strand="1" mapped_from="GRCh38" />
-          <long_name>RP1-142L7.9 (lincRNA)</long_name>
+          <long_name>Z99289.2 (lincRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000270661" />
           <transcript source="Ensembl" accession="ENST00000603682.1">
             <coordinates coord_system="LRG_433" start="40058" end="41988" strand="1" mapped_from="GRCh38" />
-            <long_name>RP1-142L7.9-001 (lincRNA)</long_name>
+            <long_name>Z99289.2-201 (lincRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00003639554">
               <coordinates coord_system="LRG_433" start="40058" end="41988" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -2410,8 +2410,8 @@
           <symbol source="HGNC" name="RNU6-1226P" />
           <coordinates coord_system="LRG_433" start="63081" end="63187" strand="1" mapped_from="GRCh38" />
           <long_name>RNA, U6 small nuclear 1226, pseudogene (snRNA)</long_name>
-          <db_xref source="HGNC" accession="48189" />
           <db_xref source="RFAM" accession="RF00026" />
+          <db_xref source="HGNC" accession="48189" />
           <db_xref source="Ensembl" accession="ENSG00000207044" />
           <transcript source="Ensembl" accession="ENST00000384317.1">
             <coordinates coord_system="LRG_433" start="63081" end="63187" strand="1" mapped_from="GRCh38" />
@@ -2423,13 +2423,13 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000237234.7">
-          <symbol source="Clone_based_vega_gene" name="RP1-142L7.5" />
+          <symbol source="Clone_based_ensembl_gene" name="Z99289.1" />
           <coordinates coord_system="LRG_433" start="93151" end="104862" strand="-1" mapped_from="GRCh38" />
-          <long_name>RP1-142L7.5 (antisense)</long_name>
+          <long_name>Z99289.1 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000237234" />
           <transcript source="Ensembl" accession="ENST00000585373.5">
             <coordinates coord_system="LRG_433" start="93151" end="104862" strand="-1" mapped_from="GRCh38" />
-            <long_name>RP1-142L7.5-003 (antisense)</long_name>
+            <long_name>Z99289.1-201 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00001666601">
               <coordinates coord_system="LRG_433" start="104713" end="104862" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2448,7 +2448,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000629996.2">
             <coordinates coord_system="LRG_433" start="93178" end="104774" strand="-1" mapped_from="GRCh38" />
-            <long_name>RP1-142L7.5-004 (antisense)</long_name>
+            <long_name>Z99289.1-204 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003767439">
               <coordinates coord_system="LRG_433" start="104713" end="104774" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2473,7 +2473,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000626024.2">
             <coordinates coord_system="LRG_433" start="93178" end="104774" strand="-1" mapped_from="GRCh38" />
-            <long_name>RP1-142L7.5-005 (antisense)</long_name>
+            <long_name>Z99289.1-205 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003767439">
               <coordinates coord_system="LRG_433" start="104713" end="104774" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2498,7 +2498,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000625600.2">
             <coordinates coord_system="LRG_433" start="95512" end="104774" strand="-1" mapped_from="GRCh38" />
-            <long_name>RP1-142L7.5-006 (antisense)</long_name>
+            <long_name>Z99289.1-203 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003767439">
               <coordinates coord_system="LRG_433" start="104713" end="104774" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2523,7 +2523,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000425503.2">
             <coordinates coord_system="LRG_433" start="101295" end="104306" strand="-1" mapped_from="GRCh38" />
-            <long_name>RP1-142L7.5-001 (antisense)</long_name>
+            <long_name>Z99289.1-206 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003720404">
               <coordinates coord_system="LRG_433" start="104091" end="104306" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2536,7 +2536,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000588689.1">
             <coordinates coord_system="LRG_433" start="103895" end="104836" strand="-1" mapped_from="GRCh38" />
-            <long_name>RP1-142L7.5-002 (antisense)</long_name>
+            <long_name>Z99289.1-202 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00002934214">
               <coordinates coord_system="LRG_433" start="104713" end="104836" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2552,7 +2552,7 @@
         <name>List of locus specific databases for LAMA4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/LAMA4</url>
       </source>
-      <modification_date>2017-05-29</modification_date>
+      <modification_date>2017-06-05</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
