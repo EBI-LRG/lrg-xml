@@ -81,7 +81,7 @@
           <email>Suzanne.Kamel-Reid@uhn.ca</email>
         </contact>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -93,7 +93,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="18" other_id="NC_000018.9" other_id_syn="CM000680.1" other_start="29166730" other_end="29180987" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="14258" other_start="29166730" other_end="29180987" strand="1" />
       </mapping>
@@ -101,6 +101,68 @@
         <mapping_span lrg_start="1" lrg_end="14258" other_start="31586767" other_end="31601024" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">TTR</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_009490.1</comment>
+      <modification_date>2017-07-28</modification_date>
+      <mapping coord_system="NM_000371.3" other_name="NM_000371.3" other_id="NM_000371.3" other_start="1" other_end="929" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5205" other_start="1" other_end="205" strand="1" />
+        <mapping_span lrg_start="6130" lrg_end="6260" other_start="206" other_end="336" strand="1" />
+        <mapping_span lrg_start="8354" lrg_end="8489" other_start="337" other_end="472" strand="1" />
+        <mapping_span lrg_start="11802" lrg_end="12258" other_start="473" other_end="929" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="7276">
+          <symbol source="HGNC" name="TTR">
+            <synonym>CTS</synonym>
+            <synonym>CTS1</synonym>
+            <synonym>HEL111</synonym>
+            <synonym>HsT2651</synonym>
+            <synonym>PALB</synonym>
+            <synonym>TBPA</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_416" start="5001" end="12258" strand="1" />
+          <long_name>transthyretin</long_name>
+          <db_xref source="GeneID" accession="7276" />
+          <db_xref source="HGNC" accession="HGNC:12405" />
+          <db_xref source="MIM" accession="176300" />
+          <db_xref source="CCDS" accession="CCDS11899.1" />
+          <db_xref source="GI" accession="222144284" />
+          <transcript source="RefSeq" accession="NM_000371.3" fixed_id="t1">
+            <coordinates coord_system="LRG_416" start="5001" end="12258" strand="1" />
+            <long_name>transthyretin</long_name>
+            <db_xref source="GeneID" accession="7276" />
+            <db_xref source="GI" accession="221136767" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_416" start="5001" end="5205" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_416" start="6130" end="6260" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_416" start="8354" end="8489" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_416" start="11802" end="12258" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000362.1" fixed_id="p1">
+              <coordinates coord_system="LRG_416" start="5137" end="11909" strand="1" />
+              <db_xref source="CCDS" accession="CCDS11899.1" />
+              <db_xref source="GeneID" accession="7276" />
+              <db_xref source="GI" accession="4507725" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
     </annotation_set>
     <annotation_set type="ensembl">
       <source>
@@ -113,7 +175,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 89 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
       <mapping coord_system="ENST00000237014.7" other_name="ENST00000237014.7" other_id="ENST00000237014.7" other_start="1" other_end="957" type="transcript">
         <mapping_span lrg_start="4960" lrg_end="5205" other_start="1" other_end="246" strand="1" />
         <mapping_span lrg_start="6130" lrg_end="6260" other_start="247" other_end="377" strand="1" />
@@ -267,7 +329,7 @@
         <name>List of locus specific databases for TTR</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TTR</url>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

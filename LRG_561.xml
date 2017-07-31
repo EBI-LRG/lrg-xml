@@ -45,7 +45,7 @@
           <email>is250@cam.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -57,7 +57,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_id_syn="CM000669.1" other_start="27218776" other_end="27229835" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="11060" other_start="27218776" other_end="27229835" strand="-1" />
       </mapping>
@@ -65,6 +65,127 @@
         <mapping_span lrg_start="1" lrg_end="11060" other_start="27179157" other_end="27190216" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">HOXA11</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_012079.1</comment>
+      <modification_date>2017-07-28</modification_date>
+      <mapping coord_system="NM_005523.5" other_name="NM_005523.5" other_id="NM_005523.5" other_start="1" other_end="2653" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5781" other_start="1" other_end="781" strand="1" />
+        <mapping_span lrg_start="7189" lrg_end="9060" other_start="782" other_end="2653" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="221883">
+          <symbol source="HGNC" name="HOXA11-AS">
+            <synonym>HOXA-AS5</synonym>
+            <synonym>HOXA11-AS1</synonym>
+            <synonym>HOXA11AS</synonym>
+            <synonym>HOXA11S</synonym>
+            <synonym>NCRNA00076</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_561" start="924" end="4809" strand="-1" />
+          <long_name>HOXA11 antisense RNA</long_name>
+          <db_xref source="GeneID" accession="221883" />
+          <db_xref source="HGNC" accession="HGNC:24957" />
+          <db_xref source="MIM" accession="607530" />
+          <transcript source="RefSeq" accession="NR_002795.2">
+            <coordinates coord_system="LRG_561" start="924" end="4809" strand="-1" />
+            <long_name>HOXA11 antisense RNA</long_name>
+            <db_xref source="GeneID" accession="221883" />
+            <db_xref source="GI" accession="197313738" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_561" start="3954" end="4809" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_561" start="924" end="1616" strand="-1" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="3207">
+          <symbol source="HGNC" name="HOXA11">
+            <synonym>HOX1</synonym>
+            <synonym>HOX1I</synonym>
+            <synonym>RUSAT1</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_561" start="5001" end="9060" strand="1" />
+          <long_name>homeobox A11</long_name>
+          <db_xref source="GeneID" accession="3207" />
+          <db_xref source="HGNC" accession="HGNC:5101" />
+          <db_xref source="MIM" accession="142958" />
+          <db_xref source="CCDS" accession="CCDS5411.1" />
+          <db_xref source="GI" accession="237820694" />
+          <transcript source="RefSeq" accession="NM_005523.5" fixed_id="t1">
+            <coordinates coord_system="LRG_561" start="5001" end="9060" strand="1" />
+            <long_name>homeobox A11</long_name>
+            <db_xref source="GeneID" accession="3207" />
+            <db_xref source="GI" accession="84105266" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_561" start="5001" end="5781" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_561" start="7189" end="9060" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_005514.1" fixed_id="p1">
+              <coordinates coord_system="LRG_561" start="5073" end="7421" strand="1" />
+              <db_xref source="CCDS" accession="CCDS5411.1" />
+              <db_xref source="GeneID" accession="3207" />
+              <db_xref source="GI" accession="5031759" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="3206">
+          <symbol source="HGNC" name="HOXA10">
+            <synonym>HOX1</synonym>
+            <synonym>HOX1.8</synonym>
+            <synonym>HOX1H</synonym>
+            <synonym>PL</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_561" start="9956" end="11060" strand="1" />
+          <partial>3-prime</partial>
+          <long_name>homeobox A10</long_name>
+          <db_xref source="GeneID" accession="3206" />
+          <db_xref source="HGNC" accession="HGNC:5100" />
+          <db_xref source="MIM" accession="142957" />
+          <db_xref source="CCDS" accession="CCDS5410.2" />
+          <transcript source="RefSeq" accession="NR_037939.1">
+            <coordinates coord_system="LRG_561" start="9956" end="10571" strand="1" />
+            <partial>3-prime</partial>
+            <long_name>homeobox A10, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="3206" />
+            <db_xref source="GI" accession="325652049" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_561" start="9956" end="10571" strand="1" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="100534589">
+          <symbol name="HOXA10-HOXA9" />
+          <coordinates coord_system="LRG_561" start="9956" end="11060" strand="1" />
+          <partial>3-prime</partial>
+          <long_name>HOXA10-HOXA9 readthrough</long_name>
+          <db_xref source="GeneID" accession="100534589" />
+          <transcript source="RefSeq" accession="NR_037940.1">
+            <coordinates coord_system="LRG_561" start="9956" end="10571" strand="1" />
+            <partial>3-prime</partial>
+            <long_name>HOXA10-HOXA9 readthrough</long_name>
+            <db_xref source="GeneID" accession="100534589" />
+            <db_xref source="GI" accession="325652057" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_561" start="9956" end="10571" strand="1" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
+      </features>
     </annotation_set>
     <annotation_set type="ensembl">
       <source>
@@ -77,7 +198,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 89 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
       <mapping coord_system="ENST00000006015.3" other_name="ENST00000006015.3" other_id="ENST00000006015.3" other_start="1" other_end="2295" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5781" other_start="1" other_end="781" strand="1" />
         <mapping_span lrg_start="7189" lrg_end="8702" other_start="782" other_end="2295" strand="1" />
@@ -363,7 +484,7 @@
         <name>List of locus specific databases for HOXA11</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HOXA11</url>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

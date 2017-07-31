@@ -58,7 +58,7 @@
           <email>Nazneen.Rahman@icr.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -70,7 +70,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_id_syn="CM000665.1" other_start="10178319" other_end="10195762" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="17444" other_start="10178319" other_end="10195762" strand="1">
           <diff type="mismatch" lrg_start="14444" lrg_end="14444" other_start="10192762" other_end="10192762" lrg_sequence="C" other_sequence="T" />
@@ -83,6 +83,86 @@
       </mapping>
       <lrg_locus source="HGNC">VHL</lrg_locus>
     </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_008212.3</comment>
+      <modification_date>2017-07-28</modification_date>
+      <mapping coord_system="NM_000551.3" other_name="NM_000551.3" other_id="NM_000551.3" other_start="1" other_end="4560" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5553" other_start="1" other_end="553" strand="1" />
+        <mapping_span lrg_start="9880" lrg_end="10002" other_start="554" other_end="676" strand="1" />
+        <mapping_span lrg_start="13153" lrg_end="17036" other_start="677" other_end="4560" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_198156.2" other_name="NM_198156.2" other_id="NM_198156.2" other_start="1" other_end="4437" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5553" other_start="1" other_end="553" strand="1" />
+        <mapping_span lrg_start="13153" lrg_end="17036" other_start="554" other_end="4437" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="7428">
+          <symbol source="HGNC" name="VHL">
+            <synonym>HRCA1</synonym>
+            <synonym>pVHL</synonym>
+            <synonym>RCA1</synonym>
+            <synonym>VHL1</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_322" start="5001" end="17036" strand="1" />
+          <long_name>von Hippel-Lindau tumor suppressor</long_name>
+          <db_xref source="GeneID" accession="7428" />
+          <db_xref source="HGNC" accession="HGNC:12687" />
+          <db_xref source="MIM" accession="608537" />
+          <db_xref source="CCDS" accession="CCDS2598.1" />
+          <db_xref source="CCDS" accession="CCDS2597.1" />
+          <db_xref source="GI" accession="319803102" />
+          <transcript source="RefSeq" accession="NM_000551.3" fixed_id="t1">
+            <coordinates coord_system="LRG_322" start="5001" end="17036" strand="1" />
+            <long_name>von Hippel-Lindau tumor suppressor, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="7428" />
+            <db_xref source="GI" accession="319655736" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_322" start="5001" end="5553" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_322" start="9880" end="10002" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_322" start="13153" end="17036" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000542.1" fixed_id="p1">
+              <coordinates coord_system="LRG_322" start="5214" end="13331" strand="1" />
+              <db_xref source="CCDS" accession="CCDS2597.1" />
+              <db_xref source="GeneID" accession="7428" />
+              <db_xref source="GI" accession="4507891" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_198156.2">
+            <coordinates coord_system="LRG_322" start="5001" end="17036" strand="1" />
+            <long_name>von Hippel-Lindau tumor suppressor, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="7428" />
+            <db_xref source="GI" accession="319655737" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_322" start="5001" end="5553" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_322" start="13153" end="17036" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_937799.1">
+              <coordinates coord_system="LRG_322" start="5214" end="13331" strand="1" />
+              <long_name>von Hippel-Lindau disease tumor suppressor isoform 2</long_name>
+              <db_xref source="CCDS" accession="CCDS2598.1" />
+              <db_xref source="GeneID" accession="7428" />
+              <db_xref source="GI" accession="38045906" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
     <annotation_set type="ensembl">
       <source>
         <name>Ensembl</name>
@@ -94,7 +174,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 89 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
       <mapping coord_system="ENST00000256474.2" other_name="ENST00000256474.2" other_id="ENST00000256474.2" other_start="1" other_end="3737" type="transcript">
         <mapping_span lrg_start="4374" lrg_end="5553" other_start="1" other_end="1180" strand="1" />
         <mapping_span lrg_start="9880" lrg_end="10002" other_start="1181" other_end="1303" strand="1" />
@@ -182,7 +262,7 @@
         <name>List of locus specific databases for VHL</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/VHL</url>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

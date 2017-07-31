@@ -47,7 +47,7 @@
           <email>David.FitzPatrick@hgu.mrc.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -59,7 +59,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_id_syn="CM000665.1" other_start="181424722" other_end="181434224" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="9503" other_start="181424722" other_end="181434224" strand="1" />
       </mapping>
@@ -67,6 +67,111 @@
         <mapping_span lrg_start="1" lrg_end="9503" other_start="181706934" other_end="181716436" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">SOX2</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_009080.1</comment>
+      <modification_date>2017-07-28</modification_date>
+      <mapping coord_system="NM_003106.2" other_name="NM_003106.2" other_id="NM_003106.2" other_start="1" other_end="2503" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="7503" other_start="1" other_end="2503" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_003106.3" other_name="NM_003106.3" other_id="NM_003106.3" other_start="1" other_end="2513" type="transcript">
+        <mapping_span lrg_start="4991" lrg_end="7503" other_start="1" other_end="2513" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="347689">
+          <symbol source="HGNC" name="SOX2-OT">
+            <synonym>NCRNA00043</synonym>
+            <synonym>SOX2OT</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" />
+          <partial>3-prime</partial>
+          <partial>5-prime</partial>
+          <long_name>SOX2 overlapping transcript</long_name>
+          <db_xref source="GeneID" accession="347689" />
+          <db_xref source="HGNC" accession="HGNC:20209" />
+          <db_xref source="MIM" accession="616338" />
+          <transcript source="RefSeq" accession="NR_004053.3">
+            <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" />
+            <partial>3-prime</partial>
+            <partial>5-prime</partial>
+            <long_name>SOX2 overlapping transcript, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="347689" />
+            <db_xref source="GI" accession="449020153" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" />
+              <partial>5-prime</partial>
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+          <transcript source="RefSeq" accession="NR_075091.1">
+            <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" />
+            <partial>3-prime</partial>
+            <partial>5-prime</partial>
+            <long_name>SOX2 overlapping transcript, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="347689" />
+            <db_xref source="GI" accession="449020156" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" />
+              <partial>5-prime</partial>
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="6657">
+          <symbol source="HGNC" name="SOX2">
+            <synonym>ANOP3</synonym>
+            <synonym>MCOPS3</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_719" start="4991" end="7503" strand="1" />
+          <long_name>SRY-box 2</long_name>
+          <db_xref source="GeneID" accession="6657" />
+          <db_xref source="HGNC" accession="HGNC:11195" />
+          <db_xref source="MIM" accession="184429" />
+          <db_xref source="CCDS" accession="CCDS3239.1" />
+          <db_xref source="GI" accession="215820640" />
+          <transcript source="RefSeq" accession="NM_003106.3">
+            <coordinates coord_system="LRG_719" start="4991" end="7503" strand="1" />
+            <long_name>SRY-box 2</long_name>
+            <db_xref source="GeneID" accession="6657" />
+            <db_xref source="GI" accession="325651854" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_719" start="4991" end="7503" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_003097.1">
+              <coordinates coord_system="LRG_719" start="5428" end="6381" strand="1" />
+              <long_name>transcription factor SOX-2</long_name>
+              <db_xref source="CCDS" accession="CCDS3239.1" />
+              <db_xref source="GeneID" accession="6657" />
+              <db_xref source="GI" accession="28195386" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_003106.2" fixed_id="t1">
+            <coordinates coord_system="LRG_719" start="5001" end="7503" strand="1" />
+            <long_name>SRY-box 2</long_name>
+            <db_xref source="GeneID" accession="6657" />
+            <db_xref source="GI" accession="29826338" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_719" start="5001" end="7503" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_003097.1" fixed_id="p1">
+              <coordinates coord_system="LRG_719" start="5428" end="6381" strand="1" />
+              <long_name>transcription factor SOX-2</long_name>
+              <db_xref source="CCDS" accession="CCDS3239.1" />
+              <db_xref source="GeneID" accession="6657" />
+              <db_xref source="GI" accession="28195386" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
     </annotation_set>
     <annotation_set type="ensembl">
       <source>
@@ -79,7 +184,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 89 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
       <mapping coord_system="ENST00000325404.2" other_name="ENST00000325404.2" other_id="ENST00000325404.2" other_start="1" other_end="2513" type="transcript">
         <mapping_span lrg_start="4991" lrg_end="7503" other_start="1" other_end="2513" strand="1" />
       </mapping>
@@ -437,7 +542,7 @@
         <name>List of locus specific databases for SOX2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SOX2</url>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
