@@ -55,7 +55,7 @@
           <email>cyril.peter@mssm.edu</email>
         </contact>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -67,7 +67,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="30339649" other_end="30361165" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="21517" other_start="30339649" other_end="30361165" strand="1">
           <diff type="mismatch" lrg_start="18827" lrg_end="18827" other_start="30358475" other_end="30358475" lrg_sequence="T" other_sequence="A" />
@@ -77,6 +77,65 @@
         <mapping_span lrg_start="1" lrg_end="21517" other_start="30318102" other_end="30339618" strand="1" />
       </mapping>
       <lrg_locus source="HGNC">ARL14EP</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_034234.1</comment>
+      <modification_date>2017-07-28</modification_date>
+      <mapping coord_system="NM_152316.2" other_name="NM_152316.2" other_id="NM_152316.2" other_start="1" other_end="2378" type="transcript">
+        <mapping_span lrg_start="4998" lrg_end="5101" other_start="1" other_end="104" strand="1" />
+        <mapping_span lrg_start="12785" lrg_end="13273" other_start="105" other_end="593" strand="1" />
+        <mapping_span lrg_start="14765" lrg_end="14892" other_start="594" other_end="721" strand="1" />
+        <mapping_span lrg_start="18466" lrg_end="20122" other_start="722" other_end="2378" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="120534">
+          <symbol source="HGNC" name="ARL14EP">
+            <synonym>ARF7EP</synonym>
+            <synonym>C11orf46</synonym>
+            <synonym>dJ299F11.1</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_881" start="4998" end="20122" strand="1" />
+          <long_name>ADP ribosylation factor like GTPase 14 effector protein</long_name>
+          <db_xref source="GeneID" accession="120534" />
+          <db_xref source="HGNC" accession="HGNC:26798" />
+          <db_xref source="MIM" accession="612295" />
+          <db_xref source="CCDS" accession="CCDS7869.1" />
+          <db_xref source="GI" accession="677283317" />
+          <transcript source="RefSeq" accession="NM_152316.2" fixed_id="t1">
+            <coordinates coord_system="LRG_881" start="4998" end="20122" strand="1" />
+            <long_name>ADP ribosylation factor like GTPase 14 effector protein</long_name>
+            <db_xref source="GeneID" accession="120534" />
+            <db_xref source="GI" accession="676260292" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_881" start="4998" end="5101" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_881" start="12785" end="13273" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_881" start="14765" end="14892" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_881" start="18466" end="20122" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_689529.1" fixed_id="p1">
+              <coordinates coord_system="LRG_881" start="12848" end="18694" strand="1" />
+              <db_xref source="CCDS" accession="CCDS7869.1" />
+              <db_xref source="GeneID" accession="120534" />
+              <db_xref source="GI" accession="22748693" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
     </annotation_set>
     <annotation_set type="ensembl">
       <source>
@@ -89,7 +148,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 89 (GRCh38  primary assembly)</comment>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
       <mapping coord_system="ENST00000282032.3" other_name="ENST00000282032.3" other_id="ENST00000282032.3" other_start="1" other_end="2430" type="transcript">
         <mapping_span lrg_start="4950" lrg_end="5101" other_start="1" other_end="152" strand="1" />
         <mapping_span lrg_start="12785" lrg_end="13273" other_start="153" other_end="641" strand="1" />
@@ -185,7 +244,7 @@
         <name>List of locus specific databases for ARL14EP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ARL14EP</url>
       </source>
-      <modification_date>2017-07-24</modification_date>
+      <modification_date>2017-07-31</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
