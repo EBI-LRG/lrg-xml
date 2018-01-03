@@ -92,6 +92,57 @@
       </mapping>
       <lrg_locus source="HGNC">RFXAP</lrg_locus>
     </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeq</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_007876.1</comment>
+      <modification_date>2017-12-29</modification_date>
+      <mapping coord_system="NM_000538.3" other_name="NM_000538.3" other_id="NM_000538.3" other_start="1" other_end="2825" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5756" other_start="1" other_end="756" strand="1" />
+        <mapping_span lrg_start="11227" lrg_end="11334" other_start="757" other_end="864" strand="1" />
+        <mapping_span lrg_start="13442" lrg_end="15402" other_start="865" other_end="2825" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="5994">
+          <symbol source="HGNC" name="RFXAP" />
+          <coordinates coord_system="LRG_103" start="5001" end="15402" strand="1" />
+          <long_name>regulatory factor X associated protein</long_name>
+          <db_xref source="GeneID" accession="5994" />
+          <db_xref source="HGNC" accession="HGNC:9988" />
+          <db_xref source="MIM" accession="601861" />
+          <db_xref source="CCDS" accession="CCDS9359.1" />
+          <db_xref source="GI" accession="188595690" />
+          <transcript source="RefSeq" accession="NM_000538.3" fixed_id="t1">
+            <coordinates coord_system="LRG_103" start="5001" end="15402" strand="1" />
+            <long_name>regulatory factor X associated protein</long_name>
+            <db_xref source="GeneID" accession="5994" />
+            <db_xref source="GI" accession="187761332" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_103" start="5001" end="5756" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_103" start="11227" end="11334" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_103" start="13442" end="15402" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000529.1" fixed_id="p1">
+              <coordinates coord_system="LRG_103" start="5157" end="13552" strand="1" />
+              <db_xref source="CCDS" accession="CCDS9359.1" />
+              <db_xref source="GeneID" accession="5994" />
+              <db_xref source="GI" accession="4506501" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
     <annotation_set type="ensembl">
       <source>
         <name>Ensembl</name>

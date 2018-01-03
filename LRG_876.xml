@@ -72,6 +72,61 @@
       </mapping>
       <lrg_locus source="HGNC">CYCS</lrg_locus>
     </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeq</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_023438.1</comment>
+      <modification_date>2017-12-29</modification_date>
+      <mapping coord_system="NM_018947.5" other_name="NM_018947.5" other_id="NM_018947.5" other_start="1" other_end="5538" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5162" other_start="1" other_end="162" strand="1" />
+        <mapping_span lrg_start="6235" lrg_end="6411" other_start="163" other_end="339" strand="1" />
+        <mapping_span lrg_start="6513" lrg_end="11711" other_start="340" other_end="5538" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="54205">
+          <symbol source="HGNC" name="CYCS">
+            <synonym>CYC</synonym>
+            <synonym>HCS</synonym>
+            <synonym>THC4</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_876" start="5001" end="11711" strand="1" />
+          <long_name>cytochrome c, somatic</long_name>
+          <db_xref source="GeneID" accession="54205" />
+          <db_xref source="HGNC" accession="HGNC:19986" />
+          <db_xref source="MIM" accession="123970" />
+          <db_xref source="CCDS" accession="CCDS5393.1" />
+          <db_xref source="GI" accession="301500677" />
+          <transcript source="RefSeq" accession="NM_018947.5" fixed_id="t1">
+            <coordinates coord_system="LRG_876" start="5001" end="11711" strand="1" />
+            <long_name>cytochrome c, somatic</long_name>
+            <db_xref source="GeneID" accession="54205" />
+            <db_xref source="GI" accession="300863084" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_876" start="5001" end="5162" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_876" start="6235" end="6411" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_876" start="6513" end="11711" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_061820.1" fixed_id="p1">
+              <coordinates coord_system="LRG_876" start="6243" end="6661" strand="1" />
+              <db_xref source="CCDS" accession="CCDS5393.1" />
+              <db_xref source="GeneID" accession="54205" />
+              <db_xref source="GI" accession="11128019" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
     <annotation_set type="ensembl">
       <source>
         <name>Ensembl</name>

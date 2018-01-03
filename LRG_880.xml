@@ -75,6 +75,56 @@
       </mapping>
       <lrg_locus source="HGNC">EPPK1</lrg_locus>
     </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeq</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_033825.1</comment>
+      <modification_date>2017-12-29</modification_date>
+      <mapping coord_system="NM_031308.3" other_name="NM_031308.3" other_id="NM_031308.3" other_start="1" other_end="16007" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5027" other_start="1" other_end="27" strand="1" />
+        <mapping_span lrg_start="10167" lrg_end="26146" other_start="28" other_end="16007" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="83481">
+          <symbol source="HGNC" name="EPPK1">
+            <synonym>EPIPL</synonym>
+            <synonym>EPIPL1</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_880" start="5001" end="26146" strand="1" />
+          <long_name>epiplakin 1</long_name>
+          <db_xref source="GeneID" accession="83481" />
+          <db_xref source="HGNC" accession="HGNC:15577" />
+          <db_xref source="MIM" accession="607553" />
+          <db_xref source="CCDS" accession="CCDS75800.1" />
+          <db_xref source="GI" accession="556503469" />
+          <transcript source="RefSeq" accession="NM_031308.3" fixed_id="t1">
+            <coordinates coord_system="LRG_880" start="5001" end="26146" strand="1" />
+            <long_name>epiplakin 1</long_name>
+            <db_xref source="GeneID" accession="83481" />
+            <db_xref source="GI" accession="554506559" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_880" start="5001" end="5027" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_880" start="10167" end="26146" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_112598.3" fixed_id="p1">
+              <coordinates coord_system="LRG_880" start="10212" end="25478" strand="1" />
+              <db_xref source="CCDS" accession="CCDS75800.1" />
+              <db_xref source="GeneID" accession="83481" />
+              <db_xref source="GI" accession="525507390" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
     <annotation_set type="ensembl">
       <source>
         <name>Ensembl</name>

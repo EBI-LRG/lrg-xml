@@ -84,6 +84,65 @@
       </mapping>
       <lrg_locus source="HGNC">CSTB</lrg_locus>
     </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeq</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_011545.1</comment>
+      <modification_date>2017-12-29</modification_date>
+      <mapping coord_system="NM_000100.3" other_name="NM_000100.3" other_id="NM_000100.3" other_start="1" other_end="940" type="transcript">
+        <mapping_span lrg_start="5004" lrg_end="5175" other_start="1" other_end="172" strand="1" />
+        <mapping_span lrg_start="6620" lrg_end="6721" other_start="173" other_end="274" strand="1" />
+        <mapping_span lrg_start="7049" lrg_end="7714" other_start="275" other_end="940" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="1476">
+          <symbol source="HGNC" name="CSTB">
+            <synonym>CPI-B</synonym>
+            <synonym>CST6</synonym>
+            <synonym>EPM1</synonym>
+            <synonym>EPM1A</synonym>
+            <synonym>PME</synonym>
+            <synonym>STFB</synonym>
+            <synonym>ULD</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_485" start="5004" end="7714" strand="1" />
+          <long_name>cystatin B</long_name>
+          <db_xref source="GeneID" accession="1476" />
+          <db_xref source="HGNC" accession="HGNC:2482" />
+          <db_xref source="MIM" accession="601145" />
+          <db_xref source="CCDS" accession="CCDS13701.1" />
+          <db_xref source="GI" accession="224809510" />
+          <transcript source="RefSeq" accession="NM_000100.3" fixed_id="t1">
+            <coordinates coord_system="LRG_485" start="5004" end="7714" strand="1" />
+            <long_name>cystatin B</long_name>
+            <db_xref source="GeneID" accession="1476" />
+            <db_xref source="GI" accession="371502129" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_485" start="5004" end="5175" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_485" start="6620" end="6721" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_485" start="7049" end="7714" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000091.1" fixed_id="p1">
+              <coordinates coord_system="LRG_485" start="5110" end="7177" strand="1" />
+              <db_xref source="CCDS" accession="CCDS13701.1" />
+              <db_xref source="GeneID" accession="1476" />
+              <db_xref source="GI" accession="4503117" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
     <annotation_set type="ensembl">
       <source>
         <name>Ensembl</name>

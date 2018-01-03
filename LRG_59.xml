@@ -119,6 +119,104 @@
       </mapping>
       <lrg_locus source="HGNC">FCGR1A</lrg_locus>
     </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeq</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_007578.1</comment>
+      <modification_date>2017-12-29</modification_date>
+      <mapping coord_system="NM_000566.3" other_name="NM_000566.3" other_id="NM_000566.3" other_start="1" other_end="2176" type="transcript">
+        <mapping_span lrg_start="4963" lrg_end="5043" other_start="1" other_end="81" strand="1" />
+        <mapping_span lrg_start="5439" lrg_end="5459" other_start="82" other_end="102" strand="1" />
+        <mapping_span lrg_start="6272" lrg_end="6526" other_start="103" other_end="357" strand="1" />
+        <mapping_span lrg_start="10635" lrg_end="10886" other_start="358" other_end="609" strand="1" />
+        <mapping_span lrg_start="12323" lrg_end="12607" other_start="610" other_end="894" strand="1" />
+        <mapping_span lrg_start="13506" lrg_end="14787" other_start="895" other_end="2176" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="440689">
+          <symbol source="HGNC" name="HIST2H2BF" />
+          <coordinates coord_system="LRG_59" start="4958" end="16787" strand="-1" />
+          <partial>3-prime</partial>
+          <partial>5-prime</partial>
+          <long_name>histone cluster 2 H2B family member f</long_name>
+          <db_xref source="GeneID" accession="440689" />
+          <db_xref source="HGNC" accession="HGNC:24700" />
+          <db_xref source="CCDS" accession="CCDS30846.1" />
+          <db_xref source="CCDS" accession="CCDS53359.1" />
+          <transcript source="RefSeq" accession="NM_001161334.1">
+            <coordinates coord_system="LRG_59" start="4958" end="5529" strand="-1" />
+            <partial>3-prime</partial>
+            <partial>5-prime</partial>
+            <long_name>histone cluster 2 H2B family member f, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="440689" />
+            <db_xref source="GI" accession="238624109" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_59" start="4958" end="5529" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001154806.1" codon_start="2">
+              <coordinates coord_system="LRG_59" start="5502" end="5529" strand="-1" />
+              <partial>5-prime</partial>
+              <db_xref source="CCDS" accession="CCDS53359.1" />
+              <db_xref source="GeneID" accession="440689" />
+              <db_xref source="GI" accession="238624110" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="2209">
+          <symbol source="HGNC" name="FCGR1A">
+            <synonym>CD64</synonym>
+            <synonym>CD64A</synonym>
+            <synonym>FCRI</synonym>
+            <synonym>IGFR1</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_59" start="4963" end="14787" strand="1" />
+          <long_name>Fc fragment of IgG receptor Ia</long_name>
+          <db_xref source="GeneID" accession="2209" />
+          <db_xref source="HGNC" accession="HGNC:3613" />
+          <db_xref source="MIM" accession="146760" />
+          <db_xref source="CCDS" accession="CCDS933.1" />
+          <db_xref source="GI" accession="187608284" />
+          <transcript source="RefSeq" accession="NM_000566.3" fixed_id="t1">
+            <coordinates coord_system="LRG_59" start="4963" end="14787" strand="1" />
+            <long_name>Fc fragment of IgG receptor Ia</long_name>
+            <db_xref source="GeneID" accession="2209" />
+            <db_xref source="GI" accession="167621452" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_59" start="4963" end="5043" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_59" start="5439" end="5459" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_59" start="6272" end="6526" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_59" start="10635" end="10886" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_59" start="12323" end="12607" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_59" start="13506" end="14787" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000557.1" fixed_id="p1">
+              <coordinates coord_system="LRG_59" start="5013" end="13786" strand="1" />
+              <db_xref source="CCDS" accession="CCDS933.1" />
+              <db_xref source="GeneID" accession="2209" />
+              <db_xref source="GI" accession="10835133" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
     <annotation_set type="ensembl">
       <source>
         <name>Ensembl</name>

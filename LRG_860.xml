@@ -77,6 +77,60 @@
       </mapping>
       <lrg_locus source="HGNC">VMA21</lrg_locus>
     </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeq</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_016761.1</comment>
+      <modification_date>2017-12-29</modification_date>
+      <mapping coord_system="NM_001017980.3" other_name="NM_001017980.3" other_id="NM_001017980.3" other_start="1" other_end="4736" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5177" other_start="1" other_end="177" strand="1" />
+        <mapping_span lrg_start="11447" lrg_end="11556" other_start="178" other_end="287" strand="1" />
+        <mapping_span lrg_start="12732" lrg_end="17180" other_start="288" other_end="4736" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="203547">
+          <symbol source="HGNC" name="VMA21">
+            <synonym>MEAX</synonym>
+            <synonym>XMEA</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_860" start="5001" end="17180" strand="1" />
+          <long_name>VMA21, vacuolar ATPase assembly factor</long_name>
+          <db_xref source="GeneID" accession="203547" />
+          <db_xref source="HGNC" accession="HGNC:22082" />
+          <db_xref source="MIM" accession="300913" />
+          <db_xref source="CCDS" accession="CCDS35430.1" />
+          <db_xref source="GI" accession="291084845" />
+          <transcript source="RefSeq" accession="NM_001017980.3" fixed_id="t1">
+            <coordinates coord_system="LRG_860" start="5001" end="17180" strand="1" />
+            <long_name>VMA21, vacuolar ATPase assembly factor</long_name>
+            <db_xref source="GeneID" accession="203547" />
+            <db_xref source="GI" accession="260436829" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_860" start="5001" end="5177" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_860" start="11447" end="11556" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_860" start="12732" end="17180" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001017980.1" fixed_id="p1">
+              <coordinates coord_system="LRG_860" start="5125" end="12874" strand="1" />
+              <db_xref source="CCDS" accession="CCDS35430.1" />
+              <db_xref source="GeneID" accession="203547" />
+              <db_xref source="GI" accession="63025214" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
     <annotation_set type="ensembl">
       <source>
         <name>Ensembl</name>

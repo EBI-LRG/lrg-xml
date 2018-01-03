@@ -83,6 +83,60 @@
       </mapping>
       <lrg_locus source="HGNC">MSTN</lrg_locus>
     </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeq</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_009800.1</comment>
+      <modification_date>2017-12-29</modification_date>
+      <mapping coord_system="NM_005259.2" other_name="NM_005259.2" other_id="NM_005259.2" other_start="1" other_end="2819" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5506" other_start="1" other_end="506" strand="1" />
+        <mapping_span lrg_start="7295" lrg_end="7668" other_start="507" other_end="880" strand="1" />
+        <mapping_span lrg_start="10092" lrg_end="12030" other_start="881" other_end="2819" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="2660">
+          <symbol source="HGNC" name="MSTN">
+            <synonym>GDF8</synonym>
+            <synonym>MSLHP</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_200" start="5001" end="12030" strand="1" />
+          <long_name>myostatin</long_name>
+          <db_xref source="GeneID" accession="2660" />
+          <db_xref source="HGNC" accession="HGNC:4223" />
+          <db_xref source="MIM" accession="601788" />
+          <db_xref source="CCDS" accession="CCDS2303.1" />
+          <db_xref source="GI" accession="223890208" />
+          <transcript source="RefSeq" accession="NM_005259.2" fixed_id="t1">
+            <coordinates coord_system="LRG_200" start="5001" end="12030" strand="1" />
+            <long_name>myostatin</long_name>
+            <db_xref source="GeneID" accession="2660" />
+            <db_xref source="GI" accession="149408158" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_200" start="5001" end="5506" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_200" start="7295" end="7668" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_200" start="10092" end="12030" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_005250.1" fixed_id="p1">
+              <coordinates coord_system="LRG_200" start="5134" end="10472" strand="1" />
+              <db_xref source="CCDS" accession="CCDS2303.1" />
+              <db_xref source="GeneID" accession="2660" />
+              <db_xref source="GI" accession="4885259" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
     <annotation_set type="ensembl">
       <source>
         <name>Ensembl</name>

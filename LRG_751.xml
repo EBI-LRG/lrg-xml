@@ -80,6 +80,94 @@
       </mapping>
       <lrg_locus source="HGNC">NPPA</lrg_locus>
     </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeq</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_012926.1</comment>
+      <modification_date>2017-12-29</modification_date>
+      <mapping coord_system="NM_006172.3" other_name="NM_006172.3" other_id="NM_006172.3" other_start="1" other_end="855" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5222" other_start="1" other_end="222" strand="1" />
+        <mapping_span lrg_start="5345" lrg_end="5671" other_start="223" other_end="549" strand="1" />
+        <mapping_span lrg_start="6770" lrg_end="7075" other_start="550" other_end="855" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="4878">
+          <symbol source="HGNC" name="NPPA">
+            <synonym>ANF</synonym>
+            <synonym>ANP</synonym>
+            <synonym>ATFB6</synonym>
+            <synonym>ATRST2</synonym>
+            <synonym>CDD</synonym>
+            <synonym>CDD-ANF</synonym>
+            <synonym>CDP</synonym>
+            <synonym>PND</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_751" start="5001" end="7075" strand="1" />
+          <long_name>natriuretic peptide A</long_name>
+          <db_xref source="GeneID" accession="4878" />
+          <db_xref source="HGNC" accession="HGNC:7939" />
+          <db_xref source="MIM" accession="108780" />
+          <db_xref source="CCDS" accession="CCDS139.1" />
+          <db_xref source="GI" accession="259013232" />
+          <transcript source="RefSeq" accession="NM_006172.3" fixed_id="t1">
+            <coordinates coord_system="LRG_751" start="5001" end="7075" strand="1" />
+            <long_name>natriuretic peptide A</long_name>
+            <db_xref source="GeneID" accession="4878" />
+            <db_xref source="GI" accession="239915969" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_751" start="5001" end="5222" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_751" start="5345" end="5671" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_751" start="6770" end="7075" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_006163.1" fixed_id="p1">
+              <coordinates coord_system="LRG_751" start="5100" end="6775" strand="1" />
+              <db_xref source="CCDS" accession="CCDS139.1" />
+              <db_xref source="GeneID" accession="4878" />
+              <db_xref source="GI" accession="23510319" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="100379251">
+          <symbol source="HGNC" name="NPPA-AS1">
+            <synonym>NPPA-AS</synonym>
+            <synonym>NPPAAS</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_751" start="5168" end="9075" strand="-1" />
+          <partial>5-prime</partial>
+          <long_name>NPPA antisense RNA 1</long_name>
+          <db_xref source="GeneID" accession="100379251" />
+          <db_xref source="HGNC" accession="HGNC:37635" />
+          <transcript source="RefSeq" accession="NR_037806.1">
+            <coordinates coord_system="LRG_751" start="5168" end="9075" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>NPPA antisense RNA 1</long_name>
+            <db_xref source="GeneID" accession="100379251" />
+            <db_xref source="GI" accession="323276587" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_751" start="8711" end="9075" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_751" start="7018" end="7237" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_751" start="5168" end="5350" strand="-1" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
     <annotation_set type="ensembl">
       <source>
         <name>Ensembl</name>

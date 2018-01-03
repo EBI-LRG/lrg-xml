@@ -80,6 +80,61 @@
       </mapping>
       <lrg_locus source="HGNC">NGF</lrg_locus>
     </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeq</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_007944.1</comment>
+      <modification_date>2017-12-29</modification_date>
+      <mapping coord_system="NM_002506.2" other_name="NM_002506.2" other_id="NM_002506.2" other_start="1" other_end="1049" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5033" other_start="1" other_end="33" strand="1" />
+        <mapping_span lrg_start="49487" lrg_end="49610" other_start="34" other_end="157" strand="1" />
+        <mapping_span lrg_start="56430" lrg_end="57321" other_start="158" other_end="1049" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="4803">
+          <symbol source="HGNC" name="NGF">
+            <synonym>Beta-NGF</synonym>
+            <synonym>HSAN5</synonym>
+            <synonym>NGFB</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_260" start="5001" end="57321" strand="1" />
+          <long_name>nerve growth factor</long_name>
+          <db_xref source="GeneID" accession="4803" />
+          <db_xref source="HGNC" accession="HGNC:7808" />
+          <db_xref source="MIM" accession="162030" />
+          <db_xref source="CCDS" accession="CCDS882.1" />
+          <db_xref source="GI" accession="189217912" />
+          <transcript source="RefSeq" accession="NM_002506.2" fixed_id="t1">
+            <coordinates coord_system="LRG_260" start="5001" end="57321" strand="1" />
+            <long_name>nerve growth factor</long_name>
+            <db_xref source="GeneID" accession="4803" />
+            <db_xref source="GI" accession="70995318" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_260" start="5001" end="5033" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_260" start="49487" end="49610" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_260" start="56430" end="57321" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_002497.2" fixed_id="p1">
+              <coordinates coord_system="LRG_260" start="56442" end="57167" strand="1" />
+              <db_xref source="CCDS" accession="CCDS882.1" />
+              <db_xref source="GeneID" accession="4803" />
+              <db_xref source="GI" accession="70995319" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
     <annotation_set type="ensembl">
       <source>
         <name>Ensembl</name>
