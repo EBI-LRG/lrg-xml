@@ -79,6 +79,82 @@
       </mapping>
       <lrg_locus source="HGNC">PROCR</lrg_locus>
     </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeq</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_032899.2</comment>
+      <modification_date>2017-12-29</modification_date>
+      <mapping coord_system="NM_006404.4" other_name="NM_006404.4" other_id="NM_006404.4" other_start="1" other_end="1484" type="transcript">
+        <mapping_span lrg_start="4967" lrg_end="5254" other_start="1" other_end="288" strand="1" />
+        <mapping_span lrg_start="7732" lrg_end="7983" other_start="289" other_end="540" strand="1" />
+        <mapping_span lrg_start="9198" lrg_end="9476" other_start="541" other_end="819" strand="1" />
+        <mapping_span lrg_start="9728" lrg_end="10392" other_start="820" other_end="1484" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="111089941">
+          <symbol name="MMP24-AS1-EDEM2" />
+          <coordinates coord_system="LRG_638" start="1" end="50934" strand="-1" />
+          <partial>3-prime</partial>
+          <partial>5-prime</partial>
+          <long_name>MMP24-AS1-EDEM2 readthrough</long_name>
+          <db_xref source="GeneID" accession="111089941" />
+        </gene>
+        <gene source="NCBI-Gene" accession="10544">
+          <symbol source="HGNC" name="PROCR">
+            <synonym>CCCA</synonym>
+            <synonym>CCD41</synonym>
+            <synonym>EPCR</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_638" start="4967" end="10392" strand="1" />
+          <long_name>protein C receptor</long_name>
+          <db_xref source="GeneID" accession="10544" />
+          <db_xref source="HGNC" accession="HGNC:9452" />
+          <db_xref source="MIM" accession="600646" />
+          <db_xref source="CCDS" accession="CCDS13248.1" />
+          <db_xref source="GI" accession="1069415403" />
+          <transcript source="RefSeq" accession="NM_006404.4" fixed_id="t1">
+            <coordinates coord_system="LRG_638" start="4967" end="10392" strand="1" />
+            <long_name>protein C receptor</long_name>
+            <db_xref source="GeneID" accession="10544" />
+            <db_xref source="GI" accession="526479844" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_638" start="4967" end="5254" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_638" start="7732" end="7983" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_638" start="9198" end="9476" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_638" start="9728" end="10392" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_006395.2" fixed_id="p1">
+              <coordinates coord_system="LRG_638" start="5185" end="9843" strand="1" />
+              <db_xref source="CCDS" accession="CCDS13248.1" />
+              <db_xref source="GeneID" accession="10544" />
+              <db_xref source="GI" accession="34335272" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="100873725">
+          <symbol source="HGNC" name="RNA5SP483">
+            <synonym>RN5S483</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_638" start="28336" end="28453" strand="1" />
+          <long_name>RNA, 5S ribosomal pseudogene 483</long_name>
+          <db_xref source="GeneID" accession="100873725" />
+          <db_xref source="HGNC" accession="HGNC:43383" />
+        </gene>
+      </features>
+    </annotation_set>
     <annotation_set type="ensembl">
       <source>
         <name>Ensembl</name>

@@ -198,6 +198,82 @@
       </mapping>
       <lrg_locus source="HGNC">PRSS1</lrg_locus>
     </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeq</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>refseq-admin@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_008307.3</comment>
+      <modification_date>2017-12-29</modification_date>
+      <mapping coord_system="NM_002769.4" other_name="NM_002769.4" other_id="NM_002769.4" other_start="1" other_end="817" type="transcript">
+        <mapping_span lrg_start="4985" lrg_end="5041" other_start="1" other_end="57" strand="1" />
+        <mapping_span lrg_start="6072" lrg_end="6231" other_start="58" other_end="217" strand="1" />
+        <mapping_span lrg_start="7291" lrg_end="7544" other_start="218" other_end="471" strand="1" />
+        <mapping_span lrg_start="7948" lrg_end="8084" other_start="472" other_end="608" strand="1" />
+        <mapping_span lrg_start="8385" lrg_end="8593" other_start="609" other_end="817" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="6957">
+          <symbol source="HGNC" name="TRB">
+            <synonym>TCRB</synonym>
+            <synonym>TRB@</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_1013" start="1" end="21514" strand="1" />
+          <partial>3-prime</partial>
+          <partial>5-prime</partial>
+          <long_name>T cell receptor beta locus</long_name>
+          <db_xref source="GeneID" accession="6957" />
+          <db_xref source="HGNC" accession="HGNC:12155" />
+        </gene>
+        <gene source="NCBI-Gene" accession="5644">
+          <symbol source="HGNC" name="PRSS1">
+            <synonym>TRP1</synonym>
+            <synonym>TRY1</synonym>
+            <synonym>TRY4</synonym>
+            <synonym>TRYP1</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_1013" start="4985" end="8593" strand="1" />
+          <long_name>protease, serine 1</long_name>
+          <db_xref source="GeneID" accession="5644" />
+          <db_xref source="HGNC" accession="HGNC:9475" />
+          <db_xref source="MIM" accession="276000" />
+          <db_xref source="CCDS" accession="CCDS5872.1" />
+          <db_xref source="GI" accession="948284483" />
+          <transcript source="RefSeq" accession="NM_002769.4" fixed_id="t1">
+            <coordinates coord_system="LRG_1013" start="4985" end="8593" strand="1" />
+            <long_name>protease, serine 1</long_name>
+            <db_xref source="GeneID" accession="5644" />
+            <db_xref source="GI" accession="310923201" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1013" start="4985" end="5041" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1013" start="6072" end="6231" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1013" start="7291" end="7544" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1013" start="7948" end="8084" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1013" start="8385" end="8593" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_002760.1" fixed_id="p1">
+              <coordinates coord_system="LRG_1013" start="5002" end="8537" strand="1" />
+              <db_xref source="CCDS" accession="CCDS5872.1" />
+              <db_xref source="GeneID" accession="5644" />
+              <db_xref source="GI" accession="4506145" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
     <annotation_set type="ensembl">
       <source>
         <name>Ensembl</name>
