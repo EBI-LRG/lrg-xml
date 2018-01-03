@@ -325,7 +325,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 90 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
       <modification_date>2018-01-03</modification_date>
       <mapping coord_system="ENST00000316099.8" other_name="ENST00000316099.8" other_id="ENST00000316099.8" other_start="1" other_end="6445" type="transcript">
         <mapping_span lrg_start="50484" lrg_end="50687" other_start="1" other_end="204" strand="1" />
@@ -467,10 +467,10 @@
           <coordinates coord_system="LRG_483" start="1" end="435" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>R3H domain containing like (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="140902" />
           <db_xref source="HGNC" accession="16249">
             <synonym>dJ881L22.3</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="140902" />
           <db_xref source="Ensembl" accession="ENSG00000101074" />
           <transcript source="Ensembl" accession="ENST00000217043.2">
             <coordinates coord_system="LRG_483" start="1" end="435" strand="1" mapped_from="GRCh38" />
@@ -488,7 +488,7 @@
           <coordinates coord_system="LRG_483" start="4900" end="82590" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>hepatocyte nuclear factor 4 alpha (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3172" />
+          <db_xref source="MIM" accession="600281" />
           <db_xref source="HGNC" accession="5024">
             <synonym>HNF4</synonym>
             <synonym>MODY</synonym>
@@ -496,11 +496,12 @@
             <synonym>NR2A1</synonym>
             <synonym>TCF14</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="600281" />
+          <db_xref source="GeneID" accession="3172" />
           <db_xref source="Ensembl" accession="ENSG00000101076" />
           <transcript source="Ensembl" accession="ENST00000316673.8" fixed_id="t1">
             <coordinates coord_system="LRG_483" start="4900" end="78871" strand="1" mapped_from="GRCh38" />
             <long_name>HNF4A-202 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_175914.4" />
             <exon source="Ensembl" accession="ENSE00001760101">
               <coordinates coord_system="LRG_483" start="4900" end="5053" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -534,6 +535,7 @@
             <protein_product source="Ensembl" accession="ENSP00000315180.4" fixed_id="p1">
               <coordinates coord_system="LRG_483" start="5005" end="78865" strand="1" mapped_from="GRCh38" />
               <db_xref source="UniProtKB" accession="P41235" />
+              <db_xref source="RefSeq" accession="NP_787110.2" />
               <db_xref source="CCDS" accession="CCDS42876.1" />
             </protein_product>
           </transcript>
@@ -569,9 +571,9 @@
             <protein_product source="Ensembl" accession="ENSP00000476609.1">
               <coordinates coord_system="LRG_483" start="5005" end="73579" strand="1" mapped_from="GRCh38" />
               <long_name>hepatocyte nuclear factor 4-alpha isoform 10</long_name>
-              <db_xref source="RefSeq" accession="NP_001274113.1" />
-              <db_xref source="RefSeq" accession="NP_001025175.1" />
               <db_xref source="UniProtKB" accession="P41235" />
+              <db_xref source="RefSeq" accession="NP_001025175.1" />
+              <db_xref source="RefSeq" accession="NP_001274113.1" />
               <db_xref source="CCDS" accession="CCDS68131.1" />
             </protein_product>
           </transcript>
@@ -579,7 +581,6 @@
             <coordinates coord_system="LRG_483" start="5001" end="78871" strand="1" mapped_from="GRCh38" />
             <long_name>HNF4A-206 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001030003.2" />
-            <db_xref source="RefSeq" accession="NM_175914.4" />
             <exon source="Ensembl" accession="ENSE00001217050">
               <coordinates coord_system="LRG_483" start="5001" end="5053" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -612,10 +613,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000396216.1">
               <coordinates coord_system="LRG_483" start="5005" end="78865" strand="1" mapped_from="GRCh38" />
-              <long_name>hepatocyte nuclear factor 4-alpha isoform 5</long_name>
-              <db_xref source="RefSeq" accession="NP_787110.2" />
-              <db_xref source="RefSeq" accession="NP_001025174.1" />
               <db_xref source="UniProtKB" accession="P41235" />
+              <db_xref source="RefSeq" accession="NP_001025174.1" />
               <db_xref source="CCDS" accession="CCDS46604.1" />
             </protein_product>
           </transcript>
@@ -660,8 +659,8 @@
             <protein_product source="Ensembl" accession="ENSP00000481331.1" fixed_id="p3">
               <coordinates coord_system="LRG_483" start="39840" end="78865" strand="1" mapped_from="GRCh38" />
               <long_name>hepatocyte nuclear factor 4-alpha isoform 8</long_name>
-              <db_xref source="RefSeq" accession="NP_001274111.1" />
               <db_xref source="RefSeq" accession="NP_001274112.1" />
+              <db_xref source="RefSeq" accession="NP_001274111.1" />
               <db_xref source="CCDS" accession="CCDS74728.1" />
             </protein_product>
           </transcript>
@@ -754,8 +753,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000410911.2">
               <coordinates coord_system="LRG_483" start="50573" end="73579" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_849181.1" />
               <db_xref source="UniProtKB" accession="P41235" />
+              <db_xref source="RefSeq" accession="NP_849181.1" />
               <db_xref source="CCDS" accession="CCDS13331.1" />
             </protein_product>
           </transcript>
@@ -765,7 +764,6 @@
             <long_name>HNF4A-201 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_000457.4" />
             <db_xref source="RefSeq" accession="NM_001258355.1" />
-            <db_xref source="RefSeq" accession="NM_178849.2" />
             <exon source="Ensembl" accession="ENSE00001216307">
               <coordinates coord_system="LRG_483" start="50484" end="50687" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -799,17 +797,17 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000312987.3" fixed_id="p2">
               <coordinates coord_system="LRG_483" start="50573" end="78865" strand="1" mapped_from="GRCh38" />
-              <long_name>hepatocyte nuclear factor 4-alpha isoform 7, hepatocyte nuclear factor 4-alpha isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001245284.1" />
-              <db_xref source="RefSeq" accession="NP_849180.1" />
-              <db_xref source="RefSeq" accession="NP_000448.3" />
+              <long_name>hepatocyte nuclear factor 4-alpha isoform 7</long_name>
               <db_xref source="UniProtKB" accession="P41235" />
+              <db_xref source="RefSeq" accession="NP_000448.3" />
+              <db_xref source="RefSeq" accession="NP_001245284.1" />
               <db_xref source="CCDS" accession="CCDS13330.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000415691.2">
             <coordinates coord_system="LRG_483" start="50501" end="79700" strand="1" mapped_from="GRCh38" />
             <long_name>HNF4A-204 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_178849.2" />
             <exon source="Ensembl" accession="ENSE00003709856">
               <coordinates coord_system="LRG_483" start="50501" end="50687" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -843,6 +841,7 @@
             <protein_product source="Ensembl" accession="ENSP00000412111.1">
               <coordinates coord_system="LRG_483" start="50573" end="78865" strand="1" mapped_from="GRCh38" />
               <db_xref source="UniProtKB" accession="P41235" />
+              <db_xref source="RefSeq" accession="NP_849180.1" />
               <db_xref source="CCDS" accession="CCDS46605.1" />
             </protein_product>
           </transcript>
@@ -851,10 +850,10 @@
           <symbol source="HGNC" name="HNF4A-AS1" />
           <coordinates coord_system="LRG_483" start="21946" end="44906" strand="-1" mapped_from="GRCh38" />
           <long_name>HNF4A antisense RNA 1 (antisense_RNA)</long_name>
-          <db_xref source="GeneID" accession="101927219" />
           <db_xref source="HGNC" accession="49505">
             <synonym>uc002xlx</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="101927219" />
           <db_xref source="Ensembl" accession="ENSG00000229005" />
           <transcript source="Ensembl" accession="ENST00000609152.1">
             <coordinates coord_system="LRG_483" start="21946" end="33871" strand="-1" mapped_from="GRCh38" />

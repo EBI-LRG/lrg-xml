@@ -367,6 +367,9 @@
         </contact>
       </source>
       <modification_date>2018-01-03</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="Xp11.22" other_id="NW_004070877.1" other_id_syn="JH806587.1" other_start="3085264" other_end="3140785" type="patch">
+        <mapping_span lrg_start="1" lrg_end="55522" other_start="3085264" other_end="3140785" strand="-1" />
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="53399070" other_end="53454618" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="55522" other_start="53399070" other_end="53454618" strand="-1">
           <diff type="lrg_ins" lrg_start="2155" lrg_end="2155" other_start="53452464" other_end="53452465" lrg_sequence="T" other_sequence="-" />
@@ -405,9 +408,6 @@
           <diff type="mismatch" lrg_start="52336" lrg_end="52336" other_start="53402256" other_end="53402256" lrg_sequence="G" other_sequence="C" />
         </mapping_span>
       </mapping>
-      <mapping coord_system="GRCh37.p13" other_name="Xp11.22" other_id="NW_004070877.1" other_id_syn="JH806587.1" other_start="3085264" other_end="3140785" type="patch">
-        <mapping_span lrg_start="1" lrg_end="55522" other_start="3085264" other_end="3140785" strand="-1" />
-      </mapping>
       <mapping coord_system="GRCh38.p7" other_name="X" other_id="NC_000023.11" other_id_syn="CM000685.2" other_start="53372149" other_end="53427670" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="55522" other_start="53372149" other_end="53427670" strand="-1" />
       </mapping>
@@ -423,7 +423,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 90 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
       <modification_date>2018-01-03</modification_date>
       <mapping coord_system="ENST00000322213.8" other_name="ENST00000322213.8" other_id="ENST00000322213.8" other_start="1" other_end="9784" type="transcript">
         <mapping_span lrg_start="4943" lrg_end="5179" other_start="1" other_end="237" strand="1" />
@@ -511,10 +511,10 @@
           <coordinates coord_system="LRG_773" start="1" end="4981" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>RIB43A domain with coiled-coils 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="158787" />
           <db_xref source="HGNC" accession="26537">
             <synonym>FLJ32783</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="158787" />
           <db_xref source="Ensembl" accession="ENSG00000158423" />
           <transcript source="Ensembl" accession="ENST00000329209.9">
             <coordinates coord_system="LRG_773" start="1" end="4981" strand="-1" mapped_from="GRCh38" />
@@ -551,8 +551,8 @@
             <protein_product source="Ensembl" accession="ENSP00000402080.1">
               <coordinates coord_system="LRG_773" start="1" end="1394" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_659405.1" />
               <db_xref source="UniProtKB" accession="Q8N443" />
+              <db_xref source="RefSeq" accession="NP_659405.1" />
               <db_xref source="CCDS" accession="CCDS14353.1" />
             </protein_product>
           </transcript>
@@ -573,8 +573,8 @@
             <protein_product source="Ensembl" accession="ENSP00000364476.3">
               <coordinates coord_system="LRG_773" start="1" end="1394" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_001026915.1" />
               <db_xref source="UniProtKB" accession="Q8N443" />
+              <db_xref source="RefSeq" accession="NP_001026915.1" />
               <db_xref source="CCDS" accession="CCDS35299.1" />
             </protein_product>
           </transcript>
@@ -595,8 +595,8 @@
             <protein_product source="Ensembl" accession="ENSP00000401463.2">
               <coordinates coord_system="LRG_773" start="1" end="1394" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_001253982.1" />
               <db_xref source="UniProtKB" accession="Q8N443" />
+              <db_xref source="RefSeq" accession="NP_001253982.1" />
               <db_xref source="CCDS" accession="CCDS59168.1" />
             </protein_product>
           </transcript>
@@ -605,7 +605,7 @@
           <symbol source="HGNC" name="SMC1A" />
           <coordinates coord_system="LRG_773" start="4943" end="53522" strand="1" mapped_from="GRCh38" />
           <long_name>structural maintenance of chromosomes 1A (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="8243" />
+          <db_xref source="MIM" accession="300040" />
           <db_xref source="HGNC" accession="11111">
             <synonym>DXS423E</synonym>
             <synonym>KIAA0178</synonym>
@@ -613,7 +613,7 @@
             <synonym>SMC1L1</synonym>
             <synonym>Smcb</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="300040" />
+          <db_xref source="GeneID" accession="8243" />
           <db_xref source="Ensembl" accession="ENSG00000072501" />
           <transcript source="Ensembl" accession="ENST00000322213.8" fixed_id="t2">
             <coordinates coord_system="LRG_773" start="4943" end="53522" strand="1" mapped_from="GRCh38" />
@@ -696,8 +696,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000323421.3" fixed_id="p2">
               <coordinates coord_system="LRG_773" start="5071" end="47568" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_006297.2" />
               <db_xref source="UniProtKB" accession="Q14683" />
+              <db_xref source="RefSeq" accession="NP_006297.2" />
               <db_xref source="CCDS" accession="CCDS14352.1" />
             </protein_product>
           </transcript>

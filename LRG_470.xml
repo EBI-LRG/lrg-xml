@@ -136,7 +136,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 90 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
       <modification_date>2018-01-03</modification_date>
       <mapping coord_system="ENST00000372226.1" other_name="ENST00000372226.1" other_id="ENST00000372226.1" other_start="1" other_end="3322" type="transcript">
         <mapping_span lrg_start="5157" lrg_end="5300" other_start="1" other_end="144" strand="1" />
@@ -175,11 +175,11 @@
           <coordinates coord_system="LRG_470" start="1" end="4935" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>exportin 5 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="57510" />
+          <db_xref source="MIM" accession="607845" />
           <db_xref source="HGNC" accession="17675">
             <synonym>KIAA1291</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="607845" />
+          <db_xref source="GeneID" accession="57510" />
           <db_xref source="Ensembl" accession="ENSG00000124571" />
           <transcript source="Ensembl" accession="ENST00000265351.11">
             <coordinates coord_system="LRG_470" start="1" end="4935" strand="-1" mapped_from="GRCh38" />
@@ -198,8 +198,8 @@
             <protein_product source="Ensembl" accession="ENSP00000265351.7">
               <coordinates coord_system="LRG_470" start="1" end="4724" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="RefSeq" accession="NP_065801.1" />
               <db_xref source="UniProtKB" accession="Q9HAV4" />
+              <db_xref source="RefSeq" accession="NP_065801.1" />
               <db_xref source="CCDS" accession="CCDS47430.1" />
             </protein_product>
           </transcript>
@@ -225,18 +225,17 @@
           <symbol source="HGNC" name="POLH" />
           <coordinates coord_system="LRG_470" start="5010" end="44520" strand="1" mapped_from="GRCh38" />
           <long_name>DNA polymerase eta (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="5429" />
+          <db_xref source="MIM" accession="603968" />
           <db_xref source="HGNC" accession="9181">
             <synonym>RAD30A</synonym>
             <synonym>XP-V</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="603968" />
+          <db_xref source="GeneID" accession="5429" />
           <db_xref source="Ensembl" accession="ENSG00000170734" />
           <transcript source="Ensembl" accession="ENST00000372236.8" fixed_id="t1">
             <coordinates coord_system="LRG_470" start="5010" end="44520" strand="1" mapped_from="GRCh38" />
             <long_name>POLH-202 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001291969.1" />
-            <db_xref source="RefSeq" accession="NM_001291970.1" />
             <db_xref source="RefSeq" accession="NM_006502.2" />
             <exon source="Ensembl" accession="ENSE00001717994">
               <coordinates coord_system="LRG_470" start="5010" end="5300" strand="1" mapped_from="GRCh38" />
@@ -273,17 +272,17 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000361310.4" fixed_id="p1">
               <coordinates coord_system="LRG_470" start="11180" end="43417" strand="1" mapped_from="GRCh38" />
-              <long_name>DNA polymerase eta isoform 3, DNA polymerase eta isoform 2</long_name>
-              <db_xref source="RefSeq" accession="NP_001278899.1" />
-              <db_xref source="RefSeq" accession="NP_001278898.1" />
-              <db_xref source="RefSeq" accession="NP_006493.1" />
+              <long_name>DNA polymerase eta isoform 2</long_name>
               <db_xref source="UniProtKB" accession="Q9Y253" />
+              <db_xref source="RefSeq" accession="NP_006493.1" />
+              <db_xref source="RefSeq" accession="NP_001278898.1" />
               <db_xref source="CCDS" accession="CCDS4902.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000372226.1">
             <coordinates coord_system="LRG_470" start="5157" end="44520" strand="1" mapped_from="GRCh38" />
             <long_name>POLH-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001291970.1" />
             <exon source="Ensembl" accession="ENSE00001457257">
               <coordinates coord_system="LRG_470" start="5157" end="5300" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -320,6 +319,7 @@
             <protein_product source="Ensembl" accession="ENSP00000361300.1">
               <coordinates coord_system="LRG_470" start="11180" end="42591" strand="1" mapped_from="GRCh38" />
               <db_xref source="UniProtKB" accession="Q9Y253" />
+              <db_xref source="RefSeq" accession="NP_001278899.1" />
               <db_xref source="CCDS" accession="CCDS78147.1" />
             </protein_product>
           </transcript>
@@ -341,13 +341,16 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000203362.2">
-          <symbol source="Clone_based_ensembl_gene" name="AL355802.1" />
+          <symbol source="HGNC" name="POLH-AS1" />
           <coordinates coord_system="LRG_470" start="17090" end="20222" strand="-1" mapped_from="GRCh38" />
-          <long_name>AL355802.1 (antisense_RNA)</long_name>
+          <long_name>POLH antisense RNA 1 (antisense_RNA)</long_name>
+          <db_xref source="HGNC" accession="40459">
+            <synonym>RP3-337H4.8</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000203362" />
           <transcript source="Ensembl" accession="ENST00000417591.1">
             <coordinates coord_system="LRG_470" start="17090" end="20222" strand="-1" mapped_from="GRCh38" />
-            <long_name>AL355802.1-201 (antisense_RNA)</long_name>
+            <long_name>POLH-AS1-201 (antisense_RNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001595209">
               <coordinates coord_system="LRG_470" start="19750" end="20222" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -361,9 +364,9 @@
           <coordinates coord_system="LRG_470" start="34176" end="51383" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>GTP binding protein 2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="54676" />
-          <db_xref source="HGNC" accession="4670" />
           <db_xref source="MIM" accession="607434" />
+          <db_xref source="HGNC" accession="4670" />
+          <db_xref source="GeneID" accession="54676" />
           <db_xref source="Ensembl" accession="ENSG00000172432" />
           <transcript source="Ensembl" accession="ENST00000496137.5">
             <coordinates coord_system="LRG_470" start="34176" end="51027" strand="-1" mapped_from="GRCh38" />
@@ -398,8 +401,8 @@
             <protein_product source="Ensembl" accession="ENSP00000304893.7">
               <coordinates coord_system="LRG_470" start="50474" end="51383" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="RefSeq" accession="NP_001273145.1" />
               <db_xref source="UniProtKB" accession="Q9BX10" />
+              <db_xref source="RefSeq" accession="NP_001273145.1" />
               <db_xref source="CCDS" accession="CCDS69124.1" />
             </protein_product>
           </transcript>
@@ -458,8 +461,8 @@
             <protein_product source="Ensembl" accession="ENSP00000303997.5">
               <coordinates coord_system="LRG_470" start="50474" end="51383" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="RefSeq" accession="NP_061969.3" />
               <db_xref source="UniProtKB" accession="Q9BX10" />
+              <db_xref source="RefSeq" accession="NP_061969.3" />
               <db_xref source="CCDS" accession="CCDS4903.1" />
             </protein_product>
           </transcript>

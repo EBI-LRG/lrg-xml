@@ -121,13 +121,13 @@
           <diff type="other_ins" lrg_start="8180" lrg_end="8181" other_start="118898436" other_end="118898436" lrg_sequence="-" other_sequence="G" />
         </mapping_span>
       </mapping>
-      <mapping coord_system="GRCh38.p7" other_name="11q23.3" other_id="NW_009646203.1" other_id_syn="KN196481.1" other_start="43951" other_end="57505" type="patch">
-        <mapping_span lrg_start="1" lrg_end="13555" other_start="43951" other_end="57505" strand="-1" />
-      </mapping>
       <mapping coord_system="GRCh38.p7" other_name="11" other_id="NC_000011.10" other_id_syn="CM000673.2" other_start="119022351" other_end="119035906" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="13555" other_start="119022351" other_end="119035906" strand="-1">
           <diff type="other_ins" lrg_start="8180" lrg_end="8181" other_start="119027726" other_end="119027726" lrg_sequence="-" other_sequence="G" />
         </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38.p7" other_name="11q23.3" other_id="NW_009646203.1" other_id_syn="KN196481.1" other_start="43951" other_end="57505" type="patch">
+        <mapping_span lrg_start="1" lrg_end="13555" other_start="43951" other_end="57505" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">SLC37A4</lrg_locus>
     </annotation_set>
@@ -141,7 +141,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 90 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
       <modification_date>2018-01-03</modification_date>
       <mapping coord_system="ENST00000330775.9" other_name="ENST00000330775.9" other_id="ENST00000330775.9" other_start="1" other_end="2102" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5058" other_start="1" other_end="58" strand="1" />
@@ -374,7 +374,6 @@
           <symbol source="HGNC" name="SLC37A4" />
           <coordinates coord_system="LRG_187" start="5001" end="11792" strand="1" mapped_from="GRCh38" />
           <long_name>solute carrier family 37 member 4 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="2542" />
           <db_xref source="HGNC" accession="4061">
             <synonym>G6PT1</synonym>
             <synonym>G6PT2</synonym>
@@ -383,6 +382,7 @@
             <synonym>GSD1c</synonym>
             <synonym>GSD1d</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="2542" />
           <db_xref source="Ensembl" accession="ENSG00000137700" />
           <transcript source="Ensembl" accession="ENST00000525102.5">
             <coordinates coord_system="LRG_187" start="5001" end="11792" strand="1" mapped_from="GRCh38" />
@@ -545,8 +545,8 @@
             <protein_product source="Ensembl" accession="ENSP00000476242.2">
               <coordinates coord_system="LRG_187" start="6538" end="10996" strand="1" mapped_from="GRCh38" />
               <long_name>glucose-6-phosphate exchanger SLC37A4 isoform 1, glucose-6-phosphate exchanger SLC37A4 isoform 1</long_name>
-              <db_xref source="RefSeq" accession="NP_001458.1" />
               <db_xref source="RefSeq" accession="NP_001157752.1" />
+              <db_xref source="RefSeq" accession="NP_001458.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000538950.5">
@@ -952,13 +952,13 @@
           <coordinates coord_system="LRG_187" start="10452" end="13555" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>trafficking protein particle complex 4 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="51399" />
+          <db_xref source="MIM" accession="610971" />
           <db_xref source="HGNC" accession="19943">
             <synonym>PTD009</synonym>
             <synonym>SBDN</synonym>
             <synonym>TRS23</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="610971" />
+          <db_xref source="GeneID" accession="51399" />
           <db_xref source="Ensembl" accession="ENSG00000196655" />
           <transcript source="Ensembl" accession="ENST00000533058.5">
             <coordinates coord_system="LRG_187" start="10452" end="13555" strand="-1" mapped_from="GRCh38" />
@@ -976,6 +976,7 @@
             <coordinates coord_system="LRG_187" start="11772" end="13555" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
             <long_name>TRAPPC4-214 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001318486.1" />
             <db_xref source="RefSeq" accession="NM_001318492.1" />
             <db_xref source="RefSeq" accession="NM_016146.5" />
             <exon source="Ensembl" accession="ENSE00002163805">
@@ -984,10 +985,11 @@
             <protein_product source="Ensembl" accession="ENSP00000436005.1">
               <coordinates coord_system="LRG_187" start="12507" end="13555" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <long_name>trafficking protein particle complex subunit 4 isoform 6</long_name>
-              <db_xref source="RefSeq" accession="NP_001305421.1" />
-              <db_xref source="RefSeq" accession="NP_057230.1" />
+              <long_name>trafficking protein particle complex subunit 4 isoform 2 precursor, trafficking protein particle complex subunit 4 isoform 6</long_name>
               <db_xref source="UniProtKB" accession="Q9Y296" />
+              <db_xref source="RefSeq" accession="NP_057230.1" />
+              <db_xref source="RefSeq" accession="NP_001305415.1" />
+              <db_xref source="RefSeq" accession="NP_001305421.1" />
               <db_xref source="CCDS" accession="CCDS8407.1" />
             </protein_product>
           </transcript>
@@ -1041,8 +1043,8 @@
             <protein_product source="Ensembl" accession="ENSP00000405033.2">
               <coordinates coord_system="LRG_187" start="12507" end="13555" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="RefSeq" accession="NP_001305418.1" />
               <db_xref source="UniProtKB" accession="Q9Y296" />
+              <db_xref source="RefSeq" accession="NP_001305418.1" />
               <db_xref source="CCDS" accession="CCDS81633.1" />
             </protein_product>
           </transcript>
@@ -1050,7 +1052,6 @@
             <coordinates coord_system="LRG_187" start="12247" end="13555" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
             <long_name>TRAPPC4-211 (nonsense_mediated_decay)</long_name>
-            <db_xref source="RefSeq" accession="NM_001318486.1" />
             <exon source="Ensembl" accession="ENSE00002197360">
               <coordinates coord_system="LRG_187" start="12247" end="12585" strand="-1" mapped_from="GRCh38" />
             </exon>
