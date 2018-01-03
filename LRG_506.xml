@@ -82,11 +82,11 @@
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="530242" other_end="540550" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="10309" other_start="530242" other_end="540550" strand="-1" />
       </mapping>
-      <mapping coord_system="GRCh38.p7" other_name="11p15.5" other_id="NT_187586.1" other_id_syn="KI270832.1" other_start="59883" other_end="70191" type="haplotype">
-        <mapping_span lrg_start="1" lrg_end="10309" other_start="59883" other_end="70191" strand="-1" />
-      </mapping>
       <mapping coord_system="GRCh38.p7" other_name="11" other_id="NC_000011.10" other_id_syn="CM000673.2" other_start="530242" other_end="540550" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="10309" other_start="530242" other_end="540550" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p7" other_name="11p15.5" other_id="NT_187586.1" other_id_syn="KI270832.1" other_start="59883" other_end="70191" type="haplotype">
+        <mapping_span lrg_start="1" lrg_end="10309" other_start="59883" other_end="70191" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">HRAS</lrg_locus>
     </annotation_set>
@@ -100,7 +100,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 90 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
       <modification_date>2018-01-03</modification_date>
       <mapping coord_system="ENST00000311189.7" other_name="ENST00000311189.7" other_id="ENST00000311189.7" other_start="1" other_end="894" type="transcript">
         <mapping_span lrg_start="5017" lrg_end="5135" other_start="1" other_end="119" strand="1" />
@@ -179,11 +179,11 @@
           <coordinates coord_system="LRG_506" start="1" end="3024" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>leucine rich repeat containing 56 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="115399" />
           <db_xref source="HGNC" accession="25430">
             <synonym>DKFZp761L1518</synonym>
             <synonym>FLJ00101</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="115399" />
           <db_xref source="Ensembl" accession="ENSG00000161328" />
           <transcript source="Ensembl" accession="ENST00000270115.7">
             <coordinates coord_system="LRG_506" start="1" end="3024" strand="-1" mapped_from="GRCh38" />
@@ -205,11 +205,11 @@
           <symbol source="HGNC" name="HRAS" />
           <coordinates coord_system="LRG_506" start="3264" end="8309" strand="1" mapped_from="GRCh38" />
           <long_name>HRas proto-oncogene, GTPase (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="3265" />
+          <db_xref source="MIM" accession="190020" />
           <db_xref source="HGNC" accession="5173">
             <synonym>HRAS1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="190020" />
+          <db_xref source="GeneID" accession="3265" />
           <db_xref source="Ensembl" accession="ENSG00000174775" />
           <transcript source="Ensembl" accession="ENST00000468682.2">
             <coordinates coord_system="LRG_506" start="3264" end="6756" strand="1" mapped_from="GRCh38" />
@@ -248,8 +248,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000388246.1">
               <coordinates coord_system="LRG_506" start="6229" end="7255" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_789765.1" />
               <db_xref source="UniProtKB" accession="P01112" />
+              <db_xref source="RefSeq" accession="NP_789765.1" />
               <db_xref source="CCDS" accession="CCDS7699.1" />
             </protein_product>
           </transcript>
@@ -257,6 +257,7 @@
             <coordinates coord_system="LRG_506" start="5001" end="8308" strand="1" mapped_from="GRCh38" />
             <long_name>HRAS-205 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001130442.2" />
+            <db_xref source="RefSeq" accession="NM_001318054.1" />
             <db_xref source="RefSeq" accession="NM_005343.3" />
             <exon source="Ensembl" accession="ENSE00001404981">
               <coordinates coord_system="LRG_506" start="5001" end="5135" strand="1" mapped_from="GRCh38" />
@@ -275,9 +276,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000407586.1">
               <coordinates coord_system="LRG_506" start="6229" end="7915" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_005334.1" />
-              <db_xref source="RefSeq" accession="NP_001123914.1" />
+              <long_name>GTPase HRas isoform 3 precursor</long_name>
               <db_xref source="UniProtKB" accession="P01112" />
+              <db_xref source="RefSeq" accession="NP_001123914.1" />
+              <db_xref source="RefSeq" accession="NP_005334.1" />
+              <db_xref source="RefSeq" accession="NP_001304983.1" />
               <db_xref source="CCDS" accession="CCDS7698.1" />
             </protein_product>
           </transcript>
@@ -375,7 +378,6 @@
           <transcript source="Ensembl" accession="ENST00000397594.5">
             <coordinates coord_system="LRG_506" start="6176" end="8309" strand="1" mapped_from="GRCh38" />
             <long_name>HRAS-202 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001318054.1" />
             <exon source="Ensembl" accession="ENSE00003463150">
               <coordinates coord_system="LRG_506" start="6176" end="6339" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -393,8 +395,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000380722.1">
               <coordinates coord_system="LRG_506" start="6229" end="7255" strand="1" mapped_from="GRCh38" />
-              <long_name>GTPase HRas isoform 3 precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001304983.1" />
               <db_xref source="UniProtKB" accession="P01112" />
               <db_xref source="CCDS" accession="CCDS7699.1" />
             </protein_product>
