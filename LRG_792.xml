@@ -76,7 +76,7 @@
           <email>jill.storry@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2018-02-26</modification_date>
+      <modification_date>2018-03-05</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -88,7 +88,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-02-26</modification_date>
+      <modification_date>2018-03-05</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9q34.2" other_id="NW_003315925.1" other_id_syn="GL339450.1" other_start="80701" other_end="103685" type="patch">
         <mapping_span lrg_start="1" lrg_end="23011" other_start="80701" other_end="103685" strand="-1">
           <diff type="lrg_ins" lrg_start="1119" lrg_end="1124" other_start="102567" other_end="102568" lrg_sequence="ATTTTT" other_sequence="-" />
@@ -511,28 +511,36 @@
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">ABO</lrg_locus>
-      <note name="LRG curators">There are known issues with the ABO gene in the reference genome assemblies (GRCh37 and GRCh38).  
+      <note name="LRG curators">Polymorphisms in the ABO gene give rise to antigenic variants of the ABO blood group system (ISBT 001).  The sequences in this LRG record represent the ABO*A1.01 allele (haplotype) (1).
+--------.
+There are known issues with the ABO gene in the reference genome assemblies (GRCh37 and GRCh38) (2).
  
- 
+ --------.
 The ABO gene in GRCh37/hg19 spans sequence derived from two different alleles of a diploid genome (AL732364.9 and AL158826.23).  It represents a mixed ABO*O.01.02 and ABO*O.01.01 haplotype, which is an invalid haplotype.
- 
+ --------.
 The GRC intended to fix this issue in GRCh38.  They identified a new clone that captures the complete ABO gene (ABO*A1.02) (clone AL772161.10).  This clone was provided as a FIX patch to GRCh37 and should have been integrated fully into GRCh38 upon release.  However, the switch point between the existing sequence (AL732364.9) and the new sequence (AL772161.10) was set incorrectly to be within the ABO gene.  This resulted in the ABO gene in GRCh38 being derived from two different individuals (ABO*O.01.02, AL732364.9 and ABO*A1.02, AL772161.10).  It represents a mixed ABO*O.01.02 and ABO*A1.02 haplotype, which is an invalid haplotype.
 
- 
+ --------.
 A FIX patch to GRCh38 (KN196479.1 | NW_009646201.1) contains the full ABO*A1.02 (clone AL772161.10).
  
+-------------------------------.
  
- 
-In summary:
+In summary:.
 There are two representations of ABO in GRCh37, the primary reference assembly (mixed ABO*O.01.02/ABO*O.01.01) and a FIX patch (ABO*A1.02).
  
 There are two representations of ABO in GRCh38 , the primary reference assembly (mixed ABO*O.01.02/ABO*A1.02) and a FIX patch (ABO*A1.02).
  
+----------.
+Please note that this LRG record is pending and therefore subject to change.
+We are working closely with the International Society for Blood Transfusion (Working Party on Red Cell Immunogenetics and Blood Group Terminology) and we expect the record will change substantially.
+-----------.
  
- 
-References
-Genome Reference Consortium Issues HG-79, HG-2030
+References).
+1) International Society for Blood Transfusion (ISBT) allele tables, ABO (ISBT 001) v1.1 170123.  http://www.isbtweb.org/working-parties/red-cell-immunogenetics-and-blood-group-terminology/
+
+2) Genome Reference Consortium Issues HG-79, HG-2030.
 http://genomeref.blogspot.co.uk/2015/01/grch38-patching-abo-gene.html
+
 </note>
     </annotation_set>
     <annotation_set type="ncbi">
@@ -546,7 +554,7 @@ http://genomeref.blogspot.co.uk/2015/01/grch38-patching-abo-gene.html
         </contact>
       </source>
       <comment>Annotation from NG_006669.1</comment>
-      <modification_date>2018-02-23</modification_date>
+      <modification_date>2018-03-02</modification_date>
       <mapping coord_system="NM_020469.2" other_name="NM_020469.2" other_id="NM_020469.2" other_start="1" other_end="1580" type="transcript">
         <mapping_span lrg_start="2420" lrg_end="2472" other_start="1" other_end="53" strand="1" />
         <mapping_span lrg_start="15481" lrg_end="15550" other_start="54" other_end="123" strand="1" />
@@ -616,7 +624,7 @@ http://genomeref.blogspot.co.uk/2015/01/grch38-patching-abo-gene.html
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-02-26</modification_date>
+      <modification_date>2018-03-05</modification_date>
       <mapping coord_system="ENST00000453660.3" other_name="ENST00000453660.3" other_id="ENST00000453660.3" other_start="1" other_end="6341" type="transcript">
         <mapping_span lrg_start="2433" lrg_end="2472" other_start="1" other_end="40" strand="1" />
         <mapping_span lrg_start="15481" lrg_end="15550" other_start="41" other_end="110" strand="1" />
@@ -769,7 +777,7 @@ http://genomeref.blogspot.co.uk/2015/01/grch38-patching-abo-gene.html
         <name>List of locus specific databases for ABO</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ABO</url>
       </source>
-      <modification_date>2018-02-26</modification_date>
+      <modification_date>2018-03-05</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
