@@ -112,7 +112,7 @@
           <email>ddunnen@humgen.nl</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -124,15 +124,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
-      <mapping coord_system="GRCh37.p13" other_name="Y" other_id="NC_000024.9" other_id_syn="CM000686.1" other_start="530079" other_end="572146" type="other_assembly">
-        <mapping_span lrg_start="1" lrg_end="42068" other_start="530079" other_end="572146" strand="1">
-          <diff type="mismatch" lrg_start="576" lrg_end="576" other_start="530654" other_end="530654" lrg_sequence="C" other_sequence="T" />
-        </mapping_span>
-      </mapping>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="580079" other_end="622146" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="42068" other_start="580079" other_end="622146" strand="1">
           <diff type="mismatch" lrg_start="576" lrg_end="576" other_start="580654" other_end="580654" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh37.p13" other_name="Y" other_id="NC_000024.9" other_id_syn="CM000686.1" other_start="530079" other_end="572146" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="42068" other_start="530079" other_end="572146" strand="1">
+          <diff type="mismatch" lrg_start="576" lrg_end="576" other_start="530654" other_end="530654" lrg_sequence="C" other_sequence="T" />
         </mapping_span>
       </mapping>
       <mapping coord_system="GRCh38.p12" other_name="X" other_id="NC_000023.11" other_id_syn="CM000685.2" other_start="619344" other_end="661411" type="main_assembly">
@@ -261,8 +261,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000334060.8" other_name="ENST00000334060.8" other_id="ENST00000334060.8" other_start="1" other_end="1951" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5259" other_start="1" other_end="259" strand="1" />
         <mapping_span lrg_start="11123" lrg_end="11831" other_start="260" other_end="968" strand="1" />
@@ -286,15 +286,8 @@
         <mapping_span lrg_start="21656" lrg_end="21744" other_start="1236" other_end="1324" strand="1" />
         <mapping_span lrg_start="25048" lrg_end="27480" other_start="1325" other_end="3757" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000554971.6" other_name="ENST00000554971.6" other_id="ENST00000554971.6" other_start="1" other_end="1902" type="transcript">
-        <mapping_span lrg_start="11464" lrg_end="11831" other_start="1" other_end="368" strand="1" />
-        <mapping_span lrg_start="15275" lrg_end="15483" other_start="369" other_end="577" strand="1" />
-        <mapping_span lrg_start="21478" lrg_end="21535" other_start="578" other_end="635" strand="1" />
-        <mapping_span lrg_start="21656" lrg_end="21744" other_start="636" other_end="724" strand="1" />
-        <mapping_span lrg_start="25048" lrg_end="26225" other_start="725" other_end="1902" strand="1" />
-      </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000185960.13">
+        <gene source="Ensembl" accession="ENSG00000185960.14">
           <symbol source="HGNC" name="SHOX" />
           <coordinates coord_system="LRG_710" start="5001" end="40068" strand="1" mapped_from="GRCh38" />
           <long_name>short stature homeobox (protein_coding)</long_name>
@@ -332,8 +325,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000370990.1" fixed_id="p1">
               <coordinates coord_system="LRG_710" start="11555" end="25293" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="O15266" />
               <db_xref source="RefSeq" accession="NP_000442.1" />
+              <db_xref source="UniProtKB" accession="O15266" />
               <db_xref source="CCDS" accession="CCDS14107.1" />
             </protein_product>
           </transcript>
@@ -361,33 +354,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000335505.3" fixed_id="p2">
               <coordinates coord_system="LRG_710" start="11555" end="39486" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="O15266" />
               <db_xref source="RefSeq" accession="NP_006874.1" />
-              <db_xref source="CCDS" accession="CCDS14106.1" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000554971.6">
-            <coordinates coord_system="LRG_710" start="11464" end="26225" strand="1" mapped_from="GRCh38" />
-            <long_name>SHOX-204 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001489169">
-              <coordinates coord_system="LRG_710" start="11464" end="11831" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003491713">
-              <coordinates coord_system="LRG_710" start="15275" end="15483" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003459973">
-              <coordinates coord_system="LRG_710" start="21478" end="21535" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001334962">
-              <coordinates coord_system="LRG_710" start="21656" end="21744" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002438186">
-              <coordinates coord_system="LRG_710" start="25048" end="26225" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000452016.1">
-              <coordinates coord_system="LRG_710" start="11555" end="25293" strand="1" mapped_from="GRCh38" />
               <db_xref source="UniProtKB" accession="O15266" />
-              <db_xref source="CCDS" accession="CCDS14107.1" />
+              <db_xref source="CCDS" accession="CCDS14106.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000381575.6">
@@ -422,7 +391,7 @@
         <name>List of locus specific databases for SHOX</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SHOX</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

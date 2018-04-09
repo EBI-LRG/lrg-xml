@@ -60,7 +60,7 @@
           <email>D.Dooijes@umcutrecht.nl</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -72,7 +72,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_id_syn="CM000681.1" other_start="50813194" other_end="50837634" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="24441" other_start="50813194" other_end="50837634" strand="-1" />
       </mapping>
@@ -260,8 +260,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000376959.6" other_name="ENST00000376959.6" other_id="ENST00000376959.6" other_start="1" other_end="5447" type="transcript">
         <mapping_span lrg_start="5132" lrg_end="6165" other_start="1" other_end="1034" strand="1" />
         <mapping_span lrg_start="10296" lrg_end="11403" other_start="1035" other_end="2142" strand="1" />
@@ -294,7 +294,6 @@
             <synonym>NAPB</synonym>
             <synonym>NAPSBP</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="256236" />
           <db_xref source="Ensembl" accession="ENSG00000131401" />
           <transcript source="Ensembl" accession="ENST00000531692.1">
             <coordinates coord_system="LRG_668" start="1" end="582" strand="1" mapped_from="GRCh38" />
@@ -378,6 +377,7 @@
           <symbol source="HGNC" name="KCNC3" />
           <coordinates coord_system="LRG_668" start="863" end="22441" strand="1" mapped_from="GRCh38" />
           <long_name>potassium voltage-gated channel subfamily C member 3 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="176264" />
           <db_xref source="HGNC" accession="6235">
             <synonym>Kv3.3</synonym>
             <synonym>SCA13</synonym>
@@ -425,8 +425,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000434241.1" fixed_id="p1">
               <coordinates coord_system="LRG_668" start="5296" end="14132" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q14003" />
               <db_xref source="RefSeq" accession="NP_004968.2" />
+              <db_xref source="UniProtKB" accession="Q14003" />
               <db_xref source="CCDS" accession="CCDS12793.1" />
             </protein_product>
           </transcript>
@@ -453,11 +453,12 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000105357.15">
+        <gene source="Ensembl" accession="ENSG00000105357.16">
           <symbol source="HGNC" name="MYH14" />
-          <coordinates coord_system="LRG_668" start="23833" end="24441" strand="-1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_668" start="23834" end="24441" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>myosin heavy chain 14 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="608568" />
           <db_xref source="HGNC" accession="23212">
             <synonym>DFNA4</synonym>
             <synonym>FLJ13881</synonym>
@@ -467,13 +468,12 @@
           </db_xref>
           <db_xref source="GeneID" accession="79784" />
           <db_xref source="Ensembl" accession="ENSG00000105357" />
-          <transcript source="Ensembl" accession="ENST00000601313.5">
-            <coordinates coord_system="LRG_668" start="23833" end="24441" strand="-1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000601313.6">
+            <coordinates coord_system="LRG_668" start="23834" end="24441" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
             <long_name>MYH14-210 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001145809.1" />
             <exon source="Ensembl" accession="ENSE00002280426">
-              <coordinates coord_system="LRG_668" start="23833" end="24441" strand="-1" mapped_from="GRCh38" />
+              <coordinates coord_system="LRG_668" start="23834" end="24441" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
             </exon>
           </transcript>
@@ -494,6 +494,16 @@
             <db_xref source="RefSeq" accession="NM_024729.3" />
             <exon source="Ensembl" accession="ENSE00001387954">
               <coordinates coord_system="LRG_668" start="23836" end="24441" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000642316.1">
+            <coordinates coord_system="LRG_668" start="23838" end="24441" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>MYH14-211 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001145809.1" />
+            <exon source="Ensembl" accession="ENSE00003829360">
+              <coordinates coord_system="LRG_668" start="23838" end="24441" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
             </exon>
           </transcript>
@@ -528,11 +538,11 @@
         <gene source="Ensembl" accession="ENSG00000267815.1">
           <symbol source="Clone_based_ensembl_gene" name="AC008655.1" />
           <coordinates coord_system="LRG_668" start="23839" end="24356" strand="1" mapped_from="GRCh38" />
-          <long_name>AC008655.1 (antisense_RNA)</long_name>
+          <long_name>AC008655.1 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000267815" />
           <transcript source="Ensembl" accession="ENST00000595563.1">
             <coordinates coord_system="LRG_668" start="23839" end="24356" strand="1" mapped_from="GRCh38" />
-            <long_name>AC008655.1-201 (antisense_RNA)</long_name>
+            <long_name>AC008655.1-201 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003061481">
               <coordinates coord_system="LRG_668" start="23839" end="24144" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -548,7 +558,7 @@
         <name>List of locus specific databases for KCNC3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/KCNC3</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

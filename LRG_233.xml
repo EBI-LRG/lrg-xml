@@ -310,7 +310,7 @@
           <email>jasavige@unimelb.edu.au</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -322,7 +322,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="107384780" other_end="107687704" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="302925" other_start="107384780" other_end="107687704" strand="-1" />
       </mapping>
@@ -1811,8 +1811,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000334504.11" other_name="ENST00000334504.11" other_id="ENST00000334504.11" other_start="1" other_end="6700" type="transcript">
         <mapping_span lrg_start="6045" lrg_end="6289" other_start="1" other_end="245" strand="1" />
         <mapping_span lrg_start="6482" lrg_end="6533" other_start="246" other_end="297" strand="1" />
@@ -2119,7 +2119,7 @@
         <mapping_span lrg_start="287215" lrg_end="288867" other_start="4975" other_end="6627" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000188153.12">
+        <gene source="Ensembl" accession="ENSG00000188153.13">
           <symbol source="HGNC" name="COL4A5" />
           <coordinates coord_system="LRG_233" start="1" end="4631" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
@@ -2142,25 +2142,39 @@
             <protein_product source="Ensembl" accession="ENSP00000331902.6">
               <coordinates coord_system="LRG_233" start="1" end="4349" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="P29400" />
               <db_xref source="RefSeq" accession="NP_203699.1" />
+              <db_xref source="UniProtKB" accession="P29400" />
               <db_xref source="CCDS" accession="CCDS35366.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000361603.6">
-            <coordinates coord_system="LRG_233" start="1" end="4593" strand="-1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000361603.7">
+            <coordinates coord_system="LRG_233" start="1" end="4551" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>COL4A5-202 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_000495.4" />
-            <exon source="Ensembl" accession="ENSE00001860956">
-              <coordinates coord_system="LRG_233" start="4269" end="4593" strand="-1" mapped_from="GRCh38" />
+            <exon source="Ensembl" accession="ENSE00003817449">
+              <coordinates coord_system="LRG_233" start="4269" end="4551" strand="-1" mapped_from="GRCh38" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000354505.2">
               <coordinates coord_system="LRG_233" start="1" end="4349" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="P29400" />
               <db_xref source="RefSeq" accession="NP_000486.1" />
+              <db_xref source="UniProtKB" accession="P29400" />
               <db_xref source="CCDS" accession="CCDS14543.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000642185.1">
+            <coordinates coord_system="LRG_233" start="1" end="4549" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>COL4A5-211 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003824610">
+              <coordinates coord_system="LRG_233" start="4269" end="4549" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003815833">
+              <coordinates coord_system="LRG_233" start="3971" end="4134" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000495101.1">
+              <coordinates coord_system="LRG_233" start="4093" end="4349" strand="-1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000470339.1">
@@ -2186,6 +2200,7 @@
           <symbol source="HGNC" name="COL4A6" />
           <coordinates coord_system="LRG_233" start="4978" end="288868" strand="1" mapped_from="GRCh38" />
           <long_name>collagen type IV alpha 6 chain (protein_coding)</long_name>
+          <db_xref source="MIM" accession="303631" />
           <db_xref source="HGNC" accession="2208" />
           <db_xref source="GeneID" accession="1288" />
           <db_xref source="Ensembl" accession="ENSG00000197565" />
@@ -2346,8 +2361,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000361290.4" fixed_id="p1">
               <coordinates coord_system="LRG_233" start="5104" end="287475" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q14031" />
               <db_xref source="RefSeq" accession="NP_001838.2" />
+              <db_xref source="UniProtKB" accession="Q14031" />
               <db_xref source="CCDS" accession="CCDS14541.1" />
             </protein_product>
           </transcript>
@@ -2514,8 +2529,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000334733.7">
               <coordinates coord_system="LRG_233" start="6279" end="287475" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q14031" />
               <db_xref source="RefSeq" accession="NP_378667.1" />
+              <db_xref source="UniProtKB" accession="Q14031" />
               <db_xref source="CCDS" accession="CCDS14542.1" />
             </protein_product>
           </transcript>
@@ -3173,12 +3188,12 @@
               <coordinates coord_system="LRG_233" start="290763" end="302925" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <long_name>cysteine protease ATG4A isoform c, cysteine protease ATG4A isoform c, cysteine protease ATG4A isoform e, cysteine protease ATG4A isoform c</long_name>
-              <db_xref source="UniProtKB" accession="Q8WYN0" />
               <db_xref source="RefSeq" accession="NP_443168.2" />
-              <db_xref source="RefSeq" accession="NP_001308216.1" />
               <db_xref source="RefSeq" accession="NP_001308217.1" />
+              <db_xref source="RefSeq" accession="NP_001308216.1" />
               <db_xref source="RefSeq" accession="NP_001308219.1" />
               <db_xref source="RefSeq" accession="NP_840055.1" />
+              <db_xref source="UniProtKB" accession="Q8WYN0" />
               <db_xref source="CCDS" accession="CCDS14538.1" />
             </protein_product>
           </transcript>
@@ -3205,9 +3220,9 @@
               <coordinates coord_system="LRG_233" start="290763" end="302925" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <long_name>cysteine protease ATG4A isoform d</long_name>
-              <db_xref source="UniProtKB" accession="Q8WYN0" />
               <db_xref source="RefSeq" accession="NP_840054.1" />
               <db_xref source="RefSeq" accession="NP_001308218.1" />
+              <db_xref source="UniProtKB" accession="Q8WYN0" />
               <db_xref source="CCDS" accession="CCDS14539.1" />
             </protein_product>
           </transcript>
@@ -3313,7 +3328,7 @@
         <name>List of locus specific databases for COL4A6</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/COL4A6</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
