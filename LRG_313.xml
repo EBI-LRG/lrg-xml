@@ -92,7 +92,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="15" other_id="NC_000015.9" other_id_syn="CM000677.1" other_start="40982359" other_end="41026356" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="43998" other_start="40982359" other_end="41026356" strand="1" />
       </mapping>
@@ -383,8 +383,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000267868.7" other_name="ENST00000267868.7" other_id="ENST00000267868.7" other_start="1" other_end="2449" type="transcript">
         <mapping_span lrg_start="5000" lrg_end="5265" other_start="1" other_end="266" strand="1" />
         <mapping_span lrg_start="8597" lrg_end="8685" other_start="267" other_end="355" strand="1" />
@@ -490,12 +490,11 @@
           <db_xref source="HGNC" accession="48621">
             <synonym>TODRA</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="100505648" />
           <db_xref source="Ensembl" accession="ENSG00000245849" />
           <transcript source="Ensembl" accession="ENST00000533146.5">
             <coordinates coord_system="LRG_313" start="1" end="4936" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RAD51-AS1-203 (antisense_RNA)</long_name>
+            <long_name>RAD51-AS1-203 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00002145076">
               <coordinates coord_system="LRG_313" start="4852" end="4936" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -506,7 +505,7 @@
           <transcript source="Ensembl" accession="ENST00000526635.1">
             <coordinates coord_system="LRG_313" start="1" end="4938" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>RAD51-AS1-202 (antisense_RNA)</long_name>
+            <long_name>RAD51-AS1-202 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00002199289">
               <coordinates coord_system="LRG_313" start="4852" end="4938" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -569,7 +568,6 @@
           <transcript source="Ensembl" accession="ENST00000423169.6">
             <coordinates coord_system="LRG_313" start="4969" end="41432" strand="1" mapped_from="GRCh38" />
             <long_name>RAD51-203 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001164270.1" />
             <exon source="Ensembl" accession="ENSE00002199081">
               <coordinates coord_system="LRG_313" start="4969" end="5265" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -600,7 +598,6 @@
             <protein_product source="Ensembl" accession="ENSP00000406602.2">
               <coordinates coord_system="LRG_313" start="8599" end="40963" strand="1" mapped_from="GRCh38" />
               <db_xref source="UniProtKB" accession="Q06609" />
-              <db_xref source="RefSeq" accession="NP_001157742.1" />
               <db_xref source="CCDS" accession="CCDS53932.1" />
             </protein_product>
           </transcript>
@@ -640,8 +637,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000267868.3" fixed_id="p1">
               <coordinates coord_system="LRG_313" start="8599" end="41018" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q06609" />
               <db_xref source="RefSeq" accession="NP_002866.2" />
+              <db_xref source="UniProtKB" accession="Q06609" />
               <db_xref source="CCDS" accession="CCDS10062.1" />
             </protein_product>
           </transcript>
@@ -713,8 +710,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000433924.1">
               <coordinates coord_system="LRG_313" start="8599" end="41018" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q06609" />
               <db_xref source="RefSeq" accession="NP_597994.3" />
+              <db_xref source="UniProtKB" accession="Q06609" />
               <db_xref source="CCDS" accession="CCDS53931.1" />
             </protein_product>
           </transcript>
@@ -754,8 +751,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000372088.3">
               <coordinates coord_system="LRG_313" start="8599" end="41018" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q06609" />
               <db_xref source="RefSeq" accession="NP_001157741.1" />
+              <db_xref source="UniProtKB" accession="Q06609" />
               <db_xref source="CCDS" accession="CCDS53931.1" />
             </protein_product>
           </transcript>
@@ -857,6 +854,51 @@
             </protein_product>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000285396.1">
+          <symbol source="Clone_based_ensembl_gene" name="AC012476.1" />
+          <coordinates coord_system="LRG_313" start="4969" end="41998" strand="1" mapped_from="GRCh38" />
+          <long_name>AC012476.1 (protein_coding)</long_name>
+          <db_xref source="MIM" accession="179617" />
+          <db_xref source="GeneID" accession="5888" />
+          <db_xref source="Ensembl" accession="ENSG00000285396" />
+          <transcript source="Ensembl" accession="ENST00000645673.1">
+            <coordinates coord_system="LRG_313" start="4969" end="41998" strand="1" mapped_from="GRCh38" />
+            <long_name>AC012476.1-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001164270.1" />
+            <exon source="Ensembl" accession="ENSE00003827736">
+              <coordinates coord_system="LRG_313" start="4969" end="5265" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003820666">
+              <coordinates coord_system="LRG_313" start="8597" end="8685" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003815399">
+              <coordinates coord_system="LRG_313" start="10904" end="11041" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003830453">
+              <coordinates coord_system="LRG_313" start="16017" end="16134" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003829052">
+              <coordinates coord_system="LRG_313" start="18865" end="18956" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003823119">
+              <coordinates coord_system="LRG_313" start="28645" end="28739" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003828881">
+              <coordinates coord_system="LRG_313" start="38551" end="38664" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003827663">
+              <coordinates coord_system="LRG_313" start="39345" end="39474" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003823883">
+              <coordinates coord_system="LRG_313" start="40895" end="41998" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000493712.1">
+              <coordinates coord_system="LRG_313" start="8599" end="40963" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001157742.1" />
+              <db_xref source="CCDS" accession="CCDS53932.1" />
+            </protein_product>
+          </transcript>
+        </gene>
       </features>
     </annotation_set>
     <annotation_set type="lsdb">
@@ -864,7 +906,7 @@
         <name>List of locus specific databases for RAD51</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RAD51</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

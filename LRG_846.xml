@@ -93,7 +93,7 @@
           <email>e.bakker@lumc.nl</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -105,7 +105,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="38206736" other_end="38282703" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="75968" other_start="38206736" other_end="38282703" strand="1" />
       </mapping>
@@ -212,8 +212,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000039007.4" other_name="ENST00000039007.4" other_id="ENST00000039007.4" other_start="1" other_end="1585" type="transcript">
         <mapping_span lrg_start="5063" lrg_end="5291" other_start="1" other_end="229" strand="1" />
         <mapping_span lrg_start="19809" lrg_end="19947" other_start="230" other_end="368" strand="1" />
@@ -233,6 +233,19 @@
         <mapping_span lrg_start="33878" lrg_end="33947" other_start="354" other_end="423" strand="1" />
         <mapping_span lrg_start="53793" lrg_end="53946" other_start="424" other_end="577" strand="1" />
         <mapping_span lrg_start="56136" lrg_end="56185" other_start="578" other_end="627" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000643344.1" other_name="ENST00000643344.1" other_id="ENST00000643344.1" other_start="1" other_end="1304" type="transcript">
+        <mapping_span lrg_start="5104" lrg_end="5291" other_start="1" other_end="188" strand="1" />
+        <mapping_span lrg_start="19809" lrg_end="19947" other_start="189" other_end="327" strand="1" />
+        <mapping_span lrg_start="22314" lrg_end="22395" other_start="328" other_end="409" strand="1" />
+        <mapping_span lrg_start="26114" lrg_end="26256" other_start="410" other_end="552" strand="1" />
+        <mapping_span lrg_start="33860" lrg_end="33947" other_start="553" other_end="640" strand="1" />
+        <mapping_span lrg_start="53793" lrg_end="53946" other_start="641" other_end="794" strand="1" />
+        <mapping_span lrg_start="56136" lrg_end="56258" other_start="795" other_end="917" strand="1" />
+        <mapping_span lrg_start="61260" lrg_end="61313" other_start="918" other_end="971" strand="1" />
+        <mapping_span lrg_start="61394" lrg_end="61543" other_start="972" other_end="1121" strand="1" />
+        <mapping_span lrg_start="64380" lrg_end="64517" other_start="1122" other_end="1259" strand="1" />
+        <mapping_span lrg_start="73541" lrg_end="73585" other_start="1260" other_end="1304" strand="1" />
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000250349.3">
@@ -254,7 +267,7 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000036473.6">
+        <gene source="Ensembl" accession="ENSG00000036473.7">
           <symbol source="HGNC" name="OTC" />
           <coordinates coord_system="LRG_846" start="5063" end="73968" strand="1" mapped_from="GRCh38" />
           <long_name>ornithine carbamoyltransferase (protein_coding)</long_name>
@@ -298,9 +311,49 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000039007.4" fixed_id="p1">
               <coordinates coord_system="LRG_846" start="5215" end="73600" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P00480" />
               <db_xref source="RefSeq" accession="NP_000522.3" />
+              <db_xref source="UniProtKB" accession="P00480" />
               <db_xref source="CCDS" accession="CCDS14247.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000643344.1">
+            <coordinates coord_system="LRG_846" start="5104" end="73585" strand="1" mapped_from="GRCh38" />
+            <long_name>OTC-203 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003821361">
+              <coordinates coord_system="LRG_846" start="5104" end="5291" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003606244">
+              <coordinates coord_system="LRG_846" start="19809" end="19947" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001090983">
+              <coordinates coord_system="LRG_846" start="22314" end="22395" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003819565">
+              <coordinates coord_system="LRG_846" start="26114" end="26256" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003816888">
+              <coordinates coord_system="LRG_846" start="33860" end="33947" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003467389">
+              <coordinates coord_system="LRG_846" start="53793" end="53946" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003825026">
+              <coordinates coord_system="LRG_846" start="56136" end="56258" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003816835">
+              <coordinates coord_system="LRG_846" start="61260" end="61313" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003826259">
+              <coordinates coord_system="LRG_846" start="61394" end="61543" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003814491">
+              <coordinates coord_system="LRG_846" start="64380" end="64517" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003819513">
+              <coordinates coord_system="LRG_846" start="73541" end="73585" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000496606.1">
+              <coordinates coord_system="LRG_846" start="5215" end="26208" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000488812.1">
@@ -347,7 +400,7 @@
         <name>List of locus specific databases for OTC</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/OTC</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
