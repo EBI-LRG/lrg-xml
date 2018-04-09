@@ -132,7 +132,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -144,7 +144,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="4" other_id="NC_000004.11" other_id_syn="CM000666.1" other_start="110659852" other_end="110728141" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="68290" other_start="110659852" other_end="110728141" strand="-1">
           <diff type="mismatch" lrg_start="49217" lrg_end="49217" other_start="110678925" other_end="110678925" lrg_sequence="G" other_sequence="A" />
@@ -468,8 +468,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000394634.6" other_name="ENST00000394634.6" other_id="ENST00000394634.6" other_start="1" other_end="2159" type="transcript">
         <mapping_span lrg_start="4807" lrg_end="5071" other_start="1" other_end="265" strand="1" />
         <mapping_span lrg_start="40162" lrg_end="40432" other_start="266" other_end="536" strand="1" />
@@ -556,8 +556,13 @@
         <mapping_span lrg_start="57384" lrg_end="57487" other_start="1149" other_end="1252" strand="1" />
         <mapping_span lrg_start="66181" lrg_end="66273" other_start="1253" other_end="1345" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000643384.1" other_name="ENST00000643384.1" other_id="ENST00000643384.1" other_start="1" other_end="1135" type="transcript">
+        <mapping_span lrg_start="4987" lrg_end="5071" other_start="1" other_end="85" strand="1" />
+        <mapping_span lrg_start="12561" lrg_end="13560" other_start="86" other_end="1085" strand="1" />
+        <mapping_span lrg_start="40162" lrg_end="40211" other_start="1086" other_end="1135" strand="1" />
+      </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000205403.12">
+        <gene source="Ensembl" accession="ENSG00000205403.13">
           <symbol source="HGNC" name="CFI" />
           <coordinates coord_system="LRG_48" start="4807" end="66292" strand="1" mapped_from="GRCh38" />
           <long_name>complement factor I (protein_coding)</long_name>
@@ -574,6 +579,7 @@
             <coordinates coord_system="LRG_48" start="4807" end="66292" strand="1" mapped_from="GRCh38" />
             <long_name>CFI-201 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_000204.4" />
+            <db_xref source="RefSeq" accession="NM_001331035.1" />
             <exon source="Ensembl" accession="ENSE00001483053">
               <coordinates coord_system="LRG_48" start="4807" end="5071" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -615,8 +621,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000378130.2">
               <coordinates coord_system="LRG_48" start="5015" end="66093" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P05156" />
+              <long_name>complement factor I isoform 3 preproprotein, complement factor I isoform 2 preproprotein</long_name>
               <db_xref source="RefSeq" accession="NP_000195.2" />
+              <db_xref source="RefSeq" accession="NP_001317964.1" />
+              <db_xref source="UniProtKB" accession="P05156" />
               <db_xref source="CCDS" accession="CCDS34049.1" />
             </protein_product>
           </transcript>
@@ -705,14 +713,27 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000378131.3">
               <coordinates coord_system="LRG_48" start="5015" end="66093" strand="1" mapped_from="GRCh38" />
+              <long_name>complement factor I isoform 1 preproprotein</long_name>
               <db_xref source="RefSeq" accession="NP_001304986.1" />
               <db_xref source="CCDS" accession="CCDS82946.1" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000643384.1">
+            <coordinates coord_system="LRG_48" start="4987" end="40211" strand="1" mapped_from="GRCh38" />
+            <long_name>CFI-208 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003815125">
+              <coordinates coord_system="LRG_48" start="4987" end="5071" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003827556">
+              <coordinates coord_system="LRG_48" start="12561" end="13560" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003823001">
+              <coordinates coord_system="LRG_48" start="40162" end="40211" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000512148.5">
             <coordinates coord_system="LRG_48" start="5001" end="66262" strand="1" mapped_from="GRCh38" />
             <long_name>CFI-205 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001331035.1" />
             <exon source="Ensembl" accession="ENSE00002034245">
               <coordinates coord_system="LRG_48" start="5001" end="5071" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -751,8 +772,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000427438.1">
               <coordinates coord_system="LRG_48" start="5015" end="66093" strand="1" mapped_from="GRCh38" />
-              <long_name>complement factor I isoform 3 preproprotein</long_name>
-              <db_xref source="RefSeq" accession="NP_001317964.1" />
               <db_xref source="CCDS" accession="CCDS82945.1" />
             </protein_product>
           </transcript>
@@ -817,6 +836,58 @@
             </exon>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000285330.1">
+          <symbol source="Clone_based_ensembl_gene" name="AC126283.2" />
+          <coordinates coord_system="LRG_48" start="4987" end="68290" strand="1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>AC126283.2 (protein_coding)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000285330" />
+          <transcript source="Ensembl" accession="ENST00000645635.1">
+            <coordinates coord_system="LRG_48" start="4987" end="68290" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>AC126283.2-201 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003819769">
+              <coordinates coord_system="LRG_48" start="4987" end="5071" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003827022">
+              <coordinates coord_system="LRG_48" start="40162" end="40432" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003829026">
+              <coordinates coord_system="LRG_48" start="42296" end="42449" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003816127">
+              <coordinates coord_system="LRG_48" start="45294" end="45469" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003825434">
+              <coordinates coord_system="LRG_48" start="46350" end="46463" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003826957">
+              <coordinates coord_system="LRG_48" start="46606" end="46716" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003824923">
+              <coordinates coord_system="LRG_48" start="49203" end="49223" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003825771">
+              <coordinates coord_system="LRG_48" start="54483" end="54518" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003830521">
+              <coordinates coord_system="LRG_48" start="57384" end="57487" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003828064">
+              <coordinates coord_system="LRG_48" start="57665" end="57768" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003822777">
+              <coordinates coord_system="LRG_48" start="60484" end="60764" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003825526">
+              <coordinates coord_system="LRG_48" start="64391" end="64495" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000493607.1">
+              <coordinates coord_system="LRG_48" start="5015" end="68290" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+        </gene>
       </features>
     </annotation_set>
     <annotation_set type="lsdb">
@@ -824,7 +895,7 @@
         <name>List of locus specific databases for CFI</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CFI</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

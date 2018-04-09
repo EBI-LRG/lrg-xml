@@ -60,7 +60,7 @@
           <email>ljk0@cdc.gov</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -72,7 +72,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="13" other_id="NC_000013.10" other_id_syn="CM000675.1" other_start="47405513" other_end="47476169" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="70657" other_start="47405513" other_end="47476169" strand="-1" />
       </mapping>
@@ -211,8 +211,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000378688.8" other_name="ENST00000378688.8" other_id="ENST00000378688.8" other_start="1" other_end="4835" type="transcript">
         <mapping_span lrg_start="5997" lrg_end="6540" other_start="1" other_end="544" strand="1" />
         <mapping_span lrg_start="9445" lrg_end="9645" other_start="545" other_end="745" strand="1" />
@@ -244,26 +244,6 @@
           </db_xref>
           <db_xref source="GeneID" accession="3356" />
           <db_xref source="Ensembl" accession="ENSG00000102468" />
-          <transcript source="Ensembl" accession="ENST00000543956.4">
-            <coordinates coord_system="LRG_1008" start="4959" end="70480" strand="1" mapped_from="GRCh38" />
-            <long_name>HTR2A-203 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001165947.2" />
-            <exon source="Ensembl" accession="ENSE00003510058">
-              <coordinates coord_system="LRG_1008" start="4959" end="5361" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000682325">
-              <coordinates coord_system="LRG_1008" start="9445" end="9645" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001242926">
-              <coordinates coord_system="LRG_1008" start="66396" end="70480" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000441861.1">
-              <coordinates coord_system="LRG_1008" start="5202" end="67198" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P28223" />
-              <db_xref source="RefSeq" accession="NP_001159419.1" />
-              <db_xref source="CCDS" accession="CCDS53867.1" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000542664.3" fixed_id="t1">
             <coordinates coord_system="LRG_1008" start="4959" end="70480" strand="1" mapped_from="GRCh38" />
             <long_name>HTR2A-202 (protein_coding)</long_name>
@@ -282,9 +262,29 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000437737.1" fixed_id="p1">
               <coordinates coord_system="LRG_1008" start="6129" end="67198" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P28223" />
               <db_xref source="RefSeq" accession="NP_000612.1" />
+              <db_xref source="UniProtKB" accession="P28223" />
               <db_xref source="CCDS" accession="CCDS9405.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000543956.4">
+            <coordinates coord_system="LRG_1008" start="4959" end="70480" strand="1" mapped_from="GRCh38" />
+            <long_name>HTR2A-203 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001165947.2" />
+            <exon source="Ensembl" accession="ENSE00003510058">
+              <coordinates coord_system="LRG_1008" start="4959" end="5361" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000682325">
+              <coordinates coord_system="LRG_1008" start="9445" end="9645" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001242926">
+              <coordinates coord_system="LRG_1008" start="66396" end="70480" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000441861.1">
+              <coordinates coord_system="LRG_1008" start="5202" end="67198" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001159419.1" />
+              <db_xref source="UniProtKB" accession="P28223" />
+              <db_xref source="CCDS" accession="CCDS53867.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000378688.8">
@@ -319,13 +319,12 @@
         <gene source="Ensembl" accession="ENSG00000224517.6">
           <symbol source="HGNC" name="HTR2A-AS1" />
           <coordinates coord_system="LRG_1008" start="45736" end="49892" strand="-1" mapped_from="GRCh38" />
-          <long_name>HTR2A antisense RNA 1 (antisense_RNA)</long_name>
+          <long_name>HTR2A antisense RNA 1 (antisense)</long_name>
           <db_xref source="HGNC" accession="40289" />
-          <db_xref source="GeneID" accession="100874082" />
           <db_xref source="Ensembl" accession="ENSG00000224517" />
           <transcript source="Ensembl" accession="ENST00000455126.5">
             <coordinates coord_system="LRG_1008" start="45736" end="49892" strand="-1" mapped_from="GRCh38" />
-            <long_name>HTR2A-AS1-203 (antisense_RNA)</long_name>
+            <long_name>HTR2A-AS1-203 (antisense)</long_name>
             <db_xref source="RefSeq" accession="NR_103752.1" />
             <exon source="Ensembl" accession="ENSE00001667941">
               <coordinates coord_system="LRG_1008" start="49809" end="49892" strand="-1" mapped_from="GRCh38" />
@@ -336,7 +335,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000430913.2">
             <coordinates coord_system="LRG_1008" start="45736" end="49883" strand="-1" mapped_from="GRCh38" />
-            <long_name>HTR2A-AS1-201 (antisense_RNA)</long_name>
+            <long_name>HTR2A-AS1-201 (antisense)</long_name>
             <db_xref source="RefSeq" accession="NR_046612.1" />
             <exon source="Ensembl" accession="ENSE00001776376">
               <coordinates coord_system="LRG_1008" start="49809" end="49883" strand="-1" mapped_from="GRCh38" />
@@ -350,7 +349,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000452352.5">
             <coordinates coord_system="LRG_1008" start="47788" end="49883" strand="-1" mapped_from="GRCh38" />
-            <long_name>HTR2A-AS1-202 (antisense_RNA)</long_name>
+            <long_name>HTR2A-AS1-202 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00001776376">
               <coordinates coord_system="LRG_1008" start="49809" end="49883" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -366,7 +365,7 @@
         <name>List of locus specific databases for HTR2A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HTR2A</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

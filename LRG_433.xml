@@ -297,7 +297,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -309,7 +309,10 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_id_syn="CM000668.1" other_start="112427134" other_end="112580828" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="153695" other_start="112427134" other_end="112580828" strand="-1" />
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="6q21" other_id="NW_003871062.1" other_id_syn="JH636056.1" other_start="103453" other_end="257147" type="patch">
         <mapping_span lrg_start="1" lrg_end="153695" other_start="103453" other_end="257147" strand="-1">
           <diff type="lrg_ins" lrg_start="18341" lrg_end="18341" other_start="238807" other_end="238808" lrg_sequence="G" other_sequence="-" />
@@ -317,9 +320,6 @@
           <diff type="mismatch" lrg_start="58586" lrg_end="58586" other_start="198562" other_end="198562" lrg_sequence="A" other_sequence="T" />
           <diff type="mismatch" lrg_start="72059" lrg_end="72060" other_start="185088" other_end="185089" lrg_sequence="CA" other_sequence="AC" />
         </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_id_syn="CM000668.1" other_start="112427134" other_end="112580828" type="other_assembly">
-        <mapping_span lrg_start="1" lrg_end="153695" other_start="112427134" other_end="112580828" strand="-1" />
       </mapping>
       <mapping coord_system="GRCh38.p12" other_name="6" other_id="NC_000006.12" other_id_syn="CM000668.2" other_start="112105931" other_end="112259626" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="153695" other_start="112105931" other_end="112259626" strand="-1">
@@ -1159,8 +1159,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000230538.11" other_name="ENST00000230538.11" other_id="ENST00000230538.11" other_start="1" other_end="6547" type="transcript">
         <mapping_span lrg_start="4912" lrg_end="5168" other_start="1" other_end="257" strand="1" />
         <mapping_span lrg_start="5336" lrg_end="5671" other_start="258" other_end="593" strand="1" />
@@ -1447,12 +1447,12 @@
           <symbol source="Clone_based_ensembl_gene" name="AL365214.2" />
           <coordinates coord_system="LRG_433" start="1" end="23535" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>AL365214.2 (antisense_RNA)</long_name>
+          <long_name>AL365214.2 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000226440" />
           <transcript source="Ensembl" accession="ENST00000433684.6">
             <coordinates coord_system="LRG_433" start="1" end="23535" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>AL365214.2-201 (antisense_RNA)</long_name>
+            <long_name>AL365214.2-201 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00001692398">
               <coordinates coord_system="LRG_433" start="22990" end="23535" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1463,7 +1463,7 @@
           <transcript source="Ensembl" accession="ENST00000588837.5">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>AL365214.2-202 (antisense_RNA)</long_name>
+            <long_name>AL365214.2-202 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003775332">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1471,7 +1471,7 @@
           <transcript source="Ensembl" accession="ENST00000590293.5">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>AL365214.2-203 (antisense_RNA)</long_name>
+            <long_name>AL365214.2-203 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003775332">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1479,7 +1479,7 @@
           <transcript source="Ensembl" accession="ENST00000585450.5">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>AL365214.2-204 (antisense_RNA)</long_name>
+            <long_name>AL365214.2-204 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003775332">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1487,7 +1487,7 @@
           <transcript source="Ensembl" accession="ENST00000629766.2">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>AL365214.2-205 (antisense_RNA)</long_name>
+            <long_name>AL365214.2-205 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003775332">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1498,7 +1498,7 @@
           <transcript source="Ensembl" accession="ENST00000590804.5">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>AL365214.2-206 (antisense_RNA)</long_name>
+            <long_name>AL365214.2-206 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003775332">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1506,14 +1506,14 @@
           <transcript source="Ensembl" accession="ENST00000590584.4">
             <coordinates coord_system="LRG_433" start="1" end="22822" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>AL365214.2-207 (antisense_RNA)</long_name>
+            <long_name>AL365214.2-207 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003775332">
               <coordinates coord_system="LRG_433" start="22712" end="22822" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000627025.1">
             <coordinates coord_system="LRG_433" start="2293" end="22798" strand="-1" mapped_from="GRCh38" />
-            <long_name>AL365214.2-209 (antisense_RNA)</long_name>
+            <long_name>AL365214.2-209 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003771708">
               <coordinates coord_system="LRG_433" start="22712" end="22798" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1523,7 +1523,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000628122.2">
             <coordinates coord_system="LRG_433" start="8014" end="22798" strand="-1" mapped_from="GRCh38" />
-            <long_name>AL365214.2-208 (antisense_RNA)</long_name>
+            <long_name>AL365214.2-208 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003771708">
               <coordinates coord_system="LRG_433" start="22712" end="22798" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2039,9 +2039,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000398226.2">
               <coordinates coord_system="LRG_433" start="5477" end="5839" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q16363" />
               <db_xref source="RefSeq" accession="NP_001098679.1" />
               <db_xref source="RefSeq" accession="NP_001098678.1" />
+              <db_xref source="UniProtKB" accession="Q16363" />
               <db_xref source="CCDS" accession="CCDS43492.1" />
             </protein_product>
           </transcript>
@@ -2433,8 +2433,8 @@
           <symbol source="HGNC" name="RNU6-1226P" />
           <coordinates coord_system="LRG_433" start="63081" end="63187" strand="1" mapped_from="GRCh38" />
           <long_name>RNA, U6 small nuclear 1226, pseudogene (snRNA)</long_name>
-          <db_xref source="RFAM" accession="RF00026" />
           <db_xref source="HGNC" accession="48189" />
+          <db_xref source="RFAM" accession="RF00026" />
           <db_xref source="Ensembl" accession="ENSG00000207044" />
           <transcript source="Ensembl" accession="ENST00000384317.1">
             <coordinates coord_system="LRG_433" start="63081" end="63187" strand="1" mapped_from="GRCh38" />
@@ -2447,11 +2447,11 @@
         <gene source="Ensembl" accession="ENSG00000237234.7">
           <symbol source="Clone_based_ensembl_gene" name="Z99289.1" />
           <coordinates coord_system="LRG_433" start="93151" end="104862" strand="-1" mapped_from="GRCh38" />
-          <long_name>Z99289.1 (antisense_RNA)</long_name>
+          <long_name>Z99289.1 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000237234" />
           <transcript source="Ensembl" accession="ENST00000585373.5">
             <coordinates coord_system="LRG_433" start="93151" end="104862" strand="-1" mapped_from="GRCh38" />
-            <long_name>Z99289.1-201 (antisense_RNA)</long_name>
+            <long_name>Z99289.1-201 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00001666601">
               <coordinates coord_system="LRG_433" start="104713" end="104862" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2470,7 +2470,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000629996.2">
             <coordinates coord_system="LRG_433" start="93178" end="104774" strand="-1" mapped_from="GRCh38" />
-            <long_name>Z99289.1-204 (antisense_RNA)</long_name>
+            <long_name>Z99289.1-204 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003767439">
               <coordinates coord_system="LRG_433" start="104713" end="104774" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2495,7 +2495,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000626024.2">
             <coordinates coord_system="LRG_433" start="93178" end="104774" strand="-1" mapped_from="GRCh38" />
-            <long_name>Z99289.1-205 (antisense_RNA)</long_name>
+            <long_name>Z99289.1-205 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003767439">
               <coordinates coord_system="LRG_433" start="104713" end="104774" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2520,7 +2520,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000625600.2">
             <coordinates coord_system="LRG_433" start="95512" end="104774" strand="-1" mapped_from="GRCh38" />
-            <long_name>Z99289.1-203 (antisense_RNA)</long_name>
+            <long_name>Z99289.1-203 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003767439">
               <coordinates coord_system="LRG_433" start="104713" end="104774" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2545,7 +2545,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000425503.2">
             <coordinates coord_system="LRG_433" start="101295" end="104306" strand="-1" mapped_from="GRCh38" />
-            <long_name>Z99289.1-206 (antisense_RNA)</long_name>
+            <long_name>Z99289.1-206 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00003720404">
               <coordinates coord_system="LRG_433" start="104091" end="104306" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2558,7 +2558,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000588689.1">
             <coordinates coord_system="LRG_433" start="103895" end="104836" strand="-1" mapped_from="GRCh38" />
-            <long_name>Z99289.1-202 (antisense_RNA)</long_name>
+            <long_name>Z99289.1-202 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00002934214">
               <coordinates coord_system="LRG_433" start="104713" end="104836" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2574,7 +2574,7 @@
         <name>List of locus specific databases for LAMA4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/LAMA4</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

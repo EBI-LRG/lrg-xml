@@ -39,7 +39,7 @@
           <email>is250@cam.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -51,7 +51,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_id_syn="CM000668.1" other_start="116594022" other_end="116606280" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="12259" other_start="116594022" other_end="116606280" strand="-1" />
       </mapping>
@@ -177,44 +177,19 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000368608.3" other_name="ENST00000368608.3" other_id="ENST00000368608.3" other_start="1" other_end="3326" type="transcript">
         <mapping_span lrg_start="5215" lrg_end="8540" other_start="1" other_end="3326" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000240050.5">
-          <symbol source="Clone_based_ensembl_gene" name="AL590542.1" />
-          <coordinates coord_system="LRG_862" start="1" end="4919" strand="-1" mapped_from="GRCh38" />
-          <partial>3-prime</partial>
-          <long_name>AL590542.1 (lincRNA)</long_name>
-          <db_xref source="GeneID" accession="29940" />
-          <db_xref source="Ensembl" accession="ENSG00000240050" />
-          <transcript source="Ensembl" accession="ENST00000449314.5">
-            <coordinates coord_system="LRG_862" start="1" end="4919" strand="-1" mapped_from="GRCh38" />
-            <partial>3-prime</partial>
-            <long_name>AL590542.1-201 (lincRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_136523.1" />
-            <exon source="Ensembl" accession="ENSE00001772201">
-              <coordinates coord_system="LRG_862" start="4858" end="4919" strand="-1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000453463.1">
-            <coordinates coord_system="LRG_862" start="1" end="4900" strand="-1" mapped_from="GRCh38" />
-            <partial>3-prime</partial>
-            <long_name>AL590542.1-202 (lincRNA)</long_name>
-            <db_xref source="RefSeq" accession="NR_136522.1" />
-            <exon source="Ensembl" accession="ENSE00001623351">
-              <coordinates coord_system="LRG_862" start="4858" end="4900" strand="-1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
-        <gene source="Ensembl" accession="ENSG00000111817.16">
+        <gene source="Ensembl" accession="ENSG00000111817.17">
           <symbol source="HGNC" name="DSE" />
           <coordinates coord_system="LRG_862" start="1" end="12259" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <partial>3-prime</partial>
           <long_name>dermatan sulfate epimerase (protein_coding)</long_name>
+          <db_xref source="MIM" accession="605942" />
           <db_xref source="HGNC" accession="21144">
             <synonym>DS-Epi1</synonym>
             <synonym>DSEPI</synonym>
@@ -228,21 +203,70 @@
             <partial>3-prime</partial>
             <long_name>DSE-203 (protein_coding)</long_name>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000647244.1">
+            <coordinates coord_system="LRG_862" start="1" end="12259" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>DSE-218 (protein_coding)</long_name>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000607094.1">
             <coordinates coord_system="LRG_862" start="1" end="5975" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>DSE-207 (retained_intron)</long_name>
+            <long_name>DSE-210 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00003697471">
               <coordinates coord_system="LRG_862" start="5387" end="5975" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000645959.1">
+            <coordinates coord_system="LRG_862" start="1" end="5047" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>DSE-214 (processed_transcript)</long_name>
+            <db_xref source="RefSeq" accession="NR_136521.1" />
+            <exon source="Ensembl" accession="ENSE00003830762">
+              <coordinates coord_system="LRG_862" start="4858" end="5047" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000643175.1">
+            <coordinates coord_system="LRG_862" start="1" end="5010" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>DSE-212 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003816047">
+              <coordinates coord_system="LRG_862" start="4858" end="5010" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000452085.7">
             <coordinates coord_system="LRG_862" start="1" end="4998" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>DSE-204 (protein_coding)</long_name>
+            <long_name>DSE-206 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001080976.2" />
             <exon source="Ensembl" accession="ENSE00001798621">
               <coordinates coord_system="LRG_862" start="4858" end="4998" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000642434.1">
+            <coordinates coord_system="LRG_862" start="1" end="4964" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>DSE-211 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003826922">
+              <coordinates coord_system="LRG_862" start="4858" end="4964" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000449314.5">
+            <coordinates coord_system="LRG_862" start="1" end="4919" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>DSE-205 (processed_transcript)</long_name>
+            <db_xref source="RefSeq" accession="NR_136523.1" />
+            <exon source="Ensembl" accession="ENSE00001772201">
+              <coordinates coord_system="LRG_862" start="4858" end="4919" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000453463.1">
+            <coordinates coord_system="LRG_862" start="1" end="4900" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>DSE-207 (processed_transcript)</long_name>
+            <db_xref source="RefSeq" accession="NR_136522.1" />
+            <exon source="Ensembl" accession="ENSE00001623351">
+              <coordinates coord_system="LRG_862" start="4858" end="4900" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
         </gene>
@@ -265,8 +289,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000357597.3">
               <coordinates coord_system="LRG_862" start="5288" end="6601" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q9H0U9" />
               <db_xref source="RefSeq" accession="NP_003300.1" />
+              <db_xref source="UniProtKB" accession="Q9H0U9" />
               <db_xref source="CCDS" accession="CCDS34518.1" />
             </protein_product>
           </transcript>
@@ -278,7 +302,7 @@
         <name>List of locus specific databases for TSPYL1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TSPYL1</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

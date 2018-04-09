@@ -448,7 +448,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -460,7 +460,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_id_syn="CM000668.1" other_start="129199286" other_end="129842661" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="643376" other_start="129199286" other_end="129842661" strand="1">
           <diff type="mismatch" lrg_start="608344" lrg_end="608344" other_start="129807629" other_end="129807629" lrg_sequence="T" other_sequence="C" />
@@ -1076,8 +1076,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000421865.2" other_name="ENST00000421865.2" other_id="ENST00000421865.2" other_start="1" other_end="9640" type="transcript">
         <mapping_span lrg_start="5057" lrg_end="5217" other_start="1" other_end="161" strand="1" />
         <mapping_span lrg_start="171778" lrg_end="171948" other_start="162" other_end="332" strand="1" />
@@ -1299,8 +1299,13 @@
         <mapping_span lrg_start="636233" lrg_end="636455" other_start="9091" other_end="9313" strand="1" />
         <mapping_span lrg_start="638050" lrg_end="638423" other_start="9314" other_end="9687" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000645154.1" other_name="ENST00000645154.1" other_id="ENST00000645154.1" other_start="1" other_end="552" type="transcript">
+        <mapping_span lrg_start="413474" lrg_end="413580" other_start="1" other_end="107" strand="1" />
+        <mapping_span lrg_start="414663" lrg_end="414926" other_start="108" other_end="371" strand="1" />
+        <mapping_span lrg_start="419545" lrg_end="419725" other_start="372" other_end="552" strand="1" />
+      </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000196569.11">
+        <gene source="Ensembl" accession="ENSG00000196569.12">
           <symbol source="HGNC" name="LAMA2" />
           <coordinates coord_system="LRG_409" start="5001" end="638429" strand="1" mapped_from="GRCh38" />
           <long_name>laminin subunit alpha 2 (protein_coding)</long_name>
@@ -1907,10 +1912,10 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000400365.2">
               <coordinates coord_system="LRG_409" start="5106" end="638207" strand="1" mapped_from="GRCh38" />
-              <long_name>laminin subunit alpha-2 isoform b precursor</long_name>
-              <db_xref source="UniProtKB" accession="P24043" />
+              <long_name>laminin subunit alpha-2 isoform a precursor, laminin subunit alpha-2 isoform b precursor</long_name>
               <db_xref source="RefSeq" accession="NP_000417.2" />
               <db_xref source="RefSeq" accession="NP_001073291.1" />
+              <db_xref source="UniProtKB" accession="P24043" />
               <db_xref source="CCDS" accession="CCDS5138.1" />
             </protein_product>
           </transcript>
@@ -1926,6 +1931,22 @@
             <exon source="Ensembl" accession="ENSE00001872366">
               <coordinates coord_system="LRG_409" start="171778" end="171841" strand="1" mapped_from="GRCh38" />
             </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000645154.1">
+            <coordinates coord_system="LRG_409" start="413474" end="419725" strand="1" mapped_from="GRCh38" />
+            <long_name>LAMA2-207 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001148515">
+              <coordinates coord_system="LRG_409" start="413474" end="413580" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003820358">
+              <coordinates coord_system="LRG_409" start="414663" end="414926" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001148505">
+              <coordinates coord_system="LRG_409" start="419545" end="419725" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000493888.1" codon_start="2">
+              <coordinates coord_system="LRG_409" start="413474" end="419725" strand="1" mapped_from="GRCh38" />
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000498257.5">
             <coordinates coord_system="LRG_409" start="612543" end="624532" strand="1" mapped_from="GRCh38" />
@@ -1992,8 +2013,8 @@
           <symbol source="HGNC" name="RNU6-861P" />
           <coordinates coord_system="LRG_409" start="558735" end="558840" strand="-1" mapped_from="GRCh38" />
           <long_name>RNA, U6 small nuclear 861, pseudogene (snRNA)</long_name>
-          <db_xref source="RFAM" accession="RF00026" />
           <db_xref source="HGNC" accession="47824" />
+          <db_xref source="RFAM" accession="RF00026" />
           <db_xref source="Ensembl" accession="ENSG00000252554" />
           <transcript source="Ensembl" accession="ENST00000516745.1">
             <coordinates coord_system="LRG_409" start="558735" end="558840" strand="-1" mapped_from="GRCh38" />
@@ -2006,11 +2027,11 @@
         <gene source="Ensembl" accession="ENSG00000233351.1">
           <symbol source="Clone_based_ensembl_gene" name="AL356124.2" />
           <coordinates coord_system="LRG_409" start="601475" end="603270" strand="-1" mapped_from="GRCh38" />
-          <long_name>AL356124.2 (antisense_RNA)</long_name>
+          <long_name>AL356124.2 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000233351" />
           <transcript source="Ensembl" accession="ENST00000442449.1">
             <coordinates coord_system="LRG_409" start="601475" end="603270" strand="-1" mapped_from="GRCh38" />
-            <long_name>AL356124.2-201 (antisense_RNA)</long_name>
+            <long_name>AL356124.2-201 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00001611379">
               <coordinates coord_system="LRG_409" start="603121" end="603270" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2026,7 +2047,7 @@
         <name>List of locus specific databases for LAMA2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/LAMA2</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

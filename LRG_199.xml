@@ -517,7 +517,7 @@
           <email>ddunnen@humgen.nl</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -529,7 +529,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="31135345" other_end="33362726" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="2227382" other_start="31135345" other_end="33362726" strand="-1">
           <diff type="mismatch" lrg_start="859533" lrg_end="859533" other_start="32503194" other_end="32503194" lrg_sequence="G" other_sequence="A" />
@@ -3669,8 +3669,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000288447.8" other_name="ENST00000288447.8" other_id="ENST00000288447.8" other_start="1" other_end="3856" type="transcript">
         <mapping_span lrg_start="5169" lrg_end="5351" other_start="1" other_end="183" strand="1" />
         <mapping_span lrg_start="324410" lrg_end="324471" other_start="184" other_end="245" strand="1" />
@@ -4443,6 +4443,7 @@
           <coordinates coord_system="LRG_199" start="5169" end="2227382" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>dystrophin (protein_coding)</long_name>
+          <db_xref source="MIM" accession="300377" />
           <db_xref source="HGNC" accession="2928">
             <synonym>BMD</synonym>
             <synonym>DXS142</synonym>
@@ -4784,11 +4785,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000354923.3">
               <coordinates coord_system="LRG_199" start="133298" end="2222691" strand="1" mapped_from="GRCh38" />
-              <long_name>dystrophin Dp427c isoform, dystrophin Dp260-1 isoform, dystrophin Dp260-2 isoform</long_name>
+              <long_name>dystrophin Dp260-2 isoform, dystrophin Dp427c isoform, dystrophin Dp427m isoform, dystrophin Dp260-1 isoform</long_name>
               <db_xref source="RefSeq" accession="NP_003997.1" />
+              <db_xref source="RefSeq" accession="NP_004003.1" />
               <db_xref source="RefSeq" accession="NP_000100.2" />
               <db_xref source="RefSeq" accession="NP_004002.2" />
-              <db_xref source="RefSeq" accession="NP_004003.1" />
               <db_xref source="CCDS" accession="CCDS14233.1" />
             </protein_product>
           </transcript>
@@ -4801,6 +4802,41 @@
             <exon source="Ensembl" accession="ENSE00001877195">
               <coordinates coord_system="LRG_199" start="185013" end="185415" strand="1" mapped_from="GRCh38" />
             </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000420596.5">
+            <coordinates coord_system="LRG_199" start="133298" end="979929" strand="1" mapped_from="GRCh38" />
+            <long_name>DMD-213 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001599291">
+              <coordinates coord_system="LRG_199" start="133298" end="133328" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003463064">
+              <coordinates coord_system="LRG_199" start="324410" end="324471" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000978409">
+              <coordinates coord_system="LRG_199" start="979411" end="979590" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001795859">
+              <coordinates coord_system="LRG_199" start="979900" end="979929" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000399897.1">
+              <coordinates coord_system="LRG_199" start="133298" end="979929" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000448370.5">
+            <coordinates coord_system="LRG_199" start="133298" end="979929" strand="1" mapped_from="GRCh38" />
+            <long_name>DMD-216 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001599291">
+              <coordinates coord_system="LRG_199" start="133298" end="133328" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003463064">
+              <coordinates coord_system="LRG_199" start="324410" end="324471" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001795859">
+              <coordinates coord_system="LRG_199" start="979900" end="979929" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000388559.1">
+              <coordinates coord_system="LRG_199" start="133298" end="979929" strand="1" mapped_from="GRCh38" />
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000620040.4">
             <coordinates coord_system="LRG_199" start="133298" end="2225382" strand="1" mapped_from="GRCh38" />
@@ -5050,41 +5086,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000478150.1">
               <coordinates coord_system="LRG_199" start="133298" end="2222691" strand="1" mapped_from="GRCh38" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000420596.5">
-            <coordinates coord_system="LRG_199" start="133298" end="979929" strand="1" mapped_from="GRCh38" />
-            <long_name>DMD-213 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001599291">
-              <coordinates coord_system="LRG_199" start="133298" end="133328" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003463064">
-              <coordinates coord_system="LRG_199" start="324410" end="324471" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000978409">
-              <coordinates coord_system="LRG_199" start="979411" end="979590" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001795859">
-              <coordinates coord_system="LRG_199" start="979900" end="979929" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000399897.1">
-              <coordinates coord_system="LRG_199" start="133298" end="979929" strand="1" mapped_from="GRCh38" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000448370.5">
-            <coordinates coord_system="LRG_199" start="133298" end="979929" strand="1" mapped_from="GRCh38" />
-            <long_name>DMD-216 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00001599291">
-              <coordinates coord_system="LRG_199" start="133298" end="133328" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003463064">
-              <coordinates coord_system="LRG_199" start="324410" end="324471" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001795859">
-              <coordinates coord_system="LRG_199" start="979900" end="979929" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000388559.1">
-              <coordinates coord_system="LRG_199" start="133298" end="979929" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000472681.1">
@@ -5360,7 +5361,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000367948.2">
               <coordinates coord_system="LRG_199" start="216445" end="2222691" strand="1" mapped_from="GRCh38" />
-              <long_name>dystrophin Dp427p2 isoform</long_name>
+              <long_name>dystrophin Dp427p2 isoform, dystrophin Dp427p1 isoform</long_name>
               <db_xref source="RefSeq" accession="NP_004000.1" />
               <db_xref source="RefSeq" accession="NP_004001.1" />
               <db_xref source="CCDS" accession="CCDS55395.1" />
@@ -5670,6 +5671,121 @@
               <coordinates coord_system="LRG_199" start="996100" end="1001768" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000474231.5">
+            <coordinates coord_system="LRG_199" start="1189141" end="2223213" strand="1" mapped_from="GRCh38" />
+            <long_name>DMD-222 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_004021.2" />
+            <exon source="Ensembl" accession="ENSE00001400386">
+              <coordinates coord_system="LRG_199" start="1189141" end="1189239" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003543435">
+              <coordinates coord_system="LRG_199" start="1376096" end="1376271" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003485280">
+              <coordinates coord_system="LRG_199" start="1412383" end="1412530" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003493575">
+              <coordinates coord_system="LRG_199" start="1414865" end="1415014" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003475236">
+              <coordinates coord_system="LRG_199" start="1469237" end="1469422" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003561579">
+              <coordinates coord_system="LRG_199" start="1507791" end="1507892" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003598875">
+              <coordinates coord_system="LRG_199" start="1524527" end="1524635" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003473602">
+              <coordinates coord_system="LRG_199" start="1570418" end="1570650" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001213215">
+              <coordinates coord_system="LRG_199" start="1614862" end="1614979" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001258577">
+              <coordinates coord_system="LRG_199" start="1665024" end="1665235" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001213199">
+              <coordinates coord_system="LRG_199" start="1686466" end="1686620" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001258641">
+              <coordinates coord_system="LRG_199" start="1716748" end="1716937" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003500236">
+              <coordinates coord_system="LRG_199" start="1837157" end="1837329" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003669069">
+              <coordinates coord_system="LRG_199" start="1847666" end="1847822" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003675980">
+              <coordinates coord_system="LRG_199" start="1865507" end="1865627" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001259193">
+              <coordinates coord_system="LRG_199" start="1866236" end="1866504" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001259171">
+              <coordinates coord_system="LRG_199" start="1899983" end="1900129" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003637702">
+              <coordinates coord_system="LRG_199" start="1995976" end="1996054" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003693649">
+              <coordinates coord_system="LRG_199" start="2020952" end="2021012" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003620850">
+              <coordinates coord_system="LRG_199" start="2083594" end="2083655" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003554036">
+              <coordinates coord_system="LRG_199" start="2121489" end="2121563" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001158950">
+              <coordinates coord_system="LRG_199" start="2134911" end="2135112" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001158943">
+              <coordinates coord_system="LRG_199" start="2137943" end="2138028" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001158937">
+              <coordinates coord_system="LRG_199" start="2140492" end="2140649" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001034045">
+              <coordinates coord_system="LRG_199" start="2161706" end="2161872" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569118">
+              <coordinates coord_system="LRG_199" start="2164129" end="2164240" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001034039">
+              <coordinates coord_system="LRG_199" start="2165805" end="2165941" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001158912">
+              <coordinates coord_system="LRG_199" start="2166640" end="2166678" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001158905">
+              <coordinates coord_system="LRG_199" start="2171006" end="2171071" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001158901">
+              <coordinates coord_system="LRG_199" start="2172197" end="2172262" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001158895">
+              <coordinates coord_system="LRG_199" start="2175009" end="2175167" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001158887">
+              <coordinates coord_system="LRG_199" start="2197092" end="2197335" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001034085">
+              <coordinates coord_system="LRG_199" start="2198196" end="2198319" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001158874">
+              <coordinates coord_system="LRG_199" start="2210416" end="2210508" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003518339">
+              <coordinates coord_system="LRG_199" start="2222680" end="2223213" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000417123.1">
+              <coordinates coord_system="LRG_199" start="1570489" end="2222777" strand="1" mapped_from="GRCh38" />
+              <long_name>dystrophin Dp140b isoform</long_name>
+              <db_xref source="RefSeq" accession="NP_004012.1" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000378707.7">
             <coordinates coord_system="LRG_199" start="1189141" end="2225382" strand="1" mapped_from="GRCh38" />
             <long_name>DMD-211 (protein_coding)</long_name>
@@ -5784,6 +5900,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000367979.3">
               <coordinates coord_system="LRG_199" start="1570489" end="2222691" strand="1" mapped_from="GRCh38" />
+              <long_name>dystrophin Dp140 isoform</long_name>
               <db_xref source="RefSeq" accession="NP_004004.1" />
               <db_xref source="CCDS" accession="CCDS48091.1" />
             </protein_product>
@@ -5891,7 +6008,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000444119.1">
               <coordinates coord_system="LRG_199" start="1570489" end="2222691" strand="1" mapped_from="GRCh38" />
-              <long_name>dystrophin Dp140bc isoform</long_name>
+              <long_name>dystrophin Dp140bc isoform, dystrophin Dp140c isoform</long_name>
               <db_xref source="RefSeq" accession="NP_004011.2" />
               <db_xref source="RefSeq" accession="NP_004014.1" />
               <db_xref source="CCDS" accession="CCDS55394.1" />
@@ -6005,121 +6122,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000352894.1">
               <coordinates coord_system="LRG_199" start="1570489" end="2222777" strand="1" mapped_from="GRCh38" />
+              <long_name>dystrophin Dp140ab isoform</long_name>
               <db_xref source="RefSeq" accession="NP_004013.1" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000474231.5">
-            <coordinates coord_system="LRG_199" start="1189141" end="2223213" strand="1" mapped_from="GRCh38" />
-            <long_name>DMD-222 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_004021.2" />
-            <exon source="Ensembl" accession="ENSE00001400386">
-              <coordinates coord_system="LRG_199" start="1189141" end="1189239" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003543435">
-              <coordinates coord_system="LRG_199" start="1376096" end="1376271" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003485280">
-              <coordinates coord_system="LRG_199" start="1412383" end="1412530" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003493575">
-              <coordinates coord_system="LRG_199" start="1414865" end="1415014" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003475236">
-              <coordinates coord_system="LRG_199" start="1469237" end="1469422" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003561579">
-              <coordinates coord_system="LRG_199" start="1507791" end="1507892" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003598875">
-              <coordinates coord_system="LRG_199" start="1524527" end="1524635" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003473602">
-              <coordinates coord_system="LRG_199" start="1570418" end="1570650" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001213215">
-              <coordinates coord_system="LRG_199" start="1614862" end="1614979" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001258577">
-              <coordinates coord_system="LRG_199" start="1665024" end="1665235" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001213199">
-              <coordinates coord_system="LRG_199" start="1686466" end="1686620" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001258641">
-              <coordinates coord_system="LRG_199" start="1716748" end="1716937" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003500236">
-              <coordinates coord_system="LRG_199" start="1837157" end="1837329" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003669069">
-              <coordinates coord_system="LRG_199" start="1847666" end="1847822" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003675980">
-              <coordinates coord_system="LRG_199" start="1865507" end="1865627" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001259193">
-              <coordinates coord_system="LRG_199" start="1866236" end="1866504" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001259171">
-              <coordinates coord_system="LRG_199" start="1899983" end="1900129" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003637702">
-              <coordinates coord_system="LRG_199" start="1995976" end="1996054" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003693649">
-              <coordinates coord_system="LRG_199" start="2020952" end="2021012" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003620850">
-              <coordinates coord_system="LRG_199" start="2083594" end="2083655" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003554036">
-              <coordinates coord_system="LRG_199" start="2121489" end="2121563" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001158950">
-              <coordinates coord_system="LRG_199" start="2134911" end="2135112" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001158943">
-              <coordinates coord_system="LRG_199" start="2137943" end="2138028" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001158937">
-              <coordinates coord_system="LRG_199" start="2140492" end="2140649" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001034045">
-              <coordinates coord_system="LRG_199" start="2161706" end="2161872" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003569118">
-              <coordinates coord_system="LRG_199" start="2164129" end="2164240" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001034039">
-              <coordinates coord_system="LRG_199" start="2165805" end="2165941" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001158912">
-              <coordinates coord_system="LRG_199" start="2166640" end="2166678" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001158905">
-              <coordinates coord_system="LRG_199" start="2171006" end="2171071" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001158901">
-              <coordinates coord_system="LRG_199" start="2172197" end="2172262" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001158895">
-              <coordinates coord_system="LRG_199" start="2175009" end="2175167" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001158887">
-              <coordinates coord_system="LRG_199" start="2197092" end="2197335" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001034085">
-              <coordinates coord_system="LRG_199" start="2198196" end="2198319" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001158874">
-              <coordinates coord_system="LRG_199" start="2210416" end="2210508" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003518339">
-              <coordinates coord_system="LRG_199" start="2222680" end="2223213" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000417123.1">
-              <coordinates coord_system="LRG_199" start="1570489" end="2222777" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_004012.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000358062.6">
@@ -6335,6 +6339,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000340057.3">
               <coordinates coord_system="LRG_199" start="1836373" end="2222691" strand="1" mapped_from="GRCh38" />
+              <long_name>dystrophin Dp116 isoform</long_name>
               <db_xref source="RefSeq" accession="NP_004005.1" />
               <db_xref source="CCDS" accession="CCDS75965.1" />
             </protein_product>
@@ -6428,8 +6433,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000367997.3">
               <coordinates coord_system="LRG_199" start="2077781" end="2222777" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P11532" />
               <db_xref source="RefSeq" accession="NP_004007.1" />
+              <db_xref source="UniProtKB" accession="P11532" />
               <db_xref source="CCDS" accession="CCDS14231.1" />
             </protein_product>
           </transcript>
@@ -6479,8 +6484,8 @@
             <protein_product source="Ensembl" accession="ENSP00000367951.2">
               <coordinates coord_system="LRG_199" start="2077781" end="2222777" strand="1" mapped_from="GRCh38" />
               <long_name>dystrophin Dp40 isoform</long_name>
-              <db_xref source="UniProtKB" accession="P11532" />
               <db_xref source="RefSeq" accession="NP_004010.1" />
+              <db_xref source="UniProtKB" accession="P11532" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000361471.8">
@@ -6537,8 +6542,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000354464.4">
               <coordinates coord_system="LRG_199" start="2077781" end="2222777" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P11532" />
               <db_xref source="RefSeq" accession="NP_004009.1" />
+              <db_xref source="UniProtKB" accession="P11532" />
               <db_xref source="CCDS" accession="CCDS14232.1" />
             </protein_product>
           </transcript>
@@ -6604,9 +6609,9 @@
             <protein_product source="Ensembl" accession="ENSP00000367974.4">
               <coordinates coord_system="LRG_199" start="2077781" end="2222691" strand="1" mapped_from="GRCh38" />
               <long_name>dystrophin Dp71a isoform</long_name>
-              <db_xref source="UniProtKB" accession="P11532" />
               <db_xref source="RefSeq" accession="NP_004006.1" />
               <db_xref source="RefSeq" accession="NP_004008.1" />
+              <db_xref source="UniProtKB" accession="P11532" />
               <db_xref source="CCDS" accession="CCDS14234.1" />
             </protein_product>
           </transcript>
@@ -6687,12 +6692,12 @@
         <gene source="Ensembl" accession="ENSG00000236828.1">
           <symbol source="HGNC" name="DMD-AS3" />
           <coordinates coord_system="LRG_199" start="588210" end="589670" strand="-1" mapped_from="GRCh38" />
-          <long_name>DMD antisense RNA 3 (antisense_RNA)</long_name>
+          <long_name>DMD antisense RNA 3 (antisense)</long_name>
           <db_xref source="HGNC" accession="40185" />
           <db_xref source="Ensembl" accession="ENSG00000236828" />
           <transcript source="Ensembl" accession="ENST00000439592.1">
             <coordinates coord_system="LRG_199" start="588210" end="589670" strand="-1" mapped_from="GRCh38" />
-            <long_name>DMD-AS3-201 (antisense_RNA)</long_name>
+            <long_name>DMD-AS3-201 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00001652918">
               <coordinates coord_system="LRG_199" start="589621" end="589670" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -6719,10 +6724,10 @@
           <symbol source="HGNC" name="RNA5SP501" />
           <coordinates coord_system="LRG_199" start="1242434" end="1242545" strand="-1" mapped_from="GRCh38" />
           <long_name>RNA, 5S ribosomal pseudogene 501 (rRNA)</long_name>
-          <db_xref source="RFAM" accession="RF00001" />
           <db_xref source="HGNC" accession="43401">
             <synonym>RN5S501</synonym>
           </db_xref>
+          <db_xref source="RFAM" accession="RF00001" />
           <db_xref source="Ensembl" accession="ENSG00000222922" />
           <transcript source="Ensembl" accession="ENST00000410990.1">
             <coordinates coord_system="LRG_199" start="1242434" end="1242545" strand="-1" mapped_from="GRCh38" />
@@ -6736,8 +6741,8 @@
           <symbol source="HGNC" name="RNU6-894P" />
           <coordinates coord_system="LRG_199" start="1996314" end="1996418" strand="-1" mapped_from="GRCh38" />
           <long_name>RNA, U6 small nuclear 894, pseudogene (snRNA)</long_name>
-          <db_xref source="RFAM" accession="RF00026" />
           <db_xref source="HGNC" accession="47857" />
+          <db_xref source="RFAM" accession="RF00026" />
           <db_xref source="Ensembl" accession="ENSG00000252903" />
           <transcript source="Ensembl" accession="ENST00000517094.2">
             <coordinates coord_system="LRG_199" start="1996314" end="1996418" strand="-1" mapped_from="GRCh38" />
@@ -6754,7 +6759,7 @@
         <name>List of locus specific databases for DMD</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DMD</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

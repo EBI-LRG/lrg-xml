@@ -101,7 +101,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -113,7 +113,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_id_syn="CM000672.1" other_start="6051506" other_end="6109272" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="57767" other_start="6051506" other_end="6109272" strand="-1" />
       </mapping>
@@ -292,8 +292,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000256876.10" other_name="ENST00000256876.10" other_id="ENST00000256876.10" other_start="1" other_end="1006" type="transcript">
         <mapping_span lrg_start="5020" lrg_end="5222" other_start="1" other_end="203" strand="1" />
         <mapping_span lrg_start="41285" lrg_end="41476" other_start="204" other_end="395" strand="1" />
@@ -328,10 +328,14 @@
         <mapping_span lrg_start="42956" lrg_end="43066" other_start="169" other_end="279" strand="1" />
         <mapping_span lrg_start="47811" lrg_end="47857" other_start="280" other_end="326" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000644262.1" other_name="ENST00000644262.1" other_id="ENST00000644262.1" other_start="1" other_end="622" type="transcript">
+        <mapping_span lrg_start="4940" lrg_end="5218" other_start="1" other_end="279" strand="1" />
+        <mapping_span lrg_start="27568" lrg_end="27910" other_start="280" other_end="622" strand="1" />
+      </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000134460.15">
+        <gene source="Ensembl" accession="ENSG00000134460.16">
           <symbol source="HGNC" name="IL2RA" />
-          <coordinates coord_system="LRG_73" start="4985" end="56621" strand="1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_73" start="4940" end="56621" strand="1" mapped_from="GRCh38" />
           <long_name>interleukin 2 receptor subunit alpha (protein_coding)</long_name>
           <db_xref source="MIM" accession="147730" />
           <db_xref source="HGNC" accession="6008">
@@ -341,6 +345,16 @@
           </db_xref>
           <db_xref source="GeneID" accession="3559" />
           <db_xref source="Ensembl" accession="ENSG00000134460" />
+          <transcript source="Ensembl" accession="ENST00000644262.1">
+            <coordinates coord_system="LRG_73" start="4940" end="27910" strand="1" mapped_from="GRCh38" />
+            <long_name>IL2RA-205 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003821921">
+              <coordinates coord_system="LRG_73" start="4940" end="5218" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003821750">
+              <coordinates coord_system="LRG_73" start="27568" end="27910" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000379959.7" fixed_id="t1">
             <coordinates coord_system="LRG_73" start="4985" end="56621" strand="1" mapped_from="GRCh38" />
             <long_name>IL2RA-203 (protein_coding)</long_name>
@@ -371,8 +385,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000369293.3" fixed_id="p1">
               <coordinates coord_system="LRG_73" start="5159" end="54438" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P01589" />
               <db_xref source="RefSeq" accession="NP_000408.1" />
+              <db_xref source="UniProtKB" accession="P01589" />
               <db_xref source="CCDS" accession="CCDS7076.1" />
             </protein_product>
           </transcript>
@@ -461,11 +475,11 @@
         <gene source="Ensembl" accession="ENSG00000229664.1">
           <symbol source="Clone_based_ensembl_gene" name="AL137186.1" />
           <coordinates coord_system="LRG_73" start="30883" end="41332" strand="-1" mapped_from="GRCh38" />
-          <long_name>AL137186.1 (antisense_RNA)</long_name>
+          <long_name>AL137186.1 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000229664" />
           <transcript source="Ensembl" accession="ENST00000440436.1">
             <coordinates coord_system="LRG_73" start="30883" end="41332" strand="-1" mapped_from="GRCh38" />
-            <long_name>AL137186.1-201 (antisense_RNA)</long_name>
+            <long_name>AL137186.1-201 (antisense)</long_name>
             <exon source="Ensembl" accession="ENSE00001787693">
               <coordinates coord_system="LRG_73" start="41242" end="41332" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -478,14 +492,14 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000251922.1">
-          <symbol source="RFAM" name="SNORA14" />
+          <symbol source="RFAM" name="RF00397" />
           <coordinates coord_system="LRG_73" start="50116" end="50256" strand="1" mapped_from="GRCh38" />
-          <long_name>Small nucleolar RNA SNORA14 [Source:RFAM;Acc:RF00397] (snoRNA)</long_name>
+          <long_name>RF00397 (snoRNA)</long_name>
           <db_xref source="RFAM" accession="RF00397" />
           <db_xref source="Ensembl" accession="ENSG00000251922" />
           <transcript source="Ensembl" accession="ENST00000516113.1">
             <coordinates coord_system="LRG_73" start="50116" end="50256" strand="1" mapped_from="GRCh38" />
-            <long_name>SNORA14.1-201 (snoRNA)</long_name>
+            <long_name>RF00397.1-201 (snoRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00002088390">
               <coordinates coord_system="LRG_73" start="50116" end="50256" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -498,7 +512,7 @@
         <name>List of locus specific databases for IL2RA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/IL2RA</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -101,7 +101,7 @@
           <email>Nazneen.Rahman@icr.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -113,7 +113,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_id_syn="CM000676.1" other_start="81416869" other_end="81614646" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="197778" other_start="81416869" other_end="81614646" strand="1" />
       </mapping>
@@ -342,8 +342,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000298171.6" other_name="ENST00000298171.6" other_id="ENST00000298171.6" other_start="1" other_end="4400" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5326" other_start="1" other_end="326" strand="1" />
         <mapping_span lrg_start="111624" lrg_end="111695" other_start="327" other_end="398" strand="1" />
@@ -435,6 +435,10 @@
         <mapping_span lrg_start="192632" lrg_end="194377" other_start="1" other_end="1746" strand="1" />
         <mapping_span lrg_start="194823" lrg_end="195464" other_start="1747" other_end="2388" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000642209.1" other_name="ENST00000642209.1" other_id="ENST00000642209.1" other_start="1" other_end="4418" type="transcript">
+        <mapping_span lrg_start="5064" lrg_end="5326" other_start="1" other_end="263" strand="1" />
+        <mapping_span lrg_start="41017" lrg_end="45171" other_start="264" other_end="4418" strand="1" />
+      </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000100629.16">
           <symbol source="HGNC" name="CEP128" />
@@ -502,7 +506,7 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000165409.16">
+        <gene source="Ensembl" accession="ENSG00000165409.17">
           <symbol source="HGNC" name="TSHR" />
           <coordinates coord_system="LRG_523" start="4465" end="195778" strand="1" mapped_from="GRCh38" />
           <long_name>thyroid stimulating hormone receptor (protein_coding)</long_name>
@@ -596,8 +600,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000340113.6">
               <coordinates coord_system="LRG_523" start="5157" end="158157" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P16473" />
               <db_xref source="RefSeq" accession="NP_001018046.1" />
+              <db_xref source="UniProtKB" accession="P16473" />
               <db_xref source="CCDS" accession="CCDS32131.1" />
             </protein_product>
           </transcript>
@@ -653,6 +657,19 @@
             <exon source="Ensembl" accession="ENSE00002294518">
               <coordinates coord_system="LRG_523" start="117730" end="117949" strand="1" mapped_from="GRCh38" />
             </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000642209.1">
+            <coordinates coord_system="LRG_523" start="5064" end="45171" strand="1" mapped_from="GRCh38" />
+            <long_name>TSHR-212 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003829212">
+              <coordinates coord_system="LRG_523" start="5064" end="5326" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003827289">
+              <coordinates coord_system="LRG_523" start="41017" end="45171" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000495625.1">
+              <coordinates coord_system="LRG_523" start="5157" end="41116" strand="1" mapped_from="GRCh38" />
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000555326.5">
             <coordinates coord_system="LRG_523" start="5105" end="140608" strand="1" mapped_from="GRCh38" />
@@ -740,8 +757,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000450549.1">
               <coordinates coord_system="LRG_523" start="5157" end="158157" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P16473" />
               <db_xref source="RefSeq" accession="NP_001136098.1" />
+              <db_xref source="UniProtKB" accession="P16473" />
               <db_xref source="CCDS" accession="CCDS55935.1" />
             </protein_product>
           </transcript>
@@ -841,6 +858,59 @@
             </exon>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000284959.1">
+          <symbol source="Clone_based_ensembl_gene" name="AC007262.2" />
+          <coordinates coord_system="LRG_523" start="61575" end="197778" strand="-1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <long_name>AC007262.2 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000284959" />
+          <transcript source="Ensembl" accession="ENST00000646052.1">
+            <coordinates coord_system="LRG_523" start="61575" end="197778" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>AC007262.2-201 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00003814735">
+              <coordinates coord_system="LRG_523" start="148875" end="149002" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003814645">
+              <coordinates coord_system="LRG_523" start="143691" end="143800" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003819446">
+              <coordinates coord_system="LRG_523" start="143058" end="143213" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003821237">
+              <coordinates coord_system="LRG_523" start="136943" end="137128" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003818123">
+              <coordinates coord_system="LRG_523" start="103159" end="103292" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003819267">
+              <coordinates coord_system="LRG_523" start="61575" end="63880" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000646928.1">
+            <coordinates coord_system="LRG_523" start="98902" end="197778" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>AC007262.2-202 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002491054">
+              <coordinates coord_system="LRG_523" start="156509" end="156614" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003830206">
+              <coordinates coord_system="LRG_523" start="144910" end="145042" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003814645">
+              <coordinates coord_system="LRG_523" start="143691" end="143800" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003819446">
+              <coordinates coord_system="LRG_523" start="143058" end="143213" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003821237">
+              <coordinates coord_system="LRG_523" start="136943" end="137128" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003830336">
+              <coordinates coord_system="LRG_523" start="98902" end="103292" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000259167.2">
           <symbol source="HGNC" name="NMNAT1P1" />
           <coordinates coord_system="LRG_523" start="82005" end="82880" strand="1" mapped_from="GRCh38" />
@@ -857,21 +927,6 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000258999.1">
-          <symbol source="Clone_based_ensembl_gene" name="AL136040.1" />
-          <coordinates coord_system="LRG_523" start="156509" end="197778" strand="-1" mapped_from="GRCh38" />
-          <partial>5-prime</partial>
-          <long_name>AL136040.1 (antisense_RNA)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000258999" />
-          <transcript source="Ensembl" accession="ENST00000557775.1">
-            <coordinates coord_system="LRG_523" start="156509" end="197778" strand="-1" mapped_from="GRCh38" />
-            <partial>5-prime</partial>
-            <long_name>AL136040.1-201 (antisense_RNA)</long_name>
-            <exon source="Ensembl" accession="ENSE00002491054">
-              <coordinates coord_system="LRG_523" start="156509" end="156614" strand="-1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-        </gene>
       </features>
     </annotation_set>
     <annotation_set type="lsdb">
@@ -879,7 +934,7 @@
         <name>List of locus specific databases for TSHR</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TSHR</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

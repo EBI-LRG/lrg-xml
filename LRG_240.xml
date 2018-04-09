@@ -371,7 +371,7 @@
           <email>ddunnen@humgen.nl</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -383,7 +383,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_id_syn="CM000674.1" other_start="32547463" other_end="32800984" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="253522" other_start="32547463" other_end="32800984" strand="1" />
       </mapping>
@@ -1013,8 +1013,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 91 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-04-04</modification_date>
+      <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
+      <modification_date>2018-04-09</modification_date>
       <mapping coord_system="ENST00000395740.5" other_name="ENST00000395740.5" other_id="ENST00000395740.5" other_start="1" other_end="2691" type="transcript">
         <mapping_span lrg_start="107642" lrg_end="107810" other_start="1" other_end="169" strand="1" />
         <mapping_span lrg_start="169609" lrg_end="169761" other_start="170" other_end="322" strand="1" />
@@ -1230,14 +1230,14 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000207176.1">
-          <symbol source="RFAM" name="Y_RNA" />
+          <symbol source="RFAM" name="RF00019" />
           <coordinates coord_system="LRG_240" start="1522" end="1619" strand="-1" mapped_from="GRCh38" />
-          <long_name>Y RNA [Source:RFAM;Acc:RF00019] (misc_RNA)</long_name>
+          <long_name>RF00019 (misc_RNA)</long_name>
           <db_xref source="RFAM" accession="RF00019" />
           <db_xref source="Ensembl" accession="ENSG00000207176" />
           <transcript source="Ensembl" accession="ENST00000384447.1">
             <coordinates coord_system="LRG_240" start="1522" end="1619" strand="-1" mapped_from="GRCh38" />
-            <long_name>Y_RNA.497-201 (misc_RNA)</long_name>
+            <long_name>RF00019.497-201 (misc_RNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001499455">
               <coordinates coord_system="LRG_240" start="1522" end="1619" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1555,6 +1555,8 @@
           <transcript source="Ensembl" accession="ENST00000427716.6" fixed_id="t1">
             <coordinates coord_system="LRG_240" start="107632" end="251522" strand="1" mapped_from="GRCh38" />
             <long_name>FGD4-202 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001330373.1" />
+            <db_xref source="RefSeq" accession="NM_001330374.1" />
             <db_xref source="RefSeq" accession="NM_139241.3" />
             <exon source="Ensembl" accession="ENSE00001907959">
               <coordinates coord_system="LRG_240" start="107632" end="107810" strand="1" mapped_from="GRCh38" />
@@ -1609,8 +1611,11 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000394487.2" fixed_id="p1">
               <coordinates coord_system="LRG_240" start="181830" end="246005" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q96M96" />
+              <long_name>FYVE, RhoGEF and PH domain-containing protein 4 isoform 6, FYVE, RhoGEF and PH domain-containing protein 4 isoform 6</long_name>
               <db_xref source="RefSeq" accession="NP_640334.2" />
+              <db_xref source="RefSeq" accession="NP_001317303.1" />
+              <db_xref source="RefSeq" accession="NP_001317302.1" />
+              <db_xref source="UniProtKB" accession="Q96M96" />
               <db_xref source="CCDS" accession="CCDS8727.1" />
             </protein_product>
           </transcript>
@@ -1712,8 +1717,6 @@
             <long_name>FGD4-213 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001304483.1" />
             <db_xref source="RefSeq" accession="NM_001304484.1" />
-            <db_xref source="RefSeq" accession="NM_001330373.1" />
-            <db_xref source="RefSeq" accession="NM_001330374.1" />
             <exon source="Ensembl" accession="ENSE00002406927">
               <coordinates coord_system="LRG_240" start="107656" end="107810" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1764,11 +1767,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000446695.1">
               <coordinates coord_system="LRG_240" start="187619" end="246005" strand="1" mapped_from="GRCh38" />
-              <long_name>FYVE, RhoGEF and PH domain-containing protein 4 isoform 5, FYVE, RhoGEF and PH domain-containing protein 4 isoform 4, FYVE, RhoGEF and PH domain-containing protein 4 isoform 6, FYVE, RhoGEF and PH domain-containing protein 4 isoform 6</long_name>
-              <db_xref source="RefSeq" accession="NP_001291413.1" />
+              <long_name>FYVE, RhoGEF and PH domain-containing protein 4 isoform 4, FYVE, RhoGEF and PH domain-containing protein 4 isoform 5</long_name>
               <db_xref source="RefSeq" accession="NP_001291412.1" />
-              <db_xref source="RefSeq" accession="NP_001317303.1" />
-              <db_xref source="RefSeq" accession="NP_001317302.1" />
+              <db_xref source="RefSeq" accession="NP_001291413.1" />
               <db_xref source="CCDS" accession="CCDS81679.1" />
             </protein_product>
           </transcript>
@@ -1921,8 +1922,8 @@
           <symbol source="HGNC" name="RNU6-494P" />
           <coordinates coord_system="LRG_240" start="82854" end="82943" strand="-1" mapped_from="GRCh38" />
           <long_name>RNA, U6 small nuclear 494, pseudogene (snRNA)</long_name>
-          <db_xref source="RFAM" accession="RF00026" />
           <db_xref source="HGNC" accession="47457" />
+          <db_xref source="RFAM" accession="RF00026" />
           <db_xref source="Ensembl" accession="ENSG00000253063" />
           <transcript source="Ensembl" accession="ENST00000517254.1">
             <coordinates coord_system="LRG_240" start="82854" end="82943" strand="-1" mapped_from="GRCh38" />
@@ -1939,7 +1940,7 @@
         <name>List of locus specific databases for FGD4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FGD4</url>
       </source>
-      <modification_date>2018-04-04</modification_date>
+      <modification_date>2018-04-09</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
