@@ -43,7 +43,7 @@
           <email>jill.storry@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2018-06-04</modification_date>
+      <modification_date>2018-06-11</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -55,7 +55,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-06-04</modification_date>
+      <modification_date>2018-06-11</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_id_syn="CM000681.1" other_start="49194228" other_end="49211191" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="16964" other_start="49194228" other_end="49211191" strand="1" />
       </mapping>
@@ -75,7 +75,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007511.1</comment>
-      <modification_date>2018-06-01</modification_date>
+      <modification_date>2018-06-08</modification_date>
       <mapping coord_system="NM_000511.5" other_name="NM_000511.5" other_id="NM_000511.5" other_start="1" other_end="3099" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5119" other_start="1" other_end="119" strand="1" />
         <mapping_span lrg_start="11985" lrg_end="14964" other_start="120" other_end="3099" strand="1" />
@@ -166,7 +166,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-06-04</modification_date>
+      <modification_date>2018-06-11</modification_date>
       <mapping coord_system="ENST00000391876.5" other_name="ENST00000391876.5" other_id="ENST00000391876.5" other_start="1" other_end="1593" type="transcript">
         <mapping_span lrg_start="5069" lrg_end="5109" other_start="1" other_end="41" strand="1" />
         <mapping_span lrg_start="11985" lrg_end="13238" other_start="42" other_end="1295" strand="1" />
@@ -261,12 +261,37 @@
         </gene>
       </features>
     </annotation_set>
+    <annotation_set type="community">
+      <source>
+        <name>Community</name>
+      </source>
+      <modification_date>2018-06-11</modification_date>
+      <note name="LRG curators">Polymorphisms in LRG_811, FUT2 give rise to antigenic variants of the H blood group system, H (ISBT 018).
+These LRG reference sequences represent the FUT2*01 allele (haplotype) of the H blood group system.
+---.
+Conventional wisdom and reference literature (1-4) has suggested that the FUT2 gene produces two different forms, one a protein of 343 amino acids (NP_000502.4, Uniprot ID Q10981-1) and another shorter form (332 amino acids) which lacks the first 11 amino acids (Uniprot ID Q10981-2). The longer form protein was described as having approximately one fourth the enzymatic activity and the shorter form was considered to be the active enzyme. Thus the numbering used  (e.g. in 1-4) was counted from the second initiating codon.  
+---.
+However, review of the locus annotation and published literature (by LRG curators, genome annotators and domain specific experts from the ISBT) now indicate that there is no evidence of the shorter form existing.
+---.
+Numbering is now to be started from the first initiating methionine (of NP_000502.4, as in standard HGVS nomenclature.)  ISBT tables will be updated to reflect this, this has also been brought to the attention of Uniprot.  Note that these resources have not yet been updated.
+---.
+
+
+References.
+1)    International Society for Blood Transfusion (ISBT) allele tables, 018_H_Alleles_v5.1_170221.
+http://www.isbtweb.org/fileadmin/user_upload/Working_parties/WP_on_Red_Cell_Immunogenetics_and/018_H_Alleles_v5.1_170221.pdf
+2)    Kelly et al, 1995, PMID 7876235 (original description of FUT2 cloning.  Kelly et al present expression studies using a truncated construct showing that the shorter 332aa protein is much more active than the longer protein, however they do not show any evidence that the short form is expressed endogenously.
+3)    Human Blood Groups, 3rd Edition, Geoff Daniels, ISBN: 978-1-4443-3324-4.
+4)    Lane et al, 2016, PMID 26634332 (alludes to numbering issue, but uses incorrect numbering based on 'short' form).
+
+</note>
+    </annotation_set>
     <annotation_set type="lsdb">
       <source>
         <name>List of locus specific databases for FUT2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FUT2</url>
       </source>
-      <modification_date>2018-06-04</modification_date>
+      <modification_date>2018-06-11</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
