@@ -76,7 +76,7 @@
           <email>pwm2@cdc.gov</email>
         </contact>
       </source>
-      <modification_date>2018-06-25</modification_date>
+      <modification_date>2018-06-27</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -88,7 +88,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-06-25</modification_date>
+      <modification_date>2018-06-27</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="5243196" other_end="5253301" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="10106" other_start="5243196" other_end="5253301" strand="-1" />
       </mapping>
@@ -108,17 +108,23 @@
         </contact>
       </source>
       <comment>Annotation from NG_059281.1</comment>
-      <modification_date>2018-06-21</modification_date>
+      <modification_date>2018-06-26</modification_date>
       <mapping coord_system="NM_000518.4" other_name="NM_000518.4" other_id="NM_000518.4" other_start="1" other_end="626" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5142" other_start="1" other_end="142" strand="1" />
         <mapping_span lrg_start="5273" lrg_end="5495" other_start="143" other_end="365" strand="1" />
         <mapping_span lrg_start="6346" lrg_end="6606" other_start="366" other_end="626" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_000518.5" other_name="NM_000518.5" other_id="NM_000518.5" other_start="1" other_end="628" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5142" other_start="1" other_end="142" strand="1" />
+        <mapping_span lrg_start="5273" lrg_end="5495" other_start="143" other_end="365" strand="1" />
+        <mapping_span lrg_start="6346" lrg_end="6608" other_start="366" other_end="628" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="3043">
           <symbol source="HGNC" name="HBB">
             <synonym>beta-globin</synonym>
             <synonym>CD113t-C</synonym>
+            <synonym>ECYT6</synonym>
           </symbol>
           <coordinates coord_system="LRG_1232" start="5001" end="6606" strand="1" />
           <long_name>hemoglobin subunit beta</long_name>
@@ -127,6 +133,28 @@
           <db_xref source="MIM" accession="141900" />
           <db_xref source="CCDS" accession="CCDS7753.1" />
           <db_xref source="GI" accession="1394355623" />
+          <transcript source="RefSeq" accession="NM_000518.5">
+            <coordinates coord_system="LRG_1232" start="5001" end="6608" strand="1" />
+            <long_name>hemoglobin subunit beta</long_name>
+            <db_xref source="GeneID" accession="3043" />
+            <db_xref source="GI" accession="1401724401" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1232" start="5001" end="5142" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1232" start="5273" end="5495" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1232" start="6346" end="6608" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000509.1">
+              <coordinates coord_system="LRG_1232" start="5051" end="6474" strand="1" />
+              <long_name>hemoglobin subunit beta</long_name>
+              <db_xref source="CCDS" accession="CCDS7753.1" />
+              <db_xref source="GeneID" accession="3043" />
+              <db_xref source="GI" accession="4504349" />
+            </protein_product>
+          </transcript>
           <transcript source="RefSeq" accession="NM_000518.4" fixed_id="t1">
             <coordinates coord_system="LRG_1232" start="5001" end="6606" strand="1" />
             <long_name>hemoglobin subunit beta</long_name>
@@ -141,8 +169,9 @@
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_1232" start="6346" end="6606" strand="1" />
             </exon>
-            <protein_product source="RefSeq" accession="NP_000509.1" codon_start="1" fixed_id="p1">
+            <protein_product source="RefSeq" accession="NP_000509.1" fixed_id="p1">
               <coordinates coord_system="LRG_1232" start="5051" end="6474" strand="1" />
+              <long_name>hemoglobin subunit beta</long_name>
               <db_xref source="CCDS" accession="CCDS7753.1" />
               <db_xref source="GeneID" accession="3043" />
               <db_xref source="GI" accession="4504349" />
@@ -162,7 +191,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 92 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-06-25</modification_date>
+      <modification_date>2018-06-27</modification_date>
       <mapping coord_system="ENST00000335295.4" other_name="ENST00000335295.4" other_id="ENST00000335295.4" other_start="1" other_end="628" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5142" other_start="1" other_end="142" strand="1" />
         <mapping_span lrg_start="5273" lrg_end="5495" other_start="143" other_end="365" strand="1" />
@@ -334,7 +363,7 @@
         <name>List of locus specific databases for HBB</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HBB</url>
       </source>
-      <modification_date>2018-06-25</modification_date>
+      <modification_date>2018-06-27</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
