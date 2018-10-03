@@ -1150,7 +1150,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000318602.11" other_name="ENST00000318602.11" other_id="ENST00000318602.11" other_start="1" other_end="4844" type="transcript">
         <mapping_span lrg_start="4806" lrg_end="5199" other_start="1" other_end="394" strand="1" />
@@ -1274,13 +1274,13 @@
           <symbol source="HGNC" name="A2M" />
           <coordinates coord_system="LRG_591" start="4734" end="53299" strand="1" mapped_from="GRCh38" />
           <long_name>alpha-2-macroglobulin (protein_coding)</long_name>
-          <db_xref source="MIM" accession="103950" />
           <db_xref source="GeneID" accession="2" />
           <db_xref source="HGNC" accession="7">
             <synonym>CPAMD5</synonym>
             <synonym>FWP007</synonym>
             <synonym>S863-7</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="103950" />
           <db_xref source="Ensembl" accession="ENSG00000175899" />
           <transcript source="Ensembl" accession="ENST00000404455.2">
             <coordinates coord_system="LRG_591" start="4734" end="10649" strand="1" mapped_from="GRCh38" />
@@ -1423,9 +1423,9 @@
             <protein_product source="Ensembl" accession="ENSP00000323929.7">
               <coordinates coord_system="LRG_591" start="5114" end="53140" strand="1" mapped_from="GRCh38" />
               <long_name>alpha-2-macroglobulin isoform a precursor, alpha-2-macroglobulin isoform a precursor</long_name>
-              <db_xref source="UniProtKB" accession="P01023" />
-              <db_xref source="RefSeq" accession="NP_000005.2" />
               <db_xref source="RefSeq" accession="NP_001334352.1" />
+              <db_xref source="RefSeq" accession="NP_000005.2" />
+              <db_xref source="UniProtKB" accession="P01023" />
               <db_xref source="CCDS" accession="CCDS44827.1" />
             </protein_product>
           </transcript>
@@ -1615,13 +1615,25 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000245105.2">
+        <gene source="Ensembl" accession="ENSG00000245105.3">
           <symbol source="HGNC" name="A2M-AS1" />
-          <coordinates coord_system="LRG_591" start="52903" end="55255" strand="-1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_591" start="52279" end="55255" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>A2M antisense RNA 1 (antisense)</long_name>
+          <db_xref source="GeneID" accession="144571" />
           <db_xref source="HGNC" accession="27057" />
           <db_xref source="Ensembl" accession="ENSG00000245105" />
+          <transcript source="Ensembl" accession="ENST00000648157.1">
+            <coordinates coord_system="LRG_591" start="52279" end="55255" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>A2M-AS1-202 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00001959179">
+              <coordinates coord_system="LRG_591" start="54903" end="55137" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003836271">
+              <coordinates coord_system="LRG_591" start="52279" end="53414" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000499762.2">
             <coordinates coord_system="LRG_591" start="52903" end="55255" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
