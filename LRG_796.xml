@@ -661,7 +661,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000328664.8" other_name="ENST00000328664.8" other_id="ENST00000328664.8" other_start="1" other_end="2930" type="transcript">
         <mapping_span lrg_start="4904" lrg_end="5206" other_start="1" other_end="303" strand="1" />
@@ -779,6 +779,19 @@
         <mapping_span lrg_start="54400" lrg_end="54473" other_start="1386" other_end="1459" strand="1" />
         <mapping_span lrg_start="61409" lrg_end="62956" other_start="1460" other_end="3007" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000648012.1" other_name="ENST00000648012.1" other_id="ENST00000648012.1" other_start="1" other_end="1466" type="transcript">
+        <mapping_span lrg_start="4950" lrg_end="5206" other_start="1" other_end="257" strand="1" />
+        <mapping_span lrg_start="17084" lrg_end="17270" other_start="258" other_end="444" strand="1" />
+        <mapping_span lrg_start="23152" lrg_end="23302" other_start="445" other_end="595" strand="1" />
+        <mapping_span lrg_start="33457" lrg_end="33604" other_start="596" other_end="743" strand="1" />
+        <mapping_span lrg_start="34031" lrg_end="34197" other_start="744" other_end="910" strand="1" />
+        <mapping_span lrg_start="35833" lrg_end="35970" other_start="911" other_end="1048" strand="1" />
+        <mapping_span lrg_start="49511" lrg_end="49590" other_start="1049" other_end="1128" strand="1">
+          <diff type="mismatch" lrg_start="49573" lrg_end="49573" other_start="1111" other_end="1111" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+        <mapping_span lrg_start="54400" lrg_end="54473" other_start="1129" other_end="1202" strand="1" />
+        <mapping_span lrg_start="61409" lrg_end="61672" other_start="1203" other_end="1466" strand="1" />
+      </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000117616.17">
           <symbol source="HGNC" name="RSRP1" />
@@ -859,11 +872,10 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000187010.19">
+        <gene source="Ensembl" accession="ENSG00000187010.20">
           <symbol source="HGNC" name="RHD" />
           <coordinates coord_system="LRG_796" start="4904" end="62956" strand="1" mapped_from="GRCh38" />
           <long_name>Rh blood group D antigen (protein_coding)</long_name>
-          <db_xref source="MIM" accession="111680" />
           <db_xref source="GeneID" accession="6007" />
           <db_xref source="HGNC" accession="10009">
             <synonym>CD240D</synonym>
@@ -874,6 +886,7 @@
             <synonym>RhII</synonym>
             <synonym>RhPI</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="111680" />
           <db_xref source="Ensembl" accession="ENSG00000187010" />
           <transcript source="Ensembl" accession="ENST00000564398.5">
             <coordinates coord_system="LRG_796" start="4904" end="39453" strand="1" mapped_from="GRCh38" />
@@ -937,11 +950,45 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000331871.4">
               <coordinates coord_system="LRG_796" start="5059" end="61435" strand="1" mapped_from="GRCh38" />
-              <long_name>blood group Rh(D) polypeptide isoform 1, blood group Rh(D) polypeptide isoform 3</long_name>
-              <db_xref source="UniProtKB" accession="Q02161" />
-              <db_xref source="RefSeq" accession="NP_057208.2" />
+              <long_name>blood group Rh(D) polypeptide isoform 3, blood group Rh(D) polypeptide isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_001269796.1" />
+              <db_xref source="RefSeq" accession="NP_057208.2" />
+              <db_xref source="UniProtKB" accession="Q02161" />
               <db_xref source="CCDS" accession="CCDS262.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000648012.1">
+            <coordinates coord_system="LRG_796" start="4950" end="61672" strand="1" mapped_from="GRCh38" />
+            <long_name>RHD-211 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003840120">
+              <coordinates coord_system="LRG_796" start="4950" end="5206" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003511155">
+              <coordinates coord_system="LRG_796" start="17084" end="17270" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003524278">
+              <coordinates coord_system="LRG_796" start="23152" end="23302" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003669934">
+              <coordinates coord_system="LRG_796" start="33457" end="33604" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003644044">
+              <coordinates coord_system="LRG_796" start="34031" end="34197" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003682971">
+              <coordinates coord_system="LRG_796" start="35833" end="35970" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003523667">
+              <coordinates coord_system="LRG_796" start="49511" end="49590" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003836059">
+              <coordinates coord_system="LRG_796" start="54400" end="54473" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003837186">
+              <coordinates coord_system="LRG_796" start="61409" end="61672" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000498055.1">
+              <coordinates coord_system="LRG_796" start="5059" end="54418" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000622561.4">
@@ -1014,8 +1061,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000413849.2">
               <coordinates coord_system="LRG_796" start="5059" end="61435" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q02161" />
               <db_xref source="RefSeq" accession="NP_001121163.1" />
+              <db_xref source="UniProtKB" accession="Q02161" />
               <db_xref source="CCDS" accession="CCDS53285.1" />
             </protein_product>
           </transcript>
@@ -1074,8 +1121,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000396420.2">
               <coordinates coord_system="LRG_796" start="5059" end="61526" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q02161" />
               <db_xref source="RefSeq" accession="NP_001269797.1" />
+              <db_xref source="UniProtKB" accession="Q02161" />
               <db_xref source="CCDS" accession="CCDS60031.1" />
             </protein_product>
           </transcript>
@@ -1109,8 +1156,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000350150.4">
               <coordinates coord_system="LRG_796" start="5059" end="61526" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q02161" />
               <db_xref source="RefSeq" accession="NP_001269798.1" />
+              <db_xref source="UniProtKB" accession="Q02161" />
               <db_xref source="CCDS" accession="CCDS60030.1" />
             </protein_product>
           </transcript>
@@ -1185,8 +1232,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000339577.5">
               <coordinates coord_system="LRG_796" start="5059" end="61647" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q02161" />
               <db_xref source="RefSeq" accession="NP_001269800.1" />
+              <db_xref source="UniProtKB" accession="Q02161" />
               <db_xref source="CCDS" accession="CCDS60028.1" />
             </protein_product>
           </transcript>

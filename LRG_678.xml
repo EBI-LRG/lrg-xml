@@ -715,7 +715,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000326637.7" other_name="ENST00000326637.7" other_id="ENST00000326637.7" other_start="1" other_end="3001" type="transcript">
         <mapping_span lrg_start="42149" lrg_end="42239" other_start="1" other_end="91" strand="1" />
@@ -796,7 +796,18 @@
             <synonym>LRRC44</synonym>
             <synonym>MGC22773</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="617957" />
           <db_xref source="Ensembl" accession="ENSG00000162620" />
+          <transcript source="Ensembl" accession="ENST00000354431.8">
+            <coordinates coord_system="LRG_678" start="1" end="4935" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>LRRIQ3-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001105659.1" />
+            <db_xref source="RefSeq" accession="NM_001322315.1" />
+            <exon source="Ensembl" accession="ENSE00001564235">
+              <coordinates coord_system="LRG_678" start="4744" end="4935" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000415760.5">
             <coordinates coord_system="LRG_678" start="1" end="4935" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
@@ -829,26 +840,16 @@
               <coordinates coord_system="LRG_678" start="4744" end="4895" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000354431.8">
-            <coordinates coord_system="LRG_678" start="1" end="4935" strand="-1" mapped_from="GRCh38" />
-            <partial>3-prime</partial>
-            <long_name>LRRIQ3-201 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001105659.1" />
-            <db_xref source="RefSeq" accession="NM_001322315.1" />
-            <exon source="Ensembl" accession="ENSE00001564235">
-              <coordinates coord_system="LRG_678" start="4744" end="4935" strand="-1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000254685.6">
           <symbol source="HGNC" name="FPGT" />
           <coordinates coord_system="LRG_678" start="4960" end="40834" strand="1" mapped_from="GRCh38" />
           <long_name>fucose-1-phosphate guanylyltransferase (protein_coding)</long_name>
-          <db_xref source="MIM" accession="603609" />
           <db_xref source="GeneID" accession="8790" />
           <db_xref source="HGNC" accession="3825">
             <synonym>GFPP</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="603609" />
           <db_xref source="Ensembl" accession="ENSG00000254685" />
           <transcript source="Ensembl" accession="ENST00000370898.7">
             <coordinates coord_system="LRG_678" start="4960" end="13982" strand="1" mapped_from="GRCh38" />
@@ -869,6 +870,7 @@
             <protein_product source="Ensembl" accession="ENSP00000359935.3">
               <coordinates coord_system="LRG_678" start="4988" end="12580" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_003829.3" />
+              <db_xref source="UniProtKB" accession="O14772" />
               <db_xref source="CCDS" accession="CCDS663.2" />
             </protein_product>
           </transcript>
@@ -929,8 +931,8 @@
             <protein_product source="Ensembl" accession="ENSP00000359931.4">
               <coordinates coord_system="LRG_678" start="5027" end="12122" strand="1" mapped_from="GRCh38" />
               <long_name>fucose-1-phosphate guanylyltransferase isoform 2</long_name>
-              <db_xref source="UniProtKB" accession="O14772" />
               <db_xref source="RefSeq" accession="NP_001186258.2" />
+              <db_xref source="UniProtKB" accession="O14772" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000482102.2">
@@ -996,8 +998,8 @@
             <protein_product source="Ensembl" accession="ENSP00000432819.1">
               <coordinates coord_system="LRG_678" start="5027" end="12580" strand="1" mapped_from="GRCh38" />
               <long_name>fucose-1-phosphate guanylyltransferase isoform 3</long_name>
-              <db_xref source="UniProtKB" accession="O14772" />
               <db_xref source="RefSeq" accession="NP_001186257.2" />
+              <db_xref source="UniProtKB" accession="O14772" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000472069.1">
@@ -1020,12 +1022,12 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000259030.6">
+        <gene source="Ensembl" accession="ENSG00000259030.7">
           <symbol source="HGNC" name="FPGT-TNNI3K" />
-          <coordinates coord_system="LRG_678" start="4983" end="350730" strand="1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_678" start="4983" end="351141" strand="1" mapped_from="GRCh38" />
           <long_name>FPGT-TNNI3K readthrough (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="42952" />
           <db_xref source="GeneID" accession="100526835" />
+          <db_xref source="HGNC" accession="42952" />
           <db_xref source="Ensembl" accession="ENSG00000259030" />
           <transcript source="Ensembl" accession="ENST00000557284.6">
             <coordinates coord_system="LRG_678" start="4983" end="350730" strand="1" mapped_from="GRCh38" />
@@ -1308,6 +1310,103 @@
               <coordinates coord_system="LRG_678" start="56207" end="56266" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000648585.1">
+            <coordinates coord_system="LRG_678" start="5004" end="351141" strand="1" mapped_from="GRCh38" />
+            <long_name>FPGT-TNNI3K-207 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003839871">
+              <coordinates coord_system="LRG_678" start="5004" end="5108" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003708854">
+              <coordinates coord_system="LRG_678" start="6412" end="6579" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003710768">
+              <coordinates coord_system="LRG_678" start="8066" end="8158" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003836360">
+              <coordinates coord_system="LRG_678" start="11139" end="11204" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003710365">
+              <coordinates coord_system="LRG_678" start="42850" end="42958" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003832690">
+              <coordinates coord_system="LRG_678" start="47556" end="47583" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003833907">
+              <coordinates coord_system="LRG_678" start="56207" end="56292" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003840212">
+              <coordinates coord_system="LRG_678" start="57420" end="57517" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003836147">
+              <coordinates coord_system="LRG_678" start="67442" end="67502" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003831558">
+              <coordinates coord_system="LRG_678" start="78346" end="78456" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003834932">
+              <coordinates coord_system="LRG_678" start="138198" end="138296" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003831881">
+              <coordinates coord_system="LRG_678" start="142759" end="142897" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003840994">
+              <coordinates coord_system="LRG_678" start="149590" end="149734" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003835173">
+              <coordinates coord_system="LRG_678" start="149823" end="149927" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003838375">
+              <coordinates coord_system="LRG_678" start="160014" end="160108" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003838105">
+              <coordinates coord_system="LRG_678" start="160728" end="160877" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003839862">
+              <coordinates coord_system="LRG_678" start="174004" end="174090" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003835463">
+              <coordinates coord_system="LRG_678" start="174656" end="174712" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003837590">
+              <coordinates coord_system="LRG_678" start="175770" end="175862" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003832052">
+              <coordinates coord_system="LRG_678" start="175955" end="176012" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003835174">
+              <coordinates coord_system="LRG_678" start="176139" end="176333" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003836816">
+              <coordinates coord_system="LRG_678" start="177036" end="177140" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003832222">
+              <coordinates coord_system="LRG_678" start="242828" end="242880" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003840253">
+              <coordinates coord_system="LRG_678" start="243222" end="243274" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003833783">
+              <coordinates coord_system="LRG_678" start="246238" end="246370" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003835637">
+              <coordinates coord_system="LRG_678" start="270189" end="270298" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003835409">
+              <coordinates coord_system="LRG_678" start="295937" end="295996" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003834388">
+              <coordinates coord_system="LRG_678" start="298845" end="299014" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003838658">
+              <coordinates coord_system="LRG_678" start="346982" end="347061" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003840477">
+              <coordinates coord_system="LRG_678" start="350654" end="351141" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000497631.1">
+              <coordinates coord_system="LRG_678" start="5027" end="56212" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000370893.1">
             <coordinates coord_system="LRG_678" start="5012" end="47431" strand="1" mapped_from="GRCh38" />
             <long_name>FPGT-TNNI3K-201 (protein_coding)</long_name>
@@ -1335,11 +1434,11 @@
           <symbol source="HGNC" name="TNNI3K" />
           <coordinates coord_system="LRG_678" start="42149" end="351176" strand="1" mapped_from="GRCh38" />
           <long_name>TNNI3 interacting kinase (protein_coding)</long_name>
-          <db_xref source="MIM" accession="613932" />
           <db_xref source="GeneID" accession="51086" />
           <db_xref source="HGNC" accession="19661">
             <synonym>CARK</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="613932" />
           <db_xref source="Ensembl" accession="ENSG00000116783" />
           <transcript source="Ensembl" accession="ENST00000326637.7" fixed_id="t1">
             <coordinates coord_system="LRG_678" start="42149" end="351172" strand="1" mapped_from="GRCh38" />
@@ -1422,8 +1521,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000322251.3" fixed_id="p1">
               <coordinates coord_system="LRG_678" start="42200" end="350730" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q59H18" />
               <db_xref source="RefSeq" accession="NP_057062.1" />
+              <db_xref source="UniProtKB" accession="Q59H18" />
               <db_xref source="CCDS" accession="CCDS664.1" />
             </protein_product>
           </transcript>
@@ -1549,7 +1648,7 @@
         <gene source="Ensembl" accession="ENSG00000237324.3">
           <symbol source="Clone_based_ensembl_gene" name="AC093158.1" />
           <coordinates coord_system="LRG_678" start="148327" end="185550" strand="-1" mapped_from="GRCh38" />
-          <long_name>AC093158.1 (antisense)</long_name>
+          <long_name>novel transcript (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000237324" />
           <transcript source="Ensembl" accession="ENST00000415549.2">
             <coordinates coord_system="LRG_678" start="148327" end="185550" strand="-1" mapped_from="GRCh38" />
@@ -1581,7 +1680,7 @@
         <gene source="Ensembl" accession="ENSG00000233894.1">
           <symbol source="Clone_based_ensembl_gene" name="AC105271.1" />
           <coordinates coord_system="LRG_678" start="274943" end="276291" strand="1" mapped_from="GRCh38" />
-          <long_name>AC105271.1 (antisense)</long_name>
+          <long_name>novel transcript (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000233894" />
           <transcript source="Ensembl" accession="ENST00000442876.1">
             <coordinates coord_system="LRG_678" start="274943" end="275872" strand="1" mapped_from="GRCh38" />
@@ -1608,8 +1707,8 @@
           <symbol source="HGNC" name="LRRC53" />
           <coordinates coord_system="LRG_678" start="276626" end="319362" strand="-1" mapped_from="GRCh38" />
           <long_name>leucine rich repeat containing 53 (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="25255" />
           <db_xref source="GeneID" accession="105378803" />
+          <db_xref source="HGNC" accession="25255" />
           <db_xref source="Ensembl" accession="ENSG00000162621" />
           <transcript source="Ensembl" accession="ENST00000294635.4">
             <coordinates coord_system="LRG_678" start="276626" end="319362" strand="-1" mapped_from="GRCh38" />
@@ -1631,6 +1730,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000294635.4">
               <coordinates coord_system="LRG_678" start="276626" end="290097" strand="-1" mapped_from="GRCh38" />
+              <long_name>leucine-rich repeat-containing protein 53 isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_001351594.1" />
               <db_xref source="UniProtKB" accession="A6NM62" />
             </protein_product>
           </transcript>

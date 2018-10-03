@@ -139,10 +139,10 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
-      <mapping coord_system="ENST00000314520.4" other_name="ENST00000314520.4" other_id="ENST00000314520.4" other_start="1" other_end="2337" type="transcript">
-        <mapping_span lrg_start="5378" lrg_end="7714" other_start="1" other_end="2337" strand="1" />
+      <mapping coord_system="ENST00000314520.5" other_name="ENST00000314520.5" other_id="ENST00000314520.5" other_start="1" other_end="2347" type="transcript">
+        <mapping_span lrg_start="5368" lrg_end="7714" other_start="1" other_end="2347" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000564592.1" other_name="ENST00000564592.1" other_id="ENST00000564592.1" other_start="1" other_end="629" type="transcript">
         <mapping_span lrg_start="5467" lrg_end="5781" other_start="1" other_end="315" strand="1" />
@@ -163,12 +163,20 @@
         <mapping_span lrg_start="6502" lrg_end="6678" other_start="157" other_end="333" strand="1" />
         <mapping_span lrg_start="15040" lrg_end="15176" other_start="334" other_end="470" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000647595.1" other_name="ENST00000647595.1" other_id="ENST00000647595.1" other_start="1" other_end="923" type="transcript">
+        <mapping_span lrg_start="5374" lrg_end="5527" other_start="1" other_end="154" strand="1" />
+        <mapping_span lrg_start="67460" lrg_end="68228" other_start="155" other_end="923" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000649065.1" other_name="ENST00000649065.1" other_id="ENST00000649065.1" other_start="1" other_end="2545" type="transcript">
+        <mapping_span lrg_start="5427" lrg_end="5781" other_start="1" other_end="355" strand="1" />
+        <mapping_span lrg_start="6502" lrg_end="6678" other_start="356" other_end="532" strand="1" />
+        <mapping_span lrg_start="67460" lrg_end="69472" other_start="533" other_end="2545" strand="1" />
+      </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000179455.7">
+        <gene source="Ensembl" accession="ENSG00000179455.8">
           <symbol source="HGNC" name="MKRN3" />
-          <coordinates coord_system="LRG_1045" start="5372" end="69769" strand="1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_1045" start="5368" end="69769" strand="1" mapped_from="GRCh38" />
           <long_name>makorin ring finger protein 3 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="603856" />
           <db_xref source="GeneID" accession="7681" />
           <db_xref source="HGNC" accession="7114">
             <synonym>D15S9</synonym>
@@ -177,35 +185,46 @@
             <synonym>ZFP127</synonym>
             <synonym>ZNF127</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="603856" />
           <db_xref source="Ensembl" accession="ENSG00000179455" />
+          <transcript source="Ensembl" accession="ENST00000314520.5">
+            <coordinates coord_system="LRG_1045" start="5368" end="7714" strand="1" mapped_from="GRCh38" />
+            <long_name>MKRN3-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_005664.3" />
+            <exon source="Ensembl" accession="ENSE00001272708">
+              <coordinates coord_system="LRG_1045" start="5368" end="7714" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000313881.3">
+              <coordinates coord_system="LRG_1045" start="5477" end="7000" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_005655.1" />
+              <db_xref source="UniProtKB" accession="Q13064" />
+              <db_xref source="CCDS" accession="CCDS10013.1" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000570112.1">
             <coordinates coord_system="LRG_1045" start="5372" end="15176" strand="1" mapped_from="GRCh38" />
-            <long_name>MKRN3-205 (nonsense_mediated_decay)</long_name>
+            <long_name>MKRN3-205 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00002612792">
               <coordinates coord_system="LRG_1045" start="5372" end="5527" strand="1" mapped_from="GRCh38" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003600678">
+            <exon source="Ensembl" accession="ENSE00003471472">
               <coordinates coord_system="LRG_1045" start="6502" end="6678" strand="1" mapped_from="GRCh38" />
             </exon>
             <exon source="Ensembl" accession="ENSE00003562396">
               <coordinates coord_system="LRG_1045" start="15040" end="15176" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000457884.1">
-              <coordinates coord_system="LRG_1045" start="5477" end="6537" strand="1" mapped_from="GRCh38" />
-            </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000314520.4">
-            <coordinates coord_system="LRG_1045" start="5378" end="7714" strand="1" mapped_from="GRCh38" />
-            <long_name>MKRN3-201 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_005664.3" />
-            <exon source="Ensembl" accession="ENSE00001272708">
-              <coordinates coord_system="LRG_1045" start="5378" end="7714" strand="1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000647595.1">
+            <coordinates coord_system="LRG_1045" start="5374" end="68228" strand="1" mapped_from="GRCh38" />
+            <long_name>MKRN3-206 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003835430">
+              <coordinates coord_system="LRG_1045" start="5374" end="5527" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000313881.3">
-              <coordinates coord_system="LRG_1045" start="5477" end="7000" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q13064" />
-              <db_xref source="RefSeq" accession="NP_005655.1" />
-              <db_xref source="CCDS" accession="CCDS10013.1" />
+            <exon source="Ensembl" accession="ENSE00003838332">
+              <coordinates coord_system="LRG_1045" start="67460" end="68228" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000496869.1">
+              <coordinates coord_system="LRG_1045" start="5477" end="67525" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000568252.1">
@@ -219,6 +238,22 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000456779.1">
               <coordinates coord_system="LRG_1045" start="5477" end="50330" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000649065.1">
+            <coordinates coord_system="LRG_1045" start="5427" end="69472" strand="1" mapped_from="GRCh38" />
+            <long_name>MKRN3-207 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003834003">
+              <coordinates coord_system="LRG_1045" start="5427" end="5781" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003547202">
+              <coordinates coord_system="LRG_1045" start="6502" end="6678" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003837569">
+              <coordinates coord_system="LRG_1045" start="67460" end="69472" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000496859.1">
+              <coordinates coord_system="LRG_1045" start="5477" end="67463" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000564592.1">
@@ -239,22 +274,25 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000568945.2">
             <coordinates coord_system="LRG_1045" start="6151" end="69769" strand="1" mapped_from="GRCh38" />
-            <long_name>MKRN3-204 (processed_transcript)</long_name>
+            <long_name>MKRN3-204 (nonsense_mediated_decay)</long_name>
             <exon source="Ensembl" accession="ENSE00002590431">
               <coordinates coord_system="LRG_1045" start="6151" end="6403" strand="1" mapped_from="GRCh38" />
             </exon>
-            <exon source="Ensembl" accession="ENSE00003471472">
+            <exon source="Ensembl" accession="ENSE00003600678">
               <coordinates coord_system="LRG_1045" start="6502" end="6678" strand="1" mapped_from="GRCh38" />
             </exon>
             <exon source="Ensembl" accession="ENSE00002608440">
               <coordinates coord_system="LRG_1045" start="67460" end="69769" strand="1" mapped_from="GRCh38" />
             </exon>
+            <protein_product source="Ensembl" accession="ENSP00000497232.1" codon_start="3">
+              <coordinates coord_system="LRG_1045" start="6151" end="6537" strand="1" mapped_from="GRCh38" />
+            </protein_product>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000260978.1">
           <symbol source="Clone_based_ensembl_gene" name="AC126407.1" />
           <coordinates coord_system="LRG_1045" start="6958" end="9351" strand="-1" mapped_from="GRCh38" />
-          <long_name>AC126407.1 (antisense)</long_name>
+          <long_name>MKRN3 antisense RNA 1 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000260978" />
           <transcript source="Ensembl" accession="ENST00000563044.1">
             <coordinates coord_system="LRG_1045" start="6958" end="9351" strand="-1" mapped_from="GRCh38" />

@@ -359,7 +359,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000324022.14" other_name="ENST00000324022.14" other_id="ENST00000324022.14" other_start="1" other_end="751" type="transcript">
         <mapping_span lrg_start="5059" lrg_end="5153" other_start="1" other_end="95" strand="1" />
@@ -599,7 +599,8 @@
           <coordinates coord_system="LRG_793" start="1" end="38439" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <partial>3-prime</partial>
-          <long_name>AC139713.2 (processed_transcript)</long_name>
+          <long_name>uncharacterized LOC101927636 [Source:NCBI gene;Acc:101927636] (processed_transcript)</long_name>
+          <db_xref source="GeneID" accession="101927636" />
           <db_xref source="Ensembl" accession="ENSG00000251600" />
           <transcript source="Ensembl" accession="ENST00000641428.1">
             <coordinates coord_system="LRG_793" start="1" end="38439" strand="-1" mapped_from="GRCh38" />
@@ -639,11 +640,40 @@
             </exon>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000285783.1">
+          <symbol source="Clone_based_ensembl_gene" name="AC098588.2" />
+          <coordinates coord_system="LRG_793" start="1" end="34713" strand="1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <long_name>novel protein (processed_transcript)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000285783" />
+          <transcript source="Ensembl" accession="ENST00000650526.1">
+            <coordinates coord_system="LRG_793" start="1" end="34713" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>AC098588.2-201 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003833751">
+              <coordinates coord_system="LRG_793" start="25164" end="25262" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003835207">
+              <coordinates coord_system="LRG_793" start="25971" end="26066" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003835146">
+              <coordinates coord_system="LRG_793" start="27000" end="27038" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003835868">
+              <coordinates coord_system="LRG_793" start="28813" end="28898" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003838556">
+              <coordinates coord_system="LRG_793" start="30985" end="31063" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003831988">
+              <coordinates coord_system="LRG_793" start="34342" end="34713" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000170180.21">
           <symbol source="HGNC" name="GYPA" />
           <coordinates coord_system="LRG_793" start="4966" end="36439" strand="1" mapped_from="GRCh38" />
           <long_name>glycophorin A (MNS blood group) (protein_coding)</long_name>
-          <db_xref source="MIM" accession="617922" />
           <db_xref source="GeneID" accession="2993" />
           <db_xref source="HGNC" accession="4702">
             <synonym>CD235a</synonym>
@@ -651,6 +681,7 @@
             <synonym>MN</synonym>
             <synonym>MNS</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="617922" />
           <db_xref source="Ensembl" accession="ENSG00000170180" />
           <transcript source="Ensembl" accession="ENST00000641688.2">
             <coordinates coord_system="LRG_793" start="4966" end="36439" strand="1" mapped_from="GRCh38" />
@@ -679,7 +710,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000493142.2">
               <coordinates coord_system="LRG_793" start="5117" end="34358" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P02724" />
               <db_xref source="RefSeq" accession="NP_002090.4" />
               <db_xref source="CCDS" accession="CCDS34069.1" />
             </protein_product>
@@ -747,8 +777,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000324483.10">
               <coordinates coord_system="LRG_793" start="5117" end="34358" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P02724" />
               <db_xref source="RefSeq" accession="NP_001295119.1" />
+              <db_xref source="UniProtKB" accession="P02724" />
               <db_xref source="CCDS" accession="CCDS82959.1" />
             </protein_product>
           </transcript>
@@ -832,6 +862,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000495922.1">
               <coordinates coord_system="LRG_793" start="25205" end="34358" strand="1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="P02724" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000535709.6">
@@ -979,6 +1010,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000494092.1">
               <coordinates coord_system="LRG_793" start="25205" end="34358" strand="1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="P02724" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000512064.5">

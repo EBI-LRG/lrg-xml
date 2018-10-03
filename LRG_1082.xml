@@ -455,7 +455,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000291295.13" other_name="ENST00000291295.13" other_id="ENST00000291295.13" other_start="1" other_end="2289" type="transcript">
         <mapping_span lrg_start="5163" lrg_end="5364" other_start="1" other_end="202" strand="1" />
@@ -555,7 +555,7 @@
           <symbol source="Clone_based_ensembl_gene" name="AC093503.1" />
           <coordinates coord_system="LRG_1082" start="1" end="4788" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>AC093503.1 (sense_intronic)</long_name>
+          <long_name>novel transcript, sense intronic to PPP5D1 (sense_intronic)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000268423" />
           <transcript source="Ensembl" accession="ENST00000593888.4">
             <coordinates coord_system="LRG_1082" start="1" end="4788" strand="-1" mapped_from="GRCh38" />
@@ -571,8 +571,8 @@
           <coordinates coord_system="LRG_1082" start="1" end="5127" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>PPP5 tetratricopeptide repeat domain containing 1 (protein_coding)</long_name>
-          <db_xref source="HGNC" accession="44209" />
           <db_xref source="GeneID" accession="100506012" />
+          <db_xref source="HGNC" accession="44209" />
           <db_xref source="Ensembl" accession="ENSG00000230510" />
           <transcript source="Ensembl" accession="ENST00000602017.5">
             <coordinates coord_system="LRG_1082" start="1" end="4859" strand="-1" mapped_from="GRCh38" />
@@ -585,7 +585,7 @@
             <protein_product source="Ensembl" accession="ENSP00000471730.1" codon_start="2">
               <coordinates coord_system="LRG_1082" start="1" end="4859" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <long_name>protein PPP5D1</long_name>
+              <long_name>protein PPP5D1 isoform 1</long_name>
               <db_xref source="RefSeq" accession="NP_001192210.1" />
             </protein_product>
           </transcript>
@@ -599,6 +599,8 @@
             <protein_product source="Ensembl" accession="ENSP00000392262.1">
               <coordinates coord_system="LRG_1082" start="1" end="4896" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <long_name>protein PPP5D1 isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001350802.1" />
               <db_xref source="UniProtKB" accession="E7EU14" />
             </protein_product>
           </transcript>
@@ -626,11 +628,11 @@
           <symbol source="HGNC" name="CALM3" />
           <coordinates coord_system="LRG_1082" start="5001" end="14720" strand="1" mapped_from="GRCh38" />
           <long_name>calmodulin 3 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="114183" />
           <db_xref source="GeneID" accession="808" />
           <db_xref source="HGNC" accession="1449">
             <synonym>PHKD</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="114183" />
           <db_xref source="Ensembl" accession="ENSG00000160014" />
           <transcript source="Ensembl" accession="ENST00000391918.6">
             <coordinates coord_system="LRG_1082" start="5001" end="13232" strand="1" mapped_from="GRCh38" />
@@ -655,8 +657,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000375785.2">
               <coordinates coord_system="LRG_1082" start="12198" end="13080" strand="1" mapped_from="GRCh38" />
-              <long_name>calmodulin-3 isoform 2</long_name>
+              <long_name>calmodulin-3 isoform 2, calmodulin-3 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001316854.1" />
+              <db_xref source="RefSeq" accession="NP_001316852.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000291295.13" fixed_id="t1">
@@ -664,7 +667,6 @@
             <long_name>CALM3-201 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001329921.1" />
             <db_xref source="RefSeq" accession="NM_001329922.1" />
-            <db_xref source="RefSeq" accession="NM_001329923.1" />
             <db_xref source="RefSeq" accession="NM_001329924.1" />
             <db_xref source="RefSeq" accession="NM_001329926.1" />
             <db_xref source="RefSeq" accession="NM_005184.2" />
@@ -688,14 +690,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000291295.8" fixed_id="p1">
               <coordinates coord_system="LRG_1082" start="5362" end="13080" strand="1" mapped_from="GRCh38" />
-              <long_name>calmodulin-3 isoform 2, calmodulin-3 isoform 2, calmodulin-3 isoform 2, calmodulin-3 isoform 2, calmodulin-3 isoform 1</long_name>
-              <db_xref source="UniProtKB" accession="P0DP25" />
-              <db_xref source="RefSeq" accession="NP_005175.2" />
-              <db_xref source="RefSeq" accession="NP_001316850.1" />
-              <db_xref source="RefSeq" accession="NP_001316855.1" />
-              <db_xref source="RefSeq" accession="NP_001316853.1" />
-              <db_xref source="RefSeq" accession="NP_001316852.1" />
+              <long_name>calmodulin-3 isoform 1, calmodulin-3 isoform 2, calmodulin-3 isoform 2, calmodulin-3 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001316851.1" />
+              <db_xref source="RefSeq" accession="NP_001316855.1" />
+              <db_xref source="RefSeq" accession="NP_001316850.1" />
+              <db_xref source="RefSeq" accession="NP_001316853.1" />
+              <db_xref source="RefSeq" accession="NP_005175.2" />
+              <db_xref source="UniProtKB" accession="P0DP25" />
               <db_xref source="CCDS" accession="CCDS33061.1" />
             </protein_product>
           </transcript>
@@ -763,8 +764,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000470502.1">
               <coordinates coord_system="LRG_1082" start="12198" end="13080" strand="1" mapped_from="GRCh38" />
-              <long_name>calmodulin-3 isoform 2</long_name>
+              <long_name>calmodulin-3 isoform 2, calmodulin-3 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001316854.1" />
+              <db_xref source="RefSeq" accession="NP_001316852.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000602169.1">
@@ -800,8 +802,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000468877.1">
               <coordinates coord_system="LRG_1082" start="12198" end="13080" strand="1" mapped_from="GRCh38" />
-              <long_name>calmodulin-3 isoform 2</long_name>
+              <long_name>calmodulin-3 isoform 2, calmodulin-3 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001316854.1" />
+              <db_xref source="RefSeq" accession="NP_001316852.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000597868.5">
@@ -849,8 +852,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000471225.1">
               <coordinates coord_system="LRG_1082" start="12198" end="13080" strand="1" mapped_from="GRCh38" />
-              <long_name>calmodulin-3 isoform 2</long_name>
+              <long_name>calmodulin-3 isoform 2, calmodulin-3 isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_001316854.1" />
+              <db_xref source="RefSeq" accession="NP_001316852.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000596362.1">
@@ -934,7 +938,7 @@
         <gene source="Ensembl" accession="ENSG00000269292.1">
           <symbol source="Clone_based_ensembl_gene" name="AC093503.2" />
           <coordinates coord_system="LRG_1082" start="13204" end="14706" strand="-1" mapped_from="GRCh38" />
-          <long_name>AC093503.2 (antisense)</long_name>
+          <long_name>novel transcript, antisense to CALM3 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000269292" />
           <transcript source="Ensembl" accession="ENST00000597609.1">
             <coordinates coord_system="LRG_1082" start="13204" end="14706" strand="-1" mapped_from="GRCh38" />
