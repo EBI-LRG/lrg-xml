@@ -88,15 +88,15 @@
           <diff type="other_ins" lrg_start="5299" lrg_end="5300" other_start="122064774" other_end="122064779" lrg_sequence="-" other_sequence="CCGCCA" />
         </mapping_span>
       </mapping>
-      <mapping coord_system="GRCh38.p12" other_name="12q24.31" other_id="NW_018654719.1" other_id_syn="KZ208917.1" other_start="27346" other_end="49804" type="patch">
-        <mapping_span lrg_start="1" lrg_end="22459" other_start="27346" other_end="49804" strand="1">
-          <diff type="mismatch" lrg_start="16184" lrg_end="16184" other_start="43529" other_end="43529" lrg_sequence="A" other_sequence="G" />
-        </mapping_span>
-      </mapping>
       <mapping coord_system="GRCh38.p12" other_name="12" other_id="NC_000012.12" other_id_syn="CM000674.2" other_start="121621570" other_end="121644033" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="22459" other_start="121621570" other_end="121644033" strand="1">
           <diff type="other_ins" lrg_start="5296" lrg_end="5297" other_start="121626866" other_end="121626870" lrg_sequence="-" other_sequence="GCCCC" />
           <diff type="mismatch" lrg_start="16184" lrg_end="16184" other_start="121637758" other_end="121637758" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38.p12" other_name="12q24.31" other_id="NW_018654719.1" other_id_syn="KZ208917.1" other_start="27346" other_end="49804" type="patch">
+        <mapping_span lrg_start="1" lrg_end="22459" other_start="27346" other_end="49804" strand="1">
+          <diff type="mismatch" lrg_start="16184" lrg_end="16184" other_start="43529" other_end="43529" lrg_sequence="A" other_sequence="G" />
         </mapping_span>
       </mapping>
       <lrg_locus source="HGNC">ORAI1</lrg_locus>
@@ -162,7 +162,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000611718.1" other_name="ENST00000611718.1" other_id="ENST00000611718.1" other_start="1" other_end="852" type="transcript">
         <mapping_span lrg_start="5247" lrg_end="5600" other_start="1" other_end="359" strand="1">
@@ -190,13 +190,19 @@
           <symbol source="HGNC" name="ORAI1" />
           <coordinates coord_system="LRG_93" start="4981" end="21103" strand="1" mapped_from="GRCh38" />
           <long_name>ORAI calcium release-activated calcium modulator 1 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="610277" />
-          <db_xref source="GeneID" accession="84876" />
+          <db_xref source="GeneID" accession="84876">
+            <synonym>CRACM1</synonym>
+            <synonym>IMD9</synonym>
+            <synonym>ORAT1</synonym>
+            <synonym>TAM2</synonym>
+            <synonym>TMEM142A</synonym>
+          </db_xref>
           <db_xref source="HGNC" accession="25896">
             <synonym>CRACM1</synonym>
             <synonym>FLJ14466</synonym>
             <synonym>TMEM142A</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="610277" />
           <db_xref source="Ensembl" accession="ENSG00000276045" />
           <transcript source="Ensembl" accession="ENST00000646827.1">
             <coordinates coord_system="LRG_93" start="4981" end="21103" strand="1" mapped_from="GRCh38" />
@@ -224,8 +230,8 @@
             <protein_product source="Ensembl" accession="ENSP00000482568.2">
               <coordinates coord_system="LRG_93" start="5174" end="20069" strand="1" mapped_from="GRCh38" />
               <long_name>calcium release-activated calcium channel protein 1</long_name>
-              <db_xref source="UniProtKB" accession="Q96D31" />
               <db_xref source="RefSeq" accession="NP_116179.2" />
+              <db_xref source="UniProtKB" accession="Q96D31" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000611718.1">

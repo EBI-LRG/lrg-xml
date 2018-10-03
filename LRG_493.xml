@@ -262,7 +262,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000378204.6" other_name="ENST00000378204.6" other_id="ENST00000378204.6" other_start="1" other_end="8270" type="transcript">
         <mapping_span lrg_start="4967" lrg_end="6735" other_start="1" other_end="1769" strand="1" />
@@ -277,12 +277,13 @@
         <mapping_span lrg_start="311927" lrg_end="312098" other_start="2691" other_end="2862" strand="1" />
         <mapping_span lrg_start="316923" lrg_end="322330" other_start="2863" other_end="8270" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000436216.1" other_name="ENST00000436216.1" other_id="ENST00000436216.1" other_start="1" other_end="700" type="transcript">
+      <mapping coord_system="ENST00000436216.2" other_name="ENST00000436216.2" other_id="ENST00000436216.2" other_start="1" other_end="840" type="transcript">
         <mapping_span lrg_start="6406" lrg_end="6735" other_start="1" other_end="330" strand="1" />
         <mapping_span lrg_start="279619" lrg_end="279712" other_start="331" other_end="424" strand="1" />
         <mapping_span lrg_start="281269" lrg_end="281376" other_start="425" other_end="532" strand="1" />
         <mapping_span lrg_start="285167" lrg_end="285221" other_start="533" other_end="587" strand="1" />
-        <mapping_span lrg_start="286471" lrg_end="286583" other_start="588" other_end="700" strand="1" />
+        <mapping_span lrg_start="286471" lrg_end="286590" other_start="588" other_end="707" strand="1" />
+        <mapping_span lrg_start="294223" lrg_end="294355" other_start="708" other_end="840" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000437196.1" other_name="ENST00000437196.1" other_id="ENST00000437196.1" other_start="1" other_end="1446" type="transcript">
         <mapping_span lrg_start="5478" lrg_end="5846" other_start="1" other_end="369" strand="1" />
@@ -297,17 +298,17 @@
         <mapping_span lrg_start="316923" lrg_end="317000" other_start="1369" other_end="1446" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000182197.10">
+        <gene source="Ensembl" accession="ENSG00000182197.11">
           <symbol source="HGNC" name="EXT1" />
           <coordinates coord_system="LRG_493" start="4967" end="322330" strand="1" mapped_from="GRCh38" />
           <long_name>exostosin glycosyltransferase 1 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="608177" />
           <db_xref source="GeneID" accession="2131" />
           <db_xref source="HGNC" accession="3512">
             <synonym>LGCR</synonym>
             <synonym>LGS</synonym>
             <synonym>ttv</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="608177" />
           <db_xref source="Ensembl" accession="ENSG00000182197" />
           <transcript source="Ensembl" accession="ENST00000378204.6" fixed_id="t1">
             <coordinates coord_system="LRG_493" start="4967" end="322330" strand="1" mapped_from="GRCh38" />
@@ -348,8 +349,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000367446.2" fixed_id="p1">
               <coordinates coord_system="LRG_493" start="5774" end="317108" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q16394" />
               <db_xref source="RefSeq" accession="NP_000118.2" />
+              <db_xref source="UniProtKB" accession="Q16394" />
               <db_xref source="CCDS" accession="CCDS6324.1" />
             </protein_product>
           </transcript>
@@ -390,9 +391,9 @@
               <coordinates coord_system="LRG_493" start="5774" end="281321" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000436216.1">
-            <coordinates coord_system="LRG_493" start="6406" end="286583" strand="1" mapped_from="GRCh38" />
-            <long_name>EXT1-202 (protein_coding)</long_name>
+          <transcript source="Ensembl" accession="ENST00000436216.2">
+            <coordinates coord_system="LRG_493" start="6406" end="294355" strand="1" mapped_from="GRCh38" />
+            <long_name>EXT1-202 (nonsense_mediated_decay)</long_name>
             <exon source="Ensembl" accession="ENSE00001707712">
               <coordinates coord_system="LRG_493" start="6406" end="6735" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -406,7 +407,10 @@
               <coordinates coord_system="LRG_493" start="285167" end="285221" strand="1" mapped_from="GRCh38" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001723926">
-              <coordinates coord_system="LRG_493" start="286471" end="286583" strand="1" mapped_from="GRCh38" />
+              <coordinates coord_system="LRG_493" start="286471" end="286590" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003461109">
+              <coordinates coord_system="LRG_493" start="294223" end="294355" strand="1" mapped_from="GRCh38" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000400372.1" codon_start="3">
               <coordinates coord_system="LRG_493" start="6406" end="286505" strand="1" mapped_from="GRCh38" />

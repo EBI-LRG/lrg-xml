@@ -83,6 +83,9 @@
         </contact>
       </source>
       <modification_date>2018-10-03</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="1q21.1-21.3" other_id="NW_003871055.3" other_id_syn="JH636052.4" other_start="2731127" other_end="2747949" type="patch">
+        <mapping_span lrg_start="1" lrg_end="16823" other_start="2731127" other_end="2747949" strand="-1" />
+      </mapping>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_id_syn="CM000663.1" other_start="145502557" other_end="145519375" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="16823" other_start="145502557" other_end="145519375" strand="1">
           <diff type="mismatch" lrg_start="3606" lrg_end="3606" other_start="145506162" other_end="145506162" lrg_sequence="G" other_sequence="T" />
@@ -95,9 +98,6 @@
           <diff type="mismatch" lrg_start="11725" lrg_end="11725" other_start="145514277" other_end="145514277" lrg_sequence="A" other_sequence="G" />
           <diff type="mismatch" lrg_start="14511" lrg_end="14511" other_start="145517063" other_end="145517063" lrg_sequence="A" other_sequence="G" />
         </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh37.p13" other_name="1q21.1-21.3" other_id="NW_003871055.3" other_id_syn="JH636052.4" other_start="2731127" other_end="2747949" type="patch">
-        <mapping_span lrg_start="1" lrg_end="16823" other_start="2731127" other_end="2747949" strand="-1" />
       </mapping>
       <mapping coord_system="GRCh38.p12" other_name="1" other_id="NC_000001.11" other_id_syn="CM000663.2" other_start="145915714" other_end="145932536" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="16823" other_start="145915714" other_end="145932536" strand="-1" />
@@ -383,7 +383,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000369307.4" other_name="ENST00000369307.4" other_id="ENST00000369307.4" other_start="1" other_end="796" type="transcript">
         <mapping_span lrg_start="5077" lrg_end="5177" other_start="1" other_end="101" strand="1" />
@@ -451,6 +451,7 @@
           <coordinates coord_system="LRG_574" start="1" end="5947" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>LIX1L antisense RNA 1 (antisense)</long_name>
+          <db_xref source="GeneID" accession="105371260" />
           <db_xref source="HGNC" accession="41210" />
           <db_xref source="Ensembl" accession="ENSG00000234222" />
           <transcript source="Ensembl" accession="ENST00000412239.1">
@@ -611,7 +612,7 @@
           <symbol source="Clone_based_ensembl_gene" name="AC243547.3" />
           <coordinates coord_system="LRG_574" start="1" end="5279" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>AC243547.3 (protein_coding)</long_name>
+          <long_name>novel protein, lncRNA-POLR3GL readthrough (protein_coding)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000280778" />
           <transcript source="Ensembl" accession="ENST00000630636.1">
             <coordinates coord_system="LRG_574" start="1" end="5279" strand="-1" mapped_from="GRCh38" />
@@ -634,7 +635,6 @@
           <symbol source="HGNC" name="RBM8A" />
           <coordinates coord_system="LRG_574" start="4859" end="14823" strand="1" mapped_from="GRCh38" />
           <long_name>RNA binding motif protein 8A (protein_coding)</long_name>
-          <db_xref source="MIM" accession="605313" />
           <db_xref source="GeneID" accession="9939" />
           <db_xref source="HGNC" accession="9905">
             <synonym>BOV-1A</synonym>
@@ -645,6 +645,7 @@
             <synonym>Y14</synonym>
             <synonym>ZNRP</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="605313" />
           <db_xref source="Ensembl" accession="ENSG00000265241" />
           <transcript source="Ensembl" accession="ENST00000634161.1">
             <coordinates coord_system="LRG_574" start="4859" end="5720" strand="1" mapped_from="GRCh38" />
@@ -683,8 +684,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000463058.1" fixed_id="p1">
               <coordinates coord_system="LRG_574" start="5111" end="6655" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q9Y5S9" />
               <db_xref source="RefSeq" accession="NP_005096.1" />
+              <db_xref source="UniProtKB" accession="Q9Y5S9" />
               <db_xref source="CCDS" accession="CCDS72872.1" />
             </protein_product>
           </transcript>
@@ -835,6 +836,7 @@
           <symbol source="HGNC" name="GNRHR2" />
           <coordinates coord_system="LRG_574" start="7196" end="13524" strand="-1" mapped_from="GRCh38" />
           <long_name>gonadotropin releasing hormone receptor 2 (pseudogene) (transcribed_unitary_pseudogene)</long_name>
+          <db_xref source="GeneID" accession="114814" />
           <db_xref source="HGNC" accession="16341" />
           <db_xref source="Ensembl" accession="ENSG00000211451" />
           <transcript source="Ensembl" accession="ENST00000361928.2">
@@ -911,9 +913,9 @@
           <coordinates coord_system="LRG_574" start="13700" end="16823" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>peroxisomal biogenesis factor 11 beta (protein_coding)</long_name>
-          <db_xref source="MIM" accession="603867" />
           <db_xref source="GeneID" accession="8799" />
           <db_xref source="HGNC" accession="8853" />
+          <db_xref source="MIM" accession="603867" />
           <db_xref source="Ensembl" accession="ENSG00000131779" />
           <transcript source="Ensembl" accession="ENST00000369306.7">
             <coordinates coord_system="LRG_574" start="13700" end="16823" strand="1" mapped_from="GRCh38" />
@@ -934,8 +936,8 @@
             <protein_product source="Ensembl" accession="ENSP00000358312.3">
               <coordinates coord_system="LRG_574" start="13849" end="16823" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="O96011" />
               <db_xref source="RefSeq" accession="NP_003837.1" />
+              <db_xref source="UniProtKB" accession="O96011" />
               <db_xref source="CCDS" accession="CCDS72871.1" />
             </protein_product>
           </transcript>
@@ -956,8 +958,8 @@
             <protein_product source="Ensembl" accession="ENSP00000437510.1">
               <coordinates coord_system="LRG_574" start="14092" end="16823" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="O96011" />
               <db_xref source="RefSeq" accession="NP_001171724.1" />
+              <db_xref source="UniProtKB" accession="O96011" />
               <db_xref source="CCDS" accession="CCDS72870.1" />
             </protein_product>
           </transcript>

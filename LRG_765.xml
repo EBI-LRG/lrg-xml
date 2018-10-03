@@ -578,7 +578,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000268124.9" other_name="ENST00000268124.9" other_id="ENST00000268124.9" other_start="1" other_end="4500" type="transcript">
         <mapping_span lrg_start="4949" lrg_end="5123" other_start="1" other_end="175" strand="1" />
@@ -828,11 +828,15 @@
         <mapping_span lrg_start="5352" lrg_end="5429" other_start="1" other_end="78" strand="1" />
         <mapping_span lrg_start="5883" lrg_end="5946" other_start="79" other_end="142" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000650303.1" other_name="ENST00000650303.1" other_id="ENST00000650303.1" other_start="1" other_end="783" type="transcript">
+        <mapping_span lrg_start="5987" lrg_end="6700" other_start="1" other_end="714" strand="1" />
+        <mapping_span lrg_start="9520" lrg_end="9588" other_start="715" other_end="783" strand="1" />
+      </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000261441.1">
           <symbol source="Clone_based_ensembl_gene" name="AC124068.2" />
           <coordinates coord_system="LRG_765" start="3635" end="4743" strand="-1" mapped_from="GRCh38" />
-          <long_name>AC124068.2 (antisense)</long_name>
+          <long_name>novel transcript, antisense to POLG (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000261441" />
           <transcript source="Ensembl" accession="ENST00000569473.1">
             <coordinates coord_system="LRG_765" start="3635" end="4743" strand="-1" mapped_from="GRCh38" />
@@ -852,16 +856,16 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000140521.12">
+        <gene source="Ensembl" accession="ENSG00000140521.13">
           <symbol source="HGNC" name="POLG" />
           <coordinates coord_system="LRG_765" start="4935" end="34598" strand="1" mapped_from="GRCh38" />
           <long_name>DNA polymerase gamma, catalytic subunit (protein_coding)</long_name>
-          <db_xref source="MIM" accession="174763" />
           <db_xref source="GeneID" accession="5428" />
           <db_xref source="HGNC" accession="9179">
             <synonym>POLG1</synonym>
             <synonym>POLGA</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="174763" />
           <db_xref source="Ensembl" accession="ENSG00000140521" />
           <transcript source="Ensembl" accession="ENST00000442287.6">
             <coordinates coord_system="LRG_765" start="4935" end="23476" strand="1" mapped_from="GRCh38" />
@@ -1017,9 +1021,9 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000268124.5" fixed_id="p1">
               <coordinates coord_system="LRG_765" start="6042" end="23045" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P54098" />
-              <db_xref source="RefSeq" accession="NP_001119603.1" />
               <db_xref source="RefSeq" accession="NP_002684.1" />
+              <db_xref source="RefSeq" accession="NP_001119603.1" />
+              <db_xref source="UniProtKB" accession="P54098" />
               <db_xref source="CCDS" accession="CCDS10350.1" />
             </protein_product>
           </transcript>
@@ -1200,6 +1204,19 @@
             <exon source="Ensembl" accession="ENSE00003799079">
               <coordinates coord_system="LRG_765" start="5969" end="6003" strand="1" mapped_from="GRCh38" />
             </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000650303.1">
+            <coordinates coord_system="LRG_765" start="5987" end="9588" strand="1" mapped_from="GRCh38" />
+            <long_name>POLG-225 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003837724">
+              <coordinates coord_system="LRG_765" start="5987" end="6700" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003836894">
+              <coordinates coord_system="LRG_765" start="9520" end="9588" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000497242.1">
+              <coordinates coord_system="LRG_765" start="5987" end="9588" strand="1" mapped_from="GRCh38" />
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000637307.1">
             <coordinates coord_system="LRG_765" start="6652" end="9585" strand="1" mapped_from="GRCh38" />
@@ -1617,13 +1634,13 @@
           <symbol source="HGNC" name="FANCI" />
           <coordinates coord_system="LRG_765" start="22535" end="36598" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>Fanconi anemia complementation group I (protein_coding)</long_name>
-          <db_xref source="MIM" accession="611360" />
+          <long_name>FA complementation group I (protein_coding)</long_name>
           <db_xref source="GeneID" accession="55215" />
           <db_xref source="HGNC" accession="25568">
             <synonym>FLJ10719</synonym>
             <synonym>KIAA1794</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="611360" />
           <db_xref source="Ensembl" accession="ENSG00000140525" />
           <transcript source="Ensembl" accession="ENST00000300027.12">
             <coordinates coord_system="LRG_765" start="22535" end="36598" strand="-1" mapped_from="GRCh38" />
@@ -1666,8 +1683,8 @@
             <protein_product source="Ensembl" accession="ENSP00000300027.8">
               <coordinates coord_system="LRG_765" start="23337" end="36598" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="UniProtKB" accession="Q9NVI1" />
               <db_xref source="RefSeq" accession="NP_060663.2" />
+              <db_xref source="UniProtKB" accession="Q9NVI1" />
               <db_xref source="CCDS" accession="CCDS10349.2" />
             </protein_product>
           </transcript>
@@ -1712,8 +1729,8 @@
             <protein_product source="Ensembl" accession="ENSP00000310842.7">
               <coordinates coord_system="LRG_765" start="23337" end="36598" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <db_xref source="UniProtKB" accession="Q9NVI1" />
               <db_xref source="RefSeq" accession="NP_001106849.1" />
+              <db_xref source="UniProtKB" accession="Q9NVI1" />
               <db_xref source="CCDS" accession="CCDS45346.1" />
             </protein_product>
           </transcript>

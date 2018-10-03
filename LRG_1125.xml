@@ -228,7 +228,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000293842.10" other_name="ENST00000293842.10" other_id="ENST00000293842.10" other_start="1" other_end="585" type="transcript">
         <mapping_span lrg_start="4998" lrg_end="5091" other_start="1" other_end="94" strand="1" />
@@ -298,16 +298,22 @@
         <mapping_span lrg_start="8312" lrg_end="8452" other_start="130" other_end="270" strand="1" />
         <mapping_span lrg_start="10556" lrg_end="10638" other_start="271" other_end="353" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000648839.1" other_name="ENST00000648839.1" other_id="ENST00000648839.1" other_start="1" other_end="528" type="transcript">
+        <mapping_span lrg_start="5055" lrg_end="5091" other_start="1" other_end="37" strand="1" />
+        <mapping_span lrg_start="5933" lrg_end="6105" other_start="38" other_end="210" strand="1" />
+        <mapping_span lrg_start="8312" lrg_end="8452" other_start="211" other_end="351" strand="1" />
+        <mapping_span lrg_start="10556" lrg_end="10732" other_start="352" other_end="528" strand="1" />
+      </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000161970.13">
+        <gene source="Ensembl" accession="ENSG00000161970.14">
           <symbol source="HGNC" name="RPL26" />
           <coordinates coord_system="LRG_1125" start="4998" end="10732" strand="1" mapped_from="GRCh38" />
           <long_name>ribosomal protein L26 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="603704" />
           <db_xref source="GeneID" accession="6154" />
           <db_xref source="HGNC" accession="10327">
             <synonym>L26</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="603704" />
           <db_xref source="Ensembl" accession="ENSG00000161970" />
           <transcript source="Ensembl" accession="ENST00000293842.10" fixed_id="t1">
             <coordinates coord_system="LRG_1125" start="4998" end="10732" strand="1" mapped_from="GRCh38" />
@@ -327,8 +333,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000293842.5" fixed_id="p1">
               <coordinates coord_system="LRG_1125" start="5938" end="10684" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P61254" />
               <db_xref source="RefSeq" accession="NP_000978.1" />
+              <db_xref source="UniProtKB" accession="P61254" />
               <db_xref source="CCDS" accession="CCDS11142.1" />
             </protein_product>
           </transcript>
@@ -351,6 +357,25 @@
               <coordinates coord_system="LRG_1125" start="5938" end="10684" strand="1" mapped_from="GRCh38" />
               <db_xref source="UniProtKB" accession="P61254" />
               <db_xref source="CCDS" accession="CCDS11142.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000648839.1" fixed_id="t1">
+            <coordinates coord_system="LRG_1125" start="5055" end="10732" strand="1" mapped_from="GRCh38" />
+            <long_name>RPL26-214 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002728802">
+              <coordinates coord_system="LRG_1125" start="5055" end="5091" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003527039">
+              <coordinates coord_system="LRG_1125" start="5933" end="6105" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003572151">
+              <coordinates coord_system="LRG_1125" start="8312" end="8452" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001278148">
+              <coordinates coord_system="LRG_1125" start="10556" end="10732" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000498177.1" fixed_id="p1">
+              <coordinates coord_system="LRG_1125" start="5938" end="10684" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000578812.5">
@@ -413,8 +438,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000463470.1">
               <coordinates coord_system="LRG_1125" start="5938" end="10684" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P61254" />
               <db_xref source="RefSeq" accession="NP_001302460.1" />
+              <db_xref source="UniProtKB" accession="P61254" />
               <db_xref source="CCDS" accession="CCDS11142.1" />
             </protein_product>
           </transcript>
@@ -436,8 +461,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000463784.1">
               <coordinates coord_system="LRG_1125" start="5938" end="10684" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P61254" />
               <db_xref source="RefSeq" accession="NP_001302459.1" />
+              <db_xref source="UniProtKB" accession="P61254" />
               <db_xref source="CCDS" accession="CCDS11142.1" />
             </protein_product>
           </transcript>
@@ -533,7 +558,7 @@
           <symbol source="Clone_based_ensembl_gene" name="AC135178.2" />
           <coordinates coord_system="LRG_1125" start="5061" end="12732" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>AC135178.2 (protein_coding)</long_name>
+          <long_name>novel transcript (protein_coding)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000263809" />
           <transcript source="Ensembl" accession="ENST00000582471.1">
             <coordinates coord_system="LRG_1125" start="5061" end="12732" strand="1" mapped_from="GRCh38" />
@@ -560,7 +585,7 @@
           <symbol source="Clone_based_ensembl_gene" name="AC135178.3" />
           <coordinates coord_system="LRG_1125" start="6920" end="12732" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>AC135178.3 (antisense)</long_name>
+          <long_name>novel transcript, antisense to KRBA2 and RPL26 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000265749" />
           <transcript source="Ensembl" accession="ENST00000579904.5">
             <coordinates coord_system="LRG_1125" start="6920" end="12238" strand="-1" mapped_from="GRCh38" />
@@ -591,7 +616,7 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000184619.4">
+        <gene source="Ensembl" accession="ENSG00000184619.5">
           <symbol source="HGNC" name="KRBA2" />
           <coordinates coord_system="LRG_1125" start="11537" end="12732" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
@@ -606,6 +631,17 @@
             <db_xref source="RefSeq" accession="NM_001304947.1" />
             <exon source="Ensembl" accession="ENSE00001524439">
               <coordinates coord_system="LRG_1125" start="11537" end="12348" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000649935.1">
+            <coordinates coord_system="LRG_1125" start="11567" end="12732" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>KRBA2-205 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003838307">
+              <coordinates coord_system="LRG_1125" start="11567" end="12208" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003836029">
+              <coordinates coord_system="LRG_1125" start="12269" end="12348" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000647210.1">

@@ -139,19 +139,23 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000340057.1" other_name="ENST00000340057.1" other_id="ENST00000340057.1" other_start="1" other_end="1859" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5072" other_start="1" other_end="72" strand="1" />
         <mapping_span lrg_start="6217" lrg_end="6419" other_start="73" other_end="275" strand="1" />
         <mapping_span lrg_start="7669" lrg_end="9252" other_start="276" other_end="1859" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000648244.1" other_name="ENST00000648244.1" other_id="ENST00000648244.1" other_start="1" other_end="1871" type="transcript">
+        <mapping_span lrg_start="4989" lrg_end="5072" other_start="1" other_end="84" strand="1" />
+        <mapping_span lrg_start="6217" lrg_end="6419" other_start="85" other_end="287" strand="1" />
+        <mapping_span lrg_start="7669" lrg_end="9252" other_start="288" other_end="1871" strand="1" />
+      </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000112115.5">
+        <gene source="Ensembl" accession="ENSG00000112115.6">
           <symbol source="HGNC" name="IL17A" />
-          <coordinates coord_system="LRG_1223" start="5001" end="9252" strand="1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_1223" start="4989" end="9252" strand="1" mapped_from="GRCh38" />
           <long_name>interleukin 17A (protein_coding)</long_name>
-          <db_xref source="MIM" accession="603149" />
           <db_xref source="GeneID" accession="3605" />
           <db_xref source="HGNC" accession="5981">
             <synonym>CTLA8</synonym>
@@ -159,7 +163,24 @@
             <synonym>IL-17A</synonym>
             <synonym>IL17</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="603149" />
           <db_xref source="Ensembl" accession="ENSG00000112115" />
+          <transcript source="Ensembl" accession="ENST00000648244.1" fixed_id="t1">
+            <coordinates coord_system="LRG_1223" start="4989" end="9252" strand="1" mapped_from="GRCh38" />
+            <long_name>IL17A-202 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003839145">
+              <coordinates coord_system="LRG_1223" start="4989" end="5072" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000756110">
+              <coordinates coord_system="LRG_1223" start="6217" end="6419" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001391383">
+              <coordinates coord_system="LRG_1223" start="7669" end="9252" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000497968.1" fixed_id="p1">
+              <coordinates coord_system="LRG_1223" start="5046" end="7906" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000340057.1" fixed_id="t1">
             <coordinates coord_system="LRG_1223" start="5001" end="9252" strand="1" mapped_from="GRCh38" />
             <long_name>IL17A-201 (protein_coding)</long_name>
@@ -175,8 +196,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000344192.1" fixed_id="p1">
               <coordinates coord_system="LRG_1223" start="5046" end="7906" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="Q16552" />
               <db_xref source="RefSeq" accession="NP_002181.1" />
+              <db_xref source="UniProtKB" accession="Q16552" />
               <db_xref source="CCDS" accession="CCDS4937.1" />
             </protein_product>
           </transcript>

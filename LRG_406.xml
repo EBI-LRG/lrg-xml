@@ -561,7 +561,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000016171.5" other_name="ENST00000016171.5" other_id="ENST00000016171.5" other_start="1" other_end="2356" type="transcript">
         <mapping_span lrg_start="5567" lrg_end="5707" other_start="1" other_end="141" strand="1" />
@@ -596,11 +596,11 @@
           <partial>5-prime</partial>
           <partial>3-prime</partial>
           <long_name>cutC copper transporter (protein_coding)</long_name>
-          <db_xref source="MIM" accession="610101" />
           <db_xref source="GeneID" accession="51076" />
           <db_xref source="HGNC" accession="24271">
             <synonym>CGI-32</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="610101" />
           <db_xref source="Ensembl" accession="ENSG00000119929" />
           <transcript source="Ensembl" accession="ENST00000493385.5">
             <coordinates coord_system="LRG_406" start="1" end="30919" strand="-1" mapped_from="GRCh38" />
@@ -628,8 +628,8 @@
             <protein_product source="Ensembl" accession="ENSP00000359507.5">
               <coordinates coord_system="LRG_406" start="1" end="5318" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="UniProtKB" accession="Q9NTM9" />
               <db_xref source="RefSeq" accession="NP_057044.2" />
+              <db_xref source="UniProtKB" accession="Q9NTM9" />
               <db_xref source="CCDS" accession="CCDS7483.1" />
             </protein_product>
           </transcript>
@@ -660,15 +660,54 @@
             </exon>
           </transcript>
         </gene>
+        <gene source="Ensembl" accession="ENSG00000285932.1">
+          <symbol source="Clone_based_ensembl_gene" name="AL133353.2" />
+          <coordinates coord_system="LRG_406" start="5555" end="30919" strand="1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>novel transcript (protein_coding)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000285932" />
+          <transcript source="Ensembl" accession="ENST00000649102.1">
+            <coordinates coord_system="LRG_406" start="5555" end="30919" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>AL133353.2-201 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003837471">
+              <coordinates coord_system="LRG_406" start="5555" end="5707" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003835996">
+              <coordinates coord_system="LRG_406" start="7933" end="8114" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003833006">
+              <coordinates coord_system="LRG_406" start="10104" end="10226" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003833213">
+              <coordinates coord_system="LRG_406" start="10596" end="10699" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003838588">
+              <coordinates coord_system="LRG_406" start="13544" end="13711" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003834333">
+              <coordinates coord_system="LRG_406" start="16599" end="16680" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003837817">
+              <coordinates coord_system="LRG_406" start="19167" end="19321" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003833427">
+              <coordinates coord_system="LRG_406" start="21206" end="21319" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000497114.1">
+              <coordinates coord_system="LRG_406" start="5618" end="13602" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000014919.12">
           <symbol source="HGNC" name="COX15" />
           <coordinates coord_system="LRG_406" start="5567" end="25823" strand="1" mapped_from="GRCh38" />
-          <long_name>COX15, cytochrome c oxidase assembly homolog (protein_coding)</long_name>
-          <db_xref source="MIM" accession="603646" />
+          <long_name>cytochrome c oxidase assembly homolog COX15 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="1355" />
           <db_xref source="HGNC" accession="2263">
             <synonym>CEMCOX2</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="603646" />
           <db_xref source="Ensembl" accession="ENSG00000014919" />
           <transcript source="Ensembl" accession="ENST00000370483.9" fixed_id="t2">
             <coordinates coord_system="LRG_406" start="5567" end="25823" strand="1" mapped_from="GRCh38" />
@@ -706,10 +745,10 @@
             <protein_product source="Ensembl" accession="ENSP00000359514.5" fixed_id="p2">
               <coordinates coord_system="LRG_406" start="5618" end="24253" strand="1" mapped_from="GRCh38" />
               <long_name>cytochrome c oxidase assembly protein COX15 homolog isoform 2, cytochrome c oxidase assembly protein COX15 homolog isoform 3</long_name>
-              <db_xref source="UniProtKB" accession="Q7KZN9" />
-              <db_xref source="RefSeq" accession="NP_004367.2" />
               <db_xref source="RefSeq" accession="NP_001307903.1" />
               <db_xref source="RefSeq" accession="NP_001307904.1" />
+              <db_xref source="RefSeq" accession="NP_004367.2" />
+              <db_xref source="UniProtKB" accession="Q7KZN9" />
               <db_xref source="CCDS" accession="CCDS7481.1" />
             </protein_product>
           </transcript>
@@ -748,15 +787,15 @@
             <protein_product source="Ensembl" accession="ENSP00000016171.5" fixed_id="p1">
               <coordinates coord_system="LRG_406" start="5618" end="23080" strand="1" mapped_from="GRCh38" />
               <long_name>cytochrome c oxidase assembly protein COX15 homolog isoform 4</long_name>
-              <db_xref source="UniProtKB" accession="Q7KZN9" />
-              <db_xref source="RefSeq" accession="NP_510870.1" />
               <db_xref source="RefSeq" accession="NP_001307905.1" />
+              <db_xref source="RefSeq" accession="NP_510870.1" />
+              <db_xref source="UniProtKB" accession="Q7KZN9" />
               <db_xref source="CCDS" accession="CCDS7482.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000497381.1">
             <coordinates coord_system="LRG_406" start="21021" end="23015" strand="1" mapped_from="GRCh38" />
-            <long_name>COX15-203 (processed_transcript)</long_name>
+            <long_name>COX15-203 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00001849399">
               <coordinates coord_system="LRG_406" start="21021" end="21319" strand="1" mapped_from="GRCh38" />
             </exon>

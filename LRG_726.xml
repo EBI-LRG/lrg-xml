@@ -426,7 +426,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000376486.3" other_name="ENST00000376486.3" other_id="ENST00000376486.3" other_start="1" other_end="875" type="transcript">
         <mapping_span lrg_start="5041" lrg_end="5216" other_start="1" other_end="176" strand="1" />
@@ -501,10 +501,19 @@
         <mapping_span lrg_start="7975" lrg_end="8223" other_start="591" other_end="839" strand="1" />
         <mapping_span lrg_start="9705" lrg_end="9899" other_start="840" other_end="1034" strand="1" />
       </mapping>
-      <mapping coord_system="ENST00000423400.6" other_name="ENST00000423400.6" other_id="ENST00000423400.6" other_start="1" other_end="479" type="transcript">
+      <mapping coord_system="ENST00000423400.7" other_name="ENST00000423400.7" other_id="ENST00000423400.7" other_start="1" other_end="2715" type="transcript">
         <mapping_span lrg_start="7578" lrg_end="7699" other_start="1" other_end="122" strand="1" />
         <mapping_span lrg_start="7978" lrg_end="8223" other_start="123" other_end="368" strand="1" />
-        <mapping_span lrg_start="9705" lrg_end="9815" other_start="369" other_end="479" strand="1" />
+        <mapping_span lrg_start="9705" lrg_end="9943" other_start="369" other_end="607" strand="1" />
+        <mapping_span lrg_start="10782" lrg_end="10892" other_start="608" other_end="718" strand="1" />
+        <mapping_span lrg_start="14705" lrg_end="14898" other_start="719" other_end="912" strand="1" />
+        <mapping_span lrg_start="15756" lrg_end="16006" other_start="913" other_end="1163" strand="1" />
+        <mapping_span lrg_start="16241" lrg_end="16375" other_start="1164" other_end="1298" strand="1" />
+        <mapping_span lrg_start="16566" lrg_end="16746" other_start="1299" other_end="1479" strand="1" />
+        <mapping_span lrg_start="17015" lrg_end="17197" other_start="1480" other_end="1662" strand="1" />
+        <mapping_span lrg_start="18725" lrg_end="18826" other_start="1663" other_end="1764" strand="1" />
+        <mapping_span lrg_start="19778" lrg_end="19897" other_start="1765" other_end="1884" strand="1" />
+        <mapping_span lrg_start="20206" lrg_end="21036" other_start="1885" other_end="2715" strand="1" />
       </mapping>
       <mapping coord_system="ENST00000431243.6" other_name="ENST00000431243.6" other_id="ENST00000431243.6" other_start="1" other_end="1116" type="transcript">
         <mapping_span lrg_start="5691" lrg_end="5724" other_start="1" other_end="34" strand="1" />
@@ -611,17 +620,18 @@
         <mapping_span lrg_start="9688" lrg_end="9771" other_start="466" other_end="549" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000011021.21">
+        <gene source="Ensembl" accession="ENSG00000011021.22">
           <symbol source="HGNC" name="CLCN6" />
           <coordinates coord_system="LRG_726" start="1" end="5008" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>chloride voltage-gated channel 6 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="602726" />
           <db_xref source="GeneID" accession="1185" />
+          <db_xref source="GeneID" accession="100379251" />
           <db_xref source="HGNC" accession="2024">
             <synonym>CLC-6</synonym>
             <synonym>KIAA0046</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="602726" />
           <db_xref source="Ensembl" accession="ENSG00000011021" />
           <transcript source="Ensembl" accession="ENST00000346436.10">
             <coordinates coord_system="LRG_726" start="1" end="4893" strand="-1" mapped_from="GRCh38" />
@@ -639,22 +649,33 @@
               <coordinates coord_system="LRG_726" start="1" end="4841" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
               <long_name>chloride transport protein 6 isoform 1</long_name>
-              <db_xref source="UniProtKB" accession="P51797" />
               <db_xref source="RefSeq" accession="NP_001277.1" />
+              <db_xref source="UniProtKB" accession="P51797" />
               <db_xref source="CCDS" accession="CCDS138.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000376497.7">
             <coordinates coord_system="LRG_726" start="1" end="4891" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>CLCN6-207 (protein_coding)</long_name>
+            <long_name>CLCN6-207 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00001918756">
               <coordinates coord_system="LRG_726" start="4755" end="4891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003681569">
+              <coordinates coord_system="LRG_726" start="3914" end="3973" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000400892.3">
+            <coordinates coord_system="LRG_726" start="1" end="4873" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>CLCN6-208 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003839061">
+              <coordinates coord_system="LRG_726" start="4755" end="4873" strand="-1" mapped_from="GRCh38" />
             </exon>
             <exon source="Ensembl" accession="ENSE00003561762">
               <coordinates coord_system="LRG_726" start="3914" end="3973" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000365680.3">
+            <protein_product source="Ensembl" accession="ENSP00000496938.1">
               <coordinates coord_system="LRG_726" start="1" end="4841" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
             </protein_product>
@@ -723,19 +744,19 @@
               <coordinates coord_system="LRG_726" start="1" end="4841" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
               <long_name>chloride transport protein 6 isoform 2</long_name>
-              <db_xref source="UniProtKB" accession="P51797" />
               <db_xref source="RefSeq" accession="NP_001243888.1" />
+              <db_xref source="UniProtKB" accession="P51797" />
               <db_xref source="CCDS" accession="CCDS57972.1" />
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000177000.11">
+        <gene source="Ensembl" accession="ENSG00000177000.12">
           <symbol source="HGNC" name="MTHFR" />
           <coordinates coord_system="LRG_726" start="4184" end="25381" strand="1" mapped_from="GRCh38" />
           <long_name>methylenetetrahydrofolate reductase (protein_coding)</long_name>
-          <db_xref source="MIM" accession="607093" />
           <db_xref source="GeneID" accession="4524" />
           <db_xref source="HGNC" accession="7436" />
+          <db_xref source="MIM" accession="607093" />
           <db_xref source="Ensembl" accession="ENSG00000177000" />
           <transcript source="Ensembl" accession="ENST00000376590.8" fixed_id="t1">
             <coordinates coord_system="LRG_726" start="4184" end="24501" strand="1" mapped_from="GRCh38" />
@@ -779,8 +800,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000365775.3" fixed_id="p1">
               <coordinates coord_system="LRG_726" start="7988" end="20424" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="P42898" />
               <db_xref source="RefSeq" accession="NP_005948.3" />
+              <db_xref source="UniProtKB" accession="P42898" />
               <db_xref source="CCDS" accession="CCDS137.1" />
             </protein_product>
           </transcript>
@@ -1024,8 +1045,8 @@
             <protein_product source="Ensembl" accession="ENSP00000365770.1">
               <coordinates coord_system="LRG_726" start="7590" end="20424" strand="1" mapped_from="GRCh38" />
               <long_name>methylenetetrahydrofolate reductase isoform 1</long_name>
-              <db_xref source="UniProtKB" accession="P42898" />
               <db_xref source="RefSeq" accession="NP_001317287.1" />
+              <db_xref source="UniProtKB" accession="P42898" />
               <db_xref source="CCDS" accession="CCDS81262.1" />
             </protein_product>
           </transcript>
@@ -1095,6 +1116,49 @@
               <coordinates coord_system="LRG_726" start="20388" end="21063" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000423400.7">
+            <coordinates coord_system="LRG_726" start="7578" end="21036" strand="1" mapped_from="GRCh38" />
+            <long_name>MTHFR-208 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003813139">
+              <coordinates coord_system="LRG_726" start="7578" end="7699" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003811820">
+              <coordinates coord_system="LRG_726" start="7978" end="8223" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001225848">
+              <coordinates coord_system="LRG_726" start="9705" end="9943" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001225838">
+              <coordinates coord_system="LRG_726" start="10782" end="10892" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001225832">
+              <coordinates coord_system="LRG_726" start="14705" end="14898" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001225825">
+              <coordinates coord_system="LRG_726" start="15756" end="16006" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001225817">
+              <coordinates coord_system="LRG_726" start="16241" end="16375" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001225813">
+              <coordinates coord_system="LRG_726" start="16566" end="16746" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001225805">
+              <coordinates coord_system="LRG_726" start="17015" end="17197" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001225797">
+              <coordinates coord_system="LRG_726" start="18725" end="18826" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001225788">
+              <coordinates coord_system="LRG_726" start="19778" end="19897" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003835164">
+              <coordinates coord_system="LRG_726" start="20206" end="21036" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000398908.3">
+              <coordinates coord_system="LRG_726" start="7590" end="20424" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000641759.1">
             <coordinates coord_system="LRG_726" start="7578" end="20538" strand="1" mapped_from="GRCh38" />
             <long_name>MTHFR-215 (retained_intron)</long_name>
@@ -1142,22 +1206,6 @@
               <coordinates coord_system="LRG_726" start="9705" end="11312" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000423400.6">
-            <coordinates coord_system="LRG_726" start="7578" end="9815" strand="1" mapped_from="GRCh38" />
-            <long_name>MTHFR-208 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003813139">
-              <coordinates coord_system="LRG_726" start="7578" end="7699" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003811820">
-              <coordinates coord_system="LRG_726" start="7978" end="8223" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003814178">
-              <coordinates coord_system="LRG_726" start="9705" end="9815" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000398908.2">
-              <coordinates coord_system="LRG_726" start="7590" end="9815" strand="1" mapped_from="GRCh38" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000376583.7">
             <coordinates coord_system="LRG_726" start="7590" end="25374" strand="1" mapped_from="GRCh38" />
             <long_name>MTHFR-202 (protein_coding)</long_name>
@@ -1200,8 +1248,8 @@
             <protein_product source="Ensembl" accession="ENSP00000365767.3">
               <coordinates coord_system="LRG_726" start="7590" end="20424" strand="1" mapped_from="GRCh38" />
               <long_name>methylenetetrahydrofolate reductase isoform 1</long_name>
-              <db_xref source="UniProtKB" accession="P42898" />
               <db_xref source="RefSeq" accession="NP_001317287.1" />
+              <db_xref source="UniProtKB" accession="P42898" />
               <db_xref source="CCDS" accession="CCDS81262.1" />
             </protein_product>
           </transcript>
@@ -1383,8 +1431,8 @@
               <coordinates coord_system="LRG_726" start="21658" end="27374" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <long_name>uncharacterized protein C1orf167</long_name>
-              <db_xref source="UniProtKB" accession="Q5SNV9" />
               <db_xref source="RefSeq" accession="NP_001010881.1" />
+              <db_xref source="UniProtKB" accession="Q5SNV9" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000444493.5">

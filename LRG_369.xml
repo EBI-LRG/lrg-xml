@@ -679,7 +679,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000303354.11" other_name="ENST00000303354.11" other_id="ENST00000303354.11" other_start="1" other_end="9698" type="transcript">
         <mapping_span lrg_start="5087" lrg_end="5284" other_start="1" other_end="198" strand="1" />
@@ -929,7 +929,6 @@
           <symbol source="HGNC" name="SCN9A" />
           <coordinates coord_system="LRG_369" start="4987" end="185803" strand="1" mapped_from="GRCh38" />
           <long_name>sodium voltage-gated channel alpha subunit 9 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="603415" />
           <db_xref source="GeneID" accession="6335" />
           <db_xref source="HGNC" accession="10597">
             <synonym>ETHA</synonym>
@@ -938,6 +937,7 @@
             <synonym>NENA</synonym>
             <synonym>PN1</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="603415" />
           <db_xref source="Ensembl" accession="ENSG00000169432" />
           <transcript source="Ensembl" accession="ENST00000472119.2">
             <coordinates coord_system="LRG_369" start="4987" end="78925" strand="1" mapped_from="GRCh38" />
@@ -1052,8 +1052,8 @@
             <protein_product source="Ensembl" accession="ENSP00000386306.1">
               <coordinates coord_system="LRG_369" start="69232" end="182316" strand="1" mapped_from="GRCh38" />
               <long_name>sodium channel protein type 9 subunit alpha</long_name>
-              <db_xref source="UniProtKB" accession="Q15858" />
               <db_xref source="RefSeq" accession="NP_002968.1" />
+              <db_xref source="UniProtKB" accession="Q15858" />
               <db_xref source="CCDS" accession="CCDS46441.1" />
             </protein_product>
           </transcript>
@@ -1235,6 +1235,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000495601.1">
               <coordinates coord_system="LRG_369" start="69232" end="182316" strand="1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="Q15858" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000303354.11">
@@ -1412,6 +1413,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000495983.1">
               <coordinates coord_system="LRG_369" start="69232" end="182316" strand="1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="Q15858" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000644316.1">
@@ -1638,11 +1640,13 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000236107.7">
+        <gene source="Ensembl" accession="ENSG00000236107.8">
           <symbol source="Clone_based_ensembl_gene" name="AC010127.1" />
           <coordinates coord_system="LRG_369" start="79204" end="187803" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>AC010127.1 (antisense)</long_name>
+          <long_name>uncharacterized LOC102724058 [Source:NCBI gene;Acc:102724058] (antisense)</long_name>
+          <db_xref source="GeneID" accession="101929680" />
+          <db_xref source="GeneID" accession="102724058" />
           <db_xref source="Ensembl" accession="ENSG00000236107" />
           <transcript source="Ensembl" accession="ENST00000447809.2">
             <coordinates coord_system="LRG_369" start="79204" end="187803" strand="-1" mapped_from="GRCh38" />
@@ -1675,6 +1679,29 @@
             </exon>
             <exon source="Ensembl" accession="ENSE00001595034">
               <coordinates coord_system="LRG_369" start="79204" end="80057" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000630020.2">
+            <coordinates coord_system="LRG_369" start="86400" end="187803" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>AC010127.1-213 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00001736129">
+              <coordinates coord_system="LRG_369" start="181170" end="181349" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001676173">
+              <coordinates coord_system="LRG_369" start="132712" end="132793" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001776452">
+              <coordinates coord_system="LRG_369" start="131604" end="131645" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003832099">
+              <coordinates coord_system="LRG_369" start="129076" end="129154" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001628603">
+              <coordinates coord_system="LRG_369" start="103741" end="103900" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003836660">
+              <coordinates coord_system="LRG_369" start="86400" end="86423" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
         </gene>

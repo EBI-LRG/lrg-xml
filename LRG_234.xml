@@ -814,7 +814,7 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 93 (GRCh38  primary assembly)</comment>
+      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
       <modification_date>2018-10-03</modification_date>
       <mapping coord_system="ENST00000349830.7" other_name="ENST00000349830.7" other_id="ENST00000349830.7" other_start="1" other_end="5590" type="transcript">
         <mapping_span lrg_start="4994" lrg_end="5131" other_start="1" other_end="138" strand="1" />
@@ -1058,15 +1058,16 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000283239.1">
-          <symbol source="Clone_based_ensembl_gene" name="AC019257.8" />
+          <symbol source="EntrezGene" name="KBTBD11-OT1" />
           <coordinates coord_system="LRG_234" start="1" end="139645" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>AC019257.8 (protein_coding)</long_name>
+          <long_name>KBTBD11 overlapping transcript 1 [Source:NCBI gene;Acc:104266957] (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="104266957" />
           <db_xref source="Ensembl" accession="ENSG00000283239" />
           <transcript source="Ensembl" accession="ENST00000635855.1">
             <coordinates coord_system="LRG_234" start="1" end="139645" strand="1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>AC019257.8-201 (nonsense_mediated_decay)</long_name>
+            <long_name>KBTBD11-OT1-204 (nonsense_mediated_decay)</long_name>
             <exon source="Ensembl" accession="ENSE00003794753">
               <coordinates coord_system="LRG_234" start="24371" end="24454" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1159,7 +1160,7 @@
           <transcript source="Ensembl" accession="ENST00000635773.1">
             <coordinates coord_system="LRG_234" start="1" end="139562" strand="1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>AC019257.8-202 (nonsense_mediated_decay)</long_name>
+            <long_name>KBTBD11-OT1-203 (nonsense_mediated_decay)</long_name>
             <exon source="Ensembl" accession="ENSE00003799031">
               <coordinates coord_system="LRG_234" start="38978" end="39133" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1249,7 +1250,7 @@
           <transcript source="Ensembl" accession="ENST00000636175.1">
             <coordinates coord_system="LRG_234" start="1" end="51238" strand="1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>AC019257.8-203 (nonsense_mediated_decay)</long_name>
+            <long_name>KBTBD11-OT1-205 (nonsense_mediated_decay)</long_name>
             <exon source="Ensembl" accession="ENSE00003794753">
               <coordinates coord_system="LRG_234" start="24371" end="24454" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1278,12 +1279,12 @@
           <symbol source="HGNC" name="ARHGEF10" />
           <coordinates coord_system="LRG_234" start="4994" end="139659" strand="1" mapped_from="GRCh38" />
           <long_name>Rho guanine nucleotide exchange factor 10 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="608136" />
           <db_xref source="GeneID" accession="9639" />
           <db_xref source="HGNC" accession="14103">
             <synonym>Gef10</synonym>
             <synonym>KIAA0294</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="608136" />
           <db_xref source="Ensembl" accession="ENSG00000104728" />
           <transcript source="Ensembl" accession="ENST00000349830.7">
             <coordinates coord_system="LRG_234" start="4994" end="139651" strand="1" mapped_from="GRCh38" />
@@ -1378,8 +1379,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000340297.3">
               <coordinates coord_system="LRG_234" start="24418" end="138281" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="O15013" />
               <db_xref source="RefSeq" accession="NP_055444.2" />
+              <db_xref source="UniProtKB" accession="O15013" />
               <db_xref source="CCDS" accession="CCDS34794.1" />
             </protein_product>
           </transcript>
@@ -1473,8 +1474,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000427909.1">
               <coordinates coord_system="LRG_234" start="24418" end="138281" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="O15013" />
               <db_xref source="RefSeq" accession="NP_001295081.1" />
+              <db_xref source="UniProtKB" accession="O15013" />
               <db_xref source="CCDS" accession="CCDS78297.1" />
             </protein_product>
           </transcript>
@@ -1574,8 +1575,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000431012.1">
               <coordinates coord_system="LRG_234" start="7129" end="138281" strand="1" mapped_from="GRCh38" />
-              <db_xref source="UniProtKB" accession="O15013" />
               <db_xref source="RefSeq" accession="NP_001295082.1" />
+              <db_xref source="UniProtKB" accession="O15013" />
               <db_xref source="CCDS" accession="CCDS78296.1" />
             </protein_product>
           </transcript>
@@ -1974,6 +1975,21 @@
             </exon>
             <exon source="Ensembl" accession="ENSE00002139981">
               <coordinates coord_system="LRG_234" start="137767" end="138223" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000285957.1">
+          <symbol source="Clone_based_ensembl_gene" name="AC019257.7" />
+          <coordinates coord_system="LRG_234" start="138939" end="141659" strand="-1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <long_name>novel transcript, antisense to ARHGEF10 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000285957" />
+          <transcript source="Ensembl" accession="ENST00000650061.1">
+            <coordinates coord_system="LRG_234" start="138939" end="141659" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>AC019257.7-201 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00003837687">
+              <coordinates coord_system="LRG_234" start="138939" end="141594" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
         </gene>
