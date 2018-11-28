@@ -63,7 +63,7 @@
           <email>oxford.dnalab@nhs.net</email>
         </contact>
       </source>
-      <modification_date>2018-11-26</modification_date>
+      <modification_date>2018-11-28</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -75,7 +75,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-11-26</modification_date>
+      <modification_date>2018-11-28</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_id_syn="CM000665.1" other_start="49394569" other_end="49454530" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="59962" other_start="49394569" other_end="49454530" strand="-1" />
       </mapping>
@@ -95,7 +95,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_051308.1</comment>
-      <modification_date>2018-11-22</modification_date>
+      <modification_date>2018-11-27</modification_date>
       <mapping coord_system="NM_001313941.1" other_name="NM_001313941.1" other_id="NM_001313941.1" other_start="1" other_end="2030" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5278" other_start="1" other_end="278" strand="1" />
         <mapping_span lrg_start="10292" lrg_end="10386" other_start="279" other_end="373" strand="1" />
@@ -143,6 +143,13 @@
         <mapping_span lrg_start="48550" lrg_end="48670" other_start="437" other_end="557" strand="1" />
         <mapping_span lrg_start="54472" lrg_end="54602" other_start="558" other_end="688" strand="1" />
         <mapping_span lrg_start="56716" lrg_end="57962" other_start="689" other_end="1935" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001664.4" other_name="NM_001664.4" other_id="NM_001664.4" other_start="1" other_end="1805" type="transcript">
+        <mapping_span lrg_start="5122" lrg_end="5278" other_start="1" other_end="157" strand="1" />
+        <mapping_span lrg_start="41507" lrg_end="41664" other_start="158" other_end="315" strand="1" />
+        <mapping_span lrg_start="48550" lrg_end="48670" other_start="316" other_end="436" strand="1" />
+        <mapping_span lrg_start="54472" lrg_end="54602" other_start="437" other_end="567" strand="1" />
+        <mapping_span lrg_start="56716" lrg_end="57953" other_start="568" other_end="1805" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="275">
@@ -348,6 +355,7 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_001655.1" fixed_id="p1">
               <coordinates coord_system="LRG_1085" start="41509" end="56889" strand="1" />
+              <long_name>transforming protein RhoA isoform 1 precursor</long_name>
               <db_xref source="CCDS" accession="CCDS2795.1" />
               <db_xref source="GeneID" accession="387" />
               <db_xref source="GI" accession="10835049" />
@@ -453,6 +461,34 @@
               <db_xref source="GI" accession="927669110" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_001664.4">
+            <coordinates coord_system="LRG_1085" start="5122" end="57953" strand="1" />
+            <long_name>ras homolog family member A, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="387" />
+            <db_xref source="GI" accession="1519243696" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1085" start="5122" end="5278" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1085" start="41507" end="41664" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1085" start="48550" end="48670" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1085" start="54472" end="54602" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1085" start="56716" end="57953" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001655.1">
+              <coordinates coord_system="LRG_1085" start="41509" end="56889" strand="1" />
+              <long_name>transforming protein RhoA isoform 1 precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS2795.1" />
+              <db_xref source="GeneID" accession="387" />
+              <db_xref source="GI" accession="10835049" />
+            </protein_product>
+          </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="2876">
           <symbol source="HGNC" name="GPX1">
@@ -520,24 +556,6 @@
               <db_xref source="GI" accession="1043572679" />
             </protein_product>
           </transcript>
-          <transcript source="RefSeq" accession="NM_000581.3">
-            <coordinates coord_system="LRG_1085" start="58498" end="59927" strand="1" />
-            <long_name>glutathione peroxidase 1, transcript variant 1</long_name>
-            <db_xref source="GeneID" accession="2876" />
-            <db_xref source="GI" accession="1043572674" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1085" start="58498" end="59071" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1085" start="59351" end="59927" strand="1" />
-            </exon>
-            <protein_product source="RefSeq" accession="NP_000572.2" codon_start="1">
-              <coordinates coord_system="LRG_1085" start="58820" end="59710" strand="1" />
-              <db_xref source="CCDS" accession="CCDS43091.1" />
-              <db_xref source="GeneID" accession="2876" />
-              <db_xref source="GI" accession="41406084" />
-            </protein_product>
-          </transcript>
           <transcript source="RefSeq" accession="NM_001329455.1">
             <coordinates coord_system="LRG_1085" start="58498" end="59927" strand="1" />
             <long_name>glutathione peroxidase 1, transcript variant 5</long_name>
@@ -556,6 +574,24 @@
               <db_xref source="GI" accession="1043572717" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_000581.4">
+            <coordinates coord_system="LRG_1085" start="58745" end="59922" strand="1" />
+            <long_name>glutathione peroxidase 1, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="2876" />
+            <db_xref source="GI" accession="1519244506" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1085" start="58745" end="59071" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1085" start="59351" end="59922" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000572.2" codon_start="1">
+              <coordinates coord_system="LRG_1085" start="58820" end="59710" strand="1" />
+              <db_xref source="CCDS" accession="CCDS43091.1" />
+              <db_xref source="GeneID" accession="2876" />
+              <db_xref source="GI" accession="41406084" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -570,7 +606,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-11-26</modification_date>
+      <modification_date>2018-11-28</modification_date>
       <mapping coord_system="ENST00000265538.3" other_name="ENST00000265538.3" other_id="ENST00000265538.3" other_start="1" other_end="388" type="transcript">
         <mapping_span lrg_start="4100" lrg_end="4114" other_start="1" other_end="15" strand="1" />
         <mapping_span lrg_start="4496" lrg_end="4694" other_start="16" other_end="214" strand="1" />
@@ -1468,7 +1504,7 @@
         <name>List of locus specific databases for RHOA</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RHOA</url>
       </source>
-      <modification_date>2018-11-26</modification_date>
+      <modification_date>2018-11-28</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

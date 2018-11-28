@@ -65,7 +65,7 @@
           <email>ump@sundhedsdatastyrelsen.dk</email>
         </contact>
       </source>
-      <modification_date>2018-11-26</modification_date>
+      <modification_date>2018-11-28</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -77,7 +77,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-11-26</modification_date>
+      <modification_date>2018-11-28</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_id_syn="CM000671.1" other_start="132573221" other_end="132591441" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="18221" other_start="132573221" other_end="132591441" strand="-1" />
       </mapping>
@@ -97,13 +97,20 @@
         </contact>
       </source>
       <comment>Annotation from NG_008049.1</comment>
-      <modification_date>2018-11-22</modification_date>
+      <modification_date>2018-11-27</modification_date>
       <mapping coord_system="NM_000113.2" other_name="NM_000113.2" other_id="NM_000113.2" other_start="1" other_end="2106" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5255" other_start="1" other_end="255" strand="1" />
         <mapping_span lrg_start="6317" lrg_end="6582" other_start="256" other_end="521" strand="1" />
         <mapping_span lrg_start="10243" lrg_end="10418" other_start="522" other_end="697" strand="1" />
         <mapping_span lrg_start="10516" lrg_end="10643" other_start="698" other_end="825" strand="1" />
         <mapping_span lrg_start="14941" lrg_end="16221" other_start="826" other_end="2106" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_000113.3" other_name="NM_000113.3" other_id="NM_000113.3" other_start="1" other_end="2080" type="transcript">
+        <mapping_span lrg_start="5027" lrg_end="5255" other_start="1" other_end="229" strand="1" />
+        <mapping_span lrg_start="6317" lrg_end="6582" other_start="230" other_end="495" strand="1" />
+        <mapping_span lrg_start="10243" lrg_end="10418" other_start="496" other_end="671" strand="1" />
+        <mapping_span lrg_start="10516" lrg_end="10643" other_start="672" other_end="799" strand="1" />
+        <mapping_span lrg_start="14941" lrg_end="16221" other_start="800" other_end="2080" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="51759">
@@ -113,20 +120,20 @@
             <synonym>HCA59</synonym>
             <synonym>HSPC220</synonym>
           </symbol>
-          <coordinates coord_system="LRG_1029" start="1" end="1878" strand="1" />
+          <coordinates coord_system="LRG_1029" start="1" end="1873" strand="1" />
           <partial>5-prime</partial>
           <long_name>chromosome 9 open reading frame 78</long_name>
           <db_xref source="GeneID" accession="51759" />
           <db_xref source="HGNC" accession="HGNC:24932" />
           <db_xref source="CCDS" accession="CCDS6931.1" />
-          <transcript source="RefSeq" accession="NM_016520.2">
-            <coordinates coord_system="LRG_1029" start="911" end="1878" strand="1" />
+          <transcript source="RefSeq" accession="NM_016520.3">
+            <coordinates coord_system="LRG_1029" start="911" end="1873" strand="1" />
             <partial>5-prime</partial>
             <long_name>chromosome 9 open reading frame 78</long_name>
             <db_xref source="GeneID" accession="51759" />
-            <db_xref source="GI" accession="118498335" />
+            <db_xref source="GI" accession="1519244922" />
             <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1029" start="911" end="1878" strand="1" />
+              <coordinates coord_system="LRG_1029" start="911" end="1873" strand="1" />
               <partial>5-prime</partial>
             </exon>
             <protein_product source="RefSeq" accession="NP_057604.1" codon_start="3">
@@ -172,6 +179,35 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_000104.1" fixed_id="p1">
               <coordinates coord_system="LRG_1029" start="5078" end="15191" strand="1" />
+              <long_name>torsin-1A precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS6930.1" />
+              <db_xref source="GeneID" accession="1861" />
+              <db_xref source="GI" accession="4557541" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_000113.3">
+            <coordinates coord_system="LRG_1029" start="5027" end="16221" strand="1" />
+            <long_name>torsin family 1 member A</long_name>
+            <db_xref source="GeneID" accession="1861" />
+            <db_xref source="GI" accession="1519314288" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1029" start="5027" end="5255" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1029" start="6317" end="6582" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1029" start="10243" end="10418" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1029" start="10516" end="10643" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1029" start="14941" end="16221" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000104.1">
+              <coordinates coord_system="LRG_1029" start="5078" end="15191" strand="1" />
+              <long_name>torsin-1A precursor</long_name>
               <db_xref source="CCDS" accession="CCDS6930.1" />
               <db_xref source="GeneID" accession="1861" />
               <db_xref source="GI" accession="4557541" />
@@ -189,17 +225,6 @@
           <db_xref source="HGNC" accession="HGNC:11995" />
           <db_xref source="MIM" accession="608050" />
           <db_xref source="CCDS" accession="CCDS6929.1" />
-          <transcript source="RefSeq" accession="NM_014506.2">
-            <coordinates coord_system="LRG_1029" start="17874" end="18221" strand="-1" />
-            <partial>5-prime</partial>
-            <long_name>torsin family 1 member B, transcript variant 1</long_name>
-            <db_xref source="GeneID" accession="27348" />
-            <db_xref source="GI" accession="961513294" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1029" start="17874" end="18221" strand="-1" />
-              <partial>5-prime</partial>
-            </exon>
-          </transcript>
           <transcript source="RefSeq" accession="NM_001317893.1">
             <coordinates coord_system="LRG_1029" start="17874" end="18221" strand="-1" />
             <partial>5-prime</partial>
@@ -269,7 +294,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-11-26</modification_date>
+      <modification_date>2018-11-28</modification_date>
       <mapping coord_system="ENST00000351698.4" other_name="ENST00000351698.4" other_id="ENST00000351698.4" other_start="1" other_end="2076" type="transcript">
         <mapping_span lrg_start="5029" lrg_end="5255" other_start="1" other_end="227" strand="1" />
         <mapping_span lrg_start="6317" lrg_end="6582" other_start="228" other_end="493" strand="1" />
@@ -456,7 +481,7 @@
         <name>List of locus specific databases for TOR1A</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TOR1A</url>
       </source>
-      <modification_date>2018-11-26</modification_date>
+      <modification_date>2018-11-28</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -102,7 +102,7 @@
           <email>jill.storry@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2018-11-26</modification_date>
+      <modification_date>2018-11-28</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -114,7 +114,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-11-26</modification_date>
+      <modification_date>2018-11-28</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_id_syn="CM000669.1" other_start="100485615" other_end="100498753" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="13140" other_start="100485615" other_end="100498753" strand="-1">
           <diff type="lrg_ins" lrg_start="4532" lrg_end="4532" other_start="100494222" other_end="100494223" lrg_sequence="G" other_sequence="-" />
@@ -156,7 +156,7 @@ REFERENCES.
         </contact>
       </source>
       <comment>Annotation from NG_007474.2</comment>
-      <modification_date>2018-11-22</modification_date>
+      <modification_date>2018-11-27</modification_date>
       <mapping coord_system="NM_000665.4" other_name="NM_000665.4" other_id="NM_000665.4" other_start="1" other_end="2255" type="transcript">
         <mapping_span lrg_start="5163" lrg_end="5332" other_start="1" other_end="170" strand="1" />
         <mapping_span lrg_start="6882" lrg_end="7969" other_start="171" other_end="1258" strand="1" />
@@ -184,6 +184,13 @@ REFERENCES.
         <mapping_span lrg_start="8316" lrg_end="8800" other_start="1164" other_end="1648" strand="1" />
         <mapping_span lrg_start="9796" lrg_end="9965" other_start="1649" other_end="1818" strand="1" />
         <mapping_span lrg_start="10799" lrg_end="11140" other_start="1819" other_end="2160" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001302622.2" other_name="NM_001302622.2" other_id="NM_001302622.2" other_start="1" other_end="2156" type="transcript">
+        <mapping_span lrg_start="5005" lrg_end="5075" other_start="1" other_end="71" strand="1" />
+        <mapping_span lrg_start="6882" lrg_end="7969" other_start="72" other_end="1159" strand="1" />
+        <mapping_span lrg_start="8316" lrg_end="8800" other_start="1160" other_end="1644" strand="1" />
+        <mapping_span lrg_start="9796" lrg_end="9965" other_start="1645" other_end="1814" strand="1" />
+        <mapping_span lrg_start="10799" lrg_end="11140" other_start="1815" other_end="2156" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="43">
@@ -224,6 +231,35 @@ REFERENCES.
             </exon>
             <protein_product source="RefSeq" accession="NP_001289551.1" fixed_id="p2">
               <coordinates coord_system="LRG_804" start="6902" end="10920" strand="1" />
+              <long_name>acetylcholinesterase isoform E4-E6 precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS5709.1" />
+              <db_xref source="GeneID" accession="43" />
+              <db_xref source="GI" accession="705044511" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001302622.2">
+            <coordinates coord_system="LRG_804" start="5005" end="11140" strand="1" />
+            <long_name>acetylcholinesterase (Cartwright blood group), transcript variant 5</long_name>
+            <db_xref source="GeneID" accession="43" />
+            <db_xref source="GI" accession="1519241660" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_804" start="5005" end="5075" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_804" start="6882" end="7969" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_804" start="8316" end="8800" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_804" start="9796" end="9965" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_804" start="10799" end="11140" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001289551.1">
+              <coordinates coord_system="LRG_804" start="6902" end="10920" strand="1" />
+              <long_name>acetylcholinesterase isoform E4-E6 precursor</long_name>
               <db_xref source="CCDS" accession="CCDS5709.1" />
               <db_xref source="GeneID" accession="43" />
               <db_xref source="GI" accession="705044511" />
@@ -317,19 +353,19 @@ REFERENCES.
           <symbol source="HGNC" name="UFSP1">
             <synonym>UFSP</synonym>
           </symbol>
-          <coordinates coord_system="LRG_804" start="11416" end="12411" strand="1" />
+          <coordinates coord_system="LRG_804" start="11419" end="12413" strand="1" />
           <long_name>UFM1 specific peptidase 1 (inactive)</long_name>
           <db_xref source="GeneID" accession="402682" />
           <db_xref source="HGNC" accession="HGNC:33821" />
           <db_xref source="MIM" accession="611481" />
           <db_xref source="CCDS" accession="CCDS34710.1" />
-          <transcript source="RefSeq" accession="NM_001015072.3">
-            <coordinates coord_system="LRG_804" start="11416" end="12411" strand="1" />
+          <transcript source="RefSeq" accession="NM_001015072.4">
+            <coordinates coord_system="LRG_804" start="11419" end="12413" strand="1" />
             <long_name>UFM1 specific peptidase 1 (inactive)</long_name>
             <db_xref source="GeneID" accession="402682" />
-            <db_xref source="GI" accession="146231965" />
+            <db_xref source="GI" accession="1519243233" />
             <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_804" start="11416" end="12411" strand="1" />
+              <coordinates coord_system="LRG_804" start="11419" end="12413" strand="1" />
             </exon>
             <protein_product source="RefSeq" accession="NP_001015072.2">
               <coordinates coord_system="LRG_804" start="11863" end="12291" strand="1" />
@@ -355,12 +391,12 @@ REFERENCES.
           <db_xref source="CCDS" accession="CCDS47665.1" />
           <db_xref source="CCDS" accession="CCDS47666.1" />
           <db_xref source="CCDS" accession="CCDS47667.1" />
-          <transcript source="RefSeq" accession="NM_015908.5">
+          <transcript source="RefSeq" accession="NM_015908.6">
             <coordinates coord_system="LRG_804" start="12470" end="13092" strand="-1" />
             <partial>5-prime</partial>
             <long_name>serrate, RNA effector molecule, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="51593" />
-            <db_xref source="GI" accession="192807330" />
+            <db_xref source="GI" accession="1519314281" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_804" start="12991" end="13092" strand="-1" />
               <partial>5-prime</partial>
@@ -465,7 +501,7 @@ REFERENCES.
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-11-26</modification_date>
+      <modification_date>2018-11-28</modification_date>
       <mapping coord_system="ENST00000241069.10" other_name="ENST00000241069.10" other_id="ENST00000241069.10" other_start="1" other_end="2168" type="transcript">
         <mapping_span lrg_start="5250" lrg_end="5332" other_start="1" other_end="83" strand="1" />
         <mapping_span lrg_start="6882" lrg_end="7969" other_start="84" other_end="1171" strand="1" />
@@ -1006,7 +1042,7 @@ REFERENCES.
         <name>List of locus specific databases for ACHE</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ACHE</url>
       </source>
-      <modification_date>2018-11-26</modification_date>
+      <modification_date>2018-11-28</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
