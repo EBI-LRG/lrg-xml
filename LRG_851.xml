@@ -81,7 +81,7 @@
           <email>ddunnen@humgen.nl</email>
         </contact>
       </source>
-      <modification_date>2018-12-19</modification_date>
+      <modification_date>2019-01-07</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -93,7 +93,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2018-12-19</modification_date>
+      <modification_date>2019-01-07</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="1855233" other_end="1864910" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="9678" other_start="1855233" other_end="1864910" strand="1" />
       </mapping>
@@ -113,7 +113,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011621.1</comment>
-      <modification_date>2018-12-13</modification_date>
+      <modification_date>2019-01-03</modification_date>
       <mapping coord_system="NM_001145829.1" other_name="NM_001145829.1" other_id="NM_001145829.1" other_start="1" other_end="739" type="transcript">
         <mapping_span lrg_start="5487" lrg_end="5525" other_start="1" other_end="39" strand="1" />
         <mapping_span lrg_start="5673" lrg_end="5702" other_start="40" other_end="69" strand="1" />
@@ -141,6 +141,16 @@
         <mapping_span lrg_start="6817" lrg_end="6906" other_start="240" other_end="329" strand="1" />
         <mapping_span lrg_start="7029" lrg_end="7205" other_start="330" other_end="506" strand="1" />
         <mapping_span lrg_start="7454" lrg_end="7678" other_start="507" other_end="731" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_003282.4" other_name="NM_003282.4" other_id="NM_003282.4" other_start="1" other_end="751" type="transcript">
+        <mapping_span lrg_start="4979" lrg_end="5031" other_start="1" other_end="53" strand="1" />
+        <mapping_span lrg_start="5673" lrg_end="5702" other_start="54" other_end="83" strand="1" />
+        <mapping_span lrg_start="5847" lrg_end="5853" other_start="84" other_end="90" strand="1" />
+        <mapping_span lrg_start="6401" lrg_end="6442" other_start="91" other_end="132" strand="1" />
+        <mapping_span lrg_start="6526" lrg_end="6654" other_start="133" other_end="261" strand="1" />
+        <mapping_span lrg_start="6817" lrg_end="6906" other_start="262" other_end="351" strand="1" />
+        <mapping_span lrg_start="7029" lrg_end="7205" other_start="352" other_end="528" strand="1" />
+        <mapping_span lrg_start="7454" lrg_end="7676" other_start="529" other_end="751" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="90019">
@@ -320,6 +330,43 @@
           <db_xref source="CCDS" accession="CCDS31333.1" />
           <db_xref source="CCDS" accession="CCDS53594.1" />
           <db_xref source="GI" accession="225543376" />
+          <transcript source="RefSeq" accession="NM_003282.4">
+            <coordinates coord_system="LRG_851" start="4979" end="7676" strand="1" />
+            <long_name>troponin I2, fast skeletal type, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="7136" />
+            <db_xref source="GI" accession="1519312633" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_851" start="4979" end="5031" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_851" start="5673" end="5702" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_851" start="5847" end="5853" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_851" start="6401" end="6442" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_851" start="6526" end="6654" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_851" start="6817" end="6906" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_851" start="7029" end="7205" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_851" start="7454" end="7676" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_003273.1">
+              <coordinates coord_system="LRG_851" start="5695" end="7549" strand="1" />
+              <long_name>troponin I, fast skeletal muscle isoform 1</long_name>
+              <db_xref source="CCDS" accession="CCDS31333.1" />
+              <db_xref source="GeneID" accession="7136" />
+              <db_xref source="GI" accession="4507621" />
+            </protein_product>
+          </transcript>
           <transcript source="RefSeq" accession="NM_003282.3" fixed_id="t1">
             <coordinates coord_system="LRG_851" start="5001" end="7678" strand="1" />
             <long_name>troponin I2, fast skeletal type, transcript variant 1</long_name>
@@ -351,6 +398,7 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_003273.1" fixed_id="p1">
               <coordinates coord_system="LRG_851" start="5695" end="7549" strand="1" />
+              <long_name>troponin I, fast skeletal muscle isoform 1</long_name>
               <db_xref source="CCDS" accession="CCDS31333.1" />
               <db_xref source="GeneID" accession="7136" />
               <db_xref source="GI" accession="4507621" />
@@ -438,7 +486,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
-      <modification_date>2018-12-19</modification_date>
+      <modification_date>2019-01-07</modification_date>
       <mapping coord_system="ENST00000252898.11" other_name="ENST00000252898.11" other_id="ENST00000252898.11" other_start="1" other_end="678" type="transcript">
         <mapping_span lrg_start="5695" lrg_end="5702" other_start="1" other_end="8" strand="1" />
         <mapping_span lrg_start="5847" lrg_end="5853" other_start="9" other_end="15" strand="1" />
@@ -989,7 +1037,7 @@
         <name>List of locus specific databases for TNNI2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TNNI2</url>
       </source>
-      <modification_date>2018-12-19</modification_date>
+      <modification_date>2019-01-07</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
