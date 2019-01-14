@@ -74,7 +74,7 @@
           <email>info@ukneqas-molgen.org.uk</email>
         </contact>
       </source>
-      <modification_date>2019-01-09</modification_date>
+      <modification_date>2019-01-14</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -86,7 +86,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-01-09</modification_date>
+      <modification_date>2019-01-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_id_syn="CM000668.1" other_start="16297343" other_end="16766721" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="469379" other_start="16297343" other_end="16766721" strand="-1" />
       </mapping>
@@ -106,7 +106,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011571.1</comment>
-      <modification_date>2019-01-08</modification_date>
+      <modification_date>2019-01-10</modification_date>
       <mapping coord_system="NM_000332.3" other_name="NM_000332.3" other_id="NM_000332.3" other_start="1" other_end="10636" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5193" other_start="1" other_end="193" strand="1" />
         <mapping_span lrg_start="12400" lrg_end="12448" other_start="194" other_end="242" strand="1" />
@@ -342,8 +342,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-01-09</modification_date>
+      <comment>Annotation is based on Ensembl release 95 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-01-14</modification_date>
       <mapping coord_system="ENST00000244769.8" other_name="ENST00000244769.8" other_id="ENST00000244769.8" other_start="1" other_end="10602" type="transcript">
         <mapping_span lrg_start="5035" lrg_end="5193" other_start="1" other_end="159" strand="1" />
         <mapping_span lrg_start="12400" lrg_end="12448" other_start="160" other_end="208" strand="1" />
@@ -448,8 +448,7 @@
         <gene source="Ensembl" accession="ENSG00000229931.1">
           <symbol source="Clone_based_ensembl_gene" name="AL137003.1" />
           <coordinates coord_system="LRG_863" start="3839" end="5353" strand="-1" mapped_from="GRCh38" />
-          <long_name>uncharacterized LOC101928433 [Source:NCBI gene;Acc:101928433] (antisense)</long_name>
-          <db_xref source="GeneID" accession="101928433" />
+          <long_name>AL137003.1 (antisense)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000229931" />
           <transcript source="Ensembl" accession="ENST00000423260.1">
             <coordinates coord_system="LRG_863" start="3839" end="5353" strand="-1" mapped_from="GRCh38" />
@@ -480,13 +479,13 @@
           <symbol source="HGNC" name="ATXN1" />
           <coordinates coord_system="LRG_863" start="5000" end="467379" strand="1" mapped_from="GRCh38" />
           <long_name>ataxin 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6310" />
+          <db_xref source="MIM" accession="601556" />
           <db_xref source="HGNC" accession="10548">
             <synonym>ATX1</synonym>
             <synonym>D6S504E</synonym>
             <synonym>SCA1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="601556" />
+          <db_xref source="GeneID" accession="6310" />
           <db_xref source="Ensembl" accession="ENSG00000124788" />
           <transcript source="Ensembl" accession="ENST00000498374.1">
             <coordinates coord_system="LRG_863" start="5000" end="28026" strand="1" mapped_from="GRCh38" />
@@ -546,6 +545,7 @@
           <transcript source="Ensembl" accession="ENST00000467008.5">
             <coordinates coord_system="LRG_863" start="5015" end="29640" strand="1" mapped_from="GRCh38" />
             <long_name>ATXN1-203 (processed_transcript)</long_name>
+            <db_xref source="RefSeq" accession="NR_152111.1" />
             <exon source="Ensembl" accession="ENSE00003576454">
               <coordinates coord_system="LRG_863" start="5015" end="5193" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -598,7 +598,6 @@
             <coordinates coord_system="LRG_863" start="5035" end="467379" strand="1" mapped_from="GRCh38" />
             <long_name>ATXN1-201 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_000332.3" />
-            <db_xref source="RefSeq" accession="NM_001357857.1" />
             <exon source="Ensembl" accession="ENSE00001168411">
               <coordinates coord_system="LRG_863" start="5035" end="5193" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -628,8 +627,6 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000244769.3" fixed_id="p1">
               <coordinates coord_system="LRG_863" start="438181" end="460162" strand="1" mapped_from="GRCh38" />
-              <long_name>ataxin-1 Alt-ATXN1</long_name>
-              <db_xref source="RefSeq" accession="NP_001344786.1" />
               <db_xref source="RefSeq" accession="NP_000323.2" />
               <db_xref source="UniProtKB" accession="P54253" />
               <db_xref source="CCDS" accession="CCDS34342.1" />
@@ -727,11 +724,13 @@
           <transcript source="Ensembl" accession="ENST00000642969.1">
             <coordinates coord_system="LRG_863" start="438210" end="438767" strand="1" mapped_from="GRCh38" />
             <long_name>ATXN1-211 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001357857.1" />
             <exon source="Ensembl" accession="ENSE00003830987">
               <coordinates coord_system="LRG_863" start="438210" end="438767" strand="1" mapped_from="GRCh38" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000493530.1">
               <coordinates coord_system="LRG_863" start="438210" end="438767" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001344786.1" />
             </protein_product>
           </transcript>
         </gene>
@@ -742,7 +741,7 @@
         <name>List of locus specific databases for ATXN1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ATXN1</url>
       </source>
-      <modification_date>2019-01-09</modification_date>
+      <modification_date>2019-01-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

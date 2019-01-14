@@ -353,7 +353,7 @@
           <email>Rachel.Berman@health.ny.gov</email>
         </contact>
       </source>
-      <modification_date>2019-01-09</modification_date>
+      <modification_date>2019-01-14</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -365,7 +365,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-01-09</modification_date>
+      <modification_date>2019-01-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="5" other_id="NC_000005.9" other_id_syn="CM000667.1" other_start="169059251" other_end="169512386" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="453136" other_start="169059251" other_end="169512386" strand="1">
           <diff type="mismatch" lrg_start="248011" lrg_end="248011" other_start="169307261" other_end="169307261" lrg_sequence="G" other_sequence="C" />
@@ -387,7 +387,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_051800.1</comment>
-      <modification_date>2019-01-08</modification_date>
+      <modification_date>2019-01-10</modification_date>
       <mapping coord_system="NM_004946.3" other_name="NM_004946.3" other_id="NM_004946.3" other_start="1" other_end="6069" type="transcript">
         <mapping_span lrg_start="5029" lrg_end="5123" other_start="1" other_end="95" strand="1" />
         <mapping_span lrg_start="22157" lrg_end="22240" other_start="96" other_end="179" strand="1" />
@@ -933,8 +933,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-01-09</modification_date>
+      <comment>Annotation is based on Ensembl release 95 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-01-14</modification_date>
       <mapping coord_system="ENST00000256935.12" other_name="ENST00000256935.12" other_id="ENST00000256935.12" other_start="1" other_end="6097" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5123" other_start="1" other_end="123" strand="1" />
         <mapping_span lrg_start="22157" lrg_end="22240" other_start="124" other_end="207" strand="1" />
@@ -1254,11 +1254,11 @@
           <symbol source="HGNC" name="DOCK2" />
           <coordinates coord_system="LRG_1227" start="5001" end="451136" strand="1" mapped_from="GRCh38" />
           <long_name>dedicator of cytokinesis 2 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="1794" />
+          <db_xref source="MIM" accession="603122" />
           <db_xref source="HGNC" accession="2988">
             <synonym>KIAA0209</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="603122" />
+          <db_xref source="GeneID" accession="1794" />
           <db_xref source="Ensembl" accession="ENSG00000134516" />
           <transcript source="Ensembl" accession="ENST00000256935.12" fixed_id="t1">
             <coordinates coord_system="LRG_1227" start="5001" end="451136" strand="1" mapped_from="GRCh38" />
@@ -1598,6 +1598,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000429283.2" fixed_id="p1">
               <coordinates coord_system="LRG_1227" start="5081" end="450612" strand="1" mapped_from="GRCh38" />
+              <db_xref source="CCDS" accession="CCDS4371.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000522138.1">
@@ -2213,16 +2214,17 @@
           <symbol source="HGNC" name="INSYN2B" />
           <coordinates coord_system="LRG_1227" start="232018" end="348494" strand="-1" mapped_from="GRCh38" />
           <long_name>inhibitory synaptic factor family member 2B (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="100131897" />
           <db_xref source="HGNC" accession="37271">
             <synonym>C5orf57</synonym>
             <synonym>FAM196B</synonym>
           </db_xref>
+          <db_xref source="GeneID" accession="100131897" />
           <db_xref source="Ensembl" accession="ENSG00000204767" />
           <transcript source="Ensembl" accession="ENST00000377365.3">
             <coordinates coord_system="LRG_1227" start="232018" end="348494" strand="-1" mapped_from="GRCh38" />
             <long_name>INSYN2B-201 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001129891.1" />
+            <db_xref source="RefSeq" accession="NM_001129891.2" />
+            <db_xref source="RefSeq" accession="NM_001346304.1" />
             <exon source="Ensembl" accession="ENSE00001473706">
               <coordinates coord_system="LRG_1227" start="348031" end="348494" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -2237,9 +2239,8 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000366582.3">
               <coordinates coord_system="LRG_1227" start="232027" end="251652" strand="-1" mapped_from="GRCh38" />
-              <long_name>protein FAM196B</long_name>
-              <db_xref source="RefSeq" accession="NP_001333233.1" />
               <db_xref source="RefSeq" accession="NP_001123363.1" />
+              <db_xref source="RefSeq" accession="NP_001333233.1" />
               <db_xref source="UniProtKB" accession="A6NMK8" />
               <db_xref source="CCDS" accession="CCDS47336.1" />
             </protein_product>
@@ -2262,7 +2263,7 @@
         <name>List of locus specific databases for DOCK2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DOCK2</url>
       </source>
-      <modification_date>2019-01-09</modification_date>
+      <modification_date>2019-01-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
