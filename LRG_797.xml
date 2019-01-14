@@ -106,7 +106,7 @@
           <email>ump@sundhedsdatastyrelsen.dk</email>
         </contact>
       </source>
-      <modification_date>2019-01-09</modification_date>
+      <modification_date>2019-01-14</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -118,7 +118,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-01-09</modification_date>
+      <modification_date>2019-01-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_id_syn="CM000663.1" other_start="25686740" other_end="25761683" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="74944" other_start="25686740" other_end="25761683" strand="-1">
           <diff type="mismatch" lrg_start="14454" lrg_end="14454" other_start="25747230" other_end="25747230" lrg_sequence="G" other_sequence="C" />
@@ -142,7 +142,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009208.3</comment>
-      <modification_date>2019-01-08</modification_date>
+      <modification_date>2019-01-10</modification_date>
       <mapping coord_system="NM_001330430.2" other_name="NM_001330430.2" other_id="NM_001330430.2" other_start="1" other_end="1580" type="transcript">
         <mapping_span lrg_start="14279" lrg_end="14554" other_start="1" other_end="276" strand="1" />
         <mapping_span lrg_start="26324" lrg_end="26510" other_start="277" other_end="463" strand="1" />
@@ -514,8 +514,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 94 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-01-09</modification_date>
+      <comment>Annotation is based on Ensembl release 95 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-01-14</modification_date>
       <mapping coord_system="ENST00000294413.12" other_name="ENST00000294413.12" other_id="ENST00000294413.12" other_start="1" other_end="1660" type="transcript">
         <mapping_span lrg_start="14279" lrg_end="14554" other_start="1" other_end="276" strand="1">
           <diff type="mismatch" lrg_start="14454" lrg_end="14454" other_start="176" other_end="176" lrg_sequence="G" other_sequence="C" />
@@ -631,12 +631,12 @@
           <coordinates coord_system="LRG_797" start="1" end="4335" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>macoilin 1 (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="55219" />
+          <db_xref source="MIM" accession="610301" />
           <db_xref source="HGNC" accession="25572">
             <synonym>FLJ10747</synonym>
             <synonym>TMEM57</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="610301" />
+          <db_xref source="GeneID" accession="55219" />
           <db_xref source="Ensembl" accession="ENSG00000204178" />
           <transcript source="Ensembl" accession="ENST00000374343.4">
             <coordinates coord_system="LRG_797" start="1" end="4273" strand="-1" mapped_from="GRCh38" />
@@ -687,12 +687,12 @@
           <symbol source="HGNC" name="RHCE" />
           <coordinates coord_system="LRG_797" start="5001" end="72944" strand="1" mapped_from="GRCh38" />
           <long_name>Rh blood group CcEe antigens (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="6006" />
+          <db_xref source="MIM" accession="111700" />
           <db_xref source="HGNC" accession="10008">
             <synonym>CD240CE</synonym>
             <synonym>RH</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="111700" />
+          <db_xref source="GeneID" accession="6006" />
           <db_xref source="Ensembl" accession="ENSG00000188672" />
           <transcript source="Ensembl" accession="ENST00000349320.7">
             <coordinates coord_system="LRG_797" start="5001" end="72881" strand="1" mapped_from="GRCh38" />
@@ -765,7 +765,7 @@
           <transcript source="Ensembl" accession="ENST00000294413.12">
             <coordinates coord_system="LRG_797" start="14279" end="72944" strand="1" mapped_from="GRCh38" />
             <long_name>RHCE-201 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_020485.4" />
+            <db_xref source="RefSeq" accession="NM_020485.5" />
             <exon source="Ensembl" accession="ENSE00001834005">
               <coordinates coord_system="LRG_797" start="14279" end="14554" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -823,6 +823,7 @@
           <transcript source="Ensembl" accession="ENST00000413854.5">
             <coordinates coord_system="LRG_797" start="14387" end="72670" strand="1" mapped_from="GRCh38" />
             <long_name>RHCE-206 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001330430.2" />
             <exon source="Ensembl" accession="ENSE00003727465">
               <coordinates coord_system="LRG_797" start="14387" end="14554" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -852,13 +853,15 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000415417.2">
               <coordinates coord_system="LRG_797" start="14407" end="64698" strand="1" mapped_from="GRCh38" />
+              <long_name>blood group Rh(CE) polypeptide isoform 5</long_name>
+              <db_xref source="RefSeq" accession="NP_001317359.1" />
               <db_xref source="CCDS" accession="CCDS81283.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000349438.8">
             <coordinates coord_system="LRG_797" start="14388" end="72762" strand="1" mapped_from="GRCh38" />
             <long_name>RHCE-205 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_138618.3" />
+            <db_xref source="RefSeq" accession="NM_138618.4" />
             <exon source="Ensembl" accession="ENSE00001857499">
               <coordinates coord_system="LRG_797" start="14388" end="14554" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -890,7 +893,7 @@
               <coordinates coord_system="LRG_797" start="14407" end="64698" strand="1" mapped_from="GRCh38" />
               <long_name>blood group Rh(CE) polypeptide isoform 2</long_name>
               <db_xref source="RefSeq" accession="NP_619524.5" />
-              <db_xref source="RefSeq" accession="NP_619524.3" />
+              <db_xref source="RefSeq" accession="NP_619524.4" />
               <db_xref source="CCDS" accession="CCDS30637.1" />
             </protein_product>
           </transcript>
@@ -916,7 +919,7 @@
           <transcript source="Ensembl" accession="ENST00000340849.8">
             <coordinates coord_system="LRG_797" start="14398" end="72885" strand="1" mapped_from="GRCh38" />
             <long_name>RHCE-202 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_138617.3" />
+            <db_xref source="RefSeq" accession="NM_138617.4" />
             <exon source="Ensembl" accession="ENSE00001842786">
               <coordinates coord_system="LRG_797" start="14398" end="14554" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -948,7 +951,7 @@
           <transcript source="Ensembl" accession="ENST00000346452.8">
             <coordinates coord_system="LRG_797" start="14401" end="72830" strand="1" mapped_from="GRCh38" />
             <long_name>RHCE-203 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_138616.3" />
+            <db_xref source="RefSeq" accession="NM_138616.4" />
             <exon source="Ensembl" accession="ENSE00002190372">
               <coordinates coord_system="LRG_797" start="14401" end="14554" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1015,11 +1018,11 @@
           <coordinates coord_system="LRG_797" start="72832" end="74944" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>transmembrane protein 50A (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="23585" />
+          <db_xref source="MIM" accession="605348" />
           <db_xref source="HGNC" accession="30590">
             <synonym>SMP1</synonym>
           </db_xref>
-          <db_xref source="MIM" accession="605348" />
+          <db_xref source="GeneID" accession="23585" />
           <db_xref source="Ensembl" accession="ENSG00000183726" />
           <transcript source="Ensembl" accession="ENST00000374358.4">
             <coordinates coord_system="LRG_797" start="72832" end="74944" strand="-1" mapped_from="GRCh38" />
@@ -1069,7 +1072,7 @@
         <name>List of locus specific databases for RHCE</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RHCE</url>
       </source>
-      <modification_date>2019-01-09</modification_date>
+      <modification_date>2019-01-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
