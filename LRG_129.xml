@@ -112,7 +112,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2019-04-08</modification_date>
+      <modification_date>2019-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -124,7 +124,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-04-08</modification_date>
+      <modification_date>2019-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="47481612" other_end="47494704" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="13093" other_start="47481612" other_end="47494704" strand="-1" />
       </mapping>
@@ -144,7 +144,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009893.1</comment>
-      <modification_date>2019-04-04</modification_date>
+      <modification_date>2019-04-09</modification_date>
       <mapping coord_system="NM_001145252.1" other_name="NM_001145252.1" other_id="NM_001145252.1" other_start="1" other_end="1598" type="transcript">
         <mapping_span lrg_start="5336" lrg_end="5537" other_start="1" other_end="202" strand="1" />
         <mapping_span lrg_start="5632" lrg_end="5782" other_start="203" other_end="353" strand="1" />
@@ -278,8 +278,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 95 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-04-08</modification_date>
+      <comment>Annotation is based on Ensembl release 96 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-04-10</modification_date>
       <mapping coord_system="ENST00000247153.7" other_name="ENST00000247153.7" other_id="ENST00000247153.7" other_start="1" other_end="1713" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5177" other_start="1" other_end="177" strand="1" />
         <mapping_span lrg_start="5397" lrg_end="5537" other_start="178" other_end="318" strand="1" />
@@ -355,11 +355,11 @@
           <symbol source="HGNC" name="CFP" />
           <coordinates coord_system="LRG_129" start="5001" end="12134" strand="1" mapped_from="GRCh38" />
           <long_name>complement factor properdin (protein_coding)</long_name>
-          <db_xref source="MIM" accession="300383" />
+          <db_xref source="GeneID" accession="5199" />
           <db_xref source="HGNC" accession="8864">
             <synonym>PFC</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="5199" />
+          <db_xref source="MIM" accession="300383" />
           <db_xref source="Ensembl" accession="ENSG00000126759" />
           <transcript source="Ensembl" accession="ENST00000247153.7" fixed_id="t1">
             <coordinates coord_system="LRG_129" start="5001" end="11092" strand="1" mapped_from="GRCh38" />
@@ -576,18 +576,36 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000283743.1">
-          <symbol source="Clone_based_ensembl_gene" name="AL009172.2" />
-          <coordinates coord_system="LRG_129" start="11797" end="13093" strand="1" mapped_from="GRCh38" />
+        <gene source="Ensembl" accession="ENSG00000283743.2">
+          <symbol source="Clone_based_ensembl_gene" name="Z84466.1" />
+          <coordinates coord_system="LRG_129" start="6564" end="13093" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>novel transcript (processed_transcript)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000283743" />
-          <transcript source="Ensembl" accession="ENST00000638776.1">
-            <coordinates coord_system="LRG_129" start="11797" end="13093" strand="1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000638776.2">
+            <coordinates coord_system="LRG_129" start="6564" end="13093" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>AL009172.2-201 (processed_transcript)</long_name>
+            <long_name>Z84466.1-201 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003848309">
+              <coordinates coord_system="LRG_129" start="6564" end="7204" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003850302">
+              <coordinates coord_system="LRG_129" start="7665" end="7835" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003846231">
+              <coordinates coord_system="LRG_129" start="7974" end="8165" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003847407">
+              <coordinates coord_system="LRG_129" start="8360" end="8533" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003843951">
+              <coordinates coord_system="LRG_129" start="8787" end="8978" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003848254">
+              <coordinates coord_system="LRG_129" start="9137" end="9248" strand="1" mapped_from="GRCh38" />
+            </exon>
             <exon source="Ensembl" accession="ENSE00003810661">
-              <coordinates coord_system="LRG_129" start="11797" end="12216" strand="1" mapped_from="GRCh38" />
+              <coordinates coord_system="LRG_129" start="10866" end="12216" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
         </gene>
@@ -598,7 +616,7 @@
         <name>List of locus specific databases for CFP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CFP</url>
       </source>
-      <modification_date>2019-04-08</modification_date>
+      <modification_date>2019-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

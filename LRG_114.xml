@@ -101,7 +101,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2019-04-08</modification_date>
+      <modification_date>2019-04-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -113,7 +113,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-04-08</modification_date>
+      <modification_date>2019-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_id_syn="CM000668.1" other_start="33265471" other_end="33286989" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="21519" other_start="33265471" other_end="33286989" strand="-1" />
       </mapping>
@@ -395,7 +395,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009876.1</comment>
-      <modification_date>2019-04-04</modification_date>
+      <modification_date>2019-04-09</modification_date>
       <mapping coord_system="NM_003190.4" other_name="NM_003190.4" other_id="NM_003190.4" other_start="1" other_end="3759" type="transcript">
         <mapping_span lrg_start="4826" lrg_end="5208" other_start="1" other_end="383" strand="1" />
         <mapping_span lrg_start="5349" lrg_end="5519" other_start="384" other_end="554" strand="1" />
@@ -755,8 +755,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 95 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-04-08</modification_date>
+      <comment>Annotation is based on Ensembl release 96 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-04-10</modification_date>
       <mapping coord_system="ENST00000426633.6" other_name="ENST00000426633.6" other_id="ENST00000426633.6" other_start="1" other_end="1888" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5208" other_start="1" other_end="208" strand="1" />
         <mapping_span lrg_start="5349" lrg_end="5519" other_start="209" other_end="379" strand="1" />
@@ -825,21 +825,23 @@
         <mapping_span lrg_start="17442" lrg_end="17453" other_start="1288" other_end="1299" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000204209.12">
+        <gene source="Ensembl" accession="ENSG00000204209.13">
           <symbol source="HGNC" name="DAXX" />
           <coordinates coord_system="LRG_114" start="1" end="655" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>death domain associated protein (protein_coding)</long_name>
-          <db_xref source="MIM" accession="603186" />
+          <db_xref source="GeneID" accession="1616" />
           <db_xref source="HGNC" accession="2681">
             <synonym>DAP6</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="1616" />
+          <db_xref source="MIM" accession="603186" />
           <db_xref source="Ensembl" accession="ENSG00000204209" />
           <transcript source="Ensembl" accession="ENST00000266000.10">
             <coordinates coord_system="LRG_114" start="1" end="655" strand="1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
             <long_name>DAXX-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001141970.1" />
+            <db_xref source="RefSeq" accession="NM_001350.4" />
             <exon source="Ensembl" accession="ENSE00001722505">
               <coordinates coord_system="LRG_114" start="1" end="216" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
@@ -850,17 +852,18 @@
             <protein_product source="Ensembl" accession="ENSP00000266000.6">
               <coordinates coord_system="LRG_114" start="1" end="470" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
+              <long_name>death domain-associated protein 6 isoform b</long_name>
+              <db_xref source="RefSeq" accession="NP_001135442.1" />
+              <db_xref source="RefSeq" accession="NP_001341.1" />
               <db_xref source="UniProtKB" accession="Q9UER7" />
               <db_xref source="CCDS" accession="CCDS4776.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000374542.9">
+          <transcript source="Ensembl" accession="ENST00000374542.10">
             <coordinates coord_system="LRG_114" start="1" end="655" strand="1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
             <long_name>DAXX-202 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001141969.1" />
-            <db_xref source="RefSeq" accession="NM_001141970.1" />
-            <db_xref source="RefSeq" accession="NM_001350.4" />
+            <db_xref source="RefSeq" accession="NM_001141969.2" />
             <exon source="Ensembl" accession="ENSE00001722505">
               <coordinates coord_system="LRG_114" start="1" end="216" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
@@ -871,10 +874,7 @@
             <protein_product source="Ensembl" accession="ENSP00000363668.5">
               <coordinates coord_system="LRG_114" start="1" end="470" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <long_name>death domain-associated protein 6 isoform b</long_name>
               <db_xref source="RefSeq" accession="NP_001135441.1" />
-              <db_xref source="RefSeq" accession="NP_001341.1" />
-              <db_xref source="RefSeq" accession="NP_001135442.1" />
               <db_xref source="UniProtKB" accession="Q9UER7" />
               <db_xref source="CCDS" accession="CCDS4776.1" />
             </protein_product>
@@ -920,11 +920,11 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000236104.2">
+        <gene source="Ensembl" accession="ENSG00000236104.3">
           <symbol source="HGNC" name="ZBTB22" />
           <coordinates coord_system="LRG_114" start="1271" end="4807" strand="1" mapped_from="GRCh38" />
           <long_name>zinc finger and BTB domain containing 22 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="611439" />
+          <db_xref source="GeneID" accession="9278" />
           <db_xref source="HGNC" accession="13085">
             <synonym>BING1</synonym>
             <synonym>fru</synonym>
@@ -933,7 +933,7 @@
             <synonym>ZNF297</synonym>
             <synonym>ZNF297A</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="9278" />
+          <db_xref source="MIM" accession="611439" />
           <db_xref source="Ensembl" accession="ENSG00000236104" />
           <transcript source="Ensembl" accession="ENST00000418724.1">
             <coordinates coord_system="LRG_114" start="1271" end="4807" strand="1" mapped_from="GRCh38" />
@@ -965,12 +965,12 @@
               <coordinates coord_system="LRG_114" start="2297" end="2744" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000431845.2">
-            <coordinates coord_system="LRG_114" start="1478" end="4795" strand="1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000431845.3">
+            <coordinates coord_system="LRG_114" start="1469" end="4795" strand="1" mapped_from="GRCh38" />
             <long_name>ZBTB22-208 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_005453.4" />
+            <db_xref source="RefSeq" accession="NM_005453.5" />
             <exon source="Ensembl" accession="ENSE00001756355">
-              <coordinates coord_system="LRG_114" start="1478" end="1560" strand="1" mapped_from="GRCh38" />
+              <coordinates coord_system="LRG_114" start="1469" end="1560" strand="1" mapped_from="GRCh38" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001938281">
               <coordinates coord_system="LRG_114" start="2228" end="4795" strand="1" mapped_from="GRCh38" />
@@ -987,11 +987,11 @@
           <symbol source="HGNC" name="TAPBP" />
           <coordinates coord_system="LRG_114" start="4826" end="19519" strand="1" mapped_from="GRCh38" />
           <long_name>TAP binding protein (protein_coding)</long_name>
-          <db_xref source="MIM" accession="601962" />
+          <db_xref source="GeneID" accession="6892" />
           <db_xref source="HGNC" accession="11566">
             <synonym>TAPA</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="6892" />
+          <db_xref source="MIM" accession="601962" />
           <db_xref source="Ensembl" accession="ENSG00000231925" />
           <transcript source="Ensembl" accession="ENST00000434618.6" fixed_id="t1">
             <coordinates coord_system="LRG_114" start="4826" end="19519" strand="1" mapped_from="GRCh38" />
@@ -1205,27 +1205,27 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000237441.9">
+        <gene source="Ensembl" accession="ENSG00000237441.10">
           <symbol source="HGNC" name="RGL2" />
-          <coordinates coord_system="LRG_114" start="19889" end="21519" strand="1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_114" start="20271" end="21519" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>ral guanine nucleotide dissociation stimulator like 2 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="602306" />
+          <db_xref source="GeneID" accession="5863" />
           <db_xref source="HGNC" accession="9769">
             <synonym>HKE1.5</synonym>
             <synonym>KE1.5</synonym>
             <synonym>RAB2L</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="5863" />
+          <db_xref source="MIM" accession="602306" />
           <db_xref source="Ensembl" accession="ENSG00000237441" />
-          <transcript source="Ensembl" accession="ENST00000497454.5">
-            <coordinates coord_system="LRG_114" start="19889" end="21519" strand="1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000497454.6">
+            <coordinates coord_system="LRG_114" start="20271" end="21519" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>RGL2-247 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001243738.1" />
-            <db_xref source="RefSeq" accession="NM_004761.4" />
+            <db_xref source="RefSeq" accession="NM_004761.5" />
             <exon source="Ensembl" accession="ENSE00001916065">
-              <coordinates coord_system="LRG_114" start="19889" end="20343" strand="1" mapped_from="GRCh38" />
+              <coordinates coord_system="LRG_114" start="20271" end="20343" strand="1" mapped_from="GRCh38" />
             </exon>
             <exon source="Ensembl" accession="ENSE00003385790">
               <coordinates coord_system="LRG_114" start="20562" end="20758" strand="1" mapped_from="GRCh38" />
@@ -1290,14 +1290,14 @@
           <coordinates coord_system="LRG_114" start="20812" end="21519" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>prefoldin subunit 6 (protein_coding)</long_name>
-          <db_xref source="MIM" accession="605660" />
+          <db_xref source="GeneID" accession="10471" />
           <db_xref source="HGNC" accession="4926">
             <synonym>H2-KE2</synonym>
             <synonym>HKE2</synonym>
             <synonym>KE-2</synonym>
             <synonym>PFD6</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="10471" />
+          <db_xref source="MIM" accession="605660" />
           <db_xref source="Ensembl" accession="ENSG00000204220" />
           <transcript source="Ensembl" accession="ENST00000463584.1">
             <coordinates coord_system="LRG_114" start="20812" end="21519" strand="-1" mapped_from="GRCh38" />
@@ -1316,7 +1316,7 @@
         <name>List of locus specific databases for TAPBP</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TAPBP</url>
       </source>
-      <modification_date>2019-04-08</modification_date>
+      <modification_date>2019-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
