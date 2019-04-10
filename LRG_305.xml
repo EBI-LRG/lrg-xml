@@ -93,7 +93,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-04-08</modification_date>
+      <modification_date>2019-04-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_id_syn="CM000681.1" other_start="45908591" other_end="45987086" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="78496" other_start="45908591" other_end="45987086" strand="-1" />
       </mapping>
@@ -113,7 +113,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_015839.2</comment>
-      <modification_date>2019-04-04</modification_date>
+      <modification_date>2019-04-09</modification_date>
       <mapping coord_system="NM_001166049.1" other_name="NM_001166049.1" other_id="NM_001166049.1" other_start="1" other_end="3310" type="transcript">
         <mapping_span lrg_start="59910" lrg_end="60048" other_start="1" other_end="139" strand="1" />
         <mapping_span lrg_start="60448" lrg_end="60559" other_start="140" other_end="251" strand="1" />
@@ -457,8 +457,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 95 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-04-08</modification_date>
+      <comment>Annotation is based on Ensembl release 96 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-04-10</modification_date>
       <mapping coord_system="ENST00000013807.9" other_name="ENST00000013807.9" other_id="ENST00000013807.9" other_start="1" other_end="1278" type="transcript">
         <mapping_span lrg_start="60263" lrg_end="60559" other_start="1" other_end="297" strand="1" />
         <mapping_span lrg_start="62436" lrg_end="62651" other_start="298" other_end="513" strand="1" />
@@ -611,11 +611,11 @@
           <symbol source="HGNC" name="ERCC1" />
           <coordinates coord_system="LRG_305" start="5001" end="76496" strand="1" mapped_from="GRCh38" />
           <long_name>ERCC excision repair 1, endonuclease non-catalytic subunit (protein_coding)</long_name>
-          <db_xref source="MIM" accession="126380" />
+          <db_xref source="GeneID" accession="2067" />
           <db_xref source="HGNC" accession="3433">
             <synonym>RAD10</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="2067" />
+          <db_xref source="MIM" accession="126380" />
           <db_xref source="Ensembl" accession="ENSG00000012061" />
           <transcript source="Ensembl" accession="ENST00000423698.6">
             <coordinates coord_system="LRG_305" start="5001" end="76495" strand="1" mapped_from="GRCh38" />
@@ -1079,11 +1079,11 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000125740.13">
+        <gene source="Ensembl" accession="ENSG00000125740.14">
           <symbol source="HGNC" name="FOSB" />
           <coordinates coord_system="LRG_305" start="8650" end="15834" strand="-1" mapped_from="GRCh38" />
           <long_name>FosB proto-oncogene, AP-1 transcription factor subunit (protein_coding)</long_name>
-          <db_xref source="MIM" accession="164772" />
+          <db_xref source="GeneID" accession="2354" />
           <db_xref source="HGNC" accession="3797">
             <synonym>AP-1</synonym>
             <synonym>DKFZp686C0818</synonym>
@@ -1092,8 +1092,31 @@
             <synonym>GOSB</synonym>
             <synonym>MGC42291</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="2354" />
+          <db_xref source="MIM" accession="164772" />
           <db_xref source="Ensembl" accession="ENSG00000125740" />
+          <transcript source="Ensembl" accession="ENST00000353609.8">
+            <coordinates coord_system="LRG_305" start="8650" end="15833" strand="-1" mapped_from="GRCh38" />
+            <long_name>FOSB-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_006732.3" />
+            <exon source="Ensembl" accession="ENSE00002785923">
+              <coordinates coord_system="LRG_305" start="15117" end="15833" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003534885">
+              <coordinates coord_system="LRG_305" start="12880" end="13200" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000858216">
+              <coordinates coord_system="LRG_305" start="12528" end="12635" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002892216">
+              <coordinates coord_system="LRG_305" start="8650" end="11278" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000245919.3">
+              <coordinates coord_system="LRG_305" start="10817" end="15242" strand="-1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_006723.2" />
+              <db_xref source="UniProtKB" accession="P53539" />
+              <db_xref source="CCDS" accession="CCDS12664.1" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000586615.5">
             <coordinates coord_system="LRG_305" start="8650" end="13916" strand="-1" mapped_from="GRCh38" />
             <long_name>FOSB-206 (protein_coding)</long_name>
@@ -1146,29 +1169,6 @@
               <db_xref source="RefSeq" accession="NP_001107643.1" />
               <db_xref source="UniProtKB" accession="P53539" />
               <db_xref source="CCDS" accession="CCDS46113.1" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000353609.7">
-            <coordinates coord_system="LRG_305" start="8651" end="15834" strand="-1" mapped_from="GRCh38" />
-            <long_name>FOSB-201 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_006732.2" />
-            <exon source="Ensembl" accession="ENSE00001048785">
-              <coordinates coord_system="LRG_305" start="15117" end="15834" strand="-1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003534885">
-              <coordinates coord_system="LRG_305" start="12880" end="13200" strand="-1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00000858216">
-              <coordinates coord_system="LRG_305" start="12528" end="12635" strand="-1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002784051">
-              <coordinates coord_system="LRG_305" start="8651" end="11278" strand="-1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000245919.3">
-              <coordinates coord_system="LRG_305" start="10817" end="15242" strand="-1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_006723.2" />
-              <db_xref source="UniProtKB" accession="P53539" />
-              <db_xref source="CCDS" accession="CCDS12664.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000591858.5">
@@ -1323,13 +1323,13 @@
           <symbol source="HGNC" name="CD3EAP" />
           <coordinates coord_system="LRG_305" start="73063" end="77620" strand="-1" mapped_from="GRCh38" />
           <long_name>CD3e molecule associated protein (protein_coding)</long_name>
-          <db_xref source="MIM" accession="107325" />
+          <db_xref source="GeneID" accession="10849" />
           <db_xref source="HGNC" accession="24219">
             <synonym>ASE-1</synonym>
             <synonym>CAST</synonym>
             <synonym>PAF49</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="10849" />
+          <db_xref source="MIM" accession="107325" />
           <db_xref source="Ensembl" accession="ENSG00000117877" />
           <transcript source="Ensembl" accession="ENST00000309424.7">
             <coordinates coord_system="LRG_305" start="73063" end="77620" strand="-1" mapped_from="GRCh38" />
@@ -1398,17 +1398,17 @@
             </protein_product>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000104881.15">
+        <gene source="Ensembl" accession="ENSG00000104881.16">
           <symbol source="HGNC" name="PPP1R13L" />
           <coordinates coord_system="LRG_305" start="77480" end="78496" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>protein phosphatase 1 regulatory subunit 13 like (protein_coding)</long_name>
-          <db_xref source="MIM" accession="607463" />
+          <db_xref source="GeneID" accession="10848" />
           <db_xref source="HGNC" accession="18838">
             <synonym>IASPP</synonym>
             <synonym>RAI</synonym>
           </db_xref>
-          <db_xref source="GeneID" accession="10848" />
+          <db_xref source="MIM" accession="607463" />
           <db_xref source="Ensembl" accession="ENSG00000104881" />
           <transcript source="Ensembl" accession="ENST00000418234.6">
             <coordinates coord_system="LRG_305" start="77480" end="78496" strand="1" mapped_from="GRCh38" />
@@ -1443,7 +1443,7 @@
         <name>List of locus specific databases for ERCC1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ERCC1</url>
       </source>
-      <modification_date>2019-04-08</modification_date>
+      <modification_date>2019-04-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
