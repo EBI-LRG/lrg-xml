@@ -74,7 +74,7 @@
           <email>mdistefano1@bwh.harvard.edu</email>
         </contact>
       </source>
-      <modification_date>2019-06-03</modification_date>
+      <modification_date>2019-06-05</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -86,9 +86,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-06-03</modification_date>
+      <modification_date>2019-06-05</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="5" other_id="NC_000005.9" other_id_syn="CM000667.1" other_start="68705939" other_end="68741849" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="35911" other_start="68705939" other_end="68741849" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p12" other_name="5" other_id="NC_000005.10" other_id_syn="CM000667.2" other_start="69410112" other_end="69446022" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="35911" other_start="69410112" other_end="69446022" strand="1" />
       </mapping>
       <mapping coord_system="GRCh38.p12" other_name="5q13.2" other_id="NW_003315917.2" other_id_syn="GL339449.2" other_start="193528" other_end="229011" type="haplotype">
         <mapping_span lrg_start="1" lrg_end="35911" other_start="193528" other_end="229011" strand="1">
@@ -160,9 +163,6 @@
           <diff type="lrg_ins" lrg_start="35523" lrg_end="35526" other_start="228626" other_end="228627" lrg_sequence="TTTA" other_sequence="-" />
         </mapping_span>
       </mapping>
-      <mapping coord_system="GRCh38.p12" other_name="5" other_id="NC_000005.10" other_id_syn="CM000667.2" other_start="69410112" other_end="69446022" type="main_assembly">
-        <mapping_span lrg_start="1" lrg_end="35911" other_start="69410112" other_end="69446022" strand="1" />
-      </mapping>
       <lrg_locus source="HGNC">MARVELD2</lrg_locus>
     </annotation_set>
     <annotation_set type="ncbi">
@@ -176,7 +176,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_017201.2</comment>
-      <modification_date>2019-05-30</modification_date>
+      <modification_date>2019-06-04</modification_date>
       <mapping coord_system="NM_001038603.3" other_name="NM_001038603.3" other_id="NM_001038603.3" other_start="1" other_end="4423" type="transcript">
         <mapping_span lrg_start="5005" lrg_end="5059" other_start="1" other_end="55" strand="1" />
         <mapping_span lrg_start="9260" lrg_end="10420" other_start="56" other_end="1216" strand="1" />
@@ -186,13 +186,13 @@
         <mapping_span lrg_start="30339" lrg_end="30389" other_start="1574" other_end="1624" strand="1" />
         <mapping_span lrg_start="31421" lrg_end="34219" other_start="1625" other_end="4423" strand="1" />
       </mapping>
-      <mapping coord_system="NM_001244734.1" other_name="NM_001244734.1" other_id="NM_001244734.1" other_start="1" other_end="2124" type="transcript">
-        <mapping_span lrg_start="5001" lrg_end="5059" other_start="1" other_end="59" strand="1" />
-        <mapping_span lrg_start="9260" lrg_end="10420" other_start="60" other_end="1220" strand="1" />
-        <mapping_span lrg_start="22416" lrg_end="22564" other_start="1221" other_end="1369" strand="1" />
-        <mapping_span lrg_start="22811" lrg_end="22982" other_start="1370" other_end="1541" strand="1" />
-        <mapping_span lrg_start="30339" lrg_end="30389" other_start="1542" other_end="1592" strand="1" />
-        <mapping_span lrg_start="31421" lrg_end="31952" other_start="1593" other_end="2124" strand="1" />
+      <mapping coord_system="NM_001244734.2" other_name="NM_001244734.2" other_id="NM_001244734.2" other_start="1" other_end="4387" type="transcript">
+        <mapping_span lrg_start="5005" lrg_end="5059" other_start="1" other_end="55" strand="1" />
+        <mapping_span lrg_start="9260" lrg_end="10420" other_start="56" other_end="1216" strand="1" />
+        <mapping_span lrg_start="22416" lrg_end="22564" other_start="1217" other_end="1365" strand="1" />
+        <mapping_span lrg_start="22811" lrg_end="22982" other_start="1366" other_end="1537" strand="1" />
+        <mapping_span lrg_start="30339" lrg_end="30389" other_start="1538" other_end="1588" strand="1" />
+        <mapping_span lrg_start="31421" lrg_end="34219" other_start="1589" other_end="4387" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="5884">
@@ -232,6 +232,48 @@
               <db_xref source="CCDS" accession="CCDS4004.1" />
               <db_xref source="GeneID" accession="5884" />
               <db_xref source="GI" accession="19718784" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_133344.3">
+            <coordinates coord_system="LRG_1380" start="382" end="4690" strand="1" />
+            <partial>5-prime</partial>
+            <long_name>RAD17 checkpoint clamp loader component, transcript variant 7</long_name>
+            <db_xref source="GeneID" accession="5884" />
+            <db_xref source="GI" accession="1675050164" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1380" start="382" end="439" strand="1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1380" start="3920" end="4690" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_579922.1" codon_start="3">
+              <coordinates coord_system="LRG_1380" start="382" end="4181" strand="1" />
+              <partial>5-prime</partial>
+              <db_xref source="CCDS" accession="CCDS4004.1" />
+              <db_xref source="GeneID" accession="5884" />
+              <db_xref source="GI" accession="19718796" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_133342.3">
+            <coordinates coord_system="LRG_1380" start="382" end="4690" strand="1" />
+            <partial>5-prime</partial>
+            <long_name>RAD17 checkpoint clamp loader component, transcript variant 5</long_name>
+            <db_xref source="GeneID" accession="5884" />
+            <db_xref source="GI" accession="1676440463" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1380" start="382" end="439" strand="1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1380" start="3920" end="4690" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_579920.1" codon_start="3">
+              <coordinates coord_system="LRG_1380" start="382" end="4181" strand="1" />
+              <partial>5-prime</partial>
+              <db_xref source="CCDS" accession="CCDS4004.1" />
+              <db_xref source="GeneID" accession="5884" />
+              <db_xref source="GI" accession="19718792" />
             </protein_product>
           </transcript>
           <transcript source="RefSeq" accession="NM_133343.1">
@@ -295,48 +337,6 @@
               <db_xref source="CCDS" accession="CCDS47226.1" />
               <db_xref source="GeneID" accession="5884" />
               <db_xref source="GI" accession="19718788" />
-            </protein_product>
-          </transcript>
-          <transcript source="RefSeq" accession="NM_133344.2">
-            <coordinates coord_system="LRG_1380" start="382" end="4690" strand="1" />
-            <partial>5-prime</partial>
-            <long_name>RAD17 checkpoint clamp loader component, transcript variant 7</long_name>
-            <db_xref source="GeneID" accession="5884" />
-            <db_xref source="GI" accession="520261385" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1380" start="382" end="439" strand="1" />
-              <partial>5-prime</partial>
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1380" start="3920" end="4690" strand="1" />
-            </exon>
-            <protein_product source="RefSeq" accession="NP_579922.1" codon_start="3">
-              <coordinates coord_system="LRG_1380" start="382" end="4181" strand="1" />
-              <partial>5-prime</partial>
-              <db_xref source="CCDS" accession="CCDS4004.1" />
-              <db_xref source="GeneID" accession="5884" />
-              <db_xref source="GI" accession="19718796" />
-            </protein_product>
-          </transcript>
-          <transcript source="RefSeq" accession="NM_133342.2">
-            <coordinates coord_system="LRG_1380" start="382" end="4690" strand="1" />
-            <partial>5-prime</partial>
-            <long_name>RAD17 checkpoint clamp loader component, transcript variant 5</long_name>
-            <db_xref source="GeneID" accession="5884" />
-            <db_xref source="GI" accession="520261445" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1380" start="382" end="439" strand="1" />
-              <partial>5-prime</partial>
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1380" start="3920" end="4690" strand="1" />
-            </exon>
-            <protein_product source="RefSeq" accession="NP_579920.1" codon_start="3">
-              <coordinates coord_system="LRG_1380" start="382" end="4181" strand="1" />
-              <partial>5-prime</partial>
-              <db_xref source="CCDS" accession="CCDS4004.1" />
-              <db_xref source="GeneID" accession="5884" />
-              <db_xref source="GI" accession="19718792" />
             </protein_product>
           </transcript>
           <transcript source="RefSeq" accession="NM_133341.2">
@@ -418,37 +418,6 @@
           <db_xref source="CCDS" accession="CCDS34175.1" />
           <db_xref source="CCDS" accession="CCDS58956.1" />
           <db_xref source="GI" accession="1604360547" />
-          <transcript source="RefSeq" accession="NM_001244734.1">
-            <coordinates coord_system="LRG_1380" start="5001" end="31952" strand="1" />
-            <long_name>MARVEL domain containing 2, transcript variant 2</long_name>
-            <db_xref source="GeneID" accession="153562" />
-            <db_xref source="GI" accession="347800725" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1380" start="5001" end="5059" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1380" start="9260" end="10420" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1380" start="22416" end="22564" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1380" start="22811" end="22982" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1380" start="30339" end="30389" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1380" start="31421" end="31952" strand="1" />
-            </exon>
-            <protein_product source="RefSeq" accession="NP_001231663.1">
-              <coordinates coord_system="LRG_1380" start="9275" end="31543" strand="1" />
-              <long_name>MARVEL domain-containing protein 2 isoform 2</long_name>
-              <db_xref source="CCDS" accession="CCDS58956.1" />
-              <db_xref source="GeneID" accession="153562" />
-              <db_xref source="GI" accession="347800726" />
-            </protein_product>
-          </transcript>
           <transcript source="RefSeq" accession="NM_001038603.3" fixed_id="t1">
             <coordinates coord_system="LRG_1380" start="5005" end="34219" strand="1" />
             <long_name>MARVEL domain containing 2, transcript variant 1</long_name>
@@ -482,6 +451,37 @@
               <db_xref source="GI" accession="289666784" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_001244734.2">
+            <coordinates coord_system="LRG_1380" start="5005" end="34219" strand="1" />
+            <long_name>MARVEL domain containing 2, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="153562" />
+            <db_xref source="GI" accession="1676319879" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1380" start="5005" end="5059" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1380" start="9260" end="10420" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1380" start="22416" end="22564" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1380" start="22811" end="22982" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1380" start="30339" end="30389" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1380" start="31421" end="34219" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001231663.1">
+              <coordinates coord_system="LRG_1380" start="9275" end="31543" strand="1" />
+              <long_name>MARVEL domain-containing protein 2 isoform 2</long_name>
+              <db_xref source="CCDS" accession="CCDS58956.1" />
+              <db_xref source="GeneID" accession="153562" />
+              <db_xref source="GI" accession="347800726" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -496,7 +496,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 96 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-06-03</modification_date>
+      <modification_date>2019-06-05</modification_date>
       <mapping coord_system="ENST00000325631.10" other_name="ENST00000325631.10" other_id="ENST00000325631.10" other_start="1" other_end="4423" type="transcript">
         <mapping_span lrg_start="5005" lrg_end="5059" other_start="1" other_end="55" strand="1" />
         <mapping_span lrg_start="9260" lrg_end="10420" other_start="56" other_end="1216" strand="1" />
@@ -1080,7 +1080,7 @@
         <name>List of locus specific databases for MARVELD2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MARVELD2</url>
       </source>
-      <modification_date>2019-06-03</modification_date>
+      <modification_date>2019-06-05</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
