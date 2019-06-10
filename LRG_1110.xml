@@ -80,7 +80,7 @@
           <email>lstarks@bcgsc.ca</email>
         </contact>
       </source>
-      <modification_date>2019-06-05</modification_date>
+      <modification_date>2019-06-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -92,7 +92,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-06-05</modification_date>
+      <modification_date>2019-06-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_id_syn="CM000671.1" other_start="80329190" other_end="80651219" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="322030" other_start="80329190" other_end="80651219" strand="-1" />
       </mapping>
@@ -112,7 +112,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_027904.2</comment>
-      <modification_date>2019-06-04</modification_date>
+      <modification_date>2019-06-06</modification_date>
       <mapping coord_system="NM_002072.4" other_name="NM_002072.4" other_id="NM_002072.4" other_start="1" other_end="6343" type="transcript">
         <mapping_span lrg_start="4855" lrg_end="5204" other_start="1" other_end="350" strand="1" />
         <mapping_span lrg_start="113959" lrg_end="114143" other_start="351" other_end="535" strand="1" />
@@ -121,6 +121,15 @@
         <mapping_span lrg_start="241712" lrg_end="241841" other_start="820" other_end="949" strand="1" />
         <mapping_span lrg_start="307637" lrg_end="307790" other_start="950" other_end="1103" strand="1" />
         <mapping_span lrg_start="314791" lrg_end="320030" other_start="1104" other_end="6343" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_002072.5" other_name="NM_002072.5" other_id="NM_002072.5" other_start="1" other_end="6882" type="transcript">
+        <mapping_span lrg_start="4493" lrg_end="5204" other_start="1" other_end="712" strand="1" />
+        <mapping_span lrg_start="113959" lrg_end="114143" other_start="713" other_end="897" strand="1" />
+        <mapping_span lrg_start="220534" lrg_end="220688" other_start="898" other_end="1052" strand="1" />
+        <mapping_span lrg_start="238656" lrg_end="238784" other_start="1053" other_end="1181" strand="1" />
+        <mapping_span lrg_start="241712" lrg_end="241841" other_start="1182" other_end="1311" strand="1" />
+        <mapping_span lrg_start="307637" lrg_end="307790" other_start="1312" other_end="1465" strand="1" />
+        <mapping_span lrg_start="314791" lrg_end="320207" other_start="1466" other_end="6882" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="2776">
@@ -137,6 +146,40 @@
           <db_xref source="MIM" accession="600998" />
           <db_xref source="CCDS" accession="CCDS6658.1" />
           <db_xref source="GI" accession="545688942" />
+          <transcript source="RefSeq" accession="NM_002072.5">
+            <coordinates coord_system="LRG_1110" start="4493" end="320207" strand="1" />
+            <long_name>G protein subunit alpha q</long_name>
+            <db_xref source="GeneID" accession="2776" />
+            <db_xref source="GI" accession="1653961273" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1110" start="4493" end="5204" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1110" start="113959" end="114143" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1110" start="220534" end="220688" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1110" start="238656" end="238784" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1110" start="241712" end="241841" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1110" start="307637" end="307790" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1110" start="314791" end="320207" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_002063.2">
+              <coordinates coord_system="LRG_1110" start="5069" end="314981" strand="1" />
+              <long_name>guanine nucleotide-binding protein G(q) subunit alpha</long_name>
+              <db_xref source="CCDS" accession="CCDS6658.1" />
+              <db_xref source="GeneID" accession="2776" />
+              <db_xref source="GI" accession="40254462" />
+            </protein_product>
+          </transcript>
           <transcript source="RefSeq" accession="NM_002072.4" fixed_id="t1">
             <coordinates coord_system="LRG_1110" start="4855" end="320030" strand="1" />
             <long_name>G protein subunit alpha q</long_name>
@@ -165,6 +208,7 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_002063.2" fixed_id="p1">
               <coordinates coord_system="LRG_1110" start="5069" end="314981" strand="1" />
+              <long_name>guanine nucleotide-binding protein G(q) subunit alpha</long_name>
               <db_xref source="CCDS" accession="CCDS6658.1" />
               <db_xref source="GeneID" accession="2776" />
               <db_xref source="GI" accession="40254462" />
@@ -184,7 +228,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 96 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-06-05</modification_date>
+      <modification_date>2019-06-10</modification_date>
       <mapping coord_system="ENST00000286548.8" other_name="ENST00000286548.8" other_id="ENST00000286548.8" other_start="1" other_end="6539" type="transcript">
         <mapping_span lrg_start="4846" lrg_end="5204" other_start="1" other_end="359" strand="1" />
         <mapping_span lrg_start="113959" lrg_end="114143" other_start="360" other_end="544" strand="1" />
@@ -271,7 +315,7 @@
         <name>List of locus specific databases for GNAQ</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GNAQ</url>
       </source>
-      <modification_date>2019-06-05</modification_date>
+      <modification_date>2019-06-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
