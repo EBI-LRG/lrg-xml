@@ -72,7 +72,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2019-06-10</modification_date>
+      <modification_date>2019-06-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -84,7 +84,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-06-10</modification_date>
+      <modification_date>2019-06-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="36611493" other_end="36624786" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="13294" other_start="36611493" other_end="36624786" strand="-1" />
       </mapping>
@@ -104,19 +104,19 @@
         </contact>
       </source>
       <comment>Annotation from NG_007573.1</comment>
-      <modification_date>2019-06-06</modification_date>
+      <modification_date>2019-06-11</modification_date>
       <mapping coord_system="NM_000536.2" other_name="NM_000536.2" other_id="NM_000536.2" other_start="1" other_end="2414" type="transcript">
         <mapping_span lrg_start="4975" lrg_end="5135" other_start="1" other_end="161" strand="1" />
         <mapping_span lrg_start="9042" lrg_end="11294" other_start="162" other_end="2414" strand="1" />
       </mapping>
-      <mapping coord_system="NM_000536.3" other_name="NM_000536.3" other_id="NM_000536.3" other_start="1" other_end="2431" type="transcript">
-        <mapping_span lrg_start="4958" lrg_end="5135" other_start="1" other_end="178" strand="1" />
-        <mapping_span lrg_start="9042" lrg_end="11294" other_start="179" other_end="2431" strand="1" />
+      <mapping coord_system="NM_000536.4" other_name="NM_000536.4" other_id="NM_000536.4" other_start="1" other_end="2388" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5135" other_start="1" other_end="135" strand="1" />
+        <mapping_span lrg_start="9042" lrg_end="11294" other_start="136" other_end="2388" strand="1" />
       </mapping>
-      <mapping coord_system="NM_001243785.1" other_name="NM_001243785.1" other_id="NM_001243785.1" other_start="1" other_end="2626" type="transcript">
-        <mapping_span lrg_start="4958" lrg_end="5135" other_start="1" other_end="178" strand="1" />
-        <mapping_span lrg_start="8236" lrg_end="8430" other_start="179" other_end="373" strand="1" />
-        <mapping_span lrg_start="9042" lrg_end="11294" other_start="374" other_end="2626" strand="1" />
+      <mapping coord_system="NM_001243785.2" other_name="NM_001243785.2" other_id="NM_001243785.2" other_start="1" other_end="2583" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5135" other_start="1" other_end="135" strand="1" />
+        <mapping_span lrg_start="8236" lrg_end="8430" other_start="136" other_end="330" strand="1" />
+        <mapping_span lrg_start="9042" lrg_end="11294" other_start="331" other_end="2583" strand="1" />
       </mapping>
       <mapping coord_system="NM_001243786.1" other_name="NM_001243786.1" other_id="NM_001243786.1" other_start="1" other_end="2820" type="transcript">
         <mapping_span lrg_start="4958" lrg_end="5135" other_start="1" other_end="178" strand="1" />
@@ -181,13 +181,32 @@
               <db_xref source="GI" accession="344925930" />
             </protein_product>
           </transcript>
-          <transcript source="RefSeq" accession="NM_001243785.1">
-            <coordinates coord_system="LRG_99" start="4958" end="11294" strand="1" />
+          <transcript source="RefSeq" accession="NM_000536.2" fixed_id="t1">
+            <coordinates coord_system="LRG_99" start="4975" end="11294" strand="1" />
+            <long_name>recombination activating 2, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="5897" />
+            <db_xref source="GI" accession="151301079" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_99" start="4975" end="5135" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_99" start="9042" end="11294" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000527.2" fixed_id="p1">
+              <coordinates coord_system="LRG_99" start="9069" end="10652" strand="1" />
+              <long_name>V(D)J recombination-activating protein 2</long_name>
+              <db_xref source="CCDS" accession="CCDS7903.1" />
+              <db_xref source="GeneID" accession="5897" />
+              <db_xref source="GI" accession="151301080" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001243785.2">
+            <coordinates coord_system="LRG_99" start="5001" end="11294" strand="1" />
             <long_name>recombination activating 2, transcript variant 3</long_name>
             <db_xref source="GeneID" accession="5897" />
-            <db_xref source="GI" accession="344925857" />
+            <db_xref source="GI" accession="1677530570" />
             <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_99" start="4958" end="5135" strand="1" />
+              <coordinates coord_system="LRG_99" start="5001" end="5135" strand="1" />
             </exon>
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_99" start="8236" end="8430" strand="1" />
@@ -203,37 +222,18 @@
               <db_xref source="GI" accession="344925858" />
             </protein_product>
           </transcript>
-          <transcript source="RefSeq" accession="NM_000536.3">
-            <coordinates coord_system="LRG_99" start="4958" end="11294" strand="1" />
+          <transcript source="RefSeq" accession="NM_000536.4">
+            <coordinates coord_system="LRG_99" start="5001" end="11294" strand="1" />
             <long_name>recombination activating 2, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="5897" />
-            <db_xref source="GI" accession="296040459" />
+            <db_xref source="GI" accession="1677530893" />
             <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_99" start="4958" end="5135" strand="1" />
+              <coordinates coord_system="LRG_99" start="5001" end="5135" strand="1" />
             </exon>
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_99" start="9042" end="11294" strand="1" />
             </exon>
             <protein_product source="RefSeq" accession="NP_000527.2">
-              <coordinates coord_system="LRG_99" start="9069" end="10652" strand="1" />
-              <long_name>V(D)J recombination-activating protein 2</long_name>
-              <db_xref source="CCDS" accession="CCDS7903.1" />
-              <db_xref source="GeneID" accession="5897" />
-              <db_xref source="GI" accession="151301080" />
-            </protein_product>
-          </transcript>
-          <transcript source="RefSeq" accession="NM_000536.2" fixed_id="t1">
-            <coordinates coord_system="LRG_99" start="4975" end="11294" strand="1" />
-            <long_name>recombination activating 2, transcript variant 1</long_name>
-            <db_xref source="GeneID" accession="5897" />
-            <db_xref source="GI" accession="151301079" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_99" start="4975" end="5135" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_99" start="9042" end="11294" strand="1" />
-            </exon>
-            <protein_product source="RefSeq" accession="NP_000527.2" fixed_id="p1">
               <coordinates coord_system="LRG_99" start="9069" end="10652" strand="1" />
               <long_name>V(D)J recombination-activating protein 2</long_name>
               <db_xref source="CCDS" accession="CCDS7903.1" />
@@ -255,7 +255,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 96 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-06-10</modification_date>
+      <modification_date>2019-06-12</modification_date>
       <mapping coord_system="ENST00000311485.7" other_name="ENST00000311485.7" other_id="ENST00000311485.7" other_start="1" other_end="2388" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5135" other_start="1" other_end="135" strand="1" />
         <mapping_span lrg_start="9042" lrg_end="11294" other_start="136" other_end="2388" strand="1" />
@@ -575,7 +575,7 @@
         <name>List of locus specific databases for RAG2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RAG2</url>
       </source>
-      <modification_date>2019-06-10</modification_date>
+      <modification_date>2019-06-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
