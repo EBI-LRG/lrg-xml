@@ -97,7 +97,7 @@
           <email>km369@medschl.cam.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2019-07-01</modification_date>
+      <modification_date>2019-07-03</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -109,8 +109,11 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-07-01</modification_date>
+      <modification_date>2019-07-03</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="610555" other_end="620999" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="10445" other_start="610555" other_end="620999" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p13" other_name="11" other_id="NC_000011.10" other_id_syn="CM000673.2" other_start="610555" other_end="620999" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="10445" other_start="610555" other_end="620999" strand="-1" />
       </mapping>
       <mapping coord_system="GRCh38.p13" other_name="11p15.5" other_id="NT_187586.1" other_id_syn="KI270832.1" other_start="140448" other_end="150898" type="haplotype">
@@ -127,9 +130,6 @@
           <diff type="mismatch" lrg_start="6136" lrg_end="6136" other_start="144757" other_end="144757" lrg_sequence="G" other_sequence="A" />
         </mapping_span>
       </mapping>
-      <mapping coord_system="GRCh38.p13" other_name="11" other_id="NC_000011.10" other_id_syn="CM000673.2" other_start="610555" other_end="620999" type="main_assembly">
-        <mapping_span lrg_start="1" lrg_end="10445" other_start="610555" other_end="620999" strand="-1" />
-      </mapping>
       <lrg_locus source="HGNC">IRF7</lrg_locus>
     </annotation_set>
     <annotation_set type="ncbi">
@@ -143,7 +143,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_029106.1</comment>
-      <modification_date>2019-06-27</modification_date>
+      <modification_date>2019-07-02</modification_date>
       <mapping coord_system="NM_001572.5" other_name="NM_001572.5" other_id="NM_001572.5" other_start="1" other_end="1923" type="transcript">
         <mapping_span lrg_start="5050" lrg_end="5087" other_start="1" other_end="38" strand="1" />
         <mapping_span lrg_start="5353" lrg_end="5655" other_start="39" other_end="341" strand="1" />
@@ -197,45 +197,6 @@
           <db_xref source="MIM" accession="606839" />
           <db_xref source="CCDS" accession="CCDS7707.1" />
           <db_xref source="CCDS" accession="CCDS7708.1" />
-          <transcript source="RefSeq" accession="NM_021924.4">
-            <coordinates coord_system="LRG_1313" start="614" end="4435" strand="1" />
-            <partial>5-prime</partial>
-            <long_name>cadherin related family member 5, transcript variant 1</long_name>
-            <db_xref source="GeneID" accession="53841" />
-            <db_xref source="GI" accession="285002196" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1313" start="614" end="704" strand="1" />
-              <partial>5-prime</partial>
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1313" start="836" end="933" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1313" start="1119" end="1319" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1313" start="1413" end="1526" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1313" start="1610" end="1694" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1313" start="1820" end="2401" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1313" start="2889" end="3046" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1313" start="3230" end="4435" strand="1" />
-            </exon>
-            <protein_product source="RefSeq" accession="NP_068743.2" codon_start="1">
-              <coordinates coord_system="LRG_1313" start="614" end="3649" strand="1" />
-              <partial>5-prime</partial>
-              <db_xref source="CCDS" accession="CCDS7707.1" />
-              <db_xref source="GeneID" accession="53841" />
-              <db_xref source="GI" accession="110618248" />
-            </protein_product>
-          </transcript>
           <transcript source="RefSeq" accession="NM_001171968.2">
             <coordinates coord_system="LRG_1313" start="614" end="4435" strand="1" />
             <partial>5-prime</partial>
@@ -308,6 +269,45 @@
               <db_xref source="CCDS" accession="CCDS7708.1" />
               <db_xref source="GeneID" accession="53841" />
               <db_xref source="GI" accession="1677501441" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_021924.5">
+            <coordinates coord_system="LRG_1313" start="614" end="4417" strand="1" />
+            <partial>5-prime</partial>
+            <long_name>cadherin related family member 5, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="53841" />
+            <db_xref source="GI" accession="1695091486" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1313" start="614" end="704" strand="1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1313" start="836" end="933" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1313" start="1119" end="1319" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1313" start="1413" end="1526" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1313" start="1610" end="1694" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1313" start="1820" end="2401" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1313" start="2889" end="3046" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1313" start="3230" end="4417" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_068743.3" codon_start="1">
+              <coordinates coord_system="LRG_1313" start="614" end="3649" strand="1" />
+              <partial>5-prime</partial>
+              <db_xref source="CCDS" accession="CCDS7707.1" />
+              <db_xref source="GeneID" accession="53841" />
+              <db_xref source="GI" accession="1695091487" />
             </protein_product>
           </transcript>
         </gene>
@@ -587,7 +587,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 96 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-07-01</modification_date>
+      <modification_date>2019-07-03</modification_date>
       <mapping coord_system="ENST00000330243.9" other_name="ENST00000330243.9" other_id="ENST00000330243.9" other_start="1" other_end="1992" type="transcript">
         <mapping_span lrg_start="5030" lrg_end="5087" other_start="1" other_end="58" strand="1" />
         <mapping_span lrg_start="5353" lrg_end="5903" other_start="59" other_end="609" strand="1" />
@@ -1573,7 +1573,7 @@
         <name>List of locus specific databases for IRF7</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/IRF7</url>
       </source>
-      <modification_date>2019-07-01</modification_date>
+      <modification_date>2019-07-03</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
