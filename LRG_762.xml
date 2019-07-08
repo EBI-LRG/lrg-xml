@@ -130,22 +130,22 @@
       <source>
         <name></name>
         <contact>
-          <name>Dr Sandi Deans</name>
-          <url>https://www.ukneqas-molgen.org.uk/</url>
-          <address>UK NEQAS for Molecular Genetics, UK NEQAS [Edinburgh], Department of Laboratory Medicine, The Royal Infirmary of Edinburgh, Edinburgh, EH16 4SA, United Kingdom</address>
-          <email>info@ukneqas-molgen.org.uk</email>
-        </contact>
-      </source>
-      <source>
-        <name></name>
-        <contact>
           <name>Ulla Magdal Petersen</name>
           <url>http://www.npu-terminology.org</url>
           <address>IFCC-IUPAC NPU Terminology</address>
           <email>ump@sundhedsdatastyrelsen.dk</email>
         </contact>
       </source>
-      <modification_date>2019-07-03</modification_date>
+      <source>
+        <name></name>
+        <contact>
+          <name>Dr Sandi Deans</name>
+          <url>https://www.ukneqas-molgen.org.uk/</url>
+          <address>UK NEQAS for Molecular Genetics, UK NEQAS [Edinburgh], Department of Laboratory Medicine, The Royal Infirmary of Edinburgh, Edinburgh, EH16 4SA, United Kingdom</address>
+          <email>info@ukneqas-molgen.org.uk</email>
+        </contact>
+      </source>
+      <modification_date>2019-07-08</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -157,7 +157,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-07-03</modification_date>
+      <modification_date>2019-07-08</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="Xq27-28" other_id="NW_004070890.2" other_id_syn="JH806600.2" other_start="3431382" other_end="3477518" type="patch">
         <mapping_span lrg_start="1" lrg_end="46135" other_start="3431382" other_end="3477518" strand="1">
           <diff type="mismatch" lrg_start="12828" lrg_end="12828" other_start="3444209" other_end="3444209" lrg_sequence="T" other_sequence="C" />
@@ -198,7 +198,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007529.2</comment>
-      <modification_date>2019-07-02</modification_date>
+      <modification_date>2019-07-04</modification_date>
       <mapping coord_system="NM_001185075.1" other_name="NM_001185075.1" other_id="NM_001185075.1" other_start="1" other_end="4140" type="transcript">
         <mapping_span lrg_start="4961" lrg_end="5240" other_start="1" other_end="280" strand="1" />
         <mapping_span lrg_start="14943" lrg_end="14995" other_start="281" other_end="333" strand="1" />
@@ -774,8 +774,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 96 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-07-03</modification_date>
+      <comment>Annotation is based on Ensembl release 97 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-07-08</modification_date>
       <mapping coord_system="ENST00000218200.12" other_name="ENST00000218200.12" other_id="ENST00000218200.12" other_start="1" other_end="4333" type="transcript">
         <mapping_span lrg_start="4961" lrg_end="5240" other_start="1" other_end="280" strand="1" />
         <mapping_span lrg_start="14943" lrg_end="14995" other_start="281" other_end="333" strand="1" />
@@ -1045,17 +1045,20 @@
         <gene source="Ensembl" accession="ENSG00000268066.5">
           <symbol source="HGNC" name="FMR1-AS1" />
           <coordinates coord_system="LRG_762" start="2441" end="4827" strand="-1" mapped_from="GRCh38" />
-          <long_name>FMR1 antisense RNA 1 (processed_transcript)</long_name>
+          <long_name>FMR1 antisense RNA 1 (lncRNA)</long_name>
+          <db_xref source="GeneID" accession="100126270" />
           <db_xref source="HGNC" accession="39081">
             <synonym>ASFMR1</synonym>
             <synonym>FMR1-AS</synonym>
             <synonym>FMR1AS</synonym>
             <synonym>FMR4</synonym>
           </db_xref>
+          <db_xref source="MIM" accession="300805" />
           <db_xref source="Ensembl" accession="ENSG00000268066" />
           <transcript source="Ensembl" accession="ENST00000594922.5">
             <coordinates coord_system="LRG_762" start="2441" end="4827" strand="-1" mapped_from="GRCh38" />
-            <long_name>FMR1-AS1-201 (antisense)</long_name>
+            <long_name>FMR1-AS1-201 (lncRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_024499.3" />
             <db_xref source="RefSeq" accession="NR_024501.3" />
             <exon source="Ensembl" accession="ENSE00003107773">
               <coordinates coord_system="LRG_762" start="4388" end="4827" strand="-1" mapped_from="GRCh38" />
@@ -1066,7 +1069,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000596112.5">
             <coordinates coord_system="LRG_762" start="2441" end="4827" strand="-1" mapped_from="GRCh38" />
-            <long_name>FMR1-AS1-202 (antisense)</long_name>
+            <long_name>FMR1-AS1-202 (lncRNA)</long_name>
             <db_xref source="RefSeq" accession="NR_024502.3" />
             <exon source="Ensembl" accession="ENSE00003108396">
               <coordinates coord_system="LRG_762" start="4652" end="4827" strand="-1" mapped_from="GRCh38" />
@@ -1081,14 +1084,13 @@
           <transcript source="Ensembl" accession="ENST00000601841.1">
             <coordinates coord_system="LRG_762" start="2441" end="4827" strand="-1" mapped_from="GRCh38" />
             <long_name>FMR1-AS1-204 (retained_intron)</long_name>
-            <db_xref source="RefSeq" accession="NR_024499.3" />
             <exon source="Ensembl" accession="ENSE00002992548">
               <coordinates coord_system="LRG_762" start="2441" end="4827" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000598667.1">
             <coordinates coord_system="LRG_762" start="2441" end="4827" strand="-1" mapped_from="GRCh38" />
-            <long_name>FMR1-AS1-203 (antisense)</long_name>
+            <long_name>FMR1-AS1-203 (lncRNA)</long_name>
             <db_xref source="RefSeq" accession="NR_024503.3" />
             <exon source="Ensembl" accession="ENSE00003108396">
               <coordinates coord_system="LRG_762" start="4652" end="4827" strand="-1" mapped_from="GRCh38" />
@@ -1953,12 +1955,12 @@
         <gene source="Ensembl" accession="ENSG00000236337.1">
           <symbol source="HGNC" name="FMR1-IT1" />
           <coordinates coord_system="LRG_762" start="39951" end="40593" strand="1" mapped_from="GRCh38" />
-          <long_name>FMR1 intronic transcript 1 (sense_intronic)</long_name>
+          <long_name>FMR1 intronic transcript 1 (lncRNA)</long_name>
           <db_xref source="HGNC" accession="41333" />
           <db_xref source="Ensembl" accession="ENSG00000236337" />
           <transcript source="Ensembl" accession="ENST00000441414.1">
             <coordinates coord_system="LRG_762" start="39951" end="40593" strand="1" mapped_from="GRCh38" />
-            <long_name>FMR1-IT1-201 (sense_intronic)</long_name>
+            <long_name>FMR1-IT1-201 (lncRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001641677">
               <coordinates coord_system="LRG_762" start="39951" end="40189" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1974,7 +1976,7 @@
         <name>List of locus specific databases for FMR1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FMR1</url>
       </source>
-      <modification_date>2019-07-03</modification_date>
+      <modification_date>2019-07-08</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -275,7 +275,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2019-07-03</modification_date>
+      <modification_date>2019-07-08</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -287,7 +287,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-07-03</modification_date>
+      <modification_date>2019-07-08</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_id_syn="CM000669.1" other_start="81573760" other_end="82078031" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="504272" other_start="81573760" other_end="82078031" strand="-1" />
       </mapping>
@@ -309,7 +309,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009358.2</comment>
-      <modification_date>2019-07-02</modification_date>
+      <modification_date>2019-07-04</modification_date>
       <mapping coord_system="NM_000722.2" other_name="NM_000722.2" other_id="NM_000722.2" other_start="1" other_end="3822" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5351" other_start="1" other_end="351" strand="1" />
         <mapping_span lrg_start="99067" lrg_end="99148" other_start="352" other_end="433" strand="1" />
@@ -954,8 +954,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 96 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-07-03</modification_date>
+      <comment>Annotation is based on Ensembl release 97 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-07-08</modification_date>
       <mapping coord_system="ENST00000356253.9" other_name="ENST00000356253.9" other_id="ENST00000356253.9" other_start="1" other_end="3858" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5351" other_start="1" other_end="351" strand="1" />
         <mapping_span lrg_start="99067" lrg_end="99148" other_start="352" other_end="433" strand="1" />
@@ -1308,6 +1308,7 @@
           <transcript source="Ensembl" accession="ENST00000356253.9">
             <coordinates coord_system="LRG_437" start="5001" end="498614" strand="1" mapped_from="GRCh38" />
             <long_name>CACNA2D1-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001366867.1" />
             <exon source="Ensembl" accession="ENSE00001906490">
               <coordinates coord_system="LRG_437" start="5001" end="5351" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1427,14 +1428,13 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000348589.5">
               <coordinates coord_system="LRG_437" start="5257" end="498324" strand="1" mapped_from="GRCh38" />
-              <long_name>voltage-dependent calcium channel subunit alpha-2/delta-1 isoform 3 preproprotein</long_name>
               <db_xref source="RefSeq" accession="NP_001353796.1" />
               <db_xref source="UniProtKB" accession="P54289" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000484706.1">
             <coordinates coord_system="LRG_437" start="105480" end="331672" strand="1" mapped_from="GRCh38" />
-            <long_name>CACNA2D1-210 (processed_transcript)</long_name>
+            <long_name>CACNA2D1-210 (lncRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001894590">
               <coordinates coord_system="LRG_437" start="105480" end="105662" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1453,7 +1453,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000461275.1">
             <coordinates coord_system="LRG_437" start="363880" end="397781" strand="1" mapped_from="GRCh38" />
-            <long_name>CACNA2D1-205 (processed_transcript)</long_name>
+            <long_name>CACNA2D1-205 (lncRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001887138">
               <coordinates coord_system="LRG_437" start="363880" end="363947" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1491,7 +1491,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000464354.5">
             <coordinates coord_system="LRG_437" start="415644" end="443269" strand="1" mapped_from="GRCh38" />
-            <long_name>CACNA2D1-206 (processed_transcript)</long_name>
+            <long_name>CACNA2D1-206 (lncRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001843265">
               <coordinates coord_system="LRG_437" start="415644" end="415697" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1625,11 +1625,11 @@
         <gene source="Ensembl" accession="ENSG00000223770.5">
           <symbol source="Clone_based_ensembl_gene" name="AC006145.1" />
           <coordinates coord_system="LRG_437" start="418761" end="439539" strand="-1" mapped_from="GRCh38" />
-          <long_name>novel transcript (antisense)</long_name>
+          <long_name>novel transcript (lncRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000223770" />
           <transcript source="Ensembl" accession="ENST00000439234.5">
             <coordinates coord_system="LRG_437" start="418761" end="439539" strand="-1" mapped_from="GRCh38" />
-            <long_name>AC006145.1-201 (antisense)</long_name>
+            <long_name>AC006145.1-201 (lncRNA)</long_name>
             <db_xref source="RefSeq" accession="NR_110076.1" />
             <exon source="Ensembl" accession="ENSE00001801469">
               <coordinates coord_system="LRG_437" start="439454" end="439539" strand="-1" mapped_from="GRCh38" />
@@ -1649,7 +1649,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000454066.1">
             <coordinates coord_system="LRG_437" start="420373" end="439524" strand="-1" mapped_from="GRCh38" />
-            <long_name>AC006145.1-202 (antisense)</long_name>
+            <long_name>AC006145.1-202 (lncRNA)</long_name>
             <db_xref source="RefSeq" accession="NR_110077.1" />
             <exon source="Ensembl" accession="ENSE00001650745">
               <coordinates coord_system="LRG_437" start="439454" end="439524" strand="-1" mapped_from="GRCh38" />
@@ -1672,7 +1672,7 @@
         <name>List of locus specific databases for CACNA2D1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CACNA2D1</url>
       </source>
-      <modification_date>2019-07-03</modification_date>
+      <modification_date>2019-07-08</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

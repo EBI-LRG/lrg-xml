@@ -43,7 +43,7 @@
           <email>is250@cam.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2019-07-03</modification_date>
+      <modification_date>2019-07-08</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -55,7 +55,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-07-03</modification_date>
+      <modification_date>2019-07-08</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_id_syn="CM000681.1" other_start="45677003" other_end="45687058" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="10056" other_start="45677003" other_end="45687058" strand="1" />
       </mapping>
@@ -75,7 +75,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008372.1</comment>
-      <modification_date>2019-07-02</modification_date>
+      <modification_date>2019-07-04</modification_date>
       <mapping coord_system="NM_212550.4" other_name="NM_212550.4" other_id="NM_212550.4" other_start="1" other_end="2601" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5087" other_start="1" other_end="87" strand="1" />
         <mapping_span lrg_start="5544" lrg_end="8057" other_start="88" other_end="2601" strand="1" />
@@ -212,8 +212,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 96 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-07-03</modification_date>
+      <comment>Annotation is based on Ensembl release 97 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-07-08</modification_date>
       <mapping coord_system="ENST00000433642.2" other_name="ENST00000433642.2" other_id="ENST00000433642.2" other_start="1" other_end="2601" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5087" other_start="1" other_end="87" strand="1" />
         <mapping_span lrg_start="5544" lrg_end="8057" other_start="88" other_end="2601" strand="1" />
@@ -229,6 +229,9 @@
       <mapping coord_system="ENST00000592910.1" other_name="ENST00000592910.1" other_id="ENST00000592910.1" other_start="1" other_end="469" type="transcript">
         <mapping_span lrg_start="5925" lrg_end="6198" other_start="1" other_end="274" strand="1" />
         <mapping_span lrg_start="7528" lrg_end="7722" other_start="275" other_end="469" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000593083.1" other_name="ENST00000593083.1" other_id="ENST00000593083.1" other_start="1" other_end="121" type="transcript">
+        <mapping_span lrg_start="6078" lrg_end="6198" other_start="1" other_end="121" strand="1" />
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000007047.15">
@@ -340,9 +343,10 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000189114.6">
+        <gene source="Ensembl" accession="ENSG00000189114.7">
           <symbol source="HGNC" name="BLOC1S3" />
-          <coordinates coord_system="LRG_546" start="5001" end="8057" strand="1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_546" start="5001" end="10056" strand="1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
           <long_name>biogenesis of lysosomal organelles complex 1 subunit 3 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="388552" />
           <db_xref source="HGNC" accession="20914">
@@ -382,7 +386,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000592910.1">
             <coordinates coord_system="LRG_546" start="5925" end="7722" strand="1" mapped_from="GRCh38" />
-            <long_name>BLOC1S3-204 (protein_coding)</long_name>
+            <long_name>BLOC1S3-205 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00002933641">
               <coordinates coord_system="LRG_546" start="5925" end="6198" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -393,9 +397,17 @@
               <coordinates coord_system="LRG_546" start="5925" end="6161" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000593083.1">
+            <coordinates coord_system="LRG_546" start="6078" end="10056" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>BLOC1S3-206 (lncRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00002931044">
+              <coordinates coord_system="LRG_546" start="6078" end="6198" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000588362.1">
             <coordinates coord_system="LRG_546" start="6170" end="7825" strand="1" mapped_from="GRCh38" />
-            <long_name>BLOC1S3-203 (processed_transcript)</long_name>
+            <long_name>BLOC1S3-203 (lncRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00002964649">
               <coordinates coord_system="LRG_546" start="6170" end="6198" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -407,24 +419,6 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000267545.1">
-          <symbol source="Clone_based_ensembl_gene" name="AC005779.2" />
-          <coordinates coord_system="LRG_546" start="6078" end="10056" strand="1" mapped_from="GRCh38" />
-          <partial>3-prime</partial>
-          <long_name>novel transcript (protein_coding)</long_name>
-          <db_xref source="Ensembl" accession="ENSG00000267545" />
-          <transcript source="Ensembl" accession="ENST00000593083.1">
-            <coordinates coord_system="LRG_546" start="6078" end="10056" strand="1" mapped_from="GRCh38" />
-            <partial>3-prime</partial>
-            <long_name>AC005779.2-201 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00002931044">
-              <coordinates coord_system="LRG_546" start="6078" end="6198" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000466282.1">
-              <coordinates coord_system="LRG_546" start="6078" end="6161" strand="1" mapped_from="GRCh38" />
-            </protein_product>
-          </transcript>
-        </gene>
       </features>
     </annotation_set>
     <annotation_set type="lsdb">
@@ -432,7 +426,7 @@
         <name>List of locus specific databases for BLOC1S3</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/BLOC1S3</url>
       </source>
-      <modification_date>2019-07-03</modification_date>
+      <modification_date>2019-07-08</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

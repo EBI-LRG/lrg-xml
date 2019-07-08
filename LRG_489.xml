@@ -180,7 +180,7 @@
           <email>Nazneen.Rahman@icr.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2019-07-03</modification_date>
+      <modification_date>2019-07-08</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -192,7 +192,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-07-03</modification_date>
+      <modification_date>2019-07-08</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="15" other_id="NC_000015.9" other_id_syn="CM000677.1" other_start="40448210" other_end="40515337" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="67128" other_start="40448210" other_end="40515337" strand="1">
           <diff type="mismatch" lrg_start="29622" lrg_end="29622" other_start="40477831" other_end="40477831" lrg_sequence="A" other_sequence="G" />
@@ -216,7 +216,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_016338.1</comment>
-      <modification_date>2019-07-02</modification_date>
+      <modification_date>2019-07-04</modification_date>
       <mapping coord_system="NM_001211.5" other_name="NM_001211.5" other_id="NM_001211.5" other_start="1" other_end="3742" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5247" other_start="1" other_end="247" strand="1" />
         <mapping_span lrg_start="9045" lrg_end="9188" other_start="248" other_end="391" strand="1" />
@@ -367,8 +367,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 96 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-07-03</modification_date>
+      <comment>Annotation is based on Ensembl release 97 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-07-08</modification_date>
       <mapping coord_system="ENST00000287598.10" other_name="ENST00000287598.10" other_id="ENST00000287598.10" other_start="1" other_end="3725" type="transcript">
         <mapping_span lrg_start="5018" lrg_end="5247" other_start="1" other_end="230" strand="1" />
         <mapping_span lrg_start="9045" lrg_end="9188" other_start="231" other_end="374" strand="1" />
@@ -499,7 +499,7 @@
           <db_xref source="Ensembl" accession="ENSG00000156970" />
           <transcript source="Ensembl" accession="ENST00000560120.5">
             <coordinates coord_system="LRG_489" start="5015" end="20613" strand="1" mapped_from="GRCh38" />
-            <long_name>BUB1B-211 (processed_transcript)</long_name>
+            <long_name>BUB1B-211 (lncRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00002546677">
               <coordinates coord_system="LRG_489" start="5015" end="5247" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -596,7 +596,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000559414.5">
             <coordinates coord_system="LRG_489" start="5035" end="20542" strand="1" mapped_from="GRCh38" />
-            <long_name>BUB1B-207 (processed_transcript)</long_name>
+            <long_name>BUB1B-207 (lncRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00002542256">
               <coordinates coord_system="LRG_489" start="5035" end="5247" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -812,51 +812,56 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000259288.6">
-          <symbol source="HGNC" name="BUB1B-PAK6" />
+        <gene source="Ensembl" accession="ENSG00000137843.12">
+          <symbol source="HGNC" name="PAK6" />
           <coordinates coord_system="LRG_489" start="61420" end="67128" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>BUB1B-PAK6 readthrough (protein_coding)</long_name>
+          <long_name>p21 (RAC1) activated kinase 6 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="56924" />
           <db_xref source="GeneID" accession="106821730" />
-          <db_xref source="HGNC" accession="52276" />
-          <db_xref source="Ensembl" accession="ENSG00000259288" />
-          <transcript source="Ensembl" accession="ENST00000453867.6">
+          <db_xref source="HGNC" accession="16061">
+            <synonym>PAK5</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="608110" />
+          <db_xref source="Ensembl" accession="ENSG00000137843" />
+          <transcript source="Ensembl" accession="ENST00000453867.7">
             <coordinates coord_system="LRG_489" start="61420" end="67128" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>BUB1B-PAK6-202 (nonsense_mediated_decay)</long_name>
+            <long_name>PAK6-203 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001128629.2" />
             <exon source="Ensembl" accession="ENSE00003754457">
               <coordinates coord_system="LRG_489" start="61420" end="61659" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000401153.2">
-              <coordinates coord_system="LRG_489" start="61577" end="67128" strand="1" mapped_from="GRCh38" />
-              <partial>3-prime</partial>
-            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000441369.6">
             <coordinates coord_system="LRG_489" start="61441" end="67128" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>BUB1B-PAK6-201 (protein_coding)</long_name>
+            <long_name>PAK6-202 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001128628.2" />
             <exon source="Ensembl" accession="ENSE00002554603">
               <coordinates coord_system="LRG_489" start="61441" end="61659" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000558658.5">
+          <transcript source="Ensembl" accession="ENST00000558658.6">
             <coordinates coord_system="LRG_489" start="61579" end="67128" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>BUB1B-PAK6-203 (nonsense_mediated_decay)</long_name>
+            <long_name>PAK6-211 (protein_coding)</long_name>
             <exon source="Ensembl" accession="ENSE00002562398">
               <coordinates coord_system="LRG_489" start="61579" end="61659" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000456785.1">
-              <coordinates coord_system="LRG_489" start="61579" end="67128" strand="1" mapped_from="GRCh38" />
-              <partial>3-prime</partial>
-            </protein_product>
           </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000259288.7">
+          <symbol source="HGNC" name="BUB1B-PAK6" />
+          <coordinates coord_system="LRG_489" start="62492" end="67128" strand="1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>BUB1B-PAK6 readthrough (protein_coding)</long_name>
+          <db_xref source="HGNC" accession="52276" />
+          <db_xref source="Ensembl" accession="ENSG00000259288" />
           <transcript source="Ensembl" accession="ENST00000559435.1">
             <coordinates coord_system="LRG_489" start="62492" end="67128" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>BUB1B-PAK6-204 (nonsense_mediated_decay)</long_name>
+            <long_name>BUB1B-PAK6-201 (nonsense_mediated_decay)</long_name>
             <exon source="Ensembl" accession="ENSE00002545007">
               <coordinates coord_system="LRG_489" start="62492" end="62554" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -876,7 +881,7 @@
         <name>List of locus specific databases for BUB1B</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/BUB1B</url>
       </source>
-      <modification_date>2019-07-03</modification_date>
+      <modification_date>2019-07-08</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
