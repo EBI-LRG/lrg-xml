@@ -63,7 +63,7 @@
           <email>ddunnen@humgen.nl</email>
         </contact>
       </source>
-      <modification_date>2019-08-07</modification_date>
+      <modification_date>2019-08-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -75,7 +75,7 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-08-07</modification_date>
+      <modification_date>2019-08-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_id_syn="CM000665.1" other_start="49502565" other_end="49575048" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="72484" other_start="49502565" other_end="49575048" strand="1">
           <diff type="mismatch" lrg_start="45444" lrg_end="45444" other_start="49548008" other_end="49548008" lrg_sequence="G" other_sequence="C" />
@@ -101,7 +101,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_013230.3</comment>
-      <modification_date>2019-08-06</modification_date>
+      <modification_date>2019-08-08</modification_date>
       <mapping coord_system="NM_001165928.3" other_name="NM_001165928.3" other_id="NM_001165928.3" other_start="1" other_end="5886" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5302" other_start="1" other_end="302" strand="1" />
         <mapping_span lrg_start="22123" lrg_end="22284" other_start="303" other_end="464" strand="1" />
@@ -176,10 +176,14 @@
         <mapping_span lrg_start="45288" lrg_end="45688" other_start="443" other_end="843" strand="1" />
         <mapping_span lrg_start="65666" lrg_end="70487" other_start="844" other_end="5665" strand="1" />
       </mapping>
-      <mapping coord_system="NM_004393.5" other_name="NM_004393.5" other_id="NM_004393.5" other_start="1" other_end="5525" type="transcript">
-        <mapping_span lrg_start="5001" lrg_end="5302" other_start="1" other_end="302" strand="1" />
-        <mapping_span lrg_start="45288" lrg_end="45688" other_start="303" other_end="703" strand="1" />
-        <mapping_span lrg_start="65666" lrg_end="70487" other_start="704" other_end="5525" strand="1" />
+      <mapping coord_system="NM_004393.6" other_name="NM_004393.6" other_id="NM_004393.6" other_start="1" other_end="5387" type="transcript">
+        <mapping_span lrg_start="5136" lrg_end="5302" other_start="1" other_end="167" strand="1" />
+        <mapping_span lrg_start="45288" lrg_end="45688" other_start="168" other_end="568" strand="1">
+          <diff type="mismatch" lrg_start="45444" lrg_end="45444" other_start="324" other_end="324" lrg_sequence="G" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="65666" lrg_end="70484" other_start="569" other_end="5387" strand="1">
+          <diff type="mismatch" lrg_start="70330" lrg_end="70330" other_start="5233" other_end="5233" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="106478995">
@@ -467,28 +471,6 @@
               <db_xref source="GI" accession="294997304" />
             </protein_product>
           </transcript>
-          <transcript source="RefSeq" accession="NM_004393.5">
-            <coordinates coord_system="LRG_854" start="5001" end="70487" strand="1" />
-            <long_name>dystroglycan 1, transcript variant 2</long_name>
-            <db_xref source="GeneID" accession="1605" />
-            <db_xref source="GI" accession="358438298" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_854" start="5001" end="5302" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_854" start="45288" end="45688" strand="1" />
-            </exon>
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_854" start="65666" end="70487" strand="1" />
-            </exon>
-            <protein_product source="RefSeq" accession="NP_004384.4">
-              <coordinates coord_system="LRG_854" start="45404" end="68068" strand="1" />
-              <long_name>dystroglycan preproprotein</long_name>
-              <db_xref source="CCDS" accession="CCDS2799.1" />
-              <db_xref source="GeneID" accession="1605" />
-              <db_xref source="GI" accession="294997282" />
-            </protein_product>
-          </transcript>
           <transcript source="RefSeq" accession="NM_001177635.2">
             <coordinates coord_system="LRG_854" start="5001" end="70487" strand="1" />
             <long_name>dystroglycan 1, transcript variant 4</long_name>
@@ -536,6 +518,28 @@
               <db_xref source="GI" accession="294997298" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_004393.6">
+            <coordinates coord_system="LRG_854" start="5136" end="70484" strand="1" />
+            <long_name>dystroglycan 1, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="1605" />
+            <db_xref source="GI" accession="1702811200" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_854" start="5136" end="5302" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_854" start="45288" end="45688" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_854" start="65666" end="70484" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_004384.5">
+              <coordinates coord_system="LRG_854" start="45404" end="68068" strand="1" />
+              <long_name>dystroglycan preproprotein</long_name>
+              <db_xref source="CCDS" accession="CCDS2799.1" />
+              <db_xref source="GeneID" accession="1605" />
+              <db_xref source="GI" accession="1702811201" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -550,7 +554,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 97 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-08-07</modification_date>
+      <modification_date>2019-08-12</modification_date>
       <mapping coord_system="ENST00000308775.6" other_name="ENST00000308775.6" other_id="ENST00000308775.6" other_start="1" other_end="5522" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5302" other_start="1" other_end="302" strand="1" />
         <mapping_span lrg_start="45288" lrg_end="45688" other_start="303" other_end="703" strand="1">
@@ -1148,7 +1152,7 @@
         <name>List of locus specific databases for DAG1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DAG1</url>
       </source>
-      <modification_date>2019-08-07</modification_date>
+      <modification_date>2019-08-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
