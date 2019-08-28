@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.9">
+<lrg schema_version="1.10">
   <fixed_annotation>
     <id>LRG_342</id>
     <hgnc_id>11824</hgnc_id>
@@ -144,7 +144,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2019-08-27</modification_date>
+      <modification_date>2019-08-28</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -156,15 +156,15 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-08-27</modification_date>
+      <modification_date>2019-08-28</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_id_syn="CM000676.1" other_start="24706849" other_end="24716880" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="10032" other_start="24706849" other_end="24716880" strand="-1" />
       </mapping>
-      <mapping coord_system="GRCh38.p13" other_name="14q11.2-12" other_id="NW_018654722.1" other_id_syn="KZ208920.1" other_start="538621" other_end="548652" type="patch">
-        <mapping_span lrg_start="1" lrg_end="10032" other_start="538621" other_end="548652" strand="-1" />
-      </mapping>
       <mapping coord_system="GRCh38.p13" other_name="14" other_id="NC_000014.9" other_id_syn="CM000676.2" other_start="24237643" other_end="24247674" type="main_assembly">
         <mapping_span lrg_start="1" lrg_end="10032" other_start="24237643" other_end="24247674" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p13" other_name="14q11.2-12" other_id="NW_018654722.1" other_id_syn="KZ208920.1" other_start="538621" other_end="548652" type="fix_patch">
+        <mapping_span lrg_start="1" lrg_end="10032" other_start="538621" other_end="548652" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">TINF2</lrg_locus>
     </annotation_set>
@@ -179,7 +179,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_016650.1</comment>
-      <modification_date>2019-08-22</modification_date>
+      <modification_date>2019-08-27</modification_date>
       <mapping coord_system="NM_001099274.1" other_name="NM_001099274.1" other_id="NM_001099274.1" other_start="1" other_end="1852" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5534" other_start="1" other_end="534" strand="1" />
         <mapping_span lrg_start="5681" lrg_end="5785" other_start="535" other_end="639" strand="1" />
@@ -350,6 +350,7 @@
             <long_name>TERF1 interacting nuclear factor 2, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="26277" />
             <db_xref source="GI" accession="1519311635" />
+            <db_xref source="MANE-select" accession="NM_001099274.3" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_342" start="5052" end="5534" strand="1" />
             </exon>
@@ -705,7 +706,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 97 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-08-27</modification_date>
+      <modification_date>2019-08-28</modification_date>
       <features>
         <gene source="Ensembl" accession="ENSG00000092330.18">
           <symbol source="Clone_based_ensembl_gene" name="AL096870.1" />
@@ -801,6 +802,7 @@
             <coordinates coord_system="LRG_342" start="5052" end="8032" strand="1" mapped_from="GRCh38" />
             <long_name>AL096870.1-203 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001099274.3" />
+            <db_xref source="MANE-select" accession="MANE_select" />
             <exon source="Ensembl" accession="ENSE00003850978">
               <coordinates coord_system="LRG_342" start="5052" end="5534" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1352,7 +1354,7 @@
         <name>List of locus specific databases for TINF2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TINF2</url>
       </source>
-      <modification_date>2019-08-27</modification_date>
+      <modification_date>2019-08-28</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

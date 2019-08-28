@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
 
-<lrg schema_version="1.9">
+<lrg schema_version="1.10">
   <fixed_annotation>
     <id>LRG_1380</id>
     <hgnc_id>26401</hgnc_id>
@@ -73,7 +73,7 @@
           <email>mdistefano1@bwh.harvard.edu</email>
         </contact>
       </source>
-      <modification_date>2019-08-27</modification_date>
+      <modification_date>2019-08-28</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -85,9 +85,12 @@
           <email>feedback@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-08-27</modification_date>
+      <modification_date>2019-08-28</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="5" other_id="NC_000005.9" other_id_syn="CM000667.1" other_start="68705939" other_end="68741849" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="35911" other_start="68705939" other_end="68741849" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p13" other_name="5" other_id="NC_000005.10" other_id_syn="CM000667.2" other_start="69410112" other_end="69446022" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="35911" other_start="69410112" other_end="69446022" strand="1" />
       </mapping>
       <mapping coord_system="GRCh38.p13" other_name="5q13.2" other_id="NW_003315917.2" other_id_syn="GL339449.2" other_start="193528" other_end="229011" type="haplotype">
         <mapping_span lrg_start="1" lrg_end="35911" other_start="193528" other_end="229011" strand="1">
@@ -159,9 +162,6 @@
           <diff type="lrg_ins" lrg_start="35523" lrg_end="35526" other_start="228626" other_end="228627" lrg_sequence="TTTA" other_sequence="-" />
         </mapping_span>
       </mapping>
-      <mapping coord_system="GRCh38.p13" other_name="5" other_id="NC_000005.10" other_id_syn="CM000667.2" other_start="69410112" other_end="69446022" type="main_assembly">
-        <mapping_span lrg_start="1" lrg_end="35911" other_start="69410112" other_end="69446022" strand="1" />
-      </mapping>
       <lrg_locus source="HGNC">MARVELD2</lrg_locus>
     </annotation_set>
     <annotation_set type="ncbi">
@@ -175,7 +175,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_017201.2</comment>
-      <modification_date>2019-08-22</modification_date>
+      <modification_date>2019-08-27</modification_date>
       <mapping coord_system="NM_001038603.3" other_name="NM_001038603.3" other_id="NM_001038603.3" other_start="1" other_end="4423" type="transcript">
         <mapping_span lrg_start="5005" lrg_end="5059" other_start="1" other_end="55" strand="1" />
         <mapping_span lrg_start="9260" lrg_end="10420" other_start="56" other_end="1216" strand="1" />
@@ -218,6 +218,7 @@
             <long_name>RAD17 checkpoint clamp loader component, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="5884" />
             <db_xref source="GI" accession="1519243026" />
+            <db_xref source="MANE-select" accession="NM_133338.3" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_1380" start="382" end="439" strand="1" />
               <partial>5-prime</partial>
@@ -422,6 +423,7 @@
             <long_name>MARVEL domain containing 2, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="153562" />
             <db_xref source="GI" accession="1519245166" />
+            <db_xref source="MANE-select" accession="NM_001038603.3" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_1380" start="5005" end="5059" strand="1" />
             </exon>
@@ -495,7 +497,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 97 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-08-27</modification_date>
+      <modification_date>2019-08-28</modification_date>
       <mapping coord_system="ENST00000325631.10" other_name="ENST00000325631.10" other_id="ENST00000325631.10" other_start="1" other_end="4423" type="transcript">
         <mapping_span lrg_start="5005" lrg_end="5059" other_start="1" other_end="55" strand="1" />
         <mapping_span lrg_start="9260" lrg_end="10420" other_start="56" other_end="1216" strand="1" />
@@ -616,6 +618,7 @@
             <partial>5-prime</partial>
             <long_name>RAD17-205 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_133338.3" />
+            <db_xref source="MANE-select" accession="MANE_select" />
             <exon source="Ensembl" accession="ENSE00001135115">
               <coordinates coord_system="LRG_1380" start="382" end="439" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -878,6 +881,7 @@
             <coordinates coord_system="LRG_1380" start="5005" end="34219" strand="1" mapped_from="GRCh38" />
             <long_name>MARVELD2-201 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001038603.3" />
+            <db_xref source="MANE-select" accession="MANE_select" />
             <exon source="Ensembl" accession="ENSE00003815572">
               <coordinates coord_system="LRG_1380" start="5005" end="5059" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1040,7 +1044,7 @@
         <name>List of locus specific databases for MARVELD2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MARVELD2</url>
       </source>
-      <modification_date>2019-08-27</modification_date>
+      <modification_date>2019-08-28</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
