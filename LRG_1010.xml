@@ -71,7 +71,7 @@
           <email>ljk0@cdc.gov</email>
         </contact>
       </source>
-      <modification_date>2019-09-09</modification_date>
+      <modification_date>2019-09-11</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -79,11 +79,11 @@
         <url>http://www.lrg-sequence.org/</url>
         <contact>
           <name>Locus Reference Genomic</name>
-          <url>http://www.lrg-sequence.org/page.php?page=contact</url>
-          <email>feedback@lrg-sequence.org</email>
+          <url>https://www.lrg-sequence.org/contact/</url>
+          <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-09-09</modification_date>
+      <modification_date>2019-09-11</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="22" other_id="NC_000022.10" other_id_syn="CM000684.1" other_start="19924263" other_end="19959498" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="35236" other_start="19924263" other_end="19959498" strand="1" />
       </mapping>
@@ -103,7 +103,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011526.1</comment>
-      <modification_date>2019-09-03</modification_date>
+      <modification_date>2019-09-10</modification_date>
       <mapping coord_system="NM_000754.3" other_name="NM_000754.3" other_id="NM_000754.3" other_start="1" other_end="2304" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5158" other_start="1" other_end="158" strand="1" />
         <mapping_span lrg_start="24460" lrg_end="24550" other_start="159" other_end="249" strand="1" />
@@ -111,6 +111,14 @@
         <mapping_span lrg_start="26827" lrg_end="27020" other_start="539" other_end="732" strand="1" />
         <mapping_span lrg_start="27429" lrg_end="27560" other_start="733" other_end="864" strand="1" />
         <mapping_span lrg_start="31797" lrg_end="33236" other_start="865" other_end="2304" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_000754.4" other_name="NM_000754.4" other_id="NM_000754.4" other_start="1" other_end="2272" type="transcript">
+        <mapping_span lrg_start="5033" lrg_end="5158" other_start="1" other_end="126" strand="1" />
+        <mapping_span lrg_start="24460" lrg_end="24550" other_start="127" other_end="217" strand="1" />
+        <mapping_span lrg_start="25788" lrg_end="26076" other_start="218" other_end="506" strand="1" />
+        <mapping_span lrg_start="26827" lrg_end="27020" other_start="507" other_end="700" strand="1" />
+        <mapping_span lrg_start="27429" lrg_end="27560" other_start="701" other_end="832" strand="1" />
+        <mapping_span lrg_start="31797" lrg_end="33236" other_start="833" other_end="2272" strand="1" />
       </mapping>
       <mapping coord_system="NM_001135161.2" other_name="NM_001135161.2" other_id="NM_001135161.2" other_start="1" other_end="2297" type="transcript">
         <mapping_span lrg_start="14163" lrg_end="14313" other_start="1" other_end="151" strand="1" />
@@ -275,6 +283,7 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_000745.1" fixed_id="p1">
               <coordinates coord_system="LRG_1010" start="25788" end="31997" strand="1" />
+              <long_name>catechol O-methyltransferase isoform MB-COMT</long_name>
               <db_xref source="CCDS" accession="CCDS13770.1" />
               <db_xref source="GeneID" accession="1312" />
               <db_xref source="GI" accession="4502969" />
@@ -309,6 +318,37 @@
               <db_xref source="CCDS" accession="CCDS13770.1" />
               <db_xref source="GeneID" accession="1312" />
               <db_xref source="GI" accession="1384072056" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_000754.4">
+            <coordinates coord_system="LRG_1010" start="5033" end="33236" strand="1" />
+            <long_name>catechol-O-methyltransferase, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="1312" />
+            <db_xref source="GI" accession="1732746311" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1010" start="5033" end="5158" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1010" start="24460" end="24550" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1010" start="25788" end="26076" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1010" start="26827" end="27020" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1010" start="27429" end="27560" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1010" start="31797" end="33236" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000745.1">
+              <coordinates coord_system="LRG_1010" start="25788" end="31997" strand="1" />
+              <long_name>catechol O-methyltransferase isoform MB-COMT</long_name>
+              <db_xref source="CCDS" accession="CCDS13770.1" />
+              <db_xref source="GeneID" accession="1312" />
+              <db_xref source="GI" accession="4502969" />
             </protein_product>
           </transcript>
           <transcript source="RefSeq" accession="NM_001135161.2">
@@ -464,7 +504,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 97 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-09-09</modification_date>
+      <modification_date>2019-09-11</modification_date>
       <mapping coord_system="ENST00000207636.9" other_name="ENST00000207636.9" other_id="ENST00000207636.9" other_start="1" other_end="1319" type="transcript">
         <mapping_span lrg_start="14240" lrg_end="14313" other_start="1" other_end="74" strand="1" />
         <mapping_span lrg_start="24460" lrg_end="24550" other_start="75" other_end="165" strand="1" />
@@ -1008,7 +1048,7 @@
         <name>List of locus specific databases for COMT</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/COMT</url>
       </source>
-      <modification_date>2019-09-09</modification_date>
+      <modification_date>2019-09-11</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
