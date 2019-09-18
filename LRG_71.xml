@@ -97,7 +97,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2019-09-16</modification_date>
+      <modification_date>2019-09-18</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -109,7 +109,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-09-16</modification_date>
+      <modification_date>2019-09-18</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="5" other_id="NC_000005.9" other_id_syn="CM000667.1" other_start="158739791" other_end="158762481" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="22691" other_start="158739791" other_end="158762481" strand="-1" />
       </mapping>
@@ -129,7 +129,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009618.1</comment>
-      <modification_date>2019-09-12</modification_date>
+      <modification_date>2019-09-17</modification_date>
       <mapping coord_system="NM_002187.2" other_name="NM_002187.2" other_id="NM_002187.2" other_start="1" other_end="2347" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5042" other_start="1" other_end="42" strand="1" />
         <mapping_span lrg_start="8692" lrg_end="8779" other_start="43" other_end="130" strand="1" />
@@ -139,6 +139,16 @@
         <mapping_span lrg_start="16581" lrg_end="16738" other_start="740" other_end="897" strand="1" />
         <mapping_span lrg_start="18658" lrg_end="18789" other_start="898" other_end="1029" strand="1" />
         <mapping_span lrg_start="19374" lrg_end="20691" other_start="1030" other_end="2347" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_002187.3" other_name="NM_002187.3" other_id="NM_002187.3" other_start="1" other_end="2364" type="transcript">
+        <mapping_span lrg_start="4987" lrg_end="5042" other_start="1" other_end="56" strand="1" />
+        <mapping_span lrg_start="8692" lrg_end="8779" other_start="57" other_end="144" strand="1" />
+        <mapping_span lrg_start="12145" lrg_end="12420" other_start="145" other_end="420" strand="1" />
+        <mapping_span lrg_start="12963" lrg_end="13080" other_start="421" other_end="538" strand="1" />
+        <mapping_span lrg_start="14954" lrg_end="15168" other_start="539" other_end="753" strand="1" />
+        <mapping_span lrg_start="16581" lrg_end="16738" other_start="754" other_end="911" strand="1" />
+        <mapping_span lrg_start="18658" lrg_end="18789" other_start="912" other_end="1043" strand="1" />
+        <mapping_span lrg_start="19374" lrg_end="20694" other_start="1044" other_end="2364" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="285626">
@@ -179,6 +189,43 @@
           <db_xref source="MIM" accession="161561" />
           <db_xref source="CCDS" accession="CCDS4346.1" />
           <db_xref source="GI" accession="223468691" />
+          <transcript source="RefSeq" accession="NM_002187.3">
+            <coordinates coord_system="LRG_71" start="4987" end="20694" strand="1" />
+            <long_name>interleukin 12B</long_name>
+            <db_xref source="GeneID" accession="3593" />
+            <db_xref source="GI" accession="1732746226" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_71" start="4987" end="5042" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_71" start="8692" end="8779" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_71" start="12145" end="12420" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_71" start="12963" end="13080" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_71" start="14954" end="15168" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_71" start="16581" end="16738" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_71" start="18658" end="18789" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_71" start="19374" end="20694" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_002178.2">
+              <coordinates coord_system="LRG_71" start="8692" end="18789" strand="1" />
+              <long_name>interleukin-12 subunit beta precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS4346.1" />
+              <db_xref source="GeneID" accession="3593" />
+              <db_xref source="GI" accession="24497438" />
+            </protein_product>
+          </transcript>
           <transcript source="RefSeq" accession="NM_002187.2" fixed_id="t1">
             <coordinates coord_system="LRG_71" start="5001" end="20691" strand="1" />
             <long_name>interleukin 12B</long_name>
@@ -208,8 +255,9 @@
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_71" start="19374" end="20691" strand="1" />
             </exon>
-            <protein_product source="RefSeq" accession="NP_002178.2" codon_start="1" fixed_id="p1">
+            <protein_product source="RefSeq" accession="NP_002178.2" fixed_id="p1">
               <coordinates coord_system="LRG_71" start="8692" end="18789" strand="1" />
+              <long_name>interleukin-12 subunit beta precursor</long_name>
               <db_xref source="CCDS" accession="CCDS4346.1" />
               <db_xref source="GeneID" accession="3593" />
               <db_xref source="GI" accession="24497438" />
@@ -236,7 +284,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 97 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-09-16</modification_date>
+      <modification_date>2019-09-18</modification_date>
       <mapping coord_system="ENST00000231228.2" other_name="ENST00000231228.2" other_id="ENST00000231228.2" other_start="1" other_end="2761" type="transcript">
         <mapping_span lrg_start="4587" lrg_end="5042" other_start="1" other_end="456" strand="1" />
         <mapping_span lrg_start="8692" lrg_end="8779" other_start="457" other_end="544" strand="1" />
@@ -362,7 +410,7 @@
         <name>List of locus specific databases for IL12B</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/IL12B</url>
       </source>
-      <modification_date>2019-09-16</modification_date>
+      <modification_date>2019-09-18</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
