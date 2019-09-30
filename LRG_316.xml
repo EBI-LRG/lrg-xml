@@ -117,7 +117,7 @@
           <email>P.Taschner@lumc.nl</email>
         </contact>
       </source>
-      <modification_date>2019-09-25</modification_date>
+      <modification_date>2019-09-30</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -129,7 +129,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-09-25</modification_date>
+      <modification_date>2019-09-30</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_id_syn="CM000663.1" other_start="17343217" other_end="17385665" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="42449" other_start="17343217" other_end="17385665" strand="-1" />
       </mapping>
@@ -149,7 +149,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012340.1</comment>
-      <modification_date>2019-09-24</modification_date>
+      <modification_date>2019-09-26</modification_date>
       <mapping coord_system="NM_003000.2" other_name="NM_003000.2" other_id="NM_003000.2" other_start="1" other_end="1153" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5223" other_start="1" other_end="223" strand="1" />
         <mapping_span lrg_start="14283" lrg_end="14410" other_start="224" other_end="351" strand="1" />
@@ -159,6 +159,16 @@
         <mapping_span lrg_start="35097" lrg_end="35198" other_start="692" other_end="793" strand="1" />
         <mapping_span lrg_start="36441" lrg_end="36563" other_start="794" other_end="916" strand="1" />
         <mapping_span lrg_start="40213" lrg_end="40449" other_start="917" other_end="1153" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_003000.3" other_name="NM_003000.3" other_id="NM_003000.3" other_start="1" other_end="1015" type="transcript">
+        <mapping_span lrg_start="5139" lrg_end="5223" other_start="1" other_end="85" strand="1" />
+        <mapping_span lrg_start="14283" lrg_end="14410" other_start="86" other_end="213" strand="1" />
+        <mapping_span lrg_start="26026" lrg_end="26111" other_start="214" other_end="299" strand="1" />
+        <mapping_span lrg_start="30435" lrg_end="30571" other_start="300" other_end="436" strand="1" />
+        <mapping_span lrg_start="31306" lrg_end="31422" other_start="437" other_end="553" strand="1" />
+        <mapping_span lrg_start="35097" lrg_end="35198" other_start="554" other_end="655" strand="1" />
+        <mapping_span lrg_start="36441" lrg_end="36563" other_start="656" other_end="778" strand="1" />
+        <mapping_span lrg_start="40213" lrg_end="40449" other_start="779" other_end="1015" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="6390">
@@ -209,6 +219,44 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_002991.2" fixed_id="p1">
               <coordinates coord_system="LRG_316" start="5152" end="40290" strand="1" />
+              <long_name>succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS176.1" />
+              <db_xref source="GeneID" accession="6390" />
+              <db_xref source="GI" accession="115387094" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_003000.3">
+            <coordinates coord_system="LRG_316" start="5139" end="40449" strand="1" />
+            <long_name>succinate dehydrogenase complex iron sulfur subunit B</long_name>
+            <db_xref source="GeneID" accession="6390" />
+            <db_xref source="GI" accession="1732746310" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_316" start="5139" end="5223" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_316" start="14283" end="14410" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_316" start="26026" end="26111" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_316" start="30435" end="30571" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_316" start="31306" end="31422" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_316" start="35097" end="35198" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_316" start="36441" end="36563" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_316" start="40213" end="40449" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_002991.2">
+              <coordinates coord_system="LRG_316" start="5152" end="40290" strand="1" />
+              <long_name>succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial precursor</long_name>
               <db_xref source="CCDS" accession="CCDS176.1" />
               <db_xref source="GeneID" accession="6390" />
               <db_xref source="GI" accession="115387094" />
@@ -227,8 +275,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 97 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-09-25</modification_date>
+      <comment>Annotation is based on Ensembl release 98 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-09-30</modification_date>
       <mapping coord_system="ENST00000375499.7" other_name="ENST00000375499.7" other_id="ENST00000375499.7" other_start="1" other_end="1153" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5223" other_start="1" other_end="223" strand="1" />
         <mapping_span lrg_start="14283" lrg_end="14410" other_start="224" other_end="351" strand="1" />
@@ -462,7 +510,7 @@
         <name>List of locus specific databases for SDHB</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SDHB</url>
       </source>
-      <modification_date>2019-09-25</modification_date>
+      <modification_date>2019-09-30</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

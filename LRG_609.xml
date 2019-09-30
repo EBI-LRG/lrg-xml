@@ -102,7 +102,7 @@
           <email>sichan@bcgsc.ca</email>
         </contact>
       </source>
-      <modification_date>2019-09-25</modification_date>
+      <modification_date>2019-09-30</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -114,7 +114,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-09-25</modification_date>
+      <modification_date>2019-09-30</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_id_syn="CM000674.1" other_start="11797788" other_end="12050336" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="252549" other_start="11797788" other_end="12050336" strand="1" />
       </mapping>
@@ -136,7 +136,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_011443.1</comment>
-      <modification_date>2019-09-24</modification_date>
+      <modification_date>2019-09-26</modification_date>
       <mapping coord_system="NM_001987.4" other_name="NM_001987.4" other_id="NM_001987.4" other_start="1" other_end="5989" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5307" other_start="1" other_end="307" strand="1" />
         <mapping_span lrg_start="107597" lrg_end="107726" other_start="308" other_end="437" strand="1" />
@@ -146,6 +146,16 @@
         <mapping_span lrg_start="239592" lrg_end="239734" other_start="1284" other_end="1426" strand="1" />
         <mapping_span lrg_start="241073" lrg_end="241173" other_start="1427" other_end="1527" strand="1" />
         <mapping_span lrg_start="246088" lrg_end="250549" other_start="1528" other_end="5989" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001987.5" other_name="NM_001987.5" other_id="NM_001987.5" other_start="1" other_end="6144" type="transcript">
+        <mapping_span lrg_start="4821" lrg_end="5307" other_start="1" other_end="487" strand="1" />
+        <mapping_span lrg_start="107597" lrg_end="107726" other_start="488" other_end="617" strand="1" />
+        <mapping_span lrg_start="194287" lrg_end="194451" other_start="618" other_end="782" strand="1" />
+        <mapping_span lrg_start="208574" lrg_end="208708" other_start="783" other_end="917" strand="1" />
+        <mapping_span lrg_start="224571" lrg_end="225116" other_start="918" other_end="1463" strand="1" />
+        <mapping_span lrg_start="239592" lrg_end="239734" other_start="1464" other_end="1606" strand="1" />
+        <mapping_span lrg_start="241073" lrg_end="241173" other_start="1607" other_end="1707" strand="1" />
+        <mapping_span lrg_start="246088" lrg_end="250524" other_start="1708" other_end="6144" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="2120">
@@ -161,6 +171,43 @@
           <db_xref source="MIM" accession="600618" />
           <db_xref source="CCDS" accession="CCDS8643.1" />
           <db_xref source="GI" accession="224809238" />
+          <transcript source="RefSeq" accession="NM_001987.5">
+            <coordinates coord_system="LRG_609" start="4821" end="250524" strand="1" />
+            <long_name>ETS variant transcription factor 6</long_name>
+            <db_xref source="GeneID" accession="2120" />
+            <db_xref source="GI" accession="1732746291" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_609" start="4821" end="5307" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_609" start="107597" end="107726" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_609" start="194287" end="194451" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_609" start="208574" end="208708" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_609" start="224571" end="225116" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_609" start="239592" end="239734" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_609" start="241073" end="241173" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_609" start="246088" end="250524" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001978.1">
+              <coordinates coord_system="LRG_609" start="5275" end="246193" strand="1" />
+              <long_name>transcription factor ETV6</long_name>
+              <db_xref source="CCDS" accession="CCDS8643.1" />
+              <db_xref source="GeneID" accession="2120" />
+              <db_xref source="GI" accession="4503611" />
+            </protein_product>
+          </transcript>
           <transcript source="RefSeq" accession="NM_001987.4" fixed_id="t1">
             <coordinates coord_system="LRG_609" start="5001" end="250549" strand="1" />
             <long_name>ETS variant transcription factor 6</long_name>
@@ -192,6 +239,7 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_001978.1" fixed_id="p1">
               <coordinates coord_system="LRG_609" start="5275" end="246193" strand="1" />
+              <long_name>transcription factor ETV6</long_name>
               <db_xref source="CCDS" accession="CCDS8643.1" />
               <db_xref source="GeneID" accession="2120" />
               <db_xref source="GI" accession="4503611" />
@@ -210,8 +258,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 97 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-09-25</modification_date>
+      <comment>Annotation is based on Ensembl release 98 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-09-30</modification_date>
       <mapping coord_system="ENST00000266427.3" other_name="ENST00000266427.3" other_id="ENST00000266427.3" other_start="1" other_end="160" type="transcript">
         <mapping_span lrg_start="241084" lrg_end="241173" other_start="1" other_end="90" strand="1" />
         <mapping_span lrg_start="246688" lrg_end="246757" other_start="91" other_end="160" strand="1" />
@@ -354,7 +402,7 @@
         <name>List of locus specific databases for ETV6</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ETV6</url>
       </source>
-      <modification_date>2019-09-25</modification_date>
+      <modification_date>2019-09-30</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

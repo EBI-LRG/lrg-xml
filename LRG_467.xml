@@ -118,7 +118,7 @@
           <email>Nazneen.Rahman@icr.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2019-09-25</modification_date>
+      <modification_date>2019-09-30</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -130,7 +130,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-09-25</modification_date>
+      <modification_date>2019-09-30</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="47231493" other_end="47262769" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="31277" other_start="47231493" other_end="47262769" strand="1">
           <diff type="mismatch" lrg_start="7030" lrg_end="7030" other_start="47238522" other_end="47238522" lrg_sequence="C" other_sequence="T" />
@@ -154,7 +154,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009365.1</comment>
-      <modification_date>2019-09-24</modification_date>
+      <modification_date>2019-09-26</modification_date>
       <mapping coord_system="NM_000107.2" other_name="NM_000107.2" other_id="NM_000107.2" other_start="1" other_end="1848" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5322" other_start="1" other_end="322" strand="1" />
         <mapping_span lrg_start="6395" lrg_end="6531" other_start="323" other_end="459" strand="1" />
@@ -397,8 +397,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 97 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-09-25</modification_date>
+      <comment>Annotation is based on Ensembl release 98 (GRCh38  primary assembly)</comment>
+      <modification_date>2019-09-30</modification_date>
       <mapping coord_system="ENST00000256996.8" other_name="ENST00000256996.8" other_id="ENST00000256996.8" other_start="1" other_end="1870" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5322" other_start="1" other_end="322" strand="1" />
         <mapping_span lrg_start="6395" lrg_end="6531" other_start="323" other_end="459" strand="1" />
@@ -951,9 +951,9 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000134575.11">
+        <gene source="Ensembl" accession="ENSG00000134575.12">
           <symbol source="HGNC" name="ACP2" />
-          <coordinates coord_system="LRG_467" start="29364" end="31277" strand="-1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_467" start="29361" end="31277" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>acid phosphatase 2, lysosomal (protein_coding)</long_name>
           <db_xref source="GeneID" accession="53" />
@@ -962,32 +962,66 @@
           </db_xref>
           <db_xref source="MIM" accession="171650" />
           <db_xref source="Ensembl" accession="ENSG00000134575" />
+          <transcript source="Ensembl" accession="ENST00000672073.1">
+            <coordinates coord_system="LRG_467" start="29361" end="31277" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>ACP2-206 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001357016.1" />
+            <db_xref source="RefSeq" accession="NM_001610.4" />
+            <db_xref source="MANE-select" accession="ENST00000672073" />
+            <exon source="Ensembl" accession="ENSE00003892063">
+              <coordinates coord_system="LRG_467" start="29361" end="30308" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000500291.1">
+              <coordinates coord_system="LRG_467" start="30175" end="31277" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <long_name>lysosomal acid phosphatase isoform 1x precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001343945.1" />
+              <db_xref source="RefSeq" accession="NP_001601.1" />
+              <db_xref source="CCDS" accession="CCDS7928.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000672636.1">
+            <coordinates coord_system="LRG_467" start="29361" end="31277" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>ACP2-210 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003892063">
+              <coordinates coord_system="LRG_467" start="29361" end="30308" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000500571.1">
+              <coordinates coord_system="LRG_467" start="30142" end="31277" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000256997.9">
             <coordinates coord_system="LRG_467" start="29364" end="31277" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
             <long_name>ACP2-201 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001357016.1" />
-            <db_xref source="RefSeq" accession="NM_001610.4" />
             <exon source="Ensembl" accession="ENSE00001296498">
               <coordinates coord_system="LRG_467" start="29364" end="30308" strand="-1" mapped_from="GRCh38" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000256997.3">
               <coordinates coord_system="LRG_467" start="30175" end="31277" strand="-1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
-              <long_name>lysosomal acid phosphatase isoform 1x precursor</long_name>
-              <db_xref source="RefSeq" accession="NP_001343945.1" />
-              <db_xref source="RefSeq" accession="NP_001601.1" />
               <db_xref source="UniProtKB" accession="P11117" />
               <db_xref source="CCDS" accession="CCDS7928.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000529444.6">
-            <coordinates coord_system="LRG_467" start="30175" end="31277" strand="-1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000672351.1">
+            <coordinates coord_system="LRG_467" start="29368" end="31277" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>ACP2-209 (lncRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00003890496">
+              <coordinates coord_system="LRG_467" start="29368" end="29448" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000529444.7">
+            <coordinates coord_system="LRG_467" start="29552" end="31277" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
             <long_name>ACP2-203 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001302491.1" />
-            <exon source="Ensembl" accession="ENSE00002190754">
-              <coordinates coord_system="LRG_467" start="30175" end="30308" strand="-1" mapped_from="GRCh38" />
+            <exon source="Ensembl" accession="ENSE00003889975">
+              <coordinates coord_system="LRG_467" start="29552" end="30308" strand="-1" mapped_from="GRCh38" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000436658.1">
               <coordinates coord_system="LRG_467" start="30175" end="31277" strand="-1" mapped_from="GRCh38" />
@@ -996,29 +1030,22 @@
               <db_xref source="CCDS" accession="CCDS76404.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000533929.6">
-            <coordinates coord_system="LRG_467" start="30175" end="31277" strand="-1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000673184.1">
+            <coordinates coord_system="LRG_467" start="29614" end="31277" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>ACP2-204 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001302489.1" />
-            <exon source="Ensembl" accession="ENSE00002190754">
-              <coordinates coord_system="LRG_467" start="30175" end="30308" strand="-1" mapped_from="GRCh38" />
+            <long_name>ACP2-213 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003893434">
+              <coordinates coord_system="LRG_467" start="29614" end="30308" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000432439.1">
-              <coordinates coord_system="LRG_467" start="30175" end="31277" strand="-1" mapped_from="GRCh38" />
-              <partial>5-prime</partial>
-              <db_xref source="RefSeq" accession="NP_001289418.1" />
-              <db_xref source="CCDS" accession="CCDS76402.1" />
-            </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000527256.6">
-            <coordinates coord_system="LRG_467" start="30175" end="31277" strand="-1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000527256.7">
+            <coordinates coord_system="LRG_467" start="29882" end="31277" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
             <long_name>ACP2-202 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001302490.1" />
             <db_xref source="RefSeq" accession="NM_001302492.1" />
-            <exon source="Ensembl" accession="ENSE00002190754">
-              <coordinates coord_system="LRG_467" start="30175" end="30308" strand="-1" mapped_from="GRCh38" />
+            <exon source="Ensembl" accession="ENSE00003893402">
+              <coordinates coord_system="LRG_467" start="29882" end="30308" strand="-1" mapped_from="GRCh38" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000432205.1">
               <coordinates coord_system="LRG_467" start="30175" end="31277" strand="-1" mapped_from="GRCh38" />
@@ -1029,6 +1056,37 @@
               <db_xref source="CCDS" accession="CCDS76403.1" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000672075.1">
+            <coordinates coord_system="LRG_467" start="29944" end="31277" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>ACP2-207 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003890504">
+              <coordinates coord_system="LRG_467" start="29944" end="30308" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000533929.7">
+            <coordinates coord_system="LRG_467" start="30111" end="31277" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>ACP2-204 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001302489.1" />
+            <exon source="Ensembl" accession="ENSE00003889552">
+              <coordinates coord_system="LRG_467" start="30111" end="30308" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000432439.1">
+              <coordinates coord_system="LRG_467" start="30175" end="31277" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <db_xref source="RefSeq" accession="NP_001289418.1" />
+              <db_xref source="CCDS" accession="CCDS76402.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000672728.1">
+            <coordinates coord_system="LRG_467" start="30145" end="31277" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>ACP2-211 (lncRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00002190754">
+              <coordinates coord_system="LRG_467" start="30145" end="30308" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -1037,7 +1095,7 @@
         <name>List of locus specific databases for DDB2</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DDB2</url>
       </source>
-      <modification_date>2019-09-25</modification_date>
+      <modification_date>2019-09-30</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
