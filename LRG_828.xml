@@ -95,7 +95,7 @@
           <email>sichan@bcgsc.ca</email>
         </contact>
       </source>
-      <modification_date>2019-10-21</modification_date>
+      <modification_date>2019-10-23</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -107,7 +107,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-10-21</modification_date>
+      <modification_date>2019-10-23</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_id_syn="CM000681.1" other_start="13044414" other_end="13057304" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="12891" other_start="13044414" other_end="13057304" strand="1" />
       </mapping>
@@ -127,7 +127,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_029662.1</comment>
-      <modification_date>2019-10-10</modification_date>
+      <modification_date>2019-10-22</modification_date>
       <mapping coord_system="NM_004343.3" other_name="NM_004343.3" other_id="NM_004343.3" other_start="1" other_end="1911" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5171" other_start="1" other_end="171" strand="1" />
         <mapping_span lrg_start="5535" lrg_end="5636" other_start="172" other_end="273" strand="1" />
@@ -138,6 +138,17 @@
         <mapping_span lrg_start="7145" lrg_end="7288" other_start="897" other_end="1040" strand="1" />
         <mapping_span lrg_start="9938" lrg_end="10030" other_start="1041" other_end="1133" strand="1" />
         <mapping_span lrg_start="10114" lrg_end="10891" other_start="1134" other_end="1911" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_004343.4" other_name="NM_004343.4" other_id="NM_004343.4" other_start="1" other_end="1901" type="transcript">
+        <mapping_span lrg_start="5010" lrg_end="5171" other_start="1" other_end="162" strand="1" />
+        <mapping_span lrg_start="5535" lrg_end="5636" other_start="163" other_end="264" strand="1" />
+        <mapping_span lrg_start="5829" lrg_end="6032" other_start="265" other_end="468" strand="1" />
+        <mapping_span lrg_start="6454" lrg_end="6548" other_start="469" other_end="563" strand="1" />
+        <mapping_span lrg_start="6644" lrg_end="6853" other_start="564" other_end="773" strand="1" />
+        <mapping_span lrg_start="6942" lrg_end="7055" other_start="774" other_end="887" strand="1" />
+        <mapping_span lrg_start="7145" lrg_end="7288" other_start="888" other_end="1031" strand="1" />
+        <mapping_span lrg_start="9938" lrg_end="10030" other_start="1032" other_end="1124" strand="1" />
+        <mapping_span lrg_start="10114" lrg_end="10890" other_start="1125" other_end="1901" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="2193">
@@ -224,6 +235,47 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_004334.1" fixed_id="p1">
               <coordinates coord_system="LRG_828" start="5081" end="10314" strand="1" />
+              <long_name>calreticulin precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS12288.1" />
+              <db_xref source="GeneID" accession="811" />
+              <db_xref source="GI" accession="4757900" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_004343.4">
+            <coordinates coord_system="LRG_828" start="5010" end="10890" strand="1" />
+            <long_name>calreticulin</long_name>
+            <db_xref source="GeneID" accession="811" />
+            <db_xref source="GI" accession="1761122587" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="5010" end="5171" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="5535" end="5636" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="5829" end="6032" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="6454" end="6548" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="6644" end="6853" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="6942" end="7055" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="7145" end="7288" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="9938" end="10030" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="10114" end="10890" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_004334.1">
+              <coordinates coord_system="LRG_828" start="5081" end="10314" strand="1" />
+              <long_name>calreticulin precursor</long_name>
               <db_xref source="CCDS" accession="CCDS12288.1" />
               <db_xref source="GeneID" accession="811" />
               <db_xref source="GI" accession="4757900" />
@@ -351,7 +403,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 98 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-10-21</modification_date>
+      <modification_date>2019-10-23</modification_date>
       <mapping coord_system="ENST00000316448.9" other_name="ENST00000316448.9" other_id="ENST00000316448.9" other_start="1" other_end="1903" type="transcript">
         <mapping_span lrg_start="5008" lrg_end="5171" other_start="1" other_end="164" strand="1" />
         <mapping_span lrg_start="5535" lrg_end="5636" other_start="165" other_end="266" strand="1" />
@@ -820,7 +872,7 @@
         <name>List of locus specific databases for CALR</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CALR</url>
       </source>
-      <modification_date>2019-10-21</modification_date>
+      <modification_date>2019-10-23</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
