@@ -156,7 +156,7 @@
           <email>r.h.sijmons@medgen.umcg.nl</email>
         </contact>
       </source>
-      <modification_date>2019-12-25</modification_date>
+      <modification_date>2019-12-30</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -168,7 +168,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2019-12-25</modification_date>
+      <modification_date>2019-12-30</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="2" other_id="NC_000002.11" other_id_syn="CM000664.1" other_start="190643811" other_end="190744355" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="100545" other_start="190643811" other_end="190744355" strand="1" />
       </mapping>
@@ -188,7 +188,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008648.1</comment>
-      <modification_date>2019-12-24</modification_date>
+      <modification_date>2019-12-26</modification_date>
       <mapping coord_system="NM_000534.4" other_name="NM_000534.4" other_id="NM_000534.4" other_start="1" other_end="3521" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5509" other_start="1" other_end="509" strand="1" />
         <mapping_span lrg_start="12706" lrg_end="12857" other_start="510" other_end="661" strand="1" />
@@ -203,6 +203,21 @@
         <mapping_span lrg_start="88715" lrg_end="88845" other_start="2872" other_end="3002" strand="1" />
         <mapping_span lrg_start="94412" lrg_end="94572" other_start="3003" other_end="3163" strand="1" />
         <mapping_span lrg_start="98188" lrg_end="98545" other_start="3164" other_end="3521" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_000534.5" other_name="NM_000534.5" other_id="NM_000534.5" other_start="1" other_end="3156" type="transcript">
+        <mapping_span lrg_start="5366" lrg_end="5509" other_start="1" other_end="144" strand="1" />
+        <mapping_span lrg_start="12706" lrg_end="12857" other_start="145" other_end="296" strand="1" />
+        <mapping_span lrg_start="16685" lrg_end="16867" other_start="297" other_end="479" strand="1" />
+        <mapping_span lrg_start="26568" lrg_end="26670" other_start="480" other_end="582" strand="1" />
+        <mapping_span lrg_start="38933" lrg_end="39096" other_start="583" other_end="746" strand="1" />
+        <mapping_span lrg_start="64880" lrg_end="64996" other_start="747" other_end="863" strand="1" />
+        <mapping_span lrg_start="73571" lrg_end="73693" other_start="864" other_end="986" strand="1" />
+        <mapping_span lrg_start="74855" lrg_end="74998" other_start="987" other_end="1130" strand="1" />
+        <mapping_span lrg_start="75155" lrg_end="76044" other_start="1131" other_end="2020" strand="1" />
+        <mapping_span lrg_start="84659" lrg_end="85144" other_start="2021" other_end="2506" strand="1" />
+        <mapping_span lrg_start="88715" lrg_end="88845" other_start="2507" other_end="2637" strand="1" />
+        <mapping_span lrg_start="94412" lrg_end="94572" other_start="2638" other_end="2798" strand="1" />
+        <mapping_span lrg_start="98188" lrg_end="98545" other_start="2799" other_end="3156" strand="1" />
       </mapping>
       <mapping coord_system="NM_001128143.2" other_name="NM_001128143.2" other_id="NM_001128143.2" other_start="1" other_end="3039" type="transcript">
         <mapping_span lrg_start="5366" lrg_end="5509" other_start="1" other_end="144" strand="1" />
@@ -606,6 +621,7 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_000525.1" fixed_id="p1">
               <coordinates coord_system="LRG_221" start="12726" end="98352" strand="1" />
+              <long_name>PMS1 protein homolog 1 isoform a</long_name>
               <db_xref source="CCDS" accession="CCDS2302.1" />
               <db_xref source="GeneID" accession="5378" />
               <db_xref source="GI" accession="4505911" />
@@ -839,6 +855,58 @@
               <db_xref source="CCDS" accession="CCDS2302.1" />
               <db_xref source="GeneID" accession="5378" />
               <db_xref source="GI" accession="1005261244" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_000534.5">
+            <coordinates coord_system="LRG_221" start="5366" end="98545" strand="1" />
+            <long_name>PMS1 homolog 1, mismatch repair system component, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="5378" />
+            <db_xref source="GI" accession="1780222563" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="5366" end="5509" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="12706" end="12857" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="16685" end="16867" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="26568" end="26670" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="38933" end="39096" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="64880" end="64996" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="73571" end="73693" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="74855" end="74998" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="75155" end="76044" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="84659" end="85144" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="88715" end="88845" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="94412" end="94572" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_221" start="98188" end="98545" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000525.1">
+              <coordinates coord_system="LRG_221" start="12726" end="98352" strand="1" />
+              <long_name>PMS1 protein homolog 1 isoform a</long_name>
+              <db_xref source="CCDS" accession="CCDS2302.1" />
+              <db_xref source="GeneID" accession="5378" />
+              <db_xref source="GI" accession="4505911" />
             </protein_product>
           </transcript>
           <transcript source="RefSeq" accession="NM_001128144.2">
@@ -1177,7 +1245,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 98 (GRCh38  primary assembly)</comment>
-      <modification_date>2019-12-25</modification_date>
+      <modification_date>2019-12-30</modification_date>
       <mapping coord_system="ENST00000342075.8" other_name="ENST00000342075.8" other_id="ENST00000342075.8" other_start="1" other_end="3012" type="transcript">
         <mapping_span lrg_start="5405" lrg_end="5509" other_start="1" other_end="105" strand="1" />
         <mapping_span lrg_start="12706" lrg_end="12857" other_start="106" other_end="257" strand="1" />
@@ -2275,7 +2343,7 @@
         <name>List of locus specific databases for PMS1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/PMS1</url>
       </source>
-      <modification_date>2019-12-25</modification_date>
+      <modification_date>2019-12-30</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
