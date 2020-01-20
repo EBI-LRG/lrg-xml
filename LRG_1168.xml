@@ -108,7 +108,7 @@
           <email>km369@medschl.cam.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2020-01-15</modification_date>
+      <modification_date>2020-01-20</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -120,7 +120,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2020-01-15</modification_date>
+      <modification_date>2020-01-20</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="20" other_id="NC_000020.10" other_id_syn="CM000682.1" other_start="33514236" other_end="33548830" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="34595" other_start="33514236" other_end="33548830" strand="-1" />
       </mapping>
@@ -140,7 +140,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008848.2</comment>
-      <modification_date>2020-01-14</modification_date>
+      <modification_date>2020-01-16</modification_date>
       <mapping coord_system="NM_000178.4" other_name="NM_000178.4" other_id="NM_000178.4" other_start="1" other_end="1909" type="transcript">
         <mapping_span lrg_start="5222" lrg_end="5301" other_start="1" other_end="80" strand="1" />
         <mapping_span lrg_start="9168" lrg_end="9304" other_start="81" other_end="217" strand="1" />
@@ -463,8 +463,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 98 (GRCh38  primary assembly)</comment>
-      <modification_date>2020-01-15</modification_date>
+      <comment>Annotation is based on Ensembl release 99 (GRCh38  primary assembly)</comment>
+      <modification_date>2020-01-20</modification_date>
       <mapping coord_system="ENST00000451957.2" other_name="ENST00000451957.2" other_id="ENST00000451957.2" other_start="1" other_end="1092" type="transcript">
         <mapping_span lrg_start="9176" lrg_end="9304" other_start="1" other_end="129" strand="1" />
         <mapping_span lrg_start="14930" lrg_end="15075" other_start="130" other_end="275" strand="1" />
@@ -755,6 +755,32 @@
         <mapping_span lrg_start="32077" lrg_end="32596" other_start="1390" other_end="1909" strand="1" />
       </mapping>
       <features>
+        <gene source="Ensembl" accession="ENSG00000078814.16">
+          <symbol source="HGNC" name="MYH7B" />
+          <coordinates coord_system="LRG_1168" start="1" end="5218" strand="-1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>myosin heavy chain 7B (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="57644" />
+          <db_xref source="HGNC" accession="15906">
+            <synonym>dJ756N5.1</synonym>
+            <synonym>KIAA1512</synonym>
+            <synonym>MHC14</synonym>
+            <synonym>MYH14</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="609928" />
+          <db_xref source="Ensembl" accession="ENSG00000078814" />
+          <transcript source="Ensembl" accession="ENST00000673749.1">
+            <coordinates coord_system="LRG_1168" start="1" end="5218" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MYH7B-210 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003896643">
+              <coordinates coord_system="LRG_1168" start="5021" end="5218" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003897506">
+              <coordinates coord_system="LRG_1168" start="2816" end="2930" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
         <gene source="Ensembl" accession="ENSG00000100983.12">
           <symbol source="HGNC" name="GSS" />
           <coordinates coord_system="LRG_1168" start="5001" end="32596" strand="1" mapped_from="GRCh38" />
@@ -827,6 +853,7 @@
             <coordinates coord_system="LRG_1168" start="5222" end="32596" strand="1" mapped_from="GRCh38" />
             <long_name>GSS-228 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_000178.4" />
+            <db_xref source="MANE-select" accession="ENST00000651619" />
             <exon source="Ensembl" accession="ENSE00003843894">
               <coordinates coord_system="LRG_1168" start="5222" end="5301" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1084,7 +1111,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000643628.1">
             <coordinates coord_system="LRG_1168" start="5245" end="11599" strand="1" mapped_from="GRCh38" />
-            <long_name>GSS-210 (lncRNA)</long_name>
+            <long_name>GSS-210 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003818680">
               <coordinates coord_system="LRG_1168" start="5245" end="5301" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1298,7 +1325,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000646502.1">
             <coordinates coord_system="LRG_1168" start="5619" end="27432" strand="1" mapped_from="GRCh38" />
-            <long_name>GSS-224 (lncRNA)</long_name>
+            <long_name>GSS-224 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003827868">
               <coordinates coord_system="LRG_1168" start="5619" end="5815" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1510,7 +1537,7 @@
           </transcript>
           <transcript source="Ensembl" accession="ENST00000646497.1">
             <coordinates coord_system="LRG_1168" start="14326" end="29015" strand="1" mapped_from="GRCh38" />
-            <long_name>GSS-223 (lncRNA)</long_name>
+            <long_name>GSS-223 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003827212">
               <coordinates coord_system="LRG_1168" start="14326" end="14401" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1699,7 +1726,7 @@
           <transcript source="Ensembl" accession="ENST00000476922.5">
             <coordinates coord_system="LRG_1168" start="33066" end="34595" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>ACSS2-210 (lncRNA)</long_name>
+            <long_name>ACSS2-210 (processed_transcript)</long_name>
             <exon source="Ensembl" accession="ENSE00003487917">
               <coordinates coord_system="LRG_1168" start="34077" end="34151" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1757,7 +1784,7 @@
         <name>List of locus specific databases for GSS</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GSS</url>
       </source>
-      <modification_date>2020-01-15</modification_date>
+      <modification_date>2020-01-20</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
