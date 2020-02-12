@@ -93,7 +93,7 @@
           <email>ctan@bcgsc.ca</email>
         </contact>
       </source>
-      <modification_date>2020-02-05</modification_date>
+      <modification_date>2020-02-12</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -105,7 +105,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2020-02-05</modification_date>
+      <modification_date>2020-02-12</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_id_syn="CM000679.1" other_start="56427861" other_end="56499943" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="72083" other_start="56427861" other_end="56499943" strand="-1" />
       </mapping>
@@ -125,7 +125,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_042894.1</comment>
-      <modification_date>2020-02-04</modification_date>
+      <modification_date>2020-02-11</modification_date>
       <mapping coord_system="NM_001305544.2" other_name="NM_001305544.2" other_id="NM_001305544.2" other_start="1" other_end="5495" type="transcript">
         <mapping_span lrg_start="5049" lrg_end="5566" other_start="1" other_end="518" strand="1" />
         <mapping_span lrg_start="6824" lrg_end="7257" other_start="519" other_end="952" strand="1" />
@@ -160,6 +160,18 @@
         <mapping_span lrg_start="62332" lrg_end="62434" other_start="1801" other_end="1903" strand="1" />
         <mapping_span lrg_start="63760" lrg_end="65115" other_start="1904" other_end="3259" strand="1" />
         <mapping_span lrg_start="67597" lrg_end="70083" other_start="3260" other_end="5746" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_017763.6" other_name="NM_017763.6" other_id="NM_017763.6" other_start="1" other_end="4522" type="transcript">
+        <mapping_span lrg_start="5049" lrg_end="5566" other_start="1" other_end="518" strand="1" />
+        <mapping_span lrg_start="6621" lrg_end="7257" other_start="519" other_end="1155" strand="1" />
+        <mapping_span lrg_start="51550" lrg_end="51672" other_start="1156" other_end="1278" strand="1" />
+        <mapping_span lrg_start="58983" lrg_end="59057" other_start="1279" other_end="1353" strand="1" />
+        <mapping_span lrg_start="59177" lrg_end="59308" other_start="1354" other_end="1485" strand="1" />
+        <mapping_span lrg_start="59935" lrg_end="60039" other_start="1486" other_end="1590" strand="1" />
+        <mapping_span lrg_start="61639" lrg_end="61800" other_start="1591" other_end="1752" strand="1" />
+        <mapping_span lrg_start="62332" lrg_end="62434" other_start="1753" other_end="1855" strand="1" />
+        <mapping_span lrg_start="63760" lrg_end="65115" other_start="1856" other_end="3211" strand="1" />
+        <mapping_span lrg_start="67597" lrg_end="68907" other_start="3212" other_end="4522" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="124535">
@@ -244,6 +256,7 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_060233.3" fixed_id="p1">
               <coordinates coord_system="LRG_1026" start="7006" end="67640" strand="1" />
+              <long_name>E3 ubiquitin-protein ligase RNF43 isoform 1 precursor</long_name>
               <db_xref source="CCDS" accession="CCDS11607.1" />
               <db_xref source="GeneID" accession="54894" />
               <db_xref source="GI" accession="56711322" />
@@ -290,6 +303,49 @@
               <db_xref source="CCDS" accession="CCDS11607.1" />
               <db_xref source="GeneID" accession="54894" />
               <db_xref source="GI" accession="770075665" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_017763.6">
+            <coordinates coord_system="LRG_1026" start="5049" end="68907" strand="1" />
+            <long_name>ring finger protein 43, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="54894" />
+            <db_xref source="GI" accession="1805671128" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1026" start="5049" end="5566" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1026" start="6621" end="7257" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1026" start="51550" end="51672" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1026" start="58983" end="59057" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1026" start="59177" end="59308" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1026" start="59935" end="60039" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1026" start="61639" end="61800" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1026" start="62332" end="62434" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1026" start="63760" end="65115" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_1026" start="67597" end="68907" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_060233.3">
+              <coordinates coord_system="LRG_1026" start="7006" end="67640" strand="1" />
+              <long_name>E3 ubiquitin-protein ligase RNF43 isoform 1 precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS11607.1" />
+              <db_xref source="GeneID" accession="54894" />
+              <db_xref source="GI" accession="56711322" />
             </protein_product>
           </transcript>
           <transcript source="RefSeq" accession="NM_001305545.1">
@@ -533,7 +589,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 99 (GRCh38  primary assembly)</comment>
-      <modification_date>2020-02-05</modification_date>
+      <modification_date>2020-02-12</modification_date>
       <mapping coord_system="ENST00000407977.6" other_name="ENST00000407977.6" other_id="ENST00000407977.6" other_start="1" other_end="5516" type="transcript">
         <mapping_span lrg_start="5231" lrg_end="5566" other_start="1" other_end="336" strand="1" />
         <mapping_span lrg_start="6621" lrg_end="7257" other_start="337" other_end="973" strand="1" />
@@ -1202,7 +1258,7 @@
         <name>List of locus specific databases for RNF43</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RNF43</url>
       </source>
-      <modification_date>2020-02-05</modification_date>
+      <modification_date>2020-02-12</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
