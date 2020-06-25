@@ -86,7 +86,7 @@
           <email>ddunnen@humgen.nl</email>
         </contact>
       </source>
-      <modification_date>2020-05-11</modification_date>
+      <modification_date>2020-06-25</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -98,7 +98,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2020-05-11</modification_date>
+      <modification_date>2020-06-25</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_id_syn="CM000668.1" other_start="18126542" other_end="18160374" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="33833" other_start="18126542" other_end="18160374" strand="-1">
           <diff type="mismatch" lrg_start="21161" lrg_end="21161" other_start="18139214" other_end="18139214" lrg_sequence="T" other_sequence="C" />
@@ -122,7 +122,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012137.2</comment>
-      <modification_date>2020-05-07</modification_date>
+      <modification_date>2020-06-25</modification_date>
       <mapping coord_system="NM_000367.4" other_name="NM_000367.4" other_id="NM_000367.4" other_start="1" other_end="3276" type="transcript">
         <mapping_span lrg_start="4975" lrg_end="5111" other_start="1" other_end="137" strand="1" />
         <mapping_span lrg_start="10973" lrg_end="11156" other_start="138" other_end="321" strand="1" />
@@ -133,6 +133,19 @@
         <mapping_span lrg_start="26255" lrg_end="26340" other_start="676" other_end="761" strand="1" />
         <mapping_span lrg_start="27967" lrg_end="28011" other_start="762" other_end="806" strand="1" />
         <mapping_span lrg_start="29364" lrg_end="31833" other_start="807" other_end="3276" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_000367.5" other_name="NM_000367.5" other_id="NM_000367.5" other_start="1" other_end="3184" type="transcript">
+        <mapping_span lrg_start="5067" lrg_end="5111" other_start="1" other_end="45" strand="1" />
+        <mapping_span lrg_start="10973" lrg_end="11156" other_start="46" other_end="229" strand="1" />
+        <mapping_span lrg_start="12229" lrg_end="12321" other_start="230" other_end="322" strand="1" />
+        <mapping_span lrg_start="16416" lrg_end="16548" other_start="323" other_end="455" strand="1" />
+        <mapping_span lrg_start="20427" lrg_end="20479" other_start="456" other_end="508" strand="1" />
+        <mapping_span lrg_start="21107" lrg_end="21181" other_start="509" other_end="583" strand="1">
+          <diff type="mismatch" lrg_start="21161" lrg_end="21161" other_start="563" other_end="563" lrg_sequence="T" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="26255" lrg_end="26340" other_start="584" other_end="669" strand="1" />
+        <mapping_span lrg_start="27967" lrg_end="28011" other_start="670" other_end="714" strand="1" />
+        <mapping_span lrg_start="29364" lrg_end="31833" other_start="715" other_end="3184" strand="1" />
       </mapping>
       <mapping coord_system="NM_001346817.1" other_name="NM_001346817.1" other_id="NM_001346817.1" other_start="1" other_end="3655" type="transcript">
         <mapping_span lrg_start="4975" lrg_end="5111" other_start="1" other_end="137" strand="1" />
@@ -307,6 +320,7 @@
             </exon>
             <protein_product source="RefSeq" accession="NP_000358.1" fixed_id="p1">
               <coordinates coord_system="LRG_874" start="11017" end="29476" strand="1" />
+              <long_name>thiopurine S-methyltransferase isoform 1</long_name>
               <db_xref source="CCDS" accession="CCDS4543.1" />
               <db_xref source="GeneID" accession="7172" />
               <db_xref source="GI" accession="4507653" />
@@ -348,6 +362,47 @@
               <db_xref source="GI" accession="1098385849" />
             </protein_product>
           </transcript>
+          <transcript source="RefSeq" accession="NM_000367.5">
+            <coordinates coord_system="LRG_874" start="5067" end="31833" strand="1" />
+            <long_name>thiopurine S-methyltransferase, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="7172" />
+            <db_xref source="GI" accession="1843658130" />
+            <db_xref source="MANE-select" accession="NM_000367.5" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_874" start="5067" end="5111" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_874" start="10973" end="11156" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_874" start="12229" end="12321" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_874" start="16416" end="16548" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_874" start="20427" end="20479" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_874" start="21107" end="21181" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_874" start="26255" end="26340" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_874" start="27967" end="28011" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_874" start="29364" end="31833" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000358.1">
+              <coordinates coord_system="LRG_874" start="11017" end="29476" strand="1" />
+              <long_name>thiopurine S-methyltransferase isoform 1</long_name>
+              <db_xref source="CCDS" accession="CCDS4543.1" />
+              <db_xref source="GeneID" accession="7172" />
+              <db_xref source="GI" accession="4507653" />
+            </protein_product>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -362,7 +417,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 100 (GRCh38  primary assembly)</comment>
-      <modification_date>2020-05-11</modification_date>
+      <modification_date>2020-06-25</modification_date>
       <mapping coord_system="ENST00000309983.5" other_name="ENST00000309983.5" other_id="ENST00000309983.5" other_start="1" other_end="3184" type="transcript">
         <mapping_span lrg_start="5067" lrg_end="5111" other_start="1" other_end="45" strand="1" />
         <mapping_span lrg_start="10973" lrg_end="11156" other_start="46" other_end="229" strand="1" />
@@ -526,7 +581,7 @@
         <name>List of locus specific databases for TPMT</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TPMT</url>
       </source>
-      <modification_date>2020-05-11</modification_date>
+      <modification_date>2020-06-25</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
