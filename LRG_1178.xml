@@ -140,7 +140,7 @@
           <email>km369@medschl.cam.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-08-24</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -152,9 +152,12 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-08-24</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_id_syn="CM000681.1" other_start="34845497" other_end="34895318" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="49822" other_start="34845497" other_end="34895318" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p13" other_name="19" other_id="NC_000019.10" other_id_syn="CM000681.2" other_start="34354592" other_end="34404413" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="49822" other_start="34354592" other_end="34404413" strand="1" />
       </mapping>
       <mapping coord_system="GRCh38.p13" other_name="19q13.11" other_id="NT_187619.1" other_id_syn="KI270866.1" other_start="3786" other_end="42221" type="haplotype">
         <mapping_span lrg_start="1" lrg_end="38386" other_start="3786" other_end="42221" strand="1">
@@ -467,9 +470,6 @@
           <diff type="mismatch" lrg_start="38376" lrg_end="38377" other_start="42211" other_end="42212" lrg_sequence="TC" other_sequence="AT" />
         </mapping_span>
       </mapping>
-      <mapping coord_system="GRCh38.p13" other_name="19" other_id="NC_000019.10" other_id_syn="CM000681.2" other_start="34354592" other_end="34404413" type="main_assembly">
-        <mapping_span lrg_start="1" lrg_end="49822" other_start="34354592" other_end="34404413" strand="1" />
-      </mapping>
       <lrg_locus source="HGNC">GPI</lrg_locus>
     </annotation_set>
     <annotation_set type="ncbi">
@@ -483,7 +483,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012838.3</comment>
-      <modification_date>2020-07-09</modification_date>
+      <modification_date>2020-08-20</modification_date>
       <mapping coord_system="NM_000175.5" other_name="NM_000175.5" other_id="NM_000175.5" other_start="1" other_end="4125" type="transcript">
         <mapping_span lrg_start="10605" lrg_end="10797" other_start="1" other_end="193" strand="1" />
         <mapping_span lrg_start="11754" lrg_end="11844" other_start="194" other_end="284" strand="1" />
@@ -1133,24 +1133,13 @@
         </gene>
         <gene source="NCBI-Gene" accession="84306">
           <symbol source="HGNC" name="PDCD2L" />
-          <coordinates coord_system="LRG_1178" start="49807" end="49822" strand="1" />
+          <coordinates coord_system="LRG_1178" start="49808" end="49822" strand="1" />
           <partial>3-prime</partial>
           <long_name>programmed cell death 2 like</long_name>
           <db_xref source="GeneID" accession="84306" />
           <db_xref source="HGNC" accession="HGNC:28194" />
           <db_xref source="MIM" accession="615661" />
           <db_xref source="CCDS" accession="CCDS12438.1" />
-          <transcript source="RefSeq" accession="NM_001353433.1">
-            <coordinates coord_system="LRG_1178" start="49807" end="49822" strand="1" />
-            <partial>3-prime</partial>
-            <long_name>programmed cell death 2 like, transcript variant 2</long_name>
-            <db_xref source="GeneID" accession="84306" />
-            <db_xref source="GI" accession="1215209116" />
-            <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_1178" start="49807" end="49822" strand="1" />
-              <partial>3-prime</partial>
-            </exon>
-          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -1164,8 +1153,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 100 (GRCh38  primary assembly)</comment>
-      <modification_date>2020-07-13</modification_date>
+      <comment>Annotation is based on Ensembl release 101 (GRCh38  primary assembly)</comment>
+      <modification_date>2020-08-24</modification_date>
       <mapping coord_system="ENST00000356487.11" other_name="ENST00000356487.11" other_id="ENST00000356487.11" other_start="1" other_end="4125" type="transcript">
         <mapping_span lrg_start="10605" lrg_end="10797" other_start="1" other_end="193" strand="1" />
         <mapping_span lrg_start="11754" lrg_end="11844" other_start="194" other_end="284" strand="1" />
@@ -1409,21 +1398,24 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000166398.13">
-          <symbol source="HGNC" name="KIAA0355" />
-          <coordinates coord_system="LRG_1178" start="1" end="980" strand="1" mapped_from="GRCh38" />
+        <gene source="Ensembl" accession="ENSG00000166398.14">
+          <symbol source="HGNC" name="GARRE1" />
+          <coordinates coord_system="LRG_1178" start="1" end="975" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
-          <long_name>KIAA0355 (protein_coding)</long_name>
+          <long_name>granule associated Rac and RHOG effector 1 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="9710" />
-          <db_xref source="HGNC" accession="29016" />
+          <db_xref source="HGNC" accession="29016">
+            <synonym>KIAA0355</synonym>
+          </db_xref>
           <db_xref source="Ensembl" accession="ENSG00000166398" />
-          <transcript source="Ensembl" accession="ENST00000299505.7">
-            <coordinates coord_system="LRG_1178" start="1" end="980" strand="1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000299505.8">
+            <coordinates coord_system="LRG_1178" start="1" end="975" strand="1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>KIAA0355-201 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_014686.4" />
+            <long_name>GARRE1-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_014686.5" />
+            <db_xref source="MANE-select" accession="ENST00000299505" />
             <exon source="Ensembl" accession="ENSE00001184959">
-              <coordinates coord_system="LRG_1178" start="1" end="980" strand="1" mapped_from="GRCh38" />
+              <coordinates coord_system="LRG_1178" start="1" end="975" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
             </exon>
           </transcript>
@@ -1887,8 +1879,7 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000348877.3" fixed_id="p1">
               <coordinates coord_system="LRG_1178" start="10676" end="45445" strand="1" mapped_from="GRCh38" />
-              <long_name>glucose-6-phosphate isomerase isoform 5, glucose-6-phosphate isomerase isoform 4</long_name>
-              <db_xref source="RefSeq" accession="NP_001316840.1" />
+              <long_name>glucose-6-phosphate isomerase isoform 4</long_name>
               <db_xref source="RefSeq" accession="NP_001276719.1" />
               <db_xref source="RefSeq" accession="NP_001316838.1" />
               <db_xref source="RefSeq" accession="NP_001316839.1" />
@@ -2198,7 +2189,7 @@
         <name>List of locus specific databases for GPI</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/GPI</url>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-08-24</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

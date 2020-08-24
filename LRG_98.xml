@@ -71,7 +71,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-08-24</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -83,7 +83,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-08-24</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="36584563" other_end="36603312" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="18750" other_start="36584563" other_end="36603312" strand="1">
           <diff type="mismatch" lrg_start="11038" lrg_end="11038" other_start="36595600" other_end="36595600" lrg_sequence="G" other_sequence="A" />
@@ -107,7 +107,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007528.1</comment>
-      <modification_date>2020-07-09</modification_date>
+      <modification_date>2020-08-20</modification_date>
       <mapping coord_system="NM_000448.2" other_name="NM_000448.2" other_id="NM_000448.2" other_start="1" other_end="6582" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5110" other_start="1" other_end="110" strand="1" />
         <mapping_span lrg_start="10279" lrg_end="16750" other_start="111" other_end="6582" strand="1" />
@@ -219,6 +219,7 @@
             <long_name>recombination activating 1, transcript variant 1</long_name>
             <db_xref source="GeneID" accession="5896" />
             <db_xref source="GI" accession="1787412529" />
+            <db_xref source="MANE-select" accession="NM_000448.3" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_98" start="4995" end="5110" strand="1" />
             </exon>
@@ -281,12 +282,12 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 100 (GRCh38  primary assembly)</comment>
-      <modification_date>2020-07-13</modification_date>
-      <mapping coord_system="ENST00000299440.5" other_name="ENST00000299440.5" other_id="ENST00000299440.5" other_start="1" other_end="6564" type="transcript">
-        <mapping_span lrg_start="5013" lrg_end="5110" other_start="1" other_end="98" strand="1" />
-        <mapping_span lrg_start="10279" lrg_end="16744" other_start="99" other_end="6564" strand="1">
-          <diff type="mismatch" lrg_start="11038" lrg_end="11038" other_start="858" other_end="858" lrg_sequence="G" other_sequence="A" />
+      <comment>Annotation is based on Ensembl release 101 (GRCh38  primary assembly)</comment>
+      <modification_date>2020-08-24</modification_date>
+      <mapping coord_system="ENST00000299440.6" other_name="ENST00000299440.6" other_id="ENST00000299440.6" other_start="1" other_end="6588" type="transcript">
+        <mapping_span lrg_start="4995" lrg_end="5110" other_start="1" other_end="116" strand="1" />
+        <mapping_span lrg_start="10279" lrg_end="16750" other_start="117" other_end="6588" strand="1">
+          <diff type="mismatch" lrg_start="11038" lrg_end="11038" other_start="876" other_end="876" lrg_sequence="G" other_sequence="A" />
         </mapping_span>
       </mapping>
       <mapping coord_system="ENST00000534663.1" other_name="ENST00000534663.1" other_id="ENST00000534663.1" other_start="226" other_end="3425" type="transcript">
@@ -299,7 +300,7 @@
         </mapping_span>
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000166349.9">
+        <gene source="Ensembl" accession="ENSG00000166349.10">
           <symbol source="HGNC" name="RAG1" />
           <coordinates coord_system="LRG_98" start="1" end="18750" strand="1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
@@ -338,20 +339,28 @@
               <db_xref source="UniProtKB" accession="P15918" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000299440.5">
-            <coordinates coord_system="LRG_98" start="5013" end="16744" strand="1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000299440.6">
+            <coordinates coord_system="LRG_98" start="4995" end="16750" strand="1" mapped_from="GRCh38" />
             <long_name>RAG1-201 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_000448.2" />
+            <db_xref source="RefSeq" accession="NM_000448.3" />
+            <db_xref source="RefSeq" accession="NM_001377277.1" />
+            <db_xref source="RefSeq" accession="NM_001377278.1" />
+            <db_xref source="RefSeq" accession="NM_001377279.1" />
+            <db_xref source="RefSeq" accession="NM_001377280.1" />
+            <db_xref source="MANE-select" accession="ENST00000299440" />
             <exon source="Ensembl" accession="ENSE00001102354">
-              <coordinates coord_system="LRG_98" start="5013" end="5110" strand="1" mapped_from="GRCh38" />
+              <coordinates coord_system="LRG_98" start="4995" end="5110" strand="1" mapped_from="GRCh38" />
             </exon>
             <exon source="Ensembl" accession="ENSE00001327949">
-              <coordinates coord_system="LRG_98" start="10279" end="16744" strand="1" mapped_from="GRCh38" />
+              <coordinates coord_system="LRG_98" start="10279" end="16750" strand="1" mapped_from="GRCh38" />
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000299440.5">
               <coordinates coord_system="LRG_98" start="10293" end="13424" strand="1" mapped_from="GRCh38" />
-              <long_name>V(D)J recombination-activating protein 1</long_name>
-              <db_xref source="RefSeq" accession="NP_000439.1" />
+              <db_xref source="RefSeq" accession="NP_001364206.1" />
+              <db_xref source="RefSeq" accession="NP_001364207.1" />
+              <db_xref source="RefSeq" accession="NP_001364208.1" />
+              <db_xref source="RefSeq" accession="NP_001364209.1" />
+              <db_xref source="RefSeq" accession="NP_000439.2" />
               <db_xref source="UniProtKB" accession="P15918" />
               <db_xref source="CCDS" accession="CCDS7902.1" />
             </protein_product>
@@ -382,7 +391,7 @@
         <name>List of locus specific databases for RAG1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RAG1</url>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-08-24</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

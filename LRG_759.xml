@@ -167,7 +167,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-08-24</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -179,7 +179,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-08-24</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="18" other_id="NC_000018.9" other_id_syn="CM000680.1" other_start="19279918" other_end="19452918" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="173001" other_start="19279918" other_end="19452918" strand="1" />
       </mapping>
@@ -199,7 +199,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_033272.2</comment>
-      <modification_date>2020-07-09</modification_date>
+      <modification_date>2020-08-20</modification_date>
       <mapping coord_system="NM_020774.3" other_name="NM_020774.3" other_id="NM_020774.3" other_start="1" other_end="9567" type="transcript">
         <mapping_span lrg_start="41373" lrg_end="41856" other_start="1" other_end="484" strand="1" />
         <mapping_span lrg_start="65816" lrg_end="65987" other_start="485" other_end="656" strand="1" />
@@ -331,6 +331,7 @@
             <long_name>mindbomb E3 ubiquitin protein ligase 1</long_name>
             <db_xref source="GeneID" accession="57534" />
             <db_xref source="GI" accession="1826847118" />
+            <db_xref source="MANE-select" accession="NM_020774.4" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_759" start="40836" end="41856" strand="1" />
             </exon>
@@ -575,8 +576,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 100 (GRCh38  primary assembly)</comment>
-      <modification_date>2020-07-13</modification_date>
+      <comment>Annotation is based on Ensembl release 101 (GRCh38  primary assembly)</comment>
+      <modification_date>2020-08-24</modification_date>
       <mapping coord_system="ENST00000261537.6" other_name="ENST00000261537.6" other_id="ENST00000261537.6" other_start="1" other_end="9576" type="transcript">
         <mapping_span lrg_start="41364" lrg_end="41856" other_start="1" other_end="493" strand="1" />
         <mapping_span lrg_start="65816" lrg_end="65987" other_start="494" other_end="665" strand="1" />
@@ -641,7 +642,7 @@
           <symbol source="HGNC" name="ABHD3" />
           <coordinates coord_system="LRG_759" start="1" end="4824" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
-          <long_name>abhydrolase domain containing 3 (protein_coding)</long_name>
+          <long_name>abhydrolase domain containing 3, phospholipase (protein_coding)</long_name>
           <db_xref source="GeneID" accession="171586" />
           <db_xref source="HGNC" accession="18718">
             <synonym>LABH3</synonym>
@@ -984,13 +985,14 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000200750.1">
-          <symbol source="Clone_based_ensembl_gene" name="AC091038.1" />
+          <symbol source="RFAM" name="Y_RNA" />
           <coordinates coord_system="LRG_759" start="24163" end="24273" strand="1" mapped_from="GRCh38" />
-          <long_name>AC091038.1 (misc_RNA)</long_name>
+          <long_name>Y RNA [Source:RFAM;Acc:RF00019] (misc_RNA)</long_name>
+          <db_xref source="RFAM" accession="RF00019" />
           <db_xref source="Ensembl" accession="ENSG00000200750" />
           <transcript source="Ensembl" accession="ENST00000363880.1">
             <coordinates coord_system="LRG_759" start="24163" end="24273" strand="1" mapped_from="GRCh38" />
-            <long_name>AC091038.1-201 (misc_RNA)</long_name>
+            <long_name>Y_RNA.149-201 (misc_RNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001438643">
               <coordinates coord_system="LRG_759" start="24163" end="24273" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1001,6 +1003,7 @@
           <coordinates coord_system="LRG_759" start="93927" end="94203" strand="1" mapped_from="GRCh38" />
           <long_name>RNA, 7SL, cytoplasmic 233, pseudogene (misc_RNA)</long_name>
           <db_xref source="HGNC" accession="46249" />
+          <db_xref source="RFAM" accession="RF00017" />
           <db_xref source="Ensembl" accession="ENSG00000242971" />
           <transcript source="Ensembl" accession="ENST00000469988.3">
             <coordinates coord_system="LRG_759" start="93927" end="94203" strand="1" mapped_from="GRCh38" />
@@ -1011,13 +1014,14 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000199977.1">
-          <symbol source="Clone_based_ensembl_gene" name="AC103987.1" />
+          <symbol source="RFAM" name="SNORA73" />
           <coordinates coord_system="LRG_759" start="117668" end="117872" strand="1" mapped_from="GRCh38" />
-          <long_name>AC103987.1 (snoRNA)</long_name>
+          <long_name>Small nucleolar RNA SNORA73 family [Source:RFAM;Acc:RF00045] (snoRNA)</long_name>
+          <db_xref source="RFAM" accession="RF00045" />
           <db_xref source="Ensembl" accession="ENSG00000199977" />
           <transcript source="Ensembl" accession="ENST00000363107.1">
             <coordinates coord_system="LRG_759" start="117668" end="117872" strand="1" mapped_from="GRCh38" />
-            <long_name>AC103987.1-201 (snoRNA)</long_name>
+            <long_name>SNORA73.1-201 (snoRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00001437870">
               <coordinates coord_system="LRG_759" start="117668" end="117872" strand="1" mapped_from="GRCh38" />
             </exon>
@@ -1027,6 +1031,7 @@
           <symbol source="HGNC" name="MIR133A1HG" />
           <coordinates coord_system="LRG_759" start="125531" end="131583" strand="-1" mapped_from="GRCh38" />
           <long_name>MIR133A1 host gene (lncRNA)</long_name>
+          <db_xref source="GeneID" accession="102723167" />
           <db_xref source="HGNC" accession="49594">
             <synonym>MIR1-2HG</synonym>
           </db_xref>
@@ -1080,20 +1085,20 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000243303.1">
-          <symbol source="Clone_based_ensembl_gene" name="AC103987.2" />
+          <symbol source="Clone_based_ensembl_gene" name="AC103987.1" />
           <coordinates coord_system="LRG_759" start="154684" end="155031" strand="-1" mapped_from="GRCh38" />
           <long_name>ribosomal protein L34 (RPL34) pseudogene (processed_pseudogene)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000243303" />
           <transcript source="Ensembl" accession="ENST00000473394.1">
             <coordinates coord_system="LRG_759" start="154684" end="155031" strand="-1" mapped_from="GRCh38" />
-            <long_name>AC103987.2-201 (processed_pseudogene)</long_name>
+            <long_name>AC103987.1-201 (processed_pseudogene)</long_name>
             <exon source="Ensembl" accession="ENSE00001956313">
               <coordinates coord_system="LRG_759" start="154684" end="155031" strand="-1" mapped_from="GRCh38" />
             </exon>
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000264149.1">
-          <symbol source="Clone_based_ensembl_gene" name="AC103987.3" />
+          <symbol source="Clone_based_ensembl_gene" name="AC103987.2" />
           <coordinates coord_system="LRG_759" start="171490" end="173001" strand="-1" mapped_from="GRCh38" />
           <partial>5-prime</partial>
           <long_name>novel transcript (lncRNA)</long_name>
@@ -1101,7 +1106,7 @@
           <transcript source="Ensembl" accession="ENST00000583436.1">
             <coordinates coord_system="LRG_759" start="171490" end="173001" strand="-1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
-            <long_name>AC103987.3-201 (lncRNA)</long_name>
+            <long_name>AC103987.2-201 (lncRNA)</long_name>
             <exon source="Ensembl" accession="ENSE00002694628">
               <coordinates coord_system="LRG_759" start="171490" end="171769" strand="-1" mapped_from="GRCh38" />
             </exon>
@@ -1114,7 +1119,7 @@
         <name>List of locus specific databases for MIB1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MIB1</url>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-08-24</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

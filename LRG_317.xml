@@ -105,7 +105,7 @@
           <email>P.Taschner@lumc.nl</email>
         </contact>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-08-24</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -117,7 +117,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-08-24</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="1" other_id="NC_000001.10" other_id_syn="CM000663.1" other_start="161279166" other_end="161336541" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="57376" other_start="161279166" other_end="161336541" strand="1" />
       </mapping>
@@ -137,7 +137,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012767.1</comment>
-      <modification_date>2020-07-09</modification_date>
+      <modification_date>2020-08-20</modification_date>
       <mapping coord_system="NM_003001.3" other_name="NM_003001.3" other_id="NM_003001.3" other_start="1" other_end="2858" type="transcript">
         <mapping_span lrg_start="5001" lrg_end="5050" other_start="1" other_end="50" strand="1" />
         <mapping_span lrg_start="14239" lrg_end="14295" other_start="51" other_end="107" strand="1" />
@@ -352,8 +352,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 100 (GRCh38  primary assembly)</comment>
-      <modification_date>2020-07-13</modification_date>
+      <comment>Annotation is based on Ensembl release 101 (GRCh38  primary assembly)</comment>
+      <modification_date>2020-08-24</modification_date>
       <mapping coord_system="ENST00000342751.8" other_name="ENST00000342751.8" other_id="ENST00000342751.8" other_start="1" other_end="1127" type="transcript">
         <mapping_span lrg_start="5006" lrg_end="5050" other_start="1" other_end="45" strand="1" />
         <mapping_span lrg_start="14239" lrg_end="14295" other_start="46" other_end="102" strand="1" />
@@ -411,9 +411,9 @@
         <mapping_span lrg_start="19021" lrg_end="19120" other_start="552" other_end="651" strand="1" />
       </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000158887.18">
+        <gene source="Ensembl" accession="ENSG00000158887.19">
           <symbol source="HGNC" name="MPZ" />
-          <coordinates coord_system="LRG_317" start="1" end="597" strand="-1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_317" start="1" end="593" strand="-1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>myelin protein zero (protein_coding)</long_name>
           <db_xref source="GeneID" accession="4359" />
@@ -453,6 +453,8 @@
             <protein_product source="Ensembl" accession="ENSP00000432943.1">
               <coordinates coord_system="LRG_317" start="1" end="530" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
+              <long_name>myelin protein P0 isoform MPZ precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_000521.2" />
               <db_xref source="UniProtKB" accession="P25189" />
               <db_xref source="CCDS" accession="CCDS1229.2" />
             </protein_product>
@@ -461,7 +463,6 @@
             <coordinates coord_system="LRG_317" start="1" end="593" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>MPZ-208 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_000530.8" />
             <db_xref source="RefSeq" accession="NM_001315491.2" />
             <exon source="Ensembl" accession="ENSE00001313871">
               <coordinates coord_system="LRG_317" start="464" end="593" strand="-1" mapped_from="GRCh38" />
@@ -469,22 +470,28 @@
             <protein_product source="Ensembl" accession="ENSP00000500814.2">
               <coordinates coord_system="LRG_317" start="1" end="530" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <long_name>myelin protein P0 isoform L-MPZ precursor, myelin protein P0 isoform MPZ precursor</long_name>
+              <long_name>myelin protein P0 isoform L-MPZ precursor</long_name>
               <db_xref source="RefSeq" accession="NP_001302420.1" />
-              <db_xref source="RefSeq" accession="NP_000521.2" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000672287.1">
-            <coordinates coord_system="LRG_317" start="1" end="597" strand="-1" mapped_from="GRCh38" />
+          <transcript source="Ensembl" accession="ENST00000674861.1">
+            <coordinates coord_system="LRG_317" start="1" end="593" strand="-1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>MPZ-207 (protein_coding)</long_name>
+            <long_name>MPZ-209 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00003895234">
-              <coordinates coord_system="LRG_317" start="464" end="597" strand="-1" mapped_from="GRCh38" />
+              <coordinates coord_system="LRG_317" start="464" end="593" strand="-1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000499818.1">
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000526189.3">
+            <coordinates coord_system="LRG_317" start="1" end="593" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MPZ-205 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001313871">
+              <coordinates coord_system="LRG_317" start="464" end="593" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000488104.2">
               <coordinates coord_system="LRG_317" start="1" end="530" strand="-1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
-              <db_xref source="CCDS" accession="CCDS1229.2" />
             </protein_product>
           </transcript>
         </gene>
@@ -501,12 +508,51 @@
           </db_xref>
           <db_xref source="MIM" accession="602413" />
           <db_xref source="Ensembl" accession="ENSG00000143252" />
+          <transcript source="Ensembl" accession="ENST00000515731.1">
+            <coordinates coord_system="LRG_317" start="5006" end="19120" strand="1" mapped_from="GRCh38" />
+            <long_name>SDHC-209 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002027379">
+              <coordinates coord_system="LRG_317" start="5006" end="5499" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003691317">
+              <coordinates coord_system="LRG_317" start="14239" end="14295" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002080053">
+              <coordinates coord_system="LRG_317" start="19021" end="19120" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000342751.8">
+            <coordinates coord_system="LRG_317" start="5006" end="53814" strand="1" mapped_from="GRCh38" />
+            <long_name>SDHC-201 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001035511.2" />
+            <exon source="Ensembl" accession="ENSE00003901936">
+              <coordinates coord_system="LRG_317" start="5006" end="5050" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003505683">
+              <coordinates coord_system="LRG_317" start="14239" end="14295" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003545898">
+              <coordinates coord_system="LRG_317" start="19021" end="19122" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003689529">
+              <coordinates coord_system="LRG_317" start="31219" end="31280" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001759160">
+              <coordinates coord_system="LRG_317" start="52954" end="53814" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000356952.3">
+              <coordinates coord_system="LRG_317" start="5031" end="53165" strand="1" mapped_from="GRCh38" />
+              <db_xref source="RefSeq" accession="NP_001030588.1" />
+              <db_xref source="UniProtKB" accession="Q99643" />
+              <db_xref source="CCDS" accession="CCDS41431.1" />
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000367975.7" fixed_id="t1">
             <coordinates coord_system="LRG_317" start="5006" end="53831" strand="1" mapped_from="GRCh38" />
             <long_name>SDHC-202 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_003001.5" />
             <db_xref source="MANE-select" accession="ENST00000367975" />
-            <exon source="Ensembl" accession="ENSE00001843316">
+            <exon source="Ensembl" accession="ENSE00003901936">
               <coordinates coord_system="LRG_317" start="5006" end="5050" strand="1" mapped_from="GRCh38" />
             </exon>
             <exon source="Ensembl" accession="ENSE00003505683">
@@ -529,45 +575,6 @@
               <db_xref source="RefSeq" accession="NP_002992.1" />
               <db_xref source="UniProtKB" accession="Q99643" />
               <db_xref source="CCDS" accession="CCDS1230.1" />
-            </protein_product>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000515731.1">
-            <coordinates coord_system="LRG_317" start="5006" end="19120" strand="1" mapped_from="GRCh38" />
-            <long_name>SDHC-209 (processed_transcript)</long_name>
-            <exon source="Ensembl" accession="ENSE00002027379">
-              <coordinates coord_system="LRG_317" start="5006" end="5499" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003691317">
-              <coordinates coord_system="LRG_317" start="14239" end="14295" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00002080053">
-              <coordinates coord_system="LRG_317" start="19021" end="19120" strand="1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
-          <transcript source="Ensembl" accession="ENST00000342751.8">
-            <coordinates coord_system="LRG_317" start="5006" end="53814" strand="1" mapped_from="GRCh38" />
-            <long_name>SDHC-201 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001035511.2" />
-            <exon source="Ensembl" accession="ENSE00001265370">
-              <coordinates coord_system="LRG_317" start="5006" end="5050" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003505683">
-              <coordinates coord_system="LRG_317" start="14239" end="14295" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003545898">
-              <coordinates coord_system="LRG_317" start="19021" end="19122" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003689529">
-              <coordinates coord_system="LRG_317" start="31219" end="31280" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001759160">
-              <coordinates coord_system="LRG_317" start="52954" end="53814" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000356952.3">
-              <coordinates coord_system="LRG_317" start="5031" end="53165" strand="1" mapped_from="GRCh38" />
-              <db_xref source="RefSeq" accession="NP_001030588.1" />
-              <db_xref source="UniProtKB" accession="Q99643" />
-              <db_xref source="CCDS" accession="CCDS41431.1" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000432287.6">
@@ -744,7 +751,7 @@
         <name>List of locus specific databases for SDHC</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SDHC</url>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-08-24</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
