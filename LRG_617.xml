@@ -407,7 +407,7 @@
           <email>sichan@bcgsc.ca</email>
         </contact>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-09-14</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -419,7 +419,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-09-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="64530076" other_end="64551316" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="21241" other_start="64530076" other_end="64551316" strand="-1" />
       </mapping>
@@ -439,7 +439,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_021399.1</comment>
-      <modification_date>2020-07-09</modification_date>
+      <modification_date>2020-09-10</modification_date>
       <mapping coord_system="NM_001178030.1" other_name="NM_001178030.1" other_id="NM_001178030.1" other_start="1" other_end="2946" type="transcript">
         <mapping_span lrg_start="5379" lrg_end="5858" other_start="1" other_end="480" strand="1" />
         <mapping_span lrg_start="7219" lrg_end="7347" other_start="481" other_end="609" strand="1" />
@@ -1545,8 +1545,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 100 (GRCh38  primary assembly)</comment>
-      <modification_date>2020-07-13</modification_date>
+      <comment>Annotation is based on Ensembl release 101 (GRCh38  primary assembly)</comment>
+      <modification_date>2020-09-14</modification_date>
       <mapping coord_system="ENST00000227503.13" other_name="ENST00000227503.13" other_id="ENST00000227503.13" other_start="1" other_end="2850" type="transcript">
         <mapping_span lrg_start="5098" lrg_end="5483" other_start="1" other_end="386" strand="1" />
         <mapping_span lrg_start="7219" lrg_end="7347" other_start="387" other_end="515" strand="1" />
@@ -1813,16 +1813,6 @@
               <db_xref source="CCDS" accession="CCDS8080.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000463343.1">
-            <coordinates coord_system="LRG_617" start="5082" end="7799" strand="1" mapped_from="GRCh38" />
-            <long_name>SF1-212 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00001831457">
-              <coordinates coord_system="LRG_617" start="5082" end="5483" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00001871584">
-              <coordinates coord_system="LRG_617" start="7219" end="7799" strand="1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000626028.1">
             <coordinates coord_system="LRG_617" start="5082" end="13811" strand="1" mapped_from="GRCh38" />
             <long_name>SF1-220 (protein_coding)</long_name>
@@ -1841,6 +1831,16 @@
             <protein_product source="Ensembl" accession="ENSP00000486693.1">
               <coordinates coord_system="LRG_617" start="5453" end="13811" strand="1" mapped_from="GRCh38" />
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000463343.1">
+            <coordinates coord_system="LRG_617" start="5082" end="7799" strand="1" mapped_from="GRCh38" />
+            <long_name>SF1-212 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001831457">
+              <coordinates coord_system="LRG_617" start="5082" end="5483" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001871584">
+              <coordinates coord_system="LRG_617" start="7219" end="7799" strand="1" mapped_from="GRCh38" />
+            </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000227503.13">
             <coordinates coord_system="LRG_617" start="5098" end="19239" strand="1" mapped_from="GRCh38" />
@@ -1895,49 +1895,6 @@
               <db_xref source="CCDS" accession="CCDS8081.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000448404.5">
-            <coordinates coord_system="LRG_617" start="5098" end="19239" strand="1" mapped_from="GRCh38" />
-            <long_name>SF1-211 (nonsense_mediated_decay)</long_name>
-            <exon source="Ensembl" accession="ENSE00001473788">
-              <coordinates coord_system="LRG_617" start="5098" end="5483" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003527811">
-              <coordinates coord_system="LRG_617" start="7219" end="7347" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003464672">
-              <coordinates coord_system="LRG_617" start="13437" end="13589" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003609934">
-              <coordinates coord_system="LRG_617" start="13792" end="13881" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003585885">
-              <coordinates coord_system="LRG_617" start="14236" end="14419" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003603231">
-              <coordinates coord_system="LRG_617" start="14507" end="14622" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003541200">
-              <coordinates coord_system="LRG_617" start="14716" end="14823" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003514585">
-              <coordinates coord_system="LRG_617" start="15559" end="15739" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003554871">
-              <coordinates coord_system="LRG_617" start="16001" end="16278" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003565625">
-              <coordinates coord_system="LRG_617" start="16594" end="16653" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003666059">
-              <coordinates coord_system="LRG_617" start="16766" end="16945" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003468741">
-              <coordinates coord_system="LRG_617" start="18327" end="19239" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000407962.1">
-              <coordinates coord_system="LRG_617" start="5453" end="13811" strand="1" mapped_from="GRCh38" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000377394.7" fixed_id="t4">
             <coordinates coord_system="LRG_617" start="5098" end="19239" strand="1" mapped_from="GRCh38" />
             <long_name>SF1-205 (protein_coding)</long_name>
@@ -1985,12 +1942,55 @@
             </exon>
             <protein_product source="Ensembl" accession="ENSP00000366611.3" fixed_id="p4">
               <coordinates coord_system="LRG_617" start="5453" end="18456" strand="1" mapped_from="GRCh38" />
-              <long_name>splicing factor 1 isoform 8, splicing factor 1 isoform 10</long_name>
-              <db_xref source="RefSeq" accession="NP_001333339.1" />
+              <long_name>splicing factor 1 isoform 10, splicing factor 1 isoform 8</long_name>
               <db_xref source="RefSeq" accession="NP_001333293.1" />
+              <db_xref source="RefSeq" accession="NP_001333339.1" />
               <db_xref source="RefSeq" accession="NP_973726.2" />
               <db_xref source="UniProtKB" accession="Q15637" />
               <db_xref source="CCDS" accession="CCDS44642.2" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000448404.5">
+            <coordinates coord_system="LRG_617" start="5098" end="19239" strand="1" mapped_from="GRCh38" />
+            <long_name>SF1-211 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001473788">
+              <coordinates coord_system="LRG_617" start="5098" end="5483" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003527811">
+              <coordinates coord_system="LRG_617" start="7219" end="7347" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003464672">
+              <coordinates coord_system="LRG_617" start="13437" end="13589" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003609934">
+              <coordinates coord_system="LRG_617" start="13792" end="13881" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003585885">
+              <coordinates coord_system="LRG_617" start="14236" end="14419" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003603231">
+              <coordinates coord_system="LRG_617" start="14507" end="14622" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003541200">
+              <coordinates coord_system="LRG_617" start="14716" end="14823" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003514585">
+              <coordinates coord_system="LRG_617" start="15559" end="15739" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003554871">
+              <coordinates coord_system="LRG_617" start="16001" end="16278" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003565625">
+              <coordinates coord_system="LRG_617" start="16594" end="16653" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003666059">
+              <coordinates coord_system="LRG_617" start="16766" end="16945" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003468741">
+              <coordinates coord_system="LRG_617" start="18327" end="19239" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000407962.1">
+              <coordinates coord_system="LRG_617" start="5453" end="13811" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000377390.7">
@@ -2361,7 +2361,7 @@
         <name>List of locus specific databases for SF1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SF1</url>
       </source>
-      <modification_date>2020-07-13</modification_date>
+      <modification_date>2020-09-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

@@ -172,7 +172,7 @@
           <email>Mauno.Vihinen@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2020-08-24</modification_date>
+      <modification_date>2020-09-14</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -184,7 +184,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2020-08-24</modification_date>
+      <modification_date>2020-09-14</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="67801483" other_end="67820366" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="18884" other_start="67801483" other_end="67820366" strand="1">
           <diff type="mismatch" lrg_start="13497" lrg_end="13497" other_start="67814979" other_end="67814979" lrg_sequence="C" other_sequence="G" />
@@ -208,7 +208,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_007878.1</comment>
-      <modification_date>2020-08-20</modification_date>
+      <modification_date>2020-09-10</modification_date>
       <mapping coord_system="NM_001351059.2" other_name="NM_001351059.2" other_id="NM_001351059.2" other_start="1" other_end="3023" type="transcript">
         <mapping_span lrg_start="5010" lrg_end="5104" other_start="1" other_end="95" strand="1" />
         <mapping_span lrg_start="7253" lrg_end="7373" other_start="96" other_end="216" strand="1" />
@@ -278,13 +278,15 @@
         <mapping_span lrg_start="16472" lrg_end="16649" other_start="2336" other_end="2513" strand="1" />
         <mapping_span lrg_start="16726" lrg_end="16880" other_start="2514" other_end="2668" strand="1" />
       </mapping>
-      <mapping coord_system="NM_006053.3" other_name="NM_006053.3" other_id="NM_006053.3" other_start="1" other_end="2461" type="transcript">
+      <mapping coord_system="NM_006053.4" other_name="NM_006053.4" other_id="NM_006053.4" other_start="1" other_end="2457" type="transcript">
         <mapping_span lrg_start="8965" lrg_end="9482" other_start="1" other_end="518" strand="1" />
         <mapping_span lrg_start="9556" lrg_end="9638" other_start="519" other_end="601" strand="1" />
         <mapping_span lrg_start="9799" lrg_end="9892" other_start="602" other_end="695" strand="1" />
         <mapping_span lrg_start="10117" lrg_end="10329" other_start="696" other_end="908" strand="1" />
         <mapping_span lrg_start="10943" lrg_end="11087" other_start="909" other_end="1053" strand="1" />
-        <mapping_span lrg_start="13418" lrg_end="13557" other_start="1054" other_end="1193" strand="1" />
+        <mapping_span lrg_start="13418" lrg_end="13557" other_start="1054" other_end="1193" strand="1">
+          <diff type="mismatch" lrg_start="13497" lrg_end="13497" other_start="1133" other_end="1133" lrg_sequence="C" other_sequence="G" />
+        </mapping_span>
         <mapping_span lrg_start="13632" lrg_end="13789" other_start="1194" other_end="1351" strand="1" />
         <mapping_span lrg_start="13867" lrg_end="13957" other_start="1352" other_end="1442" strand="1" />
         <mapping_span lrg_start="14864" lrg_end="14982" other_start="1443" other_end="1561" strand="1" />
@@ -293,7 +295,7 @@
         <mapping_span lrg_start="15947" lrg_end="16051" other_start="1902" other_end="2006" strand="1" />
         <mapping_span lrg_start="16122" lrg_end="16239" other_start="2007" other_end="2124" strand="1" />
         <mapping_span lrg_start="16472" lrg_end="16649" other_start="2125" other_end="2302" strand="1" />
-        <mapping_span lrg_start="16726" lrg_end="16884" other_start="2303" other_end="2461" strand="1" />
+        <mapping_span lrg_start="16726" lrg_end="16880" other_start="2303" other_end="2457" strand="1" />
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="4728">
@@ -570,11 +572,11 @@
               <db_xref source="GI" accession="19924145" />
             </protein_product>
           </transcript>
-          <transcript source="RefSeq" accession="NM_006053.3">
-            <coordinates coord_system="LRG_115" start="8965" end="16884" strand="1" />
+          <transcript source="RefSeq" accession="NM_006053.4">
+            <coordinates coord_system="LRG_115" start="8965" end="16880" strand="1" />
             <long_name>T cell immune regulator 1, ATPase H+ transporting V0 subunit a3, transcript variant 2</long_name>
             <db_xref source="GeneID" accession="10312" />
-            <db_xref source="GI" accession="314122261" />
+            <db_xref source="GI" accession="1890264041" />
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_115" start="8965" end="9482" strand="1" />
             </exon>
@@ -618,7 +620,7 @@
               <coordinates coord_system="LRG_115" start="16472" end="16649" strand="1" />
             </exon>
             <exon source="RefSeq" accession="">
-              <coordinates coord_system="LRG_115" start="16726" end="16884" strand="1" />
+              <coordinates coord_system="LRG_115" start="16726" end="16880" strand="1" />
             </exon>
             <protein_product source="RefSeq" accession="NP_006044.1">
               <coordinates coord_system="LRG_115" start="9574" end="16804" strand="1" />
@@ -688,7 +690,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 101 (GRCh38  primary assembly)</comment>
-      <modification_date>2020-08-24</modification_date>
+      <modification_date>2020-09-14</modification_date>
       <mapping coord_system="ENST00000265686.8" other_name="ENST00000265686.8" other_id="ENST00000265686.8" other_start="1" other_end="2668" type="transcript">
         <mapping_span lrg_start="5010" lrg_end="5104" other_start="1" other_end="95" strand="1" />
         <mapping_span lrg_start="7253" lrg_end="7373" other_start="96" other_end="216" strand="1" />
@@ -1542,7 +1544,7 @@
         <name>List of locus specific databases for TCIRG1</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TCIRG1</url>
       </source>
-      <modification_date>2020-08-24</modification_date>
+      <modification_date>2020-09-14</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
