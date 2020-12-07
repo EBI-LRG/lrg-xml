@@ -111,7 +111,7 @@
           <email>sujatha@rcai.riken.jp</email>
         </contact>
       </source>
-      <modification_date>2020-09-14</modification_date>
+      <modification_date>2020-12-07</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -123,7 +123,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2020-09-14</modification_date>
+      <modification_date>2020-12-07</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_id_syn="CM000679.1" other_start="26871725" other_end="26884646" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="12922" other_start="26871725" other_end="26884646" strand="-1" />
       </mapping>
@@ -143,7 +143,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_012302.1</comment>
-      <modification_date>2020-09-10</modification_date>
+      <modification_date>2020-12-01</modification_date>
       <mapping coord_system="NM_001330166.2" other_name="NM_001330166.2" other_id="NM_001330166.2" other_start="1" other_end="1407" type="transcript">
         <mapping_span lrg_start="5005" lrg_end="5291" other_start="1" other_end="287" strand="1" />
         <mapping_span lrg_start="5537" lrg_end="5564" other_start="288" other_end="315" strand="1" />
@@ -354,8 +354,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 101 (GRCh38  primary assembly)</comment>
-      <modification_date>2020-09-14</modification_date>
+      <comment>Annotation is based on Ensembl release 102 (GRCh38  primary assembly)</comment>
+      <modification_date>2020-12-07</modification_date>
       <mapping coord_system="ENST00000301032.8" other_name="ENST00000301032.8" other_id="ENST00000301032.8" other_start="1" other_end="1653" type="transcript">
         <mapping_span lrg_start="4998" lrg_end="5291" other_start="1" other_end="294" strand="1" />
         <mapping_span lrg_start="8924" lrg_end="9037" other_start="295" other_end="408" strand="1" />
@@ -440,28 +440,6 @@
               <coordinates coord_system="LRG_341" start="3134" end="4246" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000395346.6">
-            <coordinates coord_system="LRG_341" start="1" end="4242" strand="1" mapped_from="GRCh38" />
-            <partial>5-prime</partial>
-            <long_name>PIGS-203 (protein_coding)</long_name>
-            <exon source="Ensembl" accession="ENSE00003657808">
-              <coordinates coord_system="LRG_341" start="657" end="802" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003600846">
-              <coordinates coord_system="LRG_341" start="1363" end="1463" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003623061">
-              <coordinates coord_system="LRG_341" start="2568" end="2778" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003540786">
-              <coordinates coord_system="LRG_341" start="3134" end="4242" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <protein_product source="Ensembl" accession="ENSP00000378755.2">
-              <coordinates coord_system="LRG_341" start="1" end="3409" strand="1" mapped_from="GRCh38" />
-              <partial>5-prime</partial>
-              <db_xref source="UniProtKB" accession="Q96S52" />
-            </protein_product>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000308360.8">
             <coordinates coord_system="LRG_341" start="1" end="4242" strand="1" mapped_from="GRCh38" />
             <partial>5-prime</partial>
@@ -484,8 +462,30 @@
               <coordinates coord_system="LRG_341" start="1" end="3409" strand="1" mapped_from="GRCh38" />
               <partial>5-prime</partial>
               <db_xref source="RefSeq" accession="NP_149975.1" />
-              <db_xref source="UniProtKB" accession="Q96S52" />
+              <db_xref source="UniProtKB" accession="Q96S52.143" />
               <db_xref source="CCDS" accession="CCDS11235.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000395346.6">
+            <coordinates coord_system="LRG_341" start="1" end="4242" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>PIGS-203 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003657808">
+              <coordinates coord_system="LRG_341" start="657" end="802" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003600846">
+              <coordinates coord_system="LRG_341" start="1363" end="1463" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003623061">
+              <coordinates coord_system="LRG_341" start="2568" end="2778" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003540786">
+              <coordinates coord_system="LRG_341" start="3134" end="4242" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000378755.2">
+              <coordinates coord_system="LRG_341" start="1" end="3409" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <db_xref source="UniProtKB" accession="Q96S52.143" />
             </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000484580.6">
@@ -559,7 +559,7 @@
             <protein_product source="Ensembl" accession="ENSP00000301032.4" fixed_id="p2">
               <coordinates coord_system="LRG_341" start="5072" end="10005" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_473376.1" />
-              <db_xref source="UniProtKB" accession="Q13432" />
+              <db_xref source="UniProtKB" accession="Q13432.162" />
               <db_xref source="CCDS" accession="CCDS11234.1" />
             </protein_product>
           </transcript>
@@ -596,7 +596,7 @@
             <protein_product source="Ensembl" accession="ENSP00000337040.3" fixed_id="p1">
               <coordinates coord_system="LRG_341" start="5072" end="10332" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_005139.1" />
-              <db_xref source="UniProtKB" accession="Q13432" />
+              <db_xref source="UniProtKB" accession="Q13432.162" />
               <db_xref source="CCDS" accession="CCDS11233.1" />
             </protein_product>
           </transcript>
@@ -691,7 +691,7 @@
         <name>List of locus specific databases for UNC119</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/UNC119</url>
       </source>
-      <modification_date>2020-09-14</modification_date>
+      <modification_date>2020-12-07</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
