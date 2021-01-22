@@ -27,7 +27,7 @@
         <coordinates coord_system="LRG_407" start="15562" end="15618" strand="1" />
         <coordinates coord_system="LRG_407t1" start="1" end="57" />
       </exon>
-      <exon label="2">
+      <exon label="2a">
         <coordinates coord_system="LRG_407" start="16801" end="17199" strand="1" />
         <coordinates coord_system="LRG_407t1" start="58" end="456" />
         <coordinates coord_system="LRG_407p1" start="1" end="67" />
@@ -43,6 +43,35 @@
         <coordinates coord_system="LRG_407" start="19756" end="20159" strand="1" />
         <coordinates coord_system="LRG_407t1" start="580" end="983" />
         <coordinates coord_system="LRG_407p1" start="109" end="175" />
+      </exon>
+    </transcript>
+    <transcript name="t2">
+      <coordinates coord_system="LRG_407" start="16953" end="20159" strand="1" />
+      <cdna>
+        <sequence>GAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGAGAAGGACAGGTTCTCTGTCAACCTGGATGTGAAGCACTTCTCCCCAGAGGAACTCAAAGTTAAGGTGTTGGGAGATGTGATTGAGGTGCATGGAAAACATGAAGAGCGCCAGGATGAACATGGTTTCATCTCCAGGGAGTTCCACAGGAAATACCGGATCCCAGCTGATGTAGACCCTCTCACCATTACTTCATCCCTGTCATCTGATGGGGTCCTCACTGTGAATGGACCAAGGAAACAGGTCTCTGGCCCTGAGCGCACCATTCCCATCACCCGTGAAGAGAAGCCTGCTGTCACCGCAGCCCCCAAGAAATAGATGCCCTTTCTTGAATTGCATTTTTTAAAACAAGAAAGTTTCCCCACCAGTGAATGAAAGTCTTGTGACTAGTGCTGAAGCTTATTAATGCTAAGGGCAGGCCCAAATTATCAAGCTAATAAAATATCATTCAGCAACAGATAACTGTCTTGTGTTTGAATATTCCACACACTTTTAAATAAATATACAGATACCACAGA</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_407" start="16999" end="19959" strand="1" />
+        <translation name="p2">
+          <sequence>MDIAIHHPWIRRPFFPFHSPSRLFDQFFGEHLLESDLFPTSTSLSPFYLRPPSFLRAPSWFDTGLSEMRLEKDRFSVNLDVKHFSPEELKVKVLGDVIEVHGKHEERQDEHGFISREFHRKYRIPADVDPLTITSSLSSDGVLTVNGPRKQVSGPERTIPITREEKPAVTAAPKK</sequence>
+        </translation>
+      </coding_region>
+      <exon label="2b">
+        <coordinates coord_system="LRG_407" start="16953" end="17199" strand="1" />
+        <coordinates coord_system="LRG_407t2" start="1" end="247" />
+        <coordinates coord_system="LRG_407p2" start="1" end="67" />
+      </exon>
+      <intron phase="0" />
+      <exon label="3">
+        <coordinates coord_system="LRG_407" start="18274" end="18396" strand="1" />
+        <coordinates coord_system="LRG_407t2" start="248" end="370" />
+        <coordinates coord_system="LRG_407p2" start="68" end="108" />
+      </exon>
+      <intron phase="0" />
+      <exon label="4">
+        <coordinates coord_system="LRG_407" start="19756" end="20159" strand="1" />
+        <coordinates coord_system="LRG_407t2" start="371" end="774" />
+        <coordinates coord_system="LRG_407p2" start="109" end="175" />
       </exon>
     </transcript>
   </fixed_annotation>
@@ -65,7 +94,7 @@
           <email>ddunnen@humgen.nl</email>
         </contact>
       </source>
-      <modification_date>2021-01-18</modification_date>
+      <modification_date>2021-01-22</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -77,7 +106,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2021-01-18</modification_date>
+      <modification_date>2021-01-22</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="11q23.1" other_id="NW_003871080.1" other_id_syn="JH159142.2" other_start="158617" other_end="180713" type="fix_patch">
         <mapping_span lrg_start="1" lrg_end="22097" other_start="158617" other_end="180713" strand="-1">
           <diff type="mismatch" lrg_start="15474" lrg_end="15474" other_start="165240" other_end="165240" lrg_sequence="A" other_sequence="T" />
@@ -104,7 +133,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_009824.3</comment>
-      <modification_date>2021-01-14</modification_date>
+      <modification_date>2021-01-21</modification_date>
       <mapping coord_system="NM_001289807.1" other_name="NM_001289807.1" other_id="NM_001289807.1" other_start="1" other_end="945" type="transcript">
         <mapping_span lrg_start="15510" lrg_end="15584" other_start="1" other_end="75" strand="1" />
         <mapping_span lrg_start="16801" lrg_end="17199" other_start="76" other_end="474" strand="1" />
@@ -365,7 +394,7 @@
               <db_xref source="GI" accession="4503057" />
             </protein_product>
           </transcript>
-          <transcript source="RefSeq" accession="NM_001289808.2">
+          <transcript source="RefSeq" accession="NM_001289808.2" fixed_id="t2">
             <coordinates coord_system="LRG_407" start="16953" end="20159" strand="1" />
             <long_name>crystallin alpha B, transcript variant 3</long_name>
             <db_xref source="GeneID" accession="1410" />
@@ -380,9 +409,8 @@
             <exon source="RefSeq" accession="">
               <coordinates coord_system="LRG_407" start="19756" end="20159" strand="1" />
             </exon>
-            <protein_product source="RefSeq" accession="NP_001276737.1">
+            <protein_product source="RefSeq" accession="NP_001276737.1" fixed_id="p2">
               <coordinates coord_system="LRG_407" start="16999" end="19959" strand="1" />
-              <long_name>alpha-crystallin B chain isoform 1</long_name>
               <db_xref source="CCDS" accession="CCDS8351.1" />
               <db_xref source="GeneID" accession="1410" />
               <db_xref source="GI" accession="577019573" />
@@ -442,7 +470,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 102 (GRCh38  primary assembly)</comment>
-      <modification_date>2021-01-18</modification_date>
+      <modification_date>2021-01-22</modification_date>
       <mapping coord_system="ENST00000227251.7" other_name="ENST00000227251.7" other_id="ENST00000227251.7" other_start="1" other_end="848" type="transcript">
         <mapping_span lrg_start="16713" lrg_end="16804" other_start="1" other_end="92" strand="1" />
         <mapping_span lrg_start="16906" lrg_end="17199" other_start="93" other_end="386" strand="1" />
@@ -1009,7 +1037,7 @@
               <db_xref source="CCDS" accession="CCDS8351.1" />
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000650687.2">
+          <transcript source="Ensembl" accession="ENST00000650687.2" fixed_id="t2">
             <coordinates coord_system="LRG_407" start="16953" end="20159" strand="1" mapped_from="GRCh38" />
             <long_name>CRYAB-217 (protein_coding)</long_name>
             <db_xref source="RefSeq" accession="NM_001289808.2" />
@@ -1023,7 +1051,7 @@
             <exon source="Ensembl" accession="ENSE00003892258">
               <coordinates coord_system="LRG_407" start="19756" end="20159" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000499082.1">
+            <protein_product source="Ensembl" accession="ENSP00000499082.1" fixed_id="p2">
               <coordinates coord_system="LRG_407" start="16999" end="19959" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_001276737.1" />
               <db_xref source="UniProtKB" accession="P02511.231" />
@@ -1163,7 +1191,7 @@
         <name>List of locus specific databases for CRYAB</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CRYAB</url>
       </source>
-      <modification_date>2021-01-18</modification_date>
+      <modification_date>2021-01-22</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
