@@ -144,7 +144,7 @@
           <email>auerbac@mail.rockefeller.edu</email>
         </contact>
       </source>
-      <modification_date>2021-02-19</modification_date>
+      <modification_date>2021-02-22</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -156,7 +156,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2021-02-19</modification_date>
+      <modification_date>2021-02-22</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_id_syn="CM000671.1" other_start="35071835" other_end="35085013" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="13179" other_start="35071835" other_end="35085013" strand="-1" />
       </mapping>
@@ -380,8 +380,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 102 (GRCh38  primary assembly)</comment>
-      <modification_date>2021-02-19</modification_date>
+      <comment>Annotation is based on Ensembl release 103 (GRCh38  primary assembly)</comment>
+      <modification_date>2021-02-22</modification_date>
       <mapping coord_system="ENST00000378643.8" other_name="ENST00000378643.8" other_id="ENST00000378643.8" other_start="1" other_end="2556" type="transcript">
         <mapping_span lrg_start="5075" lrg_end="5576" other_start="1" other_end="502" strand="1" />
         <mapping_span lrg_start="5776" lrg_end="5866" other_start="503" other_end="593" strand="1" />
@@ -504,7 +504,7 @@
             <protein_product source="Ensembl" accession="ENSP00000367910.4" fixed_id="p1">
               <coordinates coord_system="LRG_499" start="5493" end="10909" strand="1" mapped_from="GRCh38" />
               <db_xref source="RefSeq" accession="NP_004620.1" />
-              <db_xref source="UniProtKB" accession="O15287.195" />
+              <db_xref source="UniProtKB" accession="O15287.197" />
               <db_xref source="CCDS" accession="CCDS6574.1" />
             </protein_product>
           </transcript>
@@ -633,9 +633,27 @@
             </exon>
           </transcript>
         </gene>
-        <gene source="Ensembl" accession="ENSG00000165280.17">
+        <gene source="Ensembl" accession="ENSG00000288699.1">
+          <symbol source="Clone_based_ensembl_gene" name="AL353795.4" />
+          <coordinates coord_system="LRG_499" start="10842" end="13179" strand="1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>novel protein (protein_coding)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000288699" />
+          <transcript source="Ensembl" accession="ENST00000681845.1">
+            <coordinates coord_system="LRG_499" start="10842" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>AL353795.4-201 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003905340">
+              <coordinates coord_system="LRG_499" start="10842" end="11024" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000505452.1" codon_start="2">
+              <coordinates coord_system="LRG_499" start="10842" end="10909" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000165280.18">
           <symbol source="HGNC" name="VCP" />
-          <coordinates coord_system="LRG_499" start="5091" end="13179" strand="1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_499" start="12349" end="13179" strand="1" mapped_from="GRCh38" />
           <partial>3-prime</partial>
           <long_name>valosin containing protein (protein_coding)</long_name>
           <db_xref source="GeneID" accession="7415" />
@@ -647,60 +665,50 @@
           </db_xref>
           <db_xref source="MIM" accession="601023" />
           <db_xref source="Ensembl" accession="ENSG00000165280" />
-          <transcript source="Ensembl" accession="ENST00000676836.1">
-            <coordinates coord_system="LRG_499" start="5091" end="13179" strand="1" mapped_from="GRCh38" />
-            <partial>3-prime</partial>
-            <long_name>VCP-208 (retained_intron)</long_name>
-            <exon source="Ensembl" accession="ENSE00003909835">
-              <coordinates coord_system="LRG_499" start="5091" end="5576" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003907547">
-              <coordinates coord_system="LRG_499" start="5776" end="5866" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003904790">
-              <coordinates coord_system="LRG_499" start="6281" end="6412" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003905403">
-              <coordinates coord_system="LRG_499" start="6674" end="6876" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003905241">
-              <coordinates coord_system="LRG_499" start="7618" end="7753" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003904727">
-              <coordinates coord_system="LRG_499" start="7916" end="8046" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003909648">
-              <coordinates coord_system="LRG_499" start="8147" end="8293" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003905575">
-              <coordinates coord_system="LRG_499" start="8434" end="8585" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003904367">
-              <coordinates coord_system="LRG_499" start="8989" end="9055" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003909734">
-              <coordinates coord_system="LRG_499" start="9263" end="9552" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003909353">
-              <coordinates coord_system="LRG_499" start="9692" end="9738" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003905361">
-              <coordinates coord_system="LRG_499" start="9935" end="10090" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003905340">
-              <coordinates coord_system="LRG_499" start="10801" end="11024" strand="1" mapped_from="GRCh38" />
-            </exon>
-            <exon source="Ensembl" accession="ENSE00003905264">
-              <coordinates coord_system="LRG_499" start="12047" end="12680" strand="1" mapped_from="GRCh38" />
-            </exon>
-          </transcript>
           <transcript source="Ensembl" accession="ENST00000448530.6">
             <coordinates coord_system="LRG_499" start="12349" end="13179" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>VCP-203 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001354927.1" />
+            <db_xref source="RefSeq" accession="NM_001354927.2" />
+            <db_xref source="RefSeq" accession="NM_001354928.2" />
             <exon source="Ensembl" accession="ENSE00001365122">
               <coordinates coord_system="LRG_499" start="12349" end="12740" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000679647.1">
+            <coordinates coord_system="LRG_499" start="12372" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-217 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003913529">
+              <coordinates coord_system="LRG_499" start="12372" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000506216.1">
+              <coordinates coord_system="LRG_499" start="12664" end="13179" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000679392.1">
+            <coordinates coord_system="LRG_499" start="12382" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-214 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003914495">
+              <coordinates coord_system="LRG_499" start="12382" end="12540" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000680575.1">
+            <coordinates coord_system="LRG_499" start="12382" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-225 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003913521">
+              <coordinates coord_system="LRG_499" start="12382" end="12779" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000680108.1">
+            <coordinates coord_system="LRG_499" start="12382" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-223 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003910467">
+              <coordinates coord_system="LRG_499" start="12382" end="12684" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000678465.1">
@@ -728,9 +736,105 @@
               <coordinates coord_system="LRG_499" start="12664" end="13179" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
               <db_xref source="RefSeq" accession="NP_009057.1" />
-              <db_xref source="UniProtKB" accession="P55072.220" />
+              <db_xref source="UniProtKB" accession="P55072.222" />
               <db_xref source="CCDS" accession="CCDS6573.1" />
             </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000681335.1">
+            <coordinates coord_system="LRG_499" start="12392" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-231 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001885505">
+              <coordinates coord_system="LRG_499" start="12392" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000505230.1">
+              <coordinates coord_system="LRG_499" start="12664" end="13179" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000680916.1">
+            <coordinates coord_system="LRG_499" start="12392" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-229 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001885505">
+              <coordinates coord_system="LRG_499" start="12392" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000505769.1">
+              <coordinates coord_system="LRG_499" start="12664" end="13179" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000681690.1">
+            <coordinates coord_system="LRG_499" start="12392" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-235 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003915303">
+              <coordinates coord_system="LRG_499" start="12392" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000480327.2">
+            <coordinates coord_system="LRG_499" start="12392" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-206 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003915303">
+              <coordinates coord_system="LRG_499" start="12392" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000680079.1">
+            <coordinates coord_system="LRG_499" start="12392" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-222 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001885505">
+              <coordinates coord_system="LRG_499" start="12392" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000506523.1">
+              <coordinates coord_system="LRG_499" start="12664" end="13179" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000681386.1">
+            <coordinates coord_system="LRG_499" start="12392" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-232 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003915303">
+              <coordinates coord_system="LRG_499" start="12392" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000679902.1">
+            <coordinates coord_system="LRG_499" start="12394" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-221 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003913452">
+              <coordinates coord_system="LRG_499" start="12394" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000506338.1">
+              <coordinates coord_system="LRG_499" start="12664" end="13179" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000679599.1">
+            <coordinates coord_system="LRG_499" start="12394" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-216 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003914508">
+              <coordinates coord_system="LRG_499" start="12394" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000676836.2">
+            <coordinates coord_system="LRG_499" start="12401" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-208 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003905264">
+              <coordinates coord_system="LRG_499" start="12401" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000679862.1">
+            <coordinates coord_system="LRG_499" start="12406" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-219 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003914132">
+              <coordinates coord_system="LRG_499" start="12406" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000677257.1">
             <coordinates coord_system="LRG_499" start="12416" end="13179" strand="1" mapped_from="GRCh38" />
@@ -744,17 +848,13 @@
               <partial>3-prime</partial>
             </protein_product>
           </transcript>
-          <transcript source="Ensembl" accession="ENST00000679204.1">
+          <transcript source="Ensembl" accession="ENST00000679800.1">
             <coordinates coord_system="LRG_499" start="12426" end="13179" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
-            <long_name>VCP-213 (nonsense_mediated_decay)</long_name>
+            <long_name>VCP-218 (retained_intron)</long_name>
             <exon source="Ensembl" accession="ENSE00003909521">
               <coordinates coord_system="LRG_499" start="12426" end="12680" strand="1" mapped_from="GRCh38" />
             </exon>
-            <protein_product source="Ensembl" accession="ENSP00000503131.1">
-              <coordinates coord_system="LRG_499" start="12664" end="13179" strand="1" mapped_from="GRCh38" />
-              <partial>3-prime</partial>
-            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000678018.1">
             <coordinates coord_system="LRG_499" start="12449" end="13179" strand="1" mapped_from="GRCh38" />
@@ -776,6 +876,14 @@
               <coordinates coord_system="LRG_499" start="12456" end="12680" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000679901.1">
+            <coordinates coord_system="LRG_499" start="12456" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-220 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003908634">
+              <coordinates coord_system="LRG_499" start="12456" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000493886.5">
             <coordinates coord_system="LRG_499" start="12468" end="13179" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
@@ -784,11 +892,22 @@
               <coordinates coord_system="LRG_499" start="12468" end="12680" strand="1" mapped_from="GRCh38" />
             </exon>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000679204.2">
+            <coordinates coord_system="LRG_499" start="12575" end="13179" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>VCP-213 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003913999">
+              <coordinates coord_system="LRG_499" start="12575" end="12680" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000503131.2">
+              <coordinates coord_system="LRG_499" start="12664" end="13179" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
           <transcript source="Ensembl" accession="ENST00000417448.2">
             <coordinates coord_system="LRG_499" start="12812" end="13179" strand="1" mapped_from="GRCh38" />
             <partial>3-prime</partial>
             <long_name>VCP-202 (protein_coding)</long_name>
-            <db_xref source="RefSeq" accession="NM_001354928.1" />
             <exon source="Ensembl" accession="ENSE00001606087">
               <coordinates coord_system="LRG_499" start="12812" end="13179" strand="1" mapped_from="GRCh38" />
               <partial>3-prime</partial>
@@ -802,7 +921,7 @@
         <name>List of locus specific databases for FANCG</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FANCG</url>
       </source>
-      <modification_date>2021-02-19</modification_date>
+      <modification_date>2021-02-22</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>

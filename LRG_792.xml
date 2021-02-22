@@ -76,7 +76,7 @@
           <email>jill.storry@med.lu.se</email>
         </contact>
       </source>
-      <modification_date>2021-02-19</modification_date>
+      <modification_date>2021-02-22</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -88,7 +88,7 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2021-02-19</modification_date>
+      <modification_date>2021-02-22</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="9q34.2" other_id="NW_003315925.1" other_id_syn="GL339450.1" other_start="64165" other_end="106308" type="fix_patch">
         <mapping_span lrg_start="1" lrg_end="42144" other_start="64165" other_end="106308" strand="-1">
           <diff type="mismatch" lrg_start="23952" lrg_end="23952" other_start="82357" other_end="82357" lrg_sequence="C" other_sequence="T" />
@@ -464,8 +464,8 @@
           <email>helpdesk@ensembl.org</email>
         </contact>
       </source>
-      <comment>Annotation is based on Ensembl release 102 (GRCh38  primary assembly)</comment>
-      <modification_date>2021-02-19</modification_date>
+      <comment>Annotation is based on Ensembl release 103 (GRCh38  primary assembly)</comment>
+      <modification_date>2021-02-22</modification_date>
       <mapping coord_system="ENST00000453660.4" other_name="ENST00000453660.4" other_id="ENST00000453660.4" other_start="1" other_end="6359" type="transcript">
         <mapping_span lrg_start="4996" lrg_end="5053" other_start="1" other_end="58" strand="1" />
         <mapping_span lrg_start="18047" lrg_end="18116" other_start="59" other_end="128" strand="1" />
@@ -536,17 +536,27 @@
         <mapping_span lrg_start="22083" lrg_end="22173" other_start="239" other_end="329" strand="1" />
         <mapping_span lrg_start="23860" lrg_end="24110" other_start="330" other_end="580" strand="1" />
       </mapping>
+      <mapping coord_system="ENST00000679909.1" other_name="ENST00000679909.1" other_id="ENST00000679909.1" other_start="1" other_end="58" type="transcript">
+        <mapping_span lrg_start="4996" lrg_end="5053" other_start="1" other_end="58" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000680600.1" other_name="ENST00000680600.1" other_id="ENST00000680600.1" other_start="1" other_end="1416" type="transcript">
+        <mapping_span lrg_start="27753" lrg_end="27872" other_start="1" other_end="120" strand="1" />
+        <mapping_span lrg_start="29200" lrg_end="30495" other_start="121" other_end="1416" strand="1">
+          <diff type="mismatch" lrg_start="29240" lrg_end="29241" other_start="161" other_end="162" lrg_sequence="GT" other_sequence="TC" />
+          <diff type="mismatch" lrg_start="29244" lrg_end="29244" other_start="165" other_end="165" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="29610" lrg_end="29610" other_start="531" other_end="531" lrg_sequence="G" other_sequence="T" />
+          <diff type="mismatch" lrg_start="29745" lrg_end="29745" other_start="666" other_end="666" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="30023" lrg_end="30023" other_start="944" other_end="944" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="30410" lrg_end="30410" other_start="1331" other_end="1331" lrg_sequence="A" other_sequence="T" />
+        </mapping_span>
+      </mapping>
       <features>
-        <gene source="Ensembl" accession="ENSG00000175164.15">
+        <gene source="Ensembl" accession="ENSG00000175164.16">
           <symbol source="HGNC" name="ABO" />
-          <coordinates coord_system="LRG_792" start="4191" end="29951" strand="1" mapped_from="GRCh38" />
+          <coordinates coord_system="LRG_792" start="4191" end="42144" strand="1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
           <long_name>ABO, alpha 1-3-N-acetylgalactosaminyltransferase and alpha 1-3-galactosyltransferase (protein_coding)</long_name>
-          <db_xref source="GeneID" accession="28">
-            <synonym>A3GALNT</synonym>
-            <synonym>A3GALT1</synonym>
-            <synonym>GTB</synonym>
-            <synonym>NAGAT</synonym>
-          </db_xref>
+          <db_xref source="GeneID" accession="28" />
           <db_xref source="HGNC" accession="79">
             <synonym>A3GALNT</synonym>
             <synonym>A3GALT1</synonym>
@@ -574,6 +584,18 @@
             <exon source="Ensembl" accession="ENSE00003848889">
               <coordinates coord_system="LRG_792" start="23860" end="24110" strand="1" mapped_from="GRCh38" />
             </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000679909.1">
+            <coordinates coord_system="LRG_792" start="4996" end="42144" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ABO-206 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003915007">
+              <coordinates coord_system="LRG_792" start="4996" end="5053" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000506089.1">
+              <coordinates coord_system="LRG_792" start="5026" end="42144" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
           </transcript>
           <transcript source="Ensembl" accession="ENST00000453660.4">
             <coordinates coord_system="LRG_792" start="4996" end="29951" strand="1" mapped_from="GRCh38" />
@@ -678,6 +700,16 @@
               <coordinates coord_system="LRG_792" start="5026" end="24614" strand="1" mapped_from="GRCh38" />
             </protein_product>
           </transcript>
+          <transcript source="Ensembl" accession="ENST00000680600.1">
+            <coordinates coord_system="LRG_792" start="27753" end="30495" strand="1" mapped_from="GRCh38" />
+            <long_name>ABO-207 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003914870">
+              <coordinates coord_system="LRG_792" start="27753" end="27872" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003912126">
+              <coordinates coord_system="LRG_792" start="29200" end="30495" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
         </gene>
       </features>
     </annotation_set>
@@ -685,7 +717,7 @@
       <source>
         <name>Community</name>
       </source>
-      <modification_date>2021-02-19</modification_date>
+      <modification_date>2021-02-22</modification_date>
       <note name="LRG curators">Polymorphisms in LRG_792, ABO give rise to antigenic variants of the ABO blood group system (ISBT 001).  The sequences in this LRG record represent the ABO*A1.01 allele (haplotype) (1).
 --------.
 There are known issues with the ABO gene in the reference genome assemblies (GRCh37 and GRCh38) (2).
@@ -720,7 +752,7 @@ http://genomeref.blogspot.co.uk/2015/01/grch38-patching-abo-gene.html
         <name>List of locus specific databases for ABO</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/ABO</url>
       </source>
-      <modification_date>2021-02-19</modification_date>
+      <modification_date>2021-02-22</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
