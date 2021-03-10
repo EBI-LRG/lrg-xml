@@ -1223,7 +1223,7 @@
           <email>j.ware@imperial.ac.uk</email>
         </contact>
       </source>
-      <modification_date>2021-03-08</modification_date>
+      <modification_date>2021-03-10</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -1235,9 +1235,16 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2021-03-08</modification_date>
+      <modification_date>2021-03-10</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="12" other_id="NC_000012.11" other_id_syn="CM000674.1" other_start="2074952" other_end="2809115" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="734164" other_start="2074952" other_end="2809115" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p13" other_name="12" other_id="NC_000012.12" other_id_syn="CM000674.2" other_start="1965786" other_end="2699949" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="734164" other_start="1965786" other_end="2699949" strand="1">
+          <diff type="mismatch" lrg_start="180398" lrg_end="180398" other_start="2146183" other_end="2146183" lrg_sequence="A" other_sequence="C" />
+          <diff type="mismatch" lrg_start="249774" lrg_end="249774" other_start="2215559" other_end="2215559" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="716254" lrg_end="716254" other_start="2682039" other_end="2682039" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
       </mapping>
       <mapping coord_system="GRCh38.p13" other_name="12p13.33" other_id="NW_018654718.1" other_id_syn="KZ208916.1" other_start="307930" other_end="1046838" type="fix_patch">
         <mapping_span lrg_start="1" lrg_end="732937" other_start="307930" other_end="1046838" strand="1">
@@ -1254,13 +1261,6 @@
           <diff type="mismatch" lrg_start="716254" lrg_end="716254" other_start="1030155" other_end="1030155" lrg_sequence="A" other_sequence="G" />
         </mapping_span>
       </mapping>
-      <mapping coord_system="GRCh38.p13" other_name="12" other_id="NC_000012.12" other_id_syn="CM000674.2" other_start="1965786" other_end="2699949" type="main_assembly">
-        <mapping_span lrg_start="1" lrg_end="734164" other_start="1965786" other_end="2699949" strand="1">
-          <diff type="mismatch" lrg_start="180398" lrg_end="180398" other_start="2146183" other_end="2146183" lrg_sequence="A" other_sequence="C" />
-          <diff type="mismatch" lrg_start="249774" lrg_end="249774" other_start="2215559" other_end="2215559" lrg_sequence="T" other_sequence="C" />
-          <diff type="mismatch" lrg_start="716254" lrg_end="716254" other_start="2682039" other_end="2682039" lrg_sequence="A" other_sequence="G" />
-        </mapping_span>
-      </mapping>
       <lrg_locus source="HGNC">CACNA1C</lrg_locus>
     </annotation_set>
     <annotation_set type="ncbi">
@@ -1274,7 +1274,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_008801.2</comment>
-      <modification_date>2021-03-04</modification_date>
+      <modification_date>2021-03-09</modification_date>
       <mapping coord_system="NM_000719.6" other_name="NM_000719.6" other_id="NM_000719.6" other_start="1" other_end="13480" type="transcript">
         <mapping_span lrg_start="87465" lrg_end="87826" other_start="1" other_end="362" strand="1" />
         <mapping_span lrg_start="149439" lrg_end="149760" other_start="363" other_end="684" strand="1" />
@@ -2614,7 +2614,7 @@
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="196513">
-          <symbol source="HGNC" name="DCP1B">
+          <symbol name="DCP1B" source="HGNC">
             <synonym>DCP1</synonym>
           </symbol>
           <coordinates coord_system="LRG_334" start="1" end="38672" strand="-1" />
@@ -2699,7 +2699,7 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="100874369">
-          <symbol source="HGNC" name="CACNA1C-IT2" />
+          <symbol name="CACNA1C-IT2" source="HGNC" />
           <coordinates coord_system="LRG_334" start="82567" end="83678" strand="1" />
           <long_name>CACNA1C intronic transcript 2</long_name>
           <db_xref source="GeneID" accession="100874369" />
@@ -6958,7 +6958,7 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="100874370">
-          <symbol name="CACNA1C-IT3" source="HGNC" />
+          <symbol source="HGNC" name="CACNA1C-IT3" />
           <coordinates coord_system="LRG_334" start="303991" end="322960" strand="1" />
           <long_name>CACNA1C intronic transcript 3</long_name>
           <db_xref source="GeneID" accession="100874370" />
@@ -6980,7 +6980,7 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="100271135">
-          <symbol name="RPS6P18" source="HGNC">
+          <symbol source="HGNC" name="RPS6P18">
             <synonym>RPS6_8_1191</synonym>
           </symbol>
           <coordinates coord_system="LRG_334" start="694111" end="694761" strand="1" />
@@ -6989,7 +6989,7 @@
           <db_xref source="HGNC" accession="HGNC:36496" />
         </gene>
         <gene source="NCBI-Gene" accession="100874235">
-          <symbol source="HGNC" name="CACNA1C-AS2" />
+          <symbol name="CACNA1C-AS2" source="HGNC" />
           <coordinates coord_system="LRG_334" start="702715" end="706435" strand="-1" />
           <long_name>CACNA1C antisense RNA 2</long_name>
           <db_xref source="GeneID" accession="100874235" />
@@ -7045,7 +7045,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 103 (GRCh38  primary assembly)</comment>
-      <modification_date>2021-03-08</modification_date>
+      <modification_date>2021-03-10</modification_date>
       <mapping coord_system="ENST00000327702.12" other_name="ENST00000327702.12" other_id="ENST00000327702.12" other_start="1" other_end="13849" type="transcript">
         <mapping_span lrg_start="87202" lrg_end="87826" other_start="1" other_end="625" strand="1" />
         <mapping_span lrg_start="149439" lrg_end="149760" other_start="626" other_end="947" strand="1" />
@@ -12189,7 +12189,7 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000278255.1">
-          <symbol name="AC005344.1" source="Clone_based_ensembl_gene" />
+          <symbol source="Clone_based_ensembl_gene" name="AC005344.1" />
           <coordinates coord_system="LRG_334" start="251677" end="252135" strand="-1" mapped_from="GRCh38" />
           <long_name>novel transcript, antisense to CACNA1C (lncRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000278255" />
@@ -12261,7 +12261,7 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000285555.1">
-          <symbol name="AC005293.1" source="Clone_based_ensembl_gene" />
+          <symbol source="Clone_based_ensembl_gene" name="AC005293.1" />
           <coordinates coord_system="LRG_334" start="367076" end="369917" strand="-1" mapped_from="GRCh38" />
           <long_name>novel transcript, antisense to CACNA1C (lncRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000285555" />
@@ -12280,7 +12280,7 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000285734.1">
-          <symbol source="Clone_based_ensembl_gene" name="AC005414.1" />
+          <symbol name="AC005414.1" source="Clone_based_ensembl_gene" />
           <coordinates coord_system="LRG_334" start="474404" end="491607" strand="-1" mapped_from="GRCh38" />
           <long_name>novel transcript, antisense to CACNA1C (lncRNA)</long_name>
           <db_xref source="Ensembl" accession="ENSG00000285734" />
@@ -12351,7 +12351,7 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000246627.6">
-          <symbol name="CACNA1C-AS1" source="HGNC" />
+          <symbol source="HGNC" name="CACNA1C-AS1" />
           <coordinates coord_system="LRG_334" start="710216" end="725415" strand="-1" mapped_from="GRCh38" />
           <long_name>CACNA1C antisense RNA 1 (lncRNA)</long_name>
           <db_xref source="GeneID" accession="100652846" />
@@ -12422,7 +12422,7 @@
         <name>List of locus specific databases for CACNA1C</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CACNA1C</url>
       </source>
-      <modification_date>2021-03-08</modification_date>
+      <modification_date>2021-03-10</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
