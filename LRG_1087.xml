@@ -39,7 +39,7 @@
           <email>oxford.dnalab@nhs.net</email>
         </contact>
       </source>
-      <modification_date>2021-03-19</modification_date>
+      <modification_date>2021-03-22</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -51,9 +51,12 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2021-03-19</modification_date>
+      <modification_date>2021-03-22</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="10" other_id="NC_000010.10" other_id_syn="CM000672.1" other_start="89616918" other_end="89628194" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="11277" other_start="89616918" other_end="89628194" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p13" other_name="10" other_id="NC_000010.11" other_id_syn="CM000672.2" other_start="87857161" other_end="87868437" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="11277" other_start="87857161" other_end="87868437" strand="-1" />
       </mapping>
       <mapping coord_system="GRCh38.p13" other_name="10q23.31" other_id="NW_013171807.1" other_id_syn="KQ090021.1" other_start="72983" other_end="84260" type="fix_patch">
         <mapping_span lrg_start="1" lrg_end="11277" other_start="72983" other_end="84260" strand="-1">
@@ -63,9 +66,6 @@
           <diff type="mismatch" lrg_start="9765" lrg_end="9765" other_start="74496" other_end="74496" lrg_sequence="A" other_sequence="C" />
           <diff type="other_ins" lrg_start="9801" lrg_end="9802" other_start="74459" other_end="74459" lrg_sequence="-" other_sequence="T" />
         </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh38.p13" other_name="10" other_id="NC_000010.11" other_id_syn="CM000672.2" other_start="87857161" other_end="87868437" type="main_assembly">
-        <mapping_span lrg_start="1" lrg_end="11277" other_start="87857161" other_end="87868437" strand="-1" />
       </mapping>
       <lrg_locus source="HGNC">KLLN</lrg_locus>
     </annotation_set>
@@ -160,7 +160,7 @@
           </transcript>
         </gene>
         <gene source="NCBI-Gene" accession="100144748">
-          <symbol source="HGNC" name="KLLN">
+          <symbol name="KLLN" source="HGNC">
             <synonym>CWS4</synonym>
             <synonym>KILLIN</synonym>
           </symbol>
@@ -201,7 +201,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 103 (GRCh38  primary assembly)</comment>
-      <modification_date>2021-03-19</modification_date>
+      <modification_date>2021-03-22</modification_date>
       <mapping coord_system="ENST00000445946.5" other_name="ENST00000445946.5" other_id="ENST00000445946.5" other_start="1" other_end="4376" type="transcript">
         <mapping_span lrg_start="4905" lrg_end="9280" other_start="1" other_end="4376" strand="1" />
       </mapping>
@@ -268,7 +268,7 @@
           </transcript>
         </gene>
         <gene source="Ensembl" accession="ENSG00000227268.5">
-          <symbol name="KLLN" source="HGNC" />
+          <symbol source="HGNC" name="KLLN" />
           <coordinates coord_system="LRG_1087" start="4905" end="9280" strand="1" mapped_from="GRCh38" />
           <long_name>killin, p53 regulated DNA replication inhibitor (protein_coding)</long_name>
           <db_xref source="GeneID" accession="100144748" />
@@ -300,7 +300,7 @@
         <name>List of locus specific databases for KLLN</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/KLLN</url>
       </source>
-      <modification_date>2021-03-19</modification_date>
+      <modification_date>2021-03-22</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
