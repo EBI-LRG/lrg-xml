@@ -43,7 +43,7 @@
           <email>r.j.l.f.lemmers@lumc.nl</email>
         </contact>
       </source>
-      <modification_date>2021-03-24</modification_date>
+      <modification_date>2021-03-26</modification_date>
     </annotation_set>
     <annotation_set type="lrg">
       <source>
@@ -55,17 +55,11 @@
           <email>contact@lrg-sequence.org</email>
         </contact>
       </source>
-      <modification_date>2021-03-24</modification_date>
+      <modification_date>2021-03-26</modification_date>
       <mapping coord_system="GRCh37.p13" other_name="Unknown" other_id="NT_167222.1" other_id_syn="GL000228.1" other_start="110905" other_end="126171" type="other_assembly">
         <mapping_span lrg_start="1" lrg_end="15267" other_start="110905" other_end="126171" strand="1">
           <diff type="mismatch" lrg_start="3145" lrg_end="3145" other_start="114049" other_end="114049" lrg_sequence="T" other_sequence="A" />
           <diff type="mismatch" lrg_start="3161" lrg_end="3161" other_start="114065" other_end="114065" lrg_sequence="T" other_sequence="A" />
-        </mapping_span>
-      </mapping>
-      <mapping coord_system="GRCh38.p13" other_name="4q35.2" other_id="NW_015495300.1" other_id_syn="KQ983257.1" other_start="198522" other_end="213788" type="fix_patch">
-        <mapping_span lrg_start="1" lrg_end="15267" other_start="198522" other_end="213788" strand="1">
-          <diff type="mismatch" lrg_start="3145" lrg_end="3145" other_start="201666" other_end="201666" lrg_sequence="T" other_sequence="A" />
-          <diff type="mismatch" lrg_start="3161" lrg_end="3161" other_start="201682" other_end="201682" lrg_sequence="T" other_sequence="A" />
         </mapping_span>
       </mapping>
       <mapping coord_system="GRCh38.p13" other_name="4" other_id="NC_000004.12" other_id_syn="CM000666.2" other_start="190173122" other_end="190187909" type="main_assembly">
@@ -191,6 +185,12 @@
           <diff type="lrg_ins" lrg_start="15053" lrg_end="15054" other_start="190187696" other_end="190187697" lrg_sequence="AA" other_sequence="-" />
         </mapping_span>
       </mapping>
+      <mapping coord_system="GRCh38.p13" other_name="4q35.2" other_id="NW_015495300.1" other_id_syn="KQ983257.1" other_start="198522" other_end="213788" type="fix_patch">
+        <mapping_span lrg_start="1" lrg_end="15267" other_start="198522" other_end="213788" strand="1">
+          <diff type="mismatch" lrg_start="3145" lrg_end="3145" other_start="201666" other_end="201666" lrg_sequence="T" other_sequence="A" />
+          <diff type="mismatch" lrg_start="3161" lrg_end="3161" other_start="201682" other_end="201682" lrg_sequence="T" other_sequence="A" />
+        </mapping_span>
+      </mapping>
       <lrg_locus source="HGNC">DUX4</lrg_locus>
     </annotation_set>
     <annotation_set type="ncbi">
@@ -204,7 +204,7 @@
         </contact>
       </source>
       <comment>Annotation from NG_034189.3</comment>
-      <modification_date>2021-03-23</modification_date>
+      <modification_date>2021-03-25</modification_date>
       <mapping coord_system="NM_001293798.3" other_name="NM_001293798.3" other_id="NM_001293798.3" other_start="1" other_end="1574" type="transcript">
         <mapping_span lrg_start="1701" lrg_end="2983" other_start="1" other_end="1283" strand="1" />
         <mapping_span lrg_start="3120" lrg_end="3211" other_start="1284" other_end="1375" strand="1" />
@@ -234,7 +234,7 @@
       </mapping>
       <features>
         <gene source="NCBI-Gene" accession="100288687">
-          <symbol name="DUX4" source="HGNC">
+          <symbol source="HGNC" name="DUX4">
             <synonym>DUX4L</synonym>
           </symbol>
           <coordinates coord_system="LRG_1075" start="1701" end="3772" strand="1" />
@@ -351,7 +351,7 @@
         </contact>
       </source>
       <comment>Annotation is based on Ensembl release 103 (GRCh38  primary assembly)</comment>
-      <modification_date>2021-03-24</modification_date>
+      <modification_date>2021-03-26</modification_date>
       <mapping coord_system="ENST00000563716.5" other_name="ENST00000563716.5" other_id="ENST00000563716.5" other_start="1" other_end="285" type="transcript">
         <mapping_span lrg_start="3120" lrg_end="3211" other_start="1" other_end="92" strand="1" />
         <mapping_span lrg_start="12696" lrg_end="12794" other_start="93" other_end="191" strand="1" />
@@ -382,7 +382,7 @@
       </mapping>
       <features>
         <gene source="Ensembl" accession="ENSG00000260596.5">
-          <symbol source="HGNC" name="DUX4" />
+          <symbol name="DUX4" source="HGNC" />
           <coordinates coord_system="LRG_1075" start="1701" end="13298" strand="1" mapped_from="GRCh38" />
           <long_name>double homeobox 4 (protein_coding)</long_name>
           <db_xref source="GeneID" accession="100288687" />
@@ -495,7 +495,7 @@
         <name>List of locus specific databases for DUX4</name>
         <url>http://grenada.lumc.nl/LSDB_list/lsdbs/DUX4</url>
       </source>
-      <modification_date>2021-03-24</modification_date>
+      <modification_date>2021-03-26</modification_date>
     </annotation_set>
   </updatable_annotation>
 </lrg>
